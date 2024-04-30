@@ -1,0 +1,101 @@
+label avg10821:
+stop music
+
+play music "ed7513.ogg"
+scene avg_bg_070
+with fade
+c00 '[textdict[str(1184017)]]'
+c00 '[textdict[str(1184018)]]'
+c00 '[textdict[str(1184019)]]'
+c00 '[textdict[str(1184020)]]'
+c00 '[textdict[str(1184021)]]'
+c00 '[textdict[str(1184022)]]'
+scene avg_bg_202
+show memoryoverlay zorder 2
+with fade
+c14930 '[textdict[str(1184023)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184024)]]'
+show memoryoverlay zorder 2
+c15013 '[textdict[str(1184025)]]'
+show memoryoverlay zorder 2
+c15021 '[textdict[str(1184026)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184027)]]'
+show memoryoverlay zorder 2
+c15023 '[textdict[str(1184028)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184029)]]'
+show memoryoverlay zorder 2
+c15013 '[textdict[str(1184030)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184031)]]'
+show memoryoverlay zorder 2
+c15023 '[textdict[str(1184032)]]'
+show memoryoverlay zorder 2
+c15021 '[textdict[str(1184033)]]'
+scene avg_bg_070
+hide memoryoverlay
+with fade
+c00 '[textdict[str(1184034)]]'
+c00 '[textdict[str(1184035)]]'
+scene avg_bg_202
+show memoryoverlay zorder 2
+with fade
+c15013 '[textdict[str(1184036)]]'
+show memoryoverlay zorder 2
+c15021 '[textdict[str(1184037)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184038)]]'
+show memoryoverlay zorder 2
+c15013 '[textdict[str(1184039)]]'
+show memoryoverlay zorder 2
+c15021 '[textdict[str(1184040)]]'
+show memoryoverlay zorder 2
+c15021 '[textdict[str(1184041)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184042)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184043)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184044)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184045)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184046)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184047)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184048)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184049)]]'
+scene avg_bg_218
+show memoryoverlay zorder 2
+with fade
+c14931 '[textdict[str(1184050)]]'
+show memoryoverlay zorder 2
+play sfx2 "elc_5004.ogg"
+c15023 '[textdict[str(1184051)]]'
+show memoryoverlay zorder 2
+c15013 '[textdict[str(1184052)]]'
+show memoryoverlay zorder 2
+c15023 '[textdict[str(1184053)]]'
+show memoryoverlay zorder 2
+c14931 '[textdict[str(1184054)]]'
+show memoryoverlay zorder 2
+c15013 '[textdict[str(1184055)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+show memoryoverlay zorder 2
+c15023 '[textdict[str(1184056)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+show memoryoverlay zorder 2
+play sfx2 "fight_6026.ogg"
+c15011 '[textdict[str(1184057)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+scene avg_bg_070
+show memoryoverlay zorder 2
+with fade
+play sfx2 "fight_6015.ogg"
+c00 '[textdict[str(1184058)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184059)]]'
+show memoryoverlay zorder 2
+c00 '[textdict[str(1184060)]]'
+return
