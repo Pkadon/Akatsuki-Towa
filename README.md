@@ -10,13 +10,13 @@ or, you can just "Launch Project" from inside Ren'Py.
 
 
 ### DOES NOT INCLUDE ANY GAME FILES
-REQUIRES "text.json" and "avg_role.json" to be placed in the "game/json" folder in order to run or build properly.  
+REQUIRES "**text.json**" and "**avg_role.json**" to be placed in the "game/json" folder in order to run or build properly.  
   
-All Audio files in the "game/audio" folder are placeholder files to keep the program from crashing.  
+**All Audio files in the "game/audio" folder are placeholder files** to keep the program from crashing.  
 Please replace them with the actual files.  
 (Cutscenes are readable without replacing any audio filess.)  
   
-All Image files in the "game/images" folder are placeholder files to keep the program from crashing.  
+**All Image files in the "game/images" folder are placeholder files** to keep the program from crashing.  
 Pleace replace them with the actual files.  
 (Cutscenes are readable without replacing any image files.)  
   
