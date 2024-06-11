@@ -11,7 +11,7 @@ or, you can just "Launch Project" from inside Ren'Py.
 Please export required assets from the original game's Unity files using AssetStudio:  
 <https://github.com/Perfare/AssetStudio>
 
-If using AssetStudio to export assets, change the search type in the dropdown to "Regex (Name)", and paste the following regex pattern into the field to easily filter required files:
+**If using AssetStudio to export assets, change the search type in the dropdown to "Regex (Name)", and paste the following regex pattern into the field to easily filter required files:**
 
 	avg_(vocal|role|img)|bat_(arts_wt02_2|craft_wind_01|utility_(jump|landing))|bcv_(oc00(1|2|3|4_hurt_02|6_(com_01|hurt_01)|8_c0(1_01|3_02))|sc020_sc01_0(4|5))|common_|dun_obj005_01_01|ed7v|^[eE][dD]\d\d\d\d$|elc_5|fight_|mainsong|other_7|sys_utility_typewriter|^text$|(atlas_(journal|login$|loading))|(avg_(a1screen|bg))|image_001|loading00|\d\d_\d\d_avg|sc085_01_i256|startbackground
 
