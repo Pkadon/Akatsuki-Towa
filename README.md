@@ -1,10 +1,10 @@
 ### This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
 
 To build into an .exe:
- - Download Ren'Py from here: https://www.renpy.org/
- - Place this folder in your Ren'Py projects folder
- - then build it from the "Build Distributions" menu within Ren'Py.
- - or, you can just "Launch Project" from inside Ren'Py.
+ 1. Download Ren'Py from here: https://www.renpy.org/
+ 2. Place this folder in your Ren'Py projects folder
+     - then build it from the "Build Distributions" menu within Ren'Py.
+     - or, you can just "Launch Project" from inside Ren'Py.
 
 ---
 
@@ -15,14 +15,14 @@ Please export required assets from the original game's unity3D files
 I recommend using AssetStudioMod (by aelurum)  <https://github.com/aelurum/AssetStudio>
 
 **If using AssetStudioMod to export assets, you can:**
- - **Drag-and-drop the folder containing all of your .unity3D asset files**
- - **Select the "Asset List" tab at the top**
- - **Change the search type in the dropdown to "Regex (Name)"**
- - **Paste the following regex pattern into the search field to easily filter required files:**
+ 1. **Drag-and-drop the folder containing all of your .unity3D asset files**
+ 2. **Select the "Asset List" tab at the top**
+ 3. **Change the search type in the dropdown to "Regex (Name)"**
+ 4. **Paste the following regex pattern into the search field to easily filter required files:**
 
 		avg_(vocal|role|img)|bat_(arts_wt02_2|craft_wind_01|utility_(jump|landing))|bcv_(oc00(1|2|3|4_hurt_02|6_(com_01|hurt_01)|8_c0(1_01|3_02))|sc020_sc01_0(4|5))|common_|dun_obj005_01_01|ed7v|^[eE][dD]\d\d\d\d$|elc_5|fight_|mainsong|other_7|sys_utility_typewriter|^text$|(atlas_(journal|login$|loading))|(avg_(a1screen|bg))|image_001|loading00|\d\d_\d\d_avg|sc085_01_i256|startbackground
- - **Export by selecting "Export"->"Filtered assets"**
- - **Then the folders are named so that you should be able to take the folders created by AssetStudio after exporting, ("AudioClip", "MonoBehaviour", "Texture2D") and drag them into Akatsuki-Towa's "game" folder. (Replace files in the destination when prompted)**
+ 5. **Export by selecting "Export"->"Filtered assets"**
+ 6. **Then the folders are named so that you should be able to take the folders created by AssetStudio after exporting, ("AudioClip", "MonoBehaviour", "Texture2D") and drag them into Akatsuki-Towa's "game" folder. (Replace files in the destination when prompted)**
 ---
 
 REQUIRES the official "text.json" and "avg_role.json" to be placed in the "game/MonoBehaviour" folder in order to display text properly.
@@ -60,15 +60,15 @@ The .ico file in both the root folder, and "game/icon" is a placeholder file, pl
 ---
 Then run the .py scripts in the following order (or use the .bat files):
 
- - **"1_make_new_quest_json.py":** 
+ 1. **"1_make_new_quest_json.py":** 
    - uses "booktabs.json" in combination with "quest.json" to create a simpler questlog json in the "extra_json" folder called "new_quest.json" 
 
- - **"2_make_new_story_json.py":**
+ 2. **"2_make_new_story_json.py":**
    - uses "avg_replay.json" to organize and label all cutscenes accessible from the "物語回想" section of the in-game Bracer Notebook
    - then uses the newly-made "new_quest.json" to match up quests with their questlog by matching string ID's
    - outputs "new_story.json" in the "extra_json" folder
 
- - **"3_make_new_training_json.py":**
+ 3. **"3_make_new_training_json.py":**
    - uses "quest.json", "trigger.json", and "training_event.json" to find "戦闘訓練" stages that trigger cutscenes, and creates "new_training.json" in the "extra_json" folder
 
    - **NOTE for sorting Training Events:** 
@@ -129,7 +129,7 @@ Everything was done with the goal of being as accurate as possible, but nothing 
         - the second line of dialogue (oc000_01 1") shows the default "face" sprite overlayed on top of the body sprite
 
  - **Cutscene Accuracy**:
-   - tried to use all values included in the cutscene files, but it's still being converted to a renpy script, and had to be "eyeballed" until everything looked right
+   - tried to use all values included in the cutscene files, but it's still being converted to a renpy script, and was "eyeballed" until everything looked right
    - music, sound effects should all play when they are supposed to
    - backgrounds should change when they are supposed to
      - some transitions are still slightly off (background/character sprite/text box appearing/disappearing in a different order from the original game)
@@ -145,7 +145,7 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
  - Text may not fit, and either the frame or the text itself may need to be resized
    - for dialogue/character names, change the default text size in "gui.rpy"
    - for menus/buttons, the easiest way may be to edit "generate_scripts/4_make_menus.py", then re-generate the renpy menus
- - There are six strings of dialogue that appear in a certain cutscene that contain special formatting to change the text color.  This formatting is stripped from the strings by "loadinfo.rpy".  When translating those strings, either:
+ - There are six strings of dialogue that appear in a certain cutscene that contain special formatting to change the text color.  This formatting is stripped from the strings by "loadinfo.rpy".  When editing those strings, either:
    - Keep the formatting as-is, so it still will be stripped correctly
    - or remove the line that strips the formatting from "loadinfo.rpy"
  - Some strings are modified by "episodelist.rpy" to label buttons. if a string doesn't display properly:
