@@ -5,14 +5,14 @@ play music "ed7150.ogg"
 scene placeholderbackground
 with fade
 show st033_01 2 as c232portrait at centerpos(-7), zorder 5
-c2322 '[textdict[str(1001649)]]'
+c2322 '[textdict[1001649]]'
 hide c232portrait
-c5380 '[textdict[str(1001650)]]'
+c5380 '[textdict[1001650]]'
 show st033_01 3 as c232portrait at centerpos(-7), zorder 5
-c2322 '[textdict[str(1001651)]]'
+c2322 '[textdict[1001651]]'
 hide c232portrait
 show st033_01 4 as c232portrait at centerpos(-7), zorder 5
-c2322 '[textdict[str(1001652)]]'
+c2322 '[textdict[1001652]]'
 hide c232portrait
-c5380 '[textdict[str(1001653)]]'
+c5380 '[textdict[1001653]]'
 return

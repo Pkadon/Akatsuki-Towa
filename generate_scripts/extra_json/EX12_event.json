@@ -1,0 +1,1493 @@
+{
+    "12": {
+        "name": "イベント",
+        "strID": 19004,
+        "level1": {
+            "1": {
+                "name": "準遊撃士・ナハトの奮闘記",
+                "strID": 87190,
+                "sub": 5,
+                "questID": [
+                    5011,
+                    5014,
+                    5013,
+                    5012
+                ],
+                "level2": {
+                    "1": {
+                        "name": "Vol.1-エオリア編 1/2",
+                        "info": "(2017.09.15)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1091
+                    },
+                    "2": {
+                        "name": "Vol.1-エオリア編 2/2",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1092
+                    },
+                    "3": {
+                        "name": "Vol.1-ヴェンツェル編 1/2",
+                        "info": "(2017.09.15)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1093
+                    },
+                    "4": {
+                        "name": "Vol.1-ヴェンツェル編 2/2",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1094
+                    },
+                    "5": {
+                        "name": "Vol.1-スコット編 1/2",
+                        "info": "(2017.09.15)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1095
+                    },
+                    "6": {
+                        "name": "Vol.1-スコット編 2/2",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1096
+                    },
+                    "7": {
+                        "name": "Vol.1-リン編 1/2",
+                        "info": "(2017.09.15)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1097
+                    },
+                    "8": {
+                        "name": "Vol.1-リン編 2/2",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1098
+                    },
+                    "9": {
+                        "name": "Vol.2 アネラス編",
+                        "info": "(2017.12.06)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1121
+                    },
+                    "10": {
+                        "name": "Vol.3 ノエル編",
+                        "info": "(2017.12.13)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1122
+                    },
+                    "11": {
+                        "name": "Vol.4 ティータ編",
+                        "info": "(2018.01.31)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1171
+                    },
+                    "12": {
+                        "name": "Vol.5 ミレイユ編",
+                        "info": "(2018.02.07)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1172
+                    },
+                    "13": {
+                        "name": "Vol.6 ヨシュア編",
+                        "info": "(2018.03.07)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1173
+                    },
+                    "14": {
+                        "name": "Vol.7 エリィ編",
+                        "info": "(2018.08.01)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1174
+                    },
+                    "15": {
+                        "name": "Vol.8 エステル編",
+                        "info": "(2018.09.19)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1175
+                    },
+                    "16": {
+                        "name": "Vol.9 ティオ編",
+                        "info": "(2018.10.17)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1176
+                    },
+                    "17": {
+                        "name": "Vol.10 ランディ編",
+                        "info": "(2019.03.06)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1177
+                    },
+                    "18": {
+                        "name": "Vol.11 ロイド編",
+                        "info": "(2021.04.14)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1178
+                    },
+                    "19": {
+                        "name": "Vol.12 レン編",
+                        "info": "(2021.06.17)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1179
+                    },
+                    "20": {
+                        "name": "Vol.13 カシウス編",
+                        "info": "(2021.08.12)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1180
+                    },
+                    "21": {
+                        "name": "Vol.14 ユリア編",
+                        "info": "(2021.10.14)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1184
+                    },
+                    "22": {
+                        "name": "Vol.15 アガット編",
+                        "info": "(2021.12.15)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1185
+                    },
+                    "23": {
+                        "name": "Vol.16 グラッツ編",
+                        "info": "(2022.02.16)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1186
+                    },
+                    "24": {
+                        "name": "Vol.17 シェラザード編",
+                        "info": "(2022.04.13)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1187
+                    },
+                    "25": {
+                        "name": "Vol.18 クローゼ編",
+                        "info": "(2023.06.22)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1188
+                    },
+                    "26": {
+                        "name": "Vol.19 ギルバート編",
+                        "info": "(2022.08.10)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1189
+                    },
+                    "27": {
+                        "name": "Vol.20 クルツ編",
+                        "info": "(2022.10.19)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1196
+                    },
+                    "28": {
+                        "name": "Vol.21 カルナ編",
+                        "info": "(2022.12.14)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1198
+                    },
+                    "29": {
+                        "name": "Vol.22 ダドリー編",
+                        "info": "(2023.02.08)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1199
+                    },
+                    "30": {
+                        "name": "Vol.23 アリオス編",
+                        "info": "(2023.04.12)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1210
+                    },
+                    "31": {
+                        "name": "Vol.24 リシャール編",
+                        "info": "(2023.05.10)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1211
+                    },
+                    "32": {
+                        "name": "Vol.25 キール編",
+                        "info": "(2023.07.12)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1220
+                    },
+                    "33": {
+                        "name": "Vol.26 ジョゼット編",
+                        "info": "(2023.08.16)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1221
+                    },
+                    "34": {
+                        "name": "Vol.27 ドルン編",
+                        "info": "(2023.10.12)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1229
+                    },
+                    "35": {
+                        "name": "Vol.28 ミシェル編",
+                        "info": "(2023.11.08)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1230
+                    },
+                    "36": {
+                        "name": "EX.1　リース編",
+                        "info": "(2024.01.24)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1238
+                    },
+                    "37": {
+                        "name": "EX.2 ケビン編",
+                        "info": "(2024.02.29)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1239
+                    }
+                }
+            },
+            "2": {
+                "name": "ミシェル先生の特別レッスン",
+                "strID": 90001,
+                "sub": 3,
+                "questID": [
+                    5001,
+                    5002,
+                    5003
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ミシェル先生の特別レッスン(1) 1/2",
+                        "info": "(2017.03.29)",
+                        "strID": 90001,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 1001
+                    },
+                    "2": {
+                        "name": "ミシェル先生の特別レッスン(1) 2/2",
+                        "info": null,
+                        "strID": 90001,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 1002
+                    },
+                    "3": {
+                        "name": "ミシェル先生の特別レッスン(2)",
+                        "info": null,
+                        "strID": 90011,
+                        "infostrID": null,
+                        "avgID": 1006
+                    },
+                    "4": {
+                        "name": "ミシェル先生の特別レッスン(3)",
+                        "info": null,
+                        "strID": 90021,
+                        "infostrID": null,
+                        "avgID": 1010
+                    },
+                    "5": {
+                        "name": "Unused Version",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 19010
+                    },
+                    "6": {
+                        "name": "Unused Ending",
+                        "info": "(2 questions correct)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 19020
+                    },
+                    "7": {
+                        "name": "Unused Ending",
+                        "info": "(1 or no questions correct)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 19021
+                    }
+                }
+            },
+            "3": {
+                "name": "シャーリィのお願い事",
+                "strID": 90031,
+                "questID": [
+                    5004
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャーリィのお願い事 1/4",
+                        "info": "(2017.03.29)",
+                        "strID": 90031,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 1014
+                    },
+                    "2": {
+                        "name": "シャーリィのお願い事 2/4",
+                        "info": null,
+                        "strID": 90031,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 1015
+                    },
+                    "3": {
+                        "name": "シャーリィのお願い事 3/4",
+                        "info": null,
+                        "strID": 90031,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 1016
+                    },
+                    "4": {
+                        "name": "シャーリィのお願い事 4/4",
+                        "info": null,
+                        "strID": 90031,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 1017
+                    }
+                }
+            },
+            "4": {
+                "name": "コリンへの贈り物",
+                "strID": 90041,
+                "questID": [
+                    5005
+                ],
+                "level2": {
+                    "1": {
+                        "name": "コリンへの贈り物 1/5",
+                        "info": "(2017.05.02)",
+                        "strID": 90041,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 1021
+                    },
+                    "2": {
+                        "name": "コリンへの贈り物 2/5",
+                        "info": null,
+                        "strID": 90041,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 1022
+                    },
+                    "3": {
+                        "name": "Conditional 1",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1026
+                    },
+                    "4": {
+                        "name": "Conditional 2",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1027
+                    },
+                    "5": {
+                        "name": "コリンへの贈り物 3/5",
+                        "info": null,
+                        "strID": 90041,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 1023
+                    },
+                    "6": {
+                        "name": "コリンへの贈り物 4/5",
+                        "info": null,
+                        "strID": 90041,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 1024
+                    },
+                    "7": {
+                        "name": "コリンへの贈り物 5/5",
+                        "info": null,
+                        "strID": 90041,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 1025
+                    }
+                }
+            },
+            "5": {
+                "name": "ミシェルからの挑戦状",
+                "strID": 87051,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "ミシェルからの挑戦状 1/11",
+                        "info": "(2017.??.??)",
+                        "strID": 87051,
+                        "add": " 1/11",
+                        "infostrID": null,
+                        "avgID": 1031
+                    },
+                    "2": {
+                        "name": "ミシェルからの挑戦状 2/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 2/11",
+                        "infostrID": null,
+                        "avgID": 1032
+                    },
+                    "3": {
+                        "name": "ミシェルからの挑戦状 3/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 3/11",
+                        "infostrID": null,
+                        "avgID": 1033
+                    },
+                    "4": {
+                        "name": "ミシェルからの挑戦状 4/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 4/11",
+                        "infostrID": null,
+                        "avgID": 1034
+                    },
+                    "5": {
+                        "name": "ミシェルからの挑戦状 5/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 5/11",
+                        "infostrID": null,
+                        "avgID": 1035
+                    },
+                    "6": {
+                        "name": "ミシェルからの挑戦状 6/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 6/11",
+                        "infostrID": null,
+                        "avgID": 1036
+                    },
+                    "7": {
+                        "name": "ミシェルからの挑戦状 7/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 7/11",
+                        "infostrID": null,
+                        "avgID": 1037
+                    },
+                    "8": {
+                        "name": "ミシェルからの挑戦状 8/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 8/11",
+                        "infostrID": null,
+                        "avgID": 1038
+                    },
+                    "9": {
+                        "name": "ミシェルからの挑戦状 9/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 9/11",
+                        "infostrID": null,
+                        "avgID": 1039
+                    },
+                    "10": {
+                        "name": "ミシェルからの挑戦状 10/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 10/11",
+                        "infostrID": null,
+                        "avgID": 1040
+                    },
+                    "11": {
+                        "name": "ミシェルからの挑戦状 11/11",
+                        "info": null,
+                        "strID": 87051,
+                        "add": " 11/11",
+                        "infostrID": null,
+                        "avgID": 1041
+                    }
+                }
+            },
+            "6": {
+                "name": "雨の日の妖精",
+                "strID": 90091,
+                "questID": [
+                    5007,
+                    5008,
+                    5009,
+                    5010
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ナハトの休日",
+                        "info": "(2017.06.16)",
+                        "strID": 90061,
+                        "infostrID": null,
+                        "avgID": 1051
+                    },
+                    "2": {
+                        "name": "ロナードの残業",
+                        "info": null,
+                        "strID": 90071,
+                        "infostrID": null,
+                        "avgID": 1052
+                    },
+                    "3": {
+                        "name": "リーヴの午後",
+                        "info": null,
+                        "strID": 90081,
+                        "infostrID": null,
+                        "avgID": 1053
+                    },
+                    "4": {
+                        "name": "雨の日の妖精",
+                        "info": null,
+                        "strID": 90091,
+                        "infostrID": null,
+                        "avgID": 1054
+                    }
+                }
+            },
+            "7": {
+                "name": "歩んでいく道の途中で",
+                "strID": 5010271,
+                "sub": 2,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "第1話「劇団アルカンシェル」",
+                        "info": "(2017.07.03)",
+                        "strID": 87040,
+                        "infostrID": null,
+                        "avgID": 1061
+                    },
+                    "2": {
+                        "name": "第2話「シュリとリーシャ」",
+                        "info": null,
+                        "strID": 87050,
+                        "infostrID": null,
+                        "avgID": 1062
+                    },
+                    "3": {
+                        "name": "第3話「遠くから見る景色」",
+                        "info": null,
+                        "strID": 87060,
+                        "infostrID": null,
+                        "avgID": 1063
+                    },
+                    "4": {
+                        "name": "第4話「猛特訓」",
+                        "info": null,
+                        "strID": 87070,
+                        "infostrID": null,
+                        "avgID": 1064
+                    },
+                    "5": {
+                        "name": "第5話「役者の意味」",
+                        "info": null,
+                        "strID": 87080,
+                        "infostrID": null,
+                        "avgID": 1065
+                    },
+                    "6": {
+                        "name": "第6話「最後のチャンス」",
+                        "info": null,
+                        "strID": 87090,
+                        "infostrID": null,
+                        "avgID": 1066
+                    },
+                    "7": {
+                        "name": "第7話「舞台に立つという事」",
+                        "info": null,
+                        "strID": 87100,
+                        "infostrID": null,
+                        "avgID": 1067
+                    },
+                    "8": {
+                        "name": "エピローグ",
+                        "info": null,
+                        "strID": 99166,
+                        "infostrID": null,
+                        "avgID": 1068
+                    }
+                }
+            },
+            "8": {
+                "name": "サーシャの休暇",
+                "strID": 87110,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "サーシャの休暇",
+                        "info": "(2017.07.12)",
+                        "strID": 87110,
+                        "infostrID": null,
+                        "avgID": 1071
+                    }
+                }
+            },
+            "9": {
+                "name": "試験班の夏休み",
+                "strID": 87120,
+                "sub": 2,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "試験班の夏休み 1/8",
+                        "info": "(2017.08.30)",
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 1/8",
+                        "infostrID": null,
+                        "avgID": 1081
+                    },
+                    "2": {
+                        "name": "試験班の夏休み 2/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 2/8",
+                        "infostrID": null,
+                        "avgID": 1082
+                    },
+                    "3": {
+                        "name": "試験班の夏休み 3/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 3/8",
+                        "infostrID": null,
+                        "avgID": 1083
+                    },
+                    "4": {
+                        "name": "試験班の夏休み 4/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 4/8",
+                        "infostrID": null,
+                        "avgID": 1084
+                    },
+                    "5": {
+                        "name": "試験班の夏休み 5/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 5/8",
+                        "infostrID": null,
+                        "avgID": 1085
+                    },
+                    "6": {
+                        "name": "試験班の夏休み 6/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 6/8",
+                        "infostrID": null,
+                        "avgID": 1086
+                    },
+                    "7": {
+                        "name": "試験班の夏休み 7/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 7/8",
+                        "infostrID": null,
+                        "avgID": 1087
+                    },
+                    "8": {
+                        "name": "試験班の夏休み 8/8",
+                        "info": null,
+                        "strID": 87120,
+                        "sub": 2,
+                        "add": " 8/8",
+                        "infostrID": null,
+                        "avgID": 1088
+                    }
+                }
+            },
+            "10": {
+                "name": "第１回《ハロウィンフェス》",
+                "strID": 90141,
+                "sub": 3,
+                "questID": [
+                    5015,
+                    5016
+                ],
+                "level2": {
+                    "1": {
+                        "name": "第１回《ハロウィンフェス》(1) 1/10",
+                        "info": "(2017.10.25)",
+                        "strID": 90141,
+                        "add": " 1/10",
+                        "infostrID": null,
+                        "avgID": 1101
+                    },
+                    "2": {
+                        "name": "第１回《ハロウィンフェス》(1) 2/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 2/10",
+                        "infostrID": null,
+                        "avgID": 1102
+                    },
+                    "3": {
+                        "name": "第１回《ハロウィンフェス》(1) 3/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 3/10",
+                        "infostrID": null,
+                        "avgID": 1103
+                    },
+                    "4": {
+                        "name": "第１回《ハロウィンフェス》(1) 4/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 4/10",
+                        "infostrID": null,
+                        "avgID": 1104
+                    },
+                    "5": {
+                        "name": "第１回《ハロウィンフェス》(1) 5/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 5/10",
+                        "infostrID": null,
+                        "avgID": 1105
+                    },
+                    "6": {
+                        "name": "第１回《ハロウィンフェス》(1) 6/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 6/10",
+                        "infostrID": null,
+                        "avgID": 1106
+                    },
+                    "7": {
+                        "name": "第１回《ハロウィンフェス》(1) 7/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 7/10",
+                        "infostrID": null,
+                        "avgID": 1107
+                    },
+                    "8": {
+                        "name": "第１回《ハロウィンフェス》(1) 8/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 8/10",
+                        "infostrID": null,
+                        "avgID": 1108
+                    },
+                    "9": {
+                        "name": "第１回《ハロウィンフェス》(1) 9/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 9/10",
+                        "infostrID": null,
+                        "avgID": 1109
+                    },
+                    "10": {
+                        "name": "第１回《ハロウィンフェス》(1) 10/10",
+                        "info": null,
+                        "strID": 90141,
+                        "add": " 10/10",
+                        "infostrID": null,
+                        "avgID": 1110
+                    },
+                    "11": {
+                        "name": "第１回《ハロウィンフェス》(2) 1/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 1/8",
+                        "infostrID": null,
+                        "avgID": 1111
+                    },
+                    "12": {
+                        "name": "第１回《ハロウィンフェス》(2) 2/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 2/8",
+                        "infostrID": null,
+                        "avgID": 1112
+                    },
+                    "13": {
+                        "name": "第１回《ハロウィンフェス》(2) 3/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 3/8",
+                        "infostrID": null,
+                        "avgID": 1113
+                    },
+                    "14": {
+                        "name": "第１回《ハロウィンフェス》(2) 4/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 4/8",
+                        "infostrID": null,
+                        "avgID": 1114
+                    },
+                    "15": {
+                        "name": "第１回《ハロウィンフェス》(2) 5/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 5/8",
+                        "infostrID": null,
+                        "avgID": 1115
+                    },
+                    "16": {
+                        "name": "第１回《ハロウィンフェス》(2) 6/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 6/8",
+                        "infostrID": null,
+                        "avgID": 1116
+                    },
+                    "17": {
+                        "name": "第１回《ハロウィンフェス》(2) 7/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 7/8",
+                        "infostrID": null,
+                        "avgID": 1117
+                    },
+                    "18": {
+                        "name": "第１回《ハロウィンフェス》(2) 8/8",
+                        "info": null,
+                        "strID": 90161,
+                        "add": " 8/8",
+                        "infostrID": null,
+                        "avgID": 1118
+                    }
+                }
+            },
+            "11": {
+                "name": "絵空の記憶",
+                "strID": 90181,
+                "sub": 1,
+                "questID": [
+                    5017,
+                    5018,
+                    5019,
+                    5020
+                ],
+                "level2": {
+                    "1": {
+                        "name": "絵空の記憶Ⅰ 1/3",
+                        "info": "(2017.12.20)",
+                        "strID": 90181,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 1131
+                    },
+                    "2": {
+                        "name": "絵空の記憶Ⅰ 2/3",
+                        "info": null,
+                        "strID": 90181,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 1132
+                    },
+                    "3": {
+                        "name": "絵空の記憶Ⅰ 3/3",
+                        "info": null,
+                        "strID": 90181,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 1133
+                    },
+                    "4": {
+                        "name": "絵空の記憶Ⅱ 1/3",
+                        "info": null,
+                        "strID": 90191,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 1134
+                    },
+                    "5": {
+                        "name": "絵空の記憶Ⅱ 2/3",
+                        "info": null,
+                        "strID": 90191,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 1135
+                    },
+                    "6": {
+                        "name": "絵空の記憶Ⅱ 3/3",
+                        "info": null,
+                        "strID": 90191,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 1136
+                    },
+                    "7": {
+                        "name": "絵空の記憶Ⅲ 1/3",
+                        "info": null,
+                        "strID": 90201,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 1137
+                    },
+                    "8": {
+                        "name": "絵空の記憶Ⅲ 2/3",
+                        "info": null,
+                        "strID": 90201,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 1138
+                    },
+                    "9": {
+                        "name": "絵空の記憶Ⅲ 3/3",
+                        "info": null,
+                        "strID": 90201,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 1139
+                    },
+                    "10": {
+                        "name": "絵空の記憶Ⅳ 1/3",
+                        "info": null,
+                        "strID": 90211,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 1140
+                    },
+                    "11": {
+                        "name": "絵空の記憶Ⅳ 2/3",
+                        "info": null,
+                        "strID": 90211,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 1141
+                    },
+                    "12": {
+                        "name": "絵空の記憶Ⅳ 3/3",
+                        "info": null,
+                        "strID": 90211,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 1142
+                    }
+                }
+            },
+            "12": {
+                "name": "年越しは、皆で",
+                "strID": 90221,
+                "questID": [
+                    5021
+                ],
+                "level2": {
+                    "1": {
+                        "name": "年越しは、皆で",
+                        "info": "(2017.12.27)",
+                        "strID": 90221,
+                        "infostrID": null,
+                        "avgID": 1151
+                    }
+                }
+            },
+            "13": {
+                "name": "第2回シナリオコンテスト優秀作品",
+                "strID": 90231,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "怪盗Bの挑戦状！",
+                        "info": "(2017.12.?? グランプリ受賞作品)",
+                        "strID": 90232,
+                        "infostrID": null,
+                        "avgID": 1161
+                    },
+                    "2": {
+                        "name": "助けて！ 支援申請",
+                        "info": "(2017.12.?? 準グランプリ受賞作品)",
+                        "strID": 90233,
+                        "infostrID": null,
+                        "avgID": 1162
+                    },
+                    "3": {
+                        "name": "その歌声をあなたに 1/4",
+                        "info": "(2017.12.?? ブレイサー賞受賞作品)",
+                        "strID": 90234,
+                        "infostrID": null,
+                        "avgID": 1163
+                    },
+                    "4": {
+                        "name": "その歌声をあなたに 2/4",
+                        "info": null,
+                        "strID": 90235,
+                        "infostrID": null,
+                        "avgID": 1164
+                    },
+                    "5": {
+                        "name": "その歌声をあなたに 3/4",
+                        "info": null,
+                        "strID": 90236,
+                        "infostrID": null,
+                        "avgID": 1165
+                    },
+                    "6": {
+                        "name": "その歌声をあなたに 4/4",
+                        "info": null,
+                        "strID": 90237,
+                        "infostrID": null,
+                        "avgID": 1166
+                    }
+                }
+            },
+            "14": {
+                "name": "新米遊撃士のクリスマス",
+                "strID": 2105919,
+                "sub": 2,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "新米遊撃士のクリスマス 1/3",
+                        "info": "(2020.12.17)",
+                        "strID": 2105919,
+                        "sub": 2,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 1181
+                    },
+                    "2": {
+                        "name": "新米遊撃士のクリスマス 2/3",
+                        "info": null,
+                        "strID": 2105919,
+                        "sub": 2,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 1182
+                    },
+                    "3": {
+                        "name": "新米遊撃士のクリスマス 3/3",
+                        "info": null,
+                        "strID": 2105919,
+                        "sub": 2,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 1183
+                    }
+                }
+            },
+            "15": {
+                "name": "Heroes War！",
+                "strID": null,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "Heroes War！ 1/6",
+                        "info": "(2022.10.13)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1190
+                    },
+                    "2": {
+                        "name": "Heroes War！ 2/6",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1191
+                    },
+                    "3": {
+                        "name": "Heroes War！ 3/6",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1192
+                    },
+                    "4": {
+                        "name": "Heroes War！ 4/6",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1193
+                    },
+                    "5": {
+                        "name": "Heroes War！ 5/6",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1194
+                    },
+                    "6": {
+                        "name": "Heroes War！ 6/6",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 1195
+                    }
+                }
+            },
+            "16": {
+                "name": "Bracer’s kitchen!",
+                "strID": 99060,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "Bracer’s kitchen! 1/10",
+                        "info": "(2023.03.15)",
+                        "strID": 99060,
+                        "add": " 1/10",
+                        "infostrID": null,
+                        "avgID": 1200
+                    },
+                    "2": {
+                        "name": "Bracer’s kitchen! 2/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 2/10",
+                        "infostrID": null,
+                        "avgID": 1201
+                    },
+                    "3": {
+                        "name": "Bracer’s kitchen! 3/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 3/10",
+                        "infostrID": null,
+                        "avgID": 1202
+                    },
+                    "4": {
+                        "name": "Bracer’s kitchen! 4/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 4/10",
+                        "infostrID": null,
+                        "avgID": 1203
+                    },
+                    "5": {
+                        "name": "Bracer’s kitchen! 5/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 5/10",
+                        "infostrID": null,
+                        "avgID": 1204
+                    },
+                    "6": {
+                        "name": "Bracer’s kitchen! 6/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 6/10",
+                        "infostrID": null,
+                        "avgID": 1205
+                    },
+                    "7": {
+                        "name": "Bracer’s kitchen! 7/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 7/10",
+                        "infostrID": null,
+                        "avgID": 1206
+                    },
+                    "8": {
+                        "name": "Bracer’s kitchen! 8/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 8/10",
+                        "infostrID": null,
+                        "avgID": 1207
+                    },
+                    "9": {
+                        "name": "Bracer’s kitchen! 9/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 9/10",
+                        "infostrID": null,
+                        "avgID": 1208
+                    },
+                    "10": {
+                        "name": "Bracer’s kitchen! 10/10",
+                        "info": null,
+                        "strID": 99060,
+                        "add": " 10/10",
+                        "infostrID": null,
+                        "avgID": 1209
+                    }
+                }
+            },
+            "17": {
+                "name": "Bride or…?",
+                "strID": 99070,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "Bride or…? 1/8",
+                        "info": "(2023.06.14)",
+                        "strID": 99070,
+                        "add": " 1/8",
+                        "infostrID": null,
+                        "avgID": 1212
+                    },
+                    "2": {
+                        "name": "Bride or…? 2/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 2/8",
+                        "infostrID": null,
+                        "avgID": 1213
+                    },
+                    "3": {
+                        "name": "Bride or…? 3/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 3/8",
+                        "infostrID": null,
+                        "avgID": 1214
+                    },
+                    "4": {
+                        "name": "Bride or…? 4/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 4/8",
+                        "infostrID": null,
+                        "avgID": 1215
+                    },
+                    "5": {
+                        "name": "Bride or…? 5/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 5/8",
+                        "infostrID": null,
+                        "avgID": 1216
+                    },
+                    "6": {
+                        "name": "Bride or…? 6/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 6/8",
+                        "infostrID": null,
+                        "avgID": 1217
+                    },
+                    "7": {
+                        "name": "Bride or…? 7/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 7/8",
+                        "infostrID": null,
+                        "avgID": 1218
+                    },
+                    "8": {
+                        "name": "Bride or…? 8/8",
+                        "info": null,
+                        "strID": 99070,
+                        "add": " 8/8",
+                        "infostrID": null,
+                        "avgID": 1219
+                    }
+                }
+            },
+            "18": {
+                "name": "Blue Air",
+                "strID": 99080,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "Blue Air 1/7",
+                        "info": "(2023.09.13)",
+                        "strID": 99080,
+                        "add": " 1/7",
+                        "infostrID": null,
+                        "avgID": 1222
+                    },
+                    "2": {
+                        "name": "Blue Air 2/7",
+                        "info": null,
+                        "strID": 99080,
+                        "add": " 2/7",
+                        "infostrID": null,
+                        "avgID": 1223
+                    },
+                    "3": {
+                        "name": "Blue Air 3/7",
+                        "info": null,
+                        "strID": 99080,
+                        "add": " 3/7",
+                        "infostrID": null,
+                        "avgID": 1224
+                    },
+                    "4": {
+                        "name": "Blue Air 4/7",
+                        "info": null,
+                        "strID": 99080,
+                        "add": " 4/7",
+                        "infostrID": null,
+                        "avgID": 1225
+                    },
+                    "5": {
+                        "name": "Blue Air 5/7",
+                        "info": null,
+                        "strID": 99080,
+                        "add": " 5/7",
+                        "infostrID": null,
+                        "avgID": 1226
+                    },
+                    "6": {
+                        "name": "Blue Air 6/7",
+                        "info": null,
+                        "strID": 99080,
+                        "add": " 6/7",
+                        "infostrID": null,
+                        "avgID": 1227
+                    },
+                    "7": {
+                        "name": "Blue Air 7/7",
+                        "info": null,
+                        "strID": 99080,
+                        "add": " 7/7",
+                        "infostrID": null,
+                        "avgID": 1228
+                    }
+                }
+            },
+            "19": {
+                "name": "ByeBye Missing",
+                "strID": 99090,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "ByeBye Missing 1/7",
+                        "info": "(2023.12.20)",
+                        "strID": 99090,
+                        "add": " 1/7",
+                        "infostrID": null,
+                        "avgID": 1231
+                    },
+                    "2": {
+                        "name": "ByeBye Missing 2/7",
+                        "info": null,
+                        "strID": 99090,
+                        "add": " 2/7",
+                        "infostrID": null,
+                        "avgID": 1232
+                    },
+                    "3": {
+                        "name": "ByeBye Missing 3/7",
+                        "info": null,
+                        "strID": 99090,
+                        "add": " 3/7",
+                        "infostrID": null,
+                        "avgID": 1233
+                    },
+                    "4": {
+                        "name": "ByeBye Missing 4/7",
+                        "info": null,
+                        "strID": 99090,
+                        "add": " 4/7",
+                        "infostrID": null,
+                        "avgID": 1234
+                    },
+                    "5": {
+                        "name": "ByeBye Missing 5/7",
+                        "info": null,
+                        "strID": 99090,
+                        "add": " 5/7",
+                        "infostrID": null,
+                        "avgID": 1235
+                    },
+                    "6": {
+                        "name": "ByeBye Missing 6/7",
+                        "info": null,
+                        "strID": 99090,
+                        "add": " 6/7",
+                        "infostrID": null,
+                        "avgID": 1236
+                    },
+                    "7": {
+                        "name": "ByeBye Missing 7/7",
+                        "info": null,
+                        "strID": 99090,
+                        "add": " 7/7",
+                        "infostrID": null,
+                        "avgID": 1237
+                    }
+                }
+            },
+            "20": {
+                "name": "After/Future",
+                "strID": 99100,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "第1話",
+                        "info": "(2024.03.27)",
+                        "strID": 99321,
+                        "infostrID": null,
+                        "avgID": 1240
+                    },
+                    "2": {
+                        "name": "第2話",
+                        "info": null,
+                        "strID": 99326,
+                        "infostrID": null,
+                        "avgID": 1241
+                    },
+                    "3": {
+                        "name": "第3話",
+                        "info": null,
+                        "strID": 99331,
+                        "infostrID": null,
+                        "avgID": 1242
+                    },
+                    "4": {
+                        "name": "第4話",
+                        "info": null,
+                        "strID": 99336,
+                        "infostrID": null,
+                        "avgID": 1243
+                    },
+                    "5": {
+                        "name": "第5話",
+                        "info": null,
+                        "strID": 99341,
+                        "infostrID": null,
+                        "avgID": 1244
+                    },
+                    "6": {
+                        "name": "第6話",
+                        "info": null,
+                        "strID": 99346,
+                        "infostrID": null,
+                        "avgID": 1245
+                    },
+                    "7": {
+                        "name": "エピローグ",
+                        "info": null,
+                        "strID": 99351,
+                        "infostrID": null,
+                        "avgID": 1246
+                    }
+                }
+            }
+        }
+    }
+}

@@ -12,5 +12,7 @@ init python:
 
 #################################################################
 label start:
+return
 
+label avg0:
 return

@@ -5,827 +5,827 @@ stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
-c00 '[textdict[str(2108307)]]'
+c00 '[textdict[2108307]]'
 play music "ED6102.ogg"
-c00 '[textdict[str(2108308)]]'
+c00 '[textdict[2108308]]'
 show sc032_01 1 as c40portrait at leftside(-17), shakeleft, zorder 5
-c401 '[textdict[str(2108309)]]'
+c401 '[textdict[2108309]]'
 hide c40portrait
 show sc032_01 1 as c40portrait at darkleft(-17), zorder 6
 show sc030_01 4 as c38portrait at rightside(-12), zorder 5
-c383 '[textdict[str(2108310)]]'
+c383 '[textdict[2108310]]'
 hide c40portrait
 hide c38portrait
 show sc030_01 4 as c38portrait at darkright(-12), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108311)]]'
+c291 '[textdict[2108311]]'
 hide c38portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108312)]]'
+c393 '[textdict[2108312]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108313)]]'
+c291 '[textdict[2108313]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108314)]]'
+c393 '[textdict[2108314]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108315)]]'
+c291 '[textdict[2108315]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), shakeright, zorder 5
-c393 '[textdict[str(2108316)]]'
+c393 '[textdict[2108316]]'
 play music "ED6200.ogg"
 scene avg_bg_036
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[str(2108317)]]'
+c00 '[textdict[2108317]]'
 show memoryoverlay zorder 2
 show sc031_01 3 as c39portrait at rightsideentrance(-14), zorder 5
-c393 '[textdict[str(2108318)]]'
+c393 '[textdict[2108318]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108319)]]'
+c291 '[textdict[2108319]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108320)]]'
+c393 '[textdict[2108320]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108321)]]'
+c291 '[textdict[2108321]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108322)]]'
+c393 '[textdict[2108322]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108323)]]'
+c291 '[textdict[2108323]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), shakeright, zorder 5
-c393 '[textdict[str(2108324)]]'
+c393 '[textdict[2108324]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108325)]]'
+c291 '[textdict[2108325]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108326)]]'
+c393 '[textdict[2108326]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108327)]]'
+c393 '[textdict[2108327]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108328)]]'
+c291 '[textdict[2108328]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108329)]]'
+c291 '[textdict[2108329]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108330)]]'
+c291 '[textdict[2108330]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108331)]]'
+c291 '[textdict[2108331]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108332)]]'
+c291 '[textdict[2108332]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108333)]]'
+c291 '[textdict[2108333]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108334)]]'
+c291 '[textdict[2108334]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108335)]]'
+c291 '[textdict[2108335]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108336)]]'
+c291 '[textdict[2108336]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108337)]]'
+c291 '[textdict[2108337]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108338)]]'
+c291 '[textdict[2108338]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108339)]]'
+c393 '[textdict[2108339]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108340)]]'
+c291 '[textdict[2108340]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108341)]]'
+c393 '[textdict[2108341]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108342)]]'
+c291 '[textdict[2108342]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108343)]]'
+c393 '[textdict[2108343]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108344)]]'
+c291 '[textdict[2108344]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108345)]]'
+c393 '[textdict[2108345]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 1 as c39portrait at darkright(-14), zorder 5
 show sc021_01 5 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108346)]]'
+c291 '[textdict[2108346]]'
 play music "ed7452.ogg"
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 5 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108347)]]'
+c393 '[textdict[2108347]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6009.ogg"
 hide c39portrait
 hide c29portrait
 show sc021_01 5 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightsidemidback(-14), zorder 5
-c393 '[textdict[str(2108348)]]'
+c393 '[textdict[2108348]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6006.ogg"
 hide c29portrait
 hide c39portrait
-c00 '[textdict[str(2108349)]]'
+c00 '[textdict[2108349]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[str(2108350)]]'
+c00 '[textdict[2108350]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7079.ogg"
-c00 '[textdict[str(2108351)]]'
+c00 '[textdict[2108351]]'
 show memoryoverlay zorder 2
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108352)]]'
+c291 '[textdict[2108352]]'
 play music "ED6200.ogg"
 show memoryoverlay zorder 2
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightsideentrance(-14), zorder 5
-c393 '[textdict[str(2108353)]]'
+c393 '[textdict[2108353]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108354)]]'
+c291 '[textdict[2108354]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108355)]]'
+c393 '[textdict[2108355]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 5 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108356)]]'
+c291 '[textdict[2108356]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 5 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108357)]]'
+c393 '[textdict[2108357]]'
 scene avg_bg_034
 hide memoryoverlay
 with fade
-c00 '[textdict[str(2108358)]]'
+c00 '[textdict[2108358]]'
 play music "ED6102.ogg"
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108359)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108359]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108360)]]'
+c291 '[textdict[2108360]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), shakeright, zorder 5
-c393 '[textdict[str(2108361)]]'
+c393 '[textdict[2108361]]'
 play music "ED6200.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[str(2108362)]]'
+c00 '[textdict[2108362]]'
 show memoryoverlay zorder 2
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108363)]]'
+c393 '[textdict[2108363]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108364)]]'
+c291 '[textdict[2108364]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108365)]]'
+c393 '[textdict[2108365]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108366)]]'
+c291 '[textdict[2108366]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108367)]]'
+c393 '[textdict[2108367]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108368)]]'
+c291 '[textdict[2108368]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108369)]]'
+c291 '[textdict[2108369]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108370)]]'
+c393 '[textdict[2108370]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108371)]]'
+c291 '[textdict[2108371]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108372)]]'
+c393 '[textdict[2108372]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 1 as c39portrait at darkright(-14), zorder 5
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108373)]]'
+c291 '[textdict[2108373]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108374)]]'
+c393 '[textdict[2108374]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108375)]]'
+c291 '[textdict[2108375]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108376)]]'
+c393 '[textdict[2108376]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108377)]]'
+c291 '[textdict[2108377]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108378)]]'
+c393 '[textdict[2108378]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108379)]]'
+c291 '[textdict[2108379]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108380)]]'
+c291 '[textdict[2108380]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), shakeright, zorder 5
-c393 '[textdict[str(2108381)]]'
+c393 '[textdict[2108381]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108382)]]'
+c393 '[textdict[2108382]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108383)]]'
+c393 '[textdict[2108383]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108384)]]'
+c291 '[textdict[2108384]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108385)]]'
+c393 '[textdict[2108385]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108386)]]'
+c393 '[textdict[2108386]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108387)]]'
+c291 '[textdict[2108387]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108388)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108388]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108389)]]'
+c291 '[textdict[2108389]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108390)]]'
+c393 '[textdict[2108390]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108391)]]'
+c291 '[textdict[2108391]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108392)]]'
+c291 '[textdict[2108392]]'
 play music "ed7452.ogg"
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108393)]]'
+c393 '[textdict[2108393]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108394)]]'
+c291 '[textdict[2108394]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[str(2108395)]]'
+c00 '[textdict[2108395]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[str(2108396)]]'
+c00 '[textdict[2108396]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[str(2108397)]]'
+c00 '[textdict[2108397]]'
 play music "ED6200.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
 with fade
 show sc031_01 3 as c39portrait at rightsideentrance(-14), zorder 5
-c393 '[textdict[str(2108398)]]'
+c393 '[textdict[2108398]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108399)]]'
+c291 '[textdict[2108399]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108400)]]'
+c393 '[textdict[2108400]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 5 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108401)]]'
+c291 '[textdict[2108401]]'
 scene avg_bg_034
 hide memoryoverlay
 with fade
-c00 '[textdict[str(2108402)]]'
+c00 '[textdict[2108402]]'
 play music "ED6102.ogg"
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108403)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108403]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108404)]]'
+c291 '[textdict[2108404]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), shakeright, zorder 5
-c393 '[textdict[str(2108405)]]'
+c393 '[textdict[2108405]]'
 play music "ED6200.ogg"
 scene avg_bg_079
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[str(2108406)]]'
+c00 '[textdict[2108406]]'
 show memoryoverlay zorder 2
 show sc031_01 3 as c39portrait at rightsideentrance(-14), zorder 5
-c393 '[textdict[str(2108407)]]'
+c393 '[textdict[2108407]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108408)]]'
+c291 '[textdict[2108408]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108409)]]'
+c393 '[textdict[2108409]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108410)]]'
+c291 '[textdict[2108410]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108411)]]'
+c291 '[textdict[2108411]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108412)]]'
+c393 '[textdict[2108412]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
-c13091 '[textdict[str(2108413)]]'
+c13091 '[textdict[2108413]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108414)]]'
+c393 '[textdict[2108414]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108415)]]'
+c291 '[textdict[2108415]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108416)]]'
+c393 '[textdict[2108416]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108417)]]'
+c291 '[textdict[2108417]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108418)]]'
+c393 '[textdict[2108418]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108419)]]'
+c291 '[textdict[2108419]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108420)]]'
+c393 '[textdict[2108420]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108421)]]'
+c291 '[textdict[2108421]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108422)]]'
+c393 '[textdict[2108422]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108423)]]'
+c393 '[textdict[2108423]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 4 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108424)]]'
+c291 '[textdict[2108424]]'
 stop music
 show memoryoverlay zorder 2
 play sfx2 "fight_6011.ogg"
 hide c29portrait
 hide c39portrait
-c00 '[textdict[str(2108425)]]'
+c00 '[textdict[2108425]]'
 stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
-c26821 '[textdict[str(2108426)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26821 '[textdict[2108426]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 play music "ED6512.ogg"
 show memoryoverlay zorder 2
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108427)]]'
+c393 '[textdict[2108427]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108428)]]'
+c291 '[textdict[2108428]]'
 show memoryoverlay zorder 2
 hide c39portrait
 hide c29portrait
 show sc021_01 4 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightsidemidback(-14), zorder 5
-c393 '[textdict[str(2108429)]]'
+c393 '[textdict[2108429]]'
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108430)]]'
+c291 '[textdict[2108430]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
-c26831 '[textdict[str(2108431)]]'
+c26831 '[textdict[2108431]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108432)]]'
+c393 '[textdict[2108432]]'
 stop music
 scene avg_bg_034
 hide memoryoverlay
 with fade
-c00 '[textdict[str(2108433)]]'
+c00 '[textdict[2108433]]'
 stop music
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108434)]]'
+c393 '[textdict[2108434]]'
 stop music
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108435)]]'
+c291 '[textdict[2108435]]'
 stop music
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108436)]]'
+c393 '[textdict[2108436]]'
 stop music
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108437)]]'
+c393 '[textdict[2108437]]'
 play music "ed7514.ogg"
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108438)]]'
+c291 '[textdict[2108438]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 5 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108439)]]'
+c393 '[textdict[2108439]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 5 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108440)]]'
+c291 '[textdict[2108440]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108441)]]'
+c393 '[textdict[2108441]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 2 as c39portrait at rightside(-14), shakeright, zorder 5
-c393 '[textdict[str(2108442)]]'
+c393 '[textdict[2108442]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 5 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108443)]]'
+c393 '[textdict[2108443]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 5 as c39portrait at darkright(-14), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108444)]]'
+c291 '[textdict[2108444]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108445)]]'
+c393 '[textdict[2108445]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 1 as c39portrait at darkright(-14), zorder 5
 show sc021_01 5 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108446)]]'
+c291 '[textdict[2108446]]'
 hide c39portrait
 hide c29portrait
 show sc021_01 5 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108447)]]'
+c393 '[textdict[2108447]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 1 as c39portrait at darkright(-14), zorder 5
 show sc032_01 2 as c40portrait at leftside(-17), zorder 5
-c401 '[textdict[str(2108448)]]'
+c401 '[textdict[2108448]]'
 hide c39portrait
 hide c40portrait
 show sc032_01 2 as c40portrait at darkleft(-17), zorder 6
 show sc030_01 2 as c38portrait at rightside(-12), zorder 5
-c383 '[textdict[str(2108449)]]'
+c383 '[textdict[2108449]]'
 hide c40portrait
 hide c38portrait
 show sc030_01 2 as c38portrait at darkright(-12), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108450)]]'
+c291 '[textdict[2108450]]'
 hide c29portrait
 hide c38portrait
 show sc030_01 2 as c38portrait at darkright(-12), zorder 5
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
-c291 '[textdict[str(2108451)]]'
+c291 '[textdict[2108451]]'
 hide c38portrait
 hide c29portrait
 show sc021_01 1 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108452)]]'
+c393 '[textdict[2108452]]'
 hide c29portrait
 hide c39portrait
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
 with fade
-c393 '[textdict[str(2108453)]]'
+c393 '[textdict[2108453]]'
 hide c39portrait
 show sc031_01 1 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108454)]]'
+c393 '[textdict[2108454]]'
 hide c39portrait
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108455)]]'
+c393 '[textdict[2108455]]'
 hide c39portrait
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108456)]]'
+c393 '[textdict[2108456]]'
 stop music
 play sfx2 "other_7050.ogg"
 hide c39portrait
-c00 '[textdict[str(2108457)]]'
+c00 '[textdict[2108457]]'
 stop music
 show sc032_01 2 as c40portrait at leftside(-17), zorder 5
-c401 '[textdict[str(2108458)]]'
+c401 '[textdict[2108458]]'
 stop music
 hide c40portrait
 show sc032_01 2 as c40portrait at darkleft(-17), zorder 6
 show sc030_01 2 as c38portrait at rightside(-12), zorder 5
-c383 '[textdict[str(2108459)]]'
+c383 '[textdict[2108459]]'
 play music "ed6565.ogg"
 play sfx2 "other_7061.ogg"
 hide c40portrait
 hide c38portrait
 show sc030_01 2 as c38portrait at darkright(-12), zorder 5
 show st050_01 2 as c257portrait at leftside(-11), shakeleft, zorder 5
-c2571 '[textdict[str(2108460)]]'
+c2571 '[textdict[2108460]]'
 play sfx2 "other_7041.ogg"
 hide c38portrait
 hide c257portrait
 show st050_01 2 as c257portrait at darkleft(-11), zorder 6
 show sc031_01 5 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[str(2108461)]]'
+c393 '[textdict[2108461]]'
 play sfx2 "other_7062.ogg"
 hide c257portrait
 hide c39portrait
-c00 '[textdict[str(2108462)]]'
+c00 '[textdict[2108462]]'
 return

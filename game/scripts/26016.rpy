@@ -4,30 +4,30 @@ stop music
 scene placeholderbackground
 with fade
 show oc002_01 4 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[str(1215604)]]'
+c22 '[textdict[1215604]]'
 hide c2portrait
 show oc001_01 2 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[str(1215605)]]'
+c12 '[textdict[1215605]]'
 hide c1portrait
 show oc002_01 12 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[str(1215606)]]'
+c22 '[textdict[1215606]]'
 hide c2portrait
 show oc001_01 2 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[str(1215607)]]'
+c12 '[textdict[1215607]]'
 hide c1portrait
 show oc002_01 14 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[str(1215608)]]'
+c22 '[textdict[1215608]]'
 hide c2portrait
 show oc001_01 11 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[str(1215609)]]'
+c12 '[textdict[1215609]]'
 hide c1portrait
 show oc001_01 5 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[str(1215610)]]'
+c12 '[textdict[1215610]]'
 play sfx2 "other_7002.ogg"
 hide c1portrait
-c00 '[textdict[str(1215746)]]'
-c00 '[textdict[str(1215611)]]'
-c00 '[textdict[str(1215612)]]'
-c00 '[textdict[str(1215613)]]'
-c00 '[textdict[str(1215614)]]'
+c00 '[textdict[1215746]]'
+c00 '[textdict[1215611]]'
+c00 '[textdict[1215612]]'
+c00 '[textdict[1215613]]'
+c00 '[textdict[1215614]]'
 return

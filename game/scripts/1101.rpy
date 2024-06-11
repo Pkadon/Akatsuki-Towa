@@ -5,288 +5,288 @@ play music "ed7100.ogg"
 scene avg_bg_014
 with fade
 play sfx2 "other_7064.ogg"
-c00 '[textdict[str(2102320)]]'
+c00 '[textdict[2102320]]'
 play sfx2 "other_7085.ogg"
 show oc002_01 12 as c2portrait at leftsideentrance(-3), zorder 5
-c21 '[textdict[str(2102321)]]'
+c21 '[textdict[2102321]]'
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 7 as c1portrait at rightsideentrance(-2), zorder 5
-c13 '[textdict[str(2102322)]]'
+c13 '[textdict[2102322]]'
 play sfxvoice "avg_vocal_ch21.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102323)]]'
+c21 '[textdict[2102323]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show oc002_01 16 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102324)]]'
+c21 '[textdict[2102324]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show oc002_01 21 as c2portrait at leftside(-3), shakeleft, zorder 5
-c21 '[textdict[str(2102325)]]'
+c21 '[textdict[2102325]]'
 play sfxvoice "avg_vocal_na02.ogg"
 hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102326)]]'
+c13 '[textdict[2102326]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 7 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102327)]]'
+c21 '[textdict[2102327]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 7 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102328)]]'
+c13 '[textdict[2102328]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102329)]]'
+c21 '[textdict[2102329]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 10 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102330)]]'
+c13 '[textdict[2102330]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102331)]]'
+c21 '[textdict[2102331]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102332)]]'
+c21 '[textdict[2102332]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show oc002_01 21 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102333)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[2102333]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102334)]]'
+c13 '[textdict[2102334]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 2 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[str(2102335)]]'
+c13 '[textdict[2102335]]'
 play sfxvoice "avg_vocal_ch29.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102336)]]'
+c21 '[textdict[2102336]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 show oc002_01 14 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102337)]]'
+c21 '[textdict[2102337]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 show oc002_01 6 as c2portrait at leftside(-3), shakeleft, zorder 5
-c21 '[textdict[str(2102338)]]'
+c21 '[textdict[2102338]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 show oc002_01 6 as c2portrait at leftsideentrance(-3), zorder 5
-c21 '[textdict[str(2102339)]]'
+c21 '[textdict[2102339]]'
 play sfx2 "other_7088.ogg"
 play sfxvoice "avg_vocal_na04_b.ogg"
 hide c1portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 8 as c1portrait at rightsidemidback(-2), zorder 5
-c13 '[textdict[str(2102340)]]'
+c13 '[textdict[2102340]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102341)]]'
+c13 '[textdict[2102341]]'
 play sfxvoice "avg_vocal_ch21.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show oc002_01 21 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102342)]]'
+c21 '[textdict[2102342]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102343)]]'
+c13 '[textdict[2102343]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102344)]]'
+c21 '[textdict[2102344]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102345)]]'
+c21 '[textdict[2102345]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 8 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102346)]]'
+c13 '[textdict[2102346]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 18 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102347)]]'
+c21 '[textdict[2102347]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102348)]]'
+c21 '[textdict[2102348]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 18 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102349)]]'
+c21 '[textdict[2102349]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 5 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102350)]]'
+c21 '[textdict[2102350]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 18 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102351)]]'
+c21 '[textdict[2102351]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 14 as c2portrait at leftside(-3), shakeleft, zorder 5
-c21 '[textdict[str(2102352)]]'
+c21 '[textdict[2102352]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 5 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102353)]]'
+c21 '[textdict[2102353]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 5 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102354)]]'
+c13 '[textdict[2102354]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 5 as c2portrait at leftside(-3), shakeleft, zorder 5
-c21 '[textdict[str(2102355)]]'
+c21 '[textdict[2102355]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 18 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102356)]]'
+c21 '[textdict[2102356]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 6 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102357)]]'
+c21 '[textdict[2102357]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102358)]]'
+c13 '[textdict[2102358]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102359)]]'
+c13 '[textdict[2102359]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show oc002_01 14 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102360)]]'
+c21 '[textdict[2102360]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show oc002_01 6 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[str(2102361)]]'
+c21 '[textdict[2102361]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[str(2102362)]]'
+c00 '[textdict[2102362]]'
 show sca15_01 1 as c23portrait at leftsideentrance(9), zorder 5
-c231 '[textdict[str(2102363)]]'
+c231 '[textdict[2102363]]'
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5
-c23 '[textdict[str(2102364)]]'
+c23 '[textdict[2102364]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102365)]]'
+c13 '[textdict[2102365]]'
 play sfxvoice "avg_vocal_ch06.ogg"
 hide c1portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc002_01 14 as c2portrait at rightside(-3), shakeright, zorder 5
-c23 '[textdict[str(2102366)]]'
+c23 '[textdict[2102366]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc002_01 6 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[str(2102367)]]'
+c23 '[textdict[2102367]]'
 hide c23portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkright(-3), zorder 5
 show sca15_01 1 as c23portrait at leftside(9), zorder 5
-c231 '[textdict[str(2102368)]]'
+c231 '[textdict[2102368]]'
 hide c23portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkright(-3), zorder 5
 show sca15_01 3 as c23portrait at leftside(9), zorder 5
-c231 '[textdict[str(2102369)]]'
+c231 '[textdict[2102369]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 3 as c23portrait at darkleft(9), zorder 6
 show oc002_01 8 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[str(2102370)]]'
+c23 '[textdict[2102370]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 3 as c23portrait at darkleft(9), zorder 6
 show oc002_01 13 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[str(2102371)]]'
+c23 '[textdict[2102371]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 3 as c23portrait at darkleft(9), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(2102372)]]'
+c13 '[textdict[2102372]]'
 hide c23portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show sca15_01 1 as c23portrait at leftside(9), zorder 5
-c231 '[textdict[str(2102373)]]'
+c231 '[textdict[2102373]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c1portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5
-c23 '[textdict[str(2102374)]]'
+c23 '[textdict[2102374]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[str(2102375)]]'
+c23 '[textdict[2102375]]'
 hide c2portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at darkleft(9), zorder 6
 show oc001_01 10 as c1portrait at rightsideexit(-2), zorder 5
-c13 '[textdict[str(2102376)]]'
+c13 '[textdict[2102376]]'
 hide c1portrait
 hide c23portrait
 show sca15_01 1 as c23portrait at leftside(9), zorder 5
-c231 '[textdict[str(2102377)]]'
+c231 '[textdict[2102377]]'
 return

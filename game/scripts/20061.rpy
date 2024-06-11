@@ -6,8 +6,8 @@ scene placeholderbackground
 with fade
 play sfx2 "other_7073.ogg"
 show oc001_01 18 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[str(1003000)]]'
+c12 '[textdict[1003000]]'
 hide c1portrait
 show oc001_01 3 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[str(1003001)]]'
+c12 '[textdict[1003001]]'
 return

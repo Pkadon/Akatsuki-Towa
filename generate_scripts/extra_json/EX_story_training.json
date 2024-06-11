@@ -1,0 +1,230 @@
+{
+    "1": {
+        "level1": {
+            "4": {
+                "level2": {
+                    "2": {
+                        "name": "詐欺事件の調査（2） 1/8",
+                        "info": "optional dialogue",
+                        "strID": 17026,
+                        "infostrID": null,
+                        "avgID": 20013
+                    }
+                }
+            },
+            "9": {
+                "level2": {
+                    "1": {
+                        "name": "紛失物の捜索願い",
+                        "info": "extra dialogue",
+                        "strID": 70026,
+                        "infostrID": null,
+                        "avgID": 20010
+                    }
+                }
+            },
+            "16": {
+                "name": "Extra/Unused(?)",
+                "strID": null,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "受付嬢トリア",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20023
+                    },
+                    "2": {
+                        "name": "スラッシュ",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20024
+                    },
+                    "3": {
+                        "name": "キャンベル議員",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20026
+                    },
+                    "4": {
+                        "name": "フェルナンド",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20028
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "level1": {
+            "1": {
+                "level2": {
+                    "6": {
+                        "name": "女王生誕祭の支援（1） 5/5",
+                        "info": "cont'd",
+                        "strID": 17105,
+                        "infostrID": null,
+                        "avgID": 20033
+                    }
+                }
+            },
+            "17": {
+                "name": "Extra/Unused(?)",
+                "strID": null,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "スラッシュ/ヒューイ",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 10303
+                    },
+                    "2": {
+                        "name": "リン/エオリア",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 10315
+                    }
+                }
+            }
+        }
+    },
+    "3": {
+        "level1": {
+            "6": {
+                "level2": {
+                    "4": {
+                        "name": "中央工房の盗難事件(2) 2/7~ティオ",
+                        "info": "optional (unused?)",
+                        "strID": 17272,
+                        "infostrID": null,
+                        "avgID": 10081
+                    },
+                    "6": {
+                        "name": "中央工房の盗難事件(2) 2/7~ティータ",
+                        "info": "optional (unused?)",
+                        "strID": 17273,
+                        "infostrID": null,
+                        "avgID": 10080
+                    },
+                    "9": {
+                        "name": "中央工房の盗難事件(2) 3/7",
+                        "info": "optional (unused?)",
+                        "strID": 17274,
+                        "sub": 4,
+                        "infostrID": null,
+                        "avgID": 20110
+                    }
+                }
+            },
+            "14": {
+                "level2": {
+                    "3": {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "info": "(unused tio version)",
+                        "strID": 17341,
+                        "infostrID": null,
+                        "avgID": 20109
+                    },
+                    "4": {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "info": "(unused tita version)",
+                        "strID": 17341,
+                        "infostrID": null,
+                        "avgID": 20108
+                    }
+                }
+            },
+            "18": {
+                "name": "Extra/Unused(?)",
+                "strID": null,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "ティータ",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20115
+                    },
+                    "2": {
+                        "name": "カルノー/プロメテ",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20116
+                    },
+                    "3": {
+                        "name": "マードック工房長",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20118
+                    },
+                    "4": {
+                        "name": "ウォン/グンドルフ",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20119
+                    },
+                    "5": {
+                        "name": "ジリアン/ロナード",
+                        "info": "(exact timing unknown)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20120
+                    }
+                }
+            }
+        }
+    },
+    "4": {
+        "level1": {
+            "9": {
+                "level2": {
+                    "2": {
+                        "name": "アルモリカ村の魔獣退治 1/4",
+                        "info": "unused alt",
+                        "strID": 17455,
+                        "infostrID": null,
+                        "avgID": 10312
+                    }
+                }
+            },
+            "11": {
+                "level2": {
+                    "3": {
+                        "name": "偽チケット詐欺事件捜査記録 2/2",
+                        "info": "unused alt",
+                        "strID": 17464,
+                        "infostrID": null,
+                        "avgID": 12302
+                    }
+                }
+            }
+        }
+    },
+    "11": {
+        "level1": {
+            "4": {
+                "level2": {
+                    "7": {
+                        "name": "【三章】反射に注意！",
+                        "info": "unused alt",
+                        "strID": 76631,
+                        "infostrID": null,
+                        "avgID": 14039
+                    }
+                }
+            }
+        }
+    }
+}

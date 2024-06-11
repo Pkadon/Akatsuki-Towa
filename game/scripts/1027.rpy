@@ -5,8 +5,8 @@ play music "ed7150.ogg"
 scene placeholderbackground
 with fade
 show sc015_01 1 as c23portrait at centerpos(9), zorder 5
-c232 '[textdict[str(2100542)]]'
+c232 '[textdict[2100542]]'
 hide c23portrait
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[str(2100543)]]'
+c22 '[textdict[2100543]]'
 return

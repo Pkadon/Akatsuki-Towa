@@ -4,75 +4,75 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_007
 with fade
-c00 '[textdict[str(1143939)]]'
-c11663 '[textdict[str(1143940)]]'
+c00 '[textdict[1143939]]'
+c11663 '[textdict[1143940]]'
 show oc006_01 1 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143941)]]'
+c61 '[textdict[1143941]]'
 play sfx2 "other_7024.ogg"
 hide c6portrait
-c00 '[textdict[str(1143942)]]'
+c00 '[textdict[1143942]]'
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143943)]]'
+c61 '[textdict[1143943]]'
 play sfx2 "other_7024.ogg"
 hide c6portrait
-c00 '[textdict[str(1143944)]]'
+c00 '[textdict[1143944]]'
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143945)]]'
+c61 '[textdict[1143945]]'
 hide c6portrait
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143946)]]'
+c61 '[textdict[1143946]]'
 hide c6portrait
-c00 '[textdict[str(1143947)]]'
+c00 '[textdict[1143947]]'
 play music "ed7515.ogg"
 scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
-c43 '[textdict[str(1143948)]]'
+c43 '[textdict[1143948]]'
 show memoryoverlay zorder 2
-c43 '[textdict[str(1143949)]]'
+c43 '[textdict[1143949]]'
 scene avg_bg_065
 show memoryoverlay zorder 2
 with fade
-c43 '[textdict[str(1143950)]]'
+c43 '[textdict[1143950]]'
 show memoryoverlay zorder 2
-c43 '[textdict[str(1143951)]]'
+c43 '[textdict[1143951]]'
 scene avg_bg_049
 show memoryoverlay zorder 2
 with fade
-c43 '[textdict[str(1143952)]]'
+c43 '[textdict[1143952]]'
 scene avg_bg_007
 hide memoryoverlay
 with fade
-c00 '[textdict[str(1143953)]]'
-c00 '[textdict[str(1143954)]]'
+c00 '[textdict[1143953]]'
+c00 '[textdict[1143954]]'
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143955)]]'
+c61 '[textdict[1143955]]'
 hide c6portrait
-c00 '[textdict[str(1143956)]]'
+c00 '[textdict[1143956]]'
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143957)]]'
+c61 '[textdict[1143957]]'
 scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
-c5003 '[textdict[str(1143958)]]'
+c5003 '[textdict[1143958]]'
 show memoryoverlay zorder 2
-c5003 '[textdict[str(1143959)]]'
+c5003 '[textdict[1143959]]'
 show memoryoverlay zorder 2
-c5003 '[textdict[str(1143960)]]'
+c5003 '[textdict[1143960]]'
 show memoryoverlay zorder 2
-c5003 '[textdict[str(1143961)]]'
+c5003 '[textdict[1143961]]'
 scene avg_bg_007
 hide memoryoverlay
 with fade
-c00 '[textdict[str(1143962)]]'
+c00 '[textdict[1143962]]'
 stop music
 play sfx2 "fight_6024.ogg"
-c00 '[textdict[str(1143963)]]'
+c00 '[textdict[1143963]]'
 play music "ed7151.ogg"
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[str(1143964)]]'
+c61 '[textdict[1143964]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[str(1143965)]]'
-c00 '[textdict[str(1143966)]]'
+c00 '[textdict[1143965]]'
+c00 '[textdict[1143966]]'
 return

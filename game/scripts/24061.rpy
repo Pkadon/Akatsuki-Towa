@@ -3,5 +3,5 @@ stop music
 
 scene placeholderbackground
 with fade
-c7540 '[textdict[str(1200251)]]'
+c7540 '[textdict[1200251]]'
 return

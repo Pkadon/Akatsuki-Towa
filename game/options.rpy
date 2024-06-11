@@ -1,9 +1,5 @@
-﻿## This file contains options that can be changed to customize your game.
-##
-## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
-## them. Lines beginning with a single '#' mark are commented-out code, and you
-## may want to uncomment them when appropriate.
-
+﻿###changed foldernames to match AssetStudio output folders
+define config.search_prefixes = [ "", "Texture2D/", "AudioClip/"]
 
 ## Basics ######################################################################
 ## A human-readable name of the game. This is used to set the default window
@@ -11,7 +7,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = ("Akatsuki Towa")
+define config.name = ("Akatsuki_Towa")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -52,18 +48,6 @@ define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
 
-
-## To allow the user to play a test sound on the sound or voice channel,
-## uncomment a line below and use it to set a sample sound to play.
-
-# define config.sample_sound = "sample-sound.ogg"
-# define config.sample_voice = "sample-voice.ogg"
-
-
-## Uncomment the following line to set an audio file that will be played while
-## the player is at the main menu. This file will continue playing into the
-## game, until it is stopped or another file is played.
-
 define config.main_menu_music = "mainsong.ogg"
 
 ## Transitions #################################################################
@@ -91,10 +75,6 @@ define config.after_load_transition = None
 ## Used when entering the main menu after the game has ended.
 
 define config.end_game_transition = None
-
-
-## A variable to set the transition used when the game starts does not exist.
-## Instead, use a with statement after showing the initial scene.
 
 
 ## Window management ###########################################################
@@ -130,6 +110,8 @@ default preferences.text_cps = 20
 default preferences.afm_time = 15
 
 
+default preferences.skip_unseen = True
+
 ## Save directory ##############################################################
 ##
 ## Controls the platform-specific place Ren'Py will place the save files for
@@ -144,7 +126,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "akatowa-1712552784"
+define config.save_directory = "AkatsukiTowa-1712552784"
 
 
 ## Icon ########################################################################
@@ -199,15 +181,3 @@ init python:
     renpy.music.register_channel("sfx2", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False)
 
     renpy.music.register_channel("sfxvoice", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False)
-
-## A Google Play license key is required to perform in-app purchases. It can be
-## found in the Google Play developer console, under "Monetize" > "Monetization
-## Setup" > "Licensing".
-
-# define build.google_play_key = "..."
-
-
-## The username and project name associated with an itch.io project, separated
-## by a slash.
-
-# define build.itch_project = "renpytom/test-project"

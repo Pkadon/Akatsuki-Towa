@@ -1,0 +1,966 @@
+{
+    "14": {
+        "name": "毎日任務",
+        "strID": 19513,
+        "level1": {
+            "1": {
+                "name": "毎日討伐",
+                "strID": null,
+                "questID": [
+                    20001,
+                    20002,
+                    20003,
+                    20004,
+                    20005,
+                    20006,
+                    20007,
+                    20008,
+                    20009,
+                    20010,
+                    20011,
+                    20012,
+                    20013,
+                    20014,
+                    20015,
+                    20016,
+                    20017,
+                    20019,
+                    20020,
+                    20021,
+                    20022,
+                    20023,
+                    20024,
+                    20025,
+                    20026,
+                    20027
+                ],
+                "level2": {
+                    "1": {
+                        "name": "clear dialogue",
+                        "info": null,
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 25901
+                    }
+                }
+            },
+            "2": {
+                "name": "ダルモア商会の依頼",
+                "strID": 13581,
+                "sub": 3,
+                "questID": [
+                    20509,
+                    20548,
+                    20510
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ダルモア商会の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13581,
+                        "infostrID": null,
+                        "avgID": 24001
+                    },
+                    "2": {
+                        "name": "ダルモア商会の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13581,
+                        "infostrID": null,
+                        "avgID": 24076
+                    },
+                    "3": {
+                        "name": "ダルモア商会の依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13591,
+                        "infostrID": null,
+                        "avgID": 24002
+                    }
+                }
+            },
+            "3": {
+                "name": "ラッセル博士の依頼",
+                "strID": 13521,
+                "sub": 3,
+                "questID": [
+                    20503,
+                    20543,
+                    20504
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ラッセル博士の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13521,
+                        "infostrID": null,
+                        "avgID": 24003
+                    },
+                    "2": {
+                        "name": "ラッセル博士の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13521,
+                        "infostrID": null,
+                        "avgID": 24004
+                    },
+                    "3": {
+                        "name": "ラッセル博士の依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13921,
+                        "infostrID": null,
+                        "avgID": 24085
+                    },
+                    "4": {
+                        "name": "ラッセル博士の依頼(2)",
+                        "info": "conditional",
+                        "strID": 13921,
+                        "infostrID": null,
+                        "avgID": 24086
+                    },
+                    "5": {
+                        "name": "ラッセル博士の依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13531,
+                        "infostrID": null,
+                        "avgID": 24005
+                    }
+                }
+            },
+            "4": {
+                "name": "リラの依頼",
+                "strID": 13541,
+                "sub": 3,
+                "questID": [
+                    20505,
+                    20506
+                ],
+                "level2": {
+                    "1": {
+                        "name": "リラの依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13541,
+                        "infostrID": null,
+                        "avgID": 24006
+                    },
+                    "2": {
+                        "name": "リラの依頼(1)",
+                        "info": "conditional",
+                        "strID": 13541,
+                        "infostrID": null,
+                        "avgID": 24007
+                    },
+                    "3": {
+                        "name": "リラの依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13551,
+                        "infostrID": null,
+                        "avgID": 24008
+                    },
+                    "4": {
+                        "name": "リラの依頼(2)",
+                        "info": "conditional",
+                        "strID": 13551,
+                        "infostrID": null,
+                        "avgID": 24009
+                    }
+                }
+            },
+            "5": {
+                "name": "マオ婆さんの依頼",
+                "strID": 13561,
+                "sub": 3,
+                "questID": [
+                    20507,
+                    20546,
+                    20508
+                ],
+                "level2": {
+                    "1": {
+                        "name": "マオ婆さんの依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13561,
+                        "infostrID": null,
+                        "avgID": 24010
+                    },
+                    "2": {
+                        "name": "マオ婆さんの依頼(1)",
+                        "info": "conditional",
+                        "strID": 13561,
+                        "infostrID": null,
+                        "avgID": 24011
+                    },
+                    "3": {
+                        "name": "マオ婆さんの依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13951,
+                        "infostrID": null,
+                        "avgID": 24091
+                    },
+                    "4": {
+                        "name": "マオ婆さんの依頼(2)",
+                        "info": "conditional",
+                        "strID": 13951,
+                        "infostrID": null,
+                        "avgID": 24092
+                    },
+                    "5": {
+                        "name": "マオ婆さんの依頼(2) 1/2",
+                        "info": "(unused)",
+                        "strID": 13571,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 24012
+                    },
+                    "6": {
+                        "name": "マオ婆さんの依頼(2) 2/2",
+                        "info": "(unused)",
+                        "strID": 13571,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 24013
+                    }
+                }
+            },
+            "6": {
+                "name": "メイベルの依頼",
+                "strID": 13501,
+                "sub": 3,
+                "questID": [
+                    20501,
+                    20542,
+                    20502
+                ],
+                "level2": {
+                    "1": {
+                        "name": "メイベルの依頼（１）",
+                        "info": "quest complete",
+                        "strID": 13501,
+                        "infostrID": null,
+                        "avgID": 24014
+                    },
+                    "2": {
+                        "name": "メイベルの依頼（１）",
+                        "info": "conditional",
+                        "strID": 13501,
+                        "infostrID": null,
+                        "avgID": 24015
+                    },
+                    "3": {
+                        "name": "メイベルの依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13911,
+                        "infostrID": null,
+                        "avgID": 24083
+                    },
+                    "4": {
+                        "name": "メイベルの依頼(2)",
+                        "info": "conditional",
+                        "strID": 13911,
+                        "infostrID": null,
+                        "avgID": 24084
+                    },
+                    "5": {
+                        "name": "メイベルの依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13511,
+                        "infostrID": null,
+                        "avgID": 24016
+                    }
+                }
+            },
+            "7": {
+                "name": "ホテル《ローエンバウム》の依頼",
+                "strID": 13601,
+                "sub": 3,
+                "questID": [
+                    20511,
+                    20512,
+                    20539
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ホテル《ローエンバウム》の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13601,
+                        "infostrID": null,
+                        "avgID": 24017
+                    },
+                    "2": {
+                        "name": "ホテル《ローエンバウム》の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13601,
+                        "infostrID": null,
+                        "avgID": 24018
+                    },
+                    "3": {
+                        "name": "ホテル《ローエンバウム》の依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13611,
+                        "infostrID": null,
+                        "avgID": 24019
+                    },
+                    "4": {
+                        "name": "ホテル《ローエンバウム》の依頼(2)",
+                        "info": "conditional",
+                        "strID": 13611,
+                        "infostrID": null,
+                        "avgID": 24020
+                    },
+                    "5": {
+                        "name": "ホテル《ローエンバウム》の依頼(3)",
+                        "info": "quest complete",
+                        "strID": 13881,
+                        "infostrID": null,
+                        "avgID": 24078
+                    },
+                    "6": {
+                        "name": "ホテル《ローエンバウム》の依頼(3)",
+                        "info": "conditional",
+                        "strID": 13881,
+                        "infostrID": null,
+                        "avgID": 24079
+                    }
+                }
+            },
+            "8": {
+                "name": "クロスベル警察学校の依頼",
+                "strID": 13621,
+                "sub": 3,
+                "questID": [
+                    20513,
+                    20514,
+                    20540
+                ],
+                "level2": {
+                    "1": {
+                        "name": "クロスベル警察学校の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13621,
+                        "infostrID": null,
+                        "avgID": 24021
+                    },
+                    "2": {
+                        "name": "クロスベル警察学校の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13621,
+                        "infostrID": null,
+                        "avgID": 24022
+                    },
+                    "3": {
+                        "name": "クロスベル警察学校の依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13631,
+                        "infostrID": null,
+                        "avgID": 24023
+                    },
+                    "4": {
+                        "name": "クロスベル警察学校の依頼(2)",
+                        "info": "conditional",
+                        "strID": 13631,
+                        "infostrID": null,
+                        "avgID": 24024
+                    },
+                    "5": {
+                        "name": "クロスベル警察学校の依頼(3)",
+                        "info": "quest complete",
+                        "strID": 13891,
+                        "infostrID": null,
+                        "avgID": 24080
+                    },
+                    "6": {
+                        "name": "クロスベル警察学校の依頼(3)",
+                        "info": "conditional",
+                        "strID": 13891,
+                        "infostrID": null,
+                        "avgID": 24077
+                    }
+                }
+            },
+            "9": {
+                "name": "イメルダ夫人の依頼",
+                "strID": 13641,
+                "sub": 3,
+                "questID": [
+                    20515,
+                    20516,
+                    20541
+                ],
+                "level2": {
+                    "1": {
+                        "name": "イメルダ夫人の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13641,
+                        "infostrID": null,
+                        "avgID": 24025
+                    },
+                    "2": {
+                        "name": "イメルダ夫人の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13641,
+                        "infostrID": null,
+                        "avgID": 24026
+                    },
+                    "3": {
+                        "name": "イメルダ夫人の依頼(2) 1/2",
+                        "info": null,
+                        "strID": 13651,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 24027
+                    },
+                    "4": {
+                        "name": "イメルダ夫人の依頼(2) 2/2",
+                        "info": null,
+                        "strID": 13651,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 24028
+                    },
+                    "5": {
+                        "name": "イメルダ夫人の依頼(3)",
+                        "info": "quest complete",
+                        "strID": 13901,
+                        "infostrID": null,
+                        "avgID": 24081
+                    },
+                    "6": {
+                        "name": "イメルダ夫人の依頼(3)",
+                        "info": "conditional",
+                        "strID": 13901,
+                        "infostrID": null,
+                        "avgID": 24082
+                    }
+                }
+            },
+            "10": {
+                "name": "ウルスラ病院の依頼",
+                "strID": 13661,
+                "sub": 3,
+                "questID": [
+                    20517,
+                    20544,
+                    20518
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ウルスラ病院の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13661,
+                        "infostrID": null,
+                        "avgID": 24029
+                    },
+                    "2": {
+                        "name": "ウルスラ病院の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13661,
+                        "infostrID": null,
+                        "avgID": 24030
+                    },
+                    "3": {
+                        "name": "ウルスラ病院の依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13931,
+                        "infostrID": null,
+                        "avgID": 24087
+                    },
+                    "4": {
+                        "name": "ウルスラ病院の依頼(2)",
+                        "info": "conditional",
+                        "strID": 13931,
+                        "infostrID": null,
+                        "avgID": 24088
+                    },
+                    "5": {
+                        "name": "ウルスラ病院の依頼(2) 1/3",
+                        "info": "(unused)",
+                        "strID": 13671,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 24031
+                    },
+                    "6": {
+                        "name": "ウルスラ病院の依頼(2)",
+                        "info": "(unused) conditional",
+                        "strID": 13671,
+                        "infostrID": null,
+                        "avgID": 24032
+                    },
+                    "7": {
+                        "name": "ウルスラ病院の依頼(2) 2/3",
+                        "info": "(unused)",
+                        "strID": 13671,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 24033
+                    },
+                    "8": {
+                        "name": "ウルスラ病院の依頼(2) 3/3",
+                        "info": "(unused)",
+                        "strID": 13671,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 24034
+                    }
+                }
+            },
+            "11": {
+                "name": "《リジョンフード》の依頼",
+                "strID": 13691,
+                "sub": 3,
+                "questID": [
+                    20520,
+                    20519
+                ],
+                "level2": {
+                    "1": {
+                        "name": "《リジョンフード》の依頼(1) 1/2",
+                        "info": null,
+                        "strID": 13691,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 24037
+                    },
+                    "2": {
+                        "name": "《リジョンフード》の依頼(1) 2/2",
+                        "info": null,
+                        "strID": 13691,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 24038
+                    },
+                    "3": {
+                        "name": "《リジョンフード》の依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13681,
+                        "infostrID": null,
+                        "avgID": 24035
+                    },
+                    "4": {
+                        "name": "《リジョンフード》の依頼(2)",
+                        "info": "conditional",
+                        "strID": 13681,
+                        "infostrID": null,
+                        "avgID": 24036
+                    }
+                }
+            },
+            "12": {
+                "name": "アルモリカ村の依頼",
+                "strID": 13701,
+                "sub": 3,
+                "questID": [
+                    20521,
+                    20522
+                ],
+                "level2": {
+                    "1": {
+                        "name": "アルモリカ村の依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13701,
+                        "infostrID": null,
+                        "avgID": 24039
+                    },
+                    "2": {
+                        "name": "アルモリカ村の依頼(1)",
+                        "info": "conditional",
+                        "strID": 13701,
+                        "infostrID": null,
+                        "avgID": 24040
+                    },
+                    "3": {
+                        "name": "アルモリカ村の依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13711,
+                        "infostrID": null,
+                        "avgID": 24041
+                    },
+                    "4": {
+                        "name": "アルモリカ村の依頼(2)",
+                        "info": "conditional",
+                        "strID": 13711,
+                        "infostrID": null,
+                        "avgID": 24042
+                    }
+                }
+            },
+            "13": {
+                "name": "《ホテル・ミレニアム》の依頼",
+                "strID": 13721,
+                "sub": 3,
+                "questID": [
+                    20523,
+                    20524
+                ],
+                "level2": {
+                    "1": {
+                        "name": "《ホテル・ミレニアム》の依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13721,
+                        "infostrID": null,
+                        "avgID": 24043
+                    },
+                    "2": {
+                        "name": "《ホテル・ミレニアム》の依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13721,
+                        "infostrID": null,
+                        "avgID": 24044
+                    },
+                    "3": {
+                        "name": "《ホテル・ミレニアム》の依頼(2) 1/3",
+                        "info": "(unused)",
+                        "strID": 13731,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 24045
+                    },
+                    "4": {
+                        "name": "《ホテル・ミレニアム》の依頼(2) 2/3",
+                        "info": "(unused)",
+                        "strID": 13731,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 24046
+                    },
+                    "5": {
+                        "name": "《ホテル・ミレニアム》の依頼(2) 3/3",
+                        "info": "(unused)",
+                        "strID": 13731,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 24047
+                    }
+                }
+            },
+            "14": {
+                "name": "マイヤの依頼",
+                "strID": 13741,
+                "sub": 3,
+                "questID": [
+                    20525,
+                    20526,
+                    20547
+
+                ],
+                "level2": {
+                    "1": {
+                        "name": "マイヤの依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13741,
+                        "infostrID": null,
+                        "avgID": 24048
+                    },
+                    "2": {
+                        "name": "マイヤの依頼(1)",
+                        "info": "conditional",
+                        "strID": 13741,
+                        "infostrID": null,
+                        "avgID": 24049
+                    },
+                    "3": {
+                        "name": "マイヤの依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13751,
+                        "infostrID": null,
+                        "avgID": 24050
+                    },
+                    "4": {
+                        "name": "マイヤの依頼(2)",
+                        "info": "conditional",
+                        "strID": 13751,
+                        "infostrID": null,
+                        "avgID": 24051
+                    },
+                    "5": {
+                        "name": "マイヤの依頼(3)",
+                        "info": "quest complete",
+                        "strID": 13961,
+                        "infostrID": null,
+                        "avgID": 24093
+                    },
+                    "6": {
+                        "name": "マイヤの依頼(3)",
+                        "info": "conditional",
+                        "strID": 13961,
+                        "infostrID": null,
+                        "avgID": 24094
+                    }
+                }
+            },
+            "15": {
+                "name": "マルクの依頼",
+                "strID": 13941,
+                "sub": 3,
+                "questID": [
+                    20545,
+                    20549,
+                    20527,
+                    20528
+                ],
+                "level2": {
+                    "1": {
+                        "name": "マルクの依頼(1)",
+                        "info": "quest complete",
+                        "strID": 13941,
+                        "infostrID": null,
+                        "avgID": 24052
+                    },
+                    "2": {
+                        "name": "マルクの依頼(1)",
+                        "info": "conditional",
+                        "strID": 13941,
+                        "infostrID": null,
+                        "avgID": 24053
+                    },
+                    "3": {
+                        "name": "マルクの依頼(2)",
+                        "info": "quest complete",
+                        "strID": 13981,
+                        "infostrID": null,
+                        "avgID": 24097
+                    },
+                    "4": {
+                        "name": "マルクの依頼(2)",
+                        "info": "conditional",
+                        "strID": 13981,
+                        "infostrID": null,
+                        "avgID": 24098
+                    },
+                    "5": {
+                        "name": "マルクの依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13761,
+                        "infostrID": null,
+                        "avgID": 24054
+                    },
+                    "6": {
+                        "name": "マルクの依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13761,
+                        "infostrID": null,
+                        "avgID": 24055
+                    },
+                    "7": {
+                        "name": "マルクの依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13771,
+                        "infostrID": null,
+                        "avgID": 24089
+                    },
+                    "8": {
+                        "name": "マルクの依頼(2)",
+                        "info": "(unused) conditional",
+                        "strID": 13771,
+                        "infostrID": null,
+                        "avgID": 24090
+                    }
+                }
+            },
+            "16": {
+                "name": "ドナートの依頼",
+                "strID": 13781,
+                "sub": 3,
+                "questID": [
+                    20529,
+                    20530
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ドナートの依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13781,
+                        "infostrID": null,
+                        "avgID": 24056
+                    },
+                    "2": {
+                        "name": "ドナートの依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13781,
+                        "infostrID": null,
+                        "avgID": 24057
+                    },
+                    "3": {
+                        "name": "ドナートの依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13791,
+                        "infostrID": null,
+                        "avgID": 24058
+                    },
+                    "4": {
+                        "name": "ドナートの依頼(2)",
+                        "info": "(unused) conditional",
+                        "strID": 13791,
+                        "infostrID": null,
+                        "avgID": 24059
+                    }
+                }
+            },
+            "17": {
+                "name": "カヌートの依頼",
+                "strID": 13801,
+                "sub": 3,
+                "questID": [
+                    20531,
+                    20532
+                ],
+                "level2": {
+                    "1": {
+                        "name": "カヌートの依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13801,
+                        "infostrID": null,
+                        "avgID": 24060
+                    },
+                    "2": {
+                        "name": "カヌートの依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13801,
+                        "infostrID": null,
+                        "avgID": 24061
+                    },
+                    "3": {
+                        "name": "カヌートの依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13811,
+                        "infostrID": null,
+                        "avgID": 24062
+                    }
+                }
+            },
+            "18": {
+                "name": "セナの依頼",
+                "strID": 13821,
+                "sub": 3,
+                "questID": [
+                    20533,
+                    20534
+                ],
+                "level2": {
+                    "1": {
+                        "name": "セナの依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13821,
+                        "infostrID": null,
+                        "avgID": 24063
+                    },
+                    "2": {
+                        "name": "セナの依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13821,
+                        "infostrID": null,
+                        "avgID": 24064
+                    },
+                    "3": {
+                        "name": "セナの依頼(2) 1/2",
+                        "info": "(unused)",
+                        "strID": 13831,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 24065
+                    },
+                    "4": {
+                        "name": "セナの依頼(2) 2/2",
+                        "info": "(unused)",
+                        "strID": 13831,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 24066
+                    }
+                }
+            },
+            "19": {
+                "name": "クリントの依頼",
+                "strID": 13841,
+                "sub": 3,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "クリントの依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13841,
+                        "infostrID": null,
+                        "avgID": 24067
+                    },
+                    "2": {
+                        "name": "クリントの依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13841,
+                        "infostrID": null,
+                        "avgID": 24068
+                    },
+                    "3": {
+                        "name": "クリントの依頼(2)",
+                        "info": "(unused) quest complete",
+                        "strID": 13851,
+                        "infostrID": null,
+                        "avgID": 24069
+                    },
+                    "4": {
+                        "name": "クリントの依頼(2)",
+                        "info": "(unused) conditional",
+                        "strID": 13851,
+                        "infostrID": null,
+                        "avgID": 24070
+                    }
+                }
+            },
+            "20": {
+                "name": "ルーシーの依頼",
+                "strID": 13861,
+                "sub": 3,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "ルーシーの依頼(1)",
+                        "info": "(unused) quest complete",
+                        "strID": 13861,
+                        "infostrID": null,
+                        "avgID": 24071
+                    },
+                    "2": {
+                        "name": "ルーシーの依頼(1)",
+                        "info": "(unused) conditional",
+                        "strID": 13861,
+                        "infostrID": null,
+                        "avgID": 24072
+                    },
+                    "3": {
+                        "name": "ルーシーの依頼(1) 1/2",
+                        "info": "(unused)",
+                        "strID": 13871,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 24073
+                    },
+                    "4": {
+                        "name": "ルーシーの依頼(1) 2/2",
+                        "info": "(unused)",
+                        "strID": 13871,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 24074
+                    }
+                }
+            },
+            "21": {
+                "name": "モーリスの依頼",
+                "strID": null,
+                "questID": [],
+                "level2": {
+                    "1": {
+                        "name": "unused or unknown",
+                        "info": "quest complete",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 24095
+                    },
+                    "2": {
+                        "name": "unused or unknown",
+                        "info": "conditional",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 24096
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,104 +4,104 @@ stop music
 play music "ed7526.ogg"
 scene avg_bg_078
 with fade
-c00 '[textdict[str(1180021)]]'
+c00 '[textdict[1180021]]'
 play sfx2 "other_7047.ogg"
 show st056_01 1 as c1349portrait at rightsideentrance(-6), zorder 5
-c13493 '[textdict[str(1180022)]]'
+c13493 '[textdict[1180022]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180023)]]'
+c5001 '[textdict[1180023]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180024)]]'
+c13493 '[textdict[1180024]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180025)]]'
+c5001 '[textdict[1180025]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180026)]]'
+c5001 '[textdict[1180026]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180027)]]'
+c5001 '[textdict[1180027]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180028)]]'
+c5001 '[textdict[1180028]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180029)]]'
+c13493 '[textdict[1180029]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180030)]]'
+c13493 '[textdict[1180030]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180031)]]'
+c5001 '[textdict[1180031]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180032)]]'
+c5001 '[textdict[1180032]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180033)]]'
+c5001 '[textdict[1180033]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180034)]]'
+c13493 '[textdict[1180034]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180035)]]'
+c5001 '[textdict[1180035]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180036)]]'
+c5001 '[textdict[1180036]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180037)]]'
+c5001 '[textdict[1180037]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180038)]]'
+c5001 '[textdict[1180038]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180039)]]'
+c5001 '[textdict[1180039]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180040)]]'
+c13493 '[textdict[1180040]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180041)]]'
+c5001 '[textdict[1180041]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180042)]]'
+c5001 '[textdict[1180042]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180043)]]'
+c5001 '[textdict[1180043]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180044)]]'
+c13493 '[textdict[1180044]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180045)]]'
+c5001 '[textdict[1180045]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180046)]]'
+c13493 '[textdict[1180046]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180047)]]'
+c5001 '[textdict[1180047]]'
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkright(-6), zorder 5
-c5001 '[textdict[str(1180048)]]'
+c5001 '[textdict[1180048]]'
 hide c1349portrait
 show st056_01 4 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180049)]]'
+c13493 '[textdict[1180049]]'
 hide c1349portrait
 show st056_01 4 as c1349portrait at darkright(-6), zorder 5
-c14931 '[textdict[str(1180050)]]'
+c14931 '[textdict[1180050]]'
 hide c1349portrait
 show st056_01 4 as c1349portrait at rightside(-6), zorder 5
-c13493 '[textdict[str(1180051)]]'
+c13493 '[textdict[1180051]]'
 hide c1349portrait
 show st056_01 4 as c1349portrait at darkright(-6), zorder 5
-c14931 '[textdict[str(1180052)]]'
+c14931 '[textdict[1180052]]'
 stop music
 scene avg_bg_070
 with fade
-c14931 '[textdict[str(1180053)]]'
+c14931 '[textdict[1180053]]'
 stop music
-c13493 '[textdict[str(1180054)]]'
+c13493 '[textdict[1180054]]'
 return

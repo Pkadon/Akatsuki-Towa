@@ -4,424 +4,424 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[str(1205042)]]'
+c00 '[textdict[1205042]]'
 play music "ed7513.ogg"
-c00 '[textdict[str(1205043)]]'
+c00 '[textdict[1205043]]'
 scene avg_bg_038
 with fade
 play sfx2 "other_7045.ogg"
-c5001 '[textdict[str(1205044)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1205044]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205045)]]'
+c13 '[textdict[1205045]]'
 hide c1portrait
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205046)]]'
+c13 '[textdict[1205046]]'
 play sfx2 "other_7088.ogg"
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
-c5001 '[textdict[str(1205047)]]'
+c5001 '[textdict[1205047]]'
 scene avg_bg_070
 with fade
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205048)]]'
+c13 '[textdict[1205048]]'
 hide c1portrait
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205049)]]'
+c13 '[textdict[1205049]]'
 hide c1portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205050)]]'
+c13 '[textdict[1205050]]'
 scene avg_bg_004
 with fade
-c5001 '[textdict[str(1205051)]]'
+c5001 '[textdict[1205051]]'
 play sfx2 "other_7088.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205052)]]'
+c13 '[textdict[1205052]]'
 play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_na11.ogg"
 hide c1portrait
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
-c13 '[textdict[str(1205053)]]'
+c13 '[textdict[1205053]]'
 play sfx2 "fight_6010.ogg"
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205054)]]'
+c181 '[textdict[1205054]]'
 hide c18portrait
 hide c1portrait
-c00 '[textdict[str(1205055)]]'
+c00 '[textdict[1205055]]'
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[str(1205056)]]'
+c13 '[textdict[1205056]]'
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show sc010_01 6 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205057)]]'
+c181 '[textdict[1205057]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 6 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205058)]]'
+c13 '[textdict[1205058]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show sc010_01 2 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205059)]]'
+c181 '[textdict[1205059]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 2 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205060)]]'
+c13 '[textdict[1205060]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205061)]]'
+c181 '[textdict[1205061]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205062)]]'
+c181 '[textdict[1205062]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205063)]]'
+c13 '[textdict[1205063]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205064)]]'
+c13 '[textdict[1205064]]'
 play music "ed7452.ogg"
 hide c18portrait
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205065)]]'
+c181 '[textdict[1205065]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 2 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[str(1205066)]]'
+c13 '[textdict[1205066]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205067)]]'
+c181 '[textdict[1205067]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205068)]]'
+c13 '[textdict[1205068]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show sc010_01 2 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205069)]]'
+c181 '[textdict[1205069]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 2 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205070)]]'
+c13 '[textdict[1205070]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 2 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205071)]]'
+c13 '[textdict[1205071]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc010_01 5 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205072)]]'
+c181 '[textdict[1205072]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205073)]]'
+c181 '[textdict[1205073]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205074)]]'
+c13 '[textdict[1205074]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[str(1205075)]]'
+c00 '[textdict[1205075]]'
 scene avg_bg_004
 with fade
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205076)]]'
+c181 '[textdict[1205076]]'
 play sfx2 "fight_6009.ogg"
 hide c18portrait
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205077)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c181 '[textdict[1205077]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 play sfx2 "fight_6009.ogg"
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 15 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205078)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1205078]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205079)]]'
+c13 '[textdict[1205079]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205080)]]'
+c13 '[textdict[1205080]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205081)]]'
+c13 '[textdict[1205081]]'
 play sfxvoice "avg_vocal_na14.ogg"
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
-c13 '[textdict[str(1205082)]]'
+c13 '[textdict[1205082]]'
 play sfx2 "fight_6010.ogg"
 hide c18portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show sc010_01 2 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205083)]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c181 '[textdict[1205083]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c18portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205084)]]'
+c181 '[textdict[1205084]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205085)]]'
+c181 '[textdict[1205085]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205086)]]'
+c13 '[textdict[1205086]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), shakeleft, zorder 5
-c181 '[textdict[str(1205087)]]'
+c181 '[textdict[1205087]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205088)]]'
+c13 '[textdict[1205088]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205089)]]'
+c13 '[textdict[1205089]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205090)]]'
+c13 '[textdict[1205090]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 2 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205091)]]'
+c181 '[textdict[1205091]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 2 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205092)]]'
+c13 '[textdict[1205092]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205093)]]'
+c181 '[textdict[1205093]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205094)]]'
+c13 '[textdict[1205094]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205095)]]'
+c181 '[textdict[1205095]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205096)]]'
+c181 '[textdict[1205096]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205097)]]'
+c181 '[textdict[1205097]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 18 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205098)]]'
+c13 '[textdict[1205098]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 5 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205099)]]'
+c13 '[textdict[1205099]]'
 play sfxvoice "avg_vocal_na12.ogg"
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightsidemidback(-2), zorder 5
-c13 '[textdict[str(1205100)]]'
+c13 '[textdict[1205100]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftsidemidback(-10), zorder 5
-c181 '[textdict[str(1205101)]]'
+c181 '[textdict[1205101]]'
 hide c18portrait
 hide c1portrait
-c00 '[textdict[str(1205102)]]'
+c00 '[textdict[1205102]]'
 play music "ed7514.ogg"
 scene avg_bg_036
 with fade
 play sfx2 "other_7060.ogg"
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205103)]]'
+c13 '[textdict[1205103]]'
 hide c1portrait
 show oc001_01 14 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205104)]]'
+c181 '[textdict[1205104]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205105)]]'
+c13 '[textdict[1205105]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205106)]]'
+c13 '[textdict[1205106]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205107)]]'
+c13 '[textdict[1205107]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205108)]]'
+c181 '[textdict[1205108]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205109)]]'
+c181 '[textdict[1205109]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205110)]]'
+c181 '[textdict[1205110]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205111)]]'
+c181 '[textdict[1205111]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205112)]]'
+c181 '[textdict[1205112]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205113)]]'
+c13 '[textdict[1205113]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205114)]]'
+c181 '[textdict[1205114]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205115)]]'
+c13 '[textdict[1205115]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205116)]]'
+c181 '[textdict[1205116]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 5 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205117)]]'
+c181 '[textdict[1205117]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 5 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205118)]]'
+c13 '[textdict[1205118]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 16 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205119)]]'
+c181 '[textdict[1205119]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205120)]]'
+c13 '[textdict[1205120]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205121)]]'
+c181 '[textdict[1205121]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205122)]]'
+c13 '[textdict[1205122]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205123)]]'
+c181 '[textdict[1205123]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205124)]]'
+c181 '[textdict[1205124]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 1 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205125)]]'
+c13 '[textdict[1205125]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 5 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205126)]]'
+c181 '[textdict[1205126]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205127)]]'
+c181 '[textdict[1205127]]'
 hide c18portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show sc010_01 5 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[str(1205128)]]'
+c181 '[textdict[1205128]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 5 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205129)]]'
+c13 '[textdict[1205129]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 5 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 18 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205130)]]'
+c13 '[textdict[1205130]]'
 hide c1portrait
 hide c18portrait
 show sc010_01 5 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[str(1205131)]]'
+c13 '[textdict[1205131]]'
 return

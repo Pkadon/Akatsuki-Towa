@@ -1,0 +1,2994 @@
+{
+    "15": {
+        "name": "Unused Scenes",
+        "strID": null,
+        "level1": {
+           "1": {
+                "name": "Fishing-related",
+                "strID": null,
+                "level2": {
+                    "1": {
+                        "name": "Fishing Unlock Scene",
+                        "info": "(Prologue)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 10020
+                    },
+                    "2": {
+                        "name": "Fisherman's Guild",
+                        "info": "(Grancel, Chapter 1)",
+                        "strID": null,
+                        "infostrID": null,
+                        "avgID": 20036
+                    }
+                }
+            },
+            "2": {
+                "name": "迷子を探そう。 (Ch.1)",
+                "strID": 70776,
+                "add": " (Ch.1)",
+                "questID": [
+                    262
+                ],
+                "level2": {
+                    "1": {
+                        "name": "迷子を探そう。 1/5",
+                        "info": null,
+                        "strID": 70776,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 12193
+                    },
+                    "2": {
+                        "name": "迷子を探そう。 2/5",
+                        "info": null,
+                        "strID": 70776,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 12194
+                    },
+                    "3": {
+                        "name": "迷子を探そう。 3/5",
+                        "info": null,
+                        "strID": 70776,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 12195
+                    },
+                    "4": {
+                        "name": "迷子を探そう。 4/5",
+                        "info": null,
+                        "strID": 70776,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 12196
+                    },
+                    "5": {
+                        "name": "迷子を探そう。 5/5",
+                        "info": null,
+                        "strID": 70776,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 12197
+                    }
+                }
+            },
+            "3": {
+                "name": "ツァイス支部からの挑戦 (Ch.2)",
+                "strID": 71201,
+                "add": " (Ch.2)",
+                "questID": [
+                    359
+                ],
+                "level2": {
+                    "1": {
+                        "name": "ツァイス支部からの挑戦 1/2",
+                        "info": null,
+                        "strID": 71201,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 12230
+                    },
+                    "2": {
+                        "name": "ツァイス支部からの挑戦 2/2",
+                        "info": null,
+                        "strID": 71201,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 12233
+                    }
+                }
+            },
+            "4": {
+                "name": "隧道の泣き声の調査 (Ch.2)",
+                "strID": 71226,
+                "add": " (Ch.2)",
+                "questID": [
+                    360
+                ],
+                "level2": {
+                    "1": {
+                        "name": "隧道の泣き声の調査 1/4",
+                        "info": null,
+                        "strID": 71226,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 12234
+                    },
+                    "2": {
+                        "name": "隧道の泣き声の調査 2/4",
+                        "info": null,
+                        "strID": 71226,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 22235
+                    },
+                    "3": {
+                        "name": "隧道の泣き声の調査 3/4",
+                        "info": null,
+                        "strID": 71226,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 22236
+                    },
+                    "4": {
+                        "name": "隧道の泣き声の調査 4/4",
+                        "info": null,
+                        "strID": 71226,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 12237
+                    }
+                }
+            },
+            "5": {
+                "name": "魔獣退治",
+                "strID": 14039,
+                "questID": [
+                    6001
+                ],
+                "level2": {
+                    "1": {
+                        "name": "魔獣退治 1/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 1/8",
+                        "infostrID": null,
+                        "avgID": 25001
+                    },
+                    "2": {
+                        "name": "魔獣退治 2/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 2/8",
+                        "infostrID": null,
+                        "avgID": 25003
+                    },
+                    "3": {
+                        "name": "魔獣退治 3/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 3/8",
+                        "infostrID": null,
+                        "avgID": 25004
+                    },
+                    "4": {
+                        "name": "魔獣退治 4/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 4/8",
+                        "infostrID": null,
+                        "avgID": 25005
+                    },
+                    "5": {
+                        "name": "魔獣退治 5/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 5/8",
+                        "infostrID": null,
+                        "avgID": 25006
+                    },
+                    "6": {
+                        "name": "魔獣退治 6/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 6/8",
+                        "infostrID": null,
+                        "avgID": 25007
+                    },
+                    "7": {
+                        "name": "魔獣退治 7/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 7/8",
+                        "infostrID": null,
+                        "avgID": 25008
+                    },
+                    "8": {
+                        "name": "魔獣退治 8/8",
+                        "info": null,
+                        "strID": 14039,
+                        "add": " 8/8",
+                        "infostrID": null,
+                        "avgID": 25009
+                    }
+                }
+            },
+            "6": {
+                "name": "工事中だ。",
+                "strID": 14048,
+                "questID": [
+                    6002
+                ],
+                "level2": {
+                    "1": {
+                        "name": "工事中だ。 1/5",
+                        "info": null,
+                        "strID": 14048,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25010
+                    },
+                    "2": {
+                        "name": "工事中だ。 2/5",
+                        "info": null,
+                        "strID": 14048,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25012
+                    },
+                    "3": {
+                        "name": "工事中だ。 3/5",
+                        "info": null,
+                        "strID": 14048,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25013
+                    },
+                    "4": {
+                        "name": "工事中だ。 4/5",
+                        "info": null,
+                        "strID": 14048,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25014
+                    },
+                    "5": {
+                        "name": "工事中だ。 5/5",
+                        "info": null,
+                        "strID": 14048,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25015
+                    }
+                }
+            },
+            "7": {
+                "name": "手配魔獣退治",
+                "strID": 14057,
+                "questID": [
+                    6003
+                ],
+                "level2": {
+                    "1": {
+                        "name": "手配魔獣退治 1/3",
+                        "info": null,
+                        "strID": 14057,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25016
+                    },
+                    "2": {
+                        "name": "手配魔獣退治 2/3",
+                        "info": null,
+                        "strID": 14057,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25017
+                    },
+                    "3": {
+                        "name": "手配魔獣退治 3/3",
+                        "info": null,
+                        "strID": 14057,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25018
+                    }
+                }
+            },
+            "8": {
+                "name": "子供たちの鬼ごっこ",
+                "strID": 14063,
+                "questID": [
+                    6004
+                ],
+                "level2": {
+                    "1": {
+                        "name": "子供たちの鬼ごっこ 1/5",
+                        "info": null,
+                        "strID": 14063,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25019
+                    },
+                    "2": {
+                        "name": "子供たちの鬼ごっこ 2/5",
+                        "info": null,
+                        "strID": 14063,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25021
+                    },
+                    "3": {
+                        "name": "子供たちの鬼ごっこ 3/5",
+                        "info": null,
+                        "strID": 14063,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25022
+                    },
+                    "4": {
+                        "name": "子供たちの鬼ごっこ 4/5",
+                        "info": null,
+                        "strID": 14063,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25023
+                    },
+                    "5": {
+                        "name": "子供たちの鬼ごっこ 5/5",
+                        "info": null,
+                        "strID": 14063,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25024
+                    }
+                }
+            },
+            "9": {
+                "name": "キルシェ通り・街道灯の交換",
+                "strID": 14071,
+                "questID": [
+                    6005
+                ],
+                "level2": {
+                    "1": {
+                        "name": "キルシェ通り・街道灯の交換 1/5",
+                        "info": null,
+                        "strID": 14071,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25028
+                    },
+                    "2": {
+                        "name": "キルシェ通り・街道灯の交換 2/5",
+                        "info": null,
+                        "strID": 14071,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25030
+                    },
+                    "3": {
+                        "name": "キルシェ通り・街道灯の交換 3/5",
+                        "info": null,
+                        "strID": 14071,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25031
+                    },
+                    "4": {
+                        "name": "キルシェ通り・街道灯の交換 4/5",
+                        "info": null,
+                        "strID": 14071,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25032
+                    },
+                    "5": {
+                        "name": "キルシェ通り・街道灯の交換 5/5",
+                        "info": null,
+                        "strID": 14071,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25033
+                    }
+                }
+            },
+            "10": {
+                "name": "キルシェ通りの手配魔獣",
+                "strID": 14079,
+                "questID": [
+                    6006
+                ],
+                "level2": {
+                    "1": {
+                        "name": "キルシェ通りの手配魔獣 1/4",
+                        "info": null,
+                        "strID": 14079,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25034
+                    },
+                    "2": {
+                        "name": "キルシェ通りの手配魔獣 2/4",
+                        "info": null,
+                        "strID": 14079,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25036
+                    },
+                    "3": {
+                        "name": "キルシェ通りの手配魔獣 3/4",
+                        "info": null,
+                        "strID": 14079,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25037
+                    },
+                    "4": {
+                        "name": "キルシェ通りの手配魔獣 4/4",
+                        "info": null,
+                        "strID": 14079,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25039
+                    }
+                }
+            },
+            "11": {
+                "name": "搬送中の荷物の回収",
+                "strID": 14086,
+                "questID": [
+                    6007
+                ],
+                "level2": {
+                    "1": {
+                        "name": "搬送中の荷物の回収 1/6",
+                        "info": null,
+                        "strID": 14086,
+                        "add": " 1/6",
+                        "infostrID": null,
+                        "avgID": 25040
+                    },
+                    "2": {
+                        "name": "搬送中の荷物の回収 2/6",
+                        "info": null,
+                        "strID": 14086,
+                        "add": " 2/6",
+                        "infostrID": null,
+                        "avgID": 25042
+                    },
+                    "3": {
+                        "name": "搬送中の荷物の回収 3/6",
+                        "info": null,
+                        "strID": 14086,
+                        "add": " 3/6",
+                        "infostrID": null,
+                        "avgID": 25043
+                    },
+                    "4": {
+                        "name": "搬送中の荷物の回収 4/6",
+                        "info": null,
+                        "strID": 14086,
+                        "add": " 4/6",
+                        "infostrID": null,
+                        "avgID": 25044
+                    },
+                    "5": {
+                        "name": "搬送中の荷物の回収 5/6",
+                        "info": null,
+                        "strID": 14086,
+                        "add": " 5/6",
+                        "infostrID": null,
+                        "avgID": 25045
+                    },
+                    "6": {
+                        "name": "搬送中の荷物の回収 6/6",
+                        "info": null,
+                        "strID": 14086,
+                        "add": " 6/6",
+                        "infostrID": null,
+                        "avgID": 25046
+                    }
+                }
+            },
+            "12": {
+                "name": "迷子のエンジニア",
+                "strID": 14095,
+                "questID": [
+                    6008
+                ],
+                "level2": {
+                    "1": {
+                        "name": "迷子のエンジニア 1/3",
+                        "info": null,
+                        "strID": 14095,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25047
+                    },
+                    "2": {
+                        "name": "迷子のエンジニア 2/3",
+                        "info": null,
+                        "strID": 14095,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25049
+                    },
+                    "3": {
+                        "name": "迷子のエンジニア 3/3",
+                        "info": null,
+                        "strID": 14095,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25050
+                    }
+                }
+            },
+            "13": {
+                "name": "鉱石調査",
+                "strID": 14102,
+                "questID": [
+                    6009
+                ],
+                "level2": {
+                    "1": {
+                        "name": "鉱石調査 1/4",
+                        "info": null,
+                        "strID": 14102,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25051
+                    },
+                    "2": {
+                        "name": "鉱石調査 2/4",
+                        "info": null,
+                        "strID": 14102,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25053
+                    },
+                    "3": {
+                        "name": "鉱石調査 3/4",
+                        "info": null,
+                        "strID": 14102,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25054
+                    },
+                    "4": {
+                        "name": "鉱石調査 4/4",
+                        "info": null,
+                        "strID": 14102,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25055
+                    }
+                }
+            },
+            "14": {
+                "name": "手配魔獣退治",
+                "strID": 14110,
+                "questID": [
+                    6010
+                ],
+                "level2": {
+                    "1": {
+                        "name": "手配魔獣退治 1/4",
+                        "info": null,
+                        "strID": 14110,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25056
+                    },
+                    "2": {
+                        "name": "手配魔獣退治 2/4",
+                        "info": null,
+                        "strID": 14110,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25058
+                    },
+                    "3": {
+                        "name": "手配魔獣退治 3/4",
+                        "info": null,
+                        "strID": 14110,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25059
+                    },
+                    "4": {
+                        "name": "手配魔獣退治 4/4",
+                        "info": null,
+                        "strID": 14110,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25060
+                    }
+                }
+            },
+            "15": {
+                "name": "宝の地図",
+                "strID": 14117,
+                "questID": [
+                    6011
+                ],
+                "level2": {
+                    "1": {
+                        "name": "宝の地図 1/5",
+                        "info": null,
+                        "strID": 14117,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25061
+                    },
+                    "2": {
+                        "name": "宝の地図 2/5",
+                        "info": null,
+                        "strID": 14117,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25063
+                    },
+                    "3": {
+                        "name": "宝の地図 3/5",
+                        "info": null,
+                        "strID": 14117,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25064
+                    },
+                    "4": {
+                        "name": "宝の地図 4/5",
+                        "info": null,
+                        "strID": 14117,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25067
+                    },
+                    "5": {
+                        "name": "宝の地図 5/5",
+                        "info": null,
+                        "strID": 14117,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25068
+                    }
+                }
+            },
+            "16": {
+                "name": "神秘なからくり",
+                "strID": 14126,
+                "questID": [
+                    6012
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘なからくり 1/5",
+                        "info": null,
+                        "strID": 14126,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25069
+                    },
+                    "2": {
+                        "name": "神秘なからくり 2/5",
+                        "info": null,
+                        "strID": 14126,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25071
+                    },
+                    "3": {
+                        "name": "神秘なからくり 3/5",
+                        "info": null,
+                        "strID": 14126,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25073
+                    },
+                    "4": {
+                        "name": "神秘なからくり 4/5",
+                        "info": null,
+                        "strID": 14126,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25076
+                    },
+                    "5": {
+                        "name": "神秘なからくり 5/5",
+                        "info": null,
+                        "strID": 14126,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25077
+                    }
+                }
+            },
+            "17": {
+                "name": "地下水道をクリアする",
+                "strID": 14134,
+                "questID": [
+                    6013
+                ],
+                "level2": {
+                    "1": {
+                        "name": "地下水道をクリアする 1/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 1/8",
+                        "infostrID": null,
+                        "avgID": 25081
+                    },
+                    "2": {
+                        "name": "地下水道をクリアする 2/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 2/8",
+                        "infostrID": null,
+                        "avgID": 25083
+                    },
+                    "3": {
+                        "name": "地下水道をクリアする 3/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 3/8",
+                        "infostrID": null,
+                        "avgID": 25084
+                    },
+                    "4": {
+                        "name": "地下水道をクリアする 4/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 4/8",
+                        "infostrID": null,
+                        "avgID": 25085
+                    },
+                    "5": {
+                        "name": "地下水道をクリアする 5/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 5/8",
+                        "infostrID": null,
+                        "avgID": 25086
+                    },
+                    "6": {
+                        "name": "地下水道をクリアする 6/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 6/8",
+                        "infostrID": null,
+                        "avgID": 25087
+                    },
+                    "7": {
+                        "name": "地下水道をクリアする 7/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 7/8",
+                        "infostrID": null,
+                        "avgID": 25088
+                    },
+                    "8": {
+                        "name": "地下水道をクリアする 8/8",
+                        "info": null,
+                        "strID": 14134,
+                        "add": " 8/8",
+                        "infostrID": null,
+                        "avgID": 25089
+                    }
+                }
+            },
+            "18": {
+                "name": "手配魔獣を退治",
+                "strID": 14143,
+                "questID": [
+                    6014
+                ],
+                "level2": {
+                    "1": {
+                        "name": "手配魔獣を退治 1/4",
+                        "info": null,
+                        "strID": 14143,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25090
+                    },
+                    "2": {
+                        "name": "手配魔獣を退治 2/4",
+                        "info": null,
+                        "strID": 14143,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25092
+                    },
+                    "3": {
+                        "name": "手配魔獣を退治 3/4",
+                        "info": null,
+                        "strID": 14143,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25093
+                    },
+                    "4": {
+                        "name": "手配魔獣を退治 4/4",
+                        "info": null,
+                        "strID": 14143,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25095
+                    }
+                }
+            },
+            "19": {
+                "name": "腐敗水源調査",
+                "strID": 14150,
+                "questID": [
+                    6015
+                ],
+                "level2": {
+                    "1": {
+                        "name": "腐敗水源調査 1/5",
+                        "info": null,
+                        "strID": 14150,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25096
+                    },
+                    "2": {
+                        "name": "腐敗水源調査 2/5",
+                        "info": null,
+                        "strID": 14150,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25098
+                    },
+                    "3": {
+                        "name": "腐敗水源調査 3/5",
+                        "info": null,
+                        "strID": 14150,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25099
+                    },
+                    "4": {
+                        "name": "腐敗水源調査 4/5",
+                        "info": null,
+                        "strID": 14150,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25100
+                    },
+                    "5": {
+                        "name": "腐敗水源調査 5/5",
+                        "info": null,
+                        "strID": 14150,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25101
+                    }
+                }
+            },
+            "20": {
+                "name": "懐かしいネックレス。",
+                "strID": 14159,
+                "questID": [
+                    6016
+                ],
+                "level2": {
+                    "1": {
+                        "name": "懐かしいネックレス。 1/4",
+                        "info": null,
+                        "strID": 14159,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25102
+                    },
+                    "2": {
+                        "name": "懐かしいネックレス。 2/4",
+                        "info": null,
+                        "strID": 14159,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25104
+                    },
+                    "3": {
+                        "name": "懐かしいネックレス。 3/4",
+                        "info": null,
+                        "strID": 14159,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25105
+                    },
+                    "4": {
+                        "name": "懐かしいネックレス。 4/4",
+                        "info": null,
+                        "strID": 14159,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25106
+                    }
+                }
+            },
+            "21": {
+                "name": "神秘者の挑発",
+                "strID": 14166,
+                "questID": [
+                    6017
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘者の挑発 1/2",
+                        "info": null,
+                        "strID": 14166,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 25107
+                    },
+                    "2": {
+                        "name": "神秘者の挑発 2/2",
+                        "info": null,
+                        "strID": 14166,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 25108
+                    }
+                }
+            },
+            "22": {
+                "name": "シャイニングポムの痕跡",
+                "strID": 14174,
+                "questID": [
+                    6018
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャイニングポムの痕跡 1/4",
+                        "info": null,
+                        "strID": 14174,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25109
+                    },
+                    "2": {
+                        "name": "シャイニングポムの痕跡 2/4",
+                        "info": null,
+                        "strID": 14174,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25110
+                    },
+                    "3": {
+                        "name": "シャイニングポムの痕跡 3/4",
+                        "info": null,
+                        "strID": 14174,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25111
+                    },
+                    "4": {
+                        "name": "シャイニングポムの痕跡 4/4",
+                        "info": null,
+                        "strID": 14174,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25112
+                    }
+                }
+            },
+            "23": {
+                "name": "変なボタンを踏んでしまった。",
+                "strID": 14182,
+                "questID": [
+                    6019
+                ],
+                "level2": {
+                    "1": {
+                        "name": "変なボタンを踏んでしまった。 1/3",
+                        "info": null,
+                        "strID": 14182,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25113
+                    },
+                    "2": {
+                        "name": "変なボタンを踏んでしまった。 2/3",
+                        "info": null,
+                        "strID": 14182,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25114
+                    },
+                    "3": {
+                        "name": "変なボタンを踏んでしまった。 3/3",
+                        "info": null,
+                        "strID": 14182,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25801
+                    }
+                }
+            },
+            "24": {
+                "name": "遠いところの助けを求める声",
+                "strID": 14189,
+                "questID": [
+                    6020
+                ],
+                "level2": {
+                    "1": {
+                        "name": "遠いところの助けを求める声 1/4",
+                        "info": null,
+                        "strID": 14189,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25119
+                    },
+                    "2": {
+                        "name": "遠いところの助けを求める声 2/4",
+                        "info": null,
+                        "strID": 14189,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25120
+                    },
+                    "3": {
+                        "name": "遠いところの助けを求める声 3/4",
+                        "info": null,
+                        "strID": 14189,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25121
+                    },
+                    "4": {
+                        "name": "遠いところの助けを求める声 4/4",
+                        "info": null,
+                        "strID": 14189,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25122
+                    }
+                }
+            },
+            "25": {
+                "name": "巨体の魔物？",
+                "strID": 14197,
+                "questID": [
+                    6021
+                ],
+                "level2": {
+                    "1": {
+                        "name": "巨体の魔物？ 1/4",
+                        "info": null,
+                        "strID": 14197,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25123
+                    },
+                    "2": {
+                        "name": "巨体の魔物？ 2/4",
+                        "info": null,
+                        "strID": 14197,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25125
+                    },
+                    "3": {
+                        "name": "巨体の魔物？ 3/4",
+                        "info": null,
+                        "strID": 14197,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25126
+                    },
+                    "4": {
+                        "name": "巨体の魔物？ 4/4",
+                        "info": null,
+                        "strID": 14197,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25127
+                    }
+                }
+            },
+            "26": {
+                "name": "新結社の企む",
+                "strID": 14205,
+                "questID": [
+                    6022
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/4",
+                        "info": null,
+                        "strID": 14205,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25128
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/4",
+                        "info": null,
+                        "strID": 14205,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25129
+                    },
+                    "3": {
+                        "name": "新結社の企む 3/4",
+                        "info": null,
+                        "strID": 14205,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25130
+                    },
+                    "4": {
+                        "name": "新結社の企む 4/4",
+                        "info": null,
+                        "strID": 14205,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25131
+                    }
+                }
+            },
+            "27": {
+                "name": "食神の旅",
+                "strID": 14212,
+                "questID": [
+                    6023
+                ],
+                "level2": {
+                    "1": {
+                        "name": "食神の旅 1/3",
+                        "info": null,
+                        "strID": 14212,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25132
+                    },
+                    "2": {
+                        "name": "食神の旅 2/3",
+                        "info": null,
+                        "strID": 14212,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25134
+                    },
+                    "3": {
+                        "name": "食神の旅 3/3",
+                        "info": null,
+                        "strID": 14212,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25135
+                    }
+                }
+            },
+            "28": {
+                "name": "罠ゾーン",
+                "strID": 14219,
+                "questID": [
+                    6024
+                ],
+                "level2": {
+                    "1": {
+                        "name": "罠ゾーン 1/3",
+                        "info": null,
+                        "strID": 14219,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25136
+                    },
+                    "2": {
+                        "name": "罠ゾーン 2/3",
+                        "info": null,
+                        "strID": 14219,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25137
+                    },
+                    "3": {
+                        "name": "罠ゾーン 3/3",
+                        "info": null,
+                        "strID": 14219,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25138
+                    }
+                }
+            },
+            "29": {
+                "name": "新結社の企む",
+                "strID": 14227,
+                "questID": [
+                    6025
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/3",
+                        "info": null,
+                        "strID": 14227,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25139
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/3",
+                        "info": null,
+                        "strID": 14227,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25140
+                    },
+                    "3": {
+                        "name": "新結社の企む 3/3",
+                        "info": null,
+                        "strID": 14227,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25141
+                    }
+                }
+            },
+            "30": {
+                "name": "シャイニングポムの跡",
+                "strID": 14234,
+                "questID": [
+                    6026
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャイニングポムの跡 1/1",
+                        "info": null,
+                        "strID": 14234,
+                        "add": " 1/1",
+                        "infostrID": null,
+                        "avgID": 25142
+                    }
+                }
+            },
+            "31": {
+                "name": "エンジニアの困り",
+                "strID": 14240,
+                "questID": [
+                    6027
+                ],
+                "level2": {
+                    "1": {
+                        "name": "エンジニアの困り 1/4",
+                        "info": null,
+                        "strID": 14240,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25146
+                    },
+                    "2": {
+                        "name": "エンジニアの困り 2/4",
+                        "info": null,
+                        "strID": 14240,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25147
+                    },
+                    "3": {
+                        "name": "エンジニアの困り 3/4",
+                        "info": null,
+                        "strID": 14240,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25148
+                    },
+                    "4": {
+                        "name": "エンジニアの困り 4/4",
+                        "info": null,
+                        "strID": 14240,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25149
+                    }
+                }
+            },
+            "32": {
+                "name": "エンジニアののんびり生活",
+                "strID": 14247,
+                "questID": [
+                    6028
+                ],
+                "level2": {
+                    "1": {
+                        "name": "エンジニアののんびり生活 1/4",
+                        "info": null,
+                        "strID": 14247,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25150
+                    },
+                    "2": {
+                        "name": "エンジニアののんびり生活 2/4",
+                        "info": null,
+                        "strID": 14247,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25152
+                    },
+                    "3": {
+                        "name": "エンジニアののんびり生活 3/4",
+                        "info": null,
+                        "strID": 14247,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25153
+                    },
+                    "4": {
+                        "name": "エンジニアののんびり生活 4/4",
+                        "info": null,
+                        "strID": 14247,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25154
+                    }
+                }
+            },
+            "33": {
+                "name": "神秘物の挑発",
+                "strID": 14256,
+                "questID": [
+                    6029
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘物の挑発 1/4",
+                        "info": null,
+                        "strID": 14256,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25155
+                    },
+                    "2": {
+                        "name": "神秘物の挑発 2/4",
+                        "info": null,
+                        "strID": 14256,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25156
+                    },
+                    "3": {
+                        "name": "神秘物の挑発 3/4",
+                        "info": null,
+                        "strID": 14256,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25157
+                    },
+                    "4": {
+                        "name": "神秘物の挑発 4/4",
+                        "info": null,
+                        "strID": 14256,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25158
+                    }
+                }
+            },
+            "34": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14262,
+                "questID": [
+                    6030
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/3",
+                        "info": null,
+                        "strID": 14262,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25159
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/3",
+                        "info": null,
+                        "strID": 14262,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25160
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/3",
+                        "info": null,
+                        "strID": 14262,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25161
+                    }
+                }
+            },
+            "35": {
+                "name": "神秘なからくり",
+                "strID": 14268,
+                "questID": [
+                    6031
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘なからくり 1/2",
+                        "info": null,
+                        "strID": 14268,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 25162
+                    },
+                    "2": {
+                        "name": "神秘なからくり 2/2",
+                        "info": null,
+                        "strID": 14268,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 25802
+                    }
+                }
+            },
+            "36": {
+                "name": "魔物は襲ってきた。",
+                "strID": 14274,
+                "questID": [
+                    6032
+                ],
+                "level2": {
+                    "1": {
+                        "name": "魔物は襲ってきた。 1/4",
+                        "info": null,
+                        "strID": 14274,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25163
+                    },
+                    "2": {
+                        "name": "魔物は襲ってきた。 2/4",
+                        "info": null,
+                        "strID": 14274,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25164
+                    },
+                    "3": {
+                        "name": "魔物は襲ってきた。 3/4",
+                        "info": null,
+                        "strID": 14274,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25165
+                    },
+                    "4": {
+                        "name": "魔物は襲ってきた。 4/4",
+                        "info": null,
+                        "strID": 14274,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25166
+                    }
+                }
+            },
+            "37": {
+                "name": "秘境の森",
+                "strID": 14282,
+                "questID": [
+                    6033
+                ],
+                "level2": {
+                    "1": {
+                        "name": "秘境の森 1/5",
+                        "info": null,
+                        "strID": 14282,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25167
+                    },
+                    "2": {
+                        "name": "秘境の森 2/5",
+                        "info": null,
+                        "strID": 14282,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25169
+                    },
+                    "3": {
+                        "name": "秘境の森 3/5",
+                        "info": null,
+                        "strID": 14282,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25170
+                    },
+                    "4": {
+                        "name": "秘境の森 4/5",
+                        "info": null,
+                        "strID": 14282,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25171
+                    },
+                    "5": {
+                        "name": "秘境の森 5/5",
+                        "info": null,
+                        "strID": 14282,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25172
+                    }
+                }
+            },
+            "38": {
+                "name": "食神の旅",
+                "strID": 14290,
+                "questID": [
+                    6034
+                ],
+                "level2": {
+                    "1": {
+                        "name": "食神の旅 1/5",
+                        "info": null,
+                        "strID": 14290,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25173
+                    },
+                    "2": {
+                        "name": "食神の旅 2/5",
+                        "info": null,
+                        "strID": 14290,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25175
+                    },
+                    "3": {
+                        "name": "食神の旅 3/5",
+                        "info": null,
+                        "strID": 14290,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25176
+                    },
+                    "4": {
+                        "name": "食神の旅 4/5",
+                        "info": null,
+                        "strID": 14290,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25177
+                    },
+                    "5": {
+                        "name": "食神の旅 5/5",
+                        "info": null,
+                        "strID": 14290,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25178
+                    }
+                }
+            },
+            "39": {
+                "name": "シャイニングポムの跡",
+                "strID": 14299,
+                "questID": [
+                    6035
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャイニングポムの跡 1/3",
+                        "info": null,
+                        "strID": 14299,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25179
+                    },
+                    "2": {
+                        "name": "シャイニングポムの跡 2/3",
+                        "info": null,
+                        "strID": 14299,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25180
+                    },
+                    "3": {
+                        "name": "シャイニングポムの跡 3/3",
+                        "info": null,
+                        "strID": 14299,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25181
+                    }
+                }
+            },
+            "40": {
+                "name": "師匠の足どりに追随する",
+                "strID": 14307,
+                "questID": [
+                    6036
+                ],
+                "level2": {
+                    "1": {
+                        "name": "師匠の足どりに追随する 1/3",
+                        "info": null,
+                        "strID": 14307,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25182
+                    },
+                    "2": {
+                        "name": "師匠の足どりに追随する 2/3",
+                        "info": null,
+                        "strID": 14307,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25183
+                    },
+                    "3": {
+                        "name": "師匠の足どりに追随する 3/3",
+                        "info": null,
+                        "strID": 14307,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25184
+                    }
+                }
+            },
+            "41": {
+                "name": "神秘者の挑発",
+                "strID": 14314,
+                "questID": [
+                    6037
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘者の挑発 1/3",
+                        "info": null,
+                        "strID": 14314,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25185
+                    },
+                    "2": {
+                        "name": "神秘者の挑発 2/3",
+                        "info": null,
+                        "strID": 14314,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25186
+                    },
+                    "3": {
+                        "name": "神秘者の挑発 3/3",
+                        "info": null,
+                        "strID": 14314,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25187
+                    }
+                }
+            },
+            "42": {
+                "name": "新結社の企む",
+                "strID": 14320,
+                "questID": [
+                    6038
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/4",
+                        "info": null,
+                        "strID": 14320,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25188
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/4",
+                        "info": null,
+                        "strID": 14320,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25189
+                    },
+                    "3": {
+                        "name": "新結社の企む 3/4",
+                        "info": null,
+                        "strID": 14320,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25190
+                    },
+                    "4": {
+                        "name": "新結社の企む 4/4",
+                        "info": null,
+                        "strID": 14320,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25191
+                    }
+                }
+            },
+            "43": {
+                "name": "特級料理士の旅",
+                "strID": 14327,
+                "questID": [
+                    6039
+                ],
+                "level2": {
+                    "1": {
+                        "name": "特級料理士の旅 1/3",
+                        "info": null,
+                        "strID": 14327,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25192
+                    },
+                    "2": {
+                        "name": "特級料理士の旅 2/3",
+                        "info": null,
+                        "strID": 14327,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25194
+                    },
+                    "3": {
+                        "name": "特級料理士の旅 3/3",
+                        "info": null,
+                        "strID": 14327,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25195
+                    }
+                }
+            },
+            "44": {
+                "name": "新結社の企む",
+                "strID": 14334,
+                "questID": [
+                    6040
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/4",
+                        "info": null,
+                        "strID": 14334,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25196
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/4",
+                        "info": null,
+                        "strID": 14334,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25198
+                    },
+                    "3": {
+                        "name": "新結社の企む 3/4",
+                        "info": null,
+                        "strID": 14334,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25199
+                    },
+                    "4": {
+                        "name": "新結社の企む 4/4",
+                        "info": null,
+                        "strID": 14334,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25200
+                    }
+                }
+            },
+            "45": {
+                "name": "「シャイニングポム」の行方",
+                "strID": 14342,
+                "questID": [
+                    6041
+                ],
+                "level2": {
+                    "1": {
+                        "name": "「シャイニングポム」の行方 1/4",
+                        "info": null,
+                        "strID": 14342,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25201
+                    },
+                    "2": {
+                        "name": "「シャイニングポム」の行方 2/4",
+                        "info": null,
+                        "strID": 14342,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25202
+                    },
+                    "3": {
+                        "name": "「シャイニングポム」の行方 3/4",
+                        "info": null,
+                        "strID": 14342,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25203
+                    },
+                    "4": {
+                        "name": "「シャイニングポム」の行方 4/4",
+                        "info": null,
+                        "strID": 14342,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25204
+                    }
+                }
+            },
+            "46": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14348,
+                "questID": [
+                    6042
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/3",
+                        "info": null,
+                        "strID": 14348,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25205
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/3",
+                        "info": null,
+                        "strID": 14348,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25206
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/3",
+                        "info": null,
+                        "strID": 14348,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25207
+                    }
+                }
+            },
+            "47": {
+                "name": "宝の地図",
+                "strID": 14355,
+                "questID": [
+                    6043
+                ],
+                "level2": {
+                    "1": {
+                        "name": "宝の地図 1/4",
+                        "info": null,
+                        "strID": 14355,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25208
+                    },
+                    "2": {
+                        "name": "宝の地図 2/4",
+                        "info": null,
+                        "strID": 14355,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25209
+                    },
+                    "3": {
+                        "name": "宝の地図 3/4",
+                        "info": null,
+                        "strID": 14355,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25210
+                    },
+                    "4": {
+                        "name": "宝の地図 4/4",
+                        "info": null,
+                        "strID": 14355,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25211
+                    }
+                }
+            },
+            "48": {
+                "name": "散歩のお嬢さん",
+                "strID": 14363,
+                "questID": [
+                    6044
+                ],
+                "level2": {
+                    "1": {
+                        "name": "散歩のお嬢さん 1/5",
+                        "info": null,
+                        "strID": 14363,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25212
+                    },
+                    "2": {
+                        "name": "散歩のお嬢さん 2/5",
+                        "info": null,
+                        "strID": 14363,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25214
+                    },
+                    "3": {
+                        "name": "散歩のお嬢さん 3/5",
+                        "info": null,
+                        "strID": 14363,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25215
+                    },
+                    "4": {
+                        "name": "散歩のお嬢さん 4/5",
+                        "info": null,
+                        "strID": 14363,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25216
+                    },
+                    "5": {
+                        "name": "散歩のお嬢さん 5/5",
+                        "info": null,
+                        "strID": 14363,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25217
+                    }
+                }
+            },
+            "49": {
+                "name": "罠ゾーン",
+                "strID": 14372,
+                "questID": [
+                    6045
+                ],
+                "level2": {
+                    "1": {
+                        "name": "罠ゾーン 1/4",
+                        "info": null,
+                        "strID": 14372,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25218
+                    },
+                    "2": {
+                        "name": "罠ゾーン 2/4",
+                        "info": null,
+                        "strID": 14372,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25219
+                    },
+                    "3": {
+                        "name": "罠ゾーン 3/4",
+                        "info": null,
+                        "strID": 14372,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25220
+                    },
+                    "4": {
+                        "name": "罠ゾーン 4/4",
+                        "info": null,
+                        "strID": 14372,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25221
+                    }
+                }
+            },
+            "50": {
+                "name": "新結社の企む",
+                "strID": 14380,
+                "questID": [
+                    6046
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/2",
+                        "info": null,
+                        "strID": 14380,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 25222
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/2",
+                        "info": null,
+                        "strID": 14380,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 25223
+                    }
+                }
+            },
+            "51": {
+                "name": "食神の旅",
+                "strID": 14386,
+                "questID": [
+                    6047
+                ],
+                "level2": {
+                    "1": {
+                        "name": "食神の旅 1/3",
+                        "info": null,
+                        "strID": 14386,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25224
+                    },
+                    "2": {
+                        "name": "食神の旅 2/3",
+                        "info": null,
+                        "strID": 14386,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25225
+                    },
+                    "3": {
+                        "name": "食神の旅 3/3",
+                        "info": null,
+                        "strID": 14386,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25226
+                    }
+                }
+            },
+            "52": {
+                "name": "魔物からくり",
+                "strID": 14393,
+                "questID": [
+                    6048
+                ],
+                "level2": {
+                    "1": {
+                        "name": "魔物からくり 1/4",
+                        "info": null,
+                        "strID": 14393,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25227
+                    },
+                    "2": {
+                        "name": "魔物からくり 2/4",
+                        "info": null,
+                        "strID": 14393,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25228
+                    },
+                    "3": {
+                        "name": "魔物からくり 3/4",
+                        "info": null,
+                        "strID": 14393,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25229
+                    },
+                    "4": {
+                        "name": "魔物からくり 4/4",
+                        "info": null,
+                        "strID": 14393,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25230
+                    }
+                }
+            },
+            "53": {
+                "name": "神秘者の挑発",
+                "strID": 14401,
+                "questID": [
+                    6049
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘者の挑発 1/4",
+                        "info": null,
+                        "strID": 14401,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25231
+                    },
+                    "2": {
+                        "name": "神秘者の挑発 2/4",
+                        "info": null,
+                        "strID": 14401,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25232
+                    },
+                    "3": {
+                        "name": "神秘者の挑発 3/4",
+                        "info": null,
+                        "strID": 14401,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25233
+                    },
+                    "4": {
+                        "name": "神秘者の挑発 4/4",
+                        "info": null,
+                        "strID": 14401,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25234
+                    }
+                }
+            },
+            "54": {
+                "name": "食神の旅",
+                "strID": 14409,
+                "questID": [
+                    6050
+                ],
+                "level2": {
+                    "1": {
+                        "name": "食神の旅 1/4",
+                        "info": null,
+                        "strID": 14409,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25235
+                    },
+                    "2": {
+                        "name": "食神の旅 2/4",
+                        "info": null,
+                        "strID": 14409,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25237
+                    },
+                    "3": {
+                        "name": "食神の旅 3/4",
+                        "info": null,
+                        "strID": 14409,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25238
+                    },
+                    "4": {
+                        "name": "食神の旅 4/4",
+                        "info": null,
+                        "strID": 14409,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25239
+                    }
+                }
+            },
+            "55": {
+                "name": "エンジニアの怒り",
+                "strID": 14417,
+                "questID": [
+                    6051
+                ],
+                "level2": {
+                    "1": {
+                        "name": "エンジニアの怒り 1/2",
+                        "info": null,
+                        "strID": 14417,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 25240
+                    },
+                    "2": {
+                        "name": "エンジニアの怒り 2/2",
+                        "info": null,
+                        "strID": 14417,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 25241
+                    }
+                }
+            },
+            "56": {
+                "name": "宝石鑑定専門家の冒険",
+                "strID": 14423,
+                "questID": [
+                    6052
+                ],
+                "level2": {
+                    "1": {
+                        "name": "宝石鑑定専門家の冒険 1/4",
+                        "info": null,
+                        "strID": 14423,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25242
+                    },
+                    "2": {
+                        "name": "宝石鑑定専門家の冒険 2/4",
+                        "info": null,
+                        "strID": 14423,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25244
+                    },
+                    "3": {
+                        "name": "宝石鑑定専門家の冒険 3/4",
+                        "info": null,
+                        "strID": 14423,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25245
+                    },
+                    "4": {
+                        "name": "宝石鑑定専門家の冒険 4/4",
+                        "info": null,
+                        "strID": 14423,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25246
+                    }
+                }
+            },
+            "57": {
+                "name": "新結社の企む",
+                "strID": 14431,
+                "questID": [
+                    6053
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/3",
+                        "info": null,
+                        "strID": 14431,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25247
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/3",
+                        "info": null,
+                        "strID": 14431,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25803
+                    },
+                    "3": {
+                        "name": "新結社の企む 3/3",
+                        "info": null,
+                        "strID": 14431,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25804
+                    }
+                }
+            },
+            "58": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14437,
+                "questID": [
+                    6054
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/3",
+                        "info": null,
+                        "strID": 14437,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25248
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/3",
+                        "info": null,
+                        "strID": 14437,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25249
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/3",
+                        "info": null,
+                        "strID": 14437,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25250
+                    }
+                }
+            },
+            "59": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14444,
+                "questID": [
+                    6055
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/3",
+                        "info": null,
+                        "strID": 14444,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25251
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/3",
+                        "info": null,
+                        "strID": 14444,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25252
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/3",
+                        "info": null,
+                        "strID": 14444,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25253
+                    }
+                }
+            },
+            "60": {
+                "name": "かくれんぼう",
+                "strID": 14451,
+                "questID": [
+                    6056
+                ],
+                "level2": {
+                    "1": {
+                        "name": "かくれんぼう 1/5",
+                        "info": null,
+                        "strID": 14451,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25254
+                    },
+                    "2": {
+                        "name": "かくれんぼう 2/5",
+                        "info": null,
+                        "strID": 14451,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25255
+                    },
+                    "3": {
+                        "name": "かくれんぼう 3/5",
+                        "info": null,
+                        "strID": 14451,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25256
+                    },
+                    "4": {
+                        "name": "かくれんぼう 4/5",
+                        "info": null,
+                        "strID": 14451,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25257
+                    },
+                    "5": {
+                        "name": "かくれんぼう 5/5",
+                        "info": null,
+                        "strID": 14451,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25258
+                    }
+                }
+            },
+            "61": {
+                "name": "新結社の企む",
+                "strID": 14459,
+                "questID": [
+                    6057
+                ],
+                "level2": {
+                    "1": {
+                        "name": "新結社の企む 1/4",
+                        "info": null,
+                        "strID": 14459,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25259
+                    },
+                    "2": {
+                        "name": "新結社の企む 2/4",
+                        "info": null,
+                        "strID": 14459,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25260
+                    },
+                    "3": {
+                        "name": "新結社の企む 3/4",
+                        "info": null,
+                        "strID": 14459,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25261
+                    },
+                    "4": {
+                        "name": "新結社の企む 4/4",
+                        "info": null,
+                        "strID": 14459,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25262
+                    }
+                }
+            },
+            "62": {
+                "name": "食神の旅",
+                "strID": 14467,
+                "questID": [
+                    6058
+                ],
+                "level2": {
+                    "1": {
+                        "name": "食神の旅 1/3",
+                        "info": null,
+                        "strID": 14467,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25263
+                    },
+                    "2": {
+                        "name": "食神の旅 2/3",
+                        "info": null,
+                        "strID": 14467,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25265
+                    },
+                    "3": {
+                        "name": "食神の旅 3/3",
+                        "info": null,
+                        "strID": 14467,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25266
+                    }
+                }
+            },
+            "63": {
+                "name": "食神の旅",
+                "strID": 14474,
+                "questID": [
+                    6059
+                ],
+                "level2": {
+                    "1": {
+                        "name": "食神の旅 1/3",
+                        "info": null,
+                        "strID": 14474,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25267
+                    },
+                    "2": {
+                        "name": "食神の旅 2/3",
+                        "info": null,
+                        "strID": 14474,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25269
+                    },
+                    "3": {
+                        "name": "食神の旅 3/3",
+                        "info": null,
+                        "strID": 14474,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25270
+                    }
+                }
+            },
+            "64": {
+                "name": "エンジニアの無力",
+                "strID": 14481,
+                "questID": [
+                    6060
+                ],
+                "level2": {
+                    "1": {
+                        "name": "エンジニアの無力 1/4",
+                        "info": null,
+                        "strID": 14481,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25271
+                    },
+                    "2": {
+                        "name": "エンジニアの無力 2/4",
+                        "info": null,
+                        "strID": 14481,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25805
+                    },
+                    "3": {
+                        "name": "エンジニアの無力 3/4",
+                        "info": null,
+                        "strID": 14481,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25806
+                    },
+                    "4": {
+                        "name": "エンジニアの無力 4/4",
+                        "info": null,
+                        "strID": 14481,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25807
+                    }
+                }
+            },
+            "65": {
+                "name": "シャイニングポムの行方",
+                "strID": 14489,
+                "questID": [
+                    6061
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャイニングポムの行方 1/3",
+                        "info": null,
+                        "strID": 14489,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25272
+                    },
+                    "2": {
+                        "name": "シャイニングポムの行方 2/3",
+                        "info": null,
+                        "strID": 14489,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25273
+                    },
+                    "3": {
+                        "name": "シャイニングポムの行方 3/3",
+                        "info": null,
+                        "strID": 14489,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25276
+                    }
+                }
+            },
+            "66": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14495,
+                "questID": [
+                    6062
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/5",
+                        "info": null,
+                        "strID": 14495,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25277
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/5",
+                        "info": null,
+                        "strID": 14495,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25279
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/5",
+                        "info": null,
+                        "strID": 14495,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25280
+                    },
+                    "4": {
+                        "name": "進撃の影の遊撃士 4/5",
+                        "info": null,
+                        "strID": 14495,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25281
+                    },
+                    "5": {
+                        "name": "進撃の影の遊撃士 5/5",
+                        "info": null,
+                        "strID": 14495,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25282
+                    }
+                }
+            },
+            "67": {
+                "name": "シャイニングポムの行方",
+                "strID": 14504,
+                "questID": [
+                    6063
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャイニングポムの行方 1/4",
+                        "info": null,
+                        "strID": 14504,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25283
+                    },
+                    "2": {
+                        "name": "シャイニングポムの行方 2/4",
+                        "info": null,
+                        "strID": 14504,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25284
+                    },
+                    "3": {
+                        "name": "シャイニングポムの行方 3/4",
+                        "info": null,
+                        "strID": 14504,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25285
+                    },
+                    "4": {
+                        "name": "シャイニングポムの行方 4/4",
+                        "info": null,
+                        "strID": 14504,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25286
+                    }
+                }
+            },
+            "68": {
+                "name": "お嬢さんの散歩",
+                "strID": 14512,
+                "questID": [
+                    6064
+                ],
+                "level2": {
+                    "1": {
+                        "name": "お嬢さんの散歩 1/5",
+                        "info": null,
+                        "strID": 14512,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25287
+                    },
+                    "2": {
+                        "name": "お嬢さんの散歩 2/5",
+                        "info": null,
+                        "strID": 14512,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25289
+                    },
+                    "3": {
+                        "name": "お嬢さんの散歩 3/5",
+                        "info": null,
+                        "strID": 14512,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25290
+                    },
+                    "4": {
+                        "name": "お嬢さんの散歩 4/5",
+                        "info": null,
+                        "strID": 14512,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25291
+                    },
+                    "5": {
+                        "name": "お嬢さんの散歩 5/5",
+                        "info": null,
+                        "strID": 14512,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25292
+                    }
+                }
+            },
+            "69": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14521,
+                "questID": [
+                    6065
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/3",
+                        "info": null,
+                        "strID": 14521,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25293
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/3",
+                        "info": null,
+                        "strID": 14521,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25295
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/3",
+                        "info": null,
+                        "strID": 14521,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25296
+                    }
+                }
+            },
+            "70": {
+                "name": "シャイニングポムの行方",
+                "strID": 14528,
+                "questID": [
+                    6066
+                ],
+                "level2": {
+                    "1": {
+                        "name": "シャイニングポムの行方 1/2",
+                        "info": null,
+                        "strID": 14528,
+                        "add": " 1/2",
+                        "infostrID": null,
+                        "avgID": 25297
+                    },
+                    "2": {
+                        "name": "シャイニングポムの行方 2/2",
+                        "info": null,
+                        "strID": 14528,
+                        "add": " 2/2",
+                        "infostrID": null,
+                        "avgID": 25298
+                    }
+                }
+            },
+            "71": {
+                "name": "行方不明の観客",
+                "strID": 14535,
+                "questID": [
+                    6067
+                ],
+                "level2": {
+                    "1": {
+                        "name": "行方不明の観客 1/5",
+                        "info": null,
+                        "strID": 14535,
+                        "add": " 1/5",
+                        "infostrID": null,
+                        "avgID": 25299
+                    },
+                    "2": {
+                        "name": "行方不明の観客 2/5",
+                        "info": null,
+                        "strID": 14535,
+                        "add": " 2/5",
+                        "infostrID": null,
+                        "avgID": 25301
+                    },
+                    "3": {
+                        "name": "行方不明の観客 3/5",
+                        "info": null,
+                        "strID": 14535,
+                        "add": " 3/5",
+                        "infostrID": null,
+                        "avgID": 25302
+                    },
+                    "4": {
+                        "name": "行方不明の観客 4/5",
+                        "info": null,
+                        "strID": 14535,
+                        "add": " 4/5",
+                        "infostrID": null,
+                        "avgID": 25303
+                    },
+                    "5": {
+                        "name": "行方不明の観客 5/5",
+                        "info": null,
+                        "strID": 14535,
+                        "add": " 5/5",
+                        "infostrID": null,
+                        "avgID": 25304
+                    }
+                }
+            },
+            "72": {
+                "name": "幻獣の咆哮",
+                "strID": 14544,
+                "questID": [
+                    6068
+                ],
+                "level2": {
+                    "1": {
+                        "name": "幻獣の咆哮 1/4",
+                        "info": null,
+                        "strID": 14544,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25305
+                    },
+                    "2": {
+                        "name": "幻獣の咆哮 2/4",
+                        "info": null,
+                        "strID": 14544,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25306
+                    },
+                    "3": {
+                        "name": "幻獣の咆哮 3/4",
+                        "info": null,
+                        "strID": 14544,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25307
+                    },
+                    "4": {
+                        "name": "幻獣の咆哮 4/4",
+                        "info": null,
+                        "strID": 14544,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25310
+                    }
+                }
+            },
+            "73": {
+                "name": "神秘者の挑発",
+                "strID": 14551,
+                "questID": [
+                    6069
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘者の挑発 1/3",
+                        "info": null,
+                        "strID": 14551,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25311
+                    },
+                    "2": {
+                        "name": "神秘者の挑発 2/3",
+                        "info": null,
+                        "strID": 14551,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25808
+                    },
+                    "3": {
+                        "name": "神秘者の挑発 3/3",
+                        "info": null,
+                        "strID": 14551,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25809
+                    }
+                }
+            },
+            "74": {
+                "name": "進撃の影の遊撃士",
+                "strID": 14557,
+                "questID": [
+                    6070
+                ],
+                "level2": {
+                    "1": {
+                        "name": "進撃の影の遊撃士 1/3",
+                        "info": null,
+                        "strID": 14557,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25312
+                    },
+                    "2": {
+                        "name": "進撃の影の遊撃士 2/3",
+                        "info": null,
+                        "strID": 14557,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25314
+                    },
+                    "3": {
+                        "name": "進撃の影の遊撃士 3/3",
+                        "info": null,
+                        "strID": 14557,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25315
+                    }
+                }
+            },
+            "75": {
+                "name": "神秘者の挑発",
+                "strID": 14564,
+                "questID": [
+                    6071
+                ],
+                "level2": {
+                    "1": {
+                        "name": "神秘者の挑発 1/3",
+                        "info": null,
+                        "strID": 14564,
+                        "add": " 1/3",
+                        "infostrID": null,
+                        "avgID": 25316
+                    },
+                    "2": {
+                        "name": "神秘者の挑発 2/3",
+                        "info": null,
+                        "strID": 14564,
+                        "add": " 2/3",
+                        "infostrID": null,
+                        "avgID": 25317
+                    },
+                    "3": {
+                        "name": "神秘者の挑発 3/3",
+                        "info": null,
+                        "strID": 14564,
+                        "add": " 3/3",
+                        "infostrID": null,
+                        "avgID": 25318
+                    }
+                }
+            },
+            "76": {
+                "name": "宝石鑑定専門家の冒険",
+                "strID": 14570,
+                "questID": [
+                    6072
+                ],
+                "level2": {
+                    "1": {
+                        "name": "宝石鑑定専門家の冒険 1/4",
+                        "info": null,
+                        "strID": 14570,
+                        "add": " 1/4",
+                        "infostrID": null,
+                        "avgID": 25319
+                    },
+                    "2": {
+                        "name": "宝石鑑定専門家の冒険 2/4",
+                        "info": null,
+                        "strID": 14570,
+                        "add": " 2/4",
+                        "infostrID": null,
+                        "avgID": 25321
+                    },
+                    "3": {
+                        "name": "宝石鑑定専門家の冒険 3/4",
+                        "info": null,
+                        "strID": 14570,
+                        "add": " 3/4",
+                        "infostrID": null,
+                        "avgID": 25322
+                    },
+                    "4": {
+                        "name": "宝石鑑定専門家の冒険 4/4",
+                        "info": null,
+                        "strID": 14570,
+                        "add": " 4/4",
+                        "infostrID": null,
+                        "avgID": 25323
+                    }
+                }
+            }
+        }
+    }
+}
