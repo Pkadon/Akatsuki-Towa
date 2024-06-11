@@ -34,7 +34,7 @@ The .ico file in both the root folder, and "game/icon" is a placeholder file, pl
 ### Scripts are also provided to generate text files from cutscene files, or re-generate renpy scripts in the "generate_scripts" folder:
 
 #### "extra json" folder: 
-contains pre-sorted lists of cutscenes which I couldn't find an easy way to sort automatically
+contains pre-sorted lists of cutscenes which didn't have a an easy way to sort automatically
 
 #### "MonoBehaviour" folder:  
 please use AssetStudio to export the following files, then place them in this folder:
@@ -76,7 +76,7 @@ converts "avg_replay.json" into "extra_json/new_story.json", using "new_quest.js
 #### "3_make_new_training_json.py":  
 uses "quest.json", "trigger.json", and "training_event.json" to find Training Events that show cutscenes, and converts it into "extra_json/new_training.json"
 
-**NOTE for sorting Training Events:** This script by default will only sort the "訓練" section, and will skip over the "イベント" section, because not all events ae accessible from all "quest.json"+"training_event.json" combinations (that's why there's "EX12_event.json")
+**NOTE for sorting Training Events:** This script by default will only sort the "訓練" section of Training, skipping over the "イベント" section because not all "イベント" cutscenes are accessible from all "quest.json"+"training_event.json" combinations. (that's why there's "EX12_event.json")
 
 ---
 
