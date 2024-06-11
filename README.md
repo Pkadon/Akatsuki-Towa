@@ -6,7 +6,7 @@ or, you can just "Launch Project" from inside Ren'Py.
 
 ---
 
-DOES NOT INCLUDE ANY GAME FILES
+### DOES NOT INCLUDE ANY GAME FILES
 
 Please export required assets from the original game's Unity files using AssetStudio: <https://github.com/Perfare/AssetStudio>
 
