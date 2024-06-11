@@ -16,13 +16,13 @@ If using AssetStudio to export assets, change the search type in the dropdown to
 
 ---
 
-REQUIRES the official "text.json" and "avg_role.json" to be placed in the "game/json" folder in order to display text properly.
+REQUIRES the official "text.json" and "avg_role.json" to be placed in the "game/MonoBehaviour" folder in order to display text properly.
 
-All Audio files in the "game/audio" folder are placeholder files to keep the program from crashing.
+All Audio files in the "game/AudioClip" folder are placeholder files to keep the program from crashing.
 Please replace them with the actual files.
 (Cutscenes can be read without replacing any audio filess.)
 
-All Image files in the "game/images" folder are placeholder files to keep the program from crashing.
+All Image files in the "game/Texture2D" folder are placeholder files to keep the program from crashing.
 Pleace replace them with the actual files.
 (Cutscenes can be read without replacing any image files.)
 
