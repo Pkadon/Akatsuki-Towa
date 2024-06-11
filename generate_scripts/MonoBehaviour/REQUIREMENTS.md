@@ -1,6 +1,6 @@
 Export the required files using AssetStudio, then place them in this folder
 
-If using AssetStudio, change the search type in the dropdown to "Regex (Name)", and paste the following line into the field to easily find required files:
+If using AssetStudioMod, change the search type in the dropdown to "Regex (Name)", and paste the following line into the field to easily find required files:
 
 	^bgm$|^sfx$|^voice$|avg_(replay|role)|booktabs|^quest$|^text$|training_event|^trigger$|^\d+$
 (then "Export" -> "Filtered Assets")
