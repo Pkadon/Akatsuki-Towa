@@ -88,6 +88,9 @@ Required file list:
  data_avg_data_22.unity3d
 
  data_avg_data_23.unity3d
-	data_avg_data_24.unity3d
-	data_avg_data_25.unity3d
-	data_avg_data_26.unity3d
+
+ data_avg_data_24.unity3d
+
+ data_avg_data_25.unity3d
+
+ data_avg_data_26.unity3d
