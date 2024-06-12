@@ -1,11 +1,5 @@
 ### This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
 
-To build into an .exe:
- 1. Download Ren'Py from here: https://www.renpy.org/
- 2. Place this folder in your Ren'Py projects folder
-     - then build it from the "Build Distributions" menu within Ren'Py.
-     - or, you can just "Launch Project" from inside Ren'Py.
-
 ---
 
 ### DOES NOT INCLUDE ANY GAME FILES
@@ -36,6 +30,16 @@ Pleace replace them with the actual files.
 (Cutscenes can be read without replacing any image files.)
 
 The `.ico` file in both the root folder, and `game/icon` is a placeholder file, please replace it with an icon of your choice.
+
+---
+
+
+To build into an .exe:
+ 1. Download Ren'Py from here: https://www.renpy.org/
+ 2. Place this folder in your Ren'Py projects folder
+     - then build it from the "Build Distributions" menu within Ren'Py.
+     - or, you can just "Launch Project" from inside Ren'Py.
+
 
 ---
 
