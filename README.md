@@ -152,9 +152,11 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
  - There are six strings of dialogue that appear in a certain cutscene that contain special formatting to change the text color.  This formatting is stripped from the strings by "loadinfo.rpy".  When editing those strings, either:
    - Keep the formatting as-is, so it still will be stripped correctly
    - or remove the line that strips the formatting from `game/loadinfo.rpy`
- - Some strings are modified by `game/episodelist.rpy` to label buttons. if a string doesn't display properly:
-   - remove the "sub" key/value from the button's entry in the json file in the `generate_scripts/extra_json` folder, then re-generate and replace the renpy menus
-   - or edit the variable being used at the top of `game/episodelist.rpy` directly
+ - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
+   - these buttons have their `strID` value set to `null`
+   - edit the button's `name` value directly to change the button's label
+ - '【推奨レベル】', '【依頼人】', '【内容】' labels are hard-coded into the questlog menus
+   - in `generate_scripts/4_make_menus.py` translate those 3 strings toward the bottom under `#build log`, then re-generate and replace the renpy menus
 
 ---
 
