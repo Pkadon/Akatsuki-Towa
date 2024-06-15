@@ -5,8 +5,7 @@
         "level1": {
             "1": {
                 "name": "準遊撃士・ナハトの奮闘記",
-                "strID": 87190,
-                "sub": 5,
+                "strID": null,
                 "questID": [
                     5011,
                     5014,
@@ -277,8 +276,7 @@
             },
             "2": {
                 "name": "ミシェル先生の特別レッスン",
-                "strID": 90001,
-                "sub": 3,
+                "strID": null,
                 "questID": [
                     5001,
                     5002,
@@ -579,8 +577,7 @@
             },
             "7": {
                 "name": "歩んでいく道の途中で",
-                "strID": 5010271,
-                "sub": 2,
+                "strID": null,
                 "questID": [],
                 "level2": {
                     "1": {
@@ -657,79 +654,62 @@
             },
             "9": {
                 "name": "試験班の夏休み",
-                "strID": 87120,
-                "sub": 2,
+                "strID": null,
                 "questID": [],
                 "level2": {
                     "1": {
                         "name": "試験班の夏休み 1/8",
                         "info": "(2017.08.30)",
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 1/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1081
                     },
                     "2": {
                         "name": "試験班の夏休み 2/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 2/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1082
                     },
                     "3": {
                         "name": "試験班の夏休み 3/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 3/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1083
                     },
                     "4": {
                         "name": "試験班の夏休み 4/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 4/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1084
                     },
                     "5": {
                         "name": "試験班の夏休み 5/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 5/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1085
                     },
                     "6": {
                         "name": "試験班の夏休み 6/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 6/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1086
                     },
                     "7": {
                         "name": "試験班の夏休み 7/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 7/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1087
                     },
                     "8": {
                         "name": "試験班の夏休み 8/8",
                         "info": null,
-                        "strID": 87120,
-                        "sub": 2,
-                        "add": " 8/8",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1088
                     }
@@ -737,8 +717,7 @@
             },
             "10": {
                 "name": "第１回《ハロウィンフェス》",
-                "strID": 90141,
-                "sub": 3,
+                "strID": null,
                 "questID": [
                     5015,
                     5016
@@ -892,8 +871,7 @@
             },
             "11": {
                 "name": "絵空の記憶",
-                "strID": 90181,
-                "sub": 1,
+                "strID": null,
                 "questID": [
                     5017,
                     5018,
@@ -1066,34 +1044,27 @@
             },
             "14": {
                 "name": "新米遊撃士のクリスマス",
-                "strID": 2105919,
-                "sub": 2,
+                "strID": null,
                 "questID": [],
                 "level2": {
                     "1": {
                         "name": "新米遊撃士のクリスマス 1/3",
                         "info": "(2020.12.17)",
-                        "strID": 2105919,
-                        "sub": 2,
-                        "add": " 1/3",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1181
                     },
                     "2": {
                         "name": "新米遊撃士のクリスマス 2/3",
                         "info": null,
-                        "strID": 2105919,
-                        "sub": 2,
-                        "add": " 2/3",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1182
                     },
                     "3": {
                         "name": "新米遊撃士のクリスマス 3/3",
                         "info": null,
-                        "strID": 2105919,
-                        "sub": 2,
-                        "add": " 3/3",
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 1183
                     }

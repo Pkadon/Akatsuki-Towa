@@ -117,8 +117,7 @@
                     "9": {
                         "name": "中央工房の盗難事件(2) 3/7",
                         "info": "optional (unused?)",
-                        "strID": 17274,
-                        "sub": 4,
+                        "strID": null,
                         "infostrID": null,
                         "avgID": 20110
                     }
