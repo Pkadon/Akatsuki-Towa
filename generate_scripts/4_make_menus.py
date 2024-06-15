@@ -97,7 +97,39 @@ for f in combinequestlist:
 with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 	#screen label
 	f.write('label episodelist:\n')
-		
+	
+	#workaround to be able to use substrings 
+	#they need to be predefined or they make renpy crash
+	#this is now only used to fix three story quest typos
+	f.write('init python:\n')
+	for categorynumber in range(1, (len(combinescenedict)+1)):
+		category = combinescenedict[str(categorynumber)]
+		categorynumber = str(categorynumber)
+		while len(categorynumber) < 2: categorynumber = '0'+categorynumber
+		#quest name
+		for questnumber in range(1, (len(category['level1'])+1)):
+			quest = category['level1'][str(questnumber)]
+			questnumber = str(questnumber)
+			while len(questnumber) < 2: questnumber = '0'+questnumber
+			
+			if 'strID' in quest and quest['strID'] != None:
+				if 'sub' in quest: 
+					sub=fr'[:-{quest["sub"]}]'
+					if 'add' in quest: add=fr'+"{quest["add"]}"'
+					else: add=''
+					f.write(f'    text{categorynumber+questnumber} = textdict[{quest["strID"]}]{sub}{add}\n')
+			#scene name
+			for scenenumber in range(1, (len(quest['level2'])+1)):
+				scene = quest['level2'][str(scenenumber)]
+				
+				if 'strID' in scene and scene['strID'] != None:
+					if 'sub' in scene: 
+						sub=fr'[:-{scene["sub"]}]'
+						if 'add' in scene: add=fr'+"{scene["add"]}"'
+						else: add = ''
+						f.write(f'    text{categorynumber+questnumber+str(scenenumber)} = textdict[{scene["strID"]}]{sub}{add}\n')	
+
+				
 	f.write('    \n')
 
 	#define window
@@ -182,6 +214,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 				if 'add' in quest: add=fr'{quest["add"]}'
 				else: add = ''
 				level1 = f"[textdict[{quest['strID']}]]{add}"	
+				if 'sub' in quest: level1 = f'[text{categorynumber+questnumber}]'
 			else: level1 = quest['name']
 			
 			f.write('                            button:\n')
@@ -266,6 +299,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 				if 'add' in quest: add=fr'{quest["add"]}'
 				else: add = ''
 				level1 = f"[textdict[{quest['strID']}]]{add}"	
+				if 'sub' in quest: level1 = f'[text{categorynumber+questnumber}]'
 			else: level1 = quest['name']
 			
 			f.write('                button:\n')
@@ -293,6 +327,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 					if 'add' in scene: add=fr'{scene["add"]}'
 					else: add = ''
 					scenename = f'[textdict[{scene["strID"]}]]{add}'
+					if 'sub' in scene: scenename = f'[text{categorynumber+questnumber+str(scenenumber)}]'	
 				else: scenename = scene['name']
 			
 				#scene info

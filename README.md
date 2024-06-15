@@ -154,7 +154,7 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
    - or remove the line that strips the formatting from `game/loadinfo.rpy`
  - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
    - these buttons have their `strID` value set to `null`
-   - edit the button's `name` value directly to change the button's label
+   - edit the button's `name` value directly, then re-generate and replace the renpy menus
  - "【推奨レベル】", "【依頼人】", "【内容】" labels are hard-coded into the questlog menus
    - in `generate_scripts/4_make_menus.py` translate those 3 strings toward the bottom under `#build log`, then re-generate and replace the renpy menus
 

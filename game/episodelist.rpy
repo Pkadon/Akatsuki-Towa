@@ -1,46 +1,8 @@
 label episodelist:
 init python:
-    text03069 = textdict[17274][:-4]
     text05091 = textdict[17579][:-3]+"1/1"
     text05166 = textdict[17534][:-3]+"6/7"
     text07091 = textdict[17808][:-3]+"1/4"
-    text1201 = textdict[87190][:-5]
-    text1202 = textdict[90001][:-3]
-    text1207 = textdict[5010271][:-2]
-    text1209 = textdict[87120][:-2]
-    text12091 = textdict[87120][:-2]+" 1/8"
-    text12092 = textdict[87120][:-2]+" 2/8"
-    text12093 = textdict[87120][:-2]+" 3/8"
-    text12094 = textdict[87120][:-2]+" 4/8"
-    text12095 = textdict[87120][:-2]+" 5/8"
-    text12096 = textdict[87120][:-2]+" 6/8"
-    text12097 = textdict[87120][:-2]+" 7/8"
-    text12098 = textdict[87120][:-2]+" 8/8"
-    text1210 = textdict[90141][:-3]
-    text1211 = textdict[90181][:-1]
-    text1214 = textdict[2105919][:-2]
-    text12141 = textdict[2105919][:-2]+" 1/3"
-    text12142 = textdict[2105919][:-2]+" 2/3"
-    text12143 = textdict[2105919][:-2]+" 3/3"
-    text1402 = textdict[13581][:-3]
-    text1403 = textdict[13521][:-3]
-    text1404 = textdict[13541][:-3]
-    text1405 = textdict[13561][:-3]
-    text1406 = textdict[13501][:-3]
-    text1407 = textdict[13601][:-3]
-    text1408 = textdict[13621][:-3]
-    text1409 = textdict[13641][:-3]
-    text1410 = textdict[13661][:-3]
-    text1411 = textdict[13691][:-3]
-    text1412 = textdict[13701][:-3]
-    text1413 = textdict[13721][:-3]
-    text1414 = textdict[13741][:-3]
-    text1415 = textdict[13941][:-3]
-    text1416 = textdict[13781][:-3]
-    text1417 = textdict[13801][:-3]
-    text1418 = textdict[13821][:-3]
-    text1419 = textdict[13841][:-3]
-    text1420 = textdict[13861][:-3]
     
 screen episodelist():
     window:
@@ -2849,7 +2811,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1201]":
+                                text "準遊撃士・ナハトの奮闘記":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -2858,7 +2820,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1202]":
+                                text "ミシェル先生の特別レッスン":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -2903,7 +2865,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1207]":
+                                text "歩んでいく道の途中で":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -2921,7 +2883,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1209]":
+                                text "試験班の夏休み":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -2930,7 +2892,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1210]":
+                                text "第１回《ハロウィンフェス》":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -2939,7 +2901,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1211]":
+                                text "絵空の記憶":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -2966,7 +2928,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1214]":
+                                text "新米遊撃士のクリスマス":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3252,7 +3214,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1402]":
+                                text "ダルモア商会の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3261,7 +3223,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1403]":
+                                text "ラッセル博士の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3270,7 +3232,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1404]":
+                                text "リラの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3279,7 +3241,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1405]":
+                                text "マオ婆さんの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3288,7 +3250,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1406]":
+                                text "メイベルの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3297,7 +3259,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1407]":
+                                text "ホテル《ローエンバウム》の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3306,7 +3268,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1408]":
+                                text "クロスベル警察学校の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3315,7 +3277,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1409]":
+                                text "イメルダ夫人の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3324,7 +3286,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1410]":
+                                text "ウルスラ病院の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3333,7 +3295,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1411]":
+                                text "《リジョンフード》の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3342,7 +3304,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1412]":
+                                text "アルモリカ村の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3351,7 +3313,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1413]":
+                                text "《ホテル・ミレニアム》の依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3360,7 +3322,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1414]":
+                                text "マイヤの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3369,7 +3331,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1415]":
+                                text "マルクの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3378,7 +3340,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1416]":
+                                text "ドナートの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3387,7 +3349,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1417]":
+                                text "カヌートの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3396,7 +3358,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1418]":
+                                text "セナの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3405,7 +3367,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1419]":
+                                text "クリントの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -3414,7 +3376,7 @@ screen episodelist():
                                 xysize(330,37)
                                 background Frame("booktab2")
                                 bottom_padding 4
-                                text "[text1420]":
+                                text "ルーシーの依頼":
                                     xalign 0.5
                                     ypos -2
                                     #size 10
@@ -7987,7 +7949,7 @@ screen quest0306():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text03069]\noptional (unused?)":
+                        text "中央工房の盗難事件(2) 3/7\noptional (unused?)":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg20110", locked=False)
@@ -27181,7 +27143,7 @@ screen quest1201():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1201]":
+                    text "準遊撃士・ナハトの奮闘記":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -27590,7 +27552,7 @@ screen quest1202():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1202]":
+                    text "ミシェル先生の特別レッスン":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -28109,7 +28071,7 @@ screen quest1207():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1207]":
+                    text "歩んでいく道の途中で":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -28255,7 +28217,7 @@ screen quest1209():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1209]":
+                    text "試験班の夏休み":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -28265,7 +28227,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12091]\n(2017.08.30)":
+                        text "試験班の夏休み 1/8\n(2017.08.30)":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1081", locked=False)
@@ -28274,7 +28236,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12092]":
+                        text "試験班の夏休み 2/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1082", locked=False)
@@ -28284,7 +28246,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12093]":
+                        text "試験班の夏休み 3/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1083", locked=False)
@@ -28293,7 +28255,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12094]":
+                        text "試験班の夏休み 4/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1084", locked=False)
@@ -28303,7 +28265,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12095]":
+                        text "試験班の夏休み 5/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1085", locked=False)
@@ -28312,7 +28274,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12096]":
+                        text "試験班の夏休み 6/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1086", locked=False)
@@ -28322,7 +28284,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12097]":
+                        text "試験班の夏休み 7/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1087", locked=False)
@@ -28331,7 +28293,7 @@ screen quest1209():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12098]":
+                        text "試験班の夏休み 8/8":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1088", locked=False)
@@ -28379,7 +28341,7 @@ screen quest1210():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1210]":
+                    text "第１回《ハロウィンフェス》":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -28616,7 +28578,7 @@ screen quest1211():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1211]":
+                    text "絵空の記憶":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -28896,7 +28858,7 @@ screen quest1214():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1214]":
+                    text "新米遊撃士のクリスマス":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -28906,7 +28868,7 @@ screen quest1214():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12141]\n(2020.12.17)":
+                        text "新米遊撃士のクリスマス 1/3\n(2020.12.17)":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1181", locked=False)
@@ -28915,7 +28877,7 @@ screen quest1214():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12142]":
+                        text "新米遊撃士のクリスマス 2/3":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1182", locked=False)
@@ -28925,7 +28887,7 @@ screen quest1214():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text12143]":
+                        text "新米遊撃士のクリスマス 3/3":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1183", locked=False)
@@ -31166,7 +31128,7 @@ screen quest1402():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1402]":
+                    text "ダルモア商会の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31252,7 +31214,7 @@ screen quest1403():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1403]":
+                    text "ラッセル博士の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31348,7 +31310,7 @@ screen quest1404():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1404]":
+                    text "リラの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31443,7 +31405,7 @@ screen quest1405():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1405]":
+                    text "マオ婆さんの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31557,7 +31519,7 @@ screen quest1406():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1406]":
+                    text "メイベルの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31662,7 +31624,7 @@ screen quest1407():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1407]":
+                    text "ホテル《ローエンバウム》の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31776,7 +31738,7 @@ screen quest1408():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1408]":
+                    text "クロスベル警察学校の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -31890,7 +31852,7 @@ screen quest1409():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1409]":
+                    text "イメルダ夫人の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32004,7 +31966,7 @@ screen quest1410():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1410]":
+                    text "ウルスラ病院の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32128,7 +32090,7 @@ screen quest1411():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1411]":
+                    text "《リジョンフード》の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32214,7 +32176,7 @@ screen quest1412():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1412]":
+                    text "アルモリカ村の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32300,7 +32262,7 @@ screen quest1413():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1413]":
+                    text "《ホテル・ミレニアム》の依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32405,7 +32367,7 @@ screen quest1414():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1414]":
+                    text "マイヤの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32528,7 +32490,7 @@ screen quest1415():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1415]":
+                    text "マルクの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32652,7 +32614,7 @@ screen quest1416():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1416]":
+                    text "ドナートの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32738,7 +32700,7 @@ screen quest1417():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1417]":
+                    text "カヌートの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32815,7 +32777,7 @@ screen quest1418():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1418]":
+                    text "セナの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32883,7 +32845,7 @@ screen quest1419():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1419]":
+                    text "クリントの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
@@ -32951,7 +32913,7 @@ screen quest1420():
                     xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
-                    text "[text1420]":
+                    text "ルーシーの依頼":
                         xalign (0.5)
                         ypos -2
                          #size 10
