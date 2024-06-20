@@ -28781,7 +28781,7 @@ screen quest1213():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[textdict[90232]]\n(2017.12.?? グランプリ受賞作品)":
+                        text "[textdict[90232]]\n作者：藤７８\n(2017.12 グランプリ受賞作品)":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1161", locked=False)
@@ -28790,7 +28790,7 @@ screen quest1213():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[textdict[90233]]\n(2017.12.?? 準グランプリ受賞作品)":
+                        text "[textdict[90233]]\n作者：トム6W\n(2017.12 準グランプリ受賞作品)":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1162", locked=False)
@@ -28800,7 +28800,7 @@ screen quest1213():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[textdict[90234]]\n(2017.12.?? ブレイサー賞受賞作品)":
+                        text "[textdict[90234]]\n作者：月紅\n(2017.12 ブレイサー賞受賞作品)":
                             align (0.5,0.5)
                             size 18
                         action Replay("avg1163", locked=False)

@@ -49,7 +49,8 @@ image backbutton:
 image bookpage:
     Crop((463,423,190,152), "atlas_JournalBeta.png")
 
-
+image altbutton:
+    Crop((635,340,322,51), "atlas_JournalBeta.png")
      
     
     

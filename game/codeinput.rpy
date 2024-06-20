@@ -1,5 +1,3 @@
-image white = "#ffffff"
-
 screen inputdescription():
     text 'Jump to a scene directly, by typing its avg code here.\n (Example) To jump to 遊撃士の認定試験 1/12, type "10001" (without quotes) and press enter\nTo exit, press enter without typing anything.':
         size 25
@@ -7,7 +5,7 @@ screen inputdescription():
 
 label codeinput:
 stop music
-scene white
+scene avg_bg_518
 
 python:
     while True:
