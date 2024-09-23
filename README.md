@@ -149,9 +149,6 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
  - Text may not fit, and either the frame or the text itself may need to be resized
    - for dialogue/character names, change the default text size in `game/gui.rpy`
    - for menus/buttons, the easiest way may be to edit `generate_scripts/4_make_menus.py`, then re-generate and replace the renpy menus
- - There are six strings of dialogue that appear in a certain cutscene that contain special formatting to change the text color.  This formatting is stripped from the strings by "loadinfo.rpy".  When editing those strings, either:
-   - Keep the formatting as-is, so it still will be stripped correctly
-   - or remove the line that strips the formatting from `game/loadinfo.rpy`
  - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
    - these buttons have their `strID` value set to `null`
    - edit the button's `name` value directly, then re-generate and replace the renpy menus

@@ -14,10 +14,14 @@ python early:
         ###a few strings have weird newline characters that create boxes with this font
         textstring = "\n".join(textstring.splitlines())
         
-        ###there is ONE cutscene that changes the text color for an NPC's dialogue
-        ###the formatting of the strings crashes renpy
-        filterlist = ['1132448', '1132449', '1132458', '1132459', '1132463', '1132464']
-        if textid in filterlist: textstring = textstring[8:-3]
+        ###remove formatting from some strings to keep it from showing up in the game
+        ###known examples: avg #10388
+        prefixlist = ['[339944]', '[334499]']
+        suffixlist = ['[-]']
+        for prefix in prefixlist:
+            if textstring.startswith(prefix): textstring = textstring[len(prefix):]
+        for suffix in suffixlist:
+            if textstring.endswith(suffix): textstring = textstring[:-len(suffix)]
         
         textdict[textid] = textstring
 
