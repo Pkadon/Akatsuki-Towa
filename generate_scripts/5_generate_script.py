@@ -348,8 +348,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				f.write(f"{portrait}\n")
 			#need the fade after all images are set up, before dialogue appears
 			if isClearModle == 1: f.write(f"with fade\n")
-			#then shake can be added if needed
+			#start with the speaker and dialogue
 			say = f"{speaker}{str(charPos)} '{dialogue}'"
+			#see if dialogue text needs to be resized
+			if contentSize != 20: say+= f' (what_size={contentSize})'
+			#then shake can be added if needed
 			if effect == 1: say+=' with Shake((0, 0, 0, 0), 0.5, dist=20)'
 			f.write(f"{say}\n")
 			
