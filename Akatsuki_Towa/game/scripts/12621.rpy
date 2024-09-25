@@ -107,7 +107,7 @@ hide c4portrait
 hide c239portrait
 show st040_01 1 as c239portrait at darkleft(-19), zorder 6
 show oc004_01 12 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1161871]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1161871]]' with shake
 hide c239portrait
 hide c4portrait
 show oc004_01 12 as c4portrait at darkright(-5), zorder 5
@@ -160,7 +160,7 @@ hide c3portrait
 hide c239portrait
 show st040_01 2 as c239portrait at darkleft(-19), zorder 6
 show oc004_01 12 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1161882]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1161882]]' with shake
 play sfx2 "other_7044.ogg"
 hide c239portrait
 hide c4portrait
@@ -187,7 +187,7 @@ play sfx2 "other_7087.ogg"
 hide c1308portrait
 show st062_01 1 as c1308portrait at darkright(-16), zorder 5
 show oc004_01 15 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1161890]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[1161890]]' with shake
 hide c4portrait
 hide c1308portrait
 show st062_01 1 as c1308portrait at darkright(-16), zorder 5

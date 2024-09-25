@@ -501,7 +501,7 @@ hide c1346portrait
 hide c2668portrait
 show oce04_01 4 as c2668portrait at darkright(-5), zorder 5
 show st063_01 3 as c1346portrait at leftside(-16), zorder 5
-c13461 '[textdict[1191483]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13461 '[textdict[1191483]]' with shake
 scene avg_bg_070
 with fade
 c00 '[textdict[1191484]]'

@@ -71,7 +71,7 @@ c5001 '[textdict[1190768]]'
 scene avg_bg_036
 show memoryoverlay zorder 2
 with fade
-c26541 '[textdict[1190769]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26541 '[textdict[1190769]]' with shake
 show memoryoverlay zorder 2
 c26541 '[textdict[1190770]]'
 show memoryoverlay zorder 2
@@ -118,7 +118,7 @@ c26561 '[textdict[1190790]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7079.ogg"
 with fade
-c13091 '[textdict[1190791]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13091 '[textdict[1190791]]' with shake
 show memoryoverlay zorder 2
 c14881 '[textdict[1190792]]'
 show memoryoverlay zorder 2
@@ -167,7 +167,7 @@ play music "ed7200.ogg"
 scene avg_bg_040
 hide memoryoverlay
 with fade
-c26561 '[textdict[1190814]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26561 '[textdict[1190814]]' with shake
 c26561 '[textdict[1190815]]'
 c26571 '[textdict[1190816]]'
 c26561 '[textdict[1190817]]'
@@ -222,7 +222,7 @@ show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
 c14281 '[textdict[1190842]]'
 hide c2668portrait
 show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
-c26683 '[textdict[1190843]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26683 '[textdict[1190843]]' with shake
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
 c14281 '[textdict[1190844]]'

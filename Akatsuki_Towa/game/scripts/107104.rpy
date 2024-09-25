@@ -241,7 +241,7 @@ c00 '[textdict[1179742]]'
 stop music
 play sfx2 "fight_6009.ogg"
 show oc004_01 15 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1179743]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1179743]]' with shake
 stop music
 hide c4portrait
 c00 '[textdict[1179744]]'
@@ -274,7 +274,7 @@ hide c8portrait
 c00 '[textdict[1179750]]'
 play sfx2 "fight_6024.ogg"
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1179751]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1179751]]' with shake
 hide c1portrait
 show oc001_01 19 as c1portrait at darkright(-2), zorder 5
 show st056_01 1 as c1349portrait at leftside(-6), zorder 5
@@ -341,5 +341,5 @@ hide c3portrait
 c00 '[textdict[1179766]]'
 play sfx2 "fight_6025.ogg"
 show oc003_01 9 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1179767]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c31 '[textdict[1179767]]' with shake
 return

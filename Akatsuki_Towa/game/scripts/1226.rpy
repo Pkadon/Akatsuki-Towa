@@ -111,7 +111,7 @@ c27021 '[textdict[2110898]]'
 hide c2702portrait
 hide c2701portrait
 show oca01_01 20 as c2701portrait at darkright(-2), zorder 5
-c6211 '[textdict[2110899]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6211 '[textdict[2110899]]' (what_size=23) with shake
 hide c2701portrait
 show oca01_01 20 as c2701portrait at darkright(-2), zorder 5
 c27151 '[textdict[2110900]]'
@@ -120,10 +120,10 @@ show oca01_01 14 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110901]]'
 hide c2701portrait
 show oca01_01 14 as c2701portrait at darkright(-2), zorder 5
-c6211 '[textdict[2110902]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6211 '[textdict[2110902]]' (what_size=23) with shake
 hide c2701portrait
 show oca01_01 14 as c2701portrait at darkright(-2), zorder 5
-c6211 '[textdict[2110903]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6211 '[textdict[2110903]]' (what_size=23) with shake
 hide c2701portrait
 show oca01_01 14 as c2701portrait at darkright(-2), zorder 5
 show sca44_01 4 as c2705portrait at leftside(-7), shakeleft, zorder 5
@@ -139,7 +139,7 @@ hide c2701portrait
 hide c2705portrait
 show sca44_01 4 as c2705portrait at darkleft(-7), zorder 6
 show oca01_01 9 as c2701portrait at rightside(-2), zorder 5
-c27013 '[textdict[2110906]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27013 '[textdict[2110906]]' (what_size=25) with shake
 scene avg_bg_079
 show memoryoverlay zorder 2
 with fade
@@ -223,7 +223,7 @@ hide c2701portrait
 hide c2702portrait
 show oca02_01 9 as c2702portrait at darkleft(-3), zorder 6
 show oca01_01 14 as c2701portrait at rightside(-2), zorder 5
-c27013 '[textdict[2110926]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27013 '[textdict[2110926]]' with shake
 hide c2702portrait
 hide c2701portrait
 c00 '[textdict[2110927]]'
@@ -409,7 +409,7 @@ c27021 '[textdict[2110968]]'
 show memoryoverlay zorder 2
 hide c2702portrait
 show oca02_01 2 as c2702portrait at darkleft(-3), zorder 6
-c13 '[textdict[2110969]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2110969]]' with shake
 scene avg_bg_036
 hide memoryoverlay
 with fade

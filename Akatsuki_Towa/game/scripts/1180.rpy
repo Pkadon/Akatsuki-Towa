@@ -204,7 +204,7 @@ hide c1portrait
 c00 '[textdict[2106481]]'
 play sfx2 "fight_6023.ogg"
 show sc014_01 4 as c632portrait at leftside(-6), zorder 5
-c6321 '[textdict[2106482]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6321 '[textdict[2106482]]' with shake
 play sfx2 "fight_6001.ogg"
 hide c632portrait
 show sc014_01 4 as c632portrait at leftsidemidback(-6), zorder 5

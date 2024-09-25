@@ -218,7 +218,7 @@ play sfxvoice "avg_vocal_ch06.ogg"
 hide c1portrait
 hide c4portrait
 show oc004_01 23 as c4portrait at darkright(-5), zorder 5
-c10811 '[textdict[1133033]]' (what_size=28) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10811 '[textdict[1133033]]' (what_size=28) with shake
 hide c4portrait
 show oc004_01 8 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133034]]'

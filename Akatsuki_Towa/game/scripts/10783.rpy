@@ -103,7 +103,7 @@ play music "ed7511.ogg"
 hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 show st061_01 4 as c1304portrait at leftside(-2), zorder 5
-c13041 '[textdict[1177358]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13041 '[textdict[1177358]]' with shake
 play sfx2 "fight_6025.ogg"
 hide c1304portrait
 hide c1portrait

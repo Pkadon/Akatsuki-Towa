@@ -65,7 +65,7 @@ show oc003_01 17 as c3portrait at darkright(-6), zorder 5
 c25951 '[textdict[1189280]]'
 hide c3portrait
 show oc003_01 17 as c3portrait at darkright(-6), zorder 5
-c14821 '[textdict[1189281]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14821 '[textdict[1189281]]' with shake
 hide c3portrait
 show oc003_01 17 as c3portrait at darkright(-6), zorder 5
 show st065_01 1 as c1468portrait at leftside(-6), zorder 5
@@ -309,7 +309,7 @@ c41 '[textdict[1189339]]'
 play sfx2 "other_7018.ogg"
 hide c4portrait
 hide c1304portrait
-c00 '[textdict[1189340]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1189340]]' with shake
 show oc001_01 12 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[1189341]]'
 hide c1portrait

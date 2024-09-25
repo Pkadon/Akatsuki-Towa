@@ -83,7 +83,7 @@ c26601 '[textdict[2113174]]' (what_size=23)
 stop music
 hide c2667portrait
 show ocd03_01 18 as c2667portrait at darkright(-6), zorder 5
-c26601 '[textdict[2113175]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26601 '[textdict[2113175]]' (what_size=23) with shake
 stop music
 hide c2667portrait
 show ocd03_01 4 as c2667portrait at rightside(-6), shakeright, zorder 5
@@ -292,7 +292,7 @@ stop music
 play sfx2 "other_7011.ogg"
 hide c2669portrait
 hide c2667portrait
-c00 '[textdict[2113230]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2113230]]' (what_size=24) with shake
 stop music
 play sfx2 "other_7011.ogg"
 show ocd03_01 12 as c2667portrait at rightside(-6), zorder 5

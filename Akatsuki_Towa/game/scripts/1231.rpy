@@ -5,7 +5,7 @@ play music "ed7561.ogg"
 scene avg_bg_070
 with fade
 play sfx2 "other_7028.ogg"
-c5001 '[textdict[2111507]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[2111507]]' (what_size=25) with shake
 play sfx2 "other_7028.ogg"
 c5001 '[textdict[2111508]]'
 play sfx2 "other_7028.ogg"
@@ -19,7 +19,7 @@ c5001 '[textdict[2111512]]'
 play sfx2 "other_7027.ogg"
 c5001 '[textdict[2111513]]'
 c5001 '[textdict[2111514]]'
-c27421 '[textdict[2111515]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27421 '[textdict[2111515]]' (what_size=25) with shake
 c5001 '[textdict[2111516]]'
 c5001 '[textdict[2111517]]'
 play sfx2 "other_7051.ogg"
@@ -204,7 +204,7 @@ c5001 '[textdict[2111555]]'
 stop music
 hide c47portrait
 show sc040_01 6 as c47portrait at darkright(-9), zorder 5
-c27411 '[textdict[2111556]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27411 '[textdict[2111556]]' with shake
 stop music
 hide c47portrait
 show sc040_01 6 as c47portrait at darkright(-9), zorder 5
@@ -251,7 +251,7 @@ c473 '[textdict[2111566]]'
 stop music
 hide c47portrait
 show sc040_01 6 as c47portrait at darkright(-9), zorder 5
-c27411 '[textdict[2111567]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27411 '[textdict[2111567]]' with shake
 play music "ed7124.ogg"
 play sfx2 "other_7092.ogg"
 hide c47portrait

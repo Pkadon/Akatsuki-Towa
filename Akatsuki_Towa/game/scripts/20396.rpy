@@ -35,7 +35,7 @@ hide c2portrait
 c10522 '[textdict[1132691]]'
 stop music
 show oc004_01 13 as c4portrait at centerpos(-5), zorder 5
-c42 '[textdict[1132692]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c42 '[textdict[1132692]]' with shake
 stop music
 hide c4portrait
 show uc003_04 5 as c1051portrait at centerpos(-14), zorder 5
@@ -43,8 +43,8 @@ c10512 '[textdict[1132693]]'
 play music "ed7510.ogg"
 hide c1051portrait
 c00 '[textdict[1132694]]'
-c10532 '[textdict[1132695]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
-c10532 '[textdict[1132696]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10532 '[textdict[1132695]]' with shake
+c10532 '[textdict[1132696]]' with shake
 show oc003_01 21 as c3portrait at centerpos(-6), zorder 5
 c32 '[textdict[1132697]]'
 hide c3portrait
@@ -66,7 +66,7 @@ hide c1051portrait
 show uc003_04 1 as c1045portrait at centerpos(-14), zorder 5
 c10452 '[textdict[1132705]]'
 hide c1045portrait
-c10542 '[textdict[1132706]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10542 '[textdict[1132706]]' with shake
 show uc003_04 5 as c1051portrait at centerpos(-14), zorder 5
 c10512 '[textdict[1132707]]'
 hide c1051portrait

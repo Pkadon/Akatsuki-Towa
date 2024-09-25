@@ -20,7 +20,7 @@ hide c4portrait
 hide c1portrait
 play sfx2 "other_7080.ogg"
 with fade
-c10531 '[textdict[1141509]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10531 '[textdict[1141509]]' (what_size=24) with shake
 play sfxvoice "avg_vocal_ro02.ogg"
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 with fade

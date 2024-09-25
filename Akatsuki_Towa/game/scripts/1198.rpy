@@ -317,7 +317,7 @@ scene avg_bg_080
 with fade
 play sfx2 "other_7079.ogg"
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2107752]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2107752]]' with shake
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5

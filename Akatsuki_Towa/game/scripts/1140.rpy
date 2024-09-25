@@ -82,7 +82,7 @@ play music "ed7571.ogg"
 scene avg_bg_019
 with fade
 play sfx2 "fight_6002.ogg"
-c25271 '[textdict[2104039]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25271 '[textdict[2104039]]' with shake
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104040]]'
@@ -92,7 +92,7 @@ c13 '[textdict[2104041]]'
 play sfx2 "fight_6002.ogg"
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
-c25271 '[textdict[2104042]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25271 '[textdict[2104042]]' with shake
 hide c1portrait
 c00 '[textdict[2104043]]'
 c00 '[textdict[2104044]]'
@@ -107,7 +107,7 @@ c13 '[textdict[2104047]]'
 play sfx2 "fight_6002.ogg"
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
-c25271 '[textdict[2104048]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25271 '[textdict[2104048]]' with shake
 hide c1portrait
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104049]]'
@@ -138,7 +138,7 @@ c13 '[textdict[2104059]]'
 play sfx2 "fight_6002.ogg"
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c25271 '[textdict[2104060]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25271 '[textdict[2104060]]' with shake
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104061]]'
@@ -366,7 +366,7 @@ play sfx2 "fight_6003.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 14 as c1portrait at darkright(-2), zorder 5
-c21 '[textdict[2104114]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[2104114]]' with shake
 hide c1portrait
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104115]]'

@@ -194,7 +194,7 @@ hide c1portrait
 hide c3portrait
 show oc003_01 12 as c3portrait at darkleft(-6), zorder 6
 show oc004_01 14 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1143660]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1143660]]' (what_size=24) with shake
 hide c3portrait
 hide c4portrait
 show oc004_01 14 as c4portrait at darkright(-5), zorder 5

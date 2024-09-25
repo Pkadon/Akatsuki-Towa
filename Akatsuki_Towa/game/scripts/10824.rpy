@@ -384,7 +384,7 @@ c51 '[textdict[1184889]]'
 play sfx2 "fight_6015.ogg"
 hide c5portrait
 hide c3portrait
-c00 '[textdict[1184890]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1184890]]' with shake
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1184891]]'
 play sfx2 "elc_5002.ogg"
@@ -685,7 +685,7 @@ play sfx2 "other_7011.ogg"
 hide c5portrait
 c00 '[textdict[1184977]]'
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1184978]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1184978]]' with shake
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 show oc005_01 22 as c5portrait at leftside(-6), zorder 5

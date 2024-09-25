@@ -100,13 +100,13 @@ scene avg_bg_001
 with fade
 play sfx2 "other_7087.ogg"
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1131595]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[1131595]]' (what_size=24) with shake
 hide c4portrait
 show oc004_01 7 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1131596]]'
 hide c4portrait
 show oc004_01 7 as c4portrait at darkleft(-5), zorder 6
-c10273 '[textdict[1131597]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10273 '[textdict[1131597]]' with shake
 hide c4portrait
 show oc004_01 7 as c4portrait at darkleft(-5), zorder 6
 c10283 '[textdict[1131598]]'

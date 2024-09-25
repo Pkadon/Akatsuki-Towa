@@ -245,7 +245,7 @@ hide c2668portrait
 hide c238portrait
 show st039_01 4 as c238portrait at darkleft(-6), zorder 6
 show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
-c26683 '[textdict[2112839]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26683 '[textdict[2112839]]' with shake
 hide c238portrait
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5

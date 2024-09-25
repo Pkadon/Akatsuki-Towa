@@ -125,7 +125,7 @@ hide c610portrait
 hide c73portrait
 show sc071_01 3 as c73portrait at darkright(-20), zorder 5
 show st029_01 3 as c610portrait at leftside(-28), zorder 5
-c6101 '[textdict[2107870]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6101 '[textdict[2107870]]' (what_size=24) with shake
 stop music
 hide c610portrait
 hide c73portrait
@@ -287,7 +287,7 @@ play sfx2 "other_7087.ogg"
 hide c73portrait
 show sc071_01 4 as c73portrait at darkright(-20), zorder 5
 show st029_01 5 as c610portrait at leftside(-28), zorder 5
-c6101 '[textdict[2107905]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6101 '[textdict[2107905]]' with shake
 hide c73portrait
 hide c610portrait
 show st029_01 5 as c610portrait at darkleft(-28), zorder 6

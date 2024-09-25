@@ -260,7 +260,7 @@ c26973 '[textdict[2109948]]'
 play sfx2 "other_7062.ogg"
 hide c2697portrait
 show oca04_01 24 as c2697portrait at darkright(-5), zorder 5
-c26791 '[textdict[2109949]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26791 '[textdict[2109949]]' with shake
 play sfx2 "other_7062.ogg"
 hide c2697portrait
 show oca04_01 24 as c2697portrait at darkright(-5), zorder 5

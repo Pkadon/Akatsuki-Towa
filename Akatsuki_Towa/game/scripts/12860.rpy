@@ -99,7 +99,7 @@ c00 '[textdict[1188942]]'
 play music "ed7511.ogg"
 c00 '[textdict[1188943]]'
 play sfx2 "other_7079.ogg"
-c26091 '[textdict[1188944]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26091 '[textdict[1188944]]' with shake
 c15321 '[textdict[1188945]]'
 c15321 '[textdict[1188946]]'
 show st061_01 1 as c1304portrait at rightside(-2), zorder 5
@@ -122,7 +122,7 @@ show st061_01 5 as c1304portrait at darkright(-2), zorder 5
 c15321 '[textdict[1188951]]'
 hide c1304portrait
 show st061_01 5 as c1304portrait at darkright(-2), zorder 5
-c15321 '[textdict[1188952]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15321 '[textdict[1188952]]' with shake
 hide c1304portrait
 show st061_01 5 as c1304portrait at darkright(-2), zorder 5
 show oc003_01 12 as c3portrait at leftside(-6), zorder 5

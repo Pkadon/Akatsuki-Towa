@@ -13,7 +13,7 @@ play sfx2 "other_7087.ogg"
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[2102381]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[2102381]]' with shake
 hide c4portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
@@ -28,7 +28,7 @@ hide c4portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
 show oc004_01 9 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[2102384]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[2102384]]' with shake
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c2portrait
 hide c4portrait

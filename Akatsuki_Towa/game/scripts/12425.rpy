@@ -92,7 +92,7 @@ c21 '[textdict[1142981]]'
 hide c2portrait
 show oc002_01 3 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142982]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1142982]]' with shake
 hide c2portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
@@ -118,7 +118,7 @@ stop music
 hide c3portrait
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
-c10541 '[textdict[1142987]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10541 '[textdict[1142987]]' with shake
 play music "ed7511.ogg"
 play sfxvoice "avg_vocal_ro16.ogg"
 hide c1portrait
@@ -153,5 +153,5 @@ c13 '[textdict[1142993]]'
 hide c2portrait
 hide c1portrait
 show oc001_01 13 as c1portrait at darkright(-2), zorder 5
-c10541 '[textdict[1142994]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10541 '[textdict[1142994]]' with shake
 return

@@ -22,7 +22,7 @@ c2393 '[textdict[1150538]]'
 hide c239portrait
 show st040_01 3 as c239portrait at darkright(-19), zorder 5
 show st041_01 4 as c240portrait at leftside(-1), zorder 5
-c2401 '[textdict[1150539]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2401 '[textdict[1150539]]' with shake
 hide c239portrait
 hide c240portrait
 show st041_01 4 as c240portrait at darkleft(-1), zorder 6

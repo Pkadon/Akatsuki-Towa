@@ -33,7 +33,7 @@ c11503 '[textdict[1143097]]'
 c10901 '[textdict[1143098]]'
 c10901 '[textdict[1143099]]'
 c11503 '[textdict[1143100]]'
-c10901 '[textdict[1143101]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10901 '[textdict[1143101]]' with shake
 show oc002_01 6 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1143102]]'
 hide c2portrait

@@ -109,7 +109,7 @@ hide c3portrait
 c00 '[textdict[1179793]]'
 play sfx2 "other_7087.ogg"
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1179794]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[1179794]]' with shake
 scene avg_bg_506
 with fade
 play sfx2 "other_7017.ogg"

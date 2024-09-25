@@ -231,7 +231,7 @@ show st029_01 5 as c610portrait at leftside(-28), shakeleft, zorder 5
 c6101 '[textdict[2108164]]'
 play sfx2 "other_7062.ogg"
 hide c610portrait
-c00 '[textdict[2108165]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2108165]]' with shake
 play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108166]]'
 play sfx2 "other_7062.ogg"
@@ -392,7 +392,7 @@ c2401 '[textdict[2108200]]'
 play music "ED6108.ogg"
 hide c240portrait
 show st041_01 1 as c240portrait at leftside(-1), zorder 5
-c2401 '[textdict[2108201]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2401 '[textdict[2108201]]' with shake
 play sfx2 "other_7062.ogg"
 hide c240portrait
 c26791 '[textdict[2108202]]'

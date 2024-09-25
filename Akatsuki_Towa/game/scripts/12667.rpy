@@ -33,7 +33,7 @@ play sfx2 "other_7007.ogg"
 hide c4portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
-c13671 '[textdict[1166651]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13671 '[textdict[1166651]]' with shake
 play sfx2 "fight_6022.ogg"
 hide c1portrait
 c00 '[textdict[1166652]]'

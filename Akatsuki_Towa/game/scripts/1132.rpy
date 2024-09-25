@@ -188,7 +188,7 @@ hide c1portrait
 c00 '[textdict[2103272]]'
 c00 '[textdict[2103273]]'
 show sca33_01 1 as c2525portrait at leftside(3), zorder 5
-c25251 '[textdict[2103274]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25251 '[textdict[2103274]]' with shake
 hide c2525portrait
 show sca33_01 1 as c2525portrait at darkleft(3), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5

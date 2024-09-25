@@ -117,7 +117,7 @@ hide c4portrait
 hide c3portrait
 show oc003_01 6 as c3portrait at darkleft(-6), zorder 6
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[2101912]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[2101912]]' with shake
 play sfx2 "fight_6010.ogg"
 play sfxvoice "bcv_oc003_hurt_01.ogg"
 hide c3portrait

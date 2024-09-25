@@ -154,12 +154,12 @@ play music "ed7510.ogg"
 play sfx2 "elc_5006.ogg"
 hide c7portrait
 show oc007_01 3 as c7portrait at leftside(-24), zorder 5
-c71 '[textdict[1188276]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c71 '[textdict[1188276]]' with shake
 play sfx2 "elc_5006.ogg"
 hide c7portrait
 show oc007_01 3 as c7portrait at darkleft(-24), zorder 6
 show oc008_01 3 as c8portrait at rightside(-5), zorder 5
-c83 '[textdict[1188277]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c83 '[textdict[1188277]]' with shake
 play sfx2 "other_7057.ogg"
 hide c7portrait
 hide c8portrait
@@ -183,7 +183,7 @@ c13493 '[textdict[1188282]]'
 play sfx2 "fight_6016.ogg"
 hide c7portrait
 hide c1349portrait
-c00 '[textdict[1188283]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1188283]]' with shake
 show oc007_01 3 as c7portrait at leftside(-24), shakeleft, zorder 5
 c71 '[textdict[1188284]]'
 hide c7portrait
@@ -256,7 +256,7 @@ hide c1portrait
 hide c7portrait
 show oc007_01 1 as c7portrait at darkleft(-24), zorder 6
 show st061_01 4 as c1304portrait at rightside(-2), zorder 5
-c13043 '[textdict[1188301]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13043 '[textdict[1188301]]' with shake
 play sfx2 "other_7018.ogg"
 hide c7portrait
 hide c1304portrait
@@ -289,7 +289,7 @@ show oc007_01 4 as c7portrait at darkleft(-24), zorder 6
 c15313 '[textdict[1188310]]'
 hide c7portrait
 show oc007_01 4 as c7portrait at darkleft(-24), zorder 6
-c15323 '[textdict[1188311]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15323 '[textdict[1188311]]' with shake
 hide c7portrait
 c00 '[textdict[1188312]]'
 show oc003_01 12 as c3portrait at rightside(-6), zorder 5
@@ -352,7 +352,7 @@ play sfx2 "fight_6002.ogg"
 hide c7portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
-c15351 '[textdict[1188325]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15351 '[textdict[1188325]]' with shake
 hide c1portrait
 c00 '[textdict[1188326]]'
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5

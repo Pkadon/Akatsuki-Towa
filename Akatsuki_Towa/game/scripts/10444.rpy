@@ -126,7 +126,7 @@ c41 '[textdict[1141885]]'
 scene avg_bg_062
 with fade
 play sfx2 "other_7033.ogg"
-c11213 '[textdict[1141886]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11213 '[textdict[1141886]]' with shake
 show uc003_04 3 as c1116portrait at rightside(-14), shakeright, zorder 5
 c11163 '[textdict[1141887]]'
 hide c1116portrait

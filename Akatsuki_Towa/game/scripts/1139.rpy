@@ -154,7 +154,7 @@ c2051 '[textdict[2103906]]'
 hide c205portrait
 show st005_01 5 as c205portrait at darkleft(4), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2103907]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2103907]]' with shake
 hide c205portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
@@ -496,7 +496,7 @@ play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_na08.ogg"
 hide c1portrait
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2103996]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2103996]]' with shake
 hide c1portrait
 c00 '[textdict[2103997]]'
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5

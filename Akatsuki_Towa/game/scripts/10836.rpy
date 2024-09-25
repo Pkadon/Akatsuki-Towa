@@ -414,7 +414,7 @@ scene avg_bg_003
 with fade
 c14523 '[textdict[1187407]]'
 show oc005_01 3 as c5portrait at leftside(-6), zorder 5
-c51 '[textdict[1187408]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[1187408]]' with shake
 hide c5portrait
 show oc005_01 3 as c5portrait at darkleft(-6), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
@@ -449,7 +449,7 @@ c51 '[textdict[1187416]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7018.ogg"
-c00 '[textdict[1187417]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1187417]]' with shake
 scene avg_bg_221
 with fade
 show oc002_01 20 as c2portrait at leftsideentrance(-3), zorder 5

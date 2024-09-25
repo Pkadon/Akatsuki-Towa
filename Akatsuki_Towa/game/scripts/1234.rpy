@@ -144,7 +144,7 @@ c481 '[textdict[2111973]]'
 stop music
 hide c45portrait
 hide c48portrait
-c5000 '[textdict[2111974]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5000 '[textdict[2111974]]' (what_size=25) with shake
 stop music
 show sc038_01 2 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2111975]]'
@@ -374,7 +374,7 @@ show sc038_01 4 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2112035]]'
 hide c45portrait
 show sc038_01 4 as c45portrait at darkright(-1), zorder 5
-c27591 '[textdict[2112036]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27591 '[textdict[2112036]]' with shake
 hide c45portrait
 show sc038_01 3 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2112037]]'

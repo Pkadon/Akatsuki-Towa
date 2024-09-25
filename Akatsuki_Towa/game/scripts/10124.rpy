@@ -85,7 +85,7 @@ hide c504portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show st000_01 3 as c504portrait at leftside(-9), zorder 5
-c5041 '[textdict[1000251]]' (what_size=28) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5041 '[textdict[1000251]]' (what_size=28) with shake
 hide c1portrait
 hide c504portrait
 show st000_01 3 as c504portrait at darkleft(-9), zorder 6

@@ -46,10 +46,10 @@ c13 '[textdict[1131669]]'
 play sfx2 "other_7012.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1131670]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1131670]]' with shake
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 21 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1131671]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1131671]]' with shake
 play sfxvoice "avg_vocal_li18.ogg"
 hide c2portrait
 show oc004_01 17 as c4portrait at leftside(-5), zorder 5

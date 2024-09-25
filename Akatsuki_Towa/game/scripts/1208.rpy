@@ -178,7 +178,7 @@ hide c39portrait
 hide c17portrait
 show sc009_01 3 as c17portrait at darkleft(-13), zorder 6
 show sc024_01 4 as c32portrait at rightside(-14), zorder 5
-c323 '[textdict[2108829]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c323 '[textdict[2108829]]' with shake
 hide c17portrait
 hide c32portrait
 show sc024_01 4 as c32portrait at darkright(-14), zorder 5
@@ -251,7 +251,7 @@ hide c40portrait
 hide c38portrait
 show sc030_01 2 as c38portrait at darkleft(-12), zorder 6
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[2108843]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108843]]' with shake
 play music "ED6107.ogg"
 hide c38portrait
 hide c39portrait
@@ -395,7 +395,7 @@ c2401 '[textdict[2108874]]'
 play sfx2 "other_7062.ogg"
 hide c240portrait
 show st041_01 5 as c240portrait at darkleft(-1), zorder 6
-c26793 '[textdict[2108875]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26793 '[textdict[2108875]]' with shake
 hide c240portrait
 show st041_01 1 as c240portrait at leftside(-1), zorder 5
 c2401 '[textdict[2108876]]'
@@ -496,7 +496,7 @@ c6101 '[textdict[2108896]]'
 stop music
 hide c610portrait
 show st029_01 5 as c610portrait at leftside(-28), zorder 5
-c6101 '[textdict[2108897]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6101 '[textdict[2108897]]' with shake
 stop music
 hide c610portrait
 show st029_01 5 as c610portrait at darkleft(-28), zorder 6

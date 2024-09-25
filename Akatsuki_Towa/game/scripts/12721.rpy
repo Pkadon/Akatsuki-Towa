@@ -258,7 +258,7 @@ c23 '[textdict[1171493]]'
 play music "ed7518.ogg"
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
-c5221 '[textdict[1171494]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5221 '[textdict[1171494]]' with shake
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
 c14161 '[textdict[1171495]]'

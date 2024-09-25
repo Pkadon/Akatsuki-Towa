@@ -147,7 +147,7 @@ hide c2portrait
 hide c8portrait
 show oc008_01 1 as c8portrait at darkright(-5), zorder 5
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1170290]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1170290]]' with shake
 scene avg_bg_061
 with fade
 show oc001_01 19 as c1portrait at rightside(-2), shakeright, zorder 5

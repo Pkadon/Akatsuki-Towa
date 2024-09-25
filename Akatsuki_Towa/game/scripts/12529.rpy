@@ -12,7 +12,7 @@ c131 '[textdict[1151536]]'
 hide c13portrait
 show sc005_01 4 as c13portrait at darkleft(-17), zorder 6
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1151537]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c23 '[textdict[1151537]]' with shake
 hide c2portrait
 hide c13portrait
 show sc005_01 4 as c13portrait at darkleft(-17), zorder 6

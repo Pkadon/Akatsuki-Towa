@@ -98,7 +98,7 @@ hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1134002]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1134002]]' with shake
 play sfx2 "bat_arts_wt02_2.ogg"
 hide c2portrait
 hide c1portrait

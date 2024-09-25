@@ -189,7 +189,7 @@ hide c1304portrait
 show st061_01 2 as c1304portrait at darkright(-2), zorder 5
 c25541 '[textdict[1183994]]'
 show st061_01 2 as c1304portrait at leftside(-2), zorder 5
-c13041 '[textdict[1183995]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13041 '[textdict[1183995]]' with shake
 hide c1304portrait
 show st061_01 2 as c1304portrait at darkleft(-2), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
@@ -199,7 +199,7 @@ hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 c25541 '[textdict[1183997]]'
 hide c1portrait
-c00 '[textdict[1183998]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1183998]]' with shake
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183999]]'
 scene avg_bg_207

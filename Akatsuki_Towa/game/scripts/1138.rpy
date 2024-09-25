@@ -364,7 +364,7 @@ play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_na09_b.ogg"
 hide c1portrait
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2103845]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2103845]]' with shake
 hide c1portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103846]]'

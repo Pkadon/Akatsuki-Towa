@@ -62,7 +62,7 @@ hide c1portrait
 hide c71portrait
 show sc067_01 2 as c71portrait at darkleft(-38), zorder 6
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1128158]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1128158]]' (what_size=24) with shake
 hide c1portrait
 hide c71portrait
 show sc067_01 2 as c71portrait at darkleft(-38), zorder 6
@@ -94,7 +94,7 @@ with fade
 play sfx2 "other_7057.ogg"
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1128164]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1128164]]' with shake
 scene avg_bg_017
 with fade
 play sfx2 "other_7088.ogg"

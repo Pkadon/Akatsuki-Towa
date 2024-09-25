@@ -642,7 +642,7 @@ hide c1portrait
 play sfx2 "other_7087.ogg"
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
 with fade
-c43 '[textdict[1160944]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1160944]]' with shake
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 show st039_01 4 as c238portrait at leftside(-6), zorder 5

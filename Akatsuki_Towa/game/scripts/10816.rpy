@@ -282,7 +282,7 @@ show oc005_01 22 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1182526]]'
 play sfx2 "other_7058.ogg"
 hide c5portrait
-c00 '[textdict[1182527]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1182527]]' with shake
 play sfx2 "other_7058.ogg"
 show oc005_01 4 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1182528]]'
@@ -294,7 +294,7 @@ c23 '[textdict[1182529]]'
 play sfx2 "other_7058.ogg"
 hide c5portrait
 hide c2portrait
-c00 '[textdict[1182530]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1182530]]' with shake
 play sfx2 "other_7017.ogg"
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1182531]]'
@@ -320,28 +320,28 @@ hide c3portrait
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 show oc005_01 7 as c5portrait at leftside(-6), zorder 5
-c51 '[textdict[1182535]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[1182535]]' with shake
 stop music
 play sfx2 "other_7011.ogg"
 hide c5portrait
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 show oc005_01 7 as c5portrait at leftside(-6), zorder 5
-c51 '[textdict[1182536]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[1182536]]' with shake
 stop music
 play sfx2 "other_7011.ogg"
 hide c4portrait
 hide c5portrait
 show oc005_01 7 as c5portrait at darkleft(-6), zorder 6
 show oc004_01 3 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1182537]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1182537]]' with shake
 play music "ed7511.ogg"
 play sfx2 "other_7011.ogg"
 hide c5portrait
 hide c4portrait
 show oc004_01 3 as c4portrait at darkright(-5), zorder 5
 show oc005_01 22 as c5portrait at leftside(-6), zorder 5
-c51 '[textdict[1182538]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[1182538]]' with shake
 scene avg_bg_070
 with fade
 c00 '[textdict[1182539]]'

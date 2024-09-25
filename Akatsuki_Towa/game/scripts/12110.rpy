@@ -58,7 +58,7 @@ c31 '[textdict[1128101]]'
 hide c232portrait
 hide c3portrait
 show oc003_01 2 as c3portrait at darkleft(-6), zorder 6
-c5383 '[textdict[1128102]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5383 '[textdict[1128102]]' (what_size=24) with shake
 hide c3portrait
 show oc003_01 2 as c3portrait at darkleft(-6), zorder 6
 show st033_01 3 as c232portrait at rightside(-7), zorder 5

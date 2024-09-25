@@ -114,7 +114,7 @@ with fade
 c2361 '[textdict[1141924]]'
 hide c236portrait
 show st037_01 4 as c236portrait at darkleft(-10), zorder 6
-c11123 '[textdict[1141925]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11123 '[textdict[1141925]]' with shake
 hide c236portrait
 with fade
 c10263 '[textdict[1141926]]'
@@ -148,7 +148,7 @@ hide c55portrait
 hide c1139portrait
 show uc003_04 3 as c1139portrait at darkright(-14), zorder 5
 show sc048_01 4 as c55portrait at leftside(-7), zorder 5
-c551 '[textdict[1141933]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c551 '[textdict[1141933]]' with shake
 play sfx2 "other_7057.ogg"
 hide c1139portrait
 hide c55portrait

@@ -798,7 +798,7 @@ hide c239portrait
 hide c238portrait
 show st039_01 4 as c238portrait at darkleft(-6), zorder 6
 show oc004_01 16 as c1101portrait at rightside(-5), zorder 5
-c11013 '[textdict[1140161]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11013 '[textdict[1140161]]' with shake
 hide c238portrait
 hide c1101portrait
 show oc004_01 16 as c1101portrait at darkright(-5), zorder 5

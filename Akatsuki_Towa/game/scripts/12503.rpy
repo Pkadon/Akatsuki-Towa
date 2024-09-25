@@ -140,7 +140,7 @@ hide c1212portrait
 hide c1211portrait
 show st057_01 1 as c1211portrait at darkright(-16), zorder 5
 show st056_01 2 as c1212portrait at leftside(-6), zorder 5
-c12121 '[textdict[1150760]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12121 '[textdict[1150760]]' with shake
 hide c1211portrait
 hide c1212portrait
 show st056_01 2 as c1212portrait at darkleft(-6), zorder 6

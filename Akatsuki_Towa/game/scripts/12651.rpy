@@ -279,7 +279,7 @@ play music "ed7151.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
-c13321 '[textdict[1163777]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13321 '[textdict[1163777]]' with shake
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 c13331 '[textdict[1163778]]'

@@ -95,7 +95,7 @@ hide c3portrait
 hide c4portrait
 c00 '[textdict[2101799]]'
 play sfx2 "fight_6016.ogg"
-c00 '[textdict[2101800]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2101800]]' with shake
 play sfx2 "other_7016.ogg"
 show oc004_01 9 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[2101801]]'
@@ -107,7 +107,7 @@ hide c2portrait
 hide c4portrait
 show oc004_01 9 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2101803]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2101803]]' with shake
 hide c4portrait
 hide c1portrait
 c00 '[textdict[2101804]]'
@@ -118,7 +118,7 @@ play sfxvoice "bcv_oc001_c04_01.ogg"
 hide c4portrait
 show oc004_01 12 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2101806]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2101806]]' with shake
 hide c4portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5

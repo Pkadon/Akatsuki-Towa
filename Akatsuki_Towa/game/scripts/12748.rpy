@@ -77,10 +77,10 @@ with fade
 play sfx2 "other_7085.ogg"
 c00 '[textdict[1173585]]'
 show oc007_01 3 as c7portrait at leftside(-24), zorder 5
-c71 '[textdict[1173586]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c71 '[textdict[1173586]]' with shake
 play sfx2 "fight_6016.ogg"
 hide c7portrait
-c00 '[textdict[1173587]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1173587]]' with shake
 play sfx2 "other_7079.ogg"
 c00 '[textdict[1173588]]'
 show oc003_01 20 as c3portrait at rightside(-6), zorder 5

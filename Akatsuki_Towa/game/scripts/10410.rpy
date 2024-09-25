@@ -35,7 +35,7 @@ show oc005_01 19 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1140630]]'
 hide c5portrait
 show oc005_01 7 as c5portrait at leftside(-6), zorder 5
-c51 '[textdict[1140631]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[1140631]]' with shake
 hide c5portrait
 show oc005_01 7 as c5portrait at leftside(-6), shakeleft, zorder 5
 c51 '[textdict[1140632]]'

@@ -252,7 +252,7 @@ hide c1304portrait
 c00 '[textdict[1185359]]'
 c5001 '[textdict[1185360]]'
 play sfx2 "fight_6019.ogg"
-c00 '[textdict[1185361]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1185361]]' with shake
 show oc004_01 2 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1185362]]'
 hide c4portrait

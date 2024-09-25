@@ -423,7 +423,7 @@ c27291 '[textdict[2111337]]'
 c27301 '[textdict[2111338]]'
 play sfx2 "other_7088.ogg"
 c27281 '[textdict[2111339]]'
-c27281 '[textdict[2111340]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27281 '[textdict[2111340]]' with shake
 c27281 '[textdict[2111341]]'
 c27291 '[textdict[2111342]]'
 c27301 '[textdict[2111343]]'
@@ -434,11 +434,11 @@ c00 '[textdict[2111347]]'
 stop music
 play sfx2 "other_7045.ogg"
 show sc013_01 4 as c21portrait at rightsideentrance(-12), zorder 5
-c213 '[textdict[2111348]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c213 '[textdict[2111348]]' (what_size=25) with shake
 play music "ED6517.ogg"
 hide c21portrait
 show sc013_01 4 as c21portrait at darkright(-12), zorder 5
-c27281 '[textdict[2111349]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27281 '[textdict[2111349]]' with shake
 hide c21portrait
 show sc013_01 4 as c21portrait at rightside(-12), zorder 5
 c213 '[textdict[2111350]]'
@@ -454,7 +454,7 @@ show sc013_01 4 as c21portrait at rightside(-12), zorder 5
 c213 '[textdict[2111353]]'
 hide c21portrait
 show sc013_01 4 as c21portrait at darkright(-12), zorder 5
-c27281 '[textdict[2111354]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27281 '[textdict[2111354]]' with shake
 play sfx2 "fight_6010.ogg"
 hide c21portrait
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
@@ -507,7 +507,7 @@ stop music
 hide c1portrait
 hide c21portrait
 show sc013_01 1 as c21portrait at darkleft(-12), zorder 6
-c27303 '[textdict[2111368]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27303 '[textdict[2111368]]' with shake
 stop music
 hide c21portrait
 show sc013_01 1 as c21portrait at darkleft(-12), zorder 6
@@ -542,7 +542,7 @@ show sc013_01 1 as c21portrait at leftside(-12), shakeleft, zorder 5
 c211 '[textdict[2111376]]'
 hide c21portrait
 show sc013_01 5 as c21portrait at leftside(-12), zorder 5
-c211 '[textdict[2111377]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c211 '[textdict[2111377]]' with shake
 hide c21portrait
 show sc013_01 5 as c21portrait at darkleft(-12), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5

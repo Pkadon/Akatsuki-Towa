@@ -194,7 +194,7 @@ c5053 '[textdict[1166840]]'
 stop music
 c13701 '[textdict[1166841]]'
 stop music
-c13701 '[textdict[1166842]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13701 '[textdict[1166842]]' with shake
 stop music
 c11573 '[textdict[1166843]]'
 play music "ed7514.ogg"

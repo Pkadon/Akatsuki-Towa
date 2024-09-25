@@ -94,7 +94,7 @@ c13043 '[textdict[1174489]]'
 play sfx2 "other_7080.ogg"
 hide c1453portrait
 hide c1304portrait
-c00 '[textdict[1174490]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1174490]]' with shake
 show st057_01 4 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174491]]'
 hide c1453portrait
@@ -161,7 +161,7 @@ play sfx2 "other_7046.ogg"
 hide c1453portrait
 hide c1portrait
 c00 '[textdict[1174509]]'
-c00 '[textdict[1174510]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1174510]]' with shake
 show st057_01 1 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174511]]'
 hide c1453portrait
@@ -205,7 +205,7 @@ play sfx2 "other_7080.ogg"
 hide c1453portrait
 hide c1304portrait
 show st061_01 3 as c1304portrait at darkright(-2), zorder 5
-c14451 '[textdict[1174522]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14451 '[textdict[1174522]]' with shake
 hide c1304portrait
 c00 '[textdict[1174523]]'
 show oc003_01 2 as c3portrait at rightside(-6), zorder 5

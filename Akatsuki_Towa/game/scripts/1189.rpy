@@ -25,7 +25,7 @@ hide c35portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc027_01 3 as c35portrait at leftsideexit(-10), zorder 5
-c351 '[textdict[2107030]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c351 '[textdict[2107030]]' with shake
 hide c35portrait
 hide c1portrait
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
@@ -401,11 +401,11 @@ c351 '[textdict[2107124]]'
 stop music
 hide c35portrait
 show sc027_01 5 as c35portrait at leftside(-10), zorder 5
-c351 '[textdict[2107125]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c351 '[textdict[2107125]]' (what_size=23) with shake
 play music "ED6512.ogg"
 play sfx2 "fight_6015.ogg"
 hide c35portrait
-c00 '[textdict[2107126]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2107126]]' with shake
 c26113 '[textdict[2107127]]'
 show sc027_01 5 as c35portrait at leftside(-10), zorder 5
 c351 '[textdict[2107128]]'
@@ -549,7 +549,7 @@ hide c35portrait
 hide c1portrait
 show oc001_01 13 as c1portrait at darkright(-2), zorder 5
 show sc027_01 5 as c35portrait at leftside(-10), zorder 5
-c351 '[textdict[2107160]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c351 '[textdict[2107160]]' with shake
 play sfx2 "other_7058.ogg"
 hide c1portrait
 hide c35portrait
@@ -612,5 +612,5 @@ hide c35portrait
 hide c41portrait
 show sc033_01 5 as c41portrait at darkleft(3), zorder 6
 show sc027_01 3 as c35portrait at rightside(-10), zorder 5
-c353 '[textdict[2107174]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c353 '[textdict[2107174]]' (what_size=23) with shake
 return

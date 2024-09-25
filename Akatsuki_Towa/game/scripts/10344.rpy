@@ -230,14 +230,14 @@ c41 '[textdict[1131103]]'
 play sfx2 "other_7058.ogg"
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1131104]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1131104]]' with shake
 play sfxvoice "avg_vocal_ro21.ogg"
 show oc003_01 12 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1131105]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c31 '[textdict[1131105]]' with shake
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c3portrait
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1131106]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1131106]]' with shake
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
@@ -318,13 +318,13 @@ hide c1portrait
 hide c4portrait
 show oc004_01 5 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1131122]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1131122]]' with shake
 play sfxvoice "avg_vocal_ji25.ogg"
 hide c1portrait
 hide c4portrait
 show oc004_01 5 as c4portrait at darkleft(-5), zorder 6
 show oc005_01 3 as c5portrait at rightside(-6), zorder 5
-c53 '[textdict[1131123]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c53 '[textdict[1131123]]' with shake
 hide c4portrait
 hide c5portrait
 show oc005_01 3 as c5portrait at darkright(-6), zorder 5

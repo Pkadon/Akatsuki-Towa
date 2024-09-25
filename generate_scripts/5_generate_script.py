@@ -364,7 +364,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				else: say+= f' (what_size={contentSize})'
 
 			#then shake can be added if needed
-			if effect == 1: say+=' with Shake((0, 0, 0, 0), 0.5, dist=20)'
+			if effect == 1: say+=' with shake'
 			
 			f.write(f"{say}\n")
 			

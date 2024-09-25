@@ -500,7 +500,7 @@ c00 '[textdict[2101625]]'
 c25151 '[textdict[2101626]]'
 c25151 '[textdict[2101627]]'
 c25151 '[textdict[2101628]]'
-c25151 '[textdict[2101629]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25151 '[textdict[2101629]]' with shake
 c25151 '[textdict[2101630]]'
 c25151 '[textdict[2101631]]'
 show oc006_01 1 as c6portrait at rightside(-5), zorder 5
@@ -541,7 +541,7 @@ c00 '[textdict[2101653]]'
 stop music
 c00 '[textdict[2101654]]'
 play music "ed7565.ogg"
-c5003 '[textdict[2101655]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5003 '[textdict[2101655]]' with shake
 c00 '[textdict[2101656]]'
 show oc006_01 2 as c6portrait at leftside(-5), shakeleft, zorder 5
 c61 '[textdict[2101657]]'
@@ -772,7 +772,7 @@ hide c4portrait
 hide c3portrait
 show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
 show oc005_01 21 as c5portrait at rightside(-6), zorder 5
-c53 '[textdict[2101706]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c53 '[textdict[2101706]]' with shake
 play sfxvoice "avg_vocal_ji16.ogg"
 hide c5portrait
 hide c3portrait

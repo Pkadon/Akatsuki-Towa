@@ -83,12 +83,12 @@ c15023 '[textdict[1184053]]'
 show memoryoverlay zorder 2
 c14931 '[textdict[1184054]]'
 show memoryoverlay zorder 2
-c15013 '[textdict[1184055]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15013 '[textdict[1184055]]' with shake
 show memoryoverlay zorder 2
-c15023 '[textdict[1184056]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15023 '[textdict[1184056]]' with shake
 show memoryoverlay zorder 2
 play sfx2 "fight_6026.ogg"
-c15011 '[textdict[1184057]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15011 '[textdict[1184057]]' with shake
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade

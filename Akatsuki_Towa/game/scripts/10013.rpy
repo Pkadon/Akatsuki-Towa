@@ -422,7 +422,7 @@ hide c519portrait
 hide c2portrait
 show oc002_01 8 as c2portrait at darkright(-3), zorder 5
 show uc002_03 2 as c520portrait at leftside(-23), zorder 5
-c5201 '[textdict[1001285]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5201 '[textdict[1001285]]' with shake
 play sfx2 "fight_6011.ogg"
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 hide c2portrait
@@ -471,7 +471,7 @@ hide c1portrait
 hide c2portrait
 show oc002_01 10 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1001293]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1001293]]' with shake
 hide c1portrait
 hide c2portrait
 show oc002_01 10 as c2portrait at darkleft(-3), zorder 6
@@ -512,7 +512,7 @@ c5283 '[textdict[1001302]]'
 hide c2portrait
 c5271 '[textdict[1001303]]'
 show sc013_01 4 as c21portrait at rightside(-12), zorder 5
-c213 '[textdict[1001304]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c213 '[textdict[1001304]]' (what_size=24) with shake
 hide c21portrait
 show sc013_01 4 as c21portrait at darkright(-12), zorder 5
 c5271 '[textdict[1001305]]'

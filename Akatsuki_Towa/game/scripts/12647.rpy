@@ -5,7 +5,7 @@ play music "ed7100.ogg"
 scene avg_bg_023
 with fade
 show st061_01 6 as c1304portrait at rightside(-2), zorder 5
-c13043 '[textdict[1163459]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13043 '[textdict[1163459]]' with shake
 hide c1304portrait
 show st061_01 6 as c1304portrait at darkright(-2), zorder 5
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
@@ -151,7 +151,7 @@ show oc004_01 11 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1163493]]'
 hide c4portrait
 show oc004_01 11 as c4portrait at darkright(-5), zorder 5
-c13291 '[textdict[1163494]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13291 '[textdict[1163494]]' with shake
 hide c4portrait
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1163495]]'

@@ -267,5 +267,5 @@ hide c2portrait
 hide c8portrait
 show oc008_01 5 as c8portrait at darkleft(-5), zorder 6
 show oc001_01 15 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1161003]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1161003]]' with shake
 return

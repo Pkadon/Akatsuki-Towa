@@ -396,7 +396,7 @@ c13 '[textdict[2105169]]'
 hide c1portrait
 hide c56portrait
 show sc049_01 1 as c56portrait at darkleft(-8), zorder 6
-c11553 '[textdict[2105170]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11553 '[textdict[2105170]]' with shake
 play music "ed7565.ogg"
 scene avg_bg_070
 with fade

@@ -174,7 +174,7 @@ c25853 '[textdict[2106880]]'
 play music "ed7511.ogg"
 hide c13portrait
 show sc005_01 2 as c13portrait at darkleft(-17), zorder 6
-c25853 '[textdict[2106881]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25853 '[textdict[2106881]]' with shake
 hide c13portrait
 show sc005_01 2 as c13portrait at leftside(-17), shakeleft, zorder 5
 c131 '[textdict[2106882]]'
@@ -249,7 +249,7 @@ c131 '[textdict[2106901]]'
 hide c13portrait
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
-c25851 '[textdict[2106902]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25851 '[textdict[2106902]]' with shake
 play sfx2 "fight_6024.ogg"
 hide c1portrait
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5

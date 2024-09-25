@@ -48,7 +48,7 @@ hide c1051portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show uc003_04 3 as c1051portrait at leftside(-14), zorder 5
-c10511 '[textdict[1132755]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10511 '[textdict[1132755]]' with shake
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c1portrait
 hide c1051portrait
@@ -80,7 +80,7 @@ hide c1051portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
 show uc003_04 3 as c1051portrait at leftsideexit(-14), zorder 5
-c10511 '[textdict[1132761]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10511 '[textdict[1132761]]' with shake
 hide c1051portrait
 play sfxvoice "avg_vocal_ro22.ogg"
 hide c2portrait
@@ -110,7 +110,7 @@ play sfx2 "other_7007.ogg"
 hide c55portrait
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
-c10521 '[textdict[1132767]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10521 '[textdict[1132767]]' with shake
 hide c1portrait
 show oc003_01 7 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1132768]]'
@@ -164,7 +164,7 @@ hide c3portrait
 hide c1045portrait
 show uc003_04 3 as c1045portrait at darkleft(-14), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1132783]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1132783]]' with shake
 hide c1045portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
@@ -193,7 +193,7 @@ stop music
 play sfx2 "other_7007.ogg"
 hide c4portrait
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1132789]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1132789]]' (what_size=24) with shake
 stop music
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
@@ -384,5 +384,5 @@ c21 '[textdict[1132836]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
-c10573 '[textdict[1132837]]' (what_size=30) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10573 '[textdict[1132837]]' (what_size=30) with shake
 return

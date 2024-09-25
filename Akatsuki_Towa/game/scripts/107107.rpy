@@ -429,7 +429,7 @@ play music "ed7544.ogg"
 hide c5portrait
 hide c4portrait
 show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
-c14633 '[textdict[1180008]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14633 '[textdict[1180008]]' with shake
 hide c4portrait
 show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
 c14633 '[textdict[1180009]]'

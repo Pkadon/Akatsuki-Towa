@@ -58,7 +58,7 @@ play sfx2 "fight_6002.ogg"
 hide c4portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c10871 '[textdict[2101868]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10871 '[textdict[2101868]]' with shake
 play sfxvoice "bcv_oc001_com_01.ogg"
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5

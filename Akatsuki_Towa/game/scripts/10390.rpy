@@ -27,11 +27,11 @@ hide c4portrait
 play sfx2 "fight_6006.ogg"
 show uc003_04 3 as c1045portrait at leftside(-14), zorder 5
 with fade
-c10451 '[textdict[1132477]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10451 '[textdict[1132477]]' with shake
 play sfx2 "fight_6003.ogg"
 hide c1045portrait
 show uc003_04 3 as c1046portrait at leftside(-14), zorder 5
-c10461 '[textdict[1132478]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10461 '[textdict[1132478]]' with shake
 hide c1046portrait
 c00 '[textdict[1132479]]'
 play sfx2 "fight_6003.ogg"
@@ -66,7 +66,7 @@ play sfx2 "other_7007.ogg"
 hide c239portrait
 show st040_01 5 as c239portrait at darkleft(-19), zorder 6
 show uc003_04 2 as c1046portrait at rightside(-14), zorder 5
-c10463 '[textdict[1132486]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10463 '[textdict[1132486]]' with shake
 hide c1046portrait
 hide c239portrait
 show st040_01 5 as c239portrait at darkleft(-19), zorder 6

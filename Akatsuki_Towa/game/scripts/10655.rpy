@@ -200,13 +200,13 @@ c13 '[textdict[1164958]]'
 play sfx2 "fight_6015.ogg"
 hide c5portrait
 hide c1portrait
-c00 '[textdict[1164959]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1164959]]' with shake
 show oc005_01 3 as c5portrait at leftside(-6), zorder 5
-c51 '[textdict[1164960]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[1164960]]' with shake
 hide c5portrait
 show oc005_01 3 as c5portrait at darkleft(-6), zorder 6
 show oc004_01 4 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1164961]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1164961]]' with shake
 hide c5portrait
 hide c4portrait
 show oc004_01 4 as c4portrait at darkright(-5), zorder 5
@@ -282,7 +282,7 @@ c13 '[textdict[1164976]]'
 play sfx2 "fight_6015.ogg"
 hide c1portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1164977]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1164977]]' with shake
 play sfx2 "other_7057.ogg"
 hide c1portrait
 c00 '[textdict[1164978]]'
@@ -320,12 +320,12 @@ c13413 '[textdict[1164985]]'
 play sfx2 "other_7018.ogg"
 hide c3portrait
 hide c1341portrait
-c00 '[textdict[1164986]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1164986]]' with shake
 show oc001_01 14 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1164987]]'
 play sfx2 "other_7087.ogg"
 hide c1portrait
-c13423 '[textdict[1164988]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13423 '[textdict[1164988]]' with shake
 c13423 '[textdict[1164989]]'
 show oc003_01 21 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1164990]]'
@@ -429,7 +429,7 @@ c13433 '[textdict[1165014]]'
 play sfx2 "other_7087.ogg"
 hide c1341portrait
 show oc005_01 3 as c1341portrait at darkleft(-6), zorder 6
-c13723 '[textdict[1165015]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13723 '[textdict[1165015]]' with shake
 hide c1341portrait
 show oc003_01 21 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1165016]]'
@@ -516,21 +516,21 @@ c21 '[textdict[1165036]]'
 play sfx2 "fight_6015.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1165037]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1165037]]' with shake
 stop music
 show oc003_01 20 as c3portrait at rightside(-6), zorder 5
-c33 '[textdict[1165038]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c33 '[textdict[1165038]]' with shake
 stop music
 hide c3portrait
 show oc003_01 20 as c3portrait at darkright(-6), zorder 5
 show oc002_01 20 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1165039]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1165039]]' with shake
 stop music
 hide c3portrait
 hide c2portrait
 show oc002_01 20 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1165040]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1165040]]' with shake
 stop music
 scene avg_bg_070
 with fade

@@ -145,7 +145,7 @@ hide c1portrait
 hide c48portrait
 show sc041_01 4 as c48portrait at darkleft(-9), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1130907]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1130907]]' with shake
 play sfxvoice "avg_vocal_ch31.ogg"
 hide c48portrait
 hide c1portrait

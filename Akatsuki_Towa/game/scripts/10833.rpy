@@ -4,9 +4,9 @@ stop music
 stop music
 scene avg_bg_049
 with fade
-c21 '[textdict[1187002]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1187002]]' with shake
 stop music
-c13 '[textdict[1187003]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1187003]]' with shake
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
@@ -508,7 +508,7 @@ play sfx2 "other_7044.ogg"
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1187108]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1187108]]' with shake
 stop music
 scene avg_bg_038
 with fade

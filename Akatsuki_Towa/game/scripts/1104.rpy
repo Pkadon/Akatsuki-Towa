@@ -18,7 +18,7 @@ show st037_01 4 as c236portrait at leftside(-10), shakeleft, zorder 5
 c2361 '[textdict[2102531]]'
 hide c236portrait
 show st037_01 4 as c236portrait at darkleft(-10), zorder 6
-c10893 '[textdict[2102532]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10893 '[textdict[2102532]]' with shake
 play sfxvoice "avg_vocal_ro09.ogg"
 hide c236portrait
 show st037_01 4 as c236portrait at darkleft(-10), zorder 6

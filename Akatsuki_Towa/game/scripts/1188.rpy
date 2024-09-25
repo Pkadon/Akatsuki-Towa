@@ -49,7 +49,7 @@ hide c17portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show sc009_01 4 as c17portrait at leftside(-13), zorder 5
-c171 '[textdict[2106944]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c171 '[textdict[2106944]]' with shake
 play music "ed7511.ogg"
 hide c1portrait
 hide c17portrait
@@ -65,7 +65,7 @@ play sfx2 "fight_6021.ogg"
 hide c570portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
-c26001 '[textdict[2106947]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26001 '[textdict[2106947]]' with shake
 play sfx2 "fight_6019.ogg"
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
@@ -113,7 +113,7 @@ hide c1portrait
 hide c570portrait
 show uc004_02 1 as c570portrait at darkleft(-9), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2106956]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2106956]]' with shake
 hide c570portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
@@ -128,7 +128,7 @@ play sfx2 "other_7045.ogg"
 hide c570portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
-c26001 '[textdict[2106959]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26001 '[textdict[2106959]]' with shake
 hide c1portrait
 show oc001_01 19 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[2106960]]'
@@ -246,7 +246,7 @@ hide c1portrait
 hide c17portrait
 show sc009_01 4 as c17portrait at darkleft(-13), zorder 6
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2106987]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2106987]]' with shake
 hide c17portrait
 hide c1portrait
 show oc001_01 14 as c1portrait at darkright(-2), zorder 5
@@ -364,7 +364,7 @@ hide c212portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 show uc004_02 2 as c570portrait at leftside(-9), zorder 5
-c5701 '[textdict[2107008]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5701 '[textdict[2107008]]' with shake
 hide c570portrait
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5

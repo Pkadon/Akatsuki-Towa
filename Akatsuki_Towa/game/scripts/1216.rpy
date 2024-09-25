@@ -115,7 +115,7 @@ c26913 '[textdict[2109735]]'
 play sfx2 "other_7062.ogg"
 hide c2691portrait
 show scc39_01 4 as c2691portrait at darkright(-13), zorder 5
-c26791 '[textdict[2109736]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26791 '[textdict[2109736]]' with shake
 hide c2691portrait
 show scc39_01 5 as c2691portrait at rightside(-13), zorder 5
 c26913 '[textdict[2109737]]'
@@ -141,7 +141,7 @@ c26923 '[textdict[2109743]]'
 play sfx2 "other_7062.ogg"
 hide c2692portrait
 show scb52_01 5 as c2692portrait at darkright(-25), zorder 5
-c26961 '[textdict[2109744]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26961 '[textdict[2109744]]' with shake
 play sfx2 "other_7062.ogg"
 hide c2692portrait
 show scb52_01 6 as c2692portrait at rightside(-25), zorder 5

@@ -275,7 +275,7 @@ show sta61_01 5 as c2670portrait at darkright(-2), zorder 5
 c14711 '[textdict[1190957]]'
 hide c2670portrait
 show sta61_01 5 as c2670portrait at darkright(-2), zorder 5
-c25231 '[textdict[1190958]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25231 '[textdict[1190958]]' with shake
 play sfx2 "other_7064.ogg"
 hide c2670portrait
 c00 '[textdict[1190959]]'

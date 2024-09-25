@@ -179,7 +179,7 @@ c33 '[textdict[1175204]]'
 play sfx2 "other_7080.ogg"
 hide c3portrait
 show oc003_01 4 as c3portrait at darkright(-6), zorder 5
-c5001 '[textdict[1175205]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1175205]]' with shake
 hide c3portrait
 show oc003_01 4 as c3portrait at darkright(-6), zorder 5
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5

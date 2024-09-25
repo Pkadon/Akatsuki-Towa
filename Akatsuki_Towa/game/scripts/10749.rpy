@@ -100,7 +100,7 @@ c14541 '[textdict[1173777]]'
 play music "ed7511.ogg"
 play sfx2 "fight_6002.ogg"
 hide c1304portrait
-c14553 '[textdict[1173778]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14553 '[textdict[1173778]]' with shake
 play sfx2 "fight_6025.ogg"
 show oc003_01 21 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1173779]]'

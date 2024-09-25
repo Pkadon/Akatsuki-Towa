@@ -5,7 +5,7 @@ play music "ED6516.ogg"
 scene avg_bg_071
 with fade
 play sfx2 "other_7007.ogg"
-c5051 '[textdict[1000305]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5051 '[textdict[1000305]]' with shake
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 19 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1000306]]'
@@ -104,7 +104,7 @@ c5073 '[textdict[1000326]]'
 hide c507portrait
 show uc003_01 4 as c507portrait at darkright(-26), zorder 5
 show st001_01 3 as c201portrait at leftside(-15), zorder 5
-c2011 '[textdict[1000327]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2011 '[textdict[1000327]]' (what_size=24) with shake
 hide c201portrait
 hide c507portrait
 show st000_01 3 as c504portrait at leftside(-9), zorder 5

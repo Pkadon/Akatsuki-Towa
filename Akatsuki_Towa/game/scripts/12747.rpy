@@ -156,7 +156,7 @@ hide c3portrait
 hide c1portrait
 c00 '[textdict[1173547]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1173548]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1173548]]' with shake
 hide c1portrait
 c00 '[textdict[1173549]]'
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5

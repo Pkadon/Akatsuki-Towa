@@ -361,7 +361,7 @@ hide c8portrait
 hide c4portrait
 show oc004_01 9 as c4portrait at darkright(-5), zorder 5
 show oc008_01 3 as c8portrait at leftside(-5), zorder 5
-c81 '[textdict[1179677]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c81 '[textdict[1179677]]' with shake
 play music "ed7511.ogg"
 hide c8portrait
 hide c4portrait
@@ -392,7 +392,7 @@ hide c1portrait
 hide c2portrait
 show oc002_01 16 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1179683]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1179683]]' with shake
 play sfx2 "fight_6024.ogg"
 hide c2portrait
 hide c1portrait

@@ -283,7 +283,7 @@ with fade
 c00 '[textdict[2108358]]'
 play music "ED6102.ogg"
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[2108359]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108359]]' with shake
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
@@ -449,7 +449,7 @@ hide c39portrait
 hide c29portrait
 show sc021_01 2 as c29portrait at darkleft(-17), zorder 6
 show sc031_01 4 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[2108388]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108388]]' with shake
 show memoryoverlay zorder 2
 hide c29portrait
 hide c39portrait
@@ -527,7 +527,7 @@ with fade
 c00 '[textdict[2108402]]'
 play music "ED6102.ogg"
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[2108403]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c393 '[textdict[2108403]]' with shake
 hide c39portrait
 show sc031_01 3 as c39portrait at darkright(-14), zorder 5
 show sc021_01 4 as c29portrait at leftside(-17), zorder 5
@@ -652,7 +652,7 @@ c00 '[textdict[2108425]]'
 stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
-c26821 '[textdict[2108426]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26821 '[textdict[2108426]]' with shake
 play music "ED6512.ogg"
 show memoryoverlay zorder 2
 show sc031_01 2 as c39portrait at rightside(-14), zorder 5

@@ -190,7 +190,7 @@ hide c58portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show sc051_01 4 as c58portrait at leftside(-32), zorder 5
-c581 '[textdict[2102107]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c581 '[textdict[2102107]]' with shake
 play sfx2 "other_7033.ogg"
 hide c1portrait
 hide c58portrait

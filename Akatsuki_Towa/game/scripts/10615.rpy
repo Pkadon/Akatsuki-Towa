@@ -51,7 +51,7 @@ hide c7portrait
 hide c2portrait
 show oc002_01 5 as c2portrait at darkright(-3), zorder 5
 show oc007_01 2 as c7portrait at leftside(-24), zorder 5
-c71 '[textdict[1160727]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c71 '[textdict[1160727]]' with shake
 hide c7portrait
 hide c2portrait
 show oc002_01 5 as c2portrait at darkright(-3), zorder 5

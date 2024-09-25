@@ -434,7 +434,7 @@ hide c2portrait
 hide c8portrait
 show oc008_01 6 as c8portrait at darkleft(-5), zorder 6
 show oc002_01 20 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1154507]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c23 '[textdict[1154507]]' with shake
 hide c8portrait
 hide c2portrait
 show oc002_01 20 as c2portrait at darkright(-3), zorder 5
@@ -472,7 +472,7 @@ hide c1portrait
 hide c4portrait
 show oc004_01 13 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1154514]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1154514]]' with shake
 play music "ed7580.ogg"
 scene avg_bg_052
 show memoryoverlay zorder 2
@@ -563,7 +563,7 @@ hide c1211portrait
 hide c8portrait
 show oc008_01 4 as c8portrait at darkleft(-5), zorder 6
 show st057_01 2 as c1211portrait at rightside(-16), zorder 5
-c12113 '[textdict[1154538]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12113 '[textdict[1154538]]' with shake
 stop music
 hide c1211portrait
 hide c8portrait

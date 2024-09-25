@@ -62,7 +62,7 @@ c14341 '[textdict[1179382]]'
 stop music
 hide c3portrait
 show oc003_01 16 as c3portrait at darkright(-6), zorder 5
-c5001 '[textdict[1179383]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1179383]]' with shake
 stop music
 hide c3portrait
 show oc003_01 16 as c3portrait at darkright(-6), zorder 5
@@ -98,7 +98,7 @@ c14341 '[textdict[1179393]]'
 play sfx2 "other_7087.ogg"
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
-c14911 '[textdict[1179394]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14911 '[textdict[1179394]]' with shake
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 c14341 '[textdict[1179395]]'
@@ -129,7 +129,7 @@ c14901 '[textdict[1179403]]'
 play sfx2 "other_7087.ogg"
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-c14911 '[textdict[1179404]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14911 '[textdict[1179404]]' with shake
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 c14911 '[textdict[1179405]]'

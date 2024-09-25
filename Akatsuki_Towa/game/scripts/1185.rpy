@@ -191,13 +191,13 @@ show sc008_01 4 as c16portrait at rightside(-18), zorder 5
 c163 '[textdict[2106689]]'
 hide c16portrait
 show sc008_01 4 as c16portrait at rightside(-18), zorder 5
-c163 '[textdict[2106690]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c163 '[textdict[2106690]]' with shake
 hide c16portrait
 show sc008_01 4 as c16portrait at darkright(-18), zorder 5
 c25801 '[textdict[2106691]]'
 hide c16portrait
 show sc008_01 4 as c16portrait at darkright(-18), zorder 5
-c25811 '[textdict[2106692]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25811 '[textdict[2106692]]' with shake
 play sfx2 "fight_6019.ogg"
 hide c16portrait
 show sc008_01 4 as c16portrait at rightside(-18), zorder 5
@@ -213,7 +213,7 @@ c25783 '[textdict[2106695]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6006.ogg"
-c00 '[textdict[2106696]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2106696]]' with shake
 scene avg_bg_041
 with fade
 play sfx2 "other_7007.ogg"
@@ -339,7 +339,7 @@ show sc008_01 1 as c16portrait at leftside(-18), zorder 5
 c161 '[textdict[2106730]]'
 hide c16portrait
 show sc008_01 1 as c16portrait at darkleft(-18), zorder 6
-c25813 '[textdict[2106731]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25813 '[textdict[2106731]]' with shake
 scene avg_bg_070
 with fade
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5

@@ -162,7 +162,7 @@ with fade
 play sfx2 "other_7089.ogg"
 play sfxvoice "avg_vocal_ch14.ogg"
 show oc002_01 3 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1132654]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1132654]]' with shake
 scene avg_bg_052
 with fade
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5

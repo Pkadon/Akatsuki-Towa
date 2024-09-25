@@ -236,7 +236,7 @@ play sfx2 "other_7079.ogg"
 hide c2portrait
 show oc002_01 22 as c2portrait at darkright(-3), zorder 5
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1177957]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[1177957]]' with shake
 hide c4portrait
 hide c2portrait
 c00 '[textdict[1177958]]'

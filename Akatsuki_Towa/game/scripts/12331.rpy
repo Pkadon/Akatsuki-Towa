@@ -117,7 +117,7 @@ show oc004_01 17 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133404]]'
 hide c4portrait
 show oc004_01 5 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1133405]]' (what_size=28) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1133405]]' (what_size=28) with shake
 hide c4portrait
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
@@ -160,7 +160,7 @@ show oc004_01 5 as c4portrait at rightside(-5), shakeright, zorder 5
 c43 '[textdict[1133417]]'
 hide c4portrait
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1133418]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1133418]]' with shake
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 c10061 '[textdict[1133419]]'

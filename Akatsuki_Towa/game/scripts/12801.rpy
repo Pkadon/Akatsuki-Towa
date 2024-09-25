@@ -231,7 +231,7 @@ play music "ed7111.ogg"
 scene avg_bg_207
 with fade
 play sfx2 "other_7064.ogg"
-c6901 '[textdict[1181095]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6901 '[textdict[1181095]]' with shake
 play sfx2 "other_7064.ogg"
 c7221 '[textdict[1181096]]'
 play sfx2 "other_7064.ogg"
@@ -239,7 +239,7 @@ c6901 '[textdict[1181097]]'
 play sfx2 "other_7064.ogg"
 c6901 '[textdict[1181098]]'
 play sfx2 "other_7064.ogg"
-c15091 '[textdict[1181099]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15091 '[textdict[1181099]]' with shake
 play sfx2 "other_7064.ogg"
 c15101 '[textdict[1181100]]'
 play sfx2 "other_7064.ogg"

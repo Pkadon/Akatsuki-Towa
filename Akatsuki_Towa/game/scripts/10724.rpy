@@ -95,7 +95,7 @@ hide c1portrait
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkleft(-6), zorder 6
 show oc001_01 15 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1171563]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1171563]]' with shake
 hide c1portrait
 hide c1349portrait
 show st056_01 1 as c1349portrait at darkleft(-6), zorder 6

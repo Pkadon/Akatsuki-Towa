@@ -10,7 +10,7 @@ c00 '[textdict[1205043]]'
 scene avg_bg_038
 with fade
 play sfx2 "other_7045.ogg"
-c5001 '[textdict[1205044]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1205044]]' with shake
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1205045]]'
 hide c1portrait
@@ -152,12 +152,12 @@ c181 '[textdict[1205076]]'
 play sfx2 "fight_6009.ogg"
 hide c18portrait
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[1205077]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c181 '[textdict[1205077]]' with shake
 play sfx2 "fight_6009.ogg"
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
 show oc001_01 15 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1205078]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1205078]]' with shake
 hide c1portrait
 hide c18portrait
 show sc010_01 4 as c18portrait at darkleft(-10), zorder 6
@@ -184,7 +184,7 @@ hide c18portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show sc010_01 2 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[1205083]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c181 '[textdict[1205083]]' with shake
 hide c18portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5

@@ -7,7 +7,7 @@ show memoryoverlay zorder 2
 with fade
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_roi01.ogg"
-c5001 '[textdict[1002967]]' (what_size=30) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1002967]]' (what_size=30) with shake
 scene avg_bg_004
 show memoryoverlay zorder 2
 with fade
@@ -51,7 +51,7 @@ show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_na07.ogg"
 hide c1portrait
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1000010]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1000010]]' with shake
 show memoryoverlay zorder 2
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5

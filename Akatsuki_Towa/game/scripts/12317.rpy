@@ -70,7 +70,7 @@ play music "ed7511.ogg"
 play sfx2 "other_7079.ogg"
 hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-c10871 '[textdict[1133320]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10871 '[textdict[1133320]]' with shake
 play sfxvoice "avg_vocal_ro09.ogg"
 hide c1portrait
 show oc003_01 12 as c3portrait at rightside(-6), zorder 5

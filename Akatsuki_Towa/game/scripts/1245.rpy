@@ -24,7 +24,7 @@ show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
 c26663 '[textdict[2113258]]'
 hide c1253portrait
 show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
-c26663 '[textdict[2113259]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[2113259]]' (what_size=24) with shake
 hide c1253portrait
 show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
 c26663 '[textdict[2113260]]'
@@ -37,7 +37,7 @@ c26663 '[textdict[2113262]]'
 play sfx2 "other_7045.ogg"
 hide c1253portrait
 show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
-c26663 '[textdict[2113263]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[2113263]]' (what_size=24) with shake
 hide c1253portrait
 show st059_01 2 as c1253portrait at leftside(-14), shakeleft, zorder 5
 c12531 '[textdict[2113264]]'
@@ -582,7 +582,7 @@ hide c2666portrait
 hide c1267portrait
 show sc016_01 5 as c1267portrait at darkleft(-6), zorder 6
 show oce02_01 12 as c2666portrait at rightside(-3), zorder 5
-c26663 '[textdict[2113375]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[2113375]]' with shake
 stop music
 scene avg_bg_070
 with fade
@@ -591,7 +591,7 @@ stop music
 scene avg_bg_036
 with fade
 play sfx2 "other_7080.ogg"
-c13091 '[textdict[2113377]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13091 '[textdict[2113377]]' with shake
 stop music
 show oce02_01 4 as c2666portrait at rightsideentrance(-3), zorder 5
 c26663 '[textdict[2113378]]'
@@ -622,12 +622,12 @@ show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
 c26662 '[textdict[2113383]]'
 hide c2666portrait
 show oce02_01 5 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113384]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26662 '[textdict[2113384]]' with shake
 play sfx2 "fight_6017.ogg"
 hide c2666portrait
 show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113385]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
-c13091 '[textdict[2113386]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26662 '[textdict[2113385]]' (what_size=25) with shake
+c13091 '[textdict[2113386]]' with shake
 hide c2666portrait
 show oce02_01 1 as c2666portrait at centerpos(-3), zorder 5
 c26662 '[textdict[2113387]]'

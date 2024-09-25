@@ -75,7 +75,7 @@ hide c4portrait
 hide c6portrait
 show oc006_01 1 as c6portrait at darkright(-5), zorder 5
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[2105991]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[2105991]]' with shake
 show memoryoverlay zorder 2
 hide c6portrait
 hide c4portrait

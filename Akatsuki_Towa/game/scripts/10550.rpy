@@ -151,7 +151,7 @@ with fade
 c12331 '[textdict[1153560]]'
 play music "ed7151.ogg"
 play sfx2 "other_7087.ogg"
-c5533 '[textdict[1153561]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5533 '[textdict[1153561]]' with shake
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
 with fade
 c23 '[textdict[1153562]]'
@@ -179,7 +179,7 @@ c12331 '[textdict[1153568]]'
 play sfx2 "other_7087.ogg"
 hide c1211portrait
 show st057_01 3 as c1211portrait at rightside(-16), zorder 5
-c12113 '[textdict[1153569]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12113 '[textdict[1153569]]' with shake
 hide c1211portrait
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 with fade

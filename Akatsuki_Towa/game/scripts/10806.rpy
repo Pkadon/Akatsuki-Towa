@@ -402,7 +402,7 @@ play music "ed7511.ogg"
 play sfx2 "other_7079.ogg"
 hide c1304portrait
 show st061_01 4 as c1304portrait at darkleft(-2), zorder 6
-c13093 '[textdict[1181501]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13093 '[textdict[1181501]]' with shake
 hide c1304portrait
 c00 '[textdict[1181502]]'
 c00 '[textdict[1181503]]'

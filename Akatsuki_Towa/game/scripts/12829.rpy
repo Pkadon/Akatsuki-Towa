@@ -251,7 +251,7 @@ c41 '[textdict[1184765]]'
 hide c4portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c25671 '[textdict[1184766]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25671 '[textdict[1184766]]' with shake
 hide c1portrait
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1184767]]'

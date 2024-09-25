@@ -130,7 +130,7 @@ show oce04_01 4 as c2668portrait at darkright(-5), zorder 5
 c5001 '[textdict[2112932]]'
 hide c2668portrait
 show oce04_01 4 as c2668portrait at darkright(-5), zorder 5
-c5001 '[textdict[2112933]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[2112933]]' with shake
 hide c2668portrait
 show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[2112934]]'
@@ -162,7 +162,7 @@ play sfx2 "other_7062.ogg"
 hide c5008portrait
 hide c2668portrait
 show oce04_01 12 as c2668portrait at darkright(-5), zorder 5
-c27711 '[textdict[2112941]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27711 '[textdict[2112941]]' (what_size=23) with shake
 hide c2668portrait
 show oce04_01 16 as c2668portrait at rightside(-5), shakeright, zorder 5
 c26683 '[textdict[2112942]]'
@@ -171,7 +171,7 @@ show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[2112943]]'
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
-c27711 '[textdict[2112944]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27711 '[textdict[2112944]]' (what_size=23) with shake
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
 show oc006_01 1 as c6portrait at leftside(-5), zorder 5
@@ -214,7 +214,7 @@ c26683 '[textdict[2112952]]'
 hide c1132portrait
 hide c2668portrait
 show oce04_01 11 as c2668portrait at darkright(-5), zorder 5
-c27721 '[textdict[2112953]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27721 '[textdict[2112953]]' with shake
 hide c2668portrait
 show oce04_01 11 as c2668portrait at darkright(-5), zorder 5
 show oc006_01 5 as c6portrait at leftside(-5), zorder 5
@@ -239,7 +239,7 @@ c26683 '[textdict[2112958]]'
 play sfx2 "other_7087.ogg"
 hide c2668portrait
 show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
-c26683 '[textdict[2112959]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26683 '[textdict[2112959]]' with shake
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
 c6431 '[textdict[2112960]]'

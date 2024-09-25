@@ -19,7 +19,7 @@ c33 '[textdict[1181513]]'
 stop music
 play sfx2 "other_7057.ogg"
 hide c3portrait
-c00 '[textdict[1181514]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1181514]]' with shake
 stop music
 show oc003_01 2 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1181515]]'

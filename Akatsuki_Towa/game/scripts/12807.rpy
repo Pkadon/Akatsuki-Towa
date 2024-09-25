@@ -131,7 +131,7 @@ c33 '[textdict[1181796]]'
 play music "ed7511.ogg"
 hide c3portrait
 show oc003_01 1 as c3portrait at darkright(-6), zorder 5
-c7011 '[textdict[1181797]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c7011 '[textdict[1181797]]' with shake
 hide c3portrait
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1181798]]'
@@ -171,7 +171,7 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c14401 '[textdict[1181808]]'
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c14401 '[textdict[1181809]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14401 '[textdict[1181809]]' with shake
 hide c1portrait
 c00 '[textdict[1181810]]'
 show st061_01 4 as c1304portrait at rightside(-2), zorder 5

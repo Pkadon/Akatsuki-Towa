@@ -9,11 +9,11 @@ c13 '[textdict[1150495]]'
 play sfx2 "fight_6015.ogg"
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
-c12031 '[textdict[1150496]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12031 '[textdict[1150496]]' with shake
 play sfx2 "fight_6016.ogg"
 hide c1portrait
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1150497]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c23 '[textdict[1150497]]' with shake
 hide c2portrait
 show oc002_01 2 as c2portrait at darkright(-3), zorder 5
 c12031 '[textdict[1150498]]'

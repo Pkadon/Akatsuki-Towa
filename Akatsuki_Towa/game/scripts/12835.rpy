@@ -146,7 +146,7 @@ hide c4portrait
 hide c3portrait
 show oc003_01 17 as c3portrait at darkright(-6), zorder 5
 show st061_01 2 as c1304portrait at leftside(-2), zorder 5
-c13041 '[textdict[1185641]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13041 '[textdict[1185641]]' with shake
 play sfx2 "other_7034.ogg"
 hide c3portrait
 hide c1304portrait

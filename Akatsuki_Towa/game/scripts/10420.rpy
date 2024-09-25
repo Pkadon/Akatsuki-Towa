@@ -29,7 +29,7 @@ hide c1106portrait
 hide c1105portrait
 show st043_01 5 as c1105portrait at darkright(-17), zorder 5
 show st042_01 5 as c551portrait at leftside(-14), zorder 5
-c5511 '[textdict[1140978]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5511 '[textdict[1140978]]' with shake
 hide c551portrait
 hide c1105portrait
 show st043_01 5 as c1105portrait at darkright(-17), zorder 5
@@ -78,7 +78,7 @@ c11061 '[textdict[1140987]]'
 hide c1106portrait
 hide c1105portrait
 show st043_01 5 as c1105portrait at darkright(-17), zorder 5
-c5511 '[textdict[1140988]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5511 '[textdict[1140988]]' with shake
 play sfxvoice "avg_vocal_li22.ogg"
 hide c1105portrait
 show oc004_01 3 as c4portrait at rightside(-5), shakeleft, zorder 5

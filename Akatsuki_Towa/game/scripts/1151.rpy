@@ -301,7 +301,7 @@ hide c4portrait
 hide c5portrait
 show oc005_01 5 as c5portrait at darkright(-6), zorder 5
 show oc004_01 15 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[2104457]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[2104457]]' with shake
 scene avg_bg_070
 with fade
 c00 '[textdict[2104458]]'

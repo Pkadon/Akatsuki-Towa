@@ -37,7 +37,7 @@ play sfx2 "fight_6022.ogg"
 hide c2portrait
 c00 '[textdict[1134023]]'
 show oc001_01 12 as c1portrait at leftside(-2), zorder 5
-c11 '[textdict[1134024]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11 '[textdict[1134024]]' with shake
 hide c1portrait
 show oc001_01 12 as c1portrait at darkleft(-2), zorder 6
 c10993 '[textdict[1134025]]'

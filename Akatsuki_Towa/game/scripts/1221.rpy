@@ -32,7 +32,7 @@ c211 '[textdict[2110155]]'
 hide c21portrait
 hide c20portrait
 show sc012_01 4 as c20portrait at darkright(-16), zorder 5
-c27001 '[textdict[2110156]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27001 '[textdict[2110156]]' with shake
 hide c20portrait
 show sc013_01 3 as c21portrait at rightside(-12), zorder 5
 c213 '[textdict[2110157]]'
@@ -124,7 +124,7 @@ c13 '[textdict[2110176]]'
 scene avg_bg_011
 with fade
 show sc011_01 3 as c19portrait at leftside(-1), zorder 5
-c191 '[textdict[2110177]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c191 '[textdict[2110177]]' with shake
 scene avg_bg_064
 with fade
 play sfx2 "other_7045.ogg"

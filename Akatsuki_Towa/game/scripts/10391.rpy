@@ -23,15 +23,15 @@ c43 '[textdict[1132476]]'
 scene avg_bg_070
 with fade
 show uc003_04 1 as c1045portrait at leftside(-14), zorder 5
-c10451 '[textdict[1132477]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10451 '[textdict[1132477]]' with shake
 scene avg_bg_049
 with fade
 show uc003_04 1 as c1046portrait at rightside(-14), zorder 5
-c10463 '[textdict[1132478]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10463 '[textdict[1132478]]' with shake
 hide c1046portrait
 c00 '[textdict[1132479]]'
 show sc048_01 4 as c55portrait at rightside(-7), zorder 5
-c553 '[textdict[1132480]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c553 '[textdict[1132480]]' with shake
 hide c55portrait
 show sc048_01 4 as c55portrait at darkright(-7), zorder 5
 show uc003_04 1 as c1045portrait at leftside(-14), zorder 5
@@ -55,7 +55,7 @@ hide c1045portrait
 hide c1046portrait
 show uc003_04 1 as c1046portrait at darkright(-14), zorder 5
 show st040_01 5 as c1043portrait at leftside(-19), zorder 5
-c10431 '[textdict[1132485]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10431 '[textdict[1132485]]' with shake
 hide c1046portrait
 hide c1043portrait
 show st040_01 5 as c1043portrait at darkleft(-19), zorder 6
@@ -80,7 +80,7 @@ hide c4portrait
 hide c1043portrait
 show st040_01 5 as c1043portrait at darkleft(-19), zorder 6
 show sc048_01 3 as c55portrait at rightside(-7), zorder 5
-c553 '[textdict[1132490]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c553 '[textdict[1132490]]' with shake
 stop music
 hide c1043portrait
 hide c55portrait
@@ -394,5 +394,5 @@ c551 '[textdict[1132554]]'
 hide c2portrait
 hide c55portrait
 show sc048_01 4 as c55portrait at darkleft(-7), zorder 6
-c10573 '[textdict[1132555]]' (what_size=26) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10573 '[textdict[1132555]]' (what_size=26) with shake
 return

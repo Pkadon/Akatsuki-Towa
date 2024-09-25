@@ -23,7 +23,7 @@ hide c630portrait
 hide c210portrait
 show st011_01 1 as c210portrait at darkleft(-14), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1003469]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c23 '[textdict[1003469]]' with shake
 play sfxvoice "avg_vocal_na02.ogg"
 hide c210portrait
 hide c2portrait
@@ -337,7 +337,7 @@ play music "ed7565.ogg"
 scene avg_bg_027
 with fade
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1003534]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1003534]]' (what_size=24) with shake
 hide c2portrait
 show oc002_01 9 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5

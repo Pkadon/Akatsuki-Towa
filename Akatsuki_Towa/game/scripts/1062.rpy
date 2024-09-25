@@ -66,7 +66,7 @@ show uc002_01 1 as c5001portrait at rightside(2), zorder 5
 c50013 '[textdict[2100942]]'
 hide c5001portrait
 show uc002_01 1 as c5001portrait at rightside(2), zorder 5
-c50013 '[textdict[2100943]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c50013 '[textdict[2100943]]' with shake
 hide c5001portrait
 show uc002_01 1 as c5001portrait at darkright(2), zorder 5
 show st005_01 2 as c205portrait at leftside(4), zorder 5
@@ -79,7 +79,7 @@ c50013 '[textdict[2100945]]'
 hide c205portrait
 hide c5001portrait
 c00 '[textdict[2100946]]'
-c5001 '[textdict[2100947]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[2100947]]' with shake
 show uc002_01 1 as c5001portrait at rightside(2), zorder 5
 c50013 '[textdict[2100948]]'
 hide c5001portrait
@@ -127,7 +127,7 @@ c631 '[textdict[2100958]]'
 hide c63portrait
 show sc058_01 5 as c63portrait at darkleft(-20), zorder 6
 show uc002_01 4 as c5001portrait at rightside(2), zorder 5
-c50013 '[textdict[2100959]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c50013 '[textdict[2100959]]' with shake
 hide c63portrait
 hide c5001portrait
 c00 '[textdict[2100960]]'

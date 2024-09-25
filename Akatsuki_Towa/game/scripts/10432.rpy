@@ -620,7 +620,7 @@ hide c5006portrait
 hide c4portrait
 show oc004_01 4 as c4portrait at darkright(-5), zorder 5
 show uc002_03 2 as c5006portrait at leftside(-23), zorder 5
-c50061 '[textdict[1141487]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c50061 '[textdict[1141487]]' with shake
 hide c5006portrait
 hide c4portrait
 play sfxvoice "avg_vocal_li23.ogg"

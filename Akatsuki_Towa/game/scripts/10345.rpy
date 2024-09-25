@@ -155,7 +155,7 @@ c2361 '[textdict[1131236]]'
 hide c236portrait
 play sfx2 "other_7046.ogg"
 hide c1portrait
-c00 '[textdict[1131237]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1131237]]' with shake
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1131238]]' (what_size=30)

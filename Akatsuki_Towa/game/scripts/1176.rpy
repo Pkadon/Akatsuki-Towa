@@ -23,7 +23,7 @@ c5123 '[textdict[2105838]]'
 play sfx2 "other_7079.ogg"
 hide c2539portrait
 show oc000_01 1 as c2539portrait at leftside(-2), zorder 5
-c25391 '[textdict[2105839]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25391 '[textdict[2105839]]' with shake
 hide c2539portrait
 show oc000_01 1 as c2539portrait at darkleft(-2), zorder 6
 c5113 '[textdict[2105840]]'
@@ -209,7 +209,7 @@ hide c47portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show oc000_01 1 as c2539portrait at leftside(-2), zorder 5
-c25391 '[textdict[2105881]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25391 '[textdict[2105881]]' with shake
 hide c1portrait
 hide c2539portrait
 show oc000_01 1 as c2539portrait at darkleft(-2), zorder 6
@@ -238,7 +238,7 @@ c473 '[textdict[2105886]]'
 play sfx2 "fight_6019.ogg"
 hide c2539portrait
 hide c47portrait
-c00 '[textdict[2105887]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2105887]]' with shake
 play sfx2 "other_7057.ogg"
 show oc000_01 1 as c2539portrait at leftside(-2), zorder 5
 c25391 '[textdict[2105888]]'
@@ -389,5 +389,5 @@ hide c1portrait
 hide c2portrait
 show oc002_01 22 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2105918]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2105918]]' with shake
 return

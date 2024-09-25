@@ -94,7 +94,7 @@ c26791 '[textdict[2109810]]'
 c5131 '[textdict[2109811]]'
 c5131 '[textdict[2109812]]'
 c00 '[textdict[2109813]]'
-c9721 '[textdict[2109814]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c9721 '[textdict[2109814]]' with shake
 c5133 '[textdict[2109815]]'
 show sce09_01 5 as c2695portrait at leftside(-13), zorder 5
 c26951 '[textdict[2109816]]'
@@ -173,7 +173,7 @@ hide c4portrait
 c00 '[textdict[2109844]]'
 stop music
 show oc004_01 15 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[2109845]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[2109845]]' with shake
 stop music
 hide c4portrait
 show oc004_01 15 as c4portrait at darkright(-5), zorder 5

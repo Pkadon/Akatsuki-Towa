@@ -71,7 +71,7 @@ hide c35portrait
 hide c2portrait
 play sfx2 "other_7080.ogg"
 with fade
-c20161 '[textdict[1120731]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c20161 '[textdict[1120731]]' with shake
 play music "ed7511.ogg"
 show oc001_01 3 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1120732]]'

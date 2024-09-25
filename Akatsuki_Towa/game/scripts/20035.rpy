@@ -12,7 +12,7 @@ show oc002_01 8 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1002274]]'
 hide c2portrait
 show oc002_01 8 as c2portrait at darkright(-3), zorder 5
-c5531 '[textdict[1002275]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5531 '[textdict[1002275]]' with shake
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c2portrait
 show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5

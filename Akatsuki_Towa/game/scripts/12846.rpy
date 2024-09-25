@@ -133,7 +133,7 @@ c43 '[textdict[1186527]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7079.ogg"
-c13091 '[textdict[1186528]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13091 '[textdict[1186528]]' with shake
 play music "ed7102.ogg"
 scene avg_bg_036
 with fade

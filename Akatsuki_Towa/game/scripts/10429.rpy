@@ -10,7 +10,7 @@ c43 '[textdict[1141303]]'
 play sfxvoice "avg_vocal_li23.ogg"
 hide c4portrait
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1141304]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1141304]]' with shake
 hide c4portrait
 show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1141305]]'

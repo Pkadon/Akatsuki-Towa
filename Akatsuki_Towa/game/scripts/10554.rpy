@@ -48,7 +48,7 @@ hide c39portrait
 hide c38portrait
 show sc030_01 4 as c38portrait at darkright(-12), zorder 5
 show sc032_01 2 as c40portrait at leftside(-17), zorder 5
-c401 '[textdict[1153723]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c401 '[textdict[1153723]]' with shake
 play music "ed7151.ogg"
 hide c38portrait
 hide c40portrait
@@ -103,7 +103,7 @@ hide c1portrait
 hide c3portrait
 show oc003_01 2 as c3portrait at darkleft(-6), zorder 6
 show sc030_01 4 as c38portrait at rightside(-12), zorder 5
-c383 '[textdict[1153733]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c383 '[textdict[1153733]]' with shake
 hide c3portrait
 hide c38portrait
 show sc030_01 4 as c38portrait at darkright(-12), zorder 5

@@ -54,7 +54,7 @@ stop music
 hide c2701portrait
 show oca01_01 5 as c2701portrait at darkright(-2), zorder 5
 show oca02_01 12 as c2706portrait at leftside(-3), zorder 5
-c27061 '[textdict[2111016]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27061 '[textdict[2111016]]' (what_size=25) with shake
 hide c2706portrait
 hide c2701portrait
 show oca01_01 5 as c2701portrait at darkright(-2), zorder 5

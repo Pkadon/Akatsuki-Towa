@@ -111,7 +111,7 @@ hide c211portrait
 hide c1portrait
 show oc001_01 19 as c1portrait at darkright(-2), zorder 5
 show st012_01 5 as c211portrait at leftside(-6), zorder 5
-c2111 '[textdict[1003402]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2111 '[textdict[1003402]]' with shake
 hide c1portrait
 hide c211portrait
 show st012_01 5 as c211portrait at darkleft(-6), zorder 6
@@ -187,7 +187,7 @@ hide c1portrait
 hide c622portrait
 show sc025_01 4 as c622portrait at darkleft(-1), zorder 6
 show uc004_02 4 as c623portrait at rightside(-9), zorder 5
-c6233 '[textdict[1003417]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6233 '[textdict[1003417]]' with shake
 hide c623portrait
 hide c622portrait
 show sc025_01 4 as c622portrait at darkleft(-1), zorder 6
@@ -205,7 +205,7 @@ play sfx2 "fight_6024.ogg"
 hide c211portrait
 hide c571portrait
 show sc017_01 4 as c571portrait at darkleft(-7), zorder 6
-c6243 '[textdict[1003421]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6243 '[textdict[1003421]]' with shake
 hide c571portrait
 show sc017_01 4 as c571portrait at darkleft(-7), zorder 6
 show uc004_02 2 as c625portrait at rightside(-9), zorder 5
@@ -255,7 +255,7 @@ hide c212portrait
 hide c622portrait
 show sc025_01 4 as c622portrait at darkleft(-1), zorder 6
 show uc004_02 4 as c570portrait at rightside(-9), zorder 5
-c5703 '[textdict[1003431]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5703 '[textdict[1003431]]' with shake
 hide c622portrait
 hide c570portrait
 show sc071_01 2 as c611portrait at leftside(-20), zorder 5
@@ -354,5 +354,5 @@ hide c211portrait
 hide c622portrait
 show sc025_01 4 as c622portrait at darkleft(-1), zorder 6
 show st012_01 3 as c211portrait at rightside(-6), zorder 5
-c2113 '[textdict[1003451]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2113 '[textdict[1003451]]' (what_size=24) with shake
 return

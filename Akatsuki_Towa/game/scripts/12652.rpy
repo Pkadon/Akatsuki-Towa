@@ -19,7 +19,7 @@ c13 '[textdict[1163820]]'
 hide c4portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
-c13321 '[textdict[1163821]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13321 '[textdict[1163821]]' with shake
 play sfx2 "other_7085.ogg"
 hide c1portrait
 c00 '[textdict[1163822]]'
@@ -36,7 +36,7 @@ show oc002_01 4 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1163826]]'
 hide c2portrait
 show oc002_01 4 as c2portrait at darkright(-3), zorder 5
-c13311 '[textdict[1163827]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13311 '[textdict[1163827]]' with shake
 hide c2portrait
 show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1163828]]'

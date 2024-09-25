@@ -49,7 +49,7 @@ c9641 '[textdict[1128459]]'
 play music "ed7511.ogg"
 play sfx2 "other_7080.ogg"
 hide c2portrait
-c5003 '[textdict[1128460]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5003 '[textdict[1128460]]' with shake
 c9641 '[textdict[1128461]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1128462]]'
@@ -67,7 +67,7 @@ with fade
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1128465]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1128465]]' with shake
 scene avg_bg_011
 with fade
 show oc003_01 3 as c3portrait at leftside(-6), zorder 5

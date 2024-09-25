@@ -134,7 +134,7 @@ play music "ed7518.ogg"
 hide c1portrait
 hide c7portrait
 show oc007_01 1 as c7portrait at darkleft(-24), zorder 6
-c10323 '[textdict[1160630]]' (what_size=38) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10323 '[textdict[1160630]]' (what_size=38) with shake
 hide c7portrait
 show oc007_01 2 as c7portrait at leftside(-24), shakeleft, zorder 5
 c71 '[textdict[1160631]]' (what_size=38)

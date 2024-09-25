@@ -60,7 +60,7 @@ hide c18portrait
 hide c2portrait
 show oc002_01 14 as c2portrait at darkright(-3), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[1162688]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c181 '[textdict[1162688]]' with shake
 hide c18portrait
 hide c2portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
@@ -139,5 +139,5 @@ hide c18portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc010_01 4 as c18portrait at leftside(-10), zorder 5
-c181 '[textdict[1162705]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c181 '[textdict[1162705]]' with shake
 return

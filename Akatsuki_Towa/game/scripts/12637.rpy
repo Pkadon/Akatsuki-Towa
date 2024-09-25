@@ -32,7 +32,7 @@ play music "ed7511.ogg"
 play sfx2 "other_7079.ogg"
 hide c3portrait
 show oc003_01 1 as c3portrait at darkright(-6), zorder 5
-c13091 '[textdict[1162980]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13091 '[textdict[1162980]]' with shake
 hide c3portrait
 c13253 '[textdict[1162981]]'
 play sfx2 "fight_6024.ogg"

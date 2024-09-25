@@ -172,9 +172,9 @@ show uc002_03 3 as c2647portrait at rightsidemidback(-23), zorder 5
 c26473 '[textdict[2109570]]'
 hide c4portrait
 hide c2647portrait
-c00 '[textdict[2109571]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2109571]]' with shake
 show oc004_01 12 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[2109572]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[2109572]]' (what_size=24) with shake
 hide c4portrait
 show oc004_01 12 as c4portrait at darkleft(-5), zorder 6
 show oc006_01 4 as c6portrait at rightside(-5), zorder 5

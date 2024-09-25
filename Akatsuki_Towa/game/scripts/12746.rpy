@@ -30,7 +30,7 @@ c11653 '[textdict[1173422]]'
 c10833 '[textdict[1173423]]'
 play sfx2 "other_7018.ogg"
 c51 '[textdict[1173424]]'
-c11653 '[textdict[1173425]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11653 '[textdict[1173425]]' with shake
 c41 '[textdict[1173426]]'
 c10833 '[textdict[1173427]]'
 c11653 '[textdict[1173428]]'
@@ -148,7 +148,7 @@ show st061_01 4 as c1304portrait at darkright(-2), zorder 5
 c11651 '[textdict[1173483]]'
 hide c1304portrait
 show st061_01 4 as c1304portrait at darkright(-2), zorder 5
-c10831 '[textdict[1173484]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10831 '[textdict[1173484]]' with shake
 hide c1304portrait
 show st061_01 4 as c1304portrait at darkright(-2), zorder 5
 c11651 '[textdict[1173485]]'

@@ -212,7 +212,7 @@ play sfx2 "other_7033.ogg"
 play sfxvoice "avg_vocal_na11_b.ogg"
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2105452]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2105452]]' with shake
 hide c1portrait
 show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
 with fade
@@ -231,7 +231,7 @@ c13 '[textdict[2105456]]'
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
 show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
-c10041 '[textdict[2105457]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10041 '[textdict[2105457]]' with shake
 hide c1004portrait
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
@@ -316,7 +316,7 @@ stop music
 hide c1004portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-c25331 '[textdict[2105480]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25331 '[textdict[2105480]]' with shake
 stop music
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5

@@ -5,7 +5,7 @@ play music "ed7518.ogg"
 scene avg_bg_074
 with fade
 play sfx2 "other_7087.ogg"
-c10321 '[textdict[1131685]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10321 '[textdict[1131685]]' with shake
 show oc007_01 2 as c7portrait at rightside(-24), shakeright, zorder 5
 c73 '[textdict[1131686]]'
 hide c7portrait
@@ -40,14 +40,14 @@ c10321 '[textdict[1131693]]'
 play sfx2 "other_7087.ogg"
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
-c10321 '[textdict[1131694]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10321 '[textdict[1131694]]' with shake
 hide c1portrait
 show oc007_01 2 as c7portrait at rightside(-24), zorder 5
 c73 '[textdict[1131695]]'
 play sfx2 "other_7087.ogg"
 hide c7portrait
 show oc007_01 2 as c7portrait at darkright(-24), zorder 5
-c10321 '[textdict[1131696]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10321 '[textdict[1131696]]' with shake
 hide c7portrait
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1131697]]'
@@ -181,7 +181,7 @@ play sfx2 "other_7087.ogg"
 hide c7portrait
 hide c3portrait
 show oc003_01 5 as c3portrait at darkright(-6), zorder 5
-c10321 '[textdict[1131723]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10321 '[textdict[1131723]]' with shake
 hide c3portrait
 show oc007_01 1 as c7portrait at rightside(-24), zorder 5
 c73 '[textdict[1131724]]'

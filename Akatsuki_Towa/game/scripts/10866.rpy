@@ -5,7 +5,7 @@ play music "ed7150.ogg"
 scene avg_bg_049
 with fade
 show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
-c26683 '[textdict[1191502]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26683 '[textdict[1191502]]' with shake
 hide c2668portrait
 show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[1191503]]'
@@ -26,7 +26,7 @@ scene avg_bg_023
 with fade
 play sfx2 "other_7047.ogg"
 show oce04_01 8 as c2668portrait at rightsideentrance(-5), zorder 5
-c26683 '[textdict[1191508]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26683 '[textdict[1191508]]' with shake
 hide c2668portrait
 show oce04_01 11 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[1191509]]'
@@ -61,7 +61,7 @@ c5001 '[textdict[1191518]]'
 stop music
 hide c2668portrait
 show oce04_01 8 as c2668portrait at darkright(-5), zorder 5
-c14401 '[textdict[1191519]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14401 '[textdict[1191519]]' (what_size=23) with shake
 stop music
 hide c2668portrait
 show oce04_01 8 as c2668portrait at darkright(-5), zorder 5

@@ -39,7 +39,7 @@ hide c47portrait
 hide c45portrait
 show sc038_01 1 as c45portrait at darkleft(-1), zorder 6
 show sc040_01 4 as c47portrait at rightside(-9), zorder 5
-c473 '[textdict[2112122]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c473 '[textdict[2112122]]' with shake
 scene avg_bg_019
 with fade
 c00 '[textdict[2112123]]'
@@ -271,7 +271,7 @@ c461 '[textdict[2112172]]'
 stop music
 hide c46portrait
 hide c47portrait
-c00 '[textdict[2112173]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2112173]]' with shake
 stop music
 c11551 '[textdict[2112174]]' (what_size=25)
 stop music
@@ -651,7 +651,7 @@ hide c47portrait
 c00 '[textdict[2112253]]'
 stop music
 play sfx2 "fight_6015.ogg"
-c27611 '[textdict[2112254]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27611 '[textdict[2112254]]' (what_size=25) with shake
 stop music
 play sfx2 "other_7092.ogg"
 c00 '[textdict[2112255]]'

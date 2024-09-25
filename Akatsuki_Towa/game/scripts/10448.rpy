@@ -150,7 +150,7 @@ hide c1139portrait
 hide c72portrait
 show sc068_01 3 as c72portrait at darkright(-17), zorder 5
 show uc003_04 3 as c1140portrait at leftside(-14), zorder 5
-c11401 '[textdict[1142208]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11401 '[textdict[1142208]]' with shake
 play sfx2 "fight_6014.ogg"
 hide c1140portrait
 hide c72portrait

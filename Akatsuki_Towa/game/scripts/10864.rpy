@@ -47,7 +47,7 @@ show oce02_01 12 as c2666portrait at darkright(-3), zorder 5
 c26621 '[textdict[1191280]]'
 hide c2666portrait
 show oce02_01 12 as c2666portrait at darkright(-3), zorder 5
-c26621 '[textdict[1191281]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26621 '[textdict[1191281]]' with shake
 hide c2666portrait
 show oce02_01 12 as c2666portrait at darkright(-3), zorder 5
 c14401 '[textdict[1191282]]'

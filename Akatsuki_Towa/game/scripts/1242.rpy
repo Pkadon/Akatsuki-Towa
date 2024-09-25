@@ -103,7 +103,7 @@ c13051 '[textdict[2112995]]'
 stop music
 play sfx2 "elc_5006.ogg"
 hide c2670portrait
-c00 '[textdict[2112996]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2112996]]' (what_size=25) with shake
 stop music
 play sfx2 "other_7057.ogg"
 c13051 '[textdict[2112997]]'

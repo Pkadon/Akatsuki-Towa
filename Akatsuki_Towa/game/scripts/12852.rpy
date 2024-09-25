@@ -8,7 +8,7 @@ c00 '[textdict[1187957]]'
 c00 '[textdict[1187958]]'
 c14711 '[textdict[1187959]]'
 c11571 '[textdict[1187960]]'
-c25981 '[textdict[1187961]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25981 '[textdict[1187961]]' with shake
 c14771 '[textdict[1187962]]'
 show st065_01 1 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1187963]]'

@@ -25,7 +25,7 @@ scene avg_bg_038
 with fade
 play sfx2 "other_7071.ogg"
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2111179]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2111179]]' with shake
 stop music
 play sfx2 "other_7071.ogg"
 hide c1portrait

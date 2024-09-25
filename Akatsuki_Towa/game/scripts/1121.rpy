@@ -197,7 +197,7 @@ show oc001_01 5 as c1portrait at darkright(-2), zorder 5
 c25221 '[textdict[2102971]]'
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2102972]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2102972]]' with shake
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 c25211 '[textdict[2102973]]'
@@ -271,7 +271,7 @@ show sc019_01 2 as c27portrait at leftside(-18), zorder 5
 c271 '[textdict[2102992]]'
 hide c27portrait
 show sc019_01 2 as c27portrait at darkleft(-18), zorder 6
-c25233 '[textdict[2102993]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25233 '[textdict[2102993]]' with shake
 hide c27portrait
 show sc019_01 1 as c27portrait at leftside(-18), zorder 5
 c271 '[textdict[2102994]]'
@@ -282,7 +282,7 @@ c271 '[textdict[2102995]]'
 hide c27portrait
 show sc019_01 4 as c27portrait at darkleft(-18), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2102996]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2102996]]' with shake
 play music "ED6101.ogg"
 hide c27portrait
 hide c1portrait

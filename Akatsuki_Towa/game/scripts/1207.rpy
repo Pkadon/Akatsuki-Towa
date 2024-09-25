@@ -58,7 +58,7 @@ hide c9portrait
 hide c10portrait
 show sc002_01 3 as c10portrait at darkright(-12), zorder 5
 show sc001_01 4 as c9portrait at leftside(-11), zorder 5
-c91 '[textdict[2108657]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c91 '[textdict[2108657]]' (what_size=24) with shake
 hide c9portrait
 hide c10portrait
 show sc002_01 3 as c10portrait at darkright(-12), zorder 5
@@ -417,7 +417,7 @@ play sfx2 "other_7062.ogg"
 hide c240portrait
 hide c10portrait
 show sc002_01 5 as c10portrait at darkright(-12), zorder 5
-c26791 '[textdict[2108734]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26791 '[textdict[2108734]]' with shake
 hide c10portrait
 show sc002_01 4 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108735]]'
@@ -500,18 +500,18 @@ play sfx2 "fight_6015.ogg"
 hide c9portrait
 hide c10portrait
 show sc002_01 2 as c10portrait at darkright(-12), zorder 5
-c26851 '[textdict[2108751]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26851 '[textdict[2108751]]' (what_size=25) with shake
 hide c10portrait
 show sc002_01 2 as c10portrait at rightside(-12), shakeright, zorder 5
 c103 '[textdict[2108752]]'
 hide c10portrait
 show sc002_01 2 as c10portrait at darkright(-12), zorder 5
-c26791 '[textdict[2108753]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26791 '[textdict[2108753]]' with shake
 play sfx2 "other_7061.ogg"
 hide c10portrait
 show sc002_01 2 as c10portrait at darkright(-12), zorder 5
 show st050_01 2 as c257portrait at leftside(-11), zorder 5
-c2571 '[textdict[2108754]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2571 '[textdict[2108754]]' with shake
 hide c257portrait
 hide c10portrait
 show sc002_01 2 as c10portrait at darkright(-12), zorder 5
@@ -672,7 +672,7 @@ hide c9portrait
 hide c10portrait
 show sc002_01 6 as c10portrait at darkright(-12), zorder 5
 show st041_01 1 as c240portrait at leftside(-1), zorder 5
-c2401 '[textdict[2108785]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c2401 '[textdict[2108785]]' with shake
 play sfx2 "other_7062.ogg"
 hide c240portrait
 hide c10portrait

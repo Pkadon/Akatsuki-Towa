@@ -90,7 +90,7 @@ c00 '[textdict[1003576]]'
 scene avg_bg_041
 with fade
 show sc027_01 3 as c35portrait at rightside(-10), zorder 5
-c353 '[textdict[1003577]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c353 '[textdict[1003577]]' with shake
 hide c35portrait
 show sc027_01 3 as c35portrait at rightside(-10), zorder 5
 c353 '[textdict[1003578]]'

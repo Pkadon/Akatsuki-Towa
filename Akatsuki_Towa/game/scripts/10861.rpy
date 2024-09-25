@@ -23,7 +23,7 @@ show oce02_01 4 as c2666portrait at rightsideentrance(-3), zorder 5
 c26663 '[textdict[1190976]]'
 hide c2666portrait
 show oce02_01 21 as c2666portrait at rightside(-3), zorder 5
-c26663 '[textdict[1190977]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[1190977]]' with shake
 hide c2666portrait
 show oce02_01 21 as c2666portrait at darkright(-3), zorder 5
 show uc003_01 1 as c506portrait at leftside(-26), zorder 5
@@ -89,7 +89,7 @@ hide c2615portrait
 hide c2666portrait
 show oce02_01 5 as c2666portrait at darkright(-3), zorder 5
 show uc003_01 2 as c507portrait at leftside(-26), zorder 5
-c5071 '[textdict[1190990]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5071 '[textdict[1190990]]' with shake
 hide c2666portrait
 hide c507portrait
 show uc003_01 2 as c507portrait at darkleft(-26), zorder 6
@@ -262,7 +262,7 @@ show oce02_01 1 as c2666portrait at darkright(-3), zorder 5
 c14401 '[textdict[1191028]]'
 hide c2666portrait
 show oce02_01 21 as c2666portrait at rightside(-3), zorder 5
-c26663 '[textdict[1191029]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[1191029]]' with shake
 hide c2666portrait
 show oce02_01 22 as c2666portrait at rightside(-3), zorder 5
 c26663 '[textdict[1191030]]'

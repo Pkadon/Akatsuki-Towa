@@ -241,7 +241,7 @@ show st064_01 4 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1176538]]'
 hide c1469portrait
 show st064_01 4 as c1469portrait at darkleft(-2), zorder 6
-c5003 '[textdict[1176539]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5003 '[textdict[1176539]]' with shake
 play sfx2 "fight_6009.ogg"
 hide c1469portrait
 c00 '[textdict[1176540]]'

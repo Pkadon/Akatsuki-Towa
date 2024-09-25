@@ -23,7 +23,7 @@ with fade
 c10041 '[textdict[1141763]]'
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
-c11123 '[textdict[1141764]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11123 '[textdict[1141764]]' with shake
 hide c1004portrait
 show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
 c10041 '[textdict[1141765]]'
@@ -218,7 +218,7 @@ show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
 c10041 '[textdict[1141814]]'
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
-c11123 '[textdict[1141815]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11123 '[textdict[1141815]]' (what_size=24) with shake
 hide c1004portrait
 show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
 c10041 '[textdict[1141816]]'
@@ -245,5 +245,5 @@ c10041 '[textdict[1141821]]'
 hide c1022portrait
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
-c11123 '[textdict[1141822]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11123 '[textdict[1141822]]' (what_size=24) with shake
 return

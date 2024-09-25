@@ -140,7 +140,7 @@ c13 '[textdict[1186192]]'
 scene avg_bg_074
 with fade
 play sfx2 "other_7045.ogg"
-c15281 '[textdict[1186193]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c15281 '[textdict[1186193]]' with shake
 c15291 '[textdict[1186194]]'
 c15301 '[textdict[1186195]]'
 c15281 '[textdict[1186196]]'
@@ -236,7 +236,7 @@ hide c1portrait
 c00 '[textdict[1186220]]'
 c15301 '[textdict[1186221]]'
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1186222]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1186222]]' with shake
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 c15291 '[textdict[1186223]]'

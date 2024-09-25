@@ -166,7 +166,7 @@ c2571 '[textdict[1152071]]' (what_size=24)
 stop music
 hide c257portrait
 show st050_01 3 as c257portrait at darkleft(-11), zorder 6
-c6883 '[textdict[1152072]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6883 '[textdict[1152072]]' with shake
 play music "ed7511.ogg"
 hide c257portrait
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5

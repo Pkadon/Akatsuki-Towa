@@ -60,7 +60,7 @@ show oc005_01 4 as c5portrait at rightside(-6), zorder 5
 c53 '[textdict[1185007]]'
 play sfx2 "other_7011.ogg"
 hide c5portrait
-c00 '[textdict[1185008]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1185008]]' with shake
 play sfx2 "other_7011.ogg"
 show oc002_01 20 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1185009]]'
@@ -135,7 +135,7 @@ stop music
 play sfx2 "fight_6015.ogg"
 hide c5portrait
 hide c1portrait
-c00 '[textdict[1185025]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1185025]]' with shake
 play music "ed7510.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1185026]]'

@@ -7,7 +7,7 @@ with fade
 c00 '[textdict[1003167]]'
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1003168]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1003168]]' with shake
 play sfxvoice "avg_vocal_ro09.ogg"
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5

@@ -72,7 +72,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106247]]'
 scene avg_bg_022
 with fade
-c5001 '[textdict[2106248]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[2106248]]' with shake
 play sfx2 "other_7087.ogg"
 show oc001_01 12 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[2106249]]'
@@ -138,7 +138,7 @@ play music "ed7511.ogg"
 play sfx2 "fight_6009.ogg"
 hide c1portrait
 show sc038_01 4 as c45portrait at rightside(-1), zorder 5
-c453 '[textdict[2106266]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c453 '[textdict[2106266]]' with shake
 hide c45portrait
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[2106267]]'
@@ -207,7 +207,7 @@ c451 '[textdict[2106281]]'
 hide c1portrait
 hide c45portrait
 show sc038_01 1 as c45portrait at darkleft(-1), zorder 6
-c12243 '[textdict[2106282]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12243 '[textdict[2106282]]' with shake
 play sfx2 "other_7085.ogg"
 hide c45portrait
 c00 '[textdict[2106283]]'

@@ -552,7 +552,7 @@ c13 '[textdict[1182691]]'
 play sfx2 "fight_6010.ogg"
 hide c8portrait
 hide c1portrait
-c00 '[textdict[1182692]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1182692]]' with shake
 show oc002_01 20 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1182693]]'
 hide c2portrait
@@ -645,7 +645,7 @@ stop music
 play sfx2 "fight_6015.ogg"
 hide c8portrait
 hide c2portrait
-c00 '[textdict[1182711]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1182711]]' with shake
 play music "ed7571.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1182712]]'

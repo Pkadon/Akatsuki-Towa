@@ -9,7 +9,7 @@ show sc040_01 6 as c47portrait at rightside(-9), zorder 5
 c473 '[textdict[2111574]]'
 hide c47portrait
 show sc040_01 6 as c47portrait at darkright(-9), zorder 5
-c27411 '[textdict[2111575]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27411 '[textdict[2111575]]' with shake
 play sfx2 "other_7092.ogg"
 hide c47portrait
 show sc040_01 6 as c47portrait at rightside(-9), zorder 5
@@ -216,7 +216,7 @@ hide c2731portrait
 hide c47portrait
 show sc040_01 2 as c47portrait at darkright(-9), zorder 5
 show oca00_01 1 as c2731portrait at leftside(-2), zorder 5
-c27311 '[textdict[2111616]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27311 '[textdict[2111616]]' (what_size=24) with shake
 stop music
 hide c47portrait
 hide c2731portrait
@@ -356,7 +356,7 @@ hide c2733portrait
 hide c2731portrait
 show oca00_01 1 as c2731portrait at darkright(-2), zorder 5
 show uc002_03 4 as c2738portrait at leftside(-23), zorder 5
-c27381 '[textdict[2111643]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27381 '[textdict[2111643]]' (what_size=25) with shake
 stop music
 show memoryoverlay zorder 2
 hide c2731portrait
@@ -671,7 +671,7 @@ show memoryoverlay zorder 2
 hide c2734portrait
 hide c2627portrait
 show occ04_01 9 as c2627portrait at darkright(-5), zorder 5
-c27431 '[textdict[2111703]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27431 '[textdict[2111703]]' with shake
 show memoryoverlay zorder 2
 hide c2627portrait
 show occ04_01 5 as c2627portrait at rightside(-5), zorder 5
@@ -703,7 +703,7 @@ show memoryoverlay zorder 2
 hide c2737portrait
 hide c2627portrait
 show occ04_01 16 as c2627portrait at darkright(-5), zorder 5
-c27511 '[textdict[2111709]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27511 '[textdict[2111709]]' with shake
 show memoryoverlay zorder 2
 hide c2627portrait
 show occ04_01 2 as c2627portrait at rightside(-5), zorder 5

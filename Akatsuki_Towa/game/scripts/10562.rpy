@@ -207,7 +207,7 @@ play sfxvoice "avg_vocal_na21.ogg"
 hide c5portrait
 show oc005_01 1 as c5portrait at darkleft(-6), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1154263]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1154263]]' with shake
 play sfx2 "other_7029.ogg"
 hide c1portrait
 hide c5portrait
@@ -285,7 +285,7 @@ c41 '[textdict[1154275]]'
 play sfx2 "other_7058.ogg"
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1154276]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1154276]]' with shake
 play sfxvoice "avg_vocal_ji17.ogg"
 show oc005_01 8 as c5portrait at rightside(-6), zorder 5
 with fade

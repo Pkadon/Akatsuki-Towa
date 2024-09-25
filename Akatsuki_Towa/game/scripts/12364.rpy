@@ -108,13 +108,13 @@ c11 '[textdict[1133770]]'
 play sfx2 "other_7081.ogg"
 hide c1portrait
 show oc001_01 21 as c1portrait at darkleft(-2), zorder 6
-c10733 '[textdict[1133771]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10733 '[textdict[1133771]]' with shake
 hide c1portrait
 show oc001_01 12 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1133772]]'
 hide c1portrait
 show oc001_01 12 as c1portrait at darkleft(-2), zorder 6
-c10713 '[textdict[1133773]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10713 '[textdict[1133773]]' with shake
 play music "ed7511.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c1portrait

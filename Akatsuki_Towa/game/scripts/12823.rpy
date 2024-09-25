@@ -78,13 +78,13 @@ play sfx2 "other_7064.ogg"
 c25491 '[textdict[1184456]]'
 play sfx2 "other_7064.ogg"
 c25491 '[textdict[1184457]]'
-c25591 '[textdict[1184458]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25591 '[textdict[1184458]]' with shake
 c10321 '[textdict[1184459]]'
 c25511 '[textdict[1184460]]'
 c25591 '[textdict[1184461]]'
 c25511 '[textdict[1184462]]'
 c10321 '[textdict[1184463]]'
-c25591 '[textdict[1184464]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25591 '[textdict[1184464]]' with shake
 c10321 '[textdict[1184465]]'
 c25591 '[textdict[1184466]]'
 c10321 '[textdict[1184467]]'
@@ -99,7 +99,7 @@ c25511 '[textdict[1184475]]'
 c25591 '[textdict[1184476]]'
 c00 '[textdict[1184477]]'
 c25511 '[textdict[1184478]]'
-c25511 '[textdict[1184479]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25511 '[textdict[1184479]]' with shake
 c00 '[textdict[1184480]]'
 c25481 '[textdict[1184481]]'
 c25491 '[textdict[1184482]]'

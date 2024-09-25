@@ -168,7 +168,7 @@ hide c10portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show sc002_01 4 as c10portrait at leftside(-12), zorder 5
-c101 '[textdict[2105565]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c101 '[textdict[2105565]]' with shake
 stop music
 play sfx2 "other_7010.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
@@ -293,7 +293,7 @@ hide c1portrait
 hide c10portrait
 show sc002_01 2 as c10portrait at darkleft(-12), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2105594]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[2105594]]' with shake
 hide c1portrait
 hide c10portrait
 show sc002_01 2 as c10portrait at darkleft(-12), zorder 6

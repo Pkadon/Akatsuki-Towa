@@ -96,7 +96,7 @@ hide c4portrait
 hide c1portrait
 show oc001_01 16 as c1portrait at darkright(-2), zorder 5
 show oc004_01 21 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1182448]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[1182448]]' with shake
 stop music
 hide c1portrait
 hide c4portrait

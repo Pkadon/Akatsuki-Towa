@@ -41,7 +41,7 @@ c10443 '[textdict[1132433]]'
 c10401 '[textdict[1132434]]'
 c10443 '[textdict[1132435]]'
 play sfx2 "other_7057.ogg"
-c10411 '[textdict[1132436]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10411 '[textdict[1132436]]' (what_size=24) with shake
 play music "ed7511.ogg"
 play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
@@ -100,7 +100,7 @@ play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_li10.ogg"
 hide c1portrait
 show oc004_01 13 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1132450]]' (what_size=22) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1132450]]' (what_size=22) with shake
 hide c4portrait
 show oc004_01 13 as c4portrait at darkright(-5), zorder 5
 show oc003_01 3 as c3portrait at leftside(-6), zorder 5

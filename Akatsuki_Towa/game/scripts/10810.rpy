@@ -36,7 +36,7 @@ play sfx2 "elc_5007.ogg"
 c15011 '[textdict[1182151]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6008.ogg"
-c00 '[textdict[1182152]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1182152]]' with shake
 show memoryoverlay zorder 2
 with fade
 c15021 '[textdict[1182153]]'

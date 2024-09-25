@@ -178,7 +178,7 @@ show ocd03_01 9 as c2667portrait at darkright(-6), zorder 5
 c27761 '[textdict[2113127]]'
 hide c2667portrait
 show ocd03_01 4 as c2667portrait at rightside(-6), zorder 5
-c26673 '[textdict[2113128]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26673 '[textdict[2113128]]' (what_size=24) with shake
 hide c2667portrait
 show ocd03_01 4 as c2667portrait at darkright(-6), zorder 5
 c27761 '[textdict[2113129]]'
@@ -269,5 +269,5 @@ c26673 '[textdict[2113152]]' (what_size=23)
 hide c2667portrait
 stop music
 show ocd03_01 12 as c2667portrait at rightside(-6), zorder 5
-c26673 '[textdict[2113153]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26673 '[textdict[2113153]]' (what_size=25) with shake
 return

@@ -120,7 +120,7 @@ scene avg_bg_505
 with fade
 c33 '[textdict[1172740]]'
 play sfx2 "other_7080.ogg"
-c14451 '[textdict[1172741]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14451 '[textdict[1172741]]' with shake
 scene avg_bg_070
 with fade
 c00 '[textdict[1172742]]'

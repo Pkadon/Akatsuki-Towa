@@ -109,7 +109,7 @@ c14693 '[textdict[1177750]]'
 hide c1469portrait
 show st064_01 4 as c1469portrait at darkright(-2), zorder 5
 show st065_01 4 as c1468portrait at leftside(-6), zorder 5
-c14681 '[textdict[1177751]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14681 '[textdict[1177751]]' with shake
 scene avg_bg_070
 with fade
 c00 '[textdict[1177752]]'
@@ -156,5 +156,5 @@ hide c1468portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show st065_01 4 as c1468portrait at leftside(-6), zorder 5
-c14681 '[textdict[1177765]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14681 '[textdict[1177765]]' with shake
 return

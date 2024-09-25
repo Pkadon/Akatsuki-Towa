@@ -46,7 +46,7 @@ play music "ed7511.ogg"
 hide c530portrait
 show uc002_03 1 as c530portrait at darkleft(-23), zorder 6
 show oc001_01 20 as c1portrait at rightsideentrance(-2), zorder 5
-c13 '[textdict[1170745]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1170745]]' with shake
 hide c530portrait
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5

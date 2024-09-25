@@ -20,7 +20,7 @@ scene avg_bg_071
 with fade
 play sfx2 "fight_6018.ogg"
 show occ02_01 9 as c2633portrait at leftside(-3), zorder 5
-c26331 '[textdict[2107245]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26331 '[textdict[2107245]]' (what_size=24) with shake
 play sfx2 "fight_6021.ogg"
 hide c2633portrait
 show occ02_01 4 as c2633portrait at leftside(-3), zorder 5
@@ -134,7 +134,7 @@ c26371 '[textdict[2107268]]'
 hide c2630portrait
 show occ02_01 21 as c2625portrait at leftside(-3), zorder 5
 with fade
-c26251 '[textdict[2107269]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26251 '[textdict[2107269]]' with shake
 hide c2625portrait
 show occ02_01 21 as c2625portrait at darkleft(-3), zorder 6
 c14523 '[textdict[2107270]]'
@@ -260,7 +260,7 @@ hide c2625portrait
 hide c2630portrait
 show scc45_01 3 as c2630portrait at darkright(-11), zorder 5
 show occ02_01 12 as c2625portrait at leftside(-3), zorder 5
-c26251 '[textdict[2107298]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26251 '[textdict[2107298]]' with shake
 scene avg_bg_014
 with fade
 play sfx2 "other_7064.ogg"

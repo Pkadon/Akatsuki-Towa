@@ -37,7 +37,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175413]]'
 hide c1portrait
 c12573 '[textdict[1175414]]'
-c12601 '[textdict[1175415]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12601 '[textdict[1175415]]' with shake
 play music "ed7511.ogg"
 scene avg_bg_077
 with fade

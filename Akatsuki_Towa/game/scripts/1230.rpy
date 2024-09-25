@@ -134,7 +134,7 @@ play sfx2 "other_7074.ogg"
 hide c56portrait
 hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
-c21 '[textdict[2111419]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[2111419]]' with shake
 play sfx2 "other_7074.ogg"
 hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
@@ -148,7 +148,7 @@ c21 '[textdict[2111422]]'
 play sfx2 "other_7087.ogg"
 hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
-c41 '[textdict[2111423]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c41 '[textdict[2111423]]' with shake
 hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c31 '[textdict[2111424]]'
@@ -226,7 +226,7 @@ c41 '[textdict[2111443]]'
 c31 '[textdict[2111444]]'
 play sfx2 "fight_6010.ogg"
 c41 '[textdict[2111445]]'
-c21 '[textdict[2111446]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[2111446]]' with shake
 c41 '[textdict[2111447]]'
 c21 '[textdict[2111448]]'
 c41 '[textdict[2111449]]'
@@ -255,7 +255,7 @@ with fade
 c00 '[textdict[2111455]]'
 scene avg_bg_023
 with fade
-c51 '[textdict[2111456]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c51 '[textdict[2111456]]' with shake
 c31 '[textdict[2111457]]'
 play sfx2 "other_7023.ogg"
 c61 '[textdict[2111458]]'

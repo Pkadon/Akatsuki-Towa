@@ -81,7 +81,7 @@ c21 '[textdict[2100774]]'
 stop music
 play sfx2 "fight_6016.ogg"
 hide c2portrait
-c00 '[textdict[2100775]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[2100775]]' with shake
 stop music
 play sfxvoice "avg_vocal_ch27.ogg"
 show oc002_01 3 as c2portrait at leftside(-3), zorder 5

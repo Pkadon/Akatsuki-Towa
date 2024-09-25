@@ -5,7 +5,7 @@ play music "ed7150.ogg"
 scene avg_bg_019
 with fade
 c00 '[textdict[1143199]]'
-c5051 '[textdict[1143200]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5051 '[textdict[1143200]]' (what_size=24) with shake
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1143201]]'
 hide c1portrait

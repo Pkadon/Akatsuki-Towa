@@ -29,13 +29,13 @@ show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141254]]' (what_size=22)
 hide c1portrait
 show oc001_01 19 as c1portrait at darkright(-2), zorder 5
-c11091 '[textdict[1141255]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11091 '[textdict[1141255]]' (what_size=24) with shake
 hide c1portrait
 show oc001_01 19 as c1portrait at darkright(-2), zorder 5
-c11091 '[textdict[1141256]]' (what_size=26) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11091 '[textdict[1141256]]' (what_size=26) with shake
 hide c1portrait
 show oc001_01 19 as c1portrait at darkright(-2), zorder 5
-c11091 '[textdict[1141257]]' (what_size=28) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11091 '[textdict[1141257]]' (what_size=28) with shake
 play music "ED6516.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 hide c1portrait
@@ -60,7 +60,7 @@ c10831 '[textdict[1141263]]'
 play sfx2 "other_7007.ogg"
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1141264]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1141264]]' (what_size=24) with shake
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 c10831 '[textdict[1141265]]'
@@ -70,10 +70,10 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141266]]'
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c11091 '[textdict[1141267]]' (what_size=22) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11091 '[textdict[1141267]]' (what_size=22) with shake
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c11091 '[textdict[1141268]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11091 '[textdict[1141268]]' (what_size=24) with shake
 play sfx2 "fight_6024.ogg"
 play sfxvoice "avg_vocal_na11.ogg"
 hide c1portrait
@@ -82,5 +82,5 @@ c13 '[textdict[1141269]]' (what_size=22)
 play sfx2 "other_7007.ogg"
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
-c11091 '[textdict[1141270]]' (what_size=22) with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11091 '[textdict[1141270]]' (what_size=22) with shake
 return

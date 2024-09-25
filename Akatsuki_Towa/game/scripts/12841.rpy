@@ -61,5 +61,5 @@ c13 '[textdict[1186253]]'
 play sfx2 "other_7045.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1186254]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c00 '[textdict[1186254]]' with shake
 return
