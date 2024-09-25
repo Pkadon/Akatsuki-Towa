@@ -256,39 +256,37 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 			f.write('                size 25\n')
 			f.write(f'            action Hide("{menuname}")\n')
 			
-			#QUESTLOG
+			#BUTTONS TO VIEW QUESTLOG(S)
 			if 'questID' in quest and len(quest['questID']) > 0:
+				f.write('        viewport:\n')
+				f.write('            ypos 37\n')
+				f.write('            xysize (114,443)\n')
+				if len(quest['questID']) > 12:
+					f.write('            draggable True\n')
+					f.write('            mousewheel True\n')
+					f.write('            scrollbars "vertical"\n')
+				f.write('            vbox:\n')
 				logcount = 0
-				logpos = 0
-				columncount = 0
 				for log in quest['questID']:
 					logcount+=1
-					logpos +=1
 					logname = f"log{log}"
-					f.write('        button:\n')
-					f.write('            xysize(94,37)\n')
-					f.write(f'            xpos {str(94*columncount)}\n')
-					f.write(f'            ypos {str(37*logpos)}\n')
-					f.write('            background Frame("backbutton", 16, 16)\n')
-					f.write(f'            text "Log {str(logcount)}":\n')
-					f.write('                align (0.5,1.0)\n')
-					f.write('                size 25\n')
-					f.write(f'            action ShowMenu("{logname}")\n')
-					if logpos >=12:
-						columncount += 1
-						logpos = 0
+					f.write('                button:\n')
+					f.write('                    xysize(94,37)\n')
+					f.write('                    background Frame("backbutton", 16, 16)\n')
+					f.write(f'                    text "Log {str(logcount)}":\n')
+					f.write('                        align (0.5,1.0)\n')
+					f.write('                        size 25\n')
+					f.write(f'                    action ShowMenu("{logname}")\n')
 
 			#start of menu
 			f.write('        viewport:\n')
-			#毎日討伐 needs to make room for the 20+ quest log buttons
-			if categorynumber == '14' and questnumber == '01':
-				f.write('            xpos 282\n')
-			else:
-				f.write('            xpos 94\n')
+			f.write('            xpos 119\n')
 			f.write('            xsize 720\n')
-			f.write('            draggable True\n')
-			f.write('            mousewheel True\n')
-			f.write('            scrollbars "vertical"\n')
+			#don't add a scrollbar if there aren't enough buttons to fill the screen
+			if len(quest['level2']) > 8:
+				f.write('            draggable True\n')
+				f.write('            mousewheel True\n')
+				f.write('            scrollbars "vertical"\n')	
 			f.write('            vbox:\n')
 			f.write('                xsize 700\n')
 
@@ -302,11 +300,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 			
 			f.write('                button:\n')
 			f.write('                    xysize(330,37)\n')
-			#毎日討伐 again
-			if categorynumber == '14' and questnumber == '01':
-				f.write('                    xalign 0\n')
-			else:
-				f.write('                    xalign 0.5\n')
+			f.write('                    xalign 0.5\n')
 			f.write('                    background Frame("booktab2")\n')
 			f.write('                    bottom_padding 4\n')
 			f.write(f'                    text "{level1}":\n')
@@ -385,11 +379,12 @@ with open((outputdirec / "questlog.rpy"),'w', encoding="utf-8") as f:
 		
 		#start of menu
 		f.write('        viewport:\n')
-		f.write('            xpos 94\n')
+		f.write('            xpos 119\n')
 		f.write('            xsize 680\n')
 		f.write('            draggable True\n')
 		f.write('            mousewheel True\n')
 		f.write('            scrollbars "vertical"\n')
+		f.write('            vscrollbar_unscrollable "hide"\n')
 		f.write('            vbox:\n')
 		f.write('                button:\n')
 		f.write('                    xysize(650,None)\n')

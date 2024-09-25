@@ -12,11 +12,12 @@ screen log102():
                 size 25
             action Hide("log102")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -39,11 +40,12 @@ screen log103():
                 size 25
             action Hide("log103")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -66,11 +68,12 @@ screen log104():
                 size 25
             action Hide("log104")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -93,11 +96,12 @@ screen log105():
                 size 25
             action Hide("log105")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -120,11 +124,12 @@ screen log106():
                 size 25
             action Hide("log106")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -147,11 +152,12 @@ screen log107():
                 size 25
             action Hide("log107")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -174,11 +180,12 @@ screen log160():
                 size 25
             action Hide("log160")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -201,11 +208,12 @@ screen log151():
                 size 25
             action Hide("log151")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -228,11 +236,12 @@ screen log152():
                 size 25
             action Hide("log152")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -255,11 +264,12 @@ screen log153():
                 size 25
             action Hide("log153")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -282,11 +292,12 @@ screen log154():
                 size 25
             action Hide("log154")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -309,11 +320,12 @@ screen log155():
                 size 25
             action Hide("log155")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -336,11 +348,12 @@ screen log156():
                 size 25
             action Hide("log156")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -363,11 +376,12 @@ screen log157():
                 size 25
             action Hide("log157")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -390,11 +404,12 @@ screen log158():
                 size 25
             action Hide("log158")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -417,11 +432,12 @@ screen log159():
                 size 25
             action Hide("log159")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -444,11 +460,12 @@ screen log201():
                 size 25
             action Hide("log201")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -471,11 +488,12 @@ screen log202():
                 size 25
             action Hide("log202")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -498,11 +516,12 @@ screen log203():
                 size 25
             action Hide("log203")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -525,11 +544,12 @@ screen log204():
                 size 25
             action Hide("log204")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -552,11 +572,12 @@ screen log205():
                 size 25
             action Hide("log205")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -579,11 +600,12 @@ screen log206():
                 size 25
             action Hide("log206")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -606,11 +628,12 @@ screen log251():
                 size 25
             action Hide("log251")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -633,11 +656,12 @@ screen log252():
                 size 25
             action Hide("log252")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -660,11 +684,12 @@ screen log253():
                 size 25
             action Hide("log253")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -687,11 +712,12 @@ screen log254():
                 size 25
             action Hide("log254")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -714,11 +740,12 @@ screen log255():
                 size 25
             action Hide("log255")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -741,11 +768,12 @@ screen log256():
                 size 25
             action Hide("log256")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -768,11 +796,12 @@ screen log257():
                 size 25
             action Hide("log257")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -795,11 +824,12 @@ screen log258():
                 size 25
             action Hide("log258")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -822,11 +852,12 @@ screen log259():
                 size 25
             action Hide("log259")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -849,11 +880,12 @@ screen log260():
                 size 25
             action Hide("log260")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -876,11 +908,12 @@ screen log261():
                 size 25
             action Hide("log261")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -903,11 +936,12 @@ screen log262():
                 size 25
             action Hide("log262")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -930,11 +964,12 @@ screen log263():
                 size 25
             action Hide("log263")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -957,11 +992,12 @@ screen log301():
                 size 25
             action Hide("log301")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -984,11 +1020,12 @@ screen log302():
                 size 25
             action Hide("log302")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1011,11 +1048,12 @@ screen log264():
                 size 25
             action Hide("log264")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1038,11 +1076,12 @@ screen log303():
                 size 25
             action Hide("log303")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1065,11 +1104,12 @@ screen log304():
                 size 25
             action Hide("log304")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1092,11 +1132,12 @@ screen log305():
                 size 25
             action Hide("log305")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1119,11 +1160,12 @@ screen log306():
                 size 25
             action Hide("log306")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1146,11 +1188,12 @@ screen log307():
                 size 25
             action Hide("log307")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1173,11 +1216,12 @@ screen log351():
                 size 25
             action Hide("log351")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1200,11 +1244,12 @@ screen log352():
                 size 25
             action Hide("log352")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1227,11 +1272,12 @@ screen log353():
                 size 25
             action Hide("log353")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1254,11 +1300,12 @@ screen log354():
                 size 25
             action Hide("log354")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1281,11 +1328,12 @@ screen log355():
                 size 25
             action Hide("log355")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1308,11 +1356,12 @@ screen log356():
                 size 25
             action Hide("log356")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1335,11 +1384,12 @@ screen log357():
                 size 25
             action Hide("log357")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1362,11 +1412,12 @@ screen log358():
                 size 25
             action Hide("log358")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1389,11 +1440,12 @@ screen log359():
                 size 25
             action Hide("log359")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1416,11 +1468,12 @@ screen log360():
                 size 25
             action Hide("log360")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1443,11 +1496,12 @@ screen log361():
                 size 25
             action Hide("log361")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1470,11 +1524,12 @@ screen log362():
                 size 25
             action Hide("log362")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1497,11 +1552,12 @@ screen log363():
                 size 25
             action Hide("log363")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1524,11 +1580,12 @@ screen log364():
                 size 25
             action Hide("log364")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1551,11 +1608,12 @@ screen log401():
                 size 25
             action Hide("log401")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1578,11 +1636,12 @@ screen log402():
                 size 25
             action Hide("log402")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1605,11 +1664,12 @@ screen log403():
                 size 25
             action Hide("log403")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1632,11 +1692,12 @@ screen log404():
                 size 25
             action Hide("log404")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1659,11 +1720,12 @@ screen log405():
                 size 25
             action Hide("log405")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1686,11 +1748,12 @@ screen log406():
                 size 25
             action Hide("log406")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1713,11 +1776,12 @@ screen log407():
                 size 25
             action Hide("log407")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1740,11 +1804,12 @@ screen log451():
                 size 25
             action Hide("log451")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1767,11 +1832,12 @@ screen log452():
                 size 25
             action Hide("log452")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1794,11 +1860,12 @@ screen log453():
                 size 25
             action Hide("log453")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1821,11 +1888,12 @@ screen log454():
                 size 25
             action Hide("log454")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1848,11 +1916,12 @@ screen log455():
                 size 25
             action Hide("log455")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1875,11 +1944,12 @@ screen log456():
                 size 25
             action Hide("log456")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1902,11 +1972,12 @@ screen log457():
                 size 25
             action Hide("log457")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1929,11 +2000,12 @@ screen log458():
                 size 25
             action Hide("log458")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1956,11 +2028,12 @@ screen log459():
                 size 25
             action Hide("log459")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -1983,11 +2056,12 @@ screen log460():
                 size 25
             action Hide("log460")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2010,11 +2084,12 @@ screen log461():
                 size 25
             action Hide("log461")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2037,11 +2112,12 @@ screen log462():
                 size 25
             action Hide("log462")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2064,11 +2140,12 @@ screen log463():
                 size 25
             action Hide("log463")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2091,11 +2168,12 @@ screen log464():
                 size 25
             action Hide("log464")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2118,11 +2196,12 @@ screen log465():
                 size 25
             action Hide("log465")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2145,11 +2224,12 @@ screen log466():
                 size 25
             action Hide("log466")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2172,11 +2252,12 @@ screen log501():
                 size 25
             action Hide("log501")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2199,11 +2280,12 @@ screen log502():
                 size 25
             action Hide("log502")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2226,11 +2308,12 @@ screen log503():
                 size 25
             action Hide("log503")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2253,11 +2336,12 @@ screen log504():
                 size 25
             action Hide("log504")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2280,11 +2364,12 @@ screen log505():
                 size 25
             action Hide("log505")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2307,11 +2392,12 @@ screen log506():
                 size 25
             action Hide("log506")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2334,11 +2420,12 @@ screen log507():
                 size 25
             action Hide("log507")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2361,11 +2448,12 @@ screen log508():
                 size 25
             action Hide("log508")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2388,11 +2476,12 @@ screen log509():
                 size 25
             action Hide("log509")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2415,11 +2504,12 @@ screen log551():
                 size 25
             action Hide("log551")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2442,11 +2532,12 @@ screen log552():
                 size 25
             action Hide("log552")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2469,11 +2560,12 @@ screen log553():
                 size 25
             action Hide("log553")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2496,11 +2588,12 @@ screen log554():
                 size 25
             action Hide("log554")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2523,11 +2616,12 @@ screen log565():
                 size 25
             action Hide("log565")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2550,11 +2644,12 @@ screen log566():
                 size 25
             action Hide("log566")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2577,11 +2672,12 @@ screen log557():
                 size 25
             action Hide("log557")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2604,11 +2700,12 @@ screen log558():
                 size 25
             action Hide("log558")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2631,11 +2728,12 @@ screen log559():
                 size 25
             action Hide("log559")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2658,11 +2756,12 @@ screen log560():
                 size 25
             action Hide("log560")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2685,11 +2784,12 @@ screen log561():
                 size 25
             action Hide("log561")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2712,11 +2812,12 @@ screen log562():
                 size 25
             action Hide("log562")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2739,11 +2840,12 @@ screen log563():
                 size 25
             action Hide("log563")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2766,11 +2868,12 @@ screen log601():
                 size 25
             action Hide("log601")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2793,11 +2896,12 @@ screen log602():
                 size 25
             action Hide("log602")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2820,11 +2924,12 @@ screen log603():
                 size 25
             action Hide("log603")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2847,11 +2952,12 @@ screen log604():
                 size 25
             action Hide("log604")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2874,11 +2980,12 @@ screen log605():
                 size 25
             action Hide("log605")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2901,11 +3008,12 @@ screen log606():
                 size 25
             action Hide("log606")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2928,11 +3036,12 @@ screen log607():
                 size 25
             action Hide("log607")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2955,11 +3064,12 @@ screen log608():
                 size 25
             action Hide("log608")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -2982,11 +3092,12 @@ screen log609():
                 size 25
             action Hide("log609")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3009,11 +3120,12 @@ screen log610():
                 size 25
             action Hide("log610")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3036,11 +3148,12 @@ screen log611():
                 size 25
             action Hide("log611")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3063,11 +3176,12 @@ screen log612():
                 size 25
             action Hide("log612")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3090,11 +3204,12 @@ screen log651():
                 size 25
             action Hide("log651")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3117,11 +3232,12 @@ screen log652():
                 size 25
             action Hide("log652")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3144,11 +3260,12 @@ screen log653():
                 size 25
             action Hide("log653")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3171,11 +3288,12 @@ screen log654():
                 size 25
             action Hide("log654")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3198,11 +3316,12 @@ screen log655():
                 size 25
             action Hide("log655")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3225,11 +3344,12 @@ screen log656():
                 size 25
             action Hide("log656")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3252,11 +3372,12 @@ screen log657():
                 size 25
             action Hide("log657")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3279,11 +3400,12 @@ screen log658():
                 size 25
             action Hide("log658")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3306,11 +3428,12 @@ screen log659():
                 size 25
             action Hide("log659")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3333,11 +3456,12 @@ screen log660():
                 size 25
             action Hide("log660")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3360,11 +3484,12 @@ screen log661():
                 size 25
             action Hide("log661")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3387,11 +3512,12 @@ screen log662():
                 size 25
             action Hide("log662")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3414,11 +3540,12 @@ screen log663():
                 size 25
             action Hide("log663")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3441,11 +3568,12 @@ screen log664():
                 size 25
             action Hide("log664")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3468,11 +3596,12 @@ screen log665():
                 size 25
             action Hide("log665")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3495,11 +3624,12 @@ screen log666():
                 size 25
             action Hide("log666")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3522,11 +3652,12 @@ screen log701():
                 size 25
             action Hide("log701")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3549,11 +3680,12 @@ screen log702():
                 size 25
             action Hide("log702")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3576,11 +3708,12 @@ screen log703():
                 size 25
             action Hide("log703")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3603,11 +3736,12 @@ screen log704():
                 size 25
             action Hide("log704")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3630,11 +3764,12 @@ screen log705():
                 size 25
             action Hide("log705")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3657,11 +3792,12 @@ screen log706():
                 size 25
             action Hide("log706")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3684,11 +3820,12 @@ screen log707():
                 size 25
             action Hide("log707")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3711,11 +3848,12 @@ screen log708():
                 size 25
             action Hide("log708")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3738,11 +3876,12 @@ screen log709():
                 size 25
             action Hide("log709")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3765,11 +3904,12 @@ screen log710():
                 size 25
             action Hide("log710")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3792,11 +3932,12 @@ screen log711():
                 size 25
             action Hide("log711")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3819,11 +3960,12 @@ screen log712():
                 size 25
             action Hide("log712")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3846,11 +3988,12 @@ screen log751():
                 size 25
             action Hide("log751")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3873,11 +4016,12 @@ screen log752():
                 size 25
             action Hide("log752")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3900,11 +4044,12 @@ screen log753():
                 size 25
             action Hide("log753")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3927,11 +4072,12 @@ screen log754():
                 size 25
             action Hide("log754")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3954,11 +4100,12 @@ screen log755():
                 size 25
             action Hide("log755")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -3981,11 +4128,12 @@ screen log756():
                 size 25
             action Hide("log756")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4008,11 +4156,12 @@ screen log757():
                 size 25
             action Hide("log757")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4035,11 +4184,12 @@ screen log758():
                 size 25
             action Hide("log758")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4062,11 +4212,12 @@ screen log759():
                 size 25
             action Hide("log759")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4089,11 +4240,12 @@ screen log760():
                 size 25
             action Hide("log760")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4116,11 +4268,12 @@ screen log761():
                 size 25
             action Hide("log761")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4143,11 +4296,12 @@ screen log762():
                 size 25
             action Hide("log762")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4170,11 +4324,12 @@ screen log763():
                 size 25
             action Hide("log763")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4197,11 +4352,12 @@ screen log764():
                 size 25
             action Hide("log764")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4224,11 +4380,12 @@ screen log765():
                 size 25
             action Hide("log765")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4251,11 +4408,12 @@ screen log766():
                 size 25
             action Hide("log766")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4278,11 +4436,12 @@ screen log767():
                 size 25
             action Hide("log767")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4305,11 +4464,12 @@ screen log768():
                 size 25
             action Hide("log768")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4332,11 +4492,12 @@ screen log801():
                 size 25
             action Hide("log801")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4359,11 +4520,12 @@ screen log802():
                 size 25
             action Hide("log802")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4386,11 +4548,12 @@ screen log803():
                 size 25
             action Hide("log803")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4413,11 +4576,12 @@ screen log804():
                 size 25
             action Hide("log804")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4440,11 +4604,12 @@ screen log805():
                 size 25
             action Hide("log805")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4467,11 +4632,12 @@ screen log806():
                 size 25
             action Hide("log806")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4494,11 +4660,12 @@ screen log807():
                 size 25
             action Hide("log807")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4521,11 +4688,12 @@ screen log808():
                 size 25
             action Hide("log808")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4548,11 +4716,12 @@ screen log809():
                 size 25
             action Hide("log809")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4575,11 +4744,12 @@ screen log810():
                 size 25
             action Hide("log810")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4602,11 +4772,12 @@ screen log811():
                 size 25
             action Hide("log811")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4629,11 +4800,12 @@ screen log812():
                 size 25
             action Hide("log812")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4656,11 +4828,12 @@ screen log813():
                 size 25
             action Hide("log813")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4683,11 +4856,12 @@ screen log814():
                 size 25
             action Hide("log814")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4710,11 +4884,12 @@ screen log815():
                 size 25
             action Hide("log815")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4737,11 +4912,12 @@ screen log816():
                 size 25
             action Hide("log816")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4764,11 +4940,12 @@ screen log817():
                 size 25
             action Hide("log817")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4791,11 +4968,12 @@ screen log818():
                 size 25
             action Hide("log818")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4818,11 +4996,12 @@ screen log819():
                 size 25
             action Hide("log819")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4845,11 +5024,12 @@ screen log820():
                 size 25
             action Hide("log820")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4872,11 +5052,12 @@ screen log821():
                 size 25
             action Hide("log821")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4899,11 +5080,12 @@ screen log822():
                 size 25
             action Hide("log822")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4926,11 +5108,12 @@ screen log823():
                 size 25
             action Hide("log823")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4953,11 +5136,12 @@ screen log824():
                 size 25
             action Hide("log824")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -4980,11 +5164,12 @@ screen log851():
                 size 25
             action Hide("log851")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5007,11 +5192,12 @@ screen log852():
                 size 25
             action Hide("log852")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5034,11 +5220,12 @@ screen log853():
                 size 25
             action Hide("log853")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5061,11 +5248,12 @@ screen log854():
                 size 25
             action Hide("log854")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5088,11 +5276,12 @@ screen log855():
                 size 25
             action Hide("log855")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5115,11 +5304,12 @@ screen log856():
                 size 25
             action Hide("log856")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5142,11 +5332,12 @@ screen log857():
                 size 25
             action Hide("log857")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5169,11 +5360,12 @@ screen log858():
                 size 25
             action Hide("log858")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5196,11 +5388,12 @@ screen log859():
                 size 25
             action Hide("log859")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5223,11 +5416,12 @@ screen log860():
                 size 25
             action Hide("log860")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5250,11 +5444,12 @@ screen log861():
                 size 25
             action Hide("log861")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5277,11 +5472,12 @@ screen log862():
                 size 25
             action Hide("log862")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5304,11 +5500,12 @@ screen log863():
                 size 25
             action Hide("log863")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5331,11 +5528,12 @@ screen log864():
                 size 25
             action Hide("log864")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5358,11 +5556,12 @@ screen log865():
                 size 25
             action Hide("log865")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5385,11 +5584,12 @@ screen log866():
                 size 25
             action Hide("log866")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5412,11 +5612,12 @@ screen log867():
                 size 25
             action Hide("log867")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5439,11 +5640,12 @@ screen log868():
                 size 25
             action Hide("log868")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5466,11 +5668,12 @@ screen log869():
                 size 25
             action Hide("log869")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5493,11 +5696,12 @@ screen log870():
                 size 25
             action Hide("log870")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5520,11 +5724,12 @@ screen log871():
                 size 25
             action Hide("log871")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5547,11 +5752,12 @@ screen log872():
                 size 25
             action Hide("log872")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5574,11 +5780,12 @@ screen log873():
                 size 25
             action Hide("log873")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5601,11 +5808,12 @@ screen log874():
                 size 25
             action Hide("log874")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5628,11 +5836,12 @@ screen log875():
                 size 25
             action Hide("log875")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5655,11 +5864,12 @@ screen log876():
                 size 25
             action Hide("log876")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5682,11 +5892,12 @@ screen log877():
                 size 25
             action Hide("log877")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5709,11 +5920,12 @@ screen log878():
                 size 25
             action Hide("log878")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5736,11 +5948,12 @@ screen log879():
                 size 25
             action Hide("log879")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5763,11 +5976,12 @@ screen log880():
                 size 25
             action Hide("log880")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5790,11 +6004,12 @@ screen log881():
                 size 25
             action Hide("log881")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5817,11 +6032,12 @@ screen log882():
                 size 25
             action Hide("log882")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5844,11 +6060,12 @@ screen log883():
                 size 25
             action Hide("log883")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5871,11 +6088,12 @@ screen log884():
                 size 25
             action Hide("log884")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5898,11 +6116,12 @@ screen log885():
                 size 25
             action Hide("log885")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5925,11 +6144,12 @@ screen log886():
                 size 25
             action Hide("log886")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5952,11 +6172,12 @@ screen log901():
                 size 25
             action Hide("log901")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -5979,11 +6200,12 @@ screen log902():
                 size 25
             action Hide("log902")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6006,11 +6228,12 @@ screen log903():
                 size 25
             action Hide("log903")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6033,11 +6256,12 @@ screen log904():
                 size 25
             action Hide("log904")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6060,11 +6284,12 @@ screen log905():
                 size 25
             action Hide("log905")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6087,11 +6312,12 @@ screen log906():
                 size 25
             action Hide("log906")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6114,11 +6340,12 @@ screen log907():
                 size 25
             action Hide("log907")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6141,11 +6368,12 @@ screen log908():
                 size 25
             action Hide("log908")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6168,11 +6396,12 @@ screen log909():
                 size 25
             action Hide("log909")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6195,11 +6424,12 @@ screen log910():
                 size 25
             action Hide("log910")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6222,11 +6452,12 @@ screen log911():
                 size 25
             action Hide("log911")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6249,11 +6480,12 @@ screen log912():
                 size 25
             action Hide("log912")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6276,11 +6508,12 @@ screen log913():
                 size 25
             action Hide("log913")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6303,11 +6536,12 @@ screen log914():
                 size 25
             action Hide("log914")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6330,11 +6564,12 @@ screen log915():
                 size 25
             action Hide("log915")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6357,11 +6592,12 @@ screen log916():
                 size 25
             action Hide("log916")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6384,11 +6620,12 @@ screen log917():
                 size 25
             action Hide("log917")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6411,11 +6648,12 @@ screen log918():
                 size 25
             action Hide("log918")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6438,11 +6676,12 @@ screen log919():
                 size 25
             action Hide("log919")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6465,11 +6704,12 @@ screen log920():
                 size 25
             action Hide("log920")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6492,11 +6732,12 @@ screen log921():
                 size 25
             action Hide("log921")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6519,11 +6760,12 @@ screen log922():
                 size 25
             action Hide("log922")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6546,11 +6788,12 @@ screen log923():
                 size 25
             action Hide("log923")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6573,11 +6816,12 @@ screen log924():
                 size 25
             action Hide("log924")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6600,11 +6844,12 @@ screen log951():
                 size 25
             action Hide("log951")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6627,11 +6872,12 @@ screen log952():
                 size 25
             action Hide("log952")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6654,11 +6900,12 @@ screen log953():
                 size 25
             action Hide("log953")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6681,11 +6928,12 @@ screen log954():
                 size 25
             action Hide("log954")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6708,11 +6956,12 @@ screen log955():
                 size 25
             action Hide("log955")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6735,11 +6984,12 @@ screen log956():
                 size 25
             action Hide("log956")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6762,11 +7012,12 @@ screen log957():
                 size 25
             action Hide("log957")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6789,11 +7040,12 @@ screen log958():
                 size 25
             action Hide("log958")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6816,11 +7068,12 @@ screen log959():
                 size 25
             action Hide("log959")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6843,11 +7096,12 @@ screen log960():
                 size 25
             action Hide("log960")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6870,11 +7124,12 @@ screen log961():
                 size 25
             action Hide("log961")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6897,11 +7152,12 @@ screen log962():
                 size 25
             action Hide("log962")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6924,11 +7180,12 @@ screen log963():
                 size 25
             action Hide("log963")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6951,11 +7208,12 @@ screen log964():
                 size 25
             action Hide("log964")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -6978,11 +7236,12 @@ screen log965():
                 size 25
             action Hide("log965")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7005,11 +7264,12 @@ screen log966():
                 size 25
             action Hide("log966")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7032,11 +7292,12 @@ screen log967():
                 size 25
             action Hide("log967")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7059,11 +7320,12 @@ screen log968():
                 size 25
             action Hide("log968")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7086,11 +7348,12 @@ screen log969():
                 size 25
             action Hide("log969")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7113,11 +7376,12 @@ screen log970():
                 size 25
             action Hide("log970")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7140,11 +7404,12 @@ screen log971():
                 size 25
             action Hide("log971")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7167,11 +7432,12 @@ screen log972():
                 size 25
             action Hide("log972")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7194,11 +7460,12 @@ screen log973():
                 size 25
             action Hide("log973")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7221,11 +7488,12 @@ screen log974():
                 size 25
             action Hide("log974")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7248,11 +7516,12 @@ screen log975():
                 size 25
             action Hide("log975")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7275,11 +7544,12 @@ screen log976():
                 size 25
             action Hide("log976")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7302,11 +7572,12 @@ screen log977():
                 size 25
             action Hide("log977")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7329,11 +7600,12 @@ screen log978():
                 size 25
             action Hide("log978")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7356,11 +7628,12 @@ screen log979():
                 size 25
             action Hide("log979")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7383,11 +7656,12 @@ screen log980():
                 size 25
             action Hide("log980")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7410,11 +7684,12 @@ screen log981():
                 size 25
             action Hide("log981")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7437,11 +7712,12 @@ screen log982():
                 size 25
             action Hide("log982")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7464,11 +7740,12 @@ screen log983():
                 size 25
             action Hide("log983")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7491,11 +7768,12 @@ screen log984():
                 size 25
             action Hide("log984")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7518,11 +7796,12 @@ screen log985():
                 size 25
             action Hide("log985")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7545,11 +7824,12 @@ screen log986():
                 size 25
             action Hide("log986")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7572,11 +7852,12 @@ screen log925():
                 size 25
             action Hide("log925")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7599,11 +7880,12 @@ screen log926():
                 size 25
             action Hide("log926")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7626,11 +7908,12 @@ screen log927():
                 size 25
             action Hide("log927")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7653,11 +7936,12 @@ screen log928():
                 size 25
             action Hide("log928")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7680,11 +7964,12 @@ screen log929():
                 size 25
             action Hide("log929")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7707,11 +7992,12 @@ screen log930():
                 size 25
             action Hide("log930")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7734,11 +8020,12 @@ screen log931():
                 size 25
             action Hide("log931")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7761,11 +8048,12 @@ screen log932():
                 size 25
             action Hide("log932")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7788,11 +8076,12 @@ screen log10501():
                 size 25
             action Hide("log10501")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7815,11 +8104,12 @@ screen log10502():
                 size 25
             action Hide("log10502")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7842,11 +8132,12 @@ screen log10503():
                 size 25
             action Hide("log10503")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7869,11 +8160,12 @@ screen log10504():
                 size 25
             action Hide("log10504")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7896,11 +8188,12 @@ screen log10505():
                 size 25
             action Hide("log10505")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7923,11 +8216,12 @@ screen log10506():
                 size 25
             action Hide("log10506")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7950,11 +8244,12 @@ screen log10507():
                 size 25
             action Hide("log10507")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -7977,11 +8272,12 @@ screen log10508():
                 size 25
             action Hide("log10508")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8004,11 +8300,12 @@ screen log10509():
                 size 25
             action Hide("log10509")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8031,11 +8328,12 @@ screen log10510():
                 size 25
             action Hide("log10510")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8058,11 +8356,12 @@ screen log10511():
                 size 25
             action Hide("log10511")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8085,11 +8384,12 @@ screen log10512():
                 size 25
             action Hide("log10512")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8112,11 +8412,12 @@ screen log10513():
                 size 25
             action Hide("log10513")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8139,11 +8440,12 @@ screen log10514():
                 size 25
             action Hide("log10514")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8166,11 +8468,12 @@ screen log10515():
                 size 25
             action Hide("log10515")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8193,11 +8496,12 @@ screen log10516():
                 size 25
             action Hide("log10516")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8220,11 +8524,12 @@ screen log10517():
                 size 25
             action Hide("log10517")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8247,11 +8552,12 @@ screen log10519():
                 size 25
             action Hide("log10519")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8274,11 +8580,12 @@ screen log10520():
                 size 25
             action Hide("log10520")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8301,11 +8608,12 @@ screen log10521():
                 size 25
             action Hide("log10521")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8328,11 +8636,12 @@ screen log20001():
                 size 25
             action Hide("log20001")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8355,11 +8664,12 @@ screen log20002():
                 size 25
             action Hide("log20002")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8382,11 +8692,12 @@ screen log20003():
                 size 25
             action Hide("log20003")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8409,11 +8720,12 @@ screen log20004():
                 size 25
             action Hide("log20004")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8436,11 +8748,12 @@ screen log20005():
                 size 25
             action Hide("log20005")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8463,11 +8776,12 @@ screen log20006():
                 size 25
             action Hide("log20006")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8490,11 +8804,12 @@ screen log20007():
                 size 25
             action Hide("log20007")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8517,11 +8832,12 @@ screen log20008():
                 size 25
             action Hide("log20008")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8544,11 +8860,12 @@ screen log20009():
                 size 25
             action Hide("log20009")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8571,11 +8888,12 @@ screen log20010():
                 size 25
             action Hide("log20010")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8598,11 +8916,12 @@ screen log20011():
                 size 25
             action Hide("log20011")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8625,11 +8944,12 @@ screen log20012():
                 size 25
             action Hide("log20012")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8652,11 +8972,12 @@ screen log20013():
                 size 25
             action Hide("log20013")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8679,11 +9000,12 @@ screen log20014():
                 size 25
             action Hide("log20014")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8706,11 +9028,12 @@ screen log20015():
                 size 25
             action Hide("log20015")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8733,11 +9056,12 @@ screen log20016():
                 size 25
             action Hide("log20016")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8760,11 +9084,12 @@ screen log20017():
                 size 25
             action Hide("log20017")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8787,11 +9112,12 @@ screen log20019():
                 size 25
             action Hide("log20019")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8814,11 +9140,12 @@ screen log20020():
                 size 25
             action Hide("log20020")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8841,11 +9168,12 @@ screen log20021():
                 size 25
             action Hide("log20021")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8868,11 +9196,12 @@ screen log20022():
                 size 25
             action Hide("log20022")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8895,11 +9224,12 @@ screen log20023():
                 size 25
             action Hide("log20023")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8922,11 +9252,12 @@ screen log20024():
                 size 25
             action Hide("log20024")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8949,11 +9280,12 @@ screen log20025():
                 size 25
             action Hide("log20025")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -8976,11 +9308,12 @@ screen log20026():
                 size 25
             action Hide("log20026")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9003,11 +9336,12 @@ screen log20027():
                 size 25
             action Hide("log20027")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9030,11 +9364,12 @@ screen log20501():
                 size 25
             action Hide("log20501")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9057,11 +9392,12 @@ screen log20502():
                 size 25
             action Hide("log20502")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9084,11 +9420,12 @@ screen log20503():
                 size 25
             action Hide("log20503")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9111,11 +9448,12 @@ screen log20504():
                 size 25
             action Hide("log20504")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9138,11 +9476,12 @@ screen log20505():
                 size 25
             action Hide("log20505")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9165,11 +9504,12 @@ screen log20506():
                 size 25
             action Hide("log20506")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9192,11 +9532,12 @@ screen log20507():
                 size 25
             action Hide("log20507")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9219,11 +9560,12 @@ screen log20508():
                 size 25
             action Hide("log20508")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9246,11 +9588,12 @@ screen log20509():
                 size 25
             action Hide("log20509")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9273,11 +9616,12 @@ screen log20510():
                 size 25
             action Hide("log20510")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9300,11 +9644,12 @@ screen log20511():
                 size 25
             action Hide("log20511")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9327,11 +9672,12 @@ screen log20512():
                 size 25
             action Hide("log20512")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9354,11 +9700,12 @@ screen log20513():
                 size 25
             action Hide("log20513")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9381,11 +9728,12 @@ screen log20514():
                 size 25
             action Hide("log20514")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9408,11 +9756,12 @@ screen log20515():
                 size 25
             action Hide("log20515")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9435,11 +9784,12 @@ screen log20516():
                 size 25
             action Hide("log20516")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9462,11 +9812,12 @@ screen log20517():
                 size 25
             action Hide("log20517")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9489,11 +9840,12 @@ screen log20518():
                 size 25
             action Hide("log20518")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9516,11 +9868,12 @@ screen log20519():
                 size 25
             action Hide("log20519")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9543,11 +9896,12 @@ screen log20520():
                 size 25
             action Hide("log20520")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9570,11 +9924,12 @@ screen log20521():
                 size 25
             action Hide("log20521")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9597,11 +9952,12 @@ screen log20522():
                 size 25
             action Hide("log20522")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9624,11 +9980,12 @@ screen log20523():
                 size 25
             action Hide("log20523")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9651,11 +10008,12 @@ screen log20524():
                 size 25
             action Hide("log20524")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9678,11 +10036,12 @@ screen log20525():
                 size 25
             action Hide("log20525")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9705,11 +10064,12 @@ screen log20526():
                 size 25
             action Hide("log20526")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9732,11 +10092,12 @@ screen log20527():
                 size 25
             action Hide("log20527")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9759,11 +10120,12 @@ screen log20528():
                 size 25
             action Hide("log20528")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9786,11 +10148,12 @@ screen log20529():
                 size 25
             action Hide("log20529")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9813,11 +10176,12 @@ screen log20530():
                 size 25
             action Hide("log20530")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9840,11 +10204,12 @@ screen log20531():
                 size 25
             action Hide("log20531")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9867,11 +10232,12 @@ screen log20532():
                 size 25
             action Hide("log20532")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9894,11 +10260,12 @@ screen log20533():
                 size 25
             action Hide("log20533")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9921,11 +10288,12 @@ screen log20534():
                 size 25
             action Hide("log20534")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9948,11 +10316,12 @@ screen log20539():
                 size 25
             action Hide("log20539")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -9975,11 +10344,12 @@ screen log20540():
                 size 25
             action Hide("log20540")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10002,11 +10372,12 @@ screen log20541():
                 size 25
             action Hide("log20541")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10029,11 +10400,12 @@ screen log20542():
                 size 25
             action Hide("log20542")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10056,11 +10428,12 @@ screen log20543():
                 size 25
             action Hide("log20543")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10083,11 +10456,12 @@ screen log20544():
                 size 25
             action Hide("log20544")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10110,11 +10484,12 @@ screen log20545():
                 size 25
             action Hide("log20545")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10137,11 +10512,12 @@ screen log20546():
                 size 25
             action Hide("log20546")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10164,11 +10540,12 @@ screen log20547():
                 size 25
             action Hide("log20547")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10191,11 +10568,12 @@ screen log20548():
                 size 25
             action Hide("log20548")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10218,11 +10596,12 @@ screen log20549():
                 size 25
             action Hide("log20549")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10245,11 +10624,12 @@ screen log5001():
                 size 25
             action Hide("log5001")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10272,11 +10652,12 @@ screen log5002():
                 size 25
             action Hide("log5002")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10299,11 +10680,12 @@ screen log5003():
                 size 25
             action Hide("log5003")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10326,11 +10708,12 @@ screen log5004():
                 size 25
             action Hide("log5004")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10353,11 +10736,12 @@ screen log5005():
                 size 25
             action Hide("log5005")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10380,11 +10764,12 @@ screen log5007():
                 size 25
             action Hide("log5007")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10407,11 +10792,12 @@ screen log5008():
                 size 25
             action Hide("log5008")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10434,11 +10820,12 @@ screen log5009():
                 size 25
             action Hide("log5009")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10461,11 +10848,12 @@ screen log5010():
                 size 25
             action Hide("log5010")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10488,11 +10876,12 @@ screen log5011():
                 size 25
             action Hide("log5011")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10515,11 +10904,12 @@ screen log5012():
                 size 25
             action Hide("log5012")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10542,11 +10932,12 @@ screen log5013():
                 size 25
             action Hide("log5013")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10569,11 +10960,12 @@ screen log5014():
                 size 25
             action Hide("log5014")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10596,11 +10988,12 @@ screen log5015():
                 size 25
             action Hide("log5015")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10623,11 +11016,12 @@ screen log5016():
                 size 25
             action Hide("log5016")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10650,11 +11044,12 @@ screen log5017():
                 size 25
             action Hide("log5017")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10677,11 +11072,12 @@ screen log5018():
                 size 25
             action Hide("log5018")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10704,11 +11100,12 @@ screen log5019():
                 size 25
             action Hide("log5019")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10731,11 +11128,12 @@ screen log5020():
                 size 25
             action Hide("log5020")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10758,11 +11156,12 @@ screen log5021():
                 size 25
             action Hide("log5021")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10785,11 +11184,12 @@ screen log6001():
                 size 25
             action Hide("log6001")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10812,11 +11212,12 @@ screen log6002():
                 size 25
             action Hide("log6002")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10839,11 +11240,12 @@ screen log6003():
                 size 25
             action Hide("log6003")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10866,11 +11268,12 @@ screen log6004():
                 size 25
             action Hide("log6004")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10893,11 +11296,12 @@ screen log6005():
                 size 25
             action Hide("log6005")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10920,11 +11324,12 @@ screen log6006():
                 size 25
             action Hide("log6006")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10947,11 +11352,12 @@ screen log6007():
                 size 25
             action Hide("log6007")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -10974,11 +11380,12 @@ screen log6008():
                 size 25
             action Hide("log6008")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11001,11 +11408,12 @@ screen log6009():
                 size 25
             action Hide("log6009")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11028,11 +11436,12 @@ screen log6010():
                 size 25
             action Hide("log6010")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11055,11 +11464,12 @@ screen log6011():
                 size 25
             action Hide("log6011")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11082,11 +11492,12 @@ screen log6012():
                 size 25
             action Hide("log6012")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11109,11 +11520,12 @@ screen log6013():
                 size 25
             action Hide("log6013")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11136,11 +11548,12 @@ screen log6014():
                 size 25
             action Hide("log6014")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11163,11 +11576,12 @@ screen log6015():
                 size 25
             action Hide("log6015")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11190,11 +11604,12 @@ screen log6016():
                 size 25
             action Hide("log6016")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11217,11 +11632,12 @@ screen log6017():
                 size 25
             action Hide("log6017")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11244,11 +11660,12 @@ screen log6018():
                 size 25
             action Hide("log6018")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11271,11 +11688,12 @@ screen log6019():
                 size 25
             action Hide("log6019")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11298,11 +11716,12 @@ screen log6020():
                 size 25
             action Hide("log6020")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11325,11 +11744,12 @@ screen log6021():
                 size 25
             action Hide("log6021")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11352,11 +11772,12 @@ screen log6022():
                 size 25
             action Hide("log6022")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11379,11 +11800,12 @@ screen log6023():
                 size 25
             action Hide("log6023")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11406,11 +11828,12 @@ screen log6024():
                 size 25
             action Hide("log6024")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11433,11 +11856,12 @@ screen log6025():
                 size 25
             action Hide("log6025")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11460,11 +11884,12 @@ screen log6026():
                 size 25
             action Hide("log6026")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11487,11 +11912,12 @@ screen log6027():
                 size 25
             action Hide("log6027")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11514,11 +11940,12 @@ screen log6028():
                 size 25
             action Hide("log6028")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11541,11 +11968,12 @@ screen log6029():
                 size 25
             action Hide("log6029")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11568,11 +11996,12 @@ screen log6030():
                 size 25
             action Hide("log6030")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11595,11 +12024,12 @@ screen log6031():
                 size 25
             action Hide("log6031")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11622,11 +12052,12 @@ screen log6032():
                 size 25
             action Hide("log6032")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11649,11 +12080,12 @@ screen log6033():
                 size 25
             action Hide("log6033")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11676,11 +12108,12 @@ screen log6034():
                 size 25
             action Hide("log6034")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11703,11 +12136,12 @@ screen log6035():
                 size 25
             action Hide("log6035")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11730,11 +12164,12 @@ screen log6036():
                 size 25
             action Hide("log6036")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11757,11 +12192,12 @@ screen log6037():
                 size 25
             action Hide("log6037")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11784,11 +12220,12 @@ screen log6038():
                 size 25
             action Hide("log6038")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11811,11 +12248,12 @@ screen log6039():
                 size 25
             action Hide("log6039")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11838,11 +12276,12 @@ screen log6040():
                 size 25
             action Hide("log6040")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11865,11 +12304,12 @@ screen log6041():
                 size 25
             action Hide("log6041")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11892,11 +12332,12 @@ screen log6042():
                 size 25
             action Hide("log6042")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11919,11 +12360,12 @@ screen log6043():
                 size 25
             action Hide("log6043")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11946,11 +12388,12 @@ screen log6044():
                 size 25
             action Hide("log6044")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -11973,11 +12416,12 @@ screen log6045():
                 size 25
             action Hide("log6045")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12000,11 +12444,12 @@ screen log6046():
                 size 25
             action Hide("log6046")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12027,11 +12472,12 @@ screen log6047():
                 size 25
             action Hide("log6047")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12054,11 +12500,12 @@ screen log6048():
                 size 25
             action Hide("log6048")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12081,11 +12528,12 @@ screen log6049():
                 size 25
             action Hide("log6049")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12108,11 +12556,12 @@ screen log6050():
                 size 25
             action Hide("log6050")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12135,11 +12584,12 @@ screen log6051():
                 size 25
             action Hide("log6051")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12162,11 +12612,12 @@ screen log6052():
                 size 25
             action Hide("log6052")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12189,11 +12640,12 @@ screen log6053():
                 size 25
             action Hide("log6053")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12216,11 +12668,12 @@ screen log6054():
                 size 25
             action Hide("log6054")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12243,11 +12696,12 @@ screen log6055():
                 size 25
             action Hide("log6055")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12270,11 +12724,12 @@ screen log6056():
                 size 25
             action Hide("log6056")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12297,11 +12752,12 @@ screen log6057():
                 size 25
             action Hide("log6057")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12324,11 +12780,12 @@ screen log6058():
                 size 25
             action Hide("log6058")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12351,11 +12808,12 @@ screen log6059():
                 size 25
             action Hide("log6059")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12378,11 +12836,12 @@ screen log6060():
                 size 25
             action Hide("log6060")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12405,11 +12864,12 @@ screen log6061():
                 size 25
             action Hide("log6061")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12432,11 +12892,12 @@ screen log6062():
                 size 25
             action Hide("log6062")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12459,11 +12920,12 @@ screen log6063():
                 size 25
             action Hide("log6063")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12486,11 +12948,12 @@ screen log6064():
                 size 25
             action Hide("log6064")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12513,11 +12976,12 @@ screen log6065():
                 size 25
             action Hide("log6065")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12540,11 +13004,12 @@ screen log6066():
                 size 25
             action Hide("log6066")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12567,11 +13032,12 @@ screen log6067():
                 size 25
             action Hide("log6067")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12594,11 +13060,12 @@ screen log6068():
                 size 25
             action Hide("log6068")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12621,11 +13088,12 @@ screen log6069():
                 size 25
             action Hide("log6069")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12648,11 +13116,12 @@ screen log6070():
                 size 25
             action Hide("log6070")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12675,11 +13144,12 @@ screen log6071():
                 size 25
             action Hide("log6071")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)
@@ -12702,11 +13172,12 @@ screen log6072():
                 size 25
             action Hide("log6072")
         viewport:
-            xpos 94
+            xpos 119
             xsize 680
             draggable True
             mousewheel True
             scrollbars "vertical"
+            vscrollbar_unscrollable "hide"
             vbox:
                 button:
                     xysize(650,None)

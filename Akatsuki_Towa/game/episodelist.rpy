@@ -4105,17 +4105,19 @@ screen quest0101():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0101")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log102")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log102")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -4257,21 +4259,20 @@ screen quest0102():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0102")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log160")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log160")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -4362,21 +4363,20 @@ screen quest0103():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0103")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log103")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log103")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -4457,17 +4457,19 @@ screen quest0104():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0104")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log104")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log104")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -4581,21 +4583,20 @@ screen quest0105():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0105")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log105")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log105")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -4676,21 +4677,20 @@ screen quest0106():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0106")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log106")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log106")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -4743,21 +4743,20 @@ screen quest0107():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0107")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log107")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log107")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -4819,21 +4818,20 @@ screen quest0108():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0108")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log151")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log151")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -4895,21 +4893,20 @@ screen quest0109():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0109")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log152")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log152")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5000,21 +4997,20 @@ screen quest0110():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0110")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log153")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log153")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5057,21 +5053,20 @@ screen quest0111():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0111")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log154")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log154")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5124,17 +5119,19 @@ screen quest0112():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0112")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log156")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log156")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -5257,21 +5254,20 @@ screen quest0113():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0113")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log157")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log157")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5305,21 +5301,20 @@ screen quest0114():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0114")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log158")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log158")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5391,21 +5386,20 @@ screen quest0115():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0115")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log159")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log159")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5459,11 +5453,8 @@ screen quest0116():
                 size 25
             action Hide("quest0116")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5525,21 +5516,20 @@ screen quest0201():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0201")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log201")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log201")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5620,21 +5610,20 @@ screen quest0202():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0202")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log202")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log202")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -5725,17 +5714,19 @@ screen quest0203():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0203")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log203")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log203")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -5849,17 +5840,19 @@ screen quest0204():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0204")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log204")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log204")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -6011,21 +6004,20 @@ screen quest0205():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0205")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log205")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log205")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6116,17 +6108,19 @@ screen quest0206():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0206")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log206")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log206")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -6240,21 +6234,20 @@ screen quest0207():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0207")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log251")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log251")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6345,21 +6338,20 @@ screen quest0208():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0208")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log252")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log252")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6421,21 +6413,20 @@ screen quest0209():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0209")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log253")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log253")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6478,21 +6469,20 @@ screen quest0210():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0210")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log255")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log255")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6526,21 +6516,20 @@ screen quest0211():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0211")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log256")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log256")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6602,21 +6591,20 @@ screen quest0212():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0212")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log259")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log259")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6669,21 +6657,20 @@ screen quest0213():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0213")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log257")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log257")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6726,21 +6713,20 @@ screen quest0214():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0214")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log254")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log254")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6802,21 +6788,20 @@ screen quest0215():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0215")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log260")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log260")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6878,21 +6863,20 @@ screen quest0216():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0216")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log263")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log263")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6936,11 +6920,8 @@ screen quest0217():
                 size 25
             action Hide("quest0217")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -6983,17 +6964,19 @@ screen quest0301():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0301")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log301")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log301")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -7192,17 +7175,19 @@ screen quest0302():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0302")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log302")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log302")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -7439,21 +7424,20 @@ screen quest0303():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0303")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log264")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log264")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -7506,21 +7490,20 @@ screen quest0304():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0304")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log303")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log303")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -7592,17 +7575,19 @@ screen quest0305():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0305")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log304")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log304")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -7801,17 +7786,19 @@ screen quest0306():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0306")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log305")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log305")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -7982,17 +7969,19 @@ screen quest0307():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0307")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log306")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log306")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -8115,17 +8104,19 @@ screen quest0308():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0308")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log307")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log307")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -8353,21 +8344,20 @@ screen quest0309():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0309")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log351")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log351")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8420,21 +8410,20 @@ screen quest0310():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0310")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log352")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log352")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8496,21 +8485,20 @@ screen quest0311():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0311")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log355")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log355")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8582,21 +8570,20 @@ screen quest0312():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0312")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log357")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log357")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8677,21 +8664,20 @@ screen quest0313():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0313")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log354")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log354")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8772,21 +8758,20 @@ screen quest0314():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0314")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log356")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log356")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8848,21 +8833,20 @@ screen quest0315():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0315")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log362")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log362")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -8953,21 +8937,20 @@ screen quest0316():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0316")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log363")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log363")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9010,21 +8993,20 @@ screen quest0317():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0317")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log364")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log364")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9087,11 +9069,8 @@ screen quest0318():
                 size 25
             action Hide("quest0318")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9163,21 +9142,20 @@ screen quest0401():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0401")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log401")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log401")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9258,21 +9236,20 @@ screen quest0402():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0402")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log402")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log402")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9363,17 +9340,19 @@ screen quest0403():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0403")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log403")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log403")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -9487,21 +9466,20 @@ screen quest0404():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0404")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log404")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log404")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9573,21 +9551,20 @@ screen quest0405():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0405")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log405")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log405")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9678,21 +9655,20 @@ screen quest0406():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0406")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log406")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log406")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9773,17 +9749,19 @@ screen quest0407():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0407")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log407")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log407")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -9906,21 +9884,20 @@ screen quest0408():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0408")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log451")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log451")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -9963,21 +9940,20 @@ screen quest0409():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0409")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log453")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log453")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10049,21 +10025,20 @@ screen quest0410():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0410")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log454")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log454")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10125,21 +10100,20 @@ screen quest0411():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0411")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log452")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log452")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10192,21 +10166,20 @@ screen quest0412():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0412")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log456")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log456")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10278,17 +10251,19 @@ screen quest0413():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0413")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log455")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log455")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -10402,21 +10377,20 @@ screen quest0414():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0414")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log457")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log457")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10478,21 +10452,20 @@ screen quest0415():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0415")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log458")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log458")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10545,21 +10518,20 @@ screen quest0416():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0416")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log464")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log464")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10621,21 +10593,20 @@ screen quest0417():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0417")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log462")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log462")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10707,21 +10678,20 @@ screen quest0418():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0418")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log465")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log465")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10764,21 +10734,20 @@ screen quest0419():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0419")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log466")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log466")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10831,21 +10800,20 @@ screen quest0501():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0501")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log551")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log551")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -10926,21 +10894,20 @@ screen quest0502():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0502")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log552")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log552")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11021,17 +10988,19 @@ screen quest0503():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0503")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log553")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log553")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -11145,21 +11114,20 @@ screen quest0504():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0504")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log554")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log554")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11231,21 +11199,20 @@ screen quest0505():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0505")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log501")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log501")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11307,21 +11274,20 @@ screen quest0506():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0506")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log565")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log565")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11364,21 +11330,20 @@ screen quest0507():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0507")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log502")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log502")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11478,21 +11443,20 @@ screen quest0508():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0508")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log566")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log566")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11545,21 +11509,20 @@ screen quest0509():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0509")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log557")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log557")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11593,21 +11556,20 @@ screen quest0510():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0510")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log558")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log558")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11669,21 +11631,20 @@ screen quest0511():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0511")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log503")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log503")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11755,17 +11716,19 @@ screen quest0512():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0512")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log504")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log504")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -11907,21 +11870,20 @@ screen quest0513():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0513")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log559")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log559")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -11993,17 +11955,19 @@ screen quest0514():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0514")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log560")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log560")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -12117,21 +12081,20 @@ screen quest0515():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0515")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log561")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log561")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12174,21 +12137,20 @@ screen quest0516():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0516")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log505")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log505")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12279,21 +12241,20 @@ screen quest0517():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0517")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log506")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log506")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12336,21 +12297,20 @@ screen quest0518():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0518")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log562")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log562")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12431,21 +12391,20 @@ screen quest0519():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0519")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log563")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log563")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12507,21 +12466,20 @@ screen quest0520():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0520")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log507")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log507")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12574,21 +12532,20 @@ screen quest0521():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0521")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log508")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log508")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12631,21 +12588,20 @@ screen quest0522():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0522")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log509")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log509")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12707,21 +12663,20 @@ screen quest0601():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0601")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log601")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log601")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12764,21 +12719,20 @@ screen quest0602():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0602")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log651")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log651")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12840,21 +12794,20 @@ screen quest0603():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0603")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log652")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log652")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -12954,21 +12907,20 @@ screen quest0604():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0604")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log653")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log653")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13030,21 +12982,20 @@ screen quest0605():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0605")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log602")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log602")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13106,21 +13057,20 @@ screen quest0606():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0606")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log654")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log654")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13192,21 +13142,20 @@ screen quest0607():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0607")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log655")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log655")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13268,21 +13217,20 @@ screen quest0608():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0608")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log603")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log603")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13363,21 +13311,20 @@ screen quest0609():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0609")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log604")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log604")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13449,21 +13396,20 @@ screen quest0610():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0610")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log656")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log656")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13554,21 +13500,20 @@ screen quest0611():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0611")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log657")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log657")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13640,21 +13585,20 @@ screen quest0612():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0612")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log605")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log605")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13745,21 +13689,20 @@ screen quest0613():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0613")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log658")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log658")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13831,21 +13774,20 @@ screen quest0614():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0614")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log606")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log606")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -13936,21 +13878,20 @@ screen quest0615():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0615")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log659")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log659")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14050,21 +13991,20 @@ screen quest0616():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0616")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log660")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log660")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14145,21 +14085,20 @@ screen quest0617():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0617")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log607")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log607")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14259,21 +14198,20 @@ screen quest0618():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0618")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log661")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log661")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14326,21 +14264,20 @@ screen quest0619():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0619")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log662")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log662")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14431,21 +14368,20 @@ screen quest0620():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0620")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log608")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log608")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14545,21 +14481,20 @@ screen quest0621():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0621")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log609")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log609")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14621,21 +14556,20 @@ screen quest0622():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0622")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log663")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log663")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14716,21 +14650,20 @@ screen quest0623():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0623")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log664")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log664")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14773,21 +14706,20 @@ screen quest0624():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0624")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log665")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log665")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -14868,17 +14800,19 @@ screen quest0625():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0625")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log610")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log610")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -14992,21 +14926,20 @@ screen quest0626():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0626")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log666")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log666")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15078,21 +15011,20 @@ screen quest0627():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0627")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log611")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log611")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15192,21 +15124,20 @@ screen quest0628():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0628")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log612")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log612")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15278,21 +15209,20 @@ screen quest0701():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0701")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log701")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log701")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15335,21 +15265,20 @@ screen quest0702():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0702")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log751")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log751")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15411,21 +15340,20 @@ screen quest0703():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0703")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log752")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log752")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15506,21 +15434,20 @@ screen quest0704():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0704")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log702")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log702")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15592,21 +15519,20 @@ screen quest0705():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0705")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log753")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log753")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15687,21 +15613,20 @@ screen quest0706():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0706")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log703")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log703")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15792,21 +15717,20 @@ screen quest0707():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0707")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log754")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log754")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15849,21 +15773,20 @@ screen quest0708():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0708")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log755")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log755")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15906,21 +15829,20 @@ screen quest0709():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0709")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log756")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log756")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -15982,21 +15904,20 @@ screen quest0710():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0710")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log704")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log704")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16068,21 +15989,20 @@ screen quest0711():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0711")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log705")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log705")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16144,21 +16064,20 @@ screen quest0712():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0712")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log757")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log757")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16230,21 +16149,20 @@ screen quest0713():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0713")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log758")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log758")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16306,21 +16224,20 @@ screen quest0714():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0714")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log706")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log706")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16363,21 +16280,20 @@ screen quest0715():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0715")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log759")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log759")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16458,21 +16374,20 @@ screen quest0716():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0716")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log760")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log760")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16563,21 +16478,20 @@ screen quest0717():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0717")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log707")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log707")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16630,21 +16544,20 @@ screen quest0718():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0718")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log761")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log761")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16697,21 +16610,20 @@ screen quest0719():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0719")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log762")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log762")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16764,17 +16676,19 @@ screen quest0720():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0720")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log708")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log708")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -16907,21 +16821,20 @@ screen quest0721():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0721")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log709")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log709")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -16964,21 +16877,20 @@ screen quest0722():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0722")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log763")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log763")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17059,21 +16971,20 @@ screen quest0723():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0723")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log764")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log764")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17135,17 +17046,19 @@ screen quest0724():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0724")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log710")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log710")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -17268,21 +17181,20 @@ screen quest0725():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0725")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log765")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log765")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17363,21 +17275,20 @@ screen quest0726():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0726")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log766")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log766")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17439,21 +17350,20 @@ screen quest0727():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0727")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log711")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log711")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17534,21 +17444,20 @@ screen quest0728():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0728")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log767")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log767")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17610,21 +17519,20 @@ screen quest0729():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0729")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log768")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log768")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -17686,17 +17594,19 @@ screen quest0730():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0730")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log712")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log712")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -17905,21 +17815,20 @@ screen quest0801():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0801")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log801")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log801")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18000,21 +17909,20 @@ screen quest0802():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0802")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log851")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log851")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18067,21 +17975,20 @@ screen quest0803():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0803")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log852")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log852")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18115,21 +18022,20 @@ screen quest0804():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0804")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log802")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log802")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18201,21 +18107,20 @@ screen quest0805():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0805")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log853")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log853")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18277,21 +18182,20 @@ screen quest0806():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0806")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log854")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log854")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18363,21 +18267,20 @@ screen quest0807():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0807")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log803")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log803")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18468,21 +18371,20 @@ screen quest0808():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0808")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log855")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log855")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18554,21 +18456,20 @@ screen quest0809():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0809")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log856")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log856")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18621,21 +18522,20 @@ screen quest0810():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0810")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log804")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log804")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18697,21 +18597,20 @@ screen quest0811():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0811")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log805")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log805")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18764,21 +18663,20 @@ screen quest0812():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0812")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log857")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log857")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18840,21 +18738,20 @@ screen quest0813():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0813")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log858")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log858")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18897,21 +18794,20 @@ screen quest0814():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0814")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log806")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log806")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -18954,21 +18850,20 @@ screen quest0815():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0815")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log859")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log859")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19021,21 +18916,20 @@ screen quest0816():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0816")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log860")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log860")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19097,21 +18991,20 @@ screen quest0817():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0817")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log861")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log861")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19192,21 +19085,20 @@ screen quest0818():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0818")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log807")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log807")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19249,21 +19141,20 @@ screen quest0819():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0819")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log862")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log862")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19325,17 +19216,19 @@ screen quest0820():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0820")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log808")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log808")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -19477,21 +19370,20 @@ screen quest0821():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0821")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log809")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log809")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19534,21 +19426,20 @@ screen quest0822():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0822")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log863")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log863")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19591,21 +19482,20 @@ screen quest0823():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0823")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log864")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log864")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19658,21 +19548,20 @@ screen quest0824():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0824")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log810")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log810")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19725,21 +19614,20 @@ screen quest0825():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0825")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log865")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log865")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19820,21 +19708,20 @@ screen quest0826():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0826")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log866")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log866")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -19906,21 +19793,20 @@ screen quest0827():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0827")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log811")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log811")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20001,21 +19887,20 @@ screen quest0828():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0828")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log867")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log867")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20087,21 +19972,20 @@ screen quest0829():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0829")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log868")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log868")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20163,21 +20047,20 @@ screen quest0830():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0830")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log812")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log812")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20220,21 +20103,20 @@ screen quest0831():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0831")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log813")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log813")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20287,21 +20169,20 @@ screen quest0832():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0832")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log869")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log869")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20363,21 +20244,20 @@ screen quest0833():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0833")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log870")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log870")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20449,17 +20329,19 @@ screen quest0834():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0834")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log814")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log814")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -20592,21 +20474,20 @@ screen quest0835():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0835")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log815")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log815")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20659,21 +20540,20 @@ screen quest0836():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0836")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log871")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log871")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20726,21 +20606,20 @@ screen quest0837():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0837")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log872")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log872")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20793,21 +20672,20 @@ screen quest0838():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0838")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log873")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log873")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20869,21 +20747,20 @@ screen quest0839():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0839")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log816")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log816")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -20945,21 +20822,20 @@ screen quest0840():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0840")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log874")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log874")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21021,21 +20897,20 @@ screen quest0841():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0841")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log817")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log817")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21088,21 +20963,20 @@ screen quest0842():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0842")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log875")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log875")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21145,21 +21019,20 @@ screen quest0843():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0843")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log876")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log876")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21221,21 +21094,20 @@ screen quest0844():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0844")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log818")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log818")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21326,21 +21198,20 @@ screen quest0845():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0845")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log877")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log877")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21393,21 +21264,20 @@ screen quest0846():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0846")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log878")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log878")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21460,21 +21330,20 @@ screen quest0847():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0847")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log819")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log819")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21574,21 +21443,20 @@ screen quest0848():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0848")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log879")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log879")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21650,21 +21518,20 @@ screen quest0849():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0849")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log880")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log880")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21698,21 +21565,20 @@ screen quest0850():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0850")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log820")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log820")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21755,21 +21621,20 @@ screen quest0851():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0851")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log821")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log821")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21822,21 +21687,20 @@ screen quest0852():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0852")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log881")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log881")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21908,21 +21772,20 @@ screen quest0853():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0853")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log882")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log882")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -21984,21 +21847,20 @@ screen quest0854():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0854")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log822")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log822")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22060,21 +21922,20 @@ screen quest0855():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0855")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log883")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log883")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22127,21 +21988,20 @@ screen quest0856():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0856")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log884")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log884")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22184,21 +22044,20 @@ screen quest0857():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0857")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log823")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log823")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22260,21 +22119,20 @@ screen quest0858():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0858")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log885")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log885")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22327,21 +22185,20 @@ screen quest0859():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0859")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log886")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log886")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22384,21 +22241,20 @@ screen quest0860():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0860")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log824")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log824")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22451,21 +22307,20 @@ screen quest0901():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0901")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log901")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log901")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22527,21 +22382,20 @@ screen quest0902():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0902")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log951")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log951")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22575,21 +22429,20 @@ screen quest0903():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0903")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log952")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log952")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22632,21 +22485,20 @@ screen quest0904():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0904")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log902")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log902")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22680,21 +22532,20 @@ screen quest0905():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0905")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log953")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log953")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22737,21 +22588,20 @@ screen quest0906():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0906")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log954")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log954")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22794,21 +22644,20 @@ screen quest0907():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0907")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log903")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log903")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22851,21 +22700,20 @@ screen quest0908():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0908")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log955")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log955")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22908,21 +22756,20 @@ screen quest0909():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0909")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log956")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log956")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -22956,21 +22803,20 @@ screen quest0910():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0910")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log904")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log904")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23013,21 +22859,20 @@ screen quest0911():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0911")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log905")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log905")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23089,21 +22934,20 @@ screen quest0912():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0912")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log957")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log957")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23137,21 +22981,20 @@ screen quest0913():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0913")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log958")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log958")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23194,21 +23037,20 @@ screen quest0914():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0914")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log906")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log906")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23261,21 +23103,20 @@ screen quest0915():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0915")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log959")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log959")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23318,21 +23159,20 @@ screen quest0916():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0916")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log960")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log960")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23375,21 +23215,20 @@ screen quest0917():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0917")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log907")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log907")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23432,21 +23271,20 @@ screen quest0918():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0918")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log961")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log961")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23499,21 +23337,20 @@ screen quest0919():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0919")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log962")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log962")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23556,21 +23393,20 @@ screen quest0920():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0920")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log908")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log908")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23613,21 +23449,20 @@ screen quest0921():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0921")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log909")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log909")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23670,21 +23505,20 @@ screen quest0922():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0922")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log963")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log963")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23727,21 +23561,20 @@ screen quest0923():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0923")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log964")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log964")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23794,21 +23627,20 @@ screen quest0924():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0924")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log910")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log910")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23842,21 +23674,20 @@ screen quest0925():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0925")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log965")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log965")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23899,21 +23730,20 @@ screen quest0926():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0926")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log966")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log966")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -23966,21 +23796,20 @@ screen quest0927():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0927")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log911")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log911")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24023,21 +23852,20 @@ screen quest0928():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0928")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log967")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log967")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24071,21 +23899,20 @@ screen quest0929():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0929")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log968")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log968")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24138,21 +23965,20 @@ screen quest0930():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0930")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log912")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log912")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24186,21 +24012,20 @@ screen quest0931():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0931")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log913")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log913")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24253,21 +24078,20 @@ screen quest0932():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0932")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log969")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log969")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24320,21 +24144,20 @@ screen quest0933():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0933")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log970")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log970")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24387,21 +24210,20 @@ screen quest0934():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0934")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log914")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log914")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24444,21 +24266,20 @@ screen quest0935():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0935")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log971")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log971")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24501,21 +24322,20 @@ screen quest0936():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0936")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log972")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log972")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24558,21 +24378,20 @@ screen quest0937():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0937")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log915")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log915")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24606,21 +24425,20 @@ screen quest0938():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0938")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log973")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log973")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24654,21 +24472,20 @@ screen quest0939():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0939")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log974")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log974")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24702,21 +24519,20 @@ screen quest0940():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0940")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log916")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log916")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24759,21 +24575,20 @@ screen quest0941():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0941")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log917")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log917")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24826,21 +24641,20 @@ screen quest0942():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0942")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log975")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log975")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24883,21 +24697,20 @@ screen quest0943():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0943")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log976")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log976")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24931,21 +24744,20 @@ screen quest0944():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0944")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log977")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log977")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -24988,21 +24800,20 @@ screen quest0945():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0945")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log918")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log918")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25045,21 +24856,20 @@ screen quest0946():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0946")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log978")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log978")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25112,21 +24922,20 @@ screen quest0947():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0947")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log919")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log919")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25179,21 +24988,20 @@ screen quest0948():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0948")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log920")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log920")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25236,21 +25044,20 @@ screen quest0949():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0949")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log979")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log979")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25293,21 +25100,20 @@ screen quest0950():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0950")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log980")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log980")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25360,21 +25166,20 @@ screen quest0951():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0951")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log921")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log921")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25427,21 +25232,20 @@ screen quest0952():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0952")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log981")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log981")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25475,21 +25279,20 @@ screen quest0953():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0953")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log982")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log982")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25523,21 +25326,20 @@ screen quest0954():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0954")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log983")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log983")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25571,21 +25373,20 @@ screen quest0955():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0955")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log984")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log984")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25619,21 +25420,20 @@ screen quest0956():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0956")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log985")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log985")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25667,21 +25467,20 @@ screen quest0957():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0957")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log986")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log986")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25715,21 +25514,20 @@ screen quest0958():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0958")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log922")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log922")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25782,21 +25580,20 @@ screen quest0959():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0959")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log923")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log923")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25877,21 +25674,20 @@ screen quest0960():
                 align (0.5,1.0)
                 size 25
             action Hide("quest0960")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log924")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log924")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25934,21 +25730,20 @@ screen quest1001():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1001")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log925")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log925")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -25982,21 +25777,20 @@ screen quest1002():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1002")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log926")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log926")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26030,21 +25824,20 @@ screen quest1003():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1003")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log927")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log927")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26078,21 +25871,20 @@ screen quest1004():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1004")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log928")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log928")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26126,21 +25918,20 @@ screen quest1005():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1005")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log929")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log929")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26174,21 +25965,20 @@ screen quest1006():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1006")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log930")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log930")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26222,21 +26012,20 @@ screen quest1007():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1007")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log931")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log931")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26270,21 +26059,20 @@ screen quest1008():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1008")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log932")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log932")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26319,11 +26107,8 @@ screen quest1101():
                 size 25
             action Hide("quest1101")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26386,11 +26171,8 @@ screen quest1102():
                 size 25
             action Hide("quest1102")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26453,11 +26235,8 @@ screen quest1103():
                 size 25
             action Hide("quest1103")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26530,11 +26309,8 @@ screen quest1104():
                 size 25
             action Hide("quest1104")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26635,11 +26411,8 @@ screen quest1105():
                 size 25
             action Hide("quest1105")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26702,11 +26475,8 @@ screen quest1106():
                 size 25
             action Hide("quest1106")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26760,11 +26530,8 @@ screen quest1107():
                 size 25
             action Hide("quest1107")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -26807,44 +26574,40 @@ screen quest1201():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1201")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5011")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5014")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5013")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 148
-            background Frame("backbutton", 16, 16)
-            text "Log 4":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5012")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5011")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5014")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5013")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 4":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5012")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -27224,39 +26987,34 @@ screen quest1202():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1202")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5001")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5002")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5003")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5001")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5002")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5003")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -27347,21 +27105,20 @@ screen quest1203():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1203")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5004")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5004")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -27423,21 +27180,20 @@ screen quest1204():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1204")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5005")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5005")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -27529,7 +27285,7 @@ screen quest1205():
                 size 25
             action Hide("quest1205")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -27662,48 +27418,41 @@ screen quest1206():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1206")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5007")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5008")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5009")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 148
-            background Frame("backbutton", 16, 16)
-            text "Log 4":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5010")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5007")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5008")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5009")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 4":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5010")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -27766,11 +27515,8 @@ screen quest1207():
                 size 25
             action Hide("quest1207")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -27871,11 +27617,8 @@ screen quest1208():
                 size 25
             action Hide("quest1208")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -27910,11 +27653,8 @@ screen quest1209():
                 size 25
             action Hide("quest1209")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -28014,26 +27754,26 @@ screen quest1210():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1210")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5015")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5016")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5015")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5016")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -28232,44 +27972,40 @@ screen quest1211():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1211")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5017")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5018")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5019")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 148
-            background Frame("backbutton", 16, 16)
-            text "Log 4":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5020")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5017")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5018")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5019")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 4":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5020")
+        viewport:
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -28411,21 +28147,20 @@ screen quest1212():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1212")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log5021")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log5021")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -28460,11 +28195,8 @@ screen quest1213():
                 size 25
             action Hide("quest1213")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -28546,11 +28278,8 @@ screen quest1214():
                 size 25
             action Hide("quest1214")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -28604,11 +28333,8 @@ screen quest1215():
                 size 25
             action Hide("quest1215")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -28690,7 +28416,7 @@ screen quest1216():
                 size 25
             action Hide("quest1216")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
             draggable True
             mousewheel True
@@ -28814,11 +28540,8 @@ screen quest1217():
                 size 25
             action Hide("quest1217")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -28919,11 +28642,8 @@ screen quest1218():
                 size 25
             action Hide("quest1218")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29015,11 +28735,8 @@ screen quest1219():
                 size 25
             action Hide("quest1219")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29111,11 +28828,8 @@ screen quest1220():
                 size 25
             action Hide("quest1220")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29206,21 +28920,20 @@ screen quest1301():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1301")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10501")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10501")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29282,21 +28995,20 @@ screen quest1302():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1302")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10502")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10502")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29368,21 +29080,20 @@ screen quest1303():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1303")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10503")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10503")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29463,21 +29174,20 @@ screen quest1304():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1304")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10504")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10504")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29549,21 +29259,20 @@ screen quest1305():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1305")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10505")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10505")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29597,21 +29306,20 @@ screen quest1306():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1306")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10506")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10506")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29645,21 +29353,20 @@ screen quest1307():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1307")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10507")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10507")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29712,21 +29419,20 @@ screen quest1308():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1308")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10508")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10508")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29788,21 +29494,20 @@ screen quest1309():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1309")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10509")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10509")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29893,21 +29598,20 @@ screen quest1310():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1310")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10510")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10510")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -29969,21 +29673,20 @@ screen quest1311():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1311")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10511")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10511")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30017,21 +29720,20 @@ screen quest1312():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1312")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10512")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10512")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30065,21 +29767,20 @@ screen quest1313():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1313")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10513")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10513")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30113,21 +29814,20 @@ screen quest1314():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1314")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10514")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10514")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30161,21 +29861,20 @@ screen quest1315():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1315")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10515")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10515")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30209,21 +29908,20 @@ screen quest1316():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1316")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10516")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10516")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30257,21 +29955,20 @@ screen quest1317():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1317")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10517")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10517")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30343,21 +30040,20 @@ screen quest1318():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1318")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10519")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10519")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30391,21 +30087,20 @@ screen quest1319():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1319")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10520")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10520")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30439,21 +30134,20 @@ screen quest1320():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1320")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log10521")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log10521")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30487,251 +30181,203 @@ screen quest1401():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1401")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20001")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20002")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20003")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 148
-            background Frame("backbutton", 16, 16)
-            text "Log 4":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20004")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 185
-            background Frame("backbutton", 16, 16)
-            text "Log 5":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20005")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 222
-            background Frame("backbutton", 16, 16)
-            text "Log 6":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20006")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 259
-            background Frame("backbutton", 16, 16)
-            text "Log 7":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20007")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 296
-            background Frame("backbutton", 16, 16)
-            text "Log 8":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20008")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 333
-            background Frame("backbutton", 16, 16)
-            text "Log 9":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20009")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 370
-            background Frame("backbutton", 16, 16)
-            text "Log 10":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20010")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 407
-            background Frame("backbutton", 16, 16)
-            text "Log 11":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20011")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 444
-            background Frame("backbutton", 16, 16)
-            text "Log 12":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20012")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 13":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20013")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 14":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20014")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 15":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20015")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 148
-            background Frame("backbutton", 16, 16)
-            text "Log 16":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20016")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 185
-            background Frame("backbutton", 16, 16)
-            text "Log 17":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20017")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 222
-            background Frame("backbutton", 16, 16)
-            text "Log 18":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20019")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 259
-            background Frame("backbutton", 16, 16)
-            text "Log 19":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20020")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 296
-            background Frame("backbutton", 16, 16)
-            text "Log 20":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20021")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 333
-            background Frame("backbutton", 16, 16)
-            text "Log 21":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20022")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 370
-            background Frame("backbutton", 16, 16)
-            text "Log 22":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20023")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 407
-            background Frame("backbutton", 16, 16)
-            text "Log 23":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20024")
-        button:
-            xysize(94,37)
-            xpos 94
-            ypos 444
-            background Frame("backbutton", 16, 16)
-            text "Log 24":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20025")
-        button:
-            xysize(94,37)
-            xpos 188
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 25":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20026")
-        button:
-            xysize(94,37)
-            xpos 188
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 26":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20027")
         viewport:
-            xpos 282
-            xsize 720
+            ypos 37
+            xysize (114,443)
             draggable True
             mousewheel True
             scrollbars "vertical"
             vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20001")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20002")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20003")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 4":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20004")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 5":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20005")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 6":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20006")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 7":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20007")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 8":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20008")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 9":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20009")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 10":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20010")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 11":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20011")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 12":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20012")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 13":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20013")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 14":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20014")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 15":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20015")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 16":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20016")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 17":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20017")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 18":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20019")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 19":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20020")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 20":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20021")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 21":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20022")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 22":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20023")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 23":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20024")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 24":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20025")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 25":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20026")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 26":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20027")
+        viewport:
+            xpos 119
+            xsize 720
+            vbox:
                 xsize 700
                 button:
                     xysize(330,37)
-                    xalign 0
+                    xalign 0.5
                     background Frame("booktab2")
                     bottom_padding 4
                     text "毎日討伐":
@@ -30760,39 +30406,34 @@ screen quest1402():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1402")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20509")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20548")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20510")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20509")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20548")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20510")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30845,39 +30486,34 @@ screen quest1403():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1403")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20503")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20543")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20504")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20503")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20543")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20504")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -30949,30 +30585,27 @@ screen quest1404():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1404")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20505")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20506")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20505")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20506")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31034,39 +30667,34 @@ screen quest1405():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1405")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20507")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20546")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20508")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20507")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20546")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20508")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31147,39 +30775,34 @@ screen quest1406():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1406")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20501")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20542")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20502")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20501")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20542")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20502")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31251,39 +30874,34 @@ screen quest1407():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1407")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20511")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20512")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20539")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20511")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20512")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20539")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31364,39 +30982,34 @@ screen quest1408():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1408")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20513")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20514")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20540")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20513")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20514")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20540")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31477,39 +31090,34 @@ screen quest1409():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1409")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20515")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20516")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20541")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20515")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20516")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20541")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31590,39 +31198,34 @@ screen quest1410():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1410")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20517")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20544")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20518")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20517")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20544")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20518")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31722,30 +31325,27 @@ screen quest1411():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1411")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20520")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20519")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20520")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20519")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31807,30 +31407,27 @@ screen quest1412():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1412")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20521")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20522")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20521")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20522")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31892,30 +31489,27 @@ screen quest1413():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1413")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20523")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20524")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20523")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20524")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -31987,39 +31581,34 @@ screen quest1414():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1414")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20525")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20526")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20547")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20525")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20526")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20547")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32100,48 +31689,41 @@ screen quest1415():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1415")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20545")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20549")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 111
-            background Frame("backbutton", 16, 16)
-            text "Log 3":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20527")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 148
-            background Frame("backbutton", 16, 16)
-            text "Log 4":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20528")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20545")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20549")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 3":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20527")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 4":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20528")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32241,30 +31823,27 @@ screen quest1416():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1416")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20529")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20530")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20529")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20530")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32326,30 +31905,27 @@ screen quest1417():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1417")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20531")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20532")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20531")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20532")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32402,30 +31978,27 @@ screen quest1418():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1418")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20533")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text "Log 2":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log20534")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20533")
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 2":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log20534")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32488,11 +32061,8 @@ screen quest1419():
                 size 25
             action Hide("quest1419")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32555,11 +32125,8 @@ screen quest1420():
                 size 25
             action Hide("quest1420")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32622,11 +32189,8 @@ screen quest1421():
                 size 25
             action Hide("quest1421")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32670,11 +32234,8 @@ screen quest1501():
                 size 25
             action Hide("quest1501")
         viewport:
-            xpos 94
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32717,21 +32278,20 @@ screen quest1502():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1502")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log262")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log262")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32803,21 +32363,20 @@ screen quest1503():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1503")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log359")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log359")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32860,21 +32419,20 @@ screen quest1504():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1504")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log360")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log360")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -32936,21 +32494,20 @@ screen quest1505():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1505")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6001")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6001")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33050,21 +32607,20 @@ screen quest1506():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1506")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6002")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6002")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33136,21 +32692,20 @@ screen quest1507():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1507")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6003")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6003")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33203,21 +32758,20 @@ screen quest1508():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1508")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6004")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6004")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33289,21 +32843,20 @@ screen quest1509():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1509")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6005")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6005")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33375,21 +32928,20 @@ screen quest1510():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1510")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6006")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6006")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33451,21 +33003,20 @@ screen quest1511():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1511")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6007")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6007")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33546,21 +33097,20 @@ screen quest1512():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1512")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6008")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6008")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33613,21 +33163,20 @@ screen quest1513():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1513")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6009")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6009")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33689,21 +33238,20 @@ screen quest1514():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1514")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6010")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6010")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33765,21 +33313,20 @@ screen quest1515():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1515")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6011")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6011")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33851,21 +33398,20 @@ screen quest1516():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1516")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6012")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6012")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -33937,21 +33483,20 @@ screen quest1517():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1517")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6013")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6013")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34051,21 +33596,20 @@ screen quest1518():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1518")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6014")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6014")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34127,21 +33671,20 @@ screen quest1519():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1519")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6015")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6015")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34213,21 +33756,20 @@ screen quest1520():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1520")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6016")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6016")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34289,21 +33831,20 @@ screen quest1521():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1521")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6017")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6017")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34346,21 +33887,20 @@ screen quest1522():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1522")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6018")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6018")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34422,21 +33962,20 @@ screen quest1523():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1523")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6019")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6019")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34489,21 +34028,20 @@ screen quest1524():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1524")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6020")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6020")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34565,21 +34103,20 @@ screen quest1525():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1525")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6021")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6021")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34641,21 +34178,20 @@ screen quest1526():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1526")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6022")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6022")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34717,21 +34253,20 @@ screen quest1527():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1527")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6023")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6023")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34784,21 +34319,20 @@ screen quest1528():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1528")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6024")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6024")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34851,21 +34385,20 @@ screen quest1529():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1529")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6025")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6025")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34918,21 +34451,20 @@ screen quest1530():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1530")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6026")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6026")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -34966,21 +34498,20 @@ screen quest1531():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1531")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6027")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6027")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35042,21 +34573,20 @@ screen quest1532():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1532")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6028")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6028")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35118,21 +34648,20 @@ screen quest1533():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1533")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6029")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6029")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35194,21 +34723,20 @@ screen quest1534():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1534")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6030")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6030")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35261,21 +34789,20 @@ screen quest1535():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1535")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6031")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6031")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35318,21 +34845,20 @@ screen quest1536():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1536")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6032")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6032")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35394,21 +34920,20 @@ screen quest1537():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1537")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6033")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6033")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35480,21 +35005,20 @@ screen quest1538():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1538")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6034")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6034")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35566,21 +35090,20 @@ screen quest1539():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1539")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6035")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6035")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35633,21 +35156,20 @@ screen quest1540():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1540")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6036")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6036")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35700,21 +35222,20 @@ screen quest1541():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1541")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6037")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6037")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35767,21 +35288,20 @@ screen quest1542():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1542")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6038")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6038")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35843,21 +35363,20 @@ screen quest1543():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1543")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6039")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6039")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35910,21 +35429,20 @@ screen quest1544():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1544")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6040")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6040")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -35986,21 +35504,20 @@ screen quest1545():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1545")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6041")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6041")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36062,21 +35579,20 @@ screen quest1546():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1546")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6042")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6042")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36129,21 +35645,20 @@ screen quest1547():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1547")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6043")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6043")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36205,21 +35720,20 @@ screen quest1548():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1548")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6044")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6044")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36291,21 +35805,20 @@ screen quest1549():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1549")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6045")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6045")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36367,21 +35880,20 @@ screen quest1550():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1550")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6046")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6046")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36424,21 +35936,20 @@ screen quest1551():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1551")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6047")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6047")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36491,21 +36002,20 @@ screen quest1552():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1552")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6048")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6048")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36567,21 +36077,20 @@ screen quest1553():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1553")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6049")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6049")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36643,21 +36152,20 @@ screen quest1554():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1554")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6050")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6050")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36719,21 +36227,20 @@ screen quest1555():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1555")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6051")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6051")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36776,21 +36283,20 @@ screen quest1556():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1556")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6052")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6052")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36852,21 +36358,20 @@ screen quest1557():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1557")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6053")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6053")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36919,21 +36424,20 @@ screen quest1558():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1558")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6054")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6054")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -36986,21 +36490,20 @@ screen quest1559():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1559")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6055")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6055")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37053,21 +36556,20 @@ screen quest1560():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1560")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6056")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6056")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37139,21 +36641,20 @@ screen quest1561():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1561")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6057")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6057")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37215,21 +36716,20 @@ screen quest1562():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1562")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6058")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6058")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37282,21 +36782,20 @@ screen quest1563():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1563")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6059")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6059")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37349,21 +36848,20 @@ screen quest1564():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1564")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6060")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6060")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37425,21 +36923,20 @@ screen quest1565():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1565")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6061")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6061")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37492,21 +36989,20 @@ screen quest1566():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1566")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6062")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6062")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37578,21 +37074,20 @@ screen quest1567():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1567")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6063")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6063")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37654,21 +37149,20 @@ screen quest1568():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1568")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6064")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6064")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37740,21 +37234,20 @@ screen quest1569():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1569")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6065")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6065")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37807,21 +37300,20 @@ screen quest1570():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1570")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6066")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6066")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37864,21 +37356,20 @@ screen quest1571():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1571")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6067")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6067")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -37950,21 +37441,20 @@ screen quest1572():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1572")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6068")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6068")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -38026,21 +37516,20 @@ screen quest1573():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1573")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6069")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6069")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -38093,21 +37582,20 @@ screen quest1574():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1574")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6070")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6070")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -38160,21 +37648,20 @@ screen quest1575():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1575")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6071")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6071")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
@@ -38227,21 +37714,20 @@ screen quest1576():
                 align (0.5,1.0)
                 size 25
             action Hide("quest1576")
-        button:
-            xysize(94,37)
-            xpos 0
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text "Log 1":
-                align (0.5,1.0)
-                size 25
-            action ShowMenu("log6072")
         viewport:
-            xpos 94
+            ypos 37
+            xysize (114,443)
+            vbox:
+                button:
+                    xysize(94,37)
+                    background Frame("backbutton", 16, 16)
+                    text "Log 1":
+                        align (0.5,1.0)
+                        size 25
+                    action ShowMenu("log6072")
+        viewport:
+            xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
             vbox:
                 xsize 700
                 button:
