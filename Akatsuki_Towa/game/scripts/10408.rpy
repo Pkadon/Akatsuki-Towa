@@ -90,14 +90,14 @@ hide c5008portrait
 hide c237portrait
 show st038_01 4 as c237portrait at darkleft(-9), zorder 6
 show oc004_01 13 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1140493]]'
+c43 '[textdict[1140493]]' (what_size=18)
 play music "ed7571.ogg"
 play sfxvoice "avg_vocal_li23.ogg"
 hide c4portrait
 hide c237portrait
 show st038_01 4 as c237portrait at darkleft(-9), zorder 6
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1140494]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1140494]]' (what_size=22) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c4portrait
 hide c237portrait
 show st038_01 4 as c237portrait at darkleft(-9), zorder 6
@@ -361,7 +361,7 @@ hide c2portrait
 hide c237portrait
 show st038_01 2 as c237portrait at darkleft(-9), zorder 6
 show oc004_01 13 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1140543]]'
+c43 '[textdict[1140543]]' (what_size=18)
 hide c237portrait
 hide c4portrait
 show oc004_01 13 as c4portrait at darkright(-5), zorder 5
@@ -371,12 +371,12 @@ hide c4portrait
 hide c237portrait
 show st038_01 4 as c237portrait at darkleft(-9), zorder 6
 show oc004_01 20 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1140545]]'
+c43 '[textdict[1140545]]' (what_size=18)
 hide c4portrait
 hide c237portrait
 show st038_01 4 as c237portrait at darkleft(-9), zorder 6
 show oc004_01 11 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1140546]]'
+c43 '[textdict[1140546]]' (what_size=18)
 hide c237portrait
 hide c4portrait
 show oc004_01 11 as c4portrait at darkright(-5), zorder 5

@@ -51,7 +51,7 @@ c26271 '[textdict[2107463]]'
 hide c2627portrait
 hide c2632portrait
 show sca46_01 5 as c2632portrait at darkright(-5), zorder 5
-c6431 '[textdict[2107464]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6431 '[textdict[2107464]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2632portrait
 show sca46_01 5 as c2632portrait at darkright(-5), zorder 5
 show occ04_01 9 as c2627portrait at leftside(-5), zorder 5
@@ -64,7 +64,7 @@ c26271 '[textdict[2107466]]'
 hide c2632portrait
 hide c2627portrait
 show occ04_01 14 as c2627portrait at darkleft(-5), zorder 6
-c6433 '[textdict[2107467]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6433 '[textdict[2107467]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2627portrait
 show occ04_01 14 as c2627portrait at darkleft(-5), zorder 6
 show sca46_01 1 as c2632portrait at rightside(-5), zorder 5
@@ -239,10 +239,10 @@ play music "ed7116.ogg"
 hide c2628portrait
 hide c2629portrait
 show scb38_01 4 as c2629portrait at darkright(-1), zorder 5
-c26421 '[textdict[2107504]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26421 '[textdict[2107504]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2629portrait
 show scb38_01 4 as c2629portrait at darkright(-1), zorder 5
-c26431 '[textdict[2107505]]'
+c26431 '[textdict[2107505]]' (what_size=24)
 hide c2629portrait
 show scb38_01 4 as c2629portrait at darkright(-1), zorder 5
 c26441 '[textdict[2107506]]'
@@ -265,7 +265,7 @@ c26423 '[textdict[2107511]]'
 play sfx2 "other_7087.ogg"
 hide c70portrait
 show sc066_01 3 as c70portrait at leftside(-34), zorder 5
-c701 '[textdict[2107512]]'
+c701 '[textdict[2107512]]' (what_size=24)
 hide c70portrait
 show sc066_01 3 as c70portrait at darkleft(-34), zorder 6
 show uc002_01 3 as c2641portrait at rightside(2), zorder 5
@@ -276,7 +276,7 @@ hide c2641portrait
 c00 '[textdict[2107514]]'
 c26433 '[textdict[2107515]]'
 play music "ed7455.ogg"
-c26461 '[textdict[2107516]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26461 '[textdict[2107516]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 show ocb03_01 17 as c2628portrait at leftside(-6), zorder 5
 c26281 '[textdict[2107517]]'
 hide c2628portrait

@@ -9,10 +9,10 @@ scene avg_bg_047
 with fade
 play sfx2 "other_7007.ogg"
 show st031_01 4 as c230portrait at leftside(4), shakeleft, zorder 5
-c2301 '[textdict[1131425]]'
+c2301 '[textdict[1131425]]' (what_size=24)
 hide c230portrait
 show st031_01 4 as c230portrait at leftside(4), zorder 5
-c2301 '[textdict[1131426]]'
+c2301 '[textdict[1131426]]' (what_size=24)
 play sfxvoice "avg_vocal_na04_b.ogg"
 hide c230portrait
 show st031_01 4 as c230portrait at darkleft(4), zorder 6
@@ -33,7 +33,7 @@ hide c3portrait
 hide c230portrait
 show st031_01 4 as c230portrait at darkleft(4), zorder 6
 show oc005_01 20 as c5portrait at rightside(-6), shakeright, zorder 5
-c53 '[textdict[1131430]]'
+c53 '[textdict[1131430]]' (what_size=28)
 hide c230portrait
 hide c5portrait
 show oc005_01 20 as c5portrait at darkright(-6), zorder 5
@@ -45,12 +45,12 @@ hide c5portrait
 hide c230portrait
 show st031_01 2 as c230portrait at darkleft(4), zorder 6
 show oc005_01 12 as c5portrait at rightside(-6), shakeright, zorder 5
-c53 '[textdict[1131432]]'
+c53 '[textdict[1131432]]' (what_size=24)
 hide c5portrait
 hide c230portrait
 show st031_01 2 as c230portrait at darkleft(4), zorder 6
 show oc005_01 3 as c5portrait at rightside(-6), zorder 5
-c53 '[textdict[1131433]]'
+c53 '[textdict[1131433]]' (what_size=24)
 hide c230portrait
 hide c5portrait
 show oc005_01 3 as c5portrait at darkright(-6), zorder 5
@@ -238,7 +238,7 @@ hide c5portrait
 hide c3portrait
 show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
 show oc005_01 20 as c5portrait at rightside(-6), zorder 5
-c53 '[textdict[1131471]]'
+c53 '[textdict[1131471]]' (what_size=28)
 play sfxvoice "avg_vocal_li31.ogg"
 hide c3portrait
 hide c5portrait

@@ -118,7 +118,7 @@ c42 '[textdict[1132788]]'
 stop music
 hide c4portrait
 show oc004_01 16 as c4portrait at centerpos(-5), zorder 5
-c42 '[textdict[1132789]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c42 '[textdict[1132789]]' (what_size=26) with Shake((0, 0, 0, 0), 0.5, dist=20)
 stop music
 hide c4portrait
 c10522 '[textdict[1132790]]'

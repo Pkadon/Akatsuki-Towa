@@ -434,7 +434,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2111501]]'
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-c561 '[textdict[2111502]]'
+c561 '[textdict[2111502]]' (what_size=25)
 hide c1portrait
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[2111503]]'

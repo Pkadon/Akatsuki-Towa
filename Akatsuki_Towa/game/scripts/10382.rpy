@@ -27,7 +27,7 @@ hide c4portrait
 hide c237portrait
 show st038_01 1 as c237portrait at darkleft(-9), zorder 6
 show oc004_01 13 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1132270]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1132270]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c4portrait
 hide c237portrait
 show st038_01 1 as c237portrait at darkleft(-9), zorder 6
@@ -53,13 +53,13 @@ hide c1portrait
 hide c4portrait
 show oc004_01 21 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1132275]]'
+c13 '[textdict[1132275]]' (what_size=18)
 play sfxvoice "avg_vocal_ch16.ogg"
 hide c4portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1132276]]'
+c21 '[textdict[1132276]]' (what_size=18)
 hide c2portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5

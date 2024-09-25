@@ -144,7 +144,7 @@ play sfx2 "other_7045.ogg"
 hide c3portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-c12601 '[textdict[1161369]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c12601 '[textdict[1161369]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
 play music "ed7511.ogg"
 hide c1portrait
 show oc003_01 2 as c3portrait at rightside(-6), zorder 5
@@ -152,13 +152,13 @@ c33 '[textdict[1161370]]'
 hide c3portrait
 show oc003_01 2 as c3portrait at darkright(-6), zorder 5
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1161371]]'
+c21 '[textdict[1161371]]' (what_size=25)
 play sfx2 "other_7087.ogg"
 hide c3portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 show oc004_01 15 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1161372]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c43 '[textdict[1161372]]' (what_size=30) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2portrait
 hide c4portrait
 show oc004_01 15 as c4portrait at darkright(-5), zorder 5

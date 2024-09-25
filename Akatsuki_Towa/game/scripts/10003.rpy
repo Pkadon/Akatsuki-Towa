@@ -365,7 +365,7 @@ hide c1portrait
 hide c2portrait
 show oc002_01 6 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 20 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1000145]]'
+c13 '[textdict[1000145]]' (what_size=22)
 play sfxvoice "avg_vocal_na03_b.ogg"
 hide c1portrait
 hide c2portrait

@@ -4,7 +4,7 @@ stop music
 play music "ed7511.ogg"
 scene placeholderbackground
 with fade
-c5632 '[textdict[1133300]]'
+c5632 '[textdict[1133300]]' (what_size=24)
 show oc001_01 20 as c1portrait at centerpos(-2), zorder 5
 c12 '[textdict[1133301]]'
 hide c1portrait

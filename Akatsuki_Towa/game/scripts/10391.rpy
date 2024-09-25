@@ -394,5 +394,5 @@ c551 '[textdict[1132554]]'
 hide c2portrait
 hide c55portrait
 show sc048_01 4 as c55portrait at darkleft(-7), zorder 6
-c10573 '[textdict[1132555]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10573 '[textdict[1132555]]' (what_size=26) with Shake((0, 0, 0, 0), 0.5, dist=20)
 return

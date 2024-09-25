@@ -246,18 +246,18 @@ hide c4portrait
 hide c55portrait
 show sc048_01 4 as c55portrait at darkleft(-7), zorder 6
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1132130]]'
+c13 '[textdict[1132130]]' (what_size=18)
 play sfxvoice "avg_vocal_ch16.ogg"
 hide c55portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1132131]]'
+c21 '[textdict[1132131]]' (what_size=18)
 hide c2portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1132132]]'
+c21 '[textdict[1132132]]' (what_size=18)
 hide c2portrait
 hide c1portrait
 show oc001_01 17 as c1portrait at darkright(-2), zorder 5
@@ -570,12 +570,12 @@ hide c2portrait
 hide c55portrait
 show sc048_01 4 as c55portrait at darkleft(-7), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1132207]]'
+c13 '[textdict[1132207]]' (what_size=24)
 hide c1portrait
 hide c55portrait
 show sc048_01 4 as c55portrait at darkleft(-7), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5
-c23 '[textdict[1132208]]'
+c23 '[textdict[1132208]]' (what_size=24)
 hide c55portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
@@ -775,7 +775,7 @@ hide c1portrait
 hide c239portrait
 show st040_01 2 as c239portrait at darkleft(-19), zorder 6
 show oc001_01 16 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1132251]]'
+c13 '[textdict[1132251]]' (what_size=24)
 hide c239portrait
 hide c1portrait
 show oc001_01 16 as c1portrait at darkright(-2), zorder 5
@@ -785,7 +785,7 @@ hide c1portrait
 hide c239portrait
 show st040_01 5 as c239portrait at darkleft(-19), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1132253]]'
+c13 '[textdict[1132253]]' (what_size=24)
 hide c239portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5

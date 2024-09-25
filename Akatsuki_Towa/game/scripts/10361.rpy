@@ -254,7 +254,7 @@ hide c4portrait
 hide c237portrait
 show st038_01 5 as c237portrait at darkleft(-9), zorder 6
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1131959]]'
+c23 '[textdict[1131959]]' (what_size=24)
 hide c237portrait
 hide c2portrait
 show oc002_01 14 as c2portrait at darkright(-3), zorder 5

@@ -183,7 +183,7 @@ hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 c5131 '[textdict[2110035]]'
 hide c1portrait
-c11553 '[textdict[2110036]]'
+c11553 '[textdict[2110036]]' (what_size=25)
 scene avg_bg_070
 with fade
 c00 '[textdict[2110037]]'

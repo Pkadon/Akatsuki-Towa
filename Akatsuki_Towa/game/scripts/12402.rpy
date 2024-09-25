@@ -185,7 +185,7 @@ hide c4portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc004_01 8 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1142359]]'
+c41 '[textdict[1142359]]' (what_size=18)
 hide c4portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
@@ -205,5 +205,5 @@ hide c4portrait
 hide c3portrait
 show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142363]]'
+c13 '[textdict[1142363]]' (what_size=18)
 return

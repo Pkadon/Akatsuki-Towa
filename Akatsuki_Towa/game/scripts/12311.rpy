@@ -72,16 +72,16 @@ show oc003_01 9 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1133217]]'
 hide c3portrait
 show oc003_01 10 as c3portrait at rightside(-6), zorder 5
-c33 '[textdict[1133218]]'
+c33 '[textdict[1133218]]' (what_size=18)
 hide c3portrait
 show oc003_01 10 as c3portrait at darkright(-6), zorder 5
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1133219]]'
+c21 '[textdict[1133219]]' (what_size=18)
 hide c3portrait
 hide c2portrait
 show oc002_01 2 as c2portrait at darkleft(-3), zorder 6
 show oc003_01 8 as c3portrait at rightside(-6), zorder 5
-c33 '[textdict[1133220]]'
+c33 '[textdict[1133220]]' (what_size=18)
 play sfxvoice "avg_vocal_ro19.ogg"
 hide c3portrait
 hide c2portrait

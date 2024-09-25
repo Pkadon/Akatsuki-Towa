@@ -216,7 +216,7 @@ hide c2portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show st007_01 2 as c207portrait at leftside(-6), shakeleft, zorder 5
-c2071 '[textdict[1000590]]'
+c2071 '[textdict[1000590]]' (what_size=24)
 hide c1portrait
 hide c207portrait
 show st007_01 2 as c207portrait at darkleft(-6), zorder 6

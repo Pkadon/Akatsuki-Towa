@@ -51,7 +51,7 @@ c26683 '[textdict[2112912]]'
 stop music
 hide c2668portrait
 show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
-c5001 '[textdict[2112913]]'
+c5001 '[textdict[2112913]]' (what_size=16)
 stop music
 hide c2668portrait
 show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
@@ -59,7 +59,7 @@ c26683 '[textdict[2112914]]'
 stop music
 hide c2668portrait
 show oce04_01 2 as c2668portrait at darkright(-5), zorder 5
-c5001 '[textdict[2112915]]'
+c5001 '[textdict[2112915]]' (what_size=22)
 stop music
 hide c2668portrait
 show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
@@ -162,7 +162,7 @@ play sfx2 "other_7062.ogg"
 hide c5008portrait
 hide c2668portrait
 show oce04_01 12 as c2668portrait at darkright(-5), zorder 5
-c27711 '[textdict[2112941]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27711 '[textdict[2112941]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2668portrait
 show oce04_01 16 as c2668portrait at rightside(-5), shakeright, zorder 5
 c26683 '[textdict[2112942]]'
@@ -171,7 +171,7 @@ show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[2112943]]'
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
-c27711 '[textdict[2112944]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27711 '[textdict[2112944]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2668portrait
 show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
 show oc006_01 1 as c6portrait at leftside(-5), zorder 5

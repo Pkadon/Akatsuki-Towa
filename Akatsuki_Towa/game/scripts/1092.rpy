@@ -21,7 +21,7 @@ hide c59portrait
 hide c1portrait
 show oc001_01 22 as c1portrait at darkright(-2), zorder 5
 show sc052_01 4 as c59portrait at leftside(-25), zorder 5
-c591 '[textdict[2102007]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c591 '[textdict[2102007]]' (what_size=26) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c59portrait
 hide c1portrait
 c00 '[textdict[2102008]]'

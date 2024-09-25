@@ -33,7 +33,7 @@ c71 '[textdict[1131691]]'
 hide c7portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
-c10321 '[textdict[1131692]]'
+c10321 '[textdict[1131692]]' (what_size=24)
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 c10321 '[textdict[1131693]]'
@@ -190,7 +190,7 @@ hide c7portrait
 show oc007_01 1 as c7portrait at rightsideexit(-24), zorder 5
 c73 '[textdict[1131725]]'
 hide c7portrait
-c10321 '[textdict[1131726]]'
+c10321 '[textdict[1131726]]' (what_size=24)
 play sfxvoice "avg_vocal_li18.ogg"
 show oc004_01 8 as c4portrait at leftside(-5), zorder 5
 with fade

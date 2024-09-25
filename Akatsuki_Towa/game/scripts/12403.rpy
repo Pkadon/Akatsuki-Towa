@@ -9,7 +9,7 @@ show oc003_01 6 as c3portrait at leftsideentrance(-6), zorder 5
 c31 '[textdict[1142366]]'
 hide c3portrait
 show oc003_01 6 as c3portrait at darkleft(-6), zorder 6
-c11473 '[textdict[1142367]]'
+c11473 '[textdict[1142367]]' (what_size=24)
 play sfxvoice "avg_vocal_ro05.ogg"
 hide c3portrait
 show oc003_01 5 as c3portrait at leftside(-6), zorder 5
@@ -45,17 +45,17 @@ hide c3portrait
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 show oc003_01 9 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1142377]]'
+c31 '[textdict[1142377]]' (what_size=18)
 hide c1portrait
 hide c3portrait
 show oc003_01 9 as c3portrait at darkleft(-6), zorder 6
 show oc001_01 24 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142378]]'
+c13 '[textdict[1142378]]' (what_size=18)
 hide c3portrait
 hide c1portrait
 show oc001_01 24 as c1portrait at darkright(-2), zorder 5
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1142379]]'
+c31 '[textdict[1142379]]' (what_size=18)
 hide c1portrait
 hide c3portrait
 show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
@@ -64,14 +64,14 @@ c13 '[textdict[1142380]]'
 hide c1portrait
 hide c3portrait
 show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-c11483 '[textdict[1142381]]'
+c11483 '[textdict[1142381]]' (what_size=24)
 hide c3portrait
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1142382]]'
 hide c2portrait
 show oc002_01 8 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 23 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142383]]'
+c13 '[textdict[1142383]]' (what_size=18)
 hide c2portrait
 hide c1portrait
 show oc001_01 23 as c1portrait at darkright(-2), zorder 5
@@ -91,13 +91,13 @@ hide c1portrait
 hide c2portrait
 show oc002_01 18 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142387]]'
+c13 '[textdict[1142387]]' (what_size=18)
 play sfxvoice "avg_vocal_ro10.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1142388]]'
+c31 '[textdict[1142388]]' (what_size=18)
 hide c1portrait
 hide c3portrait
 show oc003_01 2 as c3portrait at darkleft(-6), zorder 6
@@ -125,7 +125,7 @@ hide c1portrait
 hide c2portrait
 show oc002_01 5 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142395]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1142395]]' (what_size=22) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2portrait
 hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5

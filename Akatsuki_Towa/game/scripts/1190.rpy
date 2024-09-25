@@ -200,12 +200,12 @@ hide c681portrait
 hide c2630portrait
 show scc45_01 2 as c2630portrait at darkleft(-11), zorder 6
 show st051_01 4 as c681portrait at rightside(-9), zorder 5
-c6813 '[textdict[2107222]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6813 '[textdict[2107222]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c681portrait
 hide c2630portrait
 show scc45_01 2 as c2630portrait at darkleft(-11), zorder 6
 show st051_01 4 as c681portrait at rightside(-9), zorder 5
-c6813 '[textdict[2107223]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6813 '[textdict[2107223]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2630portrait
 hide c681portrait
 show st051_01 4 as c681portrait at darkright(-9), zorder 5

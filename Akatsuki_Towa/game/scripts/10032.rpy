@@ -160,7 +160,7 @@ c4983 '[textdict[1002943]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c2portrait
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1002944]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1002944]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 play sfxvoice "avg_vocal_li10.ogg"
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
@@ -173,7 +173,7 @@ c4973 '[textdict[1002946]]'
 play sfxvoice "avg_vocal_ro18.ogg"
 hide c2portrait
 show oc003_01 3 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1002947]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c31 '[textdict[1002947]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c3portrait
 show oc003_01 3 as c3portrait at darkleft(-6), zorder 6
 c4973 '[textdict[1002948]]'

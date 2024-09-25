@@ -17,7 +17,7 @@ c10513 '[textdict[1132665]]'
 play sfx2 "other_7087.ogg"
 hide c1051portrait
 show uc003_04 1 as c1051portrait at darkright(-14), zorder 5
-c10301 '[textdict[1132666]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10301 '[textdict[1132666]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1051portrait
 show uc003_04 1 as c1051portrait at darkright(-14), zorder 5
 c10301 '[textdict[1132667]]'

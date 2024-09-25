@@ -58,7 +58,7 @@ show oc003_01 5 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1133171]]'
 hide c3portrait
 show oc003_01 5 as c3portrait at darkright(-6), zorder 5
-c10851 '[textdict[1133172]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10851 '[textdict[1133172]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 play music "ed7105.ogg"
 scene avg_bg_070
 with fade

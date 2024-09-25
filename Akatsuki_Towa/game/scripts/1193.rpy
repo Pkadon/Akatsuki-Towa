@@ -182,7 +182,7 @@ hide c2627portrait
 hide c2632portrait
 show sca46_01 5 as c2632portrait at darkright(-5), zorder 5
 show uc002_03 1 as c2647portrait at leftside(-23), shakeleft, zorder 5
-c26471 '[textdict[2107420]]'
+c26471 '[textdict[2107420]]' (what_size=24)
 hide c2647portrait
 hide c2632portrait
 show sca46_01 5 as c2632portrait at darkright(-5), zorder 5
@@ -269,7 +269,7 @@ c26271 '[textdict[2107438]]'
 hide c2627portrait
 hide c2649portrait
 show uc002_03 3 as c2649portrait at darkright(-23), zorder 5
-c6431 '[textdict[2107439]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c6431 '[textdict[2107439]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2649portrait
 show sca46_01 4 as c2632portrait at rightside(-5), zorder 5
 c26323 '[textdict[2107440]]'

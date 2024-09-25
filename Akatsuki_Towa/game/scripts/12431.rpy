@@ -28,7 +28,7 @@ show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 c5241 '[textdict[1143011]]'
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-c5241 '[textdict[1143012]]'
+c5241 '[textdict[1143012]]' (what_size=18)
 hide c1portrait
 show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 c5241 '[textdict[1143013]]'

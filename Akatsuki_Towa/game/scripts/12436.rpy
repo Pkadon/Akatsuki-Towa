@@ -113,5 +113,5 @@ with fade
 c10041 '[textdict[1143159]]'
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
-c11123 '[textdict[1143160]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11123 '[textdict[1143160]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 return

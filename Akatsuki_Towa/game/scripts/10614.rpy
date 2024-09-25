@@ -5,7 +5,7 @@ play music "ed7100.ogg"
 scene avg_bg_023
 with fade
 show st040_01 3 as c239portrait at leftside(-19), shakeleft, zorder 5
-c2391 '[textdict[1160643]]'
+c2391 '[textdict[1160643]]' (what_size=25)
 hide c239portrait
 show st040_01 3 as c239portrait at darkleft(-19), zorder 6
 show oc002_01 6 as c2portrait at rightside(-3), zorder 5

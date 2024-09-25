@@ -45,7 +45,7 @@ show memoryoverlay zorder 2
 c26143 '[textdict[1189074]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7085.ogg"
-c11391 '[textdict[1189075]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c11391 '[textdict[1189075]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
 show memoryoverlay zorder 2
 c26143 '[textdict[1189076]]'
 scene avg_bg_070

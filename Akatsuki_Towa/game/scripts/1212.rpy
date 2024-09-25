@@ -226,7 +226,7 @@ hide c1portrait
 hide c4portrait
 show oc004_01 9 as c4portrait at darkleft(-5), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[2109265]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c23 '[textdict[2109265]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 stop music
 hide c4portrait
 hide c2portrait
@@ -418,7 +418,7 @@ c41 '[textdict[2109303]]'
 hide c2portrait
 hide c4portrait
 show oc004_01 5 as c4portrait at darkleft(-5), zorder 6
-c25923 '[textdict[2109304]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c25923 '[textdict[2109304]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 play music "ed7101.ogg"
 scene avg_bg_015
 with fade

@@ -348,7 +348,7 @@ show st040_01 7 as c239portrait at darkright(-19), zorder 5
 c26601 '[textdict[1191261]]'
 hide c239portrait
 show st040_01 7 as c239portrait at darkright(-19), zorder 5
-c26601 '[textdict[1191262]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26601 '[textdict[1191262]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c239portrait
 show st040_01 2 as c239portrait at rightside(-19), shakeleft, zorder 5
 c2393 '[textdict[1191263]]'

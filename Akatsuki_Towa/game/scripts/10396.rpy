@@ -33,7 +33,7 @@ show sc048_01 4 as c55portrait at rightside(-7), zorder 5
 c553 '[textdict[1132686]]'
 hide c55portrait
 show sc048_01 4 as c55portrait at darkright(-7), zorder 5
-c10521 '[textdict[1132687]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c10521 '[textdict[1132687]]' (what_size=26) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c55portrait
 show sc048_01 4 as c55portrait at darkright(-7), zorder 5
 c10521 '[textdict[1132688]]'
@@ -66,9 +66,9 @@ hide c1051portrait
 hide c4portrait
 c00 '[textdict[1132694]]'
 play sfx2 "other_7079.ogg"
-c10531 '[textdict[1132695]]'
+c10531 '[textdict[1132695]]' (what_size=26)
 play sfx2 "other_7080.ogg"
-c10531 '[textdict[1132696]]'
+c10531 '[textdict[1132696]]' (what_size=26)
 play sfxvoice "avg_vocal_ro16.ogg"
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1132697]]'

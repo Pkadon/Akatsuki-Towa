@@ -273,7 +273,7 @@ hide c46portrait
 hide c47portrait
 c00 '[textdict[2112173]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 stop music
-c11551 '[textdict[2112174]]'
+c11551 '[textdict[2112174]]' (what_size=25)
 stop music
 show sc041_01 2 as c48portrait at rightside(-9), zorder 5
 c483 '[textdict[2112175]]'
@@ -423,7 +423,7 @@ hide c45portrait
 hide c47portrait
 show sc040_01 4 as c47portrait at darkright(-9), zorder 5
 show sc038_01 3 as c45portrait at leftside(-1), shakeleft, zorder 5
-c451 '[textdict[2112206]]'
+c451 '[textdict[2112206]]' (what_size=25)
 hide c47portrait
 hide c45portrait
 show sc038_01 3 as c45portrait at darkleft(-1), zorder 6
@@ -581,7 +581,7 @@ c25921 '[textdict[2112236]]'
 play sfx2 "elc_5002.ogg"
 hide c47portrait
 show sc040_01 4 as c47portrait at rightside(-9), zorder 5
-c473 '[textdict[2112237]]'
+c473 '[textdict[2112237]]' (what_size=25)
 hide c47portrait
 show sc040_01 4 as c47portrait at darkright(-9), zorder 5
 show sc038_01 2 as c45portrait at leftsidemidback(-1), zorder 5
@@ -651,7 +651,7 @@ hide c47portrait
 c00 '[textdict[2112253]]'
 stop music
 play sfx2 "fight_6015.ogg"
-c27611 '[textdict[2112254]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c27611 '[textdict[2112254]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
 stop music
 play sfx2 "other_7092.ogg"
 c00 '[textdict[2112255]]'

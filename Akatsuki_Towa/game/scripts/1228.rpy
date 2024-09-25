@@ -172,12 +172,12 @@ hide c51portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc044_01 4 as c51portrait at leftsidemidback(-7), zorder 5
-c511 '[textdict[2111211]]'
+c511 '[textdict[2111211]]' (what_size=25)
 hide c1portrait
 hide c51portrait
 show sc044_01 4 as c51portrait at darkleft(-7), zorder 6
 show oc001_01 20 as c1portrait at rightsidemidback(-2), zorder 5
-c13 '[textdict[2111212]]'
+c13 '[textdict[2111212]]' (what_size=25)
 play music "ed7561.ogg"
 scene avg_bg_011
 with fade

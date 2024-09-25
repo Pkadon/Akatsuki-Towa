@@ -10,7 +10,7 @@ c43 '[textdict[1141307]]'
 play sfxvoice "avg_vocal_li23.ogg"
 hide c4portrait
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1141308]]'
+c43 '[textdict[1141308]]' (what_size=24)
 hide c4portrait
 show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1141305]]'
@@ -175,7 +175,7 @@ hide c3portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show oc004_01 13 as c4portrait at leftside(-5), shakeright, zorder 5
-c41 '[textdict[1141342]]'
+c41 '[textdict[1141342]]' (what_size=22)
 hide c1portrait
 hide c4portrait
 show oc004_01 13 as c4portrait at darkleft(-5), zorder 6

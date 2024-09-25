@@ -117,6 +117,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			newscene = False
 
 			i = script_json['dialogueFrames'][i]
+			template = i['template']
 			charID = i['character']['charID']
 			speaker = i['character']['speaker']
 			displayName = i['character']['displayName']
@@ -350,10 +351,21 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if isClearModle == 1: f.write(f"with fade\n")
 			#start with the speaker and dialogue
 			say = f"{speaker}{str(charPos)} '{dialogue}'"
+			
 			#see if dialogue text needs to be resized
-			if contentSize != 20: say+= f' (what_size={contentSize})'
+			#(20 is already the default)
+			if contentSize != 20:
+				#don't want to use the text size values for the scenes that are 
+				#supposed to be "minimized" in the corner
+				noresizelist = ['10134', '20002', '20112', '20113', '29135'] #NOTE - not 100% sure on 10134
+				if contentSize <= 16 and template == 1: pass
+				#the files in noresizelist don't have template set to 1, but still need to be filtered
+				elif fname in noresizelist: pass
+				else: say+= f' (what_size={contentSize})'
+
 			#then shake can be added if needed
 			if effect == 1: say+=' with Shake((0, 0, 0, 0), 0.5, dist=20)'
+			
 			f.write(f"{say}\n")
 			
 			#make sure it doesn't try to show the dark portrait after the portrait has left

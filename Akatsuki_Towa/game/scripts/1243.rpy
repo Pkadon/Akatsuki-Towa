@@ -119,7 +119,7 @@ show ocd03_01 16 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113109]]'
 hide c2667portrait
 show ocd03_01 17 as c2667portrait at rightside(-6), zorder 5
-c26673 '[textdict[2113110]]'
+c26673 '[textdict[2113110]]' (what_size=24)
 hide c2667portrait
 show ocd03_01 16 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113111]]'
@@ -163,7 +163,7 @@ with fade
 c27751 '[textdict[2113122]]'
 play sfx2 "other_7087.ogg"
 show ocd03_01 9 as c2667portrait at rightsidemidback(-6), zorder 5
-c26673 '[textdict[2113123]]'
+c26673 '[textdict[2113123]]' (what_size=24)
 hide c2667portrait
 show ocd03_01 9 as c2667portrait at darkright(-6), zorder 5
 c27761 '[textdict[2113124]]'
@@ -178,7 +178,7 @@ show ocd03_01 9 as c2667portrait at darkright(-6), zorder 5
 c27761 '[textdict[2113127]]'
 hide c2667portrait
 show ocd03_01 4 as c2667portrait at rightside(-6), zorder 5
-c26673 '[textdict[2113128]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26673 '[textdict[2113128]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2667portrait
 show ocd03_01 4 as c2667portrait at darkright(-6), zorder 5
 c27761 '[textdict[2113129]]'
@@ -265,9 +265,9 @@ hide c2667portrait
 c00 '[textdict[2113151]]'
 stop music
 show ocd03_01 12 as c2667portrait at rightsideexit(-6), zorder 5
-c26673 '[textdict[2113152]]'
+c26673 '[textdict[2113152]]' (what_size=23)
 hide c2667portrait
 stop music
 show ocd03_01 12 as c2667portrait at rightside(-6), zorder 5
-c26673 '[textdict[2113153]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26673 '[textdict[2113153]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
 return

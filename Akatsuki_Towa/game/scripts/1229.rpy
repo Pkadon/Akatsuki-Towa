@@ -434,7 +434,7 @@ c00 '[textdict[2111347]]'
 stop music
 play sfx2 "other_7045.ogg"
 show sc013_01 4 as c21portrait at rightsideentrance(-12), zorder 5
-c213 '[textdict[2111348]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c213 '[textdict[2111348]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
 play music "ED6517.ogg"
 hide c21portrait
 show sc013_01 4 as c21portrait at darkright(-12), zorder 5

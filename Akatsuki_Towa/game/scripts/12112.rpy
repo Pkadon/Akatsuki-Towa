@@ -49,7 +49,7 @@ c00 '[textdict[1128151]]'
 c00 '[textdict[1128152]]'
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1128153]]'
+c13 '[textdict[1128153]]' (what_size=24)
 hide c1portrait
 show oc003_01 14 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1128154]]'
@@ -71,7 +71,7 @@ hide c1portrait
 hide c71portrait
 show sc067_01 2 as c71portrait at darkleft(-38), zorder 6
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1128158]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1128158]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1portrait
 hide c71portrait
 show sc067_01 2 as c71portrait at darkleft(-38), zorder 6

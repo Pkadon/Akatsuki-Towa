@@ -24,7 +24,7 @@ show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
 c26663 '[textdict[2113258]]'
 hide c1253portrait
 show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
-c26663 '[textdict[2113259]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[2113259]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1253portrait
 show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
 c26663 '[textdict[2113260]]'
@@ -37,7 +37,7 @@ c26663 '[textdict[2113262]]'
 play sfx2 "other_7045.ogg"
 hide c1253portrait
 show st059_01 2 as c1253portrait at darkleft(-14), zorder 6
-c26663 '[textdict[2113263]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26663 '[textdict[2113263]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1253portrait
 show st059_01 2 as c1253portrait at leftside(-14), shakeleft, zorder 5
 c12531 '[textdict[2113264]]'
@@ -626,7 +626,7 @@ c26662 '[textdict[2113384]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 play sfx2 "fight_6017.ogg"
 hide c2666portrait
 show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113385]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c26662 '[textdict[2113385]]' (what_size=25) with Shake((0, 0, 0, 0), 0.5, dist=20)
 c13091 '[textdict[2113386]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2666portrait
 show oce02_01 1 as c2666portrait at centerpos(-3), zorder 5

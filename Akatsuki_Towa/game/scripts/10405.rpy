@@ -6,7 +6,7 @@ scene avg_bg_001
 with fade
 play sfx2 "common_select.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1140288]]'
+c13 '[textdict[1140288]]' (what_size=18)
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show oc002_01 2 as c2portrait at leftsideentrance(-3), zorder 5

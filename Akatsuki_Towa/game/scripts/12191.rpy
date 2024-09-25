@@ -156,5 +156,5 @@ hide c35portrait
 hide c626portrait
 show uc004_02 2 as c626portrait at darkleft(-9), zorder 6
 show sc027_01 3 as c35portrait at rightside(-10), shakeright, zorder 5
-c353 '[textdict[1007724]]'
+c353 '[textdict[1007724]]' (what_size=24)
 return

@@ -4,32 +4,32 @@ stop music
 scene avg_bg_023
 with fade
 show oc002_01 5 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1216144]]'
+c23 '[textdict[1216144]]' (what_size=18)
 hide c2portrait
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1216145]]'
+c13 '[textdict[1216145]]' (what_size=18)
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc049_01 5 as c56portrait at leftside(-8), zorder 5
-c561 '[textdict[1216146]]'
+c561 '[textdict[1216146]]' (what_size=18)
 hide c56portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
-c561 '[textdict[1216158]]'
+c561 '[textdict[1216158]]' (what_size=18)
 hide c56portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
-c561 '[textdict[1216159]]'
+c561 '[textdict[1216159]]' (what_size=18)
 hide c56portrait
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
-c561 '[textdict[1216160]]'
+c561 '[textdict[1216160]]' (what_size=18)
 hide c56portrait
 hide c1portrait
-c00 '[textdict[1216161]]'
+c00 '[textdict[1216161]]' (what_size=18)
 menu:
     "[textdict[1216162]]":
         call avg19017

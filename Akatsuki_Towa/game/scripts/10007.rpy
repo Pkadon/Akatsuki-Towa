@@ -117,7 +117,7 @@ hide c519portrait
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 with fade
-c13 '[textdict[1000647]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c13 '[textdict[1000647]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c1portrait
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1000648]]'

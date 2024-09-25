@@ -7,7 +7,7 @@ show memoryoverlay zorder 2
 with fade
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_roi01.ogg"
-c5001 '[textdict[1002967]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1002967]]' (what_size=30) with Shake((0, 0, 0, 0), 0.5, dist=20)
 scene avg_bg_004
 show memoryoverlay zorder 2
 with fade

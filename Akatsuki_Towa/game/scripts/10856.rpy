@@ -166,7 +166,7 @@ hide c16portrait
 hide c1346portrait
 c00 '[textdict[1189765]]'
 show st063_01 4 as c1346portrait at rightside(-16), zorder 5
-c13463 '[textdict[1189766]]'
+c13463 '[textdict[1189766]]' (what_size=23)
 hide c1346portrait
 show st063_01 4 as c1346portrait at darkright(-16), zorder 5
 show sc008_01 4 as c16portrait at leftside(-18), zorder 5
@@ -272,7 +272,7 @@ stop music
 play sfx2 "other_7088.ogg"
 c5001 '[textdict[1189789]]'
 stop music
-c5001 '[textdict[1189790]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c5001 '[textdict[1189790]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
 play music "ed7201.ogg"
 scene avg_bg_036
 with fade

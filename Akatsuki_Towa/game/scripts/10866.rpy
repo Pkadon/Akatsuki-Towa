@@ -61,7 +61,7 @@ c5001 '[textdict[1191518]]'
 stop music
 hide c2668portrait
 show oce04_01 8 as c2668portrait at darkright(-5), zorder 5
-c14401 '[textdict[1191519]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c14401 '[textdict[1191519]]' (what_size=23) with Shake((0, 0, 0, 0), 0.5, dist=20)
 stop music
 hide c2668portrait
 show oce04_01 8 as c2668portrait at darkright(-5), zorder 5

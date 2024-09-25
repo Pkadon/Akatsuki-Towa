@@ -162,7 +162,7 @@ hide c240portrait
 hide c2portrait
 show st050_01 3 as c257portrait at leftside(-11), zorder 5
 with fade
-c2571 '[textdict[1152071]]'
+c2571 '[textdict[1152071]]' (what_size=24)
 stop music
 hide c257portrait
 show st050_01 3 as c257portrait at darkleft(-11), zorder 6

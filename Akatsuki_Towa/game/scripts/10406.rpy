@@ -64,7 +64,7 @@ show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1140352]]'
 hide c1portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1140353]]'
+c13 '[textdict[1140353]]' (what_size=18)
 hide c1portrait
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1140354]]'
@@ -152,13 +152,13 @@ play sfxvoice "avg_vocal_na21.ogg"
 hide c2portrait
 show oc002_01 23 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1140380]]'
+c13 '[textdict[1140380]]' (what_size=24)
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c2portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1140381]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c21 '[textdict[1140381]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c2portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
@@ -280,17 +280,17 @@ hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1140404]]'
+c13 '[textdict[1140404]]' (what_size=18)
 hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1140405]]'
+c13 '[textdict[1140405]]' (what_size=18)
 hide c1portrait
 hide c2portrait
 show oc002_01 21 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1140406]]'
+c13 '[textdict[1140406]]' (what_size=18)
 hide c2portrait
 hide c1portrait
 show oc001_01 16 as c1portrait at darkright(-2), zorder 5

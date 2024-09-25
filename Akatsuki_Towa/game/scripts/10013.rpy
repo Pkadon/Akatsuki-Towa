@@ -93,7 +93,7 @@ hide c21portrait
 play sfx2 "other_7045.ogg"
 show oc003_01 4 as c3portrait at leftsideentrance(-6), zorder 5
 with fade
-c31 '[textdict[1001219]]'
+c31 '[textdict[1001219]]' (what_size=24)
 play sfx2 "other_7020.ogg"
 hide c3portrait
 show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
@@ -512,7 +512,7 @@ c5283 '[textdict[1001302]]'
 hide c2portrait
 c5271 '[textdict[1001303]]'
 show sc013_01 4 as c21portrait at rightside(-12), zorder 5
-c213 '[textdict[1001304]]' with Shake((0, 0, 0, 0), 0.5, dist=20)
+c213 '[textdict[1001304]]' (what_size=24) with Shake((0, 0, 0, 0), 0.5, dist=20)
 hide c21portrait
 show sc013_01 4 as c21portrait at darkright(-12), zorder 5
 c5271 '[textdict[1001305]]'
