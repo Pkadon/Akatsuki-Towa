@@ -135,8 +135,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 	#define window
 	f.write('screen episodelist():\n')
 	f.write('    window:\n')
-	f.write('        xsize 840\n')
-	f.write('        ysize 480\n')
+	f.write('        xysize (840,480)\n')
 	f.write('        background "sceneselect"\n')
 
 	#back button
@@ -148,7 +147,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 	f.write('                size 25\n')
 	f.write('            action Hide("episodelist")\n')
 	
-	#code input
+	#open Jump/Code Input menu
 	f.write('        button:\n')
 	f.write('            xysize(94,37)\n')
 	f.write('            ypos 37\n')
@@ -158,7 +157,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 	f.write('                size 25\n')
 	f.write('            action Replay("codeinput", locked=False)\n')
 	
-	#extra
+	#open Extra/Sprite Test menu
 	f.write('        button:\n')
 	f.write('            xysize(94,37)\n')
 	f.write('            ypos 74\n')
@@ -168,7 +167,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 	f.write('                size 25\n')
 	f.write('            action Replay("spritetest", locked=False)\n')
 
-	#horizontal scroll box
+	#horizontal viewport to hold menu columns
 	f.write('        viewport:\n')
 	f.write('            xpos 94\n')
 	f.write('            xsize 740\n')
@@ -246,8 +245,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 			f.write(f'screen {menuname}():\n')
 			f.write('    modal True\n')
 			f.write('    window:\n')
-			f.write('        xsize 840\n')
-			f.write('        ysize 480\n')
+			f.write('        xysize (840,480)\n')
 			f.write('        background "sceneselect"\n')
 			#back button
 			f.write('        button:\n')
@@ -373,8 +371,7 @@ with open((outputdirec / "questlog.rpy"),'w', encoding="utf-8") as f:
 		f.write(f'screen {logname}():\n')
 		f.write('    modal True\n')
 		f.write('    window:\n')
-		f.write('        xsize 840\n')
-		f.write('        ysize 480\n')
+		f.write('        xysize (840,480)\n')
 		f.write('        background "sceneselect"\n')
 		
 		#back button

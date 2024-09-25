@@ -2,8 +2,7 @@ label questlog:
 screen log102():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -30,8 +29,7 @@ screen log102():
 screen log103():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -58,8 +56,7 @@ screen log103():
 screen log104():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -86,8 +83,7 @@ screen log104():
 screen log105():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -114,8 +110,7 @@ screen log105():
 screen log106():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -142,8 +137,7 @@ screen log106():
 screen log107():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -170,8 +164,7 @@ screen log107():
 screen log160():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -198,8 +191,7 @@ screen log160():
 screen log151():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -226,8 +218,7 @@ screen log151():
 screen log152():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -254,8 +245,7 @@ screen log152():
 screen log153():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -282,8 +272,7 @@ screen log153():
 screen log154():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -310,8 +299,7 @@ screen log154():
 screen log155():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -338,8 +326,7 @@ screen log155():
 screen log156():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -366,8 +353,7 @@ screen log156():
 screen log157():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -394,8 +380,7 @@ screen log157():
 screen log158():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -422,8 +407,7 @@ screen log158():
 screen log159():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -450,8 +434,7 @@ screen log159():
 screen log201():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -478,8 +461,7 @@ screen log201():
 screen log202():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -506,8 +488,7 @@ screen log202():
 screen log203():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -534,8 +515,7 @@ screen log203():
 screen log204():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -562,8 +542,7 @@ screen log204():
 screen log205():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -590,8 +569,7 @@ screen log205():
 screen log206():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -618,8 +596,7 @@ screen log206():
 screen log251():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -646,8 +623,7 @@ screen log251():
 screen log252():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -674,8 +650,7 @@ screen log252():
 screen log253():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -702,8 +677,7 @@ screen log253():
 screen log254():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -730,8 +704,7 @@ screen log254():
 screen log255():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -758,8 +731,7 @@ screen log255():
 screen log256():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -786,8 +758,7 @@ screen log256():
 screen log257():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -814,8 +785,7 @@ screen log257():
 screen log258():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -842,8 +812,7 @@ screen log258():
 screen log259():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -870,8 +839,7 @@ screen log259():
 screen log260():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -898,8 +866,7 @@ screen log260():
 screen log261():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -926,8 +893,7 @@ screen log261():
 screen log262():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -954,8 +920,7 @@ screen log262():
 screen log263():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -982,8 +947,7 @@ screen log263():
 screen log301():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1010,8 +974,7 @@ screen log301():
 screen log302():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1038,8 +1001,7 @@ screen log302():
 screen log264():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1066,8 +1028,7 @@ screen log264():
 screen log303():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1094,8 +1055,7 @@ screen log303():
 screen log304():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1122,8 +1082,7 @@ screen log304():
 screen log305():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1150,8 +1109,7 @@ screen log305():
 screen log306():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1178,8 +1136,7 @@ screen log306():
 screen log307():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1206,8 +1163,7 @@ screen log307():
 screen log351():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1234,8 +1190,7 @@ screen log351():
 screen log352():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1262,8 +1217,7 @@ screen log352():
 screen log353():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1290,8 +1244,7 @@ screen log353():
 screen log354():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1318,8 +1271,7 @@ screen log354():
 screen log355():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1346,8 +1298,7 @@ screen log355():
 screen log356():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1374,8 +1325,7 @@ screen log356():
 screen log357():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1402,8 +1352,7 @@ screen log357():
 screen log358():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1430,8 +1379,7 @@ screen log358():
 screen log359():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1458,8 +1406,7 @@ screen log359():
 screen log360():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1486,8 +1433,7 @@ screen log360():
 screen log361():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1514,8 +1460,7 @@ screen log361():
 screen log362():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1542,8 +1487,7 @@ screen log362():
 screen log363():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1570,8 +1514,7 @@ screen log363():
 screen log364():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1598,8 +1541,7 @@ screen log364():
 screen log401():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1626,8 +1568,7 @@ screen log401():
 screen log402():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1654,8 +1595,7 @@ screen log402():
 screen log403():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1682,8 +1622,7 @@ screen log403():
 screen log404():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1710,8 +1649,7 @@ screen log404():
 screen log405():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1738,8 +1676,7 @@ screen log405():
 screen log406():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1766,8 +1703,7 @@ screen log406():
 screen log407():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1794,8 +1730,7 @@ screen log407():
 screen log451():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1822,8 +1757,7 @@ screen log451():
 screen log452():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1850,8 +1784,7 @@ screen log452():
 screen log453():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1878,8 +1811,7 @@ screen log453():
 screen log454():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1906,8 +1838,7 @@ screen log454():
 screen log455():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1934,8 +1865,7 @@ screen log455():
 screen log456():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1962,8 +1892,7 @@ screen log456():
 screen log457():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -1990,8 +1919,7 @@ screen log457():
 screen log458():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2018,8 +1946,7 @@ screen log458():
 screen log459():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2046,8 +1973,7 @@ screen log459():
 screen log460():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2074,8 +2000,7 @@ screen log460():
 screen log461():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2102,8 +2027,7 @@ screen log461():
 screen log462():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2130,8 +2054,7 @@ screen log462():
 screen log463():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2158,8 +2081,7 @@ screen log463():
 screen log464():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2186,8 +2108,7 @@ screen log464():
 screen log465():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2214,8 +2135,7 @@ screen log465():
 screen log466():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2242,8 +2162,7 @@ screen log466():
 screen log501():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2270,8 +2189,7 @@ screen log501():
 screen log502():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2298,8 +2216,7 @@ screen log502():
 screen log503():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2326,8 +2243,7 @@ screen log503():
 screen log504():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2354,8 +2270,7 @@ screen log504():
 screen log505():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2382,8 +2297,7 @@ screen log505():
 screen log506():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2410,8 +2324,7 @@ screen log506():
 screen log507():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2438,8 +2351,7 @@ screen log507():
 screen log508():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2466,8 +2378,7 @@ screen log508():
 screen log509():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2494,8 +2405,7 @@ screen log509():
 screen log551():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2522,8 +2432,7 @@ screen log551():
 screen log552():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2550,8 +2459,7 @@ screen log552():
 screen log553():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2578,8 +2486,7 @@ screen log553():
 screen log554():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2606,8 +2513,7 @@ screen log554():
 screen log565():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2634,8 +2540,7 @@ screen log565():
 screen log566():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2662,8 +2567,7 @@ screen log566():
 screen log557():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2690,8 +2594,7 @@ screen log557():
 screen log558():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2718,8 +2621,7 @@ screen log558():
 screen log559():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2746,8 +2648,7 @@ screen log559():
 screen log560():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2774,8 +2675,7 @@ screen log560():
 screen log561():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2802,8 +2702,7 @@ screen log561():
 screen log562():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2830,8 +2729,7 @@ screen log562():
 screen log563():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2858,8 +2756,7 @@ screen log563():
 screen log601():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2886,8 +2783,7 @@ screen log601():
 screen log602():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2914,8 +2810,7 @@ screen log602():
 screen log603():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2942,8 +2837,7 @@ screen log603():
 screen log604():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2970,8 +2864,7 @@ screen log604():
 screen log605():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -2998,8 +2891,7 @@ screen log605():
 screen log606():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3026,8 +2918,7 @@ screen log606():
 screen log607():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3054,8 +2945,7 @@ screen log607():
 screen log608():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3082,8 +2972,7 @@ screen log608():
 screen log609():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3110,8 +2999,7 @@ screen log609():
 screen log610():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3138,8 +3026,7 @@ screen log610():
 screen log611():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3166,8 +3053,7 @@ screen log611():
 screen log612():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3194,8 +3080,7 @@ screen log612():
 screen log651():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3222,8 +3107,7 @@ screen log651():
 screen log652():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3250,8 +3134,7 @@ screen log652():
 screen log653():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3278,8 +3161,7 @@ screen log653():
 screen log654():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3306,8 +3188,7 @@ screen log654():
 screen log655():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3334,8 +3215,7 @@ screen log655():
 screen log656():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3362,8 +3242,7 @@ screen log656():
 screen log657():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3390,8 +3269,7 @@ screen log657():
 screen log658():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3418,8 +3296,7 @@ screen log658():
 screen log659():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3446,8 +3323,7 @@ screen log659():
 screen log660():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3474,8 +3350,7 @@ screen log660():
 screen log661():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3502,8 +3377,7 @@ screen log661():
 screen log662():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3530,8 +3404,7 @@ screen log662():
 screen log663():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3558,8 +3431,7 @@ screen log663():
 screen log664():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3586,8 +3458,7 @@ screen log664():
 screen log665():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3614,8 +3485,7 @@ screen log665():
 screen log666():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3642,8 +3512,7 @@ screen log666():
 screen log701():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3670,8 +3539,7 @@ screen log701():
 screen log702():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3698,8 +3566,7 @@ screen log702():
 screen log703():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3726,8 +3593,7 @@ screen log703():
 screen log704():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3754,8 +3620,7 @@ screen log704():
 screen log705():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3782,8 +3647,7 @@ screen log705():
 screen log706():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3810,8 +3674,7 @@ screen log706():
 screen log707():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3838,8 +3701,7 @@ screen log707():
 screen log708():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3866,8 +3728,7 @@ screen log708():
 screen log709():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3894,8 +3755,7 @@ screen log709():
 screen log710():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3922,8 +3782,7 @@ screen log710():
 screen log711():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3950,8 +3809,7 @@ screen log711():
 screen log712():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -3978,8 +3836,7 @@ screen log712():
 screen log751():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4006,8 +3863,7 @@ screen log751():
 screen log752():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4034,8 +3890,7 @@ screen log752():
 screen log753():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4062,8 +3917,7 @@ screen log753():
 screen log754():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4090,8 +3944,7 @@ screen log754():
 screen log755():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4118,8 +3971,7 @@ screen log755():
 screen log756():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4146,8 +3998,7 @@ screen log756():
 screen log757():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4174,8 +4025,7 @@ screen log757():
 screen log758():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4202,8 +4052,7 @@ screen log758():
 screen log759():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4230,8 +4079,7 @@ screen log759():
 screen log760():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4258,8 +4106,7 @@ screen log760():
 screen log761():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4286,8 +4133,7 @@ screen log761():
 screen log762():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4314,8 +4160,7 @@ screen log762():
 screen log763():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4342,8 +4187,7 @@ screen log763():
 screen log764():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4370,8 +4214,7 @@ screen log764():
 screen log765():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4398,8 +4241,7 @@ screen log765():
 screen log766():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4426,8 +4268,7 @@ screen log766():
 screen log767():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4454,8 +4295,7 @@ screen log767():
 screen log768():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4482,8 +4322,7 @@ screen log768():
 screen log801():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4510,8 +4349,7 @@ screen log801():
 screen log802():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4538,8 +4376,7 @@ screen log802():
 screen log803():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4566,8 +4403,7 @@ screen log803():
 screen log804():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4594,8 +4430,7 @@ screen log804():
 screen log805():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4622,8 +4457,7 @@ screen log805():
 screen log806():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4650,8 +4484,7 @@ screen log806():
 screen log807():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4678,8 +4511,7 @@ screen log807():
 screen log808():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4706,8 +4538,7 @@ screen log808():
 screen log809():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4734,8 +4565,7 @@ screen log809():
 screen log810():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4762,8 +4592,7 @@ screen log810():
 screen log811():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4790,8 +4619,7 @@ screen log811():
 screen log812():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4818,8 +4646,7 @@ screen log812():
 screen log813():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4846,8 +4673,7 @@ screen log813():
 screen log814():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4874,8 +4700,7 @@ screen log814():
 screen log815():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4902,8 +4727,7 @@ screen log815():
 screen log816():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4930,8 +4754,7 @@ screen log816():
 screen log817():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4958,8 +4781,7 @@ screen log817():
 screen log818():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -4986,8 +4808,7 @@ screen log818():
 screen log819():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5014,8 +4835,7 @@ screen log819():
 screen log820():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5042,8 +4862,7 @@ screen log820():
 screen log821():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5070,8 +4889,7 @@ screen log821():
 screen log822():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5098,8 +4916,7 @@ screen log822():
 screen log823():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5126,8 +4943,7 @@ screen log823():
 screen log824():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5154,8 +4970,7 @@ screen log824():
 screen log851():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5182,8 +4997,7 @@ screen log851():
 screen log852():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5210,8 +5024,7 @@ screen log852():
 screen log853():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5238,8 +5051,7 @@ screen log853():
 screen log854():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5266,8 +5078,7 @@ screen log854():
 screen log855():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5294,8 +5105,7 @@ screen log855():
 screen log856():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5322,8 +5132,7 @@ screen log856():
 screen log857():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5350,8 +5159,7 @@ screen log857():
 screen log858():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5378,8 +5186,7 @@ screen log858():
 screen log859():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5406,8 +5213,7 @@ screen log859():
 screen log860():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5434,8 +5240,7 @@ screen log860():
 screen log861():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5462,8 +5267,7 @@ screen log861():
 screen log862():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5490,8 +5294,7 @@ screen log862():
 screen log863():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5518,8 +5321,7 @@ screen log863():
 screen log864():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5546,8 +5348,7 @@ screen log864():
 screen log865():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5574,8 +5375,7 @@ screen log865():
 screen log866():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5602,8 +5402,7 @@ screen log866():
 screen log867():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5630,8 +5429,7 @@ screen log867():
 screen log868():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5658,8 +5456,7 @@ screen log868():
 screen log869():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5686,8 +5483,7 @@ screen log869():
 screen log870():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5714,8 +5510,7 @@ screen log870():
 screen log871():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5742,8 +5537,7 @@ screen log871():
 screen log872():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5770,8 +5564,7 @@ screen log872():
 screen log873():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5798,8 +5591,7 @@ screen log873():
 screen log874():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5826,8 +5618,7 @@ screen log874():
 screen log875():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5854,8 +5645,7 @@ screen log875():
 screen log876():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5882,8 +5672,7 @@ screen log876():
 screen log877():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5910,8 +5699,7 @@ screen log877():
 screen log878():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5938,8 +5726,7 @@ screen log878():
 screen log879():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5966,8 +5753,7 @@ screen log879():
 screen log880():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -5994,8 +5780,7 @@ screen log880():
 screen log881():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6022,8 +5807,7 @@ screen log881():
 screen log882():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6050,8 +5834,7 @@ screen log882():
 screen log883():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6078,8 +5861,7 @@ screen log883():
 screen log884():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6106,8 +5888,7 @@ screen log884():
 screen log885():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6134,8 +5915,7 @@ screen log885():
 screen log886():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6162,8 +5942,7 @@ screen log886():
 screen log901():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6190,8 +5969,7 @@ screen log901():
 screen log902():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6218,8 +5996,7 @@ screen log902():
 screen log903():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6246,8 +6023,7 @@ screen log903():
 screen log904():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6274,8 +6050,7 @@ screen log904():
 screen log905():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6302,8 +6077,7 @@ screen log905():
 screen log906():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6330,8 +6104,7 @@ screen log906():
 screen log907():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6358,8 +6131,7 @@ screen log907():
 screen log908():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6386,8 +6158,7 @@ screen log908():
 screen log909():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6414,8 +6185,7 @@ screen log909():
 screen log910():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6442,8 +6212,7 @@ screen log910():
 screen log911():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6470,8 +6239,7 @@ screen log911():
 screen log912():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6498,8 +6266,7 @@ screen log912():
 screen log913():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6526,8 +6293,7 @@ screen log913():
 screen log914():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6554,8 +6320,7 @@ screen log914():
 screen log915():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6582,8 +6347,7 @@ screen log915():
 screen log916():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6610,8 +6374,7 @@ screen log916():
 screen log917():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6638,8 +6401,7 @@ screen log917():
 screen log918():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6666,8 +6428,7 @@ screen log918():
 screen log919():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6694,8 +6455,7 @@ screen log919():
 screen log920():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6722,8 +6482,7 @@ screen log920():
 screen log921():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6750,8 +6509,7 @@ screen log921():
 screen log922():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6778,8 +6536,7 @@ screen log922():
 screen log923():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6806,8 +6563,7 @@ screen log923():
 screen log924():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6834,8 +6590,7 @@ screen log924():
 screen log951():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6862,8 +6617,7 @@ screen log951():
 screen log952():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6890,8 +6644,7 @@ screen log952():
 screen log953():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6918,8 +6671,7 @@ screen log953():
 screen log954():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6946,8 +6698,7 @@ screen log954():
 screen log955():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -6974,8 +6725,7 @@ screen log955():
 screen log956():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7002,8 +6752,7 @@ screen log956():
 screen log957():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7030,8 +6779,7 @@ screen log957():
 screen log958():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7058,8 +6806,7 @@ screen log958():
 screen log959():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7086,8 +6833,7 @@ screen log959():
 screen log960():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7114,8 +6860,7 @@ screen log960():
 screen log961():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7142,8 +6887,7 @@ screen log961():
 screen log962():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7170,8 +6914,7 @@ screen log962():
 screen log963():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7198,8 +6941,7 @@ screen log963():
 screen log964():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7226,8 +6968,7 @@ screen log964():
 screen log965():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7254,8 +6995,7 @@ screen log965():
 screen log966():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7282,8 +7022,7 @@ screen log966():
 screen log967():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7310,8 +7049,7 @@ screen log967():
 screen log968():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7338,8 +7076,7 @@ screen log968():
 screen log969():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7366,8 +7103,7 @@ screen log969():
 screen log970():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7394,8 +7130,7 @@ screen log970():
 screen log971():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7422,8 +7157,7 @@ screen log971():
 screen log972():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7450,8 +7184,7 @@ screen log972():
 screen log973():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7478,8 +7211,7 @@ screen log973():
 screen log974():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7506,8 +7238,7 @@ screen log974():
 screen log975():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7534,8 +7265,7 @@ screen log975():
 screen log976():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7562,8 +7292,7 @@ screen log976():
 screen log977():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7590,8 +7319,7 @@ screen log977():
 screen log978():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7618,8 +7346,7 @@ screen log978():
 screen log979():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7646,8 +7373,7 @@ screen log979():
 screen log980():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7674,8 +7400,7 @@ screen log980():
 screen log981():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7702,8 +7427,7 @@ screen log981():
 screen log982():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7730,8 +7454,7 @@ screen log982():
 screen log983():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7758,8 +7481,7 @@ screen log983():
 screen log984():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7786,8 +7508,7 @@ screen log984():
 screen log985():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7814,8 +7535,7 @@ screen log985():
 screen log986():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7842,8 +7562,7 @@ screen log986():
 screen log925():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7870,8 +7589,7 @@ screen log925():
 screen log926():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7898,8 +7616,7 @@ screen log926():
 screen log927():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7926,8 +7643,7 @@ screen log927():
 screen log928():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7954,8 +7670,7 @@ screen log928():
 screen log929():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -7982,8 +7697,7 @@ screen log929():
 screen log930():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8010,8 +7724,7 @@ screen log930():
 screen log931():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8038,8 +7751,7 @@ screen log931():
 screen log932():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8066,8 +7778,7 @@ screen log932():
 screen log10501():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8094,8 +7805,7 @@ screen log10501():
 screen log10502():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8122,8 +7832,7 @@ screen log10502():
 screen log10503():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8150,8 +7859,7 @@ screen log10503():
 screen log10504():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8178,8 +7886,7 @@ screen log10504():
 screen log10505():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8206,8 +7913,7 @@ screen log10505():
 screen log10506():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8234,8 +7940,7 @@ screen log10506():
 screen log10507():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8262,8 +7967,7 @@ screen log10507():
 screen log10508():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8290,8 +7994,7 @@ screen log10508():
 screen log10509():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8318,8 +8021,7 @@ screen log10509():
 screen log10510():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8346,8 +8048,7 @@ screen log10510():
 screen log10511():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8374,8 +8075,7 @@ screen log10511():
 screen log10512():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8402,8 +8102,7 @@ screen log10512():
 screen log10513():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8430,8 +8129,7 @@ screen log10513():
 screen log10514():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8458,8 +8156,7 @@ screen log10514():
 screen log10515():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8486,8 +8183,7 @@ screen log10515():
 screen log10516():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8514,8 +8210,7 @@ screen log10516():
 screen log10517():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8542,8 +8237,7 @@ screen log10517():
 screen log10519():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8570,8 +8264,7 @@ screen log10519():
 screen log10520():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8598,8 +8291,7 @@ screen log10520():
 screen log10521():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8626,8 +8318,7 @@ screen log10521():
 screen log20001():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8654,8 +8345,7 @@ screen log20001():
 screen log20002():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8682,8 +8372,7 @@ screen log20002():
 screen log20003():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8710,8 +8399,7 @@ screen log20003():
 screen log20004():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8738,8 +8426,7 @@ screen log20004():
 screen log20005():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8766,8 +8453,7 @@ screen log20005():
 screen log20006():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8794,8 +8480,7 @@ screen log20006():
 screen log20007():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8822,8 +8507,7 @@ screen log20007():
 screen log20008():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8850,8 +8534,7 @@ screen log20008():
 screen log20009():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8878,8 +8561,7 @@ screen log20009():
 screen log20010():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8906,8 +8588,7 @@ screen log20010():
 screen log20011():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8934,8 +8615,7 @@ screen log20011():
 screen log20012():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8962,8 +8642,7 @@ screen log20012():
 screen log20013():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -8990,8 +8669,7 @@ screen log20013():
 screen log20014():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9018,8 +8696,7 @@ screen log20014():
 screen log20015():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9046,8 +8723,7 @@ screen log20015():
 screen log20016():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9074,8 +8750,7 @@ screen log20016():
 screen log20017():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9102,8 +8777,7 @@ screen log20017():
 screen log20019():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9130,8 +8804,7 @@ screen log20019():
 screen log20020():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9158,8 +8831,7 @@ screen log20020():
 screen log20021():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9186,8 +8858,7 @@ screen log20021():
 screen log20022():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9214,8 +8885,7 @@ screen log20022():
 screen log20023():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9242,8 +8912,7 @@ screen log20023():
 screen log20024():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9270,8 +8939,7 @@ screen log20024():
 screen log20025():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9298,8 +8966,7 @@ screen log20025():
 screen log20026():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9326,8 +8993,7 @@ screen log20026():
 screen log20027():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9354,8 +9020,7 @@ screen log20027():
 screen log20501():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9382,8 +9047,7 @@ screen log20501():
 screen log20502():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9410,8 +9074,7 @@ screen log20502():
 screen log20503():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9438,8 +9101,7 @@ screen log20503():
 screen log20504():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9466,8 +9128,7 @@ screen log20504():
 screen log20505():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9494,8 +9155,7 @@ screen log20505():
 screen log20506():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9522,8 +9182,7 @@ screen log20506():
 screen log20507():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9550,8 +9209,7 @@ screen log20507():
 screen log20508():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9578,8 +9236,7 @@ screen log20508():
 screen log20509():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9606,8 +9263,7 @@ screen log20509():
 screen log20510():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9634,8 +9290,7 @@ screen log20510():
 screen log20511():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9662,8 +9317,7 @@ screen log20511():
 screen log20512():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9690,8 +9344,7 @@ screen log20512():
 screen log20513():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9718,8 +9371,7 @@ screen log20513():
 screen log20514():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9746,8 +9398,7 @@ screen log20514():
 screen log20515():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9774,8 +9425,7 @@ screen log20515():
 screen log20516():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9802,8 +9452,7 @@ screen log20516():
 screen log20517():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9830,8 +9479,7 @@ screen log20517():
 screen log20518():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9858,8 +9506,7 @@ screen log20518():
 screen log20519():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9886,8 +9533,7 @@ screen log20519():
 screen log20520():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9914,8 +9560,7 @@ screen log20520():
 screen log20521():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9942,8 +9587,7 @@ screen log20521():
 screen log20522():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9970,8 +9614,7 @@ screen log20522():
 screen log20523():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -9998,8 +9641,7 @@ screen log20523():
 screen log20524():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10026,8 +9668,7 @@ screen log20524():
 screen log20525():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10054,8 +9695,7 @@ screen log20525():
 screen log20526():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10082,8 +9722,7 @@ screen log20526():
 screen log20527():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10110,8 +9749,7 @@ screen log20527():
 screen log20528():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10138,8 +9776,7 @@ screen log20528():
 screen log20529():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10166,8 +9803,7 @@ screen log20529():
 screen log20530():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10194,8 +9830,7 @@ screen log20530():
 screen log20531():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10222,8 +9857,7 @@ screen log20531():
 screen log20532():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10250,8 +9884,7 @@ screen log20532():
 screen log20533():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10278,8 +9911,7 @@ screen log20533():
 screen log20534():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10306,8 +9938,7 @@ screen log20534():
 screen log20539():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10334,8 +9965,7 @@ screen log20539():
 screen log20540():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10362,8 +9992,7 @@ screen log20540():
 screen log20541():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10390,8 +10019,7 @@ screen log20541():
 screen log20542():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10418,8 +10046,7 @@ screen log20542():
 screen log20543():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10446,8 +10073,7 @@ screen log20543():
 screen log20544():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10474,8 +10100,7 @@ screen log20544():
 screen log20545():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10502,8 +10127,7 @@ screen log20545():
 screen log20546():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10530,8 +10154,7 @@ screen log20546():
 screen log20547():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10558,8 +10181,7 @@ screen log20547():
 screen log20548():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10586,8 +10208,7 @@ screen log20548():
 screen log20549():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10614,8 +10235,7 @@ screen log20549():
 screen log5001():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10642,8 +10262,7 @@ screen log5001():
 screen log5002():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10670,8 +10289,7 @@ screen log5002():
 screen log5003():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10698,8 +10316,7 @@ screen log5003():
 screen log5004():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10726,8 +10343,7 @@ screen log5004():
 screen log5005():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10754,8 +10370,7 @@ screen log5005():
 screen log5007():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10782,8 +10397,7 @@ screen log5007():
 screen log5008():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10810,8 +10424,7 @@ screen log5008():
 screen log5009():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10838,8 +10451,7 @@ screen log5009():
 screen log5010():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10866,8 +10478,7 @@ screen log5010():
 screen log5011():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10894,8 +10505,7 @@ screen log5011():
 screen log5012():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10922,8 +10532,7 @@ screen log5012():
 screen log5013():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10950,8 +10559,7 @@ screen log5013():
 screen log5014():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -10978,8 +10586,7 @@ screen log5014():
 screen log5015():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11006,8 +10613,7 @@ screen log5015():
 screen log5016():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11034,8 +10640,7 @@ screen log5016():
 screen log5017():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11062,8 +10667,7 @@ screen log5017():
 screen log5018():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11090,8 +10694,7 @@ screen log5018():
 screen log5019():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11118,8 +10721,7 @@ screen log5019():
 screen log5020():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11146,8 +10748,7 @@ screen log5020():
 screen log5021():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11174,8 +10775,7 @@ screen log5021():
 screen log6001():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11202,8 +10802,7 @@ screen log6001():
 screen log6002():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11230,8 +10829,7 @@ screen log6002():
 screen log6003():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11258,8 +10856,7 @@ screen log6003():
 screen log6004():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11286,8 +10883,7 @@ screen log6004():
 screen log6005():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11314,8 +10910,7 @@ screen log6005():
 screen log6006():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11342,8 +10937,7 @@ screen log6006():
 screen log6007():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11370,8 +10964,7 @@ screen log6007():
 screen log6008():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11398,8 +10991,7 @@ screen log6008():
 screen log6009():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11426,8 +11018,7 @@ screen log6009():
 screen log6010():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11454,8 +11045,7 @@ screen log6010():
 screen log6011():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11482,8 +11072,7 @@ screen log6011():
 screen log6012():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11510,8 +11099,7 @@ screen log6012():
 screen log6013():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11538,8 +11126,7 @@ screen log6013():
 screen log6014():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11566,8 +11153,7 @@ screen log6014():
 screen log6015():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11594,8 +11180,7 @@ screen log6015():
 screen log6016():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11622,8 +11207,7 @@ screen log6016():
 screen log6017():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11650,8 +11234,7 @@ screen log6017():
 screen log6018():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11678,8 +11261,7 @@ screen log6018():
 screen log6019():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11706,8 +11288,7 @@ screen log6019():
 screen log6020():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11734,8 +11315,7 @@ screen log6020():
 screen log6021():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11762,8 +11342,7 @@ screen log6021():
 screen log6022():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11790,8 +11369,7 @@ screen log6022():
 screen log6023():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11818,8 +11396,7 @@ screen log6023():
 screen log6024():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11846,8 +11423,7 @@ screen log6024():
 screen log6025():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11874,8 +11450,7 @@ screen log6025():
 screen log6026():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11902,8 +11477,7 @@ screen log6026():
 screen log6027():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11930,8 +11504,7 @@ screen log6027():
 screen log6028():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11958,8 +11531,7 @@ screen log6028():
 screen log6029():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -11986,8 +11558,7 @@ screen log6029():
 screen log6030():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12014,8 +11585,7 @@ screen log6030():
 screen log6031():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12042,8 +11612,7 @@ screen log6031():
 screen log6032():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12070,8 +11639,7 @@ screen log6032():
 screen log6033():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12098,8 +11666,7 @@ screen log6033():
 screen log6034():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12126,8 +11693,7 @@ screen log6034():
 screen log6035():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12154,8 +11720,7 @@ screen log6035():
 screen log6036():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12182,8 +11747,7 @@ screen log6036():
 screen log6037():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12210,8 +11774,7 @@ screen log6037():
 screen log6038():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12238,8 +11801,7 @@ screen log6038():
 screen log6039():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12266,8 +11828,7 @@ screen log6039():
 screen log6040():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12294,8 +11855,7 @@ screen log6040():
 screen log6041():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12322,8 +11882,7 @@ screen log6041():
 screen log6042():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12350,8 +11909,7 @@ screen log6042():
 screen log6043():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12378,8 +11936,7 @@ screen log6043():
 screen log6044():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12406,8 +11963,7 @@ screen log6044():
 screen log6045():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12434,8 +11990,7 @@ screen log6045():
 screen log6046():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12462,8 +12017,7 @@ screen log6046():
 screen log6047():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12490,8 +12044,7 @@ screen log6047():
 screen log6048():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12518,8 +12071,7 @@ screen log6048():
 screen log6049():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12546,8 +12098,7 @@ screen log6049():
 screen log6050():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12574,8 +12125,7 @@ screen log6050():
 screen log6051():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12602,8 +12152,7 @@ screen log6051():
 screen log6052():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12630,8 +12179,7 @@ screen log6052():
 screen log6053():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12658,8 +12206,7 @@ screen log6053():
 screen log6054():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12686,8 +12233,7 @@ screen log6054():
 screen log6055():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12714,8 +12260,7 @@ screen log6055():
 screen log6056():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12742,8 +12287,7 @@ screen log6056():
 screen log6057():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12770,8 +12314,7 @@ screen log6057():
 screen log6058():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12798,8 +12341,7 @@ screen log6058():
 screen log6059():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12826,8 +12368,7 @@ screen log6059():
 screen log6060():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12854,8 +12395,7 @@ screen log6060():
 screen log6061():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12882,8 +12422,7 @@ screen log6061():
 screen log6062():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12910,8 +12449,7 @@ screen log6062():
 screen log6063():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12938,8 +12476,7 @@ screen log6063():
 screen log6064():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12966,8 +12503,7 @@ screen log6064():
 screen log6065():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -12994,8 +12530,7 @@ screen log6065():
 screen log6066():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -13022,8 +12557,7 @@ screen log6066():
 screen log6067():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -13050,8 +12584,7 @@ screen log6067():
 screen log6068():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -13078,8 +12611,7 @@ screen log6068():
 screen log6069():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -13106,8 +12638,7 @@ screen log6069():
 screen log6070():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -13134,8 +12665,7 @@ screen log6070():
 screen log6071():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
@@ -13162,8 +12692,7 @@ screen log6071():
 screen log6072():
     modal True
     window:
-        xsize 840
-        ysize 480
+        xysize (840,480)
         background "sceneselect"
         button:
             xysize(94,37)
