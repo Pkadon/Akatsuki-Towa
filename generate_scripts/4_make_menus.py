@@ -347,6 +347,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 				f.write('                        background Frame("bookpage", 35, 35)\n')
 				f.write(f'                        text "{level2}":\n')
 				f.write('                            align (0.5,0.5)\n')
+				f.write('                            text_align 0.5\n')
 				f.write('                            size 18\n')
 				f.write(f'                        action Replay("avg{avgnumber}", locked=False)\n')
 				

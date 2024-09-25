@@ -4141,6 +4141,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17001]]\n[textdict[3029]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10001", locked=False)
                     button:
@@ -4150,6 +4151,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17002]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10002", locked=False)
                 hbox:
@@ -4160,6 +4162,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17003]]\n[textdict[3011]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10003", locked=False)
                     button:
@@ -4169,6 +4172,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17004]]\n[textdict[611802]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20003", locked=False)
                 hbox:
@@ -4179,6 +4183,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17005]]\n[textdict[611802]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20142", locked=False)
                     button:
@@ -4188,6 +4193,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17006]]\n[textdict[611802]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg29010", locked=False)
                 hbox:
@@ -4198,6 +4204,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17007]]\n[textdict[611802]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20004", locked=False)
                     button:
@@ -4207,6 +4214,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17008]]\n[textdict[611802]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20005", locked=False)
                 hbox:
@@ -4217,6 +4225,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17009]]\n[textdict[611802]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10124", locked=False)
                     button:
@@ -4226,6 +4235,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17010]]\n[textdict[613020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10125", locked=False)
                 hbox:
@@ -4236,6 +4246,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17011]]\n[textdict[613020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10126", locked=False)
                     button:
@@ -4245,6 +4256,7 @@ screen quest0101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17012]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10004", locked=False)
 screen quest0102():
@@ -4292,6 +4304,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17013]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12037", locked=False)
                     button:
@@ -4301,6 +4314,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17014]]\n[textdict[3107]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12038", locked=False)
                 hbox:
@@ -4311,6 +4325,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17015]]\n[textdict[3105]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12042", locked=False)
                     button:
@@ -4320,6 +4335,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17016]]\n[textdict[3106]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12043", locked=False)
                 hbox:
@@ -4330,6 +4346,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17017]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12044", locked=False)
                     button:
@@ -4339,6 +4356,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17018]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12046", locked=False)
                 hbox:
@@ -4349,6 +4367,7 @@ screen quest0102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17019]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12049", locked=False)
 screen quest0103():
@@ -4396,6 +4415,7 @@ screen quest0103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17020]]\n[textdict[3111]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10005", locked=False)
                     button:
@@ -4405,6 +4425,7 @@ screen quest0103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17021]]\n[textdict[3111]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10006", locked=False)
                 hbox:
@@ -4415,6 +4436,7 @@ screen quest0103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17022]]\n[textdict[3111]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10007", locked=False)
                     button:
@@ -4424,6 +4446,7 @@ screen quest0103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17023]]\n[textdict[3111]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10008", locked=False)
                 hbox:
@@ -4434,6 +4457,7 @@ screen quest0103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17024]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10009", locked=False)
                     button:
@@ -4443,6 +4467,7 @@ screen quest0103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17025]]\n[textdict[3156]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10142", locked=False)
 screen quest0104():
@@ -4493,6 +4518,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17026]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20012", locked=False)
                     button:
@@ -4502,6 +4528,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17026]]\noptional dialogue":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20013", locked=False)
                 hbox:
@@ -4512,6 +4539,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17027]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20014", locked=False)
                     button:
@@ -4521,6 +4549,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17028]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10010", locked=False)
                 hbox:
@@ -4531,6 +4560,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17029]]\n[textdict[3352]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20017", locked=False)
                     button:
@@ -4540,6 +4570,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17030]]\n[textdict[3301]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20018", locked=False)
                 hbox:
@@ -4550,6 +4581,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17031]]\n[textdict[613018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20019", locked=False)
                     button:
@@ -4559,6 +4591,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17032]]\n[textdict[613018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10011", locked=False)
                 hbox:
@@ -4569,6 +4602,7 @@ screen quest0104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17033]]\n[textdict[613018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10012", locked=False)
 screen quest0105():
@@ -4616,6 +4650,7 @@ screen quest0105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17034]]\n[textdict[3301]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20020", locked=False)
                     button:
@@ -4625,6 +4660,7 @@ screen quest0105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17035]]\n[textdict[3351]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10013", locked=False)
                 hbox:
@@ -4635,6 +4671,7 @@ screen quest0105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17036]]\n[textdict[3353]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10014", locked=False)
                     button:
@@ -4644,6 +4681,7 @@ screen quest0105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17037]]\n[textdict[3353]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10015", locked=False)
                 hbox:
@@ -4654,6 +4692,7 @@ screen quest0105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17038]]\n[textdict[3352]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10016", locked=False)
                     button:
@@ -4663,6 +4702,7 @@ screen quest0105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17039]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20141", locked=False)
 screen quest0106():
@@ -4710,6 +4750,7 @@ screen quest0106():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17040]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10017", locked=False)
                     button:
@@ -4719,6 +4760,7 @@ screen quest0106():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17041]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10143", locked=False)
                 hbox:
@@ -4729,6 +4771,7 @@ screen quest0106():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17042]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10018", locked=False)
 screen quest0107():
@@ -4776,6 +4819,7 @@ screen quest0107():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17043]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10127", locked=False)
                     button:
@@ -4785,6 +4829,7 @@ screen quest0107():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17044]]\n[textdict[3107]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10128", locked=False)
                 hbox:
@@ -4795,6 +4840,7 @@ screen quest0107():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17045]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10132", locked=False)
                     button:
@@ -4804,6 +4850,7 @@ screen quest0107():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17046]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10135", locked=False)
 screen quest0108():
@@ -4851,6 +4898,7 @@ screen quest0108():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17047]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20011", locked=False)
                     button:
@@ -4860,6 +4908,7 @@ screen quest0108():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17048]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12001", locked=False)
                 hbox:
@@ -4870,6 +4919,7 @@ screen quest0108():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17049]]\n[textdict[611816]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22001", locked=False)
                     button:
@@ -4879,6 +4929,7 @@ screen quest0108():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17050]]\n[textdict[611816]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12002", locked=False)
 screen quest0109():
@@ -4926,6 +4977,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[70026]]\nextra dialogue":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20010", locked=False)
                     button:
@@ -4935,6 +4987,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17051]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12003", locked=False)
                 hbox:
@@ -4945,6 +4998,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17052]]\n[textdict[3122]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12004", locked=False)
                     button:
@@ -4954,6 +5008,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17053]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12005", locked=False)
                 hbox:
@@ -4964,6 +5019,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17054]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12007", locked=False)
                     button:
@@ -4973,6 +5029,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17055]]\n[textdict[3117]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12008", locked=False)
                 hbox:
@@ -4983,6 +5040,7 @@ screen quest0109():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17056]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12010", locked=False)
 screen quest0110():
@@ -5030,6 +5088,7 @@ screen quest0110():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17057]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22021", locked=False)
                     button:
@@ -5039,6 +5098,7 @@ screen quest0110():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17058]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12024", locked=False)
 screen quest0111():
@@ -5086,6 +5146,7 @@ screen quest0111():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17059]]\n[textdict[3169]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12025", locked=False)
                     button:
@@ -5095,6 +5156,7 @@ screen quest0111():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17060]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12026", locked=False)
                 hbox:
@@ -5105,6 +5167,7 @@ screen quest0111():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17061]]\n[textdict[3169]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12027", locked=False)
 screen quest0112():
@@ -5155,6 +5218,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17062]]\n[textdict[3160]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12102", locked=False)
                     button:
@@ -5164,6 +5228,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17063]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12106", locked=False)
                 hbox:
@@ -5174,6 +5239,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17064]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22115", locked=False)
                     button:
@@ -5183,6 +5249,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17065]]\n[textdict[3126]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12108", locked=False)
                 hbox:
@@ -5193,6 +5260,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17066]]\n[textdict[3127]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12109", locked=False)
                     button:
@@ -5202,6 +5270,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17067]]\n[textdict[3128]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12110", locked=False)
                 hbox:
@@ -5212,6 +5281,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17068]]\n[textdict[3129]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12111", locked=False)
                     button:
@@ -5221,6 +5291,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17069]]\n[textdict[3122]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12112", locked=False)
                 hbox:
@@ -5231,6 +5302,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17070]]\n[textdict[3123]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12114", locked=False)
                     button:
@@ -5240,6 +5312,7 @@ screen quest0112():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17071]]\n[textdict[3163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12116", locked=False)
 screen quest0113():
@@ -5287,6 +5360,7 @@ screen quest0113():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17072]]\n[textdict[3120]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10019", locked=False)
 screen quest0114():
@@ -5334,6 +5408,7 @@ screen quest0114():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17073]]\n[textdict[3167]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12029", locked=False)
                     button:
@@ -5343,6 +5418,7 @@ screen quest0114():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17074]]\n[textdict[3130]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12030", locked=False)
                 hbox:
@@ -5353,6 +5429,7 @@ screen quest0114():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17075]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12031", locked=False)
                     button:
@@ -5362,6 +5439,7 @@ screen quest0114():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17076]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12032", locked=False)
                 hbox:
@@ -5372,6 +5450,7 @@ screen quest0114():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17077]]\n[textdict[3167]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12033", locked=False)
 screen quest0115():
@@ -5419,6 +5498,7 @@ screen quest0115():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17078]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12034", locked=False)
                     button:
@@ -5428,6 +5508,7 @@ screen quest0115():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17079]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12035", locked=False)
                 hbox:
@@ -5438,6 +5519,7 @@ screen quest0115():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17080]]\n[textdict[3170]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12036", locked=False)
 screen quest0116():
@@ -5474,6 +5556,7 @@ screen quest0116():
                         background Frame("bookpage", 35, 35)
                         text "受付嬢トリア\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20023", locked=False)
                     button:
@@ -5483,6 +5566,7 @@ screen quest0116():
                         background Frame("bookpage", 35, 35)
                         text "スラッシュ\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20024", locked=False)
                 hbox:
@@ -5493,6 +5577,7 @@ screen quest0116():
                         background Frame("bookpage", 35, 35)
                         text "キャンベル議員\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20026", locked=False)
                     button:
@@ -5502,6 +5587,7 @@ screen quest0116():
                         background Frame("bookpage", 35, 35)
                         text "フェルナンド\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20028", locked=False)
 screen quest0201():
@@ -5549,6 +5635,7 @@ screen quest0201():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17101]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10021", locked=False)
                     button:
@@ -5558,6 +5645,7 @@ screen quest0201():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17102]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10023", locked=False)
                 hbox:
@@ -5568,6 +5656,7 @@ screen quest0201():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17103]]\n[textdict[3004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10024", locked=False)
                     button:
@@ -5577,6 +5666,7 @@ screen quest0201():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17104]]\n[textdict[3220]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10025", locked=False)
                 hbox:
@@ -5587,6 +5677,7 @@ screen quest0201():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17105]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10026", locked=False)
                     button:
@@ -5596,6 +5687,7 @@ screen quest0201():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17105]]\ncont'd":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20033", locked=False)
 screen quest0202():
@@ -5643,6 +5735,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17106]]\n[textdict[3009]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10136", locked=False)
                     button:
@@ -5652,6 +5745,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17107]]\n[textdict[3202]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20037", locked=False)
                 hbox:
@@ -5662,6 +5756,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17108]]\n[textdict[3203]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10137", locked=False)
                     button:
@@ -5671,6 +5766,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17109]]\n[textdict[3209]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10138", locked=False)
                 hbox:
@@ -5681,6 +5777,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17110]]\n[textdict[3203]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10139", locked=False)
                     button:
@@ -5690,6 +5787,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17111]]\n[textdict[3201]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20035", locked=False)
                 hbox:
@@ -5700,6 +5798,7 @@ screen quest0202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17112]]\n[textdict[3009]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10140", locked=False)
 screen quest0203():
@@ -5750,6 +5849,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17113]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10027", locked=False)
                     button:
@@ -5759,6 +5859,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17114]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10028", locked=False)
                 hbox:
@@ -5769,6 +5870,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17115]]\n[textdict[3202]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10029", locked=False)
                     button:
@@ -5778,6 +5880,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17116]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20040", locked=False)
                 hbox:
@@ -5788,6 +5891,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17117]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20041", locked=False)
                     button:
@@ -5797,6 +5901,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17118]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20042", locked=False)
                 hbox:
@@ -5807,6 +5912,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17119]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20043", locked=False)
                     button:
@@ -5816,6 +5922,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17120]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20044", locked=False)
                 hbox:
@@ -5826,6 +5933,7 @@ screen quest0203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17121]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10030", locked=False)
 screen quest0204():
@@ -5876,6 +5984,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17122]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10031", locked=False)
                     button:
@@ -5885,6 +5994,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17123]]\n[textdict[3218]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20051", locked=False)
                 hbox:
@@ -5895,6 +6005,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17124]]\n[textdict[3216]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20045", locked=False)
                     button:
@@ -5904,6 +6015,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17125]]\n[textdict[3214]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20046", locked=False)
                 hbox:
@@ -5914,6 +6026,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17126]]\n[textdict[3211]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20047", locked=False)
                     button:
@@ -5923,6 +6036,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17127]]\n[textdict[3204]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20048", locked=False)
                 hbox:
@@ -5933,6 +6047,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17128]]\n[textdict[3202]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20049", locked=False)
                     button:
@@ -5942,6 +6057,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17129]]\n[textdict[3209]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20050", locked=False)
                 hbox:
@@ -5952,6 +6068,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17130]]\n[textdict[3221]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20052", locked=False)
                     button:
@@ -5961,6 +6078,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17131]]\n[textdict[3216]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20053", locked=False)
                 hbox:
@@ -5971,6 +6089,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17132]]\n[textdict[3220]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10123", locked=False)
                     button:
@@ -5980,6 +6099,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17133]]\n[textdict[3217]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20055", locked=False)
                 hbox:
@@ -5990,6 +6110,7 @@ screen quest0204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17134]]\n[textdict[3217]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10032", locked=False)
 screen quest0205():
@@ -6037,6 +6158,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17135]]\n[textdict[3207]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20056", locked=False)
                     button:
@@ -6046,6 +6168,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17136]]\n[textdict[3213]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20057", locked=False)
                 hbox:
@@ -6056,6 +6179,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17137]]\n[textdict[3220]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20058", locked=False)
                     button:
@@ -6065,6 +6189,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17138]]\n[textdict[3209]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20059", locked=False)
                 hbox:
@@ -6075,6 +6200,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17139]]\n[textdict[3211]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20060", locked=False)
                     button:
@@ -6084,6 +6210,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17140]]\n[textdict[3207]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20061", locked=False)
                 hbox:
@@ -6094,6 +6221,7 @@ screen quest0205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17141]]\n[textdict[3215]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10033", locked=False)
 screen quest0206():
@@ -6144,6 +6272,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17142]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10037", locked=False)
                     button:
@@ -6153,6 +6282,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17143]]\n[textdict[3253]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20063", locked=False)
                 hbox:
@@ -6163,6 +6293,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17144]]\n[textdict[3251]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20064", locked=False)
                     button:
@@ -6172,6 +6303,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17145]]\n[textdict[3252]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20065", locked=False)
                 hbox:
@@ -6182,6 +6314,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17146]]\n[textdict[3217]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10038", locked=False)
                     button:
@@ -6191,6 +6324,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17147]]\n[textdict[3217]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10039", locked=False)
                 hbox:
@@ -6201,6 +6335,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17148]]\n[textdict[3254]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20066", locked=False)
                     button:
@@ -6210,6 +6345,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17149]]\n[textdict[3210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10040", locked=False)
                 hbox:
@@ -6220,6 +6356,7 @@ screen quest0206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17150]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10041", locked=False)
 screen quest0207():
@@ -6267,6 +6404,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17151]]\n[textdict[3213]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12121", locked=False)
                     button:
@@ -6276,6 +6414,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17152]]\n[textdict[613002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22124", locked=False)
                 hbox:
@@ -6286,6 +6425,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17153]]\n[textdict[613002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22128", locked=False)
                     button:
@@ -6295,6 +6435,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17154]]\n[textdict[613002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22130", locked=False)
                 hbox:
@@ -6305,6 +6446,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17155]]\n[textdict[613002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22131", locked=False)
                     button:
@@ -6314,6 +6456,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17156]]\n[textdict[613002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22132", locked=False)
                 hbox:
@@ -6324,6 +6467,7 @@ screen quest0207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17157]]\n[textdict[3213]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12133", locked=False)
 screen quest0208():
@@ -6371,6 +6515,7 @@ screen quest0208():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17158]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12175", locked=False)
                     button:
@@ -6380,6 +6525,7 @@ screen quest0208():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17159]]\n[textdict[3004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12176", locked=False)
                 hbox:
@@ -6390,6 +6536,7 @@ screen quest0208():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17160]]\n[textdict[3213]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12177", locked=False)
                     button:
@@ -6399,6 +6546,7 @@ screen quest0208():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17161]]\n[textdict[3004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12178", locked=False)
 screen quest0209():
@@ -6446,6 +6594,7 @@ screen quest0209():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17162]]\n[textdict[3211]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12162", locked=False)
                     button:
@@ -6455,6 +6604,7 @@ screen quest0209():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17163]]\n[textdict[3211]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12164", locked=False)
 screen quest0210():
@@ -6502,6 +6652,7 @@ screen quest0210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17164]]\n[textdict[3213]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12179", locked=False)
 screen quest0211():
@@ -6549,6 +6700,7 @@ screen quest0211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17165]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12198", locked=False)
                     button:
@@ -6558,6 +6710,7 @@ screen quest0211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17166]]\n[textdict[2184]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12181", locked=False)
                 hbox:
@@ -6568,6 +6721,7 @@ screen quest0211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17167]]\n[textdict[2174]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12182", locked=False)
                     button:
@@ -6577,6 +6731,7 @@ screen quest0211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17168]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12183", locked=False)
 screen quest0212():
@@ -6624,6 +6779,7 @@ screen quest0212():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17169]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12188", locked=False)
                     button:
@@ -6633,6 +6789,7 @@ screen quest0212():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17170]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12189", locked=False)
                 hbox:
@@ -6643,6 +6800,7 @@ screen quest0212():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17171]]\n[textdict[613001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12191", locked=False)
 screen quest0213():
@@ -6690,6 +6848,7 @@ screen quest0213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17172]]\n[textdict[3255]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12184", locked=False)
                     button:
@@ -6699,6 +6858,7 @@ screen quest0213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17173]]\n[textdict[3255]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12185", locked=False)
 screen quest0214():
@@ -6746,6 +6906,7 @@ screen quest0214():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17174]]\n[textdict[3200]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12141", locked=False)
                     button:
@@ -6755,6 +6916,7 @@ screen quest0214():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17175]]\n[textdict[613004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22142", locked=False)
                 hbox:
@@ -6765,6 +6927,7 @@ screen quest0214():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17176]]\n[textdict[613004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22143", locked=False)
                     button:
@@ -6774,6 +6937,7 @@ screen quest0214():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17177]]\n[textdict[613004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22144", locked=False)
 screen quest0215():
@@ -6821,6 +6985,7 @@ screen quest0215():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17178]]\n[textdict[3254]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12151", locked=False)
                     button:
@@ -6830,6 +6995,7 @@ screen quest0215():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17179]]\n[textdict[3255]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20039", locked=False)
                 hbox:
@@ -6840,6 +7006,7 @@ screen quest0215():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17180]]\n[textdict[3008]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12158", locked=False)
                     button:
@@ -6849,6 +7016,7 @@ screen quest0215():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17181]]\n[textdict[3009]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12159", locked=False)
 screen quest0216():
@@ -6896,6 +7064,7 @@ screen quest0216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17182]]\n[textdict[3209]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12171", locked=False)
                     button:
@@ -6905,6 +7074,7 @@ screen quest0216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17183]]\n[textdict[3209]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12173", locked=False)
 screen quest0217():
@@ -6941,6 +7111,7 @@ screen quest0217():
                         background Frame("bookpage", 35, 35)
                         text "スラッシュ/ヒューイ\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10303", locked=False)
                     button:
@@ -6950,6 +7121,7 @@ screen quest0217():
                         background Frame("bookpage", 35, 35)
                         text "リン/エオリア\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10315", locked=False)
 screen quest0301():
@@ -7000,6 +7172,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17201]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10042", locked=False)
                     button:
@@ -7009,6 +7182,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17202]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10043", locked=False)
                 hbox:
@@ -7019,6 +7193,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17203]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20139", locked=False)
                     button:
@@ -7028,6 +7203,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17204]]\n[textdict[3163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10044", locked=False)
                 hbox:
@@ -7038,6 +7214,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17205]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20067", locked=False)
                     button:
@@ -7047,6 +7224,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17206]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10045", locked=False)
                 hbox:
@@ -7057,6 +7235,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17207]]\n[textdict[3011]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20068", locked=False)
                     button:
@@ -7066,6 +7245,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17208]]\n[textdict[3109]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20069", locked=False)
                 hbox:
@@ -7076,6 +7256,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17209]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20070", locked=False)
                     button:
@@ -7085,6 +7266,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17210]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20071", locked=False)
                 hbox:
@@ -7095,6 +7277,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17211]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20072", locked=False)
                     button:
@@ -7104,6 +7287,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17212]]\n[textdict[3105]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20073", locked=False)
                 hbox:
@@ -7114,6 +7298,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17213]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20074", locked=False)
                     button:
@@ -7123,6 +7308,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17214]]\n[textdict[3164]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20075", locked=False)
                 hbox:
@@ -7133,6 +7319,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17215]]\n[textdict[3160]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20076", locked=False)
                     button:
@@ -7142,6 +7329,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17216]]\n[textdict[3111]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20077", locked=False)
                 hbox:
@@ -7152,6 +7340,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17217]]\n[textdict[3012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20078", locked=False)
                     button:
@@ -7161,6 +7350,7 @@ screen quest0301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17218]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10046", locked=False)
 screen quest0302():
@@ -7211,6 +7401,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17219]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10048", locked=False)
                     button:
@@ -7220,6 +7411,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17220]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10052", locked=False)
                 hbox:
@@ -7230,6 +7422,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17222]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10054", locked=False)
                     button:
@@ -7239,6 +7432,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17223]]\n[textdict[613006]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20081", locked=False)
                 hbox:
@@ -7249,6 +7443,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17224]]\n[textdict[613006]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10201", locked=False)
                     button:
@@ -7258,6 +7453,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17225]]\n[textdict[613006]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10202", locked=False)
                 hbox:
@@ -7268,6 +7464,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17226]]\n[textdict[613006]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10203", locked=False)
                     button:
@@ -7277,6 +7474,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17227]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10055", locked=False)
                 hbox:
@@ -7287,6 +7485,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17228]]\n[textdict[3155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10056", locked=False)
                     button:
@@ -7296,6 +7495,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17229]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20092", locked=False)
                 hbox:
@@ -7306,6 +7506,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17230]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20086", locked=False)
                     button:
@@ -7315,6 +7516,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17231]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20087", locked=False)
                 hbox:
@@ -7325,6 +7527,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17232]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20088", locked=False)
                     button:
@@ -7334,6 +7537,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17233]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20089", locked=False)
                 hbox:
@@ -7344,6 +7548,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17234]]\n[textdict[3120]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20090", locked=False)
                     button:
@@ -7353,6 +7558,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17235]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20091", locked=False)
                 hbox:
@@ -7363,6 +7569,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17236]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10057", locked=False)
                     button:
@@ -7372,6 +7579,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17237]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20093", locked=False)
                 hbox:
@@ -7382,6 +7590,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17238]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20094", locked=False)
                     button:
@@ -7391,6 +7600,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17239]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20095", locked=False)
                 hbox:
@@ -7401,6 +7611,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17240]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20096", locked=False)
                     button:
@@ -7410,6 +7621,7 @@ screen quest0302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17241]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10058", locked=False)
 screen quest0303():
@@ -7457,6 +7669,7 @@ screen quest0303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17242]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10059", locked=False)
                     button:
@@ -7466,6 +7679,7 @@ screen quest0303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17243]]\n[textdict[3220]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12203", locked=False)
                 hbox:
@@ -7476,6 +7690,7 @@ screen quest0303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17244]]\n[textdict[3217]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12204", locked=False)
 screen quest0304():
@@ -7523,6 +7738,7 @@ screen quest0304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17245]]\n[textdict[3553]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20097", locked=False)
                     button:
@@ -7532,6 +7748,7 @@ screen quest0304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17246]]\n[textdict[3508]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20098", locked=False)
                 hbox:
@@ -7542,6 +7759,7 @@ screen quest0304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17247]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20099", locked=False)
                     button:
@@ -7551,6 +7769,7 @@ screen quest0304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17248]]\n[textdict[3502]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20100", locked=False)
                 hbox:
@@ -7561,6 +7780,7 @@ screen quest0304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17249]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10060", locked=False)
 screen quest0305():
@@ -7611,6 +7831,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17250]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20101", locked=False)
                     button:
@@ -7620,6 +7841,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17251]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10061", locked=False)
                 hbox:
@@ -7630,6 +7852,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17252]]\n[textdict[3508]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10062", locked=False)
                     button:
@@ -7639,6 +7862,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17255]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10067", locked=False)
                 hbox:
@@ -7649,6 +7873,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17256]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10068", locked=False)
                     button:
@@ -7658,6 +7883,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17257]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10070", locked=False)
                 hbox:
@@ -7668,6 +7894,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17258]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10071", locked=False)
                     button:
@@ -7677,6 +7904,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17259]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20103", locked=False)
                 hbox:
@@ -7687,6 +7915,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17260]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20104", locked=False)
                     button:
@@ -7696,6 +7925,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17261]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20105", locked=False)
                 hbox:
@@ -7706,6 +7936,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17262]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10072", locked=False)
                     button:
@@ -7715,6 +7946,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17263]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10073", locked=False)
                 hbox:
@@ -7725,6 +7957,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17264]]\n[textdict[3502]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10074", locked=False)
                     button:
@@ -7734,6 +7967,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17265]]\n[textdict[3502]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10075", locked=False)
                 hbox:
@@ -7744,6 +7978,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17266]]\n[textdict[3552]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20106", locked=False)
                     button:
@@ -7753,6 +7988,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17267]]\n[textdict[3552]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20107", locked=False)
                 hbox:
@@ -7763,6 +7999,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17268]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10076", locked=False)
                     button:
@@ -7772,6 +8009,7 @@ screen quest0305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17269]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10077", locked=False)
 screen quest0306():
@@ -7822,6 +8060,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17270]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10078", locked=False)
                     button:
@@ -7831,6 +8070,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17271]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10079", locked=False)
                 hbox:
@@ -7841,6 +8081,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17272]]\n[textdict[3502]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10082", locked=False)
                     button:
@@ -7850,6 +8091,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17272]]\noptional (unused?)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10081", locked=False)
                 hbox:
@@ -7860,6 +8102,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17273]]\n[textdict[3502]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10083", locked=False)
                     button:
@@ -7869,6 +8112,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17273]]\noptional (unused?)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10080", locked=False)
                 hbox:
@@ -7879,6 +8123,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17274]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10086", locked=False)
                     button:
@@ -7888,6 +8133,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17275]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10087", locked=False)
                 hbox:
@@ -7898,6 +8144,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "中央工房の盗難事件(2) 3/7\noptional (unused?)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20110", locked=False)
                     button:
@@ -7907,6 +8154,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17276]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10088", locked=False)
                 hbox:
@@ -7917,6 +8165,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17277]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10089", locked=False)
                     button:
@@ -7926,6 +8175,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17278]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10096", locked=False)
                 hbox:
@@ -7936,6 +8186,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17279]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10097", locked=False)
                     button:
@@ -7945,6 +8196,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17280]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10102", locked=False)
                 hbox:
@@ -7955,6 +8207,7 @@ screen quest0306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17281]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10103", locked=False)
 screen quest0307():
@@ -8005,6 +8258,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17282]]\n[textdict[3102]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10104", locked=False)
                     button:
@@ -8014,6 +8268,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17283]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10105", locked=False)
                 hbox:
@@ -8024,6 +8279,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17284]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10106", locked=False)
                     button:
@@ -8033,6 +8289,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17285]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10107", locked=False)
                 hbox:
@@ -8043,6 +8300,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17286]]\n[textdict[3156]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10108", locked=False)
                     button:
@@ -8052,6 +8310,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17287]]\n[textdict[3157]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10109", locked=False)
                 hbox:
@@ -8062,6 +8321,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17288]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10110", locked=False)
                     button:
@@ -8071,6 +8331,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17289]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20121", locked=False)
                 hbox:
@@ -8081,6 +8342,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17290]]\n[textdict[3158]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20122", locked=False)
                     button:
@@ -8090,6 +8352,7 @@ screen quest0307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17291]]\n[textdict[3159]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10113", locked=False)
 screen quest0308():
@@ -8140,6 +8403,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17292]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10114", locked=False)
                     button:
@@ -8149,6 +8413,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17293]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10117", locked=False)
                 hbox:
@@ -8159,6 +8424,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17294]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20123", locked=False)
                     button:
@@ -8168,6 +8434,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17295]]\n[textdict[3155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20124", locked=False)
                 hbox:
@@ -8178,6 +8445,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17296]]\n[textdict[3160]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10115", locked=False)
                     button:
@@ -8187,6 +8455,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17298]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20125", locked=False)
                 hbox:
@@ -8197,6 +8466,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17299]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20126", locked=False)
                     button:
@@ -8206,6 +8476,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17300]]\n[textdict[3161]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10118", locked=False)
                 hbox:
@@ -8216,6 +8487,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17302]]\n[textdict[3161]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20127", locked=False)
                     button:
@@ -8225,6 +8497,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17303]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20130", locked=False)
                 hbox:
@@ -8235,6 +8508,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17304]]\n[textdict[3155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10120", locked=False)
                     button:
@@ -8244,6 +8518,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17305]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20131", locked=False)
                 hbox:
@@ -8254,6 +8529,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17306]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20132", locked=False)
                     button:
@@ -8263,6 +8539,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17307]]\n[textdict[3151]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20133", locked=False)
                 hbox:
@@ -8273,6 +8550,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17308]]\n[textdict[3152]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20134", locked=False)
                     button:
@@ -8282,6 +8560,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17309]]\n[textdict[3154]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20135", locked=False)
                 hbox:
@@ -8292,6 +8571,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17310]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20136", locked=False)
                     button:
@@ -8301,6 +8581,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17311]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20137", locked=False)
                 hbox:
@@ -8311,6 +8592,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17312]]\n[textdict[613007]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20138", locked=False)
                     button:
@@ -8320,6 +8602,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17313]]\n[textdict[3014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10121", locked=False)
                 hbox:
@@ -8330,6 +8613,7 @@ screen quest0308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17314]]\n[textdict[2151]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10122", locked=False)
 screen quest0309():
@@ -8377,6 +8661,7 @@ screen quest0309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17315]]\n[textdict[3107]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22201", locked=False)
                     button:
@@ -8386,6 +8671,7 @@ screen quest0309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17317]]\n[textdict[613008]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22205", locked=False)
                 hbox:
@@ -8396,6 +8682,7 @@ screen quest0309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17318]]\n[textdict[613008]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22206", locked=False)
 screen quest0310():
@@ -8443,6 +8730,7 @@ screen quest0310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17319]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12213", locked=False)
                     button:
@@ -8452,6 +8740,7 @@ screen quest0310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17320]]\n[textdict[613021]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12214", locked=False)
                 hbox:
@@ -8462,6 +8751,7 @@ screen quest0310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17321]]\n[textdict[613021]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12215", locked=False)
                     button:
@@ -8471,6 +8761,7 @@ screen quest0310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17322]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12216", locked=False)
 screen quest0311():
@@ -8518,6 +8809,7 @@ screen quest0311():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17323]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12217", locked=False)
                     button:
@@ -8527,6 +8819,7 @@ screen quest0311():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17324]]\n[textdict[2172]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12218", locked=False)
                 hbox:
@@ -8537,6 +8830,7 @@ screen quest0311():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17325]]\n[textdict[2174]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12219", locked=False)
                     button:
@@ -8546,6 +8840,7 @@ screen quest0311():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17326]]\n[textdict[2176]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12220", locked=False)
                 hbox:
@@ -8556,6 +8851,7 @@ screen quest0311():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17327]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12221", locked=False)
 screen quest0312():
@@ -8603,6 +8899,7 @@ screen quest0312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17328]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12224", locked=False)
                     button:
@@ -8612,6 +8909,7 @@ screen quest0312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17329]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12225", locked=False)
                 hbox:
@@ -8622,6 +8920,7 @@ screen quest0312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17330]]\n[textdict[2172]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12226", locked=False)
                     button:
@@ -8631,6 +8930,7 @@ screen quest0312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17331]]\n[textdict[2176]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12227", locked=False)
                 hbox:
@@ -8641,6 +8941,7 @@ screen quest0312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17332]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12228", locked=False)
                     button:
@@ -8650,6 +8951,7 @@ screen quest0312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17333]]\n[textdict[3501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12229", locked=False)
 screen quest0313():
@@ -8697,6 +8999,7 @@ screen quest0313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17334]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12201", locked=False)
                     button:
@@ -8706,6 +9009,7 @@ screen quest0313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17335]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12202", locked=False)
                 hbox:
@@ -8716,6 +9020,7 @@ screen quest0313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17336]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22209", locked=False)
                     button:
@@ -8725,6 +9030,7 @@ screen quest0313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17337]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22210", locked=False)
                 hbox:
@@ -8735,6 +9041,7 @@ screen quest0313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17338]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22211", locked=False)
                     button:
@@ -8744,6 +9051,7 @@ screen quest0313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17339]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22212", locked=False)
 screen quest0314():
@@ -8791,6 +9099,7 @@ screen quest0314():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17340]]\n[textdict[613009]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12222", locked=False)
                     button:
@@ -8800,6 +9109,7 @@ screen quest0314():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17341]]\n[textdict[613009]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12223", locked=False)
                 hbox:
@@ -8810,6 +9120,7 @@ screen quest0314():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17341]]\n(unused tio version)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20109", locked=False)
                     button:
@@ -8819,6 +9130,7 @@ screen quest0314():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17341]]\n(unused tita version)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20108", locked=False)
 screen quest0315():
@@ -8866,6 +9178,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17342]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12239", locked=False)
                     button:
@@ -8875,6 +9188,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17343]]\n[textdict[3168]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12240", locked=False)
                 hbox:
@@ -8885,6 +9199,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17344]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12241", locked=False)
                     button:
@@ -8894,6 +9209,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17345]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12242", locked=False)
                 hbox:
@@ -8904,6 +9220,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17346]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12243", locked=False)
                     button:
@@ -8913,6 +9230,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17347]]\n[textdict[3109]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12244", locked=False)
                 hbox:
@@ -8923,6 +9241,7 @@ screen quest0315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17348]]\n[textdict[3168]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12245", locked=False)
 screen quest0316():
@@ -8970,6 +9289,7 @@ screen quest0316():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17349]]\n[textdict[3102]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22207", locked=False)
                     button:
@@ -8979,6 +9299,7 @@ screen quest0316():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17350]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22208", locked=False)
 screen quest0317():
@@ -9026,6 +9347,7 @@ screen quest0317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17351]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12246", locked=False)
                     button:
@@ -9035,6 +9357,7 @@ screen quest0317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17352]]\n[textdict[3004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12247", locked=False)
                 hbox:
@@ -9045,6 +9368,7 @@ screen quest0317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17353]]\n[textdict[3004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12248", locked=False)
                     button:
@@ -9054,6 +9378,7 @@ screen quest0317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17354]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12249", locked=False)
 screen quest0318():
@@ -9090,6 +9415,7 @@ screen quest0318():
                         background Frame("bookpage", 35, 35)
                         text "ティータ\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20115", locked=False)
                     button:
@@ -9099,6 +9425,7 @@ screen quest0318():
                         background Frame("bookpage", 35, 35)
                         text "カルノー/プロメテ\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20116", locked=False)
                 hbox:
@@ -9109,6 +9436,7 @@ screen quest0318():
                         background Frame("bookpage", 35, 35)
                         text "マードック工房長\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20118", locked=False)
                     button:
@@ -9118,6 +9446,7 @@ screen quest0318():
                         background Frame("bookpage", 35, 35)
                         text "ウォン/グンドルフ\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20119", locked=False)
                 hbox:
@@ -9128,6 +9457,7 @@ screen quest0318():
                         background Frame("bookpage", 35, 35)
                         text "ジリアン/ロナード\n(exact timing unknown)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20120", locked=False)
 screen quest0401():
@@ -9175,6 +9505,7 @@ screen quest0401():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17401]]\n[textdict[3160]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10301", locked=False)
                     button:
@@ -9184,6 +9515,7 @@ screen quest0401():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17402]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10304", locked=False)
                 hbox:
@@ -9194,6 +9526,7 @@ screen quest0401():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17403]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10305", locked=False)
                     button:
@@ -9203,6 +9536,7 @@ screen quest0401():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17404]]\n[textdict[3156]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10316", locked=False)
                 hbox:
@@ -9213,6 +9547,7 @@ screen quest0401():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17405]]\n[textdict[2149]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10306", locked=False)
                     button:
@@ -9222,6 +9557,7 @@ screen quest0401():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17406]]\n[textdict[2147]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10307", locked=False)
 screen quest0402():
@@ -9269,6 +9605,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17409]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10319", locked=False)
                     button:
@@ -9278,6 +9615,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17410]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10320", locked=False)
                 hbox:
@@ -9288,6 +9626,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17411]]\n[textdict[3106]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10323", locked=False)
                     button:
@@ -9297,6 +9636,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17412]]\n[textdict[3017]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10325", locked=False)
                 hbox:
@@ -9307,6 +9647,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17413]]\n[textdict[3106]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10318", locked=False)
                     button:
@@ -9316,6 +9657,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17414]]\n[textdict[3105]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10329", locked=False)
                 hbox:
@@ -9326,6 +9668,7 @@ screen quest0402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17415]]\n[textdict[3112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10331", locked=False)
 screen quest0403():
@@ -9376,6 +9719,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17416]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10335", locked=False)
                     button:
@@ -9385,6 +9729,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17417]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10341", locked=False)
                 hbox:
@@ -9395,6 +9740,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17418]]\n[textdict[3159]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10345", locked=False)
                     button:
@@ -9404,6 +9750,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17419]]\n[textdict[3159]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10346", locked=False)
                 hbox:
@@ -9414,6 +9761,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17420]]\n[textdict[3159]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10347", locked=False)
                     button:
@@ -9423,6 +9771,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17421]]\n[textdict[3159]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10348", locked=False)
                 hbox:
@@ -9433,6 +9782,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17422]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10349", locked=False)
                     button:
@@ -9442,6 +9792,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17423]]\n[textdict[3162]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10350", locked=False)
                 hbox:
@@ -9452,6 +9803,7 @@ screen quest0403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17424]]\n[textdict[3156]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10351", locked=False)
 screen quest0404():
@@ -9499,6 +9851,7 @@ screen quest0404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17425]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10352", locked=False)
                     button:
@@ -9508,6 +9861,7 @@ screen quest0404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17426]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10353", locked=False)
                 hbox:
@@ -9518,6 +9872,7 @@ screen quest0404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17427]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10354", locked=False)
                     button:
@@ -9527,6 +9882,7 @@ screen quest0404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17428]]\n[textdict[3412]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10357", locked=False)
                 hbox:
@@ -9537,6 +9893,7 @@ screen quest0404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17429]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10366", locked=False)
 screen quest0405():
@@ -9584,6 +9941,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17430]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10367", locked=False)
                     button:
@@ -9593,6 +9951,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17431]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10361", locked=False)
                 hbox:
@@ -9603,6 +9962,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17432]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10365", locked=False)
                     button:
@@ -9612,6 +9972,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17433]]\n[textdict[3410]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10358", locked=False)
                 hbox:
@@ -9622,6 +9983,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17434]]\n[textdict[3413]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10359", locked=False)
                     button:
@@ -9631,6 +9993,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17435]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10363", locked=False)
                 hbox:
@@ -9641,6 +10004,7 @@ screen quest0405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17436]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10368", locked=False)
 screen quest0406():
@@ -9688,6 +10052,7 @@ screen quest0406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17437]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10369", locked=False)
                     button:
@@ -9697,6 +10062,7 @@ screen quest0406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17438]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10382", locked=False)
                 hbox:
@@ -9707,6 +10073,7 @@ screen quest0406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17439]]\n[textdict[3412]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10385", locked=False)
                     button:
@@ -9716,6 +10083,7 @@ screen quest0406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17440]]\n[textdict[3410]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10387", locked=False)
                 hbox:
@@ -9726,6 +10094,7 @@ screen quest0406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17441]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10388", locked=False)
                     button:
@@ -9735,6 +10104,7 @@ screen quest0406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17442]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10390", locked=False)
 screen quest0407():
@@ -9785,6 +10155,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17443]]\n[textdict[2120]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10392", locked=False)
                     button:
@@ -9794,6 +10165,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17444]]\n[textdict[613016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20393", locked=False)
                 hbox:
@@ -9804,6 +10176,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17445]]\n[textdict[613016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10394", locked=False)
                     button:
@@ -9813,6 +10186,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17446]]\n[textdict[613017]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10395", locked=False)
                 hbox:
@@ -9823,6 +10197,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17447]]\n[textdict[613017]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10396", locked=False)
                     button:
@@ -9832,6 +10207,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17448]]\n[textdict[613017]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10397", locked=False)
                 hbox:
@@ -9842,6 +10218,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17449]]\n[textdict[613017]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10398", locked=False)
                     button:
@@ -9851,6 +10228,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17450]]\n[textdict[613017]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10399", locked=False)
                 hbox:
@@ -9861,6 +10239,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17451]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10401", locked=False)
                     button:
@@ -9870,6 +10249,7 @@ screen quest0407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17452]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10402", locked=False)
 screen quest0408():
@@ -9917,6 +10297,7 @@ screen quest0408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17453]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10317", locked=False)
                     button:
@@ -9926,6 +10307,7 @@ screen quest0408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17454]]\n[textdict[3411]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10360", locked=False)
 screen quest0409():
@@ -9973,6 +10355,7 @@ screen quest0409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17455]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10311", locked=False)
                     button:
@@ -9982,6 +10365,7 @@ screen quest0409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17455]]\nunused alt":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10312", locked=False)
                 hbox:
@@ -9992,6 +10376,7 @@ screen quest0409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17456]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12341", locked=False)
                     button:
@@ -10001,6 +10386,7 @@ screen quest0409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17457]]\n[textdict[613010]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12342", locked=False)
                 hbox:
@@ -10011,6 +10397,7 @@ screen quest0409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17458]]\n[textdict[613010]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12343", locked=False)
 screen quest0410():
@@ -10058,6 +10445,7 @@ screen quest0410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17459]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10308", locked=False)
                     button:
@@ -10067,6 +10455,7 @@ screen quest0410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17460]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12331", locked=False)
                 hbox:
@@ -10077,6 +10466,7 @@ screen quest0410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17461]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12335", locked=False)
                     button:
@@ -10086,6 +10476,7 @@ screen quest0410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17462]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12336", locked=False)
 screen quest0411():
@@ -10133,6 +10524,7 @@ screen quest0411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17463]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12301", locked=False)
                     button:
@@ -10142,6 +10534,7 @@ screen quest0411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17464]]\n[textdict[2147]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12303", locked=False)
                 hbox:
@@ -10152,6 +10545,7 @@ screen quest0411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17464]]\nunused alt":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12302", locked=False)
 screen quest0412():
@@ -10199,6 +10593,7 @@ screen quest0412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17465]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12361", locked=False)
                     button:
@@ -10208,6 +10603,7 @@ screen quest0412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17466]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12362", locked=False)
                 hbox:
@@ -10218,6 +10614,7 @@ screen quest0412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17467]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12363", locked=False)
                     button:
@@ -10227,6 +10624,7 @@ screen quest0412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17468]]\n[textdict[3106]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12364", locked=False)
                 hbox:
@@ -10237,6 +10635,7 @@ screen quest0412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17469]]\n[textdict[3106]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12365", locked=False)
 screen quest0413():
@@ -10287,6 +10686,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17470]]\n[textdict[3021]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12311", locked=False)
                     button:
@@ -10296,6 +10696,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17471]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12313", locked=False)
                 hbox:
@@ -10306,6 +10707,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17472]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22312", locked=False)
                     button:
@@ -10315,6 +10717,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17473]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12314", locked=False)
                 hbox:
@@ -10325,6 +10728,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17474]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12315", locked=False)
                     button:
@@ -10334,6 +10738,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17475]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22316", locked=False)
                 hbox:
@@ -10344,6 +10749,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17476]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12317", locked=False)
                     button:
@@ -10353,6 +10759,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17477]]\n[textdict[2131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12318", locked=False)
                 hbox:
@@ -10363,6 +10770,7 @@ screen quest0413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17478]]\n[textdict[3021]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12319", locked=False)
 screen quest0414():
@@ -10410,6 +10818,7 @@ screen quest0414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17479]]\n[textdict[2153]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12366", locked=False)
                     button:
@@ -10419,6 +10828,7 @@ screen quest0414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17480]]\n[textdict[2112]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22367", locked=False)
                 hbox:
@@ -10429,6 +10839,7 @@ screen quest0414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17481]]\n[textdict[3012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12368", locked=False)
                     button:
@@ -10438,6 +10849,7 @@ screen quest0414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17482]]\n[textdict[2153]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12369", locked=False)
 screen quest0415():
@@ -10485,6 +10897,7 @@ screen quest0415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17483]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12370", locked=False)
                     button:
@@ -10494,6 +10907,7 @@ screen quest0415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17484]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12371", locked=False)
                 hbox:
@@ -10504,6 +10918,7 @@ screen quest0415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17485]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12372", locked=False)
 screen quest0416():
@@ -10551,6 +10966,7 @@ screen quest0416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17486]]\n[textdict[3411]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12351", locked=False)
                     button:
@@ -10560,6 +10976,7 @@ screen quest0416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17487]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12352", locked=False)
                 hbox:
@@ -10570,6 +10987,7 @@ screen quest0416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17488]]\n[textdict[3015]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12354", locked=False)
                     button:
@@ -10579,6 +10997,7 @@ screen quest0416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17489]]\n[textdict[3411]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12356", locked=False)
 screen quest0417():
@@ -10626,6 +11045,7 @@ screen quest0417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17490]]\n[textdict[3405]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12378", locked=False)
                     button:
@@ -10635,6 +11055,7 @@ screen quest0417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17491]]\n[textdict[613014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22379", locked=False)
                 hbox:
@@ -10645,6 +11066,7 @@ screen quest0417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17492]]\n[textdict[613014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22380", locked=False)
                     button:
@@ -10654,6 +11076,7 @@ screen quest0417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17493]]\n[textdict[613014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22381", locked=False)
                 hbox:
@@ -10664,6 +11087,7 @@ screen quest0417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17494]]\n[textdict[3405]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12382", locked=False)
 screen quest0418():
@@ -10711,6 +11135,7 @@ screen quest0418():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17495]]\n[textdict[613013]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22387", locked=False)
                     button:
@@ -10720,6 +11145,7 @@ screen quest0418():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17496]]\n[textdict[613013]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22388", locked=False)
 screen quest0419():
@@ -10767,6 +11193,7 @@ screen quest0419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17497]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12373", locked=False)
                     button:
@@ -10776,6 +11203,7 @@ screen quest0419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17498]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12374", locked=False)
                 hbox:
@@ -10786,6 +11214,7 @@ screen quest0419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17499]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12377", locked=False)
 screen quest0501():
@@ -10833,6 +11262,7 @@ screen quest0501():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17548]]\n[textdict[3406]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12401", locked=False)
                     button:
@@ -10842,6 +11272,7 @@ screen quest0501():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17549]]\n[textdict[3406]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12402", locked=False)
                 hbox:
@@ -10852,6 +11283,7 @@ screen quest0501():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17550]]\n[textdict[3406]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12403", locked=False)
                     button:
@@ -10861,6 +11293,7 @@ screen quest0501():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17551]]\n[textdict[3406]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12404", locked=False)
                 hbox:
@@ -10871,6 +11304,7 @@ screen quest0501():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17552]]\n[textdict[3406]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12405", locked=False)
                     button:
@@ -10880,6 +11314,7 @@ screen quest0501():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17553]]\n[textdict[3406]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12406", locked=False)
 screen quest0502():
@@ -10927,6 +11362,7 @@ screen quest0502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17554]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12407", locked=False)
                     button:
@@ -10936,6 +11372,7 @@ screen quest0502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17555]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12408", locked=False)
                 hbox:
@@ -10946,6 +11383,7 @@ screen quest0502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17556]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12409", locked=False)
                     button:
@@ -10955,6 +11393,7 @@ screen quest0502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17557]]\n[textdict[613025]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12410", locked=False)
                 hbox:
@@ -10965,6 +11404,7 @@ screen quest0502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17558]]\n[textdict[613025]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12411", locked=False)
                     button:
@@ -10974,6 +11414,7 @@ screen quest0502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17559]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12412", locked=False)
 screen quest0503():
@@ -11024,6 +11465,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17560]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12413", locked=False)
                     button:
@@ -11033,6 +11475,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17561]]\n[textdict[3452]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12414", locked=False)
                 hbox:
@@ -11043,6 +11486,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17562]]\n[textdict[2135]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12415", locked=False)
                     button:
@@ -11052,6 +11496,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17563]]\n[textdict[2135]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12416", locked=False)
                 hbox:
@@ -11062,6 +11507,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17564]]\n[textdict[2135]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12417", locked=False)
                     button:
@@ -11071,6 +11517,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17565]]\n[textdict[2135]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12418", locked=False)
                 hbox:
@@ -11081,6 +11528,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17566]]\n[textdict[3452]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12419", locked=False)
                     button:
@@ -11090,6 +11538,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17567]]\n[textdict[3452]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12420", locked=False)
                 hbox:
@@ -11100,6 +11549,7 @@ screen quest0503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17568]]\n[textdict[3452]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12421", locked=False)
 screen quest0504():
@@ -11147,6 +11597,7 @@ screen quest0504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17569]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12422", locked=False)
                     button:
@@ -11156,6 +11607,7 @@ screen quest0504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17570]]\n[textdict[2138]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12423", locked=False)
                 hbox:
@@ -11166,6 +11618,7 @@ screen quest0504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17571]]\n[textdict[611815]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12424", locked=False)
                     button:
@@ -11175,6 +11628,7 @@ screen quest0504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17572]]\n[textdict[611815]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12425", locked=False)
                 hbox:
@@ -11185,6 +11639,7 @@ screen quest0504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17573]]\n[textdict[611815]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12426", locked=False)
 screen quest0505():
@@ -11232,6 +11687,7 @@ screen quest0505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17501]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10403", locked=False)
                     button:
@@ -11241,6 +11697,7 @@ screen quest0505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17502]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10404", locked=False)
                 hbox:
@@ -11251,6 +11708,7 @@ screen quest0505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17503]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10405", locked=False)
                     button:
@@ -11260,6 +11718,7 @@ screen quest0505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17504]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10406", locked=False)
 screen quest0506():
@@ -11307,6 +11766,7 @@ screen quest0506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17574]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12431", locked=False)
                     button:
@@ -11316,6 +11776,7 @@ screen quest0506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17575]]\n[textdict[613026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12432", locked=False)
 screen quest0507():
@@ -11363,6 +11824,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17505]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10407", locked=False)
                     button:
@@ -11372,6 +11834,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17506]]\n[textdict[3119]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10408", locked=False)
                 hbox:
@@ -11382,6 +11845,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17507]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10409", locked=False)
                     button:
@@ -11391,6 +11855,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17508]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10410", locked=False)
                 hbox:
@@ -11401,6 +11866,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17509]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10411", locked=False)
                     button:
@@ -11410,6 +11876,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17510]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10412", locked=False)
                 hbox:
@@ -11420,6 +11887,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17511]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10413", locked=False)
                     button:
@@ -11429,6 +11897,7 @@ screen quest0507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17512]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10414", locked=False)
 screen quest0508():
@@ -11476,6 +11945,7 @@ screen quest0508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17576]]\n[textdict[3020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12435", locked=False)
                     button:
@@ -11485,6 +11955,7 @@ screen quest0508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17577]]\n[textdict[3020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12436", locked=False)
                 hbox:
@@ -11495,6 +11966,7 @@ screen quest0508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17578]]\n[textdict[3020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12437", locked=False)
 screen quest0509():
@@ -11542,6 +12014,7 @@ screen quest0509():
                         background Frame("bookpage", 35, 35)
                         text "[text05091]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12438", locked=False)
 screen quest0510():
@@ -11589,6 +12062,7 @@ screen quest0510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17580]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12441", locked=False)
                     button:
@@ -11598,6 +12072,7 @@ screen quest0510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17581]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12442", locked=False)
                 hbox:
@@ -11608,6 +12083,7 @@ screen quest0510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17582]]\n[textdict[3107]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12443", locked=False)
                     button:
@@ -11617,6 +12093,7 @@ screen quest0510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17583]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12444", locked=False)
 screen quest0511():
@@ -11664,6 +12141,7 @@ screen quest0511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17513]]\n[textdict[3018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10415", locked=False)
                     button:
@@ -11673,6 +12151,7 @@ screen quest0511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17514]]\n[textdict[3165]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10416", locked=False)
                 hbox:
@@ -11683,6 +12162,7 @@ screen quest0511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17515]]\n[textdict[3165]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10417", locked=False)
                     button:
@@ -11692,6 +12172,7 @@ screen quest0511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17516]]\n[textdict[3165]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10418", locked=False)
                 hbox:
@@ -11702,6 +12183,7 @@ screen quest0511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17517]]\n[textdict[3165]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10419", locked=False)
 screen quest0512():
@@ -11752,6 +12234,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17518]]\n[textdict[3119]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10420", locked=False)
                     button:
@@ -11761,6 +12244,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17519]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10421", locked=False)
                 hbox:
@@ -11771,6 +12255,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17520]]\n[textdict[3157]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10422", locked=False)
                     button:
@@ -11780,6 +12265,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17521]]\n[textdict[3105]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10423", locked=False)
                 hbox:
@@ -11790,6 +12276,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17522]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10424", locked=False)
                     button:
@@ -11799,6 +12286,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17523]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10425", locked=False)
                 hbox:
@@ -11809,6 +12297,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17524]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10426", locked=False)
                     button:
@@ -11818,6 +12307,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17525]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10427", locked=False)
                 hbox:
@@ -11828,6 +12318,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17526]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10428", locked=False)
                     button:
@@ -11837,6 +12328,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17527]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10429", locked=False)
                 hbox:
@@ -11847,6 +12339,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17528]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10430", locked=False)
                     button:
@@ -11856,6 +12349,7 @@ screen quest0512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17529]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10431", locked=False)
 screen quest0513():
@@ -11903,6 +12397,7 @@ screen quest0513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17584]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12451", locked=False)
                     button:
@@ -11912,6 +12407,7 @@ screen quest0513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17585]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12452", locked=False)
                 hbox:
@@ -11922,6 +12418,7 @@ screen quest0513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17586]]\n[textdict[3032]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12453", locked=False)
                     button:
@@ -11931,6 +12428,7 @@ screen quest0513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17587]]\n[textdict[3032]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12454", locked=False)
                 hbox:
@@ -11941,6 +12439,7 @@ screen quest0513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17588]]\n[textdict[3032]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12455", locked=False)
 screen quest0514():
@@ -11991,6 +12490,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17589]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12456", locked=False)
                     button:
@@ -12000,6 +12500,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17590]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12457", locked=False)
                 hbox:
@@ -12010,6 +12511,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17591]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12458", locked=False)
                     button:
@@ -12019,6 +12521,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17592]]\n[textdict[611805]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12459", locked=False)
                 hbox:
@@ -12029,6 +12532,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17593]]\n[textdict[611805]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12460", locked=False)
                     button:
@@ -12038,6 +12542,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17594]]\n[textdict[611805]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12461", locked=False)
                 hbox:
@@ -12048,6 +12553,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17595]]\n[textdict[611805]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12462", locked=False)
                     button:
@@ -12057,6 +12563,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17596]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12463", locked=False)
                 hbox:
@@ -12067,6 +12574,7 @@ screen quest0514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17597]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12464", locked=False)
 screen quest0515():
@@ -12114,6 +12622,7 @@ screen quest0515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17598]]\n[textdict[3022]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12465", locked=False)
                     button:
@@ -12123,6 +12632,7 @@ screen quest0515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17599]]\n[textdict[3023]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12466", locked=False)
 screen quest0516():
@@ -12170,6 +12680,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17530]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10432", locked=False)
                     button:
@@ -12179,6 +12690,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17531]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10433", locked=False)
                 hbox:
@@ -12189,6 +12701,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17532]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10434", locked=False)
                     button:
@@ -12198,6 +12711,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17533]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10435", locked=False)
                 hbox:
@@ -12208,6 +12722,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17534]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10436", locked=False)
                     button:
@@ -12217,6 +12732,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[text05166]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10437", locked=False)
                 hbox:
@@ -12227,6 +12743,7 @@ screen quest0516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17536]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10438", locked=False)
 screen quest0517():
@@ -12274,6 +12791,7 @@ screen quest0517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17537]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10439", locked=False)
                     button:
@@ -12283,6 +12801,7 @@ screen quest0517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17538]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10440", locked=False)
 screen quest0518():
@@ -12330,6 +12849,7 @@ screen quest0518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17600]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12471", locked=False)
                     button:
@@ -12339,6 +12859,7 @@ screen quest0518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17601]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12472", locked=False)
                 hbox:
@@ -12349,6 +12870,7 @@ screen quest0518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17602]]\n[textdict[3034]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12473", locked=False)
                     button:
@@ -12358,6 +12880,7 @@ screen quest0518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17603]]\n[textdict[3035]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12474", locked=False)
                 hbox:
@@ -12368,6 +12891,7 @@ screen quest0518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17604]]\n[textdict[3035]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12475", locked=False)
                     button:
@@ -12377,6 +12901,7 @@ screen quest0518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17605]]\n[textdict[3035]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12476", locked=False)
 screen quest0519():
@@ -12424,6 +12949,7 @@ screen quest0519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17606]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12477", locked=False)
                     button:
@@ -12433,6 +12959,7 @@ screen quest0519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17607]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12478", locked=False)
                 hbox:
@@ -12443,6 +12970,7 @@ screen quest0519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17608]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12479", locked=False)
                     button:
@@ -12452,6 +12980,7 @@ screen quest0519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17609]]\n[textdict[2182]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12480", locked=False)
 screen quest0520():
@@ -12499,6 +13028,7 @@ screen quest0520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17539]]\n[textdict[3022]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10441", locked=False)
                     button:
@@ -12508,6 +13038,7 @@ screen quest0520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17540]]\n[textdict[2155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10442", locked=False)
                 hbox:
@@ -12518,6 +13049,7 @@ screen quest0520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17541]]\n[textdict[2155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10443", locked=False)
 screen quest0521():
@@ -12565,6 +13097,7 @@ screen quest0521():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17542]]\n[textdict[2155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10444", locked=False)
                     button:
@@ -12574,6 +13107,7 @@ screen quest0521():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17543]]\n[textdict[2155]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10445", locked=False)
 screen quest0522():
@@ -12621,6 +13155,7 @@ screen quest0522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17544]]\n[textdict[2001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10446", locked=False)
                     button:
@@ -12630,6 +13165,7 @@ screen quest0522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17545]]\n[textdict[3024]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10447", locked=False)
                 hbox:
@@ -12640,6 +13176,7 @@ screen quest0522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17546]]\n[textdict[3025]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10448", locked=False)
                     button:
@@ -12649,6 +13186,7 @@ screen quest0522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17547]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10449", locked=False)
 screen quest0601():
@@ -12696,6 +13234,7 @@ screen quest0601():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17610]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10501", locked=False)
                     button:
@@ -12705,6 +13244,7 @@ screen quest0601():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17611]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10502", locked=False)
 screen quest0602():
@@ -12752,6 +13292,7 @@ screen quest0602():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17683]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12501", locked=False)
                     button:
@@ -12761,6 +13302,7 @@ screen quest0602():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17684]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12502", locked=False)
                 hbox:
@@ -12771,6 +13313,7 @@ screen quest0602():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17685]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12503", locked=False)
                     button:
@@ -12780,6 +13323,7 @@ screen quest0602():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17686]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12504", locked=False)
 screen quest0603():
@@ -12827,6 +13371,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17687]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12505", locked=False)
                     button:
@@ -12836,6 +13381,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17688]]\n[textdict[3120]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12506", locked=False)
                 hbox:
@@ -12846,6 +13392,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17689]]\n[textdict[3105]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12507", locked=False)
                     button:
@@ -12855,6 +13402,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17690]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12508", locked=False)
                 hbox:
@@ -12865,6 +13413,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17691]]\n[textdict[3108]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12509", locked=False)
                     button:
@@ -12874,6 +13423,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17692]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12510", locked=False)
                 hbox:
@@ -12884,6 +13434,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17693]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12511", locked=False)
                     button:
@@ -12893,6 +13444,7 @@ screen quest0603():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17694]]\n[textdict[3120]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12512", locked=False)
 screen quest0604():
@@ -12940,6 +13492,7 @@ screen quest0604():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17695]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12513", locked=False)
                     button:
@@ -12949,6 +13502,7 @@ screen quest0604():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17696]]\n[textdict[3030]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12514", locked=False)
                 hbox:
@@ -12959,6 +13513,7 @@ screen quest0604():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17697]]\n[textdict[3030]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12515", locked=False)
                     button:
@@ -12968,6 +13523,7 @@ screen quest0604():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17698]]\n[textdict[2157]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12516", locked=False)
 screen quest0605():
@@ -13015,6 +13571,7 @@ screen quest0605():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17612]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10503", locked=False)
                     button:
@@ -13024,6 +13581,7 @@ screen quest0605():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17613]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10504", locked=False)
                 hbox:
@@ -13034,6 +13592,7 @@ screen quest0605():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17614]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10505", locked=False)
                     button:
@@ -13043,6 +13602,7 @@ screen quest0605():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17615]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10506", locked=False)
 screen quest0606():
@@ -13090,6 +13650,7 @@ screen quest0606():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17699]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12517", locked=False)
                     button:
@@ -13099,6 +13660,7 @@ screen quest0606():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17700]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12518", locked=False)
                 hbox:
@@ -13109,6 +13671,7 @@ screen quest0606():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17701]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12519", locked=False)
                     button:
@@ -13118,6 +13681,7 @@ screen quest0606():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17702]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12520", locked=False)
                 hbox:
@@ -13128,6 +13692,7 @@ screen quest0606():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17703]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12521", locked=False)
 screen quest0607():
@@ -13175,6 +13740,7 @@ screen quest0607():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17704]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12522", locked=False)
                     button:
@@ -13184,6 +13750,7 @@ screen quest0607():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17705]]\n[textdict[3611]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12523", locked=False)
                 hbox:
@@ -13194,6 +13761,7 @@ screen quest0607():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17706]]\n[textdict[3604]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12524", locked=False)
                     button:
@@ -13203,6 +13771,7 @@ screen quest0607():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17707]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12525", locked=False)
 screen quest0608():
@@ -13250,6 +13819,7 @@ screen quest0608():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17616]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10507", locked=False)
                     button:
@@ -13259,6 +13829,7 @@ screen quest0608():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17617]]\n[textdict[2196]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10508", locked=False)
                 hbox:
@@ -13269,6 +13840,7 @@ screen quest0608():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17618]]\n[textdict[2196]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10509", locked=False)
                     button:
@@ -13278,6 +13850,7 @@ screen quest0608():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17619]]\n[textdict[2196]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10510", locked=False)
                 hbox:
@@ -13288,6 +13861,7 @@ screen quest0608():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17620]]\n[textdict[2196]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10511", locked=False)
                     button:
@@ -13297,6 +13871,7 @@ screen quest0608():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17621]]\n[textdict[2196]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10512", locked=False)
 screen quest0609():
@@ -13344,6 +13919,7 @@ screen quest0609():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17622]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10513", locked=False)
                     button:
@@ -13353,6 +13929,7 @@ screen quest0609():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17623]]\n[textdict[2198]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10514", locked=False)
                 hbox:
@@ -13363,6 +13940,7 @@ screen quest0609():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17624]]\n[textdict[2198]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10515", locked=False)
                     button:
@@ -13372,6 +13950,7 @@ screen quest0609():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17625]]\n[textdict[2198]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10516", locked=False)
                 hbox:
@@ -13382,6 +13961,7 @@ screen quest0609():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17626]]\n[textdict[2198]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10517", locked=False)
 screen quest0610():
@@ -13429,6 +14009,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17708]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12526", locked=False)
                     button:
@@ -13438,6 +14019,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17709]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12527", locked=False)
                 hbox:
@@ -13448,6 +14030,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17710]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12528", locked=False)
                     button:
@@ -13457,6 +14040,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17711]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12529", locked=False)
                 hbox:
@@ -13467,6 +14051,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17712]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12530", locked=False)
                     button:
@@ -13476,6 +14061,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17713]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12531", locked=False)
                 hbox:
@@ -13486,6 +14072,7 @@ screen quest0610():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17714]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12532", locked=False)
 screen quest0611():
@@ -13533,6 +14120,7 @@ screen quest0611():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17715]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12533", locked=False)
                     button:
@@ -13542,6 +14130,7 @@ screen quest0611():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17716]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12534", locked=False)
                 hbox:
@@ -13552,6 +14141,7 @@ screen quest0611():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17717]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12535", locked=False)
                     button:
@@ -13561,6 +14151,7 @@ screen quest0611():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17718]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12536", locked=False)
                 hbox:
@@ -13571,6 +14162,7 @@ screen quest0611():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17719]]\n[textdict[613040]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12537", locked=False)
 screen quest0612():
@@ -13618,6 +14210,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17627]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10518", locked=False)
                     button:
@@ -13627,6 +14220,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17628]]\n[textdict[3612]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10519", locked=False)
                 hbox:
@@ -13637,6 +14231,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17629]]\n[textdict[3605]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10520", locked=False)
                     button:
@@ -13646,6 +14241,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17630]]\n[textdict[2202]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10521", locked=False)
                 hbox:
@@ -13656,6 +14252,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17631]]\n[textdict[2202]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10522", locked=False)
                     button:
@@ -13665,6 +14262,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17632]]\n[textdict[2202]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10523", locked=False)
                 hbox:
@@ -13675,6 +14273,7 @@ screen quest0612():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17633]]\n[textdict[3605]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10524", locked=False)
 screen quest0613():
@@ -13722,6 +14321,7 @@ screen quest0613():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17720]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12538", locked=False)
                     button:
@@ -13731,6 +14331,7 @@ screen quest0613():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17721]]\n[textdict[2204]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12539", locked=False)
                 hbox:
@@ -13741,6 +14342,7 @@ screen quest0613():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17722]]\n[textdict[2204]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12540", locked=False)
                     button:
@@ -13750,6 +14352,7 @@ screen quest0613():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17723]]\n[textdict[2204]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12541", locked=False)
                 hbox:
@@ -13760,6 +14363,7 @@ screen quest0613():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17724]]\n[textdict[2204]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12542", locked=False)
 screen quest0614():
@@ -13807,6 +14411,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17634]]\n[textdict[3600]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10525", locked=False)
                     button:
@@ -13816,6 +14421,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17635]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10526", locked=False)
                 hbox:
@@ -13826,6 +14432,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17636]]\n[textdict[3510]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10527", locked=False)
                     button:
@@ -13835,6 +14442,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17637]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10528", locked=False)
                 hbox:
@@ -13845,6 +14453,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17638]]\n[textdict[3551]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10529", locked=False)
                     button:
@@ -13854,6 +14463,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17639]]\n[textdict[3502]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10530", locked=False)
                 hbox:
@@ -13864,6 +14474,7 @@ screen quest0614():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17640]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10531", locked=False)
 screen quest0615():
@@ -13911,6 +14522,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17725]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12543", locked=False)
                     button:
@@ -13920,6 +14532,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17726]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12544", locked=False)
                 hbox:
@@ -13930,6 +14543,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17727]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12545", locked=False)
                     button:
@@ -13939,6 +14553,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17728]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12546", locked=False)
                 hbox:
@@ -13949,6 +14564,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17729]]\n[textdict[2206]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12547", locked=False)
                     button:
@@ -13958,6 +14574,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17730]]\n[textdict[2206]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12548", locked=False)
                 hbox:
@@ -13968,6 +14585,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17731]]\n[textdict[2206]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12549", locked=False)
                     button:
@@ -13977,6 +14595,7 @@ screen quest0615():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17732]]\n[textdict[3019]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12550", locked=False)
 screen quest0616():
@@ -14024,6 +14643,7 @@ screen quest0616():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17733]]\n[textdict[3500]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12551", locked=False)
                     button:
@@ -14033,6 +14653,7 @@ screen quest0616():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17734]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12552", locked=False)
                 hbox:
@@ -14043,6 +14664,7 @@ screen quest0616():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17735]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12553", locked=False)
                     button:
@@ -14052,6 +14674,7 @@ screen quest0616():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17736]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12554", locked=False)
                 hbox:
@@ -14062,6 +14685,7 @@ screen quest0616():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17737]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12555", locked=False)
                     button:
@@ -14071,6 +14695,7 @@ screen quest0616():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17738]]\n[textdict[2163]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12556", locked=False)
 screen quest0617():
@@ -14118,6 +14743,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17641]]\n[textdict[3710]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10532", locked=False)
                     button:
@@ -14127,6 +14753,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17642]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10533", locked=False)
                 hbox:
@@ -14137,6 +14764,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17643]]\n[textdict[3707]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10534", locked=False)
                     button:
@@ -14146,6 +14774,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17644]]\n[textdict[3712]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10535", locked=False)
                 hbox:
@@ -14156,6 +14785,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17645]]\n[textdict[2208]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10536", locked=False)
                     button:
@@ -14165,6 +14795,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17646]]\n[textdict[2208]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10537", locked=False)
                 hbox:
@@ -14175,6 +14806,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17647]]\n[textdict[2208]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10538", locked=False)
                     button:
@@ -14184,6 +14816,7 @@ screen quest0617():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17648]]\n[textdict[2208]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10539", locked=False)
 screen quest0618():
@@ -14231,6 +14864,7 @@ screen quest0618():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17739]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12557", locked=False)
                     button:
@@ -14240,6 +14874,7 @@ screen quest0618():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17740]]\n[textdict[3710]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12558", locked=False)
                 hbox:
@@ -14250,6 +14885,7 @@ screen quest0618():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17741]]\n[textdict[3713]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12559", locked=False)
 screen quest0619():
@@ -14297,6 +14933,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17742]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12560", locked=False)
                     button:
@@ -14306,6 +14943,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17743]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12561", locked=False)
                 hbox:
@@ -14316,6 +14954,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17744]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12562", locked=False)
                     button:
@@ -14325,6 +14964,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17745]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12563", locked=False)
                 hbox:
@@ -14335,6 +14975,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17746]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12564", locked=False)
                     button:
@@ -14344,6 +14985,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17747]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12565", locked=False)
                 hbox:
@@ -14354,6 +14996,7 @@ screen quest0619():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17748]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12566", locked=False)
 screen quest0620():
@@ -14401,6 +15044,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17649]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10540", locked=False)
                     button:
@@ -14410,6 +15054,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17650]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10541", locked=False)
                 hbox:
@@ -14420,6 +15065,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17651]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10542", locked=False)
                     button:
@@ -14429,6 +15075,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17652]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10543", locked=False)
                 hbox:
@@ -14439,6 +15086,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17653]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10544", locked=False)
                     button:
@@ -14448,6 +15096,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17654]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10545", locked=False)
                 hbox:
@@ -14458,6 +15107,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17655]]\n[textdict[2212]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10546", locked=False)
                     button:
@@ -14467,6 +15117,7 @@ screen quest0620():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17656]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10547", locked=False)
 screen quest0621():
@@ -14514,6 +15165,7 @@ screen quest0621():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17657]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10548", locked=False)
                     button:
@@ -14523,6 +15175,7 @@ screen quest0621():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17658]]\n[textdict[3710]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10549", locked=False)
                 hbox:
@@ -14533,6 +15186,7 @@ screen quest0621():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17659]]\n[textdict[3707]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10550", locked=False)
                     button:
@@ -14542,6 +15196,7 @@ screen quest0621():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17660]]\n[textdict[3707]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10551", locked=False)
 screen quest0622():
@@ -14589,6 +15244,7 @@ screen quest0622():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17749]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12567", locked=False)
                     button:
@@ -14598,6 +15254,7 @@ screen quest0622():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17750]]\n[textdict[2228]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12568", locked=False)
                 hbox:
@@ -14608,6 +15265,7 @@ screen quest0622():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17751]]\n[textdict[2230]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12569", locked=False)
                     button:
@@ -14617,6 +15275,7 @@ screen quest0622():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17752]]\n[textdict[2230]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12570", locked=False)
                 hbox:
@@ -14627,6 +15286,7 @@ screen quest0622():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17753]]\n[textdict[2230]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12571", locked=False)
                     button:
@@ -14636,6 +15296,7 @@ screen quest0622():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17754]]\n[textdict[2228]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12572", locked=False)
 screen quest0623():
@@ -14683,6 +15344,7 @@ screen quest0623():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17755]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12573", locked=False)
                     button:
@@ -14692,6 +15354,7 @@ screen quest0623():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17756]]\n[textdict[3710]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12574", locked=False)
 screen quest0624():
@@ -14739,6 +15402,7 @@ screen quest0624():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17757]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12575", locked=False)
                     button:
@@ -14748,6 +15412,7 @@ screen quest0624():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17758]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12576", locked=False)
                 hbox:
@@ -14758,6 +15423,7 @@ screen quest0624():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17759]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12577", locked=False)
                     button:
@@ -14767,6 +15433,7 @@ screen quest0624():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17760]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12578", locked=False)
                 hbox:
@@ -14777,6 +15444,7 @@ screen quest0624():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17761]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12579", locked=False)
                     button:
@@ -14786,6 +15454,7 @@ screen quest0624():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17762]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12580", locked=False)
 screen quest0625():
@@ -14836,6 +15505,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17661]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10552", locked=False)
                     button:
@@ -14845,6 +15515,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17662]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10553", locked=False)
                 hbox:
@@ -14855,6 +15526,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17663]]\n[textdict[3714]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10554", locked=False)
                     button:
@@ -14864,6 +15536,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17664]]\n[textdict[3714]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10555", locked=False)
                 hbox:
@@ -14874,6 +15547,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17665]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10556", locked=False)
                     button:
@@ -14883,6 +15557,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17666]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10557", locked=False)
                 hbox:
@@ -14893,6 +15568,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17667]]\n[textdict[3709]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10558", locked=False)
                     button:
@@ -14902,6 +15578,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17668]]\n[textdict[3712]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10559", locked=False)
                 hbox:
@@ -14912,6 +15589,7 @@ screen quest0625():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17669]]\n[textdict[3712]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10560", locked=False)
 screen quest0626():
@@ -14959,6 +15637,7 @@ screen quest0626():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17763]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12581", locked=False)
                     button:
@@ -14968,6 +15647,7 @@ screen quest0626():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17764]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12582", locked=False)
                 hbox:
@@ -14978,6 +15658,7 @@ screen quest0626():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17765]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12583", locked=False)
                     button:
@@ -14987,6 +15668,7 @@ screen quest0626():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17766]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12584", locked=False)
                 hbox:
@@ -14997,6 +15679,7 @@ screen quest0626():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17767]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12585", locked=False)
 screen quest0627():
@@ -15044,6 +15727,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17670]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10561", locked=False)
                     button:
@@ -15053,6 +15737,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17671]]\n[textdict[3703]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10562", locked=False)
                 hbox:
@@ -15063,6 +15748,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17672]]\n[textdict[2226]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10563", locked=False)
                     button:
@@ -15072,6 +15758,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17673]]\n[textdict[2226]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10564", locked=False)
                 hbox:
@@ -15082,6 +15769,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17674]]\n[textdict[2226]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10565", locked=False)
                     button:
@@ -15091,6 +15779,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17675]]\n[textdict[2226]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10566", locked=False)
                 hbox:
@@ -15101,6 +15790,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17676]]\n[textdict[2226]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10567", locked=False)
                     button:
@@ -15110,6 +15800,7 @@ screen quest0627():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17677]]\n[textdict[2226]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10568", locked=False)
 screen quest0628():
@@ -15157,6 +15848,7 @@ screen quest0628():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17678]]\n[textdict[3707]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10569", locked=False)
                     button:
@@ -15166,6 +15858,7 @@ screen quest0628():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17679]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10570", locked=False)
                 hbox:
@@ -15176,6 +15869,7 @@ screen quest0628():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17680]]\n[textdict[3703]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10571", locked=False)
                     button:
@@ -15185,6 +15879,7 @@ screen quest0628():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17681]]\n[textdict[3713]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10572", locked=False)
                 hbox:
@@ -15195,6 +15890,7 @@ screen quest0628():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17682]]\n[textdict[3712]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10573", locked=False)
 screen quest0701():
@@ -15242,6 +15938,7 @@ screen quest0701():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17768]]\n[textdict[3712]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10601", locked=False)
                     button:
@@ -15251,6 +15948,7 @@ screen quest0701():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17769]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10602", locked=False)
 screen quest0702():
@@ -15298,6 +15996,7 @@ screen quest0702():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17787]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12601", locked=False)
                     button:
@@ -15307,6 +16006,7 @@ screen quest0702():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17788]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12602", locked=False)
                 hbox:
@@ -15317,6 +16017,7 @@ screen quest0702():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17789]]\n[textdict[2210]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12603", locked=False)
                     button:
@@ -15326,6 +16027,7 @@ screen quest0702():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17790]]\n[textdict[2234]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12604", locked=False)
 screen quest0703():
@@ -15373,6 +16075,7 @@ screen quest0703():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17791]]\n[textdict[3700]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12605", locked=False)
                     button:
@@ -15382,6 +16085,7 @@ screen quest0703():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17792]]\n[textdict[2236]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12606", locked=False)
                 hbox:
@@ -15392,6 +16096,7 @@ screen quest0703():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17793]]\n[textdict[2236]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12607", locked=False)
                     button:
@@ -15401,6 +16106,7 @@ screen quest0703():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17794]]\n[textdict[2238]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12608", locked=False)
                 hbox:
@@ -15411,6 +16117,7 @@ screen quest0703():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17795]]\n[textdict[2242]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12609", locked=False)
                     button:
@@ -15420,6 +16127,7 @@ screen quest0703():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17796]]\n[textdict[2242]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12610", locked=False)
 screen quest0704():
@@ -15467,6 +16175,7 @@ screen quest0704():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17770]]\n[textdict[3703]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10603", locked=False)
                     button:
@@ -15476,6 +16185,7 @@ screen quest0704():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17771]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10604", locked=False)
                 hbox:
@@ -15486,6 +16196,7 @@ screen quest0704():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17772]]\n[textdict[3171]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10605", locked=False)
                     button:
@@ -15495,6 +16206,7 @@ screen quest0704():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17773]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10606", locked=False)
                 hbox:
@@ -15505,6 +16217,7 @@ screen quest0704():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17774]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10607", locked=False)
 screen quest0705():
@@ -15552,6 +16265,7 @@ screen quest0705():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17797]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12611", locked=False)
                     button:
@@ -15561,6 +16275,7 @@ screen quest0705():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17798]]\n[textdict[3115]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12612", locked=False)
                 hbox:
@@ -15571,6 +16286,7 @@ screen quest0705():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17799]]\n[textdict[2219]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12613", locked=False)
                     button:
@@ -15580,6 +16296,7 @@ screen quest0705():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17800]]\n[textdict[3109]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12614", locked=False)
                 hbox:
@@ -15590,6 +16307,7 @@ screen quest0705():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17801]]\n[textdict[2222]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12615", locked=False)
                     button:
@@ -15599,6 +16317,7 @@ screen quest0705():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17802]]\n[textdict[2222]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12616", locked=False)
 screen quest0706():
@@ -15646,6 +16365,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17775]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10608", locked=False)
                     button:
@@ -15655,6 +16375,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17776]]\n[textdict[3026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10609", locked=False)
                 hbox:
@@ -15665,6 +16386,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17777]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10610", locked=False)
                     button:
@@ -15674,6 +16396,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17778]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10611", locked=False)
                 hbox:
@@ -15684,6 +16407,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17779]]\n[textdict[3800]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10612", locked=False)
                     button:
@@ -15693,6 +16417,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17780]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10613", locked=False)
                 hbox:
@@ -15703,6 +16428,7 @@ screen quest0706():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17781]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10614", locked=False)
 screen quest0707():
@@ -15750,6 +16476,7 @@ screen quest0707():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17803]]\n[textdict[3453]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12617", locked=False)
                     button:
@@ -15759,6 +16486,7 @@ screen quest0707():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17804]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12618", locked=False)
 screen quest0708():
@@ -15806,6 +16534,7 @@ screen quest0708():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17805]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12619", locked=False)
                     button:
@@ -15815,6 +16544,7 @@ screen quest0708():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17806]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12620", locked=False)
 screen quest0709():
@@ -15862,6 +16592,7 @@ screen quest0709():
                         background Frame("bookpage", 35, 35)
                         text "[text07091]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12621", locked=False)
                     button:
@@ -15871,6 +16602,7 @@ screen quest0709():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17808]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12622", locked=False)
                 hbox:
@@ -15881,6 +16613,7 @@ screen quest0709():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17809]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12623", locked=False)
                     button:
@@ -15890,6 +16623,7 @@ screen quest0709():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17810]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12624", locked=False)
 screen quest0710():
@@ -15937,6 +16671,7 @@ screen quest0710():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17782]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10615", locked=False)
                     button:
@@ -15946,6 +16681,7 @@ screen quest0710():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17783]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10616", locked=False)
                 hbox:
@@ -15956,6 +16692,7 @@ screen quest0710():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17784]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10617", locked=False)
                     button:
@@ -15965,6 +16702,7 @@ screen quest0710():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17785]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10618", locked=False)
                 hbox:
@@ -15975,6 +16713,7 @@ screen quest0710():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17786]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10619", locked=False)
 screen quest0711():
@@ -16022,6 +16761,7 @@ screen quest0711():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17811]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10620", locked=False)
                     button:
@@ -16031,6 +16771,7 @@ screen quest0711():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17812]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10621", locked=False)
                 hbox:
@@ -16041,6 +16782,7 @@ screen quest0711():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17813]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10622", locked=False)
                     button:
@@ -16050,6 +16792,7 @@ screen quest0711():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17814]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10623", locked=False)
 screen quest0712():
@@ -16097,6 +16840,7 @@ screen quest0712():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17868]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12625", locked=False)
                     button:
@@ -16106,6 +16850,7 @@ screen quest0712():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17869]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12626", locked=False)
                 hbox:
@@ -16116,6 +16861,7 @@ screen quest0712():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17870]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12627", locked=False)
                     button:
@@ -16125,6 +16871,7 @@ screen quest0712():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17871]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12628", locked=False)
                 hbox:
@@ -16135,6 +16882,7 @@ screen quest0712():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17872]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12629", locked=False)
 screen quest0713():
@@ -16182,6 +16930,7 @@ screen quest0713():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17873]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12630", locked=False)
                     button:
@@ -16191,6 +16940,7 @@ screen quest0713():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17874]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12631", locked=False)
                 hbox:
@@ -16201,6 +16951,7 @@ screen quest0713():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17875]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12632", locked=False)
                     button:
@@ -16210,6 +16961,7 @@ screen quest0713():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17876]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12634", locked=False)
 screen quest0714():
@@ -16257,6 +17009,7 @@ screen quest0714():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17815]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10625", locked=False)
                     button:
@@ -16266,6 +17019,7 @@ screen quest0714():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17816]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10626", locked=False)
 screen quest0715():
@@ -16313,6 +17067,7 @@ screen quest0715():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17878]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12635", locked=False)
                     button:
@@ -16322,6 +17077,7 @@ screen quest0715():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17879]]\n[textdict[2246]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12636", locked=False)
                 hbox:
@@ -16332,6 +17088,7 @@ screen quest0715():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17880]]\n[textdict[2246]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12637", locked=False)
                     button:
@@ -16341,6 +17098,7 @@ screen quest0715():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17881]]\n[textdict[2246]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12638", locked=False)
                 hbox:
@@ -16351,6 +17109,7 @@ screen quest0715():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17882]]\n[textdict[2246]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12639", locked=False)
                     button:
@@ -16360,6 +17119,7 @@ screen quest0715():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17883]]\n[textdict[2246]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12640", locked=False)
 screen quest0716():
@@ -16407,6 +17167,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17884]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12641", locked=False)
                     button:
@@ -16416,6 +17177,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17885]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12642", locked=False)
                 hbox:
@@ -16426,6 +17188,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17886]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12643", locked=False)
                     button:
@@ -16435,6 +17198,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17887]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12644", locked=False)
                 hbox:
@@ -16445,6 +17209,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17888]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12645", locked=False)
                     button:
@@ -16454,6 +17219,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17889]]\n[textdict[3800]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12646", locked=False)
                 hbox:
@@ -16464,6 +17230,7 @@ screen quest0716():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17890]]\n[textdict[3801]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12653", locked=False)
 screen quest0717():
@@ -16511,6 +17278,7 @@ screen quest0717():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17817]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10627", locked=False)
                     button:
@@ -16520,6 +17288,7 @@ screen quest0717():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17818]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10628", locked=False)
                 hbox:
@@ -16530,6 +17299,7 @@ screen quest0717():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17819]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10629", locked=False)
 screen quest0718():
@@ -16577,6 +17347,7 @@ screen quest0718():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17891]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12647", locked=False)
                     button:
@@ -16586,6 +17357,7 @@ screen quest0718():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17892]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12648", locked=False)
                 hbox:
@@ -16596,6 +17368,7 @@ screen quest0718():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17893]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12649", locked=False)
 screen quest0719():
@@ -16643,6 +17416,7 @@ screen quest0719():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17894]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12650", locked=False)
                     button:
@@ -16652,6 +17426,7 @@ screen quest0719():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17895]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12651", locked=False)
                 hbox:
@@ -16662,6 +17437,7 @@ screen quest0719():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17896]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12652", locked=False)
 screen quest0720():
@@ -16712,6 +17488,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17820]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10630", locked=False)
                     button:
@@ -16721,6 +17498,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17821]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10631", locked=False)
                 hbox:
@@ -16731,6 +17509,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17822]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10632", locked=False)
                     button:
@@ -16740,6 +17519,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17823]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10633", locked=False)
                 hbox:
@@ -16750,6 +17530,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17824]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10634", locked=False)
                     button:
@@ -16759,6 +17540,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17825]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10635", locked=False)
                 hbox:
@@ -16769,6 +17551,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17826]]\n[textdict[8000]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10636", locked=False)
                     button:
@@ -16778,6 +17561,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17827]]\n[textdict[8000]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10637", locked=False)
                 hbox:
@@ -16788,6 +17572,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17828]]\n[textdict[8000]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10638", locked=False)
                     button:
@@ -16797,6 +17582,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17829]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10639", locked=False)
                 hbox:
@@ -16807,6 +17593,7 @@ screen quest0720():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17830]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10640", locked=False)
 screen quest0721():
@@ -16854,6 +17641,7 @@ screen quest0721():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17831]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10641", locked=False)
                     button:
@@ -16863,6 +17651,7 @@ screen quest0721():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17832]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10642", locked=False)
 screen quest0722():
@@ -16910,6 +17699,7 @@ screen quest0722():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17897]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12654", locked=False)
                     button:
@@ -16919,6 +17709,7 @@ screen quest0722():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17898]]\n[textdict[8002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12655", locked=False)
                 hbox:
@@ -16929,6 +17720,7 @@ screen quest0722():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17899]]\n[textdict[8002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12656", locked=False)
                     button:
@@ -16938,6 +17730,7 @@ screen quest0722():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17900]]\n[textdict[8002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12657", locked=False)
                 hbox:
@@ -16948,6 +17741,7 @@ screen quest0722():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17901]]\n[textdict[8002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12658", locked=False)
                     button:
@@ -16957,6 +17751,7 @@ screen quest0722():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17902]]\n[textdict[8002]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12659", locked=False)
 screen quest0723():
@@ -17004,6 +17799,7 @@ screen quest0723():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17903]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12660", locked=False)
                     button:
@@ -17013,6 +17809,7 @@ screen quest0723():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17904]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12661", locked=False)
                 hbox:
@@ -17023,6 +17820,7 @@ screen quest0723():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17905]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12662", locked=False)
                     button:
@@ -17032,6 +17830,7 @@ screen quest0723():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17906]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12663", locked=False)
 screen quest0724():
@@ -17082,6 +17881,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17833]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10643", locked=False)
                     button:
@@ -17091,6 +17891,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17834]]\n[textdict[3900]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10644", locked=False)
                 hbox:
@@ -17101,6 +17902,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17835]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10645", locked=False)
                     button:
@@ -17110,6 +17912,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17836]]\n[textdict[2145]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10646", locked=False)
                 hbox:
@@ -17120,6 +17923,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17837]]\n[textdict[2145]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10647", locked=False)
                     button:
@@ -17129,6 +17933,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17838]]\n[textdict[2145]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10648", locked=False)
                 hbox:
@@ -17139,6 +17944,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17839]]\n[textdict[3102]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10649", locked=False)
                     button:
@@ -17148,6 +17954,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17840]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10650", locked=False)
                 hbox:
@@ -17158,6 +17965,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17841]]\n[textdict[3116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10651", locked=False)
                     button:
@@ -17167,6 +17975,7 @@ screen quest0724():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17842]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10652", locked=False)
 screen quest0725():
@@ -17214,6 +18023,7 @@ screen quest0725():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17907]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12664", locked=False)
                     button:
@@ -17223,6 +18033,7 @@ screen quest0725():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17908]]\n[textdict[3107]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12665", locked=False)
                 hbox:
@@ -17233,6 +18044,7 @@ screen quest0725():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17909]]\n[textdict[3101]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12666", locked=False)
                     button:
@@ -17242,6 +18054,7 @@ screen quest0725():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17910]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12667", locked=False)
                 hbox:
@@ -17252,6 +18065,7 @@ screen quest0725():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17911]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12668", locked=False)
                     button:
@@ -17261,6 +18075,7 @@ screen quest0725():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17912]]\n[textdict[3110]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12669", locked=False)
 screen quest0726():
@@ -17308,6 +18123,7 @@ screen quest0726():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17913]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12670", locked=False)
                     button:
@@ -17317,6 +18133,7 @@ screen quest0726():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17914]]\n[textdict[3107]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12671", locked=False)
                 hbox:
@@ -17327,6 +18144,7 @@ screen quest0726():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17915]]\n[textdict[3104]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12672", locked=False)
                     button:
@@ -17336,6 +18154,7 @@ screen quest0726():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17916]]\n[textdict[3103]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12673", locked=False)
 screen quest0727():
@@ -17383,6 +18202,7 @@ screen quest0727():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17843]]\n[textdict[3124]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10653", locked=False)
                     button:
@@ -17392,6 +18212,7 @@ screen quest0727():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17844]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10654", locked=False)
                 hbox:
@@ -17402,6 +18223,7 @@ screen quest0727():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17845]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10655", locked=False)
                     button:
@@ -17411,6 +18233,7 @@ screen quest0727():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17846]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10656", locked=False)
                 hbox:
@@ -17421,6 +18244,7 @@ screen quest0727():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17847]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10657", locked=False)
                     button:
@@ -17430,6 +18254,7 @@ screen quest0727():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17848]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10658", locked=False)
 screen quest0728():
@@ -17477,6 +18302,7 @@ screen quest0728():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17917]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12674", locked=False)
                     button:
@@ -17486,6 +18312,7 @@ screen quest0728():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17918]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12675", locked=False)
                 hbox:
@@ -17496,6 +18323,7 @@ screen quest0728():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17919]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12676", locked=False)
                     button:
@@ -17505,6 +18333,7 @@ screen quest0728():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17920]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12677", locked=False)
 screen quest0729():
@@ -17552,6 +18381,7 @@ screen quest0729():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17921]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12678", locked=False)
                     button:
@@ -17561,6 +18391,7 @@ screen quest0729():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17922]]\n[textdict[8004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12679", locked=False)
                 hbox:
@@ -17571,6 +18402,7 @@ screen quest0729():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17923]]\n[textdict[8004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12680", locked=False)
                     button:
@@ -17580,6 +18412,7 @@ screen quest0729():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17924]]\n[textdict[8004]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12681", locked=False)
 screen quest0730():
@@ -17630,6 +18463,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17849]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10659", locked=False)
                     button:
@@ -17639,6 +18473,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17850]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10660", locked=False)
                 hbox:
@@ -17649,6 +18484,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17851]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10661", locked=False)
                     button:
@@ -17658,6 +18494,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17852]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10662", locked=False)
                 hbox:
@@ -17668,6 +18505,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17853]]\n[textdict[3401]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10663", locked=False)
                     button:
@@ -17677,6 +18515,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17854]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10664", locked=False)
                 hbox:
@@ -17687,6 +18526,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17855]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10665", locked=False)
                     button:
@@ -17696,6 +18536,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17856]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10666", locked=False)
                 hbox:
@@ -17706,6 +18547,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17857]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10667", locked=False)
                     button:
@@ -17715,6 +18557,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17858]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10668", locked=False)
                 hbox:
@@ -17725,6 +18568,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17859]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10669", locked=False)
                     button:
@@ -17734,6 +18578,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17860]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10670", locked=False)
                 hbox:
@@ -17744,6 +18589,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17861]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10671", locked=False)
                     button:
@@ -17753,6 +18599,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17862]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10672", locked=False)
                 hbox:
@@ -17763,6 +18610,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17863]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10673", locked=False)
                     button:
@@ -17772,6 +18620,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17864]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10674", locked=False)
                 hbox:
@@ -17782,6 +18631,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17865]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10675", locked=False)
                     button:
@@ -17791,6 +18641,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17866]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10676", locked=False)
                 hbox:
@@ -17801,6 +18652,7 @@ screen quest0730():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[17867]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10677", locked=False)
 screen quest0801():
@@ -17848,6 +18700,7 @@ screen quest0801():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18001]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10701", locked=False)
                     button:
@@ -17857,6 +18710,7 @@ screen quest0801():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18002]]\n[textdict[3401]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10702", locked=False)
                 hbox:
@@ -17867,6 +18721,7 @@ screen quest0801():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18003]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10703", locked=False)
                     button:
@@ -17876,6 +18731,7 @@ screen quest0801():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18004]]\n[textdict[3455]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10704", locked=False)
                 hbox:
@@ -17886,6 +18742,7 @@ screen quest0801():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18005]]\n[textdict[3458]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10705", locked=False)
                     button:
@@ -17895,6 +18752,7 @@ screen quest0801():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18006]]\n[textdict[8006]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10706", locked=False)
 screen quest0802():
@@ -17942,6 +18800,7 @@ screen quest0802():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18007]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12701", locked=False)
                     button:
@@ -17951,6 +18810,7 @@ screen quest0802():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18008]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12702", locked=False)
                 hbox:
@@ -17961,6 +18821,7 @@ screen quest0802():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18009]]\n[textdict[3401]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12703", locked=False)
 screen quest0803():
@@ -18008,6 +18869,7 @@ screen quest0803():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18010]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12704", locked=False)
 screen quest0804():
@@ -18055,6 +18917,7 @@ screen quest0804():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18011]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10707", locked=False)
                     button:
@@ -18064,6 +18927,7 @@ screen quest0804():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18012]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10708", locked=False)
                 hbox:
@@ -18074,6 +18938,7 @@ screen quest0804():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18013]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10709", locked=False)
                     button:
@@ -18083,6 +18948,7 @@ screen quest0804():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18014]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10710", locked=False)
                 hbox:
@@ -18093,6 +18959,7 @@ screen quest0804():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18015]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10711", locked=False)
 screen quest0805():
@@ -18140,6 +19007,7 @@ screen quest0805():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18016]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12705", locked=False)
                     button:
@@ -18149,6 +19017,7 @@ screen quest0805():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18017]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12706", locked=False)
                 hbox:
@@ -18159,6 +19028,7 @@ screen quest0805():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18018]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12707", locked=False)
                     button:
@@ -18168,6 +19038,7 @@ screen quest0805():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18019]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12708", locked=False)
 screen quest0806():
@@ -18215,6 +19086,7 @@ screen quest0806():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18020]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12709", locked=False)
                     button:
@@ -18224,6 +19096,7 @@ screen quest0806():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18021]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12710", locked=False)
                 hbox:
@@ -18234,6 +19107,7 @@ screen quest0806():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18022]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12711", locked=False)
                     button:
@@ -18243,6 +19117,7 @@ screen quest0806():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18023]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12712", locked=False)
                 hbox:
@@ -18253,6 +19128,7 @@ screen quest0806():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18024]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12713", locked=False)
 screen quest0807():
@@ -18300,6 +19176,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18025]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10712", locked=False)
                     button:
@@ -18309,6 +19186,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18026]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10713", locked=False)
                 hbox:
@@ -18319,6 +19197,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18027]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10714", locked=False)
                     button:
@@ -18328,6 +19207,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18028]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10715", locked=False)
                 hbox:
@@ -18338,6 +19218,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18029]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10716", locked=False)
                     button:
@@ -18347,6 +19228,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18030]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10717", locked=False)
                 hbox:
@@ -18357,6 +19239,7 @@ screen quest0807():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18031]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10718", locked=False)
 screen quest0808():
@@ -18404,6 +19287,7 @@ screen quest0808():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18032]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12714", locked=False)
                     button:
@@ -18413,6 +19297,7 @@ screen quest0808():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18033]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12715", locked=False)
                 hbox:
@@ -18423,6 +19308,7 @@ screen quest0808():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18034]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12716", locked=False)
                     button:
@@ -18432,6 +19318,7 @@ screen quest0808():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18035]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12717", locked=False)
                 hbox:
@@ -18442,6 +19329,7 @@ screen quest0808():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18036]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12718", locked=False)
 screen quest0809():
@@ -18489,6 +19377,7 @@ screen quest0809():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18037]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12719", locked=False)
                     button:
@@ -18498,6 +19387,7 @@ screen quest0809():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18038]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12720", locked=False)
                 hbox:
@@ -18508,6 +19398,7 @@ screen quest0809():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18039]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12721", locked=False)
 screen quest0810():
@@ -18555,6 +19446,7 @@ screen quest0810():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18040]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10719", locked=False)
                     button:
@@ -18564,6 +19456,7 @@ screen quest0810():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18041]]\n[textdict[8008]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10720", locked=False)
                 hbox:
@@ -18574,6 +19467,7 @@ screen quest0810():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18042]]\n[textdict[8010]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10721", locked=False)
                     button:
@@ -18583,6 +19477,7 @@ screen quest0810():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18043]]\n[textdict[8010]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10722", locked=False)
 screen quest0811():
@@ -18630,6 +19525,7 @@ screen quest0811():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18044]]\n[textdict[3001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10723", locked=False)
                     button:
@@ -18639,6 +19535,7 @@ screen quest0811():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18045]]\n[textdict[8010]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10724", locked=False)
                 hbox:
@@ -18649,6 +19546,7 @@ screen quest0811():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18046]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10725", locked=False)
 screen quest0812():
@@ -18696,6 +19594,7 @@ screen quest0812():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18047]]\n[textdict[3001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12722", locked=False)
                     button:
@@ -18705,6 +19604,7 @@ screen quest0812():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18048]]\n[textdict[3458]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12723", locked=False)
                 hbox:
@@ -18715,6 +19615,7 @@ screen quest0812():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18049]]\n[textdict[3458]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12724", locked=False)
                     button:
@@ -18724,6 +19625,7 @@ screen quest0812():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18050]]\n[textdict[3458]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12725", locked=False)
 screen quest0813():
@@ -18771,6 +19673,7 @@ screen quest0813():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18051]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12726", locked=False)
                     button:
@@ -18780,6 +19683,7 @@ screen quest0813():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18052]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12727", locked=False)
 screen quest0814():
@@ -18827,6 +19731,7 @@ screen quest0814():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18053]]\n[textdict[3457]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10726", locked=False)
                     button:
@@ -18836,6 +19741,7 @@ screen quest0814():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18054]]\n[textdict[3457]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10727", locked=False)
 screen quest0815():
@@ -18883,6 +19789,7 @@ screen quest0815():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18055]]\n[textdict[3001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12728", locked=False)
                     button:
@@ -18892,6 +19799,7 @@ screen quest0815():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18056]]\n[textdict[3459]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12729", locked=False)
                 hbox:
@@ -18902,6 +19810,7 @@ screen quest0815():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18057]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12730", locked=False)
 screen quest0816():
@@ -18949,6 +19858,7 @@ screen quest0816():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18058]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12731", locked=False)
                     button:
@@ -18958,6 +19868,7 @@ screen quest0816():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18059]]\n[textdict[3460]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12732", locked=False)
                 hbox:
@@ -18968,6 +19879,7 @@ screen quest0816():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18060]]\n[textdict[3460]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12733", locked=False)
                     button:
@@ -18977,6 +19889,7 @@ screen quest0816():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18061]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12734", locked=False)
 screen quest0817():
@@ -19024,6 +19937,7 @@ screen quest0817():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18062]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12735", locked=False)
                     button:
@@ -19033,6 +19947,7 @@ screen quest0817():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18063]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12736", locked=False)
                 hbox:
@@ -19043,6 +19958,7 @@ screen quest0817():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18064]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12737", locked=False)
                     button:
@@ -19052,6 +19968,7 @@ screen quest0817():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18065]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12738", locked=False)
                 hbox:
@@ -19062,6 +19979,7 @@ screen quest0817():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18066]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12739", locked=False)
                     button:
@@ -19071,6 +19989,7 @@ screen quest0817():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18067]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12740", locked=False)
 screen quest0818():
@@ -19118,6 +20037,7 @@ screen quest0818():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18068]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10728", locked=False)
                     button:
@@ -19127,6 +20047,7 @@ screen quest0818():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18069]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10729", locked=False)
 screen quest0819():
@@ -19174,6 +20095,7 @@ screen quest0819():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18070]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12741", locked=False)
                     button:
@@ -19183,6 +20105,7 @@ screen quest0819():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18071]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12742", locked=False)
                 hbox:
@@ -19193,6 +20116,7 @@ screen quest0819():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18072]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12743", locked=False)
                     button:
@@ -19202,6 +20126,7 @@ screen quest0819():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18073]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12744", locked=False)
 screen quest0820():
@@ -19252,6 +20177,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18074]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10730", locked=False)
                     button:
@@ -19261,6 +20187,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18075]]\n[textdict[8016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10731", locked=False)
                 hbox:
@@ -19271,6 +20198,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18076]]\n[textdict[8016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10732", locked=False)
                     button:
@@ -19280,6 +20208,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18077]]\n[textdict[8014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10733", locked=False)
                 hbox:
@@ -19290,6 +20219,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18078]]\n[textdict[3906]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10734", locked=False)
                     button:
@@ -19299,6 +20229,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18079]]\n[textdict[8014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10735", locked=False)
                 hbox:
@@ -19309,6 +20240,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18080]]\n[textdict[8014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10736", locked=False)
                     button:
@@ -19318,6 +20250,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18081]]\n[textdict[8016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10737", locked=False)
                 hbox:
@@ -19328,6 +20261,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18082]]\n[textdict[8016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10738", locked=False)
                     button:
@@ -19337,6 +20271,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18083]]\n[textdict[8016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10739", locked=False)
                 hbox:
@@ -19347,6 +20282,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18084]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10740", locked=False)
                     button:
@@ -19356,6 +20292,7 @@ screen quest0820():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18085]]\n[textdict[2248]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10741", locked=False)
 screen quest0821():
@@ -19403,6 +20340,7 @@ screen quest0821():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18086]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10742", locked=False)
                     button:
@@ -19412,6 +20350,7 @@ screen quest0821():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18087]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10743", locked=False)
 screen quest0822():
@@ -19459,6 +20398,7 @@ screen quest0822():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18088]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12745", locked=False)
                     button:
@@ -19468,6 +20408,7 @@ screen quest0822():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18089]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12746", locked=False)
 screen quest0823():
@@ -19515,6 +20456,7 @@ screen quest0823():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18090]]\n[textdict[3001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12747", locked=False)
                     button:
@@ -19524,6 +20466,7 @@ screen quest0823():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18091]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12748", locked=False)
                 hbox:
@@ -19534,6 +20477,7 @@ screen quest0823():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18092]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12749", locked=False)
 screen quest0824():
@@ -19581,6 +20525,7 @@ screen quest0824():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18093]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10744", locked=False)
                     button:
@@ -19590,6 +20535,7 @@ screen quest0824():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18094]]\n[textdict[3114]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10745", locked=False)
                 hbox:
@@ -19600,6 +20546,7 @@ screen quest0824():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18095]]\n[textdict[8006]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10746", locked=False)
 screen quest0825():
@@ -19647,6 +20594,7 @@ screen quest0825():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18096]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12750", locked=False)
                     button:
@@ -19656,6 +20604,7 @@ screen quest0825():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18097]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12751", locked=False)
                 hbox:
@@ -19666,6 +20615,7 @@ screen quest0825():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18098]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12752", locked=False)
                     button:
@@ -19675,6 +20625,7 @@ screen quest0825():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18099]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12753", locked=False)
                 hbox:
@@ -19685,6 +20636,7 @@ screen quest0825():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18100]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12754", locked=False)
                     button:
@@ -19694,6 +20646,7 @@ screen quest0825():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18101]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12755", locked=False)
 screen quest0826():
@@ -19741,6 +20694,7 @@ screen quest0826():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18102]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12756", locked=False)
                     button:
@@ -19750,6 +20704,7 @@ screen quest0826():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18103]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12757", locked=False)
                 hbox:
@@ -19760,6 +20715,7 @@ screen quest0826():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18104]]\n[textdict[8018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12758", locked=False)
                     button:
@@ -19769,6 +20725,7 @@ screen quest0826():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18105]]\n[textdict[8018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12759", locked=False)
                 hbox:
@@ -19779,6 +20736,7 @@ screen quest0826():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18106]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12760", locked=False)
 screen quest0827():
@@ -19826,6 +20784,7 @@ screen quest0827():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18107]]\n[textdict[3401]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10747", locked=False)
                     button:
@@ -19835,6 +20794,7 @@ screen quest0827():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18108]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10748", locked=False)
                 hbox:
@@ -19845,6 +20805,7 @@ screen quest0827():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18109]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10749", locked=False)
                     button:
@@ -19854,6 +20815,7 @@ screen quest0827():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18110]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10750", locked=False)
                 hbox:
@@ -19864,6 +20826,7 @@ screen quest0827():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18111]]\n[textdict[8018]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10751", locked=False)
                     button:
@@ -19873,6 +20836,7 @@ screen quest0827():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18112]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10752", locked=False)
 screen quest0828():
@@ -19920,6 +20884,7 @@ screen quest0828():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18113]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12761", locked=False)
                     button:
@@ -19929,6 +20894,7 @@ screen quest0828():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18114]]\n[textdict[3803]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12762", locked=False)
                 hbox:
@@ -19939,6 +20905,7 @@ screen quest0828():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18115]]\n[textdict[3803]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12763", locked=False)
                     button:
@@ -19948,6 +20915,7 @@ screen quest0828():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18116]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12764", locked=False)
                 hbox:
@@ -19958,6 +20926,7 @@ screen quest0828():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18117]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12765", locked=False)
 screen quest0829():
@@ -20005,6 +20974,7 @@ screen quest0829():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18118]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12766", locked=False)
                     button:
@@ -20014,6 +20984,7 @@ screen quest0829():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18119]]\n[textdict[8014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12767", locked=False)
                 hbox:
@@ -20024,6 +20995,7 @@ screen quest0829():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18120]]\n[textdict[8020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12768", locked=False)
                     button:
@@ -20033,6 +21005,7 @@ screen quest0829():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18121]]\n[textdict[8020]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12769", locked=False)
 screen quest0830():
@@ -20080,6 +21053,7 @@ screen quest0830():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18122]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10753", locked=False)
                     button:
@@ -20089,6 +21063,7 @@ screen quest0830():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18123]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10754", locked=False)
 screen quest0831():
@@ -20136,6 +21111,7 @@ screen quest0831():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18124]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10755", locked=False)
                     button:
@@ -20145,6 +21121,7 @@ screen quest0831():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18125]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10756", locked=False)
                 hbox:
@@ -20155,6 +21132,7 @@ screen quest0831():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18126]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10757", locked=False)
 screen quest0832():
@@ -20202,6 +21180,7 @@ screen quest0832():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18127]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12770", locked=False)
                     button:
@@ -20211,6 +21190,7 @@ screen quest0832():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18128]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12771", locked=False)
                 hbox:
@@ -20221,6 +21201,7 @@ screen quest0832():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18129]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12772", locked=False)
                     button:
@@ -20230,6 +21211,7 @@ screen quest0832():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18130]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12773", locked=False)
 screen quest0833():
@@ -20277,6 +21259,7 @@ screen quest0833():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18131]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12774", locked=False)
                     button:
@@ -20286,6 +21269,7 @@ screen quest0833():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18132]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12775", locked=False)
                 hbox:
@@ -20296,6 +21280,7 @@ screen quest0833():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18133]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12776", locked=False)
                     button:
@@ -20305,6 +21290,7 @@ screen quest0833():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18134]]\n[textdict[3454]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12777", locked=False)
                 hbox:
@@ -20315,6 +21301,7 @@ screen quest0833():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18135]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12778", locked=False)
 screen quest0834():
@@ -20365,6 +21352,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18136]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10758", locked=False)
                     button:
@@ -20374,6 +21362,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18137]]\n[textdict[3850]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10759", locked=False)
                 hbox:
@@ -20384,6 +21373,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18138]]\n[textdict[3851]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10760", locked=False)
                     button:
@@ -20393,6 +21383,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18139]]\n[textdict[3852]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10761", locked=False)
                 hbox:
@@ -20403,6 +21394,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18140]]\n[textdict[3853]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10762", locked=False)
                     button:
@@ -20412,6 +21404,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18141]]\n[textdict[3853]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10763", locked=False)
                 hbox:
@@ -20422,6 +21415,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18142]]\n[textdict[3853]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10764", locked=False)
                     button:
@@ -20431,6 +21425,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18143]]\n[textdict[3853]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10765", locked=False)
                 hbox:
@@ -20441,6 +21436,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18144]]\n[textdict[3951]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10766", locked=False)
                     button:
@@ -20450,6 +21446,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18145]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10767", locked=False)
                 hbox:
@@ -20460,6 +21457,7 @@ screen quest0834():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18146]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10768", locked=False)
 screen quest0835():
@@ -20507,6 +21505,7 @@ screen quest0835():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18147]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10769", locked=False)
                     button:
@@ -20516,6 +21515,7 @@ screen quest0835():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18148]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10770", locked=False)
                 hbox:
@@ -20526,6 +21526,7 @@ screen quest0835():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18149]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10771", locked=False)
 screen quest0836():
@@ -20573,6 +21574,7 @@ screen quest0836():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18150]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12779", locked=False)
                     button:
@@ -20582,6 +21584,7 @@ screen quest0836():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18151]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12780", locked=False)
                 hbox:
@@ -20592,6 +21595,7 @@ screen quest0836():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18152]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12781", locked=False)
 screen quest0837():
@@ -20639,6 +21643,7 @@ screen quest0837():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18153]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12782", locked=False)
                     button:
@@ -20648,6 +21653,7 @@ screen quest0837():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18154]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12783", locked=False)
                 hbox:
@@ -20658,6 +21664,7 @@ screen quest0837():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18155]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12784", locked=False)
 screen quest0838():
@@ -20705,6 +21712,7 @@ screen quest0838():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18156]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12785", locked=False)
                     button:
@@ -20714,6 +21722,7 @@ screen quest0838():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18157]]\n[textdict[3955]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12786", locked=False)
                 hbox:
@@ -20724,6 +21733,7 @@ screen quest0838():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18158]]\n[textdict[3955]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12787", locked=False)
                     button:
@@ -20733,6 +21743,7 @@ screen quest0838():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18159]]\n[textdict[3955]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12788", locked=False)
 screen quest0839():
@@ -20780,6 +21791,7 @@ screen quest0839():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18160]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10772", locked=False)
                     button:
@@ -20789,6 +21801,7 @@ screen quest0839():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18161]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10773", locked=False)
                 hbox:
@@ -20799,6 +21812,7 @@ screen quest0839():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18162]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10774", locked=False)
                     button:
@@ -20808,6 +21822,7 @@ screen quest0839():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18163]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10775", locked=False)
 screen quest0840():
@@ -20855,6 +21870,7 @@ screen quest0840():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18164]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12789", locked=False)
                     button:
@@ -20864,6 +21880,7 @@ screen quest0840():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18165]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12790", locked=False)
                 hbox:
@@ -20874,6 +21891,7 @@ screen quest0840():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18166]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12791", locked=False)
                     button:
@@ -20883,6 +21901,7 @@ screen quest0840():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18167]]\n[textdict[3955]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12792", locked=False)
 screen quest0841():
@@ -20930,6 +21949,7 @@ screen quest0841():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18168]]\n[textdict[3961]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10776", locked=False)
                     button:
@@ -20939,6 +21959,7 @@ screen quest0841():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18169]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10777", locked=False)
                 hbox:
@@ -20949,6 +21970,7 @@ screen quest0841():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18170]]\n[textdict[3951]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10778", locked=False)
 screen quest0842():
@@ -20996,6 +22018,7 @@ screen quest0842():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18171]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12793", locked=False)
                     button:
@@ -21005,6 +22028,7 @@ screen quest0842():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18172]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12794", locked=False)
 screen quest0843():
@@ -21052,6 +22076,7 @@ screen quest0843():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18173]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12795", locked=False)
                     button:
@@ -21061,6 +22086,7 @@ screen quest0843():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18174]]\n[textdict[3955]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12796", locked=False)
                 hbox:
@@ -21071,6 +22097,7 @@ screen quest0843():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18175]]\n[textdict[3955]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12797", locked=False)
                     button:
@@ -21080,6 +22107,7 @@ screen quest0843():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18176]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12798", locked=False)
 screen quest0844():
@@ -21127,6 +22155,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18177]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10779", locked=False)
                     button:
@@ -21136,6 +22165,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18178]]\n[textdict[3957]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10780", locked=False)
                 hbox:
@@ -21146,6 +22176,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18179]]\n[textdict[3958]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10781", locked=False)
                     button:
@@ -21155,6 +22186,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18180]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10782", locked=False)
                 hbox:
@@ -21165,6 +22197,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18181]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10783", locked=False)
                     button:
@@ -21174,6 +22207,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18182]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10784", locked=False)
                 hbox:
@@ -21184,6 +22218,7 @@ screen quest0844():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18183]]\n[textdict[3958]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10785", locked=False)
 screen quest0845():
@@ -21231,6 +22266,7 @@ screen quest0845():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18184]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12799", locked=False)
                     button:
@@ -21240,6 +22276,7 @@ screen quest0845():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18185]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127100", locked=False)
                 hbox:
@@ -21250,6 +22287,7 @@ screen quest0845():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18186]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127101", locked=False)
 screen quest0846():
@@ -21297,6 +22335,7 @@ screen quest0846():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18187]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127102", locked=False)
                     button:
@@ -21306,6 +22345,7 @@ screen quest0846():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18188]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127103", locked=False)
                 hbox:
@@ -21316,6 +22356,7 @@ screen quest0846():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18189]]\n[textdict[3960]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127104", locked=False)
 screen quest0847():
@@ -21363,6 +22404,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18190]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10786", locked=False)
                     button:
@@ -21372,6 +22414,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18191]]\n[textdict[3958]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10787", locked=False)
                 hbox:
@@ -21382,6 +22425,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18192]]\n[textdict[3951]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10788", locked=False)
                     button:
@@ -21391,6 +22435,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18193]]\n[textdict[3951]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10789", locked=False)
                 hbox:
@@ -21401,6 +22446,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18194]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10790", locked=False)
                     button:
@@ -21410,6 +22456,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18195]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10791", locked=False)
                 hbox:
@@ -21420,6 +22467,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18196]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10792", locked=False)
                     button:
@@ -21429,6 +22477,7 @@ screen quest0847():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18197]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10793", locked=False)
 screen quest0848():
@@ -21476,6 +22525,7 @@ screen quest0848():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18198]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127105", locked=False)
                     button:
@@ -21485,6 +22535,7 @@ screen quest0848():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18199]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127106", locked=False)
                 hbox:
@@ -21495,6 +22546,7 @@ screen quest0848():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18200]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127107", locked=False)
                     button:
@@ -21504,6 +22556,7 @@ screen quest0848():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18201]]\n[textdict[3852]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127108", locked=False)
 screen quest0849():
@@ -21551,6 +22604,7 @@ screen quest0849():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18202]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127109", locked=False)
 screen quest0850():
@@ -21598,6 +22652,7 @@ screen quest0850():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18203]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10794", locked=False)
                     button:
@@ -21607,6 +22662,7 @@ screen quest0850():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18204]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10795", locked=False)
 screen quest0851():
@@ -21654,6 +22710,7 @@ screen quest0851():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18205]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10796", locked=False)
                     button:
@@ -21663,6 +22720,7 @@ screen quest0851():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18206]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10797", locked=False)
                 hbox:
@@ -21673,6 +22731,7 @@ screen quest0851():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18207]]\n[textdict[3464]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10798", locked=False)
 screen quest0852():
@@ -21720,6 +22779,7 @@ screen quest0852():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18208]]\n[textdict[3464]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127110", locked=False)
                     button:
@@ -21729,6 +22789,7 @@ screen quest0852():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18209]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127111", locked=False)
                 hbox:
@@ -21739,6 +22800,7 @@ screen quest0852():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18210]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127112", locked=False)
                     button:
@@ -21748,6 +22810,7 @@ screen quest0852():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18211]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127113", locked=False)
                 hbox:
@@ -21758,6 +22821,7 @@ screen quest0852():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18212]]\n[textdict[3461]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127114", locked=False)
 screen quest0853():
@@ -21805,6 +22869,7 @@ screen quest0853():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18213]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127115", locked=False)
                     button:
@@ -21814,6 +22879,7 @@ screen quest0853():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18214]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127116", locked=False)
                 hbox:
@@ -21824,6 +22890,7 @@ screen quest0853():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18215]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127117", locked=False)
                     button:
@@ -21833,6 +22900,7 @@ screen quest0853():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18216]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127118", locked=False)
 screen quest0854():
@@ -21880,6 +22948,7 @@ screen quest0854():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18217]]\n[textdict[3900]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10799", locked=False)
                     button:
@@ -21889,6 +22958,7 @@ screen quest0854():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18218]]\n[textdict[8016]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107100", locked=False)
                 hbox:
@@ -21899,6 +22969,7 @@ screen quest0854():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18219]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107101", locked=False)
                     button:
@@ -21908,6 +22979,7 @@ screen quest0854():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18220]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107102", locked=False)
 screen quest0855():
@@ -21955,6 +23027,7 @@ screen quest0855():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18221]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127119", locked=False)
                     button:
@@ -21964,6 +23037,7 @@ screen quest0855():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18222]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127120", locked=False)
                 hbox:
@@ -21974,6 +23048,7 @@ screen quest0855():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18223]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127121", locked=False)
 screen quest0856():
@@ -22021,6 +23096,7 @@ screen quest0856():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18224]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127122", locked=False)
                     button:
@@ -22030,6 +23106,7 @@ screen quest0856():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18225]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127123", locked=False)
 screen quest0857():
@@ -22077,6 +23154,7 @@ screen quest0857():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18226]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107103", locked=False)
                     button:
@@ -22086,6 +23164,7 @@ screen quest0857():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18227]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107104", locked=False)
                 hbox:
@@ -22096,6 +23175,7 @@ screen quest0857():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18228]]\n[textdict[8026]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107105", locked=False)
                     button:
@@ -22105,6 +23185,7 @@ screen quest0857():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18229]]\n[textdict[8028]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107106", locked=False)
 screen quest0858():
@@ -22152,6 +23233,7 @@ screen quest0858():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18230]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127124", locked=False)
                     button:
@@ -22161,6 +23243,7 @@ screen quest0858():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18231]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127125", locked=False)
                 hbox:
@@ -22171,6 +23254,7 @@ screen quest0858():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18232]]\n[textdict[3907]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127126", locked=False)
 screen quest0859():
@@ -22218,6 +23302,7 @@ screen quest0859():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18233]]\n[textdict[3901]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127127", locked=False)
                     button:
@@ -22227,6 +23312,7 @@ screen quest0859():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18234]]\n[textdict[8032]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg127128", locked=False)
 screen quest0860():
@@ -22274,6 +23360,7 @@ screen quest0860():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18235]]\n[textdict[8032]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107107", locked=False)
                     button:
@@ -22283,6 +23370,7 @@ screen quest0860():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18236]]\n[textdict[3462]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107108", locked=False)
                 hbox:
@@ -22293,6 +23381,7 @@ screen quest0860():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18237]]\n[textdict[8030]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg107109", locked=False)
 screen quest0901():
@@ -22340,6 +23429,7 @@ screen quest0901():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18238]]\n[textdict[3900]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10801", locked=False)
                     button:
@@ -22349,6 +23439,7 @@ screen quest0901():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18239]]\n[textdict[8030]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10802", locked=False)
                 hbox:
@@ -22359,6 +23450,7 @@ screen quest0901():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18240]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10803", locked=False)
                     button:
@@ -22368,6 +23460,7 @@ screen quest0901():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18241]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10804", locked=False)
 screen quest0902():
@@ -22415,6 +23508,7 @@ screen quest0902():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18242]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12801", locked=False)
 screen quest0903():
@@ -22462,6 +23556,7 @@ screen quest0903():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18243]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12802", locked=False)
                     button:
@@ -22471,6 +23566,7 @@ screen quest0903():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18244]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12803", locked=False)
 screen quest0904():
@@ -22518,6 +23614,7 @@ screen quest0904():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18245]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10805", locked=False)
 screen quest0905():
@@ -22565,6 +23662,7 @@ screen quest0905():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18246]]\n[textdict[8008]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12804", locked=False)
                     button:
@@ -22574,6 +23672,7 @@ screen quest0905():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18247]]\n[textdict[8008]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12805", locked=False)
 screen quest0906():
@@ -22621,6 +23720,7 @@ screen quest0906():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18248]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12806", locked=False)
                     button:
@@ -22630,6 +23730,7 @@ screen quest0906():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18249]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12807", locked=False)
 screen quest0907():
@@ -22677,6 +23778,7 @@ screen quest0907():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18250]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10806", locked=False)
                     button:
@@ -22686,6 +23788,7 @@ screen quest0907():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18251]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10807", locked=False)
 screen quest0908():
@@ -22733,6 +23836,7 @@ screen quest0908():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18252]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12808", locked=False)
                     button:
@@ -22742,6 +23846,7 @@ screen quest0908():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18253]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12809", locked=False)
 screen quest0909():
@@ -22789,6 +23894,7 @@ screen quest0909():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18254]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12810", locked=False)
 screen quest0910():
@@ -22836,6 +23942,7 @@ screen quest0910():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18255]]\n[textdict[8030]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10808", locked=False)
                     button:
@@ -22845,6 +23952,7 @@ screen quest0910():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18256]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10809", locked=False)
 screen quest0911():
@@ -22892,6 +24000,7 @@ screen quest0911():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18257]]\n[textdict[8014]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10810", locked=False)
                     button:
@@ -22901,6 +24010,7 @@ screen quest0911():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18258]]\n[textdict[8034]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10811", locked=False)
                 hbox:
@@ -22911,6 +24021,7 @@ screen quest0911():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18259]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10812", locked=False)
                     button:
@@ -22920,6 +24031,7 @@ screen quest0911():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18260]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10813", locked=False)
 screen quest0912():
@@ -22967,6 +24079,7 @@ screen quest0912():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18261]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12811", locked=False)
 screen quest0913():
@@ -23014,6 +24127,7 @@ screen quest0913():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18262]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12812", locked=False)
                     button:
@@ -23023,6 +24137,7 @@ screen quest0913():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18263]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12813", locked=False)
 screen quest0914():
@@ -23070,6 +24185,7 @@ screen quest0914():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18264]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10814", locked=False)
                     button:
@@ -23079,6 +24195,7 @@ screen quest0914():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18265]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10815", locked=False)
                 hbox:
@@ -23089,6 +24206,7 @@ screen quest0914():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18266]]\n[textdict[8030]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10816", locked=False)
 screen quest0915():
@@ -23136,6 +24254,7 @@ screen quest0915():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18267]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12814", locked=False)
                     button:
@@ -23145,6 +24264,7 @@ screen quest0915():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18268]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12815", locked=False)
 screen quest0916():
@@ -23192,6 +24312,7 @@ screen quest0916():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18269]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12816", locked=False)
                     button:
@@ -23201,6 +24322,7 @@ screen quest0916():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18270]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12817", locked=False)
 screen quest0917():
@@ -23248,6 +24370,7 @@ screen quest0917():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18271]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10817", locked=False)
                     button:
@@ -23257,6 +24380,7 @@ screen quest0917():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18272]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10818", locked=False)
 screen quest0918():
@@ -23304,6 +24428,7 @@ screen quest0918():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18273]]\n[textdict[3413]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12818", locked=False)
                     button:
@@ -23313,6 +24438,7 @@ screen quest0918():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18274]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12819", locked=False)
                 hbox:
@@ -23323,6 +24449,7 @@ screen quest0918():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18275]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12820", locked=False)
 screen quest0919():
@@ -23370,6 +24497,7 @@ screen quest0919():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18276]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12821", locked=False)
                     button:
@@ -23379,6 +24507,7 @@ screen quest0919():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18277]]\n[textdict[3413]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12822", locked=False)
 screen quest0920():
@@ -23426,6 +24555,7 @@ screen quest0920():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18278]]\n[textdict[3464]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10819", locked=False)
                     button:
@@ -23435,6 +24565,7 @@ screen quest0920():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18279]]\n[textdict[3413]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10820", locked=False)
 screen quest0921():
@@ -23482,6 +24613,7 @@ screen quest0921():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18280]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10821", locked=False)
                     button:
@@ -23491,6 +24623,7 @@ screen quest0921():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18281]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10822", locked=False)
 screen quest0922():
@@ -23538,6 +24671,7 @@ screen quest0922():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18282]]\n[textdict[3410]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12823", locked=False)
                     button:
@@ -23547,6 +24681,7 @@ screen quest0922():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18283]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12824", locked=False)
 screen quest0923():
@@ -23594,6 +24729,7 @@ screen quest0923():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18284]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12825", locked=False)
                     button:
@@ -23603,6 +24739,7 @@ screen quest0923():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18285]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12826", locked=False)
                 hbox:
@@ -23613,6 +24750,7 @@ screen quest0923():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18286]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12827", locked=False)
 screen quest0924():
@@ -23660,6 +24798,7 @@ screen quest0924():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18287]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10823", locked=False)
 screen quest0925():
@@ -23707,6 +24846,7 @@ screen quest0925():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18288]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12828", locked=False)
                     button:
@@ -23716,6 +24856,7 @@ screen quest0925():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18289]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12829", locked=False)
 screen quest0926():
@@ -23763,6 +24904,7 @@ screen quest0926():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18290]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12830", locked=False)
                     button:
@@ -23772,6 +24914,7 @@ screen quest0926():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18291]]\n[textdict[8036]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12831", locked=False)
                 hbox:
@@ -23782,6 +24925,7 @@ screen quest0926():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18292]]\n[textdict[8036]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12832", locked=False)
 screen quest0927():
@@ -23829,6 +24973,7 @@ screen quest0927():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18293]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10824", locked=False)
                     button:
@@ -23838,6 +24983,7 @@ screen quest0927():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18294]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10825", locked=False)
 screen quest0928():
@@ -23885,6 +25031,7 @@ screen quest0928():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18295]]\n[textdict[8012]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12833", locked=False)
 screen quest0929():
@@ -23932,6 +25079,7 @@ screen quest0929():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18296]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12834", locked=False)
                     button:
@@ -23941,6 +25089,7 @@ screen quest0929():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18297]]\n[textdict[8038]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12835", locked=False)
                 hbox:
@@ -23951,6 +25100,7 @@ screen quest0929():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18298]]\n[textdict[8038]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12836", locked=False)
 screen quest0930():
@@ -23998,6 +25148,7 @@ screen quest0930():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18299]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10826", locked=False)
 screen quest0931():
@@ -24045,6 +25196,7 @@ screen quest0931():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18300]]\n[textdict[3900]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10827", locked=False)
                     button:
@@ -24054,6 +25206,7 @@ screen quest0931():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18301]]\n[textdict[3404]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10828", locked=False)
                 hbox:
@@ -24064,6 +25217,7 @@ screen quest0931():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18302]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10829", locked=False)
 screen quest0932():
@@ -24111,6 +25265,7 @@ screen quest0932():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18303]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12837", locked=False)
                     button:
@@ -24120,6 +25275,7 @@ screen quest0932():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18304]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12838", locked=False)
                 hbox:
@@ -24130,6 +25286,7 @@ screen quest0932():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18305]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12839", locked=False)
 screen quest0933():
@@ -24177,6 +25334,7 @@ screen quest0933():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18306]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12840", locked=False)
                     button:
@@ -24186,6 +25344,7 @@ screen quest0933():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18307]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12841", locked=False)
                 hbox:
@@ -24196,6 +25355,7 @@ screen quest0933():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18308]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12842", locked=False)
 screen quest0934():
@@ -24243,6 +25403,7 @@ screen quest0934():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18309]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10830", locked=False)
                     button:
@@ -24252,6 +25413,7 @@ screen quest0934():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18310]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10831", locked=False)
 screen quest0935():
@@ -24299,6 +25461,7 @@ screen quest0935():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18311]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12843", locked=False)
                     button:
@@ -24308,6 +25471,7 @@ screen quest0935():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18312]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12844", locked=False)
 screen quest0936():
@@ -24355,6 +25519,7 @@ screen quest0936():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18313]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12845", locked=False)
                     button:
@@ -24364,6 +25529,7 @@ screen quest0936():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18314]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12846", locked=False)
 screen quest0937():
@@ -24411,6 +25577,7 @@ screen quest0937():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18315]]\n[textdict[8010]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10832", locked=False)
 screen quest0938():
@@ -24458,6 +25625,7 @@ screen quest0938():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18316]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12847", locked=False)
 screen quest0939():
@@ -24505,6 +25673,7 @@ screen quest0939():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18317]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12848", locked=False)
 screen quest0940():
@@ -24552,6 +25721,7 @@ screen quest0940():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18318]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10833", locked=False)
                     button:
@@ -24561,6 +25731,7 @@ screen quest0940():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18319]]\n[textdict[3463]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10834", locked=False)
 screen quest0941():
@@ -24608,6 +25779,7 @@ screen quest0941():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18320]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10835", locked=False)
                     button:
@@ -24617,6 +25789,7 @@ screen quest0941():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18321]]\n[textdict[3416]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10836", locked=False)
                 hbox:
@@ -24627,6 +25800,7 @@ screen quest0941():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18322]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10837", locked=False)
 screen quest0942():
@@ -24674,6 +25848,7 @@ screen quest0942():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18323]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12849", locked=False)
                     button:
@@ -24683,6 +25858,7 @@ screen quest0942():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18324]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12850", locked=False)
 screen quest0943():
@@ -24730,6 +25906,7 @@ screen quest0943():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18325]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12851", locked=False)
 screen quest0944():
@@ -24777,6 +25954,7 @@ screen quest0944():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18326]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12852", locked=False)
                     button:
@@ -24786,6 +25964,7 @@ screen quest0944():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18327]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12853", locked=False)
 screen quest0945():
@@ -24833,6 +26012,7 @@ screen quest0945():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18328]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10838", locked=False)
                     button:
@@ -24842,6 +26022,7 @@ screen quest0945():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18329]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10839", locked=False)
 screen quest0946():
@@ -24889,6 +26070,7 @@ screen quest0946():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18330]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12854", locked=False)
                     button:
@@ -24898,6 +26080,7 @@ screen quest0946():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18331]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12855", locked=False)
                 hbox:
@@ -24908,6 +26091,7 @@ screen quest0946():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18332]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12856", locked=False)
 screen quest0947():
@@ -24955,6 +26139,7 @@ screen quest0947():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18333]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10840", locked=False)
                     button:
@@ -24964,6 +26149,7 @@ screen quest0947():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18334]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10841", locked=False)
                 hbox:
@@ -24974,6 +26160,7 @@ screen quest0947():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18335]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10842", locked=False)
 screen quest0948():
@@ -25021,6 +26208,7 @@ screen quest0948():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18336]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10843", locked=False)
                     button:
@@ -25030,6 +26218,7 @@ screen quest0948():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18337]]\n[textdict[3960]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10844", locked=False)
 screen quest0949():
@@ -25077,6 +26266,7 @@ screen quest0949():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18338]]\n[textdict[3952]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12857", locked=False)
                     button:
@@ -25086,6 +26276,7 @@ screen quest0949():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18339]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12858", locked=False)
 screen quest0950():
@@ -25133,6 +26324,7 @@ screen quest0950():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18340]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12859", locked=False)
                     button:
@@ -25142,6 +26334,7 @@ screen quest0950():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18341]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12860", locked=False)
                 hbox:
@@ -25152,6 +26345,7 @@ screen quest0950():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18342]]\n[textdict[3959]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12861", locked=False)
 screen quest0951():
@@ -25199,6 +26393,7 @@ screen quest0951():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18343]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10845", locked=False)
                     button:
@@ -25208,6 +26403,7 @@ screen quest0951():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18344]]\n[textdict[2240]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10846", locked=False)
                 hbox:
@@ -25218,6 +26414,7 @@ screen quest0951():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18345]]\n[textdict[3954]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10847", locked=False)
 screen quest0952():
@@ -25265,6 +26462,7 @@ screen quest0952():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18346]]\n[textdict[3950]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12862", locked=False)
 screen quest0953():
@@ -25312,6 +26510,7 @@ screen quest0953():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18347]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12863", locked=False)
 screen quest0954():
@@ -25359,6 +26558,7 @@ screen quest0954():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18348]]\n[textdict[3950]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12864", locked=False)
 screen quest0955():
@@ -25406,6 +26606,7 @@ screen quest0955():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18349]]\n[textdict[3950]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12865", locked=False)
 screen quest0956():
@@ -25453,6 +26654,7 @@ screen quest0956():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18350]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12866", locked=False)
 screen quest0957():
@@ -25500,6 +26702,7 @@ screen quest0957():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18351]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12867", locked=False)
 screen quest0958():
@@ -25547,6 +26750,7 @@ screen quest0958():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18352]]\n[textdict[3956]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10848", locked=False)
                     button:
@@ -25556,6 +26760,7 @@ screen quest0958():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18353]]\n[textdict[3950]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10849", locked=False)
                 hbox:
@@ -25566,6 +26771,7 @@ screen quest0958():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18354]]\n[textdict[3905]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10850", locked=False)
 screen quest0959():
@@ -25613,6 +26819,7 @@ screen quest0959():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18355]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10851", locked=False)
                     button:
@@ -25622,6 +26829,7 @@ screen quest0959():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18356]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10852", locked=False)
                 hbox:
@@ -25632,6 +26840,7 @@ screen quest0959():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18357]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10853", locked=False)
                     button:
@@ -25641,6 +26850,7 @@ screen quest0959():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18358]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10854", locked=False)
                 hbox:
@@ -25651,6 +26861,7 @@ screen quest0959():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18359]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10855", locked=False)
                     button:
@@ -25660,6 +26871,7 @@ screen quest0959():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18360]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10856", locked=False)
 screen quest0960():
@@ -25707,6 +26919,7 @@ screen quest0960():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18361]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10857", locked=False)
                     button:
@@ -25716,6 +26929,7 @@ screen quest0960():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18362]]\n[textdict[3908]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10858", locked=False)
 screen quest1001():
@@ -25763,6 +26977,7 @@ screen quest1001():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18363]]\n[textdict[3456]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10859", locked=False)
 screen quest1002():
@@ -25810,6 +27025,7 @@ screen quest1002():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18364]]\n[textdict[3953]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10860", locked=False)
 screen quest1003():
@@ -25857,6 +27073,7 @@ screen quest1003():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18365]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10861", locked=False)
 screen quest1004():
@@ -25904,6 +27121,7 @@ screen quest1004():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18366]]\n[textdict[3409]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10862", locked=False)
 screen quest1005():
@@ -25951,6 +27169,7 @@ screen quest1005():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18367]]\n[textdict[3400]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10863", locked=False)
 screen quest1006():
@@ -25998,6 +27217,7 @@ screen quest1006():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18368]]\n[textdict[3403]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10864", locked=False)
 screen quest1007():
@@ -26045,6 +27265,7 @@ screen quest1007():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18369]]\n[textdict[3407]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10865", locked=False)
 screen quest1008():
@@ -26092,6 +27313,7 @@ screen quest1008():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[18370]]\n[textdict[3402]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10866", locked=False)
 screen quest1101():
@@ -26128,6 +27350,7 @@ screen quest1101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14001", locked=False)
                     button:
@@ -26137,6 +27360,7 @@ screen quest1101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75031]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14002", locked=False)
                 hbox:
@@ -26147,6 +27371,7 @@ screen quest1101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75061]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14003", locked=False)
                     button:
@@ -26156,6 +27381,7 @@ screen quest1101():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75116]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14004", locked=False)
 screen quest1102():
@@ -26192,6 +27418,7 @@ screen quest1102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14011", locked=False)
                     button:
@@ -26201,6 +27428,7 @@ screen quest1102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75536]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14013", locked=False)
                 hbox:
@@ -26211,6 +27439,7 @@ screen quest1102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75596]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14015", locked=False)
                     button:
@@ -26220,6 +27449,7 @@ screen quest1102():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[75631]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14017", locked=False)
 screen quest1103():
@@ -26256,6 +27486,7 @@ screen quest1103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14021", locked=False)
                     button:
@@ -26265,6 +27496,7 @@ screen quest1103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76036]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14023", locked=False)
                 hbox:
@@ -26275,6 +27507,7 @@ screen quest1103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76091]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14024", locked=False)
                     button:
@@ -26284,6 +27517,7 @@ screen quest1103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76096]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14025", locked=False)
                 hbox:
@@ -26294,6 +27528,7 @@ screen quest1103():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14027", locked=False)
 screen quest1104():
@@ -26330,6 +27565,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14031", locked=False)
                     button:
@@ -26339,6 +27575,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76536]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14033", locked=False)
                 hbox:
@@ -26349,6 +27586,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76591]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14034", locked=False)
                     button:
@@ -26358,6 +27596,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76596]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14035", locked=False)
                 hbox:
@@ -26368,6 +27607,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76626]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14036", locked=False)
                     button:
@@ -26377,6 +27617,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76631]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14037", locked=False)
                 hbox:
@@ -26387,6 +27628,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76631]]\nunused alt":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14039", locked=False)
                     button:
@@ -26396,6 +27638,7 @@ screen quest1104():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[76686]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14038", locked=False)
 screen quest1105():
@@ -26432,6 +27675,7 @@ screen quest1105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14041", locked=False)
                     button:
@@ -26441,6 +27685,7 @@ screen quest1105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77036]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14043", locked=False)
                 hbox:
@@ -26451,6 +27696,7 @@ screen quest1105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77096]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14045", locked=False)
                     button:
@@ -26460,6 +27706,7 @@ screen quest1105():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77131]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14047", locked=False)
 screen quest1106():
@@ -26496,6 +27743,7 @@ screen quest1106():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77501]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14051", locked=False)
                     button:
@@ -26505,6 +27753,7 @@ screen quest1106():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77596]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14052", locked=False)
                 hbox:
@@ -26515,6 +27764,7 @@ screen quest1106():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[77686]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg14053", locked=False)
 screen quest1107():
@@ -26551,6 +27801,7 @@ screen quest1107():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[78001]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg140561", locked=False)
                     button:
@@ -26560,6 +27811,7 @@ screen quest1107():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[78096]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg140562", locked=False)
 screen quest1201():
@@ -26631,6 +27883,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-エオリア編 1/2\n(2017.09.15)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1091", locked=False)
                     button:
@@ -26640,6 +27893,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-エオリア編 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1092", locked=False)
                 hbox:
@@ -26650,6 +27904,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-ヴェンツェル編 1/2\n(2017.09.15)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1093", locked=False)
                     button:
@@ -26659,6 +27914,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-ヴェンツェル編 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1094", locked=False)
                 hbox:
@@ -26669,6 +27925,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-スコット編 1/2\n(2017.09.15)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1095", locked=False)
                     button:
@@ -26678,6 +27935,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-スコット編 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1096", locked=False)
                 hbox:
@@ -26688,6 +27946,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-リン編 1/2\n(2017.09.15)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1097", locked=False)
                     button:
@@ -26697,6 +27956,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.1-リン編 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1098", locked=False)
                 hbox:
@@ -26707,6 +27967,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.2 アネラス編\n(2017.12.06)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1121", locked=False)
                     button:
@@ -26716,6 +27977,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.3 ノエル編\n(2017.12.13)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1122", locked=False)
                 hbox:
@@ -26726,6 +27988,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.4 ティータ編\n(2018.01.31)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1171", locked=False)
                     button:
@@ -26735,6 +27998,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.5 ミレイユ編\n(2018.02.07)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1172", locked=False)
                 hbox:
@@ -26745,6 +28009,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.6 ヨシュア編\n(2018.03.07)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1173", locked=False)
                     button:
@@ -26754,6 +28019,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.7 エリィ編\n(2018.08.01)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1174", locked=False)
                 hbox:
@@ -26764,6 +28030,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.8 エステル編\n(2018.09.19)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1175", locked=False)
                     button:
@@ -26773,6 +28040,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.9 ティオ編\n(2018.10.17)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1176", locked=False)
                 hbox:
@@ -26783,6 +28051,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.10 ランディ編\n(2019.03.06)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1177", locked=False)
                     button:
@@ -26792,6 +28061,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.11 ロイド編\n(2021.04.14)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1178", locked=False)
                 hbox:
@@ -26802,6 +28072,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.12 レン編\n(2021.06.17)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1179", locked=False)
                     button:
@@ -26811,6 +28082,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.13 カシウス編\n(2021.08.12)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1180", locked=False)
                 hbox:
@@ -26821,6 +28093,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.14 ユリア編\n(2021.10.14)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1184", locked=False)
                     button:
@@ -26830,6 +28103,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.15 アガット編\n(2021.12.15)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1185", locked=False)
                 hbox:
@@ -26840,6 +28114,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.16 グラッツ編\n(2022.02.16)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1186", locked=False)
                     button:
@@ -26849,6 +28124,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.17 シェラザード編\n(2022.04.13)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1187", locked=False)
                 hbox:
@@ -26859,6 +28135,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.18 クローゼ編\n(2023.06.22)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1188", locked=False)
                     button:
@@ -26868,6 +28145,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.19 ギルバート編\n(2022.08.10)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1189", locked=False)
                 hbox:
@@ -26878,6 +28156,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.20 クルツ編\n(2022.10.19)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1196", locked=False)
                     button:
@@ -26887,6 +28166,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.21 カルナ編\n(2022.12.14)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1198", locked=False)
                 hbox:
@@ -26897,6 +28177,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.22 ダドリー編\n(2023.02.08)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1199", locked=False)
                     button:
@@ -26906,6 +28187,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.23 アリオス編\n(2023.04.12)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1210", locked=False)
                 hbox:
@@ -26916,6 +28198,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.24 リシャール編\n(2023.05.10)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1211", locked=False)
                     button:
@@ -26925,6 +28208,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.25 キール編\n(2023.07.12)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1220", locked=False)
                 hbox:
@@ -26935,6 +28219,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.26 ジョゼット編\n(2023.08.16)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1221", locked=False)
                     button:
@@ -26944,6 +28229,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.27 ドルン編\n(2023.10.12)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1229", locked=False)
                 hbox:
@@ -26954,6 +28240,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "Vol.28 ミシェル編\n(2023.11.08)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1230", locked=False)
                     button:
@@ -26963,6 +28250,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "EX.1　リース編\n(2024.01.24)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1238", locked=False)
                 hbox:
@@ -26973,6 +28261,7 @@ screen quest1201():
                         background Frame("bookpage", 35, 35)
                         text "EX.2 ケビン編\n(2024.02.29)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1239", locked=False)
 screen quest1202():
@@ -27034,6 +28323,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90001]] 1/2\n(2017.03.29)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1001", locked=False)
                     button:
@@ -27043,6 +28333,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90001]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1002", locked=False)
                 hbox:
@@ -27053,6 +28344,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90011]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1006", locked=False)
                     button:
@@ -27062,6 +28354,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90021]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1010", locked=False)
                 hbox:
@@ -27072,6 +28365,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "Unused Version":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg19010", locked=False)
                     button:
@@ -27081,6 +28375,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "Unused Ending\n(2 questions correct)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg19020", locked=False)
                 hbox:
@@ -27091,6 +28386,7 @@ screen quest1202():
                         background Frame("bookpage", 35, 35)
                         text "Unused Ending\n(1 or no questions correct)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg19021", locked=False)
 screen quest1203():
@@ -27138,6 +28434,7 @@ screen quest1203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90031]] 1/4\n(2017.03.29)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1014", locked=False)
                     button:
@@ -27147,6 +28444,7 @@ screen quest1203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90031]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1015", locked=False)
                 hbox:
@@ -27157,6 +28455,7 @@ screen quest1203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90031]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1016", locked=False)
                     button:
@@ -27166,6 +28465,7 @@ screen quest1203():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90031]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1017", locked=False)
 screen quest1204():
@@ -27213,6 +28513,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90041]] 1/5\n(2017.05.02)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1021", locked=False)
                     button:
@@ -27222,6 +28523,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90041]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1022", locked=False)
                 hbox:
@@ -27232,6 +28534,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "Conditional 1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1026", locked=False)
                     button:
@@ -27241,6 +28544,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "Conditional 2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1027", locked=False)
                 hbox:
@@ -27251,6 +28555,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90041]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1023", locked=False)
                     button:
@@ -27260,6 +28565,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90041]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1024", locked=False)
                 hbox:
@@ -27270,6 +28576,7 @@ screen quest1204():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90041]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1025", locked=False)
 screen quest1205():
@@ -27309,6 +28616,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 1/11\n(2017.??.??)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1031", locked=False)
                     button:
@@ -27318,6 +28626,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 2/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1032", locked=False)
                 hbox:
@@ -27328,6 +28637,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 3/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1033", locked=False)
                     button:
@@ -27337,6 +28647,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 4/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1034", locked=False)
                 hbox:
@@ -27347,6 +28658,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 5/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1035", locked=False)
                     button:
@@ -27356,6 +28668,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 6/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1036", locked=False)
                 hbox:
@@ -27366,6 +28679,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 7/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1037", locked=False)
                     button:
@@ -27375,6 +28689,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 8/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1038", locked=False)
                 hbox:
@@ -27385,6 +28700,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 9/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1039", locked=False)
                     button:
@@ -27394,6 +28710,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 10/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1040", locked=False)
                 hbox:
@@ -27404,6 +28721,7 @@ screen quest1205():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87051]] 11/11":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1041", locked=False)
 screen quest1206():
@@ -27472,6 +28790,7 @@ screen quest1206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90061]]\n(2017.06.16)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1051", locked=False)
                     button:
@@ -27481,6 +28800,7 @@ screen quest1206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90071]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1052", locked=False)
                 hbox:
@@ -27491,6 +28811,7 @@ screen quest1206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90081]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1053", locked=False)
                     button:
@@ -27500,6 +28821,7 @@ screen quest1206():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90091]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1054", locked=False)
 screen quest1207():
@@ -27536,6 +28858,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87040]]\n(2017.07.03)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1061", locked=False)
                     button:
@@ -27545,6 +28868,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87050]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1062", locked=False)
                 hbox:
@@ -27555,6 +28879,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87060]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1063", locked=False)
                     button:
@@ -27564,6 +28889,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87070]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1064", locked=False)
                 hbox:
@@ -27574,6 +28900,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87080]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1065", locked=False)
                     button:
@@ -27583,6 +28910,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87090]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1066", locked=False)
                 hbox:
@@ -27593,6 +28921,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87100]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1067", locked=False)
                     button:
@@ -27602,6 +28931,7 @@ screen quest1207():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99166]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1068", locked=False)
 screen quest1208():
@@ -27638,6 +28968,7 @@ screen quest1208():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[87110]]\n(2017.07.12)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1071", locked=False)
 screen quest1209():
@@ -27674,6 +29005,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 1/8\n(2017.08.30)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1081", locked=False)
                     button:
@@ -27683,6 +29015,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 2/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1082", locked=False)
                 hbox:
@@ -27693,6 +29026,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 3/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1083", locked=False)
                     button:
@@ -27702,6 +29036,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 4/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1084", locked=False)
                 hbox:
@@ -27712,6 +29047,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 5/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1085", locked=False)
                     button:
@@ -27721,6 +29057,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 6/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1086", locked=False)
                 hbox:
@@ -27731,6 +29068,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 7/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1087", locked=False)
                     button:
@@ -27740,6 +29078,7 @@ screen quest1209():
                         background Frame("bookpage", 35, 35)
                         text "試験班の夏休み 8/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1088", locked=False)
 screen quest1210():
@@ -27797,6 +29136,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 1/10\n(2017.10.25)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1101", locked=False)
                     button:
@@ -27806,6 +29146,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 2/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1102", locked=False)
                 hbox:
@@ -27816,6 +29157,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 3/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1103", locked=False)
                     button:
@@ -27825,6 +29167,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 4/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1104", locked=False)
                 hbox:
@@ -27835,6 +29178,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 5/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1105", locked=False)
                     button:
@@ -27844,6 +29188,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 6/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1106", locked=False)
                 hbox:
@@ -27854,6 +29199,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 7/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1107", locked=False)
                     button:
@@ -27863,6 +29209,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 8/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1108", locked=False)
                 hbox:
@@ -27873,6 +29220,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 9/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1109", locked=False)
                     button:
@@ -27882,6 +29230,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90141]] 10/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1110", locked=False)
                 hbox:
@@ -27892,6 +29241,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 1/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1111", locked=False)
                     button:
@@ -27901,6 +29251,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 2/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1112", locked=False)
                 hbox:
@@ -27911,6 +29262,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 3/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1113", locked=False)
                     button:
@@ -27920,6 +29272,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 4/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1114", locked=False)
                 hbox:
@@ -27930,6 +29283,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 5/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1115", locked=False)
                     button:
@@ -27939,6 +29293,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 6/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1116", locked=False)
                 hbox:
@@ -27949,6 +29304,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 7/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1117", locked=False)
                     button:
@@ -27958,6 +29314,7 @@ screen quest1210():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90161]] 8/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1118", locked=False)
 screen quest1211():
@@ -28029,6 +29386,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90181]] 1/3\n(2017.12.20)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1131", locked=False)
                     button:
@@ -28038,6 +29396,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90181]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1132", locked=False)
                 hbox:
@@ -28048,6 +29407,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90181]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1133", locked=False)
                     button:
@@ -28057,6 +29417,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90191]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1134", locked=False)
                 hbox:
@@ -28067,6 +29428,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90191]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1135", locked=False)
                     button:
@@ -28076,6 +29438,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90191]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1136", locked=False)
                 hbox:
@@ -28086,6 +29449,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90201]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1137", locked=False)
                     button:
@@ -28095,6 +29459,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90201]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1138", locked=False)
                 hbox:
@@ -28105,6 +29470,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90201]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1139", locked=False)
                     button:
@@ -28114,6 +29480,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90211]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1140", locked=False)
                 hbox:
@@ -28124,6 +29491,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90211]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1141", locked=False)
                     button:
@@ -28133,6 +29501,7 @@ screen quest1211():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90211]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1142", locked=False)
 screen quest1212():
@@ -28180,6 +29549,7 @@ screen quest1212():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90221]]\n(2017.12.27)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1151", locked=False)
 screen quest1213():
@@ -28216,6 +29586,7 @@ screen quest1213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90232]]\n作者：藤７８\n(2017.12 グランプリ受賞作品)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1161", locked=False)
                     button:
@@ -28225,6 +29596,7 @@ screen quest1213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90233]]\n作者：トム6W\n(2017.12 準グランプリ受賞作品)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1162", locked=False)
                 hbox:
@@ -28235,6 +29607,7 @@ screen quest1213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90234]]\n作者：月紅\n(2017.12 ブレイサー賞受賞作品)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1163", locked=False)
                     button:
@@ -28244,6 +29617,7 @@ screen quest1213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90235]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1164", locked=False)
                 hbox:
@@ -28254,6 +29628,7 @@ screen quest1213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90236]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1165", locked=False)
                     button:
@@ -28263,6 +29638,7 @@ screen quest1213():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[90237]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1166", locked=False)
 screen quest1214():
@@ -28299,6 +29675,7 @@ screen quest1214():
                         background Frame("bookpage", 35, 35)
                         text "新米遊撃士のクリスマス 1/3\n(2020.12.17)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1181", locked=False)
                     button:
@@ -28308,6 +29685,7 @@ screen quest1214():
                         background Frame("bookpage", 35, 35)
                         text "新米遊撃士のクリスマス 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1182", locked=False)
                 hbox:
@@ -28318,6 +29696,7 @@ screen quest1214():
                         background Frame("bookpage", 35, 35)
                         text "新米遊撃士のクリスマス 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1183", locked=False)
 screen quest1215():
@@ -28354,6 +29733,7 @@ screen quest1215():
                         background Frame("bookpage", 35, 35)
                         text "Heroes War！ 1/6\n(2022.10.13)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1190", locked=False)
                     button:
@@ -28363,6 +29743,7 @@ screen quest1215():
                         background Frame("bookpage", 35, 35)
                         text "Heroes War！ 2/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1191", locked=False)
                 hbox:
@@ -28373,6 +29754,7 @@ screen quest1215():
                         background Frame("bookpage", 35, 35)
                         text "Heroes War！ 3/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1192", locked=False)
                     button:
@@ -28382,6 +29764,7 @@ screen quest1215():
                         background Frame("bookpage", 35, 35)
                         text "Heroes War！ 4/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1193", locked=False)
                 hbox:
@@ -28392,6 +29775,7 @@ screen quest1215():
                         background Frame("bookpage", 35, 35)
                         text "Heroes War！ 5/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1194", locked=False)
                     button:
@@ -28401,6 +29785,7 @@ screen quest1215():
                         background Frame("bookpage", 35, 35)
                         text "Heroes War！ 6/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1195", locked=False)
 screen quest1216():
@@ -28440,6 +29825,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 1/10\n(2023.03.15)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1200", locked=False)
                     button:
@@ -28449,6 +29835,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 2/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1201", locked=False)
                 hbox:
@@ -28459,6 +29846,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 3/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1202", locked=False)
                     button:
@@ -28468,6 +29856,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 4/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1203", locked=False)
                 hbox:
@@ -28478,6 +29867,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 5/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1204", locked=False)
                     button:
@@ -28487,6 +29877,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 6/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1205", locked=False)
                 hbox:
@@ -28497,6 +29888,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 7/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1206", locked=False)
                     button:
@@ -28506,6 +29898,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 8/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1207", locked=False)
                 hbox:
@@ -28516,6 +29909,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 9/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1208", locked=False)
                     button:
@@ -28525,6 +29919,7 @@ screen quest1216():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99060]] 10/10":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1209", locked=False)
 screen quest1217():
@@ -28561,6 +29956,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 1/8\n(2023.06.14)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1212", locked=False)
                     button:
@@ -28570,6 +29966,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 2/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1213", locked=False)
                 hbox:
@@ -28580,6 +29977,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 3/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1214", locked=False)
                     button:
@@ -28589,6 +29987,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 4/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1215", locked=False)
                 hbox:
@@ -28599,6 +29998,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 5/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1216", locked=False)
                     button:
@@ -28608,6 +30008,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 6/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1217", locked=False)
                 hbox:
@@ -28618,6 +30019,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 7/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1218", locked=False)
                     button:
@@ -28627,6 +30029,7 @@ screen quest1217():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99070]] 8/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1219", locked=False)
 screen quest1218():
@@ -28663,6 +30066,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 1/7\n(2023.09.13)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1222", locked=False)
                     button:
@@ -28672,6 +30076,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 2/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1223", locked=False)
                 hbox:
@@ -28682,6 +30087,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 3/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1224", locked=False)
                     button:
@@ -28691,6 +30097,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 4/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1225", locked=False)
                 hbox:
@@ -28701,6 +30108,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 5/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1226", locked=False)
                     button:
@@ -28710,6 +30118,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 6/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1227", locked=False)
                 hbox:
@@ -28720,6 +30129,7 @@ screen quest1218():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99080]] 7/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1228", locked=False)
 screen quest1219():
@@ -28756,6 +30166,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 1/7\n(2023.12.20)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1231", locked=False)
                     button:
@@ -28765,6 +30176,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 2/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1232", locked=False)
                 hbox:
@@ -28775,6 +30187,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 3/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1233", locked=False)
                     button:
@@ -28784,6 +30197,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 4/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1234", locked=False)
                 hbox:
@@ -28794,6 +30208,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 5/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1235", locked=False)
                     button:
@@ -28803,6 +30218,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 6/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1236", locked=False)
                 hbox:
@@ -28813,6 +30229,7 @@ screen quest1219():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99090]] 7/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1237", locked=False)
 screen quest1220():
@@ -28849,6 +30266,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99321]]\n(2024.03.27)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1240", locked=False)
                     button:
@@ -28858,6 +30276,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99326]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1241", locked=False)
                 hbox:
@@ -28868,6 +30287,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99331]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1242", locked=False)
                     button:
@@ -28877,6 +30297,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99336]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1243", locked=False)
                 hbox:
@@ -28887,6 +30308,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99341]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1244", locked=False)
                     button:
@@ -28896,6 +30318,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99346]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1245", locked=False)
                 hbox:
@@ -28906,6 +30329,7 @@ screen quest1220():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[99351]]":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg1246", locked=False)
 screen quest1301():
@@ -28953,6 +30377,7 @@ screen quest1301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16501]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26005", locked=False)
                     button:
@@ -28962,6 +30387,7 @@ screen quest1301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16501]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26006", locked=False)
                 hbox:
@@ -28972,6 +30398,7 @@ screen quest1301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16501]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26007", locked=False)
                     button:
@@ -28981,6 +30408,7 @@ screen quest1301():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16501]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24502", locked=False)
 screen quest1302():
@@ -29028,6 +30456,7 @@ screen quest1302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16511]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26001", locked=False)
                     button:
@@ -29037,6 +30466,7 @@ screen quest1302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16511]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26002", locked=False)
                 hbox:
@@ -29047,6 +30477,7 @@ screen quest1302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16511]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26003", locked=False)
                     button:
@@ -29056,6 +30487,7 @@ screen quest1302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16511]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26004", locked=False)
                 hbox:
@@ -29066,6 +30498,7 @@ screen quest1302():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16511]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24501", locked=False)
 screen quest1303():
@@ -29113,6 +30546,7 @@ screen quest1303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16521]] 1/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26008", locked=False)
                     button:
@@ -29122,6 +30556,7 @@ screen quest1303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16521]] 2/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26009", locked=False)
                 hbox:
@@ -29132,6 +30567,7 @@ screen quest1303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16521]] 3/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26010", locked=False)
                     button:
@@ -29141,6 +30577,7 @@ screen quest1303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16521]] 4/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26011", locked=False)
                 hbox:
@@ -29151,6 +30588,7 @@ screen quest1303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16521]] 5/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26012", locked=False)
                     button:
@@ -29160,6 +30598,7 @@ screen quest1303():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16521]] 6/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24503", locked=False)
 screen quest1304():
@@ -29207,6 +30646,7 @@ screen quest1304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16531]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26013", locked=False)
                     button:
@@ -29216,6 +30656,7 @@ screen quest1304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16531]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26014", locked=False)
                 hbox:
@@ -29226,6 +30667,7 @@ screen quest1304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16531]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26015", locked=False)
                     button:
@@ -29235,6 +30677,7 @@ screen quest1304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16531]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26016", locked=False)
                 hbox:
@@ -29245,6 +30688,7 @@ screen quest1304():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16531]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24504", locked=False)
 screen quest1305():
@@ -29292,6 +30736,7 @@ screen quest1305():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16541]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24505", locked=False)
 screen quest1306():
@@ -29339,6 +30784,7 @@ screen quest1306():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16551]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24510", locked=False)
 screen quest1307():
@@ -29386,6 +30832,7 @@ screen quest1307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16561]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26017", locked=False)
                     button:
@@ -29395,6 +30842,7 @@ screen quest1307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16561]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26018", locked=False)
                 hbox:
@@ -29405,6 +30853,7 @@ screen quest1307():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16561]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24506", locked=False)
 screen quest1308():
@@ -29452,6 +30901,7 @@ screen quest1308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16571]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26019", locked=False)
                     button:
@@ -29461,6 +30911,7 @@ screen quest1308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16571]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26020", locked=False)
                 hbox:
@@ -29471,6 +30922,7 @@ screen quest1308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16571]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26021", locked=False)
                     button:
@@ -29480,6 +30932,7 @@ screen quest1308():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16571]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24507", locked=False)
 screen quest1309():
@@ -29527,6 +30980,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 1/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26022", locked=False)
                     button:
@@ -29536,6 +30990,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 2/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26023", locked=False)
                 hbox:
@@ -29546,6 +31001,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 3/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26024", locked=False)
                     button:
@@ -29555,6 +31011,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 4/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26025", locked=False)
                 hbox:
@@ -29565,6 +31022,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 5/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26026", locked=False)
                     button:
@@ -29574,6 +31032,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 6/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26027", locked=False)
                 hbox:
@@ -29584,6 +31043,7 @@ screen quest1309():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16581]] 7/7":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24508", locked=False)
 screen quest1310():
@@ -29631,6 +31091,7 @@ screen quest1310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16591]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26028", locked=False)
                     button:
@@ -29640,6 +31101,7 @@ screen quest1310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16591]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26029", locked=False)
                 hbox:
@@ -29650,6 +31112,7 @@ screen quest1310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16591]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26030", locked=False)
                     button:
@@ -29659,6 +31122,7 @@ screen quest1310():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16591]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24509", locked=False)
 screen quest1311():
@@ -29706,6 +31170,7 @@ screen quest1311():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16601]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24512", locked=False)
 screen quest1312():
@@ -29753,6 +31218,7 @@ screen quest1312():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16611]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24513", locked=False)
 screen quest1313():
@@ -29800,6 +31266,7 @@ screen quest1313():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16621]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24514", locked=False)
 screen quest1314():
@@ -29847,6 +31314,7 @@ screen quest1314():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16631]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24515", locked=False)
 screen quest1315():
@@ -29894,6 +31362,7 @@ screen quest1315():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16641]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24516", locked=False)
 screen quest1316():
@@ -29941,6 +31410,7 @@ screen quest1316():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16651]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24517", locked=False)
 screen quest1317():
@@ -29988,6 +31458,7 @@ screen quest1317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16661]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26031", locked=False)
                     button:
@@ -29997,6 +31468,7 @@ screen quest1317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16661]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26032", locked=False)
                 hbox:
@@ -30007,6 +31479,7 @@ screen quest1317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16661]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26033", locked=False)
                     button:
@@ -30016,6 +31489,7 @@ screen quest1317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16661]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg26034", locked=False)
                 hbox:
@@ -30026,6 +31500,7 @@ screen quest1317():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16661]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24511", locked=False)
 screen quest1318():
@@ -30073,6 +31548,7 @@ screen quest1318():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16681]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24518", locked=False)
 screen quest1319():
@@ -30120,6 +31596,7 @@ screen quest1319():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16691]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24520", locked=False)
 screen quest1320():
@@ -30167,6 +31644,7 @@ screen quest1320():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[16701]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24521", locked=False)
 screen quest1401():
@@ -30392,6 +31870,7 @@ screen quest1401():
                         background Frame("bookpage", 35, 35)
                         text "clear dialogue":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25901", locked=False)
 screen quest1402():
@@ -30453,6 +31932,7 @@ screen quest1402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13581]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24001", locked=False)
                     button:
@@ -30462,6 +31942,7 @@ screen quest1402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13581]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24076", locked=False)
                 hbox:
@@ -30472,6 +31953,7 @@ screen quest1402():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13591]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24002", locked=False)
 screen quest1403():
@@ -30533,6 +32015,7 @@ screen quest1403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13521]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24003", locked=False)
                     button:
@@ -30542,6 +32025,7 @@ screen quest1403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13521]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24004", locked=False)
                 hbox:
@@ -30552,6 +32036,7 @@ screen quest1403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13921]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24085", locked=False)
                     button:
@@ -30561,6 +32046,7 @@ screen quest1403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13921]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24086", locked=False)
                 hbox:
@@ -30571,6 +32057,7 @@ screen quest1403():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13531]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24005", locked=False)
 screen quest1404():
@@ -30625,6 +32112,7 @@ screen quest1404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13541]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24006", locked=False)
                     button:
@@ -30634,6 +32122,7 @@ screen quest1404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13541]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24007", locked=False)
                 hbox:
@@ -30644,6 +32133,7 @@ screen quest1404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13551]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24008", locked=False)
                     button:
@@ -30653,6 +32143,7 @@ screen quest1404():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13551]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24009", locked=False)
 screen quest1405():
@@ -30714,6 +32205,7 @@ screen quest1405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13561]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24010", locked=False)
                     button:
@@ -30723,6 +32215,7 @@ screen quest1405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13561]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24011", locked=False)
                 hbox:
@@ -30733,6 +32226,7 @@ screen quest1405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13951]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24091", locked=False)
                     button:
@@ -30742,6 +32236,7 @@ screen quest1405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13951]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24092", locked=False)
                 hbox:
@@ -30752,6 +32247,7 @@ screen quest1405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13571]] 1/2\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24012", locked=False)
                     button:
@@ -30761,6 +32257,7 @@ screen quest1405():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13571]] 2/2\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24013", locked=False)
 screen quest1406():
@@ -30822,6 +32319,7 @@ screen quest1406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13501]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24014", locked=False)
                     button:
@@ -30831,6 +32329,7 @@ screen quest1406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13501]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24015", locked=False)
                 hbox:
@@ -30841,6 +32340,7 @@ screen quest1406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13911]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24083", locked=False)
                     button:
@@ -30850,6 +32350,7 @@ screen quest1406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13911]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24084", locked=False)
                 hbox:
@@ -30860,6 +32361,7 @@ screen quest1406():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13511]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24016", locked=False)
 screen quest1407():
@@ -30921,6 +32423,7 @@ screen quest1407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13601]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24017", locked=False)
                     button:
@@ -30930,6 +32433,7 @@ screen quest1407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13601]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24018", locked=False)
                 hbox:
@@ -30940,6 +32444,7 @@ screen quest1407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13611]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24019", locked=False)
                     button:
@@ -30949,6 +32454,7 @@ screen quest1407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13611]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24020", locked=False)
                 hbox:
@@ -30959,6 +32465,7 @@ screen quest1407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13881]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24078", locked=False)
                     button:
@@ -30968,6 +32475,7 @@ screen quest1407():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13881]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24079", locked=False)
 screen quest1408():
@@ -31029,6 +32537,7 @@ screen quest1408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13621]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24021", locked=False)
                     button:
@@ -31038,6 +32547,7 @@ screen quest1408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13621]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24022", locked=False)
                 hbox:
@@ -31048,6 +32558,7 @@ screen quest1408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13631]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24023", locked=False)
                     button:
@@ -31057,6 +32568,7 @@ screen quest1408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13631]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24024", locked=False)
                 hbox:
@@ -31067,6 +32579,7 @@ screen quest1408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13891]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24080", locked=False)
                     button:
@@ -31076,6 +32589,7 @@ screen quest1408():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13891]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24077", locked=False)
 screen quest1409():
@@ -31137,6 +32651,7 @@ screen quest1409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13641]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24025", locked=False)
                     button:
@@ -31146,6 +32661,7 @@ screen quest1409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13641]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24026", locked=False)
                 hbox:
@@ -31156,6 +32672,7 @@ screen quest1409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13651]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24027", locked=False)
                     button:
@@ -31165,6 +32682,7 @@ screen quest1409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13651]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24028", locked=False)
                 hbox:
@@ -31175,6 +32693,7 @@ screen quest1409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13901]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24081", locked=False)
                     button:
@@ -31184,6 +32703,7 @@ screen quest1409():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13901]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24082", locked=False)
 screen quest1410():
@@ -31245,6 +32765,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13661]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24029", locked=False)
                     button:
@@ -31254,6 +32775,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13661]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24030", locked=False)
                 hbox:
@@ -31264,6 +32786,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13931]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24087", locked=False)
                     button:
@@ -31273,6 +32796,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13931]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24088", locked=False)
                 hbox:
@@ -31283,6 +32807,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13671]] 1/3\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24031", locked=False)
                     button:
@@ -31292,6 +32817,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13671]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24032", locked=False)
                 hbox:
@@ -31302,6 +32828,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13671]] 2/3\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24033", locked=False)
                     button:
@@ -31311,6 +32838,7 @@ screen quest1410():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13671]] 3/3\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24034", locked=False)
 screen quest1411():
@@ -31365,6 +32893,7 @@ screen quest1411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13691]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24037", locked=False)
                     button:
@@ -31374,6 +32903,7 @@ screen quest1411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13691]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24038", locked=False)
                 hbox:
@@ -31384,6 +32914,7 @@ screen quest1411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13681]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24035", locked=False)
                     button:
@@ -31393,6 +32924,7 @@ screen quest1411():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13681]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24036", locked=False)
 screen quest1412():
@@ -31447,6 +32979,7 @@ screen quest1412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13701]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24039", locked=False)
                     button:
@@ -31456,6 +32989,7 @@ screen quest1412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13701]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24040", locked=False)
                 hbox:
@@ -31466,6 +33000,7 @@ screen quest1412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13711]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24041", locked=False)
                     button:
@@ -31475,6 +33010,7 @@ screen quest1412():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13711]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24042", locked=False)
 screen quest1413():
@@ -31529,6 +33065,7 @@ screen quest1413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13721]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24043", locked=False)
                     button:
@@ -31538,6 +33075,7 @@ screen quest1413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13721]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24044", locked=False)
                 hbox:
@@ -31548,6 +33086,7 @@ screen quest1413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13731]] 1/3\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24045", locked=False)
                     button:
@@ -31557,6 +33096,7 @@ screen quest1413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13731]] 2/3\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24046", locked=False)
                 hbox:
@@ -31567,6 +33107,7 @@ screen quest1413():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13731]] 3/3\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24047", locked=False)
 screen quest1414():
@@ -31628,6 +33169,7 @@ screen quest1414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13741]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24048", locked=False)
                     button:
@@ -31637,6 +33179,7 @@ screen quest1414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13741]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24049", locked=False)
                 hbox:
@@ -31647,6 +33190,7 @@ screen quest1414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13751]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24050", locked=False)
                     button:
@@ -31656,6 +33200,7 @@ screen quest1414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13751]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24051", locked=False)
                 hbox:
@@ -31666,6 +33211,7 @@ screen quest1414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13961]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24093", locked=False)
                     button:
@@ -31675,6 +33221,7 @@ screen quest1414():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13961]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24094", locked=False)
 screen quest1415():
@@ -31743,6 +33290,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13941]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24052", locked=False)
                     button:
@@ -31752,6 +33300,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13941]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24053", locked=False)
                 hbox:
@@ -31762,6 +33311,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13981]]\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24097", locked=False)
                     button:
@@ -31771,6 +33321,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13981]]\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24098", locked=False)
                 hbox:
@@ -31781,6 +33332,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13761]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24054", locked=False)
                     button:
@@ -31790,6 +33342,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13761]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24055", locked=False)
                 hbox:
@@ -31800,6 +33353,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13771]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24089", locked=False)
                     button:
@@ -31809,6 +33363,7 @@ screen quest1415():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13771]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24090", locked=False)
 screen quest1416():
@@ -31863,6 +33418,7 @@ screen quest1416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13781]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24056", locked=False)
                     button:
@@ -31872,6 +33428,7 @@ screen quest1416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13781]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24057", locked=False)
                 hbox:
@@ -31882,6 +33439,7 @@ screen quest1416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13791]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24058", locked=False)
                     button:
@@ -31891,6 +33449,7 @@ screen quest1416():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13791]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24059", locked=False)
 screen quest1417():
@@ -31945,6 +33504,7 @@ screen quest1417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13801]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24060", locked=False)
                     button:
@@ -31954,6 +33514,7 @@ screen quest1417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13801]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24061", locked=False)
                 hbox:
@@ -31964,6 +33525,7 @@ screen quest1417():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13811]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24062", locked=False)
 screen quest1418():
@@ -32018,6 +33580,7 @@ screen quest1418():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13821]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24063", locked=False)
                     button:
@@ -32027,6 +33590,7 @@ screen quest1418():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13821]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24064", locked=False)
                 hbox:
@@ -32037,6 +33601,7 @@ screen quest1418():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13831]] 1/2\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24065", locked=False)
                     button:
@@ -32046,6 +33611,7 @@ screen quest1418():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13831]] 2/2\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24066", locked=False)
 screen quest1419():
@@ -32082,6 +33648,7 @@ screen quest1419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13841]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24067", locked=False)
                     button:
@@ -32091,6 +33658,7 @@ screen quest1419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13841]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24068", locked=False)
                 hbox:
@@ -32101,6 +33669,7 @@ screen quest1419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13851]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24069", locked=False)
                     button:
@@ -32110,6 +33679,7 @@ screen quest1419():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13851]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24070", locked=False)
 screen quest1420():
@@ -32146,6 +33716,7 @@ screen quest1420():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13861]]\n(unused) quest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24071", locked=False)
                     button:
@@ -32155,6 +33726,7 @@ screen quest1420():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13861]]\n(unused) conditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24072", locked=False)
                 hbox:
@@ -32165,6 +33737,7 @@ screen quest1420():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13871]] 1/2\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24073", locked=False)
                     button:
@@ -32174,6 +33747,7 @@ screen quest1420():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[13871]] 2/2\n(unused)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24074", locked=False)
 screen quest1421():
@@ -32210,6 +33784,7 @@ screen quest1421():
                         background Frame("bookpage", 35, 35)
                         text "unused or unknown\nquest complete":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24095", locked=False)
                     button:
@@ -32219,6 +33794,7 @@ screen quest1421():
                         background Frame("bookpage", 35, 35)
                         text "unused or unknown\nconditional":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg24096", locked=False)
 screen quest1501():
@@ -32255,6 +33831,7 @@ screen quest1501():
                         background Frame("bookpage", 35, 35)
                         text "Fishing Unlock Scene\n(Prologue)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg10020", locked=False)
                     button:
@@ -32264,6 +33841,7 @@ screen quest1501():
                         background Frame("bookpage", 35, 35)
                         text "Fisherman's Guild\n(Grancel, Chapter 1)":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg20036", locked=False)
 screen quest1502():
@@ -32311,6 +33889,7 @@ screen quest1502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[70776]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12193", locked=False)
                     button:
@@ -32320,6 +33899,7 @@ screen quest1502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[70776]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12194", locked=False)
                 hbox:
@@ -32330,6 +33910,7 @@ screen quest1502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[70776]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12195", locked=False)
                     button:
@@ -32339,6 +33920,7 @@ screen quest1502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[70776]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12196", locked=False)
                 hbox:
@@ -32349,6 +33931,7 @@ screen quest1502():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[70776]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12197", locked=False)
 screen quest1503():
@@ -32396,6 +33979,7 @@ screen quest1503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[71201]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12230", locked=False)
                     button:
@@ -32405,6 +33989,7 @@ screen quest1503():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[71201]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12233", locked=False)
 screen quest1504():
@@ -32452,6 +34037,7 @@ screen quest1504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[71226]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12234", locked=False)
                     button:
@@ -32461,6 +34047,7 @@ screen quest1504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[71226]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22235", locked=False)
                 hbox:
@@ -32471,6 +34058,7 @@ screen quest1504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[71226]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg22236", locked=False)
                     button:
@@ -32480,6 +34068,7 @@ screen quest1504():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[71226]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg12237", locked=False)
 screen quest1505():
@@ -32527,6 +34116,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 1/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25001", locked=False)
                     button:
@@ -32536,6 +34126,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 2/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25003", locked=False)
                 hbox:
@@ -32546,6 +34137,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 3/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25004", locked=False)
                     button:
@@ -32555,6 +34147,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 4/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25005", locked=False)
                 hbox:
@@ -32565,6 +34158,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 5/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25006", locked=False)
                     button:
@@ -32574,6 +34168,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 6/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25007", locked=False)
                 hbox:
@@ -32584,6 +34179,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 7/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25008", locked=False)
                     button:
@@ -32593,6 +34189,7 @@ screen quest1505():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14039]] 8/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25009", locked=False)
 screen quest1506():
@@ -32640,6 +34237,7 @@ screen quest1506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14048]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25010", locked=False)
                     button:
@@ -32649,6 +34247,7 @@ screen quest1506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14048]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25012", locked=False)
                 hbox:
@@ -32659,6 +34258,7 @@ screen quest1506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14048]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25013", locked=False)
                     button:
@@ -32668,6 +34268,7 @@ screen quest1506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14048]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25014", locked=False)
                 hbox:
@@ -32678,6 +34279,7 @@ screen quest1506():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14048]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25015", locked=False)
 screen quest1507():
@@ -32725,6 +34327,7 @@ screen quest1507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14057]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25016", locked=False)
                     button:
@@ -32734,6 +34337,7 @@ screen quest1507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14057]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25017", locked=False)
                 hbox:
@@ -32744,6 +34348,7 @@ screen quest1507():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14057]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25018", locked=False)
 screen quest1508():
@@ -32791,6 +34396,7 @@ screen quest1508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14063]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25019", locked=False)
                     button:
@@ -32800,6 +34406,7 @@ screen quest1508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14063]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25021", locked=False)
                 hbox:
@@ -32810,6 +34417,7 @@ screen quest1508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14063]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25022", locked=False)
                     button:
@@ -32819,6 +34427,7 @@ screen quest1508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14063]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25023", locked=False)
                 hbox:
@@ -32829,6 +34438,7 @@ screen quest1508():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14063]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25024", locked=False)
 screen quest1509():
@@ -32876,6 +34486,7 @@ screen quest1509():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14071]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25028", locked=False)
                     button:
@@ -32885,6 +34496,7 @@ screen quest1509():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14071]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25030", locked=False)
                 hbox:
@@ -32895,6 +34507,7 @@ screen quest1509():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14071]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25031", locked=False)
                     button:
@@ -32904,6 +34517,7 @@ screen quest1509():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14071]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25032", locked=False)
                 hbox:
@@ -32914,6 +34528,7 @@ screen quest1509():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14071]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25033", locked=False)
 screen quest1510():
@@ -32961,6 +34576,7 @@ screen quest1510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14079]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25034", locked=False)
                     button:
@@ -32970,6 +34586,7 @@ screen quest1510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14079]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25036", locked=False)
                 hbox:
@@ -32980,6 +34597,7 @@ screen quest1510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14079]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25037", locked=False)
                     button:
@@ -32989,6 +34607,7 @@ screen quest1510():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14079]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25039", locked=False)
 screen quest1511():
@@ -33036,6 +34655,7 @@ screen quest1511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14086]] 1/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25040", locked=False)
                     button:
@@ -33045,6 +34665,7 @@ screen quest1511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14086]] 2/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25042", locked=False)
                 hbox:
@@ -33055,6 +34676,7 @@ screen quest1511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14086]] 3/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25043", locked=False)
                     button:
@@ -33064,6 +34686,7 @@ screen quest1511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14086]] 4/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25044", locked=False)
                 hbox:
@@ -33074,6 +34697,7 @@ screen quest1511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14086]] 5/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25045", locked=False)
                     button:
@@ -33083,6 +34707,7 @@ screen quest1511():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14086]] 6/6":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25046", locked=False)
 screen quest1512():
@@ -33130,6 +34755,7 @@ screen quest1512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14095]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25047", locked=False)
                     button:
@@ -33139,6 +34765,7 @@ screen quest1512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14095]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25049", locked=False)
                 hbox:
@@ -33149,6 +34776,7 @@ screen quest1512():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14095]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25050", locked=False)
 screen quest1513():
@@ -33196,6 +34824,7 @@ screen quest1513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14102]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25051", locked=False)
                     button:
@@ -33205,6 +34834,7 @@ screen quest1513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14102]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25053", locked=False)
                 hbox:
@@ -33215,6 +34845,7 @@ screen quest1513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14102]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25054", locked=False)
                     button:
@@ -33224,6 +34855,7 @@ screen quest1513():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14102]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25055", locked=False)
 screen quest1514():
@@ -33271,6 +34903,7 @@ screen quest1514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14110]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25056", locked=False)
                     button:
@@ -33280,6 +34913,7 @@ screen quest1514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14110]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25058", locked=False)
                 hbox:
@@ -33290,6 +34924,7 @@ screen quest1514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14110]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25059", locked=False)
                     button:
@@ -33299,6 +34934,7 @@ screen quest1514():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14110]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25060", locked=False)
 screen quest1515():
@@ -33346,6 +34982,7 @@ screen quest1515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14117]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25061", locked=False)
                     button:
@@ -33355,6 +34992,7 @@ screen quest1515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14117]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25063", locked=False)
                 hbox:
@@ -33365,6 +35003,7 @@ screen quest1515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14117]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25064", locked=False)
                     button:
@@ -33374,6 +35013,7 @@ screen quest1515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14117]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25067", locked=False)
                 hbox:
@@ -33384,6 +35024,7 @@ screen quest1515():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14117]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25068", locked=False)
 screen quest1516():
@@ -33431,6 +35072,7 @@ screen quest1516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14126]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25069", locked=False)
                     button:
@@ -33440,6 +35082,7 @@ screen quest1516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14126]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25071", locked=False)
                 hbox:
@@ -33450,6 +35093,7 @@ screen quest1516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14126]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25073", locked=False)
                     button:
@@ -33459,6 +35103,7 @@ screen quest1516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14126]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25076", locked=False)
                 hbox:
@@ -33469,6 +35114,7 @@ screen quest1516():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14126]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25077", locked=False)
 screen quest1517():
@@ -33516,6 +35162,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 1/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25081", locked=False)
                     button:
@@ -33525,6 +35172,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 2/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25083", locked=False)
                 hbox:
@@ -33535,6 +35183,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 3/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25084", locked=False)
                     button:
@@ -33544,6 +35193,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 4/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25085", locked=False)
                 hbox:
@@ -33554,6 +35204,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 5/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25086", locked=False)
                     button:
@@ -33563,6 +35214,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 6/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25087", locked=False)
                 hbox:
@@ -33573,6 +35225,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 7/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25088", locked=False)
                     button:
@@ -33582,6 +35235,7 @@ screen quest1517():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14134]] 8/8":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25089", locked=False)
 screen quest1518():
@@ -33629,6 +35283,7 @@ screen quest1518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14143]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25090", locked=False)
                     button:
@@ -33638,6 +35293,7 @@ screen quest1518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14143]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25092", locked=False)
                 hbox:
@@ -33648,6 +35304,7 @@ screen quest1518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14143]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25093", locked=False)
                     button:
@@ -33657,6 +35314,7 @@ screen quest1518():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14143]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25095", locked=False)
 screen quest1519():
@@ -33704,6 +35362,7 @@ screen quest1519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14150]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25096", locked=False)
                     button:
@@ -33713,6 +35372,7 @@ screen quest1519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14150]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25098", locked=False)
                 hbox:
@@ -33723,6 +35383,7 @@ screen quest1519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14150]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25099", locked=False)
                     button:
@@ -33732,6 +35393,7 @@ screen quest1519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14150]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25100", locked=False)
                 hbox:
@@ -33742,6 +35404,7 @@ screen quest1519():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14150]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25101", locked=False)
 screen quest1520():
@@ -33789,6 +35452,7 @@ screen quest1520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14159]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25102", locked=False)
                     button:
@@ -33798,6 +35462,7 @@ screen quest1520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14159]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25104", locked=False)
                 hbox:
@@ -33808,6 +35473,7 @@ screen quest1520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14159]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25105", locked=False)
                     button:
@@ -33817,6 +35483,7 @@ screen quest1520():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14159]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25106", locked=False)
 screen quest1521():
@@ -33864,6 +35531,7 @@ screen quest1521():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14166]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25107", locked=False)
                     button:
@@ -33873,6 +35541,7 @@ screen quest1521():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14166]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25108", locked=False)
 screen quest1522():
@@ -33920,6 +35589,7 @@ screen quest1522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14174]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25109", locked=False)
                     button:
@@ -33929,6 +35599,7 @@ screen quest1522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14174]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25110", locked=False)
                 hbox:
@@ -33939,6 +35610,7 @@ screen quest1522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14174]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25111", locked=False)
                     button:
@@ -33948,6 +35620,7 @@ screen quest1522():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14174]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25112", locked=False)
 screen quest1523():
@@ -33995,6 +35668,7 @@ screen quest1523():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14182]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25113", locked=False)
                     button:
@@ -34004,6 +35678,7 @@ screen quest1523():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14182]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25114", locked=False)
                 hbox:
@@ -34014,6 +35689,7 @@ screen quest1523():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14182]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25801", locked=False)
 screen quest1524():
@@ -34061,6 +35737,7 @@ screen quest1524():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14189]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25119", locked=False)
                     button:
@@ -34070,6 +35747,7 @@ screen quest1524():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14189]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25120", locked=False)
                 hbox:
@@ -34080,6 +35758,7 @@ screen quest1524():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14189]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25121", locked=False)
                     button:
@@ -34089,6 +35768,7 @@ screen quest1524():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14189]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25122", locked=False)
 screen quest1525():
@@ -34136,6 +35816,7 @@ screen quest1525():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14197]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25123", locked=False)
                     button:
@@ -34145,6 +35826,7 @@ screen quest1525():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14197]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25125", locked=False)
                 hbox:
@@ -34155,6 +35837,7 @@ screen quest1525():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14197]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25126", locked=False)
                     button:
@@ -34164,6 +35847,7 @@ screen quest1525():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14197]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25127", locked=False)
 screen quest1526():
@@ -34211,6 +35895,7 @@ screen quest1526():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14205]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25128", locked=False)
                     button:
@@ -34220,6 +35905,7 @@ screen quest1526():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14205]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25129", locked=False)
                 hbox:
@@ -34230,6 +35916,7 @@ screen quest1526():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14205]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25130", locked=False)
                     button:
@@ -34239,6 +35926,7 @@ screen quest1526():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14205]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25131", locked=False)
 screen quest1527():
@@ -34286,6 +35974,7 @@ screen quest1527():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14212]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25132", locked=False)
                     button:
@@ -34295,6 +35984,7 @@ screen quest1527():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14212]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25134", locked=False)
                 hbox:
@@ -34305,6 +35995,7 @@ screen quest1527():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14212]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25135", locked=False)
 screen quest1528():
@@ -34352,6 +36043,7 @@ screen quest1528():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14219]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25136", locked=False)
                     button:
@@ -34361,6 +36053,7 @@ screen quest1528():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14219]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25137", locked=False)
                 hbox:
@@ -34371,6 +36064,7 @@ screen quest1528():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14219]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25138", locked=False)
 screen quest1529():
@@ -34418,6 +36112,7 @@ screen quest1529():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14227]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25139", locked=False)
                     button:
@@ -34427,6 +36122,7 @@ screen quest1529():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14227]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25140", locked=False)
                 hbox:
@@ -34437,6 +36133,7 @@ screen quest1529():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14227]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25141", locked=False)
 screen quest1530():
@@ -34484,6 +36181,7 @@ screen quest1530():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14234]] 1/1":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25142", locked=False)
 screen quest1531():
@@ -34531,6 +36229,7 @@ screen quest1531():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14240]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25146", locked=False)
                     button:
@@ -34540,6 +36239,7 @@ screen quest1531():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14240]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25147", locked=False)
                 hbox:
@@ -34550,6 +36250,7 @@ screen quest1531():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14240]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25148", locked=False)
                     button:
@@ -34559,6 +36260,7 @@ screen quest1531():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14240]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25149", locked=False)
 screen quest1532():
@@ -34606,6 +36308,7 @@ screen quest1532():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14247]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25150", locked=False)
                     button:
@@ -34615,6 +36318,7 @@ screen quest1532():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14247]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25152", locked=False)
                 hbox:
@@ -34625,6 +36329,7 @@ screen quest1532():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14247]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25153", locked=False)
                     button:
@@ -34634,6 +36339,7 @@ screen quest1532():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14247]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25154", locked=False)
 screen quest1533():
@@ -34681,6 +36387,7 @@ screen quest1533():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14256]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25155", locked=False)
                     button:
@@ -34690,6 +36397,7 @@ screen quest1533():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14256]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25156", locked=False)
                 hbox:
@@ -34700,6 +36408,7 @@ screen quest1533():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14256]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25157", locked=False)
                     button:
@@ -34709,6 +36418,7 @@ screen quest1533():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14256]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25158", locked=False)
 screen quest1534():
@@ -34756,6 +36466,7 @@ screen quest1534():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14262]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25159", locked=False)
                     button:
@@ -34765,6 +36476,7 @@ screen quest1534():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14262]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25160", locked=False)
                 hbox:
@@ -34775,6 +36487,7 @@ screen quest1534():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14262]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25161", locked=False)
 screen quest1535():
@@ -34822,6 +36535,7 @@ screen quest1535():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14268]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25162", locked=False)
                     button:
@@ -34831,6 +36545,7 @@ screen quest1535():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14268]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25802", locked=False)
 screen quest1536():
@@ -34878,6 +36593,7 @@ screen quest1536():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14274]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25163", locked=False)
                     button:
@@ -34887,6 +36603,7 @@ screen quest1536():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14274]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25164", locked=False)
                 hbox:
@@ -34897,6 +36614,7 @@ screen quest1536():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14274]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25165", locked=False)
                     button:
@@ -34906,6 +36624,7 @@ screen quest1536():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14274]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25166", locked=False)
 screen quest1537():
@@ -34953,6 +36672,7 @@ screen quest1537():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14282]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25167", locked=False)
                     button:
@@ -34962,6 +36682,7 @@ screen quest1537():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14282]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25169", locked=False)
                 hbox:
@@ -34972,6 +36693,7 @@ screen quest1537():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14282]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25170", locked=False)
                     button:
@@ -34981,6 +36703,7 @@ screen quest1537():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14282]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25171", locked=False)
                 hbox:
@@ -34991,6 +36714,7 @@ screen quest1537():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14282]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25172", locked=False)
 screen quest1538():
@@ -35038,6 +36762,7 @@ screen quest1538():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14290]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25173", locked=False)
                     button:
@@ -35047,6 +36772,7 @@ screen quest1538():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14290]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25175", locked=False)
                 hbox:
@@ -35057,6 +36783,7 @@ screen quest1538():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14290]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25176", locked=False)
                     button:
@@ -35066,6 +36793,7 @@ screen quest1538():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14290]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25177", locked=False)
                 hbox:
@@ -35076,6 +36804,7 @@ screen quest1538():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14290]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25178", locked=False)
 screen quest1539():
@@ -35123,6 +36852,7 @@ screen quest1539():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14299]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25179", locked=False)
                     button:
@@ -35132,6 +36862,7 @@ screen quest1539():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14299]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25180", locked=False)
                 hbox:
@@ -35142,6 +36873,7 @@ screen quest1539():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14299]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25181", locked=False)
 screen quest1540():
@@ -35189,6 +36921,7 @@ screen quest1540():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14307]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25182", locked=False)
                     button:
@@ -35198,6 +36931,7 @@ screen quest1540():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14307]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25183", locked=False)
                 hbox:
@@ -35208,6 +36942,7 @@ screen quest1540():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14307]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25184", locked=False)
 screen quest1541():
@@ -35255,6 +36990,7 @@ screen quest1541():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14314]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25185", locked=False)
                     button:
@@ -35264,6 +37000,7 @@ screen quest1541():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14314]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25186", locked=False)
                 hbox:
@@ -35274,6 +37011,7 @@ screen quest1541():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14314]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25187", locked=False)
 screen quest1542():
@@ -35321,6 +37059,7 @@ screen quest1542():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14320]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25188", locked=False)
                     button:
@@ -35330,6 +37069,7 @@ screen quest1542():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14320]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25189", locked=False)
                 hbox:
@@ -35340,6 +37080,7 @@ screen quest1542():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14320]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25190", locked=False)
                     button:
@@ -35349,6 +37090,7 @@ screen quest1542():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14320]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25191", locked=False)
 screen quest1543():
@@ -35396,6 +37138,7 @@ screen quest1543():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14327]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25192", locked=False)
                     button:
@@ -35405,6 +37148,7 @@ screen quest1543():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14327]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25194", locked=False)
                 hbox:
@@ -35415,6 +37159,7 @@ screen quest1543():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14327]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25195", locked=False)
 screen quest1544():
@@ -35462,6 +37207,7 @@ screen quest1544():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14334]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25196", locked=False)
                     button:
@@ -35471,6 +37217,7 @@ screen quest1544():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14334]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25198", locked=False)
                 hbox:
@@ -35481,6 +37228,7 @@ screen quest1544():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14334]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25199", locked=False)
                     button:
@@ -35490,6 +37238,7 @@ screen quest1544():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14334]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25200", locked=False)
 screen quest1545():
@@ -35537,6 +37286,7 @@ screen quest1545():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14342]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25201", locked=False)
                     button:
@@ -35546,6 +37296,7 @@ screen quest1545():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14342]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25202", locked=False)
                 hbox:
@@ -35556,6 +37307,7 @@ screen quest1545():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14342]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25203", locked=False)
                     button:
@@ -35565,6 +37317,7 @@ screen quest1545():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14342]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25204", locked=False)
 screen quest1546():
@@ -35612,6 +37365,7 @@ screen quest1546():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14348]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25205", locked=False)
                     button:
@@ -35621,6 +37375,7 @@ screen quest1546():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14348]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25206", locked=False)
                 hbox:
@@ -35631,6 +37386,7 @@ screen quest1546():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14348]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25207", locked=False)
 screen quest1547():
@@ -35678,6 +37434,7 @@ screen quest1547():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14355]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25208", locked=False)
                     button:
@@ -35687,6 +37444,7 @@ screen quest1547():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14355]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25209", locked=False)
                 hbox:
@@ -35697,6 +37455,7 @@ screen quest1547():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14355]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25210", locked=False)
                     button:
@@ -35706,6 +37465,7 @@ screen quest1547():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14355]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25211", locked=False)
 screen quest1548():
@@ -35753,6 +37513,7 @@ screen quest1548():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14363]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25212", locked=False)
                     button:
@@ -35762,6 +37523,7 @@ screen quest1548():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14363]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25214", locked=False)
                 hbox:
@@ -35772,6 +37534,7 @@ screen quest1548():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14363]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25215", locked=False)
                     button:
@@ -35781,6 +37544,7 @@ screen quest1548():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14363]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25216", locked=False)
                 hbox:
@@ -35791,6 +37555,7 @@ screen quest1548():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14363]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25217", locked=False)
 screen quest1549():
@@ -35838,6 +37603,7 @@ screen quest1549():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14372]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25218", locked=False)
                     button:
@@ -35847,6 +37613,7 @@ screen quest1549():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14372]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25219", locked=False)
                 hbox:
@@ -35857,6 +37624,7 @@ screen quest1549():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14372]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25220", locked=False)
                     button:
@@ -35866,6 +37634,7 @@ screen quest1549():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14372]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25221", locked=False)
 screen quest1550():
@@ -35913,6 +37682,7 @@ screen quest1550():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14380]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25222", locked=False)
                     button:
@@ -35922,6 +37692,7 @@ screen quest1550():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14380]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25223", locked=False)
 screen quest1551():
@@ -35969,6 +37740,7 @@ screen quest1551():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14386]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25224", locked=False)
                     button:
@@ -35978,6 +37750,7 @@ screen quest1551():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14386]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25225", locked=False)
                 hbox:
@@ -35988,6 +37761,7 @@ screen quest1551():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14386]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25226", locked=False)
 screen quest1552():
@@ -36035,6 +37809,7 @@ screen quest1552():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14393]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25227", locked=False)
                     button:
@@ -36044,6 +37819,7 @@ screen quest1552():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14393]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25228", locked=False)
                 hbox:
@@ -36054,6 +37830,7 @@ screen quest1552():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14393]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25229", locked=False)
                     button:
@@ -36063,6 +37840,7 @@ screen quest1552():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14393]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25230", locked=False)
 screen quest1553():
@@ -36110,6 +37888,7 @@ screen quest1553():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14401]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25231", locked=False)
                     button:
@@ -36119,6 +37898,7 @@ screen quest1553():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14401]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25232", locked=False)
                 hbox:
@@ -36129,6 +37909,7 @@ screen quest1553():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14401]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25233", locked=False)
                     button:
@@ -36138,6 +37919,7 @@ screen quest1553():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14401]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25234", locked=False)
 screen quest1554():
@@ -36185,6 +37967,7 @@ screen quest1554():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14409]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25235", locked=False)
                     button:
@@ -36194,6 +37977,7 @@ screen quest1554():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14409]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25237", locked=False)
                 hbox:
@@ -36204,6 +37988,7 @@ screen quest1554():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14409]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25238", locked=False)
                     button:
@@ -36213,6 +37998,7 @@ screen quest1554():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14409]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25239", locked=False)
 screen quest1555():
@@ -36260,6 +38046,7 @@ screen quest1555():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14417]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25240", locked=False)
                     button:
@@ -36269,6 +38056,7 @@ screen quest1555():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14417]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25241", locked=False)
 screen quest1556():
@@ -36316,6 +38104,7 @@ screen quest1556():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14423]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25242", locked=False)
                     button:
@@ -36325,6 +38114,7 @@ screen quest1556():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14423]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25244", locked=False)
                 hbox:
@@ -36335,6 +38125,7 @@ screen quest1556():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14423]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25245", locked=False)
                     button:
@@ -36344,6 +38135,7 @@ screen quest1556():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14423]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25246", locked=False)
 screen quest1557():
@@ -36391,6 +38183,7 @@ screen quest1557():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14431]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25247", locked=False)
                     button:
@@ -36400,6 +38193,7 @@ screen quest1557():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14431]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25803", locked=False)
                 hbox:
@@ -36410,6 +38204,7 @@ screen quest1557():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14431]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25804", locked=False)
 screen quest1558():
@@ -36457,6 +38252,7 @@ screen quest1558():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14437]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25248", locked=False)
                     button:
@@ -36466,6 +38262,7 @@ screen quest1558():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14437]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25249", locked=False)
                 hbox:
@@ -36476,6 +38273,7 @@ screen quest1558():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14437]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25250", locked=False)
 screen quest1559():
@@ -36523,6 +38321,7 @@ screen quest1559():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14444]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25251", locked=False)
                     button:
@@ -36532,6 +38331,7 @@ screen quest1559():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14444]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25252", locked=False)
                 hbox:
@@ -36542,6 +38342,7 @@ screen quest1559():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14444]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25253", locked=False)
 screen quest1560():
@@ -36589,6 +38390,7 @@ screen quest1560():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14451]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25254", locked=False)
                     button:
@@ -36598,6 +38400,7 @@ screen quest1560():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14451]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25255", locked=False)
                 hbox:
@@ -36608,6 +38411,7 @@ screen quest1560():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14451]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25256", locked=False)
                     button:
@@ -36617,6 +38421,7 @@ screen quest1560():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14451]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25257", locked=False)
                 hbox:
@@ -36627,6 +38432,7 @@ screen quest1560():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14451]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25258", locked=False)
 screen quest1561():
@@ -36674,6 +38480,7 @@ screen quest1561():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14459]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25259", locked=False)
                     button:
@@ -36683,6 +38490,7 @@ screen quest1561():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14459]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25260", locked=False)
                 hbox:
@@ -36693,6 +38501,7 @@ screen quest1561():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14459]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25261", locked=False)
                     button:
@@ -36702,6 +38511,7 @@ screen quest1561():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14459]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25262", locked=False)
 screen quest1562():
@@ -36749,6 +38559,7 @@ screen quest1562():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14467]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25263", locked=False)
                     button:
@@ -36758,6 +38569,7 @@ screen quest1562():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14467]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25265", locked=False)
                 hbox:
@@ -36768,6 +38580,7 @@ screen quest1562():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14467]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25266", locked=False)
 screen quest1563():
@@ -36815,6 +38628,7 @@ screen quest1563():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14474]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25267", locked=False)
                     button:
@@ -36824,6 +38638,7 @@ screen quest1563():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14474]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25269", locked=False)
                 hbox:
@@ -36834,6 +38649,7 @@ screen quest1563():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14474]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25270", locked=False)
 screen quest1564():
@@ -36881,6 +38697,7 @@ screen quest1564():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14481]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25271", locked=False)
                     button:
@@ -36890,6 +38707,7 @@ screen quest1564():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14481]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25805", locked=False)
                 hbox:
@@ -36900,6 +38718,7 @@ screen quest1564():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14481]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25806", locked=False)
                     button:
@@ -36909,6 +38728,7 @@ screen quest1564():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14481]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25807", locked=False)
 screen quest1565():
@@ -36956,6 +38776,7 @@ screen quest1565():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14489]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25272", locked=False)
                     button:
@@ -36965,6 +38786,7 @@ screen quest1565():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14489]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25273", locked=False)
                 hbox:
@@ -36975,6 +38797,7 @@ screen quest1565():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14489]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25276", locked=False)
 screen quest1566():
@@ -37022,6 +38845,7 @@ screen quest1566():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14495]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25277", locked=False)
                     button:
@@ -37031,6 +38855,7 @@ screen quest1566():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14495]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25279", locked=False)
                 hbox:
@@ -37041,6 +38866,7 @@ screen quest1566():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14495]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25280", locked=False)
                     button:
@@ -37050,6 +38876,7 @@ screen quest1566():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14495]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25281", locked=False)
                 hbox:
@@ -37060,6 +38887,7 @@ screen quest1566():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14495]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25282", locked=False)
 screen quest1567():
@@ -37107,6 +38935,7 @@ screen quest1567():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14504]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25283", locked=False)
                     button:
@@ -37116,6 +38945,7 @@ screen quest1567():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14504]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25284", locked=False)
                 hbox:
@@ -37126,6 +38956,7 @@ screen quest1567():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14504]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25285", locked=False)
                     button:
@@ -37135,6 +38966,7 @@ screen quest1567():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14504]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25286", locked=False)
 screen quest1568():
@@ -37182,6 +39014,7 @@ screen quest1568():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14512]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25287", locked=False)
                     button:
@@ -37191,6 +39024,7 @@ screen quest1568():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14512]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25289", locked=False)
                 hbox:
@@ -37201,6 +39035,7 @@ screen quest1568():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14512]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25290", locked=False)
                     button:
@@ -37210,6 +39045,7 @@ screen quest1568():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14512]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25291", locked=False)
                 hbox:
@@ -37220,6 +39056,7 @@ screen quest1568():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14512]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25292", locked=False)
 screen quest1569():
@@ -37267,6 +39104,7 @@ screen quest1569():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14521]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25293", locked=False)
                     button:
@@ -37276,6 +39114,7 @@ screen quest1569():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14521]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25295", locked=False)
                 hbox:
@@ -37286,6 +39125,7 @@ screen quest1569():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14521]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25296", locked=False)
 screen quest1570():
@@ -37333,6 +39173,7 @@ screen quest1570():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14528]] 1/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25297", locked=False)
                     button:
@@ -37342,6 +39183,7 @@ screen quest1570():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14528]] 2/2":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25298", locked=False)
 screen quest1571():
@@ -37389,6 +39231,7 @@ screen quest1571():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14535]] 1/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25299", locked=False)
                     button:
@@ -37398,6 +39241,7 @@ screen quest1571():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14535]] 2/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25301", locked=False)
                 hbox:
@@ -37408,6 +39252,7 @@ screen quest1571():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14535]] 3/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25302", locked=False)
                     button:
@@ -37417,6 +39262,7 @@ screen quest1571():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14535]] 4/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25303", locked=False)
                 hbox:
@@ -37427,6 +39273,7 @@ screen quest1571():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14535]] 5/5":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25304", locked=False)
 screen quest1572():
@@ -37474,6 +39321,7 @@ screen quest1572():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14544]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25305", locked=False)
                     button:
@@ -37483,6 +39331,7 @@ screen quest1572():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14544]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25306", locked=False)
                 hbox:
@@ -37493,6 +39342,7 @@ screen quest1572():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14544]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25307", locked=False)
                     button:
@@ -37502,6 +39352,7 @@ screen quest1572():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14544]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25310", locked=False)
 screen quest1573():
@@ -37549,6 +39400,7 @@ screen quest1573():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14551]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25311", locked=False)
                     button:
@@ -37558,6 +39410,7 @@ screen quest1573():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14551]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25808", locked=False)
                 hbox:
@@ -37568,6 +39421,7 @@ screen quest1573():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14551]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25809", locked=False)
 screen quest1574():
@@ -37615,6 +39469,7 @@ screen quest1574():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14557]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25312", locked=False)
                     button:
@@ -37624,6 +39479,7 @@ screen quest1574():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14557]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25314", locked=False)
                 hbox:
@@ -37634,6 +39490,7 @@ screen quest1574():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14557]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25315", locked=False)
 screen quest1575():
@@ -37681,6 +39538,7 @@ screen quest1575():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14564]] 1/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25316", locked=False)
                     button:
@@ -37690,6 +39548,7 @@ screen quest1575():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14564]] 2/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25317", locked=False)
                 hbox:
@@ -37700,6 +39559,7 @@ screen quest1575():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14564]] 3/3":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25318", locked=False)
 screen quest1576():
@@ -37747,6 +39607,7 @@ screen quest1576():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14570]] 1/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25319", locked=False)
                     button:
@@ -37756,6 +39617,7 @@ screen quest1576():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14570]] 2/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25321", locked=False)
                 hbox:
@@ -37766,6 +39628,7 @@ screen quest1576():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14570]] 3/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25322", locked=False)
                     button:
@@ -37775,6 +39638,7 @@ screen quest1576():
                         background Frame("bookpage", 35, 35)
                         text "[textdict[14570]] 4/4":
                             align (0.5,0.5)
+                            text_align 0.5
                             size 18
                         action Replay("avg25323", locked=False)
 return
