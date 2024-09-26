@@ -148,7 +148,7 @@ Everything was done with the goal of being as accurate as possible, but nothing 
 If someone were to attempt to translate Akatsuki's script and have it play from within Akatsui-Towa, for the most part, you would only need to create edited/translated copies of `text.json` and `avg_role.json`, and replace the files in `game/MonoBehaviour` with your newly created files, but there are some special circumstances to note:
  - Text may not fit, and either the frame or the text itself may need to be resized
    - for dialogue/character names, change the default text size in `game/gui.rpy`
-   - for menus/buttons, the easiest way may be to edit `generate_scripts/4_make_menus.py`, then re-generate and replace the renpy menus
+   - for menus/buttons, try changing some of the sizes in 'CONFIG.rpy', or you can change an individual button by editing 'episodelist.rpy' directly.
  - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
    - these buttons have their `strID` value set to `null`
    - edit the button's `name` value directly, then re-generate and replace the renpy menus

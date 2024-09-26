@@ -186,16 +186,16 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 
 		f.write('                vbox:\n')
 		f.write('                    button:\n')
-		f.write('                        xysize(330,37)\n')
+		f.write('                        xysize (tabwidth,37)\n')
 		f.write('                        xpos 2\n')
 		f.write('                        background Frame("booktab1")\n')
 		f.write('                        bottom_padding 4\n')
 		f.write(f'                        text "{level0}":\n')
 		f.write('                            xalign (0.5)\n')
 		f.write('                            ypos -2\n')
-		f.write('                             #size 10\n')
+		f.write('                            size tabtextsize\n')
 		f.write('                    viewport:\n')
-		f.write('                        xsize 355\n')
+		f.write('                        xsize (tabwidth+25)\n')
 		f.write('                        ysize 0.96\n')
 		f.write('                        draggable True\n')
 		f.write('                        mousewheel True\n')
@@ -217,13 +217,13 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 			else: level1 = quest['name']
 			
 			f.write('                            button:\n')
-			f.write('                                xysize(330,37)\n')
+			f.write('                                xysize (tabwidth,37)\n')
 			f.write('                                background Frame("booktab2")\n')
 			f.write('                                bottom_padding 4\n')
 			f.write(f'                                text "{level1}":\n')
 			f.write('                                    xalign 0.5\n')
 			f.write('                                    ypos -2\n')
-			f.write('                                    #size 10\n')
+			f.write('                                    size tabtextsize\n')
 			f.write(f'                                action ShowMenu("{scenemenu}")\n')
 
 
@@ -282,11 +282,10 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 			f.write('        viewport:\n')
 			f.write('            xpos 119\n')
 			f.write('            xsize 720\n')
-			#don't add a scrollbar if there aren't enough buttons to fill the screen
-			if len(quest['level2']) > 8:
-				f.write('            draggable True\n')
-				f.write('            mousewheel True\n')
-				f.write('            scrollbars "vertical"\n')	
+			f.write('            draggable True\n')
+			f.write('            mousewheel True\n')
+			f.write('            scrollbars "vertical"\n')	
+			f.write('            vscrollbar_unscrollable "hide"\n')
 			f.write('            vbox:\n')
 			f.write('                xsize 700\n')
 
@@ -299,14 +298,14 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 			else: level1 = quest['name']
 			
 			f.write('                button:\n')
-			f.write('                    xysize(330,37)\n')
+			f.write('                    xysize (tabwidth,37)\n')
 			f.write('                    xalign 0.5\n')
 			f.write('                    background Frame("booktab2")\n')
 			f.write('                    bottom_padding 4\n')
 			f.write(f'                    text "{level1}":\n')
 			f.write('                        xalign (0.5)\n')
 			f.write('                        ypos -2\n')
-			f.write('                         #size 10\n')
+			f.write('                        size tabtextsize\n')
 			
 			f.write('                hbox:\n')
 			hboxcount = 0	
@@ -341,14 +340,14 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 					hboxcount = 0
 					
 				f.write('                    button:\n')
-				f.write('                        xysize(350,108)\n')
+				f.write('                        xysize (350,pageheight)\n')
 				f.write('                        left_padding 4\n')
 				f.write('                        right_padding 20\n')
 				f.write('                        background Frame("bookpage", 35, 35)\n')
 				f.write(f'                        text "{level2}":\n')
 				f.write('                            align (0.5,0.5)\n')
 				f.write('                            text_align 0.5\n')
-				f.write('                            size 18\n')
+				f.write('                            size pagetextsize\n')
 				f.write(f'                        action Replay("avg{avgnumber}", locked=False)\n')
 				
 				hboxcount+=1
@@ -414,6 +413,6 @@ with open((outputdirec / "questlog.rpy"),'w', encoding="utf-8") as f:
 		#write log
 		f.write(f'                    text "{fulltext}":\n')
 		f.write('                        align (0.5,0.2)\n')
-		f.write('                        size 16\n')
+		f.write('                        size logtextsize\n')
 				
 	f.write('return')
