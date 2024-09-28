@@ -31,11 +31,9 @@ python early:
     avgroledict = dict()
     for i in range(0, len(avgrole_json['_rows'])):
         i = avgrole_json['_rows'][i]
-        avgroleid = i['_id']
-        avgroledict[avgroleid] = {
-        'roleName': i["_roleName"],
-        'folderName': i["_folderName"],
-        'xPosition': i['_xPostion']
-        }
 
+        avgroleid = i['_id']
+        avgrolename = i["_roleName"]
+
+        avgroledict[avgroleid] = avgrolename
 return
