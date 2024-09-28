@@ -40,6 +40,7 @@ To build into an .exe:
      - then build it from the "Build Distributions" menu within Ren'Py.
      - or, you can just "Launch Project" from inside Ren'Py.
 
+NOTE: if you get an error when launching that says Ren'Py can't find a file, it may be because the `game` folder is inside of too many other folders.  Try moving it out of the parent folder.
 
 ---
 
@@ -148,7 +149,7 @@ Everything was done with the goal of being as accurate as possible, but nothing 
 If someone were to attempt to translate Akatsuki's script and have it play from within Akatsui-Towa, for the most part, you would only need to create edited/translated copies of `text.json` and `avg_role.json`, and replace the files in `game/MonoBehaviour` with your newly created files, but there are some special circumstances to note:
  - Text may not fit, and either the frame or the text itself may need to be resized
    - for dialogue/character names, change the default text size in `game/gui.rpy`
-   - for menus/buttons, try changing some of the sizes in 'CONFIG.rpy', or you can change an individual button by editing 'episodelist.rpy' directly.
+   - for menus/buttons, try changing some of the sizes in `CONFIG.rpy`, or you can change an individual button by editing it in 'episodelist.rpy' directly.
  - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
    - these buttons have their `strID` value set to `null`
    - edit the button's `name` value directly, then re-generate and replace the renpy menus
@@ -157,7 +158,7 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
 
 ---
 
-**Ren'Py Disclaimer**:  
-This program contains free software licensed under a number of licenses,
+# **Ren'Py Disclaimer**:  
+**This program contains free software licensed under a number of licenses,
 including the GNU Lesser General Public License. A complete list of software
-is available at http://www.renpy.org/doc/html/license.html.
+is available at http://www.renpy.org/doc/html/license.html.**
