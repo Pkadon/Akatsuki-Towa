@@ -22,7 +22,7 @@ show oc003_01 7 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1179303]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1179304]]'
+c0 '[textdict[1179304]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179305]]'
 hide c1portrait
@@ -32,7 +32,7 @@ c31 '[textdict[1179306]]'
 play sfx2 "other_7044.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1179307]]'
+c0 '[textdict[1179307]]'
 c12571 '[textdict[1179308]]'
 show oc003_01 1 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1179309]]'
@@ -44,14 +44,14 @@ show oc003_01 1 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1179311]]'
 play sfx2 "other_7047.ogg"
 hide c3portrait
-c00 '[textdict[1179312]]'
+c0 '[textdict[1179312]]'
 scene avg_bg_077
 with fade
 c14341 '[textdict[1179313]]'
 show oc003_01 16 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1179314]]'
 hide c3portrait
-c00 '[textdict[1179315]]'
+c0 '[textdict[1179315]]'
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1179316]]'
 hide c3portrait

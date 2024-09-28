@@ -28,7 +28,7 @@ c31 '[textdict[1166932]]'
 play sfx2 "other_7088.ogg"
 hide c3portrait
 hide c4portrait
-c00 '[textdict[1166933]]'
+c0 '[textdict[1166933]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166934]]'
 hide c1portrait
@@ -43,7 +43,7 @@ c31 '[textdict[1166936]]'
 play sfx2 "other_7059.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1166937]]'
+c0 '[textdict[1166937]]'
 play music "ed7151.ogg"
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166938]]'
@@ -103,7 +103,7 @@ show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1166949]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1166950]]'
-c00 '[textdict[1166951]]'
-c00 '[textdict[1166952]]'
+c0 '[textdict[1166950]]'
+c0 '[textdict[1166951]]'
+c0 '[textdict[1166952]]'
 return

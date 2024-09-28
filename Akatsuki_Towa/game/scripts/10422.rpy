@@ -22,8 +22,8 @@ hide c4portrait
 hide c1portrait
 play sfx2 "other_7022.ogg"
 with fade
-c00 '[textdict[1141074]]'
-c00 '[textdict[1141075]]'
+c0 '[textdict[1141074]]'
+c0 '[textdict[1141075]]'
 play sfxvoice "avg_vocal_li31.ogg"
 show oc004_01 12 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1141076]]'

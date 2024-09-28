@@ -4,7 +4,7 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_074
 with fade
-c00 '[textdict[1171259]]'
+c0 '[textdict[1171259]]'
 show oc005_01 1 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1171260]]'
 hide c5portrait
@@ -16,7 +16,7 @@ hide c2portrait
 show oc002_01 2 as c2portrait at darkright(-3), zorder 5
 c14291 '[textdict[1171262]]'
 hide c2portrait
-c00 '[textdict[1171263]]'
+c0 '[textdict[1171263]]'
 c14291 '[textdict[1171264]]'
 show oc002_01 9 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171265]]'
@@ -71,7 +71,7 @@ show oc005_01 7 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1171280]]'
 scene avg_bg_207
 with fade
-c00 '[textdict[1171281]]'
+c0 '[textdict[1171281]]'
 show oc002_01 2 as c2portrait at rightsideentrance(-3), zorder 5
 c23 '[textdict[1171282]]'
 hide c2portrait
@@ -87,7 +87,7 @@ hide c2portrait
 show oc002_01 14 as c2portrait at darkright(-3), zorder 5
 c14301 '[textdict[1171286]]'
 hide c2portrait
-c00 '[textdict[1171287]]'
+c0 '[textdict[1171287]]'
 c14301 '[textdict[1171288]]'
 c14301 '[textdict[1171289]]'
 show oc005_01 1 as c5portrait at rightside(-6), zorder 5

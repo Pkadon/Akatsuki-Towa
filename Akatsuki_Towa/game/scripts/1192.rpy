@@ -164,7 +164,7 @@ stop music
 play sfx2 "other_7057.ogg"
 hide c2634portrait
 hide c2631portrait
-c00 '[textdict[2107339]]' with shake
+c0 '[textdict[2107339]]' with shake
 stop music
 show ocb01_01 14 as c2634portrait at leftside(-2), zorder 5
 c26341 '[textdict[2107340]]'
@@ -207,7 +207,7 @@ stop music
 play sfx2 "other_7088.ogg"
 hide c2634portrait
 hide c2631portrait
-c00 '[textdict[2107347]]'
+c0 '[textdict[2107347]]'
 play music "ed7518.ogg"
 play sfx2 "other_7004.ogg"
 show ocb01_01 16 as c2626portrait at leftside(-2), zorder 5
@@ -341,5 +341,5 @@ show ocb01_01 15 as c2626portrait at leftside(-2), zorder 5
 c26261 '[textdict[2107376]]' (what_size=24) with shake
 hide c2626portrait
 hide c2631portrait
-c00 '[textdict[2107377]]'
+c0 '[textdict[2107377]]'
 return

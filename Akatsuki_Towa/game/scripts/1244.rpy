@@ -14,7 +14,7 @@ show ocd03_01 3 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113157]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2113158]]'
+c0 '[textdict[2113158]]'
 stop music
 scene avg_bg_058
 with fade
@@ -98,14 +98,14 @@ show ocd03_01 2 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113178]]'
 play music "ed7562.ogg"
 hide c2667portrait
-c00 '[textdict[2113179]]'
+c0 '[textdict[2113179]]'
 show ocd03_01 2 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113180]]'
 hide c2667portrait
 show ocd03_01 2 as c2667portrait at darkright(-6), zorder 5
 c27781 '[textdict[2113181]]'
 hide c2667portrait
-c00 '[textdict[2113182]]'
+c0 '[textdict[2113182]]'
 show ocd03_01 11 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113183]]'
 hide c2667portrait
@@ -115,11 +115,11 @@ hide c2667portrait
 show ocd03_01 19 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113185]]'
 hide c2667portrait
-c00 '[textdict[2113186]]'
+c0 '[textdict[2113186]]'
 show ocd03_01 20 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113187]]'
 hide c2667portrait
-c00 '[textdict[2113188]]'
+c0 '[textdict[2113188]]'
 scene avg_bg_518
 show memoryoverlay zorder 2
 with fade
@@ -139,7 +139,7 @@ c26673 '[textdict[2113195]]'
 scene avg_bg_058
 hide memoryoverlay
 with fade
-c00 '[textdict[2113196]]'
+c0 '[textdict[2113196]]'
 show ocd03_01 19 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113197]]'
 stop music
@@ -198,7 +198,7 @@ c26601 '[textdict[2113207]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2113208]]'
+c0 '[textdict[2113208]]'
 play music "ed7565.ogg"
 scene avg_bg_050
 with fade
@@ -292,7 +292,7 @@ stop music
 play sfx2 "other_7011.ogg"
 hide c2669portrait
 hide c2667portrait
-c00 '[textdict[2113230]]' (what_size=24) with shake
+c0 '[textdict[2113230]]' (what_size=24) with shake
 stop music
 play sfx2 "other_7011.ogg"
 show ocd03_01 12 as c2667portrait at rightside(-6), zorder 5
@@ -325,7 +325,7 @@ c26691 '[textdict[2113236]]'
 play music "ed7514.ogg"
 hide c2669portrait
 hide c2667portrait
-c00 '[textdict[2113237]]'
+c0 '[textdict[2113237]]'
 show oca05_01 8 as c2669portrait at leftside(-6), zorder 5
 c26691 '[textdict[2113238]]'
 hide c2669portrait

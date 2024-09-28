@@ -205,7 +205,7 @@ c31 '[textdict[1001405]]'
 play sfx2 "other_7018.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1001406]]'
+c0 '[textdict[1001406]]'
 play sfx2 "other_7046.ogg"
 show sc013_01 1 as c21portrait at rightsideentrance(-12), zorder 5
 c213 '[textdict[1001407]]'
@@ -237,7 +237,7 @@ c203 '[textdict[1001412]]'
 play sfx2 "other_7018.ogg"
 hide c21portrait
 hide c20portrait
-c00 '[textdict[1001413]]'
+c0 '[textdict[1001413]]'
 play sfx2 "other_7046.ogg"
 show st007_01 2 as c207portrait at leftsideentrance(-6), zorder 5
 c2071 '[textdict[1001414]]'
@@ -331,7 +331,7 @@ c23 '[textdict[1001431]]'
 play sfx2 "other_7060.ogg"
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1001432]]'
+c0 '[textdict[1001432]]'
 show oc004_01 9 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1001433]]'
 hide c4portrait

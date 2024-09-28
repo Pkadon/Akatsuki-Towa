@@ -115,7 +115,7 @@ c451 '[textdict[2112319]]'
 play sfx2 "other_7004.ogg"
 hide c45portrait
 hide c47portrait
-c00 '[textdict[2112320]]'
+c0 '[textdict[2112320]]'
 show sc040_01 2 as c47portrait at rightside(-9), shakeright, zorder 5
 c473 '[textdict[2112321]]'
 hide c47portrait
@@ -184,7 +184,7 @@ show sc038_01 6 as c45portrait at leftside(-1), zorder 5
 c451 '[textdict[2112334]]'
 scene avg_bg_019
 with fade
-c00 '[textdict[2112335]]'
-c00 '[textdict[2112336]]'
-c00 '[textdict[2112337]]'
+c0 '[textdict[2112335]]'
+c0 '[textdict[2112336]]'
+c0 '[textdict[2112337]]'
 return

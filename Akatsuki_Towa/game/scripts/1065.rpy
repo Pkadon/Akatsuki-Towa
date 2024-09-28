@@ -4,8 +4,8 @@ stop music
 play music "ed7113.ogg"
 scene avg_bg_021
 with fade
-c00 '[textdict[2101206]]'
-c00 '[textdict[2101207]]'
+c0 '[textdict[2101206]]'
+c0 '[textdict[2101207]]'
 show sc058_01 5 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101208]]'
 hide c63portrait
@@ -44,8 +44,8 @@ show st005_01 4 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101215]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2101216]]'
-c00 '[textdict[2101217]]'
+c0 '[textdict[2101216]]'
+c0 '[textdict[2101217]]'
 scene avg_bg_025
 with fade
 show st002_01 4 as c202portrait at leftside(-9), zorder 5
@@ -55,8 +55,8 @@ show st002_01 4 as c202portrait at darkleft(-9), zorder 6
 c25113 '[textdict[2101219]]'
 hide c202portrait
 c25071 '[textdict[2101220]]'
-c00 '[textdict[2101221]]'
-c00 '[textdict[2101222]]'
+c0 '[textdict[2101221]]'
+c0 '[textdict[2101222]]'
 show sc058_01 4 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101223]]'
 hide c63portrait
@@ -82,15 +82,15 @@ show st005_01 2 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101229]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101230]]'
+c0 '[textdict[2101230]]'
 stop music
-c00 '[textdict[2101231]]'
+c0 '[textdict[2101231]]'
 play music "ed7151.ogg"
 show st005_01 4 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101232]]'
 play sfx2 "fight_6010.ogg"
 hide c205portrait
-c00 '[textdict[2101233]]' with shake
+c0 '[textdict[2101233]]' with shake
 show sc058_01 2 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101234]]'
 hide c63portrait
@@ -158,22 +158,22 @@ stop music
 hide c202portrait
 c25061 '[textdict[2101250]]'
 play music "ed7500.ogg"
-c00 '[textdict[2101251]]'
-c00 '[textdict[2101252]]'
-c00 '[textdict[2101253]]'
-c00 '[textdict[2101254]]'
-c00 '[textdict[2101255]]'
-c00 '[textdict[2101256]]'
-c00 '[textdict[2101257]]'
+c0 '[textdict[2101251]]'
+c0 '[textdict[2101252]]'
+c0 '[textdict[2101253]]'
+c0 '[textdict[2101254]]'
+c0 '[textdict[2101255]]'
+c0 '[textdict[2101256]]'
+c0 '[textdict[2101257]]'
 play sfx2 "other_7063.ogg"
-c00 '[textdict[2101258]]'
-c00 '[textdict[2101259]]'
+c0 '[textdict[2101258]]'
+c0 '[textdict[2101259]]'
 show st005_01 5 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101260]]'
 hide c205portrait
-c00 '[textdict[2101261]]'
+c0 '[textdict[2101261]]'
 stop music
-c00 '[textdict[2101262]]'
+c0 '[textdict[2101262]]'
 stop music
 show st002_01 3 as c202portrait at leftside(-9), zorder 5
 c2021 '[textdict[2101263]]'

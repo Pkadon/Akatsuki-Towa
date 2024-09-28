@@ -106,7 +106,7 @@ c41 '[textdict[1004241]]'
 scene avg_bg_054
 with fade
 play sfx2 "other_7042.ogg"
-c00 '[textdict[1004242]]'
+c0 '[textdict[1004242]]'
 play sfxvoice "avg_vocal_li03.ogg"
 show oc004_01 1 as c4portrait at leftsideentrance(-5), zorder 5
 c41 '[textdict[1004243]]'

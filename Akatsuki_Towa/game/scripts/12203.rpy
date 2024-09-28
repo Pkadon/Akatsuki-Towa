@@ -51,8 +51,8 @@ show sc040_01 1 as c47portrait at leftside(-9), zorder 5
 c471 '[textdict[1128705]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1128706]]'
-c00 '[textdict[1128707]]'
+c0 '[textdict[1128706]]'
+c0 '[textdict[1128707]]'
 play music "ed7518.ogg"
 scene avg_bg_034
 with fade

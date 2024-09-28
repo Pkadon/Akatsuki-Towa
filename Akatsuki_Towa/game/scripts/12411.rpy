@@ -129,5 +129,5 @@ show uc003_04 1 as c1046portrait at leftside(-14), zorder 5
 c10461 '[textdict[1142628]]'
 hide c1046portrait
 hide c1portrait
-c00 '[textdict[1142629]]'
+c0 '[textdict[1142629]]'
 return

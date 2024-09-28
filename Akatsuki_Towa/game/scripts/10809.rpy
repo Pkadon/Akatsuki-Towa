@@ -71,7 +71,7 @@ hide c239portrait
 show st040_01 1 as c239portrait at darkleft(-19), zorder 6
 c5003 '[textdict[1181649]]'
 hide c239portrait
-c00 '[textdict[1181650]]'
+c0 '[textdict[1181650]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1181651]]'
 hide c1portrait
@@ -146,8 +146,8 @@ c23 '[textdict[1181665]]'
 play music "ed7513.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1181666]]'
-c00 '[textdict[1181667]]'
+c0 '[textdict[1181666]]'
+c0 '[textdict[1181667]]'
 scene avg_bg_063
 with fade
 c2381 '[textdict[1181668]]'
@@ -165,7 +165,7 @@ with fade
 c2381 '[textdict[1181672]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1181673]]'
+c0 '[textdict[1181673]]'
 scene avg_bg_023
 with fade
 show oc003_01 1 as c3portrait at rightside(-6), zorder 5
@@ -231,7 +231,7 @@ show st040_01 4 as c239portrait at darkleft(-19), zorder 6
 c5003 '[textdict[1181686]]'
 play sfx2 "other_7047.ogg"
 hide c239portrait
-c00 '[textdict[1181687]]'
+c0 '[textdict[1181687]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1181688]]'
 hide c1portrait
@@ -440,7 +440,7 @@ show st040_01 1 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1181729]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1181730]]'
-c00 '[textdict[1181731]]'
-c00 '[textdict[1181732]]'
+c0 '[textdict[1181730]]'
+c0 '[textdict[1181731]]'
+c0 '[textdict[1181732]]'
 return

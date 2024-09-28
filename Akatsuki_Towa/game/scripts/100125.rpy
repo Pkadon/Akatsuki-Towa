@@ -5,7 +5,7 @@ stop music
 scene placeholderbackground
 with fade
 show sc001_01 2 as c9portrait at centerpos(-11), zorder 5
-c92 '[textdict[1218088]]'
+c93 '[textdict[1218088]]'
 stop music
 play sfxvoice "bcv_oc002_win_02.ogg"
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5

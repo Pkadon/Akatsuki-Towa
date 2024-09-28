@@ -301,7 +301,7 @@ c23 '[textdict[1001144]]'
 play sfx2 "other_7071.ogg"
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1001145]]'
+c0 '[textdict[1001145]]'
 play sfx2 "other_7073.ogg"
 play sfxvoice "avg_vocal_ch12.ogg"
 hide Image1

@@ -4,7 +4,7 @@ stop music
 play music "ed6324.ogg"
 scene placeholderbackground
 with fade
-c00 '[textdict[1164098]]'
+c0 '[textdict[1164098]]'
 scene avg_bg_070
 with fade
 show oc002_01 2 as c2portrait at leftsideentrance(-3), zorder 5

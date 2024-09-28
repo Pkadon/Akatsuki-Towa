@@ -42,7 +42,7 @@ show oc004_01 16 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1164741]]' with shake
 hide c2portrait
 hide c4portrait
-c00 '[textdict[1164742]]'
+c0 '[textdict[1164742]]'
 show st027_01 1 as c226portrait at leftside(5), zorder 5
 c2261 '[textdict[1164743]]'
 hide c226portrait

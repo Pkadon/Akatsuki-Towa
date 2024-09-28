@@ -64,7 +64,7 @@ play music "ed7510.ogg"
 play sfx2 "other_7031.ogg"
 hide c1051portrait
 hide c4portrait
-c00 '[textdict[1132694]]'
+c0 '[textdict[1132694]]'
 play sfx2 "other_7079.ogg"
 c10531 '[textdict[1132695]]' (what_size=26)
 play sfx2 "other_7080.ogg"

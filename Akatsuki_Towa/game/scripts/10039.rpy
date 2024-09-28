@@ -157,7 +157,7 @@ c11 '[textdict[1003410]]'
 stop music
 play sfx2 "other_7064.ogg"
 hide c1portrait
-c00 '[textdict[1003411]]'
+c0 '[textdict[1003411]]'
 stop music
 show st012_01 2 as c211portrait at rightside(-6), zorder 5
 c2113 '[textdict[1003412]]'

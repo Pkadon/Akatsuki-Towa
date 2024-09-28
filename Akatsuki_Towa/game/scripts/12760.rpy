@@ -51,7 +51,7 @@ c14531 '[textdict[1174480]]'
 play sfx2 "other_7085.ogg"
 hide c1453portrait
 hide c1portrait
-c00 '[textdict[1174481]]'
+c0 '[textdict[1174481]]'
 scene avg_bg_036
 with fade
 show st057_01 4 as c1453portrait at leftside(-16), zorder 5
@@ -94,7 +94,7 @@ c13043 '[textdict[1174489]]'
 play sfx2 "other_7080.ogg"
 hide c1453portrait
 hide c1304portrait
-c00 '[textdict[1174490]]' with shake
+c0 '[textdict[1174490]]' with shake
 show st057_01 4 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174491]]'
 hide c1453portrait
@@ -111,7 +111,7 @@ hide c1453portrait
 show st057_01 4 as c1453portrait at darkleft(-16), zorder 6
 c14613 '[textdict[1174494]]'
 hide c1453portrait
-c00 '[textdict[1174495]]'
+c0 '[textdict[1174495]]'
 show st057_01 1 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174496]]'
 hide c1453portrait
@@ -125,7 +125,7 @@ show st057_01 3 as c1453portrait at leftside(-16), shakeleft, zorder 5
 c14531 '[textdict[1174499]]'
 play sfx2 "fight_6016.ogg"
 hide c1453portrait
-c00 '[textdict[1174500]]'
+c0 '[textdict[1174500]]'
 play sfx2 "fight_6008.ogg"
 show st061_01 2 as c1304portrait at rightside(-2), shakeright, zorder 5
 c13043 '[textdict[1174501]]'
@@ -145,7 +145,7 @@ show st057_01 1 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174504]]'
 hide c1453portrait
 hide c1portrait
-c00 '[textdict[1174505]]'
+c0 '[textdict[1174505]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1174506]]'
 hide c3portrait
@@ -160,8 +160,8 @@ c14531 '[textdict[1174508]]'
 play sfx2 "other_7046.ogg"
 hide c1453portrait
 hide c1portrait
-c00 '[textdict[1174509]]'
-c00 '[textdict[1174510]]' with shake
+c0 '[textdict[1174509]]'
+c0 '[textdict[1174510]]' with shake
 show st057_01 1 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174511]]'
 hide c1453portrait
@@ -194,7 +194,7 @@ hide c3portrait
 show oc003_01 1 as c3portrait at darkleft(-6), zorder 6
 c14613 '[textdict[1174518]]'
 hide c3portrait
-c00 '[textdict[1174519]]'
+c0 '[textdict[1174519]]'
 show st057_01 1 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174520]]'
 hide c1453portrait
@@ -207,7 +207,7 @@ hide c1304portrait
 show st061_01 3 as c1304portrait at darkright(-2), zorder 5
 c14451 '[textdict[1174522]]' with shake
 hide c1304portrait
-c00 '[textdict[1174523]]'
+c0 '[textdict[1174523]]'
 show oc003_01 2 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1174524]]'
 hide c3portrait
@@ -296,5 +296,5 @@ show st057_01 5 as c1453portrait at leftside(-16), zorder 5
 c14531 '[textdict[1174543]]'
 hide c1453portrait
 hide c3portrait
-c00 '[textdict[1174544]]'
+c0 '[textdict[1174544]]'
 return

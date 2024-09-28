@@ -13,7 +13,7 @@ c21 '[textdict[1186257]]'
 play sfx2 "other_7085.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1186258]]'
+c0 '[textdict[1186258]]'
 c15281 '[textdict[1186259]]' with shake
 c15291 '[textdict[1186260]]'
 c15291 '[textdict[1186261]]'
@@ -40,7 +40,7 @@ show oc004_01 10 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1186270]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1186271]]'
-c00 '[textdict[1186272]]'
-c00 '[textdict[1186273]]'
+c0 '[textdict[1186271]]'
+c0 '[textdict[1186272]]'
+c0 '[textdict[1186273]]'
 return

@@ -24,7 +24,7 @@ c43 '[textdict[1132033]]'
 play sfx2 "other_7047.ogg"
 hide c3portrait
 hide c4portrait
-c00 '[textdict[1132034]]'
+c0 '[textdict[1132034]]'
 show st040_01 1 as c1042portrait at leftsideentrance(-19), zorder 5
 c10421 '[textdict[1132035]]'
 hide c1042portrait

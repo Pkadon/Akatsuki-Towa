@@ -4,7 +4,7 @@ stop music
 play music "ed7300.ogg"
 scene avg_bg_071
 with fade
-c00 '[textdict[1202493]]'
+c0 '[textdict[1202493]]'
 play sfx2 "fight_6019.ogg"
 show oc002_01 8 as c2portrait at leftsideentrance(-3), zorder 5
 c21 '[textdict[1202494]]'

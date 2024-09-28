@@ -26,8 +26,8 @@ show st040_01 1 as c1043portrait at leftside(-19), zorder 5
 c10431 '[textdict[1132236]]'
 hide c1043portrait
 hide c2portrait
-c00 '[textdict[1132237]]'
-c00 '[textdict[1132238]]'
+c0 '[textdict[1132237]]'
+c0 '[textdict[1132238]]'
 show st040_01 5 as c1043portrait at leftside(-19), zorder 5
 c10431 '[textdict[1132239]]'
 hide c1043portrait

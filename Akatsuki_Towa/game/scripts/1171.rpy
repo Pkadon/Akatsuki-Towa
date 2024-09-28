@@ -4,7 +4,7 @@ stop music
 play music "ED6103.ogg"
 scene avg_bg_035
 with fade
-c00 '[textdict[2105308]]'
+c0 '[textdict[2105308]]'
 play sfx2 "other_7047.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightsideentrance(-2), zorder 5
@@ -356,7 +356,7 @@ play music "ED6103.ogg"
 scene avg_bg_070
 with fade
 play sfx2 "fight_6009.ogg"
-c00 '[textdict[2105380]]'
+c0 '[textdict[2105380]]'
 scene avg_bg_037
 with fade
 play sfx2 "fight_6027.ogg"

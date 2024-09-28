@@ -419,7 +419,7 @@ hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 c13151 '[textdict[1162036]]'
 hide c1portrait
-c00 '[textdict[1162037]]'
+c0 '[textdict[1162037]]'
 show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 with fade
 c43 '[textdict[1162038]]'
@@ -433,5 +433,5 @@ hide c4portrait
 show oc004_01 2 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1162041]]'
 hide c4portrait
-c00 '[textdict[1162042]]'
+c0 '[textdict[1162042]]'
 return

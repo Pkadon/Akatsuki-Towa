@@ -4,7 +4,7 @@ stop music
 play music "ED6101.ogg"
 scene avg_bg_064
 with fade
-c00 '[textdict[2102924]]'
+c0 '[textdict[2102924]]'
 play sfxvoice "avg_vocal_na20.ogg"
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102925]]'
@@ -239,7 +239,7 @@ show sc019_01 4 as c27portrait at leftside(-18), zorder 5
 c271 '[textdict[2102983]]'
 hide c27portrait
 hide c1portrait
-c00 '[textdict[2102984]]'
+c0 '[textdict[2102984]]'
 show sc019_01 3 as c27portrait at leftside(-18), shakeleft, zorder 5
 c271 '[textdict[2102985]]'
 hide c27portrait
@@ -319,8 +319,8 @@ show sc019_01 1 as c27portrait at darkleft(-18), zorder 6
 c25233 '[textdict[2103006]]'
 play music "ed7514.ogg"
 hide c27portrait
-c00 '[textdict[2103007]]'
-c00 '[textdict[2103008]]'
+c0 '[textdict[2103007]]'
+c0 '[textdict[2103008]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103009]]'
 hide c1portrait

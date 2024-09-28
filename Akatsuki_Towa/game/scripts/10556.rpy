@@ -50,7 +50,7 @@ hide c1portrait
 c12403 '[textdict[1153848]]'
 play music "ed7564.ogg"
 with fade
-c00 '[textdict[1153849]]'
+c0 '[textdict[1153849]]'
 show st060_01 2 as c1265portrait at leftsideentrance(-5), zorder 5
 c12651 '[textdict[1153850]]'
 hide c1265portrait

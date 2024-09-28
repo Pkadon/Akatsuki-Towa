@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 with fade
-c00 '[textdict[1006678]]'
+c0 '[textdict[1006678]]'
 play sfx2 "other_7050.ogg"
 show sc052_01 4 as c59portrait at leftsideentrance(-25), zorder 5
 c591 '[textdict[1006679]]'

@@ -22,8 +22,8 @@ show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202612]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1202613]]'
-c00 '[textdict[1202614]]'
+c0 '[textdict[1202613]]'
+c0 '[textdict[1202614]]'
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1202615]]'
 hide c2portrait
@@ -77,7 +77,7 @@ show oc002_01 6 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1202625]]'
 hide c222portrait
 hide c2portrait
-c00 '[textdict[1202626]]'
+c0 '[textdict[1202626]]'
 show oc002_01 18 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202627]]'
 hide c2portrait
@@ -86,7 +86,7 @@ show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1202628]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1202629]]'
+c0 '[textdict[1202629]]'
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202630]]'
 hide c2portrait
@@ -150,7 +150,7 @@ show st023_01 5 as c222portrait at leftside(-12), zorder 5
 c2221 '[textdict[1202642]]'
 hide c222portrait
 hide c1portrait
-c00 '[textdict[1202643]]'
+c0 '[textdict[1202643]]'
 scene avg_bg_020
 with fade
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
@@ -167,7 +167,7 @@ show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1202647]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1202648]]'
+c0 '[textdict[1202648]]'
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202649]]'
 hide c2portrait
@@ -210,7 +210,7 @@ show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1202660]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1202661]]'
+c0 '[textdict[1202661]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1202662]]'
 hide c1portrait

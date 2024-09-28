@@ -46,12 +46,12 @@ c11653 '[textdict[1173437]]'
 c11653 '[textdict[1173438]]'
 c10833 '[textdict[1173439]]'
 c14513 '[textdict[1173440]]'
-c00 '[textdict[1173441]]'
+c0 '[textdict[1173441]]'
 c10833 '[textdict[1173442]]'
 c11653 '[textdict[1173443]]'
 c43 '[textdict[1173444]]'
 c51 '[textdict[1173445]]'
-c00 '[textdict[1173446]]'
+c0 '[textdict[1173446]]'
 c14513 '[textdict[1173447]]'
 c11653 '[textdict[1173448]]'
 c6921 '[textdict[1173449]]'
@@ -157,7 +157,7 @@ show oc004_01 21 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1173486]]'
 stop music
 hide c4portrait
-c00 '[textdict[1173487]]'
+c0 '[textdict[1173487]]'
 stop music
 show oc005_01 20 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1173488]]'
@@ -201,9 +201,9 @@ show oc005_01 22 as c5portrait at darkleft(-6), zorder 6
 c10833 '[textdict[1173498]]'
 scene avg_bg_505
 with fade
-c00 '[textdict[1173499]]'
-c00 '[textdict[1173500]]'
-c00 '[textdict[1173501]]'
+c0 '[textdict[1173499]]'
+c0 '[textdict[1173500]]'
+c0 '[textdict[1173501]]'
 c10833 '[textdict[1173502]]'
 c41 '[textdict[1173503]]'
 c41 '[textdict[1173504]]'

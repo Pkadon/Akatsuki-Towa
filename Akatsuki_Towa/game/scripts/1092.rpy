@@ -24,7 +24,7 @@ show sc052_01 4 as c59portrait at leftside(-25), zorder 5
 c591 '[textdict[2102007]]' (what_size=26) with shake
 hide c59portrait
 hide c1portrait
-c00 '[textdict[2102008]]'
+c0 '[textdict[2102008]]'
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102009]]'
 hide c1portrait
@@ -79,7 +79,7 @@ show sc052_01 5 as c59portrait at leftside(-25), zorder 5
 c591 '[textdict[2102020]]'
 hide c59portrait
 hide c1portrait
-c00 '[textdict[2102021]]'
+c0 '[textdict[2102021]]'
 show oc001_01 22 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102022]]'
 hide c1portrait

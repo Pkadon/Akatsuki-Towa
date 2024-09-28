@@ -5,7 +5,7 @@ stop music
 scene avg_bg_003
 hide memoryoverlay
 with fade
-c00 '[textdict[1173245]]'
+c0 '[textdict[1173245]]'
 play music "ed7516.ogg"
 show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1173246]]'
@@ -117,7 +117,7 @@ c53 '[textdict[1173267]]'
 play sfx2 "other_7023.ogg"
 hide c4portrait
 hide c5portrait
-c00 '[textdict[1173268]]'
+c0 '[textdict[1173268]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1173269]]'
 hide c3portrait
@@ -203,7 +203,7 @@ c53 '[textdict[1173285]]'
 play sfx2 "other_7072.ogg"
 hide c4portrait
 hide c5portrait
-c00 '[textdict[1173286]]'
+c0 '[textdict[1173286]]'
 c14491 '[textdict[1173287]]'
 c14491 '[textdict[1173288]]'
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5

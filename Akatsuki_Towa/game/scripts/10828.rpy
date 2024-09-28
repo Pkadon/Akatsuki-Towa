@@ -4,13 +4,13 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[1185807]]'
-c00 '[textdict[1185808]]'
-c00 '[textdict[1185809]]'
-c00 '[textdict[1185810]]'
-c00 '[textdict[1185811]]'
-c00 '[textdict[1185812]]'
-c00 '[textdict[1185813]]'
+c0 '[textdict[1185807]]'
+c0 '[textdict[1185808]]'
+c0 '[textdict[1185809]]'
+c0 '[textdict[1185810]]'
+c0 '[textdict[1185811]]'
+c0 '[textdict[1185812]]'
+c0 '[textdict[1185813]]'
 scene avg_bg_048
 with fade
 show st062_01 4 as c1308portrait at rightside(-16), zorder 5

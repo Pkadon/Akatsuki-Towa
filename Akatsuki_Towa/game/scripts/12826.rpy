@@ -17,7 +17,7 @@ show oc004_01 7 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1184610]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1184611]]'
+c0 '[textdict[1184611]]'
 c25641 '[textdict[1184612]]'
 c25651 '[textdict[1184613]]'
 c25661 '[textdict[1184614]]'

@@ -4,9 +4,9 @@ stop music
 play music "ED6516.ogg"
 scene avg_bg_036
 with fade
-c00 '[textdict[1174276]]'
+c0 '[textdict[1174276]]'
 play sfx2 "other_7080.ogg"
-c00 '[textdict[1174277]]'
+c0 '[textdict[1174277]]'
 show st061_01 2 as c1304portrait at leftsideentrance(-2), zorder 5
 c13041 '[textdict[1174278]]'
 hide c1304portrait
@@ -60,7 +60,7 @@ show st061_01 1 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1174288]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1174289]]'
+c0 '[textdict[1174289]]'
 c14581 '[textdict[1174290]]'
 c14581 '[textdict[1174291]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
@@ -94,7 +94,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1174301]]'
 play sfx2 "other_7013.ogg"
 hide c1portrait
-c00 '[textdict[1174302]]'
+c0 '[textdict[1174302]]'
 show st061_01 1 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1174303]]'
 hide c1304portrait

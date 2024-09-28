@@ -27,7 +27,7 @@ show st044_01 4 as c692portrait at rightside(10), zorder 5
 c6923 '[textdict[1173517]]'
 hide c5portrait
 hide c692portrait
-c00 '[textdict[1173518]]'
+c0 '[textdict[1173518]]'
 show st044_01 4 as c692portrait at leftside(10), zorder 5
 c6921 '[textdict[1173519]]'
 hide c692portrait
@@ -96,7 +96,7 @@ show oc005_01 22 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1173532]]'
 hide c5portrait
 hide c4portrait
-c00 '[textdict[1173533]]'
+c0 '[textdict[1173533]]'
 show st044_01 4 as c692portrait at leftside(10), zorder 5
 c6921 '[textdict[1173534]]'
 hide c692portrait
@@ -120,7 +120,7 @@ show st061_01 2 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1173538]]'
 hide c1304portrait
 hide c3portrait
-c00 '[textdict[1173539]]'
+c0 '[textdict[1173539]]'
 show st061_01 2 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1173540]]'
 hide c1304portrait
@@ -154,11 +154,11 @@ show oc003_01 8 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1173546]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1173547]]'
+c0 '[textdict[1173547]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1173548]]' with shake
 hide c1portrait
-c00 '[textdict[1173549]]'
+c0 '[textdict[1173549]]'
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1173550]]'
 hide c3portrait
@@ -186,7 +186,7 @@ c31 '[textdict[1173555]]'
 play sfx2 "other_7046.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1173556]]'
+c0 '[textdict[1173556]]'
 play sfx2 "other_7017.ogg"
 show oc005_01 4 as c5portrait at leftsideentrance(-6), zorder 5
 c51 '[textdict[1173557]]'
@@ -199,11 +199,11 @@ hide c5portrait
 show oc005_01 22 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1173559]]'
 hide c5portrait
-c00 '[textdict[1173560]]'
+c0 '[textdict[1173560]]'
 c11653 '[textdict[1173561]]'
 c10833 '[textdict[1173562]]'
 show oc005_01 4 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1173563]]'
 hide c5portrait
-c00 '[textdict[1173564]]'
+c0 '[textdict[1173564]]'
 return

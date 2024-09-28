@@ -4,8 +4,8 @@ stop music
 play music "ed7562.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[2100748]]'
-c00 '[textdict[2100749]]'
+c0 '[textdict[2100748]]'
+c0 '[textdict[2100749]]'
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100750]]'
 hide c2portrait
@@ -29,14 +29,14 @@ show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100756]]'
 play sfx2 "other_7044.ogg"
 hide c2portrait
-c00 '[textdict[2100757]]'
+c0 '[textdict[2100757]]'
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100758]]'
 play sfx2 "other_7047.ogg"
 hide c2portrait
-c00 '[textdict[2100759]]'
+c0 '[textdict[2100759]]'
 play sfx2 "other_7033.ogg"
-c00 '[textdict[2100760]]'
+c0 '[textdict[2100760]]'
 play sfx2 "other_7033.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
@@ -46,7 +46,7 @@ hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 c5003 '[textdict[2100762]]'
 hide c2portrait
-c00 '[textdict[2100763]]'
+c0 '[textdict[2100763]]'
 c11543 '[textdict[2100764]]'
 show oc002_01 1 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100765]]'
@@ -81,7 +81,7 @@ c21 '[textdict[2100774]]'
 stop music
 play sfx2 "fight_6016.ogg"
 hide c2portrait
-c00 '[textdict[2100775]]' with shake
+c0 '[textdict[2100775]]' with shake
 stop music
 play sfxvoice "avg_vocal_ch27.ogg"
 show oc002_01 3 as c2portrait at leftside(-3), zorder 5
@@ -92,7 +92,7 @@ show oc002_01 3 as c2portrait at darkleft(-3), zorder 6
 c11543 '[textdict[2100777]]'
 stop music
 hide c2portrait
-c00 '[textdict[2100778]]'
+c0 '[textdict[2100778]]'
 stop music
 c11543 '[textdict[2100779]]'
 stop music
@@ -114,7 +114,7 @@ hide c2portrait
 show oc002_01 23 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100784]]'
 hide c2portrait
-c00 '[textdict[2100785]]'
+c0 '[textdict[2100785]]'
 show oc002_01 23 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100786]]'
 hide c2portrait
@@ -172,7 +172,7 @@ c21 '[textdict[2100803]]'
 play music "ed7514.ogg"
 scene avg_bg_013
 with fade
-c00 '[textdict[2100804]]'
+c0 '[textdict[2100804]]'
 c11543 '[textdict[2100805]]'
 show oc002_01 14 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100806]]'
@@ -204,7 +204,7 @@ hide c2portrait
 show oc002_01 5 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100815]]'
 hide c2portrait
-c00 '[textdict[2100816]]'
+c0 '[textdict[2100816]]'
 c11543 '[textdict[2100817]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100818]]'
@@ -212,26 +212,26 @@ hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 c11543 '[textdict[2100819]]'
 hide c2portrait
-c00 '[textdict[2100820]]'
-c00 '[textdict[2100821]]'
+c0 '[textdict[2100820]]'
+c0 '[textdict[2100821]]'
 show oc002_01 22 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100822]]'
 hide c2portrait
 show oc002_01 22 as c2portrait at darkleft(-3), zorder 6
 c11543 '[textdict[2100823]]'
 hide c2portrait
-c00 '[textdict[2100824]]'
+c0 '[textdict[2100824]]'
 c11571 '[textdict[2100825]]'
 c11543 '[textdict[2100826]]'
 c11571 '[textdict[2100827]]'
 c11543 '[textdict[2100828]]'
-c00 '[textdict[2100829]]'
+c0 '[textdict[2100829]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100830]]'
 hide c2portrait
 show oc002_01 5 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2100831]]'
 hide c2portrait
-c00 '[textdict[2100832]]'
-c00 '[textdict[2100833]]'
+c0 '[textdict[2100832]]'
+c0 '[textdict[2100833]]'
 return

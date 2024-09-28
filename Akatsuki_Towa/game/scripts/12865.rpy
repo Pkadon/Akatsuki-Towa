@@ -4,8 +4,8 @@ stop music
 play music "ed7513.ogg"
 scene avg_bg_003
 with fade
-c00 '[textdict[1190486]]'
-c00 '[textdict[1190487]]'
+c0 '[textdict[1190486]]'
+c0 '[textdict[1190487]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1190488]]'
 hide c1portrait
@@ -39,7 +39,7 @@ show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1190494]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1190495]]'
+c0 '[textdict[1190495]]'
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1190496]]'
 hide c1portrait
@@ -195,7 +195,7 @@ show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1190542]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1190543]]'
+c0 '[textdict[1190543]]'
 scene avg_bg_040
 with fade
 show st061_01 4 as c1304portrait at leftside(-2), zorder 5

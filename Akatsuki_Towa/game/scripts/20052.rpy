@@ -7,7 +7,7 @@ with fade
 show oc001_01 4 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1002801]]'
 hide c1portrait
-c00 '[textdict[1002802]]'
+c0 '[textdict[1002802]]'
 c5993 '[textdict[1002803]]'
 c5993 '[textdict[1002804]]'
 play sfxvoice "avg_vocal_ch24.ogg"
@@ -57,8 +57,8 @@ show oc002_01 2 as c2portrait at darkright(-3), zorder 5
 c5991 '[textdict[1002815]]'
 play sfx2 "other_7085.ogg"
 hide c2portrait
-c00 '[textdict[1002816]]'
-c00 '[textdict[1002817]]'
+c0 '[textdict[1002816]]'
+c0 '[textdict[1002817]]'
 play music "ed7151.ogg"
 show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1002818]]'

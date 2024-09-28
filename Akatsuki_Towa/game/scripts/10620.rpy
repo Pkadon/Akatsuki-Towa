@@ -5,10 +5,10 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7060.ogg"
-c00 '[textdict[1162123]]'
+c0 '[textdict[1162123]]'
 stop music
 play sfx2 "other_7060.ogg"
-c00 '[textdict[1162124]]'
+c0 '[textdict[1162124]]'
 play music "ed9999.ogg"
 scene avg_bg_050
 with fade
@@ -47,7 +47,7 @@ play music "ed7100.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1162132]]'
+c0 '[textdict[1162132]]'
 scene avg_bg_061
 show memoryoverlay zorder 2
 with fade

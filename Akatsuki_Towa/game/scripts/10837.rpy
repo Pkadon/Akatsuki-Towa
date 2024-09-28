@@ -9,7 +9,7 @@ show oc001_01 19 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1187430]]'
 play sfx2 "other_7034.ogg"
 hide c1portrait
-c00 '[textdict[1187431]]'
+c0 '[textdict[1187431]]'
 play sfx2 "other_7016.ogg"
 show oc003_01 21 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1187432]]'
@@ -50,7 +50,7 @@ show st061_01 4 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1187438]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1187439]]'
+c0 '[textdict[1187439]]'
 scene avg_bg_216
 with fade
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5

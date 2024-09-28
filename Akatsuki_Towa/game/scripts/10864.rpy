@@ -52,8 +52,8 @@ hide c2666portrait
 show oce02_01 12 as c2666portrait at darkright(-3), zorder 5
 c14401 '[textdict[1191282]]'
 hide c2666portrait
-c00 '[textdict[1191283]]'
-c00 '[textdict[1191284]]'
+c0 '[textdict[1191283]]'
+c0 '[textdict[1191284]]'
 show oce02_01 21 as c2666portrait at rightside(-3), zorder 5
 c26663 '[textdict[1191285]]'
 hide c2666portrait
@@ -99,7 +99,7 @@ c26663 '[textdict[1191296]]'
 stop music
 play sfx2 "other_7088.ogg"
 hide c2666portrait
-c00 '[textdict[1191297]]'
+c0 '[textdict[1191297]]'
 stop music
 show oce02_01 15 as c2666portrait at rightside(-3), zorder 5
 c26663 '[textdict[1191298]]'
@@ -136,7 +136,7 @@ c23 '[textdict[1191304]]'
 play music "ed7523.ogg"
 scene avg_bg_511
 with fade
-c00 '[textdict[1191305]]'
+c0 '[textdict[1191305]]'
 c23 '[textdict[1191306]]'
 c26651 '[textdict[1191307]]'
 c23 '[textdict[1191308]]'
@@ -144,7 +144,7 @@ c26651 '[textdict[1191309]]'
 c23 '[textdict[1191310]]'
 scene avg_bg_070
 with fade
-c80 '[textdict[1191311]]'
+c83 '[textdict[1191311]]'
 scene avg_bg_512
 with fade
 c23 '[textdict[1191312]]'

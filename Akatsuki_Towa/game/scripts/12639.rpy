@@ -9,7 +9,7 @@ c13251 '[textdict[1162990]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1162991]]'
 hide c1portrait
-c00 '[textdict[1162992]]'
+c0 '[textdict[1162992]]'
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1162993]]'
 play music "ed7511.ogg"

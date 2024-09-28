@@ -4,8 +4,8 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_049
 with fade
-c00 '[textdict[1181407]]'
-c00 '[textdict[1181408]]'
+c0 '[textdict[1181407]]'
+c0 '[textdict[1181408]]'
 scene avg_bg_023
 with fade
 play sfx2 "other_7047.ogg"
@@ -52,7 +52,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1181417]]'
 hide c239portrait
 hide c1portrait
-c00 '[textdict[1181418]]'
+c0 '[textdict[1181418]]'
 show st040_01 4 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1181419]]'
 hide c239portrait
@@ -81,7 +81,7 @@ show st040_01 4 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1181424]]'
 scene avg_bg_035
 with fade
-c00 '[textdict[1181425]]'
+c0 '[textdict[1181425]]'
 show oc001_01 4 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1181426]]'
 hide c1portrait
@@ -245,7 +245,7 @@ c13041 '[textdict[1181458]]'
 play music "ED6303.ogg"
 scene avg_bg_004
 with fade
-c00 '[textdict[1181459]]'
+c0 '[textdict[1181459]]'
 show oc002_01 4 as c2portrait at leftsideentrance(-3), zorder 5
 c21 '[textdict[1181460]]'
 hide c2portrait
@@ -351,7 +351,7 @@ c13041 '[textdict[1181485]]'
 hide c1304portrait
 hide c2portrait
 with fade
-c00 '[textdict[1181486]]'
+c0 '[textdict[1181486]]'
 show st061_01 4 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1181487]]'
 hide c1304portrait
@@ -395,7 +395,7 @@ hide c1304portrait
 show st061_01 4 as c1304portrait at darkleft(-2), zorder 6
 c14403 '[textdict[1181498]]'
 hide c1304portrait
-c00 '[textdict[1181499]]'
+c0 '[textdict[1181499]]'
 show st061_01 4 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1181500]]'
 play music "ed7511.ogg"
@@ -404,11 +404,11 @@ hide c1304portrait
 show st061_01 4 as c1304portrait at darkleft(-2), zorder 6
 c13093 '[textdict[1181501]]' with shake
 hide c1304portrait
-c00 '[textdict[1181502]]'
-c00 '[textdict[1181503]]'
-c00 '[textdict[1181504]]'
+c0 '[textdict[1181502]]'
+c0 '[textdict[1181503]]'
+c0 '[textdict[1181504]]'
 play sfx2 "other_7057.ogg"
-c00 '[textdict[1181505]]'
+c0 '[textdict[1181505]]'
 play sfx2 "fight_6025.ogg"
 show oc003_01 9 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1181506]]'

@@ -21,7 +21,7 @@ c14123 '[textdict[1170552]]'
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1170553]]'
 hide c1portrait
-c00 '[textdict[1170554]]'
+c0 '[textdict[1170554]]'
 c14131 '[textdict[1170555]]'
 show oc001_01 1 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1170556]]'

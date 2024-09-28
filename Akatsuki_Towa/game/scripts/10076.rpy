@@ -47,7 +47,7 @@ c23 '[textdict[1005244]]'
 play sfx2 "other_7047.ogg"
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1005245]]'
+c0 '[textdict[1005245]]'
 c6991 '[textdict[1005246]]'
 c6893 '[textdict[1005247]]'
 c6991 '[textdict[1005248]]'

@@ -4,17 +4,17 @@ stop music
 play music "ed7513.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1164401]]'
-c00 '[textdict[1164402]]'
-c00 '[textdict[1164403]]'
-c00 '[textdict[1164404]]'
-c00 '[textdict[1164405]]'
-c00 '[textdict[1164406]]'
-c00 '[textdict[1164407]]'
-c00 '[textdict[1164408]]'
-c00 '[textdict[1164409]]'
-c00 '[textdict[1164410]]'
-c00 '[textdict[1164411]]'
+c0 '[textdict[1164401]]'
+c0 '[textdict[1164402]]'
+c0 '[textdict[1164403]]'
+c0 '[textdict[1164404]]'
+c0 '[textdict[1164405]]'
+c0 '[textdict[1164406]]'
+c0 '[textdict[1164407]]'
+c0 '[textdict[1164408]]'
+c0 '[textdict[1164409]]'
+c0 '[textdict[1164410]]'
+c0 '[textdict[1164411]]'
 play music "ed9999.ogg"
 scene avg_bg_202
 with fade

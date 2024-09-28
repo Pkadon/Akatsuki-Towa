@@ -25,11 +25,11 @@ hide c1012portrait
 show st035_01 1 as c1012portrait at rightside(20), zorder 5
 c10123 '[textdict[1130786]]'
 hide c1012portrait
-c00 '[textdict[1130787]]'
-c00 '[textdict[1130788]]'
-c00 '[textdict[1130789]]'
-c00 '[textdict[1130790]]'
-c00 '[textdict[1130791]]'
+c0 '[textdict[1130787]]'
+c0 '[textdict[1130788]]'
+c0 '[textdict[1130789]]'
+c0 '[textdict[1130790]]'
+c0 '[textdict[1130791]]'
 show oc004_01 3 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1130792]]'
 hide c4portrait

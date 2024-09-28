@@ -4,21 +4,21 @@ stop music
 play music "ed7514.ogg"
 scene avg_bg_024
 with fade
-c00 '[textdict[2101425]]'
-c00 '[textdict[2101426]]'
-c00 '[textdict[2101427]]'
-c00 '[textdict[2101428]]'
+c0 '[textdict[2101425]]'
+c0 '[textdict[2101426]]'
+c0 '[textdict[2101427]]'
+c0 '[textdict[2101428]]'
 show st005_01 1 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101429]]'
 hide c205portrait
 show st005_01 1 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101430]]'
 hide c205portrait
-c00 '[textdict[2101431]]'
-c00 '[textdict[2101432]]'
-c00 '[textdict[2101433]]'
-c00 '[textdict[2101434]]'
-c00 '[textdict[2101435]]'
+c0 '[textdict[2101431]]'
+c0 '[textdict[2101432]]'
+c0 '[textdict[2101433]]'
+c0 '[textdict[2101434]]'
+c0 '[textdict[2101435]]'
 show st005_01 3 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101436]]'
 hide c205portrait
@@ -29,7 +29,7 @@ show st005_01 4 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101438]]'
 play sfx2 "other_7047.ogg"
 hide c205portrait
-c00 '[textdict[2101439]]'
+c0 '[textdict[2101439]]'
 show st005_01 2 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101440]]'
 hide c205portrait
@@ -63,7 +63,7 @@ show st005_01 3 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101446]]'
 hide c205portrait
 hide c202portrait
-c00 '[textdict[2101447]]'
+c0 '[textdict[2101447]]'
 show st005_01 1 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101448]]'
 hide c205portrait
@@ -87,16 +87,16 @@ show st005_01 1 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101452]]'
 hide c205portrait
 hide c202portrait
-c00 '[textdict[2101453]]'
-c00 '[textdict[2101454]]'
+c0 '[textdict[2101453]]'
+c0 '[textdict[2101454]]'
 show st005_01 2 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101455]]'
 hide c205portrait
-c00 '[textdict[2101456]]'
+c0 '[textdict[2101456]]'
 show st005_01 2 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101457]]'
 hide c205portrait
-c00 '[textdict[2101458]]'
+c0 '[textdict[2101458]]'
 show st005_01 3 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101459]]'
 hide c205portrait
@@ -240,8 +240,8 @@ show st005_01 4 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101487]]'
 hide c205portrait
 hide c202portrait
-c00 '[textdict[2101488]]'
-c00 '[textdict[2101489]]'
+c0 '[textdict[2101488]]'
+c0 '[textdict[2101489]]'
 show st002_01 5 as c202portrait at rightside(-9), zorder 5
 c2023 '[textdict[2101490]]'
 hide c202portrait
@@ -250,7 +250,7 @@ show st005_01 5 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101491]]'
 hide c205portrait
 hide c202portrait
-c00 '[textdict[2101492]]'
+c0 '[textdict[2101492]]'
 show st005_01 5 as c205portrait at leftside(4), zorder 5
 c2051 '[textdict[2101493]]'
 return

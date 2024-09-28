@@ -28,7 +28,7 @@ c31 '[textdict[1161498]]'
 play sfx2 "other_7004.ogg"
 hide c3portrait
 hide c2portrait
-c00 '[textdict[1161499]]'
+c0 '[textdict[1161499]]'
 show oc004_01 12 as c4portrait at leftside(-5), shakeleft, zorder 5
 c41 '[textdict[1161500]]'
 hide c4portrait

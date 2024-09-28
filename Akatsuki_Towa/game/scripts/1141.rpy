@@ -4,15 +4,15 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2104125]]'
+c0 '[textdict[2104125]]'
 stop music
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104126]]'
 stop music
 hide c1portrait
-c00 '[textdict[2104127]]'
+c0 '[textdict[2104127]]'
 stop music
-c00 '[textdict[2104128]]'
+c0 '[textdict[2104128]]'
 stop music
 scene avg_bg_038
 with fade
@@ -94,11 +94,11 @@ hide c1portrait
 show oc001_01 3 as c1portrait at rightsideexit(-2), zorder 5
 c13 '[textdict[2104145]]'
 hide c1portrait
-c00 '[textdict[2104146]]'
+c0 '[textdict[2104146]]'
 play music "ed7150.ogg"
 scene avg_bg_013
 with fade
-c00 '[textdict[2104147]]'
+c0 '[textdict[2104147]]'
 play sfx2 "other_7085.ogg"
 show oc001_01 9 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[2104148]]'
@@ -114,14 +114,14 @@ c13 '[textdict[2104151]]'
 play music "ed7564.ogg"
 play sfx2 "other_7088.ogg"
 hide c1portrait
-c00 '[textdict[2104152]]'
+c0 '[textdict[2104152]]'
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104153]]'
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
 c25281 '[textdict[2104154]]'
 hide c1portrait
-c00 '[textdict[2104155]]'
+c0 '[textdict[2104155]]'
 show oc001_01 15 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104156]]'
 play sfx2 "other_7085.ogg"
@@ -161,7 +161,7 @@ play sfxvoice "avg_vocal_na11.ogg"
 show oc001_01 9 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[2104167]]'
 hide c1portrait
-c00 '[textdict[2104168]]'
+c0 '[textdict[2104168]]'
 play sfxvoice "avg_vocal_na09_b.ogg"
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104169]]'
@@ -176,18 +176,18 @@ show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104172]]'
 stop music
 hide c1portrait
-c00 '[textdict[2104173]]'
+c0 '[textdict[2104173]]'
 stop music
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104174]]'
 stop music
 play sfx2 "other_7004.ogg"
 hide c1portrait
-c00 '[textdict[2104175]]'
+c0 '[textdict[2104175]]'
 stop music
-c00 '[textdict[2104176]]'
+c0 '[textdict[2104176]]'
 stop music
-c00 '[textdict[2104177]]'
+c0 '[textdict[2104177]]'
 play music "ed7515.ogg"
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104178]]'
@@ -414,8 +414,8 @@ hide c1portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104225]]'
 hide c1portrait
-c00 '[textdict[2104226]]'
-c00 '[textdict[2104227]]'
+c0 '[textdict[2104226]]'
+c0 '[textdict[2104227]]'
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104228]]'
 play music "ed7580.ogg"
@@ -480,7 +480,7 @@ c25281 '[textdict[2104247]]'
 stop music
 play sfx2 "other_7091.ogg"
 hide c1portrait
-c00 '[textdict[2104248]]'
+c0 '[textdict[2104248]]'
 stop music
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104249]]'
@@ -494,15 +494,15 @@ show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104251]]'
 stop music
 hide c1portrait
-c00 '[textdict[2104252]]'
+c0 '[textdict[2104252]]'
 stop music
-c00 '[textdict[2104253]]'
+c0 '[textdict[2104253]]'
 play music "ed7562.ogg"
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104254]]'
 hide c1portrait
-c00 '[textdict[2104255]]'
-c00 '[textdict[2104256]]'
+c0 '[textdict[2104255]]'
+c0 '[textdict[2104256]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104257]]'
 hide c1portrait
@@ -510,8 +510,8 @@ show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104258]]'
 play sfx2 "other_7088.ogg"
 hide c1portrait
-c00 '[textdict[2104259]]'
-c00 '[textdict[2104260]]'
+c0 '[textdict[2104259]]'
+c0 '[textdict[2104260]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104261]]'
 hide c1portrait
@@ -548,9 +548,9 @@ with fade
 show oc001_01 11 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104270]]'
 hide c1portrait
-c00 '[textdict[2104271]]'
-c00 '[textdict[2104272]]'
-c00 '[textdict[2104273]]'
-c00 '[textdict[2104274]]'
-c00 '[textdict[2104275]]'
+c0 '[textdict[2104271]]'
+c0 '[textdict[2104272]]'
+c0 '[textdict[2104273]]'
+c0 '[textdict[2104274]]'
+c0 '[textdict[2104275]]'
 return

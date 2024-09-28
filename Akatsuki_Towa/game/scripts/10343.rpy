@@ -110,7 +110,7 @@ c43 '[textdict[1131079]]'
 play sfx2 "other_7018.ogg"
 hide c3portrait
 hide c4portrait
-c00 '[textdict[1131080]]'
+c0 '[textdict[1131080]]'
 play sfx2 "other_7017.ogg"
 play sfxvoice "avg_vocal_na02.ogg"
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
@@ -236,7 +236,7 @@ c41 '[textdict[1131103]]'
 play sfx2 "other_7058.ogg"
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1131104]]' with shake
+c0 '[textdict[1131104]]' with shake
 play sfxvoice "avg_vocal_ro21.ogg"
 show oc003_01 12 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1131105]]' with shake
@@ -257,7 +257,7 @@ c41 '[textdict[1131108]]'
 play sfx2 "other_7017.ogg"
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1131109]]'
+c0 '[textdict[1131109]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1131110]]'
 play music "ed7511.ogg"

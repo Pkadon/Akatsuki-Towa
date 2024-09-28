@@ -133,7 +133,7 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "common_quest.ogg"
-c00 '[textdict[1133117]]'
+c0 '[textdict[1133117]]'
 stop music
 scene avg_bg_010
 with fade

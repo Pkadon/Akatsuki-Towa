@@ -165,7 +165,7 @@ c14523 '[textdict[2107278]]'
 stop music
 play sfx2 "other_7073.ogg"
 hide c2625portrait
-c00 '[textdict[2107279]]'
+c0 '[textdict[2107279]]'
 stop music
 show scc45_01 2 as c2630portrait at rightside(-11), zorder 5
 c26303 '[textdict[2107280]]'
@@ -267,5 +267,5 @@ play sfx2 "other_7064.ogg"
 c26451 '[textdict[2107299]]'
 play sfx2 "other_7064.ogg"
 c26451 '[textdict[2107300]]'
-c00 '[textdict[2107301]]'
+c0 '[textdict[2107301]]'
 return

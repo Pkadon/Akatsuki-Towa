@@ -5,7 +5,7 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7060.ogg"
-c00 '[textdict[2104015]]'
+c0 '[textdict[2104015]]'
 stop music
 scene avg_bg_038
 with fade
@@ -20,9 +20,9 @@ c13 '[textdict[2104017]]'
 stop music
 play sfx2 "other_7088.ogg"
 hide c1portrait
-c00 '[textdict[2104018]]'
+c0 '[textdict[2104018]]'
 stop music
-c00 '[textdict[2104019]]'
+c0 '[textdict[2104019]]'
 play music "ed7516.ogg"
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104020]]'
@@ -76,8 +76,8 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104036]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2104037]]'
-c00 '[textdict[2104038]]'
+c0 '[textdict[2104037]]'
+c0 '[textdict[2104038]]'
 play music "ed7571.ogg"
 scene avg_bg_019
 with fade
@@ -94,8 +94,8 @@ hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 c25271 '[textdict[2104042]]' with shake
 hide c1portrait
-c00 '[textdict[2104043]]'
-c00 '[textdict[2104044]]'
+c0 '[textdict[2104043]]'
+c0 '[textdict[2104044]]'
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104045]]'
 hide c1portrait
@@ -116,12 +116,12 @@ hide c1portrait
 show oc001_01 15 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104050]]'
 hide c1portrait
-c00 '[textdict[2104051]]'
+c0 '[textdict[2104051]]'
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104052]]'
 hide c1portrait
-c00 '[textdict[2104053]]'
-c00 '[textdict[2104054]]'
+c0 '[textdict[2104053]]'
+c0 '[textdict[2104054]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104055]]'
 hide c1portrait
@@ -131,7 +131,7 @@ hide c1portrait
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104057]]'
 hide c1portrait
-c00 '[textdict[2104058]]'
+c0 '[textdict[2104058]]'
 play sfx2 "fight_6009.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104059]]'
@@ -146,7 +146,7 @@ hide c1portrait
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104062]]'
 hide c1portrait
-c00 '[textdict[2104063]]'
+c0 '[textdict[2104063]]'
 play sfxvoice "avg_vocal_na03_b.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104064]]'
@@ -154,7 +154,7 @@ hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c25271 '[textdict[2104065]]'
 hide c1portrait
-c00 '[textdict[2104066]]'
+c0 '[textdict[2104066]]'
 stop music
 play sfx2 "fight_6019.ogg"
 c5001 '[textdict[2104067]]'
@@ -207,7 +207,7 @@ c21 '[textdict[2104077]]'
 play sfx2 "other_7057.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104078]]'
+c0 '[textdict[2104078]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104079]]'
 hide c1portrait
@@ -240,9 +240,9 @@ c21 '[textdict[2104085]]'
 play sfx2 "fight_6019.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104086]]'
+c0 '[textdict[2104086]]'
 play sfx2 "fight_6016.ogg"
-c00 '[textdict[2104087]]'
+c0 '[textdict[2104087]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104088]]'
 hide c1portrait
@@ -313,7 +313,7 @@ c13 '[textdict[2104101]]'
 play sfx2 "fight_6024.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104102]]'
+c0 '[textdict[2104102]]'
 play sfx2 "fight_6017.ogg"
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2104103]]'
@@ -345,7 +345,7 @@ show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2104108]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104109]]'
+c0 '[textdict[2104109]]'
 show oc002_01 15 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2104110]]'
 hide c2portrait
@@ -382,14 +382,14 @@ show oc001_01 15 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104118]]'
 play sfx2 "other_7091.ogg"
 hide c1portrait
-c00 '[textdict[2104119]]'
+c0 '[textdict[2104119]]'
 play sfx2 "other_7057.ogg"
 show oc001_01 19 as c1portrait at rightsideexit(-2), zorder 5
 c13 '[textdict[2104120]]'
 hide c1portrait
 scene avg_bg_070
 with fade
-c00 '[textdict[2104121]]'
+c0 '[textdict[2104121]]'
 c25281 '[textdict[2104122]]'
 c25281 '[textdict[2104123]]'
 return

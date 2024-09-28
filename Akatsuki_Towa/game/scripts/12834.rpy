@@ -4,9 +4,9 @@ stop music
 stop music
 scene avg_bg_002
 with fade
-c00 '[textdict[1185565]]'
+c0 '[textdict[1185565]]'
 stop music
-c00 '[textdict[1185566]]'
+c0 '[textdict[1185566]]'
 stop music
 scene avg_bg_023
 with fade
@@ -55,7 +55,7 @@ show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1185581]]'
 play sfx2 "other_7073.ogg"
 hide c1portrait
-c00 '[textdict[1185582]]'
+c0 '[textdict[1185582]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1185583]]'
 hide c1portrait

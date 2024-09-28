@@ -4,9 +4,9 @@ stop music
 play music "ed7202.ogg"
 scene avg_bg_036
 with fade
-c00 '[textdict[2101780]]'
+c0 '[textdict[2101780]]'
 play sfx2 "other_7060.ogg"
-c00 '[textdict[2101781]]'
+c0 '[textdict[2101781]]'
 play sfxvoice "avg_vocal_na03_b.ogg"
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101782]]'
@@ -93,9 +93,9 @@ show oc004_01 9 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[2101798]]'
 hide c3portrait
 hide c4portrait
-c00 '[textdict[2101799]]'
+c0 '[textdict[2101799]]'
 play sfx2 "fight_6016.ogg"
-c00 '[textdict[2101800]]' with shake
+c0 '[textdict[2101800]]' with shake
 play sfx2 "other_7016.ogg"
 show oc004_01 9 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[2101801]]'
@@ -110,7 +110,7 @@ show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101803]]' with shake
 hide c4portrait
 hide c1portrait
-c00 '[textdict[2101804]]'
+c0 '[textdict[2101804]]'
 play sfxvoice "avg_vocal_li11.ogg"
 show oc004_01 12 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[2101805]]'

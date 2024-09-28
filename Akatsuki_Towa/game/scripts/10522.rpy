@@ -4,9 +4,9 @@ stop music
 play music "ED6303.ogg"
 scene avg_bg_108
 with fade
-c00 '[textdict[1152034]]'
-c00 '[textdict[1152035]]'
-c00 '[textdict[1152036]]'
+c0 '[textdict[1152034]]'
+c0 '[textdict[1152035]]'
+c0 '[textdict[1152036]]'
 show st050_01 5 as c257portrait at leftside(-11), zorder 5
 c2571 '[textdict[1152037]]'
 hide c257portrait

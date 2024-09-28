@@ -151,7 +151,7 @@ c453 '[textdict[2111543]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2111544]]'
+c0 '[textdict[2111544]]'
 stop music
 scene avg_bg_038
 with fade

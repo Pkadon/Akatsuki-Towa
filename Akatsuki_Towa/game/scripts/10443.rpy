@@ -4,8 +4,8 @@ stop music
 play music "ed7544.ogg"
 scene avg_bg_062
 with fade
-c00 '[textdict[1141824]]'
-c00 '[textdict[1141825]]'
+c0 '[textdict[1141824]]'
+c0 '[textdict[1141825]]'
 show uc004_01 3 as c1022portrait at rightside(-25), shakeright, zorder 5
 c10223 '[textdict[1141826]]'
 hide c1022portrait

@@ -5,77 +5,77 @@ play music "ed7150.ogg"
 scene placeholderbackground
 with fade
 show uc002_03 1 as c543portrait at centerpos(-23), zorder 5
-c5432 '[textdict[1001668]]'
+c5433 '[textdict[1001668]]'
 play sfxvoice "avg_vocal_na15.ogg"
 hide c543portrait
 show oc001_01 2 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1001669]]'
+c13 '[textdict[1001669]]'
 play sfxvoice "avg_vocal_ch07.ogg"
 hide c1portrait
 show oc002_01 5 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1001670]]'
+c23 '[textdict[1001670]]'
 hide c2portrait
 show uc002_03 1 as c544portrait at centerpos(-23), zorder 5
-c5442 '[textdict[1001671]]'
+c5443 '[textdict[1001671]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 hide c544portrait
 show oc002_01 12 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1001672]]'
+c23 '[textdict[1001672]]'
 hide c2portrait
 show uc002_03 1 as c545portrait at centerpos(-23), zorder 5
-c5452 '[textdict[1001673]]'
+c5453 '[textdict[1001673]]'
 play sfxvoice "avg_vocal_na21.ogg"
 hide c545portrait
 show oc001_01 2 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1001674]]'
+c13 '[textdict[1001674]]'
 play sfxvoice "avg_vocal_ch25.ogg"
 hide c1portrait
 show oc002_01 12 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1001675]]'
+c23 '[textdict[1001675]]'
 hide c2portrait
 show uc002_03 1 as c543portrait at centerpos(-23), zorder 5
-c5432 '[textdict[1001676]]'
+c5433 '[textdict[1001676]]'
 hide c543portrait
 show uc002_03 1 as c544portrait at centerpos(-23), zorder 5
-c5442 '[textdict[1001677]]'
+c5443 '[textdict[1001677]]'
 hide c544portrait
 show uc002_03 3 as c545portrait at centerpos(-23), zorder 5
-c5452 '[textdict[1001678]]'
+c5453 '[textdict[1001678]]'
 play sfxvoice "avg_vocal_na20.ogg"
 hide c545portrait
 show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1001679]]'
+c13 '[textdict[1001679]]'
 hide c1portrait
 show oc006_01 1 as c6portrait at centerpos(-5), zorder 5
-c62 '[textdict[1001680]]'
+c63 '[textdict[1001680]]'
 hide c6portrait
 show st042_01 5 as c547portrait at centerpos(-14), zorder 5
-c5472 '[textdict[1001681]]'
+c5473 '[textdict[1001681]]'
 hide c547portrait
 show st043_01 1 as c548portrait at centerpos(-17), zorder 5
-c5482 '[textdict[1001682]]'
+c5483 '[textdict[1001682]]'
 hide c548portrait
 show st042_01 5 as c241portrait at centerpos(-14), zorder 5
-c2412 '[textdict[1001683]]'
+c2413 '[textdict[1001683]]'
 hide c241portrait
 show st043_01 1 as c242portrait at centerpos(-17), zorder 5
-c2422 '[textdict[1001684]]'
+c2423 '[textdict[1001684]]'
 hide c242portrait
 show st042_01 1 as c241portrait at centerpos(-14), zorder 5
-c2412 '[textdict[1001685]]'
+c2413 '[textdict[1001685]]'
 hide c241portrait
-c5510 '[textdict[1001686]]'
+c5513 '[textdict[1001686]]'
 play sfxvoice "avg_vocal_ch13.ogg"
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1001687]]'
+c23 '[textdict[1001687]]'
 play sfxvoice "avg_vocal_na05.ogg"
 hide c2portrait
 show oc001_01 8 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1001688]]'
+c13 '[textdict[1001688]]'
 hide c1portrait
 show uc002_03 1 as c543portrait at centerpos(-23), zorder 5
-c5432 '[textdict[1001689]]'
+c5433 '[textdict[1001689]]'
 hide c543portrait
 show oc001_01 7 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1001690]]'
+c13 '[textdict[1001690]]'
 return

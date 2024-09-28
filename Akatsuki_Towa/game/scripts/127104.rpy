@@ -42,7 +42,7 @@ show st064_01 1 as c1469portrait at leftsideentrance(-2), zorder 5
 c14691 '[textdict[1178434]]'
 hide c1469portrait
 hide c4portrait
-c00 '[textdict[1178435]]'
+c0 '[textdict[1178435]]'
 c14851 '[textdict[1178436]]'
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1178437]]'
@@ -71,13 +71,13 @@ hide c1304portrait
 show st061_01 2 as c1304portrait at darkright(-2), zorder 5
 c14851 '[textdict[1178445]]'
 hide c1304portrait
-c00 '[textdict[1178446]]'
+c0 '[textdict[1178446]]'
 c14851 '[textdict[1178447]]'
 show st061_01 1 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1178448]]'
 play sfx2 "other_7070.ogg"
 hide c1304portrait
-c00 '[textdict[1178449]]'
+c0 '[textdict[1178449]]'
 show st061_01 2 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1178450]]'
 hide c1304portrait
@@ -87,10 +87,10 @@ hide c1304portrait
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1178452]]'
 hide c2portrait
-c00 '[textdict[1178453]]'
+c0 '[textdict[1178453]]'
 c14861 '[textdict[1178454]]'
 c14851 '[textdict[1178455]]'
-c00 '[textdict[1178456]]'
+c0 '[textdict[1178456]]'
 c14851 '[textdict[1178457]]'
 show oc004_01 2 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1178458]]'
@@ -132,7 +132,7 @@ show st064_01 1 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1178469]]'
 hide c1469portrait
 hide c1portrait
-c00 '[textdict[1178470]]'
+c0 '[textdict[1178470]]'
 show st061_01 5 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1178471]]'
 hide c1304portrait
@@ -157,7 +157,7 @@ show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1178476]]'
 hide c4portrait
 hide c3portrait
-c00 '[textdict[1178477]]'
+c0 '[textdict[1178477]]'
 show st064_01 1 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1178478]]'
 hide c1469portrait
@@ -230,12 +230,12 @@ c13 '[textdict[1178492]]'
 play sfx2 "other_7061.ogg"
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1178493]]'
-c00 '[textdict[1178494]]'
+c0 '[textdict[1178493]]'
+c0 '[textdict[1178494]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1178495]]'
 hide c1portrait
-c00 '[textdict[1178496]]'
+c0 '[textdict[1178496]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1178497]]'
 hide c1portrait
@@ -264,7 +264,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1178502]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1178503]]'
+c0 '[textdict[1178503]]'
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1178504]]'
 hide c3portrait
@@ -384,7 +384,7 @@ show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1178527]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1178528]]'
+c0 '[textdict[1178528]]'
 show oc002_01 13 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1178529]]'
 hide c2portrait

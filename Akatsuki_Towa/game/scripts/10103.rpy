@@ -34,7 +34,7 @@ c473 '[textdict[1005685]]'
 play music "ed7111.ogg"
 scene avg_bg_047
 with fade
-c00 '[textdict[1005686]]'
+c0 '[textdict[1005686]]'
 play sfx2 "other_7047.ogg"
 show sc044_01 1 as c51portrait at leftside(-7), zorder 5
 c511 '[textdict[1005687]]'

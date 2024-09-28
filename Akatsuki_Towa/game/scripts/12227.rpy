@@ -13,7 +13,7 @@ show uc004_02 1 as c991portrait at rightside(-6), zorder 5
 c9913 '[textdict[1121051]]'
 hide c2portrait
 hide c991portrait
-c00 '[textdict[1121052]]'
+c0 '[textdict[1121052]]'
 play sfx2 "other_7088.ogg"
 show uc004_02 2 as c991portrait at rightside(-6), zorder 5
 c9913 '[textdict[1121053]]'

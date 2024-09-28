@@ -4,11 +4,11 @@ stop music
 scene placeholderbackground
 with fade
 show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1200138]]'
+c13 '[textdict[1200138]]'
 hide c1portrait
-c10150 '[textdict[1200139]]'
-c10150 '[textdict[1200140]]'
-c7640 '[textdict[1200141]]'
+c10153 '[textdict[1200139]]'
+c10153 '[textdict[1200140]]'
+c7643 '[textdict[1200141]]'
 show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1200142]]'
+c13 '[textdict[1200142]]'
 return

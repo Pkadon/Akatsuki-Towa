@@ -30,7 +30,7 @@ show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163614]]'
 play sfx2 "other_7047.ogg"
 hide c1portrait
-c00 '[textdict[1163615]]'
+c0 '[textdict[1163615]]'
 play sfx2 "other_7085.ogg"
 show oc002_01 12 as c2portrait at rightsideentrance(-3), zorder 5
 c23 '[textdict[1163616]]'
@@ -103,7 +103,7 @@ hide c2portrait
 show oc002_01 4 as c2portrait at darkright(-3), zorder 5
 c13291 '[textdict[1163635]]'
 hide c2portrait
-c00 '[textdict[1163636]]'
+c0 '[textdict[1163636]]'
 play music "ed7515.ogg"
 c13301 '[textdict[1163637]]'
 c13301 '[textdict[1163638]]'
@@ -178,5 +178,5 @@ hide c1portrait
 show oc002_01 14 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1163670]]'
 hide c2portrait
-c00 '[textdict[1163671]]'
+c0 '[textdict[1163671]]'
 return

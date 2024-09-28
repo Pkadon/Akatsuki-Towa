@@ -4,7 +4,7 @@ stop music
 play music "ed7100.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[2112897]]'
+c0 '[textdict[2112897]]'
 scene avg_bg_038
 with fade
 c12341 '[textdict[2112898]]'
@@ -66,7 +66,7 @@ show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[2112916]]'
 stop music
 hide c2668portrait
-c00 '[textdict[2112917]]'
+c0 '[textdict[2112917]]'
 stop music
 show oc006_01 1 as c6portrait at leftsideentrance(-5), zorder 5
 c61 '[textdict[2112918]]'
@@ -140,7 +140,7 @@ show oc006_01 1 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[2112935]]'
 hide c6portrait
 hide c2668portrait
-c00 '[textdict[2112936]]'
+c0 '[textdict[2112936]]'
 show uc002_03 4 as c5006portrait at leftsidemidback(-23), zorder 5
 c50061 '[textdict[2112937]]'
 play sfx2 "fight_6010.ogg"
@@ -254,7 +254,7 @@ show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[2112962]]'
 scene avg_bg_520
 with fade
-c00 '[textdict[2112963]]'
+c0 '[textdict[2112963]]'
 c26683 '[textdict[2112964]]'
 c26683 '[textdict[2112965]]'
 c26683 '[textdict[2112966]]'

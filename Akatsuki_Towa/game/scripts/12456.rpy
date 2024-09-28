@@ -108,7 +108,7 @@ c33 '[textdict[1143641]]'
 play sfx2 "other_7004.ogg"
 hide c258portrait
 hide c3portrait
-c00 '[textdict[1143642]]'
+c0 '[textdict[1143642]]'
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1143643]]'

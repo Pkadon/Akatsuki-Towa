@@ -5,9 +5,9 @@ stop music
 scene avg_bg_070
 hide memoryoverlay
 with fade
-c00 '[textdict[1173208]]'
+c0 '[textdict[1173208]]'
 stop music
-c00 '[textdict[1173209]]'
+c0 '[textdict[1173209]]'
 play music "ed7516.ogg"
 scene avg_bg_041
 show memoryoverlay zorder 2
@@ -64,9 +64,9 @@ c43 '[textdict[1173218]]'
 show memoryoverlay zorder 2
 hide c227portrait
 hide c4portrait
-c00 '[textdict[1173219]]'
+c0 '[textdict[1173219]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1173220]]'
+c0 '[textdict[1173220]]'
 show memoryoverlay zorder 2
 show st028_01 4 as c227portrait at leftside(8), zorder 5
 c2271 '[textdict[1173221]]'

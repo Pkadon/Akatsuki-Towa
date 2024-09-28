@@ -126,7 +126,7 @@ c5891 '[textdict[1006983]]'
 play sfx2 "other_7074.ogg"
 hide c589portrait
 hide c227portrait
-c00 '[textdict[1006984]]'
+c0 '[textdict[1006984]]'
 c5053 '[textdict[1006985]]'
 c5053 '[textdict[1006986]]'
 show st028_01 2 as c227portrait at leftside(8), zorder 5

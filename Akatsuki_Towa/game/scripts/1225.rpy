@@ -17,7 +17,7 @@ c11571 '[textdict[2110658]]'
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110659]]'
 hide c2701portrait
-c00 '[textdict[2110660]]'
+c0 '[textdict[2110660]]'
 scene avg_bg_070
 with fade
 show oca01_01 18 as c2701portrait at rightside(-2), zorder 5
@@ -47,14 +47,14 @@ show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2110667]]'
 show memoryoverlay zorder 2
 hide c1portrait
-c00 '[textdict[2110668]]'
+c0 '[textdict[2110668]]'
 show memoryoverlay zorder 2
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2110669]]' (what_size=25) with shake
 show memoryoverlay zorder 2
 play sfx2 "fight_6010.ogg"
 hide c1portrait
-c00 '[textdict[2110670]]'
+c0 '[textdict[2110670]]'
 show memoryoverlay zorder 2
 show oc001_01 12 as c1portrait at rightsideexit(-2), zorder 5
 c13 '[textdict[2110671]]'
@@ -65,7 +65,7 @@ show memoryoverlay zorder 2
 c6391 '[textdict[2110673]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7007.ogg"
-c00 '[textdict[2110674]]' with shake
+c0 '[textdict[2110674]]' with shake
 show memoryoverlay zorder 2
 c6381 '[textdict[2110675]]'
 show memoryoverlay zorder 2
@@ -98,10 +98,10 @@ c27191 '[textdict[2110683]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6021.ogg"
 hide c1portrait
-c00 '[textdict[2110684]]'
+c0 '[textdict[2110684]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6001.ogg"
-c00 '[textdict[2110685]]' with shake
+c0 '[textdict[2110685]]' with shake
 stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7033.ogg"
@@ -302,7 +302,7 @@ show oca01_01 18 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110723]]'
 stop music
 hide c2701portrait
-c00 '[textdict[2110724]]'
+c0 '[textdict[2110724]]'
 play music "ED6200.ogg"
 scene avg_bg_019
 with fade
@@ -496,7 +496,7 @@ show oca01_01 4 as c2701portrait at darkright(-2), zorder 5
 c11571 '[textdict[2110779]]'
 play sfx2 "other_7064.ogg"
 hide c2701portrait
-c00 '[textdict[2110780]]'
+c0 '[textdict[2110780]]'
 show sca44_01 1 as c2705portrait at leftside(-7), zorder 5
 c27051 '[textdict[2110781]]'
 hide c2705portrait
@@ -511,7 +511,7 @@ show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110784]]'
 hide c2705portrait
 hide c2701portrait
-c00 '[textdict[2110785]]'
+c0 '[textdict[2110785]]'
 show sca44_01 4 as c2705portrait at leftside(-7), zorder 5
 c27051 '[textdict[2110786]]'
 hide c2705portrait
@@ -577,7 +577,7 @@ hide c2701portrait
 show oca01_01 20 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110804]]'
 hide c2701portrait
-c00 '[textdict[2110805]]'
+c0 '[textdict[2110805]]'
 c27151 '[textdict[2110806]]'
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110807]]'
@@ -604,7 +604,7 @@ show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110814]]'
 play sfx2 "other_7040.ogg"
 hide c2701portrait
-c00 '[textdict[2110815]]'
+c0 '[textdict[2110815]]'
 c27151 '[textdict[2110816]]'
 show oca01_01 1 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110817]]'
@@ -624,11 +624,11 @@ hide c2701portrait
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110822]]'
 hide c2701portrait
-c00 '[textdict[2110823]]'
+c0 '[textdict[2110823]]'
 show oca01_01 20 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110824]]' (what_size=25) with shake
 hide c2701portrait
-c00 '[textdict[2110825]]'
+c0 '[textdict[2110825]]'
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110826]]'
 hide c2701portrait
@@ -641,7 +641,7 @@ hide c2701portrait
 show oca01_01 20 as c2701portrait at darkright(-2), zorder 5
 c27151 '[textdict[2110829]]'
 hide c2701portrait
-c00 '[textdict[2110830]]'
+c0 '[textdict[2110830]]'
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110831]]'
 hide c2701portrait
@@ -678,14 +678,14 @@ show oca01_01 19 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110841]]'
 scene avg_bg_036
 with fade
-c00 '[textdict[2110842]]'
+c0 '[textdict[2110842]]'
 c27151 '[textdict[2110843]]'
 show oca01_01 18 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110844]]'
 hide c2701portrait
 with fade
-c00 '[textdict[2110845]]'
-c00 '[textdict[2110846]]'
+c0 '[textdict[2110845]]'
+c0 '[textdict[2110846]]'
 show oca01_01 13 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110847]]'
 hide c2701portrait
@@ -693,13 +693,13 @@ show oca01_01 13 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110848]]'
 hide c2701portrait
 with fade
-c00 '[textdict[2110849]]'
+c0 '[textdict[2110849]]'
 c27151 '[textdict[2110850]]'
 show oca01_01 13 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110851]]'
 hide c2701portrait
 with fade
-c00 '[textdict[2110852]]'
+c0 '[textdict[2110852]]'
 show oca01_01 14 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110853]]'
 hide c2701portrait
@@ -713,8 +713,8 @@ show oca01_01 4 as c2701portrait at rightside(-2), shakeright, zorder 5
 c27013 '[textdict[2110855]]'
 hide c2702portrait
 hide c2701portrait
-c00 '[textdict[2110856]]'
-c00 '[textdict[2110857]]'
+c0 '[textdict[2110856]]'
+c0 '[textdict[2110857]]'
 c27151 '[textdict[2110858]]'
 play music "ed7511.ogg"
 show oca01_01 15 as c2701portrait at rightside(-2), zorder 5
@@ -737,7 +737,7 @@ stop music
 play sfx2 "fight_6010.ogg"
 hide c2702portrait
 hide c2701portrait
-c00 '[textdict[2110863]]' with shake
+c0 '[textdict[2110863]]' with shake
 stop music
 c27151 '[textdict[2110864]]'
 stop music

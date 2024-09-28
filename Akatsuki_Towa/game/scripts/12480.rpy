@@ -27,18 +27,18 @@ show oc006_01 3 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144125]]' (what_size=24) with shake
 play sfx2 "fight_6025.ogg"
 hide c6portrait
-c00 '[textdict[1144126]]'
+c0 '[textdict[1144126]]'
 stop music
-c00 '[textdict[1144127]]'
+c0 '[textdict[1144127]]'
 stop music
 play sfx2 "fight_6016.ogg"
-c00 '[textdict[1144128]]'
+c0 '[textdict[1144128]]'
 play music "ed7304.ogg"
 play sfx2 "other_7057.ogg"
 show oc006_01 2 as c6portrait at leftside(-5), shakeleft, zorder 5
 c61 '[textdict[1144129]]'
 hide c6portrait
-c00 '[textdict[1144130]]'
+c0 '[textdict[1144130]]'
 show sc044_01 1 as c1135portrait at rightside(-7), zorder 5
 c11353 '[textdict[1144131]]'
 hide c1135portrait
@@ -146,7 +146,7 @@ show oc006_01 2 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144152]]'
 scene avg_bg_036
 with fade
-c00 '[textdict[1144153]]'
+c0 '[textdict[1144153]]'
 show st043_01 3 as c1132portrait at rightside(-17), zorder 5
 c11323 '[textdict[1144154]]'
 hide c1132portrait
@@ -198,7 +198,7 @@ show oc006_01 4 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144164]]'
 hide c6portrait
 hide c1132portrait
-c00 '[textdict[1144165]]'
+c0 '[textdict[1144165]]'
 show st043_01 3 as c1132portrait at rightside(-17), shakeright, zorder 5
 c11323 '[textdict[1144166]]'
 hide c1132portrait
@@ -227,7 +227,7 @@ show sc044_01 1 as c1135portrait at rightside(-7), zorder 5
 c11353 '[textdict[1144171]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1144198]]'
+c0 '[textdict[1144198]]'
 scene avg_bg_036
 with fade
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
@@ -353,5 +353,5 @@ show st042_01 3 as c1133portrait at leftside(-14), zorder 5
 c11331 '[textdict[1144196]]'
 hide c1133portrait
 hide c1132portrait
-c00 '[textdict[1144197]]'
+c0 '[textdict[1144197]]'
 return

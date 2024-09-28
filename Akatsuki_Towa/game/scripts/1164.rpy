@@ -167,7 +167,7 @@ c13 '[textdict[2104983]]'
 hide c57portrait
 hide c1portrait
 with fade
-c00 '[textdict[2104984]]'
+c0 '[textdict[2104984]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104985]]'
 hide c1portrait
@@ -538,7 +538,7 @@ c23 '[textdict[2105058]]'
 play sfx2 "other_7047.ogg"
 hide c2portrait
 hide c56portrait
-c5000 '[textdict[2105059]]'
+c5003 '[textdict[2105059]]'
 show sc038_01 1 as c45portrait at rightsideentrance(-1), zorder 5
 c453 '[textdict[2105060]]'
 hide c45portrait
@@ -580,7 +580,7 @@ show sc049_01 2 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2105068]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2105069]]'
+c0 '[textdict[2105069]]'
 scene avg_bg_023
 with fade
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5

@@ -4,11 +4,11 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1172953]]'
+c0 '[textdict[1172953]]'
 stop music
-c00 '[textdict[1172954]]'
+c0 '[textdict[1172954]]'
 stop music
-c00 '[textdict[1172955]]'
+c0 '[textdict[1172955]]'
 play music "ed7516.ogg"
 scene avg_bg_023
 show memoryoverlay zorder 2
@@ -816,6 +816,6 @@ play music "ed7544.ogg"
 scene avg_bg_505
 hide memoryoverlay
 with fade
-c00 '[textdict[1173090]]'
-c00 '[textdict[1173091]]'
+c0 '[textdict[1173090]]'
+c0 '[textdict[1173091]]'
 return

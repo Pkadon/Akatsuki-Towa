@@ -107,7 +107,7 @@ c21 '[textdict[1153540]]'
 play music "ed7516.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1153541]]'
+c0 '[textdict[1153541]]'
 c12351 '[textdict[1153542]]'
 play sfx2 "other_7061.ogg"
 c12351 '[textdict[1153543]]'
@@ -258,5 +258,5 @@ show st041_01 1 as c240portrait at leftside(-1), zorder 5
 c2401 '[textdict[1153587]]'
 hide c240portrait
 hide c2portrait
-c00 '[textdict[1153588]]'
+c0 '[textdict[1153588]]'
 return

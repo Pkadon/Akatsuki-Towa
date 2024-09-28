@@ -5,13 +5,13 @@ play music "ed7150.ogg"
 scene avg_bg_018
 with fade
 play sfx2 "other_7097.ogg"
-c00 '[textdict[1133717]]'
+c0 '[textdict[1133717]]'
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 show oc001_01 20 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1133718]]'
 play sfx2 "other_7097.ogg"
 hide c1portrait
-c00 '[textdict[1133719]]'
+c0 '[textdict[1133719]]'
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1133720]]'
 hide c2portrait
@@ -32,7 +32,7 @@ show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1133723]]'
 hide c5portrait
 hide c1portrait
-c00 '[textdict[1133724]]'
+c0 '[textdict[1133724]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1133725]]'
 play sfxvoice "avg_vocal_ji12.ogg"
@@ -57,7 +57,7 @@ show oc005_01 13 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1133729]]'
 hide c5portrait
 hide c1portrait
-c00 '[textdict[1133730]]'
+c0 '[textdict[1133730]]'
 play sfxvoice "avg_vocal_ji09.ogg"
 show oc005_01 8 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1133731]]'
@@ -73,7 +73,7 @@ c51 '[textdict[1133733]]'
 play sfx2 "other_7097.ogg"
 hide c5portrait
 hide c1portrait
-c00 '[textdict[1133734]]'
+c0 '[textdict[1133734]]'
 play sfxvoice "avg_vocal_ch08.ogg"
 show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1133735]]'

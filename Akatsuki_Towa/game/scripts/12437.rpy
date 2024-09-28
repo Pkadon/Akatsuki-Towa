@@ -92,7 +92,7 @@ show sc052_01 5 as c59portrait at leftside(-25), zorder 5
 c591 '[textdict[1143180]]'
 hide c59portrait
 hide c1portrait
-c00 '[textdict[1143181]]'
+c0 '[textdict[1143181]]'
 play sfxvoice "avg_vocal_ch06.ogg"
 show oc002_01 14 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1143182]]'

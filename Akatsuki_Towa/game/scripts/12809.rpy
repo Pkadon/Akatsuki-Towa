@@ -4,7 +4,7 @@ stop music
 play music "ed9999.ogg"
 scene avg_bg_058
 with fade
-c00 '[textdict[1181962]]'
+c0 '[textdict[1181962]]'
 show st061_01 5 as c1304portrait at rightsideentrance(-2), zorder 5
 c13043 '[textdict[1181963]]'
 hide c1304portrait
@@ -23,7 +23,7 @@ show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1181966]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1181967]]'
+c0 '[textdict[1181967]]'
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1181968]]'
 hide c2portrait
@@ -112,7 +112,7 @@ show oc003_01 1 as c3portrait at darkright(-6), zorder 5
 c14161 '[textdict[1181994]]'
 stop music
 hide c3portrait
-c00 '[textdict[1181995]]'
+c0 '[textdict[1181995]]'
 stop music
 c14161 '[textdict[1181996]]'
 stop music
@@ -238,6 +238,6 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1182028]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1182029]]'
-c00 '[textdict[1182030]]'
+c0 '[textdict[1182029]]'
+c0 '[textdict[1182030]]'
 return

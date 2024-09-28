@@ -5,9 +5,9 @@ stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
-c00 '[textdict[2108307]]'
+c0 '[textdict[2108307]]'
 play music "ED6102.ogg"
-c00 '[textdict[2108308]]'
+c0 '[textdict[2108308]]'
 show sc032_01 1 as c40portrait at leftside(-17), shakeleft, zorder 5
 c401 '[textdict[2108309]]'
 hide c40portrait
@@ -48,7 +48,7 @@ play music "ED6200.ogg"
 scene avg_bg_036
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[2108317]]'
+c0 '[textdict[2108317]]'
 show memoryoverlay zorder 2
 show sc031_01 3 as c39portrait at rightsideentrance(-14), zorder 5
 c393 '[textdict[2108318]]'
@@ -237,13 +237,13 @@ show memoryoverlay zorder 2
 play sfx2 "fight_6006.ogg"
 hide c29portrait
 hide c39portrait
-c00 '[textdict[2108349]]'
+c0 '[textdict[2108349]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2108350]]'
+c0 '[textdict[2108350]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7079.ogg"
-c00 '[textdict[2108351]]'
+c0 '[textdict[2108351]]'
 show memoryoverlay zorder 2
 show sc021_01 2 as c29portrait at leftside(-17), zorder 5
 c291 '[textdict[2108352]]'
@@ -280,7 +280,7 @@ c393 '[textdict[2108357]]'
 scene avg_bg_034
 hide memoryoverlay
 with fade
-c00 '[textdict[2108358]]'
+c0 '[textdict[2108358]]'
 play music "ED6102.ogg"
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
 c393 '[textdict[2108359]]' with shake
@@ -297,7 +297,7 @@ play music "ED6200.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[2108362]]'
+c0 '[textdict[2108362]]'
 show memoryoverlay zorder 2
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
 c393 '[textdict[2108363]]'
@@ -491,13 +491,13 @@ scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2108395]]'
+c0 '[textdict[2108395]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2108396]]'
+c0 '[textdict[2108396]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2108397]]'
+c0 '[textdict[2108397]]'
 play music "ED6200.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
@@ -524,7 +524,7 @@ c291 '[textdict[2108401]]'
 scene avg_bg_034
 hide memoryoverlay
 with fade
-c00 '[textdict[2108402]]'
+c0 '[textdict[2108402]]'
 play music "ED6102.ogg"
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
 c393 '[textdict[2108403]]' with shake
@@ -541,7 +541,7 @@ play music "ED6200.ogg"
 scene avg_bg_079
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[2108406]]'
+c0 '[textdict[2108406]]'
 show memoryoverlay zorder 2
 show sc031_01 3 as c39portrait at rightsideentrance(-14), zorder 5
 c393 '[textdict[2108407]]'
@@ -648,7 +648,7 @@ show memoryoverlay zorder 2
 play sfx2 "fight_6011.ogg"
 hide c29portrait
 hide c39portrait
-c00 '[textdict[2108425]]'
+c0 '[textdict[2108425]]'
 stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
@@ -688,7 +688,7 @@ stop music
 scene avg_bg_034
 hide memoryoverlay
 with fade
-c00 '[textdict[2108433]]'
+c0 '[textdict[2108433]]'
 stop music
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
 c393 '[textdict[2108434]]'
@@ -802,7 +802,7 @@ c393 '[textdict[2108456]]'
 stop music
 play sfx2 "other_7050.ogg"
 hide c39portrait
-c00 '[textdict[2108457]]'
+c0 '[textdict[2108457]]'
 stop music
 show sc032_01 2 as c40portrait at leftside(-17), zorder 5
 c401 '[textdict[2108458]]'
@@ -827,5 +827,5 @@ c393 '[textdict[2108461]]'
 play sfx2 "other_7062.ogg"
 hide c257portrait
 hide c39portrait
-c00 '[textdict[2108462]]'
+c0 '[textdict[2108462]]'
 return

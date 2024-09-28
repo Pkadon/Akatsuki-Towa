@@ -72,7 +72,7 @@ c13 '[textdict[1180068]]'
 play music "ed7551.ogg"
 scene avg_bg_507
 with fade
-c00 '[textdict[1180069]]'
-c00 '[textdict[1180070]]'
-c00 '[textdict[1180071]]'
+c0 '[textdict[1180069]]'
+c0 '[textdict[1180070]]'
+c0 '[textdict[1180071]]'
 return

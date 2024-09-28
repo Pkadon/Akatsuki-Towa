@@ -58,7 +58,7 @@ c41 '[textdict[1142462]]'
 play music "ed7514.ogg"
 hide c4portrait
 with fade
-c00 '[textdict[1142463]]'
+c0 '[textdict[1142463]]'
 c11471 '[textdict[1142464]]'
 c11483 '[textdict[1142465]]'
 c6081 '[textdict[1142466]]'

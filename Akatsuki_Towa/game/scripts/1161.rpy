@@ -26,7 +26,7 @@ play sfx2 "other_7088.ogg"
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104466]]'
 hide c1portrait
-c00 '[textdict[2104467]]'
+c0 '[textdict[2104467]]'
 show oc002_01 22 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2104468]]'
 hide c2portrait
@@ -55,7 +55,7 @@ show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104473]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104474]]'
+c0 '[textdict[2104474]]'
 show oc002_01 21 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[2104475]]'
 play sfxvoice "avg_vocal_na21.ogg"
@@ -65,11 +65,11 @@ show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104476]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104477]]'
+c0 '[textdict[2104477]]'
 play music "ed7150.ogg"
 scene avg_bg_013
 with fade
-c00 '[textdict[2104478]]'
+c0 '[textdict[2104478]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104479]]'
 play sfxvoice "avg_vocal_ch29.ogg"
@@ -94,7 +94,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104483]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104484]]'
+c0 '[textdict[2104484]]'
 scene avg_bg_023
 with fade
 play sfx2 "other_7047.ogg"
@@ -112,7 +112,7 @@ show oc003_01 17 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[2104487]]'
 hide c4portrait
 hide c3portrait
-c00 '[textdict[2104488]]'
+c0 '[textdict[2104488]]'
 show sc049_01 4 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2104489]]'
 hide c56portrait
@@ -187,7 +187,7 @@ c231 '[textdict[2104503]]'
 play sfx2 "other_7004.ogg"
 hide c23portrait
 hide c1portrait
-c00 '[textdict[2104504]]'
+c0 '[textdict[2104504]]'
 show sc015_01 1 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[2104505]]'
 hide c23portrait
@@ -213,10 +213,10 @@ show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[2104512]]'
 hide c3portrait
 hide c4portrait
-c00 '[textdict[2104513]]'
-c00 '[textdict[2104514]]'
-c00 '[textdict[2104515]]'
-c00 '[textdict[2104516]]'
+c0 '[textdict[2104513]]'
+c0 '[textdict[2104514]]'
+c0 '[textdict[2104515]]'
+c0 '[textdict[2104516]]'
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104517]]'
 hide c1portrait
@@ -252,7 +252,7 @@ c41 '[textdict[2104523]]'
 hide c4portrait
 play sfx2 "other_7085.ogg"
 hide c1portrait
-c00 '[textdict[2104524]]'
+c0 '[textdict[2104524]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104525]]'
 hide c1portrait
@@ -261,7 +261,7 @@ show oc002_01 9 as c2portrait at leftsideentrance(-3), zorder 5
 c21 '[textdict[2104526]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104527]]'
+c0 '[textdict[2104527]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104528]]'
 hide c1portrait
@@ -375,9 +375,9 @@ play music "ed7202.ogg"
 scene avg_bg_036
 with fade
 play sfx2 "other_7004.ogg"
-c00 '[textdict[2104550]]'
-c00 '[textdict[2104551]]'
-c00 '[textdict[2104552]]'
+c0 '[textdict[2104550]]'
+c0 '[textdict[2104551]]'
+c0 '[textdict[2104552]]'
 play sfxvoice "avg_vocal_na04_b.ogg"
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104553]]'
@@ -440,7 +440,7 @@ play music "ed7111.ogg"
 scene avg_bg_054
 with fade
 play sfx2 "other_7004.ogg"
-c00 '[textdict[2104565]]'
+c0 '[textdict[2104565]]'
 play sfxvoice "avg_vocal_li17.ogg"
 show oc004_01 8 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[2104566]]'
@@ -465,8 +465,8 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104570]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104571]]'
-c00 '[textdict[2104572]]'
+c0 '[textdict[2104571]]'
+c0 '[textdict[2104572]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104573]]'
 hide c1portrait
@@ -489,7 +489,7 @@ c11551 '[textdict[2104577]]'
 play music "ed7511.ogg"
 scene avg_bg_071
 with fade
-c00 '[textdict[2104578]]'
+c0 '[textdict[2104578]]'
 show oc001_01 4 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[2104579]]'
 hide c1portrait
@@ -514,9 +514,9 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104583]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[2104584]]'
-c00 '[textdict[2104585]]'
-c00 '[textdict[2104586]]'
+c0 '[textdict[2104584]]'
+c0 '[textdict[2104585]]'
+c0 '[textdict[2104586]]'
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104587]]'
 hide c1portrait
@@ -539,7 +539,7 @@ show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2104590]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104591]]'
+c0 '[textdict[2104591]]'
 play music "ed7300.ogg"
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104592]]'
@@ -549,18 +549,18 @@ show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2104593]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2104594]]'
+c0 '[textdict[2104594]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104595]]'
 hide c1portrait
-c00 '[textdict[2104596]]'
+c0 '[textdict[2104596]]'
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2104597]]'
 play sfx2 "other_7004.ogg"
 hide c3portrait
-c00 '[textdict[2104598]]'
-c00 '[textdict[2104599]]'
-c00 '[textdict[2104600]]'
+c0 '[textdict[2104598]]'
+c0 '[textdict[2104599]]'
+c0 '[textdict[2104600]]'
 play sfxvoice "avg_vocal_ro02.ogg"
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2104601]]'
@@ -600,10 +600,10 @@ c13 '[textdict[2104609]]'
 play music "ed7514.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[2104610]]'
-c00 '[textdict[2104611]]'
-c00 '[textdict[2104612]]'
-c00 '[textdict[2104613]]'
+c0 '[textdict[2104610]]'
+c0 '[textdict[2104611]]'
+c0 '[textdict[2104612]]'
+c0 '[textdict[2104613]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104614]]'
 hide c1portrait
@@ -617,5 +617,5 @@ show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2104616]]'
 hide c56portrait
 hide c1portrait
-c00 '[textdict[2104617]]'
+c0 '[textdict[2104617]]'
 return

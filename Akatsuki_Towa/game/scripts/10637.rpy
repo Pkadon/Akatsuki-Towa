@@ -32,7 +32,7 @@ hide c3portrait
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1164117]]'
 hide c3portrait
-c00 '[textdict[1164118]]'
+c0 '[textdict[1164118]]'
 play sfx2 "other_7085.ogg"
 show st061_01 1 as c1304portrait at leftsideentrance(-2), zorder 5
 c13041 '[textdict[1164119]]'
@@ -86,7 +86,7 @@ c43 '[textdict[1164129]]'
 play sfx2 "other_7093.ogg"
 hide c18portrait
 hide c4portrait
-c00 '[textdict[1164130]]'
+c0 '[textdict[1164130]]'
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1164131]]'
 hide c3portrait

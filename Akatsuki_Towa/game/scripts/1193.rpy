@@ -72,7 +72,7 @@ hide c2626portrait
 show ocb01_01 2 as c2626portrait at darkleft(-2), zorder 6
 c11543 '[textdict[2107393]]'
 hide c2626portrait
-c00 '[textdict[2107394]]'
+c0 '[textdict[2107394]]'
 show ocb01_01 2 as c2626portrait at leftside(-2), zorder 5
 c26261 '[textdict[2107395]]'
 hide c2626portrait
@@ -101,7 +101,7 @@ show sca46_01 4 as c2632portrait at rightside(-5), zorder 5
 c26323 '[textdict[2107401]]'
 play music "ed7162.ogg"
 hide c2632portrait
-c00 '[textdict[2107402]]'
+c0 '[textdict[2107402]]'
 show occ04_01 9 as c2627portrait at leftside(-5), zorder 5
 c26271 '[textdict[2107403]]'
 hide c2627portrait
@@ -331,5 +331,5 @@ hide c2632portrait
 show sca46_01 3 as c2632portrait at darkright(-5), zorder 5
 c26451 '[textdict[2107452]]'
 hide c2632portrait
-c00 '[textdict[2107453]]'
+c0 '[textdict[2107453]]'
 return

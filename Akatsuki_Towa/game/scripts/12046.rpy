@@ -57,7 +57,7 @@ c5093 '[textdict[1120452]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7020.ogg"
-c00 '[textdict[1120462]]'
+c0 '[textdict[1120462]]'
 scene avg_bg_014
 with fade
 show oc001_01 2 as c1portrait at leftside(-2), zorder 5
@@ -112,7 +112,7 @@ show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1120461]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1120463]]'
+c0 '[textdict[1120463]]'
 play music "ed7110.ogg"
 scene avg_bg_030
 with fade

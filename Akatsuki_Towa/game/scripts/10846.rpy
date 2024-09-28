@@ -5,12 +5,12 @@ play music "ed7151.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1189058]]'
+c0 '[textdict[1189058]]'
 scene avg_bg_004
 show memoryoverlay zorder 2
 with fade
 play sfx2 "fight_6011.ogg"
-c00 '[textdict[1189059]]'
+c0 '[textdict[1189059]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6016.ogg"
 c5061 '[textdict[1189060]]'
@@ -51,13 +51,13 @@ c26143 '[textdict[1189076]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1189077]]'
+c0 '[textdict[1189077]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1189078]]'
+c0 '[textdict[1189078]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1189079]]'
+c0 '[textdict[1189079]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1189080]]'
+c0 '[textdict[1189080]]'
 scene avg_bg_004
 show memoryoverlay zorder 2
 with fade

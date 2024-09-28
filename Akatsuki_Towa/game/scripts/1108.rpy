@@ -4,7 +4,7 @@ stop music
 play music "ed7106.ogg"
 scene avg_bg_013
 with fade
-c00 '[textdict[2102659]]'
+c0 '[textdict[2102659]]'
 c7481 '[textdict[2102660]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102661]]'
@@ -23,7 +23,7 @@ show oc002_01 14 as c2portrait at darkleft(-3), zorder 6
 c10893 '[textdict[2102664]]'
 hide c2portrait
 c7481 '[textdict[2102665]]'
-c00 '[textdict[2102666]]'
+c0 '[textdict[2102666]]'
 play sfxvoice "bcv_oc002_c02_01.ogg"
 show oc002_01 8 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[2102667]]'

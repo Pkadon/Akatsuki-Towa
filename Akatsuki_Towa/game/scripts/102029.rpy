@@ -5,5 +5,5 @@ stop music
 scene placeholderbackground
 with fade
 show sc012_01 1 as c20portrait at centerpos(-16), zorder 5
-c202 '[textdict[1218705]]'
+c203 '[textdict[1218705]]'
 return

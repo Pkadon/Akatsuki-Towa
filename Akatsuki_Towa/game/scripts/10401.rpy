@@ -4,9 +4,9 @@ stop music
 play music "ed7162.ogg"
 scene avg_bg_065
 with fade
-c00 '[textdict[1140002]]'
-c00 '[textdict[1140003]]'
-c00 '[textdict[1140004]]'
+c0 '[textdict[1140002]]'
+c0 '[textdict[1140003]]'
+c0 '[textdict[1140004]]'
 play sfx2 "other_7064.ogg"
 play sfxvoice "avg_vocal_na05.ogg"
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
@@ -872,5 +872,5 @@ show oc002_01 10 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1140175]]' (what_size=18)
 hide c3portrait
 hide c2portrait
-c00 '[textdict[1140176]]'
+c0 '[textdict[1140176]]'
 return

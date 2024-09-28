@@ -312,6 +312,6 @@ show oca02_01 12 as c2702portrait at leftside(-3), shakeleft, zorder 5
 c27021 '[textdict[2110644]]'
 hide c2702portrait
 c5261 '[textdict[2110645]]'
-c00 '[textdict[2110646]]'
-c00 '[textdict[2110647]]'
+c0 '[textdict[2110646]]'
+c0 '[textdict[2110647]]'
 return

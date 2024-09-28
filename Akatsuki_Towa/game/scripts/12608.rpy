@@ -4,7 +4,7 @@ stop music
 play music "ED6104.ogg"
 scene avg_bg_101
 with fade
-c00 '[textdict[1161288]]'
+c0 '[textdict[1161288]]'
 show oc001_01 2 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1161289]]'
 play sfxvoice "avg_vocal_li03.ogg"
@@ -175,7 +175,7 @@ show oc004_01 1 as c4portrait at darkright(-5), zorder 5
 c13101 '[textdict[1161334]]'
 play sfx2 "common_correct.ogg"
 hide c4portrait
-c00 '[textdict[1161335]]'
+c0 '[textdict[1161335]]'
 c13101 '[textdict[1161336]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1161337]]'

@@ -29,7 +29,7 @@ hide c1portrait
 show oc001_01 7 as c1portrait at darkright(-2), zorder 5
 c5551 '[textdict[1001903]]'
 hide c1portrait
-c00 '[textdict[1001904]]'
+c0 '[textdict[1001904]]'
 play music "ed7161.ogg"
 play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
@@ -97,7 +97,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1001919]]'
 hide c556portrait
 hide c1portrait
-c00 '[textdict[1001920]]'
+c0 '[textdict[1001920]]'
 show st020_01 1 as c556portrait at leftside(-8), zorder 5
 c5561 '[textdict[1001921]]'
 hide c556portrait

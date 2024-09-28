@@ -39,7 +39,7 @@ c31 '[textdict[1130603]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7046.ogg"
-c00 '[textdict[1130604]]'
+c0 '[textdict[1130604]]'
 scene avg_bg_040
 with fade
 play sfx2 "other_7020.ogg"
@@ -407,7 +407,7 @@ show oc002_01 14 as c2portrait at darkright(-3), zorder 5
 c10161 '[textdict[1130687]]'
 play sfx2 "other_7046.ogg"
 hide c2portrait
-c00 '[textdict[1130688]]'
+c0 '[textdict[1130688]]'
 play sfx2 "other_7020.ogg"
 show oc004_01 2 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1130689]]'

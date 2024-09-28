@@ -5,7 +5,7 @@ play music "ED6102.ogg"
 scene avg_bg_077
 with fade
 play sfx2 "other_7060.ogg"
-c00 '[textdict[2113253]]'
+c0 '[textdict[2113253]]'
 show st059_01 2 as c1253portrait at leftsideentrance(-14), zorder 5
 c12531 '[textdict[2113254]]'
 hide c1253portrait
@@ -48,7 +48,7 @@ c12543 '[textdict[2113265]]'
 play sfx2 "other_7047.ogg"
 hide c1253portrait
 hide c1254portrait
-c00 '[textdict[2113266]]'
+c0 '[textdict[2113266]]'
 c26663 '[textdict[2113267]]'
 show st058_01 2 as c1254portrait at rightside(-6), zorder 5
 c12543 '[textdict[2113268]]'
@@ -174,7 +174,7 @@ c12671 '[textdict[2113294]]'
 play sfx2 "other_7004.ogg"
 hide c1267portrait
 hide c2666portrait
-c00 '[textdict[2113295]]'
+c0 '[textdict[2113295]]'
 show oce02_01 4 as c2666portrait at rightside(-3), zorder 5
 c26663 '[textdict[2113296]]'
 hide c2666portrait
@@ -503,7 +503,7 @@ show oce02_01 4 as c2666portrait at rightside(-3), zorder 5
 c26663 '[textdict[2113357]]'
 hide c1267portrait
 hide c2666portrait
-c00 '[textdict[2113358]]'
+c0 '[textdict[2113358]]'
 show sc016_01 4 as c1267portrait at leftside(-6), zorder 5
 c12671 '[textdict[2113359]]'
 hide c1267portrait
@@ -586,7 +586,7 @@ c26663 '[textdict[2113375]]' with shake
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2113376]]'
+c0 '[textdict[2113376]]'
 stop music
 scene avg_bg_036
 with fade
@@ -610,34 +610,34 @@ hide c2666portrait
 play sfx2 "fight_6009.ogg"
 show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
 with fade
-c26662 '[textdict[2113381]]'
+c26663 '[textdict[2113381]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6018.ogg"
 hide c2666portrait
-c00 '[textdict[2113382]]'
+c0 '[textdict[2113382]]'
 scene avg_bg_036
 with fade
 show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113383]]'
+c26663 '[textdict[2113383]]'
 hide c2666portrait
 show oce02_01 5 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113384]]' with shake
+c26663 '[textdict[2113384]]' with shake
 play sfx2 "fight_6017.ogg"
 hide c2666portrait
 show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113385]]' (what_size=25) with shake
+c26663 '[textdict[2113385]]' (what_size=25) with shake
 c13091 '[textdict[2113386]]' with shake
 hide c2666portrait
 show oce02_01 1 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113387]]'
+c26663 '[textdict[2113387]]'
 hide c2666portrait
 show oce02_01 4 as c2666portrait at centerpos(-3), zorder 5
-c26662 '[textdict[2113388]]'
+c26663 '[textdict[2113388]]'
 scene avg_bg_520
 with fade
 hide c2666portrait
-c00 '[textdict[2113389]]'
+c0 '[textdict[2113389]]'
 c26663 '[textdict[2113390]]'
 c26663 '[textdict[2113391]]'
 return

@@ -16,5 +16,5 @@ c571 '[textdict[1133327]]'
 play sfx2 "other_7085.ogg"
 hide c57portrait
 hide c1portrait
-c00 '[textdict[1133328]]'
+c0 '[textdict[1133328]]'
 return

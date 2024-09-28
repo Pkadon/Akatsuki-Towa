@@ -85,14 +85,14 @@ c26971 '[textdict[2109905]]'
 play sfx2 "other_7063.ogg"
 hide c2697portrait
 hide c2695portrait
-c00 '[textdict[2109906]]'
+c0 '[textdict[2109906]]'
 play sfx2 "other_7064.ogg"
-c00 '[textdict[2109907]]'
+c0 '[textdict[2109907]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2109908]]'
+c0 '[textdict[2109908]]'
 stop music
-c00 '[textdict[2109909]]'
+c0 '[textdict[2109909]]'
 play music "ed7565.ogg"
 scene avg_bg_024
 with fade
@@ -304,7 +304,7 @@ show oca04_01 6 as c2697portrait at rightside(-5), zorder 5
 c26973 '[textdict[2109958]]'
 play sfx2 "other_7062.ogg"
 hide c2697portrait
-c00 '[textdict[2109959]]'
+c0 '[textdict[2109959]]'
 stop music
 scene avg_bg_078
 with fade
@@ -378,5 +378,5 @@ show st039_01 2 as c1172portrait at leftside(-6), zorder 5
 c11721 '[textdict[2109974]]'
 hide c1172portrait
 hide c1308portrait
-c00 '[textdict[2109975]]'
+c0 '[textdict[2109975]]'
 return

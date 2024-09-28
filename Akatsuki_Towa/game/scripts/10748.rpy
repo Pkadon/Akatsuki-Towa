@@ -57,9 +57,9 @@ c14491 '[textdict[1173686]]'
 play music "ed7566.ogg"
 scene avg_bg_010
 with fade
-c00 '[textdict[1173687]]'
-c00 '[textdict[1173688]]'
-c00 '[textdict[1173689]]'
+c0 '[textdict[1173687]]'
+c0 '[textdict[1173688]]'
+c0 '[textdict[1173689]]'
 show st057_01 1 as c1453portrait at rightside(-16), zorder 5
 c14533 '[textdict[1173690]]'
 hide c1453portrait

@@ -154,7 +154,7 @@ hide c2portrait
 show oc001_01 2 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1007312]]'
 hide c1portrait
-c00 '[textdict[1007660]]'
+c0 '[textdict[1007660]]'
 c9673 '[textdict[1007313]]'
 c9673 '[textdict[1007314]]'
 show oc002_01 7 as c2portrait at rightside(-3), zorder 5
@@ -179,7 +179,7 @@ show oc001_01 4 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1007317]]'
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1007663]]'
+c0 '[textdict[1007663]]'
 play sfxvoice "avg_vocal_ch09.ogg"
 show oc002_01 14 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1007318]]'

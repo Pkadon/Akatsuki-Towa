@@ -16,7 +16,7 @@ show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c13671 '[textdict[1166619]]'
 play sfx2 "other_7088.ogg"
 hide c1portrait
-c00 '[textdict[1166620]]'
+c0 '[textdict[1166620]]'
 play sfx2 "fight_6024.ogg"
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166621]]' with shake

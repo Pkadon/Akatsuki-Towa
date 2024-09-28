@@ -161,7 +161,7 @@ c53 '[textdict[1003811]]'
 play sfx2 "other_7022.ogg"
 hide c2portrait
 hide c5portrait
-c00 '[textdict[1003812]]'
+c0 '[textdict[1003812]]'
 play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1003813]]'
@@ -172,10 +172,10 @@ c53 '[textdict[1003814]]'
 play sfx2 "other_7022.ogg"
 hide c2portrait
 hide c5portrait
-c00 '[textdict[1003815]]'
-c00 '[textdict[1003816]]'
-c00 '[textdict[1003817]]'
-c00 '[textdict[1123000]]'
+c0 '[textdict[1003815]]'
+c0 '[textdict[1003816]]'
+c0 '[textdict[1003817]]'
+c0 '[textdict[1123000]]'
 show oc005_01 1 as c5portrait at rightside(-6), zorder 5
 c53 '[textdict[1003818]]'
 play sfxvoice "avg_vocal_na20.ogg"
@@ -196,7 +196,7 @@ c53 '[textdict[1003821]]'
 play sfx2 "other_7022.ogg"
 hide c2portrait
 hide c5portrait
-c00 '[textdict[1003822]]'
+c0 '[textdict[1003822]]'
 show oc001_01 12 as c1portrait at leftside(-2), shakeleft, zorder 5
 c11 '[textdict[1003823]]'
 hide c1portrait

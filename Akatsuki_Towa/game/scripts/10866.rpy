@@ -481,6 +481,6 @@ scene avg_bg_516
 with fade
 play sfx2 "other_7061.ogg"
 c26601 '[textdict[1191635]]'
-c00 '[textdict[1191636]]'
-c00 '[textdict[1191637]]'
+c0 '[textdict[1191636]]'
+c0 '[textdict[1191637]]'
 return

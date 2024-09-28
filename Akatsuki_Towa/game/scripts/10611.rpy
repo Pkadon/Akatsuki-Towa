@@ -83,8 +83,8 @@ show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1160436]]'
 hide c3portrait
 hide c4portrait
-c00 '[textdict[1160437]]'
-c00 '[textdict[1160438]]'
+c0 '[textdict[1160437]]'
+c0 '[textdict[1160438]]'
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1160439]]'
 play sfxvoice "avg_vocal_ro15.ogg"
@@ -381,7 +381,7 @@ show st061_01 1 as c1303portrait at leftside(-2), zorder 5
 c13031 '[textdict[1160497]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1160498]]'
+c0 '[textdict[1160498]]'
 scene avg_bg_010
 with fade
 show st061_01 1 as c1303portrait at leftside(-2), zorder 5
@@ -443,7 +443,7 @@ c21 '[textdict[1160510]]'
 play music "ED6202.ogg"
 hide c2portrait
 hide c1303portrait
-c00 '[textdict[1160511]]'
+c0 '[textdict[1160511]]'
 show oc004_01 2 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1160512]]'
 hide c4portrait

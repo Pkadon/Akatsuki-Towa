@@ -27,11 +27,11 @@ c13 '[textdict[1171512]]'
 scene avg_bg_070
 hide memoryoverlay
 with fade
-c00 '[textdict[1171513]]'
-c00 '[textdict[1171514]]'
-c00 '[textdict[1171515]]'
-c00 '[textdict[1171516]]'
-c00 '[textdict[1171517]]'
+c0 '[textdict[1171513]]'
+c0 '[textdict[1171514]]'
+c0 '[textdict[1171515]]'
+c0 '[textdict[1171516]]'
+c0 '[textdict[1171517]]'
 play music "ed7111.ogg"
 scene avg_bg_061
 with fade
@@ -75,13 +75,13 @@ play music "ed7564.ogg"
 play sfx2 "other_7004.ogg"
 hide c5portrait
 hide c2portrait
-c00 '[textdict[1171526]]'
+c0 '[textdict[1171526]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1171527]]'
-c00 '[textdict[1171528]]'
-c00 '[textdict[1171529]]'
-c00 '[textdict[1171530]]'
+c0 '[textdict[1171527]]'
+c0 '[textdict[1171528]]'
+c0 '[textdict[1171529]]'
+c0 '[textdict[1171530]]'
 scene avg_bg_061
 with fade
 show oc002_01 10 as c2portrait at rightside(-3), zorder 5

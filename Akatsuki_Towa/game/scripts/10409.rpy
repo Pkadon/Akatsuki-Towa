@@ -42,8 +42,8 @@ show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1140602]]'
 hide c20portrait
 hide c1portrait
-c00 '[textdict[1140603]]'
-c00 '[textdict[1140604]]'
+c0 '[textdict[1140603]]'
+c0 '[textdict[1140604]]'
 show sc012_01 4 as c20portrait at leftside(-16), zorder 5
 c201 '[textdict[1140605]]'
 hide c20portrait

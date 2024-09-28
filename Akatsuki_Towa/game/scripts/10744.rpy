@@ -4,11 +4,11 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1173157]]'
+c0 '[textdict[1173157]]'
 stop music
-c00 '[textdict[1173158]]'
+c0 '[textdict[1173158]]'
 stop music
-c00 '[textdict[1173159]]'
+c0 '[textdict[1173159]]'
 play music "ed7111.ogg"
 scene avg_bg_003
 show memoryoverlay zorder 2

@@ -5,7 +5,7 @@ play music "ed7151.ogg"
 scene placeholderbackground
 with fade
 play sfx2 "other_7085.ogg"
-c00 '[textdict[1002537]]'
+c0 '[textdict[1002537]]'
 show uc003_01 1 as c581portrait at leftside(-26), zorder 5
 c5811 '[textdict[1002538]]'
 hide c581portrait

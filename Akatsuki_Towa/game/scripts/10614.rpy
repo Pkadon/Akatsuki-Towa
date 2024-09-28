@@ -186,7 +186,7 @@ show st040_01 1 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1160679]]'
 hide c239portrait
 hide c1portrait
-c00 '[textdict[1160680]]'
+c0 '[textdict[1160680]]'
 play music "ed7516.ogg"
 show st040_01 4 as c239portrait at leftside(-19), zorder 5
 with fade

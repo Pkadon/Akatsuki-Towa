@@ -4,7 +4,7 @@ stop music
 play music "ed7120.ogg"
 scene avg_bg_072
 with fade
-c00 '[textdict[2106333]]'
+c0 '[textdict[2106333]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106334]]'
 hide c1portrait
@@ -82,7 +82,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106354]]'
 hide c23portrait
 hide c1portrait
-c00 '[textdict[2106355]]'
+c0 '[textdict[2106355]]'
 show sc015_01 1 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[2106356]]'
 hide c23portrait
@@ -156,7 +156,7 @@ show sc015_01 1 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[2106370]]'
 hide c23portrait
 hide c1portrait
-c00 '[textdict[2106371]]'
+c0 '[textdict[2106371]]'
 show sc015_01 1 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[2106372]]'
 hide c23portrait
@@ -195,8 +195,8 @@ show sc015_01 1 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[2106379]]'
 hide c23portrait
 hide c1portrait
-c00 '[textdict[2106380]]'
-c00 '[textdict[2106381]]'
+c0 '[textdict[2106380]]'
+c0 '[textdict[2106381]]'
 show oc001_01 22 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106382]]'
 hide c1portrait
@@ -289,11 +289,11 @@ c13 '[textdict[2106400]]'
 play music "ed7203.ogg"
 hide c23portrait
 hide c1portrait
-c00 '[textdict[2106401]]'
+c0 '[textdict[2106401]]'
 show oc001_01 19 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[2106402]]'
 hide c1portrait
-c00 '[textdict[2106403]]'
+c0 '[textdict[2106403]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106404]]'
 hide c1portrait
@@ -304,7 +304,7 @@ play music "ed7120.ogg"
 scene avg_bg_055
 with fade
 play sfx2 "other_7063.ogg"
-c00 '[textdict[2106406]]'
+c0 '[textdict[2106406]]'
 play music "ed7514.ogg"
 show st053_01 1 as c1007portrait at leftside(-12), zorder 5
 c10071 '[textdict[2106407]]'

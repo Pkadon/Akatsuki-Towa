@@ -101,7 +101,7 @@ c25101 '[textdict[2109729]]'
 show scc39_01 1 as c2691portrait at rightsideentrance(-13), zorder 5
 c26913 '[textdict[2109730]]'
 hide c2691portrait
-c00 '[textdict[2109731]]'
+c0 '[textdict[2109731]]'
 c26791 '[textdict[2109732]]'
 show scc39_01 2 as c2691portrait at rightside(-13), zorder 5
 c26913 '[textdict[2109733]]'
@@ -161,7 +161,7 @@ hide c2692portrait
 show scb52_01 5 as c2692portrait at darkright(-25), zorder 5
 c25101 '[textdict[2109749]]'
 hide c2692portrait
-c00 '[textdict[2109750]]'
+c0 '[textdict[2109750]]'
 c25101 '[textdict[2109751]]'
 show st023_01 2 as c222portrait at rightside(-12), zorder 5
 c2223 '[textdict[2109752]]'
@@ -261,7 +261,7 @@ hide c25portrait
 show sc017_01 1 as c25portrait at darkright(-7), zorder 5
 c26901 '[textdict[2109778]]'
 hide c25portrait
-c00 '[textdict[2109779]]'
+c0 '[textdict[2109779]]'
 show sce09_01 5 as c2695portrait at rightside(-13), zorder 5
 c26953 '[textdict[2109780]]'
 hide c2695portrait

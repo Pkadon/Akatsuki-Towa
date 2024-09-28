@@ -4,7 +4,7 @@ stop music
 play music "ed7111.ogg"
 scene avg_bg_074
 with fade
-c00 '[textdict[1191085]]'
+c0 '[textdict[1191085]]'
 show ocd03_01 1 as c2667portrait at rightsideentrance(-6), zorder 5
 c26673 '[textdict[1191086]]'
 hide c2667portrait
@@ -32,7 +32,7 @@ hide c2667portrait
 show ocd03_01 17 as c2667portrait at darkright(-6), zorder 5
 c26591 '[textdict[1191094]]'
 hide c2667portrait
-c00 '[textdict[1191095]]'
+c0 '[textdict[1191095]]'
 c26583 '[textdict[1191096]]'
 c26583 '[textdict[1191097]]'
 c26591 '[textdict[1191098]]'
@@ -65,7 +65,7 @@ c26581 '[textdict[1191124]]'
 play music "ED6105.ogg"
 scene avg_bg_077
 with fade
-c00 '[textdict[1191125]]'
+c0 '[textdict[1191125]]'
 play sfx2 "other_7047.ogg"
 show ocd03_01 1 as c2667portrait at rightsideentrance(-6), zorder 5
 c26673 '[textdict[1191126]]'
@@ -184,7 +184,7 @@ show oca05_01 12 as c2669portrait at leftside(-6), zorder 5
 c26691 '[textdict[1191150]]'
 hide c2669portrait
 hide c2667portrait
-c00 '[textdict[1191151]]'
+c0 '[textdict[1191151]]'
 show ocd03_01 5 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[1191152]]'
 hide c2667portrait

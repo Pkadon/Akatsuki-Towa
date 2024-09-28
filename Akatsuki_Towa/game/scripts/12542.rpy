@@ -40,5 +40,5 @@ show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 with fade
 c43 '[textdict[1152931]]'
 hide c4portrait
-c00 '[textdict[1152932]]'
+c0 '[textdict[1152932]]'
 return

@@ -70,7 +70,7 @@ show oc003_01 9 as c3portrait at rightsidemidback(-6), zorder 5
 c33 '[textdict[1165868]]'
 play sfx2 "fight_6008.ogg"
 hide c3portrait
-c00 '[textdict[1165869]]' with shake
+c0 '[textdict[1165869]]' with shake
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1165870]]'
 hide c1portrait
@@ -89,7 +89,7 @@ show oc002_01 9 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1165873]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1165874]]'
+c0 '[textdict[1165874]]'
 scene avg_bg_035
 with fade
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5

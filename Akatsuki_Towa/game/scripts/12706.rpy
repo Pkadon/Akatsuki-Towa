@@ -75,8 +75,8 @@ show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1170542]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1170543]]'
-c00 '[textdict[1170544]]'
+c0 '[textdict[1170543]]'
+c0 '[textdict[1170544]]'
 scene avg_bg_058
 with fade
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5

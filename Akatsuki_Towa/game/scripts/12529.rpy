@@ -313,7 +313,7 @@ hide c13portrait
 show sc005_01 1 as c13portrait at leftside(-17), zorder 5
 c131 '[textdict[1151602]]'
 hide c13portrait
-c00 '[textdict[1151603]]'
+c0 '[textdict[1151603]]'
 show sc028_01 1 as c36portrait at leftsideentrance(-7), zorder 5
 c361 '[textdict[1151604]]'
 hide c36portrait

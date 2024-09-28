@@ -23,7 +23,7 @@ hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c12321 '[textdict[1152403]]'
 hide c1portrait
-c00 '[textdict[1152404]]'
+c0 '[textdict[1152404]]'
 c12321 '[textdict[1152405]]'
 c12321 '[textdict[1152406]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5

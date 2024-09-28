@@ -94,7 +94,7 @@ show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[1216160]]' (what_size=18)
 hide c56portrait
 hide c1portrait
-c00 '[textdict[1216161]]' (what_size=18)
+c0 '[textdict[1216161]]' (what_size=18)
 menu:
     "[textdict[1216162]]":
         call avg19017

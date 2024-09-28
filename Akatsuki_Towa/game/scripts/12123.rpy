@@ -34,7 +34,7 @@ show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 c9591 '[textdict[1128241]]'
 play sfx2 "common_tag_2.ogg"
 hide c1portrait
-c00 '[textdict[1128242]]'
+c0 '[textdict[1128242]]'
 show oc003_01 2 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1128243]]'
 hide c3portrait

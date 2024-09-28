@@ -4,7 +4,7 @@ stop music
 play music "ed7304.ogg"
 scene avg_bg_077
 with fade
-c00 '[textdict[1175404]]'
+c0 '[textdict[1175404]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175405]]'
 hide c1portrait
@@ -28,7 +28,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175409]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1175410]]'
+c0 '[textdict[1175410]]'
 scene avg_bg_070
 with fade
 c12601 '[textdict[1175411]]'
@@ -50,7 +50,7 @@ c13041 '[textdict[1175417]]'
 play sfx2 "fight_6024.ogg"
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1175418]]'
+c0 '[textdict[1175418]]'
 play sfx2 "other_7045.ogg"
 show oc001_01 15 as c1portrait at rightsideentrance(-2), zorder 5
 with fade
@@ -87,11 +87,11 @@ show st061_01 5 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1175425]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1175426]]'
+c0 '[textdict[1175426]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175427]]'
 hide c1portrait
-c00 '[textdict[1175428]]'
+c0 '[textdict[1175428]]'
 c5001 '[textdict[1175429]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1175430]]'
@@ -116,7 +116,7 @@ show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1175434]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1175435]]'
+c0 '[textdict[1175435]]'
 show st065_01 1 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1175436]]'
 hide c1468portrait
@@ -158,7 +158,7 @@ show st065_01 1 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1175444]]'
 hide c1468portrait
 hide c1portrait
-c00 '[textdict[1175445]]'
+c0 '[textdict[1175445]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1175446]]'
 hide c3portrait
@@ -196,7 +196,7 @@ show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1175454]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1175455]]'
+c0 '[textdict[1175455]]'
 show st065_01 1 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1175456]]'
 hide c1468portrait
@@ -739,7 +739,7 @@ c14683 '[textdict[1175564]]'
 play sfx2 "other_7047.ogg"
 hide c4portrait
 hide c1468portrait
-c00 '[textdict[1175565]]'
+c0 '[textdict[1175565]]'
 show oc003_01 7 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1175566]]'
 hide c3portrait

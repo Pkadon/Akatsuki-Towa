@@ -4,11 +4,11 @@ stop music
 play music "ed7117.ogg"
 scene avg_bg_011
 with fade
-c00 '[textdict[1172099]]'
+c0 '[textdict[1172099]]'
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1172100]]'
 hide c3portrait
-c00 '[textdict[1172101]]'
+c0 '[textdict[1172101]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1172102]]'
 hide c1portrait
@@ -19,7 +19,7 @@ hide c3portrait
 show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
 c7493 '[textdict[1172105]]'
 hide c3portrait
-c00 '[textdict[1172106]]'
+c0 '[textdict[1172106]]'
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1172107]]'
 hide c3portrait
@@ -49,9 +49,9 @@ show oc001_01 15 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1172114]]'
 play sfx2 "other_7052.ogg"
 hide c1portrait
-c00 '[textdict[1172115]]'
+c0 '[textdict[1172115]]'
 c7491 '[textdict[1172116]]'
-c00 '[textdict[1172117]]'
+c0 '[textdict[1172117]]'
 c14381 '[textdict[1172118]]'
 c14393 '[textdict[1172119]]'
 show oc003_01 21 as c3portrait at leftside(-6), zorder 5
@@ -76,5 +76,5 @@ c31 '[textdict[1172124]]'
 play sfx2 "fight_6024.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1172125]]'
+c0 '[textdict[1172125]]'
 return

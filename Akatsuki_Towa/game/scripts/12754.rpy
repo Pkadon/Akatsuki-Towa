@@ -44,7 +44,7 @@ scene avg_bg_036
 with fade
 c14581 '[textdict[1174339]]' with shake
 play sfx2 "other_7013.ogg"
-c00 '[textdict[1174340]]'
+c0 '[textdict[1174340]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1174341]]'
 hide c1portrait

@@ -68,7 +68,7 @@ c53 '[textdict[1178930]]'
 play sfx2 "other_7088.ogg"
 hide c3portrait
 hide c5portrait
-c00 '[textdict[1178931]]'
+c0 '[textdict[1178931]]'
 show oc003_01 12 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1178932]]'
 hide c3portrait
@@ -131,7 +131,7 @@ c31 '[textdict[1178944]]'
 play sfx2 "other_7004.ogg"
 hide c3portrait
 hide c5portrait
-c00 '[textdict[1178945]]'
+c0 '[textdict[1178945]]'
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1178946]]'
 hide c3portrait
@@ -172,7 +172,7 @@ c31 '[textdict[1178953]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1178954]]'
+c0 '[textdict[1178954]]'
 stop music
-c00 '[textdict[1178955]]'
+c0 '[textdict[1178955]]'
 return

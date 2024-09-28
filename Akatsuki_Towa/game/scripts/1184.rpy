@@ -452,9 +452,9 @@ c25711 '[textdict[2106612]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6006.ogg"
-c00 '[textdict[2106613]]' with shake
+c0 '[textdict[2106613]]' with shake
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2106614]]'
+c0 '[textdict[2106614]]'
 scene avg_bg_017
 with fade
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5

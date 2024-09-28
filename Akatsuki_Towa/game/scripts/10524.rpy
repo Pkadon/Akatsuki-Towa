@@ -4,9 +4,9 @@ stop music
 play music "ED6100.ogg"
 scene avg_bg_078
 with fade
-c00 '[textdict[1152103]]'
-c00 '[textdict[1152104]]'
-c00 '[textdict[1152105]]'
+c0 '[textdict[1152103]]'
+c0 '[textdict[1152104]]'
+c0 '[textdict[1152105]]'
 c12301 '[textdict[1152106]]'
 c12293 '[textdict[1152107]]' (what_size=24) with shake
 c12301 '[textdict[1152108]]'

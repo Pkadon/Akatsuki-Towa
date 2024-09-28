@@ -4,7 +4,7 @@ stop music
 play music "ed9999.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[1171814]]'
+c0 '[textdict[1171814]]'
 show oc001_01 4 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1171815]]'
 hide c1portrait
@@ -17,7 +17,7 @@ hide c1portrait
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1171818]]'
 hide c1portrait
-c00 '[textdict[1171819]]'
+c0 '[textdict[1171819]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1171820]]'
 hide c1portrait
@@ -31,7 +31,7 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c14081 '[textdict[1171823]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1171824]]'
+c0 '[textdict[1171824]]'
 play music "ed7117.ogg"
 scene avg_bg_050
 with fade
@@ -105,13 +105,13 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c14341 '[textdict[1171847]]'
 play sfx2 "other_7091.ogg"
 hide c1portrait
-c00 '[textdict[1171848]]'
+c0 '[textdict[1171848]]'
 c14341 '[textdict[1171849]]'
 c14341 '[textdict[1171850]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1171851]]'
 hide c1portrait
-c00 '[textdict[1171852]]'
+c0 '[textdict[1171852]]'
 play music "ed7518.ogg"
 show uc002_03 3 as c530portrait at leftside(-23), shakeleft, zorder 5
 c5301 '[textdict[1171853]]'
@@ -159,7 +159,7 @@ hide c1portrait
 show oc001_01 2 as c1portrait at darkright(-2), zorder 5
 c14341 '[textdict[1171864]]'
 hide c1portrait
-c00 '[textdict[1171865]]'
+c0 '[textdict[1171865]]'
 c14341 '[textdict[1171866]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1171867]]'
@@ -174,7 +174,7 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c14341 '[textdict[1171870]]'
 play sfx2 "other_7004.ogg"
 hide c1portrait
-c00 '[textdict[1171871]]'
+c0 '[textdict[1171871]]'
 play music "ed7117.ogg"
 c14341 '[textdict[1171872]]'
 c14341 '[textdict[1171873]]'
@@ -253,7 +253,7 @@ hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c14341 '[textdict[1171898]]'
 hide c1portrait
-c00 '[textdict[1171899]]'
+c0 '[textdict[1171899]]'
 scene avg_bg_070
 with fade
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5

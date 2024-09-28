@@ -4,7 +4,7 @@ stop music
 play music "ed6323.ogg"
 scene avg_bg_205
 with fade
-c00 '[textdict[1175067]]'
+c0 '[textdict[1175067]]'
 show st061_01 3 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1175068]]'
 hide c1304portrait
@@ -58,7 +58,7 @@ show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1175078]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1175079]]'
+c0 '[textdict[1175079]]'
 show st061_01 1 as c1304portrait at leftside(-2), zorder 5
 with fade
 c13041 '[textdict[1175080]]'
@@ -79,7 +79,7 @@ c33 '[textdict[1175083]]' with shake
 play sfx2 "other_7057.ogg"
 hide c1304portrait
 hide c3portrait
-c00 '[textdict[1175084]]'
+c0 '[textdict[1175084]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1175085]]'
 hide c2portrait
@@ -103,8 +103,8 @@ show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1175089]]'
 hide c1304portrait
 hide c2portrait
-c00 '[textdict[1175090]]'
-c00 '[textdict[1175091]]'
+c0 '[textdict[1175090]]'
+c0 '[textdict[1175091]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175092]]'
 hide c1portrait

@@ -4,9 +4,9 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1150002]]'
-c00 '[textdict[1150003]]'
-c00 '[textdict[1150004]]'
+c0 '[textdict[1150002]]'
+c0 '[textdict[1150003]]'
+c0 '[textdict[1150004]]'
 scene avg_bg_022
 with fade
 play sfx2 "other_7085.ogg"

@@ -7,7 +7,7 @@ with fade
 show oc001_01 4 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1003905]]'
 hide c1portrait
-c00 '[textdict[1003906]]'
+c0 '[textdict[1003906]]'
 show oc004_01 2 as c4portrait at leftsideentrance(-5), zorder 5
 c41 '[textdict[1003907]]'
 hide c4portrait

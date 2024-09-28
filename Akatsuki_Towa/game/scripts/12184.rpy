@@ -4,12 +4,12 @@ stop music
 play music "ed7513.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1120664]]'
-c00 '[textdict[1120665]]'
+c0 '[textdict[1120664]]'
+c0 '[textdict[1120665]]'
 scene avg_bg_004
 with fade
 play sfx2 "other_7040.ogg"
-c00 '[textdict[1120666]]'
+c0 '[textdict[1120666]]'
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1120667]]'
 hide c1portrait

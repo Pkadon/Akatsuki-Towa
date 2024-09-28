@@ -26,7 +26,7 @@ show oc001_01 10 as c1portrait at darkright(-2), zorder 5
 c6871 '[textdict[1004854]]'
 play sfx2 "other_7064.ogg"
 hide c1portrait
-c00 '[textdict[1004855]]'
+c0 '[textdict[1004855]]'
 c6881 '[textdict[1004856]]'
 c6881 '[textdict[1004857]]'
 c5053 '[textdict[1004858]]'

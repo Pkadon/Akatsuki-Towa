@@ -218,7 +218,7 @@ c14691 '[textdict[1176690]]'
 hide c1469portrait
 hide c1304portrait
 with fade
-c00 '[textdict[1176691]]'
+c0 '[textdict[1176691]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1176692]]'
 play music "ed7511.ogg"

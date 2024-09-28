@@ -72,5 +72,5 @@ hide c1portrait
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1151125]]'
 hide c2portrait
-c00 '[textdict[1151126]]'
+c0 '[textdict[1151126]]'
 return

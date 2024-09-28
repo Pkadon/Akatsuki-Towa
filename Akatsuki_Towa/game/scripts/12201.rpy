@@ -89,5 +89,5 @@ show st026_01 1 as c225portrait at rightside(-14), zorder 5
 c2253 '[textdict[1128678]]'
 hide c1portrait
 hide c225portrait
-c00 '[textdict[1128679]]'
+c0 '[textdict[1128679]]'
 return

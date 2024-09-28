@@ -227,7 +227,7 @@ stop music
 play sfx2 "other_7088.ogg"
 hide c2731portrait
 hide c47portrait
-c00 '[textdict[2111618]]'
+c0 '[textdict[2111618]]'
 stop music
 show sc040_01 2 as c47portrait at rightside(-9), zorder 5
 c473 '[textdict[2111619]]'
@@ -560,7 +560,7 @@ c27373 '[textdict[2111679]]'
 show memoryoverlay zorder 2
 hide c2627portrait
 hide c2737portrait
-c00 '[textdict[2111680]]'
+c0 '[textdict[2111680]]'
 show memoryoverlay zorder 2
 show oc000_06 1 as c2735portrait at leftside(-2), zorder 5
 c27351 '[textdict[2111681]]'

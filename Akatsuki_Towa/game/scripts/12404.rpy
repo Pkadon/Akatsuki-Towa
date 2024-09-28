@@ -32,7 +32,7 @@ hide c3portrait
 c11481 '[textdict[1142427]]'
 play music "ed7514.ogg"
 with fade
-c00 '[textdict[1142428]]'
+c0 '[textdict[1142428]]'
 c11471 '[textdict[1142429]]'
 c11483 '[textdict[1142430]]'
 c6081 '[textdict[1142431]]'

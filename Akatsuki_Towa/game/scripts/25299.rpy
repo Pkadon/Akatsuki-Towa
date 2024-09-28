@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 with fade
-c20250 '[textdict[1211156]]'
+c20253 '[textdict[1211156]]'
 menu:
     "[textdict[1214995]]":
         call avg25300

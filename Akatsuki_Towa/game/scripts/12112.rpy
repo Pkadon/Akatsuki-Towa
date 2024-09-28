@@ -43,10 +43,10 @@ show oc003_01 7 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1128149]]'
 hide c956portrait
 hide c3portrait
-c00 '[textdict[1128150]]'
+c0 '[textdict[1128150]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[1128151]]'
-c00 '[textdict[1128152]]'
+c0 '[textdict[1128151]]'
+c0 '[textdict[1128152]]'
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1128153]]' (what_size=24)

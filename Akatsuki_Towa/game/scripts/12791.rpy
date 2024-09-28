@@ -57,7 +57,7 @@ show oc002_01 15 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1176779]]'
 scene avg_bg_213
 with fade
-c00 '[textdict[1176780]]'
+c0 '[textdict[1176780]]'
 show st061_01 1 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1176781]]'
 hide c1304portrait

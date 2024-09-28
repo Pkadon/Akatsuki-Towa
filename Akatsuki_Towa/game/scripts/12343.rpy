@@ -63,7 +63,7 @@ show oc004_01 5 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133564]]'
 play sfx2 "other_7086.ogg"
 hide c4portrait
-c00 '[textdict[1133565]]'
+c0 '[textdict[1133565]]'
 play music "ed7120.ogg"
 show st053_01 5 as c1007portrait at leftside(-12), zorder 5
 c10071 '[textdict[1133566]]'

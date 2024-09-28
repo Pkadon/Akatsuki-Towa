@@ -183,7 +183,7 @@ show st040_01 1 as c239portrait at rightside(-19), zorder 5
 c2393 '[textdict[1183532]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1183533]]'
+c0 '[textdict[1183533]]'
 play music "ed7111.ogg"
 scene avg_bg_074
 with fade
@@ -225,14 +225,14 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183542]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1183543]]'
+c0 '[textdict[1183543]]'
 c10323 '[textdict[1183544]]'
-c00 '[textdict[1183545]]'
+c0 '[textdict[1183545]]'
 c10323 '[textdict[1183546]]'
 show oc007_01 3 as c7portrait at leftsideentrance(-24), zorder 5
 c71 '[textdict[1183547]]'
 hide c7portrait
-c00 '[textdict[1183548]]'
+c0 '[textdict[1183548]]'
 show oc007_01 2 as c7portrait at leftside(-24), zorder 5
 c71 '[textdict[1183549]]'
 hide c7portrait
@@ -364,7 +364,7 @@ show oc002_01 4 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1183575]]'
 hide c3portrait
 hide c2portrait
-c00 '[textdict[1183576]]'
+c0 '[textdict[1183576]]'
 show oc007_01 1 as c7portrait at leftside(-24), zorder 5
 c71 '[textdict[1183577]]'
 play music "ed7516.ogg"
@@ -376,7 +376,7 @@ hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 c25511 '[textdict[1183580]]'
 hide c1portrait
-c00 '[textdict[1183581]]'
+c0 '[textdict[1183581]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1183582]]'
 hide c3portrait
@@ -437,7 +437,7 @@ hide c1267portrait
 show sc016_01 4 as c1267portrait at darkleft(-6), zorder 6
 c25513 '[textdict[1183595]]'
 hide c1267portrait
-c00 '[textdict[1183596]]'
+c0 '[textdict[1183596]]'
 play music "ed7111.ogg"
 show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1183597]]'
@@ -452,7 +452,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183599]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1183600]]'
+c0 '[textdict[1183600]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183601]]'
 hide c1portrait
@@ -770,8 +770,8 @@ show oc002_01 22 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1183664]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1183665]]'
-c00 '[textdict[1183666]]'
-c00 '[textdict[1183667]]'
-c00 '[textdict[1183668]]'
+c0 '[textdict[1183665]]'
+c0 '[textdict[1183666]]'
+c0 '[textdict[1183667]]'
+c0 '[textdict[1183668]]'
 return

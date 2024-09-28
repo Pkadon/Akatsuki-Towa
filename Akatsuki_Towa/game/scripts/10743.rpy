@@ -282,9 +282,9 @@ show st061_01 1 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1173148]]'
 scene avg_bg_505
 with fade
-c00 '[textdict[1173149]]'
-c00 '[textdict[1173150]]'
-c00 '[textdict[1173151]]'
+c0 '[textdict[1173149]]'
+c0 '[textdict[1173150]]'
+c0 '[textdict[1173151]]'
 scene avg_bg_003
 with fade
 show oc003_01 16 as c3portrait at leftside(-6), zorder 5

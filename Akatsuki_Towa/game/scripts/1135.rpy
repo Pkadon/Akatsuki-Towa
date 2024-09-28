@@ -300,8 +300,8 @@ show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103530]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[2103531]]'
-c00 '[textdict[2103532]]'
+c0 '[textdict[2103531]]'
+c0 '[textdict[2103532]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2103533]]'
 hide c2portrait
@@ -313,7 +313,7 @@ hide c2portrait
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2103535]]'
 hide c2portrait
-c00 '[textdict[2103536]]'
+c0 '[textdict[2103536]]'
 scene avg_bg_013
 with fade
 play sfxvoice "avg_vocal_na09_b.ogg"
@@ -329,13 +329,13 @@ hide c1portrait
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103540]]'
 hide c1portrait
-c00 '[textdict[2103541]]'
-c00 '[textdict[2103542]]'
+c0 '[textdict[2103541]]'
+c0 '[textdict[2103542]]'
 play music "ed7106.ogg"
 scene avg_bg_019
 with fade
-c00 '[textdict[2103543]]'
-c00 '[textdict[2103544]]'
+c0 '[textdict[2103543]]'
+c0 '[textdict[2103544]]'
 play sfx2 "other_7064.ogg"
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103545]]'
@@ -378,8 +378,8 @@ hide c1portrait
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103555]]' with shake
 hide c1portrait
-c00 '[textdict[2103556]]'
-c00 '[textdict[2103557]]'
+c0 '[textdict[2103556]]'
+c0 '[textdict[2103557]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103558]]'
 hide c1portrait
@@ -392,9 +392,9 @@ hide c1portrait
 show oc001_01 18 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103561]]'
 hide c1portrait
-c00 '[textdict[2103562]]'
-c00 '[textdict[2103563]]'
-c00 '[textdict[2103564]]'
+c0 '[textdict[2103562]]'
+c0 '[textdict[2103563]]'
+c0 '[textdict[2103564]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103565]]'
 hide c1portrait
@@ -500,7 +500,7 @@ show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103588]]' with shake
 hide c3portrait
 hide c1portrait
-c00 '[textdict[2103589]]'
+c0 '[textdict[2103589]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103590]]'
 hide c1portrait

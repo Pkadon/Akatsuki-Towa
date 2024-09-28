@@ -4,10 +4,10 @@ stop music
 play music "ed7514.ogg"
 scene avg_bg_013
 with fade
-c00 '[textdict[2101007]]'
-c00 '[textdict[2101008]]'
-c00 '[textdict[2101009]]'
-c00 '[textdict[2101010]]'
+c0 '[textdict[2101007]]'
+c0 '[textdict[2101008]]'
+c0 '[textdict[2101009]]'
+c0 '[textdict[2101010]]'
 show sc058_01 1 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101011]]'
 hide c63portrait
@@ -66,8 +66,8 @@ show st005_01 3 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101022]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101023]]'
-c00 '[textdict[2101024]]'
+c0 '[textdict[2101023]]'
+c0 '[textdict[2101024]]'
 show sc058_01 5 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101025]]'
 hide c63portrait
@@ -209,7 +209,7 @@ show st005_01 4 as c205portrait at rightside(4), shakeright, zorder 5
 c2053 '[textdict[2101057]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101058]]'
+c0 '[textdict[2101058]]'
 show sc058_01 1 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101059]]'
 hide c63portrait
@@ -273,9 +273,9 @@ show st005_01 1 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101071]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101072]]'
-c00 '[textdict[2101073]]'
-c00 '[textdict[2101074]]'
+c0 '[textdict[2101072]]'
+c0 '[textdict[2101073]]'
+c0 '[textdict[2101074]]'
 show sc058_01 5 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101075]]'
 hide c63portrait
@@ -284,14 +284,14 @@ show st005_01 3 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101076]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101077]]'
-c00 '[textdict[2101078]]'
+c0 '[textdict[2101077]]'
+c0 '[textdict[2101078]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2101079]]'
+c0 '[textdict[2101079]]'
 stop music
-c00 '[textdict[2101080]]'
+c0 '[textdict[2101080]]'
 play music "ed7113.ogg"
 scene avg_bg_021
 with fade
@@ -318,10 +318,10 @@ show sc058_01 4 as c63portrait at leftside(-20), shakeleft, zorder 5
 c631 '[textdict[2101085]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2101086]]'
+c0 '[textdict[2101086]]'
 scene avg_bg_025
 with fade
-c00 '[textdict[2101087]]'
+c0 '[textdict[2101087]]'
 stop music
 play sfx2 "other_7087.ogg"
 show st002_01 4 as c202portrait at leftside(-9), zorder 5
@@ -348,15 +348,15 @@ show st002_01 1 as c202portrait at darkleft(-9), zorder 6
 c25063 '[textdict[2101093]]' with shake
 play music "ed7500.ogg"
 hide c202portrait
-c00 '[textdict[2101094]]'
-c00 '[textdict[2101095]]'
-c00 '[textdict[2101096]]'
-c00 '[textdict[2101097]]'
-c00 '[textdict[2101098]]'
+c0 '[textdict[2101094]]'
+c0 '[textdict[2101095]]'
+c0 '[textdict[2101096]]'
+c0 '[textdict[2101097]]'
+c0 '[textdict[2101098]]'
 show st005_01 3 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101099]]'
 hide c205portrait
-c00 '[textdict[2101100]]'
+c0 '[textdict[2101100]]'
 play music "ed7514.ogg"
 show sc058_01 1 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101101]]'
@@ -392,7 +392,7 @@ show st005_01 3 as c205portrait at rightside(4), shakeright, zorder 5
 c2053 '[textdict[2101108]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101109]]'
+c0 '[textdict[2101109]]'
 show sc058_01 1 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101110]]'
 hide c63portrait
@@ -424,8 +424,8 @@ show sc058_01 6 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[2101116]]'
 hide c63portrait
 hide c205portrait
-c00 '[textdict[2101117]]'
-c00 '[textdict[2101118]]'
+c0 '[textdict[2101117]]'
+c0 '[textdict[2101118]]'
 show st002_01 4 as c202portrait at rightside(-9), zorder 5
 c2023 '[textdict[2101119]]'
 return

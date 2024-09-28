@@ -4,73 +4,73 @@ stop music
 play music "ed7111.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[2112784]]'
-c00 '[textdict[2112785]]'
+c0 '[textdict[2112784]]'
+c0 '[textdict[2112785]]'
 scene avg_bg_032
 with fade
 play sfx2 "other_7022.ogg"
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112786]]'
+c26683 '[textdict[2112786]]'
 play sfx2 "other_7022.ogg"
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112787]]'
+c26683 '[textdict[2112787]]'
 play sfx2 "other_7074.ogg"
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112788]]'
+c26683 '[textdict[2112788]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112789]]'
+c26683 '[textdict[2112789]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112790]]'
+c26683 '[textdict[2112790]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112791]]'
+c26683 '[textdict[2112791]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112792]]'
+c26683 '[textdict[2112792]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112793]]'
+c26683 '[textdict[2112793]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112794]]'
+c26683 '[textdict[2112794]]'
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112795]]'
+c26683 '[textdict[2112795]]'
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112796]]'
+c26683 '[textdict[2112796]]'
 hide c2668portrait
 show oce04_01 7 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112797]]'
+c26683 '[textdict[2112797]]'
 hide c2668portrait
 show oce04_01 11 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112798]]'
+c26683 '[textdict[2112798]]'
 hide c2668portrait
-c00 '[textdict[2112799]]'
-c00 '[textdict[2112800]]'
+c0 '[textdict[2112799]]'
+c0 '[textdict[2112800]]'
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112801]]'
+c26683 '[textdict[2112801]]'
 hide c2668portrait
 show oce04_01 11 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112802]]'
+c26683 '[textdict[2112802]]'
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112803]]'
+c26683 '[textdict[2112803]]'
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112804]]'
+c26683 '[textdict[2112804]]'
 stop music
 play sfx2 "other_7074.ogg"
 hide c2668portrait
-c00 '[textdict[2112805]]'
+c0 '[textdict[2112805]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2112806]]'
+c0 '[textdict[2112806]]'
 stop music
 play sfx2 "other_7044.ogg"
 show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
@@ -354,23 +354,23 @@ stop music
 scene avg_bg_032
 with fade
 show oce04_01 11 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112859]]'
+c26683 '[textdict[2112859]]'
 stop music
 hide c2668portrait
 show oce04_01 11 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112860]]'
+c26683 '[textdict[2112860]]'
 stop music
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112861]]'
+c26683 '[textdict[2112861]]'
 stop music
 hide c2668portrait
 show oce04_01 11 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112862]]'
+c26683 '[textdict[2112862]]'
 stop music
 hide c2668portrait
 show oce04_01 11 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112863]]'
+c26683 '[textdict[2112863]]'
 stop music
 scene avg_bg_048
 show memoryoverlay zorder 2
@@ -383,7 +383,7 @@ hide memoryoverlay
 with fade
 hide c2668portrait
 show oce04_01 2 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112865]]'
+c26683 '[textdict[2112865]]'
 play music "ed7124.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
@@ -401,94 +401,94 @@ hide memoryoverlay
 with fade
 hide c2668portrait
 show oce04_01 7 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112870]]'
+c26683 '[textdict[2112870]]'
 stop music
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112871]]'
+c26683 '[textdict[2112871]]'
 stop music
 play sfx2 "other_7074.ogg"
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112872]]'
+c26683 '[textdict[2112872]]'
 stop music
 c14501 '[textdict[2112873]]'
 stop music
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112874]]'
+c26683 '[textdict[2112874]]'
 stop music
 c14501 '[textdict[2112875]]'
 stop music
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112876]]'
+c26683 '[textdict[2112876]]'
 stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7074.ogg"
 hide c2668portrait
-c26682 '[textdict[2112877]]'
+c26683 '[textdict[2112877]]'
 stop music
 scene avg_bg_032
 with fade
 show oce04_01 2 as c2668portrait at centerpos(-5), shakeright, zorder 5
-c26682 '[textdict[2112878]]'
+c26683 '[textdict[2112878]]'
 stop music
 hide c2668portrait
 show oce04_01 2 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112879]]'
+c26683 '[textdict[2112879]]'
 stop music
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112880]]'
+c26683 '[textdict[2112880]]'
 play music "ed7513.ogg"
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112881]]'
+c26683 '[textdict[2112881]]'
 scene avg_bg_070
 with fade
 hide c2668portrait
-c00 '[textdict[2112882]]'
-c00 '[textdict[2112883]]'
+c0 '[textdict[2112882]]'
+c0 '[textdict[2112883]]'
 scene avg_bg_032
 with fade
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112884]]'
+c26683 '[textdict[2112884]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112885]]'
+c26683 '[textdict[2112885]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112886]]'
+c26683 '[textdict[2112886]]'
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), shakeright, zorder 5
-c26682 '[textdict[2112887]]'
+c26683 '[textdict[2112887]]'
 hide c2668portrait
 show oce04_01 7 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112888]]'
+c26683 '[textdict[2112888]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112889]]'
+c26683 '[textdict[2112889]]'
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112890]]'
+c26683 '[textdict[2112890]]'
 c27701 '[textdict[2112891]]'
 stop music
 play sfx2 "other_7073.ogg"
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112892]]'
+c26683 '[textdict[2112892]]'
 stop music
 hide c2668portrait
 show oce04_01 4 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112893]]'
+c26683 '[textdict[2112893]]'
 stop music
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112894]]'
+c26683 '[textdict[2112894]]'
 stop music
 hide c2668portrait
 show oce04_01 1 as c2668portrait at centerpos(-5), zorder 5
-c26682 '[textdict[2112895]]'
+c26683 '[textdict[2112895]]'
 return

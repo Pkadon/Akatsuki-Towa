@@ -12,7 +12,7 @@ hide c2portrait
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1120130]]'
 hide c1portrait
-c00 '[textdict[1120131]]'
+c0 '[textdict[1120131]]'
 c9721 '[textdict[1120132]]'
 c9721 '[textdict[1120133]]'
 play sfxvoice "avg_vocal_ch06.ogg"

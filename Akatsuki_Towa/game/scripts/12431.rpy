@@ -90,7 +90,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1143030]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1143031]]'
+c0 '[textdict[1143031]]'
 show oc003_01 17 as c3portrait at leftsideentrance(-6), zorder 5
 c31 '[textdict[1143032]]'
 hide c3portrait
@@ -134,7 +134,7 @@ show oc002_01 10 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1143040]]'
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1143041]]'
+c0 '[textdict[1143041]]'
 show oc004_01 7 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1143042]]'
 hide c4portrait

@@ -22,7 +22,7 @@ show oc004_01 1 as c4portrait at leftsideexit(-5), zorder 5
 c41 '[textdict[1160183]]'
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1160184]]'
+c0 '[textdict[1160184]]'
 scene avg_bg_032
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 with fade
@@ -39,7 +39,7 @@ show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1160187]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1160188]]'
+c0 '[textdict[1160188]]'
 c13011 '[textdict[1160189]]'
 c13011 '[textdict[1160190]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5

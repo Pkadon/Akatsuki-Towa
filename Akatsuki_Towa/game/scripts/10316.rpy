@@ -193,7 +193,7 @@ show oc006_01 2 as c6portrait at rightside(-5), zorder 5
 c63 '[textdict[1130437]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1130438]]'
+c0 '[textdict[1130438]]'
 scene avg_bg_007
 with fade
 show oc006_01 2 as c6portrait at rightside(-5), zorder 5

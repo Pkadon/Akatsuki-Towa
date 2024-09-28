@@ -29,7 +29,7 @@ hide c3portrait
 show oc003_01 7 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1150920]]'
 hide c3portrait
-c00 '[textdict[1150921]]'
+c0 '[textdict[1150921]]'
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1150922]]'
 hide c3portrait

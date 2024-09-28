@@ -160,11 +160,11 @@ c27023 '[textdict[2111037]]'
 hide c2701portrait
 hide c2702portrait
 with fade
-c00 '[textdict[2111038]]'
+c0 '[textdict[2111038]]'
 c11571 '[textdict[2111039]]'
 play sfx2 "other_7062.ogg"
 c26791 '[textdict[2111040]]'
-c00 '[textdict[2111041]]'
+c0 '[textdict[2111041]]'
 show oca02_01 12 as c2702portrait at leftside(-3), zorder 5
 with fade
 c27021 '[textdict[2111042]]'
@@ -237,9 +237,9 @@ show oca01_01 7 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2111062]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2111063]]'
+c0 '[textdict[2111063]]'
 stop music
-c00 '[textdict[2111064]]'
+c0 '[textdict[2111064]]'
 stop music
 show sca44_01 3 as c2705portrait at leftside(-7), zorder 5
 c27051 '[textdict[2111065]]'
@@ -421,7 +421,7 @@ hide c2702portrait
 show oca02_01 22 as c2702portrait at darkright(-3), zorder 5
 c25921 '[textdict[2111110]]'
 hide c2702portrait
-c00 '[textdict[2111111]]'
+c0 '[textdict[2111111]]'
 show sc050_01 1 as c57portrait at leftside(-19), zorder 5
 c571 '[textdict[2111112]]'
 hide c57portrait
@@ -650,7 +650,7 @@ play music "ed7534.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[2111156]]'
+c0 '[textdict[2111156]]'
 scene avg_bg_517
 show memoryoverlay zorder 2
 with fade

@@ -15,7 +15,7 @@ stop music
 play sfx2 "other_7044.ogg"
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1130453]]'
+c0 '[textdict[1130453]]'
 play music "ed7105.ogg"
 scene avg_bg_074
 with fade

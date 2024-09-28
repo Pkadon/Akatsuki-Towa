@@ -4,38 +4,38 @@ stop music
 play music "ed7513.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1190746]]'
-c00 '[textdict[1190747]]'
+c0 '[textdict[1190746]]'
+c0 '[textdict[1190747]]'
 scene avg_bg_505
 with fade
-c00 '[textdict[1190748]]'
+c0 '[textdict[1190748]]'
 scene avg_bg_507
 with fade
-c00 '[textdict[1190749]]'
+c0 '[textdict[1190749]]'
 scene avg_bg_222
 with fade
 show Image8007 zorder 4
-c00 '[textdict[1190750]]'
+c0 '[textdict[1190750]]'
 hide Image8007
-c00 '[textdict[1190751]]'
+c0 '[textdict[1190751]]'
 scene avg_bg_205
 with fade
-c00 '[textdict[1190752]]'
+c0 '[textdict[1190752]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1190753]]'
+c0 '[textdict[1190753]]'
 scene avg_bg_041
 with fade
-c00 '[textdict[1190754]]'
+c0 '[textdict[1190754]]'
 scene avg_bg_049
 with fade
-c00 '[textdict[1190755]]'
-c00 '[textdict[1190756]]'
-c00 '[textdict[1190757]]'
+c0 '[textdict[1190755]]'
+c0 '[textdict[1190756]]'
+c0 '[textdict[1190757]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1190758]]'
+c0 '[textdict[1190758]]'
 stop music
 scene avg_bg_040
 with fade
@@ -126,7 +126,7 @@ c14761 '[textdict[1190793]]'
 show memoryoverlay zorder 2
 c14751 '[textdict[1190794]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1190795]]'
+c0 '[textdict[1190795]]'
 show memoryoverlay zorder 2
 c14761 '[textdict[1190796]]'
 show memoryoverlay zorder 2
@@ -138,19 +138,19 @@ c14751 '[textdict[1190799]]'
 show memoryoverlay zorder 2
 c26541 '[textdict[1190800]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1190801]]'
+c0 '[textdict[1190801]]'
 show memoryoverlay zorder 2
 c26551 '[textdict[1190802]]'
 show memoryoverlay zorder 2
 c26561 '[textdict[1190803]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1190804]]'
+c0 '[textdict[1190804]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1190805]]'
+c0 '[textdict[1190805]]'
 show memoryoverlay zorder 2
 c26551 '[textdict[1190806]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1190807]]'
+c0 '[textdict[1190807]]'
 show memoryoverlay zorder 2
 c26561 '[textdict[1190808]]'
 show memoryoverlay zorder 2
@@ -186,7 +186,7 @@ c26561 '[textdict[1190829]]'
 play music "ed7111.ogg"
 scene avg_bg_074
 with fade
-c00 '[textdict[1190830]]'
+c0 '[textdict[1190830]]'
 c14281 '[textdict[1190831]]'
 show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
 c26683 '[textdict[1190832]]'

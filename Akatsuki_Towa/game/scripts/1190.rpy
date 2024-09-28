@@ -5,7 +5,7 @@ play music "ed7100.ogg"
 scene avg_bg_014
 with fade
 play sfx2 "other_7064.ogg"
-c00 '[textdict[2107176]]'
+c0 '[textdict[2107176]]'
 play sfx2 "other_7064.ogg"
 show scb38_01 1 as c2629portrait at leftsideentrance(-1), zorder 5
 c26291 '[textdict[2107177]]'
@@ -81,7 +81,7 @@ show scb38_01 2 as c2629portrait at darkleft(-1), zorder 6
 c26353 '[textdict[2107192]]'
 play sfx2 "fight_6010.ogg"
 hide c2629portrait
-c00 '[textdict[2107193]]'
+c0 '[textdict[2107193]]'
 c26353 '[textdict[2107194]]'
 show scb38_01 1 as c2629portrait at leftside(-1), zorder 5
 c26291 '[textdict[2107195]]'
@@ -115,7 +115,7 @@ show scb38_01 5 as c2629portrait at darkleft(-1), zorder 6
 c26353 '[textdict[2107203]]'
 scene avg_bg_018
 with fade
-c00 '[textdict[2107204]]'
+c0 '[textdict[2107204]]'
 show scb38_01 1 as c2629portrait at leftsideentrance(-1), zorder 5
 c26291 '[textdict[2107205]]'
 hide c2629portrait

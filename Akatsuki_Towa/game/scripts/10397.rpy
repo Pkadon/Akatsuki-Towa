@@ -97,7 +97,7 @@ stop music
 play sfx2 "other_7088.ogg"
 hide c1051portrait
 hide c4portrait
-c00 '[textdict[1132736]]'
+c0 '[textdict[1132736]]'
 show oc001_01 19 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1132737]]'
 hide c1portrait

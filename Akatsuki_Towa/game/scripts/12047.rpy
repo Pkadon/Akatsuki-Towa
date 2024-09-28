@@ -48,7 +48,7 @@ c23 '[textdict[1120461]]'
 play music "ed7110.ogg"
 scene avg_bg_030
 with fade
-c00 '[textdict[1120463]]'
+c0 '[textdict[1120463]]'
 show st004_01 1 as c204portrait at leftsideentrance(4), zorder 5
 c2041 '[textdict[1120464]]'
 hide c204portrait

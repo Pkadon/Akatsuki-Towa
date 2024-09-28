@@ -20,7 +20,7 @@ c23 '[textdict[1143781]]'
 stop music
 play sfx2 "other_7088.ogg"
 hide c2portrait
-c00 '[textdict[1143782]]'
+c0 '[textdict[1143782]]'
 stop music
 play sfx2 "other_7034.ogg"
 c11641 '[textdict[1143783]]'

@@ -4,11 +4,11 @@ stop music
 play music "ed7110.ogg"
 scene avg_bg_019
 with fade
-c00 '[textdict[1202581]]'
+c0 '[textdict[1202581]]'
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202582]]'
 hide c2portrait
-c00 '[textdict[1202583]]'
+c0 '[textdict[1202583]]'
 show st023_01 6 as c222portrait at leftside(-12), zorder 5
 c2221 '[textdict[1202584]]'
 hide c222portrait
@@ -42,7 +42,7 @@ show st023_01 5 as c222portrait at leftside(-12), zorder 5
 c2221 '[textdict[1202590]]'
 hide c222portrait
 hide c1portrait
-c00 '[textdict[1202591]]'
+c0 '[textdict[1202591]]'
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202592]]'
 hide c2portrait
@@ -51,7 +51,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1202593]]'
 scene avg_bg_020
 with fade
-c00 '[textdict[1202594]]'
+c0 '[textdict[1202594]]'
 c20163 '[textdict[1202595]]'
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1202596]]'

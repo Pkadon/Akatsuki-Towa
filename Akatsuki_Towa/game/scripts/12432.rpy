@@ -25,7 +25,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1143052]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1143053]]'
+c0 '[textdict[1143053]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1143054]]'
 hide c1portrait
@@ -82,7 +82,7 @@ hide c3portrait
 hide c1portrait
 play sfx2 "other_7010.ogg"
 with fade
-c00 '[textdict[1143070]]'
+c0 '[textdict[1143070]]'
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1143071]]'
@@ -91,7 +91,7 @@ hide c2portrait
 show oc002_01 17 as c2portrait at darkleft(-3), zorder 6
 c5003 '[textdict[1143072]]'
 hide c2portrait
-c00 '[textdict[1143073]]'
+c0 '[textdict[1143073]]'
 c5003 '[textdict[1143074]]'
 show oc003_01 5 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1143075]]'
@@ -148,5 +148,5 @@ show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1143093]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1143094]]'
+c0 '[textdict[1143094]]'
 return

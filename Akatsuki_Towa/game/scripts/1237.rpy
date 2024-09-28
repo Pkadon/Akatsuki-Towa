@@ -4,7 +4,7 @@ stop music
 play music "ed7111.ogg"
 scene avg_bg_032
 with fade
-c00 '[textdict[2112339]]'
+c0 '[textdict[2112339]]'
 play sfx2 "other_7074.ogg"
 c27631 '[textdict[2112340]]'
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
@@ -241,7 +241,7 @@ c13 '[textdict[2112393]]'
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[2112394]]'
+c0 '[textdict[2112394]]'
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[2112395]]'
 hide c2portrait
@@ -347,7 +347,7 @@ c21 '[textdict[2112415]]'
 play music "ed7116.ogg"
 scene avg_bg_026
 with fade
-c00 '[textdict[2112416]]'
+c0 '[textdict[2112416]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2112417]]'
 hide c1portrait
@@ -506,7 +506,7 @@ stop music
 play sfx2 "other_7010.ogg"
 hide c51portrait
 hide c1portrait
-c00 '[textdict[2112447]]'
+c0 '[textdict[2112447]]'
 stop music
 show oc004_01 1 as c4portrait at rightsideentrance(-5), zorder 5
 c43 '[textdict[2112448]]'
@@ -712,7 +712,7 @@ play music "ED6512.ogg"
 play sfx2 "other_7074.ogg"
 hide c6portrait
 c27631 '[textdict[2112491]]' (what_size=25) with shake
-c00 '[textdict[2112492]]'
+c0 '[textdict[2112492]]'
 play sfx2 "other_7071.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[2112493]]'
@@ -914,7 +914,7 @@ with fade
 play sfx2 "other_7073.ogg"
 c27621 '[textdict[2112539]]'
 stop music
-c00 '[textdict[2112540]]'
+c0 '[textdict[2112540]]'
 stop music
 scene avg_bg_013
 with fade
@@ -1100,11 +1100,11 @@ with fade
 c27663 '[textdict[2112580]]' (what_size=25) with shake
 scene avg_bg_070
 with fade
-c00 '[textdict[2112581]]'
-c00 '[textdict[2112582]]'
-c00 '[textdict[2112583]]'
+c0 '[textdict[2112581]]'
+c0 '[textdict[2112582]]'
+c0 '[textdict[2112583]]'
 show oca00_01 1 as c2740portrait at leftside(-2), zorder 5
 c27401 '[textdict[2112584]]'
 hide c2740portrait
-c00 '[textdict[2112585]]'
+c0 '[textdict[2112585]]'
 return

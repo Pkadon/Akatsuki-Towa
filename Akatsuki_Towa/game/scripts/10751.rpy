@@ -91,7 +91,7 @@ c43 '[textdict[1173817]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7017.ogg"
-c00 '[textdict[1173818]]'
+c0 '[textdict[1173818]]'
 scene avg_bg_003
 with fade
 play sfx2 "other_7046.ogg"

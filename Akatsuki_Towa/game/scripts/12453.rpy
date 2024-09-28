@@ -6,9 +6,9 @@ scene avg_bg_036
 hide memoryoverlay
 with fade
 play sfx2 "other_7085.ogg"
-c00 '[textdict[1143499]]'
+c0 '[textdict[1143499]]'
 play sfx2 "other_7060.ogg"
-c00 '[textdict[1143500]]'
+c0 '[textdict[1143500]]'
 show oc004_01 18 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1143501]]'
 hide c4portrait
@@ -18,9 +18,9 @@ hide c4portrait
 show oc004_01 11 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1143503]]'
 hide c4portrait
-c00 '[textdict[1143504]]'
+c0 '[textdict[1143504]]'
 play sfx2 "other_7050.ogg"
-c00 '[textdict[1143505]]'
+c0 '[textdict[1143505]]'
 show oc004_01 20 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1143506]]'
 hide c4portrait
@@ -91,7 +91,7 @@ show st039_01 1 as c1172portrait at darkleft(-6), zorder 6
 c43 '[textdict[1143530]]'
 show memoryoverlay zorder 2
 hide c1172portrait
-c00 '[textdict[1143531]]'
+c0 '[textdict[1143531]]'
 show memoryoverlay zorder 2
 show st039_01 1 as c1172portrait at leftside(-6), zorder 5
 c11721 '[textdict[1143532]]'
@@ -102,9 +102,9 @@ c11721 '[textdict[1143533]]'
 scene avg_bg_049
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1143534]]'
+c0 '[textdict[1143534]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1143535]]'
+c0 '[textdict[1143535]]'
 show memoryoverlay zorder 2
 c43 '[textdict[1143536]]'
 show memoryoverlay zorder 2
@@ -112,7 +112,7 @@ c43 '[textdict[1143537]]'
 show memoryoverlay zorder 2
 c43 '[textdict[1143538]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1143539]]'
+c0 '[textdict[1143539]]'
 show memoryoverlay zorder 2
 c61 '[textdict[1143540]]'
 show memoryoverlay zorder 2

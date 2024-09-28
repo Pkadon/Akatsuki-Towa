@@ -145,8 +145,8 @@ c21 '[textdict[1002882]]'
 play sfx2 "other_7085.ogg"
 hide c2portrait
 hide c3portrait
-c00 '[textdict[1002883]]'
-c00 '[textdict[1002884]]'
+c0 '[textdict[1002883]]'
+c0 '[textdict[1002884]]'
 play music "ed7151.ogg"
 play sfxvoice "avg_vocal_ch19.ogg"
 show oc002_01 21 as c2portrait at rightside(-3), zorder 5

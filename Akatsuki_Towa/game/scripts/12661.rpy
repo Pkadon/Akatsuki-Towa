@@ -133,6 +133,6 @@ show oc001_01 10 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1166472]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1166473]]'
-c00 '[textdict[1166474]]'
+c0 '[textdict[1166473]]'
+c0 '[textdict[1166474]]'
 return

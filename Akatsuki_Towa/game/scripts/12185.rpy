@@ -168,8 +168,8 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1120706]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1120707]]'
-c00 '[textdict[1120708]]'
+c0 '[textdict[1120707]]'
+c0 '[textdict[1120708]]'
 scene avg_bg_004
 with fade
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
@@ -178,6 +178,6 @@ hide c1portrait
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1121418]]'
 hide c1portrait
-c00 '[textdict[1121419]]'
-c00 '[textdict[1121420]]'
+c0 '[textdict[1121419]]'
+c0 '[textdict[1121420]]'
 return

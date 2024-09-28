@@ -4,8 +4,8 @@ stop music
 play music "ed6323.ogg"
 scene avg_bg_217
 with fade
-c00 '[textdict[1177081]]'
-c00 '[textdict[1177082]]'
+c0 '[textdict[1177081]]'
+c0 '[textdict[1177082]]'
 show st064_01 1 as c1469portrait at rightsideentrance(-2), zorder 5
 c14693 '[textdict[1177083]]'
 hide c1469portrait
@@ -51,7 +51,7 @@ show st065_01 4 as c1468portrait at rightside(-6), zorder 5
 c14683 '[textdict[1177095]]'
 hide c3portrait
 hide c1468portrait
-c00 '[textdict[1177096]]'
+c0 '[textdict[1177096]]'
 show st064_01 4 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1177097]]'
 hide c1469portrait
@@ -104,5 +104,5 @@ hide c1468portrait
 show st065_01 1 as c1468portrait at darkright(-6), zorder 5
 c14781 '[textdict[1177108]]'
 hide c1468portrait
-c00 '[textdict[1177109]]'
+c0 '[textdict[1177109]]'
 return

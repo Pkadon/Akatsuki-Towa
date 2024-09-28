@@ -5,7 +5,7 @@ play music "ed7124.ogg"
 scene avg_bg_059
 with fade
 play sfx2 "other_7047.ogg"
-c00 '[textdict[1180302]]'
+c0 '[textdict[1180302]]'
 show st063_01 1 as c1346portrait at leftsideentrance(-16), zorder 5
 c13461 '[textdict[1180303]]'
 hide c1346portrait
@@ -64,7 +64,7 @@ show st063_01 4 as c1346portrait at leftside(-16), zorder 5
 c13461 '[textdict[1180314]]'
 hide c1346portrait
 hide c2portrait
-c00 '[textdict[1180315]]'
+c0 '[textdict[1180315]]'
 show st063_01 1 as c1346portrait at leftside(-16), zorder 5
 c13461 '[textdict[1180316]]'
 hide c1346portrait
@@ -83,7 +83,7 @@ show st063_01 1 as c1346portrait at leftside(-16), zorder 5
 c13461 '[textdict[1180319]]'
 hide c1346portrait
 hide c1portrait
-c00 '[textdict[1180320]]'
+c0 '[textdict[1180320]]'
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1180321]]'
 hide c2portrait
@@ -98,7 +98,7 @@ c13461 '[textdict[1180323]]'
 play sfx2 "other_7004.ogg"
 hide c1346portrait
 hide c2portrait
-c00 '[textdict[1180324]]'
+c0 '[textdict[1180324]]'
 show oc004_01 2 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1180325]]'
 hide c4portrait
@@ -126,7 +126,7 @@ show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1180330]]'
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1180331]]'
+c0 '[textdict[1180331]]'
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1180332]]'
 hide c4portrait
@@ -180,7 +180,7 @@ show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1180342]]'
 hide c1346portrait
 hide c4portrait
-c00 '[textdict[1180343]]'
+c0 '[textdict[1180343]]'
 show st063_01 1 as c1346portrait at leftside(-16), zorder 5
 c13461 '[textdict[1180344]]'
 hide c1346portrait

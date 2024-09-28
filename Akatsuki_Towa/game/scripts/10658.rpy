@@ -184,7 +184,7 @@ c13491 '[textdict[1165326]]'
 play sfx2 "other_7047.ogg"
 hide c1349portrait
 hide c1portrait
-c00 '[textdict[1165327]]'
+c0 '[textdict[1165327]]'
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1165328]]'
 hide c3portrait
@@ -210,7 +210,7 @@ c33 '[textdict[1165332]]'
 play sfx2 "fight_6025.ogg"
 hide c1349portrait
 hide c3portrait
-c00 '[textdict[1165333]]'
+c0 '[textdict[1165333]]'
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1165334]]'
 hide c3portrait
@@ -221,7 +221,7 @@ show oc003_01 9 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1165336]]'
 play sfx2 "other_7088.ogg"
 hide c3portrait
-c00 '[textdict[1165337]]'
+c0 '[textdict[1165337]]'
 show st056_01 1 as c1349portrait at leftside(-6), zorder 5
 c13491 '[textdict[1165338]]'
 hide c1349portrait
@@ -231,7 +231,7 @@ c13 '[textdict[1165339]]'
 play sfx2 "other_7088.ogg"
 hide c1349portrait
 hide c1portrait
-c00 '[textdict[1165340]]'
+c0 '[textdict[1165340]]'
 stop music
 show oc003_01 9 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1165341]]' with shake
@@ -245,7 +245,7 @@ stop music
 play sfx2 "other_7052.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1165343]]' with shake
+c0 '[textdict[1165343]]' with shake
 play music "ed7151.ogg"
 show sc008_01 4 as c16portrait at leftsideentrance(-18), zorder 5
 c161 '[textdict[1165344]]'
@@ -296,7 +296,7 @@ c13 '[textdict[1165353]]'
 play sfx2 "fight_6025.ogg"
 hide c1349portrait
 hide c1portrait
-c00 '[textdict[1165354]]'
+c0 '[textdict[1165354]]'
 show sc008_01 4 as c16portrait at rightside(-18), zorder 5
 c163 '[textdict[1165355]]'
 hide c16portrait
@@ -322,12 +322,12 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1165360]]'
 play sfx2 "other_7087.ogg"
 hide c1portrait
-c00 '[textdict[1165361]]' with shake
+c0 '[textdict[1165361]]' with shake
 show st056_01 3 as c1349portrait at leftside(-6), shakeleft, zorder 5
 c13491 '[textdict[1165362]]'
 play sfx2 "other_7007.ogg"
 hide c1349portrait
-c00 '[textdict[1165363]]'
+c0 '[textdict[1165363]]'
 show sc008_01 4 as c16portrait at rightside(-18), zorder 5
 c163 '[textdict[1165364]]'
 hide c16portrait
@@ -447,7 +447,7 @@ c21 '[textdict[1165387]]'
 play sfx2 "other_7040.ogg"
 hide c2portrait
 hide c1304portrait
-c00 '[textdict[1165388]]'
+c0 '[textdict[1165388]]'
 show st061_01 5 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1165389]]'
 hide c1304portrait
@@ -471,7 +471,7 @@ show st061_01 5 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1165393]]'
 hide c1portrait
 hide c1304portrait
-c00 '[textdict[1165394]]'
+c0 '[textdict[1165394]]'
 show st056_01 3 as c1349portrait at leftside(-6), shakeleft, zorder 5
 c13491 '[textdict[1165395]]'
 play sfx2 "other_7007.ogg"
@@ -617,6 +617,6 @@ hide c1portrait
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1165426]]'
 hide c1portrait
-c00 '[textdict[1165427]]'
-c00 '[textdict[1165428]]'
+c0 '[textdict[1165427]]'
+c0 '[textdict[1165428]]'
 return

@@ -4,7 +4,7 @@ stop music
 play music "ED6104.ogg"
 scene avg_bg_010
 with fade
-c00 '[textdict[1120618]]'
+c0 '[textdict[1120618]]'
 show sc021_01 1 as c29portrait at leftside(-17), zorder 5
 c291 '[textdict[1120619]]'
 play sfx2 "other_7067.ogg"
@@ -148,7 +148,7 @@ show sc021_01 4 as c29portrait at leftside(-17), zorder 5
 c291 '[textdict[1007711]]'
 play sfx2 "other_7004.ogg"
 hide c29portrait
-c00 '[textdict[1007712]]'
+c0 '[textdict[1007712]]'
 show sc019_01 2 as c27portrait at rightsideentrance(-18), zorder 5
 c273 '[textdict[1007713]]'
 hide c27portrait

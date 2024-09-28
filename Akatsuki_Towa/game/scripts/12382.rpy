@@ -5,7 +5,7 @@ play music "ed7162.ogg"
 scene avg_bg_025
 with fade
 play sfx2 "other_7047.ogg"
-c00 '[textdict[1134013]]'
+c0 '[textdict[1134013]]'
 show oc001_01 1 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1134014]]'
 hide c1portrait
@@ -35,7 +35,7 @@ show oc002_01 21 as c2portrait at leftsidemidback(-3), zorder 5
 c21 '[textdict[1134022]]'
 play sfx2 "fight_6022.ogg"
 hide c2portrait
-c00 '[textdict[1134023]]'
+c0 '[textdict[1134023]]'
 show oc001_01 12 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1134024]]' with shake
 hide c1portrait
@@ -43,7 +43,7 @@ show oc001_01 12 as c1portrait at darkleft(-2), zorder 6
 c10993 '[textdict[1134025]]'
 play sfx2 "fight_6025.ogg"
 hide c1portrait
-c00 '[textdict[1134026]]'
+c0 '[textdict[1134026]]'
 play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1134027]]'

@@ -4,7 +4,7 @@ stop music
 play music "ed7103.ogg"
 scene avg_bg_001
 with fade
-c00 '[textdict[1184285]]'
+c0 '[textdict[1184285]]'
 show st061_01 1 as c1304portrait at leftsideentrance(-2), zorder 5
 c13041 '[textdict[1184286]]'
 hide c1304portrait
@@ -153,7 +153,7 @@ show st044_01 1 as c692portrait at leftside(10), zorder 5
 c6921 '[textdict[1184315]]'
 hide c692portrait
 hide c2portrait
-c00 '[textdict[1184316]]'
+c0 '[textdict[1184316]]'
 scene avg_bg_035
 with fade
 show sc007_01 1 as c15portrait at leftside(-17), zorder 5
@@ -270,7 +270,7 @@ hide c2portrait
 show st061_01 2 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1184348]]'
 hide c1304portrait
-c00 '[textdict[1184349]]'
+c0 '[textdict[1184349]]'
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1184350]]'
 hide c3portrait
@@ -421,7 +421,7 @@ scene avg_bg_035
 hide memoryoverlay
 with fade
 c14491 '[textdict[1184379]]'
-c00 '[textdict[1184380]]'
+c0 '[textdict[1184380]]'
 show st061_01 1 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1184381]]'
 hide c1304portrait
@@ -460,9 +460,9 @@ show sc007_01 4 as c15portrait at rightside(-17), zorder 5
 c153 '[textdict[1184390]]'
 play sfx2 "elc_5002.ogg"
 hide c15portrait
-c00 '[textdict[1184391]]'
+c0 '[textdict[1184391]]'
 play sfx2 "elc_5002.ogg"
-c00 '[textdict[1184392]]'
+c0 '[textdict[1184392]]'
 show st044_01 2 as c692portrait at leftside(10), zorder 5
 c6921 '[textdict[1184393]]'
 hide c692portrait

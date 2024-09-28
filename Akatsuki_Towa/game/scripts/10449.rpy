@@ -4,11 +4,11 @@ stop music
 play music "ed7514.ogg"
 scene avg_bg_061
 with fade
-c00 '[textdict[1142282]]'
-c00 '[textdict[1142283]]'
-c00 '[textdict[1142284]]'
-c00 '[textdict[1142285]]'
-c00 '[textdict[1142286]]'
+c0 '[textdict[1142282]]'
+c0 '[textdict[1142283]]'
+c0 '[textdict[1142284]]'
+c0 '[textdict[1142285]]'
+c0 '[textdict[1142286]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1142287]]'
 play sfxvoice "avg_vocal_na15.ogg"

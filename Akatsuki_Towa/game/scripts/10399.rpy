@@ -150,7 +150,7 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c10521 '[textdict[1132778]]'
 play sfx2 "other_7088.ogg"
 hide c1portrait
-c00 '[textdict[1132779]]'
+c0 '[textdict[1132779]]'
 c10521 '[textdict[1132780]]'
 play sfxvoice "avg_vocal_ro15.ogg"
 show oc003_01 9 as c3portrait at rightsidemidback(-6), zorder 5

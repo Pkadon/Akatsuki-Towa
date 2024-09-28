@@ -137,7 +137,7 @@ c21 '[textdict[1179221]]'
 play sfx2 "other_7085.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1179222]]'
+c0 '[textdict[1179222]]'
 play music "ed7518.ogg"
 show st050_01 1 as c257portrait at leftside(-11), zorder 5
 c2571 '[textdict[1179223]]'

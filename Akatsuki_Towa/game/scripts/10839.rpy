@@ -100,8 +100,8 @@ show st061_01 1 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1187632]]'
 scene avg_bg_221
 with fade
-c00 '[textdict[1187633]]'
-c00 '[textdict[1187634]]'
+c0 '[textdict[1187633]]'
+c0 '[textdict[1187634]]'
 show st064_01 3 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1187635]]'
 hide c1469portrait
@@ -117,7 +117,7 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c14741 '[textdict[1187638]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1187639]]'
+c0 '[textdict[1187639]]'
 scene avg_bg_004
 with fade
 c14741 '[textdict[1187640]]'
@@ -157,7 +157,7 @@ show st064_01 1 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1187648]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1187649]]'
+c0 '[textdict[1187649]]'
 scene avg_bg_218
 with fade
 c14741 '[textdict[1187650]]'

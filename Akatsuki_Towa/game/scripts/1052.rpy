@@ -4,8 +4,8 @@ stop music
 play music "ed7111.ogg"
 scene avg_bg_074
 with fade
-c00 '[textdict[2100689]]'
-c00 '[textdict[2100690]]'
+c0 '[textdict[2100689]]'
+c0 '[textdict[2100690]]'
 play sfxvoice "avg_vocal_ro13.ogg"
 show oc003_01 8 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100691]]'
@@ -13,12 +13,12 @@ hide c3portrait
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100692]]'
 hide c3portrait
-c00 '[textdict[2100693]]'
+c0 '[textdict[2100693]]'
 show oc003_01 5 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100694]]'
 play sfx2 "other_7071.ogg"
 hide c3portrait
-c00 '[textdict[2100695]]'
+c0 '[textdict[2100695]]'
 play sfx2 "other_7072.ogg"
 show oc003_01 6 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100696]]'
@@ -63,19 +63,19 @@ show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
 c7013 '[textdict[2100708]]'
 play sfx2 "other_7073.ogg"
 hide c3portrait
-c00 '[textdict[2100709]]'
+c0 '[textdict[2100709]]'
 show oc003_01 8 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100710]]'
 hide c3portrait
-c00 '[textdict[2100711]]'
-c00 '[textdict[2100712]]'
+c0 '[textdict[2100711]]'
+c0 '[textdict[2100712]]'
 play sfxvoice "avg_vocal_ro05.ogg"
 show oc003_01 5 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100713]]'
 hide c3portrait
-c00 '[textdict[2100714]]'
+c0 '[textdict[2100714]]'
 show oc003_01 14 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[2100715]]'
 hide c3portrait
-c00 '[textdict[2100716]]'
+c0 '[textdict[2100716]]'
 return

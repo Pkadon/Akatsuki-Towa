@@ -58,7 +58,7 @@ show sc007_01 1 as c15portrait at leftside(-17), zorder 5
 c151 '[textdict[1005020]]'
 hide c15portrait
 hide c23portrait
-c00 '[textdict[1005021]]'
+c0 '[textdict[1005021]]'
 show sc015_01 2 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[1005022]]'
 hide c23portrait

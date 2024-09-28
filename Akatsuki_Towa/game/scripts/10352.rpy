@@ -4,10 +4,10 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1131524]]'
+c0 '[textdict[1131524]]'
 stop music
 play sfx2 "other_7017.ogg"
-c00 '[textdict[1131525]]'
+c0 '[textdict[1131525]]'
 play music "ED6518.ogg"
 scene avg_bg_003
 with fade

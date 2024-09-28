@@ -135,7 +135,7 @@ c13 '[textdict[2107799]]'
 stop music
 hide c1135portrait
 hide c1portrait
-c00 '[textdict[2107800]]'
+c0 '[textdict[2107800]]'
 stop music
 play sfx2 "other_7045.ogg"
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
@@ -173,7 +173,7 @@ show sc044_01 4 as c1135portrait at leftside(-7), zorder 5
 c11351 '[textdict[2107809]]'
 hide c1135portrait
 hide c1portrait
-c00 '[textdict[2107810]]'
+c0 '[textdict[2107810]]'
 c9531 '[textdict[2107811]]'
 show sc044_01 4 as c1135portrait at leftside(-7), zorder 5
 c11351 '[textdict[2107812]]'

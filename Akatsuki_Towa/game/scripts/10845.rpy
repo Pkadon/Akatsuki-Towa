@@ -5,21 +5,21 @@ play music "ed7513.ogg"
 scene avg_bg_050
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1188973]]'
+c0 '[textdict[1188973]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188974]]'
+c0 '[textdict[1188974]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188975]]'
+c0 '[textdict[1188975]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188976]]'
+c0 '[textdict[1188976]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188977]]'
+c0 '[textdict[1188977]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188978]]'
+c0 '[textdict[1188978]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188979]]'
+c0 '[textdict[1188979]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1188980]]'
+c0 '[textdict[1188980]]'
 scene avg_bg_011
 show memoryoverlay zorder 2
 with fade
@@ -112,7 +112,7 @@ c26131 '[textdict[1189021]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1189022]]'
+c0 '[textdict[1189022]]'
 show memoryoverlay zorder 2
 c26143 '[textdict[1189023]]'
 show memoryoverlay zorder 2

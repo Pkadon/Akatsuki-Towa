@@ -450,7 +450,7 @@ show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1140828]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1140829]]'
+c0 '[textdict[1140829]]'
 play music "ed7124.ogg"
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1140830]]'

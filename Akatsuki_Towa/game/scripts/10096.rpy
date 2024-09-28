@@ -13,7 +13,7 @@ show oc001_01 4 as c1portrait at leftsideentrance(-2), zorder 5
 c11 '[textdict[1005504]]'
 hide c1portrait
 hide c692portrait
-c00 '[textdict[1005505]]'
+c0 '[textdict[1005505]]'
 show st044_01 4 as c692portrait at rightside(10), zorder 5
 c6923 '[textdict[1005506]]'
 play sfxvoice "avg_vocal_na22.ogg"
@@ -44,7 +44,7 @@ show st044_01 4 as c692portrait at rightside(10), zorder 5
 c6923 '[textdict[1005511]]'
 hide c47portrait
 hide c692portrait
-c00 '[textdict[1005514]]'
+c0 '[textdict[1005514]]'
 play music "ed7151.ogg"
 play sfx2 "other_7007.ogg"
 play sfxvoice "avg_vocal_li31.ogg"

@@ -4,7 +4,7 @@ stop music
 play music "ed7120.ogg"
 scene avg_bg_077
 with fade
-c00 '[textdict[1178375]]'
+c0 '[textdict[1178375]]'
 show st065_01 1 as c1468portrait at rightside(-6), zorder 5
 c14683 '[textdict[1178376]]'
 hide c1468portrait
@@ -26,7 +26,7 @@ hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c5001 '[textdict[1178380]]'
 hide c1portrait
-c00 '[textdict[1178381]]'
+c0 '[textdict[1178381]]'
 show st064_01 2 as c1469portrait at rightside(-2), zorder 5
 c14693 '[textdict[1178382]]'
 hide c1469portrait
@@ -153,7 +153,7 @@ show st064_01 3 as c1469portrait at leftside(-2), shakeleft, zorder 5
 c14691 '[textdict[1178409]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1178410]]'
+c0 '[textdict[1178410]]'
 show oc003_01 1 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1178411]]'
 hide c3portrait

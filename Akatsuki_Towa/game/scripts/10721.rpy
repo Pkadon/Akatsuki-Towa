@@ -23,9 +23,9 @@ c13 '[textdict[1171124]]'
 play sfx2 "other_7007.ogg"
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1171125]]'
+c0 '[textdict[1171125]]'
 play sfx2 "fight_6022.ogg"
-c00 '[textdict[1171126]]'
+c0 '[textdict[1171126]]'
 c5001 '[textdict[1171127]]'
 c5001 '[textdict[1171128]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
@@ -44,7 +44,7 @@ show oc001_01 9 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1171132]]'
 hide c8portrait
 hide c1portrait
-c00 '[textdict[1171133]]'
+c0 '[textdict[1171133]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1171134]]'
 hide c1portrait

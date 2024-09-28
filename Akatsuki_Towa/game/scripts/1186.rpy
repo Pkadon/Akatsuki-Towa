@@ -4,7 +4,7 @@ stop music
 play music "ED6101.ogg"
 scene avg_bg_064
 with fade
-c00 '[textdict[2106753]]'
+c0 '[textdict[2106753]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106754]]'
 hide c1portrait
@@ -198,7 +198,7 @@ show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106796]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2106797]]'
+c0 '[textdict[2106797]]'
 scene avg_bg_010
 with fade
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
@@ -224,7 +224,7 @@ show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[2106802]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2106803]]'
+c0 '[textdict[2106803]]'
 scene avg_bg_010
 with fade
 show oc001_01 17 as c1portrait at rightside(-2), zorder 5
@@ -257,7 +257,7 @@ c13 '[textdict[2106809]]'
 play music "ED6101.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[2106810]]'
+c0 '[textdict[2106810]]'
 scene avg_bg_064
 with fade
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5

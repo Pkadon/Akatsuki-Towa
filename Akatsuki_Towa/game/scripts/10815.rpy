@@ -19,7 +19,7 @@ hide c4portrait
 show st061_01 4 as c1304portrait at rightsideentrance(-2), zorder 5
 c13043 '[textdict[1182430]]'
 hide c1304portrait
-c00 '[textdict[1182431]]'
+c0 '[textdict[1182431]]'
 show oc004_01 16 as c4portrait at leftsideentrance(-5), zorder 5
 c41 '[textdict[1182432]]'
 hide c4portrait
@@ -29,7 +29,7 @@ c13043 '[textdict[1182433]]'
 play sfx2 "other_7088.ogg"
 hide c4portrait
 hide c1304portrait
-c00 '[textdict[1182434]]'
+c0 '[textdict[1182434]]'
 show oc004_01 15 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1182435]]'
 hide c4portrait

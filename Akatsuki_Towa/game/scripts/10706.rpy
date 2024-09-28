@@ -44,11 +44,11 @@ c13041 '[textdict[1170165]]'
 play sfx2 "other_7004.ogg"
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1170166]]'
+c0 '[textdict[1170166]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1170167]]'
 hide c1portrait
-c00 '[textdict[1170168]]'
+c0 '[textdict[1170168]]'
 show st061_01 5 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1170169]]'
 hide c1304portrait
@@ -60,7 +60,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1170171]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1170172]]'
+c0 '[textdict[1170172]]'
 show oc001_01 18 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1170173]]'
 hide c1portrait

@@ -78,7 +78,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163389]]'
 hide c1267portrait
 hide c1portrait
-c00 '[textdict[1163390]]'
+c0 '[textdict[1163390]]'
 show oc004_01 7 as c4portrait at rightside(-5), zorder 5
 with fade
 c43 '[textdict[1163391]]'

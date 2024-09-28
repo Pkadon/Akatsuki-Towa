@@ -7,7 +7,7 @@ with fade
 show st018_01 3 as c217portrait at rightside(-16), zorder 5
 c2173 '[textdict[1120770]]'
 hide c217portrait
-c00 '[textdict[1120771]]'
+c0 '[textdict[1120771]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1120772]]'

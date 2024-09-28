@@ -11,7 +11,7 @@ show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
 c10041 '[textdict[1130224]]'
 play sfx2 "other_7075.ogg"
 hide c1004portrait
-c00 '[textdict[1130225]]'
+c0 '[textdict[1130225]]'
 show sc046_01 5 as c1004portrait at leftside(-5), zorder 5
 c10041 '[textdict[1130226]]'
 play sfx2 "other_7020.ogg"

@@ -6,95 +6,95 @@ scene avg_bg_014
 with fade
 play sfx2 "other_7064.ogg"
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000906]]'
+c23 '[textdict[1000906]]'
 hide c2portrait
 show oc001_01 7 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000907]]'
+c13 '[textdict[1000907]]'
 hide c1portrait
 show oc002_01 2 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000908]]'
+c23 '[textdict[1000908]]'
 hide c2portrait
 show oc001_01 8 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000909]]'
+c13 '[textdict[1000909]]'
 hide c1portrait
 show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000910]]'
+c13 '[textdict[1000910]]'
 hide c1portrait
 show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000911]]'
+c13 '[textdict[1000911]]'
 play sfxvoice "avg_vocal_ch25.ogg"
 hide c1portrait
 show oc002_01 10 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000912]]'
+c23 '[textdict[1000912]]'
 hide c2portrait
 show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000913]]'
+c13 '[textdict[1000913]]'
 play sfx2 "other_7091.ogg"
 hide c1portrait
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000914]]'
+c23 '[textdict[1000914]]'
 hide c2portrait
 show oc001_01 12 as c1portrait at centerpos(-2), shakeright, zorder 5
-c12 '[textdict[1000915]]'
+c13 '[textdict[1000915]]'
 hide c1portrait
 show oc002_01 1 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000916]]'
+c23 '[textdict[1000916]]'
 hide c2portrait
 show oc001_01 7 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000917]]'
+c13 '[textdict[1000917]]'
 play sfx2 "other_7075.ogg"
 hide c1portrait
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000918]]'
+c23 '[textdict[1000918]]'
 play sfx2 "other_7074.ogg"
 hide c2portrait
 show oc002_01 1 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000919]]'
+c23 '[textdict[1000919]]'
 play sfx2 "other_7072.ogg"
 hide c2portrait
 show sc049_01 2 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000920]]'
+c5243 '[textdict[1000920]]'
 hide c524portrait
 show oc002_01 1 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000921]]'
+c23 '[textdict[1000921]]'
 hide c2portrait
 show oc002_01 4 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000922]]'
+c23 '[textdict[1000922]]'
 hide c2portrait
-c00 '[textdict[1000923]]'
+c0 '[textdict[1000923]]'
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000924]]'
+c23 '[textdict[1000924]]'
 hide c2portrait
 show oc001_01 8 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000925]]'
+c13 '[textdict[1000925]]'
 hide c1portrait
 show sc049_01 1 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000926]]'
+c5243 '[textdict[1000926]]'
 play sfxvoice "avg_vocal_na21.ogg"
 hide c524portrait
 show oc001_01 12 as c1portrait at centerpos(-2), shakeright, zorder 5
-c12 '[textdict[1000927]]'
+c13 '[textdict[1000927]]'
 hide c1portrait
 show sc049_01 2 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000928]]'
+c5243 '[textdict[1000928]]'
 hide c524portrait
 show sc049_01 4 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000929]]'
+c5243 '[textdict[1000929]]'
 hide c524portrait
 show sc049_01 1 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000930]]'
+c5243 '[textdict[1000930]]'
 hide c524portrait
 show sc049_01 10 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000931]]'
+c5243 '[textdict[1000931]]'
 hide c524portrait
 show oc001_01 1 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1000932]]'
+c13 '[textdict[1000932]]'
 hide c1portrait
 show sc049_01 6 as c524portrait at centerpos(-8), zorder 5
-c5242 '[textdict[1000933]]'
+c5243 '[textdict[1000933]]'
 play sfx2 "other_7073.ogg"
 play sfxvoice "avg_vocal_ch08.ogg"
 hide c524portrait
 show oc002_01 6 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1000934]]'
+c23 '[textdict[1000934]]'
 return

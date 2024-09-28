@@ -97,7 +97,7 @@ show st009_01 1 as c561portrait at leftside(-22), zorder 5
 c5611 '[textdict[1002187]]'
 hide c561portrait
 hide c2portrait
-c00 '[textdict[1002188]]'
+c0 '[textdict[1002188]]'
 show st009_01 1 as c561portrait at leftside(-22), zorder 5
 c5611 '[textdict[1002189]]'
 hide c561portrait

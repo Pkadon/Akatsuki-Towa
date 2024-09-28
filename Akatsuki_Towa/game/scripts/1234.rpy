@@ -124,7 +124,7 @@ hide c2732portrait
 show oca00_01 1 as c2732portrait at leftside(-2), zorder 5
 c27321 '[textdict[2111968]]'
 hide c2732portrait
-c00 '[textdict[2111969]]'
+c0 '[textdict[2111969]]'
 show sc038_01 2 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2111970]]'
 hide c45portrait
@@ -144,7 +144,7 @@ c481 '[textdict[2111973]]'
 stop music
 hide c45portrait
 hide c48portrait
-c5000 '[textdict[2111974]]' (what_size=25) with shake
+c5003 '[textdict[2111974]]' (what_size=25) with shake
 stop music
 show sc038_01 2 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2111975]]'
@@ -205,7 +205,7 @@ c501 '[textdict[2111990]]'
 play sfx2 "other_7064.ogg"
 hide c50portrait
 hide c2732portrait
-c00 '[textdict[2111991]]'
+c0 '[textdict[2111991]]'
 show sc041_01 1 as c48portrait at leftside(-9), zorder 5
 c481 '[textdict[2111992]]'
 hide c48portrait
@@ -386,15 +386,15 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "fight_6010.ogg"
-c00 '[textdict[2112039]]'
+c0 '[textdict[2112039]]'
 stop music
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2112040]]'
+c0 '[textdict[2112040]]'
 stop music
 play sfx2 "fight_6006.ogg"
-c00 '[textdict[2112041]]'
+c0 '[textdict[2112041]]'
 stop music
-c00 '[textdict[2112042]]'
+c0 '[textdict[2112042]]'
 stop music
 scene avg_bg_019
 with fade
@@ -751,5 +751,5 @@ show oca00_01 1 as c2731portrait at rightside(-2), zorder 5
 c27313 '[textdict[2112112]]'
 hide c47portrait
 hide c2731portrait
-c00 '[textdict[2112113]]'
+c0 '[textdict[2112113]]'
 return

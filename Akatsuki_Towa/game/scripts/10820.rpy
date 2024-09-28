@@ -143,7 +143,7 @@ c13 '[textdict[1183470]]'
 hide c4portrait
 hide c1portrait
 with fade
-c00 '[textdict[1183471]]'
+c0 '[textdict[1183471]]'
 play music "ed7151.ogg"
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1183472]]'

@@ -22,7 +22,7 @@ show oc002_01 4 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1179477]]'
 hide c1304portrait
 hide c2portrait
-c00 '[textdict[1179478]]'
+c0 '[textdict[1179478]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179479]]'
 hide c1portrait
@@ -37,7 +37,7 @@ c23 '[textdict[1179481]]'
 play sfx2 "other_7079.ogg"
 hide c1304portrait
 hide c2portrait
-c00 '[textdict[1179482]]'
+c0 '[textdict[1179482]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179483]]'
 hide c1portrait

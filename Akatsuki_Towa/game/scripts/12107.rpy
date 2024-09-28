@@ -13,14 +13,14 @@ c13 '[textdict[1128028]]'
 play sfx2 "other_7004.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1128029]]'
+c0 '[textdict[1128029]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[1128030]]'
+c0 '[textdict[1128030]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1128031]]'
 play sfx2 "other_7004.ogg"
 hide c1portrait
-c00 '[textdict[1128032]]'
+c0 '[textdict[1128032]]'
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1128034]]'
 play sfxvoice "bcv_oc002_c02_01.ogg"

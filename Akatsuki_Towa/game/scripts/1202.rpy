@@ -129,8 +129,8 @@ show st041_01 1 as c240portrait at leftside(-1), zorder 5
 with fade
 c2401 '[textdict[2108133]]'
 hide c240portrait
-c00 '[textdict[2108134]]'
-c00 '[textdict[2108135]]'
+c0 '[textdict[2108134]]'
+c0 '[textdict[2108135]]'
 play music "ED6107.ogg"
 show st011_01 1 as c210portrait at leftside(-14), zorder 5
 with fade
@@ -143,7 +143,7 @@ show st011_01 1 as c210portrait at leftside(-14), zorder 5
 c2101 '[textdict[2108138]]'
 play sfx2 "other_7063.ogg"
 hide c210portrait
-c00 '[textdict[2108139]]'
+c0 '[textdict[2108139]]'
 play sfx2 "other_7063.ogg"
 show sc001_01 3 as c9portrait at leftside(-11), zorder 5
 c91 '[textdict[2108140]]'
@@ -182,7 +182,7 @@ c2401 '[textdict[2108148]]'
 play sfx2 "other_7062.ogg"
 hide c240portrait
 c26791 '[textdict[2108149]]'
-c00 '[textdict[2108150]]'
+c0 '[textdict[2108150]]'
 play sfx2 "other_7062.ogg"
 c26801 '[textdict[2108151]]'
 play sfx2 "other_7062.ogg"
@@ -231,7 +231,7 @@ show st029_01 5 as c610portrait at leftside(-28), shakeleft, zorder 5
 c6101 '[textdict[2108164]]'
 play sfx2 "other_7062.ogg"
 hide c610portrait
-c00 '[textdict[2108165]]' with shake
+c0 '[textdict[2108165]]' with shake
 play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108166]]'
 play sfx2 "other_7062.ogg"
@@ -397,7 +397,7 @@ play sfx2 "other_7062.ogg"
 hide c240portrait
 c26791 '[textdict[2108202]]'
 play sfx2 "other_7062.ogg"
-c00 '[textdict[2108203]]'
+c0 '[textdict[2108203]]'
 play sfx2 "other_7062.ogg"
-c00 '[textdict[2108204]]'
+c0 '[textdict[2108204]]'
 return

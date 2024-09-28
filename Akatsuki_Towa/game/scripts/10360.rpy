@@ -55,7 +55,7 @@ c13 '[textdict[1131788]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7020.ogg"
-c00 '[textdict[1131789]]'
+c0 '[textdict[1131789]]'
 scene avg_bg_074
 with fade
 show st032_01 1 as c231portrait at leftsideentrance(2), zorder 5
@@ -419,7 +419,7 @@ show oc002_01 9 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1131860]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1131861]]'
+c0 '[textdict[1131861]]'
 scene avg_bg_074
 with fade
 show oc001_01 11 as c1portrait at rightside(-2), zorder 5
@@ -436,8 +436,8 @@ c13 '[textdict[1131864]]'
 play sfx2 "common_core.ogg"
 hide c231portrait
 hide c1portrait
-c00 '[textdict[1131865]]'
-c00 '[textdict[1131866]]'
+c0 '[textdict[1131865]]'
+c0 '[textdict[1131866]]'
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1131867]]'
 play sfxvoice "avg_vocal_ch16.ogg"
@@ -632,7 +632,7 @@ c11 '[textdict[1131904]]'
 play sfx2 "common_core.ogg"
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1131905]]'
+c0 '[textdict[1131905]]'
 show st032_01 1 as c231portrait at leftside(2), zorder 5
 c2311 '[textdict[1131906]]'
 hide c231portrait

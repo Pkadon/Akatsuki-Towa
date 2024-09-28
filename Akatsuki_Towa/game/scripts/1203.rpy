@@ -5,9 +5,9 @@ stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
-c00 '[textdict[2108206]]'
+c0 '[textdict[2108206]]'
 play music "ED6101.ogg"
-c00 '[textdict[2108207]]'
+c0 '[textdict[2108207]]'
 show sc019_01 4 as c27portrait at leftside(-18), shakeleft, zorder 5
 c271 '[textdict[2108208]]'
 hide c27portrait
@@ -135,18 +135,18 @@ c303 '[textdict[2108232]]'
 play sfx2 "fight_6021.ogg"
 hide c27portrait
 hide c30portrait
-c00 '[textdict[2108233]]'
+c0 '[textdict[2108233]]'
 stop music
 play sfx2 "other_7052.ogg"
-c00 '[textdict[2108234]]'
+c0 '[textdict[2108234]]'
 stop music
 show sc019_01 2 as c27portrait at leftside(-18), zorder 5
 c271 '[textdict[2108235]]'
 stop music
 hide c27portrait
-c00 '[textdict[2108236]]'
+c0 '[textdict[2108236]]'
 stop music
-c00 '[textdict[2108237]]'
+c0 '[textdict[2108237]]'
 stop music
 show sc022_01 2 as c30portrait at rightside(-9), zorder 5
 c303 '[textdict[2108238]]'
@@ -158,7 +158,7 @@ c271 '[textdict[2108239]]' with shake
 play sfx2 "other_7052.ogg"
 hide c27portrait
 hide c30portrait
-c00 '[textdict[2108240]]'
+c0 '[textdict[2108240]]'
 show sc022_01 3 as c30portrait at rightside(-9), zorder 5
 c303 '[textdict[2108241]]' with shake
 play sfx2 "other_7061.ogg"
@@ -175,7 +175,7 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7019.ogg"
-c00 '[textdict[2108244]]'
+c0 '[textdict[2108244]]'
 stop music
 scene avg_bg_034
 with fade
@@ -293,7 +293,7 @@ c303 '[textdict[2108264]]'
 play sfx2 "other_7047.ogg"
 hide c27portrait
 hide c30portrait
-c00 '[textdict[2108265]]'
+c0 '[textdict[2108265]]'
 show sc019_01 4 as c27portrait at leftside(-18), zorder 5
 c271 '[textdict[2108266]]'
 hide c27portrait
@@ -352,7 +352,7 @@ c303 '[textdict[2108277]]'
 hide c27portrait
 hide c30portrait
 with fade
-c00 '[textdict[2108278]]'
+c0 '[textdict[2108278]]'
 show st041_01 1 as c240portrait at leftside(-1), zorder 5
 c2401 '[textdict[2108279]]'
 play sfx2 "other_7062.ogg"
@@ -437,7 +437,7 @@ show sc022_01 4 as c30portrait at rightside(-9), zorder 5
 c303 '[textdict[2108296]]'
 hide c27portrait
 hide c30portrait
-c00 '[textdict[2108297]]'
+c0 '[textdict[2108297]]'
 show sc019_01 4 as c27portrait at leftside(-18), zorder 5
 c271 '[textdict[2108298]]'
 hide c27portrait
@@ -468,5 +468,5 @@ c303 '[textdict[2108304]]'
 play sfx2 "other_7062.ogg"
 hide c27portrait
 hide c30portrait
-c00 '[textdict[2108305]]'
+c0 '[textdict[2108305]]'
 return

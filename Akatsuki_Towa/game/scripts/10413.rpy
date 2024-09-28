@@ -46,7 +46,7 @@ show oc002_01 1 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1140691]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1140692]]'
+c0 '[textdict[1140692]]'
 scene avg_bg_020
 with fade
 play sfxvoice "avg_vocal_na06.ogg"

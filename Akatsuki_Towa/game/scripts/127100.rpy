@@ -5,7 +5,7 @@ play music "ed7126.ogg"
 scene avg_bg_214
 with fade
 play sfx2 "other_7064.ogg"
-c00 '[textdict[1177720]]'
+c0 '[textdict[1177720]]'
 play sfx2 "other_7064.ogg"
 show st064_01 1 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1177721]]'
@@ -43,7 +43,7 @@ show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1177730]]'
 hide c1469portrait
 hide c1portrait
-c00 '[textdict[1177731]]'
+c0 '[textdict[1177731]]'
 c14821 '[textdict[1177732]]'
 show oc002_01 23 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1177733]]'
@@ -92,7 +92,7 @@ show st065_01 1 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1177745]]'
 hide c1468portrait
 hide c1469portrait
-c00 '[textdict[1177746]]'
+c0 '[textdict[1177746]]'
 show st065_01 4 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1177747]]'
 hide c1468portrait
@@ -112,7 +112,7 @@ show st065_01 4 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1177751]]' with shake
 scene avg_bg_070
 with fade
-c00 '[textdict[1177752]]'
+c0 '[textdict[1177752]]'
 scene avg_bg_214
 with fade
 play sfx2 "other_7007.ogg"
@@ -145,7 +145,7 @@ show st065_01 1 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1177761]]'
 hide c1468portrait
 hide c3portrait
-c00 '[textdict[1177762]]'
+c0 '[textdict[1177762]]'
 show st065_01 4 as c1468portrait at leftside(-6), zorder 5
 c14681 '[textdict[1177763]]'
 hide c1468portrait

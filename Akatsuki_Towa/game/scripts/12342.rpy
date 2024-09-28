@@ -5,7 +5,7 @@ play music "ed7120.ogg"
 scene avg_bg_070
 with fade
 play sfx2 "other_7021.ogg"
-c00 '[textdict[1133506]]'
+c0 '[textdict[1133506]]'
 scene avg_bg_055
 with fade
 show st053_01 1 as c1007portrait at leftside(-12), zorder 5

@@ -50,7 +50,7 @@ show oc002_01 2 as c2portrait at darkright(-3), zorder 5
 c10901 '[textdict[1151082]]'
 play sfx2 "other_7010.ogg"
 hide c2portrait
-c00 '[textdict[1151083]]'
+c0 '[textdict[1151083]]'
 play sfx2 "other_7046.ogg"
 c11501 '[textdict[1151084]]'
 show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5

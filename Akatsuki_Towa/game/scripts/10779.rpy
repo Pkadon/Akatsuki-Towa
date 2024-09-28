@@ -56,7 +56,7 @@ show st061_01 5 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1177124]]'
 hide c1469portrait
 hide c1304portrait
-c00 '[textdict[1177125]]'
+c0 '[textdict[1177125]]'
 c14251 '[textdict[1177126]]'
 c12341 '[textdict[1177127]]'
 c14811 '[textdict[1177128]]'

@@ -74,7 +74,7 @@ hide c219portrait
 show st020_01 1 as c219portrait at leftside(-8), zorder 5
 c2191 '[textdict[1143351]]'
 hide c219portrait
-c00 '[textdict[1143352]]'
+c0 '[textdict[1143352]]'
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1143353]]'
 hide c1portrait
@@ -92,7 +92,7 @@ hide c219portrait
 show st020_01 4 as c219portrait at leftside(-8), zorder 5
 c2191 '[textdict[1143357]]'
 hide c219portrait
-c00 '[textdict[1143358]]'
+c0 '[textdict[1143358]]'
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1143359]]'
 hide c2portrait

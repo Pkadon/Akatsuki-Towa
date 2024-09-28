@@ -43,7 +43,7 @@ c11 '[textdict[1164626]]'
 play sfx2 "other_7004.ogg"
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1164627]]'
+c0 '[textdict[1164627]]'
 show oc002_01 4 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1164628]]'
 hide c2portrait
@@ -95,7 +95,7 @@ show oc002_01 4 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1164638]]'
 hide c1014portrait
 hide c2portrait
-c00 '[textdict[1164639]]'
+c0 '[textdict[1164639]]'
 c10153 '[textdict[1164640]]'
 show st052_01 2 as c1014portrait at leftside(2), zorder 5
 c10141 '[textdict[1164641]]'
@@ -112,7 +112,7 @@ show oc002_01 10 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1164644]]'
 play sfx2 "other_7004.ogg"
 hide c2portrait
-c00 '[textdict[1164645]]'
+c0 '[textdict[1164645]]'
 c10151 '[textdict[1164646]]'
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1164647]]'

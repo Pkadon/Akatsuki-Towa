@@ -124,7 +124,7 @@ show oc004_01 3 as c4portrait at darkright(-5), zorder 5
 c10211 '[textdict[1131308]]' (what_size=24)
 play sfx2 "other_7088.ogg"
 hide c4portrait
-c00 '[textdict[1131309]]' (what_size=28)
+c0 '[textdict[1131309]]' (what_size=28)
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1131310]]'
 hide c2portrait

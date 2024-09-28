@@ -34,7 +34,7 @@ stop music
 play sfx2 "other_7057.ogg"
 hide c8portrait
 hide c1portrait
-c00 '[textdict[1190015]]'
+c0 '[textdict[1190015]]'
 stop music
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1190016]]'
@@ -51,7 +51,7 @@ stop music
 play sfx2 "fight_6008.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1190019]]' with shake
+c0 '[textdict[1190019]]' with shake
 stop music
 show oc002_01 20 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1190020]]'
@@ -63,7 +63,7 @@ show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[1190021]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1190022]]'
+c0 '[textdict[1190022]]'
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1190023]]' with shake
 hide c1portrait
@@ -88,7 +88,7 @@ c21 '[textdict[1190027]]'
 play sfx2 "fight_6001.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1190028]]' with shake
+c0 '[textdict[1190028]]' with shake
 show oc002_01 20 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1190029]]'
 hide c2portrait
@@ -102,14 +102,14 @@ show oc002_01 3 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1190031]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1190032]]'
+c0 '[textdict[1190032]]'
 play sfx2 "fight_6026.ogg"
-c00 '[textdict[1190033]]'
+c0 '[textdict[1190033]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1190034]]'
 play sfx2 "fight_6015.ogg"
 hide c2portrait
-c00 '[textdict[1190035]]' with shake
+c0 '[textdict[1190035]]' with shake
 show oc002_01 12 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1190036]]'
 hide c2portrait
@@ -119,7 +119,7 @@ c13 '[textdict[1190037]]' (what_size=23) with shake
 scene avg_bg_070
 with fade
 play sfx2 "fight_6015.ogg"
-c00 '[textdict[1190038]]'
+c0 '[textdict[1190038]]'
 scene avg_bg_511
 with fade
 c21 '[textdict[1190039]]'
@@ -164,7 +164,7 @@ c21 '[textdict[1190071]]'
 c81 '[textdict[1190072]]'
 scene avg_bg_512
 with fade
-c00 '[textdict[1190073]]'
+c0 '[textdict[1190073]]'
 c23 '[textdict[1190074]]'
 c13 '[textdict[1190075]]'
 c23 '[textdict[1190076]]'
@@ -196,7 +196,7 @@ c13 '[textdict[1190101]]'
 c23 '[textdict[1190102]]'
 c81 '[textdict[1190103]]'
 play sfx2 "fight_6020.ogg"
-c00 '[textdict[1190104]]'
+c0 '[textdict[1190104]]'
 c23 '[textdict[1190105]]'
 c23 '[textdict[1190106]]'
 c81 '[textdict[1190107]]'
@@ -219,7 +219,7 @@ stop music
 scene avg_bg_204
 with fade
 play sfx2 "fight_6015.ogg"
-c00 '[textdict[1190112]]' with shake
+c0 '[textdict[1190112]]' with shake
 stop music
 scene avg_bg_218
 with fade
@@ -305,9 +305,9 @@ c41 '[textdict[1190126]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1190127]]'
+c0 '[textdict[1190127]]'
 stop music
-c00 '[textdict[1190128]]'
+c0 '[textdict[1190128]]'
 stop music
 c5001 '[textdict[1190129]]'
 stop music

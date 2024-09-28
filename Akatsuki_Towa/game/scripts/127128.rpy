@@ -121,7 +121,7 @@ show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c13021 '[textdict[1180459]]'
 play sfx2 "other_7073.ogg"
 hide c1portrait
-c00 '[textdict[1180460]]'
+c0 '[textdict[1180460]]'
 show oc005_01 13 as c5portrait at rightside(-6), zorder 5
 c53 '[textdict[1180461]]'
 hide c5portrait
@@ -151,7 +151,7 @@ c23 '[textdict[1180466]]'
 scene avg_bg_036
 with fade
 play sfx2 "other_7017.ogg"
-c00 '[textdict[1180467]]'
+c0 '[textdict[1180467]]'
 play sfx2 "other_7017.ogg"
-c00 '[textdict[1180468]]'
+c0 '[textdict[1180468]]'
 return

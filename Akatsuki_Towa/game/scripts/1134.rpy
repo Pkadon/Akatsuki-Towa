@@ -105,7 +105,7 @@ show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[2103409]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2103410]]'
+c0 '[textdict[2103410]]'
 play sfxvoice "bcv_oc002_hurt_02.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2103411]]'
@@ -113,7 +113,7 @@ hide c2portrait
 show sc049_01 4 as c56portrait at leftsidemidback(-8), zorder 5
 c561 '[textdict[2103412]]'
 hide c56portrait
-c00 '[textdict[2103413]]'
+c0 '[textdict[2103413]]'
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103414]]'
 hide c1portrait
@@ -166,8 +166,8 @@ show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2103426]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2103427]]'
-c00 '[textdict[2103428]]'
+c0 '[textdict[2103427]]'
+c0 '[textdict[2103428]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103429]]'
 hide c1portrait
@@ -177,7 +177,7 @@ c561 '[textdict[2103430]]'
 play sfx2 "other_7045.ogg"
 hide c56portrait
 hide c1portrait
-c00 '[textdict[2103431]]'
+c0 '[textdict[2103431]]'
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103432]]'
@@ -215,7 +215,7 @@ show sc049_01 4 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2103439]]'
 hide c56portrait
 hide c1portrait
-c00 '[textdict[2103440]]'
+c0 '[textdict[2103440]]'
 show sc049_01 4 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2103441]]'
 hide c56portrait
@@ -255,7 +255,7 @@ c561 '[textdict[2103448]]'
 play sfx2 "other_7007.ogg"
 hide c56portrait
 hide c1portrait
-c00 '[textdict[2103449]]'
+c0 '[textdict[2103449]]'
 show sc049_01 4 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2103450]]'
 hide c56portrait
@@ -353,8 +353,8 @@ c13 '[textdict[2103468]]'
 play sfx2 "other_7044.ogg"
 hide c56portrait
 hide c1portrait
-c00 '[textdict[2103469]]'
+c0 '[textdict[2103469]]'
 play sfx2 "other_7047.ogg"
-c00 '[textdict[2103470]]'
-c00 '[textdict[2103471]]'
+c0 '[textdict[2103470]]'
+c0 '[textdict[2103471]]'
 return

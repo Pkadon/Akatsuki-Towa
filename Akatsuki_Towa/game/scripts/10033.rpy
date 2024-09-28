@@ -257,7 +257,7 @@ hide c1portrait
 show oc001_01 5 as c1portrait at darkright(-2), zorder 5
 c6051 '[textdict[1003105]]'
 hide c1portrait
-c00 '[textdict[1003106]]'
+c0 '[textdict[1003106]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1003107]]'
 hide c1portrait
@@ -441,7 +441,7 @@ c21 '[textdict[1003145]]'
 play sfx2 "other_7088.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1003146]]'
+c0 '[textdict[1003146]]'
 show st016_01 2 as c215portrait at rightside(-8), zorder 5
 c2153 '[textdict[1003147]]'
 hide c215portrait

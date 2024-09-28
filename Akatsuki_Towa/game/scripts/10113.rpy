@@ -36,7 +36,7 @@ show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1006264]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1006265]]'
+c0 '[textdict[1006265]]'
 show sc044_01 2 as c51portrait at leftside(-7), zorder 5
 c511 '[textdict[1006266]]'
 hide c51portrait

@@ -35,7 +35,7 @@ show st061_01 2 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1172545]]'
 play sfx2 "other_7047.ogg"
 hide c1304portrait
-c00 '[textdict[1172546]]'
+c0 '[textdict[1172546]]'
 c13361 '[textdict[1172547]]'
 c13361 '[textdict[1172548]]'
 c5003 '[textdict[1172549]]'

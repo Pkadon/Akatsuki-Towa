@@ -4,7 +4,7 @@ stop music
 play music "ED6100.ogg"
 scene avg_bg_104
 with fade
-c00 '[textdict[2107924]]'
+c0 '[textdict[2107924]]'
 c91 '[textdict[2107925]]' (what_size=24) with shake
 scene avg_bg_023
 with fade
@@ -108,7 +108,7 @@ show sc001_01 2 as c9portrait at leftsidemidback(-11), zorder 5
 c91 '[textdict[2107947]]'
 scene avg_bg_104
 with fade
-c00 '[textdict[2107948]]'
+c0 '[textdict[2107948]]'
 play music "ED6101.ogg"
 scene avg_bg_023
 with fade
@@ -267,7 +267,7 @@ show sc019_01 2 as c27portrait at darkright(-18), zorder 5
 c26781 '[textdict[2107982]]'
 scene avg_bg_064
 with fade
-c00 '[textdict[2107983]]'
+c0 '[textdict[2107983]]'
 play music "ED6104.ogg"
 scene avg_bg_023
 with fade
@@ -284,7 +284,7 @@ show st009_01 1 as c209portrait at leftside(-22), zorder 5
 c2091 '[textdict[2107986]]'
 scene avg_bg_027
 with fade
-c00 '[textdict[2107987]]'
+c0 '[textdict[2107987]]'
 play music "ed7455.ogg"
 scene avg_bg_080
 with fade
@@ -380,7 +380,7 @@ c25921 '[textdict[2108007]]' (what_size=24) with shake
 play music "ED6102.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[2108008]]'
+c0 '[textdict[2108008]]'
 scene avg_bg_023
 with fade
 show sc032_01 3 as c40portrait at rightsideentrance(-17), zorder 5
@@ -464,7 +464,7 @@ c291 '[textdict[2108025]]'
 scene avg_bg_105
 with fade
 c391 '[textdict[2108026]]' (what_size=25) with shake
-c00 '[textdict[2108027]]'
+c0 '[textdict[2108027]]'
 play music "ED6103.ogg"
 scene avg_bg_037
 with fade
@@ -479,7 +479,7 @@ show sc008_01 4 as c16portrait at rightsidemidback(-18), zorder 5
 c163 '[textdict[2108030]]'
 hide c15portrait
 hide c16portrait
-c00 '[textdict[2108031]]'
+c0 '[textdict[2108031]]'
 show sc008_01 4 as c16portrait at rightside(-18), zorder 5
 c163 '[textdict[2108032]]'
 hide c16portrait
@@ -718,7 +718,7 @@ c161 '[textdict[2108079]]'
 play sfx2 "other_7004.ogg"
 hide c16portrait
 hide c689portrait
-c00 '[textdict[2108080]]'
+c0 '[textdict[2108080]]'
 show sc008_01 3 as c16portrait at leftside(-18), zorder 5
 c161 '[textdict[2108081]]'
 hide c16portrait
@@ -742,7 +742,7 @@ show sc007_01 5 as c15portrait at rightside(-17), shakeright, zorder 5
 c153 '[textdict[2108085]]'
 scene avg_bg_037
 with fade
-c00 '[textdict[2108086]]'
+c0 '[textdict[2108086]]'
 play music "ED6108.ogg"
 scene avg_bg_034
 with fade
@@ -808,7 +808,7 @@ show st041_01 1 as c240portrait at darkleft(-1), zorder 6
 c26793 '[textdict[2108102]]' (what_size=24) with shake
 play sfx2 "other_7062.ogg"
 hide c240portrait
-c00 '[textdict[2108103]]'
+c0 '[textdict[2108103]]'
 play sfx2 "other_7062.ogg"
-c00 '[textdict[2108104]]'
+c0 '[textdict[2108104]]'
 return

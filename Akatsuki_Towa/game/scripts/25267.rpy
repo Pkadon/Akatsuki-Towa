@@ -4,7 +4,7 @@ stop music
 scene placeholderbackground
 with fade
 play sfx2 "other_7050.ogg"
-c20130 '[textdict[1211005]]'
+c20133 '[textdict[1211005]]'
 menu:
     "[textdict[1214995]]":
         call avg25268

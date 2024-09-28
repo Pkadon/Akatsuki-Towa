@@ -238,7 +238,7 @@ c473 '[textdict[2105886]]'
 play sfx2 "fight_6019.ogg"
 hide c2539portrait
 hide c47portrait
-c00 '[textdict[2105887]]' with shake
+c0 '[textdict[2105887]]' with shake
 play sfx2 "other_7057.ogg"
 show oc000_01 1 as c2539portrait at leftside(-2), zorder 5
 c25391 '[textdict[2105888]]'

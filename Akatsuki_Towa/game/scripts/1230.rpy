@@ -102,7 +102,7 @@ c561 '[textdict[2111413]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2111414]]'
+c0 '[textdict[2111414]]'
 stop music
 scene avg_bg_023
 with fade
@@ -212,7 +212,7 @@ c13 '[textdict[2111436]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2111437]]'
+c0 '[textdict[2111437]]'
 scene avg_bg_023
 with fade
 play sfx2 "other_7074.ogg"
@@ -252,7 +252,7 @@ c13 '[textdict[2111454]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[2111455]]'
+c0 '[textdict[2111455]]'
 scene avg_bg_023
 with fade
 c51 '[textdict[2111456]]' with shake

@@ -4,10 +4,10 @@ stop music
 play music "ed7564.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[1166333]]'
-c00 '[textdict[1166334]]'
-c00 '[textdict[1166335]]'
-c00 '[textdict[1166336]]'
+c0 '[textdict[1166333]]'
+c0 '[textdict[1166334]]'
+c0 '[textdict[1166335]]'
+c0 '[textdict[1166336]]'
 scene avg_bg_070
 with fade
 show oc008_01 1 as c8portrait at leftside(-5), zorder 5
@@ -27,5 +27,5 @@ show oc008_01 6 as c8portrait at leftside(-5), zorder 5
 c81 '[textdict[1166341]]'
 play sfxvoice "avg_vocal_ai07.ogg"
 hide c8portrait
-c00 '[textdict[1166342]]'
+c0 '[textdict[1166342]]'
 return

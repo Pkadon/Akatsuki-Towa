@@ -17,7 +17,7 @@ c23 '[textdict[1190974]]'
 play music "ed7511.ogg"
 scene avg_bg_035
 with fade
-c00 '[textdict[1190975]]'
+c0 '[textdict[1190975]]'
 play sfx2 "fight_6022.ogg"
 show oce02_01 4 as c2666portrait at rightsideentrance(-3), zorder 5
 c26663 '[textdict[1190976]]'
@@ -228,9 +228,9 @@ c5061 '[textdict[1191017]]'
 play sfx2 "fight_6017.ogg"
 hide c506portrait
 hide c2666portrait
-c00 '[textdict[1191018]]'
+c0 '[textdict[1191018]]'
 play sfx2 "fight_6010.ogg"
-c00 '[textdict[1191019]]'
+c0 '[textdict[1191019]]'
 show oce02_01 1 as c2666portrait at rightside(-3), zorder 5
 c26663 '[textdict[1191020]]'
 hide c2666portrait

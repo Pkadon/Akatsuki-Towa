@@ -37,9 +37,9 @@ show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1183779]]'
 scene avg_bg_036
 with fade
-c00 '[textdict[1183780]]'
+c0 '[textdict[1183780]]'
 play sfx2 "other_7013.ogg"
-c00 '[textdict[1183781]]'
+c0 '[textdict[1183781]]'
 show st061_01 1 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1183782]]'
 hide c1304portrait
@@ -127,7 +127,7 @@ stop music
 play sfx2 "other_7009.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1183804]]'
+c0 '[textdict[1183804]]'
 play music "ed7511.ogg"
 show st061_01 4 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1183805]]'

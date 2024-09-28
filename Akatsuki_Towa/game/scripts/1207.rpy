@@ -4,15 +4,15 @@ stop music
 stop music
 scene avg_bg_034
 with fade
-c00 '[textdict[2108643]]'
+c0 '[textdict[2108643]]'
 play music "ED6100.ogg"
 play sfx2 "other_7062.ogg"
-c00 '[textdict[2108644]]'
+c0 '[textdict[2108644]]'
 show st041_01 1 as c240portrait at leftside(-1), zorder 5
 c2401 '[textdict[2108645]]'
 play sfx2 "other_7039.ogg"
 hide c240portrait
-c00 '[textdict[2108646]]'
+c0 '[textdict[2108646]]'
 show sc002_01 2 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108647]]'
 hide c10portrait
@@ -42,7 +42,7 @@ c91 '[textdict[2108652]]'
 play sfx2 "other_7039.ogg"
 hide c9portrait
 hide c10portrait
-c00 '[textdict[2108653]]'
+c0 '[textdict[2108653]]'
 show sc002_01 2 as c10portrait at rightside(-12), shakeright, zorder 5
 c103 '[textdict[2108654]]'
 hide c10portrait
@@ -121,7 +121,7 @@ show sc001_01 5 as c9portrait at leftside(-11), zorder 5
 c91 '[textdict[2108669]]'
 hide c9portrait
 hide c10portrait
-c00 '[textdict[2108670]]'
+c0 '[textdict[2108670]]'
 show sc001_01 2 as c9portrait at leftside(-11), zorder 5
 c91 '[textdict[2108671]]'
 hide c9portrait
@@ -224,7 +224,7 @@ c91 '[textdict[2108690]]'
 play music "ed7453.ogg"
 hide c9portrait
 hide c10portrait
-c00 '[textdict[2108691]]'
+c0 '[textdict[2108691]]'
 show sc001_01 2 as c9portrait at leftside(-11), shakeleft, zorder 5
 c91 '[textdict[2108692]]'
 hide c9portrait
@@ -353,14 +353,14 @@ show sc002_01 4 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108719]]'
 play sfx2 "other_7041.ogg"
 hide c10portrait
-c00 '[textdict[2108720]]'
+c0 '[textdict[2108720]]'
 play sfx2 "other_7041.ogg"
 show sc002_01 4 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108721]]'
 stop music
 play sfx2 "other_7017.ogg"
 hide c10portrait
-c00 '[textdict[2108722]]'
+c0 '[textdict[2108722]]'
 stop music
 play sfx2 "other_7017.ogg"
 show sc002_01 2 as c10portrait at rightside(-12), zorder 5
@@ -405,7 +405,7 @@ c131 '[textdict[2108730]]'
 stop music
 hide c13portrait
 hide c10portrait
-c00 '[textdict[2108731]]'
+c0 '[textdict[2108731]]'
 play music "ed6567.ogg"
 show sc002_01 5 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108732]]'
@@ -625,7 +625,7 @@ show sc002_01 4 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108774]]'
 hide c9portrait
 hide c10portrait
-c00 '[textdict[2108775]]'
+c0 '[textdict[2108775]]'
 show sc002_01 1 as c10portrait at rightside(-12), zorder 5
 c103 '[textdict[2108776]]'
 hide c10portrait
@@ -676,5 +676,5 @@ c2401 '[textdict[2108785]]' with shake
 play sfx2 "other_7062.ogg"
 hide c240portrait
 hide c10portrait
-c00 '[textdict[2108786]]'
+c0 '[textdict[2108786]]'
 return

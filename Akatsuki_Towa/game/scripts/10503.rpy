@@ -413,7 +413,7 @@ show st040_01 2 as c239portrait at leftside(-19), shakeleft, zorder 5
 c2391 '[textdict[1150192]]'
 hide c239portrait
 hide c4portrait
-c00 '[textdict[1150193]]'
+c0 '[textdict[1150193]]'
 show st040_01 6 as c239portrait at leftside(-19), shakeleft, zorder 5
 c2391 '[textdict[1150194]]'
 hide c239portrait

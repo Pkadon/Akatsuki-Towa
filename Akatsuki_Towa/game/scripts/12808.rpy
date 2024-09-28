@@ -161,10 +161,10 @@ c21 '[textdict[1181877]]'
 play music "ed7200.ogg"
 scene avg_bg_040
 with fade
-c00 '[textdict[1181878]]'
+c0 '[textdict[1181878]]'
 c14111 '[textdict[1181879]]'
 c14121 '[textdict[1181880]]'
-c00 '[textdict[1181881]]'
+c0 '[textdict[1181881]]'
 show oc001_01 10 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1181882]]'
 hide c1portrait
@@ -262,7 +262,7 @@ c13 '[textdict[1181909]]'
 play music "ed9999.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[1181910]]'
+c0 '[textdict[1181910]]'
 show oc001_01 2 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1181911]]'
 hide c1portrait
@@ -279,7 +279,7 @@ hide c3portrait
 show oc003_01 2 as c3portrait at darkright(-6), zorder 5
 c5001 '[textdict[1181914]]'
 hide c3portrait
-c00 '[textdict[1181915]]'
+c0 '[textdict[1181915]]'
 c25441 '[textdict[1181916]]'
 c25441 '[textdict[1181917]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5

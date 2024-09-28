@@ -164,7 +164,7 @@ c43 '[textdict[1161882]]' with shake
 play sfx2 "other_7044.ogg"
 hide c239portrait
 hide c4portrait
-c00 '[textdict[1161883]]'
+c0 '[textdict[1161883]]'
 show st040_01 5 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1161884]]'
 hide c239portrait
@@ -174,7 +174,7 @@ c13 '[textdict[1161885]]'
 play sfx2 "other_7047.ogg"
 hide c239portrait
 hide c1portrait
-c00 '[textdict[1161886]]'
+c0 '[textdict[1161886]]'
 show st062_01 2 as c1313portrait at rightside(-16), zorder 5
 c13133 '[textdict[1161887]]'
 hide c1313portrait

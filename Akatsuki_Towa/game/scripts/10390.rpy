@@ -33,7 +33,7 @@ hide c1045portrait
 show uc003_04 3 as c1046portrait at leftside(-14), zorder 5
 c10461 '[textdict[1132478]]' with shake
 hide c1046portrait
-c00 '[textdict[1132479]]'
+c0 '[textdict[1132479]]'
 play sfx2 "fight_6003.ogg"
 show sc048_01 4 as c55portrait at rightsideentrancemidback(-7), zorder 5
 c553 '[textdict[1132480]]'
@@ -119,7 +119,7 @@ c2391 '[textdict[1132496]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1132497]]'
+c0 '[textdict[1132497]]'
 play music "ed7151.ogg"
 scene avg_bg_049
 with fade

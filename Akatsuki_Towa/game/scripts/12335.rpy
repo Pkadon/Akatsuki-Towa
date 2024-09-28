@@ -138,7 +138,7 @@ show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 c10061 '[textdict[1133489]]'
 play sfx2 "other_7063.ogg"
 hide c1portrait
-c10890 '[textdict[1133490]]'
+c10893 '[textdict[1133490]]'
 play sfxvoice "avg_vocal_li09.ogg"
 show oc004_01 24 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133491]]'

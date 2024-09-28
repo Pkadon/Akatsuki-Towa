@@ -322,17 +322,17 @@ c11 '[textdict[1003527]]'
 stop music
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1003528]]'
+c0 '[textdict[1003528]]'
 stop music
-c00 '[textdict[1003529]]'
+c0 '[textdict[1003529]]'
 stop music
-c00 '[textdict[1003530]]'
+c0 '[textdict[1003530]]'
 stop music
-c00 '[textdict[1003531]]'
+c0 '[textdict[1003531]]'
 stop music
-c00 '[textdict[1003532]]'
+c0 '[textdict[1003532]]'
 stop music
-c00 '[textdict[1003533]]'
+c0 '[textdict[1003533]]'
 play music "ed7565.ogg"
 scene avg_bg_027
 with fade

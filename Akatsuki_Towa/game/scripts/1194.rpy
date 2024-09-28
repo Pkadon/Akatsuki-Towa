@@ -163,7 +163,7 @@ show ocb03_01 17 as c2628portrait at leftside(-6), zorder 5
 c26281 '[textdict[2107487]]'
 hide c2628portrait
 hide c2629portrait
-c00 '[textdict[2107488]]'
+c0 '[textdict[2107488]]'
 show scb38_01 2 as c2629portrait at rightside(-1), zorder 5
 c26293 '[textdict[2107489]]'
 hide c2629portrait
@@ -251,7 +251,7 @@ show uc002_01 1 as c2638portrait at rightside(2), shakeright, zorder 5
 c26383 '[textdict[2107507]]'
 play sfx2 "other_7064.ogg"
 hide c2638portrait
-c00 '[textdict[2107508]]'
+c0 '[textdict[2107508]]'
 show sc066_01 1 as c70portrait at leftsideentrance(-34), zorder 5
 c701 '[textdict[2107509]]'
 hide c70portrait
@@ -273,7 +273,7 @@ c26413 '[textdict[2107513]]' with shake
 play sfx2 "other_7045.ogg"
 hide c70portrait
 hide c2641portrait
-c00 '[textdict[2107514]]'
+c0 '[textdict[2107514]]'
 c26433 '[textdict[2107515]]'
 play music "ed7455.ogg"
 c26461 '[textdict[2107516]]' (what_size=24) with shake
@@ -291,7 +291,7 @@ c26281 '[textdict[2107519]]'
 play sfx2 "fight_6010.ogg"
 hide c2628portrait
 hide c2629portrait
-c00 '[textdict[2107520]]'
+c0 '[textdict[2107520]]'
 play sfx2 "other_7057.ogg"
 show ocb03_01 20 as c2628portrait at leftsideexit(-6), zorder 5
 c26281 '[textdict[2107521]]'
@@ -320,5 +320,5 @@ hide c2629portrait
 show scb38_01 4 as c2629portrait at darkright(-1), zorder 5
 c26451 '[textdict[2107527]]'
 hide c2629portrait
-c00 '[textdict[2107528]]'
+c0 '[textdict[2107528]]'
 return

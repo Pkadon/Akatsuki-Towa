@@ -122,7 +122,7 @@ hide c2portrait
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171444]]'
 hide c2portrait
-c00 '[textdict[1171445]]'
+c0 '[textdict[1171445]]'
 c14331 '[textdict[1171446]]'
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171447]]'
@@ -142,7 +142,7 @@ hide c2portrait
 show oc002_01 23 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171452]]'
 hide c2portrait
-c00 '[textdict[1171453]]'
+c0 '[textdict[1171453]]'
 c14331 '[textdict[1171454]]'
 c14331 '[textdict[1171455]]'
 show oc002_01 15 as c2portrait at rightside(-3), zorder 5
@@ -198,7 +198,7 @@ c14161 '[textdict[1171472]]'
 show oc002_01 10 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171473]]'
 hide c2portrait
-c00 '[textdict[1171474]]'
+c0 '[textdict[1171474]]'
 show oc002_01 23 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171475]]'
 hide c2portrait

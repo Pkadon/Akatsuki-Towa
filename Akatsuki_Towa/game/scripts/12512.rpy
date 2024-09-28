@@ -74,7 +74,7 @@ c12153 '[textdict[1151007]]'
 play music "ed7514.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1151008]]'
+c0 '[textdict[1151008]]'
 scene avg_bg_024
 with fade
 c12131 '[textdict[1151009]]'

@@ -71,7 +71,7 @@ play sfx2 "common_correct.ogg"
 show Image8 zorder 4
 hide c56portrait
 hide c2portrait
-c00 '[textdict[1000420]]'
+c0 '[textdict[1000420]]'
 hide Image8
 show oc002_01 6 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1007521]]'
@@ -184,7 +184,7 @@ c561 '[textdict[1000442]]'
 play sfx2 "common_correct.ogg"
 hide c56portrait
 hide c2portrait
-c00 '[textdict[1000443]]'
+c0 '[textdict[1000443]]'
 show oc002_01 22 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1000444]]'
 play sfx2 "other_7004.ogg"

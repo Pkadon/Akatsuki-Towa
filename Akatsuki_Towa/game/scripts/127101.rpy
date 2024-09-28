@@ -55,7 +55,7 @@ hide c1304portrait
 show st061_01 1 as c1304portrait at darkright(-2), zorder 5
 c14821 '[textdict[1177782]]'
 hide c1304portrait
-c00 '[textdict[1177783]]'
+c0 '[textdict[1177783]]'
 c14821 '[textdict[1177784]]'
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1177785]]'
@@ -69,7 +69,7 @@ show oc001_01 16 as c1portrait at darkright(-2), zorder 5
 c14821 '[textdict[1177787]]' with shake
 scene avg_bg_070
 with fade
-c00 '[textdict[1177788]]'
+c0 '[textdict[1177788]]'
 scene avg_bg_214
 with fade
 play sfx2 "other_7007.ogg"
@@ -183,7 +183,7 @@ c41 '[textdict[1177814]]'
 play sfx2 "other_7007.ogg"
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1177815]]'
+c0 '[textdict[1177815]]'
 show st061_01 3 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1177816]]'
 hide c1304portrait

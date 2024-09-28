@@ -18,7 +18,7 @@ c2361 '[textdict[1131208]]'
 stop music
 play sfx2 "other_7045.ogg"
 hide c236portrait
-c00 '[textdict[1131209]]'
+c0 '[textdict[1131209]]'
 play music "ed7544.ogg"
 play sfxvoice "avg_vocal_ch06.ogg"
 show oc002_01 9 as c2portrait at leftsideentrance(-3), zorder 5
@@ -155,7 +155,7 @@ c2361 '[textdict[1131236]]'
 hide c236portrait
 play sfx2 "other_7046.ogg"
 hide c1portrait
-c00 '[textdict[1131237]]' with shake
+c0 '[textdict[1131237]]' with shake
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1131238]]' (what_size=30)

@@ -158,7 +158,7 @@ show oca00_01 1 as c2731portrait at leftside(-2), zorder 5
 c27311 '[textdict[2111797]]'
 scene avg_bg_030
 with fade
-c00 '[textdict[2111798]]'
+c0 '[textdict[2111798]]'
 stop music
 play sfx2 "other_7047.ogg"
 show sc040_01 2 as c47portrait at rightside(-9), zorder 5
@@ -217,7 +217,7 @@ show sc039_01 5 as c46portrait at leftside(-13), zorder 5
 c461 '[textdict[2111809]]'
 stop music
 hide c46portrait
-c00 '[textdict[2111810]]'
+c0 '[textdict[2111810]]'
 stop music
 show sc039_01 5 as c46portrait at leftside(-13), zorder 5
 c461 '[textdict[2111811]]'
@@ -311,7 +311,7 @@ show oca00_01 1 as c2731portrait at leftside(-2), zorder 5
 c27311 '[textdict[2111831]]'
 hide c2731portrait
 hide c45portrait
-c00 '[textdict[2111832]]'
+c0 '[textdict[2111832]]'
 show sc038_01 4 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2111833]]'
 hide c45portrait
@@ -605,7 +605,7 @@ show sc039_01 2 as c46portrait at leftside(-13), zorder 5
 c461 '[textdict[2111888]]'
 hide c46portrait
 hide c47portrait
-c00 '[textdict[2111889]]'
+c0 '[textdict[2111889]]'
 stop music
 show sc038_01 1 as c45portrait at leftside(-1), zorder 5
 c451 '[textdict[2111890]]'

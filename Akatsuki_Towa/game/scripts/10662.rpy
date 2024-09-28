@@ -71,7 +71,7 @@ c33 '[textdict[1165612]]'
 play sfx2 "other_7047.ogg"
 hide c1308portrait
 hide c3portrait
-c00 '[textdict[1165613]]'
+c0 '[textdict[1165613]]'
 c13161 '[textdict[1165614]]'
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1165615]]'
@@ -139,7 +139,7 @@ c13081 '[textdict[1165629]]'
 play sfx2 "other_7044.ogg"
 hide c1308portrait
 hide c1304portrait
-c00 '[textdict[1165630]]'
+c0 '[textdict[1165630]]'
 show st062_01 1 as c1308portrait at leftside(-16), zorder 5
 c13081 '[textdict[1165631]]'
 play sfx2 "other_7047.ogg"
@@ -239,5 +239,5 @@ show st062_01 4 as c1308portrait at leftside(-16), zorder 5
 c13081 '[textdict[1165652]]'
 hide c1308portrait
 hide c1304portrait
-c00 '[textdict[1165653]]'
+c0 '[textdict[1165653]]'
 return

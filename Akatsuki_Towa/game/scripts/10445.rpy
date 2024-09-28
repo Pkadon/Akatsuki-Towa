@@ -272,7 +272,7 @@ show oc004_01 19 as c4portrait at rightside(-5), shakeright, zorder 5
 c43 '[textdict[1141959]]'
 hide c238portrait
 hide c4portrait
-c00 '[textdict[1141960]]'
+c0 '[textdict[1141960]]'
 show oc004_01 19 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1141961]]'
 hide c4portrait
@@ -350,7 +350,7 @@ c53 '[textdict[1141975]]'
 play music "ed7151.ogg"
 hide c3portrait
 hide c5portrait
-c00 '[textdict[1141976]]'
+c0 '[textdict[1141976]]'
 c11713 '[textdict[1141977]]'
 c11713 '[textdict[1141978]]'
 show sc046_01 4 as c1004portrait at leftside(-5), zorder 5
@@ -384,7 +384,7 @@ show sc048_01 4 as c55portrait at darkleft(-7), zorder 6
 c11313 '[textdict[1141988]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1141989]]'
-c00 '[textdict[1141990]]'
-c00 '[textdict[1141991]]'
+c0 '[textdict[1141989]]'
+c0 '[textdict[1141990]]'
+c0 '[textdict[1141991]]'
 return

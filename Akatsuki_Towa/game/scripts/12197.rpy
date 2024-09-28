@@ -62,7 +62,7 @@ show st014_01 1 as c213portrait at rightside(-18), zorder 5
 c2133 '[textdict[1120844]]'
 hide c215portrait
 hide c213portrait
-c00 '[textdict[1120845]]'
+c0 '[textdict[1120845]]'
 c9853 '[textdict[1120846]]'
 show oc001_01 10 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1120847]]'

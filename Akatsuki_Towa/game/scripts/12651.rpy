@@ -326,7 +326,7 @@ hide c18portrait
 show sc010_01 4 as c18portrait at darkright(-10), zorder 5
 c13311 '[textdict[1163792]]'
 hide c18portrait
-c00 '[textdict[1163793]]'
+c0 '[textdict[1163793]]'
 show oc003_01 2 as c3portrait at leftside(-6), shakeleft, zorder 5
 c31 '[textdict[1163794]]'
 hide c3portrait
@@ -370,7 +370,7 @@ hide c18portrait
 show sc010_01 2 as c18portrait at darkright(-10), zorder 5
 c13321 '[textdict[1163804]]'
 hide c18portrait
-c00 '[textdict[1163805]]'
+c0 '[textdict[1163805]]'
 c13311 '[textdict[1163806]]'
 c13311 '[textdict[1163807]]'
 c13311 '[textdict[1163808]]'

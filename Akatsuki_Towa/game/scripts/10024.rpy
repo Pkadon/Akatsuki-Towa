@@ -63,7 +63,7 @@ hide c1portrait
 play music "ED6518.ogg"
 play sfx2 "other_7017.ogg"
 hide c2portrait
-c00 '[textdict[1002084]]'
+c0 '[textdict[1002084]]'
 play sfx2 "other_7046.ogg"
 play sfxvoice "avg_vocal_li02.ogg"
 show oc004_01 1 as c4portrait at leftsideentrance(-5), zorder 5

@@ -5,7 +5,7 @@ play music "ed7304.ogg"
 scene placeholderbackground
 with fade
 play sfx2 "other_7079.ogg"
-c20160 '[textdict[1133984]]'
+c20163 '[textdict[1133984]]'
 play sfx2 "other_7092.ogg"
 show oc001_01 22 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1133985]]'
@@ -102,7 +102,7 @@ c13 '[textdict[1134002]]' with shake
 play sfx2 "bat_arts_wt02_2.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1134003]]'
+c0 '[textdict[1134003]]'
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1134004]]'

@@ -14,7 +14,7 @@ c13 '[textdict[1003011]]'
 stop music
 play sfx2 "fight_6022.ogg"
 hide c1portrait
-c00 '[textdict[1003012]]'
+c0 '[textdict[1003012]]'
 stop music
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1003013]]'

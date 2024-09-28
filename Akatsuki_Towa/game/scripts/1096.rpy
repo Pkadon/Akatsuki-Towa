@@ -58,7 +58,7 @@ show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 c10931 '[textdict[2102215]]'
 play sfx2 "other_7013.ogg"
 hide c1portrait
-c00 '[textdict[2102216]]'
+c0 '[textdict[2102216]]'
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102217]]'
 hide c1portrait

@@ -344,7 +344,7 @@ c6883 '[textdict[1121547]]'
 play music "ed7506.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1121548]]'
+c0 '[textdict[1121548]]'
 scene avg_bg_024
 with fade
 play sfx2 "other_7019.ogg"
@@ -390,7 +390,7 @@ show sc058_01 2 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[1001866]]'
 hide c63portrait
 hide c2portrait
-c00 '[textdict[1001867]]'
+c0 '[textdict[1001867]]'
 play music "ed7113.ogg"
 scene avg_bg_021
 with fade

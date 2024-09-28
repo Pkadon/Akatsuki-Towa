@@ -6,20 +6,20 @@ scene placeholderbackground
 with fade
 play sfxvoice "avg_vocal_ch17.ogg"
 show oc002_01 11 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1133918]]'
+c23 '[textdict[1133918]]'
 hide c2portrait
 show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1133919]]'
+c13 '[textdict[1133919]]'
 hide c1portrait
 show oc002_01 17 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1133920]]'
+c23 '[textdict[1133920]]'
 hide c2portrait
 show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1133921]]'
+c13 '[textdict[1133921]]'
 hide c1portrait
 show oc002_01 8 as c2portrait at centerpos(-3), zorder 5
-c22 '[textdict[1133922]]'
+c23 '[textdict[1133922]]'
 hide c2portrait
 show oc001_01 11 as c1portrait at centerpos(-2), zorder 5
-c12 '[textdict[1133923]]'
+c13 '[textdict[1133923]]'
 return

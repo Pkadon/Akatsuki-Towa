@@ -9,7 +9,7 @@ show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1128408]]'
 play sfx2 "other_7021.ogg"
 hide c1portrait
-c00 '[textdict[1128409]]'
+c0 '[textdict[1128409]]'
 show sc017_01 2 as c963portrait at leftsideentrance(-7), zorder 5
 c9631 '[textdict[1128410]]'
 hide c963portrait
@@ -29,7 +29,7 @@ c13 '[textdict[1128413]]'
 play sfx2 "common_tag_2.ogg"
 hide c571portrait
 hide c1portrait
-c00 '[textdict[1128414]]'
+c0 '[textdict[1128414]]'
 show sc017_01 5 as c25portrait at leftside(-7), zorder 5
 c251 '[textdict[1128415]]'
 hide c25portrait
@@ -60,7 +60,7 @@ c13 '[textdict[1128420]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7021.ogg"
-c00 '[textdict[1128421]]'
+c0 '[textdict[1128421]]'
 scene avg_bg_057
 with fade
 show sc017_01 1 as c25portrait at leftside(-7), zorder 5

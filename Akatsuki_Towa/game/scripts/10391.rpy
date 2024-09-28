@@ -29,7 +29,7 @@ with fade
 show uc003_04 1 as c1046portrait at rightside(-14), zorder 5
 c10463 '[textdict[1132478]]' with shake
 hide c1046portrait
-c00 '[textdict[1132479]]'
+c0 '[textdict[1132479]]'
 show sc048_01 4 as c55portrait at rightside(-7), zorder 5
 c553 '[textdict[1132480]]' with shake
 hide c55portrait
@@ -116,7 +116,7 @@ c10431 '[textdict[1132496]]'
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1132497]]'
+c0 '[textdict[1132497]]'
 play music "ed7151.ogg"
 scene avg_bg_049
 with fade

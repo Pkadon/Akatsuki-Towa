@@ -4,7 +4,7 @@ stop music
 play music "ed7100.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[2113070]]'
+c0 '[textdict[2113070]]'
 show ocd03_01 8 as c2667portrait at rightsideentrance(-6), zorder 5
 c26673 '[textdict[2113071]]'
 hide c2667portrait
@@ -108,7 +108,7 @@ hide c2667portrait
 show ocd03_01 5 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113105]]'
 hide c2667portrait
-c00 '[textdict[2113106]]'
+c0 '[textdict[2113106]]'
 show ocd03_01 2 as c2667portrait at rightside(-6), zorder 5
 c26673 '[textdict[2113107]]'
 hide c2667portrait
@@ -132,7 +132,7 @@ c26673 '[textdict[2113113]]'
 stop music
 scene avg_bg_022
 with fade
-c00 '[textdict[2113114]]'
+c0 '[textdict[2113114]]'
 play music "ed7151.ogg"
 scene avg_bg_049
 with fade
@@ -228,7 +228,7 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7057.ogg"
-c00 '[textdict[2113143]]'
+c0 '[textdict[2113143]]'
 stop music
 scene avg_bg_010
 with fade
@@ -262,7 +262,7 @@ c26673 '[textdict[2113150]]'
 stop music
 play sfx2 "other_7092.ogg"
 hide c2667portrait
-c00 '[textdict[2113151]]'
+c0 '[textdict[2113151]]'
 stop music
 show ocd03_01 12 as c2667portrait at rightsideexit(-6), zorder 5
 c26673 '[textdict[2113152]]' (what_size=23)

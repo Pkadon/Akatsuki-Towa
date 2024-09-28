@@ -4,7 +4,7 @@ stop music
 play music "ed7511.ogg"
 scene placeholderbackground
 with fade
-c00 '[textdict[1141272]]'
+c0 '[textdict[1141272]]'
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141273]]'
 play sfxvoice "avg_vocal_na07.ogg"

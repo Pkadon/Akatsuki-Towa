@@ -143,10 +143,10 @@ show st061_01 5 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1185440]]'
 hide c16portrait
 hide c1304portrait
-c00 '[textdict[1185441]]'
+c0 '[textdict[1185441]]'
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1185442]]'
 play sfx2 "other_7085.ogg"
 hide c1portrait
-c00 '[textdict[1185443]]'
+c0 '[textdict[1185443]]'
 return

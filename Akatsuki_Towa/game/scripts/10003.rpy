@@ -103,7 +103,7 @@ play sfx2 "common_correct.ogg"
 show Image1 zorder 4
 hide c56portrait
 hide c1portrait
-c00 '[textdict[1007252]]'
+c0 '[textdict[1007252]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1000119]]'
 hide c1portrait
@@ -122,9 +122,9 @@ c561 '[textdict[1007485]]'
 play sfx2 "common_correct.ogg"
 hide c56portrait
 hide c2portrait
-c00 '[textdict[1007486]]'
+c0 '[textdict[1007486]]'
 play sfx2 "common_correct.ogg"
-c00 '[textdict[1007487]]'
+c0 '[textdict[1007487]]'
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[1007488]]'
 hide c56portrait
@@ -288,9 +288,9 @@ c561 '[textdict[1000131]]'
 play sfx2 "common_correct.ogg"
 hide c56portrait
 hide c2portrait
-c00 '[textdict[1000132]]'
+c0 '[textdict[1000132]]'
 play sfx2 "common_correct.ogg"
-c00 '[textdict[1007515]]'
+c0 '[textdict[1007515]]'
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[1007516]]'
 hide c56portrait

@@ -12,7 +12,7 @@ c5001 '[textdict[2106234]]'
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[2106235]]'
+c0 '[textdict[2106235]]'
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106236]]'
 hide c1portrait
@@ -108,7 +108,7 @@ show sc038_01 4 as c45portrait at leftside(-1), zorder 5
 c451 '[textdict[2106256]]'
 hide c45portrait
 hide c1portrait
-c00 '[textdict[2106257]]'
+c0 '[textdict[2106257]]'
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106258]]'
 hide c1portrait
@@ -122,7 +122,7 @@ show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106261]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2106262]]'
+c0 '[textdict[2106262]]'
 play music "ed7102.ogg"
 scene avg_bg_010
 with fade
@@ -159,7 +159,7 @@ c13 '[textdict[2106271]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6023.ogg"
-c00 '[textdict[2106272]]'
+c0 '[textdict[2106272]]'
 play music "ed7205.ogg"
 scene avg_bg_010
 with fade
@@ -210,7 +210,7 @@ show sc038_01 1 as c45portrait at darkleft(-1), zorder 6
 c12243 '[textdict[2106282]]' with shake
 play sfx2 "other_7085.ogg"
 hide c45portrait
-c00 '[textdict[2106283]]'
+c0 '[textdict[2106283]]'
 show sc038_01 5 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2106284]]'
 hide c45portrait

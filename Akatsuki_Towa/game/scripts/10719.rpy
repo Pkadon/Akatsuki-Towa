@@ -4,9 +4,9 @@ stop music
 play music "ED6202.ogg"
 scene avg_bg_010
 with fade
-c00 '[textdict[1171062]]'
-c00 '[textdict[1171063]]'
-c00 '[textdict[1171064]]'
+c0 '[textdict[1171062]]'
+c0 '[textdict[1171063]]'
+c0 '[textdict[1171064]]'
 show st061_01 4 as c1304portrait at leftsideentrance(-2), zorder 5
 c13041 '[textdict[1171065]]'
 hide c1304portrait
@@ -111,7 +111,7 @@ show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1171085]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1171086]]'
+c0 '[textdict[1171086]]'
 show st061_01 2 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1171087]]'
 hide c1304portrait
@@ -185,7 +185,7 @@ hide c1portrait
 show st061_01 4 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1171103]]'
 hide c1304portrait
-c00 '[textdict[1171104]]'
+c0 '[textdict[1171104]]'
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1171105]]'
 hide c3portrait

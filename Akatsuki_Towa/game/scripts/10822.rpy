@@ -5,16 +5,16 @@ play music "ed7151.ogg"
 scene avg_bg_507
 hide memoryoverlay
 with fade
-c00 '[textdict[1184062]]'
-c00 '[textdict[1184063]]'
-c00 '[textdict[1184064]]'
-c00 '[textdict[1184065]]'
-c00 '[textdict[1184066]]'
-c00 '[textdict[1184067]]'
+c0 '[textdict[1184062]]'
+c0 '[textdict[1184063]]'
+c0 '[textdict[1184064]]'
+c0 '[textdict[1184065]]'
+c0 '[textdict[1184066]]'
+c0 '[textdict[1184067]]'
 scene avg_bg_048
 with fade
-c00 '[textdict[1184068]]'
-c00 '[textdict[1184069]]'
+c0 '[textdict[1184068]]'
+c0 '[textdict[1184069]]'
 c10323 '[textdict[1184070]]'
 show oc007_01 2 as c7portrait at leftsideentrance(-24), zorder 5
 c71 '[textdict[1184071]]'
@@ -62,7 +62,7 @@ show st062_01 4 as c1308portrait at rightside(-16), zorder 5
 c13083 '[textdict[1184084]]'
 hide c7portrait
 hide c1308portrait
-c00 '[textdict[1184085]]'
+c0 '[textdict[1184085]]'
 show st039_01 1 as c238portrait at leftsideentrance(-6), zorder 5
 c2381 '[textdict[1184086]]'
 hide c238portrait
@@ -93,10 +93,10 @@ hide c238portrait
 show st039_01 4 as c238portrait at leftside(-6), zorder 5
 c2381 '[textdict[1184095]]'
 hide c238portrait
-c00 '[textdict[1184096]]'
-c00 '[textdict[1184097]]'
-c00 '[textdict[1184098]]'
-c00 '[textdict[1184099]]'
+c0 '[textdict[1184096]]'
+c0 '[textdict[1184097]]'
+c0 '[textdict[1184098]]'
+c0 '[textdict[1184099]]'
 with fade
 c10323 '[textdict[1184100]]'
 show oc007_01 1 as c7portrait at leftside(-24), zorder 5
@@ -238,9 +238,9 @@ c13 '[textdict[1184134]]'
 play music "ed7516.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[1184135]]'
-c00 '[textdict[1184136]]'
-c00 '[textdict[1184137]]'
+c0 '[textdict[1184135]]'
+c0 '[textdict[1184136]]'
+c0 '[textdict[1184137]]'
 show sc016_01 4 as c1267portrait at leftside(-6), zorder 5
 c12671 '[textdict[1184138]]'
 hide c1267portrait
@@ -489,7 +489,7 @@ c23 '[textdict[1184187]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1184188]]'
+c0 '[textdict[1184188]]'
 scene avg_bg_035
 show memoryoverlay zorder 2
 with fade
@@ -1005,5 +1005,5 @@ c12671 '[textdict[1184281]]'
 play sfx2 "other_7047.ogg"
 hide c1267portrait
 hide c3portrait
-c00 '[textdict[1184282]]'
+c0 '[textdict[1184282]]'
 return

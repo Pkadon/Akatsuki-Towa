@@ -4,8 +4,8 @@ stop music
 play music "ed7103.ogg"
 scene placeholderbackground
 with fade
-c00 '[textdict[1120710]]'
-c00 '[textdict[1120711]]'
+c0 '[textdict[1120710]]'
+c0 '[textdict[1120711]]'
 play sfx2 "other_7020.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1120712]]'

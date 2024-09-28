@@ -4,14 +4,14 @@ stop music
 play music "ed7151.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1184432]]'
-c00 '[textdict[1184433]]'
-c00 '[textdict[1184434]]'
-c00 '[textdict[1184435]]'
+c0 '[textdict[1184432]]'
+c0 '[textdict[1184433]]'
+c0 '[textdict[1184434]]'
+c0 '[textdict[1184435]]'
 scene avg_bg_050
 with fade
-c00 '[textdict[1184436]]'
-c00 '[textdict[1184437]]'
+c0 '[textdict[1184436]]'
+c0 '[textdict[1184437]]'
 c25611 '[textdict[1184438]]'
 c25611 '[textdict[1184439]]'
 show oc003_01 1 as c3portrait at rightside(-6), zorder 5
@@ -69,7 +69,7 @@ c21 '[textdict[1184453]]'
 play sfx2 "other_7047.ogg"
 hide c2portrait
 hide c3portrait
-c00 '[textdict[1184454]]'
+c0 '[textdict[1184454]]'
 scene avg_bg_074
 with fade
 play sfx2 "other_7064.ogg"
@@ -97,10 +97,10 @@ c10321 '[textdict[1184473]]'
 c25591 '[textdict[1184474]]'
 c25511 '[textdict[1184475]]'
 c25591 '[textdict[1184476]]'
-c00 '[textdict[1184477]]'
+c0 '[textdict[1184477]]'
 c25511 '[textdict[1184478]]'
 c25511 '[textdict[1184479]]' with shake
-c00 '[textdict[1184480]]'
+c0 '[textdict[1184480]]'
 c25481 '[textdict[1184481]]'
 c25491 '[textdict[1184482]]'
 c25501 '[textdict[1184483]]'
@@ -109,7 +109,7 @@ c25591 '[textdict[1184485]]'
 c25511 '[textdict[1184486]]'
 c25591 '[textdict[1184487]]'
 c25591 '[textdict[1184488]]'
-c00 '[textdict[1184489]]'
+c0 '[textdict[1184489]]'
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1184490]]'
 hide c2portrait

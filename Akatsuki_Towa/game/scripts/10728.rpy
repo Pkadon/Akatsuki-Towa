@@ -4,7 +4,7 @@ stop music
 play music "ED6105.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[1172203]]'
+c0 '[textdict[1172203]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1172204]]'
 hide c1portrait

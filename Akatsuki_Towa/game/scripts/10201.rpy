@@ -53,7 +53,7 @@ c6661 '[textdict[1004286]]'
 play sfx2 "other_7022.ogg"
 hide c666portrait
 hide c1portrait
-c00 '[textdict[1004287]]'
+c0 '[textdict[1004287]]'
 play sfxvoice "avg_vocal_ro16.ogg"
 show oc003_01 21 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1004288]]'

@@ -142,8 +142,8 @@ show oc001_01 24 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[1130726]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1130727]]'
-c00 '[textdict[1130728]]'
+c0 '[textdict[1130727]]'
+c0 '[textdict[1130728]]'
 scene avg_bg_040
 with fade
 show st036_01 5 as c235portrait at rightside(-17), zorder 5
@@ -312,7 +312,7 @@ c43 '[textdict[1130761]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7020.ogg"
-c00 '[textdict[1130762]]'
+c0 '[textdict[1130762]]'
 scene avg_bg_046
 with fade
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5

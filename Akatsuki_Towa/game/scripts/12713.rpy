@@ -24,7 +24,7 @@ show st061_01 1 as c1304portrait at leftsideentrance(-2), zorder 5
 c13041 '[textdict[1170758]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1170759]]'
+c0 '[textdict[1170759]]'
 show oc003_01 5 as c3portrait at leftsideentrance(-6), zorder 5
 c31 '[textdict[1170760]]'
 hide c3portrait
@@ -49,8 +49,8 @@ c13 '[textdict[1170764]]'
 play music "ed9999.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1170765]]'
-c00 '[textdict[1170766]]'
+c0 '[textdict[1170765]]'
+c0 '[textdict[1170766]]'
 scene avg_bg_049
 with fade
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5

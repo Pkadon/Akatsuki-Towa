@@ -70,5 +70,5 @@ show oc002_01 7 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1120388]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1121537]]'
+c0 '[textdict[1121537]]'
 return

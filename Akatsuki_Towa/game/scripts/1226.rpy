@@ -16,16 +16,16 @@ hide c2701portrait
 show oca01_01 9 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110870]]'
 hide c2701portrait
-c00 '[textdict[2110871]]'
+c0 '[textdict[2110871]]'
 show oca01_01 9 as c2701portrait at rightsidemidback(-2), zorder 5
 c27013 '[textdict[2110872]]' (what_size=25)
 hide c2701portrait
-c00 '[textdict[2110873]]'
+c0 '[textdict[2110873]]'
 c27151 '[textdict[2110874]]'
 show oca02_01 12 as c2702portrait at leftsidemidback(-3), zorder 5
 c27021 '[textdict[2110875]]'
 hide c2702portrait
-c00 '[textdict[2110876]]'
+c0 '[textdict[2110876]]'
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110877]]'
 hide c2701portrait
@@ -226,10 +226,10 @@ show oca01_01 14 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110926]]' with shake
 hide c2702portrait
 hide c2701portrait
-c00 '[textdict[2110927]]'
+c0 '[textdict[2110927]]'
 stop music
 play sfx2 "other_7038.ogg"
-c00 '[textdict[2110928]]'
+c0 '[textdict[2110928]]'
 stop music
 show oca02_01 12 as c2702portrait at leftside(-3), zorder 5
 c27021 '[textdict[2110929]]'
@@ -245,7 +245,7 @@ show oca01_01 4 as c2701portrait at darkright(-2), zorder 5
 c27151 '[textdict[2110931]]'
 stop music
 hide c2701portrait
-c00 '[textdict[2110932]]'
+c0 '[textdict[2110932]]'
 stop music
 show oca01_01 4 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110933]]'
@@ -366,7 +366,7 @@ show memoryoverlay zorder 2
 play sfx2 "other_7004.ogg"
 hide c2702portrait
 hide c1portrait
-c00 '[textdict[2110959]]'
+c0 '[textdict[2110959]]'
 show memoryoverlay zorder 2
 show oca02_01 23 as c2702portrait at leftside(-3), zorder 5
 c27021 '[textdict[2110960]]'
@@ -402,7 +402,7 @@ show oca02_01 1 as c2702portrait at leftsideentrance(-3), zorder 5
 c27021 '[textdict[2110966]]'
 show memoryoverlay zorder 2
 hide c2702portrait
-c10 '[textdict[2110967]]'
+c13 '[textdict[2110967]]'
 show memoryoverlay zorder 2
 show oca02_01 2 as c2702portrait at leftside(-3), zorder 5
 c27021 '[textdict[2110968]]'
@@ -506,7 +506,7 @@ hide c2701portrait
 show oca01_01 22 as c2701portrait at darkright(-2), zorder 5
 c27151 '[textdict[2110992]]'
 hide c2701portrait
-c00 '[textdict[2110993]]'
+c0 '[textdict[2110993]]'
 show oca01_01 12 as c2701portrait at rightside(-2), shakeright, zorder 5
 c27013 '[textdict[2110994]]'
 hide c2701portrait
@@ -531,5 +531,5 @@ hide c2701portrait
 show oca01_01 22 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2111001]]'
 hide c2701portrait
-c00 '[textdict[2111002]]'
+c0 '[textdict[2111002]]'
 return

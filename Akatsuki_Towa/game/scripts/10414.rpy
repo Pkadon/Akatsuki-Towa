@@ -4,10 +4,10 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1140699]]'
-c00 '[textdict[1140700]]'
-c00 '[textdict[1140701]]'
-c00 '[textdict[1140702]]'
+c0 '[textdict[1140699]]'
+c0 '[textdict[1140700]]'
+c0 '[textdict[1140701]]'
+c0 '[textdict[1140702]]'
 scene avg_bg_014
 with fade
 play sfxvoice "avg_vocal_na09_b.ogg"

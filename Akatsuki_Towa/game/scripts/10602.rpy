@@ -261,9 +261,9 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 c12321 '[textdict[1160134]]'
 play sfx2 "other_7004.ogg"
 hide c1portrait
-c00 '[textdict[1160135]]'
+c0 '[textdict[1160135]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[1160136]]'
+c0 '[textdict[1160136]]'
 c12321 '[textdict[1160137]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1160138]]'

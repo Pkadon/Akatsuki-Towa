@@ -4,7 +4,7 @@ stop music
 play music "ED6102.ogg"
 scene avg_bg_105
 with fade
-c00 '[textdict[2106636]]'
+c0 '[textdict[2106636]]'
 show sc008_01 2 as c16portrait at leftside(-18), zorder 5
 c161 '[textdict[2106637]]'
 hide c16portrait
@@ -174,7 +174,7 @@ c11 '[textdict[2106681]]'
 play music "ed7518.ogg"
 scene avg_bg_041
 with fade
-c00 '[textdict[2106682]]'
+c0 '[textdict[2106682]]'
 c25781 '[textdict[2106683]]'
 c25791 '[textdict[2106684]]'
 c25801 '[textdict[2106685]]'
@@ -213,7 +213,7 @@ c25783 '[textdict[2106695]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6006.ogg"
-c00 '[textdict[2106696]]' with shake
+c0 '[textdict[2106696]]' with shake
 scene avg_bg_041
 with fade
 play sfx2 "other_7007.ogg"

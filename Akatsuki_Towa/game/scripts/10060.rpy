@@ -104,8 +104,8 @@ hide c2portrait
 show oc002_01 10 as c2portrait at darkright(-3), zorder 5
 c6891 '[textdict[1004891]]'
 hide c2portrait
-c00 '[textdict[1004893]]'
-c00 '[textdict[1123028]]'
+c0 '[textdict[1004893]]'
+c0 '[textdict[1123028]]'
 c6891 '[textdict[1004894]]'
 show sc039_01 5 as c46portrait at leftside(-13), zorder 5
 c461 '[textdict[1004895]]'

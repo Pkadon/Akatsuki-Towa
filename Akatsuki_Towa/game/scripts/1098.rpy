@@ -41,7 +41,7 @@ show sc053_01 4 as c60portrait at leftside(-32), zorder 5
 c601 '[textdict[2102291]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2102292]]'
+c0 '[textdict[2102292]]'
 scene avg_bg_013
 with fade
 c7481 '[textdict[2102293]]'
@@ -146,6 +146,6 @@ show sc053_01 1 as c60portrait at leftside(-32), zorder 5
 c601 '[textdict[2102316]]'
 hide c60portrait
 hide c1portrait
-c00 '[textdict[2102317]]'
-c00 '[textdict[2102318]]'
+c0 '[textdict[2102317]]'
+c0 '[textdict[2102318]]'
 return

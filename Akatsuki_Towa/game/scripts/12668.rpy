@@ -29,7 +29,7 @@ c603 '[textdict[1166666]]'
 play sfx2 "other_7085.ogg"
 hide c58portrait
 hide c60portrait
-c00 '[textdict[1166667]]'
+c0 '[textdict[1166667]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166668]]'
 hide c1portrait

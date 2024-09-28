@@ -10,11 +10,11 @@ hide c6portrait
 show oc006_01 3 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144062]]'
 hide c6portrait
-c00 '[textdict[1144063]]'
+c0 '[textdict[1144063]]'
 show uc003_04 3 as c1045portrait at rightside(-14), shakeright, zorder 5
 c10453 '[textdict[1144064]]'
 hide c1045portrait
-c00 '[textdict[1144065]]'
+c0 '[textdict[1144065]]'
 show uc003_04 4 as c1124portrait at rightside(-14), zorder 5
 c11243 '[textdict[1144066]]'
 hide c1124portrait

@@ -4,8 +4,8 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[2101121]]'
-c00 '[textdict[2101122]]'
+c0 '[textdict[2101121]]'
+c0 '[textdict[2101122]]'
 show sc049_01 8 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2101123]]'
 hide c56portrait
@@ -13,7 +13,7 @@ show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2101124]]'
 play sfx2 "other_7047.ogg"
 hide c56portrait
-c00 '[textdict[2101125]]'
+c0 '[textdict[2101125]]'
 show oc002_01 8 as c2portrait at rightsideentrance(-3), zorder 5
 c23 '[textdict[2101126]]'
 hide c2portrait
@@ -134,11 +134,11 @@ c13 '[textdict[2101149]]'
 stop music
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101150]]'
+c0 '[textdict[2101150]]'
 play music "ed7202.ogg"
 scene avg_bg_036
 with fade
-c00 '[textdict[2101151]]'
+c0 '[textdict[2101151]]'
 play sfx2 "other_7060.ogg"
 show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2101152]]'
@@ -168,8 +168,8 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101157]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101158]]'
-c00 '[textdict[2101159]]'
+c0 '[textdict[2101158]]'
+c0 '[textdict[2101159]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101160]]'
 play sfx2 "other_7033.ogg"
@@ -220,7 +220,7 @@ show oc002_01 4 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2101169]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101170]]'
+c0 '[textdict[2101170]]'
 show oc002_01 2 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[2101171]]'
 play sfxvoice "avg_vocal_na21.ogg"
@@ -231,7 +231,7 @@ c13 '[textdict[2101172]]'
 play sfx2 "other_7088.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101173]]'
+c0 '[textdict[2101173]]'
 show st005_01 4 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101174]]'
 hide c205portrait
@@ -271,7 +271,7 @@ c13 '[textdict[2101181]]'
 play sfx2 "fight_6019.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101182]]'
+c0 '[textdict[2101182]]'
 play sfx2 "fight_6021.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2101183]]'
@@ -281,7 +281,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101184]]' with shake
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101185]]'
+c0 '[textdict[2101185]]'
 show oc002_01 17 as c2portrait at leftsidemidback(-3), zorder 5
 c21 '[textdict[2101186]]'
 hide c2portrait
@@ -366,6 +366,6 @@ show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2101202]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101203]]'
-c00 '[textdict[2101204]]'
+c0 '[textdict[2101203]]'
+c0 '[textdict[2101204]]'
 return

@@ -48,7 +48,7 @@ c23 '[textdict[1164080]]'
 play music "ed6564.ogg"
 hide c1304portrait
 hide c2portrait
-c00 '[textdict[1164081]]'
+c0 '[textdict[1164081]]'
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1164082]]'
 hide c4portrait

@@ -4,7 +4,7 @@ stop music
 play music "ed7106.ogg"
 scene avg_bg_019
 with fade
-c00 '[textdict[2103226]]'
+c0 '[textdict[2103226]]'
 play sfxvoice "avg_vocal_na18.ogg"
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103227]]'
@@ -149,22 +149,22 @@ hide c1portrait
 show oc001_01 22 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103257]]'
 hide c1portrait
-c00 '[textdict[2103258]]'
+c0 '[textdict[2103258]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103259]]'
 hide c1portrait
-c00 '[textdict[2103260]]'
+c0 '[textdict[2103260]]'
 stop music
-c00 '[textdict[2103261]]'
+c0 '[textdict[2103261]]'
 stop music
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103262]]'
 stop music
 hide c1portrait
-c00 '[textdict[2103263]]'
+c0 '[textdict[2103263]]'
 play music "ed7562.ogg"
-c00 '[textdict[2103264]]'
-c00 '[textdict[2103265]]'
+c0 '[textdict[2103264]]'
+c0 '[textdict[2103265]]'
 show sca33_01 1 as c2525portrait at leftsideentrance(3), zorder 5
 c25251 '[textdict[2103266]]'
 hide c2525portrait
@@ -185,8 +185,8 @@ show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103271]]'
 hide c2525portrait
 hide c1portrait
-c00 '[textdict[2103272]]'
-c00 '[textdict[2103273]]'
+c0 '[textdict[2103272]]'
+c0 '[textdict[2103273]]'
 show sca33_01 1 as c2525portrait at leftside(3), zorder 5
 c25251 '[textdict[2103274]]' with shake
 hide c2525portrait
@@ -263,13 +263,13 @@ with fade
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103291]]'
 hide c1portrait
-c00 '[textdict[2103292]]'
-c00 '[textdict[2103293]]'
+c0 '[textdict[2103292]]'
+c0 '[textdict[2103293]]'
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103294]]'
 hide c1portrait
-c00 '[textdict[2103295]]'
+c0 '[textdict[2103295]]'
 show sca33_01 1 as c2525portrait at leftside(3), zorder 5
 c25251 '[textdict[2103296]]'
 hide c2525portrait
@@ -298,12 +298,12 @@ show oc001_01 14 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103302]]'
 hide c2525portrait
 hide c1portrait
-c00 '[textdict[2103303]]'
+c0 '[textdict[2103303]]'
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2103304]]'
 hide c1portrait
-c00 '[textdict[2103305]]'
-c00 '[textdict[2103306]]'
+c0 '[textdict[2103305]]'
+c0 '[textdict[2103306]]'
 scene avg_bg_070
 with fade
 show sca33_01 1 as c2525portrait at leftside(3), zorder 5

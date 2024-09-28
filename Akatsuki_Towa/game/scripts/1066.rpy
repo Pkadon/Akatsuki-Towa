@@ -4,9 +4,9 @@ stop music
 play music "ed7113.ogg"
 scene avg_bg_021
 with fade
-c00 '[textdict[2101268]]'
-c00 '[textdict[2101269]]'
-c00 '[textdict[2101270]]'
+c0 '[textdict[2101268]]'
+c0 '[textdict[2101269]]'
+c0 '[textdict[2101270]]'
 show st005_01 1 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101271]]'
 hide c205portrait
@@ -69,7 +69,7 @@ show st005_01 2 as c205portrait at darkright(4), zorder 5
 c25051 '[textdict[2101290]]'
 play sfx2 "other_7088.ogg"
 hide c205portrait
-c00 '[textdict[2101291]]'
+c0 '[textdict[2101291]]'
 show st005_01 5 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101292]]'
 hide c205portrait
@@ -89,7 +89,7 @@ show st005_01 1 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101297]]'
 play sfx2 "other_7085.ogg"
 hide c205portrait
-c00 '[textdict[2101298]]'
+c0 '[textdict[2101298]]'
 c25051 '[textdict[2101299]]'
 c25051 '[textdict[2101300]]'
 c25051 '[textdict[2101301]]'
@@ -149,9 +149,9 @@ show st002_01 5 as c202portrait at rightside(-9), zorder 5
 c2023 '[textdict[2101320]]'
 stop music
 hide c202portrait
-c00 '[textdict[2101321]]'
+c0 '[textdict[2101321]]'
 play music "ed7113.ogg"
-c00 '[textdict[2101322]]'
+c0 '[textdict[2101322]]'
 show st002_01 4 as c202portrait at leftside(-9), zorder 5
 c2021 '[textdict[2101323]]'
 hide c202portrait
@@ -178,7 +178,7 @@ show st002_01 1 as c202portrait at leftside(-9), zorder 5
 c2021 '[textdict[2101328]]'
 hide c202portrait
 hide c205portrait
-c00 '[textdict[2101329]]'
+c0 '[textdict[2101329]]'
 show st002_01 1 as c202portrait at leftside(-9), zorder 5
 c2021 '[textdict[2101330]]'
 hide c202portrait
@@ -210,12 +210,12 @@ show st005_01 4 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101336]]'
 hide c202portrait
 hide c205portrait
-c00 '[textdict[2101337]]'
+c0 '[textdict[2101337]]'
 show st005_01 5 as c205portrait at rightside(4), zorder 5
 c2053 '[textdict[2101338]]'
 play sfx2 "other_7085.ogg"
 hide c205portrait
-c00 '[textdict[2101339]]'
+c0 '[textdict[2101339]]'
 show st002_01 1 as c202portrait at leftside(-9), zorder 5
 c2021 '[textdict[2101340]]'
 return

@@ -86,7 +86,7 @@ c13 '[textdict[1174938]]'
 play sfx2 "other_7004.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1174939]]'
+c0 '[textdict[1174939]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1174940]]'
 hide c1portrait
@@ -116,7 +116,7 @@ show oc002_01 17 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1174946]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1174947]]'
+c0 '[textdict[1174947]]'
 show oc002_01 15 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1174948]]'
 hide c2portrait
@@ -312,7 +312,7 @@ show oc002_01 12 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1174987]]' with shake
 hide c1portrait
 hide c2portrait
-c00 '[textdict[1174988]]'
+c0 '[textdict[1174988]]'
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1174989]]'
 hide c1portrait
@@ -542,7 +542,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175034]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1175035]]'
+c0 '[textdict[1175035]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175036]]'
 hide c1portrait
@@ -687,5 +687,5 @@ c53 '[textdict[1175064]]'
 play sfx2 "other_7017.ogg"
 hide c1portrait
 hide c5portrait
-c00 '[textdict[1175065]]'
+c0 '[textdict[1175065]]'
 return

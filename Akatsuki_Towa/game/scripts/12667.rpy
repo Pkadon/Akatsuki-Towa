@@ -4,7 +4,7 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_015
 with fade
-c00 '[textdict[1166645]]'
+c0 '[textdict[1166645]]'
 show oc002_01 23 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1166646]]'
 hide c2portrait
@@ -36,14 +36,14 @@ show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 c13671 '[textdict[1166651]]' with shake
 play sfx2 "fight_6022.ogg"
 hide c1portrait
-c00 '[textdict[1166652]]'
+c0 '[textdict[1166652]]'
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166653]]'
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
 c13671 '[textdict[1166654]]'
 hide c1portrait
-c00 '[textdict[1166655]]'
+c0 '[textdict[1166655]]'
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1166656]]'
 play sfx2 "fight_6024.ogg"

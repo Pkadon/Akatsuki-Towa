@@ -211,7 +211,7 @@ show st041_01 1 as c240portrait at rightside(-1), zorder 5
 c2403 '[textdict[1151380]]'
 hide c4portrait
 hide c240portrait
-c00 '[textdict[1151381]]'
+c0 '[textdict[1151381]]'
 show st041_01 5 as c240portrait at rightside(-1), zorder 5
 c2403 '[textdict[1151382]]'
 hide c240portrait
@@ -261,7 +261,7 @@ show st050_01 2 as c257portrait at leftside(-11), zorder 5
 c2571 '[textdict[1151394]]'
 hide c257portrait
 hide c240portrait
-c00 '[textdict[1151395]]'
+c0 '[textdict[1151395]]'
 c12211 '[textdict[1151396]]'
 show st041_01 4 as c240portrait at rightside(-1), zorder 5
 c2403 '[textdict[1151397]]'

@@ -6,5 +6,5 @@ scene placeholderbackground
 with fade
 play sfxvoice "avg_vocal_li06.ogg"
 show oc004_01 1 as c4portrait at centerpos(-5), zorder 5
-c42 '[textdict[1002138]]'
+c43 '[textdict[1002138]]'
 return

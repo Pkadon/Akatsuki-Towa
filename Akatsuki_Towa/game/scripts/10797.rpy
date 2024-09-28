@@ -271,7 +271,7 @@ c31 '[textdict[1178911]]' with shake
 play sfx2 "other_7085.ogg"
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1178912]]'
+c0 '[textdict[1178912]]'
 show oc007_01 2 as c7portrait at leftside(-24), zorder 5
 c71 '[textdict[1178913]]'
 hide c7portrait

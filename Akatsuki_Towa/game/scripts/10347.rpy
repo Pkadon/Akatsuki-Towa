@@ -150,7 +150,7 @@ hide c4portrait
 show oc004_01 3 as c4portrait at darkright(-5), zorder 5
 c10211 '[textdict[1131308]]' (what_size=24)
 hide c4portrait
-c00 '[textdict[1131309]]' (what_size=28)
+c0 '[textdict[1131309]]' (what_size=28)
 play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1131310]]'

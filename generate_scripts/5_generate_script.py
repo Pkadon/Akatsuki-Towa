@@ -228,7 +228,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#convert dialogue string to display correctly
 			dialogue = f"[textdict[{strID}]]"
 
-			
 			#figure out if a namebox needs to be displayed
 			if speaker == 0:
 				if leftportrait:
@@ -241,8 +240,10 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					f.write(f"hide {centeralias}\n")
 					centerportrait = None
 			
-			#convert speaker to string to use in renpy command
-			speaker = 'c'+str(speaker)
+			#figure out where namebox goes
+			if speaker == 0: nameboxPos = ''
+			elif charPos == 1: nameboxPos = 1
+			else: nameboxPos = 3
 			
 			#figure out if a portrait needs to be displayed 
 			if charID == 0:
@@ -253,7 +254,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#figure out xoffset
 			if folderName: 
 				offset = str(int(avgroledict[charID]['xPosition']))
-				folderAlias = f'{str(speaker)}portrait'
+				folderAlias = f'c{speaker}portrait'
 			else:
 				offset = '0'
 				
@@ -271,7 +272,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					
 					#hoping this fixes when the character changes sides
 					#but wasn't replaced on the other side by another portrait
-					#(prologue クロスベル市内の地図作成 scene 7/7 chloe)
+					#(like chloe in avg 12049)
 					if rightalias == leftalias: rightportrait = None
 					
 				else: leftportrait = None
@@ -343,14 +344,16 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if effect == 102: portraitpos += ', shakeright'
 			elif effect == 202: portraitpos += ', shakeleft'
 
-			#CREATE DIALOGUE FRAME
+			#SHOW PORTRAIT
 			if folderName:									
-				portrait = f'show {folderName} {str(expression)} as {folderAlias} at {portraitpos}, zorder 5' 
+				portrait = f'show {folderName} {expression} as {folderAlias} at {portraitpos}, zorder 5' 
 				f.write(f"{portrait}\n")
 			#need the fade after all images are set up, before dialogue appears
 			if isClearModle == 1: f.write(f"with fade\n")
+			
+			#START OF SAY STATEMENT
 			#start with the speaker and dialogue
-			say = f"{speaker}{str(charPos)} '{dialogue}'"
+			say = f"c{speaker}{nameboxPos} '{dialogue}'"
 			
 			#see if dialogue text needs to be resized
 			#(20 is already the default)

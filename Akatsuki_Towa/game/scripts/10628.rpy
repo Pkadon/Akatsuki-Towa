@@ -28,7 +28,7 @@ c13041 '[textdict[1163351]]'
 play sfx2 "other_7042.ogg"
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1163352]]'
+c0 '[textdict[1163352]]'
 scene avg_bg_078
 with fade
 show sc016_01 1 as c1267portrait at leftsideentrance(-6), zorder 5

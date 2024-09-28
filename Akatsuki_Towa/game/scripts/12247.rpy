@@ -22,7 +22,7 @@ show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1121329]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1121330]]'
+c0 '[textdict[1121330]]'
 play sfx2 "fight_6024.ogg"
 show oc001_01 4 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1121331]]'

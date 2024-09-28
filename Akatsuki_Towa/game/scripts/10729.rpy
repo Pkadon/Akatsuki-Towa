@@ -38,7 +38,7 @@ hide c3portrait
 show oc003_01 17 as c3portrait at darkright(-6), zorder 5
 c13361 '[textdict[1172253]]'
 hide c3portrait
-c00 '[textdict[1172254]]'
+c0 '[textdict[1172254]]'
 c13371 '[textdict[1172255]]'
 show st061_01 5 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1172256]]'
@@ -67,7 +67,7 @@ hide c1304portrait
 show st061_01 2 as c1304portrait at darkright(-2), zorder 5
 c13371 '[textdict[1172264]]'
 hide c1304portrait
-c00 '[textdict[1172265]]'
+c0 '[textdict[1172265]]'
 c13371 '[textdict[1172266]]'
 c14431 '[textdict[1172267]]'
 c14431 '[textdict[1172268]]'
@@ -223,7 +223,7 @@ show oc001_01 17 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1172333]]'
 play sfx2 "other_7047.ogg"
 hide c1portrait
-c00 '[textdict[1172334]]'
+c0 '[textdict[1172334]]'
 c13361 '[textdict[1172335]]'
 show st063_01 1 as c1346portrait at rightsideentrance(-16), zorder 5
 c13463 '[textdict[1172336]]'
@@ -257,7 +257,7 @@ show st063_01 1 as c1346portrait at rightside(-16), zorder 5
 c13463 '[textdict[1172343]]'
 hide c3portrait
 hide c1346portrait
-c00 '[textdict[1172344]]'
+c0 '[textdict[1172344]]'
 c14431 '[textdict[1172345]]'
 show st063_01 1 as c1346portrait at rightside(-16), zorder 5
 c13463 '[textdict[1172346]]'
@@ -281,7 +281,7 @@ show st063_01 1 as c1346portrait at darkright(-16), zorder 5
 c13371 '[textdict[1172352]]'
 play sfx2 "other_7047.ogg"
 hide c1346portrait
-c00 '[textdict[1172353]]'
+c0 '[textdict[1172353]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1172354]]'
 hide c1portrait
@@ -600,5 +600,5 @@ hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 c13361 '[textdict[1172419]]'
 hide c1portrait
-c00 '[textdict[1172420]]'
+c0 '[textdict[1172420]]'
 return

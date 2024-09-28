@@ -4,7 +4,7 @@ stop music
 play music "ed7562.ogg"
 scene avg_bg_038
 with fade
-c00 '[textdict[2100655]]'
+c0 '[textdict[2100655]]'
 play sfx2 "other_7004.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2100656]]'
@@ -14,11 +14,11 @@ hide c1portrait
 show oc001_01 18 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2100657]]'
 hide c1portrait
-c00 '[textdict[2100658]]'
+c0 '[textdict[2100658]]'
 show oc001_01 11 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2100659]]'
 hide c1portrait
-c00 '[textdict[2100660]]'
+c0 '[textdict[2100660]]'
 play music "ed7150.ogg"
 scene avg_bg_023
 show memoryoverlay zorder 2
@@ -104,7 +104,7 @@ c21 '[textdict[2100674]]'
 show memoryoverlay zorder 2
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2100675]]'
+c0 '[textdict[2100675]]'
 show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_na03.ogg"
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
@@ -125,9 +125,9 @@ play music "ed7562.ogg"
 scene avg_bg_038
 hide memoryoverlay
 with fade
-c00 '[textdict[2100679]]'
+c0 '[textdict[2100679]]'
 play sfx2 "other_7033.ogg"
-c00 '[textdict[2100680]]'
+c0 '[textdict[2100680]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2100681]]'
 hide c1portrait
@@ -137,10 +137,10 @@ hide c1portrait
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2100683]]'
 hide c1portrait
-c00 '[textdict[2100684]]'
+c0 '[textdict[2100684]]'
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2100685]]'
 hide c1portrait
-c00 '[textdict[2100686]]'
-c00 '[textdict[2100687]]'
+c0 '[textdict[2100686]]'
+c0 '[textdict[2100687]]'
 return

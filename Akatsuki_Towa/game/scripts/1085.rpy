@@ -27,7 +27,7 @@ show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[2101861]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[2101862]]'
+c0 '[textdict[2101862]]'
 play sfx2 "other_7007.ogg"
 play sfxvoice "avg_vocal_li26.ogg"
 show oc004_01 7 as c4portrait at leftsidemidback(-5), zorder 5

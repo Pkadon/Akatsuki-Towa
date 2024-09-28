@@ -4,7 +4,7 @@ stop music
 play music "ed7102.ogg"
 scene avg_bg_013
 with fade
-c00 '[textdict[1143744]]'
+c0 '[textdict[1143744]]'
 c11621 '[textdict[1143745]]'
 c11621 '[textdict[1143746]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5
@@ -44,7 +44,7 @@ c13 '[textdict[1143758]]'
 play music "ed7117.ogg"
 scene avg_bg_017
 with fade
-c00 '[textdict[1143759]]'
+c0 '[textdict[1143759]]'
 play sfx2 "other_7047.ogg"
 c7371 '[textdict[1143760]]'
 c7371 '[textdict[1143761]]'

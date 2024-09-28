@@ -37,7 +37,7 @@ show oc002_01 9 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1162863]]'
 hide c34portrait
 hide c2portrait
-c00 '[textdict[1162864]]'
+c0 '[textdict[1162864]]'
 show oc004_01 2 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1162865]]'
 hide c4portrait
@@ -56,7 +56,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1162868]]'
 hide c1267portrait
 hide c1portrait
-c00 '[textdict[1162869]]'
+c0 '[textdict[1162869]]'
 play music "ed7516.ogg"
 show st057_01 4 as c1211portrait at leftside(-16), zorder 5
 c12111 '[textdict[1162870]]'

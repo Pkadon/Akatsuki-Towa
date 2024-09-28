@@ -4,7 +4,7 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_008
 with fade
-c00 '[textdict[2106041]]'
+c0 '[textdict[2106041]]'
 show oc002_01 5 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2106042]]'
 hide c2portrait
@@ -49,7 +49,7 @@ show sc011_01 4 as c19portrait at rightsideexit(-1), zorder 5
 c193 '[textdict[2106052]]'
 hide c19portrait
 hide c20portrait
-c00 '[textdict[2106053]]'
+c0 '[textdict[2106053]]'
 show sc012_01 1 as c20portrait at leftside(-16), zorder 5
 c201 '[textdict[2106054]]'
 hide c20portrait
@@ -69,7 +69,7 @@ show sc012_01 2 as c20portrait at darkleft(-16), zorder 6
 c25403 '[textdict[2106059]]'
 play sfx2 "other_7007.ogg"
 hide c20portrait
-c00 '[textdict[2106060]]'
+c0 '[textdict[2106060]]'
 show oc002_01 12 as c2portrait at leftsidemidback(-3), zorder 5
 c21 '[textdict[2106061]]'
 hide c2portrait
@@ -109,8 +109,8 @@ play music "ed7513.ogg"
 scene avg_bg_070
 with fade
 play sfx2 "other_7018.ogg"
-c00 '[textdict[2106070]]'
-c00 '[textdict[2106071]]'
+c0 '[textdict[2106070]]'
+c0 '[textdict[2106071]]'
 show oc002_01 16 as c2portrait at leftsideentrance(-3), zorder 5
 c21 '[textdict[2106072]]'
 hide c2portrait
@@ -159,7 +159,7 @@ show oc002_01 10 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2106083]]'
 scene avg_bg_009
 with fade
-c00 '[textdict[2106084]]'
+c0 '[textdict[2106084]]'
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106085]]'
 hide c1portrait
@@ -249,7 +249,7 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106102]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2106103]]'
+c0 '[textdict[2106103]]'
 scene avg_bg_009
 with fade
 show oc002_01 1 as c2portrait at leftside(-3), zorder 5
@@ -311,8 +311,8 @@ show oc001_01 23 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106115]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2106116]]'
-c00 '[textdict[2106117]]'
+c0 '[textdict[2106116]]'
+c0 '[textdict[2106117]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2106118]]'
 hide c1portrait

@@ -106,10 +106,10 @@ show oc001_01 22 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1154990]]'
 scene avg_bg_106
 with fade
-c00 '[textdict[1154991]]'
-c00 '[textdict[1154992]]'
-c00 '[textdict[1154993]]'
-c00 '[textdict[1154994]]'
+c0 '[textdict[1154991]]'
+c0 '[textdict[1154992]]'
+c0 '[textdict[1154993]]'
+c0 '[textdict[1154994]]'
 show oc002_01 23 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1154995]]'
 hide c2portrait
@@ -299,7 +299,7 @@ show oc002_01 16 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1155036]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1155037]]'
+c0 '[textdict[1155037]]'
 show oc002_01 16 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1155038]]'
 play sfxvoice "avg_vocal_na15.ogg"
@@ -459,7 +459,7 @@ show oc001_01 23 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1155071]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1155072]]'
+c0 '[textdict[1155072]]'
 show oc002_01 12 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1155073]]'
 hide c2portrait

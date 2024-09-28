@@ -12,7 +12,7 @@ show oc002_01 7 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1003723]]'
 hide c2portrait
 hide c1portrait
-c5530 '[textdict[1003724]]'
+c5533 '[textdict[1003724]]'
 play sfx2 "other_7020.ogg"
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1003725]]'

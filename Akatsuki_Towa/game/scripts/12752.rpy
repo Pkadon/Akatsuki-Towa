@@ -18,7 +18,7 @@ c33 '[textdict[1174314]]'
 play sfx2 "other_7080.ogg"
 hide c1304portrait
 hide c3portrait
-c00 '[textdict[1174315]]' with shake
+c0 '[textdict[1174315]]' with shake
 c14661 '[textdict[1174316]]'
 c14581 '[textdict[1174317]]'
 c14581 '[textdict[1174318]]'

@@ -29,7 +29,7 @@ show oc002_01 10 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1140628]]'
 hide c5portrait
 hide c2portrait
-c00 '[textdict[1140629]]'
+c0 '[textdict[1140629]]'
 play sfxvoice "avg_vocal_ji20.ogg"
 show oc005_01 19 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1140630]]'

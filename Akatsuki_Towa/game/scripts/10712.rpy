@@ -5,9 +5,9 @@ play music "ed7515.ogg"
 scene avg_bg_023
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1170788]]'
+c0 '[textdict[1170788]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1170789]]'
+c0 '[textdict[1170789]]'
 show memoryoverlay zorder 2
 show oc002_01 15 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1170790]]'
@@ -125,11 +125,11 @@ c13 '[textdict[1170809]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-c00 '[textdict[1170810]]'
+c0 '[textdict[1170810]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1170811]]'
+c0 '[textdict[1170811]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1170812]]'
+c0 '[textdict[1170812]]'
 scene avg_bg_023
 show memoryoverlay zorder 2
 with fade

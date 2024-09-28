@@ -82,8 +82,8 @@ show sc030_01 4 as c38portrait at leftsideentrance(-12), zorder 5
 c381 '[textdict[1153754]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1153755]]'
-c00 '[textdict[1153756]]'
+c0 '[textdict[1153755]]'
+c0 '[textdict[1153756]]'
 play music "ed7516.ogg"
 scene avg_bg_106
 with fade
@@ -115,7 +115,7 @@ show sc032_01 1 as c40portrait at leftside(-17), zorder 5
 c401 '[textdict[1153762]]'
 hide c40portrait
 hide c1portrait
-c00 '[textdict[1153763]]'
+c0 '[textdict[1153763]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1153764]]'
 hide c1portrait
@@ -129,7 +129,7 @@ c41 '[textdict[1153766]]'
 hide c4portrait
 hide c2portrait
 with fade
-c00 '[textdict[1153767]]'
+c0 '[textdict[1153767]]'
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1153768]]'
 hide c1portrait

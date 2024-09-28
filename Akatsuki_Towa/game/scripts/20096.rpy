@@ -161,5 +161,5 @@ show sc041_01 1 as c48portrait at leftside(-9), zorder 5
 c481 '[textdict[1004740]]'
 hide c48portrait
 hide c1portrait
-c00 '[textdict[1004741]]'
+c0 '[textdict[1004741]]'
 return

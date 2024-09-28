@@ -86,5 +86,5 @@ hide c1portrait
 show oc001_01 8 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1005678]]'
 hide c1portrait
-c00 '[textdict[1005679]]'
+c0 '[textdict[1005679]]'
 return

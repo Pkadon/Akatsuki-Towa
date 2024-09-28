@@ -4,9 +4,9 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1164683]]'
+c0 '[textdict[1164683]]'
 stop music
-c00 '[textdict[1164684]]'
+c0 '[textdict[1164684]]'
 play music "ed7151.ogg"
 scene avg_bg_040
 with fade
@@ -124,7 +124,7 @@ c10141 '[textdict[1164707]]'
 play music "ed7123.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1164708]]'
+c0 '[textdict[1164708]]'
 scene avg_bg_040
 with fade
 show st052_01 1 as c1014portrait at leftside(2), zorder 5

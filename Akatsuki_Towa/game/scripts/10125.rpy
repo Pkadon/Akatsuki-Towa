@@ -128,14 +128,14 @@ c21 '[textdict[1000331]]'
 play sfx2 "common_sephi2.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1000332]]'
+c0 '[textdict[1000332]]'
 play music "ed9997.ogg"
 play sfxvoice "avg_vocal_na24.ogg"
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1000333]]'
 play sfx2 "fight_6017.ogg"
 hide c1portrait
-c00 '[textdict[1000334]]'
+c0 '[textdict[1000334]]'
 show uc003_01 2 as c506portrait at leftside(-26), shakeleft, zorder 5
 c5061 '[textdict[1000335]]'
 hide c506portrait

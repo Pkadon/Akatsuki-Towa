@@ -22,7 +22,7 @@ show oc001_01 8 as c1portrait at darkright(-2), zorder 5
 c13321 '[textdict[1163821]]' with shake
 play sfx2 "other_7085.ogg"
 hide c1portrait
-c00 '[textdict[1163822]]'
+c0 '[textdict[1163822]]'
 show oc004_01 10 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1163823]]'
 hide c4portrait
@@ -51,7 +51,7 @@ show sc010_01 4 as c18portrait at darkright(-10), zorder 5
 c13311 '[textdict[1163831]]'
 play sfx2 "other_7085.ogg"
 hide c18portrait
-c00 '[textdict[1163832]]'
+c0 '[textdict[1163832]]'
 play music "ed9999.ogg"
 show sc010_01 1 as c18portrait at leftside(-10), zorder 5
 c181 '[textdict[1163833]]'
@@ -72,7 +72,7 @@ show sc010_01 4 as c18portrait at leftside(-10), zorder 5
 c181 '[textdict[1163836]]'
 hide c18portrait
 hide c4portrait
-c00 '[textdict[1163837]]'
+c0 '[textdict[1163837]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163838]]'
 hide c1portrait

@@ -5,7 +5,7 @@ play music "ed7151.ogg"
 scene avg_bg_034
 with fade
 play sfx2 "other_7048.ogg"
-c00 '[textdict[1003295]]'
+c0 '[textdict[1003295]]'
 show oc001_01 4 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1003296]]'
 hide c1portrait
@@ -25,15 +25,15 @@ c43 '[textdict[1003299]]'
 play sfx2 "other_7004.ogg"
 hide c2portrait
 hide c4portrait
-c00 '[textdict[1003300]]'
-c00 '[textdict[1003301]]'
-c00 '[textdict[1003302]]'
+c0 '[textdict[1003300]]'
+c0 '[textdict[1003301]]'
+c0 '[textdict[1003302]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[1003303]]'
-c00 '[textdict[1003304]]'
-c00 '[textdict[1003305]]'
+c0 '[textdict[1003303]]'
+c0 '[textdict[1003304]]'
+c0 '[textdict[1003305]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[1003306]]'
+c0 '[textdict[1003306]]'
 play sfxvoice "avg_vocal_na02.ogg"
 show oc001_01 7 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1003307]]'
@@ -88,7 +88,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1003317]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1003318]]'
+c0 '[textdict[1003318]]'
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1003319]]'
 play sfxvoice "avg_vocal_na19.ogg"
@@ -99,7 +99,7 @@ c13 '[textdict[1003320]]'
 play sfx2 "other_7059.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1003321]]'
+c0 '[textdict[1003321]]'
 c5001 '[textdict[1003322]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1003323]]'

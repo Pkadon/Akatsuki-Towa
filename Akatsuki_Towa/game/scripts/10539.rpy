@@ -96,7 +96,7 @@ hide c2portrait
 show oc002_01 10 as c2portrait at darkright(-3), zorder 5
 c12391 '[textdict[1152616]]'
 hide c2portrait
-c00 '[textdict[1152617]]'
-c00 '[textdict[1152618]]'
-c00 '[textdict[1152619]]'
+c0 '[textdict[1152617]]'
+c0 '[textdict[1152618]]'
+c0 '[textdict[1152619]]'
 return

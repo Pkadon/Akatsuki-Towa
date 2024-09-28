@@ -136,7 +136,7 @@ show st060_01 2 as c8portrait at rightside(-5), zorder 5
 c83 '[textdict[1154388]]'
 hide c1211portrait
 hide c8portrait
-c00 '[textdict[1154389]]'
+c0 '[textdict[1154389]]'
 show sc008_01 4 as c16portrait at leftside(-18), zorder 5
 c161 '[textdict[1154390]]'
 play sfxvoice "avg_vocal_ch06.ogg"
@@ -168,8 +168,8 @@ show st057_01 3 as c1211portrait at rightsideexit(-16), shakeright, zorder 5
 c12113 '[textdict[1154395]]'
 hide c1211portrait
 hide c16portrait
-c00 '[textdict[1154396]]'
-c00 '[textdict[1154397]]'
+c0 '[textdict[1154396]]'
+c0 '[textdict[1154397]]'
 show oc003_01 4 as c3portrait at rightsideentrance(-6), zorder 5
 c33 '[textdict[1154398]]'
 hide c3portrait
@@ -188,7 +188,7 @@ c12113 '[textdict[1154401]]'
 play sfx2 "other_7043.ogg"
 hide c16portrait
 hide c1211portrait
-c00 '[textdict[1154402]]'
+c0 '[textdict[1154402]]'
 show sc008_01 4 as c16portrait at leftside(-18), zorder 5
 c161 '[textdict[1154403]]'
 hide c16portrait

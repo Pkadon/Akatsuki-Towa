@@ -4,8 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene placeholderbackground
 with fade
-c00 '[textdict[1141246]]'
-c00 '[textdict[1141247]]'
+c0 '[textdict[1141246]]'
+c0 '[textdict[1141247]]'
 show oc001_01 16 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141248]]'
 hide c1portrait
@@ -13,7 +13,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141249]]'
 play sfx2 "elc_5007.ogg"
 hide c1portrait
-c00 '[textdict[1141250]]'
+c0 '[textdict[1141250]]'
 play sfxvoice "avg_vocal_na15.ogg"
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141251]]'

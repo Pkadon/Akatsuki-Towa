@@ -4,7 +4,7 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_023
 with fade
-c00 '[textdict[1003167]]'
+c0 '[textdict[1003167]]'
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1003168]]' with shake
@@ -202,7 +202,7 @@ show sc001_01 5 as c9portrait at darkleft(-11), zorder 6
 c5863 '[textdict[1003206]]'
 play sfx2 "other_7021.ogg"
 hide c9portrait
-c00 '[textdict[1003207]]'
+c0 '[textdict[1003207]]'
 show sc001_01 5 as c9portrait at leftside(-11), shakeleft, zorder 5
 c91 '[textdict[1003208]]'
 hide c9portrait

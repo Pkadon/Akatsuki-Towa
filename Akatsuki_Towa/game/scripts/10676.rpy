@@ -136,7 +136,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166252]]'
 hide c16portrait
 hide c1portrait
-c00 '[textdict[1166253]]'
+c0 '[textdict[1166253]]'
 show st040_01 4 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1166254]]'
 hide c239portrait
@@ -371,7 +371,7 @@ show sc008_01 4 as c16portrait at rightside(-18), zorder 5
 c163 '[textdict[1166303]]'
 hide c2portrait
 hide c16portrait
-c00 '[textdict[1166304]]'
+c0 '[textdict[1166304]]'
 show st040_01 1 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[1166305]]'
 hide c239portrait
@@ -455,6 +455,6 @@ show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166329]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1166330]]'
-c00 '[textdict[1166331]]'
+c0 '[textdict[1166330]]'
+c0 '[textdict[1166331]]'
 return

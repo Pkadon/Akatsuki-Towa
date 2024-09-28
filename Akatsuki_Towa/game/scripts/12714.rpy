@@ -47,8 +47,8 @@ hide c5portrait
 show oc005_01 2 as c5portrait at darkright(-6), zorder 5
 c14281 '[textdict[1171210]]'
 hide c5portrait
-c00 '[textdict[1171211]]'
-c00 '[textdict[1171212]]'
+c0 '[textdict[1171211]]'
+c0 '[textdict[1171212]]'
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1171213]]'
 hide c2portrait

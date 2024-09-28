@@ -22,7 +22,7 @@ show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1151774]]'
 hide c3portrait
 hide c4portrait
-c00 '[textdict[1151775]]'
+c0 '[textdict[1151775]]'
 show oc003_01 2 as c3portrait at leftside(-6), shakeleft, zorder 5
 c31 '[textdict[1151776]]'
 hide c3portrait
@@ -32,7 +32,7 @@ c23 '[textdict[1151777]]'
 play sfx2 "other_7089.ogg"
 hide c3portrait
 hide c2portrait
-c00 '[textdict[1151778]]'
+c0 '[textdict[1151778]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1151779]]'
@@ -73,7 +73,7 @@ c31 '[textdict[1151786]]'
 play sfx2 "other_7089.ogg"
 hide c3portrait
 hide c2portrait
-c00 '[textdict[1151787]]'
+c0 '[textdict[1151787]]'
 show oc003_01 12 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1151788]]'
 hide c3portrait
@@ -110,7 +110,7 @@ hide c2portrait
 show oc003_01 12 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1151795]]'
 hide c3portrait
-c00 '[textdict[1151796]]'
+c0 '[textdict[1151796]]'
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1151797]]'
 hide c3portrait

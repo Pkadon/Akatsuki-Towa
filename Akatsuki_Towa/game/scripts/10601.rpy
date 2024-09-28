@@ -4,13 +4,13 @@ stop music
 stop music
 scene placeholderbackground
 with fade
-c00 '[textdict[1160002]]'
+c0 '[textdict[1160002]]'
 stop music
-c00 '[textdict[1160003]]'
+c0 '[textdict[1160003]]'
 stop music
-c00 '[textdict[1160004]]'
+c0 '[textdict[1160004]]'
 stop music
-c00 '[textdict[1160005]]'
+c0 '[textdict[1160005]]'
 play music "ED6102.ogg"
 scene avg_bg_105
 with fade

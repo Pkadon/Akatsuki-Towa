@@ -69,7 +69,7 @@ c71 '[textdict[1188257]]'
 play sfx2 "other_7007.ogg"
 hide c7portrait
 hide c3portrait
-c00 '[textdict[1188258]]'
+c0 '[textdict[1188258]]'
 show oc003_01 3 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1188259]]'
 hide c3portrait
@@ -146,7 +146,7 @@ stop music
 play sfx2 "fight_6025.ogg"
 hide c1349portrait
 hide c1portrait
-c00 '[textdict[1188274]]'
+c0 '[textdict[1188274]]'
 stop music
 show oc007_01 2 as c7portrait at leftside(-24), zorder 5
 c71 '[textdict[1188275]]'
@@ -163,7 +163,7 @@ c83 '[textdict[1188277]]' with shake
 play sfx2 "other_7057.ogg"
 hide c7portrait
 hide c8portrait
-c00 '[textdict[1188278]]'
+c0 '[textdict[1188278]]'
 show oc002_01 3 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1188279]]'
 hide c2portrait
@@ -183,7 +183,7 @@ c13493 '[textdict[1188282]]'
 play sfx2 "fight_6016.ogg"
 hide c7portrait
 hide c1349portrait
-c00 '[textdict[1188283]]' with shake
+c0 '[textdict[1188283]]' with shake
 show oc007_01 3 as c7portrait at leftside(-24), shakeleft, zorder 5
 c71 '[textdict[1188284]]'
 hide c7portrait
@@ -198,7 +198,7 @@ c13491 '[textdict[1188286]]'
 play sfx2 "fight_6022.ogg"
 hide c1349portrait
 hide c8portrait
-c00 '[textdict[1188287]]'
+c0 '[textdict[1188287]]'
 show oc008_01 4 as c8portrait at rightside(-5), zorder 5
 c83 '[textdict[1188288]]'
 hide c8portrait
@@ -208,9 +208,9 @@ c13491 '[textdict[1188289]]'
 play sfx2 "fight_6020.ogg"
 hide c1349portrait
 hide c8portrait
-c00 '[textdict[1188290]]'
+c0 '[textdict[1188290]]'
 play sfx2 "elc_5007.ogg"
-c00 '[textdict[1188291]]'
+c0 '[textdict[1188291]]'
 show st056_01 3 as c1349portrait at rightside(-6), zorder 5
 c13493 '[textdict[1188292]]'
 hide c1349portrait
@@ -260,7 +260,7 @@ c13043 '[textdict[1188301]]' with shake
 play sfx2 "other_7018.ogg"
 hide c7portrait
 hide c1304portrait
-c00 '[textdict[1188302]]'
+c0 '[textdict[1188302]]'
 c15313 '[textdict[1188303]]'
 c15323 '[textdict[1188304]]'
 show oc007_01 1 as c7portrait at leftside(-24), zorder 5
@@ -291,7 +291,7 @@ hide c7portrait
 show oc007_01 4 as c7portrait at darkleft(-24), zorder 6
 c15323 '[textdict[1188311]]' with shake
 hide c7portrait
-c00 '[textdict[1188312]]'
+c0 '[textdict[1188312]]'
 show oc003_01 12 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1188313]]'
 hide c3portrait
@@ -354,7 +354,7 @@ hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 c15351 '[textdict[1188325]]' with shake
 hide c1portrait
-c00 '[textdict[1188326]]'
+c0 '[textdict[1188326]]'
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
 c13 '[textdict[1188327]]'
 hide c1portrait

@@ -42,7 +42,7 @@ show sc040_01 4 as c47portrait at rightside(-9), zorder 5
 c473 '[textdict[2112122]]' with shake
 scene avg_bg_019
 with fade
-c00 '[textdict[2112123]]'
+c0 '[textdict[2112123]]'
 show sc038_01 2 as c45portrait at leftsideentrance(-1), zorder 5
 c451 '[textdict[2112124]]'
 hide c45portrait
@@ -271,7 +271,7 @@ c461 '[textdict[2112172]]'
 stop music
 hide c46portrait
 hide c47portrait
-c00 '[textdict[2112173]]' with shake
+c0 '[textdict[2112173]]' with shake
 stop music
 c11551 '[textdict[2112174]]' (what_size=25)
 stop music
@@ -350,9 +350,9 @@ show sc041_01 2 as c48portrait at leftside(-9), zorder 5
 c481 '[textdict[2112189]]'
 hide c48portrait
 hide c47portrait
-c00 '[textdict[2112190]]'
+c0 '[textdict[2112190]]'
 play music "ED6516.ogg"
-c00 '[textdict[2112191]]'
+c0 '[textdict[2112191]]'
 show sc041_01 4 as c48portrait at leftside(-9), zorder 5
 c481 '[textdict[2112192]]'
 hide c48portrait
@@ -648,13 +648,13 @@ show sc040_01 4 as c47portrait at leftside(-9), zorder 5
 c471 '[textdict[2112252]]'
 play sfx2 "fight_6009.ogg"
 hide c47portrait
-c00 '[textdict[2112253]]'
+c0 '[textdict[2112253]]'
 stop music
 play sfx2 "fight_6015.ogg"
 c27611 '[textdict[2112254]]' (what_size=25) with shake
 stop music
 play sfx2 "other_7092.ogg"
-c00 '[textdict[2112255]]'
+c0 '[textdict[2112255]]'
 stop music
 show sc038_01 2 as c45portrait at leftside(-1), zorder 5
 c451 '[textdict[2112256]]'
@@ -701,7 +701,7 @@ show sc038_01 1 as c45portrait at leftside(-1), zorder 5
 c451 '[textdict[2112264]]'
 hide c45portrait
 hide c48portrait
-c00 '[textdict[2112265]]'
+c0 '[textdict[2112265]]'
 show sc039_01 2 as c46portrait at leftside(-13), zorder 5
 c461 '[textdict[2112266]]'
 hide c46portrait
@@ -738,9 +738,9 @@ show sc038_01 5 as c45portrait at leftside(-1), shakeleft, zorder 5
 c451 '[textdict[2112273]]'
 hide c45portrait
 hide c48portrait
-c00 '[textdict[2112274]]'
+c0 '[textdict[2112274]]'
 stop music
-c00 '[textdict[2112275]]'
+c0 '[textdict[2112275]]'
 stop music
 scene avg_bg_038
 with fade

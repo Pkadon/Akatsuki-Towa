@@ -504,7 +504,7 @@ show st063_01 3 as c1346portrait at leftside(-16), zorder 5
 c13461 '[textdict[1191483]]' with shake
 scene avg_bg_070
 with fade
-c00 '[textdict[1191484]]'
+c0 '[textdict[1191484]]'
 play music "ed7514.ogg"
 scene avg_bg_058
 with fade

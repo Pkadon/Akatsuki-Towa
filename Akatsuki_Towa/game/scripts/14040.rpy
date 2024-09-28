@@ -33,5 +33,5 @@ hide c2portrait
 show oc002_01 6 as c2portrait at darkright(-3), zorder 5
 c7521 '[textdict[1202768]]'
 hide c2portrait
-c00 '[textdict[1202769]]'
+c0 '[textdict[1202769]]'
 return

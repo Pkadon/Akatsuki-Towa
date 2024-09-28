@@ -72,7 +72,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1184670]]'
 hide c239portrait
 hide c1portrait
-c00 '[textdict[1184671]]'
+c0 '[textdict[1184671]]'
 stop music
 scene avg_bg_050
 with fade
@@ -206,7 +206,7 @@ show st061_01 2 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1184696]]'
 hide c2portrait
 hide c1304portrait
-c00 '[textdict[1184697]]'
+c0 '[textdict[1184697]]'
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1184698]]'
 hide c2portrait

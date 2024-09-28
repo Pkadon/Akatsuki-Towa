@@ -122,6 +122,6 @@ show oc004_01 24 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1133192]]'
 hide c4portrait
 hide c1004portrait
-c00 '[textdict[1133193]]'
-c00 '[textdict[1133194]]'
+c0 '[textdict[1133193]]'
+c0 '[textdict[1133194]]'
 return

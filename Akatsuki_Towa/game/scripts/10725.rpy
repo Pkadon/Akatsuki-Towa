@@ -5,7 +5,7 @@ play music "ed7150.ogg"
 scene avg_bg_038
 with fade
 play sfx2 "other_7060.ogg"
-c00 '[textdict[1171589]]'
+c0 '[textdict[1171589]]'
 play sfx2 "other_7060.ogg"
 c5001 '[textdict[1171590]]'
 play sfx2 "other_7088.ogg"

@@ -4,8 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene placeholderbackground
 with fade
-c00 '[textdict[1144081]]'
-c00 '[textdict[1144082]]'
+c0 '[textdict[1144081]]'
+c0 '[textdict[1144082]]'
 show oc006_01 1 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144083]]'
 hide c6portrait
@@ -26,13 +26,13 @@ show oc006_01 4 as c6portrait at leftside(-5), shakeleft, zorder 5
 with fade
 c61 '[textdict[1144087]]'
 hide c6portrait
-c00 '[textdict[1144088]]'
-c00 '[textdict[1144089]]'
+c0 '[textdict[1144088]]'
+c0 '[textdict[1144089]]'
 show oc006_01 4 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144090]]'
 hide c6portrait
 show oc006_01 3 as c6portrait at leftside(-5), shakeleft, zorder 5
 c61 '[textdict[1144091]]'
 hide c6portrait
-c00 '[textdict[1144092]]'
+c0 '[textdict[1144092]]'
 return

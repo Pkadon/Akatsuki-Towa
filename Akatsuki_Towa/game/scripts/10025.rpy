@@ -5,7 +5,7 @@ play music "ED6505.ogg"
 scene avg_bg_001
 with fade
 play sfx2 "other_7018.ogg"
-c00 '[textdict[1002140]]'
+c0 '[textdict[1002140]]'
 play sfxvoice "avg_vocal_li07.ogg"
 show oc004_01 9 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1002141]]'

@@ -27,7 +27,7 @@ show st061_01 3 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1175296]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1175297]]'
+c0 '[textdict[1175297]]'
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175298]]'
 hide c1portrait
@@ -187,5 +187,5 @@ show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1175330]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1175331]]'
+c0 '[textdict[1175331]]'
 return

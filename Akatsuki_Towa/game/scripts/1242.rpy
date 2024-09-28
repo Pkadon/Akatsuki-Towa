@@ -5,7 +5,7 @@ play music "ed7120.ogg"
 scene avg_bg_010
 with fade
 play sfx2 "other_7060.ogg"
-c00 '[textdict[2112969]]'
+c0 '[textdict[2112969]]'
 play sfx2 "other_7060.ogg"
 show sta61_01 5 as c2670portrait at rightsideentrance(-2), zorder 5
 c26703 '[textdict[2112970]]'
@@ -103,7 +103,7 @@ c13051 '[textdict[2112995]]'
 stop music
 play sfx2 "elc_5006.ogg"
 hide c2670portrait
-c00 '[textdict[2112996]]' (what_size=25) with shake
+c0 '[textdict[2112996]]' (what_size=25) with shake
 stop music
 play sfx2 "other_7057.ogg"
 c13051 '[textdict[2112997]]'
@@ -230,8 +230,8 @@ show st040_01 2 as c239portrait at leftsideentrance(-19), zorder 5
 c2391 '[textdict[2113031]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[2113032]]'
-c00 '[textdict[2113033]]'
+c0 '[textdict[2113032]]'
+c0 '[textdict[2113033]]'
 play music "ed7304.ogg"
 scene avg_bg_004
 with fade
@@ -251,8 +251,8 @@ show st040_01 2 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[2113037]]'
 hide c239portrait
 hide c2670portrait
-c00 '[textdict[2113038]]'
-c00 '[textdict[2113039]]'
+c0 '[textdict[2113038]]'
+c0 '[textdict[2113039]]'
 show st040_01 5 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[2113040]]'
 hide c239portrait
@@ -337,7 +337,7 @@ c26703 '[textdict[2113056]]'
 stop music
 hide c239portrait
 hide c2670portrait
-c00 '[textdict[2113057]]'
+c0 '[textdict[2113057]]'
 stop music
 show st040_01 1 as c239portrait at leftside(-19), zorder 5
 c2391 '[textdict[2113058]]'

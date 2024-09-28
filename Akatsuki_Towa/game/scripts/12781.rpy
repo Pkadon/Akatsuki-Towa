@@ -37,7 +37,7 @@ show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1176294]]'
 hide c3portrait
 hide c4portrait
-c00 '[textdict[1176295]]'
+c0 '[textdict[1176295]]'
 show st061_01 5 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1176296]]'
 hide c1304portrait
@@ -186,7 +186,7 @@ hide c4portrait
 show oc004_01 2 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1176334]]'
 hide c4portrait
-c00 '[textdict[1176335]]'
+c0 '[textdict[1176335]]'
 c5001 '[textdict[1176336]]'
 show st064_01 1 as c1469portrait at rightside(-2), zorder 5
 c14693 '[textdict[1176337]]'
@@ -252,7 +252,7 @@ show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1176354]]'
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1176355]]'
+c0 '[textdict[1176355]]'
 show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1176356]]'
 hide c4portrait
@@ -283,7 +283,7 @@ hide c4portrait
 show oc004_01 1 as c4portrait at darkright(-5), zorder 5
 c14721 '[textdict[1176365]]'
 hide c4portrait
-c00 '[textdict[1176366]]'
+c0 '[textdict[1176366]]'
 show st064_01 4 as c1469portrait at leftside(-2), zorder 5
 c14691 '[textdict[1176367]]'
 hide c1469portrait
@@ -420,11 +420,11 @@ show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1176397]]'
 play sfx2 "other_7072.ogg"
 hide c3portrait
-c00 '[textdict[1176398]]'
+c0 '[textdict[1176398]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1176399]]'
 hide c3portrait
-c00 '[textdict[1176400]]'
+c0 '[textdict[1176400]]'
 show oc003_01 10 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1176401]]'
 hide c3portrait

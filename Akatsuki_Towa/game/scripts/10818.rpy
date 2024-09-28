@@ -4,8 +4,8 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_050
 with fade
-c00 '[textdict[1183148]]'
-c00 '[textdict[1183149]]'
+c0 '[textdict[1183148]]'
+c0 '[textdict[1183149]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183150]]'
 hide c1portrait
@@ -19,13 +19,13 @@ show st061_01 4 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1183152]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1183153]]'
+c0 '[textdict[1183153]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183154]]'
 hide c1portrait
-c00 '[textdict[1183155]]'
+c0 '[textdict[1183155]]'
 with fade
-c00 '[textdict[1183156]]'
+c0 '[textdict[1183156]]'
 show oc002_01 4 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1183157]]'
 hide c2portrait
@@ -64,7 +64,7 @@ show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1183164]]'
 scene avg_bg_070
 with fade
-c00 '[textdict[1183165]]'
+c0 '[textdict[1183165]]'
 scene avg_bg_077
 with fade
 show st061_01 1 as c1304portrait at rightside(-2), zorder 5
@@ -105,8 +105,8 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183173]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1183174]]'
-c00 '[textdict[1183175]]'
+c0 '[textdict[1183174]]'
+c0 '[textdict[1183175]]'
 show st061_01 4 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1183176]]'
 hide c1304portrait
@@ -196,7 +196,7 @@ c13 '[textdict[1183193]]'
 stop music
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1183194]]'
+c0 '[textdict[1183194]]'
 stop music
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183195]]'
@@ -224,27 +224,27 @@ c13 '[textdict[1183199]]'
 hide c1portrait
 play sfx2 "other_7085.ogg"
 hide c3portrait
-c00 '[textdict[1183200]]'
+c0 '[textdict[1183200]]'
 scene avg_bg_050
 with fade
-c00 '[textdict[1183201]]'
+c0 '[textdict[1183201]]'
 show oc001_01 4 as c1portrait at rightsideentrance(-2), zorder 5
 c13 '[textdict[1183202]]'
 hide c1portrait
-c00 '[textdict[1183203]]'
+c0 '[textdict[1183203]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183204]]'
 play sfx2 "other_7052.ogg"
 hide c1portrait
-c00 '[textdict[1183205]]'
+c0 '[textdict[1183205]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183206]]'
 hide c1portrait
-c00 '[textdict[1183207]]'
+c0 '[textdict[1183207]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183208]]'
 hide c1portrait
-c00 '[textdict[1183209]]'
+c0 '[textdict[1183209]]'
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183210]]'
 hide c1portrait
@@ -256,7 +256,7 @@ show oc002_01 12 as c2portrait at leftsideentrance(-3), zorder 5
 c21 '[textdict[1183212]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1183213]]'
+c0 '[textdict[1183213]]'
 show oc001_01 13 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183214]]'
 hide c1portrait
@@ -286,14 +286,14 @@ c13 '[textdict[1183219]]'
 play music "ed7516.ogg"
 scene avg_bg_035
 with fade
-c00 '[textdict[1183220]]'
+c0 '[textdict[1183220]]'
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1183221]]'
 hide c3portrait
 show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1183222]]'
 hide c3portrait
-c00 '[textdict[1183223]]'
+c0 '[textdict[1183223]]'
 show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1183224]]'
 hide c4portrait
@@ -477,7 +477,7 @@ show oc004_01 4 as c4portrait at darkright(-5), zorder 5
 c14491 '[textdict[1183264]]'
 play sfx2 "other_7073.ogg"
 hide c4portrait
-c00 '[textdict[1183265]]'
+c0 '[textdict[1183265]]'
 show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1183266]]'
 hide c4portrait
@@ -521,7 +521,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1183274]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1183275]]'
-c00 '[textdict[1183276]]'
-c00 '[textdict[1183277]]'
+c0 '[textdict[1183275]]'
+c0 '[textdict[1183276]]'
+c0 '[textdict[1183277]]'
 return

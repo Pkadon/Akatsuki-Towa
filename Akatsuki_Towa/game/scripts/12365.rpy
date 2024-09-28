@@ -104,7 +104,7 @@ show oc005_01 4 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1133800]]'
 play sfx2 "other_7097.ogg"
 hide c5portrait
-c10700 '[textdict[1133801]]'
+c10703 '[textdict[1133801]]'
 play sfxvoice "avg_vocal_ji16.ogg"
 show oc005_01 8 as c5portrait at leftside(-6), zorder 5
 c51 '[textdict[1133802]]'

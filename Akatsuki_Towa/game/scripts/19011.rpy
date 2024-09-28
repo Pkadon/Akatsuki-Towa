@@ -38,12 +38,12 @@ show oc002_01 21 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1216103]]' (what_size=18)
 hide c56portrait
 hide c2portrait
-c00 '[textdict[1216104]]' (what_size=18)
+c0 '[textdict[1216104]]' (what_size=18)
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[1216105]]' (what_size=18)
 hide c56portrait
-c00 '[textdict[1216106]]' (what_size=18)
-c00 '[textdict[1216107]]' (what_size=18)
+c0 '[textdict[1216106]]' (what_size=18)
+c0 '[textdict[1216107]]' (what_size=18)
 menu:
     "[textdict[1216108]]":
         call avg19012

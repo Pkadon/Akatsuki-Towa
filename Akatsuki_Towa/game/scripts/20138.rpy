@@ -80,7 +80,7 @@ c2271 '[textdict[1006811]]'
 play sfx2 "other_7049.ogg"
 hide c227portrait
 hide c3portrait
-c00 '[textdict[1006812]]'
+c0 '[textdict[1006812]]'
 show oc001_01 19 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1006813]]'
 play sfxvoice "avg_vocal_ro15.ogg"
@@ -323,7 +323,7 @@ hide c2portrait
 show oc002_01 16 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1006859]]'
 hide c2portrait
-c00 '[textdict[1006860]]'
+c0 '[textdict[1006860]]'
 play sfxvoice "avg_vocal_ji05.ogg"
 c7013 '[textdict[1006861]]'
 play sfxvoice "avg_vocal_ro14.ogg"

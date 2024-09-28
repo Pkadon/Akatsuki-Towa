@@ -5,9 +5,9 @@ play music "ed7544.ogg"
 scene avg_bg_070
 with fade
 play sfx2 "other_7016.ogg"
-c00 '[textdict[1166209]]'
+c0 '[textdict[1166209]]'
 play sfx2 "other_7016.ogg"
-c00 '[textdict[1166210]]'
+c0 '[textdict[1166210]]'
 scene avg_bg_050
 with fade
 play sfx2 "other_7016.ogg"
@@ -87,5 +87,5 @@ c41 '[textdict[1166223]]'
 play sfx2 "other_7016.ogg"
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1166224]]'
+c0 '[textdict[1166224]]'
 return

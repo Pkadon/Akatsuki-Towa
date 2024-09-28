@@ -12,7 +12,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1165937]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1165938]]'
+c0 '[textdict[1165938]]'
 show oc002_01 12 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1165939]]'
 hide c2portrait
@@ -36,7 +36,7 @@ show oc001_01 4 as c1portrait at rightside(-2), shakeright, zorder 5
 with fade
 c13 '[textdict[1165944]]'
 hide c1portrait
-c00 '[textdict[1165945]]'
+c0 '[textdict[1165945]]'
 show oc004_01 13 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1165946]]'
 hide c4portrait
@@ -50,7 +50,7 @@ show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1165948]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1165949]]'
+c0 '[textdict[1165949]]'
 play sfx2 "other_7079.ogg"
 c13621 '[textdict[1165950]]'
 play sfx2 "other_7080.ogg"

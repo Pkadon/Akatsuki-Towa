@@ -129,7 +129,7 @@ show oc002_01 15 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1150756]]'
 hide c1212portrait
 hide c2portrait
-c00 '[textdict[1150757]]'
+c0 '[textdict[1150757]]'
 show st056_01 2 as c1212portrait at leftside(-6), zorder 5
 c12121 '[textdict[1150758]]'
 hide c1212portrait

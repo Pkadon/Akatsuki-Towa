@@ -28,7 +28,7 @@ show oc003_01 2 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1189377]]'
 hide c692portrait
 hide c3portrait
-c00 '[textdict[1189378]]'
+c0 '[textdict[1189378]]'
 show st044_01 4 as c692portrait at leftside(10), zorder 5
 c6921 '[textdict[1189379]]'
 hide c692portrait
@@ -190,8 +190,8 @@ show sc007_01 4 as c15portrait at leftside(-17), zorder 5
 c151 '[textdict[1189411]]'
 scene avg_bg_202
 with fade
-c00 '[textdict[1189412]]'
-c00 '[textdict[1189413]]'
+c0 '[textdict[1189412]]'
+c0 '[textdict[1189413]]'
 stop music
 show oc002_01 4 as c2portrait at rightsideentrance(-3), zorder 5
 c23 '[textdict[1189414]]'
@@ -215,9 +215,9 @@ c13 '[textdict[1189417]]'
 stop music
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1189418]]'
+c0 '[textdict[1189418]]'
 stop music
-c00 '[textdict[1189419]]'
+c0 '[textdict[1189419]]'
 stop music
 show oc002_01 23 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1189420]]'

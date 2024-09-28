@@ -74,7 +74,7 @@ show st030_01 4 as c229portrait at leftside(-8), zorder 5
 c2291 '[textdict[1143109]]'
 hide c229portrait
 hide c1portrait
-c00 '[textdict[1143110]]'
+c0 '[textdict[1143110]]'
 show st030_01 4 as c229portrait at leftside(-8), shakeleft, zorder 5
 c2291 '[textdict[1143111]]'
 hide c229portrait
@@ -89,7 +89,7 @@ c2291 '[textdict[1143113]]'
 play sfx2 "other_7088.ogg"
 hide c229portrait
 hide c3portrait
-c00 '[textdict[1143114]]'
+c0 '[textdict[1143114]]'
 show st030_01 4 as c229portrait at leftside(-8), zorder 5
 c2291 '[textdict[1143115]]'
 hide c229portrait

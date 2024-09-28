@@ -23,7 +23,7 @@ hide c4portrait
 hide c1portrait
 play sfx2 "other_7021.ogg"
 with fade
-c00 '[textdict[1003892]]'
+c0 '[textdict[1003892]]'
 play sfx2 "other_7004.ogg"
 c6491 '[textdict[1003893]]'
 show oc001_01 1 as c1portrait at rightside(-2), zorder 5

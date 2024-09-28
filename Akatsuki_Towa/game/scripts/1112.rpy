@@ -4,10 +4,10 @@ stop music
 play music "ed7120.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[2102769]]'
+c0 '[textdict[2102769]]'
 scene avg_bg_055
 with fade
-c00 '[textdict[2102770]]'
+c0 '[textdict[2102770]]'
 show st004_01 6 as c204portrait at rightside(4), zorder 5
 c2043 '[textdict[2102771]]'
 hide c204portrait
@@ -96,18 +96,18 @@ play music "ed7201.ogg"
 scene avg_bg_010
 with fade
 play sfx2 "other_7004.ogg"
-c00 '[textdict[2102789]]'
+c0 '[textdict[2102789]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[2102790]]'
+c0 '[textdict[2102790]]'
 play sfx2 "other_7004.ogg"
-c00 '[textdict[2102791]]'
+c0 '[textdict[2102791]]'
 play sfxvoice "avg_vocal_na04.ogg"
 show oc001_01 18 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102792]]'
 play music "ed7120.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[2102793]]'
+c0 '[textdict[2102793]]'
 scene avg_bg_077
 with fade
 play sfx2 "other_7047.ogg"
@@ -147,7 +147,7 @@ c13 '[textdict[2102802]]'
 play sfx2 "other_7004.ogg"
 hide c4portrait
 hide c1portrait
-c00 '[textdict[2102803]]'
+c0 '[textdict[2102803]]'
 show oc004_01 13 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[2102804]]'
 hide c4portrait
@@ -179,5 +179,5 @@ show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2102810]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[2102811]]'
+c0 '[textdict[2102811]]'
 return

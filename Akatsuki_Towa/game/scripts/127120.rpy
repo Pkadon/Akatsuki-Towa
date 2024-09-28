@@ -45,7 +45,7 @@ c13 '[textdict[1179560]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6026.ogg"
-c00 '[textdict[1179561]]'
+c0 '[textdict[1179561]]'
 scene avg_bg_035
 with fade
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
@@ -71,7 +71,7 @@ show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1179566]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1179567]]'
+c0 '[textdict[1179567]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179568]]'
 hide c1portrait

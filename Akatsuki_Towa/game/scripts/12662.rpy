@@ -14,7 +14,7 @@ show oc001_01 1 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166478]]'
 play sfx2 "other_7004.ogg"
 hide c1portrait
-c00 '[textdict[1166479]]'
+c0 '[textdict[1166479]]'
 c13441 '[textdict[1166480]]'
 c13441 '[textdict[1166481]]'
 show oc002_01 2 as c2portrait at rightside(-3), zorder 5
@@ -28,7 +28,7 @@ c13 '[textdict[1166484]]'
 play sfx2 "other_7004.ogg"
 show Image8005 zorder 4
 hide c1portrait
-c00 '[textdict[1166485]]'
+c0 '[textdict[1166485]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1166486]]'
 hide c1portrait

@@ -30,7 +30,7 @@ show sc040_01 6 as c47portrait at leftside(-9), zorder 5
 c471 '[textdict[1005029]]'
 hide c47portrait
 hide c23portrait
-c00 '[textdict[1005030]]'
+c0 '[textdict[1005030]]'
 show sc015_01 2 as c23portrait at leftside(9), zorder 5
 c231 '[textdict[1005031]]'
 hide c23portrait

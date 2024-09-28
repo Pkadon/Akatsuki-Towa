@@ -46,7 +46,7 @@ c23 '[textdict[1142662]]'
 hide c3portrait
 hide c2portrait
 with fade
-c00 '[textdict[1142663]]'
+c0 '[textdict[1142663]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1142664]]'
 hide c1portrait
@@ -67,7 +67,7 @@ show oc002_01 1 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1142669]]'
 hide c2portrait
 with fade
-c00 '[textdict[1142670]]'
+c0 '[textdict[1142670]]'
 c11491 '[textdict[1142671]]'
 c11491 '[textdict[1142672]]'
 show oc004_01 1 as c4portrait at rightside(-5), zorder 5
@@ -120,7 +120,7 @@ show oc002_01 5 as c2portrait at darkright(-3), zorder 5
 c11491 '[textdict[1142686]]'
 hide c2portrait
 with fade
-c00 '[textdict[1142687]]'
+c0 '[textdict[1142687]]'
 play sfxvoice "avg_vocal_ch08.ogg"
 show oc002_01 14 as c2portrait at leftside(-3), shakeright, zorder 5
 c21 '[textdict[1142688]]'
@@ -262,5 +262,5 @@ show oc002_01 18 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1142720]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1142721]]'
+c0 '[textdict[1142721]]'
 return

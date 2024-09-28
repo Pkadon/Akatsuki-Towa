@@ -141,7 +141,7 @@ c13 '[textdict[1004349]]'
 play sfx2 "other_7004.ogg"
 hide c45portrait
 hide c1portrait
-c00 '[textdict[1004350]]'
+c0 '[textdict[1004350]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1004351]]'
 hide c1portrait
@@ -167,7 +167,7 @@ c41 '[textdict[1004355]]'
 play sfx2 "other_7075.ogg"
 hide c4portrait
 hide c46portrait
-c00 '[textdict[1004356]]'
+c0 '[textdict[1004356]]'
 play sfx2 "other_7074.ogg"
 show sc039_01 5 as c46portrait at rightside(-13), zorder 5
 c463 '[textdict[1004357]]'

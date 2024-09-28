@@ -11,7 +11,7 @@ show oc002_01 5 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2101890]]'
 play sfx2 "other_7016.ogg"
 hide c2portrait
-c00 '[textdict[2101891]]'
+c0 '[textdict[2101891]]'
 show oc001_01 2 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101892]]'
 play sfxvoice "avg_vocal_ch28.ogg"
@@ -141,7 +141,7 @@ show oc001_01 8 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[2101916]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[2101917]]'
-c00 '[textdict[2101918]]'
-c00 '[textdict[2101919]]'
+c0 '[textdict[2101917]]'
+c0 '[textdict[2101918]]'
+c0 '[textdict[2101919]]'
 return

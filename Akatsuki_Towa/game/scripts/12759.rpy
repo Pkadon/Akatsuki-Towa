@@ -17,5 +17,5 @@ show oc003_01 1 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1174466]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1174467]]'
+c0 '[textdict[1174467]]'
 return

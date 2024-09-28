@@ -123,7 +123,7 @@ c13 '[textdict[1141682]]'
 play sfx2 "other_7093.ogg"
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1141683]]'
+c0 '[textdict[1141683]]'
 show st038_02 2 as c1168portrait at leftside(-9), shakeleft, zorder 5
 c11681 '[textdict[1141684]]'
 hide c1168portrait
@@ -243,7 +243,7 @@ show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1141706]]'
 hide c1168portrait
 hide c3portrait
-c00 '[textdict[1141707]]'
+c0 '[textdict[1141707]]'
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141708]]'
 hide c1portrait
@@ -278,7 +278,7 @@ c11681 '[textdict[1141714]]'
 play sfx2 "other_7085.ogg"
 hide c1168portrait
 hide c1portrait
-c00 '[textdict[1141715]]'
+c0 '[textdict[1141715]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1141716]]'
 play sfxvoice "avg_vocal_li23.ogg"
@@ -423,7 +423,7 @@ show oc003_01 5 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1141743]]'
 hide c3portrait
 hide c1portrait
-c00 '[textdict[1141744]]'
+c0 '[textdict[1141744]]'
 show oc006_01 1 as c6portrait at rightside(-5), zorder 5
 c63 '[textdict[1141745]]'
 hide c6portrait

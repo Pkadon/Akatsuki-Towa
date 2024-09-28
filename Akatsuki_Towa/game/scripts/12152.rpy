@@ -29,7 +29,7 @@ c9601 '[textdict[1128371]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7021.ogg"
-c00 '[textdict[1128373]]'
+c0 '[textdict[1128373]]'
 scene avg_bg_029
 with fade
 c9621 '[textdict[1128374]]'

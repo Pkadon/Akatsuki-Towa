@@ -97,7 +97,7 @@ c21 '[textdict[1141325]]'
 hide c2portrait
 hide c1portrait
 with fade
-c00 '[textdict[1141326]]'
+c0 '[textdict[1141326]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1141327]]'
 hide c3portrait

@@ -33,6 +33,6 @@ c13 '[textdict[1163017]]'
 scene avg_bg_070
 with fade
 play sfx2 "other_7018.ogg"
-c00 '[textdict[1163018]]'
-c00 '[textdict[1163019]]'
+c0 '[textdict[1163018]]'
+c0 '[textdict[1163019]]'
 return

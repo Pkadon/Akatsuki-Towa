@@ -14,7 +14,7 @@ show oc001_01 7 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1007195]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1007196]]'
+c0 '[textdict[1007196]]'
 play sfxvoice "avg_vocal_na20.ogg"
 show oc001_01 10 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1007197]]'

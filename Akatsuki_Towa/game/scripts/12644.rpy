@@ -53,7 +53,7 @@ show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163050]]' with shake
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1163051]]'
+c0 '[textdict[1163051]]'
 show oc003_01 10 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1163052]]' with shake
 hide c3portrait
@@ -92,7 +92,7 @@ with fade
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163059]]'
 hide c1portrait
-c00 '[textdict[1163060]]'
+c0 '[textdict[1163060]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163061]]'
 hide c1portrait
@@ -116,7 +116,7 @@ show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1163065]]'
 hide c2portrait
 hide c4portrait
-c00 '[textdict[1163066]]'
+c0 '[textdict[1163066]]'
 show oc002_01 10 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1163067]]'
 hide c2portrait
@@ -146,7 +146,7 @@ c13 '[textdict[1163072]]'
 play sfx2 "other_7088.ogg"
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1163073]]'
+c0 '[textdict[1163073]]'
 play sfx2 "fight_6024.ogg"
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1163074]]'
@@ -185,8 +185,8 @@ show st061_01 2 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1163082]]'
 hide c1304portrait
 hide c4portrait
-c00 '[textdict[1163083]]'
-c00 '[textdict[1163084]]'
+c0 '[textdict[1163083]]'
+c0 '[textdict[1163084]]'
 show st061_01 5 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1163085]]'
 hide c1304portrait
@@ -375,7 +375,7 @@ show oc004_01 7 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1163122]]'
 hide c4portrait
 hide c2portrait
-c00 '[textdict[1163123]]'
+c0 '[textdict[1163123]]'
 show oc002_01 6 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[1163124]]'
 hide c2portrait

@@ -4,21 +4,21 @@ stop music
 stop music
 scene avg_bg_070
 with fade
-c00 '[textdict[1170001]]'
+c0 '[textdict[1170001]]'
 stop music
-c00 '[textdict[1170002]]'
+c0 '[textdict[1170002]]'
 stop music
-c00 '[textdict[1170003]]'
+c0 '[textdict[1170003]]'
 stop music
-c00 '[textdict[1170004]]'
+c0 '[textdict[1170004]]'
 stop music
-c00 '[textdict[1170005]]'
+c0 '[textdict[1170005]]'
 stop music
-c00 '[textdict[1170006]]'
+c0 '[textdict[1170006]]'
 stop music
-c00 '[textdict[1170007]]'
+c0 '[textdict[1170007]]'
 stop music
-c00 '[textdict[1170008]]'
+c0 '[textdict[1170008]]'
 play music "ed7564.ogg"
 scene avg_bg_077
 show memoryoverlay zorder 2
@@ -329,7 +329,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1170066]]'
 play sfx2 "other_7057.ogg"
 hide c1portrait
-c00 '[textdict[1170067]]'
+c0 '[textdict[1170067]]'
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1170068]]'
 hide c1portrait

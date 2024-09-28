@@ -4,16 +4,16 @@ stop music
 play music "ed7513.ogg"
 scene avg_bg_070
 with fade
-c00 '[textdict[1184017]]'
-c00 '[textdict[1184018]]'
-c00 '[textdict[1184019]]'
-c00 '[textdict[1184020]]'
-c00 '[textdict[1184021]]'
-c00 '[textdict[1184022]]'
+c0 '[textdict[1184017]]'
+c0 '[textdict[1184018]]'
+c0 '[textdict[1184019]]'
+c0 '[textdict[1184020]]'
+c0 '[textdict[1184021]]'
+c0 '[textdict[1184022]]'
 scene avg_bg_202
 show memoryoverlay zorder 2
 with fade
-c14930 '[textdict[1184023]]'
+c14933 '[textdict[1184023]]'
 show memoryoverlay zorder 2
 c14931 '[textdict[1184024]]'
 show memoryoverlay zorder 2
@@ -37,8 +37,8 @@ c15021 '[textdict[1184033]]'
 scene avg_bg_070
 hide memoryoverlay
 with fade
-c00 '[textdict[1184034]]'
-c00 '[textdict[1184035]]'
+c0 '[textdict[1184034]]'
+c0 '[textdict[1184035]]'
 scene avg_bg_202
 show memoryoverlay zorder 2
 with fade
@@ -58,17 +58,17 @@ c14931 '[textdict[1184042]]'
 show memoryoverlay zorder 2
 c14931 '[textdict[1184043]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184044]]'
+c0 '[textdict[1184044]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184045]]'
+c0 '[textdict[1184045]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184046]]'
+c0 '[textdict[1184046]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184047]]'
+c0 '[textdict[1184047]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184048]]'
+c0 '[textdict[1184048]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184049]]'
+c0 '[textdict[1184049]]'
 scene avg_bg_218
 show memoryoverlay zorder 2
 with fade
@@ -93,9 +93,9 @@ scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
 play sfx2 "fight_6015.ogg"
-c00 '[textdict[1184058]]'
+c0 '[textdict[1184058]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184059]]'
+c0 '[textdict[1184059]]'
 show memoryoverlay zorder 2
-c00 '[textdict[1184060]]'
+c0 '[textdict[1184060]]'
 return

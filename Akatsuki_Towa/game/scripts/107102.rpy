@@ -152,7 +152,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179130]]'
 hide c1304portrait
 hide c1portrait
-c00 '[textdict[1179131]]'
+c0 '[textdict[1179131]]'
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179132]]'
 hide c1portrait
@@ -191,11 +191,11 @@ show st061_01 1 as c1304portrait at rightside(-2), zorder 5
 c13043 '[textdict[1179140]]'
 hide c2portrait
 hide c1304portrait
-c00 '[textdict[1179141]]'
+c0 '[textdict[1179141]]'
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179142]]'
 hide c1portrait
-c00 '[textdict[1179143]]'
+c0 '[textdict[1179143]]'
 show oc003_01 20 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1179144]]'
 hide c3portrait
@@ -211,8 +211,8 @@ c43 '[textdict[1179147]]'
 play music "ed7516.ogg"
 hide c2portrait
 hide c4portrait
-c00 '[textdict[1179148]]'
-c00 '[textdict[1179149]]'
+c0 '[textdict[1179148]]'
+c0 '[textdict[1179149]]'
 show oc002_01 2 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1179150]]'
 hide c2portrait
@@ -221,7 +221,7 @@ show oc004_01 9 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1179151]]'
 hide c2portrait
 hide c4portrait
-c00 '[textdict[1179152]]'
+c0 '[textdict[1179152]]'
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1179153]]'
 hide c4portrait
@@ -260,14 +260,14 @@ show oc004_01 1 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1179160]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1179161]]'
+c0 '[textdict[1179161]]'
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1179162]]'
 hide c4portrait
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1179163]]'
 hide c4portrait
-c00 '[textdict[1179164]]'
+c0 '[textdict[1179164]]'
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1179165]]'
 hide c3portrait
@@ -341,5 +341,5 @@ show oc001_01 20 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1179179]]'
 hide c2portrait
 hide c1portrait
-c00 '[textdict[1179180]]'
+c0 '[textdict[1179180]]'
 return

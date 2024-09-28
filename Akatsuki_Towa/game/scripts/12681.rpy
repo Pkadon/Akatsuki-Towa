@@ -84,8 +84,8 @@ c31 '[textdict[1167003]]'
 hide c3portrait
 hide c2portrait
 with fade
-c00 '[textdict[1167004]]'
-c00 '[textdict[1167005]]'
+c0 '[textdict[1167004]]'
+c0 '[textdict[1167005]]'
 play sfx2 "other_7059.ogg"
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1167006]]'
@@ -110,7 +110,7 @@ show oc004_01 17 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1167010]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1167011]]'
+c0 '[textdict[1167011]]'
 show oc004_01 4 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1167012]]'
 hide c4portrait
@@ -184,7 +184,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1167026]]'
 hide c4portrait
 hide c1portrait
-c00 '[textdict[1167027]]'
-c00 '[textdict[1167028]]'
-c00 '[textdict[1167029]]'
+c0 '[textdict[1167027]]'
+c0 '[textdict[1167028]]'
+c0 '[textdict[1167029]]'
 return

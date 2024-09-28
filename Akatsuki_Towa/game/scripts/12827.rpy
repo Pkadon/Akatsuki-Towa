@@ -11,7 +11,7 @@ show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1184623]]'
 play sfx2 "other_7088.ogg"
 hide c1portrait
-c00 '[textdict[1184624]]'
+c0 '[textdict[1184624]]'
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1184625]]'
 hide c3portrait
@@ -31,7 +31,7 @@ c41 '[textdict[1184628]]'
 hide c4portrait
 hide c1portrait
 with fade
-c00 '[textdict[1184629]]'
+c0 '[textdict[1184629]]'
 c25641 '[textdict[1184630]]'
 c25651 '[textdict[1184631]]'
 show st061_01 5 as c1304portrait at rightside(-2), zorder 5

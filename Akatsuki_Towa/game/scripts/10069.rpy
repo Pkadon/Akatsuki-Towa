@@ -396,7 +396,7 @@ show sc058_01 1 as c63portrait at leftside(-20), zorder 5
 c631 '[textdict[1001866]]'
 hide c63portrait
 hide c2portrait
-c00 '[textdict[1001867]]'
+c0 '[textdict[1001867]]'
 scene avg_bg_021
 with fade
 play sfxvoice "avg_vocal_na06.ogg"
