@@ -1,17 +1,15 @@
 screen questlog(logtext):
-
+    default fulltext = ''
+    default prefix = ''
     python:
-        fulltext = ''
         if logtext[0] == 1: prefix = logmain + ' '
         elif logtext[0] == 2: prefix = logsub + ' '
-        else: prefix = ''
 
         fulltext += prefix + textdict[logtext[1]] + '\n'
         fulltext += loglevel + ' ' + str(logtext[2]) + '\n'
         fulltext += logclient + ' ' + textdict[logtext[3]] + '\n'
         fulltext += logdetails + ' ' + textdict[logtext[4]] + '\n'
         
-        steps = ''
         for step in logtext[5:]:
             fulltext += ' ' + logbullet + ' ' + textdict[step] + '\n'
         
