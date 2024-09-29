@@ -127,7 +127,7 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 	#workaround to be able to use substrings 
 	#they need to be predefined or they make renpy crash
 	#this is now only used to fix three story quest typos
-	f.write('init python:\n')
+	#coming back to remove this next
 	for categorynumber in range(1, (len(combinescenedict)+1)):
 		category = combinescenedict[str(categorynumber)]
 		categorynumber = str(categorynumber)

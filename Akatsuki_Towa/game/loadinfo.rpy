@@ -25,6 +25,13 @@ python early:
         
         textdict[textid] = textstring
 
+    #fix typo
+    #ジオフロントの再調査 is labeled 1/2 when it should be 1/1
+    if textdict[17579].endswith('1/2'):
+        textdict[17579] = textdict[17579][:-3] + '1/1'
+
+       
+
     #IMPORT AVG ROLE
     with renpy.open_file('avg_role.json', encoding="utf-8", directory='MonoBehaviour') as txt:
         avgrole_json = json.load(txt)

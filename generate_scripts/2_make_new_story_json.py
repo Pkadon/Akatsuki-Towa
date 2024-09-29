@@ -172,21 +172,14 @@ for scene in storydict.keys():
 	level2 = newstorydict[category]['level1'][subcount]['level2'][sub2count]
 	
 	###try to fix some of the typos in the original text
-	#影でうごめく陰謀(1) has two 5／7's
+	#影でうごめく陰謀(1) has two 5/7's
 	if avgid == 10437:
-		level2['name'] = level2['name'][:-3]+'6/7'
-		level2['sub'] = 3
-		level2['add'] = '6/7'
-	#ジオフロントの再調査 is labeled 1/2, but there is only one cutscene in the viewer
-	if avgid == 12438:
-		level2['name'] = level2['name'][:-3]+'1/1'
-		level2['sub'] = 3
-		level2['add'] = '1/1'
+		level2['name'] = textdict[17535]
+		level2['strID'] = 17535
 	#大公の仕立て屋を探せ has two 2/4's
 	if avgid == 12621:
-		level2['name'] = level2['name'][:-3]+'1/4'
-		level2['sub'] = 3
-		level2['add'] = '1/4'
+		level2['name'] = textdict[17807]
+		level2['strID'] = 17807
 
 with open(exdirec / 'new_story.json', 'w', encoding='utf-8') as f:
 	json.dump(newstorydict, f, ensure_ascii=False, indent=4)

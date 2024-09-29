@@ -1,8 +1,4 @@
 label episodelist:
-init python:
-    text05091 = textdict[17579][:-3]+"1/1"
-    text05166 = textdict[17534][:-3]+"6/7"
-    text07091 = textdict[17808][:-3]+"1/4"
     
 screen episodelist():
     window:
@@ -12280,7 +12276,7 @@ screen quest0509():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text05091]\n[textdict[3124]]":
+                        text "[textdict[17579]]\n[textdict[3124]]":
                             align (0.5,0.5)
                             text_align 0.5
                             size pagetextsize
@@ -13020,7 +13016,7 @@ screen quest0516():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text05166]\n[textdict[2182]]":
+                        text "[textdict[17535]]\n[textdict[2182]]":
                             align (0.5,0.5)
                             text_align 0.5
                             size pagetextsize
@@ -17049,7 +17045,7 @@ screen quest0709():
                         left_padding 4
                         right_padding 20
                         background Frame("bookpage", 35, 35)
-                        text "[text07091]\n[textdict[3400]]":
+                        text "[textdict[17807]]\n[textdict[3400]]":
                             align (0.5,0.5)
                             text_align 0.5
                             size pagetextsize
