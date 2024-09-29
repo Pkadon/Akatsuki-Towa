@@ -90,7 +90,33 @@ for f in combinequestlist:
 		questjsonmerger(f)	
 #with open(exdirec / 'combinedquest.json', 'w', encoding='utf-8') as f:
 #	json.dump(combinequestdict, f, ensure_ascii=False, indent=4)
-					
+
+#########################################################
+#build and number questlogs
+questlogdict = dict()
+for key in list(combinequestdict.keys()):
+	log = combinequestdict[key]
+	logname = "log"+str(key)
+	
+	fulllog = []
+	#build log
+	#prefix
+	fulllog.append(log['type'])
+	#title
+	fulllog.append(log["strID"])
+	#level
+	fulllog.append(log["level"])
+	#client
+	fulllog.append(log["client"])
+	#description
+	fulllog.append(log["description"])
+	#steps
+	for step in log['steps']:
+		fulllog.append(step)
+	#clear
+	fulllog.append(log["clear"])
+
+	questlogdict[logname] = fulllog
 ########################################################
 ###now make menu from the new dictionaries
 
@@ -273,10 +299,10 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 					f.write('                button:\n')
 					f.write('                    xysize(94,37)\n')
 					f.write('                    background Frame("backbutton", 16, 16)\n')
-					f.write(f'                    text "Log {str(logcount)}":\n')
+					f.write(f'                    text "Log {logcount}":\n')
 					f.write('                        align (0.5,1.0)\n')
 					f.write('                        size 25\n')
-					f.write(f'                    action ShowMenu("{logname}")\n')
+					f.write(f'                    action ShowMenu("questlog",{questlogdict[logname]})\n')
 
 			#start of menu
 			f.write('        viewport:\n')
@@ -353,66 +379,3 @@ with open((outputdirec / "episodelist.rpy"),'w', encoding="utf-8") as f:
 				hboxcount+=1
 	f.write('return')
 f.close()
-
-#QUEST LOG MENUS
-with open((outputdirec / "questlog.rpy"),'w', encoding="utf-8") as f:	
-	f.write(f'label questlog:\n')
-	
-	for key in list(combinequestdict.keys()):
-		log = combinequestdict[key]
-		logname = "log"+str(key)
-		#define window
-		f.write(f'screen {logname}():\n')
-		f.write('    modal True\n')
-		f.write('    window:\n')
-		f.write('        xysize (840,480)\n')
-		f.write('        background "sceneselect"\n')
-		
-		#back button
-		f.write('        button:\n')
-		f.write('            xysize(94,37)\n')
-		f.write('            background Frame("backbutton", 16, 16)\n')
-		f.write('            text "Back":\n')
-		f.write('                align (0.5,1.0)\n')
-		f.write('                size 25\n')
-		f.write(f'            action Hide("{logname}")\n')
-		
-		#start of menu
-		f.write('        viewport:\n')
-		f.write('            xpos 119\n')
-		f.write('            xsize 680\n')
-		f.write('            draggable True\n')
-		f.write('            mousewheel True\n')
-		f.write('            scrollbars "vertical"\n')
-		f.write('            vscrollbar_unscrollable "hide"\n')
-		f.write('            vbox:\n')
-		f.write('                button:\n')
-		f.write('                    xysize(650,None)\n')
-		f.write('                    left_padding 20\n')
-		f.write('                    right_padding 40\n')
-		f.write('                    background Frame("bookpage", 35, 35)\n')
-		
-		#build log
-		#prefix
-		if log['type'] == 1: titleprefix = '(MAIN)'
-		elif log['type'] == 2: titleprefix = '(SUB)'
-		elif log['type'] == 0: titleprefix = ''
-		#title
-		title = f'[textdict[{log["strID"]}]]'
-		fulltext = fr'{titleprefix} {title} \n'
-		#level
-		fulltext += fr'【推奨レベル】 {str(log["level"])}\n'
-		#client
-		fulltext += fr'【依頼人】 [textdict[{log["client"]}]]\n'
-		#description
-		fulltext += fr'【内容】 [textdict[{log["description"]}]]\n'
-		#steps
-		for step in log['steps']:
-			fulltext += fr' ● [textdict[{step}]]\n'
-		
-		#write log
-		f.write(f'                    text "{fulltext}":\n')
-		f.write('                        align (0.5,0.2)\n')
-		f.write('                        size logtextsize\n')
-				
-	f.write('return')

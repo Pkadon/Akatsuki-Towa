@@ -4115,7 +4115,7 @@ screen quest0101():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log102")
+                    action ShowMenu("questlog",[1, 60026, 1, 60027, 60028, 60031, 60032, 60033, 60034, 60035, 60036, 60029])
         viewport:
             xpos 119
             xsize 720
@@ -4282,7 +4282,7 @@ screen quest0102():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log160")
+                    action ShowMenu("questlog",[2, 70226, 2, 70227, 70228, 70231, 70232, 70233, 70234, 70235, 70236, 70237, 70229])
         viewport:
             xpos 119
             xsize 720
@@ -4397,7 +4397,7 @@ screen quest0103():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log103")
+                    action ShowMenu("questlog",[1, 60051, 3, 60052, 60053, 60056, 60057, 60058, 60059, 60060, 60061, 60054])
         viewport:
             xpos 119
             xsize 720
@@ -4501,7 +4501,7 @@ screen quest0104():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log104")
+                    action ShowMenu("questlog",[1, 60076, 4, 60077, 60078, 60081, 60082, 60083, 60084, 60085, 60086, 60087, 60079])
         viewport:
             xpos 119
             xsize 720
@@ -4637,7 +4637,7 @@ screen quest0105():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log105")
+                    action ShowMenu("questlog",[1, 60101, 6, 60102, 60103, 60106, 60107, 60108, 60109, 60110, 60111, 60104])
         viewport:
             xpos 119
             xsize 720
@@ -4741,7 +4741,7 @@ screen quest0106():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log106")
+                    action ShowMenu("questlog",[1, 60126, 7, 60127, 60128, 60131, 60132, 60133, 60134, 60129])
         viewport:
             xpos 119
             xsize 720
@@ -4814,7 +4814,7 @@ screen quest0107():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log107")
+                    action ShowMenu("questlog",[1, 60151, 8, 60152, 60153, 60156, 60157, 60158, 60159, 60160, 60154])
         viewport:
             xpos 119
             xsize 720
@@ -4897,7 +4897,7 @@ screen quest0108():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log151")
+                    action ShowMenu("questlog",[2, 70001, 3, 70002, 70003, 70006, 70007, 70008, 70004])
         viewport:
             xpos 119
             xsize 720
@@ -4980,7 +4980,7 @@ screen quest0109():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log152")
+                    action ShowMenu("questlog",[2, 70026, 3, 70027, 70028, 70031, 70032, 70033, 70034, 70035, 70036, 70037, 70029])
         viewport:
             xpos 119
             xsize 720
@@ -5095,7 +5095,7 @@ screen quest0110():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log153")
+                    action ShowMenu("questlog",[2, 70051, 7, 70052, 70053, 70056, 70057, 70054])
         viewport:
             xpos 119
             xsize 720
@@ -5157,7 +5157,7 @@ screen quest0111():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log154")
+                    action ShowMenu("questlog",[2, 70076, 7, 70077, 70078, 70081, 70082, 70083, 70084, 70079])
         viewport:
             xpos 119
             xsize 720
@@ -5230,7 +5230,7 @@ screen quest0112():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log156")
+                    action ShowMenu("questlog",[2, 70126, 7, 70127, 70128, 70131, 70132, 70133, 70134, 70129])
         viewport:
             xpos 119
             xsize 720
@@ -5376,7 +5376,7 @@ screen quest0113():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log157")
+                    action ShowMenu("questlog",[2, 70151, 8, 70152, 70153, 70156, 70157, 70154])
         viewport:
             xpos 119
             xsize 720
@@ -5428,7 +5428,7 @@ screen quest0114():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log158")
+                    action ShowMenu("questlog",[2, 70176, 9, 70177, 70178, 70181, 70182, 70183, 70184, 70185, 70186, 70179])
         viewport:
             xpos 119
             xsize 720
@@ -5522,7 +5522,7 @@ screen quest0115():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log159")
+                    action ShowMenu("questlog",[2, 70201, 9, 70202, 70203, 70206, 70207, 70208, 70204])
         viewport:
             xpos 119
             xsize 720
@@ -5667,7 +5667,7 @@ screen quest0201():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log201")
+                    action ShowMenu("questlog",[1, 60501, 9, 60502, 60503, 60506, 60507, 60508, 60509, 60510, 60511, 60504])
         viewport:
             xpos 119
             xsize 720
@@ -5771,7 +5771,7 @@ screen quest0202():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log202")
+                    action ShowMenu("questlog",[1, 60526, 11, 60527, 60528, 60531, 60532, 60533, 60534, 60535, 60536, 60537, 60538, 60529])
         viewport:
             xpos 119
             xsize 720
@@ -5886,7 +5886,7 @@ screen quest0203():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log203")
+                    action ShowMenu("questlog",[1, 60551, 13, 60552, 60553, 60556, 60557, 60558, 60559, 60560, 60561, 60562, 60563, 60554])
         viewport:
             xpos 119
             xsize 720
@@ -6022,7 +6022,7 @@ screen quest0204():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log204")
+                    action ShowMenu("questlog",[1, 60576, 15, 60577, 60578, 60581, 60582, 60583, 60584, 60585, 60586, 60587, 60579])
         viewport:
             xpos 119
             xsize 720
@@ -6200,7 +6200,7 @@ screen quest0205():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log205")
+                    action ShowMenu("questlog",[1, 60601, 16, 60602, 60603, 60606, 60607, 60608, 60609, 60604])
         viewport:
             xpos 119
             xsize 720
@@ -6315,7 +6315,7 @@ screen quest0206():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log206")
+                    action ShowMenu("questlog",[1, 60626, 17, 60627, 60628, 60631, 60632, 60633, 60634, 60635, 60636, 60637, 60638, 60639, 60629])
         viewport:
             xpos 119
             xsize 720
@@ -6451,7 +6451,7 @@ screen quest0207():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log251")
+                    action ShowMenu("questlog",[2, 70501, 10, 70502, 70503, 70506, 70507, 70508, 70509, 70510, 70511, 70512, 70504])
         viewport:
             xpos 119
             xsize 720
@@ -6566,7 +6566,7 @@ screen quest0208():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log252")
+                    action ShowMenu("questlog",[2, 70526, 10, 70527, 70528, 70531, 70532, 70533, 70534, 70535, 70529])
         viewport:
             xpos 119
             xsize 720
@@ -6649,7 +6649,7 @@ screen quest0209():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log253")
+                    action ShowMenu("questlog",[2, 70551, 10, 70552, 70553, 70556, 70557, 70554])
         viewport:
             xpos 119
             xsize 720
@@ -6711,7 +6711,7 @@ screen quest0210():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log255")
+                    action ShowMenu("questlog",[2, 70601, 12, 70602, 70603, 70606, 70607, 70604])
         viewport:
             xpos 119
             xsize 720
@@ -6763,7 +6763,7 @@ screen quest0211():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log256")
+                    action ShowMenu("questlog",[2, 70626, 11, 70627, 70628, 70631, 70632, 70633, 70634, 70635, 70629])
         viewport:
             xpos 119
             xsize 720
@@ -6846,7 +6846,7 @@ screen quest0212():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log259")
+                    action ShowMenu("questlog",[2, 70701, 13, 70702, 70703, 70706, 70707, 70708, 70704])
         viewport:
             xpos 119
             xsize 720
@@ -6919,7 +6919,7 @@ screen quest0213():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log257")
+                    action ShowMenu("questlog",[2, 70651, 13, 70652, 70653, 70656, 70657, 70658, 70654])
         viewport:
             xpos 119
             xsize 720
@@ -6981,7 +6981,7 @@ screen quest0214():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log254")
+                    action ShowMenu("questlog",[2, 70576, 15, 70577, 70578, 70581, 70582, 70583, 70584, 70579])
         viewport:
             xpos 119
             xsize 720
@@ -7064,7 +7064,7 @@ screen quest0215():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log260")
+                    action ShowMenu("questlog",[2, 70726, 15, 70727, 70728, 70731, 70732, 70733, 70734, 70735, 70729])
         viewport:
             xpos 119
             xsize 720
@@ -7147,7 +7147,7 @@ screen quest0216():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log263")
+                    action ShowMenu("questlog",[2, 70801, 16, 70802, 70803, 70806, 70807, 70804])
         viewport:
             xpos 119
             xsize 720
@@ -7260,7 +7260,7 @@ screen quest0301():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log301")
+                    action ShowMenu("questlog",[1, 61001, 18, 61002, 61003, 61006, 61007, 61008, 61009, 61010, 61011, 61012, 61013, 61014, 61015, 61016, 61017, 61018, 61019, 61020, 61021, 61022, 61004])
         viewport:
             xpos 119
             xsize 720
@@ -7490,7 +7490,7 @@ screen quest0302():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log302")
+                    action ShowMenu("questlog",[1, 61026, 20, 61027, 61028, 61031, 61032, 61033, 61034, 61035, 61036, 61037, 61038, 61039, 61040, 61041, 61029])
         viewport:
             xpos 119
             xsize 720
@@ -7762,7 +7762,7 @@ screen quest0303():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log264")
+                    action ShowMenu("questlog",[1, 70826, 21, 70827, 70828, 70831, 70832, 70833, 70829])
         viewport:
             xpos 119
             xsize 720
@@ -7835,7 +7835,7 @@ screen quest0304():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log303")
+                    action ShowMenu("questlog",[1, 61051, 20, 61052, 61053, 61056, 61057, 61058, 61054])
         viewport:
             xpos 119
             xsize 720
@@ -7929,7 +7929,7 @@ screen quest0305():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log304")
+                    action ShowMenu("questlog",[1, 61076, 20, 61077, 61078, 61081, 61082, 61083, 61084, 61085, 61086, 61087, 61088, 61089, 61090, 61091, 61079])
         viewport:
             xpos 119
             xsize 720
@@ -8159,7 +8159,7 @@ screen quest0306():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log305")
+                    action ShowMenu("questlog",[1, 61101, 21, 61102, 61103, 61106, 61107, 61108, 61109, 61110, 61111, 61112, 61113, 61104])
         viewport:
             xpos 119
             xsize 720
@@ -8358,7 +8358,7 @@ screen quest0307():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log306")
+                    action ShowMenu("questlog",[1, 61126, 23, 61127, 61128, 61131, 61132, 61133, 61134, 61135, 61136, 61137, 61138, 61139, 61140, 61129])
         viewport:
             xpos 119
             xsize 720
@@ -8504,7 +8504,7 @@ screen quest0308():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log307")
+                    action ShowMenu("questlog",[1, 61151, 25, 61152, 61153, 61156, 61157, 61158, 61159, 61160, 61161, 61162, 61163, 61164, 61165, 61166, 61167, 61154])
         viewport:
             xpos 119
             xsize 720
@@ -8766,7 +8766,7 @@ screen quest0309():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log351")
+                    action ShowMenu("questlog",[2, 71001, 17, 71002, 71003, 71006, 71007, 71008, 71004])
         viewport:
             xpos 119
             xsize 720
@@ -8839,7 +8839,7 @@ screen quest0310():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log352")
+                    action ShowMenu("questlog",[2, 71026, 17, 71027, 71028, 71031, 71032, 71033, 71034, 71035, 71029])
         viewport:
             xpos 119
             xsize 720
@@ -8922,7 +8922,7 @@ screen quest0311():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log355")
+                    action ShowMenu("questlog",[2, 71101, 20, 71102, 71103, 71106, 71107, 71108, 71109, 71110, 71111, 71104])
         viewport:
             xpos 119
             xsize 720
@@ -9016,7 +9016,7 @@ screen quest0312():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log357")
+                    action ShowMenu("questlog",[2, 71151, 20, 71152, 71153, 71156, 71157, 71158, 71159, 71160, 71161, 71162, 71154])
         viewport:
             xpos 119
             xsize 720
@@ -9120,7 +9120,7 @@ screen quest0313():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log354")
+                    action ShowMenu("questlog",[2, 71076, 20, 71077, 71078, 71081, 71082, 71083, 71079])
         viewport:
             xpos 119
             xsize 720
@@ -9224,7 +9224,7 @@ screen quest0314():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log356")
+                    action ShowMenu("questlog",[2, 71126, 20, 71127, 71128, 71131, 71132, 71129])
         viewport:
             xpos 119
             xsize 720
@@ -9307,7 +9307,7 @@ screen quest0315():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log362")
+                    action ShowMenu("questlog",[2, 71276, 21, 71277, 71278, 71281, 71282, 71283, 71284, 71285, 71286, 71287, 71288, 71279])
         viewport:
             xpos 119
             xsize 720
@@ -9422,7 +9422,7 @@ screen quest0316():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log363")
+                    action ShowMenu("questlog",[2, 71301, 21, 71302, 71303, 71306, 71307, 71308, 71304])
         viewport:
             xpos 119
             xsize 720
@@ -9484,7 +9484,7 @@ screen quest0317():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log364")
+                    action ShowMenu("questlog",[2, 71326, 23, 71327, 71328, 71331, 71332, 71333, 71334, 71329])
         viewport:
             xpos 119
             xsize 720
@@ -9650,7 +9650,7 @@ screen quest0401():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log401")
+                    action ShowMenu("questlog",[1, 61501, 26, 61502, 61503, 61506, 61507, 61508, 61509, 61510, 61511, 61512, 61504])
         viewport:
             xpos 119
             xsize 720
@@ -9754,7 +9754,7 @@ screen quest0402():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log402")
+                    action ShowMenu("questlog",[1, 61526, 27, 61527, 61528, 61531, 61532, 61533, 61534, 61535, 61536, 61537, 61529])
         viewport:
             xpos 119
             xsize 720
@@ -9869,7 +9869,7 @@ screen quest0403():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log403")
+                    action ShowMenu("questlog",[1, 61551, 28, 61552, 61553, 61556, 61557, 61558, 61559, 61560, 61561, 61562, 61554])
         viewport:
             xpos 119
             xsize 720
@@ -10005,7 +10005,7 @@ screen quest0404():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log404")
+                    action ShowMenu("questlog",[1, 61576, 29, 61577, 61578, 61581, 61582, 61583, 61584, 61585, 61579])
         viewport:
             xpos 119
             xsize 720
@@ -10099,7 +10099,7 @@ screen quest0405():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log405")
+                    action ShowMenu("questlog",[1, 61601, 31, 61602, 61603, 61606, 61607, 61608, 61609, 61610, 61611, 61612, 61613, 61604])
         viewport:
             xpos 119
             xsize 720
@@ -10214,7 +10214,7 @@ screen quest0406():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log406")
+                    action ShowMenu("questlog",[1, 61626, 33, 61627, 61628, 61631, 61632, 61633, 61634, 61635, 61636, 61629])
         viewport:
             xpos 119
             xsize 720
@@ -10318,7 +10318,7 @@ screen quest0407():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log407")
+                    action ShowMenu("questlog",[1, 61651, 35, 61652, 61653, 61656, 61657, 61658, 61659, 61660, 61661, 61662, 61663, 61654])
         viewport:
             xpos 119
             xsize 720
@@ -10464,7 +10464,7 @@ screen quest0408():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log451")
+                    action ShowMenu("questlog",[2, 71501, 26, 71502, 71503, 71506, 71507, 71508, 71509, 71504])
         viewport:
             xpos 119
             xsize 720
@@ -10526,7 +10526,7 @@ screen quest0409():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log453")
+                    action ShowMenu("questlog",[2, 71551, 26, 71552, 71553, 71556, 71557, 71558, 71554])
         viewport:
             xpos 119
             xsize 720
@@ -10620,7 +10620,7 @@ screen quest0410():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log454")
+                    action ShowMenu("questlog",[2, 71576, 26, 71577, 71578, 71581, 71582, 71583, 71584, 71579])
         viewport:
             xpos 119
             xsize 720
@@ -10703,7 +10703,7 @@ screen quest0411():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log452")
+                    action ShowMenu("questlog",[2, 71526, 27, 71527, 71528, 71531, 71532, 71533, 71529])
         viewport:
             xpos 119
             xsize 720
@@ -10776,7 +10776,7 @@ screen quest0412():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log456")
+                    action ShowMenu("questlog",[2, 71626, 27, 71627, 71628, 71631, 71632, 71633, 71634, 71635, 71629])
         viewport:
             xpos 119
             xsize 720
@@ -10870,7 +10870,7 @@ screen quest0413():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log455")
+                    action ShowMenu("questlog",[2, 71601, 27, 71602, 71603, 71606, 71607, 71608, 71609, 71610, 71611, 71612, 71613, 71604])
         viewport:
             xpos 119
             xsize 720
@@ -11006,7 +11006,7 @@ screen quest0414():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log457")
+                    action ShowMenu("questlog",[2, 71651, 999, 71652, 71653, 71656, 71657, 71658, 71659, 71660, 71654])
         viewport:
             xpos 119
             xsize 720
@@ -11089,7 +11089,7 @@ screen quest0415():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log458")
+                    action ShowMenu("questlog",[2, 71676, 30, 71677, 71678, 71681, 71682, 71683, 71684, 71679])
         viewport:
             xpos 119
             xsize 720
@@ -11162,7 +11162,7 @@ screen quest0416():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log464")
+                    action ShowMenu("questlog",[2, 71826, 32, 71827, 71828, 71831, 71832, 71833, 71834, 71835, 71829])
         viewport:
             xpos 119
             xsize 720
@@ -11245,7 +11245,7 @@ screen quest0417():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log462")
+                    action ShowMenu("questlog",[2, 71776, 32, 71777, 71778, 71781, 71782, 71783, 71784, 71785, 71779])
         viewport:
             xpos 119
             xsize 720
@@ -11339,7 +11339,7 @@ screen quest0418():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log465")
+                    action ShowMenu("questlog",[2, 71851, 34, 71852, 71853, 71856, 71857, 71854])
         viewport:
             xpos 119
             xsize 720
@@ -11401,7 +11401,7 @@ screen quest0419():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log466")
+                    action ShowMenu("questlog",[2, 71876, 34, 71877, 71878, 71881, 71882, 71883, 71879])
         viewport:
             xpos 119
             xsize 720
@@ -11474,7 +11474,7 @@ screen quest0501():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log551")
+                    action ShowMenu("questlog",[2, 72001, 36, 72002, 72003, 72006, 72007, 72008, 72009, 72004])
         viewport:
             xpos 119
             xsize 720
@@ -11578,7 +11578,7 @@ screen quest0502():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log552")
+                    action ShowMenu("questlog",[2, 72026, 36, 72027, 72028, 72031, 72032, 72033, 72034, 72035, 72029])
         viewport:
             xpos 119
             xsize 720
@@ -11682,7 +11682,7 @@ screen quest0503():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log553")
+                    action ShowMenu("questlog",[2, 72051, 37, 72052, 72053, 72056, 72057, 72058, 72059, 72060, 72054])
         viewport:
             xpos 119
             xsize 720
@@ -11818,7 +11818,7 @@ screen quest0504():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log554")
+                    action ShowMenu("questlog",[2, 72076, 37, 72077, 72078, 72081, 72082, 72083, 72084, 72085, 72079])
         viewport:
             xpos 119
             xsize 720
@@ -11912,7 +11912,7 @@ screen quest0505():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log501")
+                    action ShowMenu("questlog",[1, 62001, 38, 62002, 62003, 62006, 62007, 62008, 62004])
         viewport:
             xpos 119
             xsize 720
@@ -11995,7 +11995,7 @@ screen quest0506():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log565")
+                    action ShowMenu("questlog",[2, 72351, 39, 72352, 72353, 72356, 72357, 72358, 72354])
         viewport:
             xpos 119
             xsize 720
@@ -12057,7 +12057,7 @@ screen quest0507():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log502")
+                    action ShowMenu("questlog",[1, 62026, 40, 62027, 62028, 62031, 62032, 62033, 62034, 62035, 62036, 62037, 62038, 62039, 62029])
         viewport:
             xpos 119
             xsize 720
@@ -12182,7 +12182,7 @@ screen quest0508():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log566")
+                    action ShowMenu("questlog",[2, 72376, 41, 72377, 72378, 72381, 72382, 72383, 72379])
         viewport:
             xpos 119
             xsize 720
@@ -12255,7 +12255,7 @@ screen quest0509():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log557")
+                    action ShowMenu("questlog",[2, 72151, 41, 72152, 72153, 72156, 72157, 72154])
         viewport:
             xpos 119
             xsize 720
@@ -12307,7 +12307,7 @@ screen quest0510():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log558")
+                    action ShowMenu("questlog",[2, 72176, 42, 72177, 72178, 72181, 72182, 72183, 72184, 72179])
         viewport:
             xpos 119
             xsize 720
@@ -12390,7 +12390,7 @@ screen quest0511():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log503")
+                    action ShowMenu("questlog",[1, 62051, 43, 62052, 62053, 62056, 62057, 62058, 62054])
         viewport:
             xpos 119
             xsize 720
@@ -12484,7 +12484,7 @@ screen quest0512():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log504")
+                    action ShowMenu("questlog",[1, 62076, 44, 62077, 62078, 62081, 62082, 62083, 62084, 62085, 62086, 62087, 62088, 62079])
         viewport:
             xpos 119
             xsize 720
@@ -12651,7 +12651,7 @@ screen quest0513():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log559")
+                    action ShowMenu("questlog",[2, 72201, 45, 72202, 72203, 72206, 72207, 72208, 72209, 72210, 72204])
         viewport:
             xpos 119
             xsize 720
@@ -12745,7 +12745,7 @@ screen quest0514():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log560")
+                    action ShowMenu("questlog",[2, 72226, 45, 72227, 72228, 72231, 72232, 72233, 72234, 72235, 72236, 72237, 72238, 72239, 72229])
         viewport:
             xpos 119
             xsize 720
@@ -12881,7 +12881,7 @@ screen quest0515():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log561")
+                    action ShowMenu("questlog",[2, 72251, 46, 72252, 72253, 72256, 72257, 72258, 72254])
         viewport:
             xpos 119
             xsize 720
@@ -12943,7 +12943,7 @@ screen quest0516():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log505")
+                    action ShowMenu("questlog",[1, 62101, 47, 62102, 62103, 62106, 62107, 62108, 62109, 62104])
         viewport:
             xpos 119
             xsize 720
@@ -13058,7 +13058,7 @@ screen quest0517():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log506")
+                    action ShowMenu("questlog",[1, 62126, 47, 62127, 62128, 62131, 62132, 62129])
         viewport:
             xpos 119
             xsize 720
@@ -13120,7 +13120,7 @@ screen quest0518():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log562")
+                    action ShowMenu("questlog",[2, 72276, 47, 72277, 72278, 72281, 72282, 72283, 72284, 72285, 72286, 72279])
         viewport:
             xpos 119
             xsize 720
@@ -13224,7 +13224,7 @@ screen quest0519():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log563")
+                    action ShowMenu("questlog",[2, 72301, 47, 72302, 72303, 72306, 72307, 72308, 72309, 72304])
         viewport:
             xpos 119
             xsize 720
@@ -13307,7 +13307,7 @@ screen quest0520():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log507")
+                    action ShowMenu("questlog",[1, 62151, 49, 62152, 62153, 62156, 62157, 62158, 62154])
         viewport:
             xpos 119
             xsize 720
@@ -13380,7 +13380,7 @@ screen quest0521():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log508")
+                    action ShowMenu("questlog",[1, 62176, 49, 62177, 62178, 62181, 62182, 62179])
         viewport:
             xpos 119
             xsize 720
@@ -13442,7 +13442,7 @@ screen quest0522():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log509")
+                    action ShowMenu("questlog",[1, 62201, 49, 62202, 62203, 62206, 62207, 62208, 62209, 62210, 62204])
         viewport:
             xpos 119
             xsize 720
@@ -13525,7 +13525,7 @@ screen quest0601():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log601")
+                    action ShowMenu("questlog",[1, 62501, 50, 62502, 62503, 62506, 62507, 62508, 62504])
         viewport:
             xpos 119
             xsize 720
@@ -13587,7 +13587,7 @@ screen quest0602():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log651")
+                    action ShowMenu("questlog",[2, 72501, 50, 72502, 72503, 72506, 72507, 72508, 72509, 72510, 72504])
         viewport:
             xpos 119
             xsize 720
@@ -13670,7 +13670,7 @@ screen quest0603():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log652")
+                    action ShowMenu("questlog",[2, 72526, 50, 72527, 72528, 72531, 72532, 72533, 72534, 72535, 72536, 72537, 72538, 72539, 72529])
         viewport:
             xpos 119
             xsize 720
@@ -13795,7 +13795,7 @@ screen quest0604():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log653")
+                    action ShowMenu("questlog",[2, 72551, 50, 72552, 72553, 72556, 72557, 72558, 72559, 72554])
         viewport:
             xpos 119
             xsize 720
@@ -13878,7 +13878,7 @@ screen quest0605():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log602")
+                    action ShowMenu("questlog",[1, 62526, 50, 62527, 62528, 62531, 62532, 62533, 62534, 62535, 62529])
         viewport:
             xpos 119
             xsize 720
@@ -13961,7 +13961,7 @@ screen quest0606():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log654")
+                    action ShowMenu("questlog",[2, 72576, 50, 72577, 72578, 72581, 72582, 72583, 72584, 72585, 72579])
         viewport:
             xpos 119
             xsize 720
@@ -14055,7 +14055,7 @@ screen quest0607():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log655")
+                    action ShowMenu("questlog",[2, 72601, 50, 72602, 72603, 72606, 72607, 72608, 72609, 72610, 72604])
         viewport:
             xpos 119
             xsize 720
@@ -14138,7 +14138,7 @@ screen quest0608():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log603")
+                    action ShowMenu("questlog",[1, 62551, 50, 62552, 62553, 62556, 62557, 62558, 62559, 62560, 62561, 62554])
         viewport:
             xpos 119
             xsize 720
@@ -14242,7 +14242,7 @@ screen quest0609():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log604")
+                    action ShowMenu("questlog",[1, 62576, 50, 62577, 62578, 62581, 62582, 62583, 62584, 62585, 62579])
         viewport:
             xpos 119
             xsize 720
@@ -14336,7 +14336,7 @@ screen quest0610():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log656")
+                    action ShowMenu("questlog",[2, 72626, 50, 72627, 72628, 72631, 72632, 72633, 72634, 72635, 72636, 72629])
         viewport:
             xpos 119
             xsize 720
@@ -14451,7 +14451,7 @@ screen quest0611():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log657")
+                    action ShowMenu("questlog",[2, 72651, 50, 72652, 72653, 72656, 72657, 72658, 72659, 72660, 72654])
         viewport:
             xpos 119
             xsize 720
@@ -14545,7 +14545,7 @@ screen quest0612():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log605")
+                    action ShowMenu("questlog",[1, 62601, 50, 62602, 62603, 62606, 62607, 62608, 62609, 62610, 62611, 62612, 62604])
         viewport:
             xpos 119
             xsize 720
@@ -14660,7 +14660,7 @@ screen quest0613():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log658")
+                    action ShowMenu("questlog",[2, 72676, 50, 72677, 72678, 72681, 72682, 72683, 72684, 72685, 72679])
         viewport:
             xpos 119
             xsize 720
@@ -14754,7 +14754,7 @@ screen quest0614():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log606")
+                    action ShowMenu("questlog",[1, 62626, 50, 62627, 62628, 62631, 62632, 62633, 62634, 62635, 62636, 62637, 62638, 62629])
         viewport:
             xpos 119
             xsize 720
@@ -14869,7 +14869,7 @@ screen quest0615():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log659")
+                    action ShowMenu("questlog",[2, 72701, 50, 72702, 72703, 72706, 72707, 72708, 72709, 72710, 72711, 72712, 72713, 72704])
         viewport:
             xpos 119
             xsize 720
@@ -14994,7 +14994,7 @@ screen quest0616():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log660")
+                    action ShowMenu("questlog",[2, 72726, 50, 72727, 72728, 72731, 72732, 72733, 72734, 72735, 72729])
         viewport:
             xpos 119
             xsize 720
@@ -15098,7 +15098,7 @@ screen quest0617():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log607")
+                    action ShowMenu("questlog",[1, 62651, 50, 62652, 62653, 62656, 62657, 62658, 62659, 62660, 62661, 62662, 62663, 62654])
         viewport:
             xpos 119
             xsize 720
@@ -15223,7 +15223,7 @@ screen quest0618():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log661")
+                    action ShowMenu("questlog",[2, 72751, 50, 72752, 72753, 72756, 72757, 72758, 72759, 72754])
         viewport:
             xpos 119
             xsize 720
@@ -15296,7 +15296,7 @@ screen quest0619():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log662")
+                    action ShowMenu("questlog",[2, 72776, 50, 72777, 72778, 72781, 72782, 72783, 72784, 72785, 72786, 72779])
         viewport:
             xpos 119
             xsize 720
@@ -15411,7 +15411,7 @@ screen quest0620():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log608")
+                    action ShowMenu("questlog",[1, 62676, 50, 62677, 62678, 62681, 62682, 62683, 62684, 62685, 62686, 62687, 62688, 62689, 62679])
         viewport:
             xpos 119
             xsize 720
@@ -15536,7 +15536,7 @@ screen quest0621():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log609")
+                    action ShowMenu("questlog",[1, 62701, 50, 62702, 62703, 62706, 62707, 62708, 62709, 62710, 62704])
         viewport:
             xpos 119
             xsize 720
@@ -15619,7 +15619,7 @@ screen quest0622():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log663")
+                    action ShowMenu("questlog",[2, 72801, 50, 72802, 72803, 72806, 72807, 72808, 72809, 72810, 72811, 72804])
         viewport:
             xpos 119
             xsize 720
@@ -15723,7 +15723,7 @@ screen quest0623():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log664")
+                    action ShowMenu("questlog",[2, 72826, 50, 72827, 72828, 72831, 72832, 72833, 72829])
         viewport:
             xpos 119
             xsize 720
@@ -15785,7 +15785,7 @@ screen quest0624():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log665")
+                    action ShowMenu("questlog",[2, 72851, 50, 72852, 72853, 72856, 72857, 72858, 72859, 72860, 72861, 72854])
         viewport:
             xpos 119
             xsize 720
@@ -15889,7 +15889,7 @@ screen quest0625():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log610")
+                    action ShowMenu("questlog",[1, 62726, 50, 62727, 62728, 62731, 62732, 62733, 62734, 62735, 62736, 62737, 62729])
         viewport:
             xpos 119
             xsize 720
@@ -16025,7 +16025,7 @@ screen quest0626():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log666")
+                    action ShowMenu("questlog",[2, 72876, 50, 72877, 72878, 72881, 72882, 72883, 72884, 72885, 72879])
         viewport:
             xpos 119
             xsize 720
@@ -16119,7 +16119,7 @@ screen quest0627():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log611")
+                    action ShowMenu("questlog",[1, 62751, 50, 62752, 62753, 62756, 62757, 62758, 62759, 62760, 62761, 62762, 62763, 62754])
         viewport:
             xpos 119
             xsize 720
@@ -16244,7 +16244,7 @@ screen quest0628():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log612")
+                    action ShowMenu("questlog",[1, 62776, 50, 62777, 62778, 62781, 62782, 62783, 62784, 62785, 62786, 62779])
         viewport:
             xpos 119
             xsize 720
@@ -16338,7 +16338,7 @@ screen quest0701():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log701")
+                    action ShowMenu("questlog",[1, 63001, 50, 63002, 63003, 63006, 63007, 63008, 63004])
         viewport:
             xpos 119
             xsize 720
@@ -16400,7 +16400,7 @@ screen quest0702():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log751")
+                    action ShowMenu("questlog",[2, 73001, 50, 73002, 73003, 73006, 73007, 73008, 73009, 73004])
         viewport:
             xpos 119
             xsize 720
@@ -16483,7 +16483,7 @@ screen quest0703():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log752")
+                    action ShowMenu("questlog",[2, 73026, 50, 73027, 73028, 73031, 73032, 73033, 73034, 73035, 73029])
         viewport:
             xpos 119
             xsize 720
@@ -16587,7 +16587,7 @@ screen quest0704():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log702")
+                    action ShowMenu("questlog",[1, 63026, 50, 63027, 63028, 63031, 63032, 63033, 63034, 63035, 63036, 63029])
         viewport:
             xpos 119
             xsize 720
@@ -16681,7 +16681,7 @@ screen quest0705():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log753")
+                    action ShowMenu("questlog",[2, 73051, 50, 73052, 73053, 73056, 73057, 73058, 73059, 73060, 73061, 73054])
         viewport:
             xpos 119
             xsize 720
@@ -16785,7 +16785,7 @@ screen quest0706():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log703")
+                    action ShowMenu("questlog",[1, 63051, 50, 63052, 63053, 63056, 63057, 63058, 63059, 63060, 63061, 63062, 63054])
         viewport:
             xpos 119
             xsize 720
@@ -16900,7 +16900,7 @@ screen quest0707():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log754")
+                    action ShowMenu("questlog",[2, 73076, 50, 73077, 73078, 73081, 73082, 73083, 73079])
         viewport:
             xpos 119
             xsize 720
@@ -16962,7 +16962,7 @@ screen quest0708():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log755")
+                    action ShowMenu("questlog",[2, 73101, 50, 73102, 73103, 73106, 73107, 73108, 73104])
         viewport:
             xpos 119
             xsize 720
@@ -17024,7 +17024,7 @@ screen quest0709():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log756")
+                    action ShowMenu("questlog",[2, 73126, 50, 73127, 73128, 73131, 73132, 73133, 73134, 73135, 73129])
         viewport:
             xpos 119
             xsize 720
@@ -17107,7 +17107,7 @@ screen quest0710():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log704")
+                    action ShowMenu("questlog",[1, 63076, 50, 63077, 63078, 63081, 63082, 63083, 63084, 63085, 63079])
         viewport:
             xpos 119
             xsize 720
@@ -17201,7 +17201,7 @@ screen quest0711():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log705")
+                    action ShowMenu("questlog",[1, 63101, 50, 63102, 63103, 63106, 63107, 63108, 63109, 63110, 63104])
         viewport:
             xpos 119
             xsize 720
@@ -17284,7 +17284,7 @@ screen quest0712():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log757")
+                    action ShowMenu("questlog",[2, 73151, 50, 73152, 73153, 73156, 73157, 73158, 73159, 73160, 73161, 73154])
         viewport:
             xpos 119
             xsize 720
@@ -17378,7 +17378,7 @@ screen quest0713():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log758")
+                    action ShowMenu("questlog",[2, 73176, 50, 73177, 73178, 73181, 73182, 73183, 73184, 73179])
         viewport:
             xpos 119
             xsize 720
@@ -17461,7 +17461,7 @@ screen quest0714():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log706")
+                    action ShowMenu("questlog",[1, 63126, 50, 63127, 63128, 63131, 63132, 63133, 63129])
         viewport:
             xpos 119
             xsize 720
@@ -17523,7 +17523,7 @@ screen quest0715():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log759")
+                    action ShowMenu("questlog",[2, 73201, 50, 73202, 73203, 73206, 73207, 73208, 73209, 73210, 73204])
         viewport:
             xpos 119
             xsize 720
@@ -17627,7 +17627,7 @@ screen quest0716():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log760")
+                    action ShowMenu("questlog",[2, 73226, 50, 73227, 73228, 73231, 73232, 73233, 73234, 73235, 73236, 73237, 73229])
         viewport:
             xpos 119
             xsize 720
@@ -17742,7 +17742,7 @@ screen quest0717():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log707")
+                    action ShowMenu("questlog",[1, 63151, 50, 63152, 63153, 63156, 63157, 63158, 63159, 63154])
         viewport:
             xpos 119
             xsize 720
@@ -17815,7 +17815,7 @@ screen quest0718():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log761")
+                    action ShowMenu("questlog",[2, 73251, 50, 73252, 73253, 73256, 73257, 73258, 73259, 73254])
         viewport:
             xpos 119
             xsize 720
@@ -17888,7 +17888,7 @@ screen quest0719():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log762")
+                    action ShowMenu("questlog",[2, 73276, 50, 73277, 73278, 73281, 73282, 73283, 73279])
         viewport:
             xpos 119
             xsize 720
@@ -17961,7 +17961,7 @@ screen quest0720():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log708")
+                    action ShowMenu("questlog",[1, 63176, 50, 63177, 63178, 63181, 63182, 63183, 63184, 63185, 63186, 63187, 63188, 63189, 63190, 63191, 63179])
         viewport:
             xpos 119
             xsize 720
@@ -18118,7 +18118,7 @@ screen quest0721():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log709")
+                    action ShowMenu("questlog",[1, 63201, 50, 63202, 63203, 63206, 63207, 63208, 63204])
         viewport:
             xpos 119
             xsize 720
@@ -18180,7 +18180,7 @@ screen quest0722():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log763")
+                    action ShowMenu("questlog",[2, 73301, 50, 73302, 73303, 73306, 73307, 73308, 73309, 73310, 73311, 73304])
         viewport:
             xpos 119
             xsize 720
@@ -18284,7 +18284,7 @@ screen quest0723():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log764")
+                    action ShowMenu("questlog",[2, 73326, 50, 73327, 73328, 73331, 73332, 73333, 73334, 73335, 73329])
         viewport:
             xpos 119
             xsize 720
@@ -18367,7 +18367,7 @@ screen quest0724():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log710")
+                    action ShowMenu("questlog",[1, 63226, 50, 63227, 63228, 63231, 63232, 63233, 63234, 63235, 63236, 63237, 63238, 63239, 63240, 63241, 63229])
         viewport:
             xpos 119
             xsize 720
@@ -18513,7 +18513,7 @@ screen quest0725():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log765")
+                    action ShowMenu("questlog",[2, 73351, 50, 73352, 73353, 73356, 73357, 73358, 73359, 73360, 73361, 73354])
         viewport:
             xpos 119
             xsize 720
@@ -18617,7 +18617,7 @@ screen quest0726():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log766")
+                    action ShowMenu("questlog",[2, 73376, 50, 73377, 73378, 73381, 73382, 73383, 73384, 73385, 73379])
         viewport:
             xpos 119
             xsize 720
@@ -18700,7 +18700,7 @@ screen quest0727():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log711")
+                    action ShowMenu("questlog",[1, 63251, 50, 63252, 63253, 63256, 63257, 63258, 63259, 63260, 63261, 63262, 63254])
         viewport:
             xpos 119
             xsize 720
@@ -18804,7 +18804,7 @@ screen quest0728():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log767")
+                    action ShowMenu("questlog",[2, 73401, 50, 73402, 73403, 73406, 73407, 73408, 73409, 73404])
         viewport:
             xpos 119
             xsize 720
@@ -18887,7 +18887,7 @@ screen quest0729():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log768")
+                    action ShowMenu("questlog",[2, 73426, 50, 73427, 73428, 73431, 73432, 73433, 73434, 73429])
         viewport:
             xpos 119
             xsize 720
@@ -18970,7 +18970,7 @@ screen quest0730():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log712")
+                    action ShowMenu("questlog",[1, 63276, 50, 63277, 63278, 63281, 63282, 63283, 63284, 63285, 63286, 63287, 63288, 63289, 63290, 63291, 63292, 63293, 63294, 63295, 63296, 63297, 63298, 63279])
         viewport:
             xpos 119
             xsize 720
@@ -19211,7 +19211,7 @@ screen quest0801():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log801")
+                    action ShowMenu("questlog",[1, 63501, 50, 63502, 63503, 63506, 63507, 63508, 63509, 63510, 63511, 63512, 63504])
         viewport:
             xpos 119
             xsize 720
@@ -19315,7 +19315,7 @@ screen quest0802():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log851")
+                    action ShowMenu("questlog",[2, 73501, 50, 73502, 73503, 73506, 73507, 73508, 73509, 73504])
         viewport:
             xpos 119
             xsize 720
@@ -19388,7 +19388,7 @@ screen quest0803():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log852")
+                    action ShowMenu("questlog",[2, 73526, 50, 73527, 73528, 73531, 73532, 73529])
         viewport:
             xpos 119
             xsize 720
@@ -19440,7 +19440,7 @@ screen quest0804():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log802")
+                    action ShowMenu("questlog",[1, 63526, 50, 63527, 63528, 63531, 63532, 63533, 63534, 63535, 63536, 63529])
         viewport:
             xpos 119
             xsize 720
@@ -19534,7 +19534,7 @@ screen quest0805():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log853")
+                    action ShowMenu("questlog",[2, 73551, 50, 73552, 73553, 73556, 73557, 73558, 73559, 73560, 73554])
         viewport:
             xpos 119
             xsize 720
@@ -19617,7 +19617,7 @@ screen quest0806():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log854")
+                    action ShowMenu("questlog",[2, 73576, 50, 73577, 73578, 73581, 73582, 73583, 73584, 73585, 73579])
         viewport:
             xpos 119
             xsize 720
@@ -19711,7 +19711,7 @@ screen quest0807():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log803")
+                    action ShowMenu("questlog",[1, 63551, 50, 63552, 63553, 63556, 63557, 63558, 63559, 63560, 63561, 63562, 63563, 63554])
         viewport:
             xpos 119
             xsize 720
@@ -19826,7 +19826,7 @@ screen quest0808():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log855")
+                    action ShowMenu("questlog",[2, 73601, 50, 73602, 73603, 73606, 73607, 73608, 73609, 73610, 73611, 73604])
         viewport:
             xpos 119
             xsize 720
@@ -19920,7 +19920,7 @@ screen quest0809():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log856")
+                    action ShowMenu("questlog",[2, 73626, 50, 73627, 73628, 73631, 73632, 73633, 73634, 73629])
         viewport:
             xpos 119
             xsize 720
@@ -19993,7 +19993,7 @@ screen quest0810():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log804")
+                    action ShowMenu("questlog",[1, 63576, 50, 63577, 63578, 63581, 63582, 63583, 63584, 63579])
         viewport:
             xpos 119
             xsize 720
@@ -20076,7 +20076,7 @@ screen quest0811():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log805")
+                    action ShowMenu("questlog",[1, 63601, 50, 63602, 63603, 63606, 63607, 63608, 63609, 63604])
         viewport:
             xpos 119
             xsize 720
@@ -20149,7 +20149,7 @@ screen quest0812():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log857")
+                    action ShowMenu("questlog",[2, 73651, 50, 73652, 73653, 73656, 73657, 73658, 73659, 73660, 73654])
         viewport:
             xpos 119
             xsize 720
@@ -20232,7 +20232,7 @@ screen quest0813():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log858")
+                    action ShowMenu("questlog",[2, 73676, 50, 73677, 73678, 73681, 73682, 73683, 73679])
         viewport:
             xpos 119
             xsize 720
@@ -20294,7 +20294,7 @@ screen quest0814():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log806")
+                    action ShowMenu("questlog",[1, 63626, 50, 63627, 63628, 63631, 63632, 63633, 63629])
         viewport:
             xpos 119
             xsize 720
@@ -20356,7 +20356,7 @@ screen quest0815():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log859")
+                    action ShowMenu("questlog",[2, 73701, 50, 73702, 73703, 73706, 73707, 73708, 73709, 73704])
         viewport:
             xpos 119
             xsize 720
@@ -20429,7 +20429,7 @@ screen quest0816():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log860")
+                    action ShowMenu("questlog",[2, 73726, 50, 73727, 73728, 73731, 73732, 73733, 73734, 73729])
         viewport:
             xpos 119
             xsize 720
@@ -20512,7 +20512,7 @@ screen quest0817():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log861")
+                    action ShowMenu("questlog",[2, 73751, 50, 73752, 73753, 73756, 73757, 73758, 73759, 73760, 73754])
         viewport:
             xpos 119
             xsize 720
@@ -20616,7 +20616,7 @@ screen quest0818():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log807")
+                    action ShowMenu("questlog",[1, 63651, 50, 63652, 63653, 63656, 63657, 63658, 63654])
         viewport:
             xpos 119
             xsize 720
@@ -20678,7 +20678,7 @@ screen quest0819():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log862")
+                    action ShowMenu("questlog",[2, 73776, 50, 73777, 73778, 73781, 73782, 73783, 73779])
         viewport:
             xpos 119
             xsize 720
@@ -20761,7 +20761,7 @@ screen quest0820():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log808")
+                    action ShowMenu("questlog",[1, 63676, 50, 63677, 63678, 63681, 63682, 63683, 63684, 63685, 63686, 63687, 63688, 63689, 63690, 63691, 63679])
         viewport:
             xpos 119
             xsize 720
@@ -20928,7 +20928,7 @@ screen quest0821():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log809")
+                    action ShowMenu("questlog",[1, 63701, 50, 63702, 63703, 63706, 63707, 63708, 63704])
         viewport:
             xpos 119
             xsize 720
@@ -20990,7 +20990,7 @@ screen quest0822():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log863")
+                    action ShowMenu("questlog",[2, 73801, 50, 73802, 73803, 73806, 73807, 73808, 73804])
         viewport:
             xpos 119
             xsize 720
@@ -21052,7 +21052,7 @@ screen quest0823():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log864")
+                    action ShowMenu("questlog",[2, 73826, 50, 73827, 73828, 73831, 73832, 73833, 73834, 73829])
         viewport:
             xpos 119
             xsize 720
@@ -21125,7 +21125,7 @@ screen quest0824():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log810")
+                    action ShowMenu("questlog",[1, 63726, 50, 63727, 63728, 63731, 63732, 63733, 63734, 63729])
         viewport:
             xpos 119
             xsize 720
@@ -21198,7 +21198,7 @@ screen quest0825():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log865")
+                    action ShowMenu("questlog",[2, 73851, 50, 73852, 73853, 73856, 73857, 73858, 73859, 73860, 73854])
         viewport:
             xpos 119
             xsize 720
@@ -21302,7 +21302,7 @@ screen quest0826():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log866")
+                    action ShowMenu("questlog",[2, 73876, 50, 73877, 73878, 73881, 73882, 73883, 73884, 73879])
         viewport:
             xpos 119
             xsize 720
@@ -21396,7 +21396,7 @@ screen quest0827():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log811")
+                    action ShowMenu("questlog",[1, 63751, 50, 63752, 63753, 63756, 63757, 63758, 63759, 63760, 63761, 63754])
         viewport:
             xpos 119
             xsize 720
@@ -21500,7 +21500,7 @@ screen quest0828():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log867")
+                    action ShowMenu("questlog",[2, 73901, 50, 73902, 73903, 73906, 73907, 73908, 73909, 73904])
         viewport:
             xpos 119
             xsize 720
@@ -21594,7 +21594,7 @@ screen quest0829():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log868")
+                    action ShowMenu("questlog",[2, 73926, 50, 73927, 73928, 73931, 73932, 73933, 73934, 73929])
         viewport:
             xpos 119
             xsize 720
@@ -21677,7 +21677,7 @@ screen quest0830():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log812")
+                    action ShowMenu("questlog",[1, 63776, 50, 63777, 63778, 63781, 63782, 63783, 63779])
         viewport:
             xpos 119
             xsize 720
@@ -21739,7 +21739,7 @@ screen quest0831():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log813")
+                    action ShowMenu("questlog",[1, 63801, 50, 63802, 63803, 63806, 63807, 63808, 63809, 63804])
         viewport:
             xpos 119
             xsize 720
@@ -21812,7 +21812,7 @@ screen quest0832():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log869")
+                    action ShowMenu("questlog",[2, 73951, 50, 73952, 73953, 73956, 73957, 73958, 73959, 73954])
         viewport:
             xpos 119
             xsize 720
@@ -21895,7 +21895,7 @@ screen quest0833():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log870")
+                    action ShowMenu("questlog",[2, 73976, 50, 73977, 73978, 73981, 73982, 73983, 73984, 73985, 73986, 73979])
         viewport:
             xpos 119
             xsize 720
@@ -21989,7 +21989,7 @@ screen quest0834():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log814")
+                    action ShowMenu("questlog",[1, 63826, 50, 63827, 63828, 63831, 63832, 63833, 63834, 63835, 63836, 63837, 63838, 63839, 63840, 63829])
         viewport:
             xpos 119
             xsize 720
@@ -22146,7 +22146,7 @@ screen quest0835():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log815")
+                    action ShowMenu("questlog",[1, 63851, 50, 63852, 63853, 63856, 63857, 63858, 63859, 63854])
         viewport:
             xpos 119
             xsize 720
@@ -22219,7 +22219,7 @@ screen quest0836():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log871")
+                    action ShowMenu("questlog",[2, 74001, 50, 74002, 74003, 74006, 74007, 74008, 74009, 74004])
         viewport:
             xpos 119
             xsize 720
@@ -22292,7 +22292,7 @@ screen quest0837():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log872")
+                    action ShowMenu("questlog",[2, 74026, 50, 74027, 74028, 74031, 74032, 74033, 74029])
         viewport:
             xpos 119
             xsize 720
@@ -22365,7 +22365,7 @@ screen quest0838():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log873")
+                    action ShowMenu("questlog",[2, 74051, 50, 74052, 74053, 74056, 74057, 74058, 74059, 74054])
         viewport:
             xpos 119
             xsize 720
@@ -22448,7 +22448,7 @@ screen quest0839():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log816")
+                    action ShowMenu("questlog",[1, 63876, 50, 63877, 63878, 63881, 63882, 63883, 63884, 63879])
         viewport:
             xpos 119
             xsize 720
@@ -22531,7 +22531,7 @@ screen quest0840():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log874")
+                    action ShowMenu("questlog",[2, 74076, 50, 74077, 74078, 74081, 74082, 74083, 74084, 74079])
         viewport:
             xpos 119
             xsize 720
@@ -22614,7 +22614,7 @@ screen quest0841():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log817")
+                    action ShowMenu("questlog",[1, 63901, 50, 63902, 63903, 63906, 63907, 63908, 63909, 63904])
         viewport:
             xpos 119
             xsize 720
@@ -22687,7 +22687,7 @@ screen quest0842():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log875")
+                    action ShowMenu("questlog",[2, 74101, 50, 74102, 74103, 74106, 74107, 74108, 74104])
         viewport:
             xpos 119
             xsize 720
@@ -22749,7 +22749,7 @@ screen quest0843():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log876")
+                    action ShowMenu("questlog",[2, 74126, 50, 74127, 74128, 74131, 74132, 74133, 74134, 74129])
         viewport:
             xpos 119
             xsize 720
@@ -22832,7 +22832,7 @@ screen quest0844():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log818")
+                    action ShowMenu("questlog",[1, 63926, 50, 63927, 63928, 63931, 63932, 63933, 63934, 63935, 63936, 63937, 63929])
         viewport:
             xpos 119
             xsize 720
@@ -22947,7 +22947,7 @@ screen quest0845():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log877")
+                    action ShowMenu("questlog",[2, 74151, 50, 74152, 74153, 74156, 74157, 74158, 74154])
         viewport:
             xpos 119
             xsize 720
@@ -23020,7 +23020,7 @@ screen quest0846():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log878")
+                    action ShowMenu("questlog",[2, 74176, 50, 74177, 74178, 74181, 74182, 74183, 74184, 74179])
         viewport:
             xpos 119
             xsize 720
@@ -23093,7 +23093,7 @@ screen quest0847():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log819")
+                    action ShowMenu("questlog",[1, 63951, 50, 63952, 63953, 63956, 63957, 63958, 63959, 63960, 63961, 63962, 63963, 63954])
         viewport:
             xpos 119
             xsize 720
@@ -23218,7 +23218,7 @@ screen quest0848():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log879")
+                    action ShowMenu("questlog",[2, 74201, 50, 74202, 74203, 74206, 74207, 74208, 74209, 74204])
         viewport:
             xpos 119
             xsize 720
@@ -23301,7 +23301,7 @@ screen quest0849():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log880")
+                    action ShowMenu("questlog",[2, 74226, 50, 74227, 74228, 74231, 74232, 74229])
         viewport:
             xpos 119
             xsize 720
@@ -23353,7 +23353,7 @@ screen quest0850():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log820")
+                    action ShowMenu("questlog",[1, 63976, 50, 63977, 63978, 63981, 63982, 63983, 63979])
         viewport:
             xpos 119
             xsize 720
@@ -23415,7 +23415,7 @@ screen quest0851():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log821")
+                    action ShowMenu("questlog",[1, 64001, 50, 64002, 64003, 64006, 64007, 64008, 64009, 64004])
         viewport:
             xpos 119
             xsize 720
@@ -23488,7 +23488,7 @@ screen quest0852():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log881")
+                    action ShowMenu("questlog",[2, 74251, 50, 74252, 74253, 74256, 74257, 74258, 74259, 74260, 74261, 74254])
         viewport:
             xpos 119
             xsize 720
@@ -23582,7 +23582,7 @@ screen quest0853():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log882")
+                    action ShowMenu("questlog",[2, 74276, 50, 74277, 74278, 74281, 74282, 74283, 74284, 74279])
         viewport:
             xpos 119
             xsize 720
@@ -23665,7 +23665,7 @@ screen quest0854():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log822")
+                    action ShowMenu("questlog",[1, 64026, 50, 64027, 64028, 64031, 64032, 64033, 64034, 64029])
         viewport:
             xpos 119
             xsize 720
@@ -23748,7 +23748,7 @@ screen quest0855():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log883")
+                    action ShowMenu("questlog",[2, 74301, 50, 74302, 74303, 74306, 74307, 74304])
         viewport:
             xpos 119
             xsize 720
@@ -23821,7 +23821,7 @@ screen quest0856():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log884")
+                    action ShowMenu("questlog",[2, 74326, 50, 74327, 74328, 74331, 74332, 74329])
         viewport:
             xpos 119
             xsize 720
@@ -23883,7 +23883,7 @@ screen quest0857():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log823")
+                    action ShowMenu("questlog",[1, 64051, 50, 64052, 64053, 64056, 64057, 64058, 64059, 64054])
         viewport:
             xpos 119
             xsize 720
@@ -23966,7 +23966,7 @@ screen quest0858():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log885")
+                    action ShowMenu("questlog",[2, 74351, 50, 74352, 74353, 74356, 74357, 74358, 74354])
         viewport:
             xpos 119
             xsize 720
@@ -24039,7 +24039,7 @@ screen quest0859():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log886")
+                    action ShowMenu("questlog",[2, 74376, 50, 74377, 74378, 74381, 74382, 74383, 74379])
         viewport:
             xpos 119
             xsize 720
@@ -24101,7 +24101,7 @@ screen quest0860():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log824")
+                    action ShowMenu("questlog",[1, 64076, 50, 64077, 64078, 64081, 64082, 64083, 64084, 64079])
         viewport:
             xpos 119
             xsize 720
@@ -24174,7 +24174,7 @@ screen quest0901():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log901")
+                    action ShowMenu("questlog",[1, 64501, 50, 64502, 64503, 64506, 64507, 64508, 64509, 64510, 64504])
         viewport:
             xpos 119
             xsize 720
@@ -24257,7 +24257,7 @@ screen quest0902():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log951")
+                    action ShowMenu("questlog",[2, 74526, 50, 74527, 74528, 74531, 74532, 74529])
         viewport:
             xpos 119
             xsize 720
@@ -24309,7 +24309,7 @@ screen quest0903():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log952")
+                    action ShowMenu("questlog",[2, 74551, 50, 74552, 74553, 74556, 74557, 74554])
         viewport:
             xpos 119
             xsize 720
@@ -24371,7 +24371,7 @@ screen quest0904():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log902")
+                    action ShowMenu("questlog",[1, 64526, 50, 64527, 64528, 64531, 64532, 64529])
         viewport:
             xpos 119
             xsize 720
@@ -24423,7 +24423,7 @@ screen quest0905():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log953")
+                    action ShowMenu("questlog",[2, 74576, 50, 74577, 74578, 74581, 74582, 74579])
         viewport:
             xpos 119
             xsize 720
@@ -24485,7 +24485,7 @@ screen quest0906():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log954")
+                    action ShowMenu("questlog",[2, 74601, 50, 74602, 74603, 74606, 74607, 74604])
         viewport:
             xpos 119
             xsize 720
@@ -24547,7 +24547,7 @@ screen quest0907():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log903")
+                    action ShowMenu("questlog",[1, 64551, 50, 64552, 64553, 64556, 64557, 64554])
         viewport:
             xpos 119
             xsize 720
@@ -24609,7 +24609,7 @@ screen quest0908():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log955")
+                    action ShowMenu("questlog",[2, 74626, 50, 74627, 74628, 74631, 74632, 74633, 74629])
         viewport:
             xpos 119
             xsize 720
@@ -24671,7 +24671,7 @@ screen quest0909():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log956")
+                    action ShowMenu("questlog",[2, 74651, 50, 74652, 74653, 74656, 74657, 74654])
         viewport:
             xpos 119
             xsize 720
@@ -24723,7 +24723,7 @@ screen quest0910():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log904")
+                    action ShowMenu("questlog",[1, 64576, 50, 64577, 64578, 64581, 64582, 64583, 64579])
         viewport:
             xpos 119
             xsize 720
@@ -24785,7 +24785,7 @@ screen quest0911():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log905")
+                    action ShowMenu("questlog",[1, 64601, 50, 64602, 64603, 64606, 64607, 64608, 64609, 64610, 64604])
         viewport:
             xpos 119
             xsize 720
@@ -24868,7 +24868,7 @@ screen quest0912():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log957")
+                    action ShowMenu("questlog",[2, 74676, 50, 74677, 74678, 74681, 74682, 74679])
         viewport:
             xpos 119
             xsize 720
@@ -24920,7 +24920,7 @@ screen quest0913():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log958")
+                    action ShowMenu("questlog",[2, 74701, 50, 74702, 74703, 74706, 74707, 74708, 74704])
         viewport:
             xpos 119
             xsize 720
@@ -24982,7 +24982,7 @@ screen quest0914():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log906")
+                    action ShowMenu("questlog",[1, 64626, 50, 64627, 64628, 64631, 64632, 64633, 64634, 64629])
         viewport:
             xpos 119
             xsize 720
@@ -25055,7 +25055,7 @@ screen quest0915():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log959")
+                    action ShowMenu("questlog",[2, 74726, 50, 74727, 74728, 74731, 74732, 74733, 74729])
         viewport:
             xpos 119
             xsize 720
@@ -25117,7 +25117,7 @@ screen quest0916():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log960")
+                    action ShowMenu("questlog",[2, 74751, 50, 74752, 74753, 74756, 74757, 74758, 74754])
         viewport:
             xpos 119
             xsize 720
@@ -25179,7 +25179,7 @@ screen quest0917():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log907")
+                    action ShowMenu("questlog",[1, 64651, 50, 64652, 64653, 64656, 64657, 64658, 64654])
         viewport:
             xpos 119
             xsize 720
@@ -25241,7 +25241,7 @@ screen quest0918():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log961")
+                    action ShowMenu("questlog",[2, 74776, 50, 74777, 74778, 74781, 74782, 74783, 74779])
         viewport:
             xpos 119
             xsize 720
@@ -25314,7 +25314,7 @@ screen quest0919():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log962")
+                    action ShowMenu("questlog",[2, 74801, 50, 74802, 74803, 74806, 74807, 74808, 74804])
         viewport:
             xpos 119
             xsize 720
@@ -25376,7 +25376,7 @@ screen quest0920():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log908")
+                    action ShowMenu("questlog",[1, 64676, 50, 64677, 64678, 64681, 64682, 64683, 64679])
         viewport:
             xpos 119
             xsize 720
@@ -25438,7 +25438,7 @@ screen quest0921():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log909")
+                    action ShowMenu("questlog",[1, 64701, 50, 64702, 64703, 64706, 64707, 64708, 64704])
         viewport:
             xpos 119
             xsize 720
@@ -25500,7 +25500,7 @@ screen quest0922():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log963")
+                    action ShowMenu("questlog",[2, 74826, 50, 74827, 74828, 74831, 74832, 74833, 74829])
         viewport:
             xpos 119
             xsize 720
@@ -25562,7 +25562,7 @@ screen quest0923():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log964")
+                    action ShowMenu("questlog",[2, 74851, 50, 74852, 74853, 74856, 74857, 74858, 74854])
         viewport:
             xpos 119
             xsize 720
@@ -25635,7 +25635,7 @@ screen quest0924():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log910")
+                    action ShowMenu("questlog",[1, 64726, 50, 64727, 64728, 64731, 64732, 64729])
         viewport:
             xpos 119
             xsize 720
@@ -25687,7 +25687,7 @@ screen quest0925():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log965")
+                    action ShowMenu("questlog",[2, 74876, 50, 74877, 74878, 74881, 74882, 74883, 74879])
         viewport:
             xpos 119
             xsize 720
@@ -25749,7 +25749,7 @@ screen quest0926():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log966")
+                    action ShowMenu("questlog",[2, 74901, 50, 74902, 74903, 74906, 74907, 74908, 74904])
         viewport:
             xpos 119
             xsize 720
@@ -25822,7 +25822,7 @@ screen quest0927():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log911")
+                    action ShowMenu("questlog",[1, 64751, 50, 64752, 64753, 64756, 64757, 64758, 64754])
         viewport:
             xpos 119
             xsize 720
@@ -25884,7 +25884,7 @@ screen quest0928():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log967")
+                    action ShowMenu("questlog",[2, 74926, 50, 74927, 74928, 74931, 74932, 74929])
         viewport:
             xpos 119
             xsize 720
@@ -25936,7 +25936,7 @@ screen quest0929():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log968")
+                    action ShowMenu("questlog",[2, 74951, 50, 74952, 74953, 74956, 74957, 74958, 74954])
         viewport:
             xpos 119
             xsize 720
@@ -26009,7 +26009,7 @@ screen quest0930():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log912")
+                    action ShowMenu("questlog",[1, 64776, 50, 64777, 64778, 64781, 64782, 64779])
         viewport:
             xpos 119
             xsize 720
@@ -26061,7 +26061,7 @@ screen quest0931():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log913")
+                    action ShowMenu("questlog",[1, 64801, 50, 64802, 64803, 64806, 64807, 64808, 64809, 64804])
         viewport:
             xpos 119
             xsize 720
@@ -26134,7 +26134,7 @@ screen quest0932():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log969")
+                    action ShowMenu("questlog",[2, 74976, 50, 74977, 74978, 74981, 74982, 74983, 74979])
         viewport:
             xpos 119
             xsize 720
@@ -26207,7 +26207,7 @@ screen quest0933():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log970")
+                    action ShowMenu("questlog",[2, 9005001, 50, 9005002, 9005003, 9005006, 9005007, 9005008, 9005004])
         viewport:
             xpos 119
             xsize 720
@@ -26280,7 +26280,7 @@ screen quest0934():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log914")
+                    action ShowMenu("questlog",[1, 64826, 50, 64827, 64828, 64831, 64832, 64833, 64829])
         viewport:
             xpos 119
             xsize 720
@@ -26342,7 +26342,7 @@ screen quest0935():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log971")
+                    action ShowMenu("questlog",[2, 9005026, 50, 9005027, 9005028, 9005031, 9005032, 9005033, 9005029])
         viewport:
             xpos 119
             xsize 720
@@ -26404,7 +26404,7 @@ screen quest0936():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log972")
+                    action ShowMenu("questlog",[2, 9005051, 50, 9005052, 9005053, 9005056, 9005057, 9005054])
         viewport:
             xpos 119
             xsize 720
@@ -26466,7 +26466,7 @@ screen quest0937():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log915")
+                    action ShowMenu("questlog",[1, 64851, 50, 64852, 64853, 64856, 64857, 64854])
         viewport:
             xpos 119
             xsize 720
@@ -26518,7 +26518,7 @@ screen quest0938():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log973")
+                    action ShowMenu("questlog",[2, 9005076, 50, 9005077, 9005078, 9005081, 9005082, 9005079])
         viewport:
             xpos 119
             xsize 720
@@ -26570,7 +26570,7 @@ screen quest0939():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log974")
+                    action ShowMenu("questlog",[2, 9005101, 50, 9005102, 9005103, 9005106, 9005107, 9005104])
         viewport:
             xpos 119
             xsize 720
@@ -26622,7 +26622,7 @@ screen quest0940():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log916")
+                    action ShowMenu("questlog",[1, 64876, 50, 64877, 64878, 64881, 64882, 64883, 64879])
         viewport:
             xpos 119
             xsize 720
@@ -26684,7 +26684,7 @@ screen quest0941():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log917")
+                    action ShowMenu("questlog",[1, 64901, 50, 64902, 64903, 64906, 64907, 64908, 64909, 64904])
         viewport:
             xpos 119
             xsize 720
@@ -26757,7 +26757,7 @@ screen quest0942():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log975")
+                    action ShowMenu("questlog",[2, 9005126, 50, 9005127, 9005128, 9005131, 9005132, 9005129])
         viewport:
             xpos 119
             xsize 720
@@ -26819,7 +26819,7 @@ screen quest0943():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log976")
+                    action ShowMenu("questlog",[2, 9005151, 50, 9005152, 9005153, 9005156, 9005157, 9005154])
         viewport:
             xpos 119
             xsize 720
@@ -26871,7 +26871,7 @@ screen quest0944():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log977")
+                    action ShowMenu("questlog",[2, 9005176, 50, 9005177, 9005178, 9005181, 9005182, 9005183, 9005179])
         viewport:
             xpos 119
             xsize 720
@@ -26933,7 +26933,7 @@ screen quest0945():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log918")
+                    action ShowMenu("questlog",[1, 64926, 50, 64927, 64928, 64931, 64932, 64933, 64929])
         viewport:
             xpos 119
             xsize 720
@@ -26995,7 +26995,7 @@ screen quest0946():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log978")
+                    action ShowMenu("questlog",[2, 9005201, 50, 9005202, 9005203, 9005206, 9005207, 9005208, 9005204])
         viewport:
             xpos 119
             xsize 720
@@ -27068,7 +27068,7 @@ screen quest0947():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log919")
+                    action ShowMenu("questlog",[1, 64951, 50, 64952, 64953, 64956, 64957, 64958, 64954])
         viewport:
             xpos 119
             xsize 720
@@ -27141,7 +27141,7 @@ screen quest0948():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log920")
+                    action ShowMenu("questlog",[1, 64976, 50, 64977, 64978, 64981, 64982, 64983, 64979])
         viewport:
             xpos 119
             xsize 720
@@ -27203,7 +27203,7 @@ screen quest0949():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log979")
+                    action ShowMenu("questlog",[2, 9005226, 50, 9005227, 9005228, 9005231, 9005232, 9005229])
         viewport:
             xpos 119
             xsize 720
@@ -27265,7 +27265,7 @@ screen quest0950():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log980")
+                    action ShowMenu("questlog",[2, 9005251, 50, 9005252, 9005253, 9005256, 9005257, 9005258, 9005254])
         viewport:
             xpos 119
             xsize 720
@@ -27338,7 +27338,7 @@ screen quest0951():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log921")
+                    action ShowMenu("questlog",[1, 65001, 50, 65002, 65003, 65006, 65007, 65008, 65009, 65004])
         viewport:
             xpos 119
             xsize 720
@@ -27411,7 +27411,7 @@ screen quest0952():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log981")
+                    action ShowMenu("questlog",[2, 9005276, 50, 9005277, 9005278, 9005281, 9005282, 9005279])
         viewport:
             xpos 119
             xsize 720
@@ -27463,7 +27463,7 @@ screen quest0953():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log982")
+                    action ShowMenu("questlog",[2, 9005301, 50, 9005302, 9005303, 9005306, 9005307, 9005304])
         viewport:
             xpos 119
             xsize 720
@@ -27515,7 +27515,7 @@ screen quest0954():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log983")
+                    action ShowMenu("questlog",[2, 9005326, 50, 9005327, 9005328, 9005331, 9005332, 9005329])
         viewport:
             xpos 119
             xsize 720
@@ -27567,7 +27567,7 @@ screen quest0955():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log984")
+                    action ShowMenu("questlog",[2, 9005351, 50, 9005352, 9005353, 9005356, 9005357, 9005354])
         viewport:
             xpos 119
             xsize 720
@@ -27619,7 +27619,7 @@ screen quest0956():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log985")
+                    action ShowMenu("questlog",[2, 9005376, 50, 9005377, 9005378, 9005381, 9005382, 9005379])
         viewport:
             xpos 119
             xsize 720
@@ -27671,7 +27671,7 @@ screen quest0957():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log986")
+                    action ShowMenu("questlog",[2, 9005401, 50, 9005402, 9005403, 9005406, 9005407, 9005404])
         viewport:
             xpos 119
             xsize 720
@@ -27723,7 +27723,7 @@ screen quest0958():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log922")
+                    action ShowMenu("questlog",[1, 65026, 50, 65027, 65028, 65031, 65032, 65033, 65029])
         viewport:
             xpos 119
             xsize 720
@@ -27796,7 +27796,7 @@ screen quest0959():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log923")
+                    action ShowMenu("questlog",[1, 65051, 50, 65052, 65053, 65056, 65057, 65058, 65059, 65054])
         viewport:
             xpos 119
             xsize 720
@@ -27900,7 +27900,7 @@ screen quest0960():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log924")
+                    action ShowMenu("questlog",[1, 65076, 50, 65077, 65078, 65081, 65082, 65079])
         viewport:
             xpos 119
             xsize 720
@@ -27962,7 +27962,7 @@ screen quest1001():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log925")
+                    action ShowMenu("questlog",[1, 65101, 50, 65102, 65103, 65106, 65107, 65104])
         viewport:
             xpos 119
             xsize 720
@@ -28014,7 +28014,7 @@ screen quest1002():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log926")
+                    action ShowMenu("questlog",[1, 65126, 50, 65127, 65128, 65131, 65132, 65129])
         viewport:
             xpos 119
             xsize 720
@@ -28066,7 +28066,7 @@ screen quest1003():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log927")
+                    action ShowMenu("questlog",[1, 65151, 50, 65152, 65153, 65156, 65157, 65154])
         viewport:
             xpos 119
             xsize 720
@@ -28118,7 +28118,7 @@ screen quest1004():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log928")
+                    action ShowMenu("questlog",[1, 65176, 50, 65177, 65178, 65181, 65182, 65179])
         viewport:
             xpos 119
             xsize 720
@@ -28170,7 +28170,7 @@ screen quest1005():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log929")
+                    action ShowMenu("questlog",[1, 65201, 50, 65202, 65203, 65206, 65207, 65204])
         viewport:
             xpos 119
             xsize 720
@@ -28222,7 +28222,7 @@ screen quest1006():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log930")
+                    action ShowMenu("questlog",[1, 65226, 50, 65227, 65228, 65231, 65232, 65229])
         viewport:
             xpos 119
             xsize 720
@@ -28274,7 +28274,7 @@ screen quest1007():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log931")
+                    action ShowMenu("questlog",[1, 65251, 50, 65252, 65253, 65256, 65257, 65254])
         viewport:
             xpos 119
             xsize 720
@@ -28326,7 +28326,7 @@ screen quest1008():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log932")
+                    action ShowMenu("questlog",[1, 65276, 50, 65277, 65278, 65281, 65282, 65279])
         viewport:
             xpos 119
             xsize 720
@@ -28904,28 +28904,28 @@ screen quest1201():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5011")
+                    action ShowMenu("questlog",[2, 90101, 10, 90102, 90104, 90105, 90106, 90110])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5014")
+                    action ShowMenu("questlog",[2, 90131, 10, 90132, 90134, 90135, 90136, 90140])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5013")
+                    action ShowMenu("questlog",[2, 90121, 10, 90122, 90124, 90125, 90126, 90130])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 4":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5012")
+                    action ShowMenu("questlog",[2, 90111, 10, 90112, 90114, 90115, 90116, 90120])
         viewport:
             xpos 119
             xsize 720
@@ -29355,21 +29355,21 @@ screen quest1202():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5001")
+                    action ShowMenu("questlog",[2, 90001, 10, 90002, 90004, 90005, 90006, 90010])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5002")
+                    action ShowMenu("questlog",[2, 90011, 15, 90012, 90014, 90015, 90016, 90020])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5003")
+                    action ShowMenu("questlog",[2, 90021, 20, 90022, 90024, 90025, 90026, 90030])
         viewport:
             xpos 119
             xsize 720
@@ -29484,7 +29484,7 @@ screen quest1203():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5004")
+                    action ShowMenu("questlog",[2, 90031, 25, 90032, 90034, 90035, 90036, 90037, 90038, 90040])
         viewport:
             xpos 119
             xsize 720
@@ -29567,7 +29567,7 @@ screen quest1204():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5005")
+                    action ShowMenu("questlog",[2, 90041, 15, 90042, 90044, 90045, 90046, 90047, 90048, 90049, 90050, 90040])
         viewport:
             xpos 119
             xsize 720
@@ -29828,28 +29828,28 @@ screen quest1206():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5007")
+                    action ShowMenu("questlog",[2, 90061, 10, 90062, 90064, 90065, 90066, 90070])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5008")
+                    action ShowMenu("questlog",[2, 90071, 10, 90072, 90074, 90075, 90076, 90080])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5009")
+                    action ShowMenu("questlog",[2, 90081, 10, 90082, 90084, 90085, 90086, 90090])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 4":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5010")
+                    action ShowMenu("questlog",[2, 90091, 10, 90092, 90094, 90095, 90096, 90100])
         viewport:
             xpos 119
             xsize 720
@@ -30201,14 +30201,14 @@ screen quest1210():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5015")
+                    action ShowMenu("questlog",[2, 90141, 10, 90142, 90144, 90145, 90146, 90147, 90148, 90149, 90150, 90151, 90152, 90153, 90154, 90155, 90157])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5016")
+                    action ShowMenu("questlog",[2, 90161, 10, 90162, 90164, 90165, 90166, 90167, 90168, 90169, 90170, 90171, 90172, 90173, 90175])
         viewport:
             xpos 119
             xsize 720
@@ -30438,28 +30438,28 @@ screen quest1211():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5017")
+                    action ShowMenu("questlog",[2, 90181, 10, 90182, 90184, 90185, 90186, 90187, 90188, 90190])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5018")
+                    action ShowMenu("questlog",[2, 90191, 10, 90192, 90194, 90195, 90196, 90197, 90198, 90200])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5019")
+                    action ShowMenu("questlog",[2, 90201, 10, 90202, 90204, 90205, 90206, 90207, 90208, 90210])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 4":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5020")
+                    action ShowMenu("questlog",[2, 90211, 10, 90212, 90214, 90215, 90216, 90217, 90218, 90220])
         viewport:
             xpos 119
             xsize 720
@@ -30626,7 +30626,7 @@ screen quest1212():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log5021")
+                    action ShowMenu("questlog",[2, 90221, 10, 90222, 90224, 90225, 90226, 90228])
         viewport:
             xpos 119
             xsize 720
@@ -31487,7 +31487,7 @@ screen quest1301():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10501")
+                    action ShowMenu("questlog",[2, 16501, 3, 16502, 16503, 16506, 16507, 16504])
         viewport:
             xpos 119
             xsize 720
@@ -31570,7 +31570,7 @@ screen quest1302():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10502")
+                    action ShowMenu("questlog",[2, 16511, 6, 16512, 16513, 16516, 16517, 16514])
         viewport:
             xpos 119
             xsize 720
@@ -31664,7 +31664,7 @@ screen quest1303():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10503")
+                    action ShowMenu("questlog",[2, 16521, 9, 16522, 16523, 16526, 16527, 16524])
         viewport:
             xpos 119
             xsize 720
@@ -31768,7 +31768,7 @@ screen quest1304():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10504")
+                    action ShowMenu("questlog",[2, 16531, 12, 16532, 16533, 16536, 16537, 16534])
         viewport:
             xpos 119
             xsize 720
@@ -31862,7 +31862,7 @@ screen quest1305():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10505")
+                    action ShowMenu("questlog",[2, 16541, 15, 16542, 16543, 16546, 16547, 16544])
         viewport:
             xpos 119
             xsize 720
@@ -31914,7 +31914,7 @@ screen quest1306():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10506")
+                    action ShowMenu("questlog",[2, 16551, 16, 16552, 16553, 16556, 16557, 16554])
         viewport:
             xpos 119
             xsize 720
@@ -31966,7 +31966,7 @@ screen quest1307():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10507")
+                    action ShowMenu("questlog",[2, 16561, 18, 16562, 16563, 16566, 16567, 16564])
         viewport:
             xpos 119
             xsize 720
@@ -32039,7 +32039,7 @@ screen quest1308():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10508")
+                    action ShowMenu("questlog",[2, 16571, 20, 16572, 16573, 16576, 16577, 16574])
         viewport:
             xpos 119
             xsize 720
@@ -32122,7 +32122,7 @@ screen quest1309():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10509")
+                    action ShowMenu("questlog",[2, 16581, 21, 16582, 16583, 16586, 16587, 16584])
         viewport:
             xpos 119
             xsize 720
@@ -32237,7 +32237,7 @@ screen quest1310():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10510")
+                    action ShowMenu("questlog",[2, 16591, 24, 16592, 16593, 16596, 16597, 16594])
         viewport:
             xpos 119
             xsize 720
@@ -32320,7 +32320,7 @@ screen quest1311():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10511")
+                    action ShowMenu("questlog",[2, 16601, 26, 16602, 16603, 16606, 16607, 16604])
         viewport:
             xpos 119
             xsize 720
@@ -32372,7 +32372,7 @@ screen quest1312():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10512")
+                    action ShowMenu("questlog",[2, 16611, 27, 16612, 16613, 16616, 16617, 16614])
         viewport:
             xpos 119
             xsize 720
@@ -32424,7 +32424,7 @@ screen quest1313():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10513")
+                    action ShowMenu("questlog",[2, 16621, 30, 16622, 16623, 16626, 16627, 16624])
         viewport:
             xpos 119
             xsize 720
@@ -32476,7 +32476,7 @@ screen quest1314():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10514")
+                    action ShowMenu("questlog",[2, 16631, 32, 16632, 16633, 16636, 16637, 16634])
         viewport:
             xpos 119
             xsize 720
@@ -32528,7 +32528,7 @@ screen quest1315():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10515")
+                    action ShowMenu("questlog",[2, 16641, 36, 16642, 16643, 16646, 16647, 16644])
         viewport:
             xpos 119
             xsize 720
@@ -32580,7 +32580,7 @@ screen quest1316():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10516")
+                    action ShowMenu("questlog",[2, 16651, 38, 16652, 16653, 16656, 16657, 16654])
         viewport:
             xpos 119
             xsize 720
@@ -32632,7 +32632,7 @@ screen quest1317():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10517")
+                    action ShowMenu("questlog",[2, 16661, 44, 16662, 16663, 16666, 16667, 16664])
         viewport:
             xpos 119
             xsize 720
@@ -32726,7 +32726,7 @@ screen quest1318():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10519")
+                    action ShowMenu("questlog",[2, 16681, 48, 16682, 16683, 16686, 16687, 16684])
         viewport:
             xpos 119
             xsize 720
@@ -32778,7 +32778,7 @@ screen quest1319():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10520")
+                    action ShowMenu("questlog",[2, 16691, 53, 16692, 16693, 16696, 16697, 16694])
         viewport:
             xpos 119
             xsize 720
@@ -32830,7 +32830,7 @@ screen quest1320():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log10521")
+                    action ShowMenu("questlog",[2, 16701, 55, 16702, 16703, 16706, 16707, 16704])
         viewport:
             xpos 119
             xsize 720
@@ -32885,182 +32885,182 @@ screen quest1401():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20001")
+                    action ShowMenu("questlog",[16, 13001, 4, 13002, 13004, 13007, 13005])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20002")
+                    action ShowMenu("questlog",[16, 13011, 8, 13012, 13014, 13017, 13015])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20003")
+                    action ShowMenu("questlog",[16, 13021, 12, 13022, 13024, 13027, 13025])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 4":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20004")
+                    action ShowMenu("questlog",[16, 13031, 16, 13032, 13034, 13037, 13035])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 5":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20005")
+                    action ShowMenu("questlog",[16, 13041, 17, 13042, 13044, 13047, 13045])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 6":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20006")
+                    action ShowMenu("questlog",[16, 13051, 18, 13052, 13054, 13057, 13055])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 7":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20007")
+                    action ShowMenu("questlog",[16, 13061, 22, 13062, 13064, 13067, 13065])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 8":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20008")
+                    action ShowMenu("questlog",[16, 13071, 24, 13072, 13074, 13077, 13075])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 9":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20009")
+                    action ShowMenu("questlog",[16, 13081, 26, 13082, 13084, 13087, 13085])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 10":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20010")
+                    action ShowMenu("questlog",[16, 13091, 30, 13092, 13094, 13097, 13095])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 11":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20011")
+                    action ShowMenu("questlog",[16, 13101, 31, 13102, 13104, 13107, 13105])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 12":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20012")
+                    action ShowMenu("questlog",[16, 13111, 34, 13112, 13114, 13117, 13115])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 13":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20013")
+                    action ShowMenu("questlog",[16, 13121, 36, 13122, 13124, 13127, 13125])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 14":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20014")
+                    action ShowMenu("questlog",[16, 13131, 38, 13132, 13134, 13137, 13135])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 15":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20015")
+                    action ShowMenu("questlog",[16, 13141, 43, 13142, 13144, 13147, 13145])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 16":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20016")
+                    action ShowMenu("questlog",[16, 13151, 50, 13152, 13154, 13157, 13155])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 17":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20017")
+                    action ShowMenu("questlog",[16, 13161, 46, 13162, 13164, 13167, 13165])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 18":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20019")
+                    action ShowMenu("questlog",[16, 13181, 52, 13102, 13184, 13187, 13185])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 19":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20020")
+                    action ShowMenu("questlog",[16, 13191, 58, 13102, 13194, 13197, 13195])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 20":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20021")
+                    action ShowMenu("questlog",[16, 13201, 63, 13102, 13204, 13207, 13205])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 21":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20022")
+                    action ShowMenu("questlog",[16, 13211, 63, 13102, 13214, 13217, 13215])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 22":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20023")
+                    action ShowMenu("questlog",[16, 13221, 77, 13102, 13224, 13227, 13225])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 23":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20024")
+                    action ShowMenu("questlog",[16, 13231, 77, 13102, 13234, 13237, 13235])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 24":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20025")
+                    action ShowMenu("questlog",[16, 13241, 86, 13102, 13244, 13247, 13245])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 25":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20026")
+                    action ShowMenu("questlog",[16, 13251, 86, 13102, 13254, 13257, 13255])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 26":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20027")
+                    action ShowMenu("questlog",[16, 13261, 101, 13102, 13264, 13267, 13265])
         viewport:
             xpos 119
             xsize 720
@@ -33112,21 +33112,21 @@ screen quest1402():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20509")
+                    action ShowMenu("questlog",[16, 13581, 10, 13582, 13583, 13586, 13587, 13584])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20548")
+                    action ShowMenu("questlog",[16, 13971, 101, 13972, 13973, 13976, 13977, 13974])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20510")
+                    action ShowMenu("questlog",[16, 13591, 999, 13592, 13593, 13596, 13597, 13594])
         viewport:
             xpos 119
             xsize 720
@@ -33199,21 +33199,21 @@ screen quest1403():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20503")
+                    action ShowMenu("questlog",[16, 13521, 26, 13522, 13523, 13526, 13527, 13524])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20543")
+                    action ShowMenu("questlog",[16, 13921, 67, 13922, 13923, 13926, 13927, 13924])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20504")
+                    action ShowMenu("questlog",[16, 13531, 999, 13532, 13533, 13536, 13537, 13534])
         viewport:
             xpos 119
             xsize 720
@@ -33307,14 +33307,14 @@ screen quest1404():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20505")
+                    action ShowMenu("questlog",[16, 13541, 14, 13542, 13543, 13546, 13547, 13544])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20506")
+                    action ShowMenu("questlog",[16, 13551, 34, 13552, 13553, 13556, 13557, 13554])
         viewport:
             xpos 119
             xsize 720
@@ -33397,21 +33397,21 @@ screen quest1405():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20507")
+                    action ShowMenu("questlog",[16, 13561, 26, 13562, 13563, 13566, 13567, 13564])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20546")
+                    action ShowMenu("questlog",[16, 13951, 81, 13952, 13953, 13956, 13957, 13954])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20508")
+                    action ShowMenu("questlog",[16, 13571, 999, 13572, 13573, 13576, 13577, 13578, 13574])
         viewport:
             xpos 119
             xsize 720
@@ -33515,21 +33515,21 @@ screen quest1406():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20501")
+                    action ShowMenu("questlog",[16, 13501, 6, 13502, 13503, 13506, 13507, 13504])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20542")
+                    action ShowMenu("questlog",[16, 13911, 66, 13912, 13913, 13916, 13917, 13914])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20502")
+                    action ShowMenu("questlog",[16, 13511, 999, 13512, 13513, 13516, 13517, 13514])
         viewport:
             xpos 119
             xsize 720
@@ -33623,21 +33623,21 @@ screen quest1407():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20511")
+                    action ShowMenu("questlog",[16, 13601, 10, 13602, 13603, 13606, 13607, 13604])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20512")
+                    action ShowMenu("questlog",[16, 13611, 18, 13612, 13613, 13616, 13617, 13614])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20539")
+                    action ShowMenu("questlog",[16, 13881, 52, 13882, 13883, 13886, 13887, 13884])
         viewport:
             xpos 119
             xsize 720
@@ -33741,21 +33741,21 @@ screen quest1408():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20513")
+                    action ShowMenu("questlog",[16, 13621, 14, 13622, 13623, 13626, 13627, 13624])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20514")
+                    action ShowMenu("questlog",[16, 13631, 22, 13632, 13633, 13636, 13637, 13634])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20540")
+                    action ShowMenu("questlog",[16, 13891, 52, 13892, 13893, 13896, 13897, 13894])
         viewport:
             xpos 119
             xsize 720
@@ -33859,21 +33859,21 @@ screen quest1409():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20515")
+                    action ShowMenu("questlog",[16, 13641, 6, 13642, 13643, 13646, 13647, 13644])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20516")
+                    action ShowMenu("questlog",[16, 13651, 18, 13652, 13653, 13656, 13657, 13658, 13654])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20541")
+                    action ShowMenu("questlog",[16, 13901, 58, 13902, 13903, 13906, 13907, 13904])
         viewport:
             xpos 119
             xsize 720
@@ -33977,21 +33977,21 @@ screen quest1410():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20517")
+                    action ShowMenu("questlog",[16, 13661, 22, 13662, 13663, 13666, 13667, 13664])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20544")
+                    action ShowMenu("questlog",[16, 13931, 72, 13932, 13933, 13936, 13937, 13934])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20518")
+                    action ShowMenu("questlog",[16, 13671, 999, 13672, 13673, 13676, 13677, 13678, 13679, 13674])
         viewport:
             xpos 119
             xsize 720
@@ -34116,14 +34116,14 @@ screen quest1411():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20520")
+                    action ShowMenu("questlog",[16, 13691, 30, 13692, 13693, 13696, 13697, 13698, 13694])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20519")
+                    action ShowMenu("questlog",[16, 13681, 38, 13682, 13683, 13686, 13687, 13684])
         viewport:
             xpos 119
             xsize 720
@@ -34206,14 +34206,14 @@ screen quest1412():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20521")
+                    action ShowMenu("questlog",[16, 13701, 30, 13702, 13703, 13706, 13707, 13704])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20522")
+                    action ShowMenu("questlog",[16, 13711, 42, 13712, 13713, 13716, 13717, 13714])
         viewport:
             xpos 119
             xsize 720
@@ -34296,14 +34296,14 @@ screen quest1413():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20523")
+                    action ShowMenu("questlog",[16, 13721, 999, 13722, 13723, 13726, 13727, 13724])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20524")
+                    action ShowMenu("questlog",[16, 13731, 999, 13732, 13733, 13736, 13737, 13738, 13739, 13734])
         viewport:
             xpos 119
             xsize 720
@@ -34397,21 +34397,21 @@ screen quest1414():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20525")
+                    action ShowMenu("questlog",[16, 13741, 34, 13742, 13743, 13746, 13747, 13744])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20526")
+                    action ShowMenu("questlog",[16, 13751, 38, 13752, 13753, 13756, 13757, 13754])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20547")
+                    action ShowMenu("questlog",[16, 13961, 86, 13962, 13963, 13966, 13967, 13964])
         viewport:
             xpos 119
             xsize 720
@@ -34515,28 +34515,28 @@ screen quest1415():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20545")
+                    action ShowMenu("questlog",[16, 13941, 80, 13942, 13943, 13946, 13947, 13944])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20549")
+                    action ShowMenu("questlog",[16, 13981, 101, 13982, 13983, 13986, 13987, 13984])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 3":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20527")
+                    action ShowMenu("questlog",[16, 13761, 999, 13762, 13763, 13766, 13767, 13764])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 4":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20528")
+                    action ShowMenu("questlog",[16, 13771, 999, 13772, 13773, 13776, 13777, 13774])
         viewport:
             xpos 119
             xsize 720
@@ -34661,14 +34661,14 @@ screen quest1416():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20529")
+                    action ShowMenu("questlog",[16, 13781, 999, 13782, 13783, 13786, 13787, 13784])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20530")
+                    action ShowMenu("questlog",[16, 13791, 999, 13792, 13793, 13796, 13797, 13794])
         viewport:
             xpos 119
             xsize 720
@@ -34751,14 +34751,14 @@ screen quest1417():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20531")
+                    action ShowMenu("questlog",[16, 13801, 999, 13802, 13803, 13806, 13807, 13804])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20532")
+                    action ShowMenu("questlog",[16, 13811, 999, 13812, 13813, 13816, 13817, 13814])
         viewport:
             xpos 119
             xsize 720
@@ -34831,14 +34831,14 @@ screen quest1418():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20533")
+                    action ShowMenu("questlog",[16, 13821, 999, 13822, 13823, 13826, 13827, 13824])
                 button:
                     xysize(94,37)
                     background Frame("backbutton", 16, 16)
                     text "Log 2":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log20534")
+                    action ShowMenu("questlog",[16, 13831, 999, 13832, 13833, 13836, 13837, 13838, 13834])
         viewport:
             xpos 119
             xsize 720
@@ -35167,7 +35167,7 @@ screen quest1502():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log262")
+                    action ShowMenu("questlog",[2, 70776, 18, 70777, 70778, 70781, 70782, 70783, 70784, 70785, 70786, 70779])
         viewport:
             xpos 119
             xsize 720
@@ -35261,7 +35261,7 @@ screen quest1503():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log359")
+                    action ShowMenu("questlog",[2, 71201, 999, 71202, 71203, 71206, 71207, 71204])
         viewport:
             xpos 119
             xsize 720
@@ -35323,7 +35323,7 @@ screen quest1504():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log360")
+                    action ShowMenu("questlog",[2, 71226, 999, 71227, 71228, 71231, 71232, 71233, 71234, 71235, 71229])
         viewport:
             xpos 119
             xsize 720
@@ -35406,7 +35406,7 @@ screen quest1505():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6001")
+                    action ShowMenu("questlog",[0, 14039, 999, 14040, 14041, 14044, 14045, 14046, 14047, 14042])
         viewport:
             xpos 119
             xsize 720
@@ -35531,7 +35531,7 @@ screen quest1506():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6002")
+                    action ShowMenu("questlog",[0, 14048, 999, 14049, 14050, 14053, 14054, 14055, 14056, 14051])
         viewport:
             xpos 119
             xsize 720
@@ -35625,7 +35625,7 @@ screen quest1507():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6003")
+                    action ShowMenu("questlog",[0, 14057, 999, 14058, 14059, 14062, 14060])
         viewport:
             xpos 119
             xsize 720
@@ -35698,7 +35698,7 @@ screen quest1508():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6004")
+                    action ShowMenu("questlog",[0, 14063, 999, 14064, 14065, 14068, 14069, 14070, 14066])
         viewport:
             xpos 119
             xsize 720
@@ -35792,7 +35792,7 @@ screen quest1509():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6005")
+                    action ShowMenu("questlog",[0, 14071, 999, 14072, 14073, 14076, 14077, 14078, 14074])
         viewport:
             xpos 119
             xsize 720
@@ -35886,7 +35886,7 @@ screen quest1510():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6006")
+                    action ShowMenu("questlog",[0, 14079, 999, 14080, 14081, 14084, 14085, 14082])
         viewport:
             xpos 119
             xsize 720
@@ -35969,7 +35969,7 @@ screen quest1511():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6007")
+                    action ShowMenu("questlog",[0, 14086, 999, 14087, 14088, 14091, 14092, 14093, 14094, 14089])
         viewport:
             xpos 119
             xsize 720
@@ -36073,7 +36073,7 @@ screen quest1512():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6008")
+                    action ShowMenu("questlog",[0, 14095, 999, 14096, 14097, 14100, 14101, 14098])
         viewport:
             xpos 119
             xsize 720
@@ -36146,7 +36146,7 @@ screen quest1513():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6009")
+                    action ShowMenu("questlog",[0, 14102, 999, 14103, 14104, 14107, 14108, 14109, 14105])
         viewport:
             xpos 119
             xsize 720
@@ -36229,7 +36229,7 @@ screen quest1514():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6010")
+                    action ShowMenu("questlog",[0, 14110, 999, 14111, 14112, 14115, 14116, 14113])
         viewport:
             xpos 119
             xsize 720
@@ -36312,7 +36312,7 @@ screen quest1515():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6011")
+                    action ShowMenu("questlog",[0, 14117, 999, 14118, 14119, 14122, 14123, 14124, 14125, 14120])
         viewport:
             xpos 119
             xsize 720
@@ -36406,7 +36406,7 @@ screen quest1516():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6012")
+                    action ShowMenu("questlog",[0, 14126, 999, 14127, 14128, 14131, 14132, 14133, 14129])
         viewport:
             xpos 119
             xsize 720
@@ -36500,7 +36500,7 @@ screen quest1517():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6013")
+                    action ShowMenu("questlog",[0, 14134, 999, 14135, 14136, 14139, 14140, 14141, 14142, 14137])
         viewport:
             xpos 119
             xsize 720
@@ -36625,7 +36625,7 @@ screen quest1518():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6014")
+                    action ShowMenu("questlog",[0, 14143, 999, 14144, 14145, 14148, 14149, 14146])
         viewport:
             xpos 119
             xsize 720
@@ -36708,7 +36708,7 @@ screen quest1519():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6015")
+                    action ShowMenu("questlog",[0, 14150, 999, 14151, 14152, 14155, 14156, 14157, 14158, 14153])
         viewport:
             xpos 119
             xsize 720
@@ -36802,7 +36802,7 @@ screen quest1520():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6016")
+                    action ShowMenu("questlog",[0, 14159, 999, 14160, 14161, 14164, 14165, 14162])
         viewport:
             xpos 119
             xsize 720
@@ -36885,7 +36885,7 @@ screen quest1521():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6017")
+                    action ShowMenu("questlog",[0, 14166, 999, 14167, 14168, 14171, 14172, 14173, 14169])
         viewport:
             xpos 119
             xsize 720
@@ -36947,7 +36947,7 @@ screen quest1522():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6018")
+                    action ShowMenu("questlog",[0, 14174, 999, 14175, 14176, 14179, 14180, 14181, 14177])
         viewport:
             xpos 119
             xsize 720
@@ -37030,7 +37030,7 @@ screen quest1523():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6019")
+                    action ShowMenu("questlog",[0, 14182, 999, 14183, 14184, 14187, 14188, 14185])
         viewport:
             xpos 119
             xsize 720
@@ -37103,7 +37103,7 @@ screen quest1524():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6020")
+                    action ShowMenu("questlog",[0, 14189, 999, 14190, 14191, 14194, 14195, 14196, 14192])
         viewport:
             xpos 119
             xsize 720
@@ -37186,7 +37186,7 @@ screen quest1525():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6021")
+                    action ShowMenu("questlog",[0, 14197, 999, 14198, 14199, 14202, 14203, 14204, 14200])
         viewport:
             xpos 119
             xsize 720
@@ -37269,7 +37269,7 @@ screen quest1526():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6022")
+                    action ShowMenu("questlog",[0, 14205, 999, 14206, 14207, 14210, 14211, 14208])
         viewport:
             xpos 119
             xsize 720
@@ -37352,7 +37352,7 @@ screen quest1527():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6023")
+                    action ShowMenu("questlog",[0, 14212, 999, 14213, 14214, 14217, 14218, 14215])
         viewport:
             xpos 119
             xsize 720
@@ -37425,7 +37425,7 @@ screen quest1528():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6024")
+                    action ShowMenu("questlog",[0, 14219, 999, 14220, 14221, 14224, 14225, 14226, 14222])
         viewport:
             xpos 119
             xsize 720
@@ -37498,7 +37498,7 @@ screen quest1529():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6025")
+                    action ShowMenu("questlog",[0, 14227, 999, 14228, 14229, 14232, 14233, 14230])
         viewport:
             xpos 119
             xsize 720
@@ -37571,7 +37571,7 @@ screen quest1530():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6026")
+                    action ShowMenu("questlog",[0, 14234, 999, 14235, 14236, 14239, 14237])
         viewport:
             xpos 119
             xsize 720
@@ -37623,7 +37623,7 @@ screen quest1531():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6027")
+                    action ShowMenu("questlog",[0, 14240, 999, 14241, 14242, 14245, 14246, 14243])
         viewport:
             xpos 119
             xsize 720
@@ -37706,7 +37706,7 @@ screen quest1532():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6028")
+                    action ShowMenu("questlog",[0, 14247, 999, 14248, 14249, 14252, 14253, 14254, 14255, 14250])
         viewport:
             xpos 119
             xsize 720
@@ -37789,7 +37789,7 @@ screen quest1533():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6029")
+                    action ShowMenu("questlog",[0, 14256, 999, 14257, 14258, 14261, 14259])
         viewport:
             xpos 119
             xsize 720
@@ -37872,7 +37872,7 @@ screen quest1534():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6030")
+                    action ShowMenu("questlog",[0, 14262, 999, 14263, 14264, 14267, 14265])
         viewport:
             xpos 119
             xsize 720
@@ -37945,7 +37945,7 @@ screen quest1535():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6031")
+                    action ShowMenu("questlog",[0, 14268, 999, 14269, 14270, 14273, 14271])
         viewport:
             xpos 119
             xsize 720
@@ -38007,7 +38007,7 @@ screen quest1536():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6032")
+                    action ShowMenu("questlog",[0, 14274, 999, 14275, 14276, 14279, 14280, 14281, 14277])
         viewport:
             xpos 119
             xsize 720
@@ -38090,7 +38090,7 @@ screen quest1537():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6033")
+                    action ShowMenu("questlog",[0, 14282, 999, 14283, 14284, 14287, 14288, 14289, 14285])
         viewport:
             xpos 119
             xsize 720
@@ -38184,7 +38184,7 @@ screen quest1538():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6034")
+                    action ShowMenu("questlog",[0, 14290, 999, 14291, 14292, 14295, 14296, 14297, 14298, 14293])
         viewport:
             xpos 119
             xsize 720
@@ -38278,7 +38278,7 @@ screen quest1539():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6035")
+                    action ShowMenu("questlog",[0, 14299, 999, 14300, 14301, 14304, 14305, 14306, 14302])
         viewport:
             xpos 119
             xsize 720
@@ -38351,7 +38351,7 @@ screen quest1540():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6036")
+                    action ShowMenu("questlog",[0, 14307, 999, 14308, 14309, 14312, 14313, 14310])
         viewport:
             xpos 119
             xsize 720
@@ -38424,7 +38424,7 @@ screen quest1541():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6037")
+                    action ShowMenu("questlog",[0, 14314, 999, 14315, 14316, 14319, 14317])
         viewport:
             xpos 119
             xsize 720
@@ -38497,7 +38497,7 @@ screen quest1542():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6038")
+                    action ShowMenu("questlog",[0, 14320, 999, 14321, 14322, 14325, 14326, 14323])
         viewport:
             xpos 119
             xsize 720
@@ -38580,7 +38580,7 @@ screen quest1543():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6039")
+                    action ShowMenu("questlog",[0, 14327, 999, 14328, 14329, 14332, 14333, 14330])
         viewport:
             xpos 119
             xsize 720
@@ -38653,7 +38653,7 @@ screen quest1544():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6040")
+                    action ShowMenu("questlog",[0, 14334, 999, 14335, 14336, 14339, 14340, 14341, 14337])
         viewport:
             xpos 119
             xsize 720
@@ -38736,7 +38736,7 @@ screen quest1545():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6041")
+                    action ShowMenu("questlog",[0, 14342, 999, 14343, 14344, 14347, 14345])
         viewport:
             xpos 119
             xsize 720
@@ -38819,7 +38819,7 @@ screen quest1546():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6042")
+                    action ShowMenu("questlog",[0, 14348, 999, 14349, 14350, 14353, 14354, 14351])
         viewport:
             xpos 119
             xsize 720
@@ -38892,7 +38892,7 @@ screen quest1547():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6043")
+                    action ShowMenu("questlog",[0, 14355, 999, 14356, 14357, 14360, 14361, 14362, 14358])
         viewport:
             xpos 119
             xsize 720
@@ -38975,7 +38975,7 @@ screen quest1548():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6044")
+                    action ShowMenu("questlog",[0, 14363, 999, 14364, 14365, 14368, 14369, 14370, 14371, 14366])
         viewport:
             xpos 119
             xsize 720
@@ -39069,7 +39069,7 @@ screen quest1549():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6045")
+                    action ShowMenu("questlog",[0, 14372, 999, 14373, 14374, 14377, 14378, 14379, 14375])
         viewport:
             xpos 119
             xsize 720
@@ -39152,7 +39152,7 @@ screen quest1550():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6046")
+                    action ShowMenu("questlog",[0, 14380, 999, 14381, 14382, 14385, 14383])
         viewport:
             xpos 119
             xsize 720
@@ -39214,7 +39214,7 @@ screen quest1551():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6047")
+                    action ShowMenu("questlog",[0, 14386, 999, 14387, 14388, 14391, 14392, 14389])
         viewport:
             xpos 119
             xsize 720
@@ -39287,7 +39287,7 @@ screen quest1552():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6048")
+                    action ShowMenu("questlog",[0, 14393, 999, 14394, 14395, 14398, 14399, 14400, 14396])
         viewport:
             xpos 119
             xsize 720
@@ -39370,7 +39370,7 @@ screen quest1553():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6049")
+                    action ShowMenu("questlog",[0, 14401, 999, 14402, 14403, 14406, 14407, 14408, 14404])
         viewport:
             xpos 119
             xsize 720
@@ -39453,7 +39453,7 @@ screen quest1554():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6050")
+                    action ShowMenu("questlog",[0, 14409, 999, 14410, 14411, 14414, 14415, 14416, 14412])
         viewport:
             xpos 119
             xsize 720
@@ -39536,7 +39536,7 @@ screen quest1555():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6051")
+                    action ShowMenu("questlog",[0, 14417, 999, 14418, 14419, 14422, 14420])
         viewport:
             xpos 119
             xsize 720
@@ -39598,7 +39598,7 @@ screen quest1556():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6052")
+                    action ShowMenu("questlog",[0, 14423, 999, 14424, 14425, 14428, 14429, 14430, 14426])
         viewport:
             xpos 119
             xsize 720
@@ -39681,7 +39681,7 @@ screen quest1557():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6053")
+                    action ShowMenu("questlog",[0, 14431, 999, 14432, 14433, 14436, 14434])
         viewport:
             xpos 119
             xsize 720
@@ -39754,7 +39754,7 @@ screen quest1558():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6054")
+                    action ShowMenu("questlog",[0, 14437, 999, 14438, 14439, 14442, 14443, 14440])
         viewport:
             xpos 119
             xsize 720
@@ -39827,7 +39827,7 @@ screen quest1559():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6055")
+                    action ShowMenu("questlog",[0, 14444, 999, 14445, 14446, 14449, 14450, 14447])
         viewport:
             xpos 119
             xsize 720
@@ -39900,7 +39900,7 @@ screen quest1560():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6056")
+                    action ShowMenu("questlog",[0, 14451, 999, 14452, 14453, 14456, 14457, 14458, 14454])
         viewport:
             xpos 119
             xsize 720
@@ -39994,7 +39994,7 @@ screen quest1561():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6057")
+                    action ShowMenu("questlog",[0, 14459, 999, 14460, 14461, 14464, 14465, 14466, 14462])
         viewport:
             xpos 119
             xsize 720
@@ -40077,7 +40077,7 @@ screen quest1562():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6058")
+                    action ShowMenu("questlog",[0, 14467, 999, 14468, 14469, 14472, 14473, 14470])
         viewport:
             xpos 119
             xsize 720
@@ -40150,7 +40150,7 @@ screen quest1563():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6059")
+                    action ShowMenu("questlog",[0, 14474, 999, 14475, 14476, 14479, 14480, 14477])
         viewport:
             xpos 119
             xsize 720
@@ -40223,7 +40223,7 @@ screen quest1564():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6060")
+                    action ShowMenu("questlog",[0, 14481, 999, 14482, 14483, 14486, 14484])
         viewport:
             xpos 119
             xsize 720
@@ -40306,7 +40306,7 @@ screen quest1565():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6061")
+                    action ShowMenu("questlog",[0, 14489, 999, 14490, 14491, 14494, 14492])
         viewport:
             xpos 119
             xsize 720
@@ -40379,7 +40379,7 @@ screen quest1566():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6062")
+                    action ShowMenu("questlog",[0, 14495, 999, 14496, 14497, 14500, 14501, 14502, 14503, 14498])
         viewport:
             xpos 119
             xsize 720
@@ -40473,7 +40473,7 @@ screen quest1567():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6063")
+                    action ShowMenu("questlog",[0, 14504, 999, 14505, 14506, 14509, 14510, 14511, 14507])
         viewport:
             xpos 119
             xsize 720
@@ -40556,7 +40556,7 @@ screen quest1568():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6064")
+                    action ShowMenu("questlog",[0, 14512, 999, 14513, 14514, 14517, 14518, 14519, 14515])
         viewport:
             xpos 119
             xsize 720
@@ -40650,7 +40650,7 @@ screen quest1569():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6065")
+                    action ShowMenu("questlog",[0, 14521, 999, 14522, 14523, 14526, 14527, 14524])
         viewport:
             xpos 119
             xsize 720
@@ -40723,7 +40723,7 @@ screen quest1570():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6066")
+                    action ShowMenu("questlog",[0, 14528, 999, 14529, 14530, 14533, 14534, 14531])
         viewport:
             xpos 119
             xsize 720
@@ -40785,7 +40785,7 @@ screen quest1571():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6067")
+                    action ShowMenu("questlog",[0, 14535, 999, 14536, 14537, 14540, 14541, 14542, 14543, 14538])
         viewport:
             xpos 119
             xsize 720
@@ -40879,7 +40879,7 @@ screen quest1572():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6068")
+                    action ShowMenu("questlog",[0, 14544, 999, 14545, 14546, 14549, 14550, 14547])
         viewport:
             xpos 119
             xsize 720
@@ -40962,7 +40962,7 @@ screen quest1573():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6069")
+                    action ShowMenu("questlog",[0, 14551, 999, 14552, 14553, 14556, 14554])
         viewport:
             xpos 119
             xsize 720
@@ -41035,7 +41035,7 @@ screen quest1574():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6070")
+                    action ShowMenu("questlog",[0, 14557, 999, 14558, 14559, 14562, 14563, 14560])
         viewport:
             xpos 119
             xsize 720
@@ -41108,7 +41108,7 @@ screen quest1575():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6071")
+                    action ShowMenu("questlog",[0, 14564, 999, 14565, 14566, 14569, 14567])
         viewport:
             xpos 119
             xsize 720
@@ -41181,7 +41181,7 @@ screen quest1576():
                     text "Log 1":
                         align (0.5,1.0)
                         size 25
-                    action ShowMenu("log6072")
+                    action ShowMenu("questlog",[0, 14570, 999, 14571, 14572, 14575, 14576, 14577, 14573])
         viewport:
             xpos 119
             xsize 720

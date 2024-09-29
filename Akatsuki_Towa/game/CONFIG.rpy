@@ -24,3 +24,21 @@ init python early:
 
 
 
+
+#=======================================================================================
+#===================================TRANSLATION=========================================
+#=======================================================================================
+##############
+#EXTRA STRINGS
+##############
+
+#Quest Log
+#==========================================
+### The tags put before the quest name to denote whether is is a main quest or a side quest
+    logmain = "[メイン]"
+    logsub = "[サブ]"
+### The headers put in the questlog menu before each field
+    loglevel = "【推奨レベル】"
+    logclient = "【依頼人】"
+    logdetails = "【内容】"
+    logbullet = "●"
