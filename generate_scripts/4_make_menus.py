@@ -116,7 +116,7 @@ for key in list(combinequestdict.keys()):
 	#clear
 	fulllog.append(log["clear"])
 
-	questlogdict[logname] = fulllog
+	questlogdict[logname] = tuple(fulllog)
 ########################################################
 ###now make menu from the new dictionaries
 
