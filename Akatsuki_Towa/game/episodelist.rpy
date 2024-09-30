@@ -1,5 +1,4 @@
 label episodelist:
-    
 screen episodelist():
     window:
         xysize (840,480)
