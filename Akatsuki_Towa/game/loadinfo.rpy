@@ -3,6 +3,9 @@ python early:
 
     import json
 
+    with renpy.open_file('episodelist.json', encoding="utf-8") as txt:
+        menudata = json.load(txt)
+
     #IMPORT TEXT JSON
     with renpy.open_file('text.json', encoding="utf-8", directory='MonoBehaviour') as txt:
         text_json = json.load(txt)
