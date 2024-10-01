@@ -144,20 +144,74 @@ Everything was done with the goal of being as accurate as possible, but nothing 
 
 ---
 
-### Translation:
-
+# Translation:
 If someone were to attempt to translate Akatsuki's script and have it play from within Akatsui-Towa, for the most part, you would only need to create edited/translated copies of `text.json` and `avg_role.json`, and replace the files in `game/MonoBehaviour` with your newly created files, but there are some special circumstances to note:
- - Text may not fit, and either the frame or the text itself may need to be resized
-   - for dialogue/character names, change the default text size in `game/gui.rpy`
-   - for menus/buttons, try changing some of the sizes in `CONFIG.rpy`, or you can change an individual button by editing it in 'episodelist.rpy' directly.
+ - Text may not fit inside some of the buttons, and either the frame size or the text itself may need to be resized
+   - These values can now be changed by editing `game/CONFIG.rpy`
  - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
    - these buttons have their `strID` value set to `null`
    - edit the button's `name` value directly, then re-generate and replace the renpy menus
  - The some strings used in the questlog menus are not part of the script file
-   - they can be edited from `game/CONFIG.rpy`
+   - These values can now be changed by editing `game/CONFIG.rpy`
+
+## Translation file notes/formats:
+The text loader was made more flexible, and it is now possible to load .csv files, and (partially) customized .json files as script files.
+Please test your file early and often, to make sure that it is loaded properly.
+ - Place your `text.json` and `avg_role.json` equivalent files in `game/MonoBehaviour`
+   - The file is assumed to be encoded in utf-8.
+   - In order to avoid sudden crashes, the file will need to include rows containing all string ids used by Akatsuki-Towa scripts and menus. 
+      - The string/text field can be left empty.
+ - Edit the filename and key name variables in the "Translation" section of `CONFIG.rpy` to match your file (see examples in CONFIG.rpy for help)
+
+### JSON notes:
+ - A .json file may have a different filename and key names, but loadinfo.rpy will still expect it to match the basic structure of the original script files (see example below)
+ - Include a linebreak in a string with a newline character ("\n") instead of pressing the "enter" key
+ - Escape ALL double-quotes that are part of the string with a backslash ("\"")
+   - If your json file surrounds string values in single quotes, escape single quotes instead ('\'')
+ - Double all backslashes and left curly brace characters that are part of the string ("{{"), ("\\")
+
+#### Example JSON:
+
+```
+{
+    rowkey: [
+        {
+            idkey: 1,
+            textkey: "TEXT1"
+        },
+        {
+            idkey: 2,
+            textkey: "TEXT2"
+        }
+    ]
+}
+```
+
+### CSV notes:
+ - It is recommended that the field containing the string is surrounded with double-quotes to make sure commas and linebreaks are included properly.
+ - Add a linebreak to a string with the "enter" key, newline characters ("\n") don't seem to work here.
+ - Double-quotes that are a part of the string should be typed twice. (see example below)
+ - Double all left curly brace characters that are part of the string ("{{")
+
+#### Example CSV:
+
+```
+idkey,textkey
+1,"TEXT1"                           |displays as: TEXT1
+2,"TEXT2"                           |displays as: TEXT2
+3,Oh,no                             |displays as: Oh
+4,"Oh, no!"                         |displays as: Oh, no!
+5,"""Oh, no!"""                     |displays as: "Oh, no!"
+6,"""Oh, no!,"" he exclaimed."      |displays as: "Oh, no!," he exclaimed.
+7,"Oh,\nno!"                        |displays as: Oh,\nno!
+8,"Oh,                              |displays as: Oh
+no"                                 |             no
+9,                                  |displays as: 
+10,"{{Oh, no!}"                     |displays as: {Oh, no!}
+11,"{Oh, no!}"                      |do not use - crashes Ren'Py
+```
 
 ---
-
 # **Ren'Py Disclaimer**:  
 **This program contains free software licensed under a number of licenses,
 including the GNU Lesser General Public License. A complete list of software
