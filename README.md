@@ -165,10 +165,10 @@ Please test your file early and often, to make sure that it is loaded properly.
 
 ### JSON notes:
  - A .json file may have a different filename and key names, but loadinfo.rpy will still expect it to match the basic structure of the original script files (see example below)
- - Include a linebreak in a string with a newline character ("\n") instead of pressing the "enter" key
- - Escape ALL double-quotes that are part of the string with a backslash ("\"")
-   - If your json file surrounds string values in single quotes, escape single quotes instead ('\'')
- - Double all backslashes and left curly brace characters that are part of the string ("{{"), ("\\")
+ - Include a linebreak in a string with a newline character ("\\n") instead of pressing the "enter" key
+ - Escape ALL double-quotes that are part of the string with a backslash ("\\"")
+   - If your json file surrounds string values in single quotes, escape single quotes instead ('\\'')
+ - Double all backslashes and left curly brace characters that are part of the string ("{{"), ("\\\\")
 
 #### Example JSON:
 
@@ -189,7 +189,7 @@ Please test your file early and often, to make sure that it is loaded properly.
 
 ### CSV notes:
  - It is recommended that the field containing the string is surrounded with double-quotes to make sure commas and linebreaks are included properly.
- - Add a linebreak to a string with the "enter" key, newline characters ("\n") don't seem to work here.
+ - Add a linebreak to a string with the "enter" key, newline characters ("\\n") don't seem to work here.
  - Double-quotes that are a part of the string should be typed twice. (see example below)
  - Double all left curly brace characters that are part of the string ("{{")
 
