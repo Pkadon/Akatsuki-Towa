@@ -120,6 +120,7 @@ init python early:
 ##############
 #EXTRA STRINGS
 ##############
+
 #Menu Misc
 #==========================================
 ### Back button text
@@ -128,6 +129,9 @@ init python early:
     jumptext = "Jump"
 ### Sprite test button text
     spritetext = "Sprite"
+### Log button text
+    logtext = "Log"
+
 #Quest Log
 #==========================================
 ### The tags put before the quest name to denote whether is is a main quest or a side quest

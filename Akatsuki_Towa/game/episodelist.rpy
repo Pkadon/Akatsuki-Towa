@@ -100,7 +100,7 @@ screen quest(data):
                     button:
                         xysize(94,37)
                         background Frame("backbutton", 16, 16)
-                        text "Log [lognumber]":
+                        text "[logtext] [lognumber]":
                             align (0.5,1.0)
                             size 25
                         action ShowMenu("questlog", log)
