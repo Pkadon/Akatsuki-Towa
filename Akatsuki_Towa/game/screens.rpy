@@ -157,6 +157,7 @@ style say_label:
     yalign 0.5
 
     color "#FFFFFF"
+    outlines [ (0, "#262525", absolute(2), absolute(1)) ]
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -168,6 +169,7 @@ style say_dialogue:
     adjust_spacing False
 
     color "#FFFFFF"
+    outlines [ (0, "#262525", absolute(2), absolute(1)) ]
 
 ## Input screen ################################################################
 ##
