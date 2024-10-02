@@ -15,6 +15,8 @@ python early:
 
                 textid = int(row[idkey])
                 textstring = row[stringkey]
+
+                textstring = "\n".join(textstring.splitlines())
                     
                 d[textid] = textstring
         return d
@@ -48,6 +50,8 @@ python early:
                 else:
                     textstring = ''
 
+                textstring = "\n".join(textstring.splitlines())
+
                 d[textid] = textstring
         return d
 
@@ -65,25 +69,40 @@ python early:
         textdict = csvloader(textfilename, textidkey, textkey)
 
 
+
     #FIX SCRIPT FORMATTING
-    for key in list(textdict.keys()):
-        textstring = textdict[key]
+    
+    #change the text color formatting to show up correctly in renpy
+    #the original formatting looks like: "[339944]「……………………」[-]"
+    #where "339944" is a hex color code
+    #known examples: 麻薬密売調査(1) 5/6 (avg10388)
 
-        #some strings have different newline characters that create boxes with the font being used
-        textstring = "\n".join(textstring.splitlines())
+    def colortext(string, color):
 
-        #remove formatting from some strings to keep it from showing up in the game
-        #known examples: avg 10388
-        prefixlist = ['[339944]', '[334499]']
-        suffixlist = ['[-]']
-        for prefix in prefixlist:
-            if textstring.startswith(prefix): textstring = textstring[len(prefix):]
-        for suffix in suffixlist:
-            if textstring.endswith(suffix): textstring = textstring[:-len(suffix)]
-        
-        textdict[key] = textstring
+        prefix = f'[{color}]'
+        suffix = '[-]'
 
-    #fix typo
+        #remove original prefix
+        if string.startswith(prefix): string = string[len(prefix):]
+        #remove original suffix
+        if string.endswith(suffix): string = string[:-len(suffix)]
+
+        #add renpy color text tag
+        if '{color=' not in string:
+            string = ('{color='+color+'}'+string+'{/color}')
+
+        return string
+     
+    #color these dialogue strings green:
+    for strid in [1132448, 1132458, 1132463]:
+        textdict[strid] = colortext(textdict[strid], '339944')
+
+    #color these dialogue strings blue:
+    for strid in [1132449, 1132459, 1132464]:
+        textdict[strid] = colortext(textdict[strid], '334499')
+
+
+    #FIX TYPO
     #ジオフロントの再調査 is labeled 1/2 when it should be 1/1
     if textdict[17579].endswith('1/2'):
         textdict[17579] = textdict[17579][:-3] + '1/1'
