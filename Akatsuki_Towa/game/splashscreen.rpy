@@ -1,8 +1,8 @@
 
 ###Splash Screen Image Definitions######################################
-image akatsuki_logo:
-    Crop((8,1155,1304,216), "atlas_login.png")
-    zoom 0.60
+
+#akatsukilogo2 is defined in defmenuimages.rpy
+
 image startbutton:
     Crop((747,1990,175,48), "atlas_login.png")
 image startbutton2:
@@ -111,9 +111,8 @@ image splashscreen:
 label splashscreen:
     play music "ed9999.ogg"
     scene splashscreen
-    show akatsuki_logo:
-        ycenter 0.54
-        xcenter 0.84
+    show akatsukilogo2:
+        pos (390, 175)
     show startbuttonani:
         ycenter 0.74
         xcenter 0.72
