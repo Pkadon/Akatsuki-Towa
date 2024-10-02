@@ -129,7 +129,7 @@ Everything was done with the goal of being as accurate as possible, but nothing 
      -  default placement on the screen was "eyeballed", so may be a few pixels off, but takes into account each individual sprite's "x-offset" value found in "avg_role.json"
    - faces:
      -  cropped from their original texture atlases, using the coordinates found in the original game files
-     -  placement on the "body" sprite was done by hand. this can be verified by clicking the "Extra" button on the left side of Akatsuki-Towa's Scene Select menu to go to "Sprite Test" mode
+     -  placement on the "body" sprite was done by hand. this can be verified by clicking the "Sprite" button on the left side of Akatsuki-Towa's Scene Select menu to go to "Sprite Test" mode
         - the first line of dialogue for when a sprite shows up ("oc000_01") is the default "body" sprite.
         - the second line of dialogue (oc000_01 1") shows the default "face" sprite overlayed on top of the body sprite
 
