@@ -14,7 +14,7 @@ screen episodelist(data):
         button:
             xysize(94,37)
             background Frame("backbutton", 16, 16)
-            text "Back":
+            text backtext:
                 align (0.5, 1.0)
                 size 25
             action Hide("episodelist")
@@ -22,7 +22,7 @@ screen episodelist(data):
             xysize(94,37)
             ypos 37
             background Frame("backbutton", 16, 16)
-            text "Jump":
+            text jumptext:
                 align (0.5, 1.0)
                 size 25
             action Replay("codeinput", locked=False)
@@ -30,7 +30,7 @@ screen episodelist(data):
             xysize(94,37)
             ypos 74
             background Frame("backbutton", 16, 16)
-            text "Extra":
+            text spritetext:
                 align (0.5, 1.0)
                 size 25
             action Replay("spritetest", locked=False)
@@ -83,7 +83,7 @@ screen quest(data):
         button:
             xysize(94,37)
             background Frame("backbutton", 16, 16)
-            text "Back":
+            text backtext:
                 align (0.5,1.0)
                 size 25
             action Hide("quest")
@@ -170,7 +170,7 @@ screen questlog(data):
         button:
             xysize(94,37)
             background Frame("backbutton", 16, 16)
-            text "Back":
+            text backtext:
                 align (0.5,1.0)
                 size 25
             action Hide("questlog")
