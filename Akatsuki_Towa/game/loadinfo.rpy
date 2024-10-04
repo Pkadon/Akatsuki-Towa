@@ -68,6 +68,10 @@ python early:
     elif textfilename.endswith('.csv'):
         textdict = csvloader(textfilename, textidkey, textkey)
 
+    #COMBINE EXTRA STRING DICTIONARY
+    for key in list(extextdict.keys()):
+        textdict[key] = extextdict[key]
+
 
 
     #FIX SCRIPT FORMATTING

@@ -147,12 +147,9 @@ Everything was done with the goal of being as accurate as possible, but nothing 
 # Translation:
 If someone were to attempt to translate Akatsuki's script and have it play from within Akatsui-Towa, for the most part, you would only need to create edited/translated copies of `text.json` and `avg_role.json`, and replace the files in `game/MonoBehaviour` with your newly created files, but there are some special circumstances to note:
  - Text may not fit inside some of the buttons, and either the frame size or the text itself may need to be resized
-   - These values can now be changed by editing `game/CONFIG.rpy`
- - Some button labels are hard-coded into the extra json files found in `generate_scripts\extra_json`:
-   - these buttons have their `strID` value set to `null`
-   - edit the button's `name` value directly, then re-generate and replace the renpy menus
- - The some strings used in the questlog menus are not part of the script file
-   - These values can now be changed by editing `game/CONFIG.rpy`
+   - These values can now be changed by editing them in `game/CONFIG.rpy`
+ - Some text used in the menus could not be sourced directly from the original script file
+   - These strings can now be changed by editing them in `game/CONFIG.rpy`
 
 ## Translation file notes/formats:
 The text loader was made more flexible, and it is now possible to load .csv files, and (partially) customized .json files as script files.

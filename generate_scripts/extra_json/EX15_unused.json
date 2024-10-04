@@ -1,24 +1,24 @@
 {
     "15": {
         "name": "Unused Scenes",
-        "strID": null,
+        "strID": "ex_16",
         "level1": {
            "1": {
-                "name": "Fishing-related",
-                "strID": null,
+                "name": "Fishing",
+                "strID": "ex_17",
                 "level2": {
                     "1": {
                         "name": "Fishing Unlock Scene",
                         "info": "(Prologue)",
-                        "strID": null,
-                        "infostrID": null,
+                        "strID": "ex_18",
+                        "infostrID": "ex_19",
                         "avgID": 10020
                     },
                     "2": {
                         "name": "Fisherman's Guild",
                         "info": "(Grancel, Chapter 1)",
-                        "strID": null,
-                        "infostrID": null,
+                        "strID": "ex_20",
+                        "infostrID": "ex_21",
                         "avgID": 20036
                     }
                 }

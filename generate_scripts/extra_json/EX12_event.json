@@ -5,7 +5,7 @@
         "level1": {
             "1": {
                 "name": "準遊撃士・ナハトの奮闘記",
-                "strID": null,
+                "strID": "ex_201",
                 "questID": [
                     5011,
                     5014,
@@ -16,259 +16,267 @@
                     "1": {
                         "name": "Vol.1-エオリア編 1/2",
                         "info": "(2017.09.15)",
-                        "strID": null,
+                        "strID": "ex_202",
+                        "add": " 1/2",
                         "infostrID": null,
                         "avgID": 1091
                     },
                     "2": {
                         "name": "Vol.1-エオリア編 2/2",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_202",
+                        "add": " 2/2",
                         "infostrID": null,
                         "avgID": 1092
                     },
                     "3": {
                         "name": "Vol.1-ヴェンツェル編 1/2",
                         "info": "(2017.09.15)",
-                        "strID": null,
+                        "strID": "ex_203",
+                        "add": " 1/2",
                         "infostrID": null,
                         "avgID": 1093
                     },
                     "4": {
                         "name": "Vol.1-ヴェンツェル編 2/2",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_203",
+                        "add": " 2/2",
                         "infostrID": null,
                         "avgID": 1094
                     },
                     "5": {
                         "name": "Vol.1-スコット編 1/2",
                         "info": "(2017.09.15)",
-                        "strID": null,
+                        "strID": "ex_204",
+                        "add": " 1/2",
                         "infostrID": null,
                         "avgID": 1095
                     },
                     "6": {
                         "name": "Vol.1-スコット編 2/2",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_204",
+                        "add": " 2/2",
                         "infostrID": null,
                         "avgID": 1096
                     },
                     "7": {
                         "name": "Vol.1-リン編 1/2",
                         "info": "(2017.09.15)",
-                        "strID": null,
+                        "strID": "ex_205",
+                        "add": " 1/2",
                         "infostrID": null,
                         "avgID": 1097
                     },
                     "8": {
                         "name": "Vol.1-リン編 2/2",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_205",
+                        "add": " 2/2",
                         "infostrID": null,
                         "avgID": 1098
                     },
                     "9": {
                         "name": "Vol.2 アネラス編",
                         "info": "(2017.12.06)",
-                        "strID": null,
+                        "strID": "ex_206",
                         "infostrID": null,
                         "avgID": 1121
                     },
                     "10": {
                         "name": "Vol.3 ノエル編",
                         "info": "(2017.12.13)",
-                        "strID": null,
+                        "strID": "ex_207",
                         "infostrID": null,
                         "avgID": 1122
                     },
                     "11": {
                         "name": "Vol.4 ティータ編",
                         "info": "(2018.01.31)",
-                        "strID": null,
+                        "strID": "ex_208",
                         "infostrID": null,
                         "avgID": 1171
                     },
                     "12": {
                         "name": "Vol.5 ミレイユ編",
                         "info": "(2018.02.07)",
-                        "strID": null,
+                        "strID": "ex_209",
                         "infostrID": null,
                         "avgID": 1172
                     },
                     "13": {
                         "name": "Vol.6 ヨシュア編",
                         "info": "(2018.03.07)",
-                        "strID": null,
+                        "strID": "ex_210",
                         "infostrID": null,
                         "avgID": 1173
                     },
                     "14": {
                         "name": "Vol.7 エリィ編",
                         "info": "(2018.08.01)",
-                        "strID": null,
+                        "strID": "ex_211",
                         "infostrID": null,
                         "avgID": 1174
                     },
                     "15": {
                         "name": "Vol.8 エステル編",
                         "info": "(2018.09.19)",
-                        "strID": null,
+                        "strID": "ex_212",
                         "infostrID": null,
                         "avgID": 1175
                     },
                     "16": {
                         "name": "Vol.9 ティオ編",
                         "info": "(2018.10.17)",
-                        "strID": null,
+                        "strID": "ex_213",
                         "infostrID": null,
                         "avgID": 1176
                     },
                     "17": {
                         "name": "Vol.10 ランディ編",
                         "info": "(2019.03.06)",
-                        "strID": null,
+                        "strID": "ex_214",
                         "infostrID": null,
                         "avgID": 1177
                     },
                     "18": {
                         "name": "Vol.11 ロイド編",
                         "info": "(2021.04.14)",
-                        "strID": null,
+                        "strID": "ex_215",
                         "infostrID": null,
                         "avgID": 1178
                     },
                     "19": {
                         "name": "Vol.12 レン編",
                         "info": "(2021.06.17)",
-                        "strID": null,
+                        "strID": "ex_216",
                         "infostrID": null,
                         "avgID": 1179
                     },
                     "20": {
                         "name": "Vol.13 カシウス編",
                         "info": "(2021.08.12)",
-                        "strID": null,
+                        "strID": "ex_217",
                         "infostrID": null,
                         "avgID": 1180
                     },
                     "21": {
                         "name": "Vol.14 ユリア編",
                         "info": "(2021.10.14)",
-                        "strID": null,
+                        "strID": "ex_218",
                         "infostrID": null,
                         "avgID": 1184
                     },
                     "22": {
                         "name": "Vol.15 アガット編",
                         "info": "(2021.12.15)",
-                        "strID": null,
+                        "strID": "ex_219",
                         "infostrID": null,
                         "avgID": 1185
                     },
                     "23": {
                         "name": "Vol.16 グラッツ編",
                         "info": "(2022.02.16)",
-                        "strID": null,
+                        "strID": "ex_220",
                         "infostrID": null,
                         "avgID": 1186
                     },
                     "24": {
                         "name": "Vol.17 シェラザード編",
                         "info": "(2022.04.13)",
-                        "strID": null,
+                        "strID": "ex_221",
                         "infostrID": null,
                         "avgID": 1187
                     },
                     "25": {
                         "name": "Vol.18 クローゼ編",
                         "info": "(2023.06.22)",
-                        "strID": null,
+                        "strID": "ex_222",
                         "infostrID": null,
                         "avgID": 1188
                     },
                     "26": {
                         "name": "Vol.19 ギルバート編",
                         "info": "(2022.08.10)",
-                        "strID": null,
+                        "strID": "ex_223",
                         "infostrID": null,
                         "avgID": 1189
                     },
                     "27": {
                         "name": "Vol.20 クルツ編",
                         "info": "(2022.10.19)",
-                        "strID": null,
+                        "strID": "ex_224",
                         "infostrID": null,
                         "avgID": 1196
                     },
                     "28": {
                         "name": "Vol.21 カルナ編",
                         "info": "(2022.12.14)",
-                        "strID": null,
+                        "strID": "ex_225",
                         "infostrID": null,
                         "avgID": 1198
                     },
                     "29": {
                         "name": "Vol.22 ダドリー編",
                         "info": "(2023.02.08)",
-                        "strID": null,
+                        "strID": "ex_226",
                         "infostrID": null,
                         "avgID": 1199
                     },
                     "30": {
                         "name": "Vol.23 アリオス編",
                         "info": "(2023.04.12)",
-                        "strID": null,
+                        "strID": "ex_227",
                         "infostrID": null,
                         "avgID": 1210
                     },
                     "31": {
                         "name": "Vol.24 リシャール編",
                         "info": "(2023.05.10)",
-                        "strID": null,
+                        "strID": "ex_228",
                         "infostrID": null,
                         "avgID": 1211
                     },
                     "32": {
                         "name": "Vol.25 キール編",
                         "info": "(2023.07.12)",
-                        "strID": null,
+                        "strID": "ex_229",
                         "infostrID": null,
                         "avgID": 1220
                     },
                     "33": {
                         "name": "Vol.26 ジョゼット編",
                         "info": "(2023.08.16)",
-                        "strID": null,
+                        "strID": "ex_230",
                         "infostrID": null,
                         "avgID": 1221
                     },
                     "34": {
                         "name": "Vol.27 ドルン編",
                         "info": "(2023.10.12)",
-                        "strID": null,
+                        "strID": "ex_231",
                         "infostrID": null,
                         "avgID": 1229
                     },
                     "35": {
                         "name": "Vol.28 ミシェル編",
                         "info": "(2023.11.08)",
-                        "strID": null,
+                        "strID": "ex_232",
                         "infostrID": null,
                         "avgID": 1230
                     },
                     "36": {
                         "name": "EX.1　リース編",
                         "info": "(2024.01.24)",
-                        "strID": null,
+                        "strID": "ex_233",
                         "infostrID": null,
                         "avgID": 1238
                     },
                     "37": {
                         "name": "EX.2 ケビン編",
                         "info": "(2024.02.29)",
-                        "strID": null,
+                        "strID": "ex_234",
                         "infostrID": null,
                         "avgID": 1239
                     }
@@ -276,7 +284,7 @@
             },
             "2": {
                 "name": "ミシェル先生の特別レッスン",
-                "strID": null,
+                "strID": "ex_235",
                 "questID": [
                     5001,
                     5002,
@@ -314,24 +322,24 @@
                         "avgID": 1010
                     },
                     "5": {
-                        "name": "Unused Version",
-                        "info": null,
-                        "strID": null,
-                        "infostrID": null,
+                        "name": "ミシェル先生の特別レッスン",
+                        "info": "Unused Alt Version",
+                        "strID": "ex_235",
+                        "infostrID": "ex_7",
                         "avgID": 19010
                     },
                     "6": {
                         "name": "Unused Ending",
                         "info": "(2 questions correct)",
-                        "strID": null,
-                        "infostrID": null,
+                        "strID": "ex_8",
+                        "infostrID": "ex_9",
                         "avgID": 19020
                     },
                     "7": {
                         "name": "Unused Ending",
                         "info": "(1 or no questions correct)",
-                        "strID": null,
-                        "infostrID": null,
+                        "strID": "ex_8",
+                        "infostrID": "ex_10",
                         "avgID": 19021
                     }
                 }
@@ -401,16 +409,18 @@
                         "avgID": 1022
                     },
                     "3": {
-                        "name": "Conditional 1",
+                        "name": "Conditional Dialogue 1",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_11",
+                        "add": " 1",
                         "infostrID": null,
                         "avgID": 1026
                     },
                     "4": {
-                        "name": "Conditional 2",
+                        "name": "Conditional Dialogue 2",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_11",
+                        "add": " 2",
                         "infostrID": null,
                         "avgID": 1027
                     },
@@ -577,7 +587,7 @@
             },
             "7": {
                 "name": "歩んでいく道の途中で",
-                "strID": null,
+                "strID": "ex_236",
                 "questID": [],
                 "level2": {
                     "1": {
@@ -654,62 +664,70 @@
             },
             "9": {
                 "name": "試験班の夏休み",
-                "strID": null,
+                "strID": "ex_237",
                 "questID": [],
                 "level2": {
                     "1": {
                         "name": "試験班の夏休み 1/8",
                         "info": "(2017.08.30)",
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 1/8",
                         "infostrID": null,
                         "avgID": 1081
                     },
                     "2": {
                         "name": "試験班の夏休み 2/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 2/8",
                         "infostrID": null,
                         "avgID": 1082
                     },
                     "3": {
                         "name": "試験班の夏休み 3/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 3/8",
                         "infostrID": null,
                         "avgID": 1083
                     },
                     "4": {
                         "name": "試験班の夏休み 4/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 4/8",
                         "infostrID": null,
                         "avgID": 1084
                     },
                     "5": {
                         "name": "試験班の夏休み 5/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 5/8",
                         "infostrID": null,
                         "avgID": 1085
                     },
                     "6": {
                         "name": "試験班の夏休み 6/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 6/8",
                         "infostrID": null,
                         "avgID": 1086
                     },
                     "7": {
                         "name": "試験班の夏休み 7/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 7/8",
                         "infostrID": null,
                         "avgID": 1087
                     },
                     "8": {
                         "name": "試験班の夏休み 8/8",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_237",
+                        "add": " 8/8",
                         "infostrID": null,
                         "avgID": 1088
                     }
@@ -717,7 +735,7 @@
             },
             "10": {
                 "name": "第１回《ハロウィンフェス》",
-                "strID": null,
+                "strID": "ex_238",
                 "questID": [
                     5015,
                     5016
@@ -871,7 +889,7 @@
             },
             "11": {
                 "name": "絵空の記憶",
-                "strID": null,
+                "strID": "ex_239",
                 "questID": [
                     5017,
                     5018,
@@ -1002,21 +1020,21 @@
                         "name": "怪盗Bの挑戦状！",
                         "info": "作者：藤７８\n(2017.12 グランプリ受賞作品)",
                         "strID": 90232,
-                        "infostrID": null,
+                        "infostrID": "ex_240",
                         "avgID": 1161
                     },
                     "2": {
                         "name": "助けて！ 支援申請",
                         "info": "作者：トム6W\n(2017.12 準グランプリ受賞作品)",
                         "strID": 90233,
-                        "infostrID": null,
+                        "infostrID": "ex_241",
                         "avgID": 1162
                     },
                     "3": {
                         "name": "その歌声をあなたに 1/4",
                         "info": "作者：月紅\n(2017.12 ブレイサー賞受賞作品)",
                         "strID": 90234,
-                        "infostrID": null,
+                        "infostrID": "ex_242",
                         "avgID": 1163
                     },
                     "4": {
@@ -1044,27 +1062,30 @@
             },
             "14": {
                 "name": "新米遊撃士のクリスマス",
-                "strID": null,
+                "strID": "ex_243",
                 "questID": [],
                 "level2": {
                     "1": {
                         "name": "新米遊撃士のクリスマス 1/3",
                         "info": "(2020.12.17)",
-                        "strID": null,
+                        "strID": "ex_243",
+                        "add": " 1/3",
                         "infostrID": null,
                         "avgID": 1181
                     },
                     "2": {
                         "name": "新米遊撃士のクリスマス 2/3",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_243",
+                        "add": " 2/3",
                         "infostrID": null,
                         "avgID": 1182
                     },
                     "3": {
                         "name": "新米遊撃士のクリスマス 3/3",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_243",
+                        "add": " 3/3",
                         "infostrID": null,
                         "avgID": 1183
                     }
@@ -1072,48 +1093,54 @@
             },
             "15": {
                 "name": "Heroes War！",
-                "strID": null,
+                "strID": "ex_244",
                 "questID": [],
                 "level2": {
                     "1": {
                         "name": "Heroes War！ 1/6",
                         "info": "(2022.10.13)",
-                        "strID": null,
+                        "strID": "ex_244",
+                        "add": " 1/6",
                         "infostrID": null,
                         "avgID": 1190
                     },
                     "2": {
                         "name": "Heroes War！ 2/6",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_244",
+                        "add": " 2/6",
                         "infostrID": null,
                         "avgID": 1191
                     },
                     "3": {
                         "name": "Heroes War！ 3/6",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_244",
+                        "add": " 3/6",
                         "infostrID": null,
                         "avgID": 1192
                     },
                     "4": {
                         "name": "Heroes War！ 4/6",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_244",
+                        "add": " 4/6",
                         "infostrID": null,
                         "avgID": 1193
                     },
                     "5": {
                         "name": "Heroes War！ 5/6",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_244",
+                        "add": " 5/6",
                         "infostrID": null,
                         "avgID": 1194
                     },
                     "6": {
                         "name": "Heroes War！ 6/6",
                         "info": null,
-                        "strID": null,
+                        "strID": "ex_244",
+                        "add": " 6/6",
                         "infostrID": null,
                         "avgID": 1195
                     }

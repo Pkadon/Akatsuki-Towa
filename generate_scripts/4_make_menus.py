@@ -131,7 +131,7 @@ for categorynumber in range(1, (len(combinescenedict)+1)):
 	while len(categorynumber) < 2: categorynumber = '0'+categorynumber
 	
 	if 'strID' in category and category['strID'] != None: 
-		level0 = int(category['strID'])
+		level0 = category['strID']
 	else: level0 = category['name']
 
 	chapterdict['chaptername'] = level0
@@ -149,7 +149,7 @@ for categorynumber in range(1, (len(combinescenedict)+1)):
 		add = None
 		if 'strID' in quest and quest['strID'] != None:
 			if 'add' in quest: add=fr'{quest["add"]}'
-			level1 = int(quest['strID'])
+			level1 = quest['strID']
 		else: level1 = quest['name']
 		
 		questdict['questname'] = level1

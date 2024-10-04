@@ -1,9 +1,9 @@
 init python:
-    def convertstrid(text):
-        if isinstance(text, int): 
-            return textdict[text]
-        else: 
-            return text
+    def convertstrid(key):
+        if key in textdict:
+            return textdict[key]
+        else:
+            return key
 
 screen episodelist(data):
     default chaptername = ''
