@@ -12,6 +12,7 @@ hide c2portrait
 show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
 c13 '[textdict[1210035]]'
 menu:
+    extend ""
     "[textdict[1214999]]":
         call avg25025
     "[textdict[1215000]]":

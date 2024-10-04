@@ -381,6 +381,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#FIGURE OUT IF THERE ARE CHOICES
 		if script_json["ending"]["type"] == 1:
 			f.write('menu:\n')
+			#keep dialogue displayed during choice menu:
+			f.write('    extend ""\n')
 			for choice in range(0, len(script_json["ending"]["options"])):
 				choicestrID = script_json["ending"]["options"][choice]["strID"]
 				choicetext = f"[textdict[{choicestrID}]]"

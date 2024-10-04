@@ -8,6 +8,7 @@ play sfxvoice "avg_vocal_na10.ogg"
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1134071]]'
 menu:
+    extend ""
     "[textdict[1134072]]":
         call avg12375
     "[textdict[1134073]]":

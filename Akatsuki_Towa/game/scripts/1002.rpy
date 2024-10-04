@@ -14,6 +14,7 @@ hide c56portrait
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2100033]]'
 menu:
+    extend ""
     "[textdict[2100034]]":
         call avg1003
     "[textdict[2100035]]":

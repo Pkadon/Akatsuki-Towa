@@ -40,6 +40,7 @@ hide c1portrait
 show st040_01 1 as c239portrait at centerpos(-19), zorder 5
 c2393 '[textdict[1216056]]'
 menu:
+    extend ""
     "[textdict[1216057]]":
         call avg29008
     "[textdict[1216058]]":

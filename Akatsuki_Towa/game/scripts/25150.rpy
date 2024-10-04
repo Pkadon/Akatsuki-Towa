@@ -6,6 +6,7 @@ with fade
 show uc001_02 2 as c2014portrait at centerpos(6), zorder 5
 c20143 '[textdict[1210478]]'
 menu:
+    extend ""
     "[textdict[1214999]]":
         call avg25151
     "[textdict[1214996]]":

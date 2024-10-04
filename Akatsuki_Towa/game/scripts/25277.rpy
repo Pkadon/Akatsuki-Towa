@@ -5,6 +5,7 @@ scene placeholderbackground
 with fade
 c20153 '[textdict[1211052]]'
 menu:
+    extend ""
     "[textdict[1214995]]":
         call avg25278
     "[textdict[1214996]]":

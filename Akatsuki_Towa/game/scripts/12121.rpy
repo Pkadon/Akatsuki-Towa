@@ -47,6 +47,7 @@ hide c2portrait
 show oc002_01 2 as c2portrait at darkright(-3), zorder 5
 c9591 '[textdict[1128230]]'
 menu:
+    extend ""
     "[textdict[1100001]]":
         call avg12123
     "[textdict[1100002]]":

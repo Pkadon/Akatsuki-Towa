@@ -68,6 +68,7 @@ show oc004_01 7 as c4portrait at darkleft(-5), zorder 6
 show st053_01 4 as c1007portrait at rightside(-12), zorder 5
 c10073 '[textdict[1130314]]'
 menu:
+    extend ""
     "[textdict[1130315]]":
         call avg10313
     "[textdict[1130316]]":

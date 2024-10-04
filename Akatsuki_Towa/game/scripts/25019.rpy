@@ -12,6 +12,7 @@ hide c2portrait
 c20083 '[textdict[1210045]]'
 c20093 '[textdict[1210046]]'
 menu:
+    extend ""
     "[textdict[1214999]]":
         call avg25020
     "[textdict[1215000]]":

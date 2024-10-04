@@ -201,6 +201,7 @@ hide c4portrait
 show oc003_01 6 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1142414]]'
 menu:
+    extend ""
     "[textdict[1142415]]":
         call avg12404
     "[textdict[1142416]]":

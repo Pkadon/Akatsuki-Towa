@@ -96,6 +96,7 @@ hide c56portrait
 hide c1portrait
 c0 '[textdict[1216161]]' (what_size=18)
 menu:
+    extend ""
     "[textdict[1216162]]":
         call avg19017
     "[textdict[1216163]]":
