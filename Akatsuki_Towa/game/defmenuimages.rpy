@@ -8,6 +8,10 @@ image dialoguewindow:
 image namebox:
     Crop((200,5,64,37), "avg_a1screen.png")
 
+###Choice Menu###############################################
+layeredimage choicehover:
+    always "dialoguewindow"
+    always "images_free/choiceoverlay.png"
 
 ###Main Menu#################################################
 ###background######

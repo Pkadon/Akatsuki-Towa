@@ -218,8 +218,21 @@ screen choice(items):
     style_prefix "choice"
 
     vbox:
+        spacing 30
         for i in items:
-            textbutton i.caption action i.action
+            button:
+                idle_background Frame("dialoguewindow", 25, 25)
+                hover_background Frame("choicehover", 25, 25)
+                xysize (750, 65)
+                text i.caption:
+                    xpos -55
+                    yalign 0.5
+                    size choicetextsize
+                    color "#FFFFFF"
+                    outlines [ (0, "#262525", absolute(2), absolute(1)) ]
+                hovered Play("sound", "common_tag.ogg")
+                action [Play("sound", "common_tag_2.ogg"), i.action]
+
 
 
 style choice_vbox is vbox
