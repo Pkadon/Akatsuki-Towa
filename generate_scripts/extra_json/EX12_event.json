@@ -457,7 +457,7 @@
                 "level2": {
                     "1": {
                         "name": "ミシェルからの挑戦状 1/11",
-                        "info": "(2017.??.??)",
+                        "info": "(2017.05.02)",
                         "strID": 87051,
                         "add": " 1/11",
                         "infostrID": null,
@@ -556,30 +556,30 @@
                 ],
                 "level2": {
                     "1": {
-                        "name": "ナハトの休日",
+                        "name": "シーン1　ナハトの休日",
                         "info": "(2017.06.16)",
-                        "strID": 90061,
+                        "strID": 2100654,
                         "infostrID": null,
                         "avgID": 1051
                     },
                     "2": {
-                        "name": "ロナードの残業",
+                        "name": "シーン２　ロナードの残業",
                         "info": null,
-                        "strID": 90071,
+                        "strID": 2100688,
                         "infostrID": null,
                         "avgID": 1052
                     },
                     "3": {
-                        "name": "リーヴの午後",
+                        "name": "シーン３　リーヴの午後",
                         "info": null,
-                        "strID": 90081,
+                        "strID": 2100717,
                         "infostrID": null,
                         "avgID": 1053
                     },
                     "4": {
-                        "name": "雨の日の妖精",
+                        "name": "シーン４　雨の日の妖精",
                         "info": null,
-                        "strID": 90091,
+                        "strID": 2100747,
                         "infostrID": null,
                         "avgID": 1054
                     }
@@ -640,9 +640,9 @@
                         "avgID": 1067
                     },
                     "8": {
-                        "name": "エピローグ",
+                        "name": "エピローグ「見つけた答え」",
                         "info": null,
-                        "strID": 99166,
+                        "strID": 2101424,
                         "infostrID": null,
                         "avgID": 1068
                     }
@@ -889,7 +889,7 @@
             },
             "11": {
                 "name": "絵空の記憶",
-                "strID": "ex_239",
+                "strID": 5010560,
                 "questID": [
                     5017,
                     5018,
@@ -898,98 +898,86 @@
                 ],
                 "level2": {
                     "1": {
-                        "name": "絵空の記憶Ⅰ 1/3",
+                        "name": "「絵空の記憶」　1/12",
                         "info": "(2017.12.20)",
-                        "strID": 90181,
-                        "add": " 1/3",
+                        "strID": 2103119,
                         "infostrID": null,
                         "avgID": 1131
                     },
                     "2": {
-                        "name": "絵空の記憶Ⅰ 2/3",
+                        "name": "「絵空の記憶」　2/12",
                         "info": null,
-                        "strID": 90181,
-                        "add": " 2/3",
+                        "strID": 2103225,
                         "infostrID": null,
                         "avgID": 1132
                     },
                     "3": {
-                        "name": "絵空の記憶Ⅰ 3/3",
+                        "name": "「絵空の記憶」　3/12",
                         "info": null,
-                        "strID": 90181,
-                        "add": " 3/3",
+                        "strID": 2103309,
                         "infostrID": null,
                         "avgID": 1133
                     },
                     "4": {
-                        "name": "絵空の記憶Ⅱ 1/3",
+                        "name": "「絵空の記憶」　4/12",
                         "info": null,
-                        "strID": 90191,
-                        "add": " 1/3",
+                        "strID": 2103388,
                         "infostrID": null,
                         "avgID": 1134
                     },
                     "5": {
-                        "name": "絵空の記憶Ⅱ 2/3",
+                        "name": "「絵空の記憶」　5/12",
                         "info": null,
-                        "strID": 90191,
-                        "add": " 2/3",
+                        "strID": 2103472,
                         "infostrID": null,
                         "avgID": 1135
                     },
                     "6": {
-                        "name": "絵空の記憶Ⅱ 3/3",
+                        "name": "「絵空の記憶」　6/12",
                         "info": null,
-                        "strID": 90191,
-                        "add": " 3/3",
+                        "strID": 2103592,
                         "infostrID": null,
                         "avgID": 1136
                     },
                     "7": {
-                        "name": "絵空の記憶Ⅲ 1/3",
+                        "name": "「絵空の記憶」　7/12",
                         "info": null,
-                        "strID": 90201,
-                        "add": " 1/3",
+                        "strID": 2103652,
                         "infostrID": null,
                         "avgID": 1137
                     },
                     "8": {
-                        "name": "絵空の記憶Ⅲ 2/3",
+                        "name": "「絵空の記憶」　8/12",
                         "info": null,
-                        "strID": 90201,
-                        "add": " 2/3",
+                        "strID": 2103747,
                         "infostrID": null,
                         "avgID": 1138
                     },
                     "9": {
-                        "name": "絵空の記憶Ⅲ 3/3",
+                        "name": "「絵空の記憶」　9/12",
                         "info": null,
-                        "strID": 90201,
-                        "add": " 3/3",
+                        "strID": 2103857,
                         "infostrID": null,
                         "avgID": 1139
                     },
                     "10": {
-                        "name": "絵空の記憶Ⅳ 1/3",
+                        "name": "「絵空の記憶」　10/12",
                         "info": null,
-                        "strID": 90211,
-                        "add": " 1/3",
+                        "strID": 2104014,
                         "infostrID": null,
                         "avgID": 1140
                     },
                     "11": {
-                        "name": "絵空の記憶Ⅳ 2/3",
+                        "name": "「絵空の記憶」　11/12",
                         "info": null,
-                        "strID": 90211,
-                        "add": " 2/3",
+                        "strID": 2104124,
                         "infostrID": null,
                         "avgID": 1141
                     },
                     "12": {
-                        "name": "絵空の記憶Ⅳ 3/3",
+                        "name": "「絵空の記憶」　12/12",
                         "info": null,
-                        "strID": 90211,
-                        "add": " 3/3",
+                        "strID": 2104276,
                         "infostrID": null,
                         "avgID": 1142
                     }
@@ -1003,9 +991,9 @@
                 ],
                 "level2": {
                     "1": {
-                        "name": "年越しは、皆で",
+                        "name": "「年越しは、皆で」1/1",
                         "info": "(2017.12.27)",
-                        "strID": 90221,
+                        "strID": 2104391,
                         "infostrID": null,
                         "avgID": 1151
                     }
@@ -1066,26 +1054,23 @@
                 "questID": [],
                 "level2": {
                     "1": {
-                        "name": "新米遊撃士のクリスマス 1/3",
+                        "name": "新米遊撃士のクリスマス-1",
                         "info": "(2020.12.17)",
-                        "strID": "ex_243",
-                        "add": " 1/3",
+                        "strID": 2105919,
                         "infostrID": null,
                         "avgID": 1181
                     },
                     "2": {
-                        "name": "新米遊撃士のクリスマス 2/3",
+                        "name": "新米遊撃士のクリスマス-2",
                         "info": null,
-                        "strID": "ex_243",
-                        "add": " 2/3",
+                        "strID": 2105973,
                         "infostrID": null,
                         "avgID": 1182
                     },
                     "3": {
-                        "name": "新米遊撃士のクリスマス 3/3",
+                        "name": "新米遊撃士のクリスマス-3",
                         "info": null,
-                        "strID": "ex_243",
-                        "add": " 3/3",
+                        "strID": 2106040,
                         "infostrID": null,
                         "avgID": 1183
                     }
@@ -1097,50 +1082,44 @@
                 "questID": [],
                 "level2": {
                     "1": {
-                        "name": "Heroes War！ 1/6",
+                        "name": "第一話",
                         "info": "(2022.10.13)",
-                        "strID": "ex_244",
-                        "add": " 1/6",
+                        "strID": 2107175,
                         "infostrID": null,
                         "avgID": 1190
                     },
                     "2": {
-                        "name": "Heroes War！ 2/6",
+                        "name": "第二話",
                         "info": null,
-                        "strID": "ex_244",
-                        "add": " 2/6",
+                        "strID": 2107240,
                         "infostrID": null,
                         "avgID": 1191
                     },
                     "3": {
-                        "name": "Heroes War！ 3/6",
+                        "name": "第三話",
                         "info": null,
-                        "strID": "ex_244",
-                        "add": " 3/6",
+                        "strID": 2107302,
                         "infostrID": null,
                         "avgID": 1192
                     },
                     "4": {
-                        "name": "Heroes War！ 4/6",
+                        "name": "第四話",
                         "info": null,
-                        "strID": "ex_244",
-                        "add": " 4/6",
+                        "strID": 2107378,
                         "infostrID": null,
                         "avgID": 1193
                     },
                     "5": {
-                        "name": "Heroes War！ 5/6",
+                        "name": "第五話",
                         "info": null,
-                        "strID": "ex_244",
-                        "add": " 5/6",
+                        "strID": 2107454,
                         "infostrID": null,
                         "avgID": 1194
                     },
                     "6": {
-                        "name": "Heroes War！ 6/6",
+                        "name": "第六話",
                         "info": null,
-                        "strID": "ex_244",
-                        "add": " 6/6",
+                        "strID": 2107529,
                         "infostrID": null,
                         "avgID": 1195
                     }
@@ -1152,82 +1131,72 @@
                 "questID": [],
                 "level2": {
                     "1": {
-                        "name": "Bracer’s kitchen! 1/10",
+                        "name": "第一話",
                         "info": "(2023.03.15)",
-                        "strID": 99060,
-                        "add": " 1/10",
+                        "strID": 2107842,
                         "infostrID": null,
                         "avgID": 1200
                     },
                     "2": {
-                        "name": "Bracer’s kitchen! 2/10",
+                        "name": "第二話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 2/10",
+                        "strID": 2107923,
                         "infostrID": null,
                         "avgID": 1201
                     },
                     "3": {
-                        "name": "Bracer’s kitchen! 3/10",
+                        "name": "第三話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 3/10",
+                        "strID": 2108105,
                         "infostrID": null,
                         "avgID": 1202
                     },
                     "4": {
-                        "name": "Bracer’s kitchen! 4/10",
+                        "name": "第四話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 4/10",
+                        "strID": 2108205,
                         "infostrID": null,
                         "avgID": 1203
                     },
                     "5": {
-                        "name": "Bracer’s kitchen! 5/10",
+                        "name": "第5話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 5/10",
+                        "strID": 2108306,
                         "infostrID": null,
                         "avgID": 1204
                     },
                     "6": {
-                        "name": "Bracer’s kitchen! 6/10",
+                        "name": "第6話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 6/10",
+                        "strID": 2108463,
                         "infostrID": null,
                         "avgID": 1205
                     },
                     "7": {
-                        "name": "Bracer’s kitchen! 7/10",
+                        "name": "第7話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 7/10",
+                        "strID": 2108584,
                         "infostrID": null,
                         "avgID": 1206
                     },
                     "8": {
-                        "name": "Bracer’s kitchen! 8/10",
+                        "name": "第8話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 8/10",
+                        "strID": 2108642,
                         "infostrID": null,
                         "avgID": 1207
                     },
                     "9": {
-                        "name": "Bracer’s kitchen! 9/10",
+                        "name": "第9話",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 9/10",
+                        "strID": 2108787,
                         "infostrID": null,
                         "avgID": 1208
                     },
                     "10": {
-                        "name": "Bracer’s kitchen! 10/10",
+                        "name": "後日談",
                         "info": null,
-                        "strID": 99060,
-                        "add": " 10/10",
+                        "strID": 2108974,
                         "infostrID": null,
                         "avgID": 1209
                     }
@@ -1239,66 +1208,58 @@
                 "questID": [],
                 "level2": {
                     "1": {
-                        "name": "Bride or…? 1/8",
+                        "name": "第1話",
                         "info": "(2023.06.14)",
-                        "strID": 99070,
-                        "add": " 1/8",
+                        "strID": 2109214,
                         "infostrID": null,
                         "avgID": 1212
                     },
                     "2": {
-                        "name": "Bride or…? 2/8",
+                        "name": "第2話",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 2/8",
+                        "strID": 2109383,
                         "infostrID": null,
                         "avgID": 1213
                     },
                     "3": {
-                        "name": "Bride or…? 3/8",
+                        "name": "第3話",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 3/8",
+                        "strID": 2109533,
                         "infostrID": null,
                         "avgID": 1214
                     },
                     "4": {
-                        "name": "Bride or…? 4/8",
+                        "name": "第4話",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 4/8",
+                        "strID": 2109586,
                         "infostrID": null,
                         "avgID": 1215
                     },
                     "5": {
-                        "name": "Bride or…? 5/8",
+                        "name": "第5話",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 5/8",
+                        "strID": 2109701,
                         "infostrID": null,
                         "avgID": 1216
                     },
                     "6": {
-                        "name": "Bride or…? 6/8",
+                        "name": "第6話",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 6/8",
+                        "strID": 2109782,
                         "infostrID": null,
                         "avgID": 1217
                     },
                     "7": {
-                        "name": "Bride or…? 7/8",
+                        "name": "第7話",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 7/8",
+                        "strID": 2109887,
                         "infostrID": null,
                         "avgID": 1218
                     },
                     "8": {
-                        "name": "Bride or…? 8/8",
+                        "name": "後日談",
                         "info": null,
-                        "strID": 99070,
-                        "add": " 8/8",
+                        "strID": 2109976,
                         "infostrID": null,
                         "avgID": 1219
                     }
@@ -1373,58 +1334,51 @@
                 "questID": [],
                 "level2": {
                     "1": {
-                        "name": "ByeBye Missing 1/7",
+                        "name": "第1話",
                         "info": "(2023.12.20)",
-                        "strID": 99090,
-                        "add": " 1/7",
+                        "strID": 99283,
                         "infostrID": null,
                         "avgID": 1231
                     },
                     "2": {
-                        "name": "ByeBye Missing 2/7",
+                        "name": "第2話",
                         "info": null,
-                        "strID": 99090,
-                        "add": " 2/7",
+                        "strID": 99288,
                         "infostrID": null,
                         "avgID": 1232
                     },
                     "3": {
-                        "name": "ByeBye Missing 3/7",
+                        "name": "第3話",
                         "info": null,
-                        "strID": 99090,
-                        "add": " 3/7",
+                        "strID": 99293,
                         "infostrID": null,
                         "avgID": 1233
                     },
                     "4": {
-                        "name": "ByeBye Missing 4/7",
+                        "name": "第4話",
                         "info": null,
-                        "strID": 99090,
-                        "add": " 4/7",
+                        "strID": 99298,
                         "infostrID": null,
                         "avgID": 1234
                     },
                     "5": {
-                        "name": "ByeBye Missing 5/7",
+                        "name": "第5話",
                         "info": null,
-                        "strID": 99090,
-                        "add": " 5/7",
+                        "strID": 99303,
                         "infostrID": null,
                         "avgID": 1235
                     },
                     "6": {
-                        "name": "ByeBye Missing 6/7",
+                        "name": "エピローグ",
                         "info": null,
-                        "strID": 99090,
-                        "add": " 6/7",
+                        "strID": 99308,
                         "infostrID": null,
                         "avgID": 1236
                     },
                     "7": {
-                        "name": "ByeBye Missing 7/7",
+                        "name": "おまけエピソード",
                         "info": null,
-                        "strID": 99090,
-                        "add": " 7/7",
+                        "strID": 99313,
                         "infostrID": null,
                         "avgID": 1237
                     }
