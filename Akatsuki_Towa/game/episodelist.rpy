@@ -154,6 +154,7 @@ screen questlog(data):
     python:
         if data['type'] == 1: prefix = logmain + ' '
         elif data['type'] == 2: prefix = logsub + ' '
+        elif data['type'] == 16: prefix = logdaily + ' '
 
         fulltext += prefix + textdict[data['title']] + '\n'
         fulltext += loglevel + ' ' + str(data['level']) + '\n'
