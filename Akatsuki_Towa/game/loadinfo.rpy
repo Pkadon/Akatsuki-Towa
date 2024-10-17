@@ -43,7 +43,8 @@ python early:
             stringpos = headers.index(stringkey)
 
             for row in reader:
-                textid = int(row[idpos])
+                try: textid = int(row[idpos])
+                except: textid = row[idpos]
 
                 if len(row) > stringpos:
                     textstring = row[stringpos]
