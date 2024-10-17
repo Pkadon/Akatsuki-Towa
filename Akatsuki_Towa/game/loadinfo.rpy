@@ -28,7 +28,7 @@ python early:
                 if txt.read(3) == b'\xef\xbb\xbf': encode = 'utf-8-sig'
 
         d = dict()
-        with renpy.open_file(filename, encoding=encoding, directory='MonoBehaviour') as txt:
+        with renpy.open_file(filename, encoding=encode, directory='MonoBehaviour') as txt:
             reader = csv.reader(txt)
 
             #get list of headers
