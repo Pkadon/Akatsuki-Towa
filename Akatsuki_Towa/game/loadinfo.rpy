@@ -13,7 +13,8 @@ python early:
             for row in range(0, len(text_json[rowkey])):
                 row = text_json[rowkey][row]
 
-                textid = int(row[idkey])
+                try: textid = int(row[idkey])
+                except: textid = row[idkey]
                 textstring = row[stringkey]
 
                 textstring = "\n".join(textstring.splitlines())
