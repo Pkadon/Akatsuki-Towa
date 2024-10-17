@@ -99,15 +99,18 @@ python early:
      
     #color these dialogue strings green:
     for strid in [1132448, 1132458, 1132463]:
-        textdict[strid] = colortext(textdict[strid], '339944')
+        if strid in textdict:
+            textdict[strid] = colortext(textdict[strid], '339944')
 
     #color these dialogue strings blue:
     for strid in [1132449, 1132459, 1132464]:
-        textdict[strid] = colortext(textdict[strid], '334499')
+        if strid in textdict:
+            textdict[strid] = colortext(textdict[strid], '334499')
 
 
     #FIX TYPO
     #ジオフロントの再調査 is labeled 1/2 when it should be 1/1
-    if textdict[17579].endswith('1/2'):
-        textdict[17579] = textdict[17579][:-3] + '1/1'
+    if 17579 in textdict:
+        if textdict[17579].endswith('1/2'):
+            textdict[17579] = textdict[17579][:-3] + '1/1'
 return

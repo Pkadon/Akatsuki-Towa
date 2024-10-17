@@ -3,7 +3,7 @@ init python:
         if key in textdict:
             return textdict[key]
         else:
-            return key
+            return str(key)
 
 screen episodelist(data):
     default chaptername = ''
