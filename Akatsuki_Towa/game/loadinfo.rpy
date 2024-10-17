@@ -6,9 +6,9 @@ python early:
     with renpy.open_file('episodelist.json', encoding="utf-8") as txt:
         menudata = json.load(txt)
 
-    def jsonloader(filename, rowkey, idkey, stringkey):
+    def jsonloader(filename, rowkey, idkey, stringkey, encode):
         d = dict()
-        with renpy.open_file(filename, encoding="utf-8", directory='MonoBehaviour') as txt:
+        with renpy.open_file(filename, encoding=encode, directory='MonoBehaviour') as txt:
             text_json = json.load(txt)
             for row in range(0, len(text_json[rowkey])):
                 row = text_json[rowkey][row]
@@ -21,11 +21,11 @@ python early:
                 d[textid] = textstring
         return d
                     
-    def csvloader(filename, idkey, stringkey):
+    def csvloader(filename, idkey, stringkey, encode):
         #try to check for utf-8 sig encoding
-        with renpy.open_file(filename, directory='MonoBehaviour') as txt:
-            if txt.read(3) == b'\xef\xbb\xbf': encoding = 'utf-8-sig'
-            else: encoding = 'utf-8'
+        if encode == "utf-8":
+            with renpy.open_file(filename, directory='MonoBehaviour') as txt:
+                if txt.read(3) == b'\xef\xbb\xbf': encode = 'utf-8-sig'
 
         d = dict()
         with renpy.open_file(filename, encoding=encoding, directory='MonoBehaviour') as txt:
@@ -58,15 +58,15 @@ python early:
 
     #LOAD AVG ROLE FILE
     if namefilename.endswith('.json'):
-        avgroledict = jsonloader(namefilename, namerowkey, nameidkey, namekey)
+        avgroledict = jsonloader(namefilename, namerowkey, nameidkey, namekey, nameencode)
     elif namefilename.endswith('.csv'):
-        avgroledict = csvloader(namefilename, nameidkey, namekey)
+        avgroledict = csvloader(namefilename, nameidkey, namekey, nameencode)
 
     #LOAD SCRIPT FILE
     if textfilename.endswith('.json'):
-        textdict = jsonloader(textfilename, textrowkey, textidkey, textkey)
+        textdict = jsonloader(textfilename, textrowkey, textidkey, textkey, textencode)
     elif textfilename.endswith('.csv'):
-        textdict = csvloader(textfilename, textidkey, textkey)
+        textdict = csvloader(textfilename, textidkey, textkey, textencode)
 
     #COMBINE EXTRA STRING DICTIONARY
     for key in list(extextdict.keys()):

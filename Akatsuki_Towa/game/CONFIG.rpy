@@ -61,6 +61,9 @@ init python early:
 ### The file may be a .json file or a .csv file
     textfilename = "text.json"
 
+### The encoding (may also be called "character set") used for the script file
+    textencode = "utf-8"
+
 ### The key used to access the list of rows in text.json
 ### (skip this if using a csv file)
     textrowkey = "_rows"
@@ -106,6 +109,9 @@ init python early:
 ### The name of the file containing character names
 ### The file may be a .json file or a .csv file
     namefilename = "avg_role.json"
+
+### The encoding (may also be called "character set") used for the character name file
+    nameencode = "utf-8"
 
 ### The key used to access the list of rows in avg_role.json
 ### (skip this if using a csv file)
