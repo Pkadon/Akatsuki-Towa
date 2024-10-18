@@ -90,7 +90,7 @@ Then run the .py scripts in the following order (or use the .bat files):
    -  creates readable text files from the avg json files in `generate_scripts/MonoBehaviour`, and uses the created dictionaries to place them in a similar folder structure
  
  - **`4_make_menus.py`:** 
-   - combines the json files in `generate_scripts/extra_json` into dictionaries, and then uses that dictionary to build the `episodelist.rpy` and `questlog.rpy` menu files for Akatsuki Towa
+   - combines the json files in `generate_scripts/extra_json` into dictionaries, and then uses that dictionary to build the `episodelist.json` menu file for Akatsuki Towa
 
  - **`5_generate_script.py`:**
    - uses `avg_role.json`, `bgm.json`, `sfx.json`, `voice.json`
@@ -150,6 +150,24 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
    - These values can now be changed by editing them in `game/CONFIG.rpy`
  - Some text used in the menus could not be sourced directly from the original script file
    - These strings can now be changed by editing them in `game/CONFIG.rpy`
+
+## Translation File Generation (*experimental*):
+You can now use `5_generate_TL_file.py`, found in the `generate_scripts` folder to create a new translatable text file. (either .csv or .json)
+This script will pull out all strings used in Akatsuki Towa's menus and cutscenes, keeping them in order, while adding a note about where it will be used, and whether it is a duplicate usage or not.
+Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it where it is.
+
+(For now, you will still need to separately translate the extra strings in `CONFIG.rpy`.  For these instances, a note will be made in the generated translation file.)
+(Please also note that the speaker is included as supplementary information only.  Each speaker's name only needs to be translated once, inside your `avg_role.json` file.)
+
+**5_generate_TL_file.py required files**
+in `generate_scripts\MonoBehaviour`:
+ - `text.json`
+ - `avg_role.json`
+ - all "avg" cutcene json files (examples: `10001.json`, `1186.json`)
+
+in `generate_scripts\Renpy_scripts`:
+ - `episodelist.json`
+
 
 ## Translation file notes/formats:
 The text loader was made more flexible, and it is now possible to load .csv files, and (partially) customized .json files as script files.

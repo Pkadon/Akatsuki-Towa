@@ -15,7 +15,7 @@ python early:
 
                 try: textid = int(row[idkey])
                 except: textid = row[idkey]
-                textstring = row[stringkey]
+                textstring = str(row[stringkey])
 
                 textstring = "\n".join(textstring.splitlines())
                     
@@ -48,7 +48,7 @@ python early:
                 except: textid = row[idpos]
 
                 if len(row) > stringpos:
-                    textstring = row[stringpos]
+                    textstring = str(row[stringpos])
                 else:
                     textstring = ''
 
