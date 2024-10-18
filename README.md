@@ -203,6 +203,7 @@ Please test your file early and often, to make sure that it is loaded properly.
 ```
 
 ### CSV notes:
+**These suggestions are for what the output file should look like.  You may need to do some testing to figure out how much of this your spreadsheet software is already doing automatically.**
  - It is recommended that the field containing the string is surrounded with double-quotes to make sure commas and linebreaks are included properly.
  - Add a linebreak to a string with the "enter" key, newline characters ("\\n") don't seem to work here.
  - Double-quotes that are a part of the string should be typed twice. (see example below)
