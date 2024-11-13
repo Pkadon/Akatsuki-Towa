@@ -1,8 +1,9 @@
+# Akatsuki-Towa
 ### This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
 
 ---
-
-### DOES NOT INCLUDE ANY GAME FILES
+## Setup
+**DOES NOT INCLUDE ANY GAME FILES**
 
 Please export required assets from the original game's unity3D files
 
@@ -32,7 +33,7 @@ Pleace replace them with the actual files.
 The `.ico` file in both the root folder, and `game/icon` is a placeholder file, please replace it with an icon of your choice.
 
 ---
-
+## Build
 
 To build into an .exe:
  1. Download Ren'Py from here: https://www.renpy.org/
@@ -99,8 +100,8 @@ Then run the .py scripts in the following order (or use the .bat files):
 **PLEASE NOTE:** Not all generated scripts will be accessible from Akatsuki Towa's in-game menu, but they can be manually played by using the "Jump" button on the left side of the "Scene Select" menu.
 
 ---
-
-### enabletypewritersound.rpy
+## Adding typewriter sound effect back in
+**enabletypewritersound.rpy**
 
 I originally had the "typewriter" sound that plays while displaying text working by using an audio recording of the real game.
 
@@ -110,7 +111,7 @@ But the hooks are all still there, and can be re-enabled by uncommenting the sec
 
 ---
 
-### ACCURACY
+## Accuracy
 
 Everything was done with the goal of being as accurate as possible, but nothing is 100% certain to be 100% accurate
 
@@ -144,14 +145,14 @@ Everything was done with the goal of being as accurate as possible, but nothing 
 
 ---
 
-# Translation:
+# Translation
 If someone were to attempt to translate Akatsuki's script and have it play from within Akatsui-Towa, for the most part, you would only need to create edited/translated copies of `text.json` and `avg_role.json`, and replace the files in `game/MonoBehaviour` with your newly created files, but there are some special circumstances to note:
  - Text may not fit inside some of the buttons, and either the frame size or the text itself may need to be resized
    - These values can now be changed by editing them in `game/CONFIG.rpy`
  - Some text used in the menus could not be sourced directly from the original script file
    - These strings can now be changed by editing them in `game/CONFIG.rpy`
 
-## Translation File Generation (*experimental*):
+## Translation File Generation (*experimental*)
 You can now use `5_generate_TL_file.py`, found in the `generate_scripts` folder to create a new translatable text file. (either .csv or .json)
 This script will pull out all strings used in Akatsuki Towa's menus and cutscenes, keeping them in order, while adding a note about where it will be used, and whether it is a duplicate usage or not.
 Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it where it is.
@@ -169,7 +170,7 @@ in `generate_scripts\Renpy_scripts`:
  - `episodelist.json`
 
 
-## Translation file notes/formats:
+## Translation file notes
 The text loader was made more flexible, and it is now possible to load .csv files, and (partially) customized .json files as script files.
 Please test your file early and often, to make sure that it is loaded properly.
  - Place your `text.json` and `avg_role.json` equivalent files in `game/MonoBehaviour`
@@ -178,14 +179,14 @@ Please test your file early and often, to make sure that it is loaded properly.
       - The string/text field can be left empty.
  - Edit the filename and key name variables in the "Translation" section of `CONFIG.rpy` to match your file (see examples in CONFIG.rpy for help)
 
-### JSON notes:
+### JSON notes
  - A .json file may have a different filename and key names, but loadinfo.rpy will still expect it to match the basic structure of the original script files (see example below)
  - Include a linebreak in a string with a newline character ("\\n") instead of pressing the "enter" key
  - Escape ALL double-quotes that are part of the string with a backslash ("\\"")
    - If your json file surrounds string values in single quotes, escape single quotes instead ('\\'')
  - Double all backslashes and left curly brace characters that are part of the string ("{{"), ("\\\\")
 
-#### Example JSON:
+#### Example JSON
 
 ```
 {
@@ -202,14 +203,14 @@ Please test your file early and often, to make sure that it is loaded properly.
 }
 ```
 
-### CSV notes:
+### CSV notes
 **These suggestions are for what the output file should look like.  You may need to do some testing to figure out how much of this your spreadsheet software is already doing automatically.**
  - It is recommended that the field containing the string is surrounded with double-quotes to make sure commas and linebreaks are included properly.
  - Add a linebreak to a string with the "enter" key, newline characters ("\\n") don't seem to work here.
  - Double-quotes that are a part of the string should be typed twice. (see example below)
  - Double all left curly brace characters that are part of the string ("{{")
 
-#### Example CSV:
+#### Example CSV
 
 ```
 idkey,textkey
@@ -228,7 +229,7 @@ no"                                 |             no
 ```
 
 ---
-# **Ren'Py Disclaimer**:  
+# **Ren'Py Disclaimer**
 **This program contains free software licensed under a number of licenses,
 including the GNU Lesser General Public License. A complete list of software
 is available at http://www.renpy.org/doc/html/license.html.**
