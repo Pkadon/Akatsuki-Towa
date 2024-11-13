@@ -1,6 +1,13 @@
 # Akatsuki-Towa
 ### This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
 
+ - [Setup](https://github.com/Pkadon/Akatsuki-Towa#setup)
+ - [Build](https://github.com/Pkadon/Akatsuki-Towa#build)
+ - [Add Typewriter Sound Effect](https://github.com/Pkadon/Akatsuki-Towa#adding-typewriter-sound-effect-back-in)
+ - [Accuracy](https://github.com/Pkadon/Akatsuki-Towa#accuracy)
+ - [Translation](https://github.com/Pkadon/Akatsuki-Towa#translation)
+   - [Translation File Generator](https://github.com/Pkadon/Akatsuki-Towa#translation-file-generation-experimental)
+
 ---
 ## Setup
 **DOES NOT INCLUDE ANY GAME FILES**
@@ -152,24 +159,6 @@ If someone were to attempt to translate Akatsuki's script and have it play from 
  - Some text used in the menus could not be sourced directly from the original script file
    - These strings can now be changed by editing them in `game/CONFIG.rpy`
 
-## Translation File Generation (*experimental*)
-You can now use `5_generate_TL_file.py`, found in the `generate_scripts` folder to create a new translatable text file. (either .csv or .json)
-This script will pull out all strings used in Akatsuki Towa's menus and cutscenes, keeping them in order, while adding a note about where it will be used, and whether it is a duplicate usage or not.
-Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it where it is.
-
-(For now, you will still need to separately translate the extra strings in `CONFIG.rpy`.  For these instances, a note will be made in the generated translation file.)
-(Please also note that the speaker is included as supplementary information only.  Each speaker's name only needs to be translated once, inside your `avg_role.json` file.)
-
-**5_generate_TL_file.py required files**
-in `generate_scripts\MonoBehaviour`:
- - `text.json`
- - `avg_role.json`
- - all "avg" cutcene json files (examples: `10001.json`, `1186.json`)
-
-in `generate_scripts\Renpy_scripts`:
- - `episodelist.json`
-
-
 ## Translation file notes
 The text loader was made more flexible, and it is now possible to load .csv files, and (partially) customized .json files as script files.
 Please test your file early and often, to make sure that it is loaded properly.
@@ -227,6 +216,23 @@ no"                                 |             no
 10,"{{Oh, no!}"                     |displays as: {Oh, no!}
 11,"{Oh, no!}"                      |do not use - crashes Ren'Py
 ```
+
+## Translation File Generation (*experimental*)
+You can now use `5_generate_TL_file.py`, found in the `generate_scripts` folder to create a new translatable text file. (either .csv or .json)
+This script will pull out all strings used in Akatsuki Towa's menus and cutscenes, keeping them in order, while adding a note about where it will be used, and whether it is a duplicate usage or not.
+Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it where it is.
+
+(For now, you will still need to separately translate the extra strings in `CONFIG.rpy`.  For these instances, a note will be made in the generated translation file.)
+(Please also note that the speaker is included as supplementary information only.  Each speaker's name only needs to be translated once, inside your `avg_role.json` file.)
+
+**5_generate_TL_file.py required files**
+in `generate_scripts\MonoBehaviour`:
+ - `text.json`
+ - `avg_role.json`
+ - all "avg" cutcene json files (examples: `10001.json`, `1186.json`)
+
+in `generate_scripts\Renpy_scripts`:
+ - `episodelist.json`
 
 ---
 # **Ren'Py Disclaimer**
