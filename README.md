@@ -223,9 +223,11 @@ This script will pull out all strings used in Akatsuki Towa's menus and cutscene
 Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it where it is.
 
 (For now, you will still need to separately translate the extra strings in `CONFIG.rpy`.  For these instances, a note will be made in the generated translation file.)
+
 (Please also note that the speaker is included as supplementary information only.  Each speaker's name only needs to be translated once, inside your `avg_role.json` file.)
 
 **5_generate_TL_file.py required files**
+
 in `generate_scripts\MonoBehaviour`:
  - `text.json`
  - `avg_role.json`
