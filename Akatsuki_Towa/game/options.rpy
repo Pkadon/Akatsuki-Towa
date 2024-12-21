@@ -18,7 +18,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "2.0"
+define config.version = "2.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -133,7 +133,7 @@ define config.save_directory = "AkatsukiTowa-1712552784"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "icon/FormIcon.ico"
+define config.window_icon = "icon/FormIcon.jpg"
 
 
 ## Build configuration #########################################################
