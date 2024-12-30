@@ -112,6 +112,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		centerportrait = None
 		centeralias = None
 		showingimage = None
+		memory = False
 		for i in range(0, len(script_json['dialogueFrames'])):
 			framecount = i+1
 			newscene = False
