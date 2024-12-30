@@ -411,7 +411,7 @@ hide c4portrait
 hide c45portrait
 show sc038_01 2 as c45portrait at darkright(-1), zorder 5
 show oc004_01 16 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1130966]]'
+c41 '[textdict[1130996]]'
 hide c45portrait
 hide c4portrait
 show oc004_01 16 as c4portrait at darkleft(-5), zorder 6
@@ -562,7 +562,7 @@ hide c1portrait
 hide c47portrait
 show sc040_01 4 as c47portrait at darkright(-9), zorder 5
 show oc001_01 4 as c1portrait at leftside(-2), zorder 5
-c11 '[textdict[1130996]]'
+c11 '[textdict[1130966]]'
 hide c1portrait
 hide c47portrait
 show sc040_01 4 as c47portrait at darkright(-9), zorder 5

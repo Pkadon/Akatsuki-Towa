@@ -64,6 +64,18 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	#IMPORT SCRIPT JSON
 	with open(cutscenepath, 'r', encoding="utf-8")as txt:
 		script_json = json.load(txt)
+		
+	#Apply corrections found in mobile version files
+	if fname == '10330':
+		script_json['dialogueFrames'][85]['strID'] = 1130996
+		script_json['dialogueFrames'][115]['strID'] = 1130966
+
+	if fname == '10331':
+		script_json['dialogueFrames'][88]['strID'] = 1130996
+		script_json['dialogueFrames'][88]['character']['charID'] = 4
+		script_json['dialogueFrames'][88]['character']['speaker'] = 4
+		script_json['dialogueFrames'][118]['strID'] = 1130966
+	
 	framedict = dict()
 
 	#FIGURE OUT BACKGROUND SCHEDULE

@@ -88,6 +88,18 @@ def processavg(avg):
 		avgfile = f'{avg}.json'
 		with open(scriptdirec / avgfile, 'r', encoding='utf-8') as f:
 			f = json.load(f)
+		
+		#Apply corrections found in mobile version files
+		if str(avg) == '10330':
+			f['dialogueFrames'][85]['strID'] = 1130996
+			f['dialogueFrames'][115]['strID'] = 1130966
+
+		if str(avg) == '10331':
+			f['dialogueFrames'][88]['strID'] = 1130996
+			f['dialogueFrames'][88]['character']['charID'] = 4
+			f['dialogueFrames'][88]['character']['speaker'] = 4
+			f['dialogueFrames'][118]['strID'] = 1130966
+		
 		rowcount = 0
 		for frame in f['dialogueFrames']:
 			rowcount += 1
