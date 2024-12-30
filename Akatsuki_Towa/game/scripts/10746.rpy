@@ -3,7 +3,6 @@ stop music
 
 stop music
 scene avg_bg_003
-hide memoryoverlay
 with fade
 c0 '[textdict[1173245]]'
 play music "ed7516.ogg"

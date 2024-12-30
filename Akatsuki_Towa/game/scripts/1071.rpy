@@ -3,7 +3,6 @@ stop music
 
 play music "ED6518.ogg"
 scene avg_bg_062
-hide memoryoverlay
 with fade
 c0 '[textdict[2101496]]'
 play sfx2 "other_7049.ogg"

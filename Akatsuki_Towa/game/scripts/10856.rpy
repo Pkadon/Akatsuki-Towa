@@ -3,7 +3,6 @@ stop music
 
 play music "ed7544.ogg"
 scene avg_bg_218
-hide memoryoverlay
 with fade
 play sfx2 "other_7057.ogg"
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5

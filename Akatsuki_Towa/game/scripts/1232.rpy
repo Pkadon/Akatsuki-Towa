@@ -3,7 +3,6 @@ stop music
 
 play music "ed7124.ogg"
 scene avg_bg_038
-hide memoryoverlay
 with fade
 show sc040_01 6 as c47portrait at rightside(-9), zorder 5
 c473 '[textdict[2111574]]'
