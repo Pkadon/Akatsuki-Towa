@@ -174,6 +174,8 @@ Please test your file early and often, to make sure that it is loaded properly.
  - Escape ALL double-quotes that are part of the string with a backslash ("\\"")
    - If your json file surrounds string values in single quotes, escape single quotes instead ('\\'')
  - Double all backslashes and left curly brace characters that are part of the string ("{{"), ("\\\\")
+ - Double all left square brackets that are part of strings that show on the scene select menu ("[[")
+   - This does not seem to be required for strings that are only shown as dialogue, but more experimenting may need to be done
 
 #### Example JSON
 
@@ -198,6 +200,8 @@ Please test your file early and often, to make sure that it is loaded properly.
  - Add a linebreak to a string with the "enter" key, newline characters ("\\n") don't seem to work here.
  - Double-quotes that are a part of the string should be typed twice. (see example below)
  - Double all left curly brace characters that are part of the string ("{{")
+ - Double all left square brackets that are part of strings that show on the scene select menu ("[[")
+   - This does not seem to be required for strings that are only shown as dialogue, but more experimenting may need to be done
 
 #### Example CSV
 
