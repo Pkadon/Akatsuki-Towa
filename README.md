@@ -17,14 +17,20 @@ Please export required assets from the original game's unity3D files
 I recommend using AssetStudioMod (by aelurum)  <https://github.com/aelurum/AssetStudio>
 
 **If using AssetStudioMod to export assets, you can:**
- 1. **Drag-and-drop the folder containing all of your .unity3D asset files**
+ 1. **Drag-and-drop the folder containing all of your .unity3D asset files into the AssetStudio window.**
  2. **Select the "Asset List" tab at the top**
  3. **Change the search type in the dropdown to "Regex (Name)"**
  4. **Paste the following regex pattern into the search field to easily filter required files:**
 
 		avg_(vocal|role|img)|bat_(arts_wt02_2|craft_wind_01|utility_(jump|landing))|bcv_(oc00(1|2|3|4_hurt_02|6_(com_01|hurt_01)|8_c0(1_01|3_02))|sc020_sc01_0(4|5))|common_|dun_obj005_01_01|ed7v|^[eE][dD]\d\d\d\d$|elc_5|fight_|mainsong|other_7|sys_utility_typewriter|^text$|(atlas_(journal|login$|loading))|(avg_(a1screen|bg))|image_001|loading00|\d\d_\d\d_avg|sc085_01_i256|startbackground
  5. **Export by selecting "Export"->"Filtered assets"**
- 6. **Then the folders are named so that you should be able to take the folders created by AssetStudio after exporting, ("AudioClip", "MonoBehaviour", "Texture2D") and drag them into Akatsuki-Towa's `game` folder. (Replace files in the destination when prompted)**
+ 6. **Then the folders are named so that you should be able to take the folders created by AssetStudio\* after exporting, ("AudioClip", "MonoBehaviour", "Texture2D") and drag them into Akatsuki-Towa's `game` folder. (Replace files in the destination when prompted)**
+
+\* This is assuming you are exporting with AssetStudio's default settings. If any files are not able to be found by the game, or if you are using a different program to export the assets, please double check that:
+ - `Texture2D` are converted to `.png`, and that they end up in the `game/Texture2D` folder
+ - `AudioClip` are converted to `.ogg`, and that they end up in the `game/AudioClip` folder
+ - `MonoBehaviour` are converted to `.json`, and that they end up in the `game/MonoBehaviour` folder
+
 ---
 
 REQUIRES the official `text.json` and `avg_role.json` to be placed in the `game/MonoBehaviour` folder in order to display text properly.
