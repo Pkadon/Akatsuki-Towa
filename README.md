@@ -26,7 +26,7 @@ I recommend using AssetStudioMod (by aelurum)  <https://github.com/aelurum/Asset
  5. **Export by selecting "Export"->"Filtered assets"**
  6. **Then the folders are named so that you should be able to take the folders created by AssetStudio\* after exporting, ("AudioClip", "MonoBehaviour", "Texture2D") and drag them into Akatsuki-Towa's `game` folder. (Replace files in the destination when prompted)**
 
-\* This is assuming you are exporting with AssetStudio's default settings. If any files are not able to be found by the game, or if you are using a different program to export the assets, please double check that:
+\* This is assuming you are exporting with AssetStudio's default settings. If any files are not able to be found by the game, or if you are using a different program to export the assets, please ensure that:
  - `Texture2D` are converted to `.png`, and that they end up in the `game/Texture2D` folder
  - `AudioClip` are converted to `.ogg`, and that they end up in the `game/AudioClip` folder
  - `MonoBehaviour` are converted to `.json`, and that they end up in the `game/MonoBehaviour` folder
