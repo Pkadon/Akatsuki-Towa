@@ -152,4 +152,4 @@ for category in combinedscenelist:
 		categorydict['quests'].append(questdict)
 	episodelist.append(categorydict)
 with open((outputdirec / 'episodelist.json'), 'w', encoding='utf-8') as f:
-	json.dump(episodelist, f, ensure_ascii=False, indent=4)
+	json.dump(episodelist, f, ensure_ascii=False)
