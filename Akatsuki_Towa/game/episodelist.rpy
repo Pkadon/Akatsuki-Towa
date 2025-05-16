@@ -141,7 +141,13 @@ screen quest(data):
                             python:
                                 scenename = convertstrid(scene['scenename'])
                                 if scene['add']: scenename += scene['add']
-                                if scene['sceneinfo']: scenename += '\n' + convertstrid(scene['sceneinfo'])
+
+                                scenename = '{color=#710905}'+scenename+'{/color}' #adds a red color to scene title text
+
+                                if scene['sceneinfo']:
+                                    info = convertstrid(scene['sceneinfo'])
+
+                                    scenename += '\n{color=#34374b}'+info+'{/color}' #adds a dark blue color to info text
 
                             text scenename:
                                 align (0.5,0.5)
