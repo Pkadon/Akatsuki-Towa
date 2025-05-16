@@ -1,12 +1,13 @@
 import json
 from pathlib import Path
-import os
 
-direc = Path.cwd()
+# I don't know if it's ok to be using __file__ here, 
+# but I figure it's better than what it was before
+direc = Path(__file__).resolve().parent
 exdirec = direc / "extra_json"
 scriptdirec = direc / 'MonoBehaviour'
 
-#IMPORT TEXT JSON
+#IMPORT TEXT
 with open((scriptdirec / 'text.json'), 'r', encoding="utf-8")as txt:
 	text_json = json.load(txt)
 textdict = dict()
@@ -15,124 +16,104 @@ for i in range(0, len(text_json['_rows'])):
 	
 #IMPORT TRAINING
 trainingdict = dict()
-for train in scriptdirec.glob('training_event*'):
-	with open(train, 'r', encoding="utf-8")as txt:
+for training_event_file in scriptdirec.glob('training_event*'):
+	with open(training_event_file, 'r', encoding="utf-8")as txt:
 		training_json = json.load(txt)
 	for i in range(0, len(training_json['_rows'])):
 		i = training_json['_rows'][i]
 		trainingid = i['_id']
-		trainingbook = i['_book_str']
-		trainingchapter = i['_chapter_str']
-		trainingquest = i['_quest']
-		trainingtrigger = i['_trigger']
-		
-		trainingdict[trainingid] = {
-		'book': trainingbook, 
-		'chapter': trainingchapter, 
-		'quest': trainingquest, 
-		'trigger': trainingtrigger
-		}
-		
+
+		trainingdict[trainingid] = i
+
 #IMPORT QUEST
 questdict = dict()
-for quest in scriptdirec.glob('quest*'):
-	with open(quest, 'r', encoding="utf-8")as txt:
+for quest_file in scriptdirec.glob('quest*'):
+	with open(quest_file, 'r', encoding="utf-8")as txt:
 		quest_json = json.load(txt)
 	for i in range(0, len(quest_json['_rows'])):
 		i = quest_json['_rows'][i]
 		questid = i['_id']
-		questtype = i['_type']
-		questname = i['_name']
-		questclient = i['_client']
-		questreclevel = i['_recommendedLv']
-		questpenddesc = i['_descOnPending']
-		questcompdesc = i['_descOnComplete']
-		questfaildesc = i['_descOnFail']
-		triggeronbrowse = i['_triggerOnBrowse']
 		
-		questprogress_pending = list(i['_stepDescsOnPending'])
-		questprogress_complete = list(i['_stepDescsOnComplete'])
-		
-		questdict[questid] = {
-		'questid': questid,
-		'type': questtype,
-		'name': questname,
-		'client': questclient,
-		'level': questreclevel,
-		'penddesc': questpenddesc,
-		'compdesc': questcompdesc,
-		'faildesc': questfaildesc,
-		'triggeronbrowse': triggeronbrowse,
-		
-		'progresslist_pending': questprogress_pending,
-		'progresslist_complete': questprogress_complete
-		}
-		
+		questdict[questid] = i
+
 #IMPORT TRIGGER
+triggerdict = dict()
 with open((scriptdirec / 'trigger.json'), 'r', encoding="utf-8")as txt:
 	trigger_json = json.load(txt)
-triggerdict = dict()
 for i in range(0, len(trigger_json['_rows'])):
 	i = trigger_json['_rows'][i]
-	triggerdict[str(i['_id'])] = {
-	'avgenabled': i['_aAvgEnabled'],
-	'avgid': i['_aAvgId'] 
-	}
+	triggerid = i['_id']
+	
+	triggerdict[triggerid] = i
 
 #START
-trainingmenu = dict()
+newtraininglist = list()
 
-lastcat = ''
-catcount = 0
-lastbut = ''
-butcount = 0
+lastquest = None
+lastchapter = None
 
-lastbut2 = ''
-but2count = 0
+training_started = False
+event_started = False
 
 for trainingid in trainingdict.keys():
-	checktrigger = questdict[trainingdict[trainingid]['quest']]['triggeronbrowse']
-	checktrigger = str(int(checktrigger)+3)
-	if triggerdict[checktrigger]['avgenabled'] == 1:
-
+	stage = trainingdict[trainingid]
+	checktrigger = questdict[stage['_quest']]['_triggerOnBrowse']
+	checktrigger = checktrigger+3
+	if triggerdict[checktrigger]['_aAvgEnabled'] == 1:
 		
-		catstrID = trainingdict[trainingid]['book']
-		if catstrID == 19001:
-			catorder = 11
+		book = stage['_book_str'] #catstrID
+		
+		if book == 19001:
+			category = 0
+			if not training_started:
+				trainingscenes = {
+					'name': textdict[19001],
+					'strID': 19001,
+					'quests': list()
+				}
+				newtraininglist.append(trainingscenes)
+				training_started = True
+				questcount = -1
 			
-		## to have it auto sort "event" scenes, remove the "continue", and uncomment the "catorder = 12"
+		## to have it auto sort "event" scenes, remove the "continue" line,
+		## and uncomment the immediate block below,
+		## and uncomment the "newtraininglist.append(eventscenes)" line above
 		## it will only be able to sort events that are accessible from any "training_event.json" and "quest.json" files
 		## placed in the 'MonoBehaviour' folder
-		elif catstrID == 19004:
-			#catorder = 12
-			continue 
-			
-		if catorder not in trainingmenu: 
-			trainingmenu[catorder] = dict()
-			trainingmenu[catorder]['name'] = textdict[catstrID]
-			trainingmenu[catorder]['strID'] = catstrID
-			trainingmenu[catorder]['level1'] = dict()
-			butcount = 0
+		elif book == 19004:
+			'''
+			category = 1
+			if not event_started:
+				eventscenes = {
+					'name': textdict[19004],
+					'strID': 19004,
+					'quests': list()
+				}
+				newtraininglist.append(eventscenes)
+				event_started = True
+				questcount = -1
+			'''
+			continue
 
-		but1strID = trainingdict[trainingid]['chapter']
-		
-		if butcount == 0 or trainingmenu[catorder]['level1'][butcount]['strID'] != but1strID:
-			butcount += 1
-			trainingmenu[catorder]['level1'][butcount] = dict()
-			but1dict = trainingmenu[catorder]['level1'][butcount]
+		chapter = stage['_chapter_str']
+		if chapter != lastchapter:
+			quest = {
+				'name': textdict[chapter],
+				'strID': chapter,
+				'scenes': list()
+			}
 			
-			but1dict['name'] = textdict[but1strID]
-			but1dict['strID'] = but1strID
-			but1dict['level2'] = dict()
-			but2count = 0
-				
-		but2count +=1
-		trainingmenu[catorder]['level1'][butcount]['level2'][but2count] = dict()
-		but2dict = trainingmenu[catorder]['level1'][butcount]['level2'][but2count]
+			lastchapter = chapter
+			newtraininglist[category]['quests'].append(quest)
+			questcount += 1
 
-		but2dict['name'] = textdict[questdict[trainingdict[trainingid]['quest']]['name']]
-		but2dict['strID'] = questdict[trainingdict[trainingid]['quest']]['name']
-		but2dict['avgID'] = triggerdict[checktrigger]['avgid']
+		scene = {
+			'name': textdict[questdict[stage['_quest']]['_name']],
+			'strID': questdict[stage['_quest']]['_name'],
+			'avgID': triggerdict[checktrigger]['_aAvgId']
+		}
+		newtraininglist[category]['quests'][questcount]['scenes'].append(scene)
+
 
 with open(exdirec / 'new_training.json', 'w', encoding='utf-8') as f:
-	json.dump(trainingmenu, f, ensure_ascii=False, indent=4)
+	json.dump(newtraininglist, f, ensure_ascii=False, indent=4)

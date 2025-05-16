@@ -1,16 +1,16 @@
-{
-    "13": {
+[
+    {
         "name": "特殊任務",
         "strID": 19512,
-        "level1": {
-            "1": {
+        "quests": [
+            {
                 "name": "【探索】東ボース街道",
                 "strID": 16501,
                 "questID": [
                     10501
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】東ボース街道 1/4",
                         "info": null,
                         "strID": 16501,
@@ -18,7 +18,7 @@
                         "infostrID": null,
                         "avgID": 26005
                     },
-                    "2": {
+                    {
                         "name": "【探索】東ボース街道 2/4",
                         "info": null,
                         "strID": 16501,
@@ -26,7 +26,7 @@
                         "infostrID": null,
                         "avgID": 26006
                     },
-                    "3": {
+                    {
                         "name": "【探索】東ボース街道 3/4",
                         "info": null,
                         "strID": 16501,
@@ -34,7 +34,7 @@
                         "infostrID": null,
                         "avgID": 26007
                     },
-                    "4": {
+                    {
                         "name": "【探索】東ボース街道 4/4",
                         "info": null,
                         "strID": 16501,
@@ -42,16 +42,16 @@
                         "infostrID": null,
                         "avgID": 24502
                     }
-                }
+                ]
             },
-            "2": {
+            {
                 "name": "【探索】ジオフロントＡ区画",
                 "strID": 16511,
                 "questID": [
                     10502
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】ジオフロントＡ区画 1/5",
                         "info": null,
                         "strID": 16511,
@@ -59,7 +59,7 @@
                         "infostrID": null,
                         "avgID": 26001
                     },
-                    "2": {
+                    {
                         "name": "【探索】ジオフロントＡ区画 2/5",
                         "info": null,
                         "strID": 16511,
@@ -67,7 +67,7 @@
                         "infostrID": null,
                         "avgID": 26002
                     },
-                    "3": {
+                    {
                         "name": "【探索】ジオフロントＡ区画 3/5",
                         "info": null,
                         "strID": 16511,
@@ -75,7 +75,7 @@
                         "infostrID": null,
                         "avgID": 26003
                     },
-                    "4": {
+                    {
                         "name": "【探索】ジオフロントＡ区画 4/5",
                         "info": null,
                         "strID": 16511,
@@ -83,7 +83,7 @@
                         "infostrID": null,
                         "avgID": 26004
                     },
-                    "5": {
+                    {
                         "name": "【探索】ジオフロントＡ区画 5/5",
                         "info": null,
                         "strID": 16511,
@@ -91,16 +91,16 @@
                         "infostrID": null,
                         "avgID": 24501
                     }
-                }
+                ]
             },
-            "3": {
+            {
                 "name": "【探索】巨石の砦",
                 "strID": 16521,
                 "questID": [
                     10503
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】巨石の砦 1/6",
                         "info": null,
                         "strID": 16521,
@@ -108,7 +108,7 @@
                         "infostrID": null,
                         "avgID": 26008
                     },
-                    "2": {
+                    {
                         "name": "【探索】巨石の砦 2/6",
                         "info": null,
                         "strID": 16521,
@@ -116,7 +116,7 @@
                         "infostrID": null,
                         "avgID": 26009
                     },
-                    "3": {
+                    {
                         "name": "【探索】巨石の砦 3/6",
                         "info": null,
                         "strID": 16521,
@@ -124,7 +124,7 @@
                         "infostrID": null,
                         "avgID": 26010
                     },
-                    "4": {
+                    {
                         "name": "【探索】巨石の砦 4/6",
                         "info": null,
                         "strID": 16521,
@@ -132,7 +132,7 @@
                         "infostrID": null,
                         "avgID": 26011
                     },
-                    "5": {
+                    {
                         "name": "【探索】巨石の砦 5/6",
                         "info": null,
                         "strID": 16521,
@@ -140,7 +140,7 @@
                         "infostrID": null,
                         "avgID": 26012
                     },
-                    "6": {
+                    {
                         "name": "【探索】巨石の砦 6/6",
                         "info": null,
                         "strID": 16521,
@@ -148,16 +148,16 @@
                         "infostrID": null,
                         "avgID": 24503
                     }
-                }
+                ]
             },
-            "4": {
+            {
                 "name": "【探索】グランセル地下水路",
                 "strID": 16531,
                 "questID": [
                     10504
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】グランセル地下水路 1/5",
                         "info": null,
                         "strID": 16531,
@@ -165,7 +165,7 @@
                         "infostrID": null,
                         "avgID": 26013
                     },
-                    "2": {
+                    {
                         "name": "【探索】グランセル地下水路 2/5",
                         "info": null,
                         "strID": 16531,
@@ -173,7 +173,7 @@
                         "infostrID": null,
                         "avgID": 26014
                     },
-                    "3": {
+                    {
                         "name": "【探索】グランセル地下水路 3/5",
                         "info": null,
                         "strID": 16531,
@@ -181,7 +181,7 @@
                         "infostrID": null,
                         "avgID": 26015
                     },
-                    "4": {
+                    {
                         "name": "【探索】グランセル地下水路 4/5",
                         "info": null,
                         "strID": 16531,
@@ -189,7 +189,7 @@
                         "infostrID": null,
                         "avgID": 26016
                     },
-                    "5": {
+                    {
                         "name": "【探索】グランセル地下水路 5/5",
                         "info": null,
                         "strID": 16531,
@@ -197,16 +197,16 @@
                         "infostrID": null,
                         "avgID": 24504
                     }
-                }
+                ]
             },
-            "5": {
+            {
                 "name": "【探索】ジオフロント・Ｂ区画",
                 "strID": 16541,
                 "questID": [
                     10505
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】ジオフロント・Ｂ区画 1/1",
                         "info": null,
                         "strID": 16541,
@@ -214,16 +214,16 @@
                         "infostrID": null,
                         "avgID": 24505
                     }
-                }
+                ]
             },
-            "6": {
+            {
                 "name": "【探索】リッター街道",
                 "strID": 16551,
                 "questID": [
                     10506
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】リッター街道 1/1",
                         "info": null,
                         "strID": 16551,
@@ -231,16 +231,16 @@
                         "infostrID": null,
                         "avgID": 24510
                     }
-                }
+                ]
             },
-            "7": {
+            {
                 "name": "【探索】マインツ鉱山",
                 "strID": 16561,
                 "questID": [
                     10507
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】マインツ鉱山 1/3",
                         "info": null,
                         "strID": 16561,
@@ -248,7 +248,7 @@
                         "infostrID": null,
                         "avgID": 26017
                     },
-                    "2": {
+                    {
                         "name": "【探索】マインツ鉱山 2/3",
                         "info": null,
                         "strID": 16561,
@@ -256,7 +256,7 @@
                         "infostrID": null,
                         "avgID": 26018
                     },
-                    "3": {
+                    {
                         "name": "【探索】マインツ鉱山 3/3",
                         "info": null,
                         "strID": 16561,
@@ -264,16 +264,16 @@
                         "infostrID": null,
                         "avgID": 24506
                     }
-                }
+                ]
             },
-            "8": {
+            {
                 "name": "【探索】太陽の砦",
                 "strID": 16571,
                 "questID": [
                     10508
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】太陽の砦 1/4",
                         "info": null,
                         "strID": 16571,
@@ -281,7 +281,7 @@
                         "infostrID": null,
                         "avgID": 26019
                     },
-                    "2": {
+                    {
                         "name": "【探索】太陽の砦 2/4",
                         "info": null,
                         "strID": 16571,
@@ -289,7 +289,7 @@
                         "infostrID": null,
                         "avgID": 26020
                     },
-                    "3": {
+                    {
                         "name": "【探索】太陽の砦 3/4",
                         "info": null,
                         "strID": 16571,
@@ -297,7 +297,7 @@
                         "infostrID": null,
                         "avgID": 26021
                     },
-                    "4": {
+                    {
                         "name": "【探索】太陽の砦 4/4",
                         "info": null,
                         "strID": 16571,
@@ -305,16 +305,16 @@
                         "infostrID": null,
                         "avgID": 24507
                     }
-                }
+                ]
             },
-            "9": {
+            {
                 "name": "【探索】ミストヴァルト",
                 "strID": 16581,
                 "questID": [
                     10509
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】ミストヴァルト 1/7",
                         "info": null,
                         "strID": 16581,
@@ -322,7 +322,7 @@
                         "infostrID": null,
                         "avgID": 26022
                     },
-                    "2": {
+                    {
                         "name": "【探索】ミストヴァルト 2/7",
                         "info": null,
                         "strID": 16581,
@@ -330,7 +330,7 @@
                         "infostrID": null,
                         "avgID": 26023
                     },
-                    "3": {
+                    {
                         "name": "【探索】ミストヴァルト 3/7",
                         "info": null,
                         "strID": 16581,
@@ -338,7 +338,7 @@
                         "infostrID": null,
                         "avgID": 26024
                     },
-                    "4": {
+                    {
                         "name": "【探索】ミストヴァルト 4/7",
                         "info": null,
                         "strID": 16581,
@@ -346,7 +346,7 @@
                         "infostrID": null,
                         "avgID": 26025
                     },
-                    "5": {
+                    {
                         "name": "【探索】ミストヴァルト 5/7",
                         "info": null,
                         "strID": 16581,
@@ -354,7 +354,7 @@
                         "infostrID": null,
                         "avgID": 26026
                     },
-                    "6": {
+                    {
                         "name": "【探索】ミストヴァルト 6/7",
                         "info": null,
                         "strID": 16581,
@@ -362,7 +362,7 @@
                         "infostrID": null,
                         "avgID": 26027
                     },
-                    "7": {
+                    {
                         "name": "【探索】ミストヴァルト 7/7",
                         "info": null,
                         "strID": 16581,
@@ -370,16 +370,16 @@
                         "infostrID": null,
                         "avgID": 24508
                     }
-                }
+                ]
             },
-            "10": {
+            {
                 "name": "【探索】碧苔遺跡",
                 "strID": 16591,
                 "questID": [
                     10510
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】碧苔遺跡 1/4",
                         "info": null,
                         "strID": 16591,
@@ -387,7 +387,7 @@
                         "infostrID": null,
                         "avgID": 26028
                     },
-                    "2": {
+                    {
                         "name": "【探索】碧苔遺跡 2/4",
                         "info": null,
                         "strID": 16591,
@@ -395,7 +395,7 @@
                         "infostrID": null,
                         "avgID": 26029
                     },
-                    "3": {
+                    {
                         "name": "【探索】碧苔遺跡 3/4",
                         "info": null,
                         "strID": 16591,
@@ -403,7 +403,7 @@
                         "infostrID": null,
                         "avgID": 26030
                     },
-                    "4": {
+                    {
                         "name": "【探索】碧苔遺跡 4/4",
                         "info": null,
                         "strID": 16591,
@@ -411,16 +411,16 @@
                         "infostrID": null,
                         "avgID": 24509
                     }
-                }
+                ]
             },
-            "11": {
+            {
                 "name": "【探索】溶岩遺跡",
                 "strID": 16601,
                 "questID": [
                     10511
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】溶岩遺跡 1/1",
                         "info": null,
                         "strID": 16601,
@@ -428,16 +428,16 @@
                         "infostrID": null,
                         "avgID": 24512
                     }
-                }
+                ]
             },
-            "12": {
+            {
                 "name": "【探索】巨石の砦・西区画",
                 "strID": 16611,
                 "questID": [
                     10512
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】巨石の砦・西区画 1/1",
                         "info": null,
                         "strID": 16611,
@@ -445,16 +445,16 @@
                         "infostrID": null,
                         "avgID": 24513
                     }
-                }
+                ]
             },
-            "13": {
+            {
                 "name": "【探索】シギュンの森",
                 "strID": 16621,
                 "questID": [
                     10513
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】シギュンの森 1/1",
                         "info": null,
                         "strID": 16621,
@@ -462,16 +462,16 @@
                         "infostrID": null,
                         "avgID": 24514
                     }
-                }
+                ]
             },
-            "14": {
+            {
                 "name": "【探索】公都地下水道",
                 "strID": 16631,
                 "questID": [
                     10514
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】公都地下水道 1/1",
                         "info": null,
                         "strID": 16631,
@@ -479,16 +479,16 @@
                         "infostrID": null,
                         "avgID": 24515
                     }
-                }
+                ]
             },
-            "15": {
+            {
                 "name": "【探索】レミフェリアロッジ",
                 "strID": 16641,
                 "questID": [
                     10515
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】レミフェリアロッジ 1/1",
                         "info": null,
                         "strID": 16641,
@@ -496,16 +496,16 @@
                         "infostrID": null,
                         "avgID": 24516
                     }
-                }
+                ]
             },
-            "16": {
+            {
                 "name": "【探索】忘却の地下遺跡",
                 "strID": 16651,
                 "questID": [
                     10516
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】忘却の地下遺跡 1/1",
                         "info": null,
                         "strID": 16651,
@@ -513,16 +513,16 @@
                         "infostrID": null,
                         "avgID": 24517
                     }
-                }
+                ]
             },
-            "17": {
+            {
                 "name": "【探索】廃棄アパート",
                 "strID": 16661,
                 "questID": [
                     10517
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】廃棄アパート 1/5",
                         "info": null,
                         "strID": 16661,
@@ -530,7 +530,7 @@
                         "infostrID": null,
                         "avgID": 26031
                     },
-                    "2": {
+                    {
                         "name": "【探索】廃棄アパート 2/5",
                         "info": null,
                         "strID": 16661,
@@ -538,7 +538,7 @@
                         "infostrID": null,
                         "avgID": 26032
                     },
-                    "3": {
+                    {
                         "name": "【探索】廃棄アパート 3/5",
                         "info": null,
                         "strID": 16661,
@@ -546,7 +546,7 @@
                         "infostrID": null,
                         "avgID": 26033
                     },
-                    "4": {
+                    {
                         "name": "【探索】廃棄アパート 4/5",
                         "info": null,
                         "strID": 16661,
@@ -554,7 +554,7 @@
                         "infostrID": null,
                         "avgID": 26034
                     },
-                    "5": {
+                    {
                         "name": "【探索】廃棄アパート 5/5",
                         "info": null,
                         "strID": 16661,
@@ -562,16 +562,16 @@
                         "infostrID": null,
                         "avgID": 24511
                     }
-                }
+                ]
             },
-            "18": {
+            {
                 "name": "【探索】月の僧院",
                 "strID": 16681,
                 "questID": [
                     10519
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】月の僧院 1/1",
                         "info": null,
                         "strID": 16681,
@@ -579,16 +579,16 @@
                         "infostrID": null,
                         "avgID": 24518
                     }
-                }
+                ]
             },
-            "19": {
+            {
                 "name": "【探索】翡翠の塔",
                 "strID": 16691,
                 "questID": [
                     10520
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】翡翠の塔 1/1",
                         "info": null,
                         "strID": 16691,
@@ -596,16 +596,16 @@
                         "infostrID": null,
                         "avgID": 24520
                     }
-                }
+                ]
             },
-            "20": {
+            {
                 "name": "【探索】紺碧の塔",
                 "strID": 16701,
                 "questID": [
                     10521
                 ],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "【探索】紺碧の塔 1/1",
                         "info": null,
                         "strID": 16701,
@@ -613,8 +613,8 @@
                         "infostrID": null,
                         "avgID": 24521
                     }
-                }
+                ]
             }
-        }
+        ]
     }
-}
+]

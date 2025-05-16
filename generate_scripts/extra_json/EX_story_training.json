@@ -1,229 +1,276 @@
 {
-    "1": {
-        "level1": {
-            "4": {
-                "level2": {
-                    "2": {
-                        "name": "詐欺事件の調査（2） 1/8",
-                        "info": "Extra Dialogue",
-                        "strID": 17026,
-                        "infostrID": "ex_2",
-                        "avgID": 20013
-                    }
-                }
-            },
-            "9": {
-                "level2": {
-                    "1": {
-                        "name": "紛失物の捜索願い",
-                        "info": "Extra Dialogue",
-                        "strID": 70026,
-                        "infostrID": "ex_2",
-                        "avgID": 20010
-                    }
-                }
-            },
-            "16": {
+    "quests": [
+        {
+            "index": [
+                0,
+                15
+            ],
+            "quest": {
                 "name": "Extra/Unused",
                 "strID": "ex_3",
                 "questID": [],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "受付嬢トリア",
                         "info": "exact timing unknown",
                         "strID": "ex_100",
                         "infostrID": "ex_4",
                         "avgID": 20023
                     },
-                    "2": {
+                    {
                         "name": "スラッシュ",
                         "info": "exact timing unknown",
                         "strID": "ex_101",
                         "infostrID": "ex_4",
                         "avgID": 20024
                     },
-                    "3": {
+                    {
                         "name": "キャンベル議員",
                         "info": "exact timing unknown",
                         "strID": "ex_102",
                         "infostrID": "ex_4",
                         "avgID": 20026
                     },
-                    "4": {
+                    {
                         "name": "フェルナンド",
                         "info": "exact timing unknown",
                         "strID": "ex_103",
                         "infostrID": "ex_4",
                         "avgID": 20028
                     }
-                }
+                ]
             }
-        }
-    },
-    "2": {
-        "level1": {
-            "1": {
-                "level2": {
-                    "6": {
-                        "name": "女王生誕祭の支援（1） 5/5",
-                        "info": "Extra Dialogue",
-                        "strID": 17105,
-                        "infostrID": "ex_2",
-                        "avgID": 20033
-                    }
-                }
-            },
-            "17": {
+        },
+        {
+            "index": [
+                1,
+                16
+            ],
+            "quest": {
                 "name": "Extra/Unused",
                 "strID": "ex_3",
                 "questID": [],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "スラッシュ/ヒューイ",
                         "info": "exact timing unknown",
                         "strID": "ex_104",
                         "infostrID": "ex_4",
                         "avgID": 10303
                     },
-                    "2": {
+                    {
                         "name": "リン/エオリア",
                         "info": "exact timing unknown",
                         "strID": "ex_105",
                         "infostrID": "ex_4",
                         "avgID": 10315
                     }
-                }
+                ]
             }
-        }
-    },
-    "3": {
-        "level1": {
-            "6": {
-                "level2": {
-                    "4": {
-                        "name": "中央工房の盗難事件(2) 2/7~ティオ",
-                        "info": "Optional Dialogue",
-                        "strID": 17272,
-                        "infostrID": "ex_1",
-                        "avgID": 10081
-                    },
-                    "6": {
-                        "name": "中央工房の盗難事件(2) 2/7~ティータ",
-                        "info": "Optional Dialogue",
-                        "strID": 17273,
-                        "infostrID": "ex_1",
-                        "avgID": 10080
-                    },
-                    "9": {
-                        "name": "中央工房の盗難事件(2) 3/7",
-                        "info": "Optional Dialogue",
-                        "strID": "ex_200",
-                        "infostrID": "ex_1",
-                        "avgID": 20110
-                    }
-                }
-            },
-            "14": {
-                "level2": {
-                    "3": {
-                        "name": "エルモ温泉の魔獣退治(2) 2/2",
-                        "info": "Unused Tio Version",
-                        "strID": 17341,
-                        "infostrID": "ex_5",
-                        "avgID": 20109
-                    },
-                    "4": {
-                        "name": "エルモ温泉の魔獣退治(2) 2/2",
-                        "info": "Unused Tita Version",
-                        "strID": 17341,
-                        "infostrID": "ex_6",
-                        "avgID": 20108
-                    }
-                }
-            },
-            "18": {
+        },
+        {
+            "index": [
+                2,
+                17
+            ],
+            "quest": {
                 "name": "Extra/Unused",
                 "strID": "ex_3",
                 "questID": [],
-                "level2": {
-                    "1": {
+                "scenes": [
+                    {
                         "name": "ティータ",
                         "info": "exact timing unknown",
                         "strID": "ex_106",
                         "infostrID": "ex_4",
                         "avgID": 20115
                     },
-                    "2": {
+                    {
                         "name": "カルノー/プロメテ",
                         "info": "exact timing unknown",
                         "strID": "ex_107",
                         "infostrID": "ex_4",
                         "avgID": 20116
                     },
-                    "3": {
+                    {
                         "name": "マードック工房長",
                         "info": "exact timing unknown",
                         "strID": "ex_108",
                         "infostrID": "ex_4",
                         "avgID": 20118
                     },
-                    "4": {
+                    {
                         "name": "ウォン/グンドルフ",
                         "info": "exact timing unknown",
                         "strID": "ex_109",
                         "infostrID": "ex_4",
                         "avgID": 20119
                     },
-                    "5": {
+                    {
                         "name": "ジリアン/ロナード",
                         "info": "exact timing unknown",
                         "strID": "ex_110",
                         "infostrID": "ex_4",
                         "avgID": 20120
                     }
-                }
+                ]
             }
         }
-    },
-    "4": {
-        "level1": {
-            "9": {
-                "level2": {
-                    "2": {
-                        "name": "アルモリカ村の魔獣退治 1/4",
-                        "info": "Unused Alt Version",
-                        "strID": 17455,
-                        "infostrID": "ex_7",
-                        "avgID": 10312
-                    }
-                }
-            },
-            "11": {
-                "level2": {
-                    "3": {
-                        "name": "偽チケット詐欺事件捜査記録 2/2",
-                        "info": "Unused Alt Version",
-                        "strID": 17464,
-                        "infostrID": "ex_7",
-                        "avgID": 12302
-                    }
-                }
+    ],
+    "scenes": [
+        {
+            "index": [
+                0,
+                3,
+                1
+            ],
+            "scene": {
+                "name": "詐欺事件の調査（2） 1/8",
+                "info": "Extra Dialogue",
+                "strID": 17026,
+                "infostrID": "ex_2",
+                "avgID": 20013
+            }
+        },
+        {
+            "index": [
+                0,
+                8,
+                0
+            ],
+            "scene": {
+                "name": "紛失物の捜索願い",
+                "info": "Extra Dialogue",
+                "strID": 70026,
+                "infostrID": "ex_2",
+                "avgID": 20010
+            }
+        },
+        {
+            "index": [
+                1,
+                0,
+                5
+            ],
+            "scene": {
+                "name": "女王生誕祭の支援（1） 5/5",
+                "info": "Extra Dialogue",
+                "strID": 17105,
+                "infostrID": "ex_2",
+                "avgID": 20033
+            }
+        },
+        {
+            "index": [
+                2,
+                5,
+                3
+            ],
+            "scene": {
+                "name": "中央工房の盗難事件(2) 2/7~ティオ",
+                "info": "Optional Dialogue",
+                "strID": 17272,
+                "infostrID": "ex_1",
+                "avgID": 10081
+            }
+        },
+        {
+            "index": [
+                2,
+                5,
+                5
+            ],
+            "scene": {
+                "name": "中央工房の盗難事件(2) 2/7~ティータ",
+                "info": "Optional Dialogue",
+                "strID": 17273,
+                "infostrID": "ex_1",
+                "avgID": 10080
+            }
+        },
+        {
+            "index": [
+                2,
+                5,
+                8
+            ],
+            "scene": {
+                "name": "中央工房の盗難事件(2) 3/7",
+                "info": "Optional Dialogue",
+                "strID": "ex_200",
+                "infostrID": "ex_1",
+                "avgID": 20110
+            }
+        },
+        {
+            "index": [
+                2,
+                13,
+                2
+            ],
+            "scene": {
+                "name": "エルモ温泉の魔獣退治(2) 2/2",
+                "info": "Unused Tio Version",
+                "strID": 17341,
+                "infostrID": "ex_5",
+                "avgID": 20109
+            }
+        },
+        {
+            "index": [
+                2,
+                13,
+                3
+            ],
+            "scene": {
+                "name": "エルモ温泉の魔獣退治(2) 2/2",
+                "info": "Unused Tita Version",
+                "strID": 17341,
+                "infostrID": "ex_6",
+                "avgID": 20108
+            }
+        },
+        {
+            "index": [
+                3,
+                8,
+                1
+            ],
+            "scene": {
+                "name": "アルモリカ村の魔獣退治 1/4",
+                "info": "Unused Alt Version",
+                "strID": 17455,
+                "infostrID": "ex_7",
+                "avgID": 10312
+            }
+        },
+        {
+            "index": [
+                3,
+                10,
+                2
+            ],
+            "scene": {
+                "name": "偽チケット詐欺事件捜査記録 2/2",
+                "info": "Unused Alt Version",
+                "strID": 17464,
+                "infostrID": "ex_7",
+                "avgID": 12302
+            }
+        },
+        {
+            "index": [
+                10,
+                3,
+                6
+            ],
+            "scene": {
+                "name": "【三章】反射に注意！",
+                "info": "Unused Alt Version",
+                "strID": 76631,
+                "infostrID": "ex_7",
+                "avgID": 14039
             }
         }
-    },
-    "11": {
-        "level1": {
-            "4": {
-                "level2": {
-                    "7": {
-                        "name": "【三章】反射に注意！",
-                        "info": "Unused Alt Version",
-                        "strID": 76631,
-                        "infostrID": "ex_7",
-                        "avgID": 14039
-                    }
-                }
-            }
-        }
-    }
+    ]
 }
