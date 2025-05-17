@@ -33,9 +33,7 @@ python early:
             reader = csv.reader(txt)
 
             #get list of headers
-            for row in reader:
-                headers = row
-                break
+            headers = reader[0]
 
             #find string id position
             idpos = headers.index(idkey)
