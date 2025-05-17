@@ -41,7 +41,6 @@ for quest in needtomerge['quests']:
 	
 	quests.insert(quest_index,quest)
 	
-	
 for scene in needtomerge['scenes']:
 	category_index, quest_index, scene_index = scene['index']
 
@@ -50,28 +49,17 @@ for scene in needtomerge['scenes']:
 
 	scenes.insert(scene_index, scene)
 
-#Combine quest lists
-quest_dicts_to_combine = [
-	'new_quest.json',
-	'EXQ_unusedquestlog.json'
-]
-combinedquestdict = dict()
+#Load quest list
+questlog_dict = loadjson('new_quest.json')
 
-for filename in quest_dicts_to_combine:
-	filepath = exdirec / filename
-	if filepath.exists():
-		quest_dict = loadjson(filename)
-	for quest in list(quest_dict.keys()):
-		if quest not in combinedquestdict:
-			combinedquestdict[quest] = quest_dict[quest]
 
 #########################################################
 #build and number questlogs
 questlogdict = dict()
-for key in list(combinedquestdict.keys()):
-	log = combinedquestdict[key]
+for key in list(questlog_dict.keys()):
+	log = questlog_dict[key]
 	
-	combinedquestdict[key] = {
+	questlog_dict[key] = {
 		'type': log['type'],
 		'title': log['strID'],
 		'level': log['level'],
@@ -120,7 +108,7 @@ for category in combinedscenelist:
 		#QUESTLOGS
 		if 'questID' in quest and len(quest['questID']) > 0:
 			for log in quest['questID']:
-				questdict['logs'].append(combinedquestdict[str(log)])
+				questdict['logs'].append(questlog_dict[str(log)])
 
 
 		for scene in quest['scenes']:
