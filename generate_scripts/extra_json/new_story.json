@@ -194,6 +194,13 @@
                         "avgID": 20012
                     },
                     {
+                        "name": "詐欺事件の調査（2） 1/8",
+                        "info": "Extra Dialogue",
+                        "strID": 17026,
+                        "infostrID": "ex_2",
+                        "avgID": 20013
+                    },
+                    {
                         "name": "詐欺事件の調査（2） 2/8",
                         "strID": 17027,
                         "infostrID": 3114,
@@ -382,6 +389,13 @@
                     152
                 ],
                 "scenes": [
+                    {
+                        "name": "紛失物の捜索願い",
+                        "info": "Extra Dialogue",
+                        "strID": 70026,
+                        "infostrID": "ex_2",
+                        "avgID": 20010
+                    },
                     {
                         "name": "紛失物の捜索願い 1/6",
                         "strID": 17051,
@@ -617,6 +631,41 @@
                         "avgID": 12036
                     }
                 ]
+            },
+            {
+                "name": "Extra/Unused",
+                "strID": "ex_3",
+                "questID": [],
+                "scenes": [
+                    {
+                        "name": "受付嬢トリア",
+                        "info": "exact timing unknown",
+                        "strID": "ex_100",
+                        "infostrID": "ex_4",
+                        "avgID": 20023
+                    },
+                    {
+                        "name": "スラッシュ",
+                        "info": "exact timing unknown",
+                        "strID": "ex_101",
+                        "infostrID": "ex_4",
+                        "avgID": 20024
+                    },
+                    {
+                        "name": "キャンベル議員",
+                        "info": "exact timing unknown",
+                        "strID": "ex_102",
+                        "infostrID": "ex_4",
+                        "avgID": 20026
+                    },
+                    {
+                        "name": "フェルナンド",
+                        "info": "exact timing unknown",
+                        "strID": "ex_103",
+                        "infostrID": "ex_4",
+                        "avgID": 20028
+                    }
+                ]
             }
         ]
     },
@@ -660,6 +709,13 @@
                         "strID": 17105,
                         "infostrID": 3200,
                         "avgID": 10026
+                    },
+                    {
+                        "name": "女王生誕祭の支援（1） 5/5",
+                        "info": "Extra Dialogue",
+                        "strID": 17105,
+                        "infostrID": "ex_2",
+                        "avgID": 20033
                     }
                 ]
             },
@@ -1265,6 +1321,27 @@
                         "avgID": 12173
                     }
                 ]
+            },
+            {
+                "name": "Extra/Unused",
+                "strID": "ex_3",
+                "questID": [],
+                "scenes": [
+                    {
+                        "name": "スラッシュ/ヒューイ",
+                        "info": "exact timing unknown",
+                        "strID": "ex_104",
+                        "infostrID": "ex_4",
+                        "avgID": 10303
+                    },
+                    {
+                        "name": "リン/エオリア",
+                        "info": "exact timing unknown",
+                        "strID": "ex_105",
+                        "infostrID": "ex_4",
+                        "avgID": 10315
+                    }
+                ]
             }
         ]
     },
@@ -1739,10 +1816,24 @@
                         "avgID": 10082
                     },
                     {
+                        "name": "中央工房の盗難事件(2) 2/7~ティオ",
+                        "info": "Optional Dialogue",
+                        "strID": 17272,
+                        "infostrID": "ex_1",
+                        "avgID": 10081
+                    },
+                    {
                         "name": "中央工房の盗難事件(2) 2/7~ティータ",
                         "strID": 17273,
                         "infostrID": 3502,
                         "avgID": 10083
+                    },
+                    {
+                        "name": "中央工房の盗難事件(2) 2/7~ティータ",
+                        "info": "Optional Dialogue",
+                        "strID": 17273,
+                        "infostrID": "ex_1",
+                        "avgID": 10080
                     },
                     {
                         "name": "中央工房の盗難事件(2) 3/7~ティオ",
@@ -1755,6 +1846,13 @@
                         "strID": 17275,
                         "infostrID": 2163,
                         "avgID": 10087
+                    },
+                    {
+                        "name": "中央工房の盗難事件(2) 3/7",
+                        "info": "Optional Dialogue",
+                        "strID": "ex_200",
+                        "infostrID": "ex_1",
+                        "avgID": 20110
                     },
                     {
                         "name": "中央工房の盗難事件(2) 4/7~ティオ",
@@ -2205,6 +2303,20 @@
                         "strID": 17341,
                         "infostrID": 613009,
                         "avgID": 12223
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "info": "Unused Tio Version",
+                        "strID": 17341,
+                        "infostrID": "ex_5",
+                        "avgID": 20109
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "info": "Unused Tita Version",
+                        "strID": 17341,
+                        "infostrID": "ex_6",
+                        "avgID": 20108
                     }
                 ]
             },
@@ -2310,6 +2422,48 @@
                         "strID": 17354,
                         "infostrID": 3115,
                         "avgID": 12249
+                    }
+                ]
+            },
+            {
+                "name": "Extra/Unused",
+                "strID": "ex_3",
+                "questID": [],
+                "scenes": [
+                    {
+                        "name": "ティータ",
+                        "info": "exact timing unknown",
+                        "strID": "ex_106",
+                        "infostrID": "ex_4",
+                        "avgID": 20115
+                    },
+                    {
+                        "name": "カルノー/プロメテ",
+                        "info": "exact timing unknown",
+                        "strID": "ex_107",
+                        "infostrID": "ex_4",
+                        "avgID": 20116
+                    },
+                    {
+                        "name": "マードック工房長",
+                        "info": "exact timing unknown",
+                        "strID": "ex_108",
+                        "infostrID": "ex_4",
+                        "avgID": 20118
+                    },
+                    {
+                        "name": "ウォン/グンドルフ",
+                        "info": "exact timing unknown",
+                        "strID": "ex_109",
+                        "infostrID": "ex_4",
+                        "avgID": 20119
+                    },
+                    {
+                        "name": "ジリアン/ロナード",
+                        "info": "exact timing unknown",
+                        "strID": "ex_110",
+                        "infostrID": "ex_4",
+                        "avgID": 20120
                     }
                 ]
             }
@@ -2717,6 +2871,13 @@
                         "avgID": 10311
                     },
                     {
+                        "name": "アルモリカ村の魔獣退治 1/4",
+                        "info": "Unused Alt Version",
+                        "strID": 17455,
+                        "infostrID": "ex_7",
+                        "avgID": 10312
+                    },
+                    {
                         "name": "アルモリカ村の魔獣退治 2/4",
                         "strID": 17456,
                         "infostrID": 3110,
@@ -2787,6 +2948,13 @@
                         "strID": 17464,
                         "infostrID": 2147,
                         "avgID": 12303
+                    },
+                    {
+                        "name": "偽チケット詐欺事件捜査記録 2/2",
+                        "info": "Unused Alt Version",
+                        "strID": 17464,
+                        "infostrID": "ex_7",
+                        "avgID": 12302
                     }
                 ]
             },

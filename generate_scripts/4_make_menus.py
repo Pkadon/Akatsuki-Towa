@@ -31,24 +31,6 @@ for filename in scene_lists_to_combine:
 	if filepath.exists():
 		combinedscenelist += loadjson(filename)
 
-#insert "extra" scenes into the pre-generated lists
-needtomerge = loadjson('EX_story_training.json')
-for quest in needtomerge['quests']:
-	category_index, quest_index = quest['index']
-	
-	quest = quest['quest']
-	quests = combinedscenelist[category_index]['quests']
-	
-	quests.insert(quest_index,quest)
-	
-for scene in needtomerge['scenes']:
-	category_index, quest_index, scene_index = scene['index']
-
-	scene = scene['scene']
-	scenes = combinedscenelist[category_index]['quests'][quest_index]['scenes']
-
-	scenes.insert(scene_index, scene)
-
 #Load quest list
 questlog_dict = loadjson('new_quest.json')
 
