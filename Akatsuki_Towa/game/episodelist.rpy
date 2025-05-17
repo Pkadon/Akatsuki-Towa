@@ -139,20 +139,28 @@ screen quest(data):
                             action Replay(scene['avg'], locked=False)
 
                             python:
+                                #title text
                                 scenename = convertstrid(scene['scenename'])
                                 if scene['add']: scenename += scene['add']
 
-                                scenename = '{color=#710905}'+scenename+'{/color}' #adds a red color to scene title text
+                                #"info" text underneath
+                                if scene['sceneinfo']: info = convertstrid(scene['sceneinfo'])
+                                else: info = None
 
-                                if scene['sceneinfo']:
-                                    info = convertstrid(scene['sceneinfo'])
-
-                                    scenename += '\n{color=#34374b}'+info+'{/color}' #adds a dark blue color to info text
-
-                            text scenename:
+                            vbox:
                                 align (0.5,0.5)
-                                text_align 0.5
-                                size pagetextsize
+                                text scenename:
+                                    xalign 0.5
+                                    text_align 0.5
+                                    size pagetextsize
+                                    color "#710905" #adds a red color to scene title text
+
+                                if info:
+                                    text info:
+                                        xalign 0.5
+                                        text_align 0.5
+                                        size (pagetextsize - 2)
+                                        color "#34374b" #adds a dark blue color to info text
 
 screen questlog(data):
     default fulltext = ''
