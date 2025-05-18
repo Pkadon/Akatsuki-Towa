@@ -2536,6 +2536,13 @@
                     },
                     {
                         "name": "機密医療データの配達 2/2",
+                        "info": "Extra Dialogue",
+                        "strID": 17454,
+                        "infostrID": "ex_2",
+                        "avgID": 29048
+                    },
+                    {
+                        "name": "機密医療データの配達 2/2",
                         "strID": 17454,
                         "infostrID": 3411,
                         "avgID": 10360
@@ -2856,6 +2863,13 @@
                         "strID": 17424,
                         "infostrID": 3156,
                         "avgID": 10351
+                    },
+                    {
+                        "name": "防空訓練(3) 9/9",
+                        "info": "Extra Dialogue",
+                        "strID": 17424,
+                        "infostrID": "ex_2",
+                        "avgID": 29047
                     }
                 ]
             },
