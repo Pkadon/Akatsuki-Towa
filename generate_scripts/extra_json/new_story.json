@@ -1467,6 +1467,66 @@
                 ]
             },
             {
+                "name": "古戦場の調査協力",
+                "strID": 71001,
+                "questID": [
+                    351
+                ],
+                "scenes": [
+                    {
+                        "name": "古戦場の調査協力 1/3",
+                        "strID": 17315,
+                        "infostrID": 3107,
+                        "avgID": 22201
+                    },
+                    {
+                        "name": "古戦場の調査協力 2/3",
+                        "strID": 17317,
+                        "infostrID": 613008,
+                        "avgID": 22205
+                    },
+                    {
+                        "name": "古戦場の調査協力 3/3",
+                        "strID": 17318,
+                        "infostrID": 613008,
+                        "avgID": 22206
+                    }
+                ]
+            },
+            {
+                "name": "行方不明の研修医",
+                "strID": 71026,
+                "questID": [
+                    352
+                ],
+                "scenes": [
+                    {
+                        "name": "行方不明の研修医 1/4",
+                        "strID": 17319,
+                        "infostrID": 3015,
+                        "avgID": 12213
+                    },
+                    {
+                        "name": "行方不明の研修医 2/4",
+                        "strID": 17320,
+                        "infostrID": 613021,
+                        "avgID": 12214
+                    },
+                    {
+                        "name": "行方不明の研修医 3/4",
+                        "strID": 17321,
+                        "infostrID": 613021,
+                        "avgID": 12215
+                    },
+                    {
+                        "name": "行方不明の研修医 4/4",
+                        "strID": 17322,
+                        "infostrID": 3015,
+                        "avgID": 12216
+                    }
+                ]
+            },
+            {
                 "name": "異常事故の総合的調査(2)",
                 "strID": 61026,
                 "questID": [
@@ -1674,6 +1734,45 @@
                 ]
             },
             {
+                "name": "ツァイス地方の物資配達",
+                "strID": 71101,
+                "questID": [
+                    355
+                ],
+                "scenes": [
+                    {
+                        "name": "ツァイス地方の物資配達 1/5",
+                        "strID": 17323,
+                        "infostrID": 3501,
+                        "avgID": 12217
+                    },
+                    {
+                        "name": "ツァイス地方の物資配達 2/5",
+                        "strID": 17324,
+                        "infostrID": 2172,
+                        "avgID": 12218
+                    },
+                    {
+                        "name": "ツァイス地方の物資配達 3/5",
+                        "strID": 17325,
+                        "infostrID": 2174,
+                        "avgID": 12219
+                    },
+                    {
+                        "name": "ツァイス地方の物資配達 4/5",
+                        "strID": 17326,
+                        "infostrID": 2176,
+                        "avgID": 12220
+                    },
+                    {
+                        "name": "ツァイス地方の物資配達 5/5",
+                        "strID": 17327,
+                        "infostrID": 3501,
+                        "avgID": 12221
+                    }
+                ]
+            },
+            {
                 "name": "中央工房の盗難事件(1)",
                 "strID": 61076,
                 "questID": [
@@ -1791,6 +1890,131 @@
                 ]
             },
             {
+                "name": "怪盗Ｃの挑戦状",
+                "strID": 71151,
+                "questID": [
+                    357
+                ],
+                "scenes": [
+                    {
+                        "name": "怪盗Ｃの挑戦状 1/6",
+                        "strID": 17328,
+                        "infostrID": 3501,
+                        "avgID": 12224
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 2/6",
+                        "strID": 17329,
+                        "infostrID": 3500,
+                        "avgID": 12225
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 3/6",
+                        "strID": 17330,
+                        "infostrID": 2172,
+                        "avgID": 12226
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 4/6",
+                        "strID": 17331,
+                        "infostrID": 2176,
+                        "avgID": 12227
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 5/6",
+                        "strID": 17332,
+                        "infostrID": 2163,
+                        "avgID": 12228
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 6/6",
+                        "strID": 17333,
+                        "infostrID": 3501,
+                        "avgID": 12229
+                    }
+                ]
+            },
+            {
+                "name": "エルモ温泉の魔獣退治",
+                "strID": 71076,
+                "questID": [
+                    354
+                ],
+                "scenes": [
+                    {
+                        "name": "エルモ温泉の魔獣退治 1/3~ティータ",
+                        "strID": 17334,
+                        "infostrID": 3019,
+                        "avgID": 12201
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治 1/3~ティオ",
+                        "strID": 17335,
+                        "infostrID": 3019,
+                        "avgID": 12202
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治 2/3~ティータ",
+                        "strID": 17336,
+                        "infostrID": 3019,
+                        "avgID": 22209
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治 2/3~ティオ",
+                        "strID": 17337,
+                        "infostrID": 3019,
+                        "avgID": 22210
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治 3/3~ティータ",
+                        "strID": 17338,
+                        "infostrID": 3019,
+                        "avgID": 22211
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治 3/3~ティオ",
+                        "strID": 17339,
+                        "infostrID": 3019,
+                        "avgID": 22212
+                    }
+                ]
+            },
+            {
+                "name": "エルモ温泉の魔獣退治(2)",
+                "strID": 71126,
+                "questID": [
+                    356
+                ],
+                "scenes": [
+                    {
+                        "name": "エルモ温泉の魔獣退治(2) 1/2",
+                        "strID": 17340,
+                        "infostrID": 613009,
+                        "avgID": 12222
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "strID": 17341,
+                        "infostrID": 613009,
+                        "avgID": 12223
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "info": "Unused Tio Version",
+                        "strID": 17341,
+                        "infostrID": "ex_5",
+                        "avgID": 20109
+                    },
+                    {
+                        "name": "エルモ温泉の魔獣退治(2) 2/2",
+                        "info": "Unused Tita Version",
+                        "strID": 17341,
+                        "infostrID": "ex_6",
+                        "avgID": 20108
+                    }
+                ]
+            },
+            {
                 "name": "中央工房の盗難事件(2)",
                 "strID": 61101,
                 "questID": [
@@ -1893,6 +2117,78 @@
                 ]
             },
             {
+                "name": "《モルジュ》新作パンの試食",
+                "strID": 71276,
+                "questID": [
+                    362
+                ],
+                "scenes": [
+                    {
+                        "name": "《モルジュ》新作パンの試食 1/7",
+                        "strID": 17342,
+                        "infostrID": 3103,
+                        "avgID": 12239
+                    },
+                    {
+                        "name": "《モルジュ》新作パンの試食 2/7",
+                        "strID": 17343,
+                        "infostrID": 3168,
+                        "avgID": 12240
+                    },
+                    {
+                        "name": "《モルジュ》新作パンの試食 3/7",
+                        "strID": 17344,
+                        "infostrID": 3110,
+                        "avgID": 12241
+                    },
+                    {
+                        "name": "《モルジュ》新作パンの試食 4/7",
+                        "strID": 17345,
+                        "infostrID": 3104,
+                        "avgID": 12242
+                    },
+                    {
+                        "name": "《モルジュ》新作パンの試食 5/7",
+                        "strID": 17346,
+                        "infostrID": 3108,
+                        "avgID": 12243
+                    },
+                    {
+                        "name": "《モルジュ》新作パンの試食 6/7",
+                        "strID": 17347,
+                        "infostrID": 3109,
+                        "avgID": 12244
+                    },
+                    {
+                        "name": "《モルジュ》新作パンの試食 7/7",
+                        "strID": 17348,
+                        "infostrID": 3168,
+                        "avgID": 12245
+                    }
+                ]
+            },
+            {
+                "name": "危険物運搬の立ち合い",
+                "strID": 71301,
+                "questID": [
+                    363
+                ],
+                "scenes": [
+                    {
+                        "name": "危険物運搬の立ち合い 1/2",
+                        "strID": 17349,
+                        "infostrID": 3102,
+                        "avgID": 22207
+                    },
+                    {
+                        "name": "危険物運搬の立ち合い 2/2",
+                        "strID": 17350,
+                        "infostrID": 3015,
+                        "avgID": 22208
+                    }
+                ]
+            },
+            {
                 "name": "導力停止の異常事故(1)",
                 "strID": 61126,
                 "questID": [
@@ -1958,6 +2254,39 @@
                         "strID": 17291,
                         "infostrID": 3159,
                         "avgID": 10113
+                    }
+                ]
+            },
+            {
+                "name": "魔獣に囲まれたバス停",
+                "strID": 71326,
+                "questID": [
+                    364
+                ],
+                "scenes": [
+                    {
+                        "name": "魔獣に囲まれたバス停 1/4",
+                        "strID": 17351,
+                        "infostrID": 3115,
+                        "avgID": 12246
+                    },
+                    {
+                        "name": "魔獣に囲まれたバス停 2/4",
+                        "strID": 17352,
+                        "infostrID": 3004,
+                        "avgID": 12247
+                    },
+                    {
+                        "name": "魔獣に囲まれたバス停 3/4",
+                        "strID": 17353,
+                        "infostrID": 3004,
+                        "avgID": 12248
+                    },
+                    {
+                        "name": "魔獣に囲まれたバス停 4/4",
+                        "strID": 17354,
+                        "infostrID": 3115,
+                        "avgID": 12249
                     }
                 ]
             },
@@ -2093,335 +2422,6 @@
                         "strID": 17314,
                         "infostrID": 2151,
                         "avgID": 10122
-                    }
-                ]
-            },
-            {
-                "name": "古戦場の調査協力",
-                "strID": 71001,
-                "questID": [
-                    351
-                ],
-                "scenes": [
-                    {
-                        "name": "古戦場の調査協力 1/3",
-                        "strID": 17315,
-                        "infostrID": 3107,
-                        "avgID": 22201
-                    },
-                    {
-                        "name": "古戦場の調査協力 2/3",
-                        "strID": 17317,
-                        "infostrID": 613008,
-                        "avgID": 22205
-                    },
-                    {
-                        "name": "古戦場の調査協力 3/3",
-                        "strID": 17318,
-                        "infostrID": 613008,
-                        "avgID": 22206
-                    }
-                ]
-            },
-            {
-                "name": "行方不明の研修医",
-                "strID": 71026,
-                "questID": [
-                    352
-                ],
-                "scenes": [
-                    {
-                        "name": "行方不明の研修医 1/4",
-                        "strID": 17319,
-                        "infostrID": 3015,
-                        "avgID": 12213
-                    },
-                    {
-                        "name": "行方不明の研修医 2/4",
-                        "strID": 17320,
-                        "infostrID": 613021,
-                        "avgID": 12214
-                    },
-                    {
-                        "name": "行方不明の研修医 3/4",
-                        "strID": 17321,
-                        "infostrID": 613021,
-                        "avgID": 12215
-                    },
-                    {
-                        "name": "行方不明の研修医 4/4",
-                        "strID": 17322,
-                        "infostrID": 3015,
-                        "avgID": 12216
-                    }
-                ]
-            },
-            {
-                "name": "ツァイス地方の物資配達",
-                "strID": 71101,
-                "questID": [
-                    355
-                ],
-                "scenes": [
-                    {
-                        "name": "ツァイス地方の物資配達 1/5",
-                        "strID": 17323,
-                        "infostrID": 3501,
-                        "avgID": 12217
-                    },
-                    {
-                        "name": "ツァイス地方の物資配達 2/5",
-                        "strID": 17324,
-                        "infostrID": 2172,
-                        "avgID": 12218
-                    },
-                    {
-                        "name": "ツァイス地方の物資配達 3/5",
-                        "strID": 17325,
-                        "infostrID": 2174,
-                        "avgID": 12219
-                    },
-                    {
-                        "name": "ツァイス地方の物資配達 4/5",
-                        "strID": 17326,
-                        "infostrID": 2176,
-                        "avgID": 12220
-                    },
-                    {
-                        "name": "ツァイス地方の物資配達 5/5",
-                        "strID": 17327,
-                        "infostrID": 3501,
-                        "avgID": 12221
-                    }
-                ]
-            },
-            {
-                "name": "怪盗Ｃの挑戦状",
-                "strID": 71151,
-                "questID": [
-                    357
-                ],
-                "scenes": [
-                    {
-                        "name": "怪盗Ｃの挑戦状 1/6",
-                        "strID": 17328,
-                        "infostrID": 3501,
-                        "avgID": 12224
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 2/6",
-                        "strID": 17329,
-                        "infostrID": 3500,
-                        "avgID": 12225
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 3/6",
-                        "strID": 17330,
-                        "infostrID": 2172,
-                        "avgID": 12226
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 4/6",
-                        "strID": 17331,
-                        "infostrID": 2176,
-                        "avgID": 12227
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 5/6",
-                        "strID": 17332,
-                        "infostrID": 2163,
-                        "avgID": 12228
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 6/6",
-                        "strID": 17333,
-                        "infostrID": 3501,
-                        "avgID": 12229
-                    }
-                ]
-            },
-            {
-                "name": "エルモ温泉の魔獣退治",
-                "strID": 71076,
-                "questID": [
-                    354
-                ],
-                "scenes": [
-                    {
-                        "name": "エルモ温泉の魔獣退治 1/3~ティータ",
-                        "strID": 17334,
-                        "infostrID": 3019,
-                        "avgID": 12201
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治 1/3~ティオ",
-                        "strID": 17335,
-                        "infostrID": 3019,
-                        "avgID": 12202
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治 2/3~ティータ",
-                        "strID": 17336,
-                        "infostrID": 3019,
-                        "avgID": 22209
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治 2/3~ティオ",
-                        "strID": 17337,
-                        "infostrID": 3019,
-                        "avgID": 22210
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治 3/3~ティータ",
-                        "strID": 17338,
-                        "infostrID": 3019,
-                        "avgID": 22211
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治 3/3~ティオ",
-                        "strID": 17339,
-                        "infostrID": 3019,
-                        "avgID": 22212
-                    }
-                ]
-            },
-            {
-                "name": "エルモ温泉の魔獣退治(2)",
-                "strID": 71126,
-                "questID": [
-                    356
-                ],
-                "scenes": [
-                    {
-                        "name": "エルモ温泉の魔獣退治(2) 1/2",
-                        "strID": 17340,
-                        "infostrID": 613009,
-                        "avgID": 12222
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治(2) 2/2",
-                        "strID": 17341,
-                        "infostrID": 613009,
-                        "avgID": 12223
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治(2) 2/2",
-                        "info": "Unused Tio Version",
-                        "strID": 17341,
-                        "infostrID": "ex_5",
-                        "avgID": 20109
-                    },
-                    {
-                        "name": "エルモ温泉の魔獣退治(2) 2/2",
-                        "info": "Unused Tita Version",
-                        "strID": 17341,
-                        "infostrID": "ex_6",
-                        "avgID": 20108
-                    }
-                ]
-            },
-            {
-                "name": "《モルジュ》新作パンの試食",
-                "strID": 71276,
-                "questID": [
-                    362
-                ],
-                "scenes": [
-                    {
-                        "name": "《モルジュ》新作パンの試食 1/7",
-                        "strID": 17342,
-                        "infostrID": 3103,
-                        "avgID": 12239
-                    },
-                    {
-                        "name": "《モルジュ》新作パンの試食 2/7",
-                        "strID": 17343,
-                        "infostrID": 3168,
-                        "avgID": 12240
-                    },
-                    {
-                        "name": "《モルジュ》新作パンの試食 3/7",
-                        "strID": 17344,
-                        "infostrID": 3110,
-                        "avgID": 12241
-                    },
-                    {
-                        "name": "《モルジュ》新作パンの試食 4/7",
-                        "strID": 17345,
-                        "infostrID": 3104,
-                        "avgID": 12242
-                    },
-                    {
-                        "name": "《モルジュ》新作パンの試食 5/7",
-                        "strID": 17346,
-                        "infostrID": 3108,
-                        "avgID": 12243
-                    },
-                    {
-                        "name": "《モルジュ》新作パンの試食 6/7",
-                        "strID": 17347,
-                        "infostrID": 3109,
-                        "avgID": 12244
-                    },
-                    {
-                        "name": "《モルジュ》新作パンの試食 7/7",
-                        "strID": 17348,
-                        "infostrID": 3168,
-                        "avgID": 12245
-                    }
-                ]
-            },
-            {
-                "name": "危険物運搬の立ち合い",
-                "strID": 71301,
-                "questID": [
-                    363
-                ],
-                "scenes": [
-                    {
-                        "name": "危険物運搬の立ち合い 1/2",
-                        "strID": 17349,
-                        "infostrID": 3102,
-                        "avgID": 22207
-                    },
-                    {
-                        "name": "危険物運搬の立ち合い 2/2",
-                        "strID": 17350,
-                        "infostrID": 3015,
-                        "avgID": 22208
-                    }
-                ]
-            },
-            {
-                "name": "魔獣に囲まれたバス停",
-                "strID": 71326,
-                "questID": [
-                    364
-                ],
-                "scenes": [
-                    {
-                        "name": "魔獣に囲まれたバス停 1/4",
-                        "strID": 17351,
-                        "infostrID": 3115,
-                        "avgID": 12246
-                    },
-                    {
-                        "name": "魔獣に囲まれたバス停 2/4",
-                        "strID": 17352,
-                        "infostrID": 3004,
-                        "avgID": 12247
-                    },
-                    {
-                        "name": "魔獣に囲まれたバス停 3/4",
-                        "strID": 17353,
-                        "infostrID": 3004,
-                        "avgID": 12248
-                    },
-                    {
-                        "name": "魔獣に囲まれたバス停 4/4",
-                        "strID": 17354,
-                        "infostrID": 3115,
-                        "avgID": 12249
                     }
                 ]
             },
