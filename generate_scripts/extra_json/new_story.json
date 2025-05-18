@@ -720,321 +720,6 @@
                 ]
             },
             {
-                "name": "女王生誕祭の支援（2）",
-                "strID": 60526,
-                "questID": [
-                    202
-                ],
-                "scenes": [
-                    {
-                        "name": "女王生誕祭の支援（2） 1/7",
-                        "strID": 17106,
-                        "infostrID": 3009,
-                        "avgID": 10136
-                    },
-                    {
-                        "name": "女王生誕祭の支援（2） 2/7",
-                        "strID": 17107,
-                        "infostrID": 3202,
-                        "avgID": 20037
-                    },
-                    {
-                        "name": "女王生誕祭の支援（2） 3/7",
-                        "strID": 17108,
-                        "infostrID": 3203,
-                        "avgID": 10137
-                    },
-                    {
-                        "name": "女王生誕祭の支援（2） 4/7",
-                        "strID": 17109,
-                        "infostrID": 3209,
-                        "avgID": 10138
-                    },
-                    {
-                        "name": "女王生誕祭の支援（2） 5/7",
-                        "strID": 17110,
-                        "infostrID": 3203,
-                        "avgID": 10139
-                    },
-                    {
-                        "name": "女王生誕祭の支援（2） 6/7",
-                        "strID": 17111,
-                        "infostrID": 3201,
-                        "avgID": 20035
-                    },
-                    {
-                        "name": "女王生誕祭の支援（2） 7/7",
-                        "strID": 17112,
-                        "infostrID": 3009,
-                        "avgID": 10140
-                    }
-                ]
-            },
-            {
-                "name": "女王生誕祭の支援（3）",
-                "strID": 60551,
-                "questID": [
-                    203
-                ],
-                "scenes": [
-                    {
-                        "name": "女王生誕祭の支援（3） 1/9",
-                        "strID": 17113,
-                        "infostrID": 3200,
-                        "avgID": 10027
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 2/9",
-                        "strID": 17114,
-                        "infostrID": 3200,
-                        "avgID": 10028
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 3/9",
-                        "strID": 17115,
-                        "infostrID": 3202,
-                        "avgID": 10029
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 4/9",
-                        "strID": 17116,
-                        "infostrID": 613001,
-                        "avgID": 20040
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 5/9",
-                        "strID": 17117,
-                        "infostrID": 613001,
-                        "avgID": 20041
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 6/9",
-                        "strID": 17118,
-                        "infostrID": 613001,
-                        "avgID": 20042
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 7/9",
-                        "strID": 17119,
-                        "infostrID": 613001,
-                        "avgID": 20043
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 8/9",
-                        "strID": 17120,
-                        "infostrID": 613001,
-                        "avgID": 20044
-                    },
-                    {
-                        "name": "女王生誕祭の支援（3） 9/9",
-                        "strID": 17121,
-                        "infostrID": 3200,
-                        "avgID": 10030
-                    }
-                ]
-            },
-            {
-                "name": "爆弾の捜索（1）",
-                "strID": 60576,
-                "questID": [
-                    204
-                ],
-                "scenes": [
-                    {
-                        "name": "爆弾の捜索（1） 1/13",
-                        "strID": 17122,
-                        "infostrID": 3026,
-                        "avgID": 10031
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 2/13",
-                        "strID": 17123,
-                        "infostrID": 3218,
-                        "avgID": 20051
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 3/13",
-                        "strID": 17124,
-                        "infostrID": 3216,
-                        "avgID": 20045
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 4/13",
-                        "strID": 17125,
-                        "infostrID": 3214,
-                        "avgID": 20046
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 5/13",
-                        "strID": 17126,
-                        "infostrID": 3211,
-                        "avgID": 20047
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 6/13",
-                        "strID": 17127,
-                        "infostrID": 3204,
-                        "avgID": 20048
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 7/13",
-                        "strID": 17128,
-                        "infostrID": 3202,
-                        "avgID": 20049
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 8/13",
-                        "strID": 17129,
-                        "infostrID": 3209,
-                        "avgID": 20050
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 9/13",
-                        "strID": 17130,
-                        "infostrID": 3221,
-                        "avgID": 20052
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 10/13",
-                        "strID": 17131,
-                        "infostrID": 3216,
-                        "avgID": 20053
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 11/13",
-                        "strID": 17132,
-                        "infostrID": 3220,
-                        "avgID": 10123
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 12/13",
-                        "strID": 17133,
-                        "infostrID": 3217,
-                        "avgID": 20055
-                    },
-                    {
-                        "name": "爆弾の捜索（1） 13/13",
-                        "strID": 17134,
-                        "infostrID": 3217,
-                        "avgID": 10032
-                    }
-                ]
-            },
-            {
-                "name": "爆弾の捜索（2）",
-                "strID": 60601,
-                "questID": [
-                    205
-                ],
-                "scenes": [
-                    {
-                        "name": "爆弾の捜索（2） 1/7",
-                        "strID": 17135,
-                        "infostrID": 3207,
-                        "avgID": 20056
-                    },
-                    {
-                        "name": "爆弾の捜索（2） 2/7",
-                        "strID": 17136,
-                        "infostrID": 3213,
-                        "avgID": 20057
-                    },
-                    {
-                        "name": "爆弾の捜索（2） 3/7",
-                        "strID": 17137,
-                        "infostrID": 3220,
-                        "avgID": 20058
-                    },
-                    {
-                        "name": "爆弾の捜索（2） 4/7",
-                        "strID": 17138,
-                        "infostrID": 3209,
-                        "avgID": 20059
-                    },
-                    {
-                        "name": "爆弾の捜索（2） 5/7",
-                        "strID": 17139,
-                        "infostrID": 3211,
-                        "avgID": 20060
-                    },
-                    {
-                        "name": "爆弾の捜索（2） 6/7",
-                        "strID": 17140,
-                        "infostrID": 3207,
-                        "avgID": 20061
-                    },
-                    {
-                        "name": "爆弾の捜索（2） 7/7",
-                        "strID": 17141,
-                        "infostrID": 3215,
-                        "avgID": 10033
-                    }
-                ]
-            },
-            {
-                "name": "爆弾の捜索（3）",
-                "strID": 60626,
-                "questID": [
-                    206
-                ],
-                "scenes": [
-                    {
-                        "name": "爆弾の捜索（3） 1/9",
-                        "strID": 17142,
-                        "infostrID": 3200,
-                        "avgID": 10037
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 2/9",
-                        "strID": 17143,
-                        "infostrID": 3253,
-                        "avgID": 20063
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 3/9",
-                        "strID": 17144,
-                        "infostrID": 3251,
-                        "avgID": 20064
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 4/9",
-                        "strID": 17145,
-                        "infostrID": 3252,
-                        "avgID": 20065
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 5/9",
-                        "strID": 17146,
-                        "infostrID": 3217,
-                        "avgID": 10038
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 6/9",
-                        "strID": 17147,
-                        "infostrID": 3217,
-                        "avgID": 10039
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 7/9",
-                        "strID": 17148,
-                        "infostrID": 3254,
-                        "avgID": 20066
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 8/9",
-                        "strID": 17149,
-                        "infostrID": 3210,
-                        "avgID": 10040
-                    },
-                    {
-                        "name": "爆弾の捜索（3） 9/9",
-                        "strID": 17150,
-                        "infostrID": 3026,
-                        "avgID": 10041
-                    }
-                ]
-            },
-            {
                 "name": "キルシェ通り・街道灯の交換",
                 "strID": 70501,
                 "questID": [
@@ -1140,6 +825,57 @@
                 ]
             },
             {
+                "name": "女王生誕祭の支援（2）",
+                "strID": 60526,
+                "questID": [
+                    202
+                ],
+                "scenes": [
+                    {
+                        "name": "女王生誕祭の支援（2） 1/7",
+                        "strID": 17106,
+                        "infostrID": 3009,
+                        "avgID": 10136
+                    },
+                    {
+                        "name": "女王生誕祭の支援（2） 2/7",
+                        "strID": 17107,
+                        "infostrID": 3202,
+                        "avgID": 20037
+                    },
+                    {
+                        "name": "女王生誕祭の支援（2） 3/7",
+                        "strID": 17108,
+                        "infostrID": 3203,
+                        "avgID": 10137
+                    },
+                    {
+                        "name": "女王生誕祭の支援（2） 4/7",
+                        "strID": 17109,
+                        "infostrID": 3209,
+                        "avgID": 10138
+                    },
+                    {
+                        "name": "女王生誕祭の支援（2） 5/7",
+                        "strID": 17110,
+                        "infostrID": 3203,
+                        "avgID": 10139
+                    },
+                    {
+                        "name": "女王生誕祭の支援（2） 6/7",
+                        "strID": 17111,
+                        "infostrID": 3201,
+                        "avgID": 20035
+                    },
+                    {
+                        "name": "女王生誕祭の支援（2） 7/7",
+                        "strID": 17112,
+                        "infostrID": 3009,
+                        "avgID": 10140
+                    }
+                ]
+            },
+            {
                 "name": "エインセル号の探索支援",
                 "strID": 70601,
                 "questID": [
@@ -1188,6 +924,69 @@
                 ]
             },
             {
+                "name": "女王生誕祭の支援（3）",
+                "strID": 60551,
+                "questID": [
+                    203
+                ],
+                "scenes": [
+                    {
+                        "name": "女王生誕祭の支援（3） 1/9",
+                        "strID": 17113,
+                        "infostrID": 3200,
+                        "avgID": 10027
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 2/9",
+                        "strID": 17114,
+                        "infostrID": 3200,
+                        "avgID": 10028
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 3/9",
+                        "strID": 17115,
+                        "infostrID": 3202,
+                        "avgID": 10029
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 4/9",
+                        "strID": 17116,
+                        "infostrID": 613001,
+                        "avgID": 20040
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 5/9",
+                        "strID": 17117,
+                        "infostrID": 613001,
+                        "avgID": 20041
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 6/9",
+                        "strID": 17118,
+                        "infostrID": 613001,
+                        "avgID": 20042
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 7/9",
+                        "strID": 17119,
+                        "infostrID": 613001,
+                        "avgID": 20043
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 8/9",
+                        "strID": 17120,
+                        "infostrID": 613001,
+                        "avgID": 20044
+                    },
+                    {
+                        "name": "女王生誕祭の支援（3） 9/9",
+                        "strID": 17121,
+                        "infostrID": 3200,
+                        "avgID": 10030
+                    }
+                ]
+            },
+            {
                 "name": "指名手配犯の捜索",
                 "strID": 70701,
                 "questID": [
@@ -1232,6 +1031,93 @@
                         "strID": 17173,
                         "infostrID": 3255,
                         "avgID": 12185
+                    }
+                ]
+            },
+            {
+                "name": "爆弾の捜索（1）",
+                "strID": 60576,
+                "questID": [
+                    204
+                ],
+                "scenes": [
+                    {
+                        "name": "爆弾の捜索（1） 1/13",
+                        "strID": 17122,
+                        "infostrID": 3026,
+                        "avgID": 10031
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 2/13",
+                        "strID": 17123,
+                        "infostrID": 3218,
+                        "avgID": 20051
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 3/13",
+                        "strID": 17124,
+                        "infostrID": 3216,
+                        "avgID": 20045
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 4/13",
+                        "strID": 17125,
+                        "infostrID": 3214,
+                        "avgID": 20046
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 5/13",
+                        "strID": 17126,
+                        "infostrID": 3211,
+                        "avgID": 20047
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 6/13",
+                        "strID": 17127,
+                        "infostrID": 3204,
+                        "avgID": 20048
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 7/13",
+                        "strID": 17128,
+                        "infostrID": 3202,
+                        "avgID": 20049
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 8/13",
+                        "strID": 17129,
+                        "infostrID": 3209,
+                        "avgID": 20050
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 9/13",
+                        "strID": 17130,
+                        "infostrID": 3221,
+                        "avgID": 20052
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 10/13",
+                        "strID": 17131,
+                        "infostrID": 3216,
+                        "avgID": 20053
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 11/13",
+                        "strID": 17132,
+                        "infostrID": 3220,
+                        "avgID": 10123
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 12/13",
+                        "strID": 17133,
+                        "infostrID": 3217,
+                        "avgID": 20055
+                    },
+                    {
+                        "name": "爆弾の捜索（1） 13/13",
+                        "strID": 17134,
+                        "infostrID": 3217,
+                        "avgID": 10032
                     }
                 ]
             },
@@ -1302,6 +1188,57 @@
                 ]
             },
             {
+                "name": "爆弾の捜索（2）",
+                "strID": 60601,
+                "questID": [
+                    205
+                ],
+                "scenes": [
+                    {
+                        "name": "爆弾の捜索（2） 1/7",
+                        "strID": 17135,
+                        "infostrID": 3207,
+                        "avgID": 20056
+                    },
+                    {
+                        "name": "爆弾の捜索（2） 2/7",
+                        "strID": 17136,
+                        "infostrID": 3213,
+                        "avgID": 20057
+                    },
+                    {
+                        "name": "爆弾の捜索（2） 3/7",
+                        "strID": 17137,
+                        "infostrID": 3220,
+                        "avgID": 20058
+                    },
+                    {
+                        "name": "爆弾の捜索（2） 4/7",
+                        "strID": 17138,
+                        "infostrID": 3209,
+                        "avgID": 20059
+                    },
+                    {
+                        "name": "爆弾の捜索（2） 5/7",
+                        "strID": 17139,
+                        "infostrID": 3211,
+                        "avgID": 20060
+                    },
+                    {
+                        "name": "爆弾の捜索（2） 6/7",
+                        "strID": 17140,
+                        "infostrID": 3207,
+                        "avgID": 20061
+                    },
+                    {
+                        "name": "爆弾の捜索（2） 7/7",
+                        "strID": 17141,
+                        "infostrID": 3215,
+                        "avgID": 10033
+                    }
+                ]
+            },
+            {
                 "name": "危険物運搬の立ち会い",
                 "strID": 70801,
                 "questID": [
@@ -1319,6 +1256,69 @@
                         "strID": 17183,
                         "infostrID": 3209,
                         "avgID": 12173
+                    }
+                ]
+            },
+            {
+                "name": "爆弾の捜索（3）",
+                "strID": 60626,
+                "questID": [
+                    206
+                ],
+                "scenes": [
+                    {
+                        "name": "爆弾の捜索（3） 1/9",
+                        "strID": 17142,
+                        "infostrID": 3200,
+                        "avgID": 10037
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 2/9",
+                        "strID": 17143,
+                        "infostrID": 3253,
+                        "avgID": 20063
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 3/9",
+                        "strID": 17144,
+                        "infostrID": 3251,
+                        "avgID": 20064
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 4/9",
+                        "strID": 17145,
+                        "infostrID": 3252,
+                        "avgID": 20065
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 5/9",
+                        "strID": 17146,
+                        "infostrID": 3217,
+                        "avgID": 10038
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 6/9",
+                        "strID": 17147,
+                        "infostrID": 3217,
+                        "avgID": 10039
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 7/9",
+                        "strID": 17148,
+                        "infostrID": 3254,
+                        "avgID": 20066
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 8/9",
+                        "strID": 17149,
+                        "infostrID": 3210,
+                        "avgID": 10040
+                    },
+                    {
+                        "name": "爆弾の捜索（3） 9/9",
+                        "strID": 17150,
+                        "infostrID": 3026,
+                        "avgID": 10041
                     }
                 ]
             },
