@@ -43,8 +43,6 @@ All Image files in the `game/Texture2D` folder are placeholder files to keep the
 Pleace replace them with the actual files.
 (Cutscenes can be read without replacing any image files.)
 
-The `.ico` file in both the root folder, and `game/icon` is a placeholder file, please replace it with an icon of your choice.
-
 ---
 ## Build
 
@@ -54,22 +52,22 @@ To build into an .exe:
      - then build it from the "Build Distributions" menu within Ren'Py.
      - or, you can just "Launch Project" from inside Ren'Py.
 
-NOTE: if you get an error when launching that says Ren'Py can't find a file, it may be because the `game` folder is inside of too many other folders.  Try moving it out of the parent folder.
+NOTE: if you get an error when launching that says Ren'Py can't find a file, it may be because the `game` folder is inside of too many other folders.  Try moving it up one level, outside of the parent folder.
 
 ---
 
 ### Scripts are also provided to generate text files from cutscene files, or re-generate renpy scripts in the `generate_scripts` folder:
 
  - **`generate_scripts/extra_json` folder**: 
-   - contains pre-sorted lists of cutscenes which didn't have an easy way to be sorted automatically
+   - contains pre-sorted lists of cutscenes
  - **`generate_scripts/MonoBehaviour` folder**:  
    - please export the following files from the original game files, then place them in this folder:
      - `avg_replay.json`
      - `avg_role.json`
-     - `bgm.json` (not required to make .txt files)
+     - `bgm.json`
      - `booktabs.json`
      - `quest.json`
-     - `sfx.json` (not required to make .txt files)
+     - `sfx.json`
      - `text.json`
      - `training_event.json`
      - `trigger.json`
@@ -77,50 +75,59 @@ NOTE: if you get an error when launching that says Ren'Py can't find a file, it 
      - all "avg" json files (example: `10001.json`) found in the `data_avg_data_[##].unity3d` files
    - (see [Generate Scripts Requirements](generate_scripts/MonoBehaviour/REQUIREMENTS.md) for a little more information, and a regex pattern to use)
 ---
-Then run the .py scripts in the following order (or use the .bat files):
+**__It is no longer recommended to use these next three scripts, unless for some reason you need to make a brand new menu from scratch.__**
+These scripts are only able to use the information that was accessible from the original game's files at the time of shutdown (with a few exceptions).  I have made a TON of modifications to the copies of the `.json` files stored in this repository, that can't easily be replicated with these scripts alone.  I feel it's important to keep them around, just to be able to "show my work", but just know that they are not necessary, or even used here anymore.
 
  1. **`1_make_new_quest_json.py`:** 
    - uses `booktabs.json` in combination with `quest.json` to create a simpler questlog json file in the `generate_scripts/extra_json` folder called `new_quest.json` 
 
  2. **`2_make_new_story_json.py`:**
    - uses `avg_replay.json` to organize and label all cutscenes accessible from the "物語回想" section of the in-game Bracer Notebook
-   - then uses the newly-made `generate_scripts/extra_json/new_quest.json` to match up quests with their questlog by matching string ID's
+   - then uses the newly-made `generate_scripts/extra_json/new_quest.json` to match up quests with their questlog by matching the ID of the quest's string with the ID of the questlog's string.
    - outputs `new_story.json` in the `generate_scripts/extra_json` folder
 
  3. **`3_make_new_training_json.py`:**
    - uses `quest.json`, `trigger.json`, and `training_event.json` to find "戦闘訓練" stages that trigger cutscenes, and creates `new_training.json` in the `generate_scripts/extra_json` folder
 
    - **NOTE for sorting Training Events:** 
-     - This script by default will only sort the "訓練" section of Training, skipping over the "イベント" section, because not all "イベント" cutscenes are accessible from all `quest.json`+`training_event.json` combinations. (that's why there's `generate_scripts/extra_json/EX12_event.json`)
+     - This script by default will only sort the `訓練` section of Training, skipping over the `イベント` section, because not all `イベント` cutscenes are accessible from all `quest.json`+`training_event.json` combinations. (that's why there's `generate_scripts/extra_json/EX12_event.json`)
 
 ---
 
-**Then those three created json files can be checked over and edited before continuing**
+**Then all of the json files in `generate_scripts/extra_json` can be checked over and edited before continuing**
+
+The order that quests will be listed in the game's menu will match the order that they are listed inside these json files.  At this point, you can rearrange anything you want to, or remove quests that you don't want to be visible on the scene select screen. (maybe you're working on a translation and don't want to translate all of the weird extra stuff).   Deleting the .json file itself will also allow you to create a menu file that has that entire category removed.  (although at this time, I don't recommend deleting the `new_quest.json`file)
+
+Currently, the order that quests will be sorted in is as follows:
+ 1. `new_story.json`
+ 2. `new_training.json`
+ 3. `EX12_event.json`
+ 4. `EX13_exploration.json`
+ 5. `EX14_daily.json`
+ 6. `EX15_unused.json`
+
+but you could change the order that they are added together from within `4_make_menus.py`
 
 ---
-
- - **`4_sort_avg.py`:**
-   -  combines the json files in `generate_scripts/extra_json` into dictionaries
-   -  creates readable text files from the avg json files in `generate_scripts/MonoBehaviour`, and uses the created dictionaries to place them in a similar folder structure
  
  - **`4_make_menus.py`:** 
-   - combines the json files in `generate_scripts/extra_json` into dictionaries, and then uses that dictionary to build the `episodelist.json` menu file for Akatsuki Towa
+   - combines all of the json files in `generate_scripts/extra_json` into a single list, and then uses that list to build the `episodelist.json` menu file for Akatsuki Towa
 
  - **`5_generate_script.py`:**
    - uses `avg_role.json`, `bgm.json`, `sfx.json`, `voice.json`
-   - reads the avg json files in the `generate_scripts/MonoBehaviour` folder to create .rpy scripts for Akatsuki Towa
+   - reads the avg json files in the `generate_scripts/MonoBehaviour` folder to create .rpy scripts for Akatsuki Towa.
 
-**PLEASE NOTE:** Not all generated scripts will be accessible from Akatsuki Towa's in-game menu, but they can be manually played by using the "Jump" button on the left side of the "Scene Select" menu.
+**PLEASE NOTE:** Not all generated scripts will be accessible from Akatsuki Towa's in-game menu, but they can be manually played by clicking the "Jump" button on the left side of the "Scene Select" menu, and entering the cutscene file's number in the box.
 
 ---
 ## Adding typewriter sound effect back in
 **enabletypewritersound.rpy**
 
-I originally had the "typewriter" sound that plays while displaying text working by using an audio recording of the real game.
+I originally had gotten the "typewriter" sound (that plays while dialogue is being typed out) working here by using an audio recording from the real game.  The audio recording won't be included in this repository, however, so the entire thing has been disabled by default.
 
-That won't be included here, so the entire thing has been disabled by default.
-
-But the hooks are all still there, and can be re-enabled by uncommenting the second half of `game/enabletypewritersound.rpy`
+But the hooks are all still intact, and if you have a usable audio recording, you can re-enable the typewriter effect:
+ 1. Uncomment the second half of `game/enabletypewritersound.rpy`, and if necessary, change the name of the file that will be played to match your recording.
+ 2. Place your audio file in the `AudioClip` folder.
 
 ---
 
@@ -129,9 +136,9 @@ But the hooks are all still there, and can be re-enabled by uncommenting the sec
 Everything was done with the goal of being as accurate as possible, but nothing is 100% certain to be 100% accurate
 
  - **Scene menu placement**:
-   - Story cutscenes are sorted using original files, so should be correctly labeled
+   - Story cutscenes were originally sorted using original files, so should be correctly labeled
    - Training:
-     - "訓練" cutscenes are sorted using original files, so should be correctly labeled
+     - "訓練" cutscenes were originally sorted using original files, so should be correctly labeled
      - "イベント" cutscenes were sorted by hand, and their current placement can be found inside `generate_scripts/extra_json/EX12_event.json`
        - most "イベント" scenes are not labeled with their original title, but instead defaulting to the overall event's title if it wasn't 100% sure
    - pretty much everything else was sorted by hand, and its current placement can be found inside one of the other json files in `generate_scripts/extra_json/`
@@ -227,12 +234,12 @@ no"                                 |             no
 11,"{Oh, no!}"                      |do not use - crashes Ren'Py
 ```
 
-## Translation File Generation (*experimental*)
-You can now use `5_generate_TL_file.py`, found in the `generate_scripts` folder to create a new translatable text file. (either .csv or .json)
+## Translation File Generation
+You can now use `5_generate_TL_file.py`, found in the `generate_scripts` folder to create new translatable text files. (either .csv or .json)
 This script will pull out all strings used in Akatsuki Towa's menus and cutscenes, keeping them in order, while adding a note about where it will be used, and whether it is a duplicate usage or not.
-Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it where it is.
+Translate text by editing the "_text" field.  You can either remove the "jptext" field when you're done, or leave it as it is.
 
-(For now, you will still need to separately translate the extra strings in `CONFIG.rpy`.  For these instances, a note will be made in the generated translation file.)
+(For now, you will still need to translate the extra strings in `CONFIG.rpy` separately.  For these instances, a note will be made in the generated translation file.)
 
 (Please also note that the speaker is included as supplementary information only.  Each speaker's name only needs to be translated once, inside your `avg_role.json` file.)
 
