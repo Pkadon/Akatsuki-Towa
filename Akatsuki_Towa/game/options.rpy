@@ -18,7 +18,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "2.2"
+define config.version = "2.3"
 
 
 ## A short name for the game used for executables and directories in the built
