@@ -7,6 +7,13 @@ This is a fan project!  All Characters, Scripts, Assets, etc. belong to Nihon Fa
 Cutscenes recreated by Pikadon using Ren'Py
 """)
 
+#################################################################
+# Default text scroll speed.
+# May need to be modified or disabled to accomodate English character count.
+#################################################################
+### The default, 0, is infinite, while any other number is the number of characters per second to type out.
+default preferences.text_cps = 20
+
 init python early:
 #################################################################
 #Silver and gold "booktab" buttons used in all Scene Select menus
