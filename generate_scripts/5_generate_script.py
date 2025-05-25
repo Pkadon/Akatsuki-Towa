@@ -1,12 +1,13 @@
 import json
 from pathlib import Path
-import os
 
-direc = Path.cwd()
+# I don't know if it's ok to be using __file__ here, 
+# but I figure it's better than what it was before
+direc = Path(__file__).resolve().parent
 scriptdirec = direc / 'MonoBehaviour'
 targetdirec = direc / 'Renpy_Scripts' / 'scripts'
-if not os.path.exists(targetdirec):
-	os.makedirs(targetdirec)
+if not targetdirec.exists():
+	targetdirec.mkdir(parents=True, exist_ok=True)
 	
 #IMPORT AVG ROLE
 with open((scriptdirec / 'avg_role.json'), 'r', encoding="utf-8")as txt:
@@ -59,8 +60,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	fname = cutscenepath.stem
 	#just to weed out the other files that were in the same folder
 	if not fname[0].isdigit(): continue
-	
-	print(fname)
+
 	#IMPORT SCRIPT JSON
 	with open(cutscenepath, 'r', encoding="utf-8")as txt:
 		script_json = json.load(txt)

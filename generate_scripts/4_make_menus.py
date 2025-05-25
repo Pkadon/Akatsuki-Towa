@@ -6,7 +6,6 @@ import re
 # but I figure it's better than what it was before
 direc = Path(__file__).resolve().parent
 exdirec = direc / 'extra_json'
-
 outputdirec = direc / "Renpy_scripts"
 outputdirec.mkdir(exist_ok=True)
 

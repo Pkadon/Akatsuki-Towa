@@ -1,9 +1,9 @@
 import json
 from pathlib import Path
-import os
 
-
-direc = Path.cwd()
+# I don't know if it's ok to be using __file__ here, 
+# but I figure it's better than what it was before
+direc = Path(__file__).resolve().parent
 exdirec = direc / 'extra_json'
 scriptdirec = direc / 'MonoBehaviour'
 

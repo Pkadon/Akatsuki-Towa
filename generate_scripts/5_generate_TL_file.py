@@ -2,8 +2,9 @@ import json
 import csv
 from pathlib import Path
 
-
-direc = Path.cwd()
+# I don't know if it's ok to be using __file__ here, 
+# but I figure it's better than what it was before
+direc = Path(__file__).resolve().parent
 scriptdirec = direc / 'MonoBehaviour'
 outdirec = Path.cwd() / 'Renpy_scripts'
 episodelist = outdirec / 'episodelist.json'
