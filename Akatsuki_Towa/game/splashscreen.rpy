@@ -111,7 +111,7 @@ image splashscreen:
 label splashscreen:
     play music "ed9999.ogg"
     scene splashscreen
-    show akatsukilogo:
+    show splash_akatsukilogo:
         anchor splash_logo_anchor
         pos splash_logo_pos
         zoom splash_logo_zoom

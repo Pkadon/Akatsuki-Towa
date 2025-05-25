@@ -276,14 +276,18 @@ init python early:
 ########################################################
 
 ### The game logo.  Appears on the splash screen, and the bottom-right corner of the main menu.
-image akatsukilogo:
+image splash_akatsukilogo:
     Crop((0,331,502,178), "atlas_loading.png")
 python early:
-    show_logo = True # change to False to hide logo from Main Menu
 ### Splash Screen logo properties:
     splash_logo_anchor = (0, 0) 
     splash_logo_pos = (390, 175) 
     splash_logo_zoom = .85 
+
+image main_akatsukilogo:
+    Crop((0,331,502,178), "atlas_loading.png")
+python early:
+    show_logo = True # change to False to hide logo from Main Menu
 ### Main Menu logo properties:
     main_logo_anchor = (1.0, 1.0)
     main_logo_pos = (.99, .97)

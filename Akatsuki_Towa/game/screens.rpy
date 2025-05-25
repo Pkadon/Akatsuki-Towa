@@ -397,7 +397,7 @@ screen main_menu():
     if show_popup:
         add "popup"
     if show_logo:
-        add "akatsukilogo":
+        add "main_akatsukilogo":
             anchor main_logo_anchor
             pos main_logo_pos
             zoom main_logo_zoom
