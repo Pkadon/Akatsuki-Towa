@@ -263,10 +263,16 @@ init python early:
 ### The game logo.  Appears on the splash screen, and the bottom-right corner of the main menu.
 image akatsukilogo:
     Crop((0,331,502,178), "atlas_loading.png")
-    zoom .85
-### Change to False to hide from Main Menu:
 python early:
-    show_logo = True
+    show_logo = True # change to False to hide logo from Main Menu
+### Splash Screen logo properties:
+    splash_logo_anchor = (0, 0) 
+    splash_logo_pos = (390, 175) 
+    splash_logo_zoom = .85 
+### Main Menu logo properties:
+    main_logo_anchor = (1.0, 1.0)
+    main_logo_pos = (.99, .97)
+    main_logo_zoom = .85
 
 ### The よ永久に joke text, can be changed to anything you want to fade-in over top of the logo
 ### or you can define a totally different animation here.
@@ -274,21 +280,22 @@ image logooverlay:
     "images_free/towani2.png"
     pause 1.0
     "images_free/towani.png" with Dissolve(1.0, alpha=True)
-### Change to False to hide from Main Menu:
 python early:
-    show_logooverlay = True
+    show_logooverlay = True # change to False to hide overlay image from Main Menu
+### Main Menu overlay image properties:
+    main_overlay_anchor = (1.0, 1.0)
+    main_overlay_pos = (.97, .97)
+    main_overlay_zoom = 1.0
 
 ### The Towa head that pops up in the bottom-right corner of the main menu.
 ### Change to who or whatever you prefer.
 image popup:
     "sc085_01_i256.png"
     anchor (.5,.5)
-    xpos 0.68
-    ypos 1.5
+    pos (0.68, 1.5)
     zoom 1.5
     rotate -20
     pause 1.0
     ease 1.0 ypos .925 
-### Change to False to hide from Main Menu:
 python early:
-    show_popup = True
+    show_popup = True # change to False to hide popup character from Main Menu

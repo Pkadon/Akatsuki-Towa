@@ -398,20 +398,14 @@ screen main_menu():
         add "popup"
     if show_logo:
         add "akatsukilogo":
-            xanchor 1.0
-            yanchor 1.0
-            xpos .99
-            ypos .97
+            anchor main_logo_anchor
+            pos main_logo_pos
+            zoom main_logo_zoom
     if show_logooverlay:
         add "logooverlay":
-            xanchor 1.0
-            yanchor 1.0
-            xpos .97
-            ypos .97
-
-
-        
-
+            anchor main_overlay_anchor
+            pos main_overlay_pos
+            zoom main_overlay_zoom
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox

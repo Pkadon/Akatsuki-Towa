@@ -112,15 +112,17 @@ label splashscreen:
     play music "ed9999.ogg"
     scene splashscreen
     show akatsukilogo:
-        pos (390, 175)
+        anchor splash_logo_anchor
+        pos splash_logo_pos
+        zoom splash_logo_zoom
     show startbuttonani:
-        ycenter 0.74
         xcenter 0.72
+        ycenter 0.74
     $ renpy.pause ()
     play sound "common_select.ogg"
     hide startbuttonani
     show startbuttonclicked:
-        ycenter 0.74
         xcenter 0.72
+        ycenter 0.74
     pause(2.0)
 return
