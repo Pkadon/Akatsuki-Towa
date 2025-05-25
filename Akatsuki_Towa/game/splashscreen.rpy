@@ -111,7 +111,7 @@ image splashscreen:
 label splashscreen:
     play music "ed9999.ogg"
     scene splashscreen
-    show akatsukilogo2:
+    show akatsukilogo:
         pos (390, 175)
     show startbuttonani:
         ycenter 0.74

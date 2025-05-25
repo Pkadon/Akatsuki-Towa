@@ -22,7 +22,7 @@ image mainmenuscreen:
 image sceneselect = "mainmenuscreen"
 
 ###logo animation######
-image akatsukilogo2:
+image akatsukilogo:
     Crop((0,331,502,178), "atlas_loading.png")
     zoom .85
 image towani:

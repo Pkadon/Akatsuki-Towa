@@ -395,7 +395,7 @@ screen main_menu():
                 style "main_menu_version"
 
     add "towa"
-    add "akatsukilogo2":
+    add "akatsukilogo":
         xanchor 1.0
         yanchor 1.0
         xpos .99
