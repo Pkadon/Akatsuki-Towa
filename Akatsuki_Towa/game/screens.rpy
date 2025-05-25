@@ -394,17 +394,20 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
-    add "towa"
-    add "akatsukilogo":
-        xanchor 1.0
-        yanchor 1.0
-        xpos .99
-        ypos .97
-    add "towani":
-        xanchor 1.0
-        yanchor 1.0
-        xpos .97
-        ypos .97
+    if show_popup:
+        add "popup"
+    if show_logo:
+        add "akatsukilogo":
+            xanchor 1.0
+            yanchor 1.0
+            xpos .99
+            ypos .97
+    if show_logooverlay:
+        add "logooverlay":
+            xanchor 1.0
+            yanchor 1.0
+            xpos .97
+            ypos .97
 
 
         

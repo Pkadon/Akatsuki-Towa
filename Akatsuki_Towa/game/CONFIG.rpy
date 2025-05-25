@@ -255,21 +255,32 @@ init python early:
     "ex_120": "モーリスの依頼"
 }
 
-##################################################################
-#RENPY SETTINGS (not a part of the python block)
-##################################################################
+########################################################
 
-#Image Definitions 
-#==========================================
-###logo animation######
+# Image Definitions (not a part of the python block)
+########################################################
+
+### The game logo.  Appears on the splash screen, and the bottom-right corner of the main menu.
 image akatsukilogo:
     Crop((0,331,502,178), "atlas_loading.png")
     zoom .85
-image towani:
+### Change to False to hide from Main Menu:
+python early:
+    show_logo = True
+
+### The よ永久に joke text, can be changed to anything you want to fade-in over top of the logo
+### or you can define a totally different animation here.
+image logooverlay:
     "images_free/towani2.png"
     pause 1.0
     "images_free/towani.png" with Dissolve(1.0, alpha=True)
-image towa:
+### Change to False to hide from Main Menu:
+python early:
+    show_logooverlay = True
+
+### The Towa head that pops up in the bottom-right corner of the main menu.
+### Change to who or whatever you prefer.
+image popup:
     "sc085_01_i256.png"
     anchor (.5,.5)
     xpos 0.68
@@ -278,3 +289,6 @@ image towa:
     rotate -20
     pause 1.0
     ease 1.0 ypos .925 
+### Change to False to hide from Main Menu:
+python early:
+    show_popup = True
