@@ -143,6 +143,40 @@
                 ]
             },
             {
+                "name": "緊急！薬の配達依頼 (Ch.3)",
+                "strID": 71651,
+                "add": " (Ch.3)",
+                "questID": [
+                    457
+                ],
+                "scenes": [
+                    {
+                        "name": "緊急！薬の配達依頼 1/4",
+                        "strID": 17479,
+                        "infostrID": 2153,
+                        "avgID": 12366
+                    },
+                    {
+                        "name": "緊急！薬の配達依頼 2/4",
+                        "strID": 17480,
+                        "infostrID": 2112,
+                        "avgID": 22367
+                    },
+                    {
+                        "name": "緊急！薬の配達依頼 3/4",
+                        "strID": 17481,
+                        "infostrID": 3012,
+                        "avgID": 12368
+                    },
+                    {
+                        "name": "緊急！薬の配達依頼 4/4",
+                        "strID": 17482,
+                        "infostrID": 2153,
+                        "avgID": 12369
+                    }
+                ]
+            },
+            {
                 "name": "魔獣退治",
                 "strID": 14039,
                 "questID": [
