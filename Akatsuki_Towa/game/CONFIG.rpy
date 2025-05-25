@@ -254,3 +254,27 @@ init python early:
     "ex_119": "ルーシーの依頼",
     "ex_120": "モーリスの依頼"
 }
+
+##################################################################
+#RENPY SETTINGS (not a part of the python block)
+##################################################################
+
+#Image Definitions 
+#==========================================
+###logo animation######
+image akatsukilogo:
+    Crop((0,331,502,178), "atlas_loading.png")
+    zoom .85
+image towani:
+    "images_free/towani2.png"
+    pause 1.0
+    "images_free/towani.png" with Dissolve(1.0, alpha=True)
+image towa:
+    "sc085_01_i256.png"
+    anchor (.5,.5)
+    xpos 0.68
+    ypos 1.5
+    zoom 1.5
+    rotate -20
+    pause 1.0
+    ease 1.0 ypos .925 

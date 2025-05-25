@@ -1,7 +1,7 @@
 
 ###Splash Screen Image Definitions######################################
 
-#akatsukilogo2 is defined in defmenuimages.rpy
+#akatsukilogo is defined in CONFIG.rpy
 
 image startbutton:
     Crop((747,1990,175,48), "atlas_login.png")
