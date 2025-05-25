@@ -21,16 +21,6 @@ define gui.show_name = False
 define config.version = "2.2"
 
 
-## Text that is placed on the game's about screen. Place the text between the
-## triple-quotes, and leave a blank line between paragraphs.
-
-define gui.about = _p("""
-This is a fan project!\n
-All Characters, Scripts, Assets, etc. belong to Nihon Falcom Corporation (www.falcom.co.jp) and/or USERJOY JAPAN (www.ujj.co.jp)\n
-Cutscenes recreated by Pikadon using Ren'Py
-""")
-
-
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
