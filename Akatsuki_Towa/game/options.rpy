@@ -2,14 +2,6 @@
 define config.search_prefixes = [ "", "Texture2D/", "AudioClip/"]
 
 ## Basics ######################################################################
-## A human-readable name of the game. This is used to set the default window
-## title, and shows up in the interface and error reports.
-##
-## The _() surrounding the string marks it as eligible for translation.
-
-define config.name = ("Akatsuki_Towa")
-
-
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 

@@ -1,3 +1,10 @@
+#######################
+# Game Name
+#######################
+### A human-readable name of the game. This is used to set the default window
+### title, and shows up in the interface and error reports.
+define config.name = ("Akatsuki_Towa")
+
 #################################################
 # Make sure to credit yourself!
 #################################################
