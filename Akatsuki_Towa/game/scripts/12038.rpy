@@ -35,7 +35,6 @@ hide c2portrait
 show oc002_01 6 as c2portrait at darkright(-3), zorder 5
 c9741 '[textdict[1120270]]'
 hide c2portrait
-c9743 '[textdict[1120271]]'
 c9753 '[textdict[1120272]]'
 scene avg_bg_070
 with fade

@@ -128,6 +128,10 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		for i in range(0, len(script_json['dialogueFrames'])):
 			framecount = i+1
 			newscene = False
+			
+			#Skip duplicate line 
+			#(if we skip it any earlier, it's going to screw up bgm and background scheduling)
+			if fname == '12038' and framecount == 15: continue
 
 			i = script_json['dialogueFrames'][i]
 			template = i['template']
