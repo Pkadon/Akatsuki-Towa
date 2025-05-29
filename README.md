@@ -1,5 +1,5 @@
 # Akatsuki-Towa
-### This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
+## This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
 
  - [Setup](https://github.com/Pkadon/Akatsuki-Towa#setup)
  - [Build](https://github.com/Pkadon/Akatsuki-Towa#build)
@@ -7,9 +7,9 @@
  - [Accuracy](https://github.com/Pkadon/Akatsuki-Towa#accuracy)
  - [Translation](https://github.com/Pkadon/Akatsuki-Towa#translation)
    - [Translation File Generator](https://github.com/Pkadon/Akatsuki-Towa#translation-file-generation-experimental)
-
+ - [Thanks](https://github.com/Pkadon/Akatsuki-Towa#extra-special-thanks)
 ---
-## Setup
+# Setup
 **DOES NOT INCLUDE ANY GAME FILES**
 
 Please export required assets from the original game's unity3D files
@@ -44,7 +44,7 @@ Pleace replace them with the actual files.
 (Cutscenes can be read without replacing any image files.)
 
 ---
-## Build
+# Build
 
 To build into an .exe:
  1. Download Ren'Py from here: https://www.renpy.org/
@@ -252,6 +252,12 @@ in `generate_scripts\MonoBehaviour`:
 
 in `generate_scripts\Renpy_scripts`:
  - `episodelist.json`
+
+---
+# EXTRA-SPECIAL THANKS
+[Callum521](https://www.youtube.com/@Callum5211) - For playtesting, stress testing, and helping to correct errors!
+
+[Raymond Law](https://www.youtube.com/@ZeroXHK) - For their [full, unedited playthrough of Akatsuki!](https://www.youtube.com/playlist?list=PLQq2_C4tinm6aKxzIpMWCSM9PUvfHHsWF)
 
 ---
 # **Ren'Py Disclaimer**
