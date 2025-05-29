@@ -55,9 +55,6 @@ episodelist = []
 for category in combinedscenelist:
 	categorydict = dict()
 	
-	categorynumber = str(combinedscenelist.index(category))
-	while len(categorynumber) < 2: categorynumber = '0'+categorynumber
-	
 	if 'strID' in category and category['strID'] != None: 
 		level0 = category['strID']
 	else: level0 = category['name']
@@ -68,11 +65,6 @@ for category in combinedscenelist:
 	
 	for quest in category['quests']:
 		questdict = dict()
-
-		questnumber = str(category['quests'].index(quest))
-		while len(questnumber) < 2: questnumber = '0'+questnumber
-		
-		scenemenu = "quest"+categorynumber+questnumber
 		
 		add = None
 		if 'strID' in quest and quest['strID'] != None:
