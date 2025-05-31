@@ -104,13 +104,6 @@ default preferences.skip_unseen = True
 define config.save_directory = "AkatsukiTowa-1712552784"
 
 
-## Icon ########################################################################
-##
-## The icon displayed on the taskbar or dock.
-
-define config.window_icon = "icon/FormIcon.jpg"
-
-
 ## Build configuration #########################################################
 ##
 ## This section controls how Ren'Py turns your project into distribution files.

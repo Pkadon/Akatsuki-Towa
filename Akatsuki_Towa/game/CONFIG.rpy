@@ -14,6 +14,12 @@ This is a fan project!  All Characters, Scripts, Assets, etc. belong to Nihon Fa
 Cutscenes recreated by Pikadon using Ren'Py
 """)
 
+##########
+# Icon
+##########
+### The icon displayed on the taskbar or dock.
+define config.window_icon = "icon/FormIcon.jpg"
+
 #################################################################
 # Default text scroll speed.
 # May need to be modified or disabled to accomodate English character count.
