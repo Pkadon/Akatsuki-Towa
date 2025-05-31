@@ -375,54 +375,6 @@
                 ]
             },
             {
-                "name": "協会からの挑戦状",
-                "strID": 70051,
-                "questID": [
-                    153
-                ],
-                "scenes": [
-                    {
-                        "name": "協会からの挑戦状 1/2",
-                        "strID": 17057,
-                        "infostrID": 3124,
-                        "avgID": 22021
-                    },
-                    {
-                        "name": "協会からの挑戦状 2/2",
-                        "strID": 17058,
-                        "infostrID": 3124,
-                        "avgID": 12024
-                    }
-                ]
-            },
-            {
-                "name": "カプア特急便のお礼",
-                "strID": 70076,
-                "questID": [
-                    154
-                ],
-                "scenes": [
-                    {
-                        "name": "カプア特急便のお礼 1/3",
-                        "strID": 17059,
-                        "infostrID": 3169,
-                        "avgID": 12025
-                    },
-                    {
-                        "name": "カプア特急便のお礼 2/3",
-                        "strID": 17060,
-                        "infostrID": 3116,
-                        "avgID": 12026
-                    },
-                    {
-                        "name": "カプア特急便のお礼 3/3",
-                        "strID": 17061,
-                        "infostrID": 3169,
-                        "avgID": 12027
-                    }
-                ]
-            },
-            {
                 "name": "クロスベル試験班",
                 "strID": 60126,
                 "questID": [
@@ -563,6 +515,54 @@
                         "strID": 17046,
                         "infostrID": 3124,
                         "avgID": 10135
+                    }
+                ]
+            },
+            {
+                "name": "協会からの挑戦状",
+                "strID": 70051,
+                "questID": [
+                    153
+                ],
+                "scenes": [
+                    {
+                        "name": "協会からの挑戦状 1/2",
+                        "strID": 17057,
+                        "infostrID": 3124,
+                        "avgID": 22021
+                    },
+                    {
+                        "name": "協会からの挑戦状 2/2",
+                        "strID": 17058,
+                        "infostrID": 3124,
+                        "avgID": 12024
+                    }
+                ]
+            },
+            {
+                "name": "カプア特急便のお礼",
+                "strID": 70076,
+                "questID": [
+                    154
+                ],
+                "scenes": [
+                    {
+                        "name": "カプア特急便のお礼 1/3",
+                        "strID": 17059,
+                        "infostrID": 3169,
+                        "avgID": 12025
+                    },
+                    {
+                        "name": "カプア特急便のお礼 2/3",
+                        "strID": 17060,
+                        "infostrID": 3116,
+                        "avgID": 12026
+                    },
+                    {
+                        "name": "カプア特急便のお礼 3/3",
+                        "strID": 17061,
+                        "infostrID": 3169,
+                        "avgID": 12027
                     }
                 ]
             },
