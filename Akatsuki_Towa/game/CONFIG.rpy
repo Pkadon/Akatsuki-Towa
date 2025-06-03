@@ -5,6 +5,14 @@
 ### title, and shows up in the interface and error reports.
 define config.name = ("Akatsuki_Towa")
 
+######################
+# Build Name
+######################
+## A short name for the game used for executables and directories in the built
+## distribution. This must be ASCII-only, and must not contain spaces, colons,
+## or semicolons.
+define build.name = "Akatsuki_Towa"
+
 #################################################
 # Make sure to credit yourself!
 #################################################

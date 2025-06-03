@@ -13,13 +13,6 @@ define gui.show_name = False
 define config.version = "2.3"
 
 
-## A short name for the game used for executables and directories in the built
-## distribution. This must be ASCII-only, and must not contain spaces, colons,
-## or semicolons.
-
-define build.name = "Akatsuki_Towa"
-
-
 ## Sounds and music ############################################################
 
 ## These three variables control, among other things, which mixers are shown
