@@ -319,7 +319,7 @@ screen navigation():
         if main_menu:
              
             textbutton _("Scene Select"):
-                action ShowMenu("episodelist", menudata)
+                action ShowMenu("episodelist")
 
         else:
             textbutton _("Main Menu"):

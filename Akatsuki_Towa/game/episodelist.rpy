@@ -5,7 +5,7 @@ init python:
         else:
             return str(key)
 
-screen episodelist(data):
+screen episodelist():
     default chaptername = ''
     default questname = ''
     window:
@@ -40,7 +40,7 @@ screen episodelist(data):
             xsize 746
             draggable True
             scrollbars "horizontal"
-            for chapter in data:
+            for chapter in menudata:
                 vbox:
                     button:
                         xysize (tabwidth,37)
