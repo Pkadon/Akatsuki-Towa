@@ -104,29 +104,31 @@ screen quest(data):
                             align (0.5,1.0)
                             size 25
                         action ShowMenu("questlog", log)
-        viewport:
+
+        vbox:
             xpos 119
             xsize 720
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
-            vscrollbar_unscrollable "hide"
-            vbox:
-                xsize 700
-                button:
-                    xysize (tabwidth,37)
-                    xalign 0.5
-                    background Frame("booktab2")
-                    bottom_padding 4
+            button:
+                xysize (tabwidth,37)
+                xanchor 0.5
+                xpos 350
+                background Frame("booktab2")
+                bottom_padding 4
 
-                    python:
-                        questname = convertstrid(data['questname'])
-                        if data['add']: questname += data['add']
+                python:
+                    questname = convertstrid(data['questname'])
+                    if data['add']: questname += data['add']
 
-                    text questname:
-                        xalign (0.5)
-                        ypos -2
-                        size tabtextsize
+                text questname:
+                    xalign (0.5)
+                    ypos -2
+                    size tabtextsize
+            viewport:
+                xsize 720
+                draggable True
+                mousewheel True
+                scrollbars "vertical"
+                vscrollbar_unscrollable "hide"
 
                 $rows = -(len(data['scenes']) // -2)
                 grid 2 rows:
