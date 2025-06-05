@@ -34,46 +34,46 @@ screen episodelist(data):
                 align (0.5, 1.0)
                 size 25
             action Replay("spritetest", locked=False)
-        viewport:
+        vpgrid:
+            rows 1
             xpos 94
-            xsize 740
+            xsize 746
             draggable True
             scrollbars "horizontal"
-            hbox:
-                for chapter in data:
-                    vbox:
-                        button:
-                            xysize (tabwidth,37)
-                            xpos 2
-                            background Frame("booktab1")
-                            bottom_padding 4
-                            $chaptername = convertstrid(chapter['chaptername'])
-                            text chaptername:
-                                xalign (0.5)
-                                ypos -2
-                                size tabtextsize
-                        viewport:
-                            xsize (tabwidth+25)
-                            ysize 0.96
-                            draggable True
-                            mousewheel True
-                            scrollbars "vertical"
-                            vscrollbar_unscrollable "hide"
-                            vbox:
-                                for quest in chapter['quests']:
-                                    button:
-                                        xysize (tabwidth,37)
-                                        background Frame("booktab2")
-                                        bottom_padding 4
-                                        action ShowMenu("quest", quest)
+            for chapter in data:
+                vbox:
+                    button:
+                        xysize (tabwidth,37)
+                        xpos 2
+                        background Frame("booktab1")
+                        bottom_padding 4
+                        $chaptername = convertstrid(chapter['chaptername'])
+                        text chaptername:
+                            xalign (0.5)
+                            ypos -2
+                            size tabtextsize
+                    vpgrid:
+                        cols 1
+                        xsize (tabwidth+25)
+                        draggable True
+                        mousewheel True
+                        scrollbars "vertical"
+                        vscrollbar_unscrollable "hide"
+                        for quest in chapter['quests']:
+                            button:
+                                xysize (tabwidth,37)
+                                background Frame("booktab2")
+                                bottom_padding 4
+                                action ShowMenu("quest", quest)
 
-                                        python:
-                                            questname = convertstrid(quest['questname'])
-                                            if quest['add']: questname += quest['add']
-                                        text questname:
-                                            xalign 0.5
-                                            ypos -2
-                                            size tabtextsize
+                                python:
+                                    questname = convertstrid(quest['questname'])
+                                    if quest['add']: questname += quest['add']
+
+                                text questname:
+                                    xalign 0.5
+                                    ypos -2
+                                    size tabtextsize
 
 screen quest(data):
     modal True
