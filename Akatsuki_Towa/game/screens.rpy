@@ -982,7 +982,7 @@ style history_name:
 style history_name_text:
     min_width gui.history_name_width
     textalign gui.history_name_xalign
-    font "font/NotoSansJP-VariableFont_wght.ttf"
+    font "font/NotoSansJP-Regular.ttf"
     
 
 style history_text:
@@ -993,7 +993,7 @@ style history_text:
     min_width gui.history_text_width
     textalign gui.history_text_xalign
     layout ("subtitle" if gui.history_text_xalign else "tex")
-    font "font/NotoSansJP-VariableFont_wght.ttf"
+    font "font/NotoSansJP-Regular.ttf"
 
 style history_label:
     xfill True
