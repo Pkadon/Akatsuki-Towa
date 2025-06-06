@@ -37,6 +37,8 @@ image bookpage:
 image altbutton:
     Crop((635,340,322,51), "atlas_JournalBeta.png")
      
-    
+###Quick Menu (Mobile Ver) ###################################
+image quickbutton:
+    Crop((41,62,60,48), "atlas_JournalBeta.png")
     
 return

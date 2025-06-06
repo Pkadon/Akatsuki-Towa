@@ -63,6 +63,7 @@ init python early:
 #################################
 ### Text size for all choice menu buttons:
     choicetextsize = 18
+    choicetextsizelarge = 25 # used with "small" screen variant
 
 #=======================================================================================
 #===================================TRANSLATION=========================================
@@ -188,6 +189,15 @@ init python early:
     logclient = "【依頼人】"
     logdetails = "【内容】"
     logbullet = "●"
+
+#Quick Menu
+#==========================================
+### The buttons at the bottom of the screen during cutscenes (top of screen on mobile)
+### (they're kind of camouflaged on PC, but are much more prominent on mobile (touch) variants)
+    quickmenutext = "Menu" # Not included in PC
+    quickskiptext = "Skip"
+    quickautotext = "Auto"
+    quickhistorytext = "History" # Not included in mobile
 
 #Menu Strings
 #Almost all other text used throughout the menus, that could not be sourced from the original script file

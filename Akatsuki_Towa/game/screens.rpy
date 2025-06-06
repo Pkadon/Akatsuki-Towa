@@ -227,7 +227,7 @@ screen choice(items):
                 text i.caption:
                     xpos -55
                     yalign 0.5
-                    size choicetextsize
+                    size (choicetextsize if not renpy.variant('small') else choicetextsizelarge)
                     color "#FFFFFF"
                     outlines [ (0, "#262525", absolute(2), absolute(1)) ]
                 hovered Play("sound", "common_tag.ogg")
@@ -271,14 +271,9 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            textbutton quickhistorytext action ShowMenu('history')
+            textbutton quickskiptext action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton quickautotext action Preference("auto-forward", "toggle")
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -1553,20 +1548,41 @@ screen quick_menu():
     if quick_menu:
 
         hbox:
-            style_prefix "quick"
+            yalign 0
+            xalign 0.0
 
-            xalign 0.5
-            yalign 1.0
+            button:
+                background Frame("quickbutton", 22, 22)
+                xysize (90, 50)
+                text quickmenutext:
+                    align (0.5, 0.45)
+                    size 30
+                    color "#FFFFFF"
+                action [Play("sound", "common_tag_2.ogg"), ShowMenu()]
 
-            textbutton _("Back") action Rollback()
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Menu") action ShowMenu()
+        hbox:
+            yalign 0
+            xalign 1.0
 
+            button:
+                background Frame("quickbutton", 22, 22)
+                xysize (90, 50)
+                text quickskiptext:
+                    align (0.5, 0.45)
+                    size 30
+                    color "#FFFFFF"
+                action [Play("sound", "common_tag_2.ogg"), Skip()] 
+                alternate Skip(fast=True, confirm=True)
 
-style window:
-    variant "small"
-    background Frame("dialoguewindow", 25, 25)
+            button:
+                background Frame("quickbutton", 22, 22)
+                xysize (90, 50)
+                text quickautotext:
+                    align (0.5, 0.45)
+                    size 30
+                    color "#FFFFFF"
+                action [Play("sound", "common_tag_2.ogg"), Preference("auto-forward", "toggle")]
+
 
 style radio_button:
     variant "small"

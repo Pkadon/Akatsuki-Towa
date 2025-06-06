@@ -136,7 +136,7 @@ define gui.dialogue_xpos = 20
 define gui.dialogue_ypos = 25
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 489
+define gui.dialogue_width = 475
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -435,17 +435,16 @@ init python:
 
         ## Font sizes.
         gui.text_size = 20
-        gui.name_text_size = 24
+        gui.name_text_size = 25
         gui.notify_text_size = 17
         gui.interface_text_size = 20
         gui.button_text_size = 20
         gui.label_text_size = 23
 
         ## Adjust the location of the textbox.
-        gui.textbox_height = 158
-        gui.name_xpos = 53
-        gui.dialogue_xpos = 60
-        gui.dialogue_width = 722
+        gui.textbox_height = 130
+        gui.dialogue_xpos = 20
+        gui.dialogue_width = 475
 
         ## Change the size and spacing of various things.
         gui.slider_size = 24
