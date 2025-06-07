@@ -226,13 +226,30 @@ init python early:
 
 # Quick Menu
 #==========================================
-### The buttons at the bottom of the screen during cutscenes (top of screen on mobile)
-### (they're kind of camouflaged on PC, but are much more prominent on mobile (touch) variants)
-    quickmenutext = "Menu" # Not included in PC
-    quickskiptext = "Skip"
-    quickautotext = "Auto"
-    quickhistorytext = "History" # Not included in mobile
+# The buttons at the bottom of the screen during cutscenes (top of screen on mobile)
+# (they're kind of camouflaged on PC, but are much more prominent on mobile (touch) variants)
 
+### The text size used for all quick menu buttons (touch variants only)
+    quick_button_text_size = 30
+### The height of all quick menu buttons (touch variants only)
+    quick_button_height = 50
+
+### The button that opens the menu during cutscenes (Not currently included in PC variants)
+    quickmenutext = "Menu"
+    quickmenubutton_width = 110
+
+### The button that toggles the "Skip" feature
+    quickskiptext = "Skip"
+    quickskipbutton_width = 90
+
+### The button that toggles the "Auto" feature
+    quickautotext = "Auto"
+    quickautobutton_width = 90
+
+### The button that opens the dialogue history (Not currently included in touch variants)
+    quickhistorytext = "History"
+
+#==========================================================================================
 # Menu Strings
 # Almost all other text used throughout the menus, that could not be sourced from the original script file
     extextdict = {

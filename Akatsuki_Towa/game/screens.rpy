@@ -1550,10 +1550,11 @@ screen quick_menu():
 
             button:
                 background Frame("quickbutton", 22, 22)
-                xysize (90, 50)
+                xysize (quickmenubutton_width, quick_button_height)
                 text quickmenutext:
-                    align (0.5, 0.45)
-                    size 30
+                    xalign 0.5
+                    ypos -1
+                    size quick_button_text_size
                     color "#FFFFFF"
                 action [Play("sound", "common_tag_2.ogg"), ShowMenu()]
 
@@ -1563,20 +1564,22 @@ screen quick_menu():
 
             button:
                 background Frame("quickbutton", 22, 22)
-                xysize (90, 50)
+                xysize (quickskipbutton_width, quick_button_height)
                 text quickskiptext:
-                    align (0.5, 0.45)
-                    size 30
+                    xalign 0.5
+                    ypos -1
+                    size quick_button_text_size
                     color "#FFFFFF"
                 action [Play("sound", "common_tag_2.ogg"), Skip()] 
                 alternate Skip(fast=True, confirm=True)
 
             button:
                 background Frame("quickbutton", 22, 22)
-                xysize (90, 50)
+                xysize (quickautobutton_width, quick_button_height)
                 text quickautotext:
-                    align (0.5, 0.45)
-                    size 30
+                    xalign 0.5
+                    ypos -1
+                    size quick_button_text_size
                     color "#FFFFFF"
                 action [Play("sound", "common_tag_2.ogg"), Preference("auto-forward", "toggle")]
 
