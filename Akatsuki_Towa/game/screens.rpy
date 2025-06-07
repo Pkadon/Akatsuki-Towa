@@ -167,6 +167,7 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
+    line_spacing gui.dialogue_line_spacing
 
     color "#FFFFFF"
     outlines [ (0, "#262525", absolute(2), absolute(1)) ]

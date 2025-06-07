@@ -37,7 +37,34 @@ default preferences.text_cps = 20
 
 init python early:
 #################################################################
-#Silver and gold "booktab" buttons used in all Scene Select menus
+# Dialogue Window
+#################################################################
+### The size of normal dialogue text.
+    gui.text_size = 20 # Normal
+    small_text_size = 23 # For "small" screen variants
+
+### The placement of dialogue relative to the textbox. These can be a whole number
+### of pixels relative to the left or top side of the textbox.
+    gui.dialogue_xpos = 20 # Normal
+    small_dialogue_xpos = 20 # For "small" screen variants
+
+    gui.dialogue_ypos = 25 # Normal
+    small_dialogue_ypos = 25 # For "small" screen variants
+
+### The number of padding pixels inbetween lines of dialogue
+    gui.dialogue_line_spacing = 0 # Normal
+    small_dialogue_line_spacing = -5 # For "small" screen variants
+
+### The size of character speaker names.
+    gui.name_text_size = 22 # Normal
+    small_name_text_size = 25 # For "small" screen variants
+
+### The dialogue box's height (starting from the bottom)
+    gui.textbox_height = 113 # Normal
+    small_textbox_height = 113 # For "small" screen variants
+
+#################################################################
+# Silver and gold "booktab" buttons used in all Scene Select menus
 #################################################################
 ### Width of all silver and gold buttons (in pixels):
     tabwidth = 330
@@ -45,7 +72,7 @@ init python early:
     tabtextsize = 20
 
 ####################################################
-#"bookpage" buttons that play cutscenes when clicked
+# "bookpage" buttons that play cutscenes when clicked
 ####################################################
 ### Height of all book page buttons (in pixels):
     pageheight = 80
@@ -53,13 +80,13 @@ init python early:
     pagetextsize = 18
 
 ################################################################
-#The questlog window that appears when you click a "Log" button
+# The questlog window that appears when you click a "Log" button
 ################################################################
 ### Text size for all questlogs:
     logtextsize = 16
 
 #################################
-#Choice Menu
+# Choice Menu
 #################################
 ### Text size for all choice menu buttons:
     choicetextsize = 18
@@ -163,11 +190,11 @@ init python early:
     namekey = "_roleName"
 
 
-##############
-#EXTRA STRINGS
-##############
+###############
+# EXTRA STRINGS
+###############
 
-#Menu Buttons
+# Menu Buttons
 #==========================================
 ### Back button text
     backtext = "Back"
@@ -178,7 +205,7 @@ init python early:
 ### Log button text
     logtext = "Log"
 
-#Quest Log
+# Quest Log
 #==========================================
 ### The tags put before the quest name to denote whether is is a main quest or a side quest
     logmain = "【メイン】"
@@ -190,7 +217,7 @@ init python early:
     logdetails = "【内容】"
     logbullet = "●"
 
-#Quick Menu
+# Quick Menu
 #==========================================
 ### The buttons at the bottom of the screen during cutscenes (top of screen on mobile)
 ### (they're kind of camouflaged on PC, but are much more prominent on mobile (touch) variants)
@@ -199,8 +226,8 @@ init python early:
     quickautotext = "Auto"
     quickhistorytext = "History" # Not included in mobile
 
-#Menu Strings
-#Almost all other text used throughout the menus, that could not be sourced from the original script file
+# Menu Strings
+# Almost all other text used throughout the menus, that could not be sourced from the original script file
     extextdict = {
     "ex_1": "Optional Dialogue",
     "ex_2": "Extra Dialogue",

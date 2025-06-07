@@ -65,12 +65,6 @@ define gui.name_text_font = "font/NotoSansJP-Regular.ttf"
 ## The font used for out-of-game text.
 define gui.interface_text_font = "font/NotoSansJP-Regular.ttf"
 
-## The size of normal dialogue text.
-define gui.text_size = 20
-
-## The size of character names.
-define gui.name_text_size = 22
-
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 15
 
@@ -98,13 +92,9 @@ define gui.game_menu_background = "gui/game_menu.png"
 ## These variables control how dialogue is displayed on the screen one line at a
 ## time.
 
-## The height of the textbox containing dialogue.
-define gui.textbox_height = 113
-
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
 define gui.textbox_yalign = 1.0
-
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
@@ -114,7 +104,6 @@ define gui.name_ypos = -20
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
 define gui.name_xalign = 0.5
-
 
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
@@ -128,12 +117,6 @@ define gui.namebox_borders = Borders(25, -1, 25, 5)
 ## If True, the background of the namebox will be tiled, if False, the
 ## background of the namebox will be scaled.
 define gui.namebox_tile = False
-
-## The placement of dialogue relative to the textbox. These can be a whole
-## number of pixels relative to the left or top side of the textbox, or 0.5 to
-## center.
-define gui.dialogue_xpos = 20
-define gui.dialogue_ypos = 25
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 475
@@ -434,17 +417,18 @@ init python:
     def small():
 
         ## Font sizes.
-        gui.text_size = 20
-        gui.name_text_size = 25
+        gui.text_size = small_text_size
+        gui.name_text_size = small_name_text_size
         gui.notify_text_size = 17
         gui.interface_text_size = 20
         gui.button_text_size = 20
         gui.label_text_size = 23
 
         ## Adjust the location of the textbox.
-        gui.textbox_height = 130
-        gui.dialogue_xpos = 20
-        gui.dialogue_width = 475
+        gui.textbox_height = small_textbox_height
+        gui.dialogue_line_spacing = small_dialogue_line_spacing
+        gui.dialogue_xpos = small_dialogue_xpos
+        gui.dialogue_ypos = small_dialogue_ypos
 
         ## Change the size and spacing of various things.
         gui.slider_size = 24
@@ -463,19 +447,3 @@ init python:
         ## File button layout.
         gui.file_slot_cols = 2
         gui.file_slot_rows = 2
-
-        ## NVL-mode.
-        gui.nvl_height = 112
-
-        gui.nvl_name_width = 201
-        gui.nvl_name_xpos = 214
-
-        gui.nvl_text_width = 601
-        gui.nvl_text_xpos = 227
-        gui.nvl_text_ypos = 4
-
-        gui.nvl_thought_width = 814
-        gui.nvl_thought_xpos = 14
-
-        gui.nvl_button_width = 814
-        gui.nvl_button_xpos = 14
