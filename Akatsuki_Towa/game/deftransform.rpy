@@ -52,14 +52,14 @@ transform rightside(charpos):
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
     xpos (680 + charpos)
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 transform leftside(charpos):
     xanchor 0.5
     xzoom -1.0
     matrixcolor TintMatrix("#fff")
     xpos (160 - charpos)
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 ###doesn't seem like xoffset is taken into account for center placement
 transform centerpos(charpos):
@@ -67,7 +67,7 @@ transform centerpos(charpos):
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
     xpos 460
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 
 ####################################
@@ -75,7 +75,7 @@ transform centerpos(charpos):
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform rightsidemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -86,7 +86,7 @@ transform rightsidemidback(charpos):
     ease 0.5 xpos (680 + charpos)
 
 transform leftsidemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom -1.0
     matrixcolor TintMatrix("#fff")
@@ -102,7 +102,7 @@ transform leftsidemidback(charpos):
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform rightsideentrance(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -111,7 +111,7 @@ transform rightsideentrance(charpos):
     ease 0.5 xpos (680 + charpos)
 
 transform leftsideentrance(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom -1.0
     matrixcolor TintMatrix("#fff")
@@ -125,7 +125,7 @@ transform leftsideentrance(charpos):
 ###there is ONE scene where entrance and midback are used at the same time
 
 transform rightsideentrancemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -138,7 +138,7 @@ transform rightsideentrancemidback(charpos):
     ease 0.5 xpos (680 + charpos)
 
 transform leftsideentrancemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom -1.0
     matrixcolor TintMatrix("#fff")
@@ -157,7 +157,7 @@ transform leftsideentrancemidback(charpos):
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform rightsideexit(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -166,7 +166,7 @@ transform rightsideexit(charpos):
     ease .5 xpos 1.50
 
 transform leftsideexit(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom -1.0
     matrixcolor TintMatrix("#fff")
@@ -179,7 +179,7 @@ transform leftsideexit(charpos):
 ###there is ONE scene where midback and exit are used at the same time
 
 transform rightsideexitmidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -192,7 +192,7 @@ transform rightsideexitmidback(charpos):
     ease .5 xpos 1.50
 
 transform leftsideexitmidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom -1.0
     matrixcolor TintMatrix("#fff")
@@ -214,14 +214,14 @@ transform darkright(charpos):
     xzoom 1.0
     xpos (680 + charpos)
     matrixcolor TintMatrix("#808080")
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 transform darkleft(charpos): 
     xanchor 0.5
     xzoom -1.0
     xpos (160 - charpos)
     matrixcolor TintMatrix("#808080")
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 
 ####################################
@@ -231,7 +231,7 @@ transform darkleft(charpos):
 #placeholder so it doesn't crash 
 #(these effects shouldn't be used on centerpos hopefully)
 transform centerposentrance(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -239,7 +239,7 @@ transform centerposentrance(charpos):
 
 #placeholder so it doesn't crash
 transform centerposexit(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")
@@ -247,7 +247,7 @@ transform centerposexit(charpos):
 
 #placeholder so it doesn't crash
 transform centerposmidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else 0.9)
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
     xanchor 0.5
     xzoom 1.0
     matrixcolor TintMatrix("#fff")

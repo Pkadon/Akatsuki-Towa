@@ -92,6 +92,13 @@ init python early:
     choicetextsize = 18
     choicetextsizelarge = 25 # used with "small" screen variant
 
+#################################
+# Screen Variant misc.
+#################################
+### With 1.0 as "full size", this sets the size of portraits in renpy "touch" variants (mobile)
+### (mainly to account for the added buttons at the top)
+    touch_portrait_scale = .95
+
 #=======================================================================================
 #===================================TRANSLATION=========================================
 #=======================================================================================
