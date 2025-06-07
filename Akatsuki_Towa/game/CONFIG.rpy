@@ -89,8 +89,8 @@ init python early:
 # Choice Menu
 #################################
 ### Text size for all choice menu buttons:
-    choicetextsize = 18
-    choicetextsizelarge = 25 # used with "small" screen variant
+    gui.choice_button_text_size = 18
+    choice_button_text_size_large = 25 # used with "small" screen variant
 
 #################################
 # Screen Variant misc.

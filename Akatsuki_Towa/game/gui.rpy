@@ -185,22 +185,6 @@ define gui.quick_button_text_selected_color = gui.accent_color
 # define gui.navigation_button_width = 250
 
 
-## Choice Buttons ##############################################################
-##
-## Choice buttons are used in the in-game menus.
-
-define gui.choice_button_width = 519
-define gui.choice_button_height = None
-define gui.choice_button_tile = False
-define gui.choice_button_borders = Borders(66, 4, 66, 4)
-define gui.choice_button_text_font = gui.text_font
-define gui.choice_button_text_size = gui.text_size
-define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = '#707070'
-define gui.choice_button_text_hover_color = "#ffffff"
-define gui.choice_button_text_insensitive_color = '#7070707f'
-
-
 ## File Slot Buttons ###########################################################
 ##
 ## A file slot button is a special kind of button. It contains a thumbnail
@@ -240,9 +224,6 @@ define gui.skip_ypos = 7
 
 ## The vertical position of the notify screen.
 define gui.notify_ypos = 30
-
-## The spacing between menu choices.
-define gui.choice_spacing = 15
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 3
@@ -433,8 +414,7 @@ init python:
         ## Change the size and spacing of various things.
         gui.slider_size = 24
 
-        gui.choice_button_width = 814
-        gui.choice_button_text_size = 20
+        gui.choice_button_text_size = choice_button_text_size_large
 
         gui.navigation_spacing = 14
         gui.pref_button_spacing = 7

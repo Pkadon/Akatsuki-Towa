@@ -226,15 +226,13 @@ screen choice(items):
                 hover_background Frame("choicehover", 25, 25)
                 xysize (750, 65)
                 text i.caption:
-                    xpos -55
+                    xpos 11
                     yalign 0.5
-                    size (choicetextsize if not renpy.variant('small') else choicetextsizelarge)
+                    size gui.choice_button_text_size
                     color "#FFFFFF"
                     outlines [ (0, "#262525", absolute(2), absolute(1)) ]
                 hovered Play("sound", "common_tag.ogg")
                 action [Play("sound", "common_tag_2.ogg"), i.action]
-
-
 
 style choice_vbox is vbox
 style choice_button is button
@@ -242,10 +240,8 @@ style choice_button_text is button_text
 
 style choice_vbox:
     xalign 0.5
-    ypos 178
+    ypos (178 if not renpy.variant('touch') else 188)
     yanchor 0.5
-
-    spacing gui.choice_spacing
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
