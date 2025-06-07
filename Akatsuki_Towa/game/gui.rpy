@@ -385,12 +385,10 @@ define gui.language = "unicode"
 
 init python:
 
-    ## This increases the size of the quick buttons to make them easier to touch
-    ## on tablets and phones.
     @gui.variant
     def touch():
 
-        gui.quick_button_borders = Borders(27, 10, 27, 0)
+        gui.skip_ypos = quick_button_height
 
     ## This changes the size and spacing of various GUI elements to ensure they
     ## are easily visible on phones.
