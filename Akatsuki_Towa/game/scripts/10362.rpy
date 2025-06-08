@@ -91,7 +91,7 @@ hide c4portrait
 hide c1038portrait
 show st038_01 1 as c1038portrait at darkleft(-9), zorder 6
 show oc004_01 12 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1131928]]' (what_size=24)
+c43 '[textdict[1131928]]' (what_size=(gui.text_size*1.2))
 hide c1038portrait
 hide c4portrait
 show oc004_01 12 as c4portrait at darkright(-5), zorder 5
@@ -236,7 +236,7 @@ hide c4portrait
 hide c1039portrait
 show st038_01 5 as c1039portrait at darkleft(-9), zorder 6
 show oc002_01 14 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1131959]]' (what_size=24)
+c23 '[textdict[1131959]]' (what_size=(gui.text_size*1.2))
 hide c1039portrait
 hide c2portrait
 show oc002_01 14 as c2portrait at darkright(-3), zorder 5

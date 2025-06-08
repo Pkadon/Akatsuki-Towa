@@ -485,19 +485,19 @@ hide c1portrait
 hide c3portrait
 show oc003_01 5 as c3portrait at darkright(-6), zorder 5
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1001886]]' (what_size=24) with shake
+c21 '[textdict[1001886]]' (what_size=(gui.text_size*1.2)) with shake
 play sfxvoice "bcv_oc003_atk_03.ogg"
 hide c3portrait
 hide c2portrait
 show oc002_01 9 as c2portrait at darkleft(-3), zorder 6
 show oc003_01 9 as c3portrait at rightside(-6), zorder 5
-c33 '[textdict[1001887]]' (what_size=26) with shake
+c33 '[textdict[1001887]]' (what_size=(gui.text_size*1.3)) with shake
 play sfxvoice "avg_vocal_na11.ogg"
 hide c2portrait
 hide c3portrait
 show oc003_01 9 as c3portrait at darkright(-6), zorder 5
 show oc001_01 9 as c1portrait at leftside(-2), zorder 5
-c11 '[textdict[1001888]]' (what_size=28) with shake
+c11 '[textdict[1001888]]' (what_size=(gui.text_size*1.4)) with shake
 hide c1portrait
 hide c3portrait
 show st005_01 2 as c205portrait at leftside(4), zorder 5

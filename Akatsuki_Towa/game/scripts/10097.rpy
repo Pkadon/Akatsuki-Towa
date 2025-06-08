@@ -157,7 +157,7 @@ hide c2portrait
 hide c4portrait
 show oc004_01 7 as c4portrait at darkright(-5), zorder 5
 show oc001_01 2 as c1portrait at leftside(-2), zorder 5
-c11 '[textdict[1005536]]' (what_size=16)
+c11 '[textdict[1005536]]' (what_size=(gui.text_size*0.8))
 menu:
     extend ""
     "[textdict[1005537]]":

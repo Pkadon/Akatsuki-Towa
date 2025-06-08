@@ -65,13 +65,13 @@ hide c1portrait
 hide c56portrait
 show sc049_01 4 as c56portrait at darkleft(-8), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[2110264]]' (what_size=25)
+c13 '[textdict[2110264]]' (what_size=(gui.text_size*1.25))
 stop music
 play sfx2 "other_7038.ogg"
 hide c56portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
-c27101 '[textdict[2110265]]' (what_size=25) with shake
+c27101 '[textdict[2110265]]' (what_size=(gui.text_size*1.25)) with shake
 stop music
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
@@ -479,7 +479,7 @@ show oca02_01 2 as c2702portrait at leftside(-3), zorder 5
 c27021 '[textdict[2110354]]'
 hide c2702portrait
 show oca02_01 2 as c2702portrait at darkleft(-3), zorder 6
-c13 '[textdict[2110355]]' (what_size=25) with shake
+c13 '[textdict[2110355]]' (what_size=(gui.text_size*1.25)) with shake
 hide c2702portrait
 show oca02_01 2 as c2702portrait at leftside(-3), zorder 5
 c27021 '[textdict[2110356]]'

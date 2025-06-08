@@ -683,7 +683,7 @@ c26831 '[textdict[2108431]]'
 show memoryoverlay zorder 2
 hide c39portrait
 show sc031_01 3 as c39portrait at rightside(-14), zorder 5
-c393 '[textdict[2108432]]' (what_size=25)
+c393 '[textdict[2108432]]' (what_size=(gui.text_size*1.25))
 stop music
 scene avg_bg_034
 hide memoryoverlay

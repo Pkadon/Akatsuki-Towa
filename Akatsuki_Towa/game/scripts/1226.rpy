@@ -18,7 +18,7 @@ c27013 '[textdict[2110870]]'
 hide c2701portrait
 c0 '[textdict[2110871]]'
 show oca01_01 9 as c2701portrait at rightsidemidback(-2), zorder 5
-c27013 '[textdict[2110872]]' (what_size=25)
+c27013 '[textdict[2110872]]' (what_size=(gui.text_size*1.25))
 hide c2701portrait
 c0 '[textdict[2110873]]'
 c27151 '[textdict[2110874]]'
@@ -111,7 +111,7 @@ c27021 '[textdict[2110898]]'
 hide c2702portrait
 hide c2701portrait
 show oca01_01 20 as c2701portrait at darkright(-2), zorder 5
-c6211 '[textdict[2110899]]' (what_size=23) with shake
+c6211 '[textdict[2110899]]' (what_size=(gui.text_size*1.15)) with shake
 hide c2701portrait
 show oca01_01 20 as c2701portrait at darkright(-2), zorder 5
 c27151 '[textdict[2110900]]'
@@ -120,10 +120,10 @@ show oca01_01 14 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110901]]'
 hide c2701portrait
 show oca01_01 14 as c2701portrait at darkright(-2), zorder 5
-c6211 '[textdict[2110902]]' (what_size=23) with shake
+c6211 '[textdict[2110902]]' (what_size=(gui.text_size*1.15)) with shake
 hide c2701portrait
 show oca01_01 14 as c2701portrait at darkright(-2), zorder 5
-c6211 '[textdict[2110903]]' (what_size=23) with shake
+c6211 '[textdict[2110903]]' (what_size=(gui.text_size*1.15)) with shake
 hide c2701portrait
 show oca01_01 14 as c2701portrait at darkright(-2), zorder 5
 show sca44_01 4 as c2705portrait at leftside(-7), shakeleft, zorder 5
@@ -139,7 +139,7 @@ hide c2701portrait
 hide c2705portrait
 show sca44_01 4 as c2705portrait at darkleft(-7), zorder 6
 show oca01_01 9 as c2701portrait at rightside(-2), zorder 5
-c27013 '[textdict[2110906]]' (what_size=25) with shake
+c27013 '[textdict[2110906]]' (what_size=(gui.text_size*1.25)) with shake
 scene avg_bg_079
 show memoryoverlay zorder 2
 with fade

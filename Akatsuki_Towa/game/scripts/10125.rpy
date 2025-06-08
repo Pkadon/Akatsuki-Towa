@@ -29,7 +29,7 @@ hide c2portrait
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
 show st000_01 4 as c504portrait at leftside(-9), shakeleft, zorder 5
-c5041 '[textdict[1000311]]' (what_size=22)
+c5041 '[textdict[1000311]]' (what_size=(gui.text_size*1.1))
 hide c1portrait
 hide c504portrait
 show st000_01 4 as c504portrait at darkleft(-9), zorder 6
@@ -104,12 +104,12 @@ c5073 '[textdict[1000326]]'
 hide c507portrait
 show uc003_01 4 as c507portrait at darkright(-26), zorder 5
 show st001_01 3 as c201portrait at leftside(-15), zorder 5
-c2011 '[textdict[1000327]]' (what_size=24) with shake
+c2011 '[textdict[1000327]]' (what_size=(gui.text_size*1.2)) with shake
 hide c201portrait
 hide c507portrait
 show st000_01 3 as c504portrait at leftside(-9), zorder 5
 with fade
-c5041 '[textdict[1000328]]' (what_size=24)
+c5041 '[textdict[1000328]]' (what_size=(gui.text_size*1.2))
 play sfxvoice "avg_vocal_na07.ogg"
 hide c504portrait
 show st000_01 3 as c504portrait at darkleft(-9), zorder 6
@@ -153,7 +153,7 @@ hide c1portrait
 hide c507portrait
 show uc003_01 2 as c507portrait at darkleft(-26), zorder 6
 show oc002_01 9 as c2portrait at rightsidemidback(-3), zorder 5
-c23 '[textdict[1000338]]' (what_size=24)
+c23 '[textdict[1000338]]' (what_size=(gui.text_size*1.2))
 play sfx2 "fight_6019.ogg"
 play sfxvoice "bcv_oc001_atk_02.ogg"
 hide c2portrait

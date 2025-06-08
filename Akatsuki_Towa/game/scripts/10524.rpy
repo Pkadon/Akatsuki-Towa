@@ -8,7 +8,7 @@ c0 '[textdict[1152103]]'
 c0 '[textdict[1152104]]'
 c0 '[textdict[1152105]]'
 c12301 '[textdict[1152106]]'
-c12293 '[textdict[1152107]]' (what_size=24) with shake
+c12293 '[textdict[1152107]]' (what_size=(gui.text_size*1.2)) with shake
 c12301 '[textdict[1152108]]'
 show oc004_01 4 as c4portrait at rightsideentrance(-5), zorder 5
 c43 '[textdict[1152109]]'

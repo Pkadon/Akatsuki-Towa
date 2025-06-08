@@ -118,7 +118,7 @@ show oc004_01 17 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1130350]]'
 hide c4portrait
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1130351]]' (what_size=32) with shake
+c43 '[textdict[1130351]]' (what_size=(gui.text_size*1.6)) with shake
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
 c10091 '[textdict[1130352]]'
@@ -213,7 +213,7 @@ hide c60portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show sc052_01 2 as c59portrait at leftside(-25), shakeleft, zorder 5
-c591 '[textdict[1130377]]' (what_size=24)
+c591 '[textdict[1130377]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 hide c59portrait
 show sc052_01 2 as c59portrait at darkleft(-25), zorder 6

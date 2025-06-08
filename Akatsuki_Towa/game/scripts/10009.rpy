@@ -70,7 +70,7 @@ c13 '[textdict[1000759]]'
 scene avg_bg_075
 with fade
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1000774]]' (what_size=24) with shake
+c21 '[textdict[1000774]]' (what_size=(gui.text_size*1.2)) with shake
 hide c2portrait
 show oc002_01 9 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), shakeright, zorder 5

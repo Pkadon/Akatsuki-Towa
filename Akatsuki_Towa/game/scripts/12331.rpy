@@ -117,7 +117,7 @@ show oc004_01 17 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133404]]'
 hide c4portrait
 show oc004_01 5 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1133405]]' (what_size=28) with shake
+c43 '[textdict[1133405]]' (what_size=(gui.text_size*1.4)) with shake
 hide c4portrait
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
@@ -142,7 +142,7 @@ c6451 '[textdict[1133410]]'
 c10881 '[textdict[1133411]]'
 play sfx2 "other_7087.ogg"
 show oc004_01 16 as c4portrait at rightside(-5), shakeright, zorder 5
-c43 '[textdict[1133412]]' (what_size=24)
+c43 '[textdict[1133412]]' (what_size=(gui.text_size*1.2))
 hide c4portrait
 show oc004_01 8 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133413]]'
@@ -167,10 +167,10 @@ c10061 '[textdict[1133419]]'
 hide c4portrait
 show oc003_01 21 as c3portrait at rightside(-6), zorder 5
 with fade
-c33 '[textdict[1133420]]' (what_size=18)
+c33 '[textdict[1133420]]' (what_size=(gui.text_size*0.9))
 hide c3portrait
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1133421]]' (what_size=18)
+c13 '[textdict[1133421]]' (what_size=(gui.text_size*0.9))
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show oc002_01 16 as c2portrait at leftside(-3), zorder 5

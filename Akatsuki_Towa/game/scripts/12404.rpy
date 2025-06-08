@@ -8,7 +8,7 @@ show oc001_01 11 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1142419]]'
 hide c1portrait
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1142420]]' (what_size=24)
+c13 '[textdict[1142420]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 c11373 '[textdict[1142421]]'
 play sfx2 "other_7086.ogg"
@@ -92,7 +92,7 @@ hide c1portrait
 hide c4portrait
 show oc004_01 7 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 7 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1142443]]' (what_size=18)
+c13 '[textdict[1142443]]' (what_size=(gui.text_size*0.9))
 hide c4portrait
 hide c1portrait
 with fade

@@ -381,7 +381,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if contentSize <= 16 and template == 1: pass
 				#the files in noresizelist don't have template set to 1, but still need to be filtered
 				elif fname in noresizelist: pass
-				else: say+= f' (what_size={contentSize})'
+				
+				#try to turn the "hard-coded" text size into a multiplier to make it work with different base sizes
+				else: say+= f' (what_size=(gui.text_size*{contentSize/20}))'
 
 			#then shake can be added if needed
 			if effect == 1: say+=' with shake'

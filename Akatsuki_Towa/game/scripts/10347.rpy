@@ -51,7 +51,7 @@ hide c1portrait
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
 show oc004_01 19 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1131290]]' (what_size=24)
+c43 '[textdict[1131290]]' (what_size=(gui.text_size*1.2))
 hide c1004portrait
 hide c4portrait
 show oc004_01 19 as c4portrait at darkright(-5), zorder 5
@@ -84,11 +84,11 @@ hide c3portrait
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
 show oc001_01 20 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1131296]]' (what_size=28) with shake
+c13 '[textdict[1131296]]' (what_size=(gui.text_size*1.4)) with shake
 hide c1004portrait
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
-c10201 '[textdict[1131297]]' (what_size=28)
+c10201 '[textdict[1131297]]' (what_size=(gui.text_size*1.4))
 hide c1portrait
 show oc001_01 20 as c1portrait at darkright(-2), zorder 5
 show st037_01 2 as c236portrait at leftside(-10), zorder 5
@@ -148,9 +148,9 @@ c43 '[textdict[1131307]]'
 hide c1004portrait
 hide c4portrait
 show oc004_01 3 as c4portrait at darkright(-5), zorder 5
-c10211 '[textdict[1131308]]' (what_size=24)
+c10211 '[textdict[1131308]]' (what_size=(gui.text_size*1.2))
 hide c4portrait
-c0 '[textdict[1131309]]' (what_size=28)
+c0 '[textdict[1131309]]' (what_size=(gui.text_size*1.4))
 play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1131310]]'
@@ -191,7 +191,7 @@ play sfxvoice "bcv_oc002_die_01.ogg"
 hide c4portrait
 show oc004_01 3 as c4portrait at darkright(-5), zorder 5
 show oc002_01 16 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1131317]]' (what_size=28)
+c21 '[textdict[1131317]]' (what_size=(gui.text_size*1.4))
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 hide c4portrait
 hide c2portrait
@@ -215,7 +215,7 @@ hide c4portrait
 hide c3portrait
 show oc003_01 2 as c3portrait at darkright(-6), zorder 5
 show oc004_01 20 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1131321]]' (what_size=24)
+c41 '[textdict[1131321]]' (what_size=(gui.text_size*1.2))
 play sfxvoice "avg_vocal_ro18.ogg"
 hide c3portrait
 hide c4portrait
@@ -303,17 +303,17 @@ hide c4portrait
 hide c3portrait
 show oc003_01 9 as c3portrait at darkright(-6), zorder 5
 show oc002_01 4 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1131336]]' (what_size=24)
+c21 '[textdict[1131336]]' (what_size=(gui.text_size*1.2))
 play sfxvoice "avg_vocal_na06.ogg"
 hide c3portrait
 hide c2portrait
 show oc002_01 4 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 4 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1131337]]' (what_size=28)
+c13 '[textdict[1131337]]' (what_size=(gui.text_size*1.4))
 play sfxvoice "avg_vocal_ro19.ogg"
 hide c1portrait
 hide c2portrait
 show oc002_01 4 as c2portrait at darkleft(-3), zorder 6
 show oc003_01 4 as c3portrait at rightside(-6), zorder 5
-c33 '[textdict[1131338]]' (what_size=36)
+c33 '[textdict[1131338]]' (what_size=(gui.text_size*1.8))
 return

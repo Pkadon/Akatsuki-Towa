@@ -112,13 +112,13 @@ play music "ed7511.ogg"
 play sfx2 "other_7066.ogg"
 hide c1portrait
 show oc001_01 8 as c1portrait at darkright(-2), zorder 5
-c5691 '[textdict[1128536]]' (what_size=24) with shake
+c5691 '[textdict[1128536]]' (what_size=(gui.text_size*1.2)) with shake
 hide c1portrait
 show oc001_01 9 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1128537]]' (what_size=24)
+c13 '[textdict[1128537]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
-c9651 '[textdict[1128538]]' (what_size=24)
+c9651 '[textdict[1128538]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 show oc001_01 19 as c1portrait at rightside(-2), zorder 5
 c13 '[textdict[1128539]]'
@@ -135,7 +135,7 @@ hide c1portrait
 hide c2portrait
 show oc002_01 9 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1128542]]' (what_size=24)
+c13 '[textdict[1128542]]' (what_size=(gui.text_size*1.2))
 hide c2portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5

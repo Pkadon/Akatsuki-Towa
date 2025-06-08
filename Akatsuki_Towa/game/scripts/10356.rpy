@@ -33,7 +33,7 @@ with fade
 c10301 '[textdict[1131666]]'
 c10313 '[textdict[1131667]]'
 play sfx2 "other_7007.ogg"
-c10301 '[textdict[1131668]]' (what_size=26)
+c10301 '[textdict[1131668]]' (what_size=(gui.text_size*1.3))
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
 c13 '[textdict[1131669]]'

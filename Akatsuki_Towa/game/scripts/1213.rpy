@@ -266,7 +266,7 @@ hide c222portrait
 hide c1portrait
 show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 show st023_01 4 as c222portrait at leftside(-12), shakeleft, zorder 5
-c2221 '[textdict[2109442]]' (what_size=24)
+c2221 '[textdict[2109442]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 hide c222portrait
 show st023_01 4 as c222portrait at darkleft(-12), zorder 6

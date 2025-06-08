@@ -104,7 +104,7 @@ c31 '[textdict[1002061]]'
 hide c1portrait
 hide c3portrait
 show oc003_01 1 as c3portrait at darkleft(-6), zorder 6
-c7013 '[textdict[1002062]]' (what_size=24) with shake
+c7013 '[textdict[1002062]]' (what_size=(gui.text_size*1.2)) with shake
 hide c3portrait
 show oc003_01 12 as c3portrait at leftside(-6), shakeleft, zorder 5
 c31 '[textdict[1002063]]'

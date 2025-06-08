@@ -55,7 +55,7 @@ hide c257portrait
 hide c240portrait
 show st041_01 1 as c240portrait at darkright(-1), zorder 5
 show st050_01 5 as c257portrait at leftside(-11), shakeleft, zorder 5
-c2571 '[textdict[1151983]]' (what_size=24)
+c2571 '[textdict[1151983]]' (what_size=(gui.text_size*1.2))
 hide c257portrait
 hide c240portrait
 show st041_01 1 as c240portrait at darkright(-1), zorder 5

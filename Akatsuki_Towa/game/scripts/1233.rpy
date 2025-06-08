@@ -65,10 +65,10 @@ c27391 '[textdict[2111778]]'
 stop music
 hide c2739portrait
 show uc002_03 4 as c2739portrait at leftside(-23), zorder 5
-c27391 '[textdict[2111779]]' (what_size=25) with shake
+c27391 '[textdict[2111779]]' (what_size=(gui.text_size*1.25)) with shake
 stop music
 hide c2739portrait
-c6431 '[textdict[2111780]]' (what_size=25) with shake
+c6431 '[textdict[2111780]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7150.ogg"
 scene avg_bg_038
 with fade
@@ -272,9 +272,9 @@ play sfx2 "other_7052.ogg"
 hide c46portrait
 hide c47portrait
 show sc040_01 2 as c47portrait at darkright(-9), zorder 5
-c461 '[textdict[2111822]]' (what_size=25) with shake
+c461 '[textdict[2111822]]' (what_size=(gui.text_size*1.25)) with shake
 hide c47portrait
-c453 '[textdict[2111823]]' (what_size=25) with shake
+c453 '[textdict[2111823]]' (what_size=(gui.text_size*1.25)) with shake
 show oca00_01 1 as c2731portrait at leftside(-2), zorder 5
 c27311 '[textdict[2111824]]'
 hide c2731portrait

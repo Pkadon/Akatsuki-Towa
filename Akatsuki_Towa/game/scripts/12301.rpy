@@ -164,7 +164,7 @@ hide c2portrait
 hide c4portrait
 show oc004_01 7 as c4portrait at darkright(-5), zorder 5
 show oc003_01 9 as c3portrait at leftside(-6), shakeleft, zorder 5
-c31 '[textdict[1133023]]' (what_size=24)
+c31 '[textdict[1133023]]' (what_size=(gui.text_size*1.2))
 hide c4portrait
 hide c3portrait
 show oc003_01 9 as c3portrait at darkleft(-6), zorder 6
@@ -175,7 +175,7 @@ hide c3portrait
 hide c4portrait
 show oc004_01 23 as c4portrait at darkright(-5), zorder 5
 show oc001_01 9 as c1portrait at leftside(-2), shakeleft, zorder 5
-c11 '[textdict[1133025]]' (what_size=24)
+c11 '[textdict[1133025]]' (what_size=(gui.text_size*1.2))
 play sfxvoice "avg_vocal_li11.ogg"
 hide c4portrait
 hide c1portrait
@@ -192,7 +192,7 @@ hide c1portrait
 hide c4portrait
 show oc004_01 12 as c4portrait at darkright(-5), zorder 5
 show oc001_01 12 as c1portrait at leftside(-2), zorder 5
-c11 '[textdict[1133028]]' (what_size=24)
+c11 '[textdict[1133028]]' (what_size=(gui.text_size*1.2))
 hide c4portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkleft(-2), zorder 6
@@ -218,7 +218,7 @@ play sfxvoice "avg_vocal_ch06.ogg"
 hide c1portrait
 hide c4portrait
 show oc004_01 23 as c4portrait at darkright(-5), zorder 5
-c10811 '[textdict[1133033]]' (what_size=28) with shake
+c10811 '[textdict[1133033]]' (what_size=(gui.text_size*1.4)) with shake
 hide c4portrait
 show oc004_01 8 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1133034]]'

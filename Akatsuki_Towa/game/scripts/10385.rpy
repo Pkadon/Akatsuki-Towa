@@ -5,7 +5,7 @@ play music "ed7518.ogg"
 scene avg_bg_074
 with fade
 play sfx2 "other_7087.ogg"
-c10321 '[textdict[1132333]]' (what_size=24) with shake
+c10321 '[textdict[1132333]]' (what_size=(gui.text_size*1.2)) with shake
 play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as c2portrait at rightsideentrance(-3), zorder 5
 c23 '[textdict[1132334]]'

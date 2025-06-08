@@ -89,7 +89,7 @@ c13 '[textdict[2110072]]'
 stop music
 hide c20portrait
 hide c1portrait
-c0 '[textdict[2110073]]' (what_size=25) with shake
+c0 '[textdict[2110073]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7511.ogg"
 show sc012_01 4 as c20portrait at leftside(-16), shakeleft, zorder 5
 c201 '[textdict[2110074]]'

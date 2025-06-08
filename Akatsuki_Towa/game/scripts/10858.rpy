@@ -115,7 +115,7 @@ c21 '[textdict[1190036]]'
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 14 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1190037]]' (what_size=23) with shake
+c13 '[textdict[1190037]]' (what_size=(gui.text_size*1.15)) with shake
 scene avg_bg_070
 with fade
 play sfx2 "fight_6015.ogg"
@@ -143,7 +143,7 @@ c21 '[textdict[1190053]]'
 c13 '[textdict[1190054]]'
 c21 '[textdict[1190055]]'
 stop music
-c21 '[textdict[1190056]]' (what_size=24) with shake
+c21 '[textdict[1190056]]' (what_size=(gui.text_size*1.2)) with shake
 stop music
 c21 '[textdict[1190057]]'
 play music "ed7523.ogg"
@@ -214,7 +214,7 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "fight_6020.ogg"
-c13 '[textdict[1190111]]' (what_size=25)
+c13 '[textdict[1190111]]' (what_size=(gui.text_size*1.25))
 stop music
 scene avg_bg_204
 with fade

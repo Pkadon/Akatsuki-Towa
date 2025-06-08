@@ -29,7 +29,7 @@ show oc002_01 12 as c2portrait at darkright(-3), zorder 5
 c12521 '[textdict[1203068]]'
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
-c12521 '[textdict[1203069]]' (what_size=24) with shake
+c12521 '[textdict[1203069]]' (what_size=(gui.text_size*1.2)) with shake
 hide c2portrait
 show oc002_01 21 as c2portrait at rightsidemidback(-3), zorder 5
 c23 '[textdict[1203070]]'
@@ -82,7 +82,7 @@ show oc002_01 16 as c2portrait at darkright(-3), zorder 5
 c12521 '[textdict[1203085]]'
 hide c2portrait
 show oc002_01 16 as c2portrait at darkright(-3), zorder 5
-c12521 '[textdict[1203086]]' (what_size=24)
+c12521 '[textdict[1203086]]' (what_size=(gui.text_size*1.2))
 hide c2portrait
 show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5
 c23 '[textdict[1203087]]'

@@ -158,7 +158,7 @@ hide c1portrait
 c0 '[textdict[1131237]]' with shake
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightsideentrance(-2), zorder 5
-c13 '[textdict[1131238]]' (what_size=30)
+c13 '[textdict[1131238]]' (what_size=(gui.text_size*1.5))
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show oc002_01 12 as c2portrait at leftsideentrance(-3), zorder 5

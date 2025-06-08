@@ -47,7 +47,7 @@ c31 '[textdict[1142459]]'
 hide c1portrait
 hide c3portrait
 show oc003_01 6 as c3portrait at darkleft(-6), zorder 6
-c11483 '[textdict[1142460]]' (what_size=24)
+c11483 '[textdict[1142460]]' (what_size=(gui.text_size*1.2))
 hide c3portrait
 show oc003_01 6 as c3portrait at darkleft(-6), zorder 6
 c11373 '[textdict[1142461]]'

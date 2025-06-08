@@ -35,7 +35,7 @@ hide c1portrait
 hide c1004portrait
 show sc046_01 4 as c1004portrait at darkleft(-5), zorder 6
 show oc004_01 3 as c4portrait at rightside(-5), shakeright, zorder 5
-c43 '[textdict[1131290]]' (what_size=24)
+c43 '[textdict[1131290]]' (what_size=(gui.text_size*1.2))
 hide c1004portrait
 hide c4portrait
 show oc004_01 3 as c4portrait at darkright(-5), zorder 5
@@ -66,10 +66,10 @@ c10041 '[textdict[1131295]]' with shake
 hide c1004portrait
 hide c3portrait
 show oc001_01 12 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1131296]]' (what_size=28)
+c13 '[textdict[1131296]]' (what_size=(gui.text_size*1.4))
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
-c10201 '[textdict[1131297]]' (what_size=28)
+c10201 '[textdict[1131297]]' (what_size=(gui.text_size*1.4))
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show st037_01 2 as c236portrait at leftsideentrance(-10), shakeleft, zorder 5
@@ -121,10 +121,10 @@ c43 '[textdict[1131307]]'
 hide c1004portrait
 hide c4portrait
 show oc004_01 3 as c4portrait at darkright(-5), zorder 5
-c10211 '[textdict[1131308]]' (what_size=24)
+c10211 '[textdict[1131308]]' (what_size=(gui.text_size*1.2))
 play sfx2 "other_7088.ogg"
 hide c4portrait
-c0 '[textdict[1131309]]' (what_size=28)
+c0 '[textdict[1131309]]' (what_size=(gui.text_size*1.4))
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1131310]]'
 hide c2portrait
@@ -155,7 +155,7 @@ c10211 '[textdict[1131316]]'
 hide c4portrait
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
 with fade
-c21 '[textdict[1131317]]' (what_size=28)
+c21 '[textdict[1131317]]' (what_size=(gui.text_size*1.4))
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
 show oc001_01 3 as c1portrait at rightside(-2), zorder 5
@@ -174,7 +174,7 @@ hide c4portrait
 hide c3portrait
 show oc003_01 2 as c3portrait at darkright(-6), zorder 5
 show oc004_01 3 as c4portrait at leftsidemidback(-5), zorder 5
-c41 '[textdict[1131321]]' (what_size=24)
+c41 '[textdict[1131321]]' (what_size=(gui.text_size*1.2))
 hide c3portrait
 hide c4portrait
 show oc004_01 3 as c4portrait at darkleft(-5), zorder 6
@@ -248,16 +248,16 @@ hide c3portrait
 hide c4portrait
 show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
 show oc002_01 9 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1131336]]' (what_size=24)
+c23 '[textdict[1131336]]' (what_size=(gui.text_size*1.2))
 hide c2portrait
 hide c4portrait
 show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1131337]]' (what_size=28)
+c13 '[textdict[1131337]]' (what_size=(gui.text_size*1.4))
 play sfx2 "other_7007.ogg"
 hide c4portrait
 hide c1portrait
 show oc001_01 9 as c1portrait at darkright(-2), zorder 5
 show oc003_01 9 as c3portrait at leftside(-6), zorder 5
-c31 '[textdict[1131338]]' (what_size=36) with shake
+c31 '[textdict[1131338]]' (what_size=(gui.text_size*1.8)) with shake
 return

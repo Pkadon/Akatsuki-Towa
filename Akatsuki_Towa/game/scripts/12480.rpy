@@ -24,7 +24,7 @@ show oc006_01 4 as c6portrait at leftside(-5), zorder 5
 c61 '[textdict[1144124]]'
 hide c6portrait
 show oc006_01 3 as c6portrait at leftside(-5), zorder 5
-c61 '[textdict[1144125]]' (what_size=24) with shake
+c61 '[textdict[1144125]]' (what_size=(gui.text_size*1.2)) with shake
 play sfx2 "fight_6025.ogg"
 hide c6portrait
 c0 '[textdict[1144126]]'

@@ -38,7 +38,7 @@ c21 '[textdict[1128048]]'
 play sfxvoice "bcv_oc001_c04_01.ogg"
 hide c2portrait
 show oc001_01 9 as c1portrait at leftside(-2), zorder 5
-c11 '[textdict[1128049]]' (what_size=24) with shake
+c11 '[textdict[1128049]]' (what_size=(gui.text_size*1.2)) with shake
 hide c1portrait
 show oc001_01 9 as c1portrait at darkleft(-2), zorder 6
 c9513 '[textdict[1128050]]'

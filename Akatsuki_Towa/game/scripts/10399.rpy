@@ -193,7 +193,7 @@ stop music
 play sfx2 "other_7007.ogg"
 hide c4portrait
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1132789]]' (what_size=24) with shake
+c43 '[textdict[1132789]]' (what_size=(gui.text_size*1.2)) with shake
 stop music
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
@@ -384,5 +384,5 @@ c21 '[textdict[1132836]]'
 hide c1portrait
 hide c2portrait
 show oc002_01 12 as c2portrait at darkleft(-3), zorder 6
-c10573 '[textdict[1132837]]' (what_size=30) with shake
+c10573 '[textdict[1132837]]' (what_size=(gui.text_size*1.5)) with shake
 return

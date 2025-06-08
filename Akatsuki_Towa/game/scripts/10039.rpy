@@ -349,10 +349,10 @@ hide c211portrait
 hide c622portrait
 show sc025_01 4 as c622portrait at darkleft(-1), zorder 6
 show st012_01 3 as c211portrait at rightside(-6), shakeright, zorder 5
-c2113 '[textdict[1003450]]' (what_size=22)
+c2113 '[textdict[1003450]]' (what_size=(gui.text_size*1.1))
 hide c211portrait
 hide c622portrait
 show sc025_01 4 as c622portrait at darkleft(-1), zorder 6
 show st012_01 3 as c211portrait at rightside(-6), zorder 5
-c2113 '[textdict[1003451]]' (what_size=24) with shake
+c2113 '[textdict[1003451]]' (what_size=(gui.text_size*1.2)) with shake
 return

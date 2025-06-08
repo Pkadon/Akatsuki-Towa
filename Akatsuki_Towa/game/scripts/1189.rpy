@@ -401,7 +401,7 @@ c351 '[textdict[2107124]]'
 stop music
 hide c35portrait
 show sc027_01 5 as c35portrait at leftside(-10), zorder 5
-c351 '[textdict[2107125]]' (what_size=23) with shake
+c351 '[textdict[2107125]]' (what_size=(gui.text_size*1.15)) with shake
 play music "ED6512.ogg"
 play sfx2 "fight_6015.ogg"
 hide c35portrait
@@ -612,5 +612,5 @@ hide c35portrait
 hide c41portrait
 show sc033_01 5 as c41portrait at darkleft(3), zorder 6
 show sc027_01 3 as c35portrait at rightside(-10), zorder 5
-c353 '[textdict[2107174]]' (what_size=23) with shake
+c353 '[textdict[2107174]]' (what_size=(gui.text_size*1.15)) with shake
 return

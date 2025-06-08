@@ -41,7 +41,7 @@ c10443 '[textdict[1132433]]'
 c10401 '[textdict[1132434]]'
 c10443 '[textdict[1132435]]'
 play sfx2 "other_7057.ogg"
-c10411 '[textdict[1132436]]' (what_size=24) with shake
+c10411 '[textdict[1132436]]' (what_size=(gui.text_size*1.2)) with shake
 play music "ed7511.ogg"
 play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
@@ -89,7 +89,7 @@ show oc002_01 9 as c2portrait at darkright(-3), zorder 5
 c10441 '[textdict[1132446]]'
 hide c2portrait
 show oc001_01 3 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1132447]]' (what_size=22)
+c13 '[textdict[1132447]]' (what_size=(gui.text_size*1.1))
 hide c1portrait
 show oc001_01 3 as c1portrait at darkright(-2), zorder 5
 c10401 '[textdict[1132448]]'
@@ -100,7 +100,7 @@ play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_li10.ogg"
 hide c1portrait
 show oc004_01 13 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1132450]]' (what_size=22) with shake
+c43 '[textdict[1132450]]' (what_size=(gui.text_size*1.1)) with shake
 hide c4portrait
 show oc004_01 13 as c4portrait at darkright(-5), zorder 5
 show oc003_01 3 as c3portrait at leftside(-6), zorder 5
@@ -118,7 +118,7 @@ hide c4portrait
 hide c1045portrait
 show uc003_04 6 as c1045portrait at darkleft(-14), zorder 6
 show oc001_01 9 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1132454]]' (what_size=22)
+c13 '[textdict[1132454]]' (what_size=(gui.text_size*1.1))
 hide c1portrait
 hide c1045portrait
 show uc003_04 6 as c1045portrait at darkleft(-14), zorder 6

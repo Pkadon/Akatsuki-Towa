@@ -61,7 +61,7 @@ c5001 '[textdict[1191518]]'
 stop music
 hide c2668portrait
 show oce04_01 8 as c2668portrait at darkright(-5), zorder 5
-c14401 '[textdict[1191519]]' (what_size=23) with shake
+c14401 '[textdict[1191519]]' (what_size=(gui.text_size*1.15)) with shake
 stop music
 hide c2668portrait
 show oce04_01 8 as c2668portrait at darkright(-5), zorder 5

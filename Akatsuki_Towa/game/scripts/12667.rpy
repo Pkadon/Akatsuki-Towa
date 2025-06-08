@@ -28,7 +28,7 @@ hide c1portrait
 hide c4portrait
 show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 9 as c1portrait at rightsidemidback(-2), zorder 5
-c13 '[textdict[1166650]]' (what_size=24)
+c13 '[textdict[1166650]]' (what_size=(gui.text_size*1.2))
 play sfx2 "other_7007.ogg"
 hide c4portrait
 hide c1portrait

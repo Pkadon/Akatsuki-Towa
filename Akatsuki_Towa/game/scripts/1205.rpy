@@ -183,7 +183,7 @@ hide c15portrait
 hide c13portrait
 show sc008_01 4 as c16portrait at rightsidemidback(-18), zorder 5
 with fade
-c163 '[textdict[2108504]]' (what_size=25)
+c163 '[textdict[2108504]]' (what_size=(gui.text_size*1.25))
 stop music
 hide c16portrait
 show sc008_01 4 as c16portrait at darkright(-18), zorder 5
@@ -373,7 +373,7 @@ c26791 '[textdict[2108548]]'
 play sfx2 "fight_6009.ogg"
 hide c16portrait
 show sc008_01 4 as c16portrait at rightside(-18), zorder 5
-c163 '[textdict[2108549]]' (what_size=25) with shake
+c163 '[textdict[2108549]]' (what_size=(gui.text_size*1.25)) with shake
 hide c16portrait
 show sc008_01 4 as c16portrait at darkright(-18), zorder 5
 c26841 '[textdict[2108550]]'
@@ -446,7 +446,7 @@ hide c15portrait
 c0 '[textdict[2108566]]'
 play music "ed7506.ogg"
 play sfx2 "other_7062.ogg"
-c26791 '[textdict[2108567]]' (what_size=24) with shake
+c26791 '[textdict[2108567]]' (what_size=(gui.text_size*1.2)) with shake
 play sfx2 "other_7062.ogg"
 show st041_01 5 as c240portrait at leftside(-1), zorder 5
 c2401 '[textdict[2108568]]'

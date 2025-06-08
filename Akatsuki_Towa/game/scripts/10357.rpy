@@ -37,7 +37,7 @@ c10313 '[textdict[1131667]]'
 play sfx2 "other_7007.ogg"
 hide c2portrait
 show oc002_01 2 as c2portrait at darkleft(-3), zorder 6
-c10303 '[textdict[1131668]]' (what_size=26)
+c10303 '[textdict[1131668]]' (what_size=(gui.text_size*1.3))
 play sfxvoice "avg_vocal_na21.ogg"
 hide c2portrait
 show oc002_01 2 as c2portrait at darkleft(-3), zorder 6

@@ -295,7 +295,7 @@ hide c1portrait
 hide c3portrait
 show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
 show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
-c13 '[textdict[1141423]]' (what_size=24)
+c13 '[textdict[1141423]]' (what_size=(gui.text_size*1.2))
 hide c3portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5

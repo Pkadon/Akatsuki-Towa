@@ -5,7 +5,7 @@ play music "ed7561.ogg"
 scene avg_bg_070
 with fade
 play sfx2 "other_7028.ogg"
-c5001 '[textdict[2111507]]' (what_size=25) with shake
+c5001 '[textdict[2111507]]' (what_size=(gui.text_size*1.25)) with shake
 play sfx2 "other_7028.ogg"
 c5001 '[textdict[2111508]]'
 play sfx2 "other_7028.ogg"
@@ -19,7 +19,7 @@ c5001 '[textdict[2111512]]'
 play sfx2 "other_7027.ogg"
 c5001 '[textdict[2111513]]'
 c5001 '[textdict[2111514]]'
-c27421 '[textdict[2111515]]' (what_size=25) with shake
+c27421 '[textdict[2111515]]' (what_size=(gui.text_size*1.25)) with shake
 c5001 '[textdict[2111516]]'
 c5001 '[textdict[2111517]]'
 play sfx2 "other_7051.ogg"

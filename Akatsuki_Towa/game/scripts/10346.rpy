@@ -27,7 +27,7 @@ hide c3portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show sc046_01 3 as c1004portrait at leftsidemidback(-5), zorder 5
-c10041 '[textdict[1131274]]' (what_size=24)
+c10041 '[textdict[1131274]]' (what_size=(gui.text_size*1.2))
 play sfx2 "other_7085.ogg"
 hide c1portrait
 hide c1004portrait
@@ -40,7 +40,7 @@ hide c1004portrait
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as c1portrait at rightsideentrance(-2), shakeright, zorder 5
 with fade
-c13 '[textdict[1131277]]' (what_size=24)
+c13 '[textdict[1131277]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
@@ -50,8 +50,8 @@ hide c1portrait
 play sfx2 "other_7085.ogg"
 with fade
 c10253 '[textdict[1131279]]'
-c10263 '[textdict[1131280]]' (what_size=28)
+c10263 '[textdict[1131280]]' (what_size=(gui.text_size*1.4))
 play sfx2 "other_7091.ogg"
 show sc046_01 4 as c1004portrait at leftsidemidback(-5), zorder 5
-c10041 '[textdict[1131281]]' (what_size=24)
+c10041 '[textdict[1131281]]' (what_size=(gui.text_size*1.2))
 return

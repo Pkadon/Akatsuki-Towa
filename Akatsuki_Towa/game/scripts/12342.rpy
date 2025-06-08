@@ -117,14 +117,14 @@ hide c2portrait
 hide c4portrait
 show oc004_01 9 as c4portrait at darkright(-5), zorder 5
 show oc002_01 9 as c2portrait at leftsidemidback(-3), zorder 5
-c21 '[textdict[1133532]]' (what_size=28)
+c21 '[textdict[1133532]]' (what_size=(gui.text_size*1.4))
 play sfx2 "other_7057.ogg"
 play sfxvoice "bcv_oc004_hurt_02.ogg"
 hide c4portrait
 hide c2portrait
 show oc002_01 9 as c2portrait at darkleft(-3), zorder 6
 show oc004_01 19 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[1133533]]' (what_size=24) with shake
+c43 '[textdict[1133533]]' (what_size=(gui.text_size*1.2)) with shake
 play sfxvoice "avg_vocal_li11.ogg"
 hide c4portrait
 hide c2portrait

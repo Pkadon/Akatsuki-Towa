@@ -137,7 +137,7 @@ hide c1133portrait
 hide c1132portrait
 show st043_01 3 as c1132portrait at darkright(-17), zorder 5
 show st038_02 3 as c1168portrait at leftside(-9), zorder 5
-c11681 '[textdict[1142026]]' (what_size=24) with shake
+c11681 '[textdict[1142026]]' (what_size=(gui.text_size*1.2)) with shake
 hide c1168portrait
 hide c1132portrait
 show st043_01 3 as c1132portrait at darkright(-17), zorder 5
@@ -222,7 +222,7 @@ hide c1133portrait
 hide c1132portrait
 show st043_01 4 as c1132portrait at darkright(-17), zorder 5
 show st042_01 4 as c551portrait at leftside(-14), zorder 5
-c5511 '[textdict[1142043]]' (what_size=24) with shake
+c5511 '[textdict[1142043]]' (what_size=(gui.text_size*1.2)) with shake
 hide c551portrait
 hide c1132portrait
 show st043_01 4 as c1132portrait at darkright(-17), zorder 5

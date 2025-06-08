@@ -276,7 +276,7 @@ show oca01_01 7 as c2701portrait at darkright(-2), zorder 5
 c5261 '[textdict[2110632]]'
 hide c2701portrait
 show oca01_01 7 as c2701portrait at darkright(-2), zorder 5
-c27161 '[textdict[2110633]]' (what_size=25) with shake
+c27161 '[textdict[2110633]]' (what_size=(gui.text_size*1.25)) with shake
 hide c2701portrait
 show oca01_01 10 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110634]]'

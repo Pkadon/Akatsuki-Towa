@@ -144,7 +144,7 @@ c481 '[textdict[2111973]]'
 stop music
 hide c45portrait
 hide c48portrait
-c5003 '[textdict[2111974]]' (what_size=25) with shake
+c5003 '[textdict[2111974]]' (what_size=(gui.text_size*1.25)) with shake
 stop music
 show sc038_01 2 as c45portrait at rightside(-1), zorder 5
 c453 '[textdict[2111975]]'

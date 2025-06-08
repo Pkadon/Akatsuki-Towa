@@ -22,7 +22,7 @@ hide c2portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show oc002_01 12 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[1141541]]' (what_size=24) with shake
+c21 '[textdict[1141541]]' (what_size=(gui.text_size*1.2)) with shake
 hide c2portrait
 hide c1portrait
 show oc001_01 4 as c1portrait at darkright(-2), zorder 5

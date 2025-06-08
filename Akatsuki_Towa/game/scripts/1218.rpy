@@ -200,7 +200,7 @@ hide c2697portrait
 hide c1portrait
 show oc001_01 12 as c1portrait at darkleft(-2), zorder 6
 show oca04_01 16 as c2697portrait at rightsidemidback(-5), zorder 5
-c26973 '[textdict[2109933]]' (what_size=25)
+c26973 '[textdict[2109933]]' (what_size=(gui.text_size*1.25))
 scene avg_bg_025
 with fade
 play sfx2 "other_7064.ogg"

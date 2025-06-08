@@ -118,7 +118,7 @@ c43 '[textdict[1132788]]'
 stop music
 hide c4portrait
 show oc004_01 16 as c4portrait at centerpos(-5), zorder 5
-c43 '[textdict[1132789]]' (what_size=26) with shake
+c43 '[textdict[1132789]]' (what_size=(gui.text_size*1.3)) with shake
 stop music
 hide c4portrait
 c10523 '[textdict[1132790]]'

@@ -232,11 +232,11 @@ hide c4portrait
 hide c3portrait
 show oc003_01 8 as c3portrait at darkleft(-6), zorder 6
 show oc004_01 16 as c4portrait at rightside(-5), zorder 5
-c43 '[textdict[2107578]]' (what_size=24) with shake
+c43 '[textdict[2107578]]' (what_size=(gui.text_size*1.2)) with shake
 hide c3portrait
 hide c4portrait
 show oc004_01 16 as c4portrait at darkright(-5), zorder 5
-c11551 '[textdict[2107579]]' (what_size=24) with shake
+c11551 '[textdict[2107579]]' (what_size=(gui.text_size*1.2)) with shake
 play music "ed7514.ogg"
 scene avg_bg_013
 with fade

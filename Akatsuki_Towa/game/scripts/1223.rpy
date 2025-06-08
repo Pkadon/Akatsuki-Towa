@@ -332,7 +332,7 @@ show oca01_01 4 as c2701portrait at darkright(-2), zorder 5
 c27121 '[textdict[2110429]]'
 hide c2701portrait
 show oca01_01 20 as c2701portrait at rightside(-2), zorder 5
-c27013 '[textdict[2110430]]' (what_size=25)
+c27013 '[textdict[2110430]]' (what_size=(gui.text_size*1.25))
 hide c2701portrait
 show oca01_01 20 as c2701portrait at darkright(-2), zorder 5
 c27131 '[textdict[2110431]]'
@@ -414,7 +414,7 @@ show oca01_01 4 as c2701portrait at darkright(-2), zorder 5
 c27121 '[textdict[2110453]]'
 hide c2701portrait
 show oca01_01 9 as c2701portrait at rightside(-2), zorder 5
-c27013 '[textdict[2110454]]' (what_size=25) with shake
+c27013 '[textdict[2110454]]' (what_size=(gui.text_size*1.25)) with shake
 hide c2701portrait
 show oca01_01 9 as c2701portrait at darkright(-2), zorder 5
 c27131 '[textdict[2110455]]'
@@ -598,7 +598,7 @@ hide c2701portrait
 hide c2709portrait
 show uc002_03 1 as c2709portrait at darkleft(-23), zorder 6
 show oca01_01 9 as c2701portrait at rightsidemidback(-2), zorder 5
-c27013 '[textdict[2110496]]' (what_size=25)
+c27013 '[textdict[2110496]]' (what_size=(gui.text_size*1.25))
 stop music
 play sfx2 "fight_6018.ogg"
 hide c2709portrait

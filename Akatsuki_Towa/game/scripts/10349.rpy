@@ -17,7 +17,7 @@ c10041 '[textdict[1131343]]'
 play sfx2 "other_7088.ogg"
 hide c1004portrait
 show sc046_01 3 as c1004portrait at leftside(-5), shakeleft, zorder 5
-c10041 '[textdict[1131344]]' (what_size=24)
+c10041 '[textdict[1131344]]' (what_size=(gui.text_size*1.2))
 hide c1004portrait
 show sc046_01 3 as c1004portrait at darkleft(-5), zorder 6
 show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5
@@ -229,7 +229,7 @@ hide c3portrait
 hide c2portrait
 show oc002_01 10 as c2portrait at darkright(-3), zorder 5
 show oc004_01 12 as c4portrait at leftside(-5), shakeleft, zorder 5
-c41 '[textdict[1131388]]' (what_size=24)
+c41 '[textdict[1131388]]' (what_size=(gui.text_size*1.2))
 hide c2portrait
 hide c4portrait
 show oc004_01 12 as c4portrait at darkleft(-5), zorder 6
@@ -249,7 +249,7 @@ hide c3portrait
 hide c2portrait
 show oc002_01 10 as c2portrait at darkright(-3), zorder 5
 show oc004_01 3 as c4portrait at leftside(-5), zorder 5
-c41 '[textdict[1131392]]' (what_size=24)
+c41 '[textdict[1131392]]' (what_size=(gui.text_size*1.2))
 hide c2portrait
 hide c4portrait
 show oc004_01 3 as c4portrait at darkleft(-5), zorder 6

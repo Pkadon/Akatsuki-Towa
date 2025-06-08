@@ -127,7 +127,7 @@ c26341 '[textdict[2107331]]'
 stop music
 hide c2634portrait
 show ocb01_01 9 as c2634portrait at leftsideentrance(-2), zorder 5
-c26341 '[textdict[2107332]]' (what_size=24) with shake
+c26341 '[textdict[2107332]]' (what_size=(gui.text_size*1.2)) with shake
 stop music
 hide c2634portrait
 show ocb01_01 9 as c2634portrait at darkleft(-2), zorder 6
@@ -338,7 +338,7 @@ hide c2626portrait
 hide c2631portrait
 show scb41_01 4 as c2631portrait at darkright(-9), zorder 5
 show ocb01_01 15 as c2626portrait at leftside(-2), zorder 5
-c26261 '[textdict[2107376]]' (what_size=24) with shake
+c26261 '[textdict[2107376]]' (what_size=(gui.text_size*1.2)) with shake
 hide c2626portrait
 hide c2631portrait
 c0 '[textdict[2107377]]'

@@ -101,7 +101,7 @@ stop music
 hide c1portrait
 play sfx2 "other_7079.ogg"
 with fade
-c20161 '[textdict[1202346]]' (what_size=24)
+c20161 '[textdict[1202346]]' (what_size=(gui.text_size*1.2))
 play music "ed7511.ogg"
 show oc001_01 3 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1202347]]'
@@ -110,19 +110,19 @@ show sc020_01 1 as c28portrait at leftside(-10), zorder 5
 c281 '[textdict[1202348]]'
 hide c28portrait
 show sc020_01 4 as c28portrait at leftside(-10), zorder 5
-c281 '[textdict[1202770]]' (what_size=24)
+c281 '[textdict[1202770]]' (what_size=(gui.text_size*1.2))
 hide c28portrait
 show sc020_01 4 as c28portrait at darkleft(-10), zorder 6
 show oc001_01 8 as c1portrait at rightside(-2), zorder 5
-c13 '[textdict[1202771]]' (what_size=24)
+c13 '[textdict[1202771]]' (what_size=(gui.text_size*1.2))
 hide c1portrait
 hide c28portrait
 show sc020_01 4 as c28portrait at darkleft(-10), zorder 6
 show oc002_01 16 as c2portrait at rightside(-3), zorder 5
-c23 '[textdict[1202772]]' (what_size=24)
+c23 '[textdict[1202772]]' (what_size=(gui.text_size*1.2))
 hide c28portrait
 hide c2portrait
 show oc002_01 16 as c2portrait at darkright(-3), zorder 5
 show sc020_01 1 as c28portrait at leftside(-10), zorder 5
-c281 '[textdict[1202773]]' (what_size=24)
+c281 '[textdict[1202773]]' (what_size=(gui.text_size*1.2))
 return

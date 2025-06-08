@@ -255,7 +255,7 @@ scene avg_bg_013
 with fade
 play sfx2 "other_7030.ogg"
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
-c21 '[textdict[2112639]]' (what_size=25) with shake
+c21 '[textdict[2112639]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7452.ogg"
 hide c2portrait
 show oc002_01 9 as c2portrait at darkleft(-3), zorder 6
