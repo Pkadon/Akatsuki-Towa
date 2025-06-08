@@ -119,7 +119,7 @@ define gui.namebox_borders = Borders(25, -1, 25, 5)
 define gui.namebox_tile = False
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 475
+define gui.dialogue_width = 835
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -408,6 +408,7 @@ init python:
         gui.dialogue_line_spacing = small_dialogue_line_spacing
         gui.dialogue_xpos = small_dialogue_xpos
         gui.dialogue_ypos = small_dialogue_ypos
+        gui.dialogue_width = 798
 
         ## Change the size and spacing of various things.
         gui.slider_size = 24
