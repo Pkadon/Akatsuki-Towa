@@ -186,6 +186,7 @@ show oc001_01 12 as c1portrait at darkright(-2), zorder 5
 show oc002_01 9 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1133424]]'
 hide c2portrait
+hide c1portrait
 show oc001_01 20 as c1portrait at leftside(-2), zorder 5
 c11 '[textdict[1133425]]'
 play sfxvoice "avg_vocal_li28.ogg"

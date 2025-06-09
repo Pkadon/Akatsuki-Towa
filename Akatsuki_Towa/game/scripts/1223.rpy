@@ -307,6 +307,7 @@ show oca02_01 15 as c2702portrait at darkleft(-3), zorder 6
 show oca01_01 10 as c2701portrait at rightside(-2), zorder 5
 c27013 '[textdict[2110423]]'
 hide c2701portrait
+hide c2702portrait
 show oca02_01 2 as c2702portrait at rightside(-3), zorder 5
 c27023 '[textdict[2110424]]'
 hide c2702portrait

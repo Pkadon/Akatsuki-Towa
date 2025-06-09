@@ -117,6 +117,7 @@ c23 '[textdict[1184582]]'
 hide c2portrait
 show oc002_01 12 as c2portrait at darkright(-3), zorder 5
 c25621 '[textdict[1184583]]'
+hide c2portrait
 show oc002_01 14 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[1184584]]'
 hide c2portrait

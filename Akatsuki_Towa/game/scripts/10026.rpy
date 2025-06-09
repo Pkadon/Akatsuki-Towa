@@ -134,6 +134,7 @@ show st009_01 1 as c561portrait at leftside(-22), zorder 5
 c5611 '[textdict[1002196]]'
 play sfxvoice "avg_vocal_ch06.ogg"
 hide c561portrait
+hide c2portrait
 show oc002_01 14 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[1002197]]'
 hide c2portrait

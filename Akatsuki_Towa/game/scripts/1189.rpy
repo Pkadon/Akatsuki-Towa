@@ -278,6 +278,7 @@ show oc001_01 4 as c1portrait at darkright(-2), zorder 5
 show sc027_01 1 as c35portrait at leftside(-10), zorder 5
 c351 '[textdict[2107092]]'
 hide c1portrait
+hide c35portrait
 show sc027_01 5 as c35portrait at rightside(-10), zorder 5
 c353 '[textdict[2107093]]'
 hide c35portrait

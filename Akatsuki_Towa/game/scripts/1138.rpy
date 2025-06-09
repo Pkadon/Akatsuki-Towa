@@ -316,6 +316,7 @@ hide c1portrait
 c0 '[textdict[2103832]]'
 show sc049_01 2 as c2529portrait at leftside(-8), zorder 5
 c25291 '[textdict[2104389]]'
+hide c2529portrait
 show oc002_01 2 as c2529portrait at rightside(-3), zorder 5
 c25293 '[textdict[2104390]]'
 scene avg_bg_013

@@ -387,6 +387,7 @@ show st043_01 2 as c242portrait at darkright(-17), zorder 5
 show oc003_01 2 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1006039]]'
 hide c3portrait
+hide c242portrait
 show st043_01 5 as c242portrait at leftside(-17), zorder 5
 c2421 '[textdict[1006040]]'
 hide c242portrait
@@ -534,6 +535,7 @@ show st043_01 2 as c242portrait at darkleft(-17), zorder 6
 show st042_01 5 as c241portrait at rightside(-14), zorder 5
 c2413 '[textdict[1001686]]'
 hide c241portrait
+hide c242portrait
 show st043_01 5 as c242portrait at rightside(-17), zorder 5
 c2423 '[textdict[1001686]]'
 hide c242portrait

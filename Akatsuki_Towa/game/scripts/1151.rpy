@@ -232,6 +232,7 @@ show oc002_01 16 as c2portrait at rightside(-3), zorder 5
 c23 '[textdict[2104440]]'
 show memoryoverlay zorder 2
 hide c2portrait
+hide c4portrait
 show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[2104441]]'
 show memoryoverlay zorder 2

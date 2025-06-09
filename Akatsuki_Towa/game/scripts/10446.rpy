@@ -336,6 +336,7 @@ show st043_01 1 as c1132portrait at darkright(-17), zorder 5
 show st042_01 1 as c1133portrait at leftside(-14), zorder 5
 c11331 '[textdict[1142066]]'
 hide c1132portrait
+hide c1133portrait
 show st042_01 5 as c1133portrait at rightside(-14), zorder 5
 c11333 '[textdict[1142067]]'
 hide c1133portrait

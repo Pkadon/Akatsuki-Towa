@@ -298,6 +298,7 @@ c12081 '[textdict[1150698]]'
 hide c4portrait
 show oc004_01 1 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1150699]]'
+hide c4portrait
 show oc004_01 7 as c4portrait at leftsideentrance(-5), zorder 5
 c41 '[textdict[1150700]]'
 hide c4portrait

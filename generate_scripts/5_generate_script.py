@@ -281,6 +281,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				portraitpos = 'leftside'
 				if leftportrait:
 					f.write(f"hide {leftalias}\n")
+					leftportrait = None
 				if folderName: 
 					leftportrait = folderName
 					leftalias = folderAlias
@@ -290,7 +291,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					#hoping this fixes when the character changes sides
 					#but wasn't replaced on the other side by another portrait
 					#(like chloe in avg 12049)
-					if rightalias == leftalias: rightportrait = None
+					if leftalias == rightalias and rightportrait: 
+						f.write(f"hide {rightalias}\n")
+						rightportrait = None
 					
 				else: leftportrait = None
 				
@@ -303,6 +306,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				portraitpos = 'rightside'
 				if rightportrait:
 					f.write(f"hide {rightalias}\n")
+					rightportrait = None
 				if folderName: 
 					rightportrait = folderName
 					rightalias = folderAlias
@@ -312,7 +316,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					
 					#hoping this fixes when the character changes sides
 					#but wasn't replaced on the other side by another portrait
-					if leftalias == rightalias: leftportrait = None
+					if rightalias == leftalias and leftportrait: 
+						f.write(f"hide {leftalias}\n")
+						leftportrait = None
 					
 				else: rightportrait = None
 				

@@ -188,6 +188,7 @@ c13043 '[textdict[1183993]]'
 hide c1304portrait
 show st061_01 2 as c1304portrait at darkright(-2), zorder 5
 c25541 '[textdict[1183994]]'
+hide c1304portrait
 show st061_01 2 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1183995]]' with shake
 hide c1304portrait

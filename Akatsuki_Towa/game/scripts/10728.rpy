@@ -109,6 +109,7 @@ c13351 '[textdict[1172233]]'
 hide c1304portrait
 show st061_01 2 as c1304portrait at darkright(-2), zorder 5
 c13351 '[textdict[1172234]]'
+hide c1304portrait
 show st061_01 5 as c1304portrait at leftside(-2), zorder 5
 c13041 '[textdict[1172235]]'
 hide c1304portrait

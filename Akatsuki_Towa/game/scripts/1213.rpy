@@ -590,6 +590,7 @@ hide c2portrait
 show oc002_01 23 as c2portrait at darkright(-3), zorder 5
 c26901 '[textdict[2109523]]'
 stop music
+hide c2portrait
 show oc002_01 8 as c2portrait at leftside(-3), zorder 5
 c21 '[textdict[2109524]]'
 stop music

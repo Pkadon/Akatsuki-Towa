@@ -346,6 +346,7 @@ show oc003_01 4 as c3portrait at darkright(-6), zorder 5
 show oc004_01 11 as c4portrait at leftside(-5), zorder 5
 c41 '[textdict[1187696]]'
 hide c4portrait
+hide c3portrait
 show oc003_01 4 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1187697]]'
 hide c3portrait

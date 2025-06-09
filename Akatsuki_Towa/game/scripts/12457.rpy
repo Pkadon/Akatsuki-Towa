@@ -96,6 +96,7 @@ c6531 '[textdict[1143714]]'
 hide c3portrait
 show oc003_01 5 as c3portrait at rightside(-6), zorder 5
 c33 '[textdict[1143715]]'
+hide c3portrait
 show oc003_01 17 as c3portrait at leftside(-6), zorder 5
 c31 '[textdict[1143716]]'
 hide c3portrait

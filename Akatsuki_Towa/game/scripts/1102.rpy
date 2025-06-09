@@ -109,6 +109,7 @@ show sc049_01 1 as c56portrait at darkright(-8), zorder 5
 show oc002_01 14 as c2portrait at leftside(-3), shakeleft, zorder 5
 c21 '[textdict[2102399]]'
 hide c2portrait
+hide c56portrait
 show sc049_01 1 as c56portrait at leftside(-8), zorder 5
 c561 '[textdict[2102400]]'
 hide c56portrait

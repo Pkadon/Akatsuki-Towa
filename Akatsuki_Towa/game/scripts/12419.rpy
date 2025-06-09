@@ -62,6 +62,7 @@ show oc001_01 1 as c1portrait at darkright(-2), zorder 5
 show oc004_01 12 as c4portrait at leftside(-5), shakeleft, zorder 5
 c41 '[textdict[1142778]]'
 hide c1portrait
+hide c4portrait
 show oc004_01 4 as c4portrait at rightside(-5), zorder 5
 c43 '[textdict[1142779]]'
 hide c4portrait

@@ -171,6 +171,7 @@ show oc004_01 7 as c4portrait at darkleft(-5), zorder 6
 show oc001_01 12 as c1portrait at rightsideexit(-2), zorder 5
 c13 '[textdict[1154882]]'
 hide c1portrait
+hide c4portrait
 show oc004_01 8 as c4portrait at rightsideentrance(-5), zorder 5
 c43 '[textdict[1154883]]'
 play sfxvoice "avg_vocal_ro02.ogg"

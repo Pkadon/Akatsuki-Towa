@@ -315,6 +315,7 @@ hide c13portrait
 hide c2portrait
 show oc002_01 2 as c2portrait at darkright(-3), zorder 5
 c12021 '[textdict[1151211]]'
+hide c2portrait
 show oc002_01 14 as c2portrait at leftsideentrance(-3), shakeright, zorder 5
 c21 '[textdict[1151212]]'
 hide c2portrait
