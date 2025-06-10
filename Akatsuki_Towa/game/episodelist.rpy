@@ -24,20 +24,24 @@ screen episodelist():
                     align (0.5, 1.0)
                     size 25
                 action Hide("episodelist")
-            button:
-                xysize(backbutton_width,backbutton_height)
-                background Frame("backbutton", 16, 16)
-                text jumptext:
-                    align (0.5, 1.0)
-                    size 25
-                action Replay("codeinput", locked=False)
-            button:
-                xysize(backbutton_width,backbutton_height)
-                background Frame("backbutton", 16, 16)
-                text spritetext:
-                    align (0.5, 1.0)
-                    size 25
-                action Replay("spritetest", locked=False)
+
+            if add_jump_button:
+                button:
+                    xysize(backbutton_width,backbutton_height)
+                    background Frame("backbutton", 16, 16)
+                    text jumptext:
+                        align (0.5, 1.0)
+                        size 25
+                    action Replay("codeinput", locked=False)
+
+            if add_sprite_button:
+                button:
+                    xysize(backbutton_width,backbutton_height)
+                    background Frame("backbutton", 16, 16)
+                    text spritetext:
+                        align (0.5, 1.0)
+                        size 25
+                    action Replay("spritetest", locked=False)
         vpgrid:
             rows 1
             xpos 94
