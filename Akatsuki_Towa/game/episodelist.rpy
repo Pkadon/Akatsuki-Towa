@@ -5,35 +5,39 @@ init python:
         else:
             return str(key)
 
+
+    backbutton_width = 94
+    backbutton_height = 37
+
 screen episodelist():
     default chaptername = ''
     default questname = ''
     window:
         xysize (840,480)
         background "sceneselect"
-        button:
-            xysize(94,37)
-            background Frame("backbutton", 16, 16)
-            text backtext:
-                align (0.5, 1.0)
-                size 25
-            action Hide("episodelist")
-        button:
-            xysize(94,37)
-            ypos 37
-            background Frame("backbutton", 16, 16)
-            text jumptext:
-                align (0.5, 1.0)
-                size 25
-            action Replay("codeinput", locked=False)
-        button:
-            xysize(94,37)
-            ypos 74
-            background Frame("backbutton", 16, 16)
-            text spritetext:
-                align (0.5, 1.0)
-                size 25
-            action Replay("spritetest", locked=False)
+        vbox:
+            pos (0,0)
+            button:
+                xysize(backbutton_width,backbutton_height)
+                background Frame("backbutton", 16, 16)
+                text backtext:
+                    align (0.5, 1.0)
+                    size 25
+                action Hide("episodelist")
+            button:
+                xysize(backbutton_width,backbutton_height)
+                background Frame("backbutton", 16, 16)
+                text jumptext:
+                    align (0.5, 1.0)
+                    size 25
+                action Replay("codeinput", locked=False)
+            button:
+                xysize(backbutton_width,backbutton_height)
+                background Frame("backbutton", 16, 16)
+                text spritetext:
+                    align (0.5, 1.0)
+                    size 25
+                action Replay("spritetest", locked=False)
         vpgrid:
             rows 1
             xpos 94
@@ -43,7 +47,7 @@ screen episodelist():
             for chapter in menudata:
                 vbox:
                     button:
-                        xysize (tabwidth,37)
+                        xysize (tabwidth,backbutton_height)
                         xpos 2
                         background Frame("booktab1")
                         bottom_padding 4
@@ -61,7 +65,7 @@ screen episodelist():
                         vscrollbar_unscrollable "hide"
                         for quest in chapter['quests']:
                             button:
-                                xysize (tabwidth,37)
+                                xysize (tabwidth,backbutton_height)
                                 background Frame("booktab2")
                                 bottom_padding 4
                                 action ShowMenu("quest", quest)
@@ -81,7 +85,7 @@ screen quest(data):
         xysize (840,480)
         background "sceneselect"
         button:
-            xysize(94,37)
+            xysize(backbutton_width,backbutton_height)
             background Frame("backbutton", 16, 16)
             text backtext:
                 align (0.5,1.0)
@@ -98,7 +102,7 @@ screen quest(data):
                 for log in data['logs']:
                     $lognumber = (data['logs'].index(log) + 1)
                     button:
-                        xysize(94,37)
+                        xysize(backbutton_width,backbutton_height)
                         background Frame("backbutton", 16, 16)
                         text "[logtext] [lognumber]":
                             align (0.5,1.0)
@@ -109,7 +113,7 @@ screen quest(data):
             xpos 119
             xsize 720
             button:
-                xysize (tabwidth,37)
+                xysize (tabwidth,backbutton_height)
                 xanchor 0.5
                 xpos 350
                 background Frame("booktab2")
@@ -185,7 +189,7 @@ screen questlog(data):
         xysize (840,480)
         background "sceneselect"
         button:
-            xysize(94,37)
+            xysize(backbutton_width,backbutton_height)
             background Frame("backbutton", 16, 16)
             text backtext:
                 align (0.5,1.0)
