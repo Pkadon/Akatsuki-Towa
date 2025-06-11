@@ -5,10 +5,23 @@ init python:
         else:
             return str(key)
 
+    if renpy.variant('touch'):
+    # Both the PC and Mobile values can be set in CONFIG.rpy
+        backbutton_width = touch_backbutton_width 
+        backbutton_height = touch_backbutton_height
+        backbutton_textsize = touch_backbutton_textsize
 
-    backbutton_width = 94
-    backbutton_height = 37
+        tabwidth = touch_tabwidth
+        tabheight = touch_tabheight
+        tabtextsize = touch_tabtextsize
 
+        pagewidth = touch_pagewidth
+        pageheight = touch_pageheight
+        pagetextsize = touch_pagetextsize
+
+        logtextsize = touch_logtextsize
+
+# The very first menu you see when you click the "Scene Select" button.
 screen episodelist():
     default chaptername = ''
     default questname = ''
@@ -22,7 +35,7 @@ screen episodelist():
                 background Frame("backbutton", 16, 16)
                 text backtext:
                     align (0.5, 1.0)
-                    size 25
+                    size backbutton_textsize
                 action Hide("episodelist")
 
             if add_jump_button:
@@ -31,7 +44,7 @@ screen episodelist():
                     background Frame("backbutton", 16, 16)
                     text jumptext:
                         align (0.5, 1.0)
-                        size 25
+                        size backbutton_textsize
                     action Replay("codeinput", locked=False)
 
             if add_sprite_button:
@@ -40,18 +53,17 @@ screen episodelist():
                     background Frame("backbutton", 16, 16)
                     text spritetext:
                         align (0.5, 1.0)
-                        size 25
+                        size backbutton_textsize
                     action Replay("spritetest", locked=False)
         vpgrid:
             rows 1
-            xpos 94
-            xsize 746
-            draggable True
+            xpos backbutton_width
+            xsize (840 - backbutton_width)
             scrollbars "horizontal"
             for chapter in menudata:
                 vbox:
                     button:
-                        xysize (tabwidth,backbutton_height)
+                        xysize (tabwidth,tabheight)
                         xpos 2
                         background Frame("booktab1")
                         bottom_padding 4
@@ -62,14 +74,15 @@ screen episodelist():
                             size tabtextsize
                     vpgrid:
                         cols 1
-                        xsize (tabwidth+25)
+                        xsize (tabwidth + gui.scrollbar_size)
                         draggable True
                         mousewheel True
                         scrollbars "vertical"
                         vscrollbar_unscrollable "hide"
+  
                         for quest in chapter['quests']:
                             button:
-                                xysize (tabwidth,backbutton_height)
+                                xysize (tabwidth,tabheight)
                                 background Frame("booktab2")
                                 bottom_padding 4
                                 action ShowMenu("quest", quest)
@@ -83,6 +96,7 @@ screen episodelist():
                                     ypos -2
                                     size tabtextsize
 
+# The next menu you see after clicking a silver button
 screen quest(data):
     modal True
     window:
@@ -93,11 +107,14 @@ screen quest(data):
             background Frame("backbutton", 16, 16)
             text backtext:
                 align (0.5,1.0)
-                size 25
+                size backbutton_textsize
             action Hide("quest")
+
+        $side_width = (backbutton_width + gui.scrollbar_size)
         viewport:
-            ypos 37
-            xysize (114,443)
+            ypos backbutton_height
+            xsize side_width
+            ysize (480 - backbutton_height)
             draggable True
             mousewheel True
             scrollbars "vertical"
@@ -110,16 +127,21 @@ screen quest(data):
                         background Frame("backbutton", 16, 16)
                         text "[logtext] [lognumber]":
                             align (0.5,1.0)
-                            size 25
+                            size backbutton_textsize
                         action ShowMenu("questlog", log)
 
         vbox:
-            xpos 119
-            xsize 720
+            xpos side_width + 3
+            xsize (840 - side_width)
             button:
-                xysize (tabwidth,backbutton_height)
+                xysize (tabwidth,tabheight)
                 xanchor 0.5
-                xpos 350
+
+                if renpy.variant('touch'):
+                    xpos (pagewidth//2)
+                else:
+                    xpos pagewidth
+
                 background Frame("booktab2")
                 bottom_padding 4
 
@@ -131,18 +153,25 @@ screen quest(data):
                     xalign (0.5)
                     ypos -2
                     size tabtextsize
+
             viewport:
-                xsize 720
+                xsize (840 - side_width)
                 draggable True
                 mousewheel True
                 scrollbars "vertical"
                 vscrollbar_unscrollable "hide"
 
-                $rows = -(len(data['scenes']) // -2)
-                grid 2 rows:
+                if renpy.variant('touch'):
+                    $rows = len(data['scenes'])
+                    $columns = 1
+                else:
+                    $rows = -(len(data['scenes']) // -2)
+                    $columns = 2
+
+                grid columns rows:
                     for scene in data['scenes']:
                         button:
-                            xysize (350,pageheight)
+                            xysize (pagewidth,pageheight)
                             left_padding 4
                             right_padding 20
                             background Frame("bookpage", 35, 35)
@@ -172,6 +201,7 @@ screen quest(data):
                                         size (pagetextsize - 2)
                                         color "#34374b" #adds a dark blue color to info text
 
+# The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
     default fulltext = ''
     default prefix = ''
@@ -197,20 +227,20 @@ screen questlog(data):
             background Frame("backbutton", 16, 16)
             text backtext:
                 align (0.5,1.0)
-                size 25
+                size backbutton_textsize
             action Hide("questlog")
         viewport:
-            xpos 119
-            xsize 680
+            xpos backbutton_width
+            xsize (840 - backbutton_width)
             draggable True
             mousewheel True
             scrollbars "vertical"
             vscrollbar_unscrollable "hide"
             button:
                 background Frame("bookpage", 35, 35)
-                xysize(650,None)
+                xsize (840 - backbutton_width - gui.scrollbar_size)
                 left_padding 20
-                right_padding 40
+                right_padding 20
                 text "[fulltext]":
                     yalign 0.2
                     text_align 0

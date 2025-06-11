@@ -40,35 +40,47 @@ init python early:
 # Dialogue Window
 #################################################################
 ### The size of normal dialogue text.
-    gui.text_size = 20 # Normal
+    gui.text_size = 20
     small_text_size = 23 # For "small" screen variants
 
 ### The placement of dialogue relative to the textbox. These can be a whole number
 ### of pixels relative to the left or top side of the textbox.
-    gui.dialogue_xpos = 20 # Normal
-    small_dialogue_xpos = 20 # For "small" screen variants
+    gui.dialogue_xpos = 20
+    small_dialogue_xpos = 20
 
-    gui.dialogue_ypos = 25 # Normal
-    small_dialogue_ypos = 25 # For "small" screen variants
+    gui.dialogue_ypos = 25
+    small_dialogue_ypos = 25
 
 ### The number of padding pixels inbetween lines of dialogue
-    gui.dialogue_line_spacing = 0 # Normal
-    small_dialogue_line_spacing = -5 # For "small" screen variants
+    gui.dialogue_line_spacing = 0
+    small_dialogue_line_spacing = -5
 
 ### The size of character speaker names.
-    gui.name_text_size = 22 # Normal
-    small_name_text_size = 25 # For "small" screen variants
+    gui.name_text_size = 22
+    small_name_text_size = 25
 
 ### The dialogue box's height (starting from the bottom)
-    gui.textbox_height = 113 # Normal
-    small_textbox_height = 113 # For "small" screen variants
+    gui.textbox_height = 113
+    small_textbox_height = 113
 
 #################################################################
-# Episode List
+# Scene Select
 #################################################################
 
-# "Extra" buttons that may not be needed in a translation project
+# The buttons that show up on the left side of the Scene Select menus
+# ("Back", "Log", "Jump", "Sprite")
 #========================================================================
+### The dimensions used for all side buttons
+    backbutton_width = 94
+    touch_backbutton_width = 141 # For "touch" screen variants
+
+    backbutton_height = 37
+    touch_backbutton_height = 55
+
+### The text size used for all side buttons
+    backbutton_textsize = 25
+    touch_backbutton_textsize = 37
+
 ### Set to False to hide the "Jump" button that opens the code input screen
 ### used to manually skip to a cutscene without needing a button
     add_jump_button = True
@@ -78,31 +90,44 @@ init python early:
 
 # Silver and gold "booktab" buttons used in all Scene Select menus
 #==================================================================
-### Width of all silver and gold buttons (in pixels):
+### The dimensions of all silver and gold buttons (in pixels):
     tabwidth = 330
+    touch_tabwidth = 495 # For "touch" screen variants
+
+    tabheight = backbutton_height
+    touch_tabheight = touch_backbutton_height
+
 ### Text size for all silver and gold buttons:
     tabtextsize = 20
+    touch_tabtextsize = 29
 
 
 # "bookpage" buttons that play cutscenes when clicked
 #==================================================================
-### Height of all book page buttons (in pixels):
+### The dimensions of all book page buttons (in pixels):
+    pagewidth = 350
+    touch_pagewidth = 600 # For "touch" screen variants
+
     pageheight = 80
+    touch_pageheight = 125
+
 ### Text size for all book page buttons:
     pagetextsize = 18
+    touch_pagetextsize = 27
 
 
 # The questlog window that appears when you click a "Log" button
 #==================================================================
 ### Text size for all questlogs:
-    logtextsize = 16
+    logtextsize = 18
+    touch_logtextsize = 23
 
 #################################
 # Choice Menu
 #################################
 ### Text size for all choice menu buttons:
     gui.choice_button_text_size = 18
-    choice_button_text_size_large = 25 # used with "small" screen variant
+    choice_button_text_size_large = 25 # For "small" screen variant
 
 #################################
 # Screen Variant misc.

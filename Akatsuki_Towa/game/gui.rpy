@@ -389,6 +389,7 @@ init python:
     def touch():
 
         gui.skip_ypos = quick_button_height
+        gui.scrollbar_size = 50
 
     ## This changes the size and spacing of various GUI elements to ensure they
     ## are easily visible on phones.
@@ -420,9 +421,3 @@ init python:
 
         gui.history_height = 125
         gui.history_text_width = 453
-
-        gui.quick_button_text_size = 14
-
-        ## File button layout.
-        gui.file_slot_cols = 2
-        gui.file_slot_rows = 2
