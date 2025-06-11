@@ -1,7 +1,13 @@
 screen inputdescription():
-    text 'Jump to a scene directly, by typing its avg code here.\n (Example) To jump to 遊撃士の認定試験 1/12, type "10001" (without quotes) and press enter\nTo exit, press enter without typing anything.':
-        size 25
-        xycenter (0.5, 0.5)
+    text 'Jump to a scene directly, by typing its avg code here, then press Enter.\nTo exit, press Enter without typing anything.\nTo jump to 遊撃士の認定試験 1/12, you would type "10001" (without quotes)':
+
+        size 23
+        xcenter 0.5
+
+        if renpy.variant('touch'):
+            ypos quick_button_height
+        else:
+            ycenter 0.5
 
 label codeinput:
 stop music
