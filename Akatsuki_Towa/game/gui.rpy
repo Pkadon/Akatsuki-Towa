@@ -66,13 +66,13 @@ define gui.name_text_font = "font/NotoSansJP-Regular.ttf"
 define gui.interface_text_font = "font/NotoSansJP-Regular.ttf"
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 15
+define gui.interface_text_size = 20
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 16
+define gui.label_text_size = 23
 
 ## The size of text on the notify screen.
-define gui.notify_text_size = 11
+define gui.notify_text_size = 17
 
 ## The size of the game's title.
 define gui.title_text_size = 33
@@ -158,16 +158,17 @@ define gui.button_text_insensitive_color = gui.insensitive_color
 ## is right).
 define gui.button_text_xalign = 0.0
 
-
 ## These variables override settings for different kinds of buttons. Please see
 ## the gui documentation for the kinds of buttons available, and what each is
 ## used for.
 ##
 ## These customizations are used by the default interface:
 
-define gui.radio_button_borders = Borders(12, 3, 3, 3)
+define gui.radio_button_borders = Borders(12, 3, 3, 15)
+define gui.radio_button_height = 32
 
-define gui.check_button_borders = Borders(12, 3, 3, 3)
+define gui.check_button_borders = Borders(12, 3, 3, 15)
+define gui.check_button_height = 32
 
 define gui.confirm_button_text_xalign = 0.5
 
@@ -177,13 +178,6 @@ define gui.quick_button_borders = Borders(7, 3, 7, 0)
 define gui.quick_button_text_size = 10
 define gui.quick_button_text_idle_color = gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
-
-## You can also add your own customizations, by adding properly-named variables.
-## For example, you can uncomment the following line to set the width of a
-## navigation button.
-
-# define gui.navigation_button_width = 250
-
 
 ## File Slot Buttons ###########################################################
 ##
@@ -388,8 +382,14 @@ init python:
     @gui.variant
     def touch():
 
+        ## Font sizes.
         gui.skip_ypos = quick_button_height
         gui.scrollbar_size = 50
+
+        ## Change the size and spacing of various things.
+        gui.slider_size = 24
+        gui.navigation_spacing = 14
+        gui.pref_button_spacing = 10
 
     ## This changes the size and spacing of various GUI elements to ensure they
     ## are easily visible on phones.
@@ -399,10 +399,6 @@ init python:
         ## Font sizes.
         gui.text_size = small_text_size
         gui.name_text_size = small_name_text_size
-        gui.notify_text_size = 17
-        gui.interface_text_size = 20
-        gui.button_text_size = 20
-        gui.label_text_size = 23
 
         ## Adjust the location of the textbox.
         gui.textbox_height = small_textbox_height
@@ -411,13 +407,7 @@ init python:
         gui.dialogue_ypos = small_dialogue_ypos
         gui.dialogue_width = 798
 
-        ## Change the size and spacing of various things.
-        gui.slider_size = 24
-
-        gui.choice_button_text_size = choice_button_text_size_large
-
-        gui.navigation_spacing = 14
-        gui.pref_button_spacing = 7
+        gui.choice_button_text_size = small_choice_button_text_size
 
         gui.history_height = 125
         gui.history_text_width = 453

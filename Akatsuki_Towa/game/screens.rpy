@@ -303,7 +303,6 @@ screen navigation():
         spacing gui.navigation_spacing
 
         if main_menu:
-             
             textbutton _("Scene Select"):
                 action ShowMenu("episodelist")
 
@@ -316,10 +315,6 @@ screen navigation():
             textbutton _("Scene Select") action EndReplay(confirm=True)
 
         textbutton _("History") action ShowMenu("history")
-
-#            textbutton _("Save") action ShowMenu("save")
-
-#        textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
