@@ -6,7 +6,7 @@ from pathlib import Path
 # but I figure it's better than what it was before
 direc = Path(__file__).resolve().parent
 scriptdirec = direc / 'MonoBehaviour'
-outdirec = Path.cwd() / 'Renpy_scripts'
+outdirec = direc / 'Renpy_scripts'
 episodelist = outdirec / 'episodelist.json'
 
 #EX TEXT DICT
