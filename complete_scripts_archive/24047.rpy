@@ -1,0 +1,24 @@
+label avg24047:
+stop music
+
+scene placeholderbackground
+with fade
+c0 '[textdict[1200200]]'
+show oc002_01 2 as c2portrait at centerpos(-3), zorder 5
+c23 '[textdict[1200201]]'
+hide c2portrait
+c10153 '[textdict[1200202]]'
+show oc002_01 4 as c2portrait at centerpos(-3), zorder 5
+c23 '[textdict[1200203]]'
+hide c2portrait
+show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
+c13 '[textdict[1200204]]'
+hide c1portrait
+c10153 '[textdict[1200205]]'
+show oc001_01 7 as c1portrait at centerpos(-2), zorder 5
+c13 '[textdict[1200206]]'
+hide c1portrait
+c10153 '[textdict[1200207]]'
+show oc001_01 1 as c1portrait at centerpos(-2), zorder 5
+c13 '[textdict[1200208]]'
+return

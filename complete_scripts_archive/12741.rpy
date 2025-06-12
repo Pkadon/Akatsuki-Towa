@@ -1,0 +1,47 @@
+label avg12741:
+stop music
+
+play music "ed7105.ogg"
+scene avg_bg_203
+with fade
+c0 '[textdict[1172905]]'
+c0 '[textdict[1172906]]'
+show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+c13 '[textdict[1172907]]'
+hide c1portrait
+show oc001_01 4 as c1portrait at darkright(-2), zorder 5
+show oc003_01 4 as c3portrait at leftside(-6), zorder 5
+c31 '[textdict[1172908]]'
+hide c3portrait
+hide c1portrait
+show oc001_01 4 as c1portrait at darkright(-2), zorder 5
+show oc003_01 17 as c3portrait at leftside(-6), zorder 5
+c31 '[textdict[1172909]]'
+hide c1portrait
+hide c3portrait
+show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
+show oc001_01 2 as c1portrait at rightside(-2), zorder 5
+c13 '[textdict[1172910]]'
+hide c3portrait
+hide c1portrait
+show oc001_01 2 as c1portrait at darkright(-2), zorder 5
+show oc003_01 16 as c3portrait at leftside(-6), zorder 5
+c31 '[textdict[1172911]]'
+hide c3portrait
+hide c1portrait
+show oc001_01 2 as c1portrait at darkright(-2), zorder 5
+show oc003_01 1 as c3portrait at leftside(-6), zorder 5
+c31 '[textdict[1172912]]'
+play sfx2 "fight_6024.ogg"
+hide c1portrait
+hide c3portrait
+show oc003_01 1 as c3portrait at darkleft(-6), zorder 6
+show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+c13 '[textdict[1172913]]' with shake
+play sfx2 "fight_6025.ogg"
+hide c3portrait
+hide c1portrait
+show oc001_01 4 as c1portrait at darkright(-2), zorder 5
+show oc003_01 4 as c3portrait at leftside(-6), zorder 5
+c31 '[textdict[1172914]]'
+return
