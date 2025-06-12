@@ -16,7 +16,7 @@ scene avg_bg_518
 python:
     while True:
         renpy.show_screen("inputdescription")
-        avgcode = renpy.input("ENTER HERE: ")
+        avgcode = renpy.input("{color=#fff}ENTER HERE: {/color}")
 
         if avgcode == '':
             renpy.hide_screen("inputdescription")
