@@ -1,14 +1,14 @@
 # Akatsuki-Towa
 ## This is a Ren'Py project to recreate Akatsuki no Kiseki cutscenes
 
- - [Setup](https://github.com/Pkadon/Akatsuki-Towa#setup)
- - [Build](https://github.com/Pkadon/Akatsuki-Towa#build)
- - [Add Typewriter Sound Effect](https://github.com/Pkadon/Akatsuki-Towa#adding-typewriter-sound-effect-back-in)
- - [Accuracy](https://github.com/Pkadon/Akatsuki-Towa#accuracy)
- - [Translation](https://github.com/Pkadon/Akatsuki-Towa#translation)
-   - [Translation File Generator](https://github.com/Pkadon/Akatsuki-Towa#translation-file-generation-experimental)
- - [Mobile](https://github.com/Pkadon/Akatsuki-Towa#mobile-version)
- - [Thanks](https://github.com/Pkadon/Akatsuki-Towa#extra-special-thanks)
+ - [Setup](#setup)
+ - [Build](#build)
+ - [Add Typewriter Sound Effect](#adding-typewriter-sound-effect-back-in)
+ - [Accuracy](#accuracy)
+ - [Translation](#translation)
+   - [Translation File Generator](#translation-file-generation-experimental)
+ - [Mobile](#mobile-version)
+ - [Thanks](#extra-special-thanks)
 ---
 # Setup
 **DOES NOT INCLUDE ANY GAME FILES**
