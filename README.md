@@ -7,6 +7,7 @@
  - [Accuracy](https://github.com/Pkadon/Akatsuki-Towa#accuracy)
  - [Translation](https://github.com/Pkadon/Akatsuki-Towa#translation)
    - [Translation File Generator](https://github.com/Pkadon/Akatsuki-Towa#translation-file-generation-experimental)
+ - [Mobile](https://github.com/Pkadon/Akatsuki-Towa#mobile-version)
  - [Thanks](https://github.com/Pkadon/Akatsuki-Towa#extra-special-thanks)
 ---
 # Setup
@@ -47,10 +48,11 @@ Pleace replace them with the actual files.
 # Build
 
 To build into an .exe:
- 1. Download Ren'Py from here: https://www.renpy.org/
- 2. Place this folder in your Ren'Py projects folder
+ 1. Get the Ren'Py SDK here: https://www.renpy.org/latest.html
+ 2. Download the Akatsuki Towa source code, and move the [Akatsuki_Towa](Akatsuki_Towa) folder to your Ren'Py projects folder.
+ 3. Add the original game asset files, as described in the [Setup](#Setup) section
      - then build it from the "Build Distributions" menu within Ren'Py.
-     - or, you can just "Launch Project" from inside Ren'Py.
+     - or, you can just "Launch Project" from inside Ren'Py, and play the game that way.
 
 NOTE: if you get an error when launching that says Ren'Py can't find a file, it may be because the `game` folder is inside of too many other folders.  Try moving it up one level, outside of the parent folder.
 
@@ -117,7 +119,9 @@ but you could change the order that they are added together from within `4_make_
    - uses `avg_role.json`, `bgm.json`, `sfx.json`, `voice.json`
    - reads the avg json files in the `generate_scripts/MonoBehaviour` folder to create .rpy scripts for Akatsuki Towa.
 
-**PLEASE NOTE:** Not all generated scripts will be accessible from Akatsuki Towa's in-game menu, but they can be manually played by clicking the "Jump" button on the left side of the "Scene Select" menu, and entering the cutscene file's number in the box.
+**PLEASE NOTE:** Not all generated scripts will be accessible from Akatsuki Towa by default.
+Scenes not accessible from the Scene Select menu have been removed from the default build folder to reduce load time.  The complete set of cutscene script files can be found in [this folder](complete_scripts_archive).  Move any or all of the `.rpy` files you are interested in into your `game/scripts` folder. 
+Then they can be manually played from within Akatsuki Towa by clicking the "Jump" button on the left side of the "Scene Select" menu, and entering the cutscene file's number in the box.
 
 ---
 ## Adding typewriter sound effect back in
@@ -139,10 +143,10 @@ Everything was done with the goal of being as accurate as possible, but nothing 
    - Story cutscenes were originally sorted using original files, so should be correctly labeled
    - Training:
      - "訓練" cutscenes were originally sorted using original files, so should be correctly labeled
-     - "イベント" cutscenes were sorted by hand, and their current placement can be found inside `generate_scripts/extra_json/EX12_event.json`
+     - "イベント" cutscenes were sorted by hand, and their current placement can be found inside [generate_scripts/extra_json/EX12_event.json](generate_scripts/extra_json/EX12_event.json)
        - most "イベント" scenes are not labeled with their original title, but instead defaulting to the overall event's title if it wasn't 100% sure
-   - pretty much everything else was sorted by hand, and its current placement can be found inside one of the other json files in `generate_scripts/extra_json/`
-     - Especially for unused scenes in `generate_scripts/extra_json/EX15_unused.json`, there is no documentation or video reference to use, and some scenes are numbered out of order, so take placement and scene titles with a grain of salt 
+   - pretty much everything else was sorted by hand, and its current placement can be found inside one of the other json files in [generate_scripts/extra_json](generate_scripts/extra_json/)
+     - Especially for unused scenes in [generate_scripts/extra_json/EX15_unused.json](generate_scripts/extra_json/EX15_unused.json), there is no documentation or video reference to use, and some scenes were originally numbered out of order, so take placement and scene titles with a grain of salt 
 
  - **Character Sprites**:
    - bodies:
@@ -160,7 +164,7 @@ Everything was done with the goal of being as accurate as possible, but nothing 
    - backgrounds should change when they are supposed to
      - some transitions are still slightly off (background/character sprite/text box appearing/disappearing in a different order from the original game)
    - animations don't use any values from game files and are "made up"
-   - "memory" overlay was created with GIMP, and is not 100% accurate to the original game
+   - "memory" overlay was recreated with GIMP, and is not 100% accurate to the original game.
    - "typewriter" sound effect is disabled by default. (see [enabletypewritersound.rpy](#enabletypewritersound.rpy)
 
 ---
@@ -252,6 +256,18 @@ in `generate_scripts\MonoBehaviour`:
 
 in `generate_scripts\Renpy_scripts`:
  - `episodelist.json`
+
+---
+## Mobile Version?
+I believe that the menu buttons and text sizes and everything have been optimized for mobile devices.  Due to my unwillingness to supply game assets from this repository, and the unnecessary complications that would come from having to expect a regular user to unpack and then repack any "clean" APK file I could make, a prebuilt APK will not ever be provided here.
+
+You can build your own copy, though. (just don't put ads in it or upload it to an app store please)
+ 1. Get the Ren'Py SDK: https://www.renpy.org/latest.html
+ 2. Download the Akatsuki Towa source code, and move the [Akatsuki_Towa](Akatsuki_Towa) folder to your Ren'Py projects folder.
+ 3. Add the original game asset files, as described in the [Setup](#Setup) section
+ 4. Then you should be able to proceed with the mobile build instructions from Ren'Py: 
+   - [Android](https://www.renpy.org/doc/html/android.html#building-android-applications)
+   - [iOS](https://www.renpy.org/doc/html/ios.html#packaging) (sorry, I am unable to test or help with any iOS stuff)
 
 ---
 # EXTRA-SPECIAL THANKS
