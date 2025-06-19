@@ -14,11 +14,9 @@ init python:
 ## Enable checks for invalid or unstable properties in screens or transforms
 define config.check_conflicting_properties = True
 
-
 ################################################################################
 ## GUI Configuration Variables
 ################################################################################
-
 
 ## Colors ######################################################################
 ##
@@ -55,15 +53,6 @@ define gui.interface_text_color = '#404040'
 
 
 ## Fonts and Font Sizes ########################################################
-
-## The font used for in-game text.
-define gui.text_font = "font/NotoSansJP-Regular.ttf"
-
-## The font used for character names.
-define gui.name_text_font = "font/NotoSansJP-Regular.ttf"
-
-## The font used for out-of-game text.
-define gui.interface_text_font = "font/NotoSansJP-Regular.ttf"
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 20
@@ -141,9 +130,6 @@ define gui.button_borders = Borders(3, 3, 3, 3)
 ## If True, the background image will be tiled. If False, the background image
 ## will be linearly scaled.
 define gui.button_tile = False
-
-## The font used by the button.
-define gui.button_text_font = gui.interface_text_font
 
 ## The size of the text used by the button.
 define gui.button_text_size = gui.interface_text_size

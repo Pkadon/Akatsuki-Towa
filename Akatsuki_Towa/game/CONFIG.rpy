@@ -36,6 +36,24 @@ define config.window_icon = "icon/FormIcon.jpg"
 default preferences.text_cps = 20
 
 init python early:
+#########
+# Font
+#########
+### If you don't need separate fonts for everything, just change this one:
+    font = "font/NotoSansJP-Regular.ttf"
+
+### The font used for in-game text.
+    gui.text_font = font
+
+### The font used for character names.
+    gui.name_text_font = font
+
+### The font used for out-of-game text.
+    gui.interface_text_font = font
+
+### The font used by the button.
+    gui.button_text_font = font
+
 #################################################################
 # Dialogue Window
 #################################################################
