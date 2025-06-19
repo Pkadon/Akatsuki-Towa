@@ -10,7 +10,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "2.4"
+define config.version = "2.5"
 
 
 ## Sounds and music ############################################################
