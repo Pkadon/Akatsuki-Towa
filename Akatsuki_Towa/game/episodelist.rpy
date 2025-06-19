@@ -18,6 +18,7 @@ init python:
         pagewidth = touch_pagewidth
         pageheight = touch_pageheight
         pagetextsize = touch_pagetextsize
+        pagecolumns = touch_pagecolumns
 
         logtextsize = touch_logtextsize
 
@@ -162,14 +163,12 @@ screen quest(data):
                 scrollbars "vertical"
                 vscrollbar_unscrollable "hide"
 
-                if renpy.variant('touch'):
-                    $rows = len(data['scenes'])
-                    $columns = 1
+                if pagecolumns == 1:
+                    $pagerows = len(data['scenes'])
                 else:
-                    $rows = -(len(data['scenes']) // -2)
-                    $columns = 2
+                    $pagerows = -(len(data['scenes']) // (-pagecolumns))
 
-                grid columns rows:
+                grid pagecolumns pagerows:
                     for scene in data['scenes']:
                         button:
                             xysize (pagewidth,pageheight)

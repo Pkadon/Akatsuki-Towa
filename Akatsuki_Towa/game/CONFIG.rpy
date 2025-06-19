@@ -133,6 +133,11 @@ init python early:
     pagetextsize = 18
     touch_pagetextsize = 27
 
+### Number of columns to separate bookpage buttons into
+### (recommended 1 or 2, will require resizing)
+    pagecolumns = 2
+    touch_pagecolumns = 1
+
 
 # The questlog window that appears when you click a "Log" button
 #==================================================================
