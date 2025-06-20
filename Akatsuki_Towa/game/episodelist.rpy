@@ -5,6 +5,16 @@ init python:
         else:
             return str(key)
 
+    def fit_text(text, original_size, max_dimensions, color=gui.text_color):
+        sized = Text(text, size=original_size, color=color, text_align=0.5)
+        while sized.size()[0] > max_dimensions[0] or sized.size()[1] > max_dimensions[1]:
+            #Guardrail to not let it get too crazy small
+            if original_size <= 10: break
+
+            original_size -= 1
+            sized = Text(text, size=original_size, color=color, text_align=0.5)
+        return sized
+
     if renpy.variant('touch'):
     # Both the PC and Mobile values can be set in CONFIG.rpy
         backbutton_width = touch_backbutton_width 
@@ -68,12 +78,16 @@ screen episodelist():
                         xysize (tabwidth,tabheight)
                         xpos 2
                         background Frame("booktab1")
-                        bottom_padding 4
-                        $chaptername = convertstrid(chapter['chaptername'])
-                        text chaptername:
+ 
+                        python:
+                            chaptername = convertstrid(chapter['chaptername'])
+                            chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
+                            chaptername_center = int(chaptername_fit.size()[1]*.55)
+                        text chaptername_fit:
                             xalign (0.5)
-                            ypos -2
-                            size tabtextsize
+                            yanchor chaptername_center
+                            ypos 0.5
+
                     vpgrid:
                         cols 1
                         xsize (tabwidth + gui.scrollbar_size)
@@ -86,17 +100,19 @@ screen episodelist():
                             button:
                                 xysize (tabwidth,tabheight)
                                 background Frame("booktab2")
-                                bottom_padding 4
                                 action ShowMenu("quest", quest)
 
                                 python:
                                     questname = convertstrid(quest['questname'])
                                     if quest['add']: questname += quest['add']
 
-                                text questname:
+                                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                                    questname_center = int(questname_fit.size()[1]*.55)
+
+                                text questname_fit:
                                     xalign 0.5
-                                    ypos -2
-                                    size tabtextsize
+                                    yanchor questname_center
+                                    ypos 0.5
 
 # The next menu you see after clicking a silver button
 screen quest(data):
@@ -145,16 +161,17 @@ screen quest(data):
                     xpos pagewidth
 
                 background Frame("booktab2")
-                bottom_padding 4
-
                 python:
                     questname = convertstrid(data['questname'])
                     if data['add']: questname += data['add']
 
-                text questname:
-                    xalign (0.5)
-                    ypos -2
-                    size tabtextsize
+                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                    questname_center = int(questname_fit.size()[1]*.55)
+
+                text questname_fit:
+                    xalign 0.5
+                    yanchor questname_center
+                    ypos 0.5
 
             viewport:
                 xsize (840 - side_width)
@@ -182,20 +199,24 @@ screen quest(data):
                                 scenename = convertstrid(scene['scenename'])
                                 if scene['add']: scenename += scene['add']
 
+                                scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), color="#710905")
+
                                 #"info" text underneath
-                                if scene['sceneinfo']: info = convertstrid(scene['sceneinfo'])
+                                if scene['sceneinfo']: 
+                                    info = convertstrid(scene['sceneinfo'])
+                                    info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), color="#34374b")
                                 else: info = None
 
                             vbox:
                                 align (0.5,0.5)
-                                text scenename:
+                                text scenename_fit:
                                     xalign 0.5
                                     text_align 0.5
                                     size pagetextsize
                                     color "#710905" #adds a red color to scene title text
 
                                 if info:
-                                    text info:
+                                    text info_fit:
                                         xalign 0.5
                                         text_align 0.5
                                         size (pagetextsize - 2)
