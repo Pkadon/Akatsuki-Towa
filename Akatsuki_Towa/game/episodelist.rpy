@@ -225,56 +225,52 @@ screen quest(data):
                 text_style "tabbutton_text"
                 text_yanchor questname_center
 
-            viewport:
+            vpgrid:
+                cols pagecolumns
                 xsize (840 - side_width)
                 draggable True
                 mousewheel True
                 scrollbars "vertical"
                 vscrollbar_unscrollable "hide"
 
-                if pagecolumns == 1:
-                    $pagerows = len(data['scenes'])
-                else:
-                    $pagerows = -(len(data['scenes']) // (-pagecolumns))
-                grid pagecolumns pagerows:
-                    # "Bookpage" buttons that play s cutscene when clicked
-                    for scene in data['scenes']:
-                        button:
-                            xysize (pagewidth,pageheight)
-                            left_padding 4
-                            right_padding 20
-                            background Frame("bookpage", 35, 35)
-                            action Replay(scene['avg'], locked=False)
+                # "Bookpage" buttons that play s cutscene when clicked
+                for scene in data['scenes']:
+                    button:
+                        xysize (pagewidth,pageheight)
+                        left_padding 4
+                        right_padding 20
+                        background Frame("bookpage", 35, 35)
+                        action Replay(scene['avg'], locked=False)
 
-                            python:
-                                if 'scenename_fit' not in scene:
-                                    #title text
-                                    scenename = convertstrid(scene['scenename'])
-                                    if scene['add']: scenename += scene['add']
+                        python:
+                            if 'scenename_fit' not in scene:
+                                #title text
+                                scenename = convertstrid(scene['scenename'])
+                                if scene['add']: scenename += scene['add']
 
-                                    scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), color="#710905")
+                                scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), color="#710905")
 
-                                    #"info" text underneath
-                                    if scene['sceneinfo']: 
-                                        info = convertstrid(scene['sceneinfo'])
-                                        info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), color="#34374b")
-                                    else: info = None
+                                #"info" text underneath
+                                if scene['sceneinfo']: 
+                                    info = convertstrid(scene['sceneinfo'])
+                                    info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), color="#34374b")
+                                else: info_fit = None
 
-                                    scene['scenename_fit'] = scenename_fit
-                                    scene['info_fit'] = info_fit
+                                scene['scenename_fit'] = scenename_fit
+                                scene['info_fit'] = info_fit
 
-                                else:
-                                    scenename_fit = scene['scenename_fit']
-                                    info_fit = scene['info_fit']
+                            else:
+                                scenename_fit = scene['scenename_fit']
+                                info_fit = scene['info_fit']
 
-                            vbox:
-                                align (0.5,0.5)
-                                text scenename_fit:
+                        vbox:
+                            align (0.5,0.5)
+                            text scenename_fit:
+                                xalign 0.5
+
+                            if info_fit:
+                                text info_fit:
                                     xalign 0.5
-
-                                if info_fit:
-                                    text info_fit:
-                                        xalign 0.5
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
