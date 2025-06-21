@@ -97,9 +97,19 @@ screen episodelist():
                 vbox:
                     # Gold chapter label button
                     python:
-                        chaptername = convertstrid(chapter['chaptername'])
-                        chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
-                        chaptername_center = int(chaptername_fit.size()[1]*.55)
+                        if 'chaptername_fit' not in chapter:
+                            chaptername = convertstrid(chapter['chaptername'])
+                            chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
+                            chaptername_center = int(chaptername_fit.size()[1]*.55)
+
+                            # Cache the result:
+                            chapter['chaptername_fit'] = chaptername_fit
+                            chapter['chaptername_center'] = chaptername_center
+
+                        else:
+                            chaptername_fit = chapter['chaptername_fit']
+                            chaptername_center = chapter['chaptername_center']
+
                     textbutton chaptername_fit:
                         style "goldtab"
                         xpos 2
@@ -118,11 +128,21 @@ screen episodelist():
                         # Silver tab buttons that open "quest" menu
                         for quest in chapter['quests']:
                             python:
-                                questname = convertstrid(quest['questname'])
-                                if quest['add']: questname += quest['add']
+                                if 'questname_fit' not in quest:
+                                    questname = convertstrid(quest['questname'])
+                                    if quest['add']: questname += quest['add']
 
-                                questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
-                                questname_center = int(questname_fit.size()[1]*.55)
+                                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                                    questname_center = int(questname_fit.size()[1]*.55)
+
+                                    # Cache the result:
+                                    quest['questname_fit'] = questname_fit
+                                    quest['questname_center'] = questname_center
+
+                                else:
+                                    questname_fit = quest['questname_fit']
+                                    questname_center = quest['questname_center']
+
                             textbutton questname_fit:
                                 style "silvertab"
                                 text_style "tabbutton_text"
@@ -158,8 +178,18 @@ screen quest(data):
             vbox:
                 # Left sidebar "Log" buttons
                 for log in data['logs']:
-                    $lognumber = (data['logs'].index(log) + 1)
-                    textbutton "[logtext] [lognumber]":
+                    python:
+                        if 'loglabel' not in log:
+                            lognumber = (data['logs'].index(log) + 1)
+                            loglabel = f'{logtext} {lognumber}'
+
+                            # Cache the result
+                            log['loglabel'] = loglabel
+
+                        else:
+                            loglabel = log['loglabel']
+
+                    textbutton loglabel:
                         style "backbutton"
                         text_style "backbutton_text"
                         action ShowMenu("questlog", log)
@@ -170,11 +200,21 @@ screen quest(data):
 
             # Silver tab quest name label at the top of the screen
             python:
-                questname = convertstrid(data['questname'])
-                if data['add']: questname += data['add']
+                if 'questname_fit' not in data:
+                    questname = convertstrid(data['questname'])
+                    if data['add']: questname += quest['add']
 
-                questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
-                questname_center = int(questname_fit.size()[1]*.55)
+                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                    questname_center = int(questname_fit.size()[1]*.55)
+
+                    # Cache the result:
+                    data['questname_fit'] = questname_fit
+                    data['questname_center'] = questname_center
+
+                else:
+                    questname_fit = data['questname_fit']
+                    questname_center = data['questname_center']
+
             textbutton questname_fit:
                 style "silvertab"
                 xanchor 0.5
@@ -233,18 +273,25 @@ screen questlog(data):
     default fulltext = ''
     default prefix = ''
     python:
-        if data['type'] == 1: prefix = logmain + ' '
-        elif data['type'] == 2: prefix = logsub + ' '
-        elif data['type'] == 16: prefix = logdaily + ' '
 
-        fulltext += prefix + textdict[data['title']] + '\n'
-        fulltext += loglevel + ' ' + str(data['level']) + '\n'
-        fulltext += logclient + ' ' + textdict[data['client']] + '\n'
-        fulltext += logdetails + ' ' + textdict[data['details']] + '\n'
+        if 'fulltext' not in data:
+            if data['type'] == 1: prefix = logmain + ' '
+            elif data['type'] == 2: prefix = logsub + ' '
+            elif data['type'] == 16: prefix = logdaily + ' '
+
+            fulltext += prefix + textdict[data['title']] + '\n'
+            fulltext += loglevel + ' ' + str(data['level']) + '\n'
+            fulltext += logclient + ' ' + textdict[data['client']] + '\n'
+            fulltext += logdetails + ' ' + textdict[data['details']] + '\n'
         
-        for step in data['steps']:
-            fulltext += ' ' + logbullet + ' ' + textdict[step] + '\n'
-        
+            for step in data['steps']:
+                fulltext += ' ' + logbullet + ' ' + textdict[step] + '\n'
+
+            data['fulltext'] = fulltext
+
+        else:
+            fulltext = data['fulltext']
+
     modal True
     window:
         xysize (840,480)
@@ -268,7 +315,7 @@ screen questlog(data):
                 xsize (840 - backbutton_width - gui.scrollbar_size)
                 left_padding 20
                 right_padding 20
-                text "[fulltext]":
+                text fulltext:
                     yalign 0.2
                     text_align 0
                     size logtextsize
