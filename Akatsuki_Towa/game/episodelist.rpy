@@ -35,12 +35,27 @@ init python:
 
     # Style used for all buttons on the left sidebar, including the "Back" button
     style.backbutton = Style("button")
-    style.backbutton.xysize = (backbutton_width,backbutton_height)
     style.backbutton.background = Frame("backbutton", 16, 16)
+    style.backbutton.xysize = (backbutton_width,backbutton_height)
 
     style.backbutton_text = Style("text")
     style.backbutton_text.align = (0.5, 1.0)
     style.backbutton_text.size = backbutton_textsize
+
+    # Styles used for the gold and silver "booktab" buttons/labels
+    style.tabbutton = Style("button")
+    style.tabbutton.xysize = (tabwidth,tabheight)
+
+    style.tabbutton_text = Style("text")
+    style.tabbutton_text.xalign = 0.5
+    style.tabbutton_text.ypos = 0.5
+
+    style.goldtab = Style("tabbutton")
+    style.goldtab.background = Frame("booktab1")
+
+    style.silvertab = Style("tabbutton")
+    style.silvertab.background = Frame("booktab2")
+
 
 # The very first menu you see when you click the "Scene Select" button.
 screen episodelist():
@@ -51,7 +66,6 @@ screen episodelist():
         background "sceneselect"
         vbox:
             pos (0,0)
-
             # "Back" button
             textbutton backtext:
                 style "backbutton"
@@ -59,17 +73,15 @@ screen episodelist():
                 action Hide("episodelist")
 
             if not renpy.variant('touch'):
+                # "Jump" button
                 if add_jump_button:
-
-                    # "Jump" button
                     textbutton jumptext:
                         style "backbutton"
                         text_style "backbutton_text"
                         action Replay("codeinput", locked=False)
 
+                # "Sprite" button
                 if add_sprite_button:
-
-                    # "Sprite" button
                     textbutton spritetext:
                         style "backbutton"
                         text_style "backbutton_text"
@@ -79,21 +91,21 @@ screen episodelist():
             xpos backbutton_width
             xsize (840 - backbutton_width)
             scrollbars "horizontal"
+
+            # Create a separate column for each chapter/category
             for chapter in menudata:
                 vbox:
-                    button:
-                        xysize (tabwidth,tabheight)
+                    # Gold chapter label button
+                    python:
+                        chaptername = convertstrid(chapter['chaptername'])
+                        chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
+                        chaptername_center = int(chaptername_fit.size()[1]*.55)
+                    textbutton chaptername_fit:
+                        style "goldtab"
                         xpos 2
-                        background Frame("booktab1")
- 
-                        python:
-                            chaptername = convertstrid(chapter['chaptername'])
-                            chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
-                            chaptername_center = int(chaptername_fit.size()[1]*.55)
-                        text chaptername_fit:
-                            xalign (0.5)
-                            yanchor chaptername_center
-                            ypos 0.5
+                        text_style "tabbutton_text"
+                        text_yanchor chaptername_center
+                            
 
                     vpgrid:
                         cols 1
@@ -103,23 +115,23 @@ screen episodelist():
                         scrollbars "vertical"
                         vscrollbar_unscrollable "hide"
   
+                        # Silver tab buttons that open "quest" menu
                         for quest in chapter['quests']:
-                            button:
-                                xysize (tabwidth,tabheight)
-                                background Frame("booktab2")
+                            python:
+                                questname = convertstrid(quest['questname'])
+                                if quest['add']: questname += quest['add']
+
+                                questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                                questname_center = int(questname_fit.size()[1]*.55)
+                            textbutton questname_fit:
+                                style "silvertab"
+                                text_style "tabbutton_text"
+                                text_yanchor questname_center
                                 action ShowMenu("quest", quest)
 
-                                python:
-                                    questname = convertstrid(quest['questname'])
-                                    if quest['add']: questname += quest['add']
 
-                                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
-                                    questname_center = int(questname_fit.size()[1]*.55)
 
-                                text questname_fit:
-                                    xalign 0.5
-                                    yanchor questname_center
-                                    ypos 0.5
+
 
 # The next menu you see after clicking a silver button
 screen quest(data):
@@ -144,40 +156,34 @@ screen quest(data):
             scrollbars "vertical"
             vscrollbar_unscrollable "hide"
             vbox:
+                # Left sidebar "Log" buttons
                 for log in data['logs']:
                     $lognumber = (data['logs'].index(log) + 1)
-                    button:
-                        xysize(backbutton_width,backbutton_height)
-                        background Frame("backbutton", 16, 16)
-                        text "[logtext] [lognumber]":
-                            align (0.5,1.0)
-                            size backbutton_textsize
+                    textbutton "[logtext] [lognumber]":
+                        style "backbutton"
+                        text_style "backbutton_text"
                         action ShowMenu("questlog", log)
 
         vbox:
             xpos side_width + 3
             xsize (840 - side_width)
-            button:
-                xysize (tabwidth,tabheight)
-                xanchor 0.5
 
+            # Silver tab quest name label at the top of the screen
+            python:
+                questname = convertstrid(data['questname'])
+                if data['add']: questname += data['add']
+
+                questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                questname_center = int(questname_fit.size()[1]*.55)
+            textbutton questname_fit:
+                style "silvertab"
+                xanchor 0.5
                 if renpy.variant('touch'):
                     xpos (pagewidth//2)
                 else:
                     xpos pagewidth
-
-                background Frame("booktab2")
-                python:
-                    questname = convertstrid(data['questname'])
-                    if data['add']: questname += data['add']
-
-                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
-                    questname_center = int(questname_fit.size()[1]*.55)
-
-                text questname_fit:
-                    xalign 0.5
-                    yanchor questname_center
-                    ypos 0.5
+                text_style "tabbutton_text"
+                text_yanchor questname_center
 
             viewport:
                 xsize (840 - side_width)
@@ -190,8 +196,8 @@ screen quest(data):
                     $pagerows = len(data['scenes'])
                 else:
                     $pagerows = -(len(data['scenes']) // (-pagecolumns))
-
                 grid pagecolumns pagerows:
+                    # "Bookpage" buttons that play s cutscene when clicked
                     for scene in data['scenes']:
                         button:
                             xysize (pagewidth,pageheight)
@@ -217,16 +223,10 @@ screen quest(data):
                                 align (0.5,0.5)
                                 text scenename_fit:
                                     xalign 0.5
-                                    text_align 0.5
-                                    size pagetextsize
-                                    color "#710905" #adds a red color to scene title text
 
                                 if info:
                                     text info_fit:
                                         xalign 0.5
-                                        text_align 0.5
-                                        size (pagetextsize - 2)
-                                        color "#34374b" #adds a dark blue color to info text
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
