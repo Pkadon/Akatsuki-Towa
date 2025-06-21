@@ -5,15 +5,26 @@ init python:
         else:
             return str(key)
 
-    def fit_text(text, original_size, max_dimensions, color=gui.text_color):
-        sized = Text(text, size=original_size, color=color, text_align=0.5)
+    def fit_text(text, original_size, max_dimensions, ret_val='text'):
+        sized = Text(text, size=original_size, text_align=0.5)
         while sized.size()[0] > max_dimensions[0] or sized.size()[1] > max_dimensions[1]:
             #Guardrail to not let it get too crazy small
             if original_size <= 10: break
 
             original_size -= 1
-            sized = Text(text, size=original_size, color=color, text_align=0.5)
-        return sized
+            sized = Text(text, size=original_size, text_align=0.5)
+
+        if ret_val == 'text':
+            return sized
+        elif ret_val == 'size':
+            return original_size
+
+    def add_text_tags(text, tags):
+        for tag, val in tags:
+            front_tag = '{' + f'{tag}={val}' + '}'
+            end_tag = '{/' + tag + '}'
+            text = front_tag + text + end_tag
+        return text
 
     if renpy.variant('touch'):
     # Both the PC and Mobile values can be set in CONFIG.rpy
@@ -244,33 +255,34 @@ screen quest(data):
 
                         python:
                             if 'scenename_fit' not in scene:
-                                #title text
+                                # Title text
                                 scenename = convertstrid(scene['scenename'])
                                 if scene['add']: scenename += scene['add']
 
-                                scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), color="#710905")
+                                # Only receives the calculated text size number
+                                # so it can be applied separately for the title text and the info text
+                                scenename_size = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), ret_val='size')
+                                scenename_fit = add_text_tags(scenename, ( ('size', scenename_size), ('color', '#710905') ) )
 
                                 #"info" text underneath
                                 if scene['sceneinfo']: 
+                                    # Info text
                                     info = convertstrid(scene['sceneinfo'])
-                                    info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), color="#34374b")
-                                else: info_fit = None
 
+                                    info_size = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), ret_val='size')
+                                    info_fit = add_text_tags(info, ( ('size', info_size), ('color', '#34374b') ) )
+
+                                    scenename_fit += f'\n{info_fit}'
+
+                                # Cache the result
                                 scene['scenename_fit'] = scenename_fit
-                                scene['info_fit'] = info_fit
 
                             else:
                                 scenename_fit = scene['scenename_fit']
-                                info_fit = scene['info_fit']
 
-                        vbox:
-                            align (0.5,0.5)
-                            text scenename_fit:
-                                xalign 0.5
-
-                            if info_fit:
-                                text info_fit:
-                                    xalign 0.5
+                        text scenename_fit:
+                            align (0.5, 0.5)
+                            text_align 0.5
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
