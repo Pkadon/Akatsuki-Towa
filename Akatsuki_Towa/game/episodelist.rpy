@@ -32,6 +32,16 @@ init python:
 
         logtextsize = touch_logtextsize
 
+
+    # Style used for all buttons on the left sidebar, including the "Back" button
+    style.backbutton = Style("button")
+    style.backbutton.xysize = (backbutton_width,backbutton_height)
+    style.backbutton.background = Frame("backbutton", 16, 16)
+
+    style.backbutton_text = Style("text")
+    style.backbutton_text.align = (0.5, 1.0)
+    style.backbutton_text.size = backbutton_textsize
+
 # The very first menu you see when you click the "Scene Select" button.
 screen episodelist():
     default chaptername = ''
@@ -41,31 +51,28 @@ screen episodelist():
         background "sceneselect"
         vbox:
             pos (0,0)
-            button:
-                xysize(backbutton_width,backbutton_height)
-                background Frame("backbutton", 16, 16)
-                text backtext:
-                    align (0.5, 1.0)
-                    size backbutton_textsize
+
+            # "Back" button
+            textbutton backtext:
+                style "backbutton"
+                text_style "backbutton_text"
                 action Hide("episodelist")
 
             if not renpy.variant('touch'):
                 if add_jump_button:
-                    button:
-                        xysize(backbutton_width,backbutton_height)
-                        background Frame("backbutton", 16, 16)
-                        text jumptext:
-                            align (0.5, 1.0)
-                            size backbutton_textsize
+
+                    # "Jump" button
+                    textbutton jumptext:
+                        style "backbutton"
+                        text_style "backbutton_text"
                         action Replay("codeinput", locked=False)
 
                 if add_sprite_button:
-                    button:
-                        xysize(backbutton_width,backbutton_height)
-                        background Frame("backbutton", 16, 16)
-                        text spritetext:
-                            align (0.5, 1.0)
-                            size backbutton_textsize
+
+                    # "Sprite" button
+                    textbutton spritetext:
+                        style "backbutton"
+                        text_style "backbutton_text"
                         action Replay("spritetest", locked=False)
         vpgrid:
             rows 1
@@ -120,12 +127,11 @@ screen quest(data):
     window:
         xysize (840,480)
         background "sceneselect"
-        button:
-            xysize(backbutton_width,backbutton_height)
-            background Frame("backbutton", 16, 16)
-            text backtext:
-                align (0.5,1.0)
-                size backbutton_textsize
+
+        # "Back" button
+        textbutton backtext:
+            style "backbutton"
+            text_style "backbutton_text"
             action Hide("quest")
 
         $side_width = (backbutton_width + gui.scrollbar_size)
@@ -243,13 +249,13 @@ screen questlog(data):
     window:
         xysize (840,480)
         background "sceneselect"
-        button:
-            xysize(backbutton_width,backbutton_height)
-            background Frame("backbutton", 16, 16)
-            text backtext:
-                align (0.5,1.0)
-                size backbutton_textsize
+
+        # "Back" button
+        textbutton backtext:
+            style "backbutton"
+            text_style "backbutton_text"
             action Hide("questlog")
+
         viewport:
             xpos backbutton_width
             xsize (840 - backbutton_width)
