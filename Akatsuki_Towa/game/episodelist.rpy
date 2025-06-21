@@ -247,24 +247,32 @@ screen quest(data):
                             action Replay(scene['avg'], locked=False)
 
                             python:
-                                #title text
-                                scenename = convertstrid(scene['scenename'])
-                                if scene['add']: scenename += scene['add']
+                                if 'scenename_fit' not in scene:
+                                    #title text
+                                    scenename = convertstrid(scene['scenename'])
+                                    if scene['add']: scenename += scene['add']
 
-                                scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), color="#710905")
+                                    scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), color="#710905")
 
-                                #"info" text underneath
-                                if scene['sceneinfo']: 
-                                    info = convertstrid(scene['sceneinfo'])
-                                    info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), color="#34374b")
-                                else: info = None
+                                    #"info" text underneath
+                                    if scene['sceneinfo']: 
+                                        info = convertstrid(scene['sceneinfo'])
+                                        info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), color="#34374b")
+                                    else: info = None
+
+                                    scene['scenename_fit'] = scenename_fit
+                                    scene['info_fit'] = info_fit
+
+                                else:
+                                    scenename_fit = scene['scenename_fit']
+                                    info_fit = scene['info_fit']
 
                             vbox:
                                 align (0.5,0.5)
                                 text scenename_fit:
                                     xalign 0.5
 
-                                if info:
+                                if info_fit:
                                     text info_fit:
                                         xalign 0.5
 
