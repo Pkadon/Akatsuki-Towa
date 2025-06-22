@@ -44,28 +44,39 @@ init python:
         logtextsize = touch_logtextsize
 
 
-    # Style used for all buttons on the left sidebar, including the "Back" button
-    style.backbutton = Style("button")
+    # Styles used for all buttons on the left sidebar, including the "Back" button
+    style.backbutton = Style('button')
     style.backbutton.background = Frame("backbutton", 16, 16)
     style.backbutton.xysize = (backbutton_width,backbutton_height)
 
-    style.backbutton_text = Style("text")
+    style.backbutton_text = Style('text')
     style.backbutton_text.align = (0.5, 1.0)
     style.backbutton_text.size = backbutton_textsize
 
     # Styles used for the gold and silver "booktab" buttons/labels
-    style.tabbutton = Style("button")
+    style.tabbutton = Style('button')
     style.tabbutton.xysize = (tabwidth,tabheight)
 
-    style.tabbutton_text = Style("text")
+    style.tabbutton_text = Style('text')
     style.tabbutton_text.xalign = 0.5
     style.tabbutton_text.ypos = 0.5
 
-    style.goldtab = Style("tabbutton")
+    style.goldtab = Style('tabbutton')
     style.goldtab.background = Frame("booktab1")
 
-    style.silvertab = Style("tabbutton")
-    style.silvertab.background = Frame("booktab2")
+    style.silvertab = Style('tabbutton')
+    style.silvertab.background = Frame('booktab2')
+
+    # Styles used for the "bookpage" buttons that play cutscenes when clicked
+    style.bookpage = Style('button')
+    style.bookpage.background = Frame("bookpage", 35, 35)
+    style.bookpage.xysize = (pagewidth,pageheight)
+    style.bookpage.padding = (4, 0, 20, 0) #(left, top, right, bottom)
+
+    style.bookpage_text = Style('text')
+    style.bookpage_text.align = (0.5, 0.5)
+    style.bookpage_text.text_align = 0.5
+
 
 
 # The very first menu you see when you click the "Scene Select" button.
@@ -126,7 +137,6 @@ screen episodelist():
                         xpos 2
                         text_style "tabbutton_text"
                         text_yanchor chaptername_center
-                            
 
                     vpgrid:
                         cols 1
@@ -159,8 +169,6 @@ screen episodelist():
                                 text_style "tabbutton_text"
                                 text_yanchor questname_center
                                 action ShowMenu("quest", quest)
-
-
 
 
 
@@ -246,50 +254,45 @@ screen quest(data):
 
                 # "Bookpage" buttons that play s cutscene when clicked
                 for scene in data['scenes']:
-                    button:
-                        xysize (pagewidth,pageheight)
-                        left_padding 4
-                        right_padding 20
-                        background Frame("bookpage", 35, 35)
+                    python:
+                        if 'scenename_fit' not in scene:
+                            # Title text
+                            scenename = convertstrid(scene['scenename'])
+                            if scene['add']: scenename += scene['add']
+
+                            # Only receives the calculated text size number
+                            # so it can be applied separately to the title text and the info text
+                            scenename_size = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), ret_val='size')
+                            scenename_fit = add_text_tags(scenename, ( ('size', scenename_size), ('color', '#710905') ) )
+
+                            #"info" text underneath
+                            if scene['sceneinfo']: 
+                                # Info text
+                                info = convertstrid(scene['sceneinfo'])
+
+                                info_size = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), ret_val='size')
+                                info_fit = add_text_tags(info, ( ('size', info_size), ('color', '#34374b') ) )
+
+                                scenename_fit += f'\n{info_fit}'
+
+                            # Cache the result
+                            scene['scenename_fit'] = scenename_fit
+
+                        else:
+                            scenename_fit = scene['scenename_fit']
+
+                    textbutton scenename_fit:
+                        style "bookpage"
+                        text_style "bookpage_text"
                         action Replay(scene['avg'], locked=False)
 
-                        python:
-                            if 'scenename_fit' not in scene:
-                                # Title text
-                                scenename = convertstrid(scene['scenename'])
-                                if scene['add']: scenename += scene['add']
 
-                                # Only receives the calculated text size number
-                                # so it can be applied separately for the title text and the info text
-                                scenename_size = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), ret_val='size')
-                                scenename_fit = add_text_tags(scenename, ( ('size', scenename_size), ('color', '#710905') ) )
-
-                                #"info" text underneath
-                                if scene['sceneinfo']: 
-                                    # Info text
-                                    info = convertstrid(scene['sceneinfo'])
-
-                                    info_size = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), ret_val='size')
-                                    info_fit = add_text_tags(info, ( ('size', info_size), ('color', '#34374b') ) )
-
-                                    scenename_fit += f'\n{info_fit}'
-
-                                # Cache the result
-                                scene['scenename_fit'] = scenename_fit
-
-                            else:
-                                scenename_fit = scene['scenename_fit']
-
-                        text scenename_fit:
-                            align (0.5, 0.5)
-                            text_align 0.5
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
     default fulltext = ''
     default prefix = ''
     python:
-
         if 'fulltext' not in data:
             if data['type'] == 1: prefix = logmain + ' '
             elif data['type'] == 2: prefix = logsub + ' '
