@@ -77,7 +77,16 @@ init python:
     style.bookpage_text.align = (0.5, 0.5)
     style.bookpage_text.text_align = 0.5
 
+    # Styles used for the questlog screen
+    style.questlog = Style('button')
+    style.questlog.background = Frame("bookpage", 35, 35)
+    style.questlog.xsize = (840 - backbutton_width - gui.scrollbar_size)
+    style.questlog.padding = (20, 0, 20, 0) #(left, top, right, bottom)
 
+    style.questlog_text = Style('text')
+    style.questlog_text.yalign = 0.2
+    style.questlog_text.text_align = 0
+    style.questlog_text.size = logtextsize
 
 # The very first menu you see when you click the "Scene Select" button.
 screen episodelist():
@@ -329,12 +338,6 @@ screen questlog(data):
             mousewheel True
             scrollbars "vertical"
             vscrollbar_unscrollable "hide"
-            button:
-                background Frame("bookpage", 35, 35)
-                xsize (840 - backbutton_width - gui.scrollbar_size)
-                left_padding 20
-                right_padding 20
-                text fulltext:
-                    yalign 0.2
-                    text_align 0
-                    size logtextsize
+            textbutton fulltext:
+                style "questlog"
+                text_style "questlog_text"
