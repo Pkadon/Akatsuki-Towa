@@ -963,8 +963,6 @@ style history_name:
 style history_name_text:
     min_width gui.history_name_width
     textalign gui.history_name_xalign
-    font "font/NotoSansJP-Regular.ttf"
-    
 
 style history_text:
     xpos gui.history_text_xpos
