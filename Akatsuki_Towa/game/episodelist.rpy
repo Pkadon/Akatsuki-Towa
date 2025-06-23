@@ -5,26 +5,30 @@ init python:
         else:
             return str(key)
 
-    def fit_text(text, original_size, max_dimensions, ret_val='text'):
-        sized = Text(text, size=original_size, text_align=0.5)
-        while sized.size()[0] > max_dimensions[0] or sized.size()[1] > max_dimensions[1]:
-            #Guardrail to not let it get too crazy small
-            if original_size <= 10: break
+    def add_text_tags(text, tagdict):
+        for tag in list(tagdict.keys()):
+            val = tagdict[tag]
+            if tag == 'style': tag = ''
 
-            original_size -= 1
-            sized = Text(text, size=original_size, text_align=0.5)
-
-        if ret_val == 'text':
-            return sized
-        elif ret_val == 'size':
-            return original_size
-
-    def add_text_tags(text, tags):
-        for tag, val in tags:
             front_tag = '{' + f'{tag}={val}' + '}'
             end_tag = '{/' + tag + '}'
             text = front_tag + text + end_tag
         return text
+
+    def fit_text(text, textsize, max_dimensions, tagdict={}, ret_type='Text'):
+        sized = Text(text, size=textsize)
+        while sized.size()[0] > max_dimensions[0] or sized.size()[1] > max_dimensions[1]:
+            #Guardrail to not let it get too crazy small
+            if textsize <= 10: break
+
+            textsize -= 1
+            sized = Text(text, size=textsize)
+
+        tagdict['size'] = textsize
+        tagged_text = add_text_tags(text, tagdict)
+
+        if ret_type == 'Text': return Text(tagged_text)
+        elif ret_type == 'string': return tagged_text
 
     if renpy.variant('touch'):
     # Both the PC and Mobile values can be set in CONFIG.rpy
@@ -130,6 +134,9 @@ screen episodelist():
                     python:
                         if 'chaptername_fit' not in chapter:
                             chaptername = convertstrid(chapter['chaptername'])
+
+                            # Stores the text as a Text object, 
+                            # so the style needs to be added as a tag here for certain things like font to be applied correctly
                             chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
                             chaptername_center = int(chaptername_fit.size()[1]*.55)
 
@@ -162,6 +169,8 @@ screen episodelist():
                                     questname = convertstrid(quest['questname'])
                                     if quest['add']: questname += quest['add']
 
+                                    # Stores the text as a Text object, 
+                                    # so the style needs to be added as a tag here for certain things like font to be applied correctly
                                     questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
                                     questname_center = int(questname_fit.size()[1]*.55)
 
@@ -232,6 +241,8 @@ screen quest(data):
                     questname = convertstrid(data['questname'])
                     if data['add']: questname += quest['add']
 
+                    # Stores the text as a Text object, 
+                    # so the style needs to be added as a tag here for certain things like font to be applied correctly
                     questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
                     questname_center = int(questname_fit.size()[1]*.55)
 
@@ -269,18 +280,16 @@ screen quest(data):
                             scenename = convertstrid(scene['scenename'])
                             if scene['add']: scenename += scene['add']
 
-                            # Only receives the calculated text size number
-                            # so it can be applied separately to the title text and the info text
-                            scenename_size = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), ret_val='size')
-                            scenename_fit = add_text_tags(scenename, ( ('size', scenename_size), ('color', '#710905') ) )
+                            # Stores the tagged text as a string, so the style will be applied in the textbutton block
+                            scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), tagdict={'color': '#710905'}, ret_type='string')
 
                             #"info" text underneath
                             if scene['sceneinfo']: 
                                 # Info text
                                 info = convertstrid(scene['sceneinfo'])
 
-                                info_size = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), ret_val='size')
-                                info_fit = add_text_tags(info, ( ('size', info_size), ('color', '#34374b') ) )
+                                # Stores the tagged text as a string, so the style will be applied in the textbutton block
+                                info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), tagdict={'color':'#34374b'}, ret_type='string')
 
                                 scenename_fit += f'\n{info_fit}'
 
