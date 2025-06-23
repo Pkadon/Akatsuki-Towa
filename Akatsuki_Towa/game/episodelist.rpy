@@ -48,7 +48,7 @@ init python:
         logtextsize = touch_logtextsize
 
 
-    # Styles used for all buttons on the left sidebar, including the "Back" button
+# Styles used for all buttons on the left sidebar, including the "Back" button
     style.backbutton = Style('button')
     style.backbutton.background = Frame("backbutton", 16, 16)
     style.backbutton.xysize = (backbutton_width,backbutton_height)
@@ -56,14 +56,19 @@ init python:
     style.backbutton_text = Style('text')
     style.backbutton_text.align = (0.5, 1.0)
     style.backbutton_text.size = backbutton_textsize
+    style.backbutton_text.font = backbutton_font
 
-    # Styles used for the gold and silver "booktab" buttons/labels
+# Styles used for the gold and silver "booktab" buttons/labels
     style.tabbutton = Style('button')
     style.tabbutton.xysize = (tabwidth,tabheight)
 
     style.tabbutton_text = Style('text')
     style.tabbutton_text.xalign = 0.5
     style.tabbutton_text.ypos = 0.5
+    # tabtextsize needs to be changed from inside CONFIG.rpy
+    tabbutton_texttags = {
+        'font':  tabfont # is in CONFIG.rpy
+    }
 
     style.goldtab = Style('tabbutton')
     style.goldtab.background = Frame("booktab1")
@@ -71,7 +76,7 @@ init python:
     style.silvertab = Style('tabbutton')
     style.silvertab.background = Frame('booktab2')
 
-    # Styles used for the "bookpage" buttons that play cutscenes when clicked
+# Styles used for the "bookpage" buttons that play cutscenes when clicked
     style.bookpage = Style('button')
     style.bookpage.background = Frame("bookpage", 35, 35)
     style.bookpage.xysize = (pagewidth,pageheight)
@@ -80,8 +85,10 @@ init python:
     style.bookpage_text = Style('text')
     style.bookpage_text.align = (0.5, 0.5)
     style.bookpage_text.text_align = 0.5
+    style.bookpage_text.font = pagefont
+    # pagetextsize needs to be changed from inside CONFIG.rpy
 
-    # Styles used for the questlog screen
+# Styles used for the questlog screen
     style.questlog = Style('button')
     style.questlog.background = Frame("bookpage", 35, 35)
     style.questlog.xsize = (840 - backbutton_width - gui.scrollbar_size)
@@ -91,6 +98,8 @@ init python:
     style.questlog_text.yalign = 0.2
     style.questlog_text.text_align = 0
     style.questlog_text.size = logtextsize
+    style.questlog_text.font = logfont
+
 
 # The very first menu you see when you click the "Scene Select" button.
 screen episodelist():
@@ -137,7 +146,7 @@ screen episodelist():
 
                             # Stores the text as a Text object, 
                             # so the style needs to be added as a tag here for certain things like font to be applied correctly
-                            chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
+                            chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
                             chaptername_center = int(chaptername_fit.size()[1]*tabfont_center)
 
                             # Cache the result:
@@ -171,7 +180,7 @@ screen episodelist():
 
                                     # Stores the text as a Text object, 
                                     # so the style needs to be added as a tag here for certain things like font to be applied correctly
-                                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
                                     questname_center = int(questname_fit.size()[1]*tabfont_center)
 
                                     # Cache the result:
@@ -243,7 +252,7 @@ screen quest(data):
 
                     # Stores the text as a Text object, 
                     # so the style needs to be added as a tag here for certain things like font to be applied correctly
-                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
+                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
                     questname_center = int(questname_fit.size()[1]*tabfont_center)
 
                     # Cache the result:

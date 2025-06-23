@@ -40,19 +40,22 @@ init python early:
 # Font
 #########
 ### If you don't need separate fonts for everything, just change this one:
-    font = "font/NotoSansJP-Regular.ttf"
+    default_font = "font/NotoSansJP-Regular.ttf"
 
+### These are all default Ren'Py settings, don't know exactly what they'll apply to at this point.
+### Also check the button-specific fonts further down in the "Scene Select" section of this file.
+#=================================================================================================
 ### The font used for in-game text.
-    gui.text_font = font
+    gui.text_font = default_font
 
 ### The font used for character names.
-    gui.name_text_font = font
+    gui.name_text_font = default_font
 
 ### The font used for out-of-game text.
-    gui.interface_text_font = font
+    gui.interface_text_font = default_font
 
 ### The font used by the button.
-    gui.button_text_font = font
+    gui.button_text_font = default_font
 
 #################################################################
 # Dialogue Window
@@ -99,12 +102,16 @@ init python early:
     backbutton_textsize = 25
     touch_backbutton_textsize = 37
 
+### The font used for all side buttons
+    backbutton_font = default_font
+
 ### Set to False to hide the "Jump" button that opens the code input screen
 ### used to manually skip to a cutscene without needing a button
     add_jump_button = True
 
 ### Set to False to hide the "Sprite" button that opens the sprite test cutscene
     add_sprite_button = True
+
 
 # Silver and gold "booktab" buttons used in all Scene Select menus
 #==================================================================
@@ -118,6 +125,9 @@ init python early:
 ### Text size for all silver and gold buttons:
     tabtextsize = 20
     touch_tabtextsize = 29
+
+### The font used by the silver and gold buttons
+    tabfont = default_font
 
 ### I don't know if it's the font or the button image being weird, 
 ### but this was necessary to center the text over these buttons (or at least try to...)
@@ -139,6 +149,9 @@ init python early:
     pagetextsize = 18
     touch_pagetextsize = 27
 
+### The font used by the "bookpage" buttons that play cutscenes when clicked
+    pagefont = default_font
+
 ### Number of columns to separate bookpage buttons into
 ### (recommended 1 or 2, will require resizing)
     pagecolumns = 2
@@ -150,6 +163,9 @@ init python early:
 ### Text size for all questlogs:
     logtextsize = 18
     touch_logtextsize = 23
+
+### The font used by the questlog text
+    logfont = default_font
 
 #################################
 # Choice Menu
