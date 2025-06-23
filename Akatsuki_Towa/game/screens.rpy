@@ -314,7 +314,9 @@ screen navigation():
         if _in_replay:
             textbutton _("Scene Select") action EndReplay(confirm=True)
 
-        textbutton _("History") action ShowMenu("history")
+            # Doesn't seme to keep the history after a scene, might because they're "Replays"
+            # So just hide it from the main menu
+            textbutton _("History") action ShowMenu("history")
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
