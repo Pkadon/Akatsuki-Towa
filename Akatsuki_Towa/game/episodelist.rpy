@@ -138,7 +138,7 @@ screen episodelist():
                             # Stores the text as a Text object, 
                             # so the style needs to be added as a tag here for certain things like font to be applied correctly
                             chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight))
-                            chaptername_center = int(chaptername_fit.size()[1]*.55)
+                            chaptername_center = int(chaptername_fit.size()[1]*tabfont_center)
 
                             # Cache the result:
                             chapter['chaptername_fit'] = chaptername_fit
@@ -172,7 +172,7 @@ screen episodelist():
                                     # Stores the text as a Text object, 
                                     # so the style needs to be added as a tag here for certain things like font to be applied correctly
                                     questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
-                                    questname_center = int(questname_fit.size()[1]*.55)
+                                    questname_center = int(questname_fit.size()[1]*tabfont_center)
 
                                     # Cache the result:
                                     quest['questname_fit'] = questname_fit
@@ -244,7 +244,7 @@ screen quest(data):
                     # Stores the text as a Text object, 
                     # so the style needs to be added as a tag here for certain things like font to be applied correctly
                     questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight))
-                    questname_center = int(questname_fit.size()[1]*.55)
+                    questname_center = int(questname_fit.size()[1]*tabfont_center)
 
                     # Cache the result:
                     data['questname_fit'] = questname_fit

@@ -119,6 +119,12 @@ init python early:
     tabtextsize = 20
     touch_tabtextsize = 29
 
+### I don't know if it's the font or the button image being weird, 
+### but this was necessary to center the text over these buttons (or at least try to...)
+### Do not worry about this if you don't need to change the font.
+### A higher number will move the text higher in relation to the button.
+    tabfont_center = .57
+
 
 # "bookpage" buttons that play cutscenes when clicked
 #==================================================================
