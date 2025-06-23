@@ -266,10 +266,8 @@ screen quest(data):
             textbutton questname_fit:
                 style "silvertab"
                 xanchor 0.5
-                if renpy.variant('touch'):
-                    xpos (pagewidth//2)
-                else:
-                    xpos pagewidth
+                # Center the button over the bookpage columns, without taking into account the scrollbar width
+                xpos (pagecolumns*pagewidth) //2
                 text_style "tabbutton_text"
                 text_yanchor questname_center
 
