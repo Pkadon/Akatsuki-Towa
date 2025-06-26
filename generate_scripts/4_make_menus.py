@@ -107,7 +107,15 @@ for category in combinedscenelist:
 			scenedict['scenename'] = level2
 			scenedict['add'] = add
 			scenedict['sceneinfo'] = sceneinfo
-			scenedict['avg'] = f'avg{scene["avgID"]}'
+			
+			# This is the Renpy label that the game will try to jump to.
+			# Renpy labels cannot start with a number, so some kind of
+			# string needs to be prepended to it.
+			avgid = scene["avgID"]
+			if isinstance(avgid, int) or avgid[0].isdigit():
+				avgid = f'avg{avgid}'
+
+			scenedict['avg'] = avgid
 			
 			questdict['scenes'].append(scenedict)
 		categorydict['quests'].append(questdict)
