@@ -34,6 +34,7 @@ avgroledict = dict()
 for i in range(0, len(role_json['_rows'])):
 	avgroledict[role_json['_rows'][i]['_id']] = role_json['_rows'][i]['_roleName']	
 
+errorcount = 0	
 	
 def makerow(dic):
 	key = dic['strid']
@@ -87,55 +88,59 @@ def processavg(avg):
 	choicescenelist = []
 	if avg not in donescenelist:
 		avgfile = f'{avg}.json'
-		with open(scriptdirec / avgfile, 'r', encoding='utf-8') as f:
-			f = json.load(f)
-		
-		#Apply corrections found in mobile version files
-		if str(avg) == '10330':
-			f['dialogueFrames'][85]['strID'] = 1130996
-			f['dialogueFrames'][115]['strID'] = 1130966
+		avgfile_path = scriptdirec / avgfile
+		if avgfile_path.exists():
+			with open(avgfile_path, 'r', encoding='utf-8') as f:
+				f = json.load(f)
+			
+			#Apply corrections found in mobile version files
+			if str(avg) == '10330':
+				f['dialogueFrames'][85]['strID'] = 1130996
+				f['dialogueFrames'][115]['strID'] = 1130966
 
-		if str(avg) == '10331':
-			f['dialogueFrames'][88]['strID'] = 1130996
-			f['dialogueFrames'][88]['character']['charID'] = 4
-			f['dialogueFrames'][88]['character']['speaker'] = 4
-			f['dialogueFrames'][118]['strID'] = 1130966
-		
-		rowcount = 0
-		for frame in f['dialogueFrames']:
-			rowcount += 1
-			note = f"AVG {avg}, Line {rowcount}"
-			strid = frame['strID']
-			speaker = frame['character']['speaker']
+			if str(avg) == '10331':
+				f['dialogueFrames'][88]['strID'] = 1130996
+				f['dialogueFrames'][88]['character']['charID'] = 4
+				f['dialogueFrames'][88]['character']['speaker'] = 4
+				f['dialogueFrames'][118]['strID'] = 1130966
 			
-			addrow(note, strid, speaker=speaker)
+			rowcount = 0
+			for frame in f['dialogueFrames']:
+				rowcount += 1
+				note = f"AVG {avg}, Line {rowcount}"
+				strid = frame['strID']
+				speaker = frame['character']['speaker']
+				
+				addrow(note, strid, speaker=speaker)
+				
+			#to stop recursively processing a looping choice
+			donescenelist.append(avg)
 			
-		#to stop recursively processing a looping choice
-		donescenelist.append(avg)
-		
-		#FIGURE OUT IF THERE ARE CHOICES
-		if f["ending"]["type"] == 1:
-			choicecount = 0
+			#FIGURE OUT IF THERE ARE CHOICES
+			if f["ending"]["type"] == 1:
+				choicecount = 0
 
-			for choice in range(0, len(f["ending"]["options"])):
-				choicecount += 1
-				choice = f["ending"]["options"][choice]
-				#the text displayed on the choice button
-				strid = choice["strID"]
-				#the scene that the choice button leads to
-				gotoavg = choice["avgID"]
+				for choice in range(0, len(f["ending"]["options"])):
+					choicecount += 1
+					choice = f["ending"]["options"][choice]
+					#the text displayed on the choice button
+					strid = choice["strID"]
+					#the scene that the choice button leads to
+					gotoavg = choice["avgID"]
+					
+					note = f"AVG {avg} Choice {choicecount} (leads to AVG {gotoavg})"
+					
+					addrow(note, strid)
+					choicescenelist.append(gotoavg)
 				
-				note = f"AVG {avg} Choice {choicecount} (leads to AVG {gotoavg})"
-				
-				addrow(note, strid)
-				choicescenelist.append(gotoavg)
-			
-			for choicescene in choicescenelist:
-				if choicescene not in donescenelist:
-					processavg(choicescene)
-				
-		
-		
+				for choicescene in choicescenelist:
+					if choicescene not in donescenelist:
+						processavg(choicescene)
+
+		else:
+			global errorcount 
+			errorcount +=1
+			print(f'Could not find "{avgfile}", skipping. - Ignore this if it did not need to be translated.')
 
 with open(episodelist, 'r', encoding='utf-8') as txt:
 	episodelist = json.load(txt)
@@ -241,3 +246,5 @@ if makecsv:
 		
 		
 		
+if errorcount > 0:
+	input('\nFinished - Please check the error messages, then press "Enter" to close.')
