@@ -9,10 +9,10 @@ exdirec = direc / 'extra_json'
 outputdirec = direc / "Renpy_scripts"
 outputdirec.mkdir(exist_ok=True)
 
-def loadjson(filename):
-	filepath = exdirec / filename
+def loadjson(filepath):
 	with open(filepath, 'r', encoding='utf-8') as txt:
 		return json.load(txt)
+
 	
 #Combine scene lists	
 scene_lists_to_combine = [
@@ -24,14 +24,17 @@ scene_lists_to_combine = [
 	'EX15_unused.json'
 ]
 combinedscenelist = list()
-
 for filename in scene_lists_to_combine:
 	filepath = exdirec / filename
 	if filepath.exists():
-		combinedscenelist += loadjson(filename)
+		combinedscenelist += loadjson(filepath)
 
 #Load quest list
-questlog_dict = loadjson('new_quest.json')
+quest_path = exdirec / 'new_quest.json'
+if quest_path.exists():
+	questlog_dict = loadjson(quest_path)
+else:
+	questlog_dict = dict()
 
 
 #########################################################
@@ -76,12 +79,12 @@ for category in combinedscenelist:
 		questdict['logs'] = []
 		questdict['scenes'] = []
 		
-		
 		#QUESTLOGS
 		if 'questID' in quest and len(quest['questID']) > 0:
 			for log in quest['questID']:
-				questdict['logs'].append(questlog_dict[str(log)])
-
+				key = str(log)
+				if key in questlog_dict:
+					questdict['logs'].append(questlog_dict[key])
 
 		for scene in quest['scenes']:
 			scenedict = dict()
