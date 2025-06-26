@@ -45,12 +45,6 @@ init python early:
 ### These are all default Ren'Py settings, don't know exactly what they'll apply to at this point.
 ### Also check the button-specific fonts further down in the "Scene Select" section of this file.
 #=================================================================================================
-### The font used for in-game text.
-    gui.text_font = default_font
-
-### The font used for character names.
-    gui.name_text_font = default_font
-
 ### The font used for out-of-game text.
     gui.interface_text_font = default_font
 
@@ -76,9 +70,17 @@ init python early:
     gui.dialogue_line_spacing = 0
     small_dialogue_line_spacing = -5
 
+### The font used for in-game text. (mainly dialogue)
+    gui.text_font = default_font
+#-----------------------------------------------------------
+
 ### The size of character speaker names.
     gui.name_text_size = 22
     small_name_text_size = 25
+
+### The font used for character names.
+    gui.name_text_font = default_font
+#-----------------------------------------------------------
 
 ### The dialogue box's height (starting from the bottom)
     gui.textbox_height = 113
