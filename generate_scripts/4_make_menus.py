@@ -36,7 +36,6 @@ questlog_dict = loadjson('new_quest.json')
 
 #########################################################
 #build and number questlogs
-questlogdict = dict()
 for key in list(questlog_dict.keys()):
 	log = questlog_dict[key]
 	
@@ -56,10 +55,10 @@ for category in combinedscenelist:
 	categorydict = dict()
 	
 	if 'strID' in category and category['strID'] != None: 
-		level0 = category['strID']
-	else: level0 = category['name']
+		categoryname = category['strID']
+	else: categoryname = category['name']
 
-	categorydict['chaptername'] = level0
+	categorydict['chaptername'] = categoryname
 	categorydict['quests'] = []
 	quests = categorydict['quests']
 	
@@ -68,11 +67,11 @@ for category in combinedscenelist:
 		
 		add = None
 		if 'strID' in quest and quest['strID'] != None:
-			if 'add' in quest: add=fr'{quest["add"]}'
-			level1 = quest['strID']
-		else: level1 = quest['name']
+			if 'add' in quest: add = quest['add']
+			questname = quest['strID']
+		else: questname = quest['name']
 		
-		questdict['questname'] = level1
+		questdict['questname'] = questname
 		questdict['add'] = add
 		questdict['logs'] = []
 		questdict['scenes'] = []
@@ -90,7 +89,7 @@ for category in combinedscenelist:
 			#scene name
 			add = None
 			if 'strID' in scene and scene['strID'] != None:
-				if 'add' in scene: add=fr'{scene["add"]}'
+				if 'add' in scene: add = scene['add']
 				scenename = scene["strID"]	
 			else: scenename = scene['name']
 		
@@ -100,11 +99,8 @@ for category in combinedscenelist:
 			elif 'info' in scene and scene['info'] != None:
 				sceneinfo = scene['info']
 			else: sceneinfo = ''
-			
-			#combine name and info into one line
-			level2 = scenename
-			
-			scenedict['scenename'] = level2
+
+			scenedict['scenename'] = scenename
 			scenedict['add'] = add
 			scenedict['sceneinfo'] = sceneinfo
 			
