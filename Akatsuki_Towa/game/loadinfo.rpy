@@ -72,7 +72,8 @@ python early:
 
     #COMBINE EXTRA STRING DICTIONARY
     for key in list(extextdict.keys()):
-        textdict[key] = extextdict[key]
+        if key not in textdict:
+            textdict[key] = extextdict[key]
 
 
 
