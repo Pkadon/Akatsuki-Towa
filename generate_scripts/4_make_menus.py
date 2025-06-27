@@ -52,6 +52,7 @@ for key in list(questlog_dict.keys()):
 	}
 
 ########################################################
+errorcount = 0
 ###now make menu from the new dictionaries
 episodelist = []
 for category in combinedscenelist:
@@ -85,6 +86,10 @@ for category in combinedscenelist:
 				key = str(log)
 				if key in questlog_dict:
 					questdict['logs'].append(questlog_dict[key])
+					
+				else:
+					errorcount += 1
+					print(f"Could not find questlog id {key} in new_quest.json, it will not be added to the menu.")
 
 		for scene in quest['scenes']:
 			scenedict = dict()
@@ -121,3 +126,6 @@ for category in combinedscenelist:
 	episodelist.append(categorydict)
 with open((outputdirec / 'episodelist.json'), 'w', encoding='utf-8') as f:
 	json.dump(episodelist, f, ensure_ascii=False)
+
+if errorcount > 0:
+	input('\nFinished - Please check the error messages, then press "Enter" to close.')
