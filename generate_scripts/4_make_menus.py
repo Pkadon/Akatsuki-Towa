@@ -32,7 +32,12 @@ for filename in scene_lists_to_combine:
 #Load quest list
 quest_path = exdirec / 'new_quest.json'
 if quest_path.exists():
-	questlog_dict = loadjson(quest_path)
+	questlog_list = loadjson(quest_path)
+	
+	questlog_dict = dict()
+	for log in questlog_list:
+		key = log['ID']
+		questlog_dict[key] = log
 else:
 	questlog_dict = dict()
 
@@ -82,14 +87,13 @@ for category in combinedscenelist:
 		
 		#QUESTLOGS
 		if 'questID' in quest and len(quest['questID']) > 0:
-			for log in quest['questID']:
-				key = str(log)
-				if key in questlog_dict:
-					questdict['logs'].append(questlog_dict[key])
+			for logid in quest['questID']:
+				if logid in questlog_dict:
+					questdict['logs'].append(questlog_dict[logid])
 					
 				else:
 					errorcount += 1
-					print(f"Could not find questlog id {key} in new_quest.json, it will not be added to the menu.")
+					print(f"Could not find questlog id {logid} in new_quest.json, it will not be added to the menu.")
 
 		for scene in quest['scenes']:
 			scenedict = dict()

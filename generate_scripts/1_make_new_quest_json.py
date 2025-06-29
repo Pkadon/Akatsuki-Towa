@@ -54,7 +54,7 @@ with open((scriptdirec / 'booktabs.json'), 'r', encoding="utf-8")as txt:
 	book_json = json.load(txt)
 	
 #START
-questbook = dict()
+questbook = []
 chaptercount = 0
 for i in range(0, len(book_json['_rows'])):
 	i = book_json['_rows'][i]
@@ -74,8 +74,7 @@ for i in range(0, len(book_json['_rows'])):
 		skiplist = [825,826,827,887,987,988,989,990,991,20535,20536,20537,20538,991]
 		if questid in skiplist: continue
 		
-		questbook[questid] = dict()
-		quest = questbook[questid]
+		quest = dict()
 		
 		quest['ID'] = questid
 		quest['name'] = textdict[text]
@@ -95,6 +94,8 @@ for i in range(0, len(book_json['_rows'])):
 				
 		quest['clear'] = questdict[questid]['compdesc']
 		quest['fail'] = questdict[questid]['faildesc']
+
+		questbook.append(quest)
 		
 		
 with open(exdirec / 'new_quest.json', 'w', encoding='utf-8') as f:
