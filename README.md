@@ -98,7 +98,7 @@ These scripts are only able to use the information that was accessible from the 
 
 **Then all of the json files in `generate_scripts/extra_json` can be checked over and edited before continuing**
 
-The order that quests will be listed in the game's menu will match the order that they are listed inside these json files.  At this point, you can rearrange anything you want to, or remove quests that you don't want to be visible on the scene select screen. (maybe you're working on a translation and don't want to translate all of the weird extra stuff).   Deleting the .json file itself will also allow you to create a menu file that has that entire category removed.  (although at this time, I don't recommend deleting the `new_quest.json`file)
+The order that quests will be listed in the game's menu will match the order that they are listed inside these json files.  At this point, you can rearrange anything you want to, or remove quests that you don't want to be visible on the scene select screen. (maybe you're working on a translation and don't want to translate all of the weird extra stuff).   Deleting the .json file itself will also allow you to create a menu file that has that entire category removed.  (deleting the `new_quest.json`file will also let you easily hide all of the questlog buttons if needed.)
 
 Currently, the order that quests will be sorted in is as follows:
  1. `new_story.json`
@@ -113,7 +113,7 @@ but you could change the order that they are added together from within `4_make_
 ---
  
  - **`4_make_menus.py`:** 
-   - combines all of the json files in `generate_scripts/extra_json` into a single list, and then uses that list to build the `episodelist.json` menu file for Akatsuki Towa
+   - combines all of the json files in `generate_scripts/extra_json` into a single `episodelist.json` menu file for Akatsuki Towa.
 
  - **`5_generate_script.py`:**
    - uses `avg_role.json`, `bgm.json`, `sfx.json`, `voice.json`
