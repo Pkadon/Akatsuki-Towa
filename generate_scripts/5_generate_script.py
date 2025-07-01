@@ -37,7 +37,18 @@ sfx_dict = load_design_json(sfx_file)
 voice_file = (scriptdirec / 'voice.json')
 voice_dict = load_design_json(voice_file)
 
-	
+#################################################
+def make_schedule_dict(json, key):
+	d = dict()
+	for index in range(0, len(json[key])):
+		entry = script_json[key][index]
+		idnumber = entry['id']
+		start = entry['start']
+		end = entry['end']
+		for frame in range(start, end+1):
+			d[frame] = idnumber
+	return d
+
 ###START
 for cutscenepath in list(scriptdirec.glob('*.json')):
 	fname = cutscenepath.stem
@@ -60,34 +71,13 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][118]['strID'] = 1130966
 
 	#FIGURE OUT BACKGROUND SCHEDULE
-	background_schedule = dict()
-	for i in range(0, len(script_json['backgrounds'])):
-		i = script_json['backgrounds'][i]
-		backgroundid = i['id']
-		start = i['start']
-		end = i['end']
-		for dframe in range(start, end+1):
-			background_schedule[dframe] = backgroundid
+	background_schedule = make_schedule_dict(script_json, 'backgrounds')
 			
 	#FIGURE OUT BGM SCHEDULE
-	bgm_schedule = dict()
-	for i in range(0, len(script_json['bgm'])):
-		i = script_json['bgm'][i]
-		bgmid = i['id']
-		start = i['start']
-		end = i['end']
-		for dframe in range(start, end+1):
-			bgm_schedule[dframe] = bgmid
+	bgm_schedule = make_schedule_dict(script_json, 'bgm')
 			
 	#FIGURE OUT MEMORY SCHEDULE
-	memory_schedule = dict()
-	for i in range(0, len(script_json['memory'])):
-		i = script_json['memory'][i]
-		memoryid = i['id']
-		start = i['start']
-		end = i['end']
-		for dframe in range(start, end+1):
-			memory_schedule[dframe] = memoryid
+	memory_schedule = make_schedule_dict(script_json, 'memory')
 		
 
 	with open((targetdirec / f"{fname}.rpy"), 'w', encoding="utf-8")as f:
