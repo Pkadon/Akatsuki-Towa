@@ -9,51 +9,34 @@ targetdirec = direc / 'Renpy_Scripts' / 'scripts'
 if not targetdirec.exists():
 	targetdirec.mkdir(parents=True, exist_ok=True)
 	
+
+def load_design_json(filepath):
+	with open(filepath, 'r', encoding='utf-8') as f:
+		j = json.load(f)
+		d = dict()
+		for index in range(0, len(j['_rows'])):
+			row = j['_rows'][index]
+			row_id = row['_id']
+			d[row_id] = row
+		return d
+			
 #IMPORT AVG ROLE
-with open((scriptdirec / 'avg_role.json'), 'r', encoding="utf-8")as txt:
-	avgrole_json = json.load(txt)
-avgroledict = dict()
-for i in range(0, len(avgrole_json['_rows'])):
-	i = avgrole_json['_rows'][i]
-	avgroleid = i['_id']
-	avgroledict[avgroleid] = {
-	'roleName': i["_roleName"],
-	'folderName': i["_folderName"],
-	'xPosition': i['_xPostion']
-	}
+avg_role_file = (scriptdirec / 'avg_role.json')
+avg_role_dict = load_design_json(avg_role_file)
+
 #IMPORT BGM
-with open((scriptdirec / 'bgm.json'), 'r', encoding="utf-8")as txt:
-	bgm_json = json.load(txt)
-bgmdict = dict()
-for i in range(0, len(bgm_json['_rows'])):
-	i = bgm_json['_rows'][i]
-	bgmid = i['_id']
-	bgmname = i['_bgmName']
-	bgmdict[bgmid] = {
-	'bgmname': bgmname,
-	}
+bgm_file = (scriptdirec / 'bgm.json')
+bgm_dict = load_design_json(bgm_file)
+
 #IMPORT SFX
-with open((scriptdirec / 'sfx.json'), 'r', encoding="utf-8")as txt:
-	sfx_json = json.load(txt)
-sfxdict = dict()
-for i in range(0, len(sfx_json['_rows'])):
-	i = sfx_json['_rows'][i]
-	sfxid = i['_id']
-	sfxName = i['_sfxName']
-	sfxdict[sfxid] = {
-	'sfxName': sfxName,
-	}	
+sfx_file = (scriptdirec / 'sfx.json')
+sfx_dict = load_design_json(sfx_file)
+
+
 #IMPORT VOICE
-with open((scriptdirec / 'voice.json'), 'r', encoding="utf-8")as txt:
-	voice_json = json.load(txt)
-voicedict = dict()
-for i in range(0, len(voice_json['_rows'])):
-	i = voice_json['_rows'][i]
-	voiceid = i['_id']
-	voiceName = i['_voiceName']
-	voicedict[voiceid] = {
-	'voiceName': voiceName,
-	}	
+voice_file = (scriptdirec / 'voice.json')
+voice_dict = load_design_json(voice_file)
+
 	
 ###START
 for cutscenepath in list(scriptdirec.glob('*.json')):
@@ -167,7 +150,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					f.write('stop music\n')
 				#then go back to normal
 				else:
-					framebgm = bgmdict[bgm_schedule[framecount]]['bgmname']
+					framebgm = bgm_dict[bgm_schedule[framecount]]['_bgmName']
 					if lastplayed != framebgm:
 						#generate music line only if it's different from the last frame
 						f.write(f'play music "{framebgm}"\n')
@@ -219,14 +202,14 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				
 			#check for sfx
 			if sfxID != 0:
-				sfxname = sfxdict[sfxID]['sfxName']
+				sfxname = sfx_dict[sfxID]['_sfxName']
 				sfxname = sfxname.split('/')[-1]
 				#play sfx
 				f.write(f'play sfx2 "{sfxname}"\n')
 				
 			#check for voice
 			if voiceID != 0:
-				voicename = voicedict[voiceID]['voiceName']
+				voicename = voice_dict[voiceID]['_voiceName']
 				voicename = voicename.split('/')[-1]
 				#play voice
 				f.write(f'play sfxvoice "{voicename}"\n')
@@ -266,11 +249,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if charID == 0:
 				folderName = None
 			else:
-				folderName = avgroledict[charID]['folderName']
+				folderName = avg_role_dict[charID]['_folderName']
 				
 			#figure out xoffset
 			if folderName: 
-				offset = str(int(avgroledict[charID]['xPosition']))
+				offset = str(int(avg_role_dict[charID]['_xPostion']))
 				folderAlias = f'c{speaker}portrait'
 			else:
 				offset = '0'
