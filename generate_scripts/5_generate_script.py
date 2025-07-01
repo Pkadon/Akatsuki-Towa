@@ -58,8 +58,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][88]['character']['charID'] = 4
 		script_json['dialogueFrames'][88]['character']['speaker'] = 4
 		script_json['dialogueFrames'][118]['strID'] = 1130966
-	
-	framedict = dict()
 
 	#FIGURE OUT BACKGROUND SCHEDULE
 	background_schedule = dict()
@@ -121,12 +119,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			charID = i['character']['charID']
 			speaker = i['character']['speaker']
 			displayName = i['character']['displayName']
-			mirror = i['character']['mirror']
 			expression = i['expression']
 			charPos = i['charPos']
 			strID = i['strID']
-			ifAphs = i['isApha']
-			nameSize = i['nameSize']
 			contentSize = i['contentSize']
 			isClearModle = i['isClearModle']
 			CharFadeIn = i['CharFadeIn']
@@ -136,8 +131,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			sfxID = i['sfx']['id']
 			sfxFirst = i['sfx']['first']
 			effect = i['effect']
-			itemID = i['itemID']
-			itemIconID = i['itemIconID']
 			avgImageID = i['avgImageID']
 			
 			#check if there is suposed to be bgm
