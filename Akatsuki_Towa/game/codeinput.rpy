@@ -22,7 +22,11 @@ python:
             renpy.hide_screen("inputdescription")
             renpy.jump("codeinputend")
         else:
-            avglabel = f'avg{str(avgcode)}'
+            if avgcode[0].isdigit():
+                avglabel = f'avg{str(avgcode)}'
+            else:
+                avglabel = avgcode
+
             if avglabel in renpy.get_all_labels():
                 renpy.hide_screen("inputdescription")
                 renpy.call(avglabel)
