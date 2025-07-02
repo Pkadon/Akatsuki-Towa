@@ -200,7 +200,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#check for image to display
 			if avgImageID == 0:
 				if showingimage:
-					f.write(f'hide {avgimagename}\n')
+					f.write(f'hide {showingimage}\n')
 					showingimage = None
 			else:
 				avgimagename = "Image"+str(avgImageID)
