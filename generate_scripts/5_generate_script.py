@@ -38,10 +38,11 @@ voice_file = (scriptdirec / 'voice.json')
 voice_dict = load_design_json(voice_file)
 
 #################################################
+
 def make_schedule_dict(json, key):
 	d = dict()
-	for index in range(0, len(json[key])):
-		entry = script_json[key][index]
+	schedule = json[key]
+	for entry in schedule:
 		idnumber = entry['id']
 		start = entry['start']
 		end = entry['end']
@@ -69,16 +70,15 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][88]['character']['charID'] = 4
 		script_json['dialogueFrames'][88]['character']['speaker'] = 4
 		script_json['dialogueFrames'][118]['strID'] = 1130966
-
+		
 	#FIGURE OUT BACKGROUND SCHEDULE
 	background_schedule = make_schedule_dict(script_json, 'backgrounds')
-			
+		
 	#FIGURE OUT BGM SCHEDULE
 	bgm_schedule = make_schedule_dict(script_json, 'bgm')
 			
 	#FIGURE OUT MEMORY SCHEDULE
 	memory_schedule = make_schedule_dict(script_json, 'memory')
-		
 
 	with open((targetdirec / f"{fname}.rpy"), 'w', encoding="utf-8")as f:
 		#PRINT START LABEL 
@@ -96,32 +96,32 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		centeralias = None
 		showingimage = None
 		memory = False
-		for i in range(0, len(script_json['dialogueFrames'])):
-			framecount = i+1
+		framecount = 0
+		for frame in script_json['dialogueFrames']:
+			framecount += 1
 			newscene = False
 			
 			#Skip duplicate line 
 			#(if we skip it any earlier, it's going to screw up bgm and background scheduling)
 			if fname == '12038' and framecount == 15: continue
 
-			i = script_json['dialogueFrames'][i]
-			template = i['template']
-			charID = i['character']['charID']
-			speaker = i['character']['speaker']
-			displayName = i['character']['displayName']
-			expression = i['expression']
-			charPos = i['charPos']
-			strID = i['strID']
-			contentSize = i['contentSize']
-			isClearModle = i['isClearModle']
-			CharFadeIn = i['CharFadeIn']
-			CharFadeOut = i['CharFadeOut']
-			voiceID = i['voice']['id']
-			voiceFirst = i['voice']['first']
-			sfxID = i['sfx']['id']
-			sfxFirst = i['sfx']['first']
-			effect = i['effect']
-			avgImageID = i['avgImageID']
+			template = frame['template']
+			charID = frame['character']['charID']
+			speaker = frame['character']['speaker']
+			displayName = frame['character']['displayName']
+			expression = frame['expression']
+			charPos = frame['charPos']
+			strID = frame['strID']
+			contentSize = frame['contentSize']
+			isClearModle = frame['isClearModle']
+			CharFadeIn = frame['CharFadeIn']
+			CharFadeOut = frame['CharFadeOut']
+			voiceID = frame['voice']['id']
+			voiceFirst = frame['voice']['first']
+			sfxID = frame['sfx']['id']
+			sfxFirst = frame['sfx']['first']
+			effect = frame['effect']
+			avgImageID = frame['avgImageID']
 			
 			#check if there is suposed to be bgm
 			if len(bgm_schedule) > 0:
