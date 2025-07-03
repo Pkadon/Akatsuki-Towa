@@ -4,22 +4,22 @@ stop music
 scene placeholderbackground
 with fade
 play sfxvoice "avg_vocal_ch10.ogg"
-show oc002_01 17 as c2portrait at centerpos(-3), zorder 5
+show oc002_01 17 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210125]]'
-hide c2portrait
-show uc001_02 2 as c2002portrait at centerpos(6), zorder 5
+hide p2
+show uc001_02 2 as p2002 at mid(6), light, zorder 5
 c20023 '[textdict[1210126]]'
-hide c2002portrait
-show oc001_01 2 as c1portrait at centerpos(-2), zorder 5
+hide p2002
+show oc001_01 2 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210127]]'
-hide c1portrait
-show uc001_02 1 as c2002portrait at centerpos(6), zorder 5
+hide p1
+show uc001_02 1 as p2002 at mid(6), light, zorder 5
 c20023 '[textdict[1210128]]'
-hide c2002portrait
-show uc001_02 3 as c2002portrait at centerpos(6), zorder 5
+hide p2002
+show uc001_02 3 as p2002 at mid(6), light, zorder 5
 c20023 '[textdict[1210129]]'
 play sfxvoice "avg_vocal_na20.ogg"
-hide c2002portrait
-show oc001_01 8 as c1portrait at centerpos(-2), zorder 5
+hide p2002
+show oc001_01 8 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210130]]'
 return

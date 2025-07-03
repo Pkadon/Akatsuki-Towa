@@ -8,6 +8,6 @@ c5411 '[textdict[1004519]]'
 c5411 '[textdict[1004520]]'
 c5411 '[textdict[1004521]]'
 play sfxvoice "avg_vocal_na02.ogg"
-show oc001_01 7 as c1portrait at rightside(-2), zorder 5
+show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1004522]]'
 return

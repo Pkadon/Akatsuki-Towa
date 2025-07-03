@@ -3,47 +3,47 @@ stop music
 
 scene avg_bg_023
 with fade
-show oc002_01 4 as c2portrait at rightside(-3), zorder 5
+show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1216111]]' (what_size=(gui.text_size*0.9))
-hide c2portrait
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+hide p2
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1216112]]' (what_size=(gui.text_size*0.9))
-hide c1portrait
-show oc001_01 1 as c1portrait at darkright(-2), zorder 5
-show sc049_01 1 as c56portrait at leftside(-8), zorder 5
+hide p1
+show oc001_01 1 as p1 at r(-2), dark, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1216113]]' (what_size=(gui.text_size*0.9))
-hide c56portrait
-hide c1portrait
-show oc001_01 1 as c1portrait at darkright(-2), zorder 5
-show sc049_01 5 as c56portrait at leftside(-8), zorder 5
+hide p56
+hide p1
+show oc001_01 1 as p1 at r(-2), dark, zorder 5
+show sc049_01 5 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1216134]]' (what_size=(gui.text_size*0.9))
-hide c56portrait
-hide c1portrait
-show oc001_01 1 as c1portrait at darkright(-2), zorder 5
-show sc049_01 1 as c56portrait at leftside(-8), zorder 5
+hide p56
+hide p1
+show oc001_01 1 as p1 at r(-2), dark, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1216135]]' (what_size=(gui.text_size*0.9))
-hide c56portrait
-hide c1portrait
-show oc001_01 1 as c1portrait at darkright(-2), zorder 5
-show sc049_01 1 as c56portrait at leftside(-8), zorder 5
+hide p56
+hide p1
+show oc001_01 1 as p1 at r(-2), dark, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1216136]]' (what_size=(gui.text_size*0.9))
-hide c1portrait
-hide c56portrait
-show sc049_01 1 as c56portrait at darkleft(-8), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p56
+show sc049_01 1 as p56 at l(-8), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1216137]]' (what_size=(gui.text_size*0.9))
-hide c56portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show sc049_01 1 as c56portrait at leftside(-8), zorder 5
+hide p56
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1216138]]' (what_size=(gui.text_size*0.9))
-hide c56portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show sc049_01 1 as c56portrait at leftside(-8), zorder 5
+hide p56
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1216139]]' (what_size=(gui.text_size*0.9))
-hide c56portrait
-hide c1portrait
+hide p56
+hide p1
 c0 '[textdict[1216140]]' (what_size=(gui.text_size*0.9))
 menu:
     extend ""

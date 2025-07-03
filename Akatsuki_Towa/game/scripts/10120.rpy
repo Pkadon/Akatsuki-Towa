@@ -9,10 +9,10 @@ c0 '[textdict[1123036]]'
 play sfx2 "other_7022.ogg"
 c7143 '[textdict[1006641]]'
 play sfx2 "other_7023.ogg"
-show st051_01 3 as c258portrait at leftside(-9), zorder 5
+show st051_01 3 as p258 at l(-9), light, zorder 5
 c2581 '[textdict[1006642]]'
 play sfx2 "other_7022.ogg"
-hide c258portrait
+hide p258
 c0 '[textdict[1123037]]'
 scene avg_bg_033
 with fade
@@ -20,13 +20,13 @@ play sfx2 "other_7022.ogg"
 c6753 '[textdict[1006643]]'
 play sfx2 "other_7023.ogg"
 c7131 '[textdict[1006644]]'
-show st034_01 2 as c233portrait at rightside(12), zorder 5
+show st034_01 2 as p233 at r(12), light, zorder 5
 c2333 '[textdict[1006645]]'
-hide c233portrait
-show st034_01 2 as c233portrait at darkright(12), zorder 5
+hide p233
+show st034_01 2 as p233 at r(12), dark, zorder 5
 c6771 '[textdict[1006646]]'
 play sfx2 "other_7022.ogg"
-hide c233portrait
-show st027_01 5 as c226portrait at rightside(5), zorder 5
+hide p233
+show st027_01 5 as p226 at r(5), light, zorder 5
 c2263 '[textdict[1006647]]'
 return

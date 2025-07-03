@@ -4,34 +4,34 @@ stop music
 play music "ED6505.ogg"
 scene avg_bg_027
 with fade
-show oc002_01 2 as c2portrait at centerpos(-3), zorder 5
+show oc002_01 2 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1002777]]'
-hide c2portrait
-show oc003_01 4 as c3portrait at centerpos(-6), zorder 5
+hide p2
+show oc003_01 4 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1002778]]'
-hide c3portrait
-show oc003_01 4 as c3portrait at centerpos(-6), zorder 5
+hide p3
+show oc003_01 4 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1002779]]'
-hide c3portrait
-show oc004_01 4 as c4portrait at centerpos(-5), zorder 5
+hide p3
+show oc004_01 4 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1002780]]'
-hide c4portrait
-show oc004_01 4 as c4portrait at centerpos(-5), zorder 5
+hide p4
+show oc004_01 4 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1002781]]'
-hide c4portrait
-show oc004_01 21 as c4portrait at centerpos(-5), zorder 5
+hide p4
+show oc004_01 21 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1002782]]'
-hide c4portrait
-show oc004_01 4 as c4portrait at centerpos(-5), zorder 5
+hide p4
+show oc004_01 4 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1002783]]'
 play sfxvoice "avg_vocal_ch20.ogg"
-hide c4portrait
-show oc002_01 17 as c2portrait at centerpos(-3), zorder 5
+hide p4
+show oc002_01 17 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1002784]]'
-hide c2portrait
-show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
+hide p2
+show oc001_01 4 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1002785]]'
-hide c1portrait
-show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
+hide p1
+show oc001_01 4 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1002786]]'
 return

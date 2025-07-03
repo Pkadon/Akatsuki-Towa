@@ -4,81 +4,81 @@ stop music
 play music "ed7561.ogg"
 scene placeholderbackground
 with fade
-show uc003_04 3 as c1051portrait at centerpos(-14), zorder 5
+show uc003_04 3 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132716]]'
-hide c1051portrait
-show oc003_01 8 as c3portrait at centerpos(-6), zorder 5
+hide p1051
+show oc003_01 8 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1132717]]'
-hide c3portrait
-show oc002_01 19 as c2portrait at centerpos(-3), zorder 5
+hide p3
+show oc002_01 19 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1132718]]'
-hide c2portrait
+hide p2
 c10523 '[textdict[1132719]]'
-show oc004_01 9 as c4portrait at centerpos(-5), zorder 5
+show oc004_01 9 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132720]]'
-hide c4portrait
-show oc001_01 9 as c1portrait at centerpos(-2), zorder 5
+hide p4
+show oc001_01 9 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1132721]]'
-hide c1portrait
-show uc003_04 3 as c1045portrait at centerpos(-14), zorder 5
+hide p1
+show uc003_04 3 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132722]]'
-hide c1045portrait
-show uc003_04 4 as c1051portrait at centerpos(-14), zorder 5
+hide p1045
+show uc003_04 4 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132723]]'
-hide c1051portrait
-show uc003_04 2 as c1045portrait at centerpos(-14), zorder 5
+hide p1051
+show uc003_04 2 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132724]]'
-hide c1045portrait
-show uc003_04 3 as c1045portrait at centerpos(-14), zorder 5
+hide p1045
+show uc003_04 3 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132725]]'
-hide c1045portrait
-show oc001_01 6 as c1portrait at centerpos(-2), zorder 5
+hide p1045
+show oc001_01 6 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1132726]]'
-hide c1portrait
-show oc003_01 5 as c3portrait at centerpos(-6), zorder 5
+hide p1
+show oc003_01 5 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1132727]]'
-hide c3portrait
-show uc003_04 3 as c1045portrait at centerpos(-14), zorder 5
+hide p3
+show uc003_04 3 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132728]]'
-hide c1045portrait
-show uc003_04 4 as c1045portrait at centerpos(-14), zorder 5
+hide p1045
+show uc003_04 4 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132729]]'
-hide c1045portrait
-show uc003_04 4 as c1051portrait at centerpos(-14), zorder 5
+hide p1045
+show uc003_04 4 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132730]]'
-hide c1051portrait
+hide p1051
 c10523 '[textdict[1132731]]'
-show oc004_01 10 as c4portrait at centerpos(-5), zorder 5
+show oc004_01 10 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132732]]'
-hide c4portrait
+hide p4
 c10523 '[textdict[1132733]]'
-show uc003_04 3 as c1051portrait at centerpos(-14), zorder 5
+show uc003_04 3 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132734]]'
-hide c1051portrait
-show uc003_04 5 as c1051portrait at centerpos(-14), zorder 5
+hide p1051
+show uc003_04 5 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132735]]'
 stop music
-hide c1051portrait
+hide p1051
 c0 '[textdict[1132736]]'
 play music "ed7511.ogg"
-show oc001_01 15 as c1portrait at centerpos(-2), zorder 5
+show oc001_01 15 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1132737]]'
-hide c1portrait
-show oc002_01 12 as c2portrait at centerpos(-3), zorder 5
+hide p1
+show oc002_01 12 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1132738]]'
-hide c2portrait
-show oc003_01 9 as c3portrait at centerpos(-6), zorder 5
+hide p2
+show oc003_01 9 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1132739]]'
-hide c3portrait
-show oc004_01 13 as c4portrait at centerpos(-5), zorder 5
+hide p3
+show oc004_01 13 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132740]]'
-hide c4portrait
-show oc004_01 15 as c4portrait at centerpos(-5), zorder 5
+hide p4
+show oc004_01 15 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132741]]'
-hide c4portrait
-show sc048_01 4 as c55portrait at centerpos(-7), zorder 5
+hide p4
+show sc048_01 4 as p55 at mid(-7), light, zorder 5
 c553 '[textdict[1132742]]'
-hide c55portrait
-show uc003_04 6 as c1051portrait at centerpos(-14), zorder 5
+hide p55
+show uc003_04 6 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132743]]'
 return

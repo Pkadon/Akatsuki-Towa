@@ -4,18 +4,18 @@ stop music
 stop music
 scene placeholderbackground
 with fade
-show sc007_01 2 as c15portrait at leftside(-17), zorder 5
+show sc007_01 2 as p15 at l(-17), light, zorder 5
 c151 '[textdict[1221271]]'
 stop music
-hide c15portrait
-show sc007_01 2 as c15portrait at darkleft(-17), zorder 6
-show oc001_01 2 as c1portrait at rightside(-2), zorder 5
+hide p15
+show sc007_01 2 as p15 at l(-17), dark, zorder 6
+show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1221272]]'
 stop music
-hide c15portrait
-hide c1portrait
-show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-show sc007_01 1 as c15portrait at leftside(-17), zorder 5
+hide p15
+hide p1
+show oc001_01 2 as p1 at r(-2), dark, zorder 5
+show sc007_01 1 as p15 at l(-17), light, zorder 5
 c151 '[textdict[1221273]]'
 menu:
     extend ""

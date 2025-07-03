@@ -5,26 +5,26 @@ play music "ED6505.ogg"
 scene avg_bg_027
 with fade
 play sfx2 "other_7060.ogg"
-show uc004_02 1 as c960portrait at leftside(-9), zorder 5
+show uc004_02 1 as p960 at l(-9), light, zorder 5
 c9601 '[textdict[1128367]]'
-hide c960portrait
-show uc004_02 1 as c960portrait at darkleft(-9), zorder 6
-show uc004_02 2 as c961portrait at rightside(-9), zorder 5
+hide p960
+show uc004_02 1 as p960 at l(-9), dark, zorder 6
+show uc004_02 2 as p961 at r(-9), light, zorder 5
 c9613 '[textdict[1128368]]'
-hide c961portrait
-hide c960portrait
-show uc004_02 1 as c960portrait at darkleft(-9), zorder 6
-show oc001_01 1 as c1portrait at rightsideentrance(-2), zorder 5
+hide p961
+hide p960
+show uc004_02 1 as p960 at l(-9), dark, zorder 6
+show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1128369]]'
-hide c1portrait
-hide c960portrait
-show uc004_02 1 as c960portrait at darkleft(-9), zorder 6
-show oc002_01 2 as c2portrait at rightside(-3), zorder 5
+hide p1
+hide p960
+show uc004_02 1 as p960 at l(-9), dark, zorder 6
+show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1128370]]'
-hide c960portrait
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
-show uc004_02 1 as c960portrait at leftside(-9), zorder 5
+hide p960
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
+show uc004_02 1 as p960 at l(-9), light, zorder 5
 c9601 '[textdict[1128371]]'
 play music "ED6107.ogg"
 scene avg_bg_070
@@ -35,13 +35,13 @@ scene avg_bg_038
 with fade
 c9621 '[textdict[1128374]]'
 c9621 '[textdict[1128375]]'
-show oc002_01 2 as c2portrait at rightside(-3), zorder 5
+show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1128376]]'
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c9621 '[textdict[1128377]]'
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c9621 '[textdict[1128378]]'
 menu:
     extend ""

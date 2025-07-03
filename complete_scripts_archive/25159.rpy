@@ -5,31 +5,31 @@ scene placeholderbackground
 with fade
 play sfx2 "other_7007.ogg"
 play sfxvoice "bcv_oc002_hurt_02.ogg"
-show oc002_01 20 as c2portrait at centerpos(-3), zorder 5
+show oc002_01 20 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210506]]'
 play sfx2 "other_7057.ogg"
-hide c2portrait
+hide p2
 c0 '[textdict[1210507]]'
 c6123 '[textdict[1210508]]'
 play sfxvoice "avg_vocal_na02.ogg"
-show oc001_01 7 as c1portrait at centerpos(-2), zorder 5
+show oc001_01 7 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210509]]'
-hide c1portrait
+hide p1
 c20153 '[textdict[1210510]]'
 play sfxvoice "avg_vocal_ch11.ogg"
-show oc002_01 12 as c2portrait at centerpos(-3), zorder 5
+show oc002_01 12 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210511]]'
-hide c2portrait
-show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
+hide p2
+show oc001_01 4 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210512]]'
-hide c1portrait
+hide p1
 c20153 '[textdict[1210513]]'
 play sfx2 "other_7085.ogg"
 c0 '[textdict[1210514]]'
 play sfxvoice "avg_vocal_ch25.ogg"
-show oc002_01 21 as c2portrait at centerpos(-3), zorder 5
+show oc002_01 21 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210515]]'
-hide c2portrait
-show oc001_01 2 as c1portrait at centerpos(-2), zorder 5
+hide p2
+show oc001_01 2 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210516]]'
 return

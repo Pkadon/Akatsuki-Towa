@@ -3,20 +3,20 @@ stop music
 
 scene placeholderbackground
 with fade
-show uc001_02 1 as c2014portrait at centerpos(6), zorder 5
+show uc001_02 1 as p2014 at mid(6), light, zorder 5
 c20143 '[textdict[1210472]]'
 play sfxvoice "avg_vocal_ch11.ogg"
-hide c2014portrait
-show oc002_01 12 as c2portrait at centerpos(-3), zorder 5
+hide p2014
+show oc002_01 12 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210473]]'
-hide c2portrait
-show uc001_02 1 as c2014portrait at centerpos(6), zorder 5
+hide p2
+show uc001_02 1 as p2014 at mid(6), light, zorder 5
 c20143 '[textdict[1210474]]'
-hide c2014portrait
-show oc001_01 10 as c1portrait at centerpos(-2), zorder 5
+hide p2014
+show oc001_01 10 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210475]]'
 play sfx2 "common_36rewardsp.ogg"
-hide c1portrait
-show uc001_02 1 as c2014portrait at centerpos(6), zorder 5
+hide p1
+show uc001_02 1 as p2014 at mid(6), light, zorder 5
 c20143 '[textdict[1210476]]'
 return

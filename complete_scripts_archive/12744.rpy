@@ -4,25 +4,25 @@ stop music
 play music "ed6564.ogg"
 scene avg_bg_004
 with fade
-show oc003_01 8 as c3portrait at leftside(-6), zorder 5
+show oc003_01 8 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1172947]]'
-hide c3portrait
-show oc003_01 8 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p3
+show oc003_01 8 as p3 at l(-6), dark, zorder 6
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172948]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 8 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p3
+show oc003_01 8 as p3 at l(-6), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172949]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show oc003_01 4 as c3portrait at leftside(-6), zorder 5
+hide p3
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1172950]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p3
+show oc003_01 4 as p3 at l(-6), dark, zorder 6
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172951]]'
 return

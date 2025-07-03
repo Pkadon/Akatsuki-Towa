@@ -26,7 +26,7 @@ transform shake(*, new_widget=None, old_widget=None):
 #######################################
 ###used to shake the portrait in place
 
-transform shakeleft:
+transform l_shake:
     pause .1
     ease .1 xoffset -20
     ease .1 xoffset 20
@@ -35,7 +35,7 @@ transform shakeleft:
     ease .05 xoffset 0
 
 
-transform shakeright:
+transform r_shake:
     pause .1
     ease .1 xoffset 20
     ease .1 xoffset -20
@@ -44,52 +44,52 @@ transform shakeright:
     ease .05 xoffset 0
 
 ####################################
+###used to light up the speaking portrait
+transform light():
+    matrixcolor TintMatrix("#fff")
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+
+#used to darken the non-speaking portrait
+transform dark():
+    matrixcolor TintMatrix("#808080")
+    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+
 ###used for positioning
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
-transform rightside(charpos):
+transform r(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos (680 + charpos)
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
-transform leftside(charpos):
+transform l(charpos):
     xanchor 0.5
     xzoom -1.0
-    matrixcolor TintMatrix("#fff")
     xpos (160 - charpos)
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 ###doesn't seem like xoffset is taken into account for center placement
-transform centerpos(charpos):
+transform mid(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos 460
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 
 ####################################
 ###used for the animation where the portrait moves to the middle of the screen and returns starting position
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
-transform rightsidemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform r_midback(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos (680 + charpos)
     linear 0.1 xpos 0.40
     ease .1 xpos 0.45
     pause 0.5
     ease 0.5 xpos (680 + charpos)
 
-transform leftsidemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform l_midback(charpos):
     xanchor 0.5
     xzoom -1.0
-    matrixcolor TintMatrix("#fff")
     xpos (160 - charpos)
     linear 0.1 xpos 0.60
     ease .1 xpos 0.55
@@ -101,20 +101,16 @@ transform leftsidemidback(charpos):
 ###used to move the portrait in from offscreen
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
-transform rightsideentrance(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform r_entrance(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos 1.50
     pause 0.1
     ease 0.5 xpos (680 + charpos)
 
-transform leftsideentrance(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform l_entrance(charpos):
     xanchor 0.5
     xzoom -1.0
-    matrixcolor TintMatrix("#fff")
     xpos -0.50
     xzoom -1.0
     pause 0.1
@@ -124,11 +120,9 @@ transform leftsideentrance(charpos):
 ############################
 ###there is ONE scene where entrance and midback are used at the same time
 
-transform rightsideentrancemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform r_entrance_midback(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos 1.50
     pause 0.1
     ease 0.5 xpos (680 + charpos)
@@ -137,11 +131,9 @@ transform rightsideentrancemidback(charpos):
     pause 0.5
     ease 0.5 xpos (680 + charpos)
 
-transform leftsideentrancemidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform l_entrance_midback(charpos):
     xanchor 0.5
     xzoom -1.0
-    matrixcolor TintMatrix("#fff")
     xpos -0.50
     xzoom -1.0
     pause 0.1
@@ -156,20 +148,16 @@ transform leftsideentrancemidback(charpos):
 ###used to move portraits off screen
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
-transform rightsideexit(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform r_exit(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos (680 + charpos)
     pause 0.5
     ease .5 xpos 1.50
 
-transform leftsideexit(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform l_exit(charpos):
     xanchor 0.5
     xzoom -1.0
-    matrixcolor TintMatrix("#fff")
     xpos (160 - charpos)
     pause 0.5
     ease .5 xpos -0.50
@@ -178,11 +166,9 @@ transform leftsideexit(charpos):
 ####################################
 ###there is ONE scene where midback and exit are used at the same time
 
-transform rightsideexitmidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform r_exit_midback(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos (680 + charpos)
     linear 0.1 xpos 0.40
     ease .1 xpos 0.45
@@ -191,11 +177,9 @@ transform rightsideexitmidback(charpos):
     pause 0.5
     ease .5 xpos 1.50
 
-transform leftsideexitmidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform l_exit_midback(charpos):
     xanchor 0.5
     xzoom -1.0
-    matrixcolor TintMatrix("#fff")
     xpos (160 - charpos)
     linear 0.1 xpos 0.60
     ease .1 xpos 0.55
@@ -204,53 +188,27 @@ transform leftsideexitmidback(charpos):
     pause 0.5
     ease .5 xpos -0.50
 
-
-####################################
-###used to darken the non-speaking portrait onscreen
-###charpos is the portrait's "_xPostion" value from avg_role.json 
-
-transform darkright(charpos): 
-    xanchor 0.5
-    xzoom 1.0
-    xpos (680 + charpos)
-    matrixcolor TintMatrix("#808080")
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
-
-transform darkleft(charpos): 
-    xanchor 0.5
-    xzoom -1.0
-    xpos (160 - charpos)
-    matrixcolor TintMatrix("#808080")
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
-
-
 ####################################
 ###midpos placeholder transforms
 ###there are references to them in cutscene files but they do not do anything
 
 #placeholder so it doesn't crash 
-#(these effects shouldn't be used on centerpos hopefully)
-transform centerposentrance(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+#(these effects shouldn't be used on mid position hopefully)
+transform mid_entrance(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos 460
 
 #placeholder so it doesn't crash
-transform centerposexit(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform mid_exit(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos 460
 
 #placeholder so it doesn't crash
-transform centerposmidback(charpos):
-    zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
+transform mid_midback(charpos):
     xanchor 0.5
     xzoom 1.0
-    matrixcolor TintMatrix("#fff")
     xpos 460
 
 return

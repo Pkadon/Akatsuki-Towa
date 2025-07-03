@@ -10,98 +10,98 @@ c0 '[textdict[2102840]]'
 scene avg_bg_046
 with fade
 c0 '[textdict[2102841]]'
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102842]]'
-hide c1portrait
-show oc001_01 22 as c1portrait at rightside(-2), zorder 5
+hide p1
+show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102843]]'
-hide c1portrait
-show oc001_01 22 as c1portrait at darkright(-2), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p1
+show oc001_01 22 as p1 at r(-2), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[2102844]]'
-hide c4portrait
-hide c1portrait
-show oc001_01 22 as c1portrait at darkright(-2), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p4
+hide p1
+show oc001_01 22 as p1 at r(-2), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[2102845]]'
-hide c1portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show st004_01 5 as c204portrait at rightsideexit(4), zorder 5
+hide p1
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show st004_01 5 as p204 at r_exit(4), light, zorder 5
 c2043 '[textdict[2102846]]'
-hide c204portrait
-hide c4portrait
-show oc004_01 13 as c4portrait at leftside(-5), shakeleft, zorder 5
+hide p204
+hide p4
+show oc004_01 13 as p4 at l(-5), l_shake, light, zorder 5
 c41 '[textdict[2102847]]'
 scene avg_bg_070
 with fade
 c0 '[textdict[2102848]]'
 scene avg_bg_040
 with fade
-show st036_01 1 as c235portrait at rightsideentrance(-17), zorder 5
+show st036_01 1 as p235 at r_entrance(-17), light, zorder 5
 c2353 '[textdict[2102849]]'
-hide c235portrait
-show st036_01 1 as c235portrait at darkright(-17), zorder 5
-show st004_01 6 as c204portrait at leftsideentrance(4), zorder 5
+hide p235
+show st036_01 1 as p235 at r(-17), dark, zorder 5
+show st004_01 6 as p204 at l_entrance(4), light, zorder 5
 c2041 '[textdict[2102850]]'
-hide c204portrait
-hide c235portrait
-show st036_01 1 as c235portrait at darkright(-17), zorder 5
-show oc004_01 13 as c4portrait at leftsideentrance(-5), zorder 5
+hide p204
+hide p235
+show st036_01 1 as p235 at r(-17), dark, zorder 5
+show oc004_01 13 as p4 at l_entrance(-5), light, zorder 5
 c41 '[textdict[2102851]]'
-hide c235portrait
-hide c4portrait
-show oc004_01 13 as c4portrait at darkleft(-5), zorder 6
-show st036_01 1 as c235portrait at rightside(-17), zorder 5
+hide p235
+hide p4
+show oc004_01 13 as p4 at l(-5), dark, zorder 6
+show st036_01 1 as p235 at r(-17), light, zorder 5
 c2353 '[textdict[2102852]]'
-hide c4portrait
-hide c235portrait
-show st036_01 1 as c235portrait at darkright(-17), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p4
+hide p235
+show st036_01 1 as p235 at r(-17), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[2102853]]'
-hide c235portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show st036_01 5 as c235portrait at rightside(-17), zorder 5
+hide p235
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show st036_01 5 as p235 at r(-17), light, zorder 5
 c2353 '[textdict[2102854]]'
-hide c235portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show st036_01 1 as c235portrait at rightside(-17), zorder 5
+hide p235
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show st036_01 1 as p235 at r(-17), light, zorder 5
 c2353 '[textdict[2102855]]'
-hide c4portrait
-hide c235portrait
-show st036_01 1 as c235portrait at darkright(-17), zorder 5
-show st004_01 6 as c204portrait at leftside(4), zorder 5
+hide p4
+hide p235
+show st036_01 1 as p235 at r(-17), dark, zorder 5
+show st004_01 6 as p204 at l(4), light, zorder 5
 c2041 '[textdict[2102856]]'
-hide c204portrait
-hide c235portrait
-show st036_01 1 as c235portrait at darkright(-17), zorder 5
-show st004_01 6 as c204portrait at leftside(4), zorder 5
+hide p204
+hide p235
+show st036_01 1 as p235 at r(-17), dark, zorder 5
+show st004_01 6 as p204 at l(4), light, zorder 5
 c2041 '[textdict[2102857]]'
-hide c235portrait
-hide c204portrait
-show st004_01 6 as c204portrait at darkleft(4), zorder 6
-show st036_01 5 as c235portrait at rightside(-17), zorder 5
+hide p235
+hide p204
+show st004_01 6 as p204 at l(4), dark, zorder 6
+show st036_01 5 as p235 at r(-17), light, zorder 5
 c2353 '[textdict[2102858]]'
-hide c204portrait
-hide c235portrait
-show st036_01 5 as c235portrait at darkright(-17), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p204
+hide p235
+show st036_01 5 as p235 at r(-17), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[2102859]]'
-hide c235portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show st036_01 5 as c235portrait at rightside(-17), zorder 5
+hide p235
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show st036_01 5 as p235 at r(-17), light, zorder 5
 c2353 '[textdict[2102860]]'
-hide c4portrait
-hide c235portrait
-show st036_01 5 as c235portrait at darkright(-17), zorder 5
-show st004_01 6 as c204portrait at leftside(4), zorder 5
+hide p4
+hide p235
+show st036_01 5 as p235 at r(-17), dark, zorder 5
+show st004_01 6 as p204 at l(4), light, zorder 5
 c2041 '[textdict[2102861]]'
-hide c235portrait
-hide c204portrait
-show st004_01 6 as c204portrait at darkleft(4), zorder 6
-show st036_01 1 as c235portrait at rightside(-17), zorder 5
+hide p235
+hide p204
+show st004_01 6 as p204 at l(4), dark, zorder 6
+show st036_01 1 as p235 at r(-17), light, zorder 5
 c2353 '[textdict[2102862]]'
 return

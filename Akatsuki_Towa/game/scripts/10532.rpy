@@ -8,203 +8,203 @@ c0 '[textdict[1152354]]'
 play sfx2 "other_7064.ogg"
 c0 '[textdict[1152355]]'
 play sfxvoice "avg_vocal_ch08.ogg"
-show oc002_01 6 as c2portrait at leftsideentrance(-3), zorder 5
+show oc002_01 6 as p2 at l_entrance(-3), light, zorder 5
 c21 '[textdict[1152356]]'
 play sfxvoice "avg_vocal_ch20.ogg"
-hide c2portrait
-show oc002_01 14 as c2portrait at leftside(-3), shakeleft, zorder 5
+hide p2
+show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 5
 c21 '[textdict[1152357]]'
 play sfxvoice "avg_vocal_ch06.ogg"
-hide c2portrait
-show oc002_01 6 as c2portrait at leftside(-3), shakeleft, zorder 5
+hide p2
+show oc002_01 6 as p2 at l(-3), l_shake, light, zorder 5
 c21 '[textdict[1152358]]'
-hide c2portrait
-show oc002_01 6 as c2portrait at darkleft(-3), zorder 6
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p2
+show oc002_01 6 as p2 at l(-3), dark, zorder 6
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152359]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p2
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1152360]]'
-hide c1portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5
+hide p1
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show oc002_01 6 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1152361]]'
 play sfxvoice "avg_vocal_na04_b.ogg"
-hide c2portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show oc001_01 8 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152362]]'
 play sfxvoice "avg_vocal_ro05.ogg"
-hide c4portrait
-hide c1portrait
-show oc001_01 8 as c1portrait at darkright(-2), zorder 5
-show oc003_01 5 as c3portrait at leftside(-6), zorder 5
+hide p4
+hide p1
+show oc001_01 8 as p1 at r(-2), dark, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1152363]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc004_01 1 as c4portrait at rightside(-5), zorder 5
+hide p1
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1152364]]'
-hide c4portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 6 as c2portrait at rightside(-3), zorder 5
+hide p4
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc002_01 6 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152365]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 10 as c2portrait at rightside(-3), zorder 5
+hide p2
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152366]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 8 as c2portrait at rightside(-3), zorder 5
+hide p2
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152367]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 6 as c2portrait at rightside(-3), zorder 5
+hide p2
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc002_01 6 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152368]]'
-hide c3portrait
-hide c2portrait
-show oc002_01 6 as c2portrait at darkright(-3), zorder 5
-show oc003_01 5 as c3portrait at leftside(-6), zorder 5
+hide p3
+hide p2
+show oc002_01 6 as p2 at r(-3), dark, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1152369]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 2 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152370]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-show oc002_01 22 as c2portrait at leftside(-3), zorder 5
+hide p3
+hide p1
+show oc001_01 2 as p1 at r(-2), dark, zorder 5
+show oc002_01 22 as p2 at l(-3), light, zorder 5
 c21 '[textdict[1152371]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-show oc002_01 8 as c2portrait at leftside(-3), zorder 5
+hide p2
+hide p1
+show oc001_01 2 as p1 at r(-2), dark, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 5
 c21 '[textdict[1152372]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-show oc002_01 14 as c2portrait at leftside(-3), zorder 5
+hide p2
+hide p1
+show oc001_01 2 as p1 at r(-2), dark, zorder 5
+show oc002_01 14 as p2 at l(-3), light, zorder 5
 c21 '[textdict[1152373]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-show oc004_01 7 as c4portrait at leftside(-5), zorder 5
+hide p2
+hide p1
+show oc001_01 2 as p1 at r(-2), dark, zorder 5
+show oc004_01 7 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1152374]]'
-hide c4portrait
-hide c1portrait
-show oc001_01 2 as c1portrait at darkright(-2), zorder 5
-show oc003_01 17 as c3portrait at leftside(-6), zorder 5
+hide p4
+hide p1
+show oc001_01 2 as p1 at r(-2), dark, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1152375]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 6 as c2portrait at rightside(-3), zorder 5
+hide p1
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc002_01 6 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152376]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152377]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-show oc002_01 22 as c2portrait at leftside(-3), zorder 5
+hide p3
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
+show oc002_01 22 as p2 at l(-3), light, zorder 5
 c21 '[textdict[1152378]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-show oc002_01 14 as c2portrait at leftside(-3), shakeleft, zorder 5
+hide p2
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
+show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 5
 c21 '[textdict[1152379]]'
 play sfxvoice "avg_vocal_na20.ogg"
-hide c1portrait
-hide c2portrait
-show oc002_01 14 as c2portrait at darkleft(-3), zorder 6
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p2
+show oc002_01 14 as p2 at l(-3), dark, zorder 6
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152380]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p2
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1152381]]'
-hide c4portrait
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-show oc003_01 5 as c3portrait at leftside(-6), zorder 5
+hide p4
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1152382]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5
+hide p1
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc002_01 6 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1152383]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 14 as c2portrait at rightside(-3), zorder 5
+hide p2
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc002_01 14 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152384]]'
-hide c3portrait
-hide c2portrait
-show oc002_01 14 as c2portrait at darkright(-3), zorder 5
-show oc003_01 17 as c3portrait at leftside(-6), zorder 5
+hide p3
+hide p2
+show oc002_01 14 as p2 at r(-3), dark, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1152385]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 5 as c2portrait at rightside(-3), shakeright, zorder 5
+hide p2
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc002_01 5 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1152386]]'
-hide c3portrait
-hide c2portrait
-show oc002_01 5 as c2portrait at darkright(-3), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p3
+hide p2
+show oc002_01 5 as p2 at r(-3), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1152387]]'
-hide c4portrait
-hide c2portrait
-show oc002_01 5 as c2portrait at darkright(-3), zorder 5
-show oc003_01 17 as c3portrait at leftside(-6), zorder 5
+hide p4
+hide p2
+show oc002_01 5 as p2 at r(-3), dark, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1152388]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc004_01 7 as c4portrait at rightside(-5), zorder 5
+hide p2
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc004_01 7 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1152389]]'
-hide c4portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 8 as c2portrait at rightside(-3), zorder 5
+hide p4
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152390]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc002_01 5 as c2portrait at rightside(-3), zorder 5
+hide p2
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc002_01 5 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152391]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152392]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 17 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p3
+show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152393]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
-show oc002_01 6 as c2portrait at leftsideexit(-3), zorder 5
+hide p3
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
+show oc002_01 6 as p2 at l_exit(-3), light, zorder 5
 c21 '[textdict[1152394]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 17 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p1
+show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152395]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152396]]'
 return

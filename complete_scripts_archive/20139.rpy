@@ -4,40 +4,40 @@ stop music
 play music "ed7150.ogg"
 scene placeholderbackground
 with fade
-show oc001_01 2 as c1portrait at leftside(-2), zorder 5
+show oc001_01 2 as p1 at l(-2), light, zorder 5
 c11 '[textdict[1003722]]'
-hide c1portrait
-show oc001_01 2 as c1portrait at darkleft(-2), zorder 6
-show oc002_01 7 as c2portrait at rightside(-3), zorder 5
+hide p1
+show oc001_01 2 as p1 at l(-2), dark, zorder 6
+show oc002_01 7 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1003723]]'
-hide c2portrait
-hide c1portrait
+hide p2
+hide p1
 c5533 '[textdict[1003724]]'
 play sfx2 "other_7020.ogg"
-show oc002_01 2 as c2portrait at rightside(-3), zorder 5
+show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1003725]]'
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
-show sc042_01 1 as c641portrait at leftsideentrance(-19), zorder 5
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
+show sc042_01 1 as p641 at l_entrance(-19), light, zorder 5
 c6411 '[textdict[1003726]]'
-hide c641portrait
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
-show sc042_01 1 as c641portrait at leftside(-19), zorder 5
+hide p641
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
+show sc042_01 1 as p641 at l(-19), light, zorder 5
 c6411 '[textdict[1003727]]'
-hide c641portrait
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
-show sc042_01 1 as c641portrait at leftsideexit(-19), zorder 5
+hide p641
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
+show sc042_01 1 as p641 at l_exit(-19), light, zorder 5
 c6411 '[textdict[1003728]]'
-hide c641portrait
+hide p641
 play sfxvoice "avg_vocal_ch19.ogg"
-hide c2portrait
-show oc002_01 2 as c2portrait at rightside(-3), zorder 5
+hide p2
+show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1003729]]'
 play sfxvoice "avg_vocal_na05.ogg"
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
-show oc001_01 8 as c1portrait at leftsideentrance(-2), zorder 5
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
+show oc001_01 8 as p1 at l_entrance(-2), light, zorder 5
 c11 '[textdict[1003730]]'
 return

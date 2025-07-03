@@ -237,11 +237,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#figure out xoffset
 			if folderName: 
 				offset = str(int(avg_role_dict[charID]['_xPostion']))
-				folderAlias = f'c{speaker}portrait'
+				folderAlias = f'p{speaker}'
 			
 			#figure out where on the screen character portrait goes
 			if charPos == 1: 
-				portraitpos = 'leftside'
+				portraitpos = 'l'
 				if leftportrait:
 					f.write(f"hide {leftalias}\n")
 					leftportrait = None
@@ -262,11 +262,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				
 				if rightportrait: 
 					f.write(f"hide {rightalias}\n")
-					f.write(f"show {rightportrait} {rightexpression} as {rightalias} at darkright({rightoffset}), zorder 5\n")
+					f.write(f"show {rightportrait} {rightexpression} as {rightalias} at r({rightoffset}), dark, zorder 5\n")
 			
 				
 			elif charPos == 3: 
-				portraitpos = 'rightside'
+				portraitpos = 'r'
 				if rightportrait:
 					f.write(f"hide {rightalias}\n")
 					rightportrait = None
@@ -287,10 +287,10 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				
 				if leftportrait: 
 					f.write(f"hide {leftalias}\n")
-					f.write(f"show {leftportrait} {leftexpression} as {leftalias} at darkleft({leftoffset}), zorder 6\n")
+					f.write(f"show {leftportrait} {leftexpression} as {leftalias} at l({leftoffset}), dark, zorder 6\n")
 				
 			elif charPos == 2: 
-				portraitpos = 'centerpos'
+				portraitpos = 'mid'
 				if centerportrait:
 					f.write(f"hide {centeralias}\n")
 				if folderName: 
@@ -303,7 +303,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#this is mostly for the extra unused scenes that don't have charpos set
 			#but need to make sure it doesn't screw up system messages that also use charPos 0
 			elif charPos == 0:
-				portraitpos = 'centerpos'
+				portraitpos = 'mid'
 				if rightportrait and isClearModle != 1:
 					f.write(f"hide {rightalias}\n")
 					rightportrait = None
@@ -318,22 +318,22 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					centeralias = folderAlias			
 				
 			#check if portrait is entering or exiting:
-			if CharFadeIn == 1: portraitpos += 'entrance'
-			if CharFadeOut == 1:  portraitpos += 'exit'
+			if CharFadeIn == 1: portraitpos += '_entrance'
+			if CharFadeOut == 1:  portraitpos += '_exit'
 				
 			#moved midback up here so it can get the xoffset added to it	
-			if effect == 103 or effect == 203: portraitpos += 'midback'
+			if effect == 103 or effect == 203: portraitpos += '_midback'
 			
 			if folderName:
 				portraitpos += f'({offset})'
 
 				#then get effects figured out
-				if effect == 102: portraitpos += ', shakeright'
-				elif effect == 202: portraitpos += ', shakeleft'
+				if effect == 102: portraitpos += ', r_shake'
+				elif effect == 202: portraitpos += ', l_shake'
 
 			#SHOW PORTRAIT
 			if folderName:									
-				portrait = f'show {folderName} {expression} as {folderAlias} at {portraitpos}, zorder 5' 
+				portrait = f'show {folderName} {expression} as {folderAlias} at {portraitpos}, light, zorder 5' 
 				f.write(f"{portrait}\n")
 			#need the fade after all images are set up, before dialogue appears
 			if isClearModle == 1: f.write(f"with fade\n")

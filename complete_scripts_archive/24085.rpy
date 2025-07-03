@@ -4,15 +4,15 @@ stop music
 play music "ed7105.ogg"
 scene placeholderbackground
 with fade
-show oc001_01 1 as c1portrait at leftside(-2), zorder 5
+show oc001_01 1 as p1 at l(-2), light, zorder 5
 c11 '[textdict[1200314]]'
-hide c1portrait
-show oc001_01 1 as c1portrait at darkleft(-2), zorder 6
-show st044_01 1 as c243portrait at rightside(10), zorder 5
+hide p1
+show oc001_01 1 as p1 at l(-2), dark, zorder 6
+show st044_01 1 as p243 at r(10), light, zorder 5
 c2433 '[textdict[1200315]]'
-hide c1portrait
-hide c243portrait
-show st044_01 1 as c243portrait at darkright(10), zorder 5
-show oc001_01 11 as c1portrait at leftside(-2), zorder 5
+hide p1
+hide p243
+show st044_01 1 as p243 at r(10), dark, zorder 5
+show oc001_01 11 as p1 at l(-2), light, zorder 5
 c11 '[textdict[1200316]]'
 return

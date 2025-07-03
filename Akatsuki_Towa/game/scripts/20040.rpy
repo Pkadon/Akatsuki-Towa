@@ -5,18 +5,18 @@ play music "ed7151.ogg"
 scene placeholderbackground
 with fade
 play sfx2 "other_7085.ogg"
-show sc027_01 1 as c35portrait at rightsideexit(-10), zorder 5
+show sc027_01 1 as p35 at r_exit(-10), light, zorder 5
 c353 '[textdict[1002424]]'
-hide c35portrait
-show oc003_01 4 as c3portrait at leftside(-6), zorder 5
+hide p35
+show oc003_01 4 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1002425]]'
-hide c3portrait
-show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 4 as c1portrait at rightsideentrance(-2), zorder 5
+hide p3
+show oc003_01 4 as p3 at l(-6), dark, zorder 6
+show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1002426]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show oc002_01 4 as c2portrait at leftside(-3), shakeleft, zorder 5
+hide p3
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show oc002_01 4 as p2 at l(-3), l_shake, light, zorder 5
 c21 '[textdict[1002427]]'
 return

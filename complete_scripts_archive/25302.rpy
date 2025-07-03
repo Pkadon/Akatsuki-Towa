@@ -6,8 +6,8 @@ with fade
 play sfx2 "fight_6024.ogg"
 c20273 '[textdict[1211164]]'
 play sfxvoice "avg_vocal_ch05.ogg"
-show oc002_01 4 as c2portrait at centerpos(-3), zorder 5
+show oc002_01 4 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1211165]]'
-hide c2portrait
+hide p2
 c20273 '[textdict[1211166]]'
 return

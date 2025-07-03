@@ -14,22 +14,22 @@ c6783 '[textdict[1004511]]'
 c6783 '[textdict[1004513]]'
 c6801 '[textdict[1004514]]'
 c6801 '[textdict[1004515]]'
-show oc001_01 2 as c1portrait at leftsideentrance(-2), zorder 5
+show oc001_01 2 as p1 at l_entrance(-2), light, zorder 5
 c11 '[textdict[1004516]]'
 play sfxvoice "avg_vocal_ro13.ogg"
-hide c1portrait
-show oc001_01 2 as c1portrait at darkleft(-2), zorder 6
-show oc003_01 8 as c3portrait at rightside(-6), zorder 5
+hide p1
+show oc001_01 2 as p1 at l(-2), dark, zorder 6
+show oc003_01 8 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1004517]]'
 play sfxvoice "avg_vocal_ch07.ogg"
-hide c1portrait
-hide c3portrait
-show oc003_01 8 as c3portrait at darkright(-6), zorder 5
-show oc002_01 5 as c2portrait at leftside(-3), zorder 5
+hide p1
+hide p3
+show oc003_01 8 as p3 at r(-6), dark, zorder 5
+show oc002_01 5 as p2 at l(-3), light, zorder 5
 c21 '[textdict[1004518]]'
-hide c3portrait
-hide c2portrait
-show oc002_01 5 as c2portrait at darkleft(-3), zorder 6
-show oc004_01 8 as c4portrait at rightside(-5), zorder 5
+hide p3
+hide p2
+show oc002_01 5 as p2 at l(-3), dark, zorder 6
+show oc004_01 8 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1123027]]'
 return

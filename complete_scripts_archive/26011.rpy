@@ -3,16 +3,16 @@ stop music
 
 scene placeholderbackground
 with fade
-show oc001_01 15 as c1portrait at centerpos(-2), zorder 5
+show oc001_01 15 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1215566]]'
-hide c1portrait
-show oc002_01 19 as c2portrait at centerpos(-3), zorder 5
+hide p1
+show oc002_01 19 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1215567]]'
-hide c2portrait
-show oc001_01 4 as c1portrait at centerpos(-2), zorder 5
+hide p2
+show oc001_01 4 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1215568]]'
 play sfx2 "other_7002.ogg"
-hide c1portrait
+hide p1
 c0 '[textdict[1215755]]'
 c0 '[textdict[1215569]]'
 c0 '[textdict[1215570]]'

@@ -3,52 +3,52 @@ stop music
 
 scene placeholderbackground
 with fade
-show sc038_01 4 as c45portrait at leftsideentrance(-1), zorder 5
+show sc038_01 4 as p45 at l_entrance(-1), light, zorder 5
 c451 '[textdict[1006689]]'
 play sfx2 "elc_5002.ogg"
-hide c45portrait
-show sc038_01 4 as c45portrait at darkleft(-1), zorder 6
-show sc040_01 4 as c47portrait at rightside(-9), zorder 5
+hide p45
+show sc038_01 4 as p45 at l(-1), dark, zorder 6
+show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[1006690]]'
-hide c45portrait
-hide c47portrait
-show sc040_01 4 as c47portrait at darkright(-9), zorder 5
-show sc039_01 4 as c46portrait at leftside(-13), zorder 5
+hide p45
+hide p47
+show sc040_01 4 as p47 at r(-9), dark, zorder 5
+show sc039_01 4 as p46 at l(-13), light, zorder 5
 c461 '[textdict[1006691]]'
-hide c47portrait
-hide c46portrait
-show sc039_01 4 as c46portrait at darkleft(-13), zorder 6
-show sc041_01 4 as c48portrait at rightside(-9), zorder 5
+hide p47
+hide p46
+show sc039_01 4 as p46 at l(-13), dark, zorder 6
+show sc041_01 4 as p48 at r(-9), light, zorder 5
 c483 '[textdict[1006692]]'
 play sfx2 "elc_5005.ogg"
-hide c46portrait
-hide c48portrait
-show sc041_01 4 as c48portrait at darkright(-9), zorder 5
+hide p46
+hide p48
+show sc041_01 4 as p48 at r(-9), dark, zorder 5
 c6651 '[textdict[1006693]]'
 play sfx2 "elc_5005.ogg"
-hide c48portrait
-show sc041_01 4 as c48portrait at darkright(-9), zorder 5
+hide p48
+show sc041_01 4 as p48 at r(-9), dark, zorder 5
 c6651 '[textdict[1006693]]'
 play sfx2 "elc_5005.ogg"
-hide c48portrait
-show sc041_01 4 as c48portrait at darkright(-9), zorder 5
+hide p48
+show sc041_01 4 as p48 at r(-9), dark, zorder 5
 c6651 '[textdict[1006693]]'
-hide c48portrait
-show sc060_01 1 as c65portrait at rightside(-16), zorder 5
+hide p48
+show sc060_01 1 as p65 at r(-16), light, zorder 5
 c653 '[textdict[1006696]]'
-hide c65portrait
-show sc060_01 1 as c65portrait at darkright(-16), zorder 5
-show sc045_01 4 as c52portrait at leftside(-11), zorder 5
+hide p65
+show sc060_01 1 as p65 at r(-16), dark, zorder 5
+show sc045_01 4 as p52 at l(-11), light, zorder 5
 c521 '[textdict[1006697]]'
-hide c65portrait
-hide c52portrait
-show sc045_01 4 as c52portrait at darkleft(-11), zorder 6
-show sc038_01 4 as c45portrait at rightside(-1), zorder 5
+hide p65
+hide p52
+show sc045_01 4 as p52 at l(-11), dark, zorder 6
+show sc038_01 4 as p45 at r(-1), light, zorder 5
 c453 '[textdict[1006698]]'
 play sfx2 "fight_6023.ogg"
-hide c45portrait
-hide c52portrait
-show sc045_01 4 as c52portrait at darkleft(-11), zorder 6
-show sc038_01 3 as c45portrait at rightside(-1), zorder 5
+hide p45
+hide p52
+show sc045_01 4 as p52 at l(-11), dark, zorder 6
+show sc038_01 3 as p45 at r(-1), light, zorder 5
 c453 '[textdict[1006699]]'
 return

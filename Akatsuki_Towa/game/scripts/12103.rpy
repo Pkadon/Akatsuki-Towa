@@ -6,6 +6,6 @@ scene avg_bg_047
 with fade
 play sfx2 "common_cancel.ogg"
 play sfxvoice "avg_vocal_ji02.ogg"
-show oc005_01 1 as c5portrait at rightside(-6), zorder 5
+show oc005_01 1 as p5 at r(-6), light, zorder 5
 c53 '[textdict[1128018]]'
 return

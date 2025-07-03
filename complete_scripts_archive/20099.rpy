@@ -17,10 +17,10 @@ c6853 '[textdict[1004845]]'
 c6861 '[textdict[1004846]]'
 c6853 '[textdict[1004847]]'
 play sfxvoice "avg_vocal_na15.ogg"
-show oc001_01 1 as c1portrait at leftsideentrance(-2), zorder 5
+show oc001_01 1 as p1 at l_entrance(-2), light, zorder 5
 c11 '[textdict[1004848]]'
-hide c1portrait
-show oc001_01 1 as c1portrait at darkleft(-2), zorder 6
-show sc039_01 1 as c46portrait at rightside(-13), zorder 5
+hide p1
+show oc001_01 1 as p1 at l(-2), dark, zorder 6
+show sc039_01 1 as p46 at r(-13), light, zorder 5
 c463 '[textdict[1004849]]'
 return

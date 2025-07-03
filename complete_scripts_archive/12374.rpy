@@ -5,7 +5,7 @@ play music "ed9999.ogg"
 scene avg_bg_058
 with fade
 play sfxvoice "avg_vocal_na10.ogg"
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1134071]]'
 menu:
     extend ""

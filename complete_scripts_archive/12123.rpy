@@ -5,46 +5,46 @@ play music "ED6104.ogg"
 scene avg_bg_038
 with fade
 play sfx2 "common_select.ogg"
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1128233]]'
-hide c1portrait
-show oc002_01 8 as c2portrait at rightside(-3), zorder 5
+hide p1
+show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1128234]]'
-hide c2portrait
-show oc002_01 8 as c2portrait at darkright(-3), zorder 5
+hide p2
+show oc002_01 8 as p2 at r(-3), dark, zorder 5
 c9591 '[textdict[1128235]]'
 play sfxvoice "avg_vocal_na20.ogg"
-hide c2portrait
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p2
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1128236]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c9591 '[textdict[1128237]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c9591 '[textdict[1128238]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c9591 '[textdict[1128239]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c9591 '[textdict[1128240]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c9591 '[textdict[1128241]]'
 play sfx2 "common_tag_2.ogg"
-hide c1portrait
+hide p1
 c0 '[textdict[1128242]]'
-show oc003_01 2 as c3portrait at rightside(-6), zorder 5
+show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1128243]]'
-hide c3portrait
-show oc003_01 2 as c3portrait at darkright(-6), zorder 5
+hide p3
+show oc003_01 2 as p3 at r(-6), dark, zorder 5
 c9591 '[textdict[1128244]]'
-hide c3portrait
-show oc003_01 2 as c3portrait at darkright(-6), zorder 5
+hide p3
+show oc003_01 2 as p3 at r(-6), dark, zorder 5
 c9591 '[textdict[1128245]]'
 play sfx2 "common_quest.ogg"
-hide c3portrait
-show oc003_01 2 as c3portrait at darkright(-6), zorder 5
+hide p3
+show oc003_01 2 as p3 at r(-6), dark, zorder 5
 c9591 '[textdict[1128246]]'
 return

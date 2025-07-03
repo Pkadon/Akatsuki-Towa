@@ -5,72 +5,72 @@ play music "ED6102.ogg"
 scene avg_bg_105
 with fade
 play sfx2 "other_7061.ogg"
-show st041_01 4 as c240portrait at leftside(-1), zorder 5
+show st041_01 4 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153652]]'
 play sfx2 "other_7061.ogg"
-hide c240portrait
-show st041_01 1 as c240portrait at leftside(-1), zorder 5
+hide p240
+show st041_01 1 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153653]]'
-hide c240portrait
-show st041_01 1 as c240portrait at darkleft(-1), zorder 6
-show st050_01 5 as c257portrait at rightside(-11), shakeright, zorder 5
+hide p240
+show st041_01 1 as p240 at l(-1), dark, zorder 6
+show st050_01 5 as p257 at r(-11), r_shake, light, zorder 5
 c2573 '[textdict[1153654]]'
-hide c257portrait
-hide c240portrait
-show st041_01 1 as c240portrait at darkleft(-1), zorder 6
-show st050_01 1 as c257portrait at rightside(-11), zorder 5
+hide p257
+hide p240
+show st041_01 1 as p240 at l(-1), dark, zorder 6
+show st050_01 1 as p257 at r(-11), light, zorder 5
 c2573 '[textdict[1153655]]'
-hide c257portrait
-hide c240portrait
-show st041_01 1 as c240portrait at darkleft(-1), zorder 6
-show st050_01 5 as c257portrait at rightside(-11), zorder 5
+hide p257
+hide p240
+show st041_01 1 as p240 at l(-1), dark, zorder 6
+show st050_01 5 as p257 at r(-11), light, zorder 5
 c2573 '[textdict[1153656]]'
-hide c240portrait
-hide c257portrait
-show st050_01 5 as c257portrait at darkright(-11), zorder 5
-show st041_01 1 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 5 as p257 at r(-11), dark, zorder 5
+show st041_01 1 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153657]]'
-hide c240portrait
-hide c257portrait
-show st050_01 5 as c257portrait at darkright(-11), zorder 5
-show st041_01 4 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 5 as p257 at r(-11), dark, zorder 5
+show st041_01 4 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153658]]'
-hide c240portrait
-hide c257portrait
-show st050_01 5 as c257portrait at darkright(-11), zorder 5
-show st041_01 1 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 5 as p257 at r(-11), dark, zorder 5
+show st041_01 1 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153659]]'
-hide c240portrait
-hide c257portrait
-show st050_01 5 as c257portrait at darkright(-11), zorder 5
-show st041_01 1 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 5 as p257 at r(-11), dark, zorder 5
+show st041_01 1 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153660]]'
-hide c257portrait
-hide c240portrait
-show st041_01 1 as c240portrait at darkleft(-1), zorder 6
-show st050_01 5 as c257portrait at rightside(-11), zorder 5
+hide p257
+hide p240
+show st041_01 1 as p240 at l(-1), dark, zorder 6
+show st050_01 5 as p257 at r(-11), light, zorder 5
 c2573 '[textdict[1153661]]'
-hide c240portrait
-hide c257portrait
-show st050_01 5 as c257portrait at darkright(-11), zorder 5
-show st041_01 1 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 5 as p257 at r(-11), dark, zorder 5
+show st041_01 1 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153662]]'
-hide c240portrait
-hide c257portrait
-show st050_01 5 as c257portrait at darkright(-11), zorder 5
-show st041_01 4 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 5 as p257 at r(-11), dark, zorder 5
+show st041_01 4 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153663]]'
-hide c257portrait
-hide c240portrait
-show st041_01 4 as c240portrait at darkleft(-1), zorder 6
-show st050_01 1 as c257portrait at rightside(-11), zorder 5
+hide p257
+hide p240
+show st041_01 4 as p240 at l(-1), dark, zorder 6
+show st050_01 1 as p257 at r(-11), light, zorder 5
 c2573 '[textdict[1153664]]'
-hide c240portrait
-hide c257portrait
-show st050_01 1 as c257portrait at darkright(-11), zorder 5
-show st041_01 1 as c240portrait at leftside(-1), zorder 5
+hide p240
+hide p257
+show st050_01 1 as p257 at r(-11), dark, zorder 5
+show st041_01 1 as p240 at l(-1), light, zorder 5
 c2401 '[textdict[1153665]]'
-hide c240portrait
-hide c257portrait
+hide p240
+hide p257
 c0 '[textdict[1153666]]'
 return

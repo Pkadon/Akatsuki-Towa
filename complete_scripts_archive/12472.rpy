@@ -9,41 +9,41 @@ c0 '[textdict[1143969]]'
 c0 '[textdict[1143970]]'
 c0 '[textdict[1143971]]'
 c0 '[textdict[1143972]]'
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143973]]'
-hide c6portrait
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+hide p6
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143974]]'
-hide c6portrait
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+hide p6
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143975]]'
-hide c6portrait
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+hide p6
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143976]]'
-hide c6portrait
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+hide p6
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143977]]'
-hide c6portrait
+hide p6
 c0 '[textdict[1143978]]'
 c0 '[textdict[1143979]]'
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143980]]'
-hide c6portrait
+hide p6
 c0 '[textdict[1143981]]'
 c0 '[textdict[1143982]]'
-show sc058_01 2 as c63portrait at rightside(-20), zorder 5
+show sc058_01 2 as p63 at r(-20), light, zorder 5
 c633 '[textdict[1143983]]'
-hide c63portrait
-show sc058_01 3 as c63portrait at rightside(-20), zorder 5
+hide p63
+show sc058_01 3 as p63 at r(-20), light, zorder 5
 c633 '[textdict[1143984]]'
-hide c63portrait
-show sc058_01 3 as c63portrait at rightside(-20), zorder 5
+hide p63
+show sc058_01 3 as p63 at r(-20), light, zorder 5
 c633 '[textdict[1143985]]'
-hide c63portrait
-show sc058_01 3 as c63portrait at darkright(-20), zorder 5
-show oc006_01 4 as c6portrait at leftside(-5), zorder 5
+hide p63
+show sc058_01 3 as p63 at r(-20), dark, zorder 5
+show oc006_01 4 as p6 at l(-5), light, zorder 5
 c61 '[textdict[1143986]]'
-hide c6portrait
-hide c63portrait
+hide p6
+hide p63
 c0 '[textdict[1143987]]'
 return

@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 with fade
-show uc001_02 2 as c2014portrait at centerpos(6), zorder 5
+show uc001_02 2 as p2014 at mid(6), light, zorder 5
 c20143 '[textdict[1210478]]'
 menu:
     extend ""

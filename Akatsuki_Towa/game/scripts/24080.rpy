@@ -4,14 +4,14 @@ stop music
 play music "ed7105.ogg"
 scene placeholderbackground
 with fade
-show oc003_01 5 as c3portrait at centerpos(-6), zorder 5
+show oc003_01 5 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1200290]]'
-hide c3portrait
+hide p3
 c7593 '[textdict[1200291]]'
-show oc003_01 1 as c3portrait at centerpos(-6), zorder 5
+show oc003_01 1 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1200292]]'
-hide c3portrait
+hide p3
 c7593 '[textdict[1200293]]'
-show oc003_01 1 as c3portrait at centerpos(-6), zorder 5
+show oc003_01 1 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1200294]]'
 return

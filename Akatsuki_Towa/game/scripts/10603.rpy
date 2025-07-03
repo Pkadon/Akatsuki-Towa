@@ -6,40 +6,40 @@ scene avg_bg_105
 with fade
 c0 '[textdict[1160143]]'
 c12321 '[textdict[1160144]]'
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1160145]]'
-hide c1portrait
-show oc001_01 1 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 1 as p1 at r(-2), dark, zorder 5
 c12321 '[textdict[1160146]]'
-hide c1portrait
-show oc002_01 2 as c2portrait at rightside(-3), zorder 5
+hide p1
+show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1160147]]'
-hide c2portrait
-show oc002_01 2 as c2portrait at darkright(-3), zorder 5
+hide p2
+show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c12321 '[textdict[1160148]]'
-hide c2portrait
-show oc002_01 23 as c2portrait at rightside(-3), zorder 5
+hide p2
+show oc002_01 23 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1160149]]'
-hide c2portrait
-show oc002_01 23 as c2portrait at darkright(-3), zorder 5
+hide p2
+show oc002_01 23 as p2 at r(-3), dark, zorder 5
 c12321 '[textdict[1160150]]'
-hide c2portrait
-show oc002_01 6 as c2portrait at rightside(-3), shakeright, zorder 5
+hide p2
+show oc002_01 6 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1160151]]'
-hide c2portrait
-show oc004_01 1 as c4portrait at rightside(-5), zorder 5
+hide p2
+show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1160152]]'
-hide c4portrait
-show oc004_01 1 as c4portrait at darkright(-5), zorder 5
-show oc003_01 5 as c3portrait at leftsideentrance(-6), zorder 5
+hide p4
+show oc004_01 1 as p4 at r(-5), dark, zorder 5
+show oc003_01 5 as p3 at l_entrance(-6), light, zorder 5
 c31 '[textdict[1160153]]'
-hide c4portrait
-hide c3portrait
-show oc003_01 5 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 22 as c1portrait at rightside(-2), zorder 5
+hide p4
+hide p3
+show oc003_01 5 as p3 at l(-6), dark, zorder 6
+show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1160154]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 22 as c1portrait at darkright(-2), zorder 5
+hide p3
+hide p1
+show oc001_01 22 as p1 at r(-2), dark, zorder 5
 c12321 '[textdict[1160155]]'
 return

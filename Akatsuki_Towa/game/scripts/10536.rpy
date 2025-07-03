@@ -4,48 +4,48 @@ stop music
 play music "ED6105.ogg"
 scene avg_bg_102
 with fade
-show oc004_01 4 as c4portrait at leftside(-5), zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1152560]]'
-hide c4portrait
-show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
-show oc002_01 18 as c2portrait at rightside(-3), zorder 5
+hide p4
+show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc002_01 18 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152561]]'
-hide c2portrait
-hide c4portrait
-show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
-show oc002_01 8 as c2portrait at rightside(-3), zorder 5
+hide p2
+hide p4
+show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152562]]'
 play sfx2 "other_7085.ogg"
-hide c4portrait
-hide c2portrait
-show oc002_01 8 as c2portrait at darkright(-3), zorder 5
+hide p4
+hide p2
+show oc002_01 8 as p2 at r(-3), dark, zorder 5
 c12381 '[textdict[1152563]]'
-hide c2portrait
-show sc021_01 4 as c29portrait at rightside(-17), zorder 5
+hide p2
+show sc021_01 4 as p29 at r(-17), light, zorder 5
 c293 '[textdict[1152564]]'
-hide c29portrait
-show sc021_01 4 as c29portrait at darkright(-17), zorder 5
+hide p29
+show sc021_01 4 as p29 at r(-17), dark, zorder 5
 c12381 '[textdict[1152565]]'
-hide c29portrait
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p29
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152566]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c12381 '[textdict[1152567]]'
-hide c1portrait
-show sc021_01 4 as c29portrait at rightside(-17), zorder 5
+hide p1
+show sc021_01 4 as p29 at r(-17), light, zorder 5
 c293 '[textdict[1152568]]'
-hide c29portrait
-show sc021_01 4 as c29portrait at darkright(-17), zorder 5
+hide p29
+show sc021_01 4 as p29 at r(-17), dark, zorder 5
 c12381 '[textdict[1152569]]'
-hide c29portrait
-show oc003_01 4 as c3portrait at rightside(-6), zorder 5
+hide p29
+show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1152570]]'
-hide c3portrait
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p3
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152571]]'
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show sc021_01 4 as c29portrait at leftside(-17), zorder 5
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 5
 c291 '[textdict[1152572]]'
 return

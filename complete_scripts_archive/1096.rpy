@@ -4,80 +4,80 @@ stop music
 play music "ed7200.ogg"
 scene avg_bg_010
 with fade
-show sc050_01 1 as c57portrait at leftside(-19), zorder 5
+show sc050_01 1 as p57 at l(-19), light, zorder 5
 c571 '[textdict[2102201]]'
-hide c57portrait
-show sc050_01 1 as c57portrait at darkleft(-19), zorder 6
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+hide p57
+show sc050_01 1 as p57 at l(-19), dark, zorder 6
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102202]]'
-hide c1portrait
-hide c57portrait
-show sc050_01 1 as c57portrait at darkleft(-19), zorder 6
-show oc001_01 5 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p57
+show sc050_01 1 as p57 at l(-19), dark, zorder 6
+show oc001_01 5 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102203]]'
-hide c57portrait
-hide c1portrait
-show oc001_01 5 as c1portrait at darkright(-2), zorder 5
+hide p57
+hide p1
+show oc001_01 5 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102204]]'
-hide c1portrait
-show oc001_01 5 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 5 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102205]]' with shake
-hide c1portrait
-show oc001_01 7 as c1portrait at rightside(-2), shakeright, zorder 5
+hide p1
+show oc001_01 7 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2102206]]'
-hide c1portrait
-show oc001_01 7 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 7 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102207]]'
-hide c1portrait
-show oc001_01 7 as c1portrait at rightside(-2), zorder 5
+hide p1
+show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102208]]'
-hide c1portrait
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p1
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102209]]'
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show sc050_01 1 as c57portrait at leftside(-19), zorder 5
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show sc050_01 1 as p57 at l(-19), light, zorder 5
 c571 '[textdict[2102210]]'
-hide c57portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
+hide p57
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102211]]'
 play sfxvoice "avg_vocal_na20.ogg"
-hide c1portrait
-show oc001_01 10 as c1portrait at rightside(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102212]]'
-hide c1portrait
-show oc001_01 10 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102213]]'
 play sfxvoice "avg_vocal_na21.ogg"
-hide c1portrait
-show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
+hide p1
+show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2102214]]'
-hide c1portrait
-show oc001_01 12 as c1portrait at darkright(-2), zorder 5
+hide p1
+show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102215]]'
 play sfx2 "other_7013.ogg"
-hide c1portrait
+hide p1
 c0 '[textdict[2102216]]'
-show oc001_01 7 as c1portrait at rightside(-2), zorder 5
+show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102217]]'
-hide c1portrait
-show oc001_01 7 as c1portrait at darkright(-2), zorder 5
-show sc050_01 1 as c57portrait at leftside(-19), zorder 5
+hide p1
+show oc001_01 7 as p1 at r(-2), dark, zorder 5
+show sc050_01 1 as p57 at l(-19), light, zorder 5
 c571 '[textdict[2102218]]'
-hide c57portrait
-hide c1portrait
-show oc001_01 7 as c1portrait at darkright(-2), zorder 5
-show sc050_01 5 as c57portrait at leftside(-19), zorder 5
+hide p57
+hide p1
+show oc001_01 7 as p1 at r(-2), dark, zorder 5
+show sc050_01 5 as p57 at l(-19), light, zorder 5
 c571 '[textdict[2102219]]'
-hide c1portrait
-hide c57portrait
-show sc050_01 5 as c57portrait at darkleft(-19), zorder 6
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p57
+show sc050_01 5 as p57 at l(-19), dark, zorder 6
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102220]]'
-hide c1portrait
-hide c57portrait
-show sc050_01 5 as c57portrait at darkleft(-19), zorder 6
-show oc001_01 22 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p57
+show sc050_01 5 as p57 at l(-19), dark, zorder 6
+show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102221]]'
 return

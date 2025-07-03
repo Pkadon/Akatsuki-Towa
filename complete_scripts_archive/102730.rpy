@@ -4,6 +4,6 @@ stop music
 stop music
 scene placeholderbackground
 with fade
-show sc019_01 5 as c27portrait at centerpos(-18), zorder 5
+show sc019_01 5 as p27 at mid(-18), light, zorder 5
 c273 '[textdict[1219518]]'
 return

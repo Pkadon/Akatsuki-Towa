@@ -188,140 +188,140 @@ scene avg_bg_074
 with fade
 c0 '[textdict[1190830]]'
 c14281 '[textdict[1190831]]'
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190832]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190833]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190834]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190835]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190836]]'
-hide c2668portrait
-show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 2 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190837]]'
-hide c2668portrait
-show oce04_01 2 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 2 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190838]]'
-hide c2668portrait
-show oce04_01 2 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 2 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190839]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190840]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190841]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190842]]'
-hide c2668portrait
-show oce04_01 16 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 16 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190843]]' with shake
-hide c2668portrait
-show oce04_01 16 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 16 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190844]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190845]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190846]]'
-hide c2668portrait
-show oce04_01 11 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 11 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190847]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190848]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190849]]'
-hide c2668portrait
-show oce04_01 11 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 11 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190850]]'
-hide c2668portrait
-show oce04_01 11 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 11 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190851]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190852]]'
-hide c2668portrait
-show oce04_01 4 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190853]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190854]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190855]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190856]]'
-hide c2668portrait
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190857]]'
 play sfx2 "other_7044.ogg"
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
-show st062_01 1 as c1308portrait at leftsideentrance(-16), zorder 5
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
+show st062_01 1 as p1308 at l_entrance(-16), light, zorder 5
 c13081 '[textdict[1190858]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 1 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 1 as p1308 at l(-16), dark, zorder 6
+show oce04_01 2 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190859]]'
-hide c1308portrait
-hide c2668portrait
-show oce04_01 2 as c2668portrait at darkright(-5), zorder 5
-show st062_01 4 as c1308portrait at leftside(-16), zorder 5
+hide p1308
+hide p2668
+show oce04_01 2 as p2668 at r(-5), dark, zorder 5
+show st062_01 4 as p1308 at l(-16), light, zorder 5
 c13081 '[textdict[1190860]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 4 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 4 as p1308 at l(-16), dark, zorder 6
+show oce04_01 2 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190861]]'
-hide c1308portrait
-hide c2668portrait
-show oce04_01 2 as c2668portrait at darkright(-5), zorder 5
-show st062_01 4 as c1308portrait at leftside(-16), zorder 5
+hide p1308
+hide p2668
+show oce04_01 2 as p2668 at r(-5), dark, zorder 5
+show st062_01 4 as p1308 at l(-16), light, zorder 5
 c13081 '[textdict[1190862]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 4 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 4 as p1308 at l(-16), dark, zorder 6
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190863]]'
-hide c1308portrait
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
-show st062_01 1 as c1308portrait at leftside(-16), zorder 5
+hide p1308
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
+show st062_01 1 as p1308 at l(-16), light, zorder 5
 c13081 '[textdict[1190864]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 1 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 1 as p1308 at l(-16), dark, zorder 6
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190865]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 1 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 1 as p1308 at l(-16), dark, zorder 6
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190866]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 1 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 2 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 1 as p1308 at l(-16), dark, zorder 6
+show oce04_01 2 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190867]]'
-hide c2668portrait
-hide c1308portrait
-show st062_01 1 as c1308portrait at darkleft(-16), zorder 6
-show oce04_01 1 as c2668portrait at rightside(-5), zorder 5
+hide p2668
+hide p1308
+show st062_01 1 as p1308 at l(-16), dark, zorder 6
+show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190868]]'
-hide c1308portrait
-hide c2668portrait
-show oce04_01 1 as c2668portrait at darkright(-5), zorder 5
+hide p1308
+hide p2668
+show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c14281 '[textdict[1190869]]'
 return

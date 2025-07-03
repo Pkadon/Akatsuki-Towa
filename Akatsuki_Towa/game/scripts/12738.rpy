@@ -9,30 +9,30 @@ play sfx2 "other_7014.ogg"
 c0 '[textdict[1172862]]'
 c14401 '[textdict[1172863]]'
 c14401 '[textdict[1172864]]'
-show st061_01 1 as c1304portrait at leftside(-2), zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 5
 c13041 '[textdict[1172865]]'
-hide c1304portrait
-show st061_01 1 as c1304portrait at darkleft(-2), zorder 6
-show oc001_01 20 as c1portrait at rightside(-2), zorder 5
+hide p1304
+show st061_01 1 as p1304 at l(-2), dark, zorder 6
+show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172866]]'
-hide c1304portrait
-hide c1portrait
-show oc001_01 20 as c1portrait at darkright(-2), zorder 5
+hide p1304
+hide p1
+show oc001_01 20 as p1 at r(-2), dark, zorder 5
 c14401 '[textdict[1172867]]'
-hide c1portrait
-show oc001_01 20 as c1portrait at darkright(-2), zorder 5
-show oc003_01 9 as c3portrait at leftside(-6), zorder 5
+hide p1
+show oc001_01 20 as p1 at r(-2), dark, zorder 5
+show oc003_01 9 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1172868]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 9 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p3
+show oc003_01 9 as p3 at l(-6), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172869]]'
-hide c3portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
+hide p3
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c14401 '[textdict[1172870]]'
-hide c1portrait
-show st061_01 1 as c1304portrait at rightside(-2), zorder 5
+hide p1
+show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1172871]]'
 return

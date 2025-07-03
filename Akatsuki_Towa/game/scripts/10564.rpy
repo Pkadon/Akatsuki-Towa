@@ -4,99 +4,99 @@ stop music
 play music "ED6303.ogg"
 scene placeholderbackground
 with fade
-show oc004_01 11 as c4portrait at rightside(-5), zorder 5
+show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1154316]]'
 play sfx2 "other_7088.ogg"
-hide c4portrait
-show oc004_01 11 as c4portrait at darkright(-5), zorder 5
-show sc008_01 4 as c16portrait at leftsideentrance(-18), zorder 5
+hide p4
+show oc004_01 11 as p4 at r(-5), dark, zorder 5
+show sc008_01 4 as p16 at l_entrance(-18), light, zorder 5
 c161 '[textdict[1154317]]'
-hide c4portrait
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc002_01 12 as c2portrait at rightside(-3), shakeright, zorder 5
+hide p4
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1154318]]'
-hide c2portrait
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154319]]'
-hide c16portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 c161 '[textdict[1154320]]'
 play sfxvoice "avg_vocal_ro10.ogg"
-hide c1portrait
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc003_01 2 as c3portrait at rightside(-6), zorder 5
+hide p1
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1154321]]'
-hide c16portrait
-hide c3portrait
-show oc003_01 2 as c3portrait at darkright(-6), zorder 5
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p3
+show oc003_01 2 as p3 at r(-6), dark, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 c161 '[textdict[1154322]]'
-hide c16portrait
-hide c3portrait
-show oc003_01 2 as c3portrait at darkright(-6), zorder 5
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p3
+show oc003_01 2 as p3 at r(-6), dark, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 c161 '[textdict[1154323]]'
-hide c3portrait
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc004_01 11 as c4portrait at rightside(-5), zorder 5
+hide p3
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1154324]]'
-hide c4portrait
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc004_01 4 as c4portrait at rightside(-5), zorder 5
+hide p4
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1154325]]'
-hide c16portrait
-hide c4portrait
-show oc004_01 4 as c4portrait at darkright(-5), zorder 5
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p4
+show oc004_01 4 as p4 at r(-5), dark, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 c161 '[textdict[1154326]]'
-hide c16portrait
-hide c4portrait
-show oc004_01 4 as c4portrait at darkright(-5), zorder 5
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p4
+show oc004_01 4 as p4 at r(-5), dark, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 c161 '[textdict[1154327]]'
 play sfxvoice "avg_vocal_ch24.ogg"
-hide c4portrait
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc002_01 4 as c2portrait at rightside(-3), shakeright, zorder 5
+hide p4
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc002_01 4 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1154328]]'
-hide c16portrait
-hide c2portrait
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p2
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 with fade
 c161 '[textdict[1154329]]'
-hide c16portrait
-show sc008_01 4 as c16portrait at darkleft(-18), zorder 6
-show oc001_01 12 as c1portrait at rightside(-2), shakeright, zorder 5
+hide p16
+show sc008_01 4 as p16 at l(-18), dark, zorder 6
+show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1154330]]'
-hide c16portrait
-hide c1portrait
-show oc001_01 12 as c1portrait at darkright(-2), zorder 5
-show sc008_01 4 as c16portrait at leftside(-18), zorder 5
+hide p16
+hide p1
+show oc001_01 12 as p1 at r(-2), dark, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 5
 c161 '[textdict[1154331]]'
-hide c16portrait
-hide c1portrait
-show oc001_01 12 as c1portrait at darkright(-2), zorder 5
-show sc008_01 4 as c16portrait at leftsideexit(-18), zorder 5
+hide p16
+hide p1
+show oc001_01 12 as p1 at r(-2), dark, zorder 5
+show sc008_01 4 as p16 at l_exit(-18), light, zorder 5
 c161 '[textdict[1154332]]'
-hide c16portrait
-hide c1portrait
-show oc001_01 16 as c1portrait at rightside(-2), zorder 5
+hide p16
+hide p1
+show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154333]]'
-hide c1portrait
-show oc004_01 4 as c4portrait at rightsideentrance(-5), zorder 5
+hide p1
+show oc004_01 4 as p4 at r_entrance(-5), light, zorder 5
 c43 '[textdict[1154334]]'
 play sfxvoice "avg_vocal_ro11.ogg"
-hide c4portrait
-show oc004_01 4 as c4portrait at darkright(-5), zorder 5
-show oc003_01 4 as c3portrait at leftsideentrance(-6), zorder 5
+hide p4
+show oc004_01 4 as p4 at r(-5), dark, zorder 5
+show oc003_01 4 as p3 at l_entrance(-6), light, zorder 5
 c31 '[textdict[1154335]]'
 return

@@ -5,7 +5,7 @@ play music "ed7150.ogg"
 scene placeholderbackground
 with fade
 play sfxvoice "avg_vocal_na17.ogg"
-show oc001_01 1 as c1portrait at centerpos(-2), zorder 5
+show oc001_01 1 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1002135]]'
 menu:
     extend ""

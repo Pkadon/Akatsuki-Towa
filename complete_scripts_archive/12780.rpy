@@ -4,40 +4,40 @@ stop music
 play music "ed7120.ogg"
 scene avg_bg_209
 with fade
-show st064_01 1 as c1469portrait at leftside(-2), zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 5
 c14691 '[textdict[1176279]]'
-hide c1469portrait
-show st064_01 1 as c1469portrait at darkleft(-2), zorder 6
-show oc003_01 2 as c3portrait at rightside(-6), zorder 5
+hide p1469
+show st064_01 1 as p1469 at l(-2), dark, zorder 6
+show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1176280]]'
-hide c1469portrait
-hide c3portrait
-show oc003_01 2 as c3portrait at darkright(-6), zorder 5
-show oc004_01 1 as c4portrait at leftside(-5), zorder 5
+hide p1469
+hide p3
+show oc003_01 2 as p3 at r(-6), dark, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1176281]]'
-hide c3portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show oc001_01 1 as c1portrait at rightside(-2), zorder 5
+hide p3
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1176282]]'
-hide c1portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkleft(-5), zorder 6
-show oc003_01 1 as c3portrait at rightside(-6), zorder 5
+hide p1
+hide p4
+show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show oc003_01 1 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1176283]]'
-hide c4portrait
-hide c3portrait
-show oc003_01 1 as c3portrait at darkright(-6), zorder 5
-show st064_01 2 as c1469portrait at leftside(-2), zorder 5
+hide p4
+hide p3
+show oc003_01 1 as p3 at r(-6), dark, zorder 5
+show st064_01 2 as p1469 at l(-2), light, zorder 5
 c14691 '[textdict[1176284]]'
-hide c3portrait
-hide c1469portrait
-show st064_01 2 as c1469portrait at darkleft(-2), zorder 6
-show oc004_01 1 as c4portrait at rightside(-5), zorder 5
+hide p3
+hide p1469
+show st064_01 2 as p1469 at l(-2), dark, zorder 6
+show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1176285]]'
-hide c1469portrait
-hide c4portrait
-show oc004_01 1 as c4portrait at darkright(-5), zorder 5
-show st064_01 1 as c1469portrait at leftside(-2), zorder 5
+hide p1469
+hide p4
+show oc004_01 1 as p4 at r(-5), dark, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 5
 c14691 '[textdict[1176286]]'
 return

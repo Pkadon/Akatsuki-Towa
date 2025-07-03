@@ -4,20 +4,20 @@ stop music
 play music "ed7151.ogg"
 scene avg_bg_108
 with fade
-show oc002_01 12 as c2portrait at rightside(-3), zorder 5
+show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1154311]]'
-hide c2portrait
-show oc002_01 12 as c2portrait at darkright(-3), zorder 5
-show oc003_01 4 as c3portrait at leftside(-6), zorder 5
+hide p2
+show oc002_01 12 as p2 at r(-3), dark, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1154312]]'
-hide c2portrait
-hide c3portrait
-show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p2
+hide p3
+show oc003_01 4 as p3 at l(-6), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154313]]'
-hide c1portrait
-hide c3portrait
-show oc003_01 4 as c3portrait at darkleft(-6), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p3
+show oc003_01 4 as p3 at l(-6), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154314]]'
 return

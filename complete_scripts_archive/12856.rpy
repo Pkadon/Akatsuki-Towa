@@ -4,38 +4,38 @@ stop music
 play music "ed6323.ogg"
 scene avg_bg_214
 with fade
-show st061_01 2 as c1304portrait at leftsideentrance(-2), zorder 5
+show st061_01 2 as p1304 at l_entrance(-2), light, zorder 5
 c13041 '[textdict[1188736]]'
-hide c1304portrait
-show st061_01 4 as c1304portrait at leftside(-2), zorder 5
+hide p1304
+show st061_01 4 as p1304 at l(-2), light, zorder 5
 c13041 '[textdict[1188737]]'
-hide c1304portrait
-show st061_01 4 as c1304portrait at darkleft(-2), zorder 6
-show oc003_01 4 as c3portrait at rightside(-6), zorder 5
+hide p1304
+show st061_01 4 as p1304 at l(-2), dark, zorder 6
+show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1188738]]'
-hide c3portrait
-hide c1304portrait
-show st061_01 4 as c1304portrait at darkleft(-2), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p3
+hide p1304
+show st061_01 4 as p1304 at l(-2), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188739]]'
-hide c1304portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show oc002_01 17 as c2portrait at leftside(-3), zorder 5
+hide p1304
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show oc002_01 17 as p2 at l(-3), light, zorder 5
 c21 '[textdict[1188740]]'
-hide c2portrait
-hide c1portrait
-show oc001_01 4 as c1portrait at darkright(-2), zorder 5
-show oc004_01 4 as c4portrait at leftside(-5), zorder 5
+hide p2
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 5
 c41 '[textdict[1188741]]'
-hide c1portrait
-hide c4portrait
-show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
-show oc001_01 4 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p4
+show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188742]]'
-hide c1portrait
-hide c4portrait
-show oc004_01 4 as c4portrait at darkleft(-5), zorder 6
-show oc001_01 20 as c1portrait at rightside(-2), zorder 5
+hide p1
+hide p4
+show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188743]]'
 return

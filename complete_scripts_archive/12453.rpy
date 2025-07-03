@@ -8,22 +8,22 @@ play sfx2 "other_7085.ogg"
 c0 '[textdict[1143499]]'
 play sfx2 "other_7060.ogg"
 c0 '[textdict[1143500]]'
-show oc004_01 18 as c4portrait at rightside(-5), zorder 5
+show oc004_01 18 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143501]]'
-hide c4portrait
-show oc004_01 18 as c4portrait at rightside(-5), zorder 5
+hide p4
+show oc004_01 18 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143502]]'
-hide c4portrait
-show oc004_01 11 as c4portrait at rightside(-5), zorder 5
+hide p4
+show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143503]]'
-hide c4portrait
+hide p4
 c0 '[textdict[1143504]]'
 play sfx2 "other_7050.ogg"
 c0 '[textdict[1143505]]'
-show oc004_01 20 as c4portrait at rightside(-5), zorder 5
+show oc004_01 20 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143506]]'
-hide c4portrait
-show oc004_01 19 as c4portrait at rightside(-5), zorder 5
+hide p4
+show oc004_01 19 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143507]]'
 scene avg_bg_065
 show memoryoverlay zorder 2
@@ -70,33 +70,33 @@ show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143525]]'
 show memoryoverlay zorder 2
-show st039_01 1 as c1172portrait at leftside(-6), zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 5
 c11721 '[textdict[1143526]]'
 show memoryoverlay zorder 2
-hide c1172portrait
-show st039_01 1 as c1172portrait at leftside(-6), zorder 5
+hide p1172
+show st039_01 1 as p1172 at l(-6), light, zorder 5
 c11721 '[textdict[1143527]]'
 show memoryoverlay zorder 2
-hide c1172portrait
-show st039_01 1 as c1172portrait at darkleft(-6), zorder 6
+hide p1172
+show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143528]]'
 show memoryoverlay zorder 2
-hide c1172portrait
-show st039_01 1 as c1172portrait at leftside(-6), zorder 5
+hide p1172
+show st039_01 1 as p1172 at l(-6), light, zorder 5
 c11721 '[textdict[1143529]]'
 show memoryoverlay zorder 2
-hide c1172portrait
-show st039_01 1 as c1172portrait at darkleft(-6), zorder 6
+hide p1172
+show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143530]]'
 show memoryoverlay zorder 2
-hide c1172portrait
+hide p1172
 c0 '[textdict[1143531]]'
 show memoryoverlay zorder 2
-show st039_01 1 as c1172portrait at leftside(-6), zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 5
 c11721 '[textdict[1143532]]'
 show memoryoverlay zorder 2
-hide c1172portrait
-show st039_01 1 as c1172portrait at leftside(-6), zorder 5
+hide p1172
+show st039_01 1 as p1172 at l(-6), light, zorder 5
 c11721 '[textdict[1143533]]'
 scene avg_bg_049
 show memoryoverlay zorder 2
