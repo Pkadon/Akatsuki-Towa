@@ -238,9 +238,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if folderName: 
 				offset = str(int(avg_role_dict[charID]['_xPostion']))
 				folderAlias = f'c{speaker}portrait'
-			else:
-				offset = '0'
-				
 			
 			#figure out where on the screen character portrait goes
 			if charPos == 1: 
@@ -327,11 +324,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#moved midback up here so it can get the xoffset added to it	
 			if effect == 103 or effect == 203: portraitpos += 'midback'
 			
-			portraitpos += f'({offset})'
+			if folderName:
+				portraitpos += f'({offset})'
 
-			#then get effects figured out
-			if effect == 102: portraitpos += ', shakeright'
-			elif effect == 202: portraitpos += ', shakeleft'
+				#then get effects figured out
+				if effect == 102: portraitpos += ', shakeright'
+				elif effect == 202: portraitpos += ', shakeleft'
 
 			#SHOW PORTRAIT
 			if folderName:									
