@@ -492,13 +492,18 @@ hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
 show st003_01 1 as p203 at r(-7), light, zorder 5
 c2033 '[textdict[1007537]]'
-hide p203
 hide p56
-show sc049_01 0 as p56 at mid(-8), light, zorder 5
-c563 '[textdict[1007538]]'
+hide p203
+show st003_01 1 as p203 at r(-7), dark, zorder 5
+show sc049_01 0 as p56 at l(-8), light, zorder 5
+c561 '[textdict[1007538]]'
+hide p56
+hide p203
+show st003_01 1 as p203 at r(-7), dark, zorder 5
 show sc049_01 4 as p56 at l(-8), light, zorder 5
 c561 '[textdict[1007539]]'
 play sfx2 "other_7022.ogg"
+hide p203
 hide p56
 show sc049_01 4 as p56 at l(-8), dark, zorder 6
 show st003_01 5 as p203 at r(-7), light, zorder 5

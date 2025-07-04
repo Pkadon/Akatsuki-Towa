@@ -60,6 +60,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	with open(cutscenepath, 'r', encoding="utf-8")as txt:
 		script_json = json.load(txt)
 
+###########################################################################	
+# Make corrections to original files
+	#Fix unset charPos
+	if fname == '10008':
+		script_json['dialogueFrames'][98]['charPos'] = 1
+
 	#Apply corrections found in mobile version files
 	if fname == '10330':
 		script_json['dialogueFrames'][85]['strID'] = 1130996
@@ -70,7 +76,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][88]['character']['charID'] = 4
 		script_json['dialogueFrames'][88]['character']['speaker'] = 4
 		script_json['dialogueFrames'][118]['strID'] = 1130966
-		
+###########################################################################
+
 	#FIGURE OUT BACKGROUND SCHEDULE
 	background_schedule = make_schedule_dict(script_json, 'backgrounds')
 		
