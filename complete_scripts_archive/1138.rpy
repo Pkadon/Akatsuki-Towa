@@ -394,10 +394,9 @@ hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103854]]'
 hide p1
-show oc001_01 14 as p1 at r(-2), light, zorder 5
+show oc001_01 14 as p1 at r_exit(-2), light, zorder 5
 c13 '[textdict[2103855]]'
+hide p1
 play sfx2 "other_7085.ogg"
-hide p1
 c0 '[textdict[2103856]]'
-hide p1
 return

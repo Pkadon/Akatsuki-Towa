@@ -67,15 +67,21 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][98]['charPos'] = 1
 
 	#Apply corrections found in mobile version files
-	if fname == '10330':
+	elif fname == '10330':
 		script_json['dialogueFrames'][85]['strID'] = 1130996
 		script_json['dialogueFrames'][115]['strID'] = 1130966
 
-	if fname == '10331':
+	elif fname == '10331':
 		script_json['dialogueFrames'][88]['strID'] = 1130996
 		script_json['dialogueFrames'][88]['character']['charID'] = 4
 		script_json['dialogueFrames'][88]['character']['speaker'] = 4
 		script_json['dialogueFrames'][118]['strID'] = 1130966
+	
+	#The CharFadeOut was on the wrong line
+	elif fname == '1138':
+		script_json['dialogueFrames'][108]['CharFadeOut'] = 1
+		script_json['dialogueFrames'][109]['CharFadeOut'] = 0
+		
 ###########################################################################
 
 	#FIGURE OUT BACKGROUND SCHEDULE
