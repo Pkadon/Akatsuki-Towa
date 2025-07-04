@@ -385,17 +385,22 @@ show memoryoverlay zorder 2
 hide p1
 hide p2702
 show oca02_01 8 as p2702 at l(-3), dark, zorder 6
+show oc001_01 14 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2110963]]'
 show memoryoverlay zorder 2
 hide p2702
+hide p1
+show oc001_01 14 as p1 at r(-2), dark, zorder 5
 show oca02_01 22 as p2702 at l(-3), light, zorder 5
 c27021 '[textdict[2110964]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7047.ogg"
+hide p1
 hide p2702
 show oca02_01 22 as p2702 at l(-3), dark, zorder 6
+show oc001_01 12 as p1 at r_exit(-2), light, zorder 5
 c13 '[textdict[2110965]]'
-hide p2702
+hide p1
 show memoryoverlay zorder 2
 hide p2702
 show oca02_01 1 as p2702 at l_entrance(-3), light, zorder 5

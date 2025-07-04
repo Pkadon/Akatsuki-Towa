@@ -84,6 +84,22 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][14]['CharFadeOut'] = 1
 		script_json['dialogueFrames'][15]['CharFadeOut'] = 0
 		
+	#This one was all kinds of messed up.
+	#It would also be possible to change it to hide the Nacht portrait on line 94,
+	#and interpret all of the dialogue after that as occuring "off-screen".
+	#But since they had already set up the animations in the files,
+	#I changed it to show the portraits that were "missing" here instead
+	elif fname == '1226':
+		#missing portrait and expression
+		script_json['dialogueFrames'][96]['character']['charID'] = 1
+		script_json['dialogueFrames'][96]['expression'] = 14 #expression was unset so this is a guess
+		
+		#missing portrait and expression, and misplaced CharFadeOut
+		script_json['dialogueFrames'][98]['character']['charID'] = 1
+		script_json['dialogueFrames'][98]['expression'] = 12 #expression was unset so this is a guess
+		script_json['dialogueFrames'][98]['CharFadeOut'] = 1
+		script_json['dialogueFrames'][99]['CharFadeOut'] = 0
+		
 ###########################################################################
 
 	#FIGURE OUT BACKGROUND SCHEDULE
