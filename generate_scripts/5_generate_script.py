@@ -60,7 +60,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	with open(cutscenepath, 'r', encoding="utf-8")as txt:
 		script_json = json.load(txt)
 
-###########################################################################	
+###########################################################################
 # Make corrections to original files
 	#Fix unset charPos
 	if fname == '10008':
@@ -70,7 +70,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	elif fname == '10330':
 		script_json['dialogueFrames'][85]['strID'] = 1130996
 		script_json['dialogueFrames'][115]['strID'] = 1130966
-
 	elif fname == '10331':
 		script_json['dialogueFrames'][88]['strID'] = 1130996
 		script_json['dialogueFrames'][88]['character']['charID'] = 4
@@ -81,6 +80,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	elif fname == '1138':
 		script_json['dialogueFrames'][108]['CharFadeOut'] = 1
 		script_json['dialogueFrames'][109]['CharFadeOut'] = 0
+	elif fname == '1209':
+		script_json['dialogueFrames'][14]['CharFadeOut'] = 1
+		script_json['dialogueFrames'][15]['CharFadeOut'] = 0
 		
 ###########################################################################
 

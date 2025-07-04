@@ -69,14 +69,13 @@ c103 '[textdict[2108988]]'
 hide p9
 hide p10
 show sc002_01 1 as p10 at r(-12), dark, zorder 5
-show sc001_01 5 as p9 at l(-11), light, zorder 5
+show sc001_01 5 as p9 at l_exit(-11), light, zorder 5
 c91 '[textdict[2108989]]'
-play sfx2 "other_7088.ogg"
 hide p9
+play sfx2 "other_7088.ogg"
 hide p10
 show sc002_01 1 as p10 at r(-12), dark, zorder 5
 c5001 '[textdict[2108990]]'
-hide p9
 hide p10
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 c103 '[textdict[2108991]]'
