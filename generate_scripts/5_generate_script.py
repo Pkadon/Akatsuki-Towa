@@ -59,7 +59,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	#IMPORT SCRIPT JSON
 	with open(cutscenepath, 'r', encoding="utf-8")as txt:
 		script_json = json.load(txt)
-		
+
 	#Apply corrections found in mobile version files
 	if fname == '10330':
 		script_json['dialogueFrames'][85]['strID'] = 1130996
@@ -88,14 +88,15 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 
 		lastplayed = ''
 		lastbackground = ''
-		leftportrait = None
-		leftalias = None
-		rightportrait = None
-		rightalias = None
-		centerportrait = None
-		centeralias = None
 		showingimage = None
 		memory = False
+		
+		state_dict = {
+			'l': None,
+			'mid': None,
+			'r': None,
+		}
+		
 		framecount = 0
 		for frame in script_json['dialogueFrames']:
 			framecount += 1
@@ -157,8 +158,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				lastbackground = framebackground
 				newscene = True
 				#this might be dumb.  hoping it's a quick fix
-				leftportrait = None
-				rightportrait = None
+				state_dict['l'] = None
+				state_dict['r'] = None
 			#check for memory overlay
 			if len(memory_schedule) > 0:
 				if framecount in memory_schedule:
@@ -173,15 +174,15 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 
 
 			if isClearModle == 1:
-				if leftportrait:
-					f.write(f"hide {leftalias}\n")
-					leftportrait = None
-				if rightportrait:
-					f.write(f"hide {rightalias}\n")
-					rightportrait = None
-				if centerportrait:
-					f.write(f"hide {centeralias}\n")
-					centerportrait = None
+				if state_dict['l']:
+					f.write(f"hide {state_dict['l']['alias']}\n")
+					state_dict['l'] = None
+				if state_dict['r']:
+					f.write(f"hide {state_dict['r']['alias']}\n")
+					state_dict['r'] = None
+				if state_dict['mid']:
+					f.write(f"hide {state_dict['mid']['alias']}\n")
+					state_dict['mid'] = None
 				
 			#check for sfx
 			if sfxID != 0:
@@ -207,138 +208,112 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if showingimage != avgimagename:
 					f.write(f'show {avgimagename} zorder 4\n')
 					showingimage = avgimagename
-				
-			#convert dialogue string to display correctly
-			dialogue = f"[textdict[{strID}]]"
 
-			#figure out if a namebox needs to be displayed
+			#hide all portraits during green system messages
 			if speaker == 0:
-				if leftportrait:
-					f.write(f"hide {leftalias}\n")
-					leftportrait = None
-				if rightportrait:
-					f.write(f"hide {rightalias}\n")
-					rightportrait = None
-				if centerportrait:
-					f.write(f"hide {centeralias}\n")
-					centerportrait = None
-			
-			#figure out where namebox goes
-			if speaker == 0: nameboxPos = ''
-			elif charPos == 1: nameboxPos = 1
-			else: nameboxPos = 3
+				if state_dict['l']:
+					f.write(f"hide {state_dict['l']['alias']}\n")
+					state_dict['l'] = None
+				if state_dict['r']:
+					f.write(f"hide {state_dict['r']['alias']}\n")
+					state_dict['r'] = None
+				if state_dict['mid']:
+					f.write(f"hide {state_dict['mid']['alias']}\n")
+					state_dict['mid'] = None
 			
 			#figure out if a portrait needs to be displayed 
 			if charID == 0:
 				folderName = None
 			else:
 				folderName = avg_role_dict[charID]['_folderName']
-				
-			#figure out xoffset
-			if folderName: 
-				offset = str(int(avg_role_dict[charID]['_xPostion']))
-				folderAlias = f'p{speaker}'
 			
 			#figure out where on the screen character portrait goes
 			if charPos == 1: 
 				portraitpos = 'l'
-				if leftportrait:
-					f.write(f"hide {leftalias}\n")
-					leftportrait = None
-				if folderName: 
-					leftportrait = folderName
-					leftalias = folderAlias
-					leftexpression = str(expression)
-					leftoffset = offset
-					
+				darkpos = 'r'
+			elif charPos == 3: 
+				portraitpos = 'r'
+				darkpos = 'l'
+			elif charPos in [2, 0]: 
+				portraitpos = 'mid'
+				darkpos = None
+				if state_dict['r']:
+					f.write(f"hide {state_dict['r']['alias'] }\n")
+					state_dict['r'] = None
+				if state_dict['l']:
+					f.write(f"hide {state_dict['l']['alias'] }\n")
+					state_dict['l'] = None	
+
+			if state_dict[portraitpos]:
+				f.write(f"hide {state_dict[portraitpos]['alias']}\n")
+				state_dict[portraitpos] = None
+
+			if folderName:
+				alias = f'p{speaker}'
+				expression = str(expression)
+				offset = str(int(avg_role_dict[charID]['_xPostion']))
+				
+				portrait_dict = dict()
+				portrait_dict['folderName'] = folderName
+				portrait_dict['alias'] = alias
+				portrait_dict['expression'] = expression
+				portrait_dict['offset'] = offset
+
+				state_dict[portraitpos] = portrait_dict
+				
+			if portraitpos in ['l', 'r']:
+				if folderName and state_dict[darkpos]:
 					#hoping this fixes when the character changes sides
 					#but wasn't replaced on the other side by another portrait
 					#(like chloe in avg 12049)
-					if leftalias == rightalias and rightportrait: 
-						f.write(f"hide {rightalias}\n")
-						rightportrait = None
+					if alias == state_dict[darkpos]['alias']: # and state_dict[portraitpos]['folderName'] 
+						f.write(f"hide {state_dict[darkpos]['alias'] }\n")
+						state_dict[darkpos] = None
+						
+				if state_dict[darkpos]: 
+					if darkpos == 'l': darkzorder = 6
+					else: darkzorder = 5
+					f.write(f"hide {state_dict[darkpos]['alias']}\n")
 					
-				else: leftportrait = None
+					f.write(
+					f"show {state_dict[darkpos]['folderName']} "
+					f"{state_dict[darkpos]['expression']} as "
+					f"{state_dict[darkpos]['alias']} at "
+					f"{darkpos}({state_dict[darkpos]['offset']}), dark, zorder {darkzorder}\n"
+					)
 				
-				if rightportrait: 
-					f.write(f"hide {rightalias}\n")
-					f.write(f"show {rightportrait} {rightexpression} as {rightalias} at r({rightoffset}), dark, zorder 5\n")
-			
-				
-			elif charPos == 3: 
-				portraitpos = 'r'
-				if rightportrait:
-					f.write(f"hide {rightalias}\n")
-					rightportrait = None
-				if folderName: 
-					rightportrait = folderName
-					rightalias = folderAlias
-					rightexpression = str(expression)
-					rightoffset = offset
-					
-					
-					#hoping this fixes when the character changes sides
-					#but wasn't replaced on the other side by another portrait
-					if rightalias == leftalias and leftportrait: 
-						f.write(f"hide {leftalias}\n")
-						leftportrait = None
-					
-				else: rightportrait = None
-				
-				if leftportrait: 
-					f.write(f"hide {leftalias}\n")
-					f.write(f"show {leftportrait} {leftexpression} as {leftalias} at l({leftoffset}), dark, zorder 6\n")
-				
-			elif charPos == 2: 
-				portraitpos = 'mid'
-				if centerportrait:
-					f.write(f"hide {centeralias}\n")
-				if folderName: 
-					centerportrait = folderName
-					centeralias = folderAlias
-					centerexpression = str(expression)
-					centeroffset = offset
-				else: centerportrait = None
-			
-			#this is mostly for the extra unused scenes that don't have charpos set
-			#but need to make sure it doesn't screw up system messages that also use charPos 0
-			elif charPos == 0:
-				portraitpos = 'mid'
-				if rightportrait and isClearModle != 1:
-					f.write(f"hide {rightalias}\n")
-					rightportrait = None
-				if leftportrait and isClearModle != 1:
-					f.write(f"hide {leftalias}\n")
-					leftportrait = None
-				if centerportrait and isClearModle != 1:
-					f.write(f"hide {centeralias}\n")
-					centerportrait = None
-				if folderName:
-					centerportrait = folderName
-					centeralias = folderAlias			
-				
-			#check if portrait is entering or exiting:
-			if CharFadeIn == 1: portraitpos += '_entrance'
-			if CharFadeOut == 1:  portraitpos += '_exit'
-				
-			#moved midback up here so it can get the xoffset added to it	
-			if effect == 103 or effect == 203: portraitpos += '_midback'
-			
 			if folderName:
-				portraitpos += f'({offset})'
+				renpytransform = portraitpos
+				#check if portrait is entering or exiting:
+				if CharFadeIn == 1: renpytransform += '_entrance'
+				if CharFadeOut == 1:  renpytransform += '_exit'
+					
+				#moved midback up here so it can get the xoffset added to it	
+				if effect == 103 or effect == 203: renpytransform += '_midback'
+
+				renpytransform += f'({offset})'
 
 				#then get effects figured out
-				if effect == 102: portraitpos += ', r_shake'
-				elif effect == 202: portraitpos += ', l_shake'
+				if effect == 102: renpytransform += ', r_shake'
+				elif effect == 202: renpytransform += ', l_shake'
 
-			#SHOW PORTRAIT
-			if folderName:									
-				portrait = f'show {folderName} {expression} as {folderAlias} at {portraitpos}, light, zorder 5' 
+				#SHOW PORTRAIT									
+				portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder 5' 
 				f.write(f"{portrait}\n")
+
 			#need the fade after all images are set up, before dialogue appears
 			if isClearModle == 1: f.write(f"with fade\n")
 			
-			#START OF SAY STATEMENT
+		#START OF SAY STATEMENT
+			
+			#figure out where namebox goes
+			if speaker == 0: nameboxPos = ''
+			elif charPos == 1: nameboxPos = 1
+			else: nameboxPos = 3
+			
+			#convert dialogue string to display correctly
+			dialogue = f"[textdict[{strID}]]"
+			
 			#start with the speaker and dialogue
 			say = f"c{speaker}{nameboxPos} '{dialogue}'"
 			
@@ -362,9 +337,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			
 			#make sure it doesn't try to show the dark portrait after the portrait has left
 			if CharFadeOut == 1:
-				f.write(f"hide {folderAlias}\n")
-				if charPos == 1: leftportrait = None
-				elif charPos == 2 or charPos == 3: rightportrait = None
+				f.write(f"hide {alias}\n")
+				state_dict[portraitpos] = None
 			
 
 		#FIGURE OUT IF THERE ARE CHOICES
@@ -382,8 +356,3 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				
 		#END OF SCRIPT)
 		f.write('return')
-		
-	f.close()
-
-
-
