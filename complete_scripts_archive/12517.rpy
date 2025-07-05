@@ -276,8 +276,8 @@ c12021 '[textdict[1151201]]'
 hide p1
 show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1151202]]'
-play sfx2 "other_7020.ogg"
 hide p2
+play sfx2 "other_7020.ogg"
 c0 '[textdict[1151203]]'
 show sc005_01 1 as p1217 at l_entrance(-17), light, zorder 6
 c12171 '[textdict[1151204]]'

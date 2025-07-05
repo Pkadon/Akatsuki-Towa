@@ -458,8 +458,8 @@ c14491 '[textdict[1184389]]'
 hide p4
 show sc007_01 4 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1184390]]'
-play sfx2 "elc_5002.ogg"
 hide p15
+play sfx2 "elc_5002.ogg"
 c0 '[textdict[1184391]]'
 play sfx2 "elc_5002.ogg"
 c0 '[textdict[1184392]]'

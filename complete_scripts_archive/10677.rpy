@@ -25,7 +25,7 @@ c81 '[textdict[1166340]]'
 hide p8
 show oc008_01 6 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1166341]]'
-play sfxvoice "avg_vocal_ai07.ogg"
 hide p8
+play sfxvoice "avg_vocal_ai07.ogg"
 c0 '[textdict[1166342]]'
 return

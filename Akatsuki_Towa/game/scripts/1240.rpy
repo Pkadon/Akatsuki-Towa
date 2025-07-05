@@ -64,8 +64,8 @@ hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112804]]'
 stop music
-play sfx2 "other_7074.ogg"
 hide p2668
+play sfx2 "other_7074.ogg"
 c0 '[textdict[2112805]]'
 stop music
 scene avg_bg_070

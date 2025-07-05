@@ -43,9 +43,9 @@ hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1131669]]'
-play sfx2 "other_7012.ogg"
 hide p2
 hide p1
+play sfx2 "other_7012.ogg"
 c0 '[textdict[1131670]]' with shake
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 21 as p2 at l(-3), light, zorder 6

@@ -94,8 +94,8 @@ hide p19
 show oc004_01 18 as p4 at r(-5), light, zorder 5
 with fade
 c43 '[textdict[1143436]]'
-play sfx2 "other_7085.ogg"
 hide p4
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1143437]]'
 scene avg_bg_014
 with fade

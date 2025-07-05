@@ -8,8 +8,8 @@ c0 '[textdict[1143545]]'
 c0 '[textdict[1143546]]'
 show oc004_01 17 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143547]]'
-play sfx2 "other_7088.ogg"
 hide p4
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1143548]]'
 stop music
 show oc004_01 12 as p4 at r(-5), r_shake, light, zorder 5

@@ -228,9 +228,9 @@ show st040_01 1 as p239 at l(-19), dark, zorder 6
 show sc007_01 1 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1150465]]'
 stop music
-play sfx2 "fight_6015.ogg"
 hide p239
 hide p15
+play sfx2 "fight_6015.ogg"
 c0 '[textdict[1150466]]' with shake
 stop music
 play sfx2 "fight_6016.ogg"

@@ -93,8 +93,8 @@ c5003 '[textdict[1176438]]'
 hide p4
 show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1176439]]'
-play sfx2 "other_7085.ogg"
 hide p1469
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1176440]]'
 show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1176441]]'

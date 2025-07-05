@@ -55,8 +55,8 @@ c14371 '[textdict[1171959]]'
 hide p3
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171960]]'
-play sfx2 "other_7004.ogg"
 hide p1
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1171961]]'
 c14371 '[textdict[1171962]]'
 c14371 '[textdict[1171963]]'
@@ -272,8 +272,8 @@ c14371 '[textdict[1172039]]'
 hide p1
 show oc003_01 1 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1172040]]'
-play sfx2 "other_7004.ogg"
 hide p3
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1172041]]'
 c14371 '[textdict[1172042]]'
 c14371 '[textdict[1172043]]'

@@ -122,8 +122,8 @@ hide p1004
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
 c10211 '[textdict[1131308]]' (what_size=(gui.text_size*1.2))
-play sfx2 "other_7088.ogg"
 hide p4
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1131309]]' (what_size=(gui.text_size*1.4))
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1131310]]'

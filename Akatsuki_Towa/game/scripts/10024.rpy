@@ -61,8 +61,8 @@ show oc001_01 12 as p1 at r_exit(-2), light, zorder 5
 c13 '[textdict[1002083]]'
 hide p1
 play music "ED6518.ogg"
-play sfx2 "other_7017.ogg"
 hide p2
+play sfx2 "other_7017.ogg"
 c0 '[textdict[1002084]]'
 play sfx2 "other_7046.ogg"
 play sfxvoice "avg_vocal_li02.ogg"

@@ -27,8 +27,8 @@ c2051 '[textdict[2101437]]'
 hide p205
 show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101438]]'
-play sfx2 "other_7047.ogg"
 hide p205
+play sfx2 "other_7047.ogg"
 c0 '[textdict[2101439]]'
 show st005_01 2 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101440]]'

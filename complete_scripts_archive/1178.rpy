@@ -208,8 +208,8 @@ hide p1
 hide p45
 show sc038_01 1 as p45 at l(-1), dark, zorder 6
 c12243 '[textdict[2106282]]' with shake
-play sfx2 "other_7085.ogg"
 hide p45
+play sfx2 "other_7085.ogg"
 c0 '[textdict[2106283]]'
 show sc038_01 5 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2106284]]'

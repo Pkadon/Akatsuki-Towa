@@ -52,8 +52,8 @@ show memoryoverlay zorder 2
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110669]]' (what_size=(gui.text_size*1.25)) with shake
 show memoryoverlay zorder 2
-play sfx2 "fight_6010.ogg"
 hide p1
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[2110670]]'
 show memoryoverlay zorder 2
 show oc001_01 12 as p1 at r_exit(-2), light, zorder 5
@@ -96,8 +96,8 @@ hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 c27191 '[textdict[2110683]]'
 show memoryoverlay zorder 2
-play sfx2 "fight_6021.ogg"
 hide p1
+play sfx2 "fight_6021.ogg"
 c0 '[textdict[2110684]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6001.ogg"
@@ -494,8 +494,8 @@ c13651 '[textdict[2110778]]'
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c11571 '[textdict[2110779]]'
-play sfx2 "other_7064.ogg"
 hide p2701
+play sfx2 "other_7064.ogg"
 c0 '[textdict[2110780]]'
 show sca44_01 1 as p2705 at l(-7), light, zorder 6
 c27051 '[textdict[2110781]]'
@@ -602,8 +602,8 @@ c27151 '[textdict[2110813]]'
 hide p2701
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110814]]'
-play sfx2 "other_7040.ogg"
 hide p2701
+play sfx2 "other_7040.ogg"
 c0 '[textdict[2110815]]'
 c27151 '[textdict[2110816]]'
 show oca01_01 1 as p2701 at r(-2), light, zorder 5
@@ -734,9 +734,9 @@ show oca02_01 12 as p2702 at l(-3), dark, zorder 6
 show oca01_01 9 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110862]]' (what_size=(gui.text_size*1.25))
 stop music
-play sfx2 "fight_6010.ogg"
 hide p2702
 hide p2701
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[2110863]]' with shake
 stop music
 c27151 '[textdict[2110864]]'

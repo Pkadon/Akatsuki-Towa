@@ -96,8 +96,8 @@ hide p2
 c0 '[textdict[1000332]]'
 show oc001_01 9 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1000333]]'
-play sfx2 "fight_6019.ogg"
 hide p1
+play sfx2 "fight_6019.ogg"
 c0 '[textdict[1000334]]'
 show uc003_01 2 as p506 at mid(-26), light, zorder 5
 c5063 '[textdict[1000335]]'

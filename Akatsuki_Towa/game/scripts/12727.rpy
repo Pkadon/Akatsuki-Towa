@@ -103,8 +103,8 @@ c14341 '[textdict[1171846]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c14341 '[textdict[1171847]]'
-play sfx2 "other_7091.ogg"
 hide p1
+play sfx2 "other_7091.ogg"
 c0 '[textdict[1171848]]'
 c14341 '[textdict[1171849]]'
 c14341 '[textdict[1171850]]'
@@ -172,8 +172,8 @@ c13 '[textdict[1171869]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c14341 '[textdict[1171870]]'
-play sfx2 "other_7004.ogg"
 hide p1
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1171871]]'
 play music "ed7117.ogg"
 c14341 '[textdict[1171872]]'

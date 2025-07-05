@@ -292,9 +292,9 @@ show oc001_01 12 as p1 at l(-2), dark, zorder 6
 show sc027_01 5 as p35 at r(-10), light, zorder 5
 c353 '[textdict[2107095]]'
 play music "ed7511.ogg"
-play sfx2 "other_7011.ogg"
 hide p1
 hide p35
+play sfx2 "other_7011.ogg"
 c0 '[textdict[2107096]]'
 play sfx2 "fight_6025.ogg"
 c11541 '[textdict[2107097]]'
@@ -404,8 +404,8 @@ hide p35
 show sc027_01 5 as p35 at l(-10), light, zorder 6
 c351 '[textdict[2107125]]' (what_size=(gui.text_size*1.15)) with shake
 play music "ED6512.ogg"
-play sfx2 "fight_6015.ogg"
 hide p35
+play sfx2 "fight_6015.ogg"
 c0 '[textdict[2107126]]' with shake
 c26113 '[textdict[2107127]]'
 show sc027_01 5 as p35 at l(-10), light, zorder 6

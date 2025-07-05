@@ -146,8 +146,8 @@ c271 '[textdict[1007710]]'
 hide p27
 show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[1007711]]'
-play sfx2 "other_7004.ogg"
 hide p29
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1007712]]'
 show sc019_01 2 as p27 at r_entrance(-18), light, zorder 5
 c273 '[textdict[1007713]]'

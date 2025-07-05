@@ -60,9 +60,9 @@ hide p8
 show st060_01 4 as p8 at r(-5), dark, zorder 5
 show st057_01 3 as p1211 at l(-16), l_shake, light, zorder 6
 c12111 '[textdict[1153951]]'
-play sfx2 "other_7088.ogg"
 hide p1211
 hide p8
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1153952]]'
 c12351 '[textdict[1153953]]'
 show oc004_01 12 as p4 at r_entrance(-5), light, zorder 5

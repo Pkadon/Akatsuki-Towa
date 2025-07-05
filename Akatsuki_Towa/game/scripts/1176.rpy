@@ -235,9 +235,9 @@ hide p2539
 show oc000_01 1 as p2539 at l(-2), dark, zorder 6
 show sc040_01 3 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2105886]]'
-play sfx2 "fight_6019.ogg"
 hide p2539
 hide p47
+play sfx2 "fight_6019.ogg"
 c0 '[textdict[2105887]]' with shake
 play sfx2 "other_7057.ogg"
 show oc000_01 1 as p2539 at l(-2), light, zorder 6

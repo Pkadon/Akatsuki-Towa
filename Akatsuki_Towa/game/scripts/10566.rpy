@@ -185,9 +185,9 @@ hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show st057_01 3 as p1211 at r(-16), light, zorder 5
 c12113 '[textdict[1154401]]'
-play sfx2 "other_7043.ogg"
 hide p16
 hide p1211
+play sfx2 "other_7043.ogg"
 c0 '[textdict[1154402]]'
 show sc008_01 4 as p16 at l(-18), light, zorder 6
 c161 '[textdict[1154403]]'

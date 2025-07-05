@@ -173,8 +173,8 @@ c43 '[textdict[1161333]]'
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
 c13101 '[textdict[1161334]]'
-play sfx2 "common_correct.ogg"
 hide p4
+play sfx2 "common_correct.ogg"
 c0 '[textdict[1161335]]'
 c13101 '[textdict[1161336]]'
 show oc001_01 1 as p1 at r(-2), light, zorder 5

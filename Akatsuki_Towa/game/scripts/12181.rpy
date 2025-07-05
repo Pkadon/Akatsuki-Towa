@@ -57,8 +57,8 @@ hide p1
 hide p30
 show sc022_01 4 as p30 at l(-9), light, zorder 6
 c301 '[textdict[1120612]]'
-play sfx2 "other_7004.ogg"
 hide p30
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1120613]]'
 show sc022_01 4 as p30 at l(-9), light, zorder 6
 c301 '[textdict[1120614]]'

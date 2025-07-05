@@ -30,8 +30,8 @@ c14281 '[textdict[1183713]]'
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 c14281 '[textdict[1183714]]'
-play sfx2 "other_7013.ogg"
 hide p3
+play sfx2 "other_7013.ogg"
 c0 '[textdict[1183715]]'
 show oc003_01 16 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1183716]]'
@@ -44,9 +44,9 @@ hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1183718]]'
-play sfx2 "other_7012.ogg"
 hide p2
 hide p1304
+play sfx2 "other_7012.ogg"
 c0 '[textdict[1183719]]'
 c25521 '[textdict[1183720]]'
 c25521 '[textdict[1183721]]'
@@ -103,8 +103,8 @@ hide p1304
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 c14281 '[textdict[1183739]]'
-play sfx2 "other_7013.ogg"
 hide p3
+play sfx2 "other_7013.ogg"
 c0 '[textdict[1183740]]'
 play music "ed7105.ogg"
 scene avg_bg_010

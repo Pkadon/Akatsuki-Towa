@@ -20,8 +20,8 @@ play sfxvoice "avg_vocal_ch31.ogg"
 hide p1
 show oc002_01 20 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1000228]]'
-play sfx2 "common_remind.ogg"
 hide p2
+play sfx2 "common_remind.ogg"
 c0 '[textdict[1000229]]'
 c0 '[textdict[1000230]]'
 return

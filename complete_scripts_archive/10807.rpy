@@ -17,8 +17,8 @@ c0 '[textdict[1181512]]'
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1181513]]'
 stop music
-play sfx2 "other_7057.ogg"
 hide p3
+play sfx2 "other_7057.ogg"
 c0 '[textdict[1181514]]' with shake
 stop music
 show oc003_01 2 as p3 at r(-6), light, zorder 5

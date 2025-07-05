@@ -112,9 +112,9 @@ hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
 show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112319]]'
-play sfx2 "other_7004.ogg"
 hide p45
 hide p47
+play sfx2 "other_7004.ogg"
 c0 '[textdict[2112320]]'
 show sc040_01 2 as p47 at r(-9), r_shake, light, zorder 5
 c473 '[textdict[2112321]]'

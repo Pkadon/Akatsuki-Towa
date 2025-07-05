@@ -183,9 +183,9 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc014_01 4 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106476]]'
-play sfx2 "other_7088.ogg"
 hide p632
 hide p1
+play sfx2 "other_7088.ogg"
 c0 '[textdict[2106477]]'
 show sc014_01 4 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106478]]'
@@ -272,9 +272,9 @@ hide p632
 show sc014_01 4 as p632 at l(-6), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106496]]'
-play sfx2 "other_7051.ogg"
 hide p632
 hide p1
+play sfx2 "other_7051.ogg"
 c0 '[textdict[2106497]]'
 c0 '[textdict[2106498]]'
 play music "ED6104.ogg"

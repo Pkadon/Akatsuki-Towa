@@ -55,8 +55,8 @@ c5991 '[textdict[1002814]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c5991 '[textdict[1002815]]'
-play sfx2 "other_7085.ogg"
 hide p2
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1002816]]'
 c0 '[textdict[1002817]]'
 play music "ed7151.ogg"

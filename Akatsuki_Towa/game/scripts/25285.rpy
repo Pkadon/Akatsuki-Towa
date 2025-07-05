@@ -12,8 +12,8 @@ play sfxvoice "avg_vocal_ch06.ogg"
 hide p1
 show oc002_01 9 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1211088]]'
-play sfx2 "other_7068.ogg"
 hide p2
+play sfx2 "other_7068.ogg"
 c0 '[textdict[1211089]]'
 play sfx2 "fight_6024.ogg"
 play sfxvoice "avg_vocal_na24.ogg"

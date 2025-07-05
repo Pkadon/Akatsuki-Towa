@@ -21,9 +21,9 @@ hide p666
 show st028_02 4 as p666 at r(8), dark, zorder 5
 show oc003_01 9 as p3 at l(-6), l_shake, light, zorder 6
 c31 '[textdict[1004297]]'
-play sfx2 "other_7022.ogg"
 hide p3
 hide p666
+play sfx2 "other_7022.ogg"
 c0 '[textdict[1004298]]'
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1004299]]'

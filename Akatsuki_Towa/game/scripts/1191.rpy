@@ -163,8 +163,8 @@ hide p2625
 show occ02_01 21 as p2625 at l(-3), dark, zorder 6
 c14523 '[textdict[2107278]]'
 stop music
-play sfx2 "other_7073.ogg"
 hide p2625
+play sfx2 "other_7073.ogg"
 c0 '[textdict[2107279]]'
 stop music
 show scc45_01 2 as p2630 at r(-11), light, zorder 5

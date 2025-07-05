@@ -110,9 +110,9 @@ c13441 '[textdict[1165173]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165174]]'
+hide p1
 play sfx2 "other_7004.ogg"
 show Image8005 zorder 4
-hide p1
 c0 '[textdict[1165175]]'
 show st063_01 2 as p1346 at l(-16), light, zorder 6
 c13461 '[textdict[1165176]]'
@@ -381,9 +381,9 @@ hide p7
 show oc007_01 5 as p7 at l(-24), dark, zorder 6
 show st063_01 1 as p1346 at r(-16), light, zorder 5
 c13463 '[textdict[1165235]]'
-play sfx2 "other_7064.ogg"
 hide p7
 hide p1346
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1165236]]'
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 with fade
@@ -482,9 +482,9 @@ hide p1349
 show st056_01 1 as p1349 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165257]]'
-play sfx2 "other_7064.ogg"
 hide p1349
 hide p1
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1165258]]'
 show st063_01 1 as p1346 at l(-16), light, zorder 6
 c13461 '[textdict[1165259]]'
@@ -597,9 +597,9 @@ hide p1349
 show st056_01 1 as p1349 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165283]]'
-play sfx2 "other_7021.ogg"
 hide p1349
 hide p1
+play sfx2 "other_7021.ogg"
 c0 '[textdict[1165284]]'
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1165285]]'

@@ -140,8 +140,8 @@ play sfx2 "other_7020.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1140376]]'
-play sfx2 "other_7046.ogg"
 hide p1
+play sfx2 "other_7046.ogg"
 c0 '[textdict[1140377]]'
 show oc002_01 22 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1140378]]'

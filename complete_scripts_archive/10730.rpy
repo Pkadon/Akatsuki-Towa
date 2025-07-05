@@ -169,9 +169,9 @@ show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172456]]'
 stop music
-play sfx2 "other_7044.ogg"
 hide p3
 hide p1
+play sfx2 "other_7044.ogg"
 c0 '[textdict[1172457]]'
 stop music
 show oc001_01 4 as p1 at r(-2), light, zorder 5

@@ -12,8 +12,8 @@ c13441 '[textdict[1166477]]'
 hide p2
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166478]]'
-play sfx2 "other_7004.ogg"
 hide p1
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1166479]]'
 c13441 '[textdict[1166480]]'
 c13441 '[textdict[1166481]]'
@@ -25,9 +25,9 @@ c13441 '[textdict[1166483]]'
 hide p2
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166484]]'
+hide p1
 play sfx2 "other_7004.ogg"
 show Image8005 zorder 4
-hide p1
 c0 '[textdict[1166485]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166486]]'

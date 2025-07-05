@@ -26,9 +26,9 @@ hide p58
 show sc051_01 4 as p58 at l(-32), dark, zorder 6
 show sc053_01 4 as p60 at r_entrance(-32), light, zorder 5
 c603 '[textdict[1166666]]'
-play sfx2 "other_7085.ogg"
 hide p58
 hide p60
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1166667]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166668]]'

@@ -198,9 +198,9 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc010_01 1 as p18 at l(-10), light, zorder 6
 c181 '[textdict[1180236]]'
-play sfx2 "other_7047.ogg"
 hide p18
 hide p1
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1180237]]'
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1180238]]'
@@ -226,8 +226,8 @@ c13 '[textdict[1180243]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c13351 '[textdict[1180244]]'
-play sfx2 "other_7073.ogg"
 hide p1
+play sfx2 "other_7073.ogg"
 c0 '[textdict[1180245]]'
 show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1180246]]'
@@ -324,8 +324,8 @@ hide p1346
 show st063_01 4 as p1346 at l(-16), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1180269]]'
-play sfx2 "other_7080.ogg"
 hide p1346
 hide p1
+play sfx2 "other_7080.ogg"
 c0 '[textdict[1180270]]' with shake
 return

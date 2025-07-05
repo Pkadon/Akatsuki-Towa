@@ -20,9 +20,9 @@ hide p1304
 show st061_01 2 as p1304 at l(-2), dark, zorder 6
 show oc001_01 9 as p1 at r_midback(-2), light, zorder 5
 c13 '[textdict[1171124]]'
-play sfx2 "other_7007.ogg"
 hide p1304
 hide p1
+play sfx2 "other_7007.ogg"
 c0 '[textdict[1171125]]'
 play sfx2 "fight_6022.ogg"
 c0 '[textdict[1171126]]'

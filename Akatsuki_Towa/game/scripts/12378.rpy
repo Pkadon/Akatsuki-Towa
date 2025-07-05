@@ -47,8 +47,8 @@ c10993 '[textdict[1133947]]'
 hide p1
 show oc002_01 9 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1133948]]'
-play sfx2 "other_7088.ogg"
 hide p2
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1133949]]' with shake
 show oc001_01 10 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1133950]]'

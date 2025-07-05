@@ -66,9 +66,9 @@ show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172645]]'
 play music "ed6567.ogg"
-play sfx2 "other_7018.ogg"
 hide p3
 hide p1
+play sfx2 "other_7018.ogg"
 c0 '[textdict[1172646]]'
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172647]]'

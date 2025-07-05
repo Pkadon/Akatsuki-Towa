@@ -21,9 +21,9 @@ hide p4
 show oc004_01 16 as p4 at l(-5), dark, zorder 6
 show oc006_01 4 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109388]]'
-play sfx2 "other_7047.ogg"
 hide p4
 hide p6
+play sfx2 "other_7047.ogg"
 c0 '[textdict[2109389]]'
 play sfx2 "other_7064.ogg"
 c6431 '[textdict[2109390]]' with shake

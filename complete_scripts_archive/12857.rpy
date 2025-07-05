@@ -256,8 +256,8 @@ hide p1469
 show oc004_01 3 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1188803]]'
 play music "ed7511.ogg"
-play sfx2 "other_7034.ogg"
 hide p4
+play sfx2 "other_7034.ogg"
 c0 '[textdict[1188804]]'
 c14741 '[textdict[1188805]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5

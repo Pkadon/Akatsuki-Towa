@@ -215,7 +215,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if newscene and isClearModle != 1: f.write('with fade\n')
 
 
-			if isClearModle == 1:
+			#Both isClearModle and the green-text speaker 0 hide all portraits
+			if isClearModle == 1 or speaker == 0:
 				if state_dict['l']:
 					f.write(f"hide {state_dict['l']['alias']}\n")
 					state_dict['l'] = None
@@ -250,18 +251,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if showingimage != avgimagename:
 					f.write(f'show {avgimagename} zorder 4\n')
 					showingimage = avgimagename
-
-			#hide all portraits during green system messages
-			if speaker == 0:
-				if state_dict['l']:
-					f.write(f"hide {state_dict['l']['alias']}\n")
-					state_dict['l'] = None
-				if state_dict['mid']:
-					f.write(f"hide {state_dict['mid']['alias']}\n")
-					state_dict['mid'] = None
-				if state_dict['r']:
-					f.write(f"hide {state_dict['r']['alias']}\n")
-					state_dict['r'] = None
 			
 			#figure out if a portrait needs to be displayed 
 			if charID == 0:

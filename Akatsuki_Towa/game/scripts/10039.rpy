@@ -155,8 +155,8 @@ hide p3
 show oc001_01 12 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1003410]]'
 stop music
-play sfx2 "other_7064.ogg"
 hide p1
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1003411]]'
 stop music
 show st012_01 2 as p211 at r(-6), light, zorder 5

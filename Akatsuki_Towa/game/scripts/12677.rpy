@@ -25,9 +25,9 @@ hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
 show oc003_01 2 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1166932]]'
-play sfx2 "other_7088.ogg"
 hide p3
 hide p4
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1166933]]'
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166934]]'
@@ -40,9 +40,9 @@ hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc003_01 7 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1166936]]'
-play sfx2 "other_7059.ogg"
 hide p3
 hide p1
+play sfx2 "other_7059.ogg"
 c0 '[textdict[1166937]]'
 play music "ed7151.ogg"
 show oc001_01 19 as p1 at r(-2), light, zorder 5

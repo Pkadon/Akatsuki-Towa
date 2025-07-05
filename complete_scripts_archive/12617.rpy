@@ -427,9 +427,9 @@ hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[1161714]]'
-play sfx2 "other_7004.ogg"
 hide p1267
 hide p2
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1161715]]'
 play music "ed7516.ogg"
 show sc016_01 4 as p1267 at l(-6), light, zorder 6

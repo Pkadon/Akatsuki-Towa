@@ -200,8 +200,8 @@ hide p10
 hide p9
 show sc001_01 5 as p9 at l(-11), dark, zorder 6
 c5863 '[textdict[1003206]]'
-play sfx2 "other_7021.ogg"
 hide p9
+play sfx2 "other_7021.ogg"
 c0 '[textdict[1003207]]'
 show sc001_01 5 as p9 at l(-11), l_shake, light, zorder 6
 c91 '[textdict[1003208]]'

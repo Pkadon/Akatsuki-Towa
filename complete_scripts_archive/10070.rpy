@@ -42,9 +42,9 @@ hide p1
 show oc001_01 1 as p1 at l(-2), dark, zorder 6
 show st044_01 1 as p692 at r(10), light, zorder 5
 c6923 '[textdict[1005050]]'
-play sfx2 "other_7064.ogg"
 hide p1
 hide p692
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1005051]]'
 show st044_01 4 as p692 at r_entrance(10), light, zorder 5
 c6923 '[textdict[1005052]]'

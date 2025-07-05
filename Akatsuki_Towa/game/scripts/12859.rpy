@@ -315,8 +315,8 @@ hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
 c15311 '[textdict[1188904]]'
 play music "ed7511.ogg"
-play sfx2 "other_7079.ogg"
 hide p3
+play sfx2 "other_7079.ogg"
 c0 '[textdict[1188905]]'
 c15321 '[textdict[1188906]]' with shake
 play sfx2 "elc_5005.ogg"

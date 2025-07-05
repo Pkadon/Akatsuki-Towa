@@ -646,8 +646,8 @@ play sfx2 "fight_6026.ogg"
 hide p47
 show sc040_01 4 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2112252]]'
-play sfx2 "fight_6009.ogg"
 hide p47
+play sfx2 "fight_6009.ogg"
 c0 '[textdict[2112253]]'
 stop music
 play sfx2 "fight_6015.ogg"

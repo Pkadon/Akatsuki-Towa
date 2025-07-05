@@ -168,8 +168,8 @@ hide p4
 show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2109843]]'
 stop music
-play sfx2 "other_7038.ogg"
 hide p4
+play sfx2 "other_7038.ogg"
 c0 '[textdict[2109844]]'
 stop music
 show oc004_01 15 as p4 at r(-5), light, zorder 5
@@ -229,9 +229,9 @@ show oc004_01 12 as p4 at r(-5), dark, zorder 5
 show oc006_01 1 as p6 at l(-5), light, zorder 6
 c61 '[textdict[2109855]]'
 stop music
-play sfx2 "other_7085.ogg"
 hide p6
 hide p4
+play sfx2 "other_7085.ogg"
 c0 '[textdict[2109856]]'
 play music "ed7162.ogg"
 show oc002_01 2 as p2 at l(-3), light, zorder 6

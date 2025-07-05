@@ -20,8 +20,8 @@ hide p4
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 c13321 '[textdict[1163821]]' with shake
-play sfx2 "other_7085.ogg"
 hide p1
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1163822]]'
 show oc004_01 10 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1163823]]'
@@ -49,8 +49,8 @@ c183 '[textdict[1163830]]'
 hide p18
 show sc010_01 4 as p18 at r(-10), dark, zorder 5
 c13311 '[textdict[1163831]]'
-play sfx2 "other_7085.ogg"
 hide p18
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1163832]]'
 play music "ed9999.ogg"
 show sc010_01 1 as p18 at l(-10), light, zorder 6

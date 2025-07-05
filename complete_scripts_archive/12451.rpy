@@ -42,8 +42,8 @@ c43 '[textdict[1143375]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143376]]'
-play sfx2 "other_7064.ogg"
 hide p4
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1143377]]'
 show oc004_01 18 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143378]]'
@@ -53,8 +53,8 @@ c43 '[textdict[1143379]]'
 hide p4
 show oc004_01 19 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1143380]]'
-play sfx2 "other_7085.ogg"
 hide p4
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1143381]]'
 scene avg_bg_048
 show memoryoverlay zorder 2

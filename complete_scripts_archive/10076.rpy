@@ -44,9 +44,9 @@ hide p1
 show oc001_01 4 as p1 at l(-2), dark, zorder 6
 show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1005244]]'
-play sfx2 "other_7047.ogg"
 hide p1
 hide p2
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1005245]]'
 c6991 '[textdict[1005246]]'
 c6893 '[textdict[1005247]]'

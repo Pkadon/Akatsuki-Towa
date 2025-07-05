@@ -79,8 +79,8 @@ c26363 '[textdict[2107191]]'
 hide p2629
 show scb38_01 2 as p2629 at l(-1), dark, zorder 6
 c26353 '[textdict[2107192]]'
-play sfx2 "fight_6010.ogg"
 hide p2629
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[2107193]]'
 c26353 '[textdict[2107194]]'
 show scb38_01 1 as p2629 at l(-1), light, zorder 6

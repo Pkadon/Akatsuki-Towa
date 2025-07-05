@@ -47,9 +47,9 @@ hide p36
 show sc028_01 1 as p36 at l(-7), dark, zorder 6
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[1151631]]'
-play sfx2 "other_7007.ogg"
 hide p36
 hide p16
+play sfx2 "other_7007.ogg"
 c0 '[textdict[1151632]]' with shake
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1151633]]'

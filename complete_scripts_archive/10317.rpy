@@ -12,9 +12,9 @@ show oc002_01 4 as p2 at r(-3), dark, zorder 5
 show oc001_01 12 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1130452]]'
 stop music
-play sfx2 "other_7044.ogg"
 hide p1
 hide p2
+play sfx2 "other_7044.ogg"
 c0 '[textdict[1130453]]'
 play music "ed7105.ogg"
 scene avg_bg_074

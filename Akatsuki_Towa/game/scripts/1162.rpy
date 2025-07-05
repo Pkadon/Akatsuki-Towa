@@ -61,9 +61,9 @@ hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc033_01 1 as p41 at l(3), light, zorder 6
 c411 '[textdict[2104631]]'
-play sfx2 "other_7093.ogg"
 hide p41
 hide p1
+play sfx2 "other_7093.ogg"
 c0 '[textdict[2104632]]'
 show sc033_01 1 as p41 at l(3), light, zorder 6
 c411 '[textdict[2104633]]'
@@ -81,9 +81,9 @@ hide p41
 show sc033_01 1 as p41 at l(3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104636]]'
-play sfx2 "other_7091.ogg"
 hide p41
 hide p1
+play sfx2 "other_7091.ogg"
 c0 '[textdict[2104637]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104638]]'
@@ -315,9 +315,9 @@ hide p2
 show oc002_01 14 as p2 at l(-3), dark, zorder 6
 show oc001_01 5 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104688]]'
-play sfx2 "other_7092.ogg"
 hide p2
 hide p1
+play sfx2 "other_7092.ogg"
 c0 '[textdict[2104689]]'
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104690]]'

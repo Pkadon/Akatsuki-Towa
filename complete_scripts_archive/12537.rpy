@@ -29,9 +29,9 @@ hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1151777]]'
-play sfx2 "other_7089.ogg"
 hide p3
 hide p2
+play sfx2 "other_7089.ogg"
 c0 '[textdict[1151778]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
@@ -70,9 +70,9 @@ hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1151786]]'
-play sfx2 "other_7089.ogg"
 hide p3
 hide p2
+play sfx2 "other_7089.ogg"
 c0 '[textdict[1151787]]'
 show oc003_01 12 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1151788]]'

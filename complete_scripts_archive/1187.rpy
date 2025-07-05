@@ -69,8 +69,8 @@ hide p13
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c25851 '[textdict[2106849]]'
-play sfx2 "other_7064.ogg"
 hide p1
+play sfx2 "other_7064.ogg"
 c0 '[textdict[2106850]]'
 c25851 '[textdict[2106851]]'
 c25851 '[textdict[2106852]]'
@@ -254,8 +254,8 @@ play sfx2 "fight_6024.ogg"
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106903]]'
-play sfx2 "fight_6009.ogg"
 hide p1
+play sfx2 "fight_6009.ogg"
 c0 '[textdict[2106904]]'
 play music "ed7514.ogg"
 play sfx2 "other_7057.ogg"

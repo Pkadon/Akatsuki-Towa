@@ -117,8 +117,8 @@ c10043 '[textdict[1141787]]'
 hide p1004
 show sc046_01 4 as p1004 at r(-5), light, zorder 5
 c10043 '[textdict[1141788]]'
-play sfx2 "other_7071.ogg"
 hide p1004
+play sfx2 "other_7071.ogg"
 c0 '[textdict[1141789]]'
 play sfx2 "other_7072.ogg"
 show sc046_01 4 as p1004 at r(-5), light, zorder 5

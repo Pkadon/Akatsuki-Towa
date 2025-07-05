@@ -209,9 +209,9 @@ hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1186590]]'
-play sfx2 "other_7047.ogg"
 hide p239
 hide p1
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1186591]]'
 stop music
 show oc002_01 15 as p2 at l(-3), light, zorder 6

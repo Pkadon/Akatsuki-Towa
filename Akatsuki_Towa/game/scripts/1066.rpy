@@ -67,8 +67,8 @@ c25051 '[textdict[2101289]]'
 hide p205
 show st005_01 2 as p205 at r(4), dark, zorder 5
 c25051 '[textdict[2101290]]'
-play sfx2 "other_7088.ogg"
 hide p205
+play sfx2 "other_7088.ogg"
 c0 '[textdict[2101291]]'
 show st005_01 5 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2101292]]'
@@ -87,8 +87,8 @@ c25051 '[textdict[2101296]]'
 hide p205
 show st005_01 1 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2101297]]'
-play sfx2 "other_7085.ogg"
 hide p205
+play sfx2 "other_7085.ogg"
 c0 '[textdict[2101298]]'
 c25051 '[textdict[2101299]]'
 c25051 '[textdict[2101300]]'
@@ -213,8 +213,8 @@ hide p205
 c0 '[textdict[2101337]]'
 show st005_01 5 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2101338]]'
-play sfx2 "other_7085.ogg"
 hide p205
+play sfx2 "other_7085.ogg"
 c0 '[textdict[2101339]]'
 show st002_01 1 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101340]]'

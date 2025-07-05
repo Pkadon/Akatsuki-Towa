@@ -193,8 +193,8 @@ c14711 '[textdict[1190930]]'
 hide p1468
 show st065_01 1 as p1468 at r(-6), dark, zorder 5
 c14711 '[textdict[1190931]]'
-play sfx2 "other_7063.ogg"
 hide p1468
+play sfx2 "other_7063.ogg"
 c0 '[textdict[1190932]]'
 play sfx2 "other_7063.ogg"
 c25931 '[textdict[1190933]]'
@@ -276,8 +276,8 @@ c14711 '[textdict[1190957]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 c25231 '[textdict[1190958]]' with shake
-play sfx2 "other_7064.ogg"
 hide p2670
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1190959]]'
 play sfx2 "other_7064.ogg"
 c14821 '[textdict[1190960]]'

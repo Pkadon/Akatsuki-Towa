@@ -225,9 +225,9 @@ hide p2666
 show oce02_01 5 as p2666 at r(-3), dark, zorder 5
 show uc003_01 3 as p506 at l(-26), light, zorder 6
 c5061 '[textdict[1191017]]'
-play sfx2 "fight_6017.ogg"
 hide p506
 hide p2666
+play sfx2 "fight_6017.ogg"
 c0 '[textdict[1191018]]'
 play sfx2 "fight_6010.ogg"
 c0 '[textdict[1191019]]'

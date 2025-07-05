@@ -16,8 +16,8 @@ hide p236
 show st037_01 2 as p236 at l(-10), light, zorder 6
 c2361 '[textdict[1131208]]'
 stop music
-play sfx2 "other_7045.ogg"
 hide p236
+play sfx2 "other_7045.ogg"
 c0 '[textdict[1131209]]'
 play music "ed7544.ogg"
 play sfxvoice "avg_vocal_ch06.ogg"
@@ -153,8 +153,8 @@ show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show st037_01 6 as p236 at l_exit(-10), light, zorder 6
 c2361 '[textdict[1131236]]'
 hide p236
-play sfx2 "other_7046.ogg"
 hide p1
+play sfx2 "other_7046.ogg"
 c0 '[textdict[1131237]]' with shake
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as p1 at r_entrance(-2), light, zorder 5

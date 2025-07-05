@@ -202,9 +202,9 @@ hide p2732
 show oca00_01 1 as p2732 at r(-2), dark, zorder 5
 show sc043_01 1 as p50 at l(-20), light, zorder 6
 c501 '[textdict[2111990]]'
-play sfx2 "other_7064.ogg"
 hide p50
 hide p2732
+play sfx2 "other_7064.ogg"
 c0 '[textdict[2111991]]'
 show sc041_01 1 as p48 at l(-9), light, zorder 6
 c481 '[textdict[2111992]]'

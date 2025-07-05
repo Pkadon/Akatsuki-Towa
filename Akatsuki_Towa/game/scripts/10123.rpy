@@ -142,9 +142,9 @@ hide p3
 show oc003_01 14 as p3 at r(-6), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1002882]]'
-play sfx2 "other_7085.ogg"
 hide p2
 hide p3
+play sfx2 "other_7085.ogg"
 c0 '[textdict[1002883]]'
 c0 '[textdict[1002884]]'
 play music "ed7151.ogg"

@@ -105,9 +105,9 @@ hide p15
 show sc007_01 1 as p15 at r(-17), dark, zorder 5
 show st044_01 1 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1182354]]'
-play sfx2 "elc_5005.ogg"
 hide p692
 hide p15
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1182355]]'
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1182356]]'
@@ -121,9 +121,9 @@ hide p692
 show st044_01 4 as p692 at l(10), dark, zorder 6
 show sc007_01 4 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1182358]]'
-play sfx2 "elc_5005.ogg"
 hide p692
 hide p15
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1182359]]'
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1182360]]'
@@ -261,9 +261,9 @@ hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1182387]]'
-play sfx2 "elc_5002.ogg"
 hide p692
 hide p4
+play sfx2 "elc_5002.ogg"
 c0 '[textdict[1182388]]'
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1182389]]'
@@ -300,9 +300,9 @@ hide p692
 show st044_01 4 as p692 at l(10), dark, zorder 6
 show sc007_01 4 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1182396]]'
-play sfx2 "elc_5005.ogg"
 hide p692
 hide p15
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1182397]]'
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1182398]]'

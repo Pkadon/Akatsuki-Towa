@@ -15,9 +15,9 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1166076]]'
-play sfx2 "other_7088.ogg"
 hide p3
 hide p4
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1166077]]'
 show oc008_01 5 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1166078]]'
@@ -134,9 +134,9 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166104]]'
-play sfx2 "fight_6024.ogg"
 hide p3
 hide p1
+play sfx2 "fight_6024.ogg"
 c0 '[textdict[1166105]]'
 show oc002_01 20 as p2 at l_exit(-3), light, zorder 6
 c21 '[textdict[1166106]]'
@@ -349,8 +349,8 @@ hide p8
 show oc008_01 1 as p8 at l(-5), dark, zorder 6
 c5003 '[textdict[1166148]]' with shake
 stop music
-play sfx2 "fight_6015.ogg"
 hide p8
+play sfx2 "fight_6015.ogg"
 c0 '[textdict[1166149]]' with shake
 stop music
 scene avg_bg_070

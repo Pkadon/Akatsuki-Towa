@@ -7,9 +7,9 @@ play sfx2 "fight_6025.ogg"
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 17 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210195]]'
+hide p2
 play sfx2 "fight_6015.ogg"
 play sfxvoice "avg_vocal_ch27.ogg"
-hide p2
 c0 '[textdict[1210197]]'
 play sfxvoice "avg_vocal_ch21.ogg"
 show oc002_01 20 as p2 at mid(-3), light, zorder 5

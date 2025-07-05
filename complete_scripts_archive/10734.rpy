@@ -33,8 +33,8 @@ c13043 '[textdict[1172544]]'
 hide p1304
 show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1172545]]'
-play sfx2 "other_7047.ogg"
 hide p1304
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1172546]]'
 c13361 '[textdict[1172547]]'
 c13361 '[textdict[1172548]]'

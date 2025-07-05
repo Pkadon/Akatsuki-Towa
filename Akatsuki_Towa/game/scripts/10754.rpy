@@ -82,9 +82,9 @@ hide p1267
 show sc016_01 4 as p1267 at r(-6), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1174071]]'
-play sfx2 "other_7023.ogg"
 hide p692
 hide p1267
+play sfx2 "other_7023.ogg"
 c0 '[textdict[1174072]]'
 play sfx2 "other_7093.ogg"
 c0 '[textdict[1174073]]'

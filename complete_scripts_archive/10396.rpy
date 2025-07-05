@@ -61,9 +61,9 @@ show oc004_01 13 as p4 at r(-5), dark, zorder 5
 show uc003_04 1 as p1051 at l(-14), light, zorder 6
 c10511 '[textdict[1132693]]'
 play music "ed7510.ogg"
-play sfx2 "other_7031.ogg"
 hide p1051
 hide p4
+play sfx2 "other_7031.ogg"
 c0 '[textdict[1132694]]'
 play sfx2 "other_7079.ogg"
 c10531 '[textdict[1132695]]' (what_size=(gui.text_size*1.3))

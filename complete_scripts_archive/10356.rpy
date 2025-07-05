@@ -37,8 +37,8 @@ c10301 '[textdict[1131668]]' (what_size=(gui.text_size*1.3))
 play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1131669]]'
-play sfx2 "other_7012.ogg"
 hide p1
+play sfx2 "other_7012.ogg"
 c0 '[textdict[1131670]]' with shake
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 21 as p2 at r(-3), light, zorder 5

@@ -68,8 +68,8 @@ c13161 '[textdict[1165867]]'
 hide p4
 show oc003_01 9 as p3 at r_midback(-6), light, zorder 5
 c33 '[textdict[1165868]]'
-play sfx2 "fight_6008.ogg"
 hide p3
+play sfx2 "fight_6008.ogg"
 c0 '[textdict[1165869]]' with shake
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165870]]'

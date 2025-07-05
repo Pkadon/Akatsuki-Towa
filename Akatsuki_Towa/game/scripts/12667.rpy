@@ -34,8 +34,8 @@ hide p4
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 c13671 '[textdict[1166651]]' with shake
-play sfx2 "fight_6022.ogg"
 hide p1
+play sfx2 "fight_6022.ogg"
 c0 '[textdict[1166652]]'
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166653]]'

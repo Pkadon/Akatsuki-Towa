@@ -31,9 +31,9 @@ hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 show oc001_01 10 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1120550]]'
-play sfx2 "common_remind.ogg"
 hide p1
 hide p2
+play sfx2 "common_remind.ogg"
 c0 '[textdict[1120551]]'
 show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1120552]]'

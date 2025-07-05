@@ -91,9 +91,9 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184817]]'
-play sfx2 "other_7017.ogg"
 hide p2
 hide p1
+play sfx2 "other_7017.ogg"
 c0 '[textdict[1184818]]'
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184819]]'
@@ -381,9 +381,9 @@ hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
 show oc005_01 22 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1184889]]'
-play sfx2 "fight_6015.ogg"
 hide p5
 hide p3
+play sfx2 "fight_6015.ogg"
 c0 '[textdict[1184890]]' with shake
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184891]]'
@@ -478,9 +478,9 @@ hide p15
 show sc007_01 4 as p15 at r(-17), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1184922]]'
-play sfx2 "other_7045.ogg"
 hide p692
 hide p15
+play sfx2 "other_7045.ogg"
 c0 '[textdict[1184923]]'
 show sc007_01 3 as p15 at r(-17), r_shake, light, zorder 5
 c153 '[textdict[1184924]]'
@@ -615,9 +615,9 @@ hide p4
 show oc004_01 9 as p4 at l(-5), dark, zorder 6
 show oc003_01 5 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1184959]]'
-play sfx2 "elc_5003.ogg"
 hide p4
 hide p3
+play sfx2 "elc_5003.ogg"
 c0 '[textdict[1184960]]'
 show oc005_01 22 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1184961]]'
@@ -625,9 +625,9 @@ hide p5
 show oc005_01 22 as p5 at l(-6), dark, zorder 6
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1184962]]'
-play sfx2 "fight_6029.ogg"
 hide p5
 hide p3
+play sfx2 "fight_6029.ogg"
 c0 '[textdict[1184963]]'
 show oc005_01 22 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1184964]]'
@@ -674,15 +674,15 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 16 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184974]]'
-play sfx2 "other_7011.ogg"
 hide p4
 hide p1
+play sfx2 "other_7011.ogg"
 c0 '[textdict[1184975]]'
 play sfx2 "other_7011.ogg"
 show oc005_01 22 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1184976]]'
-play sfx2 "other_7011.ogg"
 hide p5
+play sfx2 "other_7011.ogg"
 c0 '[textdict[1184977]]'
 show oc004_01 16 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1184978]]' with shake

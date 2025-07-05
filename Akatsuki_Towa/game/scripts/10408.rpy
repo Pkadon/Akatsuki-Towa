@@ -162,8 +162,8 @@ show oc004_01 21 as p4 at r(-5), dark, zorder 5
 show uc002_03 2 as p5006 at l_exit(-23), light, zorder 6
 c50061 '[textdict[1140506]]'
 hide p5006
-play sfx2 "other_7022.ogg"
 hide p4
+play sfx2 "other_7022.ogg"
 c0 '[textdict[1140507]]'
 play sfx2 "other_7022.ogg"
 show st043_01 2 as p242 at l_entrance(-17), light, zorder 6

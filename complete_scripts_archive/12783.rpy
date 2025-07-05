@@ -234,16 +234,16 @@ c14691 '[textdict[1176535]]'
 hide p1469
 show st064_01 4 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1176536]]'
-play sfx2 "other_7080.ogg"
 hide p1469
+play sfx2 "other_7080.ogg"
 c0 '[textdict[1176537]]'
 show st064_01 4 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1176538]]'
 hide p1469
 show st064_01 4 as p1469 at l(-2), dark, zorder 6
 c5003 '[textdict[1176539]]' with shake
-play sfx2 "fight_6009.ogg"
 hide p1469
+play sfx2 "fight_6009.ogg"
 c0 '[textdict[1176540]]'
 play sfx2 "other_7079.ogg"
 c0 '[textdict[1176541]]'
@@ -273,9 +273,9 @@ hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
 show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1176547]]'
-play sfx2 "fight_6009.ogg"
 hide p1469
 hide p3
+play sfx2 "fight_6009.ogg"
 c0 '[textdict[1176548]]'
 show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1176549]]'
@@ -283,9 +283,9 @@ hide p1469
 show st064_01 2 as p1469 at l(-2), dark, zorder 6
 show oc003_01 21 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1176550]]'
-play sfx2 "other_7079.ogg"
 hide p1469
 hide p3
+play sfx2 "other_7079.ogg"
 c0 '[textdict[1176551]]'
 show oc003_01 21 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1176552]]'

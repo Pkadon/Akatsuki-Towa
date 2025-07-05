@@ -14,9 +14,9 @@ play sfxvoice "avg_vocal_ch16.ogg"
 hide p1
 show oc002_01 4 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210186]]'
+hide p2
 play sfx2 "fight_6003.ogg"
 play sfxvoice "avg_vocal_ch27.ogg"
-hide p2
 c0 '[textdict[1210187]]'
 play sfxvoice "avg_vocal_ch23.ogg"
 show oc002_01 12 as p2 at mid(-3), light, zorder 5

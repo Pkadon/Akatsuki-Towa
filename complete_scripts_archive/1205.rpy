@@ -26,9 +26,9 @@ hide p240
 show st041_01 1 as p240 at r(-1), dark, zorder 5
 show uc001_01 1 as p689 at l(-2), light, zorder 6
 c6891 '[textdict[2108469]]'
-play sfx2 "other_7038.ogg"
 hide p689
 hide p240
+play sfx2 "other_7038.ogg"
 c0 '[textdict[2108470]]'
 c26791 '[textdict[2108471]]'
 c26791 '[textdict[2108472]]'
@@ -63,9 +63,9 @@ hide p16
 show sc008_01 3 as p16 at r(-18), dark, zorder 5
 show uc001_01 1 as p689 at l(-2), l_shake, light, zorder 6
 c6891 '[textdict[2108479]]'
-play sfx2 "other_7038.ogg"
 hide p689
 hide p16
+play sfx2 "other_7038.ogg"
 c0 '[textdict[2108480]]'
 show uc001_01 1 as p689 at l(-2), light, zorder 6
 c6891 '[textdict[2108481]]'
@@ -511,8 +511,8 @@ show uc001_01 1 as p689 at l(-2), dark, zorder 6
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[2108582]]'
 stop music
-play sfx2 "other_7062.ogg"
 hide p689
 hide p16
+play sfx2 "other_7062.ogg"
 c0 '[textdict[2108583]]'
 return

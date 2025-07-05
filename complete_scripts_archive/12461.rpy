@@ -18,8 +18,8 @@ hide p2
 show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143781]]'
 stop music
-play sfx2 "other_7088.ogg"
 hide p2
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1143782]]'
 stop music
 play sfx2 "other_7034.ogg"

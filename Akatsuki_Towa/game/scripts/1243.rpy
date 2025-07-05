@@ -260,8 +260,8 @@ hide p2667
 show ocd03_01 12 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113150]]'
 stop music
-play sfx2 "other_7092.ogg"
 hide p2667
+play sfx2 "other_7092.ogg"
 c0 '[textdict[2113151]]'
 stop music
 show ocd03_01 12 as p2667 at r_exit(-6), light, zorder 5

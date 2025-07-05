@@ -105,9 +105,9 @@ hide p258
 show st051_01 4 as p258 at l(-9), dark, zorder 6
 show oc003_01 5 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1143641]]'
-play sfx2 "other_7004.ogg"
 hide p258
 hide p3
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1143642]]'
 play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 17 as p2 at l(-3), light, zorder 6

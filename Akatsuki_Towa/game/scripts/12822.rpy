@@ -80,8 +80,8 @@ c13043 '[textdict[1183956]]'
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
 c25541 '[textdict[1183957]]'
-play sfx2 "other_7088.ogg"
 hide p1304
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1183958]]'
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1183959]]'
@@ -238,9 +238,9 @@ hide p1304
 show st061_01 4 as p1304 at l(-2), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184008]]'
-play sfx2 "other_7088.ogg"
 hide p1304
 hide p1
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1184009]]'
 c0 '[textdict[1184010]]'
 return

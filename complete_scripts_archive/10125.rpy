@@ -125,16 +125,16 @@ hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1000331]]'
-play sfx2 "common_sephi2.ogg"
 hide p2
 hide p1
+play sfx2 "common_sephi2.ogg"
 c0 '[textdict[1000332]]'
 play music "ed9997.ogg"
 play sfxvoice "avg_vocal_na24.ogg"
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000333]]'
-play sfx2 "fight_6017.ogg"
 hide p1
+play sfx2 "fight_6017.ogg"
 c0 '[textdict[1000334]]'
 show uc003_01 2 as p506 at l(-26), l_shake, light, zorder 6
 c5061 '[textdict[1000335]]'

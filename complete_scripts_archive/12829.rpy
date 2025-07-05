@@ -205,8 +205,8 @@ play sfx2 "fight_6010.ogg"
 hide p1308
 show st062_01 4 as p1308 at l(-16), dark, zorder 6
 c5003 '[textdict[1184752]]'
-play sfx2 "other_7007.ogg"
 hide p1308
+play sfx2 "other_7007.ogg"
 c0 '[textdict[1184753]]'
 show st062_01 4 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1184754]]'
@@ -258,8 +258,8 @@ c13 '[textdict[1184767]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c25671 '[textdict[1184768]]'
-play sfx2 "fight_6010.ogg"
 hide p1
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[1184769]]'
 show oc004_01 2 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184770]]'

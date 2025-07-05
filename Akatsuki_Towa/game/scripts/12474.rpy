@@ -28,8 +28,8 @@ c0 '[textdict[1144009]]'
 show oc006_01 4 as p6 at l(-5), light, zorder 6
 c61 '[textdict[1144010]]'
 stop music
-play sfx2 "other_7011.ogg"
 hide p6
+play sfx2 "other_7011.ogg"
 c0 '[textdict[1144011]]'
 play music "ed7511.ogg"
 show oc006_01 3 as p6 at l(-5), l_shake, light, zorder 6

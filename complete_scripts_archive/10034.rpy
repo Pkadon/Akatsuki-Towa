@@ -12,8 +12,8 @@ hide p1
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1003011]]'
 stop music
-play sfx2 "fight_6022.ogg"
 hide p1
+play sfx2 "fight_6022.ogg"
 c0 '[textdict[1003012]]'
 stop music
 show oc002_01 12 as p2 at l(-3), light, zorder 6

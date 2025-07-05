@@ -141,8 +141,8 @@ c2101 '[textdict[2108137]]'
 hide p210
 show st011_01 1 as p210 at l(-14), light, zorder 6
 c2101 '[textdict[2108138]]'
-play sfx2 "other_7063.ogg"
 hide p210
+play sfx2 "other_7063.ogg"
 c0 '[textdict[2108139]]'
 play sfx2 "other_7063.ogg"
 show sc001_01 3 as p9 at l(-11), light, zorder 6
@@ -229,8 +229,8 @@ c6101 '[textdict[2108163]]'
 hide p610
 show st029_01 5 as p610 at l(-28), l_shake, light, zorder 6
 c6101 '[textdict[2108164]]'
-play sfx2 "other_7062.ogg"
 hide p610
+play sfx2 "other_7062.ogg"
 c0 '[textdict[2108165]]' with shake
 play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108166]]'

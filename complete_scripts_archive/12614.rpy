@@ -78,8 +78,8 @@ hide p3
 show sc029_01 1 as p1312 at l(-13), light, zorder 6
 with fade
 c13121 '[textdict[1161523]]'
-play sfx2 "other_7004.ogg"
 hide p1312
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1161524]]'
 show oc002_01 13 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1161525]]'

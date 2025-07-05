@@ -21,8 +21,8 @@ c43 '[textdict[1121159]]'
 hide p4
 show oc002_01 2 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1121160]]'
-play sfx2 "other_7013.ogg"
 hide p2
+play sfx2 "other_7013.ogg"
 c0 '[textdict[1121161]]'
 play sfx2 "bat_craft_wind_01.ogg"
 play sfxvoice "avg_vocal_na05.ogg"

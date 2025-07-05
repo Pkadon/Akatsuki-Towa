@@ -97,8 +97,8 @@ hide p2666
 show oce02_01 15 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[1191296]]'
 stop music
-play sfx2 "other_7088.ogg"
 hide p2666
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1191297]]'
 stop music
 show oce02_01 15 as p2666 at r(-3), light, zorder 5

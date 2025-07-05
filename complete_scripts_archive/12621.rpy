@@ -161,9 +161,9 @@ hide p239
 show st040_01 2 as p239 at l(-19), dark, zorder 6
 show oc004_01 12 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1161882]]' with shake
-play sfx2 "other_7044.ogg"
 hide p239
 hide p4
+play sfx2 "other_7044.ogg"
 c0 '[textdict[1161883]]'
 show st040_01 5 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1161884]]'
@@ -171,9 +171,9 @@ hide p239
 show st040_01 5 as p239 at l(-19), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1161885]]'
-play sfx2 "other_7047.ogg"
 hide p239
 hide p1
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1161886]]'
 show st062_01 2 as p1313 at r(-16), light, zorder 5
 c13133 '[textdict[1161887]]'

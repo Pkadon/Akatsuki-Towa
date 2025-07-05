@@ -249,8 +249,8 @@ c26441 '[textdict[2107506]]'
 hide p2629
 show uc002_01 1 as p2638 at r(2), r_shake, light, zorder 5
 c26383 '[textdict[2107507]]'
-play sfx2 "other_7064.ogg"
 hide p2638
+play sfx2 "other_7064.ogg"
 c0 '[textdict[2107508]]'
 show sc066_01 1 as p70 at l_entrance(-34), light, zorder 6
 c701 '[textdict[2107509]]'
@@ -270,9 +270,9 @@ hide p70
 show sc066_01 3 as p70 at l(-34), dark, zorder 6
 show uc002_01 3 as p2641 at r(2), light, zorder 5
 c26413 '[textdict[2107513]]' with shake
-play sfx2 "other_7045.ogg"
 hide p70
 hide p2641
+play sfx2 "other_7045.ogg"
 c0 '[textdict[2107514]]'
 c26433 '[textdict[2107515]]'
 play music "ed7455.ogg"
@@ -288,9 +288,9 @@ hide p2629
 show scb38_01 4 as p2629 at r(-1), dark, zorder 5
 show ocb03_01 1 as p2628 at l(-6), light, zorder 6
 c26281 '[textdict[2107519]]'
-play sfx2 "fight_6010.ogg"
 hide p2628
 hide p2629
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[2107520]]'
 play sfx2 "other_7057.ogg"
 show ocb03_01 20 as p2628 at l_exit(-6), light, zorder 6

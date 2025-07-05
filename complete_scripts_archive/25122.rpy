@@ -9,8 +9,8 @@ c23 '[textdict[1210359]]'
 hide p2
 show uc001_02 3 as p2011 at mid(6), light, zorder 5
 c20113 '[textdict[1210360]]'
-play sfx2 "other_7088.ogg"
 hide p2011
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1210361]]'
 show uc001_02 1 as p2011 at mid(6), light, zorder 5
 c20113 '[textdict[1210362]]'

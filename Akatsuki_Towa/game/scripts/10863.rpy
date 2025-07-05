@@ -235,9 +235,9 @@ show sta61_01 5 as p2670 at l(-2), dark, zorder 6
 show st040_01 2 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191235]]'
 stop music
-play sfx2 "other_7060.ogg"
 hide p2670
 hide p239
+play sfx2 "other_7060.ogg"
 c0 '[textdict[1191236]]'
 stop music
 show st040_01 2 as p239 at r(-19), light, zorder 5

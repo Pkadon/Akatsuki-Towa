@@ -78,8 +78,8 @@ play sfx2 "other_7085.ogg"
 c0 '[textdict[1173585]]'
 show oc007_01 3 as p7 at l(-24), light, zorder 6
 c71 '[textdict[1173586]]' with shake
-play sfx2 "fight_6016.ogg"
 hide p7
+play sfx2 "fight_6016.ogg"
 c0 '[textdict[1173587]]' with shake
 play sfx2 "other_7079.ogg"
 c0 '[textdict[1173588]]'

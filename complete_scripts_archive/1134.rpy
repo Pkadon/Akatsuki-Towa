@@ -175,9 +175,9 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc049_01 4 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103430]]'
-play sfx2 "other_7045.ogg"
 hide p56
 hide p1
+play sfx2 "other_7045.ogg"
 c0 '[textdict[2103431]]'
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
@@ -253,9 +253,9 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show sc049_01 4 as p56 at l_midback(-8), light, zorder 6
 c561 '[textdict[2103448]]'
-play sfx2 "other_7007.ogg"
 hide p56
 hide p1
+play sfx2 "other_7007.ogg"
 c0 '[textdict[2103449]]'
 show sc049_01 4 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103450]]'
@@ -351,9 +351,9 @@ hide p56
 show sc049_01 4 as p56 at l(-8), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103468]]'
-play sfx2 "other_7044.ogg"
 hide p56
 hide p1
+play sfx2 "other_7044.ogg"
 c0 '[textdict[2103469]]'
 play sfx2 "other_7047.ogg"
 c0 '[textdict[2103470]]'

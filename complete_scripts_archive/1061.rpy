@@ -267,9 +267,9 @@ hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6
 show st005_01 4 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2100908]]'
-play sfx2 "other_7085.ogg"
 hide p202
 hide p205
+play sfx2 "other_7085.ogg"
 c0 '[textdict[2100909]]'
 show sc058_01 4 as p63 at r(-20), light, zorder 5
 c633 '[textdict[2100910]]'

@@ -14,8 +14,8 @@ hide p2
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 c13671 '[textdict[1166619]]'
-play sfx2 "other_7088.ogg"
 hide p1
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1166620]]'
 play sfx2 "fight_6024.ogg"
 show oc001_01 20 as p1 at r(-2), light, zorder 5

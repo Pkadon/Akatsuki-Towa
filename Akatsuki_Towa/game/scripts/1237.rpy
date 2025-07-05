@@ -503,9 +503,9 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2112446]]'
 stop music
-play sfx2 "other_7010.ogg"
 hide p51
 hide p1
+play sfx2 "other_7010.ogg"
 c0 '[textdict[2112447]]'
 stop music
 show oc004_01 1 as p4 at r_entrance(-5), light, zorder 5

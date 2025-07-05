@@ -45,9 +45,9 @@ hide p1253
 show st059_01 2 as p1253 at l(-14), dark, zorder 6
 show st058_01 2 as p1254 at r_entrance(-6), light, zorder 5
 c12543 '[textdict[2113265]]'
-play sfx2 "other_7047.ogg"
 hide p1253
 hide p1254
+play sfx2 "other_7047.ogg"
 c0 '[textdict[2113266]]'
 c26663 '[textdict[2113267]]'
 show st058_01 2 as p1254 at r(-6), light, zorder 5
@@ -171,9 +171,9 @@ hide p2666
 show oce02_01 12 as p2666 at r(-3), dark, zorder 5
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[2113294]]'
-play sfx2 "other_7004.ogg"
 hide p1267
 hide p2666
+play sfx2 "other_7004.ogg"
 c0 '[textdict[2113295]]'
 show oce02_01 4 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[2113296]]'

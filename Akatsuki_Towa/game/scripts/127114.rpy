@@ -68,8 +68,8 @@ hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 c14341 '[textdict[1179384]]'
 stop music
-play sfx2 "other_7047.ogg"
 hide p3
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1179385]]'
 stop music
 c14901 '[textdict[1179386]]'

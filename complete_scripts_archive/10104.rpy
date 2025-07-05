@@ -26,20 +26,20 @@ c0 '[textdict[1123030]]'
 play sfx2 "fight_6004.ogg"
 show uc004_01 4 as p704 at r_midback(-25), light, zorder 5
 c7043 '[textdict[1005748]]'
-play sfx2 "elc_5005.ogg"
 hide p704
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1123031]]'
 play sfx2 "fight_6005.ogg"
 show uc004_01 4 as p705 at r_midback(-25), light, zorder 5
 c7053 '[textdict[1005749]]'
-play sfx2 "elc_5005.ogg"
 hide p705
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1123032]]'
 play sfx2 "fight_6005.ogg"
 show uc004_01 4 as p706 at r_midback(-25), light, zorder 5
 c7063 '[textdict[1005750]]'
-play sfx2 "elc_5005.ogg"
 hide p706
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1123033]]'
 play sfx2 "fight_6005.ogg"
 show uc004_01 4 as p707 at r_midback(-25), light, zorder 5
@@ -61,14 +61,14 @@ c0 '[textdict[1123030]]'
 play sfx2 "other_7007.ogg"
 show uc004_01 2 as p704 at r(-25), r_shake, light, zorder 5
 c7043 '[textdict[1005754]]'
-play sfx2 "elc_5005.ogg"
 hide p704
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1123031]]'
 play sfx2 "fight_6005.ogg"
 show uc004_01 3 as p705 at l(-25), r_shake, light, zorder 6
 c7051 '[textdict[1005755]]'
-play sfx2 "elc_5005.ogg"
 hide p705
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1123030]]'
 play sfx2 "fight_6006.ogg"
 show uc004_01 3 as p704 at r(-25), r_shake, light, zorder 5
@@ -88,8 +88,8 @@ c0 '[textdict[1123032]]'
 play sfx2 "other_7049.ogg"
 show uc004_01 3 as p706 at r(-25), light, zorder 5
 c7063 '[textdict[1005759]]'
-play sfx2 "elc_5005.ogg"
 hide p706
+play sfx2 "elc_5005.ogg"
 c0 '[textdict[1123033]]'
 play sfx2 "fight_6005.ogg"
 show uc004_01 2 as p707 at l_midback(-25), light, zorder 6

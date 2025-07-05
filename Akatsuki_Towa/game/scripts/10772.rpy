@@ -74,8 +74,8 @@ c14693 '[textdict[1175973]]'
 hide p1469
 show st064_01 3 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1175974]]'
-play sfx2 "other_7047.ogg"
 hide p1469
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1175975]]'
 show st064_01 3 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1175976]]'
@@ -200,9 +200,9 @@ show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1175999]]'
 stop music
-play sfx2 "other_7070.ogg"
 hide p2
 hide p1
+play sfx2 "other_7070.ogg"
 c0 '[textdict[1176000]]'
 stop music
 play sfx2 "other_7070.ogg"

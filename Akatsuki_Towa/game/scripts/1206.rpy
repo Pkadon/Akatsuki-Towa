@@ -64,9 +64,9 @@ hide p209
 show st009_01 4 as p209 at r(-22), dark, zorder 5
 show sc020_01 4 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2108598]]'
-play sfx2 "other_7038.ogg"
 hide p28
 hide p209
+play sfx2 "other_7038.ogg"
 c0 '[textdict[2108599]]'
 play sfx2 "other_7038.ogg"
 show st009_01 2 as p209 at r(-22), light, zorder 5
@@ -263,8 +263,8 @@ hide p209
 show st009_01 5 as p209 at r(-22), dark, zorder 5
 show st041_01 1 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108640]]'
-play sfx2 "other_7062.ogg"
 hide p240
 hide p209
+play sfx2 "other_7062.ogg"
 c0 '[textdict[2108641]]'
 return

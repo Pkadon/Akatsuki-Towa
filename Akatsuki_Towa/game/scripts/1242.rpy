@@ -101,8 +101,8 @@ hide p2670
 show sta61_01 4 as p2670 at r(-2), dark, zorder 5
 c13051 '[textdict[2112995]]'
 stop music
-play sfx2 "elc_5006.ogg"
 hide p2670
+play sfx2 "elc_5006.ogg"
 c0 '[textdict[2112996]]' (what_size=(gui.text_size*1.25)) with shake
 stop music
 play sfx2 "other_7057.ogg"

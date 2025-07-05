@@ -86,9 +86,9 @@ hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
 show st030_01 4 as p229 at l(-8), light, zorder 6
 c2291 '[textdict[1143113]]'
-play sfx2 "other_7088.ogg"
 hide p229
 hide p3
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1143114]]'
 show st030_01 4 as p229 at l(-8), light, zorder 6
 c2291 '[textdict[1143115]]'

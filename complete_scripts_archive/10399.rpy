@@ -148,8 +148,8 @@ c10521 '[textdict[1132777]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c10521 '[textdict[1132778]]'
-play sfx2 "other_7088.ogg"
 hide p1
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1132779]]'
 c10521 '[textdict[1132780]]'
 play sfxvoice "avg_vocal_ro15.ogg"

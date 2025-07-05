@@ -234,9 +234,9 @@ show sc021_01 5 as p29 at l(-17), dark, zorder 6
 show sc031_01 4 as p39 at r_midback(-14), light, zorder 5
 c393 '[textdict[2108348]]'
 show memoryoverlay zorder 2
-play sfx2 "fight_6006.ogg"
 hide p29
 hide p39
+play sfx2 "fight_6006.ogg"
 c0 '[textdict[2108349]]'
 show memoryoverlay zorder 2
 play sfx2 "fight_6023.ogg"
@@ -645,9 +645,9 @@ show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108424]]'
 stop music
 show memoryoverlay zorder 2
-play sfx2 "fight_6011.ogg"
 hide p29
 hide p39
+play sfx2 "fight_6011.ogg"
 c0 '[textdict[2108425]]'
 stop music
 show memoryoverlay zorder 2
@@ -800,8 +800,8 @@ hide p39
 show sc031_01 4 as p39 at r(-14), light, zorder 5
 c393 '[textdict[2108456]]'
 stop music
-play sfx2 "other_7050.ogg"
 hide p39
+play sfx2 "other_7050.ogg"
 c0 '[textdict[2108457]]'
 stop music
 show sc032_01 2 as p40 at l(-17), light, zorder 6
@@ -824,8 +824,8 @@ hide p257
 show st050_01 2 as p257 at l(-11), dark, zorder 6
 show sc031_01 5 as p39 at r(-14), light, zorder 5
 c393 '[textdict[2108461]]'
-play sfx2 "other_7062.ogg"
 hide p257
 hide p39
+play sfx2 "other_7062.ogg"
 c0 '[textdict[2108462]]'
 return

@@ -120,8 +120,8 @@ c2231 '[textdict[1007128]]'
 hide p223
 show st024_01 1 as p223 at l(-16), light, zorder 6
 c2231 '[textdict[1007129]]'
-play sfx2 "other_7002.ogg"
 hide p223
+play sfx2 "other_7002.ogg"
 c0 '[textdict[1007249]]'
 show oc002_01 13 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1007130]]'

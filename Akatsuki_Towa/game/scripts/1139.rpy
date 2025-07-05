@@ -7,8 +7,8 @@ with fade
 play sfx2 "other_7044.ogg"
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103858]]'
-play sfx2 "other_7047.ogg"
 hide p1
+play sfx2 "other_7047.ogg"
 c0 '[textdict[2103859]]'
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103860]]'
@@ -469,8 +469,8 @@ hide p1
 c0 '[textdict[2103985]]'
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103986]]'
-play sfx2 "other_7020.ogg"
 hide p1
+play sfx2 "other_7020.ogg"
 c0 '[textdict[2103987]]'
 c0 '[textdict[2103988]]'
 c0 '[textdict[2103989]]'
@@ -522,8 +522,8 @@ play sfxvoice "bcv_oc001_hurt_01.ogg"
 hide p1
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104004]]'
-play sfx2 "other_7057.ogg"
 hide p1
+play sfx2 "other_7057.ogg"
 c0 '[textdict[2104005]]'
 play sfxvoice "avg_vocal_na11.ogg"
 show oc001_01 15 as p1 at r(-2), light, zorder 5

@@ -33,16 +33,16 @@ play sfxvoice "avg_vocal_ch21.ogg"
 hide p2
 show oc002_01 21 as p2 at l_midback(-3), light, zorder 6
 c21 '[textdict[1134022]]'
-play sfx2 "fight_6022.ogg"
 hide p2
+play sfx2 "fight_6022.ogg"
 c0 '[textdict[1134023]]'
 show oc001_01 12 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1134024]]' with shake
 hide p1
 show oc001_01 12 as p1 at l(-2), dark, zorder 6
 c10993 '[textdict[1134025]]'
-play sfx2 "fight_6025.ogg"
 hide p1
+play sfx2 "fight_6025.ogg"
 c0 '[textdict[1134026]]'
 play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as p2 at l(-3), light, zorder 6

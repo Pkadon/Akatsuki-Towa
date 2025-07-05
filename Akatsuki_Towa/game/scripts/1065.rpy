@@ -88,8 +88,8 @@ c0 '[textdict[2101231]]'
 play music "ed7151.ogg"
 show st005_01 4 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2101232]]'
-play sfx2 "fight_6010.ogg"
 hide p205
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[2101233]]' with shake
 show sc058_01 2 as p63 at l(-20), light, zorder 6
 c631 '[textdict[2101234]]'

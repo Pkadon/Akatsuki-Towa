@@ -24,8 +24,8 @@ play sfx2 "other_7004.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c6871 '[textdict[1004854]]'
-play sfx2 "other_7064.ogg"
 hide p1
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1004855]]'
 c6881 '[textdict[1004856]]'
 c6881 '[textdict[1004857]]'

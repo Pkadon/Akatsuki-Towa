@@ -61,8 +61,8 @@ c13 '[textdict[1133563]]'
 hide p1
 show oc004_01 5 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1133564]]'
-play sfx2 "other_7086.ogg"
 hide p4
+play sfx2 "other_7086.ogg"
 c0 '[textdict[1133565]]'
 play music "ed7120.ogg"
 show st053_01 5 as p1007 at l(-12), light, zorder 6

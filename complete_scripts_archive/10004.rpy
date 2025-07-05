@@ -67,10 +67,10 @@ hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
 show sc049_01 5 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1000419]]'
-play sfx2 "common_correct.ogg"
-show Image8 zorder 4
 hide p56
 hide p2
+play sfx2 "common_correct.ogg"
+show Image8 zorder 4
 c0 '[textdict[1000420]]'
 hide Image8
 show oc002_01 6 as p2 at l(-3), l_shake, light, zorder 6
@@ -181,9 +181,9 @@ hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
 show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1000442]]'
-play sfx2 "common_correct.ogg"
 hide p56
 hide p2
+play sfx2 "common_correct.ogg"
 c0 '[textdict[1000443]]'
 show oc002_01 22 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1000444]]'

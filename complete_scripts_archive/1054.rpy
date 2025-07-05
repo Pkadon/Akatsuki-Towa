@@ -27,13 +27,13 @@ c21 '[textdict[2100755]]'
 hide p2
 show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100756]]'
-play sfx2 "other_7044.ogg"
 hide p2
+play sfx2 "other_7044.ogg"
 c0 '[textdict[2100757]]'
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100758]]'
-play sfx2 "other_7047.ogg"
 hide p2
+play sfx2 "other_7047.ogg"
 c0 '[textdict[2100759]]'
 play sfx2 "other_7033.ogg"
 c0 '[textdict[2100760]]'
@@ -79,8 +79,8 @@ hide p2
 show oc002_01 22 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100774]]'
 stop music
-play sfx2 "fight_6016.ogg"
 hide p2
+play sfx2 "fight_6016.ogg"
 c0 '[textdict[2100775]]' with shake
 stop music
 play sfxvoice "avg_vocal_ch27.ogg"

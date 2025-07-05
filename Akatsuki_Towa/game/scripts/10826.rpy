@@ -267,9 +267,9 @@ hide p1267
 show sc016_01 1 as p1267 at l(-6), dark, zorder 6
 show oc004_01 20 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1185165]]'
-play sfx2 "other_7088.ogg"
 hide p1267
 hide p4
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1185166]]'
 show oc004_01 18 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1185167]]'
@@ -527,9 +527,9 @@ hide p1267
 show sc016_01 1 as p1267 at l(-6), dark, zorder 6
 show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1185225]]'
-play sfx2 "other_7064.ogg"
 hide p1267
 hide p1
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1185226]]'
 scene avg_bg_063
 with fade
@@ -684,9 +684,9 @@ hide p15
 show sc007_01 2 as p15 at r(-17), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1185261]]'
-play sfx2 "elc_5004.ogg"
 hide p692
 hide p15
+play sfx2 "elc_5004.ogg"
 c0 '[textdict[1185262]]'
 show sc007_01 2 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1185263]]'

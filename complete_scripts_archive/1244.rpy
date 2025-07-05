@@ -289,9 +289,9 @@ show oca05_01 1 as p2669 at l(-6), dark, zorder 6
 show ocd03_01 5 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113229]]'
 stop music
-play sfx2 "other_7011.ogg"
 hide p2669
 hide p2667
+play sfx2 "other_7011.ogg"
 c0 '[textdict[2113230]]' (what_size=(gui.text_size*1.2)) with shake
 stop music
 play sfx2 "other_7011.ogg"

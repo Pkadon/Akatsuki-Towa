@@ -715,9 +715,9 @@ hide p689
 show uc001_01 1 as p689 at r(-2), dark, zorder 5
 show sc008_01 3 as p16 at l_midback(-18), light, zorder 6
 c161 '[textdict[2108079]]'
-play sfx2 "other_7004.ogg"
 hide p16
 hide p689
+play sfx2 "other_7004.ogg"
 c0 '[textdict[2108080]]'
 show sc008_01 3 as p16 at l(-18), light, zorder 6
 c161 '[textdict[2108081]]'
@@ -806,8 +806,8 @@ play sfx2 "other_7062.ogg"
 hide p240
 show st041_01 1 as p240 at l(-1), dark, zorder 6
 c26793 '[textdict[2108102]]' (what_size=(gui.text_size*1.2)) with shake
-play sfx2 "other_7062.ogg"
 hide p240
+play sfx2 "other_7062.ogg"
 c0 '[textdict[2108103]]'
 play sfx2 "other_7062.ogg"
 c0 '[textdict[2108104]]'

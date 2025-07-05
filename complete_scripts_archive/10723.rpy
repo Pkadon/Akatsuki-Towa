@@ -72,9 +72,9 @@ show oc005_01 4 as p5 at l(-6), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1171525]]'
 play music "ed7564.ogg"
-play sfx2 "other_7004.ogg"
 hide p5
 hide p2
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1171526]]'
 scene avg_bg_070
 with fade

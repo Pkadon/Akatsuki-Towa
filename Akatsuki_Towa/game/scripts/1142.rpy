@@ -395,9 +395,9 @@ hide p4
 show oc004_01 7 as p4 at r(-5), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2104364]]'
-play sfx2 "fight_6010.ogg"
 hide p3
 hide p4
+play sfx2 "fight_6010.ogg"
 c0 '[textdict[2104365]]'
 show oc003_01 16 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2104366]]'
@@ -476,8 +476,8 @@ c0 '[textdict[2104382]]'
 c0 '[textdict[2104383]]'
 show sca33_01 1 as p2525 at r(3), light, zorder 5
 c25253 '[textdict[2104384]]'
-play sfx2 "other_7091.ogg"
 hide p2525
+play sfx2 "other_7091.ogg"
 c0 '[textdict[2104385]]'
 show sc033_01 5 as p41 at r(3), light, zorder 5
 c413 '[textdict[2104386]]'

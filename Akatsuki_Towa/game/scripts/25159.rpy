@@ -7,8 +7,8 @@ play sfx2 "other_7007.ogg"
 play sfxvoice "bcv_oc002_hurt_02.ogg"
 show oc002_01 20 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1210506]]'
-play sfx2 "other_7057.ogg"
 hide p2
+play sfx2 "other_7057.ogg"
 c0 '[textdict[1210507]]'
 c6123 '[textdict[1210508]]'
 play sfxvoice "avg_vocal_na02.ogg"

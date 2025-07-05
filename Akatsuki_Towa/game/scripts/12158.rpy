@@ -7,8 +7,8 @@ with fade
 play sfxvoice "avg_vocal_na05.ogg"
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1128408]]'
-play sfx2 "other_7021.ogg"
 hide p1
+play sfx2 "other_7021.ogg"
 c0 '[textdict[1128409]]'
 show sc017_01 2 as p963 at l_entrance(-7), light, zorder 6
 c9631 '[textdict[1128410]]'
@@ -26,9 +26,9 @@ hide p571
 show sc017_01 5 as p571 at l(-7), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1128413]]'
-play sfx2 "common_tag_2.ogg"
 hide p571
 hide p1
+play sfx2 "common_tag_2.ogg"
 c0 '[textdict[1128414]]'
 show sc017_01 5 as p25 at l(-7), light, zorder 6
 c251 '[textdict[1128415]]'

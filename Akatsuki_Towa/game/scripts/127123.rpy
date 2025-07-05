@@ -17,8 +17,8 @@ play sfx2 "fight_6009.ogg"
 c5001 '[textdict[1180159]]'
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1180160]]'
-play sfx2 "fight_6026.ogg"
 hide p2
+play sfx2 "fight_6026.ogg"
 c0 '[textdict[1180161]]'
 play sfx2 "other_7046.ogg"
 show oc001_01 20 as p1 at r_entrance(-2), light, zorder 5

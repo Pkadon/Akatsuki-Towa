@@ -157,14 +157,14 @@ hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc003_01 8 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1183320]]'
-play sfx2 "other_7044.ogg"
 hide p3
 hide p1304
+play sfx2 "other_7044.ogg"
 c0 '[textdict[1183321]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183322]]'
-play sfx2 "other_7043.ogg"
 hide p1
+play sfx2 "other_7043.ogg"
 c0 '[textdict[1183323]]'
 play sfx2 "other_7047.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -498,9 +498,9 @@ hide p1304
 show st061_01 2 as p1304 at r(-2), dark, zorder 5
 show st056_01 1 as p1349 at l(-6), light, zorder 6
 c13491 '[textdict[1183392]]'
-play sfx2 "other_7088.ogg"
 hide p1349
 hide p1304
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1183393]]'
 c0 '[textdict[1183394]]'
 show st061_01 4 as p1304 at r(-2), light, zorder 5

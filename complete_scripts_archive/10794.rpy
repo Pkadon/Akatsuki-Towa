@@ -154,9 +154,9 @@ show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1178208]]'
 play music "ed7516.ogg"
-play sfx2 "other_7023.ogg"
 hide p4
 hide p2
+play sfx2 "other_7023.ogg"
 c0 '[textdict[1178209]]'
 play sfx2 "other_7023.ogg"
 show oc005_01 13 as p5 at l(-6), light, zorder 6

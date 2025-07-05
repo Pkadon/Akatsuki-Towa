@@ -9,8 +9,8 @@ c10041 '[textdict[1130223]]'
 hide p1004
 show sc046_01 4 as p1004 at l(-5), light, zorder 6
 c10041 '[textdict[1130224]]'
-play sfx2 "other_7075.ogg"
 hide p1004
+play sfx2 "other_7075.ogg"
 c0 '[textdict[1130225]]'
 show sc046_01 5 as p1004 at l(-5), light, zorder 6
 c10041 '[textdict[1130226]]'

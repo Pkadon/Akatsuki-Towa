@@ -99,9 +99,9 @@ hide p2
 show oc002_01 21 as p2 at l(-3), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1134002]]' with shake
-play sfx2 "bat_arts_wt02_2.ogg"
 hide p2
 hide p1
+play sfx2 "bat_arts_wt02_2.ogg"
 c0 '[textdict[1134003]]'
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5

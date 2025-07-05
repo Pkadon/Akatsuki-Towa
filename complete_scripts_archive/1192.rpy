@@ -161,9 +161,9 @@ show ocb01_01 15 as p2634 at l(-2), dark, zorder 6
 show scb41_01 2 as p2631 at r(-9), r_shake, light, zorder 5
 c26313 '[textdict[2107338]]'
 stop music
-play sfx2 "other_7057.ogg"
 hide p2634
 hide p2631
+play sfx2 "other_7057.ogg"
 c0 '[textdict[2107339]]' with shake
 stop music
 show ocb01_01 14 as p2634 at l(-2), light, zorder 6
@@ -204,9 +204,9 @@ show ocb01_01 19 as p2634 at l(-2), dark, zorder 6
 show scb41_01 2 as p2631 at r(-9), light, zorder 5
 c26313 '[textdict[2107346]]'
 stop music
-play sfx2 "other_7088.ogg"
 hide p2634
 hide p2631
+play sfx2 "other_7088.ogg"
 c0 '[textdict[2107347]]'
 play music "ed7518.ogg"
 play sfx2 "other_7004.ogg"

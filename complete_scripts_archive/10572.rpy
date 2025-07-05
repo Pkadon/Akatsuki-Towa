@@ -11,9 +11,9 @@ hide p1253
 show st059_01 2 as p1253 at r(-14), dark, zorder 5
 show st058_01 1 as p1254 at l(-6), light, zorder 6
 c12541 '[textdict[1154890]]'
-play sfx2 "other_7047.ogg"
 hide p1254
 hide p1253
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1154891]]'
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1154892]]'
@@ -352,9 +352,9 @@ hide p1253
 show st059_01 3 as p1253 at r(-14), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1154961]]'
-play sfx2 "other_7047.ogg"
 hide p2
 hide p1253
+play sfx2 "other_7047.ogg"
 c0 '[textdict[1154962]]'
 play sfx2 "other_7085.ogg"
 show st058_01 2 as p1254 at l(-6), light, zorder 6
@@ -363,9 +363,9 @@ hide p1254
 show st058_01 2 as p1254 at l(-6), dark, zorder 6
 show st059_01 2 as p1253 at r(-14), light, zorder 5
 c12533 '[textdict[1154964]]'
-play sfx2 "other_7064.ogg"
 hide p1254
 hide p1253
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1154965]]'
 c0 '[textdict[1154966]]'
 c0 '[textdict[1154967]]'

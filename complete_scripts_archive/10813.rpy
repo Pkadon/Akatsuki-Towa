@@ -71,8 +71,8 @@ c43 '[textdict[1182305]]'
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
 c14501 '[textdict[1182306]]'
-play sfx2 "other_7073.ogg"
 hide p4
+play sfx2 "other_7073.ogg"
 c0 '[textdict[1182307]]'
 play music "ed7150.ogg"
 show oc004_01 17 as p4 at l(-5), light, zorder 6

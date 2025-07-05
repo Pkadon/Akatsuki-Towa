@@ -19,8 +19,8 @@ hide p2
 c20153 '[textdict[1211131]]'
 show oc001_01 2 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1211132]]'
-play sfx2 "other_7093.ogg"
 hide p1
+play sfx2 "other_7093.ogg"
 c0 '[textdict[1211133]]'
 c20153 '[textdict[1211134]]'
 show oc002_01 4 as p2 at mid(-3), light, zorder 5

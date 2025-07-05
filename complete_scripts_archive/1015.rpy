@@ -7,8 +7,8 @@ with fade
 c0 '[textdict[2100274]]'
 show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100275]]'
-play sfx2 "other_7047.ogg"
 hide p2
+play sfx2 "other_7047.ogg"
 c0 '[textdict[2100276]]'
 c9773 '[textdict[2100277]]'
 show oc002_01 6 as p2 at l(-3), light, zorder 6

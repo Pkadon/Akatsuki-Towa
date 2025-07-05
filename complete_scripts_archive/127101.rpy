@@ -180,9 +180,9 @@ hide p2
 show oc002_01 20 as p2 at r(-3), dark, zorder 5
 show oc004_01 21 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1177814]]'
-play sfx2 "other_7007.ogg"
 hide p4
 hide p2
+play sfx2 "other_7007.ogg"
 c0 '[textdict[1177815]]'
 show st061_01 3 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1177816]]'

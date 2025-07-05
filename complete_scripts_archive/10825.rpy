@@ -58,8 +58,8 @@ c25751 '[textdict[1185006]]'
 hide p4
 show oc005_01 4 as p5 at r(-6), light, zorder 5
 c53 '[textdict[1185007]]'
-play sfx2 "other_7011.ogg"
 hide p5
+play sfx2 "other_7011.ogg"
 c0 '[textdict[1185008]]' with shake
 play sfx2 "other_7011.ogg"
 show oc002_01 20 as p2 at r(-3), light, zorder 5
@@ -132,9 +132,9 @@ show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show oc005_01 22 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1185024]]'
 stop music
-play sfx2 "fight_6015.ogg"
 hide p5
 hide p1
+play sfx2 "fight_6015.ogg"
 c0 '[textdict[1185025]]' with shake
 play music "ed7510.ogg"
 show oc002_01 12 as p2 at l(-3), l_shake, light, zorder 6

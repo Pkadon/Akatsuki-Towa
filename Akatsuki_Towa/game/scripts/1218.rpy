@@ -82,9 +82,9 @@ hide p2695
 show sce09_01 1 as p2695 at r(-13), dark, zorder 5
 show oca04_01 1 as p2697 at l(-5), light, zorder 6
 c26971 '[textdict[2109905]]'
-play sfx2 "other_7063.ogg"
 hide p2697
 hide p2695
+play sfx2 "other_7063.ogg"
 c0 '[textdict[2109906]]'
 play sfx2 "other_7064.ogg"
 c0 '[textdict[2109907]]'
@@ -302,8 +302,8 @@ play sfx2 "other_7062.ogg"
 hide p2697
 show oca04_01 6 as p2697 at r(-5), light, zorder 5
 c26973 '[textdict[2109958]]'
-play sfx2 "other_7062.ogg"
 hide p2697
+play sfx2 "other_7062.ogg"
 c0 '[textdict[2109959]]'
 stop music
 scene avg_bg_078

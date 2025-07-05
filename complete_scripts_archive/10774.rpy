@@ -17,9 +17,9 @@ hide p4
 show oc004_01 21 as p4 at r(-5), dark, zorder 5
 show st061_01 2 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1176043]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 hide p4
+play sfx2 "other_7064.ogg"
 c0 '[textdict[1176044]]'
 show st064_01 3 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1176045]]'

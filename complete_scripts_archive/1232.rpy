@@ -223,9 +223,9 @@ show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 2 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111617]]'
 stop music
-play sfx2 "other_7088.ogg"
 hide p2731
 hide p47
+play sfx2 "other_7088.ogg"
 c0 '[textdict[2111618]]'
 stop music
 show sc040_01 2 as p47 at r(-9), light, zorder 5

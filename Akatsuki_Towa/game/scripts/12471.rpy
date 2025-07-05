@@ -8,13 +8,13 @@ c0 '[textdict[1143939]]'
 c11663 '[textdict[1143940]]'
 show oc006_01 1 as p6 at l(-5), light, zorder 6
 c61 '[textdict[1143941]]'
-play sfx2 "other_7024.ogg"
 hide p6
+play sfx2 "other_7024.ogg"
 c0 '[textdict[1143942]]'
 show oc006_01 4 as p6 at l(-5), light, zorder 6
 c61 '[textdict[1143943]]'
-play sfx2 "other_7024.ogg"
 hide p6
+play sfx2 "other_7024.ogg"
 c0 '[textdict[1143944]]'
 show oc006_01 4 as p6 at l(-5), light, zorder 6
 c61 '[textdict[1143945]]'

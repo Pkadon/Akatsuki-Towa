@@ -418,8 +418,8 @@ c31 '[textdict[1176396]]'
 hide p3
 show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1176397]]'
-play sfx2 "other_7072.ogg"
 hide p3
+play sfx2 "other_7072.ogg"
 c0 '[textdict[1176398]]'
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1176399]]'

@@ -359,8 +359,8 @@ hide p1
 hide p1004
 show sc046_01 4 as p1004 at l(-5), dark, zorder 6
 c25333 '[textdict[2105490]]'
-play sfx2 "other_7057.ogg"
 hide p1004
+play sfx2 "other_7057.ogg"
 c0 '[textdict[2105491]]'
 scene avg_bg_070
 with fade

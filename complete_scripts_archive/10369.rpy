@@ -27,9 +27,9 @@ hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1132084]]'
-play sfx2 "other_7027.ogg"
 hide p239
 hide p1
+play sfx2 "other_7027.ogg"
 c0 '[textdict[1132085]]'
 play sfx2 "other_7044.ogg"
 c0 '[textdict[1132086]]'
@@ -720,9 +720,9 @@ hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1132236]]'
-play sfx2 "other_7004.ogg"
 hide p239
 hide p1
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1132237]]'
 show st040_01 5 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1132239]]'

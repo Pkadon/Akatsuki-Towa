@@ -657,8 +657,8 @@ c13 '[textdict[1154556]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154557]]'
-play sfx2 "other_7088.ogg"
 hide p1
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1154558]]'
 play sfxvoice "avg_vocal_li23.ogg"
 show oc004_01 21 as p4 at l_entrance(-5), light, zorder 6

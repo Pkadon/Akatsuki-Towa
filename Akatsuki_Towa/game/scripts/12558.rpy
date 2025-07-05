@@ -66,8 +66,8 @@ c13 '[textdict[1153331]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c12521 '[textdict[1153332]]'
-play sfx2 "other_7004.ogg"
 hide p1
+play sfx2 "other_7004.ogg"
 c0 '[textdict[1153333]]'
 c12521 '[textdict[1153334]]'
 show oc003_01 17 as p3 at r(-6), light, zorder 5

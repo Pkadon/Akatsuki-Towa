@@ -89,8 +89,8 @@ c14521 '[textdict[1173663]]'
 hide p1308
 show st062_01 4 as p1308 at r(-16), light, zorder 5
 c13083 '[textdict[1173664]]'
-play sfx2 "other_7073.ogg"
 hide p1308
+play sfx2 "other_7073.ogg"
 c0 '[textdict[1173665]]'
 show st062_01 6 as p1308 at r(-16), light, zorder 5
 c13083 '[textdict[1173666]]'

@@ -433,9 +433,9 @@ hide p231
 show st032_01 5 as p231 at l(2), dark, zorder 6
 show oc001_01 6 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1131864]]'
-play sfx2 "common_core.ogg"
 hide p231
 hide p1
+play sfx2 "common_core.ogg"
 c0 '[textdict[1131865]]'
 c0 '[textdict[1131866]]'
 show oc003_01 2 as p3 at l(-6), light, zorder 6
@@ -629,9 +629,9 @@ hide p2
 show oc002_01 9 as p2 at r(-3), dark, zorder 5
 show oc001_01 12 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1131904]]'
-play sfx2 "common_core.ogg"
 hide p1
 hide p2
+play sfx2 "common_core.ogg"
 c0 '[textdict[1131905]]'
 show st032_01 1 as p231 at l(2), light, zorder 6
 c2311 '[textdict[1131906]]'

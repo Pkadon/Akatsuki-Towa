@@ -67,8 +67,8 @@ c201 '[textdict[2106058]]'
 hide p20
 show sc012_01 2 as p20 at l(-16), dark, zorder 6
 c25403 '[textdict[2106059]]'
-play sfx2 "other_7007.ogg"
 hide p20
+play sfx2 "other_7007.ogg"
 c0 '[textdict[2106060]]'
 show oc002_01 12 as p2 at l_midback(-3), light, zorder 6
 c21 '[textdict[2106061]]'

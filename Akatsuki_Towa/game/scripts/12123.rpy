@@ -32,8 +32,8 @@ c9591 '[textdict[1128240]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c9591 '[textdict[1128241]]'
-play sfx2 "common_tag_2.ogg"
 hide p1
+play sfx2 "common_tag_2.ogg"
 c0 '[textdict[1128242]]'
 show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1128243]]'

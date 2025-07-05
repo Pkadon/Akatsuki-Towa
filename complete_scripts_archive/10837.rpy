@@ -7,8 +7,8 @@ with fade
 play sfx2 "other_7016.ogg"
 show oc001_01 19 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1187430]]'
-play sfx2 "other_7034.ogg"
 hide p1
+play sfx2 "other_7034.ogg"
 c0 '[textdict[1187431]]'
 play sfx2 "other_7016.ogg"
 show oc003_01 21 as p3 at r(-6), light, zorder 5
