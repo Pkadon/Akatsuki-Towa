@@ -536,8 +536,8 @@ show sc049_01 4 as p56 at l(-8), dark, zorder 6
 show oc002_01 20 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[2105058]]'
 play sfx2 "other_7047.ogg"
-hide p2
 hide p56
+hide p2
 c5003 '[textdict[2105059]]'
 show sc038_01 1 as p45 at r_entrance(-1), light, zorder 5
 c453 '[textdict[2105060]]'

@@ -614,7 +614,6 @@ c26663 '[textdict[2113381]]'
 scene avg_bg_070
 with fade
 play sfx2 "fight_6018.ogg"
-hide p2666
 c0 '[textdict[2113382]]'
 scene avg_bg_036
 with fade
@@ -636,7 +635,6 @@ show oce02_01 4 as p2666 at mid(-3), light, zorder 5
 c26663 '[textdict[2113388]]'
 scene avg_bg_520
 with fade
-hide p2666
 c0 '[textdict[2113389]]'
 c26663 '[textdict[2113390]]'
 c26663 '[textdict[2113391]]'

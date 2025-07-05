@@ -142,8 +142,8 @@ show sc038_01 4 as p45 at r(-1), dark, zorder 5
 show sc041_01 4 as p48 at l(-9), light, zorder 5
 c481 '[textdict[2111973]]'
 stop music
-hide p45
 hide p48
+hide p45
 c5003 '[textdict[2111974]]' (what_size=(gui.text_size*1.25)) with shake
 stop music
 show sc038_01 2 as p45 at r(-1), light, zorder 5

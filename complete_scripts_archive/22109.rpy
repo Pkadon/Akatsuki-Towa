@@ -70,12 +70,10 @@ show oc003_01 4 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1128082]]'
 scene avg_bg_070
 with fade
-hide p3
 show oc002_01 19 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1128083]]'
 scene placeholderbackground
 with fade
-hide p2
 show oc003_01 8 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1128084]]'
 hide p3

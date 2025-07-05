@@ -200,6 +200,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				newscene = True
 				#this might be dumb.  hoping it's a quick fix
 				state_dict['l'] = None
+				state_dict['mid'] = None
 				state_dict['r'] = None
 			#check for memory overlay
 			if len(memory_schedule) > 0:
@@ -218,12 +219,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if state_dict['l']:
 					f.write(f"hide {state_dict['l']['alias']}\n")
 					state_dict['l'] = None
-				if state_dict['r']:
-					f.write(f"hide {state_dict['r']['alias']}\n")
-					state_dict['r'] = None
 				if state_dict['mid']:
 					f.write(f"hide {state_dict['mid']['alias']}\n")
 					state_dict['mid'] = None
+				if state_dict['r']:
+					f.write(f"hide {state_dict['r']['alias']}\n")
+					state_dict['r'] = None
 				
 			#check for sfx
 			if sfxID != 0:
@@ -255,12 +256,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if state_dict['l']:
 					f.write(f"hide {state_dict['l']['alias']}\n")
 					state_dict['l'] = None
-				if state_dict['r']:
-					f.write(f"hide {state_dict['r']['alias']}\n")
-					state_dict['r'] = None
 				if state_dict['mid']:
 					f.write(f"hide {state_dict['mid']['alias']}\n")
 					state_dict['mid'] = None
+				if state_dict['r']:
+					f.write(f"hide {state_dict['r']['alias']}\n")
+					state_dict['r'] = None
 			
 			#figure out if a portrait needs to be displayed 
 			if charID == 0:
@@ -278,12 +279,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			elif charPos in [2, 0]: 
 				portraitpos = 'mid'
 				darkpos = None
-				if state_dict['r']:
-					f.write(f"hide {state_dict['r']['alias'] }\n")
-					state_dict['r'] = None
 				if state_dict['l']:
 					f.write(f"hide {state_dict['l']['alias'] }\n")
 					state_dict['l'] = None	
+				if state_dict['r']:
+					f.write(f"hide {state_dict['r']['alias'] }\n")
+					state_dict['r'] = None
 
 			if state_dict[portraitpos]:
 				f.write(f"hide {state_dict[portraitpos]['alias']}\n")

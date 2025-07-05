@@ -381,7 +381,6 @@ stop music
 scene avg_bg_032
 hide memoryoverlay
 with fade
-hide p2668
 show oce04_01 2 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112865]]'
 play music "ed7124.ogg"
@@ -399,7 +398,6 @@ stop music
 scene avg_bg_032
 hide memoryoverlay
 with fade
-hide p2668
 show oce04_01 7 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112870]]'
 stop music
@@ -427,7 +425,6 @@ stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7074.ogg"
-hide p2668
 c26683 '[textdict[2112877]]'
 stop music
 scene avg_bg_032
@@ -448,7 +445,6 @@ show oce04_01 1 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112881]]'
 scene avg_bg_070
 with fade
-hide p2668
 c0 '[textdict[2112882]]'
 c0 '[textdict[2112883]]'
 scene avg_bg_032

@@ -174,7 +174,6 @@ c26653 '[textdict[2113435]]'
 stop music
 scene avg_bg_520
 with fade
-hide p2665
 c0 '[textdict[2113436]]'
 stop music
 c0 '[textdict[2113437]]'
