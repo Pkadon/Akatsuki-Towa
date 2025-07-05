@@ -5,7 +5,7 @@ play music "ed7571.ogg"
 scene avg_bg_077
 with fade
 play sfx2 "other_7007.ogg"
-show oc008_01 3 as p8 at l(-5), light, zorder 5
+show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171150]]'
 hide p8
 show oc008_01 3 as p8 at l(-5), dark, zorder 6
@@ -14,7 +14,7 @@ c13 '[textdict[1171151]]'
 hide p8
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
-show st061_01 4 as p1304 at l(-2), light, zorder 5
+show st061_01 4 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1171152]]'
 hide p1
 hide p1304
@@ -24,22 +24,22 @@ c13 '[textdict[1171153]]'
 hide p1304
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc008_01 3 as p8 at l(-5), light, zorder 5
+show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171154]]'
 hide p8
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc008_01 3 as p8 at l(-5), light, zorder 5
+show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171155]]'
 hide p8
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 5
+show oc008_01 4 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171156]]'
 hide p8
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc008_01 3 as p8 at l(-5), light, zorder 5
+show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171157]]'
 hide p1
 hide p8
@@ -54,7 +54,7 @@ c13 '[textdict[1171159]]'
 hide p8
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show oc008_01 2 as p8 at l(-5), light, zorder 5
+show oc008_01 2 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171160]]'
 stop music
 play sfx2 "fight_6009.ogg"
@@ -62,7 +62,7 @@ hide p8
 hide p1
 c0 '[textdict[1171161]]'
 stop music
-show oc008_01 3 as p8 at l(-5), light, zorder 5
+show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171162]]'
 stop music
 hide p8
@@ -84,7 +84,7 @@ c5001 '[textdict[1171166]]'
 play sfx2 "other_7020.ogg"
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
-show st061_01 2 as p1304 at l(-2), light, zorder 5
+show st061_01 2 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1171167]]'
 hide p1
 hide p1304
@@ -98,7 +98,7 @@ show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1171170]]'
 hide p1304
 show st061_01 2 as p1304 at r(-2), dark, zorder 5
-show st056_01 4 as p1349 at l_entrance(-6), light, zorder 5
+show st056_01 4 as p1349 at l_entrance(-6), light, zorder 6
 c13491 '[textdict[1171171]]'
 hide p1304
 hide p1349
@@ -118,17 +118,17 @@ c13 '[textdict[1171174]]'
 hide p1349
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show st056_01 4 as p1349 at l(-6), light, zorder 5
+show st056_01 4 as p1349 at l(-6), light, zorder 6
 c13491 '[textdict[1171175]]'
 hide p1349
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show st056_01 4 as p1349 at l(-6), light, zorder 5
+show st056_01 4 as p1349 at l(-6), light, zorder 6
 c13491 '[textdict[1171176]]'
 hide p1349
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show st056_01 1 as p1349 at l(-6), light, zorder 5
+show st056_01 1 as p1349 at l(-6), light, zorder 6
 c13491 '[textdict[1171177]]'
 hide p1349
 hide p1

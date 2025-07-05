@@ -9,12 +9,12 @@ show oc002_01 23 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1166646]]'
 hide p2
 show oc002_01 23 as p2 at r(-3), dark, zorder 5
-show oc004_01 17 as p4 at l(-5), light, zorder 5
+show oc004_01 17 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1166647]]'
 hide p4
 hide p2
 show oc002_01 23 as p2 at r(-3), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1166648]]'
 play sfx2 "fight_6021.ogg"
 hide p2
@@ -44,7 +44,7 @@ show oc001_01 20 as p1 at r(-2), dark, zorder 5
 c13671 '[textdict[1166654]]'
 hide p1
 c0 '[textdict[1166655]]'
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1166656]]'
 play sfx2 "fight_6024.ogg"
 hide p4

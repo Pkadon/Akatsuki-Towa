@@ -15,7 +15,7 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c14521 '[textdict[1174605]]' with shake
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 2 as p2 at l(-3), light, zorder 5
+show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1174606]]'
 hide p1
 hide p2
@@ -25,7 +25,7 @@ c13 '[textdict[1174607]]'
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 14 as p2 at l(-3), light, zorder 5
+show oc002_01 14 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1174608]]'
 play sfx2 "fight_6002.ogg"
 hide p1
@@ -37,7 +37,7 @@ play sfx2 "fight_6025.ogg"
 hide p2
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1174610]]'
 play sfx2 "fight_6024.ogg"
 hide p1304
@@ -48,6 +48,6 @@ c13 '[textdict[1174611]]'
 hide p3
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
-show oc002_01 9 as p2 at l(-3), light, zorder 5
+show oc002_01 9 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1174612]]'
 return

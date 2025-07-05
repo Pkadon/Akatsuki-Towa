@@ -268,7 +268,7 @@ c26683 '[textdict[1190857]]'
 play sfx2 "other_7044.ogg"
 hide p2668
 show oce04_01 1 as p2668 at r(-5), dark, zorder 5
-show st062_01 1 as p1308 at l_entrance(-16), light, zorder 5
+show st062_01 1 as p1308 at l_entrance(-16), light, zorder 6
 c13081 '[textdict[1190858]]'
 hide p2668
 hide p1308
@@ -278,7 +278,7 @@ c26683 '[textdict[1190859]]'
 hide p1308
 hide p2668
 show oce04_01 2 as p2668 at r(-5), dark, zorder 5
-show st062_01 4 as p1308 at l(-16), light, zorder 5
+show st062_01 4 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1190860]]'
 hide p2668
 hide p1308
@@ -288,7 +288,7 @@ c26683 '[textdict[1190861]]'
 hide p1308
 hide p2668
 show oce04_01 2 as p2668 at r(-5), dark, zorder 5
-show st062_01 4 as p1308 at l(-16), light, zorder 5
+show st062_01 4 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1190862]]'
 hide p2668
 hide p1308
@@ -298,7 +298,7 @@ c26683 '[textdict[1190863]]'
 hide p1308
 hide p2668
 show oce04_01 1 as p2668 at r(-5), dark, zorder 5
-show st062_01 1 as p1308 at l(-16), light, zorder 5
+show st062_01 1 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1190864]]'
 hide p2668
 hide p1308

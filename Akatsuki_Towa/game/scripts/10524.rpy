@@ -42,7 +42,7 @@ show oc004_01 4 as p4 at r(-5), dark, zorder 5
 c12301 '[textdict[1152121]]'
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show oc002_01 6 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 6 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1152122]]'
 hide p4
 hide p2

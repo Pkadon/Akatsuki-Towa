@@ -57,7 +57,7 @@ c2323 '[textdict[1130141]]'
 hide p232
 play music "ed7101.ogg"
 play sfxvoice "avg_vocal_ro08.ogg"
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1130142]]'
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6

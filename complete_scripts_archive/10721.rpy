@@ -4,7 +4,7 @@ stop music
 play music "ed7564.ogg"
 scene avg_bg_077
 with fade
-show st061_01 4 as p1304 at l_entrance(-2), light, zorder 5
+show st061_01 4 as p1304 at l_entrance(-2), light, zorder 6
 c13041 '[textdict[1171121]]'
 hide p1304
 show st061_01 4 as p1304 at l(-2), dark, zorder 6
@@ -13,7 +13,7 @@ c13 '[textdict[1171122]]'
 hide p1304
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st061_01 2 as p1304 at l(-2), light, zorder 5
+show st061_01 2 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1171123]]'
 hide p1
 hide p1304
@@ -35,7 +35,7 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1171130]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc008_01 1 as p8 at l_entrance(-5), light, zorder 5
+show oc008_01 1 as p8 at l_entrance(-5), light, zorder 6
 c81 '[textdict[1171131]]'
 hide p1
 hide p8
@@ -55,12 +55,12 @@ show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171136]]'
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show oc008_01 5 as p8 at l(-5), light, zorder 5
+show oc008_01 5 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171137]]'
 hide p8
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 5
+show oc008_01 1 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171138]]'
 hide p1
 hide p8
@@ -70,29 +70,29 @@ c13 '[textdict[1171139]]'
 hide p8
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 5
+show oc008_01 4 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171140]]'
 hide p8
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 5
+show oc008_01 1 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171141]]'
 hide p8
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 5
+show oc008_01 1 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171142]]'
 play music "ed7511.ogg"
 play sfx2 "fight_6024.ogg"
 hide p8
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 5
+show oc008_01 4 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171143]]'
 hide p8
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 5
+show oc008_01 4 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171144]]'
 hide p1
 hide p8
@@ -102,12 +102,12 @@ c13043 '[textdict[1171145]]'
 hide p8
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 5
+show oc008_01 1 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171146]]'
 hide p8
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
-show oc008_01 5 as p8 at l(-5), light, zorder 5
+show oc008_01 5 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171147]]'
 play sfx2 "fight_6024.ogg"
 hide p1304

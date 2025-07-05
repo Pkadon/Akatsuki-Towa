@@ -6,11 +6,11 @@ scene avg_bg_019
 with fade
 c0 '[textdict[1143255]]'
 play sfxvoice "avg_vocal_ch31.ogg"
-show oc002_01 17 as p2 at l(-3), light, zorder 5
+show oc002_01 17 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143256]]'
 play sfxvoice "avg_vocal_ch21.ogg"
 hide p2
-show oc002_01 21 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 21 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1143257]]'
 hide p2
 show oc002_01 21 as p2 at l(-3), dark, zorder 6
@@ -29,7 +29,7 @@ c13 '[textdict[1143260]]'
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1143261]]'
 hide p3
 hide p1
@@ -62,12 +62,12 @@ show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1143272]]'
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show oc002_01 18 as p2 at l(-3), light, zorder 5
+show oc002_01 18 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143273]]'
 hide p2
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143274]]'
 play sfxvoice "avg_vocal_na04_b.ogg"
 hide p1
@@ -80,7 +80,7 @@ hide p1
 c0 '[textdict[1143276]]'
 play sfx2 "other_7033.ogg"
 c0 '[textdict[1143277]]'
-show oc003_01 12 as p3 at l(-6), l_shake, light, zorder 5
+show oc003_01 12 as p3 at l(-6), l_shake, light, zorder 6
 c31 '[textdict[1143278]]'
 hide p3
 show oc003_01 12 as p3 at l(-6), dark, zorder 6
@@ -100,7 +100,7 @@ show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c11511 '[textdict[1143282]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l_entrance(-6), light, zorder 5
+show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1143283]]'
 hide p1
 hide p3
@@ -110,11 +110,11 @@ c13 '[textdict[1143284]]'
 hide p3
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1143285]]'
 hide p3
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143286]]'
 return

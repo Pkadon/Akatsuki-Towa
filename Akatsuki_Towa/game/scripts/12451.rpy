@@ -9,7 +9,7 @@ c0 '[textdict[1143363]]'
 c0 '[textdict[1143364]]'
 c0 '[textdict[1143365]]'
 c0 '[textdict[1143366]]'
-show oc002_01 8 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1143367]]'
 hide p2
 show oc002_01 8 as p2 at l(-3), dark, zorder 6
@@ -19,7 +19,7 @@ play sfxvoice "avg_vocal_ro19.ogg"
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1143369]]'
 hide p3
 hide p1

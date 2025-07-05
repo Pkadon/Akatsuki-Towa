@@ -51,10 +51,10 @@ c12403 '[textdict[1153848]]'
 play music "ed7564.ogg"
 with fade
 c0 '[textdict[1153849]]'
-show st060_01 2 as p1265 at l_entrance(-5), light, zorder 5
+show st060_01 2 as p1265 at l_entrance(-5), light, zorder 6
 c12651 '[textdict[1153850]]'
 hide p1265
-show st060_01 2 as p1265 at l(-5), light, zorder 5
+show st060_01 2 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153851]]'
 hide p1265
 show st060_01 2 as p1265 at l(-5), dark, zorder 6
@@ -103,12 +103,12 @@ c13 '[textdict[1153860]]'
 hide p1265
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show st060_01 4 as p1265 at l(-5), light, zorder 5
+show st060_01 4 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153861]]'
 hide p1265
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show st060_01 2 as p1265 at l(-5), light, zorder 5
+show st060_01 2 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153862]]'
 hide p1
 hide p1265
@@ -129,12 +129,12 @@ play sfxvoice "avg_vocal_ai07.ogg"
 hide p1265
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show st060_01 6 as p1265 at l(-5), light, zorder 5
+show st060_01 6 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153866]]'
 hide p1265
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show st060_01 6 as p1265 at l(-5), light, zorder 5
+show st060_01 6 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153867]]'
 hide p1
 hide p1265
@@ -164,7 +164,7 @@ c13 '[textdict[1153872]]'
 hide p1265
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show st060_01 6 as p1265 at l(-5), light, zorder 5
+show st060_01 6 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153873]]'
 play sfxvoice "avg_vocal_li11.ogg"
 hide p1
@@ -190,17 +190,17 @@ c13 '[textdict[1153877]]'
 hide p1265
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc002_01 15 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 15 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1153878]]'
 hide p2
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show st060_01 2 as p1265 at l_entrance(-5), light, zorder 5
+show st060_01 2 as p1265 at l_entrance(-5), light, zorder 6
 c12651 '[textdict[1153879]]'
 hide p1265
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show st060_01 4 as p1265 at l(-5), light, zorder 5
+show st060_01 4 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153880]]'
 play sfxvoice "avg_vocal_ch10.ogg"
 hide p1
@@ -216,7 +216,7 @@ c23 '[textdict[1153882]]'
 hide p1265
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
-show st060_01 2 as p1265 at l(-5), light, zorder 5
+show st060_01 2 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153883]]'
 hide p2
 hide p1265
@@ -226,7 +226,7 @@ c13 '[textdict[1153884]]'
 hide p1265
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l_entrance(-6), light, zorder 5
+show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1153885]]'
 hide p1
 hide p3
@@ -246,7 +246,7 @@ c13 '[textdict[1153888]]'
 hide p3
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1153889]]'
 hide p1
 hide p3
@@ -260,22 +260,22 @@ with fade
 c23 '[textdict[1153891]]'
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
-show st060_01 6 as p1265 at l(-5), light, zorder 5
+show st060_01 6 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153892]]'
 hide p1265
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
-show st060_01 2 as p1265 at l(-5), light, zorder 5
+show st060_01 2 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153893]]'
 hide p1265
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
-show st060_01 1 as p1265 at l(-5), light, zorder 5
+show st060_01 1 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153894]]'
 hide p1265
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
-show st060_01 4 as p1265 at l(-5), light, zorder 5
+show st060_01 4 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153895]]'
 play music "ed7511.ogg"
 hide p2
@@ -297,6 +297,6 @@ play sfx2 "other_7088.ogg"
 hide p1265
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show oc008_01 6 as p1265 at l(-5), light, zorder 5
+show oc008_01 6 as p1265 at l(-5), light, zorder 6
 c12651 '[textdict[1153899]]'
 return

@@ -76,7 +76,7 @@ show oc002_01 17 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1171324]]'
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
-show oc005_01 2 as p5 at l(-6), light, zorder 5
+show oc005_01 2 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1171325]]'
 hide p2
 hide p5

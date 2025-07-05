@@ -99,7 +99,7 @@ c13 '[textdict[2111196]]'
 play music "ed7566.ogg"
 scene avg_bg_026
 with fade
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111197]]'
 hide p51
 show sc044_01 4 as p51 at l(-7), dark, zorder 6
@@ -108,7 +108,7 @@ c13 '[textdict[2111198]]'
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 1 as p51 at l(-7), light, zorder 5
+show sc044_01 1 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111199]]'
 hide p1
 hide p51
@@ -118,17 +118,17 @@ c13 '[textdict[2111200]]'
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111201]]'
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111202]]'
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111203]]'
 hide p1
 hide p51
@@ -138,7 +138,7 @@ c13 '[textdict[2111204]]'
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 2 as p51 at l(-7), light, zorder 5
+show sc044_01 2 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111205]]'
 hide p1
 hide p51
@@ -148,7 +148,7 @@ c13 '[textdict[2111206]]'
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111207]]'
 hide p1
 hide p51
@@ -159,7 +159,7 @@ stop music
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111209]]'
 stop music
 hide p1
@@ -171,7 +171,7 @@ play music "ed7452.ogg"
 hide p51
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l_midback(-7), light, zorder 5
+show sc044_01 4 as p51 at l_midback(-7), light, zorder 6
 c511 '[textdict[2111211]]' (what_size=(gui.text_size*1.25))
 hide p1
 hide p51
@@ -181,13 +181,13 @@ c13 '[textdict[2111212]]' (what_size=(gui.text_size*1.25))
 play music "ed7561.ogg"
 scene avg_bg_011
 with fade
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111213]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111214]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111215]]'
 hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
@@ -202,10 +202,10 @@ hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
 c27243 '[textdict[2111219]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111220]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111221]]'
 hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
@@ -229,7 +229,7 @@ hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
 c27253 '[textdict[2111228]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111229]]'
 hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
@@ -238,7 +238,7 @@ hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
 c27253 '[textdict[2111231]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111232]]'
 hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
@@ -268,32 +268,32 @@ hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
 c27243 '[textdict[2111241]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111242]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111243]]'
 hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
 c27263 '[textdict[2111244]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111245]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111246]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111247]]'
 hide p2707
 show st020_01 4 as p2707 at l(-8), dark, zorder 6
 c27263 '[textdict[2111248]]'
 hide p2707
-show st020_01 4 as p2707 at l(-8), light, zorder 5
+show st020_01 4 as p2707 at l(-8), light, zorder 6
 c27071 '[textdict[2111249]]'
 scene avg_bg_023
 with fade
-show oca02_01 22 as p2708 at l(-3), light, zorder 5
+show oca02_01 22 as p2708 at l(-3), light, zorder 6
 c27081 '[textdict[2111250]]'
 hide p2708
 c0 '[textdict[2111251]]'

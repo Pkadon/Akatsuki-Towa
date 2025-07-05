@@ -4,7 +4,7 @@ stop music
 stop music
 scene placeholderbackground
 with fade
-show sc009_01 4 as p17 at l(-13), light, zorder 5
+show sc009_01 4 as p17 at l(-13), light, zorder 6
 c171 '[textdict[1221942]]'
 stop music
 hide p17

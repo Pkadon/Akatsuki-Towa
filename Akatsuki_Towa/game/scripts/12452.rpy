@@ -26,7 +26,7 @@ show sc011_01 4 as p19 at r(-1), r_shake, light, zorder 5
 c193 '[textdict[1143421]]'
 hide p19
 show sc011_01 4 as p19 at r(-1), dark, zorder 5
-show sc012_01 2 as p20 at l(-16), light, zorder 5
+show sc012_01 2 as p20 at l(-16), light, zorder 6
 c201 '[textdict[1143422]]'
 hide p19
 hide p20
@@ -39,7 +39,7 @@ c193 '[textdict[1143424]]'
 hide p20
 hide p19
 show sc011_01 4 as p19 at r(-1), dark, zorder 5
-show sc012_01 3 as p20 at l(-16), light, zorder 5
+show sc012_01 3 as p20 at l(-16), light, zorder 6
 c201 '[textdict[1143425]]'
 hide p20
 hide p19
@@ -52,7 +52,7 @@ with fade
 c193 '[textdict[1143427]]'
 hide p19
 show sc011_01 4 as p19 at r(-1), dark, zorder 5
-show sc012_01 5 as p20 at l(-16), light, zorder 5
+show sc012_01 5 as p20 at l(-16), light, zorder 6
 c201 '[textdict[1143428]]'
 hide p19
 hide p20
@@ -62,12 +62,12 @@ c193 '[textdict[1143429]]'
 hide p20
 hide p19
 show sc011_01 4 as p19 at r(-1), dark, zorder 5
-show sc012_01 1 as p20 at l(-16), light, zorder 5
+show sc012_01 1 as p20 at l(-16), light, zorder 6
 c201 '[textdict[1143430]]'
 hide p20
 hide p19
 show sc011_01 4 as p19 at r(-1), dark, zorder 5
-show sc012_01 4 as p20 at l(-16), light, zorder 5
+show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[1143431]]'
 hide p19
 hide p20
@@ -77,7 +77,7 @@ c193 '[textdict[1143432]]'
 hide p20
 hide p19
 show sc011_01 1 as p19 at r(-1), dark, zorder 5
-show sc012_01 5 as p20 at l(-16), light, zorder 5
+show sc012_01 5 as p20 at l(-16), light, zorder 6
 c201 '[textdict[1143433]]'
 hide p19
 hide p20
@@ -170,7 +170,7 @@ c0 '[textdict[1143468]]'
 show memoryoverlay zorder 2
 c43 '[textdict[1143469]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143470]]'
 show memoryoverlay zorder 2
 hide p1172
@@ -178,7 +178,7 @@ show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143471]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143472]]'
 show memoryoverlay zorder 2
 hide p1172
@@ -186,29 +186,29 @@ show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143473]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143474]]'
 show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143475]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143476]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143477]]'
 show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143478]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143479]]'
 show memoryoverlay zorder 2
 hide p1172
 c0 '[textdict[1143480]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143481]]'
 show memoryoverlay zorder 2
 hide p1172
@@ -216,7 +216,7 @@ c11601 '[textdict[1143482]]'
 show memoryoverlay zorder 2
 c11601 '[textdict[1143483]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143484]]'
 scene avg_bg_048
 show memoryoverlay zorder 2
@@ -231,17 +231,17 @@ c11601 '[textdict[1143488]]'
 show memoryoverlay zorder 2
 c43 '[textdict[1143489]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143490]]'
 show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143491]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143492]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143493]]'
 show memoryoverlay zorder 2
 hide p1172

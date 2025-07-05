@@ -6,7 +6,7 @@ scene avg_bg_071
 with fade
 c0 '[textdict[1202446]]'
 play sfx2 "fight_6010.ogg"
-show oc002_01 20 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 20 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1202447]]'
 play sfx2 "elc_5005.ogg"
 hide p2
@@ -52,12 +52,12 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1202488]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1202489]]'
 hide p2
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show oc002_01 21 as p2 at l(-3), light, zorder 5
+show oc002_01 21 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1202490]]'
 hide p1
 hide p2

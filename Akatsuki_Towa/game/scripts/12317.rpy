@@ -84,6 +84,6 @@ show oc003_01 9 as p3 at r(-6), r_shake, light, zorder 5
 c33 '[textdict[1133323]]'
 hide p3
 show oc003_01 9 as p3 at r(-6), dark, zorder 5
-show sc051_01 4 as p58 at l(-32), light, zorder 5
+show sc051_01 4 as p58 at l(-32), light, zorder 6
 c581 '[textdict[1133324]]'
 return

@@ -70,7 +70,7 @@ c473 '[textdict[2112310]]'
 scene avg_bg_038
 with fade
 play sfx2 "other_7088.ogg"
-show sc038_01 1 as p45 at l(-1), light, zorder 5
+show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112311]]'
 hide p45
 show sc038_01 1 as p45 at l(-1), dark, zorder 6
@@ -84,7 +84,7 @@ c473 '[textdict[2112313]]'
 hide p45
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 5 as p45 at l(-1), light, zorder 5
+show sc038_01 5 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112314]]'
 hide p47
 hide p45
@@ -95,7 +95,7 @@ play sfx2 "other_7004.ogg"
 hide p45
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, zorder 5
+show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112316]]'
 hide p47
 hide p45
@@ -110,7 +110,7 @@ c473 '[textdict[2112318]]'
 hide p45
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, zorder 5
+show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112319]]'
 play sfx2 "other_7004.ogg"
 hide p45
@@ -120,7 +120,7 @@ show sc040_01 2 as p47 at r(-9), r_shake, light, zorder 5
 c473 '[textdict[2112321]]'
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 5 as p45 at l(-1), light, zorder 5
+show sc038_01 5 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112322]]'
 hide p47
 hide p45
@@ -130,7 +130,7 @@ c473 '[textdict[2112323]]'
 hide p45
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, zorder 5
+show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112324]]'
 hide p47
 hide p45
@@ -140,12 +140,12 @@ c473 '[textdict[2112325]]'
 hide p45
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 5 as p45 at l(-1), light, zorder 5
+show sc038_01 5 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112326]]'
 hide p45
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, zorder 5
+show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112327]]'
 hide p47
 hide p45
@@ -160,7 +160,7 @@ c473 '[textdict[2112329]]'
 hide p45
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 2 as p45 at l(-1), light, zorder 5
+show sc038_01 2 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112330]]'
 hide p47
 hide p45
@@ -175,12 +175,12 @@ c473 '[textdict[2112332]]'
 hide p45
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show sc038_01 2 as p45 at l(-1), light, zorder 5
+show sc038_01 2 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112333]]'
 hide p45
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show sc038_01 6 as p45 at l(-1), light, zorder 5
+show sc038_01 6 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112334]]'
 scene avg_bg_019
 with fade

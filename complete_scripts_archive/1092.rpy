@@ -9,7 +9,7 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102004]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc052_01 2 as p59 at l_entrance(-25), light, zorder 5
+show sc052_01 2 as p59 at l_entrance(-25), light, zorder 6
 c591 '[textdict[2102005]]'
 hide p1
 hide p59
@@ -20,7 +20,7 @@ play sfx2 "fight_6019.ogg"
 hide p59
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
-show sc052_01 4 as p59 at l(-25), light, zorder 5
+show sc052_01 4 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102007]]' (what_size=(gui.text_size*1.3)) with shake
 hide p59
 hide p1
@@ -29,12 +29,12 @@ show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102009]]'
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show sc052_01 4 as p59 at l(-25), light, zorder 5
+show sc052_01 4 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102010]]'
 hide p59
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show sc052_01 4 as p59 at l(-25), light, zorder 5
+show sc052_01 4 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102011]]'
 hide p1
 hide p59
@@ -49,24 +49,24 @@ c13 '[textdict[2102013]]'
 hide p59
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc052_01 4 as p59 at l(-25), light, zorder 5
+show sc052_01 4 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102014]]'
 hide p59
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc052_01 1 as p59 at l(-25), light, zorder 5
+show sc052_01 1 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102015]]'
 hide p59
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc052_01 1 as p59 at l(-25), light, zorder 5
+show sc052_01 1 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102016]]'
 hide p1
 hide p59
 show sc052_01 1 as p59 at l(-25), dark, zorder 6
 c6903 '[textdict[2102017]]'
 hide p59
-show sc052_01 5 as p59 at l(-25), light, zorder 5
+show sc052_01 5 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102018]]'
 hide p59
 show sc052_01 5 as p59 at l(-25), dark, zorder 6
@@ -75,7 +75,7 @@ c13 '[textdict[2102019]]'
 hide p59
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc052_01 5 as p59 at l(-25), light, zorder 5
+show sc052_01 5 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102020]]'
 hide p59
 hide p1
@@ -96,12 +96,12 @@ show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102026]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc052_01 1 as p59 at l(-25), light, zorder 5
+show sc052_01 1 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102027]]'
 hide p59
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc052_01 1 as p59 at l(-25), light, zorder 5
+show sc052_01 1 as p59 at l(-25), light, zorder 6
 c591 '[textdict[2102028]]'
 hide p1
 hide p59
@@ -114,7 +114,7 @@ c13 '[textdict[2102030]]'
 hide p59
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc052_01 5 as p59 at l_exit(-25), light, zorder 5
+show sc052_01 5 as p59 at l_exit(-25), light, zorder 6
 c591 '[textdict[2102031]]'
 hide p59
 hide p1

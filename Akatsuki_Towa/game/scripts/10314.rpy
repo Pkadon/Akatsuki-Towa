@@ -5,7 +5,7 @@ play music "ed7105.ogg"
 scene avg_bg_022
 with fade
 play sfx2 "common_cancel.ogg"
-show oc001_01 8 as p1 at l(-2), light, zorder 5
+show oc001_01 8 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1130319]]'
 hide p1
 show oc001_01 8 as p1 at l(-2), dark, zorder 6

@@ -15,7 +15,7 @@ show st026_01 2 as p225 at r(-14), light, zorder 5
 c2253 '[textdict[1128670]]'
 hide p225
 show st026_01 2 as p225 at r(-14), dark, zorder 5
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1128671]]'
 play sfxvoice "avg_vocal_na05.ogg"
 hide p225
@@ -31,7 +31,7 @@ c2253 '[textdict[1128673]]'
 hide p2
 hide p225
 show st026_01 4 as p225 at r(-14), dark, zorder 5
-show sc039_01 2 as p46 at l(-13), light, zorder 5
+show sc039_01 2 as p46 at l(-13), light, zorder 6
 c461 '[textdict[1128674]]'
 hide p225
 hide p46
@@ -42,7 +42,7 @@ play sfxvoice "avg_vocal_na16.ogg"
 hide p46
 hide p225
 show st026_01 4 as p225 at r(-14), dark, zorder 5
-show oc001_01 1 as p1 at l(-2), light, zorder 5
+show oc001_01 1 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1128676]]'
 hide p225
 hide p1

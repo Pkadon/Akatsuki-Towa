@@ -8,7 +8,7 @@ play sfx2 "other_7062.ogg"
 c0 '[textdict[2108307]]'
 play music "ED6102.ogg"
 c0 '[textdict[2108308]]'
-show sc032_01 1 as p40 at l(-17), l_shake, light, zorder 5
+show sc032_01 1 as p40 at l(-17), l_shake, light, zorder 6
 c401 '[textdict[2108309]]'
 hide p40
 show sc032_01 1 as p40 at l(-17), dark, zorder 6
@@ -17,7 +17,7 @@ c383 '[textdict[2108310]]'
 hide p40
 hide p38
 show sc030_01 4 as p38 at r(-12), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108311]]'
 hide p38
 hide p29
@@ -27,7 +27,7 @@ c393 '[textdict[2108312]]'
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108313]]'
 hide p39
 hide p29
@@ -37,7 +37,7 @@ c393 '[textdict[2108314]]'
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108315]]'
 hide p39
 hide p29
@@ -55,7 +55,7 @@ c393 '[textdict[2108318]]'
 show memoryoverlay zorder 2
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108319]]'
 show memoryoverlay zorder 2
 hide p39
@@ -67,7 +67,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108321]]'
 show memoryoverlay zorder 2
 hide p39
@@ -79,7 +79,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108323]]'
 show memoryoverlay zorder 2
 hide p39
@@ -91,7 +91,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108325]]'
 show memoryoverlay zorder 2
 hide p39
@@ -109,67 +109,67 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108328]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108329]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108330]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108331]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108332]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108333]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108334]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108335]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108336]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108337]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108338]]'
 show memoryoverlay zorder 2
 hide p39
@@ -181,7 +181,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108340]]'
 show memoryoverlay zorder 2
 hide p39
@@ -193,7 +193,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108342]]'
 show memoryoverlay zorder 2
 hide p39
@@ -205,7 +205,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108344]]'
 show memoryoverlay zorder 2
 hide p39
@@ -217,7 +217,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 1 as p39 at r(-14), dark, zorder 5
-show sc021_01 5 as p29 at l(-17), light, zorder 5
+show sc021_01 5 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108346]]'
 play music "ed7452.ogg"
 show memoryoverlay zorder 2
@@ -245,7 +245,7 @@ show memoryoverlay zorder 2
 play sfx2 "other_7079.ogg"
 c0 '[textdict[2108351]]'
 show memoryoverlay zorder 2
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108352]]'
 play music "ED6200.ogg"
 show memoryoverlay zorder 2
@@ -257,7 +257,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108354]]'
 show memoryoverlay zorder 2
 hide p39
@@ -269,7 +269,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 5 as p29 at l(-17), light, zorder 5
+show sc021_01 5 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108356]]'
 show memoryoverlay zorder 2
 hide p39
@@ -286,7 +286,7 @@ show sc031_01 3 as p39 at r(-14), light, zorder 5
 c393 '[textdict[2108359]]' with shake
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108360]]'
 hide p39
 hide p29
@@ -304,7 +304,7 @@ c393 '[textdict[2108363]]'
 show memoryoverlay zorder 2
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108364]]'
 show memoryoverlay zorder 2
 hide p39
@@ -316,7 +316,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108366]]'
 show memoryoverlay zorder 2
 hide p39
@@ -328,13 +328,13 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108368]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108369]]'
 show memoryoverlay zorder 2
 hide p39
@@ -346,7 +346,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108371]]'
 show memoryoverlay zorder 2
 hide p39
@@ -358,7 +358,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 1 as p39 at r(-14), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108373]]'
 show memoryoverlay zorder 2
 hide p39
@@ -370,7 +370,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108375]]'
 show memoryoverlay zorder 2
 hide p39
@@ -382,7 +382,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108377]]'
 show memoryoverlay zorder 2
 hide p39
@@ -394,13 +394,13 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108379]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108380]]'
 show memoryoverlay zorder 2
 hide p39
@@ -424,7 +424,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108384]]'
 show memoryoverlay zorder 2
 hide p39
@@ -442,7 +442,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108387]]'
 show memoryoverlay zorder 2
 hide p39
@@ -454,7 +454,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108389]]'
 show memoryoverlay zorder 2
 hide p39
@@ -466,13 +466,13 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108391]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108392]]'
 play music "ed7452.ogg"
 show memoryoverlay zorder 2
@@ -485,7 +485,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108394]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
@@ -507,7 +507,7 @@ c393 '[textdict[2108398]]'
 show memoryoverlay zorder 2
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108399]]'
 show memoryoverlay zorder 2
 hide p39
@@ -519,7 +519,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 5 as p29 at l(-17), light, zorder 5
+show sc021_01 5 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108401]]'
 scene avg_bg_034
 hide memoryoverlay
@@ -530,7 +530,7 @@ show sc031_01 3 as p39 at r(-14), light, zorder 5
 c393 '[textdict[2108403]]' with shake
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108404]]'
 hide p39
 hide p29
@@ -548,7 +548,7 @@ c393 '[textdict[2108407]]'
 show memoryoverlay zorder 2
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108408]]'
 show memoryoverlay zorder 2
 hide p39
@@ -560,13 +560,13 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108410]]'
 show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108411]]'
 show memoryoverlay zorder 2
 hide p39
@@ -587,7 +587,7 @@ c393 '[textdict[2108414]]'
 show memoryoverlay zorder 2
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108415]]'
 show memoryoverlay zorder 2
 hide p39
@@ -599,7 +599,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108417]]'
 show memoryoverlay zorder 2
 hide p39
@@ -611,7 +611,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108419]]'
 show memoryoverlay zorder 2
 hide p39
@@ -623,7 +623,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108421]]'
 show memoryoverlay zorder 2
 hide p39
@@ -641,7 +641,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 4 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108424]]'
 stop music
 show memoryoverlay zorder 2
@@ -660,7 +660,7 @@ c393 '[textdict[2108427]]'
 show memoryoverlay zorder 2
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108428]]'
 show memoryoverlay zorder 2
 hide p39
@@ -672,7 +672,7 @@ show memoryoverlay zorder 2
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 5
+show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108430]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
@@ -695,7 +695,7 @@ c393 '[textdict[2108434]]'
 stop music
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108435]]'
 stop music
 hide p39
@@ -713,7 +713,7 @@ play music "ed7514.ogg"
 hide p29
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108438]]'
 hide p39
 hide p29
@@ -723,7 +723,7 @@ c393 '[textdict[2108439]]'
 hide p29
 hide p39
 show sc031_01 5 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108440]]'
 hide p39
 hide p29
@@ -743,7 +743,7 @@ c393 '[textdict[2108443]]'
 hide p29
 hide p39
 show sc031_01 5 as p39 at r(-14), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108444]]'
 hide p39
 hide p29
@@ -753,7 +753,7 @@ c393 '[textdict[2108445]]'
 hide p29
 hide p39
 show sc031_01 1 as p39 at r(-14), dark, zorder 5
-show sc021_01 5 as p29 at l(-17), light, zorder 5
+show sc021_01 5 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108446]]'
 hide p39
 hide p29
@@ -763,7 +763,7 @@ c393 '[textdict[2108447]]'
 hide p29
 hide p39
 show sc031_01 1 as p39 at r(-14), dark, zorder 5
-show sc032_01 2 as p40 at l(-17), light, zorder 5
+show sc032_01 2 as p40 at l(-17), light, zorder 6
 c401 '[textdict[2108448]]'
 hide p39
 hide p40
@@ -773,12 +773,12 @@ c383 '[textdict[2108449]]'
 hide p40
 hide p38
 show sc030_01 2 as p38 at r(-12), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108450]]'
 hide p29
 hide p38
 show sc030_01 2 as p38 at r(-12), dark, zorder 5
-show sc021_01 1 as p29 at l(-17), light, zorder 5
+show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108451]]'
 hide p38
 hide p29
@@ -804,7 +804,7 @@ play sfx2 "other_7050.ogg"
 hide p39
 c0 '[textdict[2108457]]'
 stop music
-show sc032_01 2 as p40 at l(-17), light, zorder 5
+show sc032_01 2 as p40 at l(-17), light, zorder 6
 c401 '[textdict[2108458]]'
 stop music
 hide p40
@@ -816,7 +816,7 @@ play sfx2 "other_7061.ogg"
 hide p40
 hide p38
 show sc030_01 2 as p38 at r(-12), dark, zorder 5
-show st050_01 2 as p257 at l(-11), l_shake, light, zorder 5
+show st050_01 2 as p257 at l(-11), l_shake, light, zorder 6
 c2571 '[textdict[2108460]]'
 play sfx2 "other_7041.ogg"
 hide p38

@@ -10,7 +10,7 @@ c13 '[textdict[1004862]]'
 play sfx2 "other_7048.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show oc002_01 1 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 1 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1004863]]'
 hide p2
 hide p1
@@ -63,7 +63,7 @@ show sc040_01 2 as p47 at r(-9), light, zorder 5
 c473 '[textdict[1004879]]'
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc039_01 1 as p46 at l(-13), light, zorder 5
+show sc039_01 1 as p46 at l(-13), light, zorder 6
 c461 '[textdict[1004880]]'
 hide p47
 hide p46
@@ -107,7 +107,7 @@ hide p2
 c0 '[textdict[1004893]]'
 c0 '[textdict[1123028]]'
 c6891 '[textdict[1004894]]'
-show sc039_01 5 as p46 at l(-13), light, zorder 5
+show sc039_01 5 as p46 at l(-13), light, zorder 6
 c461 '[textdict[1004895]]'
 hide p46
 show sc039_01 5 as p46 at l(-13), dark, zorder 6
@@ -131,7 +131,7 @@ show oc001_01 2 as p1 at r(-2), dark, zorder 5
 c6891 '[textdict[1004901]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 6 as p2 at l(-3), light, zorder 5
+show oc002_01 6 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1004902]]'
 hide p1
 hide p2

@@ -6,25 +6,25 @@ scene avg_bg_011
 with fade
 c0 '[textdict[1143288]]'
 c0 '[textdict[1143289]]'
-show st020_01 4 as p219 at l_entrance(-8), light, zorder 5
+show st020_01 4 as p219 at l_entrance(-8), light, zorder 6
 c2191 '[textdict[1143290]]'
 hide p219
-show st020_01 4 as p219 at l(-8), light, zorder 5
+show st020_01 4 as p219 at l(-8), light, zorder 6
 c2191 '[textdict[1143291]]'
 scene avg_bg_019
 with fade
 c0 '[textdict[1143292]]'
-show st020_01 4 as p219 at l_entrance(-8), light, zorder 5
+show st020_01 4 as p219 at l_entrance(-8), light, zorder 6
 c2191 '[textdict[1143293]]'
 hide p219
 c0 '[textdict[1143294]]'
-show oc002_01 8 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1143295]]'
 hide p2
-show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1143296]]'
 hide p2
-show oc002_01 14 as p2 at l(-3), light, zorder 5
+show oc002_01 14 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143297]]'
 hide p2
 show oc002_01 14 as p2 at l(-3), dark, zorder 6
@@ -32,14 +32,14 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1143298]]'
 hide p2
 hide p1
-show st020_01 4 as p219 at l(-8), light, zorder 5
+show st020_01 4 as p219 at l(-8), light, zorder 6
 with fade
 c2191 '[textdict[1143299]]'
 hide p219
 c0 '[textdict[1143300]]'
 play music "ed9997.ogg"
 c0 '[textdict[1143301]]'
-show st020_01 4 as p219 at l(-8), l_shake, light, zorder 5
+show st020_01 4 as p219 at l(-8), l_shake, light, zorder 6
 c2191 '[textdict[1143302]]'
 hide p219
 c0 '[textdict[1143303]]'
@@ -54,23 +54,23 @@ c13 '[textdict[1143308]]'
 play sfxvoice "avg_vocal_ch06.ogg"
 hide p1
 show oc001_01 24 as p1 at r(-2), dark, zorder 5
-show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1143309]]'
 play sfxvoice "avg_vocal_ro09.ogg"
 hide p2
 hide p1
 show oc001_01 24 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1143310]]'
 hide p3
 hide p1
 show oc001_01 24 as p1 at r(-2), dark, zorder 5
-show st020_01 4 as p219 at l_entrance(-8), light, zorder 5
+show st020_01 4 as p219 at l_entrance(-8), light, zorder 6
 c2191 '[textdict[1143311]]'
 hide p219
 hide p1
 show oc001_01 24 as p1 at r(-2), dark, zorder 5
-show st020_01 4 as p219 at l(-8), light, zorder 5
+show st020_01 4 as p219 at l(-8), light, zorder 6
 c2191 '[textdict[1143312]]'
 hide p1
 hide p219
@@ -82,7 +82,7 @@ hide p219
 show st020_01 4 as p219 at l(-8), dark, zorder 6
 c11523 '[textdict[1143314]]'
 hide p219
-show st020_01 4 as p219 at l(-8), light, zorder 5
+show st020_01 4 as p219 at l(-8), light, zorder 6
 c2191 '[textdict[1143315]]'
 hide p219
 with fade
@@ -92,7 +92,7 @@ c13 '[textdict[1143317]]'
 play sfxvoice "avg_vocal_ch20.ogg"
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 17 as p2 at l(-3), light, zorder 5
+show oc002_01 17 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143318]]'
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 hide p1
@@ -109,7 +109,7 @@ c13 '[textdict[1143321]]'
 play music "ed7511.ogg"
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show oc003_01 9 as p3 at l(-6), light, zorder 5
+show oc003_01 9 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1143322]]' with shake
 hide p3
 hide p1
@@ -120,12 +120,12 @@ show oc001_01 9 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1143325]]'
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show st020_01 2 as p219 at l(-8), light, zorder 5
+show st020_01 2 as p219 at l(-8), light, zorder 6
 c2191 '[textdict[1143326]]'
 hide p219
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
-show oc002_01 4 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 4 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1143327]]'
 hide p1
 hide p2
@@ -135,6 +135,6 @@ c13 '[textdict[1143328]]'
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 9 as p2 at l(-3), light, zorder 5
+show oc002_01 9 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1143329]]' with shake
 return

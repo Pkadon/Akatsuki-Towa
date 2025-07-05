@@ -4,7 +4,7 @@ stop music
 play music "ed7544.ogg"
 scene avg_bg_003
 with fade
-show oc004_01 21 as p4 at l(-5), light, zorder 5
+show oc004_01 21 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1180056]]'
 hide p4
 show oc004_01 21 as p4 at l(-5), dark, zorder 6
@@ -23,7 +23,7 @@ c13 '[textdict[1180059]]'
 hide p4
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show oc004_01 19 as p4 at l(-5), light, zorder 5
+show oc004_01 19 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1180060]]'
 hide p1
 hide p4
@@ -33,7 +33,7 @@ c33 '[textdict[1180061]]'
 hide p4
 hide p3
 show oc003_01 9 as p3 at r(-6), dark, zorder 5
-show oc004_01 21 as p4 at l(-5), light, zorder 5
+show oc004_01 21 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1180062]]'
 hide p3
 hide p4
@@ -49,13 +49,13 @@ stop music
 hide p4
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
-show oc004_01 13 as p4 at l(-5), light, zorder 5
+show oc004_01 13 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1180065]]' with shake
 stop music
 hide p4
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
-show oc003_01 12 as p3 at l(-6), light, zorder 5
+show oc003_01 12 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1180066]]'
 stop music
 hide p2

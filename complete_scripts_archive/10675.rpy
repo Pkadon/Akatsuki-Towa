@@ -11,7 +11,7 @@ c0 '[textdict[1166210]]'
 scene avg_bg_050
 with fade
 play sfx2 "other_7016.ogg"
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1166211]]'
 play sfx2 "other_7016.ogg"
 hide p4
@@ -22,7 +22,7 @@ play sfx2 "other_7016.ogg"
 hide p4
 hide p3
 show oc003_01 9 as p3 at r(-6), dark, zorder 5
-show oc005_01 7 as p5 at l(-6), light, zorder 5
+show oc005_01 7 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1166213]]'
 play sfx2 "other_7016.ogg"
 hide p3
@@ -34,7 +34,7 @@ play sfx2 "other_7016.ogg"
 hide p5
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
-show oc005_01 4 as p5 at l(-6), light, zorder 5
+show oc005_01 4 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1166215]]'
 play sfx2 "other_7016.ogg"
 hide p3
@@ -46,7 +46,7 @@ play sfx2 "other_7016.ogg"
 hide p5
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
-show sc008_01 4 as p16 at l(-18), light, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 6
 c161 '[textdict[1166217]]'
 play sfx2 "other_7016.ogg"
 hide p2
@@ -58,7 +58,7 @@ play sfx2 "other_7016.ogg"
 hide p16
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc008_01 4 as p16 at l(-18), light, zorder 5
+show sc008_01 4 as p16 at l(-18), light, zorder 6
 c161 '[textdict[1166219]]'
 play sfx2 "other_7016.ogg"
 hide p1
@@ -70,7 +70,7 @@ play sfx2 "other_7016.ogg"
 hide p16
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
-show st040_01 4 as p239 at l_entrance(-19), light, zorder 5
+show st040_01 4 as p239 at l_entrance(-19), light, zorder 6
 c2391 '[textdict[1166221]]'
 play sfx2 "other_7016.ogg"
 hide p1304
@@ -82,7 +82,7 @@ play sfx2 "other_7016.ogg"
 hide p239
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5
-show oc004_01 16 as p4 at l(-5), light, zorder 5
+show oc004_01 16 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1166223]]'
 play sfx2 "other_7016.ogg"
 hide p4

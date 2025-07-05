@@ -77,7 +77,7 @@ c23 '[textdict[2103335]]'
 show memoryoverlay zorder 2
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l_entrance(-8), light, zorder 5
+show sc049_01 1 as p56 at l_entrance(-8), light, zorder 6
 c561 '[textdict[2103336]]'
 show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_ch29.ogg"
@@ -90,7 +90,7 @@ show memoryoverlay zorder 2
 hide p56
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103338]]'
 show memoryoverlay zorder 2
 hide p2
@@ -108,7 +108,7 @@ show memoryoverlay zorder 2
 hide p56
 hide p2
 show oc002_01 22 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103341]]'
 show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_ch07.ogg"
@@ -164,7 +164,7 @@ play music "ed7150.ogg"
 scene avg_bg_023
 with fade
 c0 '[textdict[2103359]]'
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103360]]'
 hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
@@ -173,7 +173,7 @@ c23 '[textdict[2103361]]'
 hide p56
 hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103362]]'
 play sfxvoice "avg_vocal_ch04.ogg"
 hide p2
@@ -189,7 +189,7 @@ c23 '[textdict[2103364]]'
 hide p56
 hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103365]]'
 play sfx2 "other_7047.ogg"
 hide p56
@@ -201,12 +201,12 @@ c13 '[textdict[2103367]]'
 play sfxvoice "avg_vocal_ch11.ogg"
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
-show oc002_01 12 as p2 at l(-3), light, zorder 5
+show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103368]]'
 hide p2
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
-show sc049_01 4 as p56 at l(-8), light, zorder 5
+show sc049_01 4 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2103369]]'
 hide p1
 hide p56
@@ -221,7 +221,7 @@ c13 '[textdict[2103371]]'
 hide p56
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
-show oc002_01 2 as p2 at l(-3), light, zorder 5
+show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103372]]'
 hide p1
 hide p2
@@ -232,7 +232,7 @@ hide p2
 hide p1
 c0 '[textdict[2103374]]'
 play sfxvoice "avg_vocal_ch16.ogg"
-show oc002_01 15 as p2 at l(-3), light, zorder 5
+show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103375]]'
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
@@ -241,7 +241,7 @@ c13 '[textdict[2103376]]'
 hide p2
 hide p1
 show oc001_01 16 as p1 at r(-2), dark, zorder 5
-show oc002_01 15 as p2 at l(-3), light, zorder 5
+show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103377]]'
 hide p1
 hide p2
@@ -256,7 +256,7 @@ c13 '[textdict[2103379]]'
 hide p2
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc049_01 4 as p56 at l_midback(-8), light, zorder 5
+show sc049_01 4 as p56 at l_midback(-8), light, zorder 6
 c561 '[textdict[2103380]]'
 hide p1
 hide p56
@@ -271,7 +271,7 @@ c13 '[textdict[2103382]]'
 hide p56
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 1 as p2 at l(-3), light, zorder 5
+show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103383]]'
 play sfxvoice "avg_vocal_na22.ogg"
 hide p1
@@ -282,7 +282,7 @@ c13 '[textdict[2103384]]'
 hide p2
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show oc002_01 5 as p2 at l(-3), light, zorder 5
+show oc002_01 5 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103385]]'
 hide p1
 hide p2
@@ -292,6 +292,6 @@ c13 '[textdict[2103386]]'
 hide p2
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show oc002_01 13 as p2 at l(-3), light, zorder 5
+show oc002_01 13 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2103387]]'
 return

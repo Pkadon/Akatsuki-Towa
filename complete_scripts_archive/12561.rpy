@@ -4,7 +4,7 @@ stop music
 play music "ED6200.ogg"
 scene avg_bg_080
 with fade
-show oc004_01 6 as p4 at l(-5), light, zorder 5
+show oc004_01 6 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1153132]]'
 hide p4
 show oc004_01 6 as p4 at l(-5), dark, zorder 6
@@ -13,7 +13,7 @@ c13 '[textdict[1153133]]'
 hide p4
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1153134]]'
 hide p1
 hide p3
@@ -28,7 +28,7 @@ c13 '[textdict[1153136]]'
 hide p3
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 2 as p2 at l(-3), light, zorder 5
+show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1153137]]'
 hide p1
 hide p2
@@ -39,22 +39,22 @@ play sfxvoice "avg_vocal_ch06.ogg"
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1153139]]'
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 10 as p2 at l(-3), light, zorder 5
+show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1153140]]'
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc002_01 14 as p2 at l(-3), light, zorder 5
+show oc002_01 14 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1153141]]'
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1153142]]'
 hide p1
 hide p3

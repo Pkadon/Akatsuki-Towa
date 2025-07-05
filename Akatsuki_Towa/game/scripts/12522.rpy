@@ -47,12 +47,12 @@ show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1151314]]'
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
-show sc005_01 4 as p13 at l(-17), light, zorder 5
+show sc005_01 4 as p13 at l(-17), light, zorder 6
 c131 '[textdict[1151315]]'
 hide p13
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
-show sc005_01 4 as p13 at l(-17), light, zorder 5
+show sc005_01 4 as p13 at l(-17), light, zorder 6
 c131 '[textdict[1151316]]'
 hide p3
 hide p13

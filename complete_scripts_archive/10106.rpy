@@ -5,7 +5,7 @@ play music "ed7561.ogg"
 scene avg_bg_023
 with fade
 play sfx2 "elc_5007.ogg"
-show st028_01 4 as p500 at l(8), light, zorder 5
+show st028_01 4 as p500 at l(8), light, zorder 6
 c5001 '[textdict[1005872]]'
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 hide p500
@@ -20,10 +20,10 @@ show oc002_01 9 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1005874]]'
 scene avg_bg_070
 with fade
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005875]]'
 hide p227
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005876]]'
 scene avg_bg_030
 with fade
@@ -31,7 +31,7 @@ show sc038_01 2 as p45 at r(-1), light, zorder 5
 c453 '[textdict[1005877]]'
 hide p45
 show sc038_01 2 as p45 at r(-1), dark, zorder 5
-show sc040_01 4 as p47 at l(-9), light, zorder 5
+show sc040_01 4 as p47 at l(-9), light, zorder 6
 c471 '[textdict[1005878]]'
 hide p45
 hide p47
@@ -40,7 +40,7 @@ show sc039_01 3 as p46 at r(-13), light, zorder 5
 c463 '[textdict[1005879]]'
 scene avg_bg_012
 with fade
-show sc044_01 3 as p51 at l(-7), light, zorder 5
+show sc044_01 3 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1005880]]'
 play sfx2 "other_7022.ogg"
 hide p51
@@ -59,10 +59,10 @@ c53 '[textdict[1005883]]'
 scene avg_bg_023
 with fade
 play sfx2 "elc_5007.ogg"
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005884]]'
 hide p227
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005885]]'
 play sfxvoice "avg_vocal_li10.ogg"
 hide p227
@@ -72,22 +72,22 @@ c43 '[textdict[1005886]]'
 hide p227
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005887]]'
 hide p227
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005888]]'
 hide p227
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005889]]'
 hide p227
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005890]]'
 hide p4
 hide p227
@@ -97,12 +97,12 @@ c33 '[textdict[1005891]]'
 hide p227
 hide p3
 show oc003_01 3 as p3 at r(-6), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005892]]'
 hide p227
 hide p3
 show oc003_01 3 as p3 at r(-6), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005893]]'
 scene avg_bg_012
 with fade
@@ -114,7 +114,7 @@ show sc038_01 3 as p45 at r(-1), light, zorder 5
 c453 '[textdict[1005895]]'
 scene avg_bg_023
 with fade
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005896]]'
 hide p227
 show st028_01 1 as p227 at l(8), dark, zorder 6
@@ -123,12 +123,12 @@ c43 '[textdict[1005897]]'
 hide p227
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005898]]'
 hide p227
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005899]]'
 hide p4
 hide p227
@@ -143,12 +143,12 @@ c33 '[textdict[1005901]]'
 hide p227
 hide p3
 show oc003_01 3 as p3 at r(-6), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005902]]'
 play sfx2 "elc_5001.ogg"
 hide p227
 hide p3
 show oc003_01 3 as p3 at r(-6), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1005903]]'
 return

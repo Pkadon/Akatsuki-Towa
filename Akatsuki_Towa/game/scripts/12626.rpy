@@ -4,7 +4,7 @@ stop music
 play music "ed9999.ogg"
 scene avg_bg_049
 with fade
-show oc003_01 1 as p3 at l_entrance(-6), light, zorder 5
+show oc003_01 1 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1162409]]'
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
@@ -13,7 +13,7 @@ c23 '[textdict[1162410]]'
 hide p3
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1162411]]'
 hide p2
 hide p4
@@ -86,7 +86,7 @@ show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1162433]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1162434]]'
 hide p3
 hide p4
@@ -103,7 +103,7 @@ show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162438]]'
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1162439]]'
 hide p1
 hide p4

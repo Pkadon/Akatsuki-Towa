@@ -12,7 +12,7 @@ show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1177559]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177560]]'
 hide p2
 hide p1469
@@ -22,17 +22,17 @@ c33 '[textdict[1177561]]'
 hide p1469
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
-show st061_01 5 as p1304 at l(-2), light, zorder 5
+show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1177562]]'
 hide p1304
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177563]]'
 hide p1469
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
-show st064_01 5 as p1469 at l(-2), light, zorder 5
+show st064_01 5 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177564]]'
 hide p3
 hide p1469
@@ -42,7 +42,7 @@ c13 '[textdict[1177565]]'
 hide p1469
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177566]]'
 hide p1
 hide p1469
@@ -52,19 +52,19 @@ c33 '[textdict[1177567]]'
 hide p1469
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177568]]'
 scene avg_bg_216
 with fade
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177569]]'
 scene avg_bg_077
 with fade
 play sfx2 "other_7047.ogg"
-show st064_01 1 as p1469 at l_entrance(-2), light, zorder 5
+show st064_01 1 as p1469 at l_entrance(-2), light, zorder 6
 c14691 '[textdict[1177570]]'
 hide p1469
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177571]]'
 hide p1469
 c5001 '[textdict[1177572]]'
@@ -84,12 +84,12 @@ show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c14821 '[textdict[1177579]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show st064_01 2 as p1469 at l(-2), light, zorder 5
+show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177580]]'
 hide p1469
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177581]]'
 hide p2
 hide p1469
@@ -108,7 +108,7 @@ show oc003_01 1 as p3 at r(-6), dark, zorder 5
 c14821 '[textdict[1177585]]'
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
-show st064_01 3 as p1469 at l(-2), light, zorder 5
+show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177586]]' with shake
 hide p3
 hide p1469
@@ -133,7 +133,7 @@ show st064_01 3 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1177592]]'
 hide p1469
 show st064_01 3 as p1469 at r(-2), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1177593]]'
 hide p1469
 hide p4
@@ -161,7 +161,7 @@ show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1177600]]'
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
-show oc002_01 13 as p2 at l(-3), light, zorder 5
+show oc002_01 13 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1177601]]'
 hide p3
 hide p2
@@ -249,7 +249,7 @@ show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1177630]]'
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1177631]]'
 hide p2
 hide p3
@@ -265,7 +265,7 @@ show st064_01 4 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1177634]]'
 hide p1469
 show st064_01 4 as p1469 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1177635]]'
 hide p1469
 hide p3

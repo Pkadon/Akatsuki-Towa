@@ -10,7 +10,7 @@ c5691 '[textdict[1002313]]'
 c5691 '[textdict[1002314]]'
 c5691 '[textdict[1002315]]'
 play sfxvoice "avg_vocal_ch25.ogg"
-show oc002_01 10 as p2 at l(-3), light, zorder 5
+show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1002316]]'
 play sfxvoice "avg_vocal_na05.ogg"
 hide p2
@@ -26,7 +26,7 @@ c13 '[textdict[1007413]]'
 hide p2
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show oc002_01 4 as p2 at l(-3), light, zorder 5
+show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1007414]]'
 hide p1
 hide p2
@@ -41,7 +41,7 @@ c13 '[textdict[1007416]]'
 hide p2
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show oc002_01 5 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 5 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1007417]]'
 hide p1
 hide p2
@@ -56,6 +56,6 @@ c13 '[textdict[1007419]]'
 hide p2
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1007420]]'
 return

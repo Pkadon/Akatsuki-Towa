@@ -22,7 +22,7 @@ show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1171036]]'
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
-show oc005_01 10 as p5 at l(-6), light, zorder 5
+show oc005_01 10 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1171037]]'
 hide p2
 hide p5
@@ -41,7 +41,7 @@ show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1171041]]'
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
-show oc005_01 1 as p5 at l(-6), light, zorder 5
+show oc005_01 1 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1171042]]'
 hide p5
 hide p2

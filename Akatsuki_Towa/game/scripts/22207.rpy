@@ -41,12 +41,12 @@ show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1128634]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show oc004_01 8 as p4 at l(-5), light, zorder 5
+show oc004_01 8 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1128635]]'
 hide p4
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1128636]]'
 hide p1
 hide p4
@@ -56,7 +56,7 @@ hide p4
 show oc004_01 1 as p4 at l(-5), dark, zorder 6
 c7213 '[textdict[1128638]]'
 hide p4
-show oc001_01 18 as p1 at l(-2), light, zorder 5
+show oc001_01 18 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1128639]]'
 hide p1
 show oc001_01 18 as p1 at l(-2), dark, zorder 6
@@ -70,11 +70,11 @@ hide p1
 show oc001_01 18 as p1 at l(-2), dark, zorder 6
 c7213 '[textdict[1128642]]'
 hide p1
-show oc001_01 8 as p1 at l(-2), light, zorder 5
+show oc001_01 8 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1128643]]'
 play sfxvoice "avg_vocal_na10_b.ogg"
 hide p1
-show oc001_01 4 as p1 at l(-2), light, zorder 5
+show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1128644]]'
 play sfxvoice "avg_vocal_ch07.ogg"
 hide p1

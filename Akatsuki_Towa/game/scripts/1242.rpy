@@ -11,7 +11,7 @@ show sta61_01 5 as p2670 at r_entrance(-2), light, zorder 5
 c26703 '[textdict[2112970]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2112971]]'
 hide p2670
 hide p239
@@ -26,7 +26,7 @@ c26703 '[textdict[2112973]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 5 as p239 at l(-19), light, zorder 5
+show st040_01 5 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2112974]]'
 hide p2670
 hide p239
@@ -59,7 +59,7 @@ show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 c27741 '[textdict[2112982]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2112983]]'
 hide p239
 hide p2670
@@ -82,7 +82,7 @@ show sta61_01 4 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[2112989]]'
 hide p2670
 show sta61_01 4 as p2670 at r(-2), dark, zorder 5
-show st040_01 4 as p239 at l(-19), light, zorder 5
+show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2112990]]'
 scene avg_bg_011
 with fade
@@ -192,7 +192,7 @@ show sta61_01 5 as p2670 at r_entrance(-2), light, zorder 5
 c26703 '[textdict[2113023]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113024]]'
 hide p2670
 hide p239
@@ -202,7 +202,7 @@ c26703 '[textdict[2113025]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113026]]'
 hide p2670
 hide p239
@@ -217,7 +217,7 @@ c26703 '[textdict[2113028]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 2 as p239 at l(-19), l_shake, light, zorder 5
+show st040_01 2 as p239 at l(-19), l_shake, light, zorder 6
 c2391 '[textdict[2113029]]'
 hide p2670
 hide p239
@@ -226,7 +226,7 @@ show sta61_01 5 as p2670 at r_exit(-2), light, zorder 5
 c26703 '[textdict[2113030]]'
 hide p2670
 hide p239
-show st040_01 2 as p239 at l_entrance(-19), light, zorder 5
+show st040_01 2 as p239 at l_entrance(-19), light, zorder 6
 c2391 '[textdict[2113031]]'
 scene avg_bg_070
 with fade
@@ -235,10 +235,10 @@ c0 '[textdict[2113033]]'
 play music "ed7304.ogg"
 scene avg_bg_004
 with fade
-show st040_01 2 as p239 at l_entrance(-19), light, zorder 5
+show st040_01 2 as p239 at l_entrance(-19), light, zorder 6
 c2391 '[textdict[2113034]]'
 hide p239
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113035]]'
 hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
@@ -247,13 +247,13 @@ c26703 '[textdict[2113036]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 2 as p239 at l(-19), light, zorder 5
+show st040_01 2 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113037]]'
 hide p239
 hide p2670
 c0 '[textdict[2113038]]'
 c0 '[textdict[2113039]]'
-show st040_01 5 as p239 at l(-19), light, zorder 5
+show st040_01 5 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113040]]'
 hide p239
 show st040_01 5 as p239 at l(-19), dark, zorder 6
@@ -262,7 +262,7 @@ c26703 '[textdict[2113041]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113042]]'
 hide p2670
 hide p239
@@ -302,7 +302,7 @@ c26703 '[textdict[2113049]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113050]]'
 hide p2670
 hide p239
@@ -322,7 +322,7 @@ c26703 '[textdict[2113053]]'
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 5 as p239 at l(-19), light, zorder 5
+show st040_01 5 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113054]]'
 hide p2670
 hide p239
@@ -339,7 +339,7 @@ hide p239
 hide p2670
 c0 '[textdict[2113057]]'
 stop music
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113058]]'
 stop music
 hide p239
@@ -364,7 +364,7 @@ c26703 '[textdict[2113062]]'
 stop music
 hide p2670
 show sta61_01 2 as p2670 at r(-2), dark, zorder 5
-show st040_01 2 as p239 at l(-19), light, zorder 5
+show st040_01 2 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113063]]'
 stop music
 hide p2670
@@ -376,7 +376,7 @@ stop music
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st040_01 2 as p239 at l(-19), light, zorder 5
+show st040_01 2 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113065]]'
 stop music
 play sfx2 "other_7085.ogg"
@@ -389,7 +389,7 @@ hide p2670
 stop music
 play sfx2 "other_7085.ogg"
 hide p239
-show st040_01 2 as p239 at l_entrance_midback(-19), light, zorder 5
+show st040_01 2 as p239 at l_entrance_midback(-19), light, zorder 6
 c2391 '[textdict[2113067]]'
 stop music
 scene avg_bg_521

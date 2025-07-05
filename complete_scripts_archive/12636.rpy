@@ -8,7 +8,7 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162956]]'
 scene avg_bg_070
 with fade
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1162957]]'
 hide p4
 c13251 '[textdict[1162958]]'

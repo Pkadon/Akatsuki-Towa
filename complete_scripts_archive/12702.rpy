@@ -34,12 +34,12 @@ show oc007_01 2 as p7 at r(-24), light, zorder 5
 c73 '[textdict[1170374]]'
 hide p7
 show oc007_01 2 as p7 at r(-24), dark, zorder 5
-show st040_01 3 as p239 at l(-19), light, zorder 5
+show st040_01 3 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1170375]]'
 hide p239
 hide p7
 show oc007_01 2 as p7 at r(-24), dark, zorder 5
-show st040_01 3 as p239 at l(-19), light, zorder 5
+show st040_01 3 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1170376]]'
 hide p7
 hide p239
@@ -74,12 +74,12 @@ c73 '[textdict[1170382]]'
 hide p239
 hide p7
 show oc007_01 4 as p7 at r(-24), dark, zorder 5
-show st040_01 4 as p239 at l(-19), light, zorder 5
+show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1170383]]'
 hide p239
 hide p7
 show oc007_01 4 as p7 at r(-24), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1170384]]'
 hide p7
 hide p239
@@ -93,13 +93,13 @@ c13 '[textdict[1170386]]'
 hide p1
 c0 '[textdict[1170387]]'
 play sfx2 "other_7047.ogg"
-show oc007_01 1 as p7 at l_entrance(-24), light, zorder 5
+show oc007_01 1 as p7 at l_entrance(-24), light, zorder 6
 c71 '[textdict[1170388]]'
 hide p7
-show oc007_01 4 as p7 at l(-24), light, zorder 5
+show oc007_01 4 as p7 at l(-24), light, zorder 6
 c71 '[textdict[1170389]]'
 hide p7
-show oc007_01 5 as p7 at l(-24), light, zorder 5
+show oc007_01 5 as p7 at l(-24), light, zorder 6
 c71 '[textdict[1170390]]'
 hide p7
 show oc007_01 5 as p7 at l(-24), dark, zorder 6

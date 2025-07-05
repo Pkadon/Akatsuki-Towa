@@ -9,7 +9,7 @@ show oc001_01 6 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1133603]]'
 hide p1
 show oc001_01 6 as p1 at r(-2), dark, zorder 5
-show oc004_01 8 as p4 at l(-5), light, zorder 5
+show oc004_01 8 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1133604]]'
 play sfxvoice "avg_vocal_ch12.ogg"
 hide p1
@@ -55,7 +55,7 @@ c13 '[textdict[1133614]]'
 hide p1
 c0 '[textdict[1133615]]'
 play sfxvoice "avg_vocal_ch06.ogg"
-show oc002_01 9 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 9 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1133616]]'
 hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6
@@ -76,7 +76,7 @@ show oc001_01 6 as p1 at r(-2), dark, zorder 5
 c10941 '[textdict[1133621]]'
 hide p1
 show oc001_01 6 as p1 at r(-2), dark, zorder 5
-show oc002_01 1 as p2 at l(-3), light, zorder 5
+show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1133622]]'
 hide p1
 hide p2
@@ -117,7 +117,7 @@ c10941 '[textdict[1133631]]'
 play sfxvoice "avg_vocal_ch13.ogg"
 hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
-show oc002_01 16 as p2 at l(-3), light, zorder 5
+show oc002_01 16 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1133632]]'
 play sfxvoice "avg_vocal_li22.ogg"
 hide p4
@@ -154,7 +154,7 @@ c10941 '[textdict[1133641]]'
 play sfxvoice "avg_vocal_ch23.ogg"
 hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
-show oc002_01 16 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 16 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1133642]]'
 play sfx2 "other_7004.ogg"
 hide p4
@@ -173,7 +173,7 @@ show oc005_01 2 as p5 at r(-6), light, zorder 5
 c53 '[textdict[1133645]]'
 hide p5
 show oc005_01 2 as p5 at r(-6), dark, zorder 5
-show oc004_01 9 as p4 at l(-5), light, zorder 5
+show oc004_01 9 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1133646]]'
 hide p5
 hide p4
@@ -183,7 +183,7 @@ c53 '[textdict[1133647]]'
 hide p4
 hide p5
 show oc005_01 4 as p5 at r(-6), dark, zorder 5
-show oc002_01 10 as p2 at l(-3), light, zorder 5
+show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1133648]]'
 play sfx2 "other_7018.ogg"
 hide p5

@@ -5,7 +5,7 @@ play music "ED6505.ogg"
 scene avg_bg_027
 with fade
 play sfx2 "other_7060.ogg"
-show uc004_02 1 as p960 at l(-9), light, zorder 5
+show uc004_02 1 as p960 at l(-9), light, zorder 6
 c9601 '[textdict[1128367]]'
 hide p960
 show uc004_02 1 as p960 at l(-9), dark, zorder 6
@@ -24,7 +24,7 @@ c23 '[textdict[1128370]]'
 hide p960
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show uc004_02 1 as p960 at l(-9), light, zorder 5
+show uc004_02 1 as p960 at l(-9), light, zorder 6
 c9601 '[textdict[1128371]]'
 play music "ED6107.ogg"
 scene avg_bg_070

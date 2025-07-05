@@ -5,7 +5,7 @@ play music "ed7104.ogg"
 scene avg_bg_037
 with fade
 play sfxvoice "avg_vocal_ch12.ogg"
-show oc002_01 2 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1004850]]'
 play sfx2 "other_7044.ogg"
 hide p2

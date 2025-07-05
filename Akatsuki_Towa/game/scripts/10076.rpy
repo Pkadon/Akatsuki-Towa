@@ -6,7 +6,7 @@ scene avg_bg_023
 with fade
 play sfx2 "other_7047.ogg"
 c6893 '[textdict[1005232]]'
-show oc001_01 10 as p1 at l_entrance(-2), light, zorder 5
+show oc001_01 10 as p1 at l_entrance(-2), light, zorder 6
 c11 '[textdict[1005233]]'
 hide p1
 show oc001_01 10 as p1 at l(-2), dark, zorder 6
@@ -20,7 +20,7 @@ hide p1
 show oc001_01 10 as p1 at l(-2), dark, zorder 6
 c6893 '[textdict[1005236]]'
 hide p1
-show sc039_01 1 as p46 at l(-13), light, zorder 5
+show sc039_01 1 as p46 at l(-13), light, zorder 6
 c461 '[textdict[1005237]]'
 hide p46
 show sc039_01 1 as p46 at l(-13), dark, zorder 6
@@ -38,7 +38,7 @@ hide p46
 show sc039_01 1 as p46 at l(-13), dark, zorder 6
 c6893 '[textdict[1005242]]'
 hide p46
-show oc001_01 4 as p1 at l(-2), light, zorder 5
+show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1005243]]'
 hide p1
 show oc001_01 4 as p1 at l(-2), dark, zorder 6
@@ -76,7 +76,7 @@ show oc002_01 10 as p2 at r(-3), dark, zorder 5
 c6991 '[textdict[1005258]]'
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
-show oc001_01 1 as p1 at l(-2), light, zorder 5
+show oc001_01 1 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1005259]]'
 hide p2
 hide p1
@@ -86,6 +86,6 @@ c23 '[textdict[1005260]]'
 hide p1
 hide p2
 show oc002_01 7 as p2 at r(-3), dark, zorder 5
-show oc001_01 4 as p1 at l(-2), light, zorder 5
+show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1005261]]'
 return

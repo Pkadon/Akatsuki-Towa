@@ -9,7 +9,7 @@ c13 '[textdict[1220670]]'
 stop music
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show sc004_01 2 as p12 at l(-12), light, zorder 5
+show sc004_01 2 as p12 at l(-12), light, zorder 6
 c121 '[textdict[1220671]]'
 stop music
 hide p1

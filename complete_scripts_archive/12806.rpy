@@ -9,7 +9,7 @@ show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1181735]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show st040_01 1 as p239 at l(-19), light, zorder 5
+show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1181736]]'
 hide p1
 hide p239
@@ -19,7 +19,7 @@ c23 '[textdict[1181737]]'
 hide p239
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5
-show st040_01 4 as p239 at l(-19), light, zorder 5
+show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1181738]]'
 hide p2
 hide p239
@@ -34,7 +34,7 @@ c33 '[textdict[1181740]]'
 hide p239
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
-show st040_01 4 as p239 at l(-19), light, zorder 5
+show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1181741]]'
 hide p3
 hide p239
@@ -44,7 +44,7 @@ c33 '[textdict[1181742]]'
 hide p239
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
-show st040_01 3 as p239 at l(-19), light, zorder 5
+show st040_01 3 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1181743]]'
 hide p3
 hide p239
@@ -54,12 +54,12 @@ c13 '[textdict[1181744]]'
 hide p239
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st040_01 4 as p239 at l(-19), light, zorder 5
+show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1181745]]'
 hide p239
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st040_01 4 as p239 at l(-19), light, zorder 5
+show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1181746]]'
 hide p1
 hide p239
@@ -73,7 +73,7 @@ show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1181749]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st061_01 2 as p1304 at l(-2), light, zorder 5
+show st061_01 2 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1181750]]'
 play music "ed7511.ogg"
 scene avg_bg_036
@@ -84,7 +84,7 @@ show oc002_01 21 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1181752]]'
 hide p2
 show oc002_01 21 as p2 at r(-3), dark, zorder 5
-show oc003_01 21 as p3 at l(-6), light, zorder 5
+show oc003_01 21 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1181753]]'
 hide p2
 hide p3

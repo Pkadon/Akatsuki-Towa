@@ -6,7 +6,7 @@ scene avg_bg_071
 with fade
 c0 '[textdict[1202493]]'
 play sfx2 "fight_6019.ogg"
-show oc002_01 8 as p2 at l_entrance(-3), light, zorder 5
+show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1202494]]'
 hide p2
 show oc002_01 8 as p2 at l(-3), dark, zorder 6
@@ -20,7 +20,7 @@ c13 '[textdict[1202496]]'
 hide p2
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show oc002_01 4 as p2 at l(-3), light, zorder 5
+show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1202497]]'
 hide p1
 hide p2
@@ -50,18 +50,18 @@ c13 '[textdict[1202502]]'
 hide p2
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc002_01 5 as p2 at l(-3), light, zorder 5
+show oc002_01 5 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1202503]]'
 hide p2
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc002_01 6 as p2 at l(-3), light, zorder 5
+show oc002_01 6 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1202504]]'
 scene avg_bg_070
 with fade
-show oc001_01 4 as p1 at l(-2), light, zorder 5
+show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1202506]]'
 hide p1
-show oc001_01 18 as p1 at l(-2), light, zorder 5
+show oc001_01 18 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1202507]]'
 return

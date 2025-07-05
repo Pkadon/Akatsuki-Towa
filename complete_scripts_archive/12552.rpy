@@ -5,7 +5,7 @@ play music "ED6304.ogg"
 scene avg_bg_081
 with fade
 play sfxvoice "avg_vocal_ro14.ogg"
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1153011]]'
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
@@ -29,7 +29,7 @@ c13 '[textdict[1153015]]'
 hide p3
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc025_01 5 as p622 at l_entrance(-1), light, zorder 5
+show sc025_01 5 as p622 at l_entrance(-1), light, zorder 6
 c6221 '[textdict[1153016]]'
 hide p1
 hide p622
@@ -39,12 +39,12 @@ c13 '[textdict[1153017]]'
 hide p622
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc025_01 5 as p622 at l(-1), light, zorder 5
+show sc025_01 5 as p622 at l(-1), light, zorder 6
 c6221 '[textdict[1153018]]'
 hide p622
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc025_01 1 as p622 at l(-1), light, zorder 5
+show sc025_01 1 as p622 at l(-1), light, zorder 6
 c6221 '[textdict[1153019]]'
 hide p1
 hide p622
@@ -59,19 +59,19 @@ c13 '[textdict[1153021]]'
 hide p622
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc025_01 5 as p622 at l(-1), light, zorder 5
+show sc025_01 5 as p622 at l(-1), light, zorder 6
 c6221 '[textdict[1153022]]'
 hide p622
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc025_01 5 as p622 at l(-1), light, zorder 5
+show sc025_01 5 as p622 at l(-1), light, zorder 6
 c6221 '[textdict[1153023]]'
 hide p1
 hide p622
 show sc025_01 5 as p622 at l(-1), dark, zorder 6
 c12413 '[textdict[1153024]]'
 hide p622
-show sc025_01 4 as p622 at l(-1), light, zorder 5
+show sc025_01 4 as p622 at l(-1), light, zorder 6
 c6221 '[textdict[1153025]]'
 hide p622
 show sc025_01 4 as p622 at l(-1), dark, zorder 6
@@ -96,7 +96,7 @@ show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1153032]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l_entrance(-6), light, zorder 5
+show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1153033]]'
 hide p1
 hide p3

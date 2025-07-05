@@ -34,7 +34,7 @@ show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107606]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107607]]'
 hide p1
 hide p28
@@ -49,7 +49,7 @@ c13 '[textdict[2107609]]'
 hide p28
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107610]]'
 hide p1
 hide p28
@@ -69,7 +69,7 @@ c13 '[textdict[2107613]]'
 hide p28
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107614]]'
 hide p1
 hide p28
@@ -185,7 +185,7 @@ show oc001_01 1 as p1 at r(-2), dark, zorder 5
 c26531 '[textdict[2107651]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107652]]'
 scene avg_bg_070
 with fade
@@ -242,7 +242,7 @@ show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107671]]'
 scene avg_bg_023
 with fade
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107672]]'
 hide p28
 show sc020_01 1 as p28 at l(-10), dark, zorder 6
@@ -251,17 +251,17 @@ c13 '[textdict[2107673]]'
 hide p28
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc020_01 5 as p28 at l(-10), light, zorder 5
+show sc020_01 5 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107674]]'
 hide p28
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107675]]'
 hide p28
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2107676]]'
 hide p1
 hide p28

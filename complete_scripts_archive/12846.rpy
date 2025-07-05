@@ -4,7 +4,7 @@ stop music
 play music "ed7102.ogg"
 scene avg_bg_010
 with fade
-show oc003_01 2 as p3 at l(-6), light, zorder 5
+show oc003_01 2 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186499]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
@@ -23,7 +23,7 @@ c13 '[textdict[1186502]]'
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186503]]'
 hide p1
 hide p3
@@ -37,16 +37,16 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1186505]]'
 scene avg_bg_079
 with fade
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1186506]]'
 hide p4
-show oc004_01 11 as p4 at l(-5), light, zorder 5
+show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1186507]]'
 hide p4
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186508]]'
 hide p3
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186509]]'
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
@@ -55,12 +55,12 @@ c13 '[textdict[1186510]]'
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 21 as p3 at l(-6), light, zorder 5
+show oc003_01 21 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186511]]'
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1186512]]'
 hide p1
 hide p4
@@ -70,7 +70,7 @@ c13 '[textdict[1186513]]'
 hide p4
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
-show oc004_01 16 as p4 at l(-5), light, zorder 5
+show oc004_01 16 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1186514]]'
 scene avg_bg_070
 with fade
@@ -82,12 +82,12 @@ show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1186516]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1186517]]'
 hide p4
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186518]]'
 hide p1
 hide p3
@@ -102,7 +102,7 @@ show oc001_01 20 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1186520]]'
 hide p1
 c0 '[textdict[1186521]]'
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186522]]'
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
@@ -111,7 +111,7 @@ c43 '[textdict[1186523]]'
 hide p3
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186524]]'
 play music "ed7511.ogg"
 hide p4
@@ -123,7 +123,7 @@ play sfx2 "fight_6025.ogg"
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186526]]'
 hide p1
 hide p3
@@ -137,10 +137,10 @@ c13091 '[textdict[1186528]]' with shake
 play music "ed7102.ogg"
 scene avg_bg_036
 with fade
-show oc003_01 1 as p3 at l_entrance(-6), light, zorder 5
+show oc003_01 1 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1186529]]'
 hide p3
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1186530]]'
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6

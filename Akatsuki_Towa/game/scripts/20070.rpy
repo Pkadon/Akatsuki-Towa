@@ -17,7 +17,7 @@ c13 '[textdict[1003890]]'
 play sfxvoice "avg_vocal_li17.ogg"
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show oc004_01 8 as p4 at l(-5), light, zorder 5
+show oc004_01 8 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1003891]]'
 hide p4
 hide p1

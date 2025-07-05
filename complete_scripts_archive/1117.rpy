@@ -4,7 +4,7 @@ stop music
 play music "ed7200.ogg"
 scene placeholderbackground
 with fade
-show oc004_01 13 as p4 at l(-5), light, zorder 5
+show oc004_01 13 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2102897]]'
 hide p4
 show oc004_01 13 as p4 at l(-5), dark, zorder 6
@@ -20,7 +20,7 @@ show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102901]]'
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 5
+show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2102902]]'
 hide p1
 hide p4
@@ -30,7 +30,7 @@ c13 '[textdict[2102903]]'
 hide p4
 hide p1
 show oc001_01 5 as p1 at r(-2), dark, zorder 5
-show st004_01 6 as p204 at l(4), light, zorder 5
+show st004_01 6 as p204 at l(4), light, zorder 6
 c2041 '[textdict[2102904]]'
 hide p1
 hide p204

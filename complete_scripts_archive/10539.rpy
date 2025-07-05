@@ -64,7 +64,7 @@ show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1152607]]'
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show sc021_01 2 as p29 at l(-17), light, zorder 5
+show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[1152608]]'
 hide p4
 hide p29

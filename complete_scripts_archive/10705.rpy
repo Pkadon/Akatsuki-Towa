@@ -4,10 +4,10 @@ stop music
 play music "ED6301.ogg"
 scene placeholderbackground
 with fade
-show st061_01 1 as p1304 at l(-2), light, zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170150]]'
 hide p1304
-show st061_01 1 as p1304 at l(-2), light, zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170151]]'
 hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6
@@ -16,7 +16,7 @@ c13 '[textdict[1170152]]'
 hide p1304
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show st061_01 5 as p1304 at l(-2), light, zorder 5
+show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170153]]'
 hide p1
 hide p1304
@@ -31,6 +31,6 @@ c13 '[textdict[1170155]]'
 hide p1304
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st061_01 1 as p1304 at l(-2), light, zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170156]]'
 return

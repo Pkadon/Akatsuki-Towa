@@ -8,10 +8,10 @@ c13161 '[textdict[1165676]]'
 c13543 '[textdict[1165677]]'
 c13161 '[textdict[1165678]]'
 c13543 '[textdict[1165679]]'
-show st062_01 4 as p1308 at l(-16), light, zorder 5
+show st062_01 4 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1165680]]'
 hide p1308
-show st062_01 4 as p1308 at l(-16), light, zorder 5
+show st062_01 4 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1165681]]'
 hide p1308
 show st062_01 4 as p1308 at l(-16), dark, zorder 6

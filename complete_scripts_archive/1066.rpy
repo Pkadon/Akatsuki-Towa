@@ -152,7 +152,7 @@ hide p202
 c0 '[textdict[2101321]]'
 play music "ed7113.ogg"
 c0 '[textdict[2101322]]'
-show st002_01 4 as p202 at l(-9), light, zorder 5
+show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101323]]'
 hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6
@@ -161,7 +161,7 @@ c2053 '[textdict[2101324]]'
 hide p202
 hide p205
 show st005_01 2 as p205 at r(4), dark, zorder 5
-show st002_01 3 as p202 at l(-9), light, zorder 5
+show st002_01 3 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101325]]'
 hide p205
 hide p202
@@ -174,15 +174,15 @@ show st005_01 2 as p205 at r(4), dark, zorder 5
 c25051 '[textdict[2101327]]'
 hide p205
 show st005_01 2 as p205 at r(4), dark, zorder 5
-show st002_01 1 as p202 at l(-9), light, zorder 5
+show st002_01 1 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101328]]'
 hide p202
 hide p205
 c0 '[textdict[2101329]]'
-show st002_01 1 as p202 at l(-9), light, zorder 5
+show st002_01 1 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101330]]'
 hide p202
-show st002_01 4 as p202 at l(-9), light, zorder 5
+show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101331]]'
 hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6
@@ -191,7 +191,7 @@ c2053 '[textdict[2101332]]'
 hide p202
 hide p205
 show st005_01 4 as p205 at r(4), dark, zorder 5
-show st002_01 4 as p202 at l(-9), light, zorder 5
+show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101333]]'
 hide p205
 hide p202
@@ -201,7 +201,7 @@ c2053 '[textdict[2101334]]'
 hide p202
 hide p205
 show st005_01 4 as p205 at r(4), dark, zorder 5
-show st002_01 4 as p202 at l(-9), light, zorder 5
+show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101335]]'
 hide p205
 hide p202
@@ -216,6 +216,6 @@ c2053 '[textdict[2101338]]'
 play sfx2 "other_7085.ogg"
 hide p205
 c0 '[textdict[2101339]]'
-show st002_01 1 as p202 at l(-9), light, zorder 5
+show st002_01 1 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101340]]'
 return

@@ -9,12 +9,12 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1001594]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001595]]'
 hide p56
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc049_01 10 as p56 at l(-8), light, zorder 5
+show sc049_01 10 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001596]]'
 hide p1
 hide p56
@@ -24,17 +24,17 @@ c23 '[textdict[1001597]]'
 hide p56
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001598]]'
 hide p56
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
-show sc049_01 10 as p56 at l(-8), light, zorder 5
+show sc049_01 10 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001599]]'
 hide p56
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001600]]'
 hide p2
 hide p56
@@ -44,17 +44,17 @@ c23 '[textdict[1001601]]'
 hide p56
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
-show sc049_01 2 as p56 at l(-8), light, zorder 5
+show sc049_01 2 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001602]]'
 hide p56
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
-show sc049_01 4 as p56 at l(-8), light, zorder 5
+show sc049_01 4 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001603]]'
 hide p56
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
-show sc049_01 4 as p56 at l(-8), light, zorder 5
+show sc049_01 4 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001604]]'
 hide p2
 hide p56
@@ -69,12 +69,12 @@ c13 '[textdict[1001606]]'
 hide p56
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001607]]'
 hide p56
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001608]]'
 hide p1
 hide p56
@@ -110,17 +110,17 @@ c13 '[textdict[1001614]]'
 hide p56
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001615]]'
 hide p56
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show sc049_01 10 as p56 at l(-8), light, zorder 5
+show sc049_01 10 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001616]]'
 hide p56
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001617]]'
 hide p1
 hide p56
@@ -146,7 +146,7 @@ c13 '[textdict[1001621]]'
 hide p56
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
-show sc049_01 4 as p56 at l(-8), light, zorder 5
+show sc049_01 4 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001622]]'
 hide p1
 hide p56
@@ -161,7 +161,7 @@ c23 '[textdict[1001624]]'
 hide p56
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001625]]'
 play sfxvoice "avg_vocal_na21.ogg"
 hide p2
@@ -178,7 +178,7 @@ c23 '[textdict[1001627]]'
 hide p56
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
-show sc049_01 7 as p56 at l(-8), light, zorder 5
+show sc049_01 7 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001628]]'
 hide p2
 hide p56
@@ -193,7 +193,7 @@ c13 '[textdict[1001630]]'
 hide p56
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show sc049_01 5 as p56 at l(-8), light, zorder 5
+show sc049_01 5 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001631]]'
 hide p1
 hide p56
@@ -203,11 +203,11 @@ c13 '[textdict[1001632]]'
 hide p56
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001633]]'
 hide p56
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1001634]]'
 return

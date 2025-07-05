@@ -36,7 +36,7 @@ show oc002_01 12 as p2 at r_entrance(-3), light, zorder 5
 c23 '[textdict[1163616]]'
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
-show oc001_01 22 as p1 at l(-2), light, zorder 5
+show oc001_01 22 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1163617]]'
 hide p2
 hide p1
@@ -51,7 +51,7 @@ c23 '[textdict[1163619]]'
 hide p1
 hide p2
 show oc002_01 20 as p2 at r(-3), dark, zorder 5
-show oc004_01 12 as p4 at l(-5), light, zorder 5
+show oc004_01 12 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1163620]]'
 hide p2
 hide p4

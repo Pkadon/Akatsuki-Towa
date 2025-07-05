@@ -22,7 +22,7 @@ c23 '[textdict[1128598]]'
 play sfxvoice "avg_vocal_li18.ogg"
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
-show oc004_01 8 as p4 at l(-5), light, zorder 5
+show oc004_01 8 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1128599]]'
 hide p2
 hide p4
@@ -40,7 +40,7 @@ show oc001_01 20 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1128602]]'
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
-show oc002_01 9 as p2 at l_midback(-3), light, zorder 5
+show oc002_01 9 as p2 at l_midback(-3), light, zorder 6
 c21 '[textdict[1128603]]'
 hide p2
 hide p1

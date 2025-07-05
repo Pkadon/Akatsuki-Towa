@@ -14,7 +14,7 @@ show st002_01 5 as p202 at r(-9), light, zorder 5
 c2023 '[textdict[2109705]]'
 hide p202
 show st002_01 5 as p202 at r(-9), dark, zorder 5
-show st005_01 4 as p205 at l(4), light, zorder 5
+show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2109706]]'
 hide p205
 hide p202
@@ -31,7 +31,7 @@ show st002_01 6 as p202 at r(-9), light, zorder 5
 c2023 '[textdict[2109710]]'
 hide p202
 show st002_01 6 as p202 at r(-9), dark, zorder 5
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2109711]]'
 hide p205
 hide p202
@@ -39,7 +39,7 @@ show st002_01 6 as p202 at r(-9), dark, zorder 5
 c9721 '[textdict[2109712]]'
 hide p202
 show st002_01 6 as p202 at r(-9), dark, zorder 5
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2109713]]'
 hide p202
 hide p205
@@ -58,7 +58,7 @@ show st002_01 5 as p202 at r(-9), light, zorder 5
 c2023 '[textdict[2109717]]'
 hide p202
 show st002_01 5 as p202 at r(-9), dark, zorder 5
-show st005_01 4 as p205 at l(4), l_shake, light, zorder 5
+show st005_01 4 as p205 at l(4), l_shake, light, zorder 6
 c2051 '[textdict[2109718]]'
 hide p202
 hide p205
@@ -89,7 +89,7 @@ show st002_01 1 as p202 at r(-9), light, zorder 5
 c2023 '[textdict[2109726]]'
 hide p202
 show st002_01 1 as p202 at r(-9), dark, zorder 5
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2109727]]'
 play music "ed7569.ogg"
 scene avg_bg_025
@@ -122,7 +122,7 @@ c26913 '[textdict[2109737]]'
 play sfx2 "other_7061.ogg"
 hide p2691
 show scc39_01 5 as p2691 at r(-13), dark, zorder 5
-show st023_01 1 as p222 at l(-12), light, zorder 5
+show st023_01 1 as p222 at l(-12), light, zorder 6
 c2221 '[textdict[2109738]]'
 play sfx2 "other_7061.ogg"
 hide p2691
@@ -185,7 +185,7 @@ c33 '[textdict[2109758]]'
 stop music
 hide p3
 show oc003_01 11 as p3 at r(-6), dark, zorder 5
-show oc002_01 15 as p2 at l(-3), light, zorder 5
+show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2109759]]'
 stop music
 hide p3
@@ -215,7 +215,7 @@ c5001 '[textdict[2109764]]'
 stop music
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
-show oc001_01 2 as p1 at l(-2), light, zorder 5
+show oc001_01 2 as p1 at l(-2), light, zorder 6
 c11 '[textdict[2109765]]'
 play music "ed7205.ogg"
 hide p4

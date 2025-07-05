@@ -7,13 +7,13 @@ with fade
 play sfx2 "other_7064.ogg"
 c0 '[textdict[1177720]]'
 play sfx2 "other_7064.ogg"
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177721]]'
 hide p1469
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177722]]'
 hide p1469
-show st064_01 4 as p1469 at l(-2), light, zorder 5
+show st064_01 4 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177723]]'
 hide p1469
 show st064_01 4 as p1469 at l(-2), dark, zorder 6
@@ -55,7 +55,7 @@ show oc002_01 23 as p2 at r(-3), dark, zorder 5
 c14821 '[textdict[1177735]]'
 hide p2
 show oc002_01 23 as p2 at r(-3), dark, zorder 5
-show st065_01 3 as p1468 at l(-6), light, zorder 5
+show st065_01 3 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177736]]'
 hide p2
 hide p1468
@@ -83,17 +83,17 @@ show st064_01 1 as p1469 at r(-2), dark, zorder 5
 c14741 '[textdict[1177743]]'
 hide p1469
 show st064_01 1 as p1469 at r(-2), dark, zorder 5
-show st065_01 1 as p1468 at l(-6), light, zorder 5
+show st065_01 1 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177744]]'
 hide p1468
 hide p1469
 show st064_01 1 as p1469 at r(-2), dark, zorder 5
-show st065_01 1 as p1468 at l(-6), light, zorder 5
+show st065_01 1 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177745]]'
 hide p1468
 hide p1469
 c0 '[textdict[1177746]]'
-show st065_01 4 as p1468 at l(-6), light, zorder 5
+show st065_01 4 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177747]]'
 hide p1468
 show st065_01 4 as p1468 at l(-6), dark, zorder 6
@@ -108,7 +108,7 @@ show st064_01 4 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1177750]]'
 hide p1469
 show st064_01 4 as p1469 at r(-2), dark, zorder 5
-show st065_01 4 as p1468 at l(-6), light, zorder 5
+show st065_01 4 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177751]]' with shake
 scene avg_bg_070
 with fade
@@ -117,7 +117,7 @@ scene avg_bg_214
 with fade
 play sfx2 "other_7007.ogg"
 c14741 '[textdict[1177753]]'
-show st064_01 3 as p1469 at l(-2), light, zorder 5
+show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177754]]'
 hide p1469
 show st064_01 3 as p1469 at l(-2), dark, zorder 6
@@ -141,12 +141,12 @@ show oc003_01 16 as p3 at r(-6), dark, zorder 5
 c14731 '[textdict[1177760]]'
 hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
-show st065_01 1 as p1468 at l(-6), light, zorder 5
+show st065_01 1 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177761]]'
 hide p1468
 hide p3
 c0 '[textdict[1177762]]'
-show st065_01 4 as p1468 at l(-6), light, zorder 5
+show st065_01 4 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177763]]'
 hide p1468
 show st065_01 4 as p1468 at l(-6), dark, zorder 6
@@ -155,6 +155,6 @@ c13 '[textdict[1177764]]'
 hide p1468
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st065_01 4 as p1468 at l(-6), light, zorder 5
+show st065_01 4 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177765]]' with shake
 return

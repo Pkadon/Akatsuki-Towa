@@ -11,7 +11,7 @@ show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1141498]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1141499]]'
 play sfxvoice "avg_vocal_ji11.ogg"
 hide p4
@@ -33,7 +33,7 @@ c13 '[textdict[1141502]]'
 hide p3
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1141503]]'
 hide p1
 hide p3

@@ -8,10 +8,10 @@ c0 '[textdict[2101425]]'
 c0 '[textdict[2101426]]'
 c0 '[textdict[2101427]]'
 c0 '[textdict[2101428]]'
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101429]]'
 hide p205
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101430]]'
 hide p205
 c0 '[textdict[2101431]]'
@@ -19,18 +19,18 @@ c0 '[textdict[2101432]]'
 c0 '[textdict[2101433]]'
 c0 '[textdict[2101434]]'
 c0 '[textdict[2101435]]'
-show st005_01 3 as p205 at l(4), light, zorder 5
+show st005_01 3 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101436]]'
 hide p205
-show st005_01 4 as p205 at l(4), light, zorder 5
+show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101437]]'
 hide p205
-show st005_01 4 as p205 at l(4), light, zorder 5
+show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101438]]'
 play sfx2 "other_7047.ogg"
 hide p205
 c0 '[textdict[2101439]]'
-show st005_01 2 as p205 at l(4), light, zorder 5
+show st005_01 2 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101440]]'
 hide p205
 show st005_01 2 as p205 at l(4), dark, zorder 6
@@ -39,7 +39,7 @@ c2023 '[textdict[2101441]]'
 hide p205
 hide p202
 show st002_01 2 as p202 at r(-9), dark, zorder 5
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101442]]'
 hide p202
 hide p205
@@ -49,7 +49,7 @@ c2023 '[textdict[2101443]]'
 hide p205
 hide p202
 show st002_01 1 as p202 at r(-9), dark, zorder 5
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101444]]'
 hide p202
 hide p205
@@ -59,12 +59,12 @@ c2023 '[textdict[2101445]]'
 hide p205
 hide p202
 show st002_01 3 as p202 at r(-9), dark, zorder 5
-show st005_01 3 as p205 at l(4), light, zorder 5
+show st005_01 3 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101446]]'
 hide p205
 hide p202
 c0 '[textdict[2101447]]'
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101448]]'
 hide p205
 show st005_01 1 as p205 at l(4), dark, zorder 6
@@ -73,7 +73,7 @@ c2023 '[textdict[2101449]]'
 hide p205
 hide p202
 show st002_01 4 as p202 at r(-9), dark, zorder 5
-show st005_01 2 as p205 at l(4), light, zorder 5
+show st005_01 2 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101450]]'
 hide p202
 hide p205
@@ -83,21 +83,21 @@ c2023 '[textdict[2101451]]'
 hide p205
 hide p202
 show st002_01 4 as p202 at r(-9), dark, zorder 5
-show st005_01 1 as p205 at l(4), light, zorder 5
+show st005_01 1 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101452]]'
 hide p205
 hide p202
 c0 '[textdict[2101453]]'
 c0 '[textdict[2101454]]'
-show st005_01 2 as p205 at l(4), light, zorder 5
+show st005_01 2 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101455]]'
 hide p205
 c0 '[textdict[2101456]]'
-show st005_01 2 as p205 at l(4), light, zorder 5
+show st005_01 2 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101457]]'
 hide p205
 c0 '[textdict[2101458]]'
-show st005_01 3 as p205 at l(4), light, zorder 5
+show st005_01 3 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101459]]'
 hide p205
 show st005_01 3 as p205 at l(4), dark, zorder 6
@@ -121,7 +121,7 @@ c2023 '[textdict[2101463]]'
 hide p205
 hide p202
 show st002_01 1 as p202 at r(-9), dark, zorder 5
-show st005_01 3 as p205 at l(4), light, zorder 5
+show st005_01 3 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101464]]'
 hide p202
 hide p205
@@ -156,7 +156,7 @@ c2023 '[textdict[2101470]]'
 hide p205
 hide p202
 show st002_01 1 as p202 at r(-9), dark, zorder 5
-show st005_01 4 as p205 at l(4), light, zorder 5
+show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101471]]'
 hide p202
 hide p205
@@ -166,7 +166,7 @@ c2023 '[textdict[2101472]]'
 hide p205
 hide p202
 show st002_01 6 as p202 at r(-9), dark, zorder 5
-show st005_01 5 as p205 at l(4), light, zorder 5
+show st005_01 5 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101473]]'
 hide p202
 hide p205
@@ -181,7 +181,7 @@ c2023 '[textdict[2101475]]'
 hide p205
 hide p202
 show st002_01 1 as p202 at r(-9), dark, zorder 5
-show st005_01 4 as p205 at l(4), light, zorder 5
+show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101476]]'
 hide p202
 hide p205
@@ -196,7 +196,7 @@ c2023 '[textdict[2101478]]'
 hide p205
 hide p202
 show st002_01 4 as p202 at r(-9), dark, zorder 5
-show st005_01 3 as p205 at l(4), light, zorder 5
+show st005_01 3 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101479]]'
 hide p202
 hide p205
@@ -211,7 +211,7 @@ c2023 '[textdict[2101481]]'
 hide p205
 hide p202
 show st002_01 6 as p202 at r(-9), dark, zorder 5
-show st005_01 5 as p205 at l(4), light, zorder 5
+show st005_01 5 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101482]]'
 hide p202
 hide p205
@@ -226,7 +226,7 @@ c2023 '[textdict[2101484]]'
 hide p205
 hide p202
 show st002_01 6 as p202 at r(-9), dark, zorder 5
-show st005_01 5 as p205 at l(4), light, zorder 5
+show st005_01 5 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101485]]'
 hide p202
 hide p205
@@ -236,7 +236,7 @@ c2023 '[textdict[2101486]]'
 hide p205
 hide p202
 show st002_01 1 as p202 at r(-9), dark, zorder 5
-show st005_01 4 as p205 at l(4), light, zorder 5
+show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101487]]'
 hide p205
 hide p202
@@ -246,11 +246,11 @@ show st002_01 5 as p202 at r(-9), light, zorder 5
 c2023 '[textdict[2101490]]'
 hide p202
 show st002_01 5 as p202 at r(-9), dark, zorder 5
-show st005_01 5 as p205 at l(4), light, zorder 5
+show st005_01 5 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101491]]'
 hide p205
 hide p202
 c0 '[textdict[2101492]]'
-show st005_01 5 as p205 at l(4), light, zorder 5
+show st005_01 5 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2101493]]'
 return

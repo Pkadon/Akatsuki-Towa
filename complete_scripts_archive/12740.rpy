@@ -5,7 +5,7 @@ play music "ED6105.ogg"
 scene avg_bg_202
 with fade
 c0 '[textdict[1172878]]'
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172879]]'
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
@@ -19,17 +19,17 @@ c13 '[textdict[1172881]]'
 hide p3
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172882]]'
 hide p3
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172883]]'
 hide p3
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show oc003_01 18 as p3 at l(-6), light, zorder 5
+show oc003_01 18 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172884]]'
 hide p3
 hide p1
@@ -85,7 +85,7 @@ show oc001_01 2 as p1 at r(-2), dark, zorder 5
 c14401 '[textdict[1172901]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172902]]'
 hide p1
 hide p3

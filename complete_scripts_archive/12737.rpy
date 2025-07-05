@@ -7,7 +7,7 @@ with fade
 c0 '[textdict[1172848]]'
 play sfx2 "other_7014.ogg"
 c0 '[textdict[1172849]]'
-show st061_01 2 as p1304 at l_entrance(-2), light, zorder 5
+show st061_01 2 as p1304 at l_entrance(-2), light, zorder 6
 c13041 '[textdict[1172850]]'
 hide p1304
 show st061_01 2 as p1304 at l(-2), dark, zorder 6

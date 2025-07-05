@@ -5,6 +5,6 @@ play music "ed6564.ogg"
 scene avg_bg_004
 with fade
 play sfxvoice "avg_vocal_ch07.ogg"
-show oc002_01 5 as p2 at l(-3), light, zorder 5
+show oc002_01 5 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1142758]]'
 return

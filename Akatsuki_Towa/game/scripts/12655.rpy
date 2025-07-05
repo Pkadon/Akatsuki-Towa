@@ -8,7 +8,7 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166365]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 2 as p2 at l(-3), light, zorder 5
+show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1166366]]'
 play sfx2 "other_7043.ogg"
 hide p1
@@ -24,13 +24,13 @@ c13 '[textdict[1166368]]'
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1166369]]'
 play sfx2 "other_7045.ogg"
 hide p3
 hide p1
 c0 '[textdict[1166370]]'
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1166371]]'
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6

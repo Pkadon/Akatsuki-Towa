@@ -14,7 +14,7 @@ c6783 '[textdict[1004511]]'
 c6783 '[textdict[1004513]]'
 c6801 '[textdict[1004514]]'
 c6801 '[textdict[1004515]]'
-show oc001_01 2 as p1 at l_entrance(-2), light, zorder 5
+show oc001_01 2 as p1 at l_entrance(-2), light, zorder 6
 c11 '[textdict[1004516]]'
 play sfxvoice "avg_vocal_ro13.ogg"
 hide p1
@@ -25,7 +25,7 @@ play sfxvoice "avg_vocal_ch07.ogg"
 hide p1
 hide p3
 show oc003_01 8 as p3 at r(-6), dark, zorder 5
-show oc002_01 5 as p2 at l(-3), light, zorder 5
+show oc002_01 5 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1004518]]'
 hide p3
 hide p2

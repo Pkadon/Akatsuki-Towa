@@ -4,7 +4,7 @@ stop music
 scene avg_bg_071
 with fade
 play sfxvoice "avg_vocal_na10.ogg"
-show oc001_01 4 as p1 at l_entrance(-2), light, zorder 5
+show oc001_01 4 as p1 at l_entrance(-2), light, zorder 6
 c11 '[textdict[1006633]]'
 play sfxvoice "avg_vocal_ch21.ogg"
 hide p1
@@ -15,7 +15,7 @@ play sfxvoice "avg_vocal_li18.ogg"
 hide p1
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
-show oc004_01 8 as p4 at l(-5), light, zorder 5
+show oc004_01 8 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1006635]]'
 play sfxvoice "avg_vocal_ro19.ogg"
 hide p2

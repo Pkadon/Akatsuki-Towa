@@ -4,7 +4,7 @@ stop music
 play music "ed7117.ogg"
 scene avg_bg_011
 with fade
-show oc003_01 21 as p3 at l(-6), light, zorder 5
+show oc003_01 21 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172127]]'
 hide p3
 show oc003_01 21 as p3 at l(-6), dark, zorder 6
@@ -13,7 +13,7 @@ c13 '[textdict[1172128]]'
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172129]]'
 hide p3
 hide p1
@@ -183,12 +183,12 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172187]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 5
+show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172188]]'
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1172189]]'
 hide p3
 hide p1

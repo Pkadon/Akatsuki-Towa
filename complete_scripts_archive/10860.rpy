@@ -26,20 +26,20 @@ show sta61_01 5 as p2670 at r_entrance(-2), light, zorder 5
 c26703 '[textdict[1190884]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190885]]'
 hide p2670
 hide p1469
 show st064_01 1 as p1469 at l(-2), dark, zorder 6
 c14743 '[textdict[1190886]]'
 hide p1469
-show st064_01 2 as p1469 at l_midback(-2), light, zorder 5
+show st064_01 2 as p1469 at l_midback(-2), light, zorder 6
 c14691 '[textdict[1190887]]'
 hide p1469
 show st064_01 2 as p1469 at l(-2), dark, zorder 6
 c25973 '[textdict[1190888]]'
 hide p1469
-show st064_01 2 as p1469 at l(-2), light, zorder 5
+show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190889]]'
 hide p1469
 show st064_01 2 as p1469 at l(-2), dark, zorder 6
@@ -58,7 +58,7 @@ c26703 '[textdict[1190892]]'
 hide p1469
 hide p2670
 show sta61_01 4 as p2670 at r(-2), dark, zorder 5
-show st064_01 3 as p1469 at l(-2), light, zorder 5
+show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190893]]'
 hide p2670
 hide p1469
@@ -91,7 +91,7 @@ show sta61_01 5 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[1190901]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 3 as p1469 at l(-2), light, zorder 5
+show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190902]]'
 hide p1469
 hide p2670
@@ -105,12 +105,12 @@ show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 c14741 '[textdict[1190905]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 3 as p1469 at l(-2), light, zorder 5
+show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190906]]'
 hide p1469
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190907]]'
 hide p2670
 hide p1469
@@ -123,7 +123,7 @@ show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 c14751 '[textdict[1190909]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 2 as p1469 at l(-2), light, zorder 5
+show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190910]]'
 hide p2670
 hide p1469
@@ -133,7 +133,7 @@ c26703 '[textdict[1190911]]'
 hide p1469
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 5 as p1469 at l(-2), light, zorder 5
+show st064_01 5 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190912]]'
 hide p2670
 hide p1469
@@ -148,12 +148,12 @@ c26703 '[textdict[1190914]]'
 hide p1469
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 2 as p1469 at l(-2), light, zorder 5
+show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190915]]'
 hide p1469
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 3 as p1469 at l(-2), l_shake, light, zorder 5
+show st064_01 3 as p1469 at l(-2), l_shake, light, zorder 6
 c14691 '[textdict[1190916]]'
 play sfx2 "other_7047.ogg"
 hide p1469
@@ -162,7 +162,7 @@ show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 c14881 '[textdict[1190917]]'
 hide p2670
 c14743 '[textdict[1190918]]'
-show st064_01 1 as p1469 at l(-2), light, zorder 5
+show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190919]]'
 scene avg_bg_077
 with fade
@@ -244,7 +244,7 @@ show sta61_01 5 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[1190948]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
-show st064_01 2 as p1469 at l(-2), light, zorder 5
+show st064_01 2 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1190949]]'
 hide p2670
 hide p1469

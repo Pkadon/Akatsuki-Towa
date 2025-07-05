@@ -12,7 +12,7 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1151101]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 12 as p2 at l(-3), l_shake, light, zorder 5
+show oc002_01 12 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1151102]]'
 hide p1
 hide p2
@@ -54,7 +54,7 @@ c7403 '[textdict[1151117]]'
 c11501 '[textdict[1151118]]'
 c11501 '[textdict[1151119]]'
 c11501 '[textdict[1151120]]'
-show oc003_01 5 as p3 at l(-6), light, zorder 5
+show oc003_01 5 as p3 at l(-6), light, zorder 6
 with fade
 c31 '[textdict[1151121]]'
 hide p3

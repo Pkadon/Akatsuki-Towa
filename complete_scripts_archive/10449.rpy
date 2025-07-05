@@ -43,7 +43,7 @@ play music "ed7515.ogg"
 scene avg_bg_052
 show memoryoverlay zorder 2
 with fade
-show oc004_01 16 as p4 at l(-5), light, zorder 5
+show oc004_01 16 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1142297]]'
 scene avg_bg_061
 hide memoryoverlay
@@ -53,7 +53,7 @@ c13 '[textdict[1142298]]'
 scene avg_bg_022
 show memoryoverlay zorder 2
 with fade
-show oc003_01 21 as p3 at l(-6), light, zorder 5
+show oc003_01 21 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1142299]]'
 scene avg_bg_061
 hide memoryoverlay
@@ -66,11 +66,11 @@ c13 '[textdict[1142301]]'
 scene avg_bg_009
 show memoryoverlay zorder 2
 with fade
-show oc002_01 1 as p2 at l(-3), light, zorder 5
+show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1142302]]'
 show memoryoverlay zorder 2
 hide p2
-show oc002_01 1 as p2 at l(-3), light, zorder 5
+show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1142303]]'
 scene avg_bg_061
 hide memoryoverlay

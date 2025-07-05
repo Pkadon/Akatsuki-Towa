@@ -70,11 +70,11 @@ show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143525]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143526]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143527]]'
 show memoryoverlay zorder 2
 hide p1172
@@ -82,7 +82,7 @@ show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143528]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143529]]'
 show memoryoverlay zorder 2
 hide p1172
@@ -92,11 +92,11 @@ show memoryoverlay zorder 2
 hide p1172
 c0 '[textdict[1143531]]'
 show memoryoverlay zorder 2
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143532]]'
 show memoryoverlay zorder 2
 hide p1172
-show st039_01 1 as p1172 at l(-6), light, zorder 5
+show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143533]]'
 scene avg_bg_049
 show memoryoverlay zorder 2

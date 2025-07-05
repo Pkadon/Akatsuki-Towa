@@ -23,7 +23,7 @@ c473 '[textdict[2111578]]'
 play sfx2 "other_7088.ogg"
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 6 as p2731 at l(-2), light, zorder 5
+show oca00_01 6 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111579]]'
 hide p47
 hide p2731
@@ -33,20 +33,20 @@ c473 '[textdict[2111580]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111581]]'
 hide p47
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 c27413 '[textdict[2111582]]'
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111583]]'
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 c27413 '[textdict[2111584]]'
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111585]]'
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
@@ -55,13 +55,13 @@ c473 '[textdict[2111586]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111587]]'
 play sfx2 "other_7088.ogg"
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), l_shake, light, zorder 5
+show oca00_01 1 as p2731 at l(-2), l_shake, light, zorder 6
 c27311 '[textdict[2111588]]'
 hide p47
 hide p2731
@@ -71,7 +71,7 @@ c473 '[textdict[2111589]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111590]]'
 hide p47
 hide p2731
@@ -81,7 +81,7 @@ c473 '[textdict[2111591]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111592]]'
 stop music
 hide p47
@@ -93,7 +93,7 @@ stop music
 hide p2731
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111594]]'
 stop music
 hide p47
@@ -105,7 +105,7 @@ stop music
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111596]]'
 stop music
 hide p47
@@ -123,7 +123,7 @@ stop music
 hide p2731
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111599]]'
 play sfx2 "other_7088.ogg"
 hide p47
@@ -134,7 +134,7 @@ c473 '[textdict[2111600]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), l_shake, light, zorder 5
+show oca00_01 1 as p2731 at l(-2), l_shake, light, zorder 6
 c27311 '[textdict[2111601]]' (what_size=(gui.text_size*1.2))
 hide p47
 hide p2731
@@ -144,12 +144,12 @@ c473 '[textdict[2111602]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111603]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111604]]'
 hide p47
 hide p2731
@@ -165,7 +165,7 @@ play sfx2 "other_7088.ogg"
 hide p2731
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111607]]'
 hide p47
 hide p2731
@@ -175,7 +175,7 @@ c473 '[textdict[2111608]]'
 stop music
 scene avg_bg_070
 with fade
-show oca00_01 1 as p2731 at l_entrance(-2), light, zorder 5
+show oca00_01 1 as p2731 at l_entrance(-2), light, zorder 6
 c27311 '[textdict[2111609]]'
 stop music
 scene avg_bg_038
@@ -185,7 +185,7 @@ c473 '[textdict[2111610]]'
 stop music
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111611]]'
 stop music
 hide p47
@@ -202,7 +202,7 @@ c473 '[textdict[2111613]]'
 stop music
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111614]]'
 stop music
 hide p47
@@ -214,7 +214,7 @@ stop music
 hide p2731
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111616]]' (what_size=(gui.text_size*1.2)) with shake
 stop music
 hide p47
@@ -233,7 +233,7 @@ c473 '[textdict[2111619]]'
 play music "ed7151.ogg"
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111620]]'
 hide p47
 hide p2731
@@ -243,7 +243,7 @@ c473 '[textdict[2111621]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111622]]'
 hide p47
 hide p2731
@@ -253,7 +253,7 @@ c473 '[textdict[2111623]]'
 hide p2731
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111624]]'
 hide p47
 hide p2731
@@ -273,7 +273,7 @@ c473 '[textdict[2111627]]'
 hide p2731
 hide p47
 show sc040_01 5 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111628]]'
 hide p47
 hide p2731
@@ -283,36 +283,36 @@ c473 '[textdict[2111629]]'
 hide p2731
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111630]]'
 stop music
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111631]]'
 play music "ed7160.ogg"
 scene avg_bg_519
 show memoryoverlay zorder 2
 with fade
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111632]]'
 show memoryoverlay zorder 2
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111633]]'
 show memoryoverlay zorder 2
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111634]]'
 show memoryoverlay zorder 2
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 with fade
 c27311 '[textdict[2111635]]'
 show memoryoverlay zorder 2
 hide p2731
-show oc000_08 1 as p2733 at l(-2), light, zorder 5
+show oc000_08 1 as p2733 at l(-2), light, zorder 6
 c27331 '[textdict[2111636]]'
 show memoryoverlay zorder 2
 hide p2733
@@ -323,7 +323,7 @@ show memoryoverlay zorder 2
 hide p2733
 hide p2734
 show oc000_09 1 as p2734 at r(-2), dark, zorder 5
-show oc000_06 1 as p2735 at l(-2), light, zorder 5
+show oc000_06 1 as p2735 at l(-2), light, zorder 6
 c27351 '[textdict[2111638]]'
 show memoryoverlay zorder 2
 hide p2734
@@ -335,7 +335,7 @@ show memoryoverlay zorder 2
 hide p2735
 hide p2736
 show oc000_07 1 as p2736 at r(-2), dark, zorder 5
-show oc000_08 1 as p2733 at l(-2), light, zorder 5
+show oc000_08 1 as p2733 at l(-2), light, zorder 6
 c27331 '[textdict[2111640]]'
 show memoryoverlay zorder 2
 hide p2736
@@ -354,7 +354,7 @@ show memoryoverlay zorder 2
 hide p2733
 hide p2731
 show oca00_01 1 as p2731 at r(-2), dark, zorder 5
-show uc002_03 4 as p2738 at l(-23), light, zorder 5
+show uc002_03 4 as p2738 at l(-23), light, zorder 6
 c27381 '[textdict[2111643]]' (what_size=(gui.text_size*1.25)) with shake
 stop music
 show memoryoverlay zorder 2
@@ -373,7 +373,7 @@ stop music
 show memoryoverlay zorder 2
 hide p2731
 show oca00_01 1 as p2731 at r(-2), dark, zorder 5
-show oc000_09 1 as p2734 at l(-2), light, zorder 5
+show oc000_09 1 as p2734 at l(-2), light, zorder 6
 c27341 '[textdict[2111646]]'
 stop music
 show memoryoverlay zorder 2
@@ -394,7 +394,7 @@ show memoryoverlay zorder 2
 hide p2734
 hide p2735
 show oc000_06 1 as p2735 at r(-2), dark, zorder 5
-show uc002_03 4 as p2738 at l(-23), light, zorder 5
+show uc002_03 4 as p2738 at l(-23), light, zorder 6
 c27381 '[textdict[2111649]]'
 show memoryoverlay zorder 2
 hide p2735
@@ -412,7 +412,7 @@ show memoryoverlay zorder 2
 hide p2738
 hide p2733
 show oc000_08 1 as p2733 at r(-2), dark, zorder 5
-show uc002_03 4 as p2738 at l(-23), light, zorder 5
+show uc002_03 4 as p2738 at l(-23), light, zorder 6
 c27381 '[textdict[2111652]]'
 show memoryoverlay zorder 2
 hide p2738
@@ -430,7 +430,7 @@ c5001 '[textdict[2111655]]'
 show memoryoverlay zorder 2
 hide p2733
 show oc000_08 1 as p2733 at r(-2), dark, zorder 5
-show occ04_01 5 as p2627 at l_entrance(-5), light, zorder 5
+show occ04_01 5 as p2627 at l_entrance(-5), light, zorder 6
 c26271 '[textdict[2111656]]'
 show memoryoverlay zorder 2
 hide p2733
@@ -442,13 +442,13 @@ show memoryoverlay zorder 2
 hide p2627
 hide p2731
 show oca00_01 1 as p2731 at r(-2), dark, zorder 5
-show oc000_07 1 as p2736 at l(-2), light, zorder 5
+show oc000_07 1 as p2736 at l(-2), light, zorder 6
 c27361 '[textdict[2111658]]'
 show memoryoverlay zorder 2
 hide p2736
 hide p2731
 show oca00_01 1 as p2731 at r(-2), dark, zorder 5
-show occ04_01 4 as p2627 at l(-5), light, zorder 5
+show occ04_01 4 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111659]]'
 show memoryoverlay zorder 2
 hide p2731
@@ -457,7 +457,7 @@ show occ04_01 4 as p2627 at l(-5), dark, zorder 6
 c27433 '[textdict[2111660]]'
 show memoryoverlay zorder 2
 hide p2627
-show occ04_01 2 as p2627 at l(-5), light, zorder 5
+show occ04_01 2 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111661]]'
 show memoryoverlay zorder 2
 hide p2627
@@ -469,7 +469,7 @@ play sfx2 "fight_6010.ogg"
 hide p2627
 hide p2738
 show uc002_03 4 as p2738 at r(-23), dark, zorder 5
-show occ04_01 16 as p2627 at l_midback(-5), light, zorder 5
+show occ04_01 16 as p2627 at l_midback(-5), light, zorder 6
 c26271 '[textdict[2111663]]'
 show memoryoverlay zorder 2
 play sfx2 "other_7057.ogg"
@@ -482,7 +482,7 @@ show memoryoverlay zorder 2
 hide p2627
 hide p2738
 show uc002_03 4 as p2738 at r(-23), dark, zorder 5
-show occ04_01 16 as p2627 at l(-5), light, zorder 5
+show occ04_01 16 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111665]]'
 show memoryoverlay zorder 2
 hide p2738
@@ -494,7 +494,7 @@ show memoryoverlay zorder 2
 hide p2627
 hide p2738
 show uc002_03 4 as p2738 at r(-23), dark, zorder 5
-show occ04_01 16 as p2627 at l(-5), light, zorder 5
+show occ04_01 16 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111667]]'
 show memoryoverlay zorder 2
 hide p2738
@@ -514,7 +514,7 @@ c27451 '[textdict[2111670]]'
 show memoryoverlay zorder 2
 hide p2738
 show uc002_03 4 as p2738 at r(-23), dark, zorder 5
-show occ04_01 4 as p2627 at l(-5), light, zorder 5
+show occ04_01 4 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111671]]'
 show memoryoverlay zorder 2
 hide p2738
@@ -523,15 +523,15 @@ show occ04_01 4 as p2627 at l(-5), dark, zorder 6
 c6433 '[textdict[2111672]]'
 show memoryoverlay zorder 2
 hide p2627
-show occ04_01 18 as p2627 at l(-5), light, zorder 5
+show occ04_01 18 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111673]]'
 show memoryoverlay zorder 2
 hide p2627
-show occ04_01 22 as p2627 at l(-5), light, zorder 5
+show occ04_01 22 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111674]]'
 show memoryoverlay zorder 2
 hide p2627
-show occ04_01 9 as p2627 at l(-5), light, zorder 5
+show occ04_01 9 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111675]]'
 show memoryoverlay zorder 2
 hide p2627
@@ -548,7 +548,7 @@ show memoryoverlay zorder 2
 hide p2627
 hide p2733
 show oc000_08 1 as p2733 at r(-2), dark, zorder 5
-show occ04_01 9 as p2627 at l(-5), light, zorder 5
+show occ04_01 9 as p2627 at l(-5), light, zorder 6
 c26271 '[textdict[2111678]]'
 show memoryoverlay zorder 2
 hide p2733
@@ -561,7 +561,7 @@ hide p2627
 hide p2737
 c0 '[textdict[2111680]]'
 show memoryoverlay zorder 2
-show oc000_06 1 as p2735 at l(-2), light, zorder 5
+show oc000_06 1 as p2735 at l(-2), light, zorder 6
 c27351 '[textdict[2111681]]'
 show memoryoverlay zorder 2
 hide p2735
@@ -588,7 +588,7 @@ c27373 '[textdict[2111686]]'
 show memoryoverlay zorder 2
 hide p2737
 show ocb06_01 1 as p2737 at r(-5), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111687]]'
 show memoryoverlay zorder 2
 hide p2737
@@ -628,7 +628,7 @@ c26273 '[textdict[2111695]]'
 show memoryoverlay zorder 2
 hide p2627
 show occ04_01 5 as p2627 at r(-5), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111696]]'
 show memoryoverlay zorder 2
 hide p2627
@@ -640,7 +640,7 @@ show memoryoverlay zorder 2
 hide p2731
 hide p2627
 show occ04_01 8 as p2627 at r(-5), dark, zorder 5
-show oc000_09 1 as p2734 at l(-2), light, zorder 5
+show oc000_09 1 as p2734 at l(-2), light, zorder 6
 c27341 '[textdict[2111698]]'
 show memoryoverlay zorder 2
 hide p2627
@@ -678,7 +678,7 @@ c26273 '[textdict[2111704]]'
 show memoryoverlay zorder 2
 hide p2627
 show occ04_01 5 as p2627 at r(-5), dark, zorder 5
-show oc000_06 1 as p2735 at l(-2), light, zorder 5
+show oc000_06 1 as p2735 at l(-2), light, zorder 6
 c27351 '[textdict[2111705]]'
 show memoryoverlay zorder 2
 hide p2627
@@ -696,7 +696,7 @@ show memoryoverlay zorder 2
 hide p2735
 hide p2627
 show occ04_01 16 as p2627 at r(-5), dark, zorder 5
-show ocb06_01 1 as p2737 at l(-5), light, zorder 5
+show ocb06_01 1 as p2737 at l(-5), light, zorder 6
 c27371 '[textdict[2111708]]'
 show memoryoverlay zorder 2
 hide p2737
@@ -742,7 +742,7 @@ c27313 '[textdict[2111718]]'
 show memoryoverlay zorder 2
 hide p2731
 show oca00_01 1 as p2731 at r(-2), dark, zorder 5
-show oc000_07 1 as p2736 at l(-2), light, zorder 5
+show oc000_07 1 as p2736 at l(-2), light, zorder 6
 c27361 '[textdict[2111719]]'
 show memoryoverlay zorder 2
 hide p2731
@@ -754,7 +754,7 @@ show memoryoverlay zorder 2
 hide p2736
 hide p2735
 show oc000_06 1 as p2735 at r(-2), dark, zorder 5
-show oc000_08 1 as p2733 at l(-2), light, zorder 5
+show oc000_08 1 as p2733 at l(-2), light, zorder 6
 c27331 '[textdict[2111721]]'
 show memoryoverlay zorder 2
 hide p2735
@@ -766,19 +766,19 @@ play music "ed7513.ogg"
 scene avg_bg_038
 hide memoryoverlay
 with fade
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111723]]'
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111724]]'
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111725]]'
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111726]]'
 hide p2731
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111727]]'
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
@@ -787,27 +787,27 @@ c473 '[textdict[2111728]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111729]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111730]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111731]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111732]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111733]]'
 hide p47
 hide p2731
@@ -817,7 +817,7 @@ c473 '[textdict[2111734]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111735]]'
 hide p47
 hide p2731
@@ -832,7 +832,7 @@ c473 '[textdict[2111737]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111738]]'
 hide p47
 hide p2731
@@ -852,7 +852,7 @@ c473 '[textdict[2111741]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111742]]'
 hide p47
 hide p2731
@@ -863,7 +863,7 @@ play sfx2 "other_7088.ogg"
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l_midback(-2), light, zorder 5
+show oca00_01 1 as p2731 at l_midback(-2), light, zorder 6
 c27311 '[textdict[2111744]]'
 play sfx2 "other_7092.ogg"
 hide p47
@@ -881,7 +881,7 @@ show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111747]]'
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111748]]'
 hide p47
 hide p2731
@@ -906,7 +906,7 @@ c473 '[textdict[2111752]]'
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111753]]'
 hide p47
 hide p2731
@@ -921,7 +921,7 @@ c473 '[textdict[2111755]]'
 hide p2731
 hide p47
 show sc040_01 5 as p47 at r(-9), dark, zorder 5
-show oca00_01 1 as p2731 at l(-2), light, zorder 5
+show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111756]]'
 hide p47
 hide p2731

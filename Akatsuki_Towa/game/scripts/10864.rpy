@@ -106,7 +106,7 @@ c26663 '[textdict[1191298]]'
 stop music
 hide p2666
 show oce02_01 15 as p2666 at r(-3), dark, zorder 5
-show ocd01_01 1 as p2665 at l_entrance(-2), light, zorder 5
+show ocd01_01 1 as p2665 at l_entrance(-2), light, zorder 6
 c26651 '[textdict[1191299]]'
 stop music
 hide p2666
@@ -122,7 +122,7 @@ stop music
 hide p2665
 hide p2666
 show oce02_01 14 as p2666 at r(-3), dark, zorder 5
-show ocd01_01 22 as p2665 at l(-2), light, zorder 5
+show ocd01_01 22 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191302]]'
 stop music
 hide p2666
@@ -273,7 +273,7 @@ show ocd01_01 10 as p2665 at r(-2), light, zorder 5
 c26653 '[textdict[1191355]]'
 hide p2665
 show ocd01_01 10 as p2665 at r(-2), dark, zorder 5
-show oce02_01 21 as p2666 at l(-3), light, zorder 5
+show oce02_01 21 as p2666 at l(-3), light, zorder 6
 c26661 '[textdict[1191356]]'
 hide p2665
 hide p2666
@@ -292,7 +292,7 @@ show st040_01 4 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191360]]'
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
-show ocd01_01 2 as p2665 at l(-2), light, zorder 5
+show ocd01_01 2 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191361]]'
 stop music
 hide p239
@@ -304,13 +304,13 @@ stop music
 hide p2665
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
-show oce02_01 1 as p2666 at l(-3), light, zorder 5
+show oce02_01 1 as p2666 at l(-3), light, zorder 6
 c26661 '[textdict[1191363]]'
 stop music
 hide p2666
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
-show ocd01_01 4 as p2665 at l(-2), light, zorder 5
+show ocd01_01 4 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191364]]'
 stop music
 hide p2668
@@ -338,7 +338,7 @@ c26683 '[textdict[1191369]]'
 stop music
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
-show oce02_01 4 as p2666 at l(-3), light, zorder 5
+show oce02_01 4 as p2666 at l(-3), light, zorder 6
 c26661 '[textdict[1191370]]'
 stop music
 hide p2668
@@ -350,12 +350,12 @@ stop music
 hide p2666
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
-show ocd01_01 4 as p2665 at l(-2), light, zorder 5
+show ocd01_01 4 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191372]]'
 stop music
 hide p2665
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
-show ocd01_01 1 as p2665 at l(-2), light, zorder 5
+show ocd01_01 1 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191373]]'
 return

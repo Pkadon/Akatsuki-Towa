@@ -19,7 +19,7 @@ show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1216099]]' (what_size=(gui.text_size*0.9))
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc049_01 5 as p56 at l(-8), light, zorder 5
+show sc049_01 5 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1216100]]' (what_size=(gui.text_size*0.9))
 hide p1
 hide p56
@@ -29,7 +29,7 @@ c13 '[textdict[1216101]]' (what_size=(gui.text_size*0.9))
 hide p56
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc049_01 10 as p56 at l(-8), light, zorder 5
+show sc049_01 10 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1216102]]' (what_size=(gui.text_size*0.9))
 hide p1
 hide p56
@@ -39,7 +39,7 @@ c23 '[textdict[1216103]]' (what_size=(gui.text_size*0.9))
 hide p56
 hide p2
 c0 '[textdict[1216104]]' (what_size=(gui.text_size*0.9))
-show sc049_01 1 as p56 at l(-8), light, zorder 5
+show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1216105]]' (what_size=(gui.text_size*0.9))
 hide p56
 c0 '[textdict[1216106]]' (what_size=(gui.text_size*0.9))

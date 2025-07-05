@@ -4,7 +4,7 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_071
 with fade
-show sc001_01 2 as p9 at l(-11), light, zorder 5
+show sc001_01 2 as p9 at l(-11), light, zorder 6
 c91 '[textdict[1218085]]' (what_size=(gui.text_size*0.9))
 play sfxvoice "bcv_oc002_win_02.ogg"
 hide p9
@@ -14,12 +14,12 @@ c13 '[textdict[1218086]]' (what_size=(gui.text_size*0.9))
 hide p9
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc001_01 1 as p9 at l(-11), light, zorder 5
+show sc001_01 1 as p9 at l(-11), light, zorder 6
 c91 '[textdict[1218087]]' (what_size=(gui.text_size*0.9))
 hide p9
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc001_01 5 as p9 at l(-11), light, zorder 5
+show sc001_01 5 as p9 at l(-11), light, zorder 6
 c91 '[textdict[1218088]]' (what_size=(gui.text_size*0.9))
 play sfxvoice "bcv_oc002_win_02.ogg"
 hide p1

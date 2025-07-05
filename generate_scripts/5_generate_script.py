@@ -272,12 +272,15 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#figure out where on the screen character portrait goes
 			if charPos == 1: 
 				portraitpos = 'l'
+				zorder = 6
 				darkpos = 'r'
 			elif charPos == 3: 
 				portraitpos = 'r'
+				zorder = 5
 				darkpos = 'l'
 			elif charPos in [2, 0]: 
 				portraitpos = 'mid'
+				zorder = 5
 				darkpos = None
 				if state_dict['l']:
 					f.write(f"hide {state_dict['l']['alias'] }\n")
@@ -300,6 +303,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				portrait_dict['alias'] = alias
 				portrait_dict['expression'] = expression
 				portrait_dict['offset'] = offset
+				portrait_dict['zorder'] = zorder
 
 				state_dict[portraitpos] = portrait_dict
 				
@@ -313,15 +317,14 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 						state_dict[darkpos] = None
 						
 				if state_dict[darkpos]: 
-					if darkpos == 'l': darkzorder = 6
-					else: darkzorder = 5
 					f.write(f"hide {state_dict[darkpos]['alias']}\n")
-					
+
 					f.write(
-					f"show {state_dict[darkpos]['folderName']} "
-					f"{state_dict[darkpos]['expression']} as "
-					f"{state_dict[darkpos]['alias']} at "
-					f"{darkpos}({state_dict[darkpos]['offset']}), dark, zorder {darkzorder}\n"
+						f"show {state_dict[darkpos]['folderName']} "
+						f"{state_dict[darkpos]['expression']} "
+						f"as {state_dict[darkpos]['alias']} "
+						f"at {darkpos}({state_dict[darkpos]['offset']}), dark, "
+						f"zorder {state_dict[darkpos]['zorder']}\n"
 					)
 				
 			if folderName:
@@ -340,7 +343,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				elif effect == 202: renpytransform += ', l_shake'
 
 				#SHOW PORTRAIT									
-				portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder 5' 
+				portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder {zorder}' 
 				f.write(f"{portrait}\n")
 
 			#need the fade after all images are set up, before dialogue appears

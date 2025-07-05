@@ -39,6 +39,6 @@ c0 '[textdict[1172546]]'
 c13361 '[textdict[1172547]]'
 c13361 '[textdict[1172548]]'
 c5003 '[textdict[1172549]]'
-show st061_01 5 as p1304 at l(-2), light, zorder 5
+show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1172550]]'
 return

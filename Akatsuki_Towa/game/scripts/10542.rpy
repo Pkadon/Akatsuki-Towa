@@ -9,7 +9,7 @@ show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152696]]'
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 5
+show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1152697]]'
 hide p2
 hide p3
@@ -23,7 +23,7 @@ show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152699]]'
 hide p3
 hide p1
-show st040_01 5 as p239 at l(-19), light, zorder 5
+show st040_01 5 as p239 at l(-19), light, zorder 6
 with fade
 c2391 '[textdict[1152700]]'
 play sfxvoice "avg_vocal_li03.ogg"

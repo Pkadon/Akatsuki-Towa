@@ -11,7 +11,7 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c13351 '[textdict[1166955]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 7 as p3 at l(-6), light, zorder 5
+show oc003_01 7 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1166956]]'
 hide p1
 hide p3
@@ -21,7 +21,7 @@ c43 '[textdict[1166957]]'
 hide p3
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
-show oc002_01 9 as p2 at l(-3), light, zorder 5
+show oc002_01 9 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1166958]]'
 hide p4
 hide p2
@@ -59,7 +59,7 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166969]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc004_01 4 as p4 at l(-5), light, zorder 5
+show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1166970]]'
 hide p1
 hide p4

@@ -13,7 +13,7 @@ show oc003_01 4 as p3 at r_entrance(-6), light, zorder 5
 c33 '[textdict[1130148]]'
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130149]]'
 hide p3
 hide p51
@@ -23,7 +23,7 @@ c33 '[textdict[1130150]]'
 hide p51
 hide p3
 show oc003_01 18 as p3 at r(-6), dark, zorder 5
-show sc044_01 1 as p51 at l(-7), light, zorder 5
+show sc044_01 1 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130151]]'
 hide p3
 hide p51
@@ -38,7 +38,7 @@ c33 '[textdict[1130153]]'
 hide p51
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130154]]'
 hide p3
 hide p51
@@ -52,15 +52,15 @@ show oc003_01 7 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1130156]]'
 hide p51
 hide p3
-show oc004_01 10 as p4 at l(-5), light, zorder 5
+show oc004_01 10 as p4 at l(-5), light, zorder 6
 with fade
 c41 '[textdict[1130157]]'
 play sfxvoice "avg_vocal_li02.ogg"
 hide p4
-show oc004_01 9 as p4 at l(-5), light, zorder 5
+show oc004_01 9 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1130158]]'
 hide p4
-show oc004_01 5 as p4 at l(-5), light, zorder 5
+show oc004_01 5 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1130159]]'
 play sfxvoice "avg_vocal_na02.ogg"
 hide p4
@@ -69,7 +69,7 @@ show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1130160]]'
 hide p4
 hide p1
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 with fade
 c511 '[textdict[1130161]]'
 hide p51
@@ -78,7 +78,7 @@ show oc004_01 13 as p4 at r(-5), r_shake, light, zorder 5
 c43 '[textdict[1130162]]'
 hide p51
 hide p4
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 with fade
 c21 '[textdict[1130163]]'
 play sfxvoice "avg_vocal_na05.ogg"
@@ -94,7 +94,7 @@ with fade
 c43 '[textdict[1130165]]'
 hide p4
 show oc004_01 20 as p4 at r(-5), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130166]]'
 hide p4
 hide p51
@@ -109,7 +109,7 @@ c33 '[textdict[1130168]]'
 hide p51
 hide p3
 show oc003_01 8 as p3 at r(-6), dark, zorder 5
-show sc044_01 1 as p51 at l(-7), light, zorder 5
+show sc044_01 1 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130169]]'
 hide p3
 hide p51
@@ -119,12 +119,12 @@ c33 '[textdict[1130170]]'
 hide p51
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130171]]'
 hide p51
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130172]]'
 hide p3
 hide p51
@@ -139,6 +139,6 @@ c13 '[textdict[1130174]]'
 hide p51
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show sc044_01 4 as p51 at l(-7), light, zorder 5
+show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[1130175]]'
 return

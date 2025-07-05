@@ -9,7 +9,7 @@ show oc005_01 2 as p5 at r(-6), light, zorder 5
 c53 '[textdict[1128006]]'
 hide p5
 show oc005_01 2 as p5 at r(-6), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, zorder 5
+show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1128011]]'
 play sfxvoice "avg_vocal_ji06.ogg"
 hide p5

@@ -133,7 +133,7 @@ show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106465]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106466]]'
 hide p1
 hide p632
@@ -148,17 +148,17 @@ c13 '[textdict[2106468]]'
 hide p632
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106469]]'
 hide p632
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc014_01 5 as p632 at l(-6), light, zorder 5
+show sc014_01 5 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106470]]'
 hide p632
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106471]]'
 hide p1
 hide p632
@@ -181,13 +181,13 @@ c13 '[textdict[2106475]]'
 hide p632
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc014_01 4 as p632 at l(-6), light, zorder 5
+show sc014_01 4 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106476]]'
 play sfx2 "other_7088.ogg"
 hide p632
 hide p1
 c0 '[textdict[2106477]]'
-show sc014_01 4 as p632 at l(-6), light, zorder 5
+show sc014_01 4 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106478]]'
 hide p632
 show sc014_01 4 as p632 at l(-6), dark, zorder 6
@@ -197,17 +197,17 @@ play music "ed7452.ogg"
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 4 as p632 at l(-6), light, zorder 5
+show sc014_01 4 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106480]]'
 hide p632
 hide p1
 c0 '[textdict[2106481]]'
 play sfx2 "fight_6023.ogg"
-show sc014_01 4 as p632 at l(-6), light, zorder 5
+show sc014_01 4 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106482]]' with shake
 play sfx2 "fight_6001.ogg"
 hide p632
-show sc014_01 4 as p632 at l_midback(-6), light, zorder 5
+show sc014_01 4 as p632 at l_midback(-6), light, zorder 6
 c6321 '[textdict[2106483]]'
 hide p632
 show sc014_01 4 as p632 at l(-6), dark, zorder 6
@@ -226,17 +226,17 @@ c13 '[textdict[2106486]]'
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106487]]'
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106488]]'
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106489]]'
 hide p1
 hide p632
@@ -262,7 +262,7 @@ play sfx2 "fight_6018.ogg"
 hide p632
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
-show sc014_01 4 as p632 at l(-6), l_shake, light, zorder 5
+show sc014_01 4 as p632 at l(-6), l_shake, light, zorder 6
 c6321 '[textdict[2106494]]'
 hide p1
 hide p632
@@ -278,10 +278,10 @@ hide p1
 c0 '[textdict[2106497]]'
 c0 '[textdict[2106498]]'
 play music "ED6104.ogg"
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106499]]'
 hide p632
-show sc014_01 5 as p632 at l(-6), light, zorder 5
+show sc014_01 5 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106500]]'
 hide p632
 show sc014_01 5 as p632 at l(-6), dark, zorder 6
@@ -296,7 +296,7 @@ c13 '[textdict[2106503]]'
 hide p632
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc014_01 5 as p632 at l(-6), light, zorder 5
+show sc014_01 5 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106504]]'
 hide p1
 hide p632
@@ -306,7 +306,7 @@ c13 '[textdict[2106505]]'
 hide p632
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc014_01 2 as p632 at l(-6), light, zorder 5
+show sc014_01 2 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106506]]'
 hide p1
 hide p632
@@ -316,17 +316,17 @@ c13 '[textdict[2106507]]'
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106508]]'
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106509]]'
 hide p632
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106510]]'
 hide p1
 hide p632
@@ -336,7 +336,7 @@ c13 '[textdict[2106511]]'
 hide p632
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106512]]'
 hide p1
 hide p632
@@ -346,12 +346,12 @@ c13 '[textdict[2106513]]'
 hide p632
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc014_01 1 as p632 at l(-6), light, zorder 5
+show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106514]]'
 hide p632
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc014_01 5 as p632 at l(-6), light, zorder 5
+show sc014_01 5 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[2106515]]'
 hide p1
 hide p632

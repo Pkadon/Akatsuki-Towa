@@ -18,7 +18,7 @@ show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152449]]'
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
-show oc003_01 2 as p3 at l(-6), light, zorder 5
+show oc003_01 2 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1152450]]'
 hide p2
 hide p3
@@ -135,7 +135,7 @@ show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152487]]'
 hide p1
 show oc001_01 16 as p1 at r(-2), dark, zorder 5
-show oc002_01 8 as p2 at l(-3), light, zorder 5
+show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1152488]]'
 hide p1
 hide p2
@@ -152,7 +152,7 @@ play sfxvoice "avg_vocal_ch07.ogg"
 hide p2
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show oc002_01 5 as p2 at l(-3), light, zorder 5
+show oc002_01 5 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1152491]]'
 hide p1
 hide p2

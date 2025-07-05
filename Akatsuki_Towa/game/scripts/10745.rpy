@@ -16,13 +16,13 @@ c43 '[textdict[1173210]]'
 show memoryoverlay zorder 2
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173211]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173212]]'
 show memoryoverlay zorder 2
 hide p4
@@ -34,25 +34,25 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173214]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173215]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173216]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173217]]'
 show memoryoverlay zorder 2
 hide p4
@@ -67,7 +67,7 @@ c0 '[textdict[1173219]]'
 show memoryoverlay zorder 2
 c0 '[textdict[1173220]]'
 show memoryoverlay zorder 2
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173221]]'
 show memoryoverlay zorder 2
 hide p227
@@ -78,13 +78,13 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173223]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173224]]'
 show memoryoverlay zorder 2
 hide p4
@@ -102,7 +102,7 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173227]]'
 show memoryoverlay zorder 2
 hide p4
@@ -126,19 +126,19 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173231]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173232]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173233]]'
 show memoryoverlay zorder 2
 hide p4
@@ -156,7 +156,7 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173236]]'
 show memoryoverlay zorder 2
 hide p4
@@ -168,7 +168,7 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 9 as p4 at r(-5), dark, zorder 5
-show st028_01 1 as p227 at l(8), light, zorder 5
+show st028_01 1 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173238]]'
 show memoryoverlay zorder 2
 hide p4
@@ -180,7 +180,7 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173240]]'
 show memoryoverlay zorder 2
 hide p4
@@ -192,12 +192,12 @@ show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173242]]'
 show memoryoverlay zorder 2
 hide p227
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show st028_01 4 as p227 at l(8), light, zorder 5
+show st028_01 4 as p227 at l(8), light, zorder 6
 c2271 '[textdict[1173243]]'
 return

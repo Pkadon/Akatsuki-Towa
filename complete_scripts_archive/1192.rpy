@@ -5,7 +5,7 @@ play music "ed7300.ogg"
 scene avg_bg_071
 with fade
 play sfx2 "other_7057.ogg"
-show occ02_01 3 as p2625 at l_entrance(-3), light, zorder 5
+show occ02_01 3 as p2625 at l_entrance(-3), light, zorder 6
 c26251 '[textdict[2107303]]'
 hide p2625
 show occ02_01 3 as p2625 at l(-3), dark, zorder 6
@@ -14,12 +14,12 @@ c26303 '[textdict[2107304]]'
 hide p2625
 hide p2630
 show scc45_01 3 as p2630 at r(-11), dark, zorder 5
-show occ02_01 21 as p2625 at l(-3), l_shake, light, zorder 5
+show occ02_01 21 as p2625 at l(-3), l_shake, light, zorder 6
 c26251 '[textdict[2107305]]'
 hide p2625
 hide p2630
 show scc45_01 3 as p2630 at r(-11), dark, zorder 5
-show occ02_01 9 as p2625 at l(-3), light, zorder 5
+show occ02_01 9 as p2625 at l(-3), light, zorder 6
 c26251 '[textdict[2107306]]'
 hide p2630
 hide p2625
@@ -29,13 +29,13 @@ c26303 '[textdict[2107307]]'
 hide p2625
 hide p2630
 show scc45_01 2 as p2630 at r(-11), dark, zorder 5
-show occ02_01 4 as p2625 at l(-3), light, zorder 5
+show occ02_01 4 as p2625 at l(-3), light, zorder 6
 c26251 '[textdict[2107308]]'
 play sfx2 "other_7086.ogg"
 hide p2625
 hide p2630
 show scc45_01 2 as p2630 at r(-11), dark, zorder 5
-show occ02_01 21 as p2625 at l_exit(-3), light, zorder 5
+show occ02_01 21 as p2625 at l_exit(-3), light, zorder 6
 c26251 '[textdict[2107309]]'
 hide p2625
 hide p2630
@@ -59,7 +59,7 @@ c26303 '[textdict[2107315]]'
 play music "ed7150.ogg"
 scene avg_bg_013
 with fade
-show ocb01_01 18 as p2634 at l_entrance(-2), light, zorder 5
+show ocb01_01 18 as p2634 at l_entrance(-2), light, zorder 6
 c26341 '[textdict[2107316]]'
 hide p2634
 show ocb01_01 18 as p2634 at l(-2), dark, zorder 6
@@ -68,13 +68,13 @@ hide p2634
 show ocb01_01 18 as p2634 at l(-2), dark, zorder 6
 c15043 '[textdict[2107318]]'
 hide p2634
-show ocb01_01 18 as p2634 at l(-2), light, zorder 5
+show ocb01_01 18 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107319]]'
 hide p2634
 show ocb01_01 18 as p2634 at l(-2), dark, zorder 6
 c11543 '[textdict[2107320]]'
 hide p2634
-show ocb01_01 18 as p2634 at l(-2), light, zorder 5
+show ocb01_01 18 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107321]]'
 hide p2634
 show ocb01_01 18 as p2634 at l(-2), dark, zorder 6
@@ -83,7 +83,7 @@ c26313 '[textdict[2107322]]'
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 18 as p2634 at l(-2), light, zorder 5
+show ocb01_01 18 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107323]]'
 hide p2631
 hide p2634
@@ -93,7 +93,7 @@ c26313 '[textdict[2107324]]'
 hide p2634
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 18 as p2634 at l(-2), light, zorder 5
+show ocb01_01 18 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107325]]'
 hide p2631
 hide p2634
@@ -103,7 +103,7 @@ c26313 '[textdict[2107326]]'
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 18 as p2634 at l(-2), light, zorder 5
+show ocb01_01 18 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107327]]'
 hide p2631
 hide p2634
@@ -122,11 +122,11 @@ show scb41_01 5 as p2631 at r_exit(-9), light, zorder 5
 c26313 '[textdict[2107330]]'
 hide p2631
 hide p2634
-show ocb01_01 12 as p2634 at l(-2), light, zorder 5
+show ocb01_01 12 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107331]]'
 stop music
 hide p2634
-show ocb01_01 9 as p2634 at l_entrance(-2), light, zorder 5
+show ocb01_01 9 as p2634 at l_entrance(-2), light, zorder 6
 c26341 '[textdict[2107332]]' (what_size=(gui.text_size*1.2)) with shake
 stop music
 hide p2634
@@ -137,13 +137,13 @@ stop music
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 12 as p2634 at l(-2), light, zorder 5
+show ocb01_01 12 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107334]]'
 play music "ed7452.ogg"
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 20 as p2634 at l(-2), light, zorder 5
+show ocb01_01 20 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107335]]'
 hide p2631
 hide p2634
@@ -153,7 +153,7 @@ c26313 '[textdict[2107336]]'
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 15 as p2634 at l_midback(-2), light, zorder 5
+show ocb01_01 15 as p2634 at l_midback(-2), light, zorder 6
 c26341 '[textdict[2107337]]'
 hide p2631
 hide p2634
@@ -166,7 +166,7 @@ hide p2634
 hide p2631
 c0 '[textdict[2107339]]' with shake
 stop music
-show ocb01_01 14 as p2634 at l(-2), light, zorder 5
+show ocb01_01 14 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107340]]'
 stop music
 hide p2634
@@ -177,7 +177,7 @@ stop music
 hide p2634
 hide p2631
 show scb41_01 4 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 14 as p2634 at l(-2), light, zorder 5
+show ocb01_01 14 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107342]]'
 stop music
 hide p2631
@@ -189,13 +189,13 @@ stop music
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 14 as p2634 at l(-2), light, zorder 5
+show ocb01_01 14 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107344]]'
 stop music
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 19 as p2634 at l(-2), light, zorder 5
+show ocb01_01 19 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107345]]'
 stop music
 hide p2631
@@ -210,7 +210,7 @@ hide p2631
 c0 '[textdict[2107347]]'
 play music "ed7518.ogg"
 play sfx2 "other_7004.ogg"
-show ocb01_01 16 as p2626 at l(-2), light, zorder 5
+show ocb01_01 16 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107348]]'
 hide p2626
 show ocb01_01 16 as p2626 at l(-2), dark, zorder 6
@@ -219,22 +219,22 @@ c26313 '[textdict[2107349]]'
 hide p2626
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 15 as p2626 at l(-2), light, zorder 5
+show ocb01_01 15 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107350]]'
 hide p2626
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 9 as p2626 at l(-2), light, zorder 5
+show ocb01_01 9 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107351]]'
 hide p2626
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 20 as p2626 at l(-2), light, zorder 5
+show ocb01_01 20 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107352]]'
 hide p2626
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 8 as p2626 at l(-2), light, zorder 5
+show ocb01_01 8 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107353]]'
 play sfx2 "other_7064.ogg"
 hide p2631
@@ -260,7 +260,7 @@ c26313 '[textdict[2107358]]'
 hide p2626
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 19 as p2626 at l(-2), light, zorder 5
+show ocb01_01 19 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107359]]'
 hide p2626
 hide p2631
@@ -268,7 +268,7 @@ show scb41_01 1 as p2631 at r(-9), dark, zorder 5
 c26451 '[textdict[2107360]]'
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 12 as p2626 at l(-2), light, zorder 5
+show ocb01_01 12 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107361]]'
 hide p2626
 hide p2631
@@ -285,22 +285,22 @@ show scb41_01 1 as p2631 at r(-9), light, zorder 5
 c26313 '[textdict[2107365]]'
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 4 as p2626 at l(-2), light, zorder 5
+show ocb01_01 4 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107366]]'
 hide p2626
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 19 as p2626 at l(-2), light, zorder 5
+show ocb01_01 19 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107367]]'
 hide p2626
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 15 as p2626 at l(-2), light, zorder 5
+show ocb01_01 15 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107368]]'
 hide p2626
 hide p2631
 show scb41_01 1 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 9 as p2626 at l_midback(-2), light, zorder 5
+show ocb01_01 9 as p2626 at l_midback(-2), light, zorder 6
 c26261 '[textdict[2107369]]'
 play music "ed7452.ogg"
 hide p2631
@@ -317,7 +317,7 @@ c26313 '[textdict[2107371]]'
 hide p2626
 hide p2631
 show scb41_01 4 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 12 as p2626 at l(-2), light, zorder 5
+show ocb01_01 12 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107372]]'
 hide p2631
 hide p2626
@@ -332,12 +332,12 @@ c26313 '[textdict[2107374]]'
 hide p2626
 hide p2631
 show scb41_01 4 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 13 as p2626 at l(-2), light, zorder 5
+show ocb01_01 13 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107375]]'
 hide p2626
 hide p2631
 show scb41_01 4 as p2631 at r(-9), dark, zorder 5
-show ocb01_01 15 as p2626 at l(-2), light, zorder 5
+show ocb01_01 15 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107376]]' (what_size=(gui.text_size*1.2)) with shake
 hide p2626
 hide p2631

@@ -5,7 +5,7 @@ play music "ed7202.ogg"
 scene avg_bg_010
 with fade
 play sfx2 "other_7060.ogg"
-show st061_01 5 as p1304 at l_entrance(-2), light, zorder 5
+show st061_01 5 as p1304 at l_entrance(-2), light, zorder 6
 c13041 '[textdict[1170158]]'
 hide p1304
 show st061_01 5 as p1304 at l(-2), dark, zorder 6
@@ -14,7 +14,7 @@ c13 '[textdict[1170159]]'
 hide p1304
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show st061_01 1 as p1304 at l(-2), light, zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170160]]'
 hide p1
 hide p1304
@@ -24,12 +24,12 @@ c13 '[textdict[1170161]]'
 hide p1304
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st061_01 4 as p1304 at l(-2), light, zorder 5
+show st061_01 4 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170162]]'
 hide p1304
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st061_01 4 as p1304 at l(-2), light, zorder 5
+show st061_01 4 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170163]]'
 hide p1
 hide p1304
@@ -39,7 +39,7 @@ c13 '[textdict[1170164]]'
 hide p1304
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show st061_01 1 as p1304 at l(-2), light, zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170165]]'
 play sfx2 "other_7004.ogg"
 hide p1304
@@ -49,10 +49,10 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170167]]'
 hide p1
 c0 '[textdict[1170168]]'
-show st061_01 5 as p1304 at l(-2), light, zorder 5
+show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170169]]'
 hide p1304
-show st061_01 1 as p1304 at l(-2), light, zorder 5
+show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1170170]]'
 hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6

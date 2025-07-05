@@ -5,7 +5,7 @@ play music "ed7516.ogg"
 scene avg_bg_074
 with fade
 c0 '[textdict[1171259]]'
-show oc005_01 1 as p5 at l(-6), light, zorder 5
+show oc005_01 1 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1171260]]'
 hide p5
 show oc005_01 1 as p5 at l(-6), dark, zorder 6
@@ -52,7 +52,7 @@ show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1171275]]'
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
-show oc005_01 4 as p5 at l(-6), light, zorder 5
+show oc005_01 4 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1171276]]'
 hide p2
 hide p5
@@ -67,7 +67,7 @@ show oc002_01 9 as p2 at r_exit(-3), light, zorder 5
 c23 '[textdict[1171279]]'
 hide p2
 hide p5
-show oc005_01 7 as p5 at l(-6), light, zorder 5
+show oc005_01 7 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1171280]]'
 scene avg_bg_207
 with fade
@@ -112,11 +112,11 @@ show oc005_01 4 as p5 at r(-6), light, zorder 5
 c53 '[textdict[1171296]]'
 hide p5
 show oc005_01 4 as p5 at r(-6), dark, zorder 5
-show oc002_01 17 as p2 at l(-3), light, zorder 5
+show oc002_01 17 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1171297]]'
 hide p2
 hide p5
 show oc005_01 4 as p5 at r(-6), dark, zorder 5
-show oc002_01 4 as p2 at l(-3), light, zorder 5
+show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1171298]]'
 return

@@ -4,7 +4,7 @@ stop music
 stop music
 scene placeholderbackground
 with fade
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[1219777]]'
 stop music
 hide p28
@@ -15,13 +15,13 @@ stop music
 hide p28
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show sc020_01 1 as p28 at l(-10), light, zorder 5
+show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[1219779]]'
 stop music
 hide p28
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show sc020_01 4 as p28 at l(-10), light, zorder 5
+show sc020_01 4 as p28 at l(-10), light, zorder 6
 c281 '[textdict[1219780]]'
 menu:
     extend ""
