@@ -92,9 +92,11 @@ show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188093]]'
 play sfx2 "other_7079.ogg"
-hide p1
 hide p4
-c5003 '[textdict[1188094]]'
+hide p1
+show oc001_01 4 as p1 at r(-2), dark, zorder 5
+c5001 '[textdict[1188094]]'
+hide p1
 c0 '[textdict[1188095]]'
 show oc003_01 21 as p3 at l(-6), light, zorder 5
 c31 '[textdict[1188096]]'
@@ -363,10 +365,12 @@ show oc004_01 16 as p4 at l(-5), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1188153]]'
 stop music
-hide p2
 hide p4
-c5003 '[textdict[1188154]]'
+hide p2
+show oc002_01 12 as p2 at r(-3), dark, zorder 5
+c5001 '[textdict[1188154]]'
 play music "ed7580.ogg"
+hide p2
 show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1188155]]'
 hide p2
