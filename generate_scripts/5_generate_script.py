@@ -48,6 +48,7 @@ class GameState:
 			'mid': None, #middle
 			'r': None, #right
 		}
+		self.bgm = None
 	
 	def add_line(self, *lines):
 		for line in lines:
@@ -112,6 +113,14 @@ class GameState:
 		self.hide_portraits(pos)
 		self.state[pos] = portrait_dict
 		self.darken_portraits(pos)
+		
+	def update_bgm(self, newbgm):
+		if self.bgm != newbgm:
+			if newbgm == None:
+				self.add_line('stop music\n')
+			else:
+				self.add_line(f'play music "{newbgm}"\n')
+			self.bgm = newbgm
 
 def make_schedule_dict(json, key):
 	d = dict()
@@ -229,20 +238,17 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		effect = frame['effect']
 		avgImageID = frame['avgImageID']
 		
-		#check if there is supposed to be bgm
+		#Check bgm schedule, and update if needed
 		if len(bgm_schedule) > 0:
-			#see if music is supposed to stop
+			#Stop the music if framecount is not listed in the bgm schedule
+			#and filter out the unused bgm id -1
 			if framecount not in bgm_schedule or bgm_schedule[framecount] == -1:
-				if lastplayed != None:
-					state.add_line('stop music\n')
-					lastplayed = None
-			#then go back to normal
+				bgmName = None
+			#Otherwise figure out the name of the bgm that should be playing
 			else:
-				framebgm = bgm_dict[bgm_schedule[framecount]]['_bgmName']
-				if lastplayed != framebgm:
-					#generate music line only if it's different from the last frame
-					state.add_line(f'play music "{framebgm}"\n')
-					lastplayed = framebgm
+				bgmName = bgm_dict[bgm_schedule[framecount]]['_bgmName']
+
+			state.update_bgm(bgmName)
 			
 		#check if there is supposed to be a background
 		if len(background_schedule) > 0:
