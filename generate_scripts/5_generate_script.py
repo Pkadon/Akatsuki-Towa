@@ -317,10 +317,14 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			portraitpos = 'l'
 			zorder = 6
 			darkpos = 'r'
+			if folderName:
+				state.hide_portraits('mid')
 		elif charPos == 3: 
 			portraitpos = 'r'
 			zorder = 5
 			darkpos = 'l'
+			if folderName:
+				state.hide_portraits('mid')
 		elif charPos in [2, 0]: 
 			portraitpos = 'mid'
 			zorder = 5

@@ -8,6 +8,7 @@ show sc001_01 2 as p9 at mid(-11), light, zorder 5
 c93 '[textdict[1218088]]'
 stop music
 play sfxvoice "bcv_oc002_win_02.ogg"
+hide p9
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1218089]]'
 stop music
