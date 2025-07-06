@@ -39,6 +39,80 @@ voice_dict = load_design_json(voice_file)
 
 #################################################
 
+class GameState:
+	def __init__(self, avgcode):
+		self.avgcode = avgcode
+		self.lines = []
+		self.state = {
+			'l': None, #left
+			'mid': None, #middle
+			'r': None, #right
+		}
+	
+	def add_line(self, *lines):
+		for line in lines:
+			if not line.endswith('\n'):
+				line += '\n'
+			self.lines.append(line)
+			
+	def write_file(self, outpath):
+		out = Path(outpath) / f'{self.avgcode}.rpy'
+		with open(out, 'w', encoding='utf-8') as w:
+			w.write(f"label avg{self.avgcode}:\n")
+			w.write('stop music\n')
+			w.write('\n')
+			for line in self.lines:
+				w.write(line)
+			w.write('return')
+	
+	def hide_portraits(self, *positions, write=True, clear=True):
+		if 'all' in positions:
+			positions = ['l', 'mid', 'r']
+		for pos in positions:
+			if self.state[pos] != None:
+				if write:
+					alias = self.state[pos]['alias']
+					self.add_line(f'hide {alias}')
+				if clear:
+					self.state[pos] = None
+	
+	def darken_portraits(self, lit_pos):
+		for key in self.state.keys():
+			if key == lit_pos: continue
+		#might end up coming back and removing this
+		#in the original game, 'middle' portraits are not ever darkened
+		#but it might make sense to change that
+			if key == 'mid': continue
+			
+			elif self.state[key]:
+				if self.state[lit_pos]:
+					lit_alias = self.state[lit_pos]['alias']
+				else:
+					lit_alias = None
+				
+				folderName = self.state[key]['folderName']
+				expression = self.state[key]['expression']
+				alias = self.state[key]['alias']
+				offset = self.state[key]['offset']
+				zorder = self.state[key]['zorder']
+				
+				if alias == lit_alias:
+					self.hide_portraits(key)
+				else:
+					self.hide_portraits(key, clear=False)
+					state.add_line(
+						f"show {folderName} "
+						f"{expression} "
+						f"as {alias} "
+						f"at {key}({offset}), dark, "
+						f"zorder {zorder}\n"
+					)
+		
+	def update_portrait(self, pos, portrait_dict):
+		self.hide_portraits(pos)
+		self.state[pos] = portrait_dict
+		self.darken_portraits(pos)
+
 def make_schedule_dict(json, key):
 	d = dict()
 	schedule = json[key]
@@ -121,272 +195,223 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	#FIGURE OUT MEMORY SCHEDULE
 	memory_schedule = make_schedule_dict(script_json, 'memory')
 
-	with open((targetdirec / f"{fname}.rpy"), 'w', encoding="utf-8")as f:
-		#PRINT START LABEL 
-		f.write(f"label avg{fname}:\n")
-		f.write('stop music\n')
-		f.write('\n')
+	state = GameState(fname)
 
-		lastplayed = ''
-		lastbackground = ''
-		showingimage = None
-		memory = False
+	lastplayed = ''
+	lastbackground = ''
+	showingimage = None
+	memory = False
+	
+	framecount = 0
+	for frame in script_json['dialogueFrames']:
+		framecount += 1
+		newscene = False
 		
-		state_dict = {
-			'l': None,
-			'mid': None,
-			'r': None,
-		}
+		#Skip duplicate line 
+		#(if we skip it any earlier, it's going to screw up bgm and background scheduling)
+		if fname == '12038' and framecount == 15: continue
+
+		template = frame['template']
+		charID = frame['character']['charID']
+		speaker = frame['character']['speaker']
+		displayName = frame['character']['displayName']
+		expression = frame['expression']
+		charPos = frame['charPos']
+		strID = frame['strID']
+		contentSize = frame['contentSize']
+		isClearModle = frame['isClearModle']
+		CharFadeIn = frame['CharFadeIn']
+		CharFadeOut = frame['CharFadeOut']
+		voiceID = frame['voice']['id']
+		voiceFirst = frame['voice']['first']
+		sfxID = frame['sfx']['id']
+		sfxFirst = frame['sfx']['first']
+		effect = frame['effect']
+		avgImageID = frame['avgImageID']
 		
-		framecount = 0
-		for frame in script_json['dialogueFrames']:
-			framecount += 1
-			newscene = False
-			
-			#Skip duplicate line 
-			#(if we skip it any earlier, it's going to screw up bgm and background scheduling)
-			if fname == '12038' and framecount == 15: continue
-
-			template = frame['template']
-			charID = frame['character']['charID']
-			speaker = frame['character']['speaker']
-			displayName = frame['character']['displayName']
-			expression = frame['expression']
-			charPos = frame['charPos']
-			strID = frame['strID']
-			contentSize = frame['contentSize']
-			isClearModle = frame['isClearModle']
-			CharFadeIn = frame['CharFadeIn']
-			CharFadeOut = frame['CharFadeOut']
-			voiceID = frame['voice']['id']
-			voiceFirst = frame['voice']['first']
-			sfxID = frame['sfx']['id']
-			sfxFirst = frame['sfx']['first']
-			effect = frame['effect']
-			avgImageID = frame['avgImageID']
-			
-			#check if there is suposed to be bgm
-			if len(bgm_schedule) > 0:
-				#see if music is supposed to stop
-				if framecount not in bgm_schedule:
-					f.write('stop music\n')
-				#filter out the -1 bgm id
-				elif bgm_schedule[framecount] == -1: 
-					f.write('stop music\n')
-				#then go back to normal
-				else:
-					framebgm = bgm_dict[bgm_schedule[framecount]]['_bgmName']
-					if lastplayed != framebgm:
-						#generate music line only if it's different from the last frame
-						f.write(f'play music "{framebgm}"\n')
-						lastplayed = framebgm
-				
-			#check if there is supposed to be a background
-			if len(background_schedule) > 0:
-				#this is for if there will be a background later, but not yet
-				if framecount not in background_schedule:
-					framebackground = 'placeholderbackground'
-				else:	
-					framebackground = str(background_schedule[framecount])
-					while len(framebackground) < 3: framebackground = '0'+framebackground
-					framebackground = 'avg_bg_'+framebackground
-			#this is for if there isn't supposed to be a background at all
-			else: framebackground = 'placeholderbackground'
-			
-			if lastbackground != framebackground:
-				#generate scene line only if it's different from the last frame
-				f.write(f"scene {framebackground}\n")
-				lastbackground = framebackground
-				newscene = True
-				#this might be dumb.  hoping it's a quick fix
-				state_dict['l'] = None
-				state_dict['mid'] = None
-				state_dict['r'] = None
-			#check for memory overlay
-			if len(memory_schedule) > 0:
-				if framecount in memory_schedule:
-					f.write('show memoryoverlay zorder 2\n')
-					memory = True
-				else:
-					if memory:
-						f.write('hide memoryoverlay\n')
-						memory = False
-			#moved the "scene with fade" down here to account for memory overlay
-			if newscene and isClearModle != 1: f.write('with fade\n')
-
-
-			#Both isClearModle and the green-text speaker 0 hide all portraits
-			if isClearModle == 1 or speaker == 0:
-				if state_dict['l']:
-					f.write(f"hide {state_dict['l']['alias']}\n")
-					state_dict['l'] = None
-				if state_dict['mid']:
-					f.write(f"hide {state_dict['mid']['alias']}\n")
-					state_dict['mid'] = None
-				if state_dict['r']:
-					f.write(f"hide {state_dict['r']['alias']}\n")
-					state_dict['r'] = None
-				
-			#check for sfx
-			if sfxID != 0:
-				sfxname = sfx_dict[sfxID]['_sfxName']
-				sfxname = sfxname.split('/')[-1]
-				#play sfx
-				f.write(f'play sfx2 "{sfxname}"\n')
-				
-			#check for voice
-			if voiceID != 0:
-				voicename = voice_dict[voiceID]['_voiceName']
-				voicename = voicename.split('/')[-1]
-				#play voice
-				f.write(f'play sfxvoice "{voicename}"\n')
-				
-			#check for image to display
-			if avgImageID == 0:
-				if showingimage:
-					f.write(f'hide {showingimage}\n')
-					showingimage = None
+		#check if there is suposed to be bgm
+		if len(bgm_schedule) > 0:
+			#see if music is supposed to stop
+			if framecount not in bgm_schedule:
+				state.add_line('stop music\n')
+			#filter out the -1 bgm id
+			elif bgm_schedule[framecount] == -1: 
+				state.add_line('stop music\n')
+			#then go back to normal
 			else:
-				avgimagename = "Image"+str(avgImageID)
-				if showingimage != avgimagename:
-					f.write(f'show {avgimagename} zorder 4\n')
-					showingimage = avgimagename
+				framebgm = bgm_dict[bgm_schedule[framecount]]['_bgmName']
+				if lastplayed != framebgm:
+					#generate music line only if it's different from the last frame
+					state.add_line(f'play music "{framebgm}"\n')
+					lastplayed = framebgm
 			
-			#figure out if a portrait needs to be displayed 
-			if charID == 0:
-				folderName = None
+		#check if there is supposed to be a background
+		if len(background_schedule) > 0:
+			#this is for if there will be a background later, but not yet
+			if framecount not in background_schedule:
+				framebackground = 'placeholderbackground'
+			else:	
+				framebackground = str(background_schedule[framecount])
+				while len(framebackground) < 3: framebackground = '0'+framebackground
+				framebackground = 'avg_bg_'+framebackground
+		#this is for if there isn't supposed to be a background at all
+		else: framebackground = 'placeholderbackground'
+		
+		if lastbackground != framebackground:
+			#generate scene line only if it's different from the last frame
+			state.add_line(f"scene {framebackground}\n")
+			lastbackground = framebackground
+			newscene = True
+			#The "scene" statement will hide all portraits, so the state needs to track that
+			state.hide_portraits('all', write=False)
+		#check for memory overlay
+		if len(memory_schedule) > 0:
+			if framecount in memory_schedule:
+				state.add_line('show memoryoverlay zorder 2\n')
+				memory = True
 			else:
-				folderName = avg_role_dict[charID]['_folderName']
+				if memory:
+					state.add_line('hide memoryoverlay\n')
+					memory = False
+		#moved the "scene with fade" down here to account for memory overlay
+		if newscene and isClearModle != 1: state.add_line('with fade\n')
+
+
+		#Both isClearModle and the green-text speaker 0 hide all portraits
+		if isClearModle == 1 or speaker == 0:
+			state.hide_portraits('all')
 			
-			#figure out where on the screen character portrait goes
-			if charPos == 1: 
-				portraitpos = 'l'
-				zorder = 6
-				darkpos = 'r'
-			elif charPos == 3: 
-				portraitpos = 'r'
-				zorder = 5
-				darkpos = 'l'
-			elif charPos in [2, 0]: 
-				portraitpos = 'mid'
-				zorder = 5
-				darkpos = None
-				if state_dict['l']:
-					f.write(f"hide {state_dict['l']['alias'] }\n")
-					state_dict['l'] = None	
-				if state_dict['r']:
-					f.write(f"hide {state_dict['r']['alias'] }\n")
-					state_dict['r'] = None
+		#check for sfx
+		if sfxID != 0:
+			sfxname = sfx_dict[sfxID]['_sfxName']
+			sfxname = sfxname.split('/')[-1]
+			#play sfx
+			state.add_line(f'play sfx2 "{sfxname}"\n')
+			
+		#check for voice
+		if voiceID != 0:
+			voicename = voice_dict[voiceID]['_voiceName']
+			voicename = voicename.split('/')[-1]
+			#play voice
+			state.add_line(f'play sfxvoice "{voicename}"\n')
+			
+		#check for image to display
+		if avgImageID == 0:
+			if showingimage:
+				state.add_line(f'hide {showingimage}\n')
+				showingimage = None
+		else:
+			avgimagename = "Image"+str(avgImageID)
+			if showingimage != avgimagename:
+				state.add_line(f'show {avgimagename} zorder 4\n')
+				showingimage = avgimagename
+		
+		#figure out if a portrait needs to be displayed 
+		if charID == 0:
+			folderName = None
+		else:
+			folderName = avg_role_dict[charID]['_folderName']
+		
+		#figure out where on the screen character portrait goes
+		if charPos == 1: 
+			portraitpos = 'l'
+			zorder = 6
+			darkpos = 'r'
+		elif charPos == 3: 
+			portraitpos = 'r'
+			zorder = 5
+			darkpos = 'l'
+		elif charPos in [2, 0]: 
+			portraitpos = 'mid'
+			zorder = 5
+			darkpos = None
+			state.hide_portraits('l', 'r',)
 
-			if state_dict[portraitpos]:
-				f.write(f"hide {state_dict[portraitpos]['alias']}\n")
-				state_dict[portraitpos] = None
+		if folderName:
+			alias = f'p{speaker}'
+			expression = str(expression)
+			offset = str(int(avg_role_dict[charID]['_xPostion']))
+			
+			portrait_dict = {
+				'folderName': folderName,
+				'alias': alias,
+				'expression': expression,
+				'offset': offset,
+				'zorder': zorder
+			}
 
-			if folderName:
-				alias = f'p{speaker}'
-				expression = str(expression)
-				offset = str(int(avg_role_dict[charID]['_xPostion']))
+			state.update_portrait(portraitpos, portrait_dict)
+
+			renpytransform = portraitpos
+			#check if portrait is entering or exiting:
+			if CharFadeIn == 1: renpytransform += '_entrance'
+			if CharFadeOut == 1:  renpytransform += '_exit'
 				
-				portrait_dict = dict()
-				portrait_dict['folderName'] = folderName
-				portrait_dict['alias'] = alias
-				portrait_dict['expression'] = expression
-				portrait_dict['offset'] = offset
-				portrait_dict['zorder'] = zorder
+			#moved midback up here so it can get the xoffset added to it	
+			if effect == 103 or effect == 203: renpytransform += '_midback'
 
-				state_dict[portraitpos] = portrait_dict
-				
-			if portraitpos in ['l', 'r']:
-				if folderName and state_dict[darkpos]:
-					#hoping this fixes when the character changes sides
-					#but wasn't replaced on the other side by another portrait
-					#(like chloe in avg 12049)
-					if alias == state_dict[darkpos]['alias']: # and state_dict[portraitpos]['folderName'] 
-						f.write(f"hide {state_dict[darkpos]['alias'] }\n")
-						state_dict[darkpos] = None
-						
-				if state_dict[darkpos]: 
-					f.write(f"hide {state_dict[darkpos]['alias']}\n")
+			renpytransform += f'({offset})'
 
-					f.write(
-						f"show {state_dict[darkpos]['folderName']} "
-						f"{state_dict[darkpos]['expression']} "
-						f"as {state_dict[darkpos]['alias']} "
-						f"at {darkpos}({state_dict[darkpos]['offset']}), dark, "
-						f"zorder {state_dict[darkpos]['zorder']}\n"
-					)
-				
-			if folderName:
-				renpytransform = portraitpos
-				#check if portrait is entering or exiting:
-				if CharFadeIn == 1: renpytransform += '_entrance'
-				if CharFadeOut == 1:  renpytransform += '_exit'
-					
-				#moved midback up here so it can get the xoffset added to it	
-				if effect == 103 or effect == 203: renpytransform += '_midback'
+			#then get effects figured out
+			if effect == 102: renpytransform += ', r_shake'
+			elif effect == 202: renpytransform += ', l_shake'
 
-				renpytransform += f'({offset})'
+			#SHOW PORTRAIT									
+			portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder {zorder}' 
+			state.add_line(f"{portrait}\n")
+		
+		else: state.update_portrait(portraitpos, None)
 
-				#then get effects figured out
-				if effect == 102: renpytransform += ', r_shake'
-				elif effect == 202: renpytransform += ', l_shake'
+		#need the fade after all images are set up, before dialogue appears
+		if isClearModle == 1: state.add_line(f"with fade\n")
+		
+	#START OF SAY STATEMENT
+		
+		#figure out where namebox goes
+		if speaker == 0: nameboxPos = ''
+		elif charPos == 1: nameboxPos = 1
+		else: nameboxPos = 3
+		
+		#convert dialogue string to display correctly
+		dialogue = f"[textdict[{strID}]]"
+		
+		#start with the speaker and dialogue
+		say = f"c{speaker}{nameboxPos} '{dialogue}'"
+		
+		#see if dialogue text needs to be resized
+		#(20 is already the default)
+		if contentSize != 20:
+			#don't want to use the text size values for the scenes that are 
+			#supposed to be "minimized" in the corner
+			noresizelist = ['10134', '20002', '20112', '20113', '29135'] #NOTE - not 100% sure on 10134
+			if contentSize <= 16 and template == 1: pass
+			#the files in noresizelist don't have template set to 1, but still need to be filtered
+			elif fname in noresizelist: pass
+			
+			#try to turn the "hard-coded" text size into a multiplier to make it work with different base sizes
+			else: say+= f' (what_size=(gui.text_size*{contentSize/20}))'
 
-				#SHOW PORTRAIT									
-				portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder {zorder}' 
-				f.write(f"{portrait}\n")
+		#then shake can be added if needed
+		if effect == 1: say+=' with shake'
+		
+		state.add_line(f"{say}\n")
+		
+		#make sure it doesn't try to show the dark portrait after the portrait has left
+		if CharFadeOut == 1:
+			state.hide_portraits(portraitpos)
+		
 
-			#need the fade after all images are set up, before dialogue appears
-			if isClearModle == 1: f.write(f"with fade\n")
-			
-		#START OF SAY STATEMENT
-			
-			#figure out where namebox goes
-			if speaker == 0: nameboxPos = ''
-			elif charPos == 1: nameboxPos = 1
-			else: nameboxPos = 3
-			
-			#convert dialogue string to display correctly
-			dialogue = f"[textdict[{strID}]]"
-			
-			#start with the speaker and dialogue
-			say = f"c{speaker}{nameboxPos} '{dialogue}'"
-			
-			#see if dialogue text needs to be resized
-			#(20 is already the default)
-			if contentSize != 20:
-				#don't want to use the text size values for the scenes that are 
-				#supposed to be "minimized" in the corner
-				noresizelist = ['10134', '20002', '20112', '20113', '29135'] #NOTE - not 100% sure on 10134
-				if contentSize <= 16 and template == 1: pass
-				#the files in noresizelist don't have template set to 1, but still need to be filtered
-				elif fname in noresizelist: pass
-				
-				#try to turn the "hard-coded" text size into a multiplier to make it work with different base sizes
-				else: say+= f' (what_size=(gui.text_size*{contentSize/20}))'
+	#FIGURE OUT IF THERE ARE CHOICES
+	if script_json["ending"]["type"] == 1:
+		state.add_line('menu:\n')
+		#keep dialogue displayed during choice menu:
+		state.add_line('    extend ""\n')
+		for choice in range(0, len(script_json["ending"]["options"])):
+			choicestrID = script_json["ending"]["options"][choice]["strID"]
+			choicetext = f"[textdict[{choicestrID}]]"
+			choiceavgID = script_json["ending"]["options"][choice]["avgID"]
+			state.add_line(f'    "{choicetext}":\n')
+			#state.add_line(f'        jump avg{choiceavgID}\n')
+			state.add_line(f'        call avg{choiceavgID}\n')
 
-			#then shake can be added if needed
-			if effect == 1: say+=' with shake'
-			
-			f.write(f"{say}\n")
-			
-			#make sure it doesn't try to show the dark portrait after the portrait has left
-			if CharFadeOut == 1:
-				f.write(f"hide {alias}\n")
-				state_dict[portraitpos] = None
-			
-
-		#FIGURE OUT IF THERE ARE CHOICES
-		if script_json["ending"]["type"] == 1:
-			f.write('menu:\n')
-			#keep dialogue displayed during choice menu:
-			f.write('    extend ""\n')
-			for choice in range(0, len(script_json["ending"]["options"])):
-				choicestrID = script_json["ending"]["options"][choice]["strID"]
-				choicetext = f"[textdict[{choicestrID}]]"
-				choiceavgID = script_json["ending"]["options"][choice]["avgID"]
-				f.write(f'    "{choicetext}":\n')
-				#f.write(f'        jump avg{choiceavgID}\n')
-				f.write(f'        call avg{choiceavgID}\n')
-				
-		#END OF SCRIPT)
-		f.write('return')
+	state.write_file(targetdirec)
