@@ -306,18 +306,15 @@ scene avg_bg_013
 with fade
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2105281]]'
-stop music
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc002_01 16 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2105282]]'
-stop music
 hide p2
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc003_01 18 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2105283]]'
-stop music
 hide p1
 hide p3
 show oc003_01 18 as p3 at l(-6), dark, zorder 6

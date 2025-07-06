@@ -10,89 +10,69 @@ stop music
 play sfx2 "other_7071.ogg"
 show oc001_01 11 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111176]]'
-stop music
 play sfx2 "other_7071.ogg"
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111177]]'
-stop music
 play sfx2 "other_7071.ogg"
 hide p1
 show oc001_01 11 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111178]]'
-stop music
 scene avg_bg_038
 with fade
 play sfx2 "other_7071.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111179]]' with shake
-stop music
 play sfx2 "other_7071.ogg"
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111180]]'
-stop music
 play sfx2 "other_7071.ogg"
 hide p1
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111181]]'
-stop music
 play sfx2 "other_7072.ogg"
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111182]]'
-stop music
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 c11671 '[textdict[2111183]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2111184]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111185]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c27211 '[textdict[2111186]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2111187]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c27211 '[textdict[2111188]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c27211 '[textdict[2111189]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c27211 '[textdict[2111190]]'
-stop music
 hide p1
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111191]]'
-stop music
 hide p1
 play sfx2 "other_7073.ogg"
 c0 '[textdict[2111192]]'
-stop music
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111193]]'
-stop music
 hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111194]]'
-stop music
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111195]]'
-stop music
 hide p1
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111196]]'
@@ -161,7 +141,6 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc044_01 4 as p51 at l(-7), light, zorder 6
 c511 '[textdict[2111209]]'
-stop music
 hide p1
 hide p51
 show sc044_01 4 as p51 at l(-7), dark, zorder 6

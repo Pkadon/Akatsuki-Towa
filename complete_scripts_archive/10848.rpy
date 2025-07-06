@@ -1,11 +1,9 @@
 label avg10848:
 stop music
 
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1189265]]'
-stop music
 c0 '[textdict[1189266]]'
 play music "ed7124.ogg"
 c14681 '[textdict[1189267]]'
@@ -267,7 +265,6 @@ scene avg_bg_003
 with fade
 play sfx2 "other_7022.ogg"
 c26191 '[textdict[1189330]]'
-stop music
 play sfx2 "other_7018.ogg"
 show oc004_01 4 as p4 at l(-5), l_shake, light, zorder 6
 c41 '[textdict[1189331]]'

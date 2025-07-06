@@ -247,9 +247,9 @@ scene avg_bg_019
 with fade
 play sfx2 "other_7019.ogg"
 c5261 '[textdict[2110623]]'
-stop music
 show oca01_01 2 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110624]]'
+play music "ED6523.ogg"
 hide p2701
 show oca01_01 2 as p2701 at r(-2), dark, zorder 5
 c5261 '[textdict[2110625]]'

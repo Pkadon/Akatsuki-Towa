@@ -190,7 +190,6 @@ hide p32
 show sc024_01 4 as p32 at r(-14), dark, zorder 5
 show sc021_01 2 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108831]]'
-stop music
 hide p32
 hide p29
 show sc021_01 2 as p29 at l(-17), dark, zorder 6
@@ -457,28 +456,22 @@ hide p9
 show st041_01 4 as p240 at l(-1), light, zorder 6
 with fade
 c2401 '[textdict[2108888]]'
-stop music
 hide p240
 show st029_01 4 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108889]]'
-stop music
 hide p610
 show st029_01 1 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108890]]'
-stop music
 hide p610
 show st029_01 5 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108891]]'
-stop music
 play sfx2 "other_7062.ogg"
 hide p610
 show st029_01 5 as p610 at l(-28), dark, zorder 6
 c26793 '[textdict[2108892]]'
-stop music
 hide p610
 show st041_01 1 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108893]]'
-stop music
 play sfx2 "other_7061.ogg"
 hide p240
 show st041_01 1 as p240 at l(-1), dark, zorder 6
@@ -497,140 +490,115 @@ stop music
 hide p610
 show st029_01 5 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108897]]' with shake
-stop music
 hide p610
 show st029_01 5 as p610 at l(-28), dark, zorder 6
 c26793 '[textdict[2108898]]'
-stop music
 hide p610
 show sc071_01 2 as p73 at l(-20), light, zorder 6
 c731 '[textdict[2108899]]'
-stop music
 hide p73
 show sc071_01 2 as p73 at l(-20), dark, zorder 6
 show sc009_01 2 as p17 at r(-13), light, zorder 5
 c173 '[textdict[2108900]]'
-stop music
 hide p73
 hide p17
 show sc009_01 2 as p17 at r(-13), dark, zorder 5
 show sc024_01 2 as p32 at l(-14), light, zorder 6
 c321 '[textdict[2108901]]'
-stop music
 hide p17
 hide p32
 show sc024_01 2 as p32 at l(-14), dark, zorder 6
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 c103 '[textdict[2108902]]'
-stop music
 hide p32
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 show sc001_01 2 as p9 at l(-11), light, zorder 6
 c91 '[textdict[2108903]]'
-stop music
 hide p10
 hide p9
 show sc001_01 2 as p9 at l(-11), dark, zorder 6
 show sc019_01 2 as p27 at r(-18), light, zorder 5
 c273 '[textdict[2108904]]'
-stop music
 hide p9
 hide p27
 show sc019_01 2 as p27 at r(-18), dark, zorder 5
 show sc022_01 2 as p30 at l(-9), light, zorder 6
 c301 '[textdict[2108905]]'
-stop music
 hide p27
 hide p30
 show sc022_01 2 as p30 at l(-9), dark, zorder 6
 show sc021_01 5 as p29 at r(-17), light, zorder 5
 c293 '[textdict[2108906]]'
-stop music
 hide p30
 hide p29
 show sc021_01 5 as p29 at r(-17), dark, zorder 5
 show sc031_01 3 as p39 at l(-14), light, zorder 6
 c391 '[textdict[2108907]]'
-stop music
 hide p29
 hide p39
 show sc031_01 3 as p39 at l(-14), dark, zorder 6
 show sc020_01 2 as p28 at r(-10), light, zorder 5
 c283 '[textdict[2108908]]'
-stop music
 hide p39
 hide p28
 show sc020_01 2 as p28 at r(-10), dark, zorder 5
 show st009_01 1 as p209 at l(-22), light, zorder 6
 c2091 '[textdict[2108909]]'
-stop music
 hide p28
 hide p209
 show st009_01 1 as p209 at l(-22), dark, zorder 6
 show uc001_01 1 as p689 at r(-2), light, zorder 5
 c6893 '[textdict[2108910]]'
-stop music
 hide p209
 hide p689
 show uc001_01 1 as p689 at r(-2), dark, zorder 5
 show sc008_01 4 as p16 at l(-18), light, zorder 6
 c161 '[textdict[2108911]]'
-stop music
 hide p689
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show sc071_01 2 as p73 at r(-20), light, zorder 5
 c733 '[textdict[2108912]]'
-stop music
 hide p16
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5
 show st029_01 1 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108913]]'
-stop music
 hide p610
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5
 show st029_01 1 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108914]]'
-stop music
 hide p610
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5
 show st029_01 1 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108915]]'
-stop music
 hide p610
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5
 show st029_01 5 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108916]]'
-stop music
 hide p73
 hide p610
 show st029_01 5 as p610 at l(-28), dark, zorder 6
 c26863 '[textdict[2108917]]'
-stop music
 hide p610
 show st029_01 1 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108918]]'
-stop music
 hide p610
 show st029_01 1 as p610 at l(-28), dark, zorder 6
 c13363 '[textdict[2108919]]'
-stop music
 hide p610
 show st029_01 1 as p610 at l(-28), dark, zorder 6
 show sc071_01 2 as p73 at r(-20), light, zorder 5
 c733 '[textdict[2108920]]'
-stop music
 hide p610
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5
 show st029_01 4 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108921]]'
-stop music
 hide p610
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5

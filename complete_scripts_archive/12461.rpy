@@ -21,7 +21,6 @@ stop music
 hide p2
 play sfx2 "other_7088.ogg"
 c0 '[textdict[1143782]]'
-stop music
 play sfx2 "other_7034.ogg"
 c11641 '[textdict[1143783]]'
 play music "ed7511.ogg"

@@ -30,7 +30,6 @@ play sfx2 "fight_6025.ogg"
 c0 '[textdict[1144126]]'
 stop music
 c0 '[textdict[1144127]]'
-stop music
 play sfx2 "fight_6016.ogg"
 c0 '[textdict[1144128]]'
 play music "ed7304.ogg"

@@ -126,16 +126,13 @@ hide p73
 show sc071_01 3 as p73 at r(-20), dark, zorder 5
 show st029_01 3 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2107870]]' (what_size=(gui.text_size*1.2)) with shake
-stop music
 hide p610
 hide p73
 show sc071_01 3 as p73 at r(-20), dark, zorder 5
 c13361 '[textdict[2107871]]'
-stop music
 hide p73
 show sc071_01 2 as p73 at r(-20), light, zorder 5
 c733 '[textdict[2107872]]'
-stop music
 hide p73
 show sc071_01 2 as p73 at r(-20), dark, zorder 5
 show st029_01 5 as p610 at l(-28), r_shake, light, zorder 6

@@ -82,34 +82,27 @@ stop music
 hide p2
 play sfx2 "fight_6016.ogg"
 c0 '[textdict[2100775]]' with shake
-stop music
 play sfxvoice "avg_vocal_ch27.ogg"
 show oc002_01 3 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100776]]'
-stop music
 hide p2
 show oc002_01 3 as p2 at l(-3), dark, zorder 6
 c11543 '[textdict[2100777]]'
-stop music
 hide p2
 c0 '[textdict[2100778]]'
-stop music
 c11543 '[textdict[2100779]]'
-stop music
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100780]]'
-stop music
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 c11543 '[textdict[2100781]]'
-stop music
 hide p2
 show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100782]]'
-stop music
 hide p2
 show oc002_01 1 as p2 at l(-3), dark, zorder 6
 c11543 '[textdict[2100783]]'
+play music "ed7562.ogg"
 hide p2
 show oc002_01 23 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100784]]'

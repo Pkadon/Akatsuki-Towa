@@ -328,7 +328,6 @@ hide p4
 show oc004_01 16 as p4 at r(-5), dark, zorder 5
 show oc005_01 7 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1182536]]' with shake
-stop music
 play sfx2 "other_7011.ogg"
 hide p4
 hide p5

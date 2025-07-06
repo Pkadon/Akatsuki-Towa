@@ -293,6 +293,7 @@ play sfx2 "other_7088.ogg"
 show oc003_01 12 as p3 at r(-6), light, zorder 5
 with fade
 c33 '[textdict[1153998]]'
+play music "ed7511.ogg"
 hide p3
 show oc003_01 12 as p3 at r(-6), dark, zorder 5
 show sc008_01 4 as p16 at l(-18), light, zorder 6

@@ -520,50 +520,41 @@ c0 '[textdict[1165037]]' with shake
 stop music
 show oc003_01 20 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1165038]]' with shake
-stop music
 hide p3
 show oc003_01 20 as p3 at r(-6), dark, zorder 5
 show oc002_01 20 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1165039]]' with shake
-stop music
 hide p3
 hide p2
 show oc002_01 20 as p2 at l(-3), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165040]]' with shake
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1165041]]'
-stop music
 scene avg_bg_003
 with fade
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165042]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1165043]]'
-stop music
 hide p1
 hide p4
 show oc004_01 11 as p4 at l(-5), dark, zorder 6
 show oc003_01 16 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1165044]]'
-stop music
 hide p4
 hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1165045]]'
-stop music
 hide p3
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[1165046]]'
-stop music
 hide p16
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6

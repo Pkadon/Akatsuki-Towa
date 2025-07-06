@@ -145,10 +145,8 @@ stop music
 hide p48
 hide p45
 c5003 '[textdict[2111974]]' (what_size=(gui.text_size*1.25)) with shake
-stop music
 show sc038_01 2 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2111975]]'
-stop music
 hide p45
 show sc038_01 2 as p45 at r(-1), dark, zorder 5
 show sc041_01 4 as p48 at l(-9), light, zorder 6
@@ -387,55 +385,43 @@ scene avg_bg_070
 with fade
 play sfx2 "fight_6010.ogg"
 c0 '[textdict[2112039]]'
-stop music
 play sfx2 "fight_6023.ogg"
 c0 '[textdict[2112040]]'
-stop music
 play sfx2 "fight_6006.ogg"
 c0 '[textdict[2112041]]'
-stop music
 c0 '[textdict[2112042]]'
-stop music
 scene avg_bg_019
 with fade
 play sfx2 "other_7064.ogg"
 show st024_01 1 as p223 at l(-16), light, zorder 6
 c2231 '[textdict[2112043]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p223
 show st024_01 1 as p223 at l(-16), dark, zorder 6
 show sc038_01 1 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2112044]]'
-stop music
 hide p223
 hide p45
 show sc038_01 1 as p45 at r(-1), dark, zorder 5
 c27541 '[textdict[2112045]]'
-stop music
 hide p45
 show sc038_01 1 as p45 at r(-1), dark, zorder 5
 c27581 '[textdict[2112046]]'
-stop music
 hide p45
 show sc038_01 1 as p45 at r(-1), dark, zorder 5
 c27541 '[textdict[2112047]]'
-stop music
 hide p45
 show sc038_01 4 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2112048]]'
-stop music
 hide p45
 show sc038_01 4 as p45 at r(-1), dark, zorder 5
 show sc041_01 4 as p48 at l(-9), light, zorder 6
 c481 '[textdict[2112049]]'
-stop music
 hide p48
 hide p45
 show sc038_01 4 as p45 at r(-1), dark, zorder 5
 show sc041_01 4 as p48 at l(-9), light, zorder 6
 c481 '[textdict[2112050]]'
-stop music
 hide p45
 hide p48
 show sc041_01 4 as p48 at l(-9), dark, zorder 6
@@ -521,13 +507,11 @@ hide p48
 show sc041_01 4 as p48 at r(-9), dark, zorder 5
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2112067]]'
-stop music
 hide p48
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 2 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2112068]]'
-stop music
 hide p2731
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5

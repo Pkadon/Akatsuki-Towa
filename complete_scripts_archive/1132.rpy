@@ -156,10 +156,8 @@ hide p1
 c0 '[textdict[2103260]]'
 stop music
 c0 '[textdict[2103261]]'
-stop music
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103262]]'
-stop music
 hide p1
 c0 '[textdict[2103263]]'
 play music "ed7562.ogg"

@@ -1,7 +1,6 @@
 label avg10855:
 stop music
 
-stop music
 scene avg_bg_218
 with fade
 c0 '[textdict[1189644]]'
@@ -293,20 +292,16 @@ stop music
 hide p8
 hide p1
 c0 '[textdict[1189712]]'
-stop music
 show oc007_02 3 as p2623 at l(-24), light, zorder 6
 c26231 '[textdict[1189713]]'
-stop music
 hide p2623
 show oc007_02 3 as p2623 at l(-24), light, zorder 6
 c26231 '[textdict[1189714]]'
-stop music
 play sfx2 "other_7040.ogg"
 hide p2623
 show oc007_02 3 as p2623 at l(-24), dark, zorder 6
 show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1189715]]'
-stop music
 play sfx2 "other_7040.ogg"
 hide p2623
 hide p2

@@ -52,25 +52,19 @@ stop music
 hide p2668
 show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 c5001 '[textdict[2112913]]' (what_size=(gui.text_size*0.8))
-stop music
 hide p2668
 show oce04_01 2 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[2112914]]'
-stop music
 hide p2668
 show oce04_01 2 as p2668 at r(-5), dark, zorder 5
 c5001 '[textdict[2112915]]' (what_size=(gui.text_size*1.1))
-stop music
 hide p2668
 show oce04_01 2 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[2112916]]'
-stop music
 hide p2668
 c0 '[textdict[2112917]]'
-stop music
 show oc006_01 1 as p6 at l_entrance(-5), light, zorder 6
 c61 '[textdict[2112918]]'
-stop music
 hide p6
 show oc006_01 1 as p6 at l(-5), dark, zorder 6
 show oce04_01 2 as p2668 at r(-5), light, zorder 5

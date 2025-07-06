@@ -15,7 +15,6 @@ scene avg_bg_011
 with fade
 show sc011_01 4 as p19 at l(-1), l_shake, light, zorder 6
 c191 '[textdict[2110152]]'
-stop music
 hide p19
 show sc011_01 4 as p19 at l(-1), light, zorder 6
 c191 '[textdict[2110153]]'
@@ -134,10 +133,10 @@ hide p19
 stop music
 show oc001_01 12 as p1 at r_entrance(-2), r_shake, light, zorder 5
 c13 '[textdict[2110179]]'
-stop music
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110180]]'
+play music "ed7513.ogg"
 scene avg_bg_011
 with fade
 show sc013_01 4 as p21 at l_entrance(-12), light, zorder 6
@@ -267,18 +266,15 @@ with fade
 play sfx2 "other_7064.ogg"
 show oc001_01 2 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2110206]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110207]]'
-stop music
 hide p1
 play sfx2 "other_7085.ogg"
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 with fade
 c13 '[textdict[2110208]]'
-stop music
 hide p1
 show oc001_01 10 as p1 at r_midback(-2), light, zorder 5
 c13 '[textdict[2110209]]'

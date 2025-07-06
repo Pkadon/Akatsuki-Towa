@@ -333,13 +333,10 @@ c0 '[textdict[2103723]]'
 stop music
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103724]]'
-stop music
 hide p1
 c0 '[textdict[2103725]]'
-stop music
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103726]]'
-stop music
 hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103727]]'

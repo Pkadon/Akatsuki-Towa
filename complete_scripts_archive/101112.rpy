@@ -1,7 +1,6 @@
 label avg101112:
 stop music
 
-stop music
 scene placeholderbackground
 with fade
 show sc003_01 6 as p11 at mid(-4), light, zorder 5

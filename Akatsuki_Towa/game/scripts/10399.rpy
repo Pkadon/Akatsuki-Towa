@@ -189,12 +189,10 @@ stop music
 hide p2
 show oc004_01 14 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1132788]]'
-stop music
 play sfx2 "other_7007.ogg"
 hide p4
 show oc004_01 16 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1132789]]' (what_size=(gui.text_size*1.2)) with shake
-stop music
 hide p4
 show oc004_01 16 as p4 at r(-5), dark, zorder 5
 c10521 '[textdict[1132790]]'

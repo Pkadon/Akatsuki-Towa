@@ -1,7 +1,6 @@
 label avg1205:
 stop music
 
-stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
@@ -184,11 +183,9 @@ hide p13
 show sc008_01 4 as p16 at r_midback(-18), light, zorder 5
 with fade
 c163 '[textdict[2108504]]' (what_size=(gui.text_size*1.25))
-stop music
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
 c26841 '[textdict[2108505]]' with shake
-stop music
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
 show uc001_01 2 as p689 at l(-2), light, zorder 6
@@ -414,34 +411,26 @@ scene avg_bg_070
 with fade
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[2108558]]'
-stop music
 scene avg_bg_034
 show sc007_01 3 as p15 at l(-17), light, zorder 6
 with fade
 c151 '[textdict[2108559]]'
-stop music
 hide p15
 c26841 '[textdict[2108560]]'
-stop music
 show uc001_01 1 as p689 at r(-2), light, zorder 5
 with fade
 c6893 '[textdict[2108561]]'
-stop music
 hide p689
 show st029_01 4 as p610 at l(-28), light, zorder 6
 with fade
 c6101 '[textdict[2108562]]'
-stop music
 hide p610
 with fade
 c26793 '[textdict[2108563]]'
-stop music
 with fade
 c26841 '[textdict[2108564]]'
-stop music
 show sc007_01 2 as p15 at l(-17), light, zorder 6
 c151 '[textdict[2108565]]'
-stop music
 hide p15
 c0 '[textdict[2108566]]'
 play music "ed7506.ogg"
@@ -493,24 +482,19 @@ hide p689
 hide p16
 show sc008_01 2 as p16 at r(-18), dark, zorder 5
 c26841 '[textdict[2108578]]'
-stop music
 hide p16
 c0 '[textdict[2108579]]'
-stop music
 show sc008_01 2 as p16 at r(-18), light, zorder 5
 c163 '[textdict[2108580]]'
-stop music
 hide p16
 show sc008_01 2 as p16 at r(-18), dark, zorder 5
 show uc001_01 1 as p689 at l(-2), light, zorder 6
 c6891 '[textdict[2108581]]'
-stop music
 hide p16
 hide p689
 show uc001_01 1 as p689 at l(-2), dark, zorder 6
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[2108582]]'
-stop music
 hide p689
 hide p16
 play sfx2 "other_7062.ogg"

@@ -119,7 +119,6 @@ c13 '[textdict[1179712]]'
 stop music
 hide p1
 c0 '[textdict[1179713]]'
-stop music
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1179714]]'
 play music "ed6567.ogg"
@@ -242,24 +241,19 @@ stop music
 play sfx2 "fight_6009.ogg"
 show oc004_01 15 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1179743]]' with shake
-stop music
 hide p4
 c0 '[textdict[1179744]]'
-stop music
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1179745]]'
-stop music
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show oc003_01 12 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1179746]]'
-stop music
 hide p2
 hide p3
 show oc003_01 12 as p3 at r(-6), dark, zorder 5
 show oc004_01 3 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1179747]]'
-stop music
 hide p4
 hide p3
 show oc003_01 12 as p3 at r(-6), dark, zorder 5

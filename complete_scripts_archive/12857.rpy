@@ -242,16 +242,12 @@ stop music
 scene avg_bg_513
 with fade
 c0 '[textdict[1188799]]'
-stop music
 c0 '[textdict[1188800]]'
-stop music
 show st064_01 3 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1188801]]'
-stop music
 hide p1469
 show st064_01 3 as p1469 at l(-2), dark, zorder 6
 c14743 '[textdict[1188802]]'
-stop music
 hide p1469
 show oc004_01 3 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1188803]]'

@@ -95,7 +95,6 @@ scene avg_bg_019
 with fade
 show sca46_01 1 as p2632 at r_entrance(-5), light, zorder 5
 c26323 '[textdict[2107400]]'
-stop music
 hide p2632
 show sca46_01 4 as p2632 at r(-5), light, zorder 5
 c26323 '[textdict[2107401]]'

@@ -115,11 +115,9 @@ c10523 '[textdict[1132787]]'
 stop music
 show oc004_01 14 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132788]]'
-stop music
 hide p4
 show oc004_01 16 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132789]]' (what_size=(gui.text_size*1.3)) with shake
-stop music
 hide p4
 c10523 '[textdict[1132790]]'
 play music "ed7151.ogg"
@@ -173,18 +171,13 @@ c33 '[textdict[1132810]]'
 stop music
 hide p3
 c10483 '[textdict[1132811]]'
-stop music
 c10553 '[textdict[1132812]]'
-stop music
 c10563 '[textdict[1132813]]'
-stop music
 show uc003_04 3 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132814]]'
-stop music
 hide p1045
 show uc003_04 4 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132815]]'
-stop music
 hide p1045
 show uc003_04 3 as p1045 at mid(-14), light, zorder 5
 c10453 '[textdict[1132816]]'

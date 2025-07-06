@@ -106,18 +106,15 @@ stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7033.ogg"
 c6391 '[textdict[2110686]]'
-stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7033.ogg"
 show st021_01 9 as p220 at l(-17), l_shake, light, zorder 6
 c2201 '[textdict[2110687]]'
-stop music
 show memoryoverlay zorder 2
 hide p220
 show st021_01 9 as p220 at l(-17), dark, zorder 6
 show oc008_01 2 as p8 at r(-5), light, zorder 5
 c83 '[textdict[2110688]]'
-stop music
 show memoryoverlay zorder 2
 hide p220
 hide p8
@@ -365,7 +362,6 @@ stop music
 hide p2701
 show oca01_01 8 as p2701 at r(-2), dark, zorder 5
 c5001 '[textdict[2110752]]'
-stop music
 hide p2701
 show oca01_01 2 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110753]]'
@@ -521,27 +517,21 @@ scene avg_bg_036
 with fade
 show oca01_01 19 as p2701 at r_entrance(-2), light, zorder 5
 c27013 '[textdict[2110788]]'
-stop music
 hide p2701
 play sfx2 "other_7060.ogg"
 with fade
 c27151 '[textdict[2110789]]'
-stop music
 show oca01_01 20 as p2701 at r_entrance(-2), light, zorder 5
 c27013 '[textdict[2110790]]' (what_size=(gui.text_size*1.25))
-stop music
 hide p2701
 show oca01_01 20 as p2701 at r(-2), dark, zorder 5
 c27151 '[textdict[2110791]]'
-stop music
 hide p2701
 show oca01_01 20 as p2701 at r(-2), dark, zorder 5
 c27151 '[textdict[2110792]]'
-stop music
 hide p2701
 show oca01_01 19 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110793]]'
-stop music
 hide p2701
 show oca01_01 19 as p2701 at r(-2), dark, zorder 5
 c27151 '[textdict[2110794]]'
@@ -738,9 +728,7 @@ hide p2702
 hide p2701
 play sfx2 "fight_6010.ogg"
 c0 '[textdict[2110863]]' with shake
-stop music
 c27151 '[textdict[2110864]]'
-stop music
 show oca01_01 2 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110865]]'
 return

@@ -53,7 +53,6 @@ stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1189888]]'
-stop music
 c0 '[textdict[1189889]]'
 play music "ed7580.ogg"
 scene avg_bg_222
@@ -214,28 +213,22 @@ hide p8
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1189927]]'
-stop music
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189928]]'
-stop music
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1189929]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189930]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189931]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc002_01 1 as p2612 at l(-3), light, zorder 6
 c26121 '[textdict[1189932]]'
-stop music
 hide p2612
 hide p1
 c0 '[textdict[1189933]]'
@@ -556,10 +549,8 @@ hide p8
 hide p2
 play sfx2 "fight_6008.ogg"
 c0 '[textdict[1189997]]' with shake
-stop music
 show oc008_02 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1189998]]'
-stop music
 hide p8
 show oc008_02 3 as p8 at l(-5), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5

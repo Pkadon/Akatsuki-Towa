@@ -197,8 +197,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 
 	state = GameState(fname)
 
-	lastplayed = ''
-	lastbackground = ''
+	lastplayed = None
+	lastbackground = None
 	showingimage = None
 	memory = False
 	
@@ -229,14 +229,13 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		effect = frame['effect']
 		avgImageID = frame['avgImageID']
 		
-		#check if there is suposed to be bgm
+		#check if there is supposed to be bgm
 		if len(bgm_schedule) > 0:
 			#see if music is supposed to stop
-			if framecount not in bgm_schedule:
-				state.add_line('stop music\n')
-			#filter out the -1 bgm id
-			elif bgm_schedule[framecount] == -1: 
-				state.add_line('stop music\n')
+			if framecount not in bgm_schedule or bgm_schedule[framecount] == -1:
+				if lastplayed != None:
+					state.add_line('stop music\n')
+					lastplayed = None
 			#then go back to normal
 			else:
 				framebgm = bgm_dict[bgm_schedule[framecount]]['_bgmName']

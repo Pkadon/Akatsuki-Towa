@@ -169,10 +169,8 @@ hide p5
 show oc005_01 10 as p5 at r(-6), dark, zorder 5
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1178953]]'
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1178954]]'
-stop music
 c0 '[textdict[1178955]]'
 return

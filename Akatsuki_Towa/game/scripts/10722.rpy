@@ -61,19 +61,17 @@ hide p8
 hide p1
 play sfx2 "fight_6009.ogg"
 c0 '[textdict[1171161]]'
-stop music
 show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1171162]]'
-stop music
 hide p8
 show oc008_01 3 as p8 at l(-5), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171163]]'
-stop music
 hide p8
 hide p1
 play sfx2 "other_7057.ogg"
 c0 '[textdict[1171164]]'
+play music "ed7571.ogg"
 play sfx2 "other_7020.ogg"
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171165]]'

@@ -241,13 +241,11 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc053_01 4 as p60 at l(-32), light, zorder 6
 c601 '[textdict[2102275]]'
-stop music
 hide p1
 hide p60
 show sc053_01 4 as p60 at l(-32), dark, zorder 6
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102276]]' with shake
-stop music
 hide p60
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5

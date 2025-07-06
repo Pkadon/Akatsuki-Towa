@@ -1,12 +1,10 @@
 label avg10611:
 stop music
 
-stop music
 scene avg_bg_010
 with fade
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1160421]]'
-stop music
 play sfxvoice "avg_vocal_na10_b.ogg"
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6

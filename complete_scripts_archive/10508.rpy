@@ -232,7 +232,6 @@ hide p239
 hide p15
 play sfx2 "fight_6015.ogg"
 c0 '[textdict[1150466]]' with shake
-stop music
 play sfx2 "fight_6016.ogg"
 show oc001_01 9 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1150467]]'

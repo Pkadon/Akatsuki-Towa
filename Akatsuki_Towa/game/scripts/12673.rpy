@@ -191,11 +191,8 @@ c13701 '[textdict[1166839]]'
 stop music
 hide p1
 c5053 '[textdict[1166840]]'
-stop music
 c13701 '[textdict[1166841]]'
-stop music
 c13701 '[textdict[1166842]]' with shake
-stop music
 c11573 '[textdict[1166843]]'
 play music "ed7514.ogg"
 c13701 '[textdict[1166844]]'

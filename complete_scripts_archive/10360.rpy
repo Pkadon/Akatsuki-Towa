@@ -187,7 +187,6 @@ hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show st032_01 4 as p231 at l(2), light, zorder 6
 c2311 '[textdict[1131815]]'
-stop music
 hide p1
 hide p231
 show st032_01 4 as p231 at l(2), dark, zorder 6

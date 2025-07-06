@@ -1,17 +1,12 @@
 label avg12825:
 stop music
 
-stop music
 scene avg_bg_050
 with fade
 c0 '[textdict[1184551]]'
-stop music
 c0 '[textdict[1184552]]'
-stop music
 c0 '[textdict[1184553]]'
-stop music
 c0 '[textdict[1184554]]'
-stop music
 c0 '[textdict[1184555]]'
 play music "ed7102.ogg"
 show st061_01 1 as p1304 at l(-2), light, zorder 6

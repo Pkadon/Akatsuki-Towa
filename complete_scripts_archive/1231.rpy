@@ -152,103 +152,80 @@ stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[2111544]]'
-stop music
 scene avg_bg_038
 with fade
 play sfx2 "other_7047.ogg"
 show sc040_01 1 as p47 at l_entrance(-9), light, zorder 6
 c471 '[textdict[2111545]]'
-stop music
 hide p47
 show sc040_01 1 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2111546]]'
-stop music
 hide p47
 show sc040_01 1 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2111547]]'
-stop music
 hide p47
 show sc040_01 1 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2111548]]'
-stop music
 hide p47
 show sc040_01 7 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2111549]]'
-stop music
 play sfx2 "other_7057.ogg"
 hide p47
 show sc040_01 6 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2111550]]'
-stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7044.ogg"
 c5001 '[textdict[2111551]]'
-stop music
 show sc040_01 6 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111552]]'
-stop music
 play sfx2 "other_7044.ogg"
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111553]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111554]]'
-stop music
 play sfx2 "other_7044.ogg"
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111555]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c27411 '[textdict[2111556]]' with shake
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111557]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c27411 '[textdict[2111558]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111559]]'
-stop music
 scene avg_bg_038
 with fade
 play sfx2 "other_7047.ogg"
 show sc040_01 3 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111560]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111561]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c27411 '[textdict[2111562]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111563]]'
-stop music
 play sfx2 "other_7047.ogg"
 hide p47
 show sc040_01 6 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111564]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111565]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111566]]'
-stop music
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c27411 '[textdict[2111567]]' with shake

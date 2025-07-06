@@ -172,11 +172,9 @@ stop music
 hide p1304
 show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1183761]]'
-stop music
 hide p1304
 show st061_01 2 as p1304 at r(-2), dark, zorder 5
 c25531 '[textdict[1183762]]'
-stop music
 hide p1304
 show st061_01 2 as p1304 at r(-2), dark, zorder 5
 c25531 '[textdict[1183763]]'

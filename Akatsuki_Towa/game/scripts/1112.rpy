@@ -74,19 +74,16 @@ hide p204
 show st004_01 1 as p204 at l(4), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102785]]'
-stop music
 hide p1
 hide p204
 show st004_01 1 as p204 at l(4), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102786]]'
-stop music
 hide p1
 hide p204
 show st004_01 1 as p204 at l(4), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102787]]'
-stop music
 hide p204
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

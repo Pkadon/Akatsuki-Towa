@@ -40,7 +40,6 @@ stop music
 hide p2
 show oc002_01 1 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143802]]'
-stop music
 hide p2
 show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143803]]'

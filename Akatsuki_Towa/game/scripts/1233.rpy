@@ -54,19 +54,15 @@ play sfx2 "other_7073.ogg"
 hide p2739
 show uc002_03 4 as p2739 at l(-23), dark, zorder 6
 c27523 '[textdict[2111776]]'
-stop music
 hide p2739
 show uc002_03 4 as p2739 at l(-23), light, zorder 6
 c27391 '[textdict[2111777]]'
-stop music
 hide p2739
 show uc002_03 4 as p2739 at l(-23), light, zorder 6
 c27391 '[textdict[2111778]]'
-stop music
 hide p2739
 show uc002_03 4 as p2739 at l(-23), light, zorder 6
 c27391 '[textdict[2111779]]' (what_size=(gui.text_size*1.25)) with shake
-stop music
 hide p2739
 c6431 '[textdict[2111780]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7150.ogg"
@@ -163,70 +159,56 @@ stop music
 play sfx2 "other_7047.ogg"
 show sc040_01 2 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111799]]'
-stop music
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
 c27531 '[textdict[2111800]]'
-stop music
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111801]]'
-stop music
 hide p47
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111802]]'
-stop music
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2111803]]'
-stop music
 hide p47
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), r_shake, light, zorder 5
 c473 '[textdict[2111804]]'
-stop music
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 c27531 '[textdict[2111805]]'
-stop music
 play sfx2 "other_7088.ogg"
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 show sc039_01 4 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2111806]]'
-stop music
 hide p47
 hide p46
 show sc039_01 4 as p46 at l(-13), dark, zorder 6
 c453 '[textdict[2111807]]'
-stop music
 hide p46
 show sc039_01 5 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2111808]]'
-stop music
 play sfx2 "other_7088.ogg"
 hide p46
 show sc039_01 5 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2111809]]'
-stop music
 hide p46
 c0 '[textdict[2111810]]'
-stop music
 show sc039_01 5 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2111811]]'
-stop music
 hide p46
 show sc039_01 5 as p46 at l(-13), dark, zorder 6
 show sc040_01 6 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111812]]'
-stop music
 hide p46
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
@@ -389,89 +371,74 @@ hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111848]]'
-stop music
 hide p47
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc038_01 2 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2111849]]'
-stop music
 hide p45
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111850]]'
-stop music
 hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 show sc039_01 2 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2111851]]'
-stop music
 hide p47
 hide p46
 show sc039_01 2 as p46 at l(-13), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111852]]'
-stop music
 hide p47
 hide p46
 show sc039_01 2 as p46 at l(-13), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111853]]'
-stop music
 hide p47
 hide p46
 show sc039_01 2 as p46 at l(-13), dark, zorder 6
 show sc040_01 4 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2111854]]'
-stop music
 hide p46
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 show sc038_01 4 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2111855]]'
-stop music
 hide p45
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 show sc039_01 4 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2111856]]'
-stop music
 hide p46
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111857]]'
-stop music
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 show sc038_01 2 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2111858]]'
-stop music
 hide p47
 hide p45
 show sc038_01 2 as p45 at l(-1), dark, zorder 6
 show sc039_01 2 as p46 at r(-13), light, zorder 5
 c463 '[textdict[2111859]]'
-stop music
 hide p45
 hide p46
 show sc039_01 2 as p46 at r(-13), dark, zorder 5
 show sc041_01 1 as p48 at l_entrance(-9), light, zorder 6
 c481 '[textdict[2111860]]'
-stop music
 hide p48
 hide p46
 show sc039_01 2 as p46 at r(-13), dark, zorder 5
 show sc041_01 1 as p48 at l(-9), light, zorder 6
 c481 '[textdict[2111861]]'
-stop music
 hide p46
 hide p48
 show sc041_01 1 as p48 at l(-9), dark, zorder 6
 show oca00_01 1 as p2731 at r(-2), light, zorder 5
 c27313 '[textdict[2111862]]'
-stop music
 hide p2731
 hide p48
 show sc041_01 1 as p48 at l(-9), dark, zorder 6
@@ -609,18 +576,15 @@ c0 '[textdict[2111889]]'
 stop music
 show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2111890]]'
-stop music
 hide p45
 show sc038_01 1 as p45 at l(-1), dark, zorder 6
 show sc041_01 1 as p48 at r(-9), light, zorder 5
 c483 '[textdict[2111891]]'
-stop music
 hide p48
 hide p45
 show sc038_01 1 as p45 at l(-1), dark, zorder 6
 show oca00_01 1 as p2731 at r(-2), light, zorder 5
 c27313 '[textdict[2111892]]'
-stop music
 hide p45
 hide p2731
 show oca00_01 1 as p2731 at r(-2), dark, zorder 5
@@ -694,7 +658,6 @@ hide p45
 show sc038_01 3 as p45 at l(-1), dark, zorder 6
 show oca00_01 1 as p2732 at r_entrance(-2), light, zorder 5
 c27323 '[textdict[2111906]]'
-stop music
 hide p45
 hide p2732
 show oca00_01 1 as p2732 at r(-2), dark, zorder 5

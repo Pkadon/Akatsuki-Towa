@@ -228,42 +228,34 @@ hide p239
 hide p2670
 show sta61_01 5 as p2670 at l(-2), dark, zorder 6
 c26713 '[textdict[1191234]]'
-stop music
 play sfx2 "other_7060.ogg"
 hide p2670
 show sta61_01 5 as p2670 at l(-2), dark, zorder 6
 show st040_01 2 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191235]]'
-stop music
 hide p2670
 hide p239
 play sfx2 "other_7060.ogg"
 c0 '[textdict[1191236]]'
-stop music
 show st040_01 2 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191237]]'
-stop music
 hide p239
 show st040_01 4 as p239 at r(-19), r_shake, light, zorder 5
 c2393 '[textdict[1191238]]'
-stop music
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
 show sta61_01 4 as p2670 at l(-2), light, zorder 6
 c26701 '[textdict[1191239]]'
-stop music
 hide p239
 hide p2670
 show sta61_01 4 as p2670 at l(-2), dark, zorder 6
 show st040_01 4 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191240]]'
-stop music
 hide p2670
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
 show sta61_01 5 as p2670 at l(-2), light, zorder 6
 c26701 '[textdict[1191241]]'
-stop music
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at l(-2), dark, zorder 6

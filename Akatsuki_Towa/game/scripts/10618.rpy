@@ -144,6 +144,7 @@ hide p1
 show oc001_01 15 as p1 at r(-2), dark, zorder 5
 show oc008_01 4 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1161032]]'
+play music "ed7564.ogg"
 hide p8
 hide p1
 show oc001_01 15 as p1 at r(-2), dark, zorder 5
@@ -164,11 +165,9 @@ hide p3
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1161036]]' with shake
-stop music
 hide p1
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1161037]]'
-stop music
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc008_01 1 as p8 at l(-5), light, zorder 6

@@ -227,55 +227,46 @@ hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1183488]]'
-stop music
 hide p1304
 hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 show oc004_01 2 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1183489]]'
-stop music
 hide p3
 hide p4
 show oc004_01 2 as p4 at l(-5), dark, zorder 6
 show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1183490]]'
-stop music
 hide p4
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1183491]]'
-stop music
 hide p3
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show st044_01 1 as p692 at r(10), light, zorder 5
 c6923 '[textdict[1183492]]'
-stop music
 hide p2
 hide p692
 show st044_01 1 as p692 at r(10), dark, zorder 5
 show st061_01 1 as p1304 at l(-2), l_shake, light, zorder 6
 c13041 '[textdict[1183493]]'
-stop music
 hide p692
 hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1184011]]'
-stop music
 hide p1304
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show st061_01 2 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184012]]'
-stop music
 hide p1304
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show st061_01 4 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184013]]'
-stop music
 hide p4
 hide p1304
 show st061_01 4 as p1304 at l(-2), dark, zorder 6

@@ -87,33 +87,27 @@ hide p55
 show sc048_01 3 as p55 at r(-7), dark, zorder 5
 show uc003_04 1 as p1045 at l(-14), light, zorder 6
 c10451 '[textdict[1132491]]'
-stop music
 hide p1045
 hide p55
 show sc048_01 3 as p55 at r(-7), dark, zorder 5
 show uc003_04 1 as p1045 at l(-14), light, zorder 6
 c10451 '[textdict[1132492]]'
-stop music
 hide p55
 hide p1045
 show uc003_04 1 as p1045 at l(-14), dark, zorder 6
 c10473 '[textdict[1132493]]'
-stop music
 hide p1045
 show uc003_04 1 as p1045 at l(-14), dark, zorder 6
 c10483 '[textdict[1132494]]'
-stop music
 hide p1045
 show uc003_04 1 as p1045 at l(-14), dark, zorder 6
 show oc004_01 12 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1132495]]'
-stop music
 hide p1045
 hide p4
 show oc004_01 12 as p4 at r(-5), dark, zorder 5
 show st040_01 1 as p1043 at l(-19), light, zorder 6
 c10431 '[textdict[1132496]]'
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1132497]]'

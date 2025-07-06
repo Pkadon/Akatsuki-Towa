@@ -1,11 +1,9 @@
 label avg10833:
 stop music
 
-stop music
 scene avg_bg_049
 with fade
 c21 '[textdict[1187002]]' with shake
-stop music
 c13 '[textdict[1187003]]' with shake
 play music "ed7150.ogg"
 scene avg_bg_023
@@ -489,62 +487,50 @@ scene avg_bg_070
 with fade
 play sfx2 "other_7060.ogg"
 c0 '[textdict[1187104]]'
-stop music
 play sfx2 "other_7060.ogg"
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187105]]'
-stop music
 play sfx2 "other_7085.ogg"
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187106]]'
-stop music
 play sfx2 "other_7085.ogg"
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187107]]'
-stop music
 play sfx2 "other_7044.ogg"
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1187108]]' with shake
-stop music
 scene avg_bg_038
 with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187109]]'
-stop music
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc003_01 2 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1187110]]'
-stop music
 hide p3
 hide p1
 play sfx2 "other_7047.ogg"
 c0 '[textdict[1187111]]'
-stop music
 show oc002_01 3 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1187112]]'
-stop music
 hide p2
 show oc002_01 3 as p2 at l(-3), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187113]]'
-stop music
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 20 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1187114]]'
-stop music
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 3 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1187115]]'
-stop music
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5

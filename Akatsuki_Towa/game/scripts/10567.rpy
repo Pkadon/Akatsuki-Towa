@@ -367,24 +367,22 @@ hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
 show oc008_01 6 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1154494]]'
-stop music
 hide p16
 hide p8
 show oc008_01 6 as p8 at l(-5), dark, zorder 6
 show oc002_01 15 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1154495]]'
-stop music
 hide p2
 hide p8
 show oc008_01 6 as p8 at l(-5), dark, zorder 6
 show oc001_01 13 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1154496]]'
-stop music
 hide p1
 hide p8
 show oc008_01 6 as p8 at l(-5), dark, zorder 6
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154497]]'
+play music "ed7564.ogg"
 hide p8
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
@@ -564,7 +562,6 @@ hide p8
 show oc008_01 4 as p8 at l(-5), dark, zorder 6
 show st057_01 2 as p1211 at r(-16), light, zorder 5
 c12113 '[textdict[1154538]]' with shake
-stop music
 hide p1211
 hide p8
 show oc008_01 4 as p8 at l(-5), dark, zorder 6

@@ -45,7 +45,6 @@ hide p205
 c0 '[textdict[2100933]]'
 stop music
 c0 '[textdict[2100934]]'
-stop music
 show st005_01 3 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2100935]]'
 play music "ed7151.ogg"

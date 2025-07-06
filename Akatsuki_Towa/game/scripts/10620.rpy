@@ -1,12 +1,10 @@
 label avg10620:
 stop music
 
-stop music
 scene avg_bg_070
 with fade
 play sfx2 "other_7060.ogg"
 c0 '[textdict[1162123]]'
-stop music
 play sfx2 "other_7060.ogg"
 c0 '[textdict[1162124]]'
 play music "ed9999.ogg"

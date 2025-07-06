@@ -149,30 +149,24 @@ hide p211
 hide p3
 show oc003_01 3 as p3 at l(-6), dark, zorder 6
 c6213 '[textdict[1003409]]'
-stop music
 play sfxvoice "avg_vocal_na21.ogg"
 hide p3
 show oc001_01 12 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1003410]]'
-stop music
 hide p1
 play sfx2 "other_7064.ogg"
 c0 '[textdict[1003411]]'
-stop music
 show st012_01 2 as p211 at r(-6), light, zorder 5
 c2113 '[textdict[1003412]]'
-stop music
 hide p211
 show st012_01 2 as p211 at r(-6), dark, zorder 5
 show oc002_01 9 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1003413]]'
-stop music
 hide p211
 hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1003414]]'
-stop music
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

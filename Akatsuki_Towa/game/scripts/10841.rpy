@@ -147,7 +147,6 @@ hide p1349
 hide p1
 play sfx2 "fight_6025.ogg"
 c0 '[textdict[1188274]]'
-stop music
 show oc007_01 2 as p7 at l(-24), light, zorder 6
 c71 '[textdict[1188275]]'
 play music "ed7510.ogg"

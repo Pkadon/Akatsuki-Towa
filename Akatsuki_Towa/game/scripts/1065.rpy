@@ -174,21 +174,17 @@ hide p205
 c0 '[textdict[2101261]]'
 stop music
 c0 '[textdict[2101262]]'
-stop music
 show st002_01 3 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101263]]'
-stop music
 hide p202
 show st002_01 3 as p202 at l(-9), dark, zorder 6
 show st005_01 3 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2101264]]'
-stop music
 hide p202
 hide p205
 show st005_01 3 as p205 at r(4), dark, zorder 5
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101265]]'
-stop music
 hide p202
 hide p205
 show st005_01 3 as p205 at r(4), dark, zorder 5

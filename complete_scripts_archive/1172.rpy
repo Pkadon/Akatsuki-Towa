@@ -317,7 +317,6 @@ hide p1004
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c25331 '[textdict[2105480]]' with shake
-stop music
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc046_01 4 as p1004 at l(-5), light, zorder 6

@@ -181,20 +181,17 @@ hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183327]]'
-stop music
 hide p1
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183328]]'
-stop music
 play sfx2 "other_7047.ogg"
 hide p1
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183329]]'
-stop music
 hide p3
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5

@@ -98,6 +98,7 @@ hide p1051
 hide p4
 play sfx2 "other_7088.ogg"
 c0 '[textdict[1132736]]'
+play music "ed7526.ogg"
 show oc001_01 19 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1132737]]'
 hide p1

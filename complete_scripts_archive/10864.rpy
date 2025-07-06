@@ -83,53 +83,42 @@ stop music
 hide p2666
 show oce02_01 21 as p2666 at r(-3), dark, zorder 5
 c5001 '[textdict[1191293]]'
-stop music
 play sfx2 "other_7081.ogg"
 hide p2666
 show oce02_01 21 as p2666 at r(-3), dark, zorder 5
 c26621 '[textdict[1191294]]'
-stop music
 hide p2666
 show oce02_01 21 as p2666 at r(-3), dark, zorder 5
 c5001 '[textdict[1191295]]'
-stop music
 hide p2666
 show oce02_01 15 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[1191296]]'
-stop music
 hide p2666
 play sfx2 "other_7088.ogg"
 c0 '[textdict[1191297]]'
-stop music
 show oce02_01 15 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[1191298]]'
-stop music
 hide p2666
 show oce02_01 15 as p2666 at r(-3), dark, zorder 5
 show ocd01_01 1 as p2665 at l_entrance(-2), light, zorder 6
 c26651 '[textdict[1191299]]'
-stop music
 hide p2666
 hide p2665
 show ocd01_01 1 as p2665 at l(-2), dark, zorder 6
 c14403 '[textdict[1191300]]'
-stop music
 hide p2665
 show ocd01_01 1 as p2665 at l(-2), dark, zorder 6
 show oce02_01 14 as p2666 at r_midback(-3), light, zorder 5
 c26663 '[textdict[1191301]]'
-stop music
 hide p2665
 hide p2666
 show oce02_01 14 as p2666 at r(-3), dark, zorder 5
 show ocd01_01 22 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191302]]'
-stop music
 hide p2666
 hide p2665
 show ocd01_01 22 as p2665 at l(-2), dark, zorder 6
 c14403 '[textdict[1191303]]'
-stop music
 scene avg_bg_070
 with fade
 c23 '[textdict[1191304]]'
@@ -300,59 +289,48 @@ hide p2665
 show ocd01_01 2 as p2665 at l(-2), dark, zorder 6
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191362]]'
-stop music
 hide p2665
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 show oce02_01 1 as p2666 at l(-3), light, zorder 6
 c26661 '[textdict[1191363]]'
-stop music
 hide p2666
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 show ocd01_01 4 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191364]]'
-stop music
 hide p2668
 hide p2665
 show ocd01_01 4 as p2665 at l(-2), dark, zorder 6
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191365]]'
-stop music
 hide p2665
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 c14401 '[textdict[1191366]]'
-stop music
 hide p2668
 show st040_01 1 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191367]]'
-stop music
 hide p239
 show st040_01 1 as p239 at r(-19), dark, zorder 5
 c14401 '[textdict[1191368]]'
-stop music
 hide p239
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191369]]'
-stop music
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 show oce02_01 4 as p2666 at l(-3), light, zorder 6
 c26661 '[textdict[1191370]]'
-stop music
 hide p2668
 hide p2666
 show oce02_01 4 as p2666 at l(-3), dark, zorder 6
 show st040_01 4 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191371]]'
-stop music
 hide p2666
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
 show ocd01_01 4 as p2665 at l(-2), light, zorder 6
 c26651 '[textdict[1191372]]'
-stop music
 hide p2665
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5

@@ -131,7 +131,6 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show oc005_01 22 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1185024]]'
-stop music
 hide p5
 hide p1
 play sfx2 "fight_6015.ogg"
@@ -177,10 +176,8 @@ scene avg_bg_010
 with fade
 play sfx2 "other_7017.ogg"
 c0 '[textdict[1185047]]'
-stop music
 play sfx2 "other_7017.ogg"
 c0 '[textdict[1185048]]'
-stop music
 play sfx2 "other_7017.ogg"
 c0 '[textdict[1185049]]'
 play music "ed7151.ogg"

@@ -197,10 +197,8 @@ stop music
 hide p3
 hide p1
 c0 '[textdict[1183194]]'
-stop music
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183195]]'
-stop music
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6

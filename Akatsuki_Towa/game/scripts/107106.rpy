@@ -128,9 +128,7 @@ stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1179884]]'
-stop music
 c0 '[textdict[1179885]]'
-stop music
 c0 '[textdict[1179886]]'
 play music "ED6105.ogg"
 scene avg_bg_023

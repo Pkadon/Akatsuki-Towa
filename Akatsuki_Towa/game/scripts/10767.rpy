@@ -238,35 +238,27 @@ with fade
 play sfx2 "other_7057.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1175282]]'
-stop music
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
 show st061_01 4 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1175283]]'
-stop music
 hide p1
 hide p1304
 show st061_01 4 as p1304 at l(-2), dark, zorder 6
 show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1175284]]'
-stop music
 hide p1
 hide p1304
 show st061_01 4 as p1304 at l(-2), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1175285]]'
-stop music
 hide p1304
 hide p1
 c0 '[textdict[1175286]]'
-stop music
 c5001 '[textdict[1175287]]'
-stop music
 c5001 '[textdict[1175288]]'
-stop music
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1175289]]'
-stop music
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1175290]]'

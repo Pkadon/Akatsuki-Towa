@@ -11,33 +11,27 @@ stop music
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189731]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189732]]' with shake
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc007_02 7 as p2623 at l(-24), light, zorder 6
 c26231 '[textdict[1189733]]'
-stop music
 hide p2623
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc007_02 7 as p2623 at l(-24), light, zorder 6
 c26231 '[textdict[1189734]]'
-stop music
 scene avg_bg_504
 show memoryoverlay zorder 2
 with fade
 c25231 '[textdict[1189735]]'
-stop music
 scene avg_bg_218
 hide memoryoverlay
 with fade
 show st063_01 1 as p1346 at l(-16), light, zorder 6
 c13461 '[textdict[1189736]]'
-stop music
 hide p1346
 c0 '[textdict[1189737]]'
 play music "ed7515.ogg"
@@ -148,13 +142,11 @@ c0 '[textdict[1189761]]'
 stop music
 show st063_01 4 as p1346 at r(-16), light, zorder 5
 c13463 '[textdict[1189762]]'
-stop music
 play sfx2 "fight_6010.ogg"
 hide p1346
 show st063_01 4 as p1346 at r(-16), dark, zorder 5
 show sc008_01 4 as p16 at l(-18), l_shake, light, zorder 6
 c161 '[textdict[1189763]]'
-stop music
 hide p1346
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
@@ -270,7 +262,6 @@ c0 '[textdict[1189788]]'
 stop music
 play sfx2 "other_7088.ogg"
 c5001 '[textdict[1189789]]'
-stop music
 c5001 '[textdict[1189790]]' (what_size=(gui.text_size*1.15)) with shake
 play music "ed7201.ogg"
 scene avg_bg_036

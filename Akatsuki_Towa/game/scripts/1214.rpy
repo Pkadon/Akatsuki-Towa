@@ -123,34 +123,28 @@ scene avg_bg_070
 with fade
 show oc006_01 3 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109559]]'
-stop music
 hide p6
 show oc006_01 3 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109560]]'
-stop music
 hide p6
 show oc006_01 4 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109561]]'
-stop music
 hide p6
 show oc006_01 4 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109562]]'
-stop music
 hide p6
 show oc006_01 4 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109563]]'
-stop music
 hide p6
 show oc006_01 3 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109564]]'
-stop music
 hide p6
 show oc006_01 4 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109565]]'
-stop music
 hide p6
 show oc006_01 2 as p6 at r(-5), r_shake, light, zorder 5
 c63 '[textdict[2109566]]'
+play music "ed7111.ogg"
 scene avg_bg_007
 with fade
 play sfx2 "other_7047.ogg"

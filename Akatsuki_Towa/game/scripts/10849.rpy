@@ -195,30 +195,24 @@ c0 '[textdict[1189413]]'
 stop music
 show oc002_01 4 as p2 at r_entrance(-3), light, zorder 5
 c23 '[textdict[1189414]]'
-stop music
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1189415]]'
-stop music
 hide p2
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1189416]]'
-stop music
 hide p3
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189417]]'
-stop music
 hide p4
 hide p1
 c0 '[textdict[1189418]]'
-stop music
 c0 '[textdict[1189419]]'
-stop music
 show oc002_01 23 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1189420]]'
 play music "ed7511.ogg"

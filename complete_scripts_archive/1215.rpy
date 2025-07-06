@@ -198,23 +198,14 @@ stop music
 scene avg_bg_078
 with fade
 c25093 '[textdict[2109630]]'
-stop music
 c5131 '[textdict[2109631]]'
-stop music
 c26901 '[textdict[2109632]]'
-stop music
 c26901 '[textdict[2109633]]'
-stop music
 c25093 '[textdict[2109634]]'
-stop music
 c25093 '[textdict[2109635]]'
-stop music
 c5131 '[textdict[2109636]]'
-stop music
 c26901 '[textdict[2109637]]'
-stop music
 c5131 '[textdict[2109638]]'
-stop music
 c26901 '[textdict[2109639]]'
 play music "ed7515.ogg"
 c26901 '[textdict[2109640]]'
@@ -393,6 +384,5 @@ c41 '[textdict[2109698]]'
 stop music
 hide p4
 c0 '[textdict[2109699]]'
-stop music
 c0 '[textdict[2109700]]'
 return

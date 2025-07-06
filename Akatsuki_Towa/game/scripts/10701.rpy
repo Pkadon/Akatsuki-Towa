@@ -1,23 +1,15 @@
 label avg10701:
 stop music
 
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1170001]]'
-stop music
 c0 '[textdict[1170002]]'
-stop music
 c0 '[textdict[1170003]]'
-stop music
 c0 '[textdict[1170004]]'
-stop music
 c0 '[textdict[1170005]]'
-stop music
 c0 '[textdict[1170006]]'
-stop music
 c0 '[textdict[1170007]]'
-stop music
 c0 '[textdict[1170008]]'
 play music "ed7564.ogg"
 scene avg_bg_077
@@ -211,62 +203,52 @@ hide p1
 show oc001_01 16 as p1 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1170045]]'
-stop music
 hide p1
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170046]]'
-stop music
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 16 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1170047]]'
-stop music
 scene avg_bg_036
 show memoryoverlay zorder 2
 with fade
 show st021_01 5 as p220 at l(-17), light, zorder 6
 c2201 '[textdict[1170048]]'
-stop music
 scene avg_bg_023
 hide memoryoverlay
 with fade
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170049]]'
-stop music
 scene avg_bg_004
 show memoryoverlay zorder 2
 with fade
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1170050]]'
-stop music
 show memoryoverlay zorder 2
 hide p2
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1170051]]'
-stop music
 show memoryoverlay zorder 2
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170052]]'
-stop music
 show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1170053]]'
-stop music
 show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show oc002_01 17 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1170054]]'
-stop music
 show memoryoverlay zorder 2
 hide p2
 hide p1

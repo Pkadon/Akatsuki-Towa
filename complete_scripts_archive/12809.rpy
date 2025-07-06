@@ -106,38 +106,31 @@ stop music
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 c14161 '[textdict[1181993]]'
-stop music
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 c14161 '[textdict[1181994]]'
-stop music
 hide p3
 c0 '[textdict[1181995]]'
-stop music
 c14161 '[textdict[1181996]]'
-stop music
 show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1181997]]'
-stop music
 hide p2
 show oc002_01 4 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1181998]]'
-stop music
 hide p1
 hide p2
 show oc002_01 4 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1181999]]'
-stop music
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c14161 '[textdict[1182000]]'
-stop music
 hide p1
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1182001]]'
+play music "ed9999.ogg"
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
 c14161 '[textdict[1182002]]'

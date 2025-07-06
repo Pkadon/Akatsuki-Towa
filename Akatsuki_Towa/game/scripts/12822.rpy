@@ -1,49 +1,37 @@
 label avg12822:
 stop music
 
-stop music
 scene avg_bg_035
 with fade
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1183935]]'
-stop music
 hide p1
 c0 '[textdict[1183936]]'
-stop music
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1183937]]'
-stop music
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 c5001 '[textdict[1183938]]'
-stop music
 hide p1304
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1183939]]'
-stop music
 hide p1304
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183940]]'
-stop music
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1183941]]'
-stop music
 hide p1
 show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1183942]]'
-stop music
 hide p1304
 show st061_01 2 as p1304 at r(-2), dark, zorder 5
 c5001 '[textdict[1183943]]'
-stop music
 hide p1304
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183944]]'
-stop music
 hide p1
 c0 '[textdict[1183945]]'
-stop music
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183946]]'
 play music "ed7513.ogg"

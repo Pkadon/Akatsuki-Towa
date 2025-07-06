@@ -55,7 +55,6 @@ play sfxvoice "avg_vocal_li10.ogg"
 hide p1
 show oc004_01 13 as p4 at r_midback(-5), light, zorder 5
 c43 '[textdict[1132692]]'
-stop music
 hide p4
 show oc004_01 13 as p4 at r(-5), dark, zorder 5
 show uc003_04 1 as p1051 at l(-14), light, zorder 6

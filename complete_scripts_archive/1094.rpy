@@ -137,6 +137,7 @@ scene avg_bg_070
 with fade
 play sfx2 "other_7033.ogg"
 c0 '[textdict[2102096]]'
+play music "ed7202.ogg"
 scene avg_bg_036
 with fade
 show sc051_01 1 as p58 at l_entrance(-32), light, zorder 6
@@ -212,7 +213,6 @@ stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[2102111]]'
-stop music
 c0 '[textdict[2102112]]'
 play music "ed7150.ogg"
 scene avg_bg_023

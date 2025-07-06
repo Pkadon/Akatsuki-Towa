@@ -107,36 +107,30 @@ stop music
 hide p2
 show st017_01 2 as p216 at l(-18), light, zorder 6
 c2161 '[textdict[1002402]]'
-stop music
 hide p216
 show st017_01 2 as p216 at l(-18), dark, zorder 6
 show st016_01 2 as p215 at r(-8), light, zorder 5
 c2153 '[textdict[1002403]]'
-stop music
 hide p216
 hide p215
 show st016_01 2 as p215 at r(-8), dark, zorder 5
 show st017_01 5 as p216 at l(-18), light, zorder 6
 c2161 '[textdict[1002404]]'
-stop music
 hide p216
 hide p215
 show st016_01 2 as p215 at r(-8), dark, zorder 5
 show st017_01 1 as p216 at l(-18), light, zorder 6
 c2161 '[textdict[1002405]]'
-stop music
 hide p215
 hide p216
 show st017_01 1 as p216 at l(-18), dark, zorder 6
 show st016_01 2 as p215 at r(-8), light, zorder 5
 c2153 '[textdict[1002406]]'
-stop music
 hide p216
 hide p215
 show st016_01 2 as p215 at r(-8), dark, zorder 5
 show st017_01 1 as p216 at l(-18), light, zorder 6
 c2161 '[textdict[1002407]]'
-stop music
 hide p216
 hide p215
 show st016_01 2 as p215 at r(-8), dark, zorder 5

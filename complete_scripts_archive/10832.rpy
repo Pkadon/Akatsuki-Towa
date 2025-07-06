@@ -129,11 +129,9 @@ hide p2
 hide p1304
 show st061_01 5 as p1304 at r(-2), dark, zorder 5
 c5001 '[textdict[1186853]]'
-stop music
 hide p1304
 show st061_01 2 as p1304 at r(-2), r_shake, light, zorder 5
 c13043 '[textdict[1186854]]'
-stop music
 hide p1304
 c0 '[textdict[1186855]]'
 play music "ed7151.ogg"

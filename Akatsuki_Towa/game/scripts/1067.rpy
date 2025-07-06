@@ -67,7 +67,6 @@ hide p63
 show sca58_01 6 as p63 at l(-20), dark, zorder 6
 show st005_01 1 as p205 at r(4), light, zorder 5
 c2053 '[textdict[2101357]]'
-stop music
 scene avg_bg_025
 with fade
 c0 '[textdict[2101358]]'

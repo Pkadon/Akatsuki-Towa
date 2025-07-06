@@ -508,31 +508,24 @@ hide p1
 hide p21
 show sc013_01 1 as p21 at l(-12), dark, zorder 6
 c27303 '[textdict[2111368]]' with shake
-stop music
 hide p21
 show sc013_01 1 as p21 at l(-12), dark, zorder 6
 c27293 '[textdict[2111369]]'
-stop music
 hide p21
 show sc013_01 4 as p21 at l(-12), light, zorder 6
 c211 '[textdict[2111370]]'
-stop music
 hide p21
 show sc013_01 1 as p21 at l(-12), light, zorder 6
 c211 '[textdict[2111371]]'
-stop music
 hide p21
 show sc013_01 1 as p21 at l(-12), dark, zorder 6
 c27303 '[textdict[2111372]]'
-stop music
 hide p21
 show sc013_01 4 as p21 at l(-12), light, zorder 6
 c211 '[textdict[2111373]]'
-stop music
 hide p21
 show sc013_01 4 as p21 at l(-12), light, zorder 6
 c211 '[textdict[2111374]]'
-stop music
 hide p21
 show sc013_01 4 as p21 at l(-12), dark, zorder 6
 c27293 '[textdict[2111375]]'

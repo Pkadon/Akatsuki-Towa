@@ -1,7 +1,6 @@
 label avg1207:
 stop music
 
-stop music
 scene avg_bg_034
 with fade
 c0 '[textdict[2108643]]'
@@ -194,28 +193,23 @@ play sfx2 "other_7062.ogg"
 show st041_01 1 as p240 at l(-1), light, zorder 6
 with fade
 c2401 '[textdict[2108685]]'
-stop music
 hide p240
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 with fade
 c103 '[textdict[2108686]]'
-stop music
 hide p10
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 c103 '[textdict[2108687]]'
-stop music
 play sfx2 "other_7038.ogg"
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 show sc001_01 5 as p9 at l(-11), light, zorder 6
 c91 '[textdict[2108688]]'
-stop music
 hide p10
 hide p9
 show sc001_01 5 as p9 at l(-11), dark, zorder 6
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 c103 '[textdict[2108689]]'
-stop music
 hide p9
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
@@ -361,48 +355,39 @@ stop music
 hide p10
 play sfx2 "other_7017.ogg"
 c0 '[textdict[2108722]]'
-stop music
 play sfx2 "other_7017.ogg"
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 c103 '[textdict[2108723]]'
-stop music
 play sfx2 "other_7017.ogg"
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 c5001 '[textdict[2108724]]'
-stop music
 hide p10
 show sc002_01 2 as p10 at r(-12), light, zorder 5
 c103 '[textdict[2108725]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 c26791 '[textdict[2108726]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 c26791 '[textdict[2108727]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 c26791 '[textdict[2108728]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 show sc005_01 1 as p13 at l(-17), light, zorder 6
 c131 '[textdict[2108729]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p13
 hide p10
 show sc002_01 2 as p10 at r(-12), dark, zorder 5
 show sc005_01 2 as p13 at l(-17), light, zorder 6
 c131 '[textdict[2108730]]'
-stop music
 hide p13
 hide p10
 c0 '[textdict[2108731]]'

@@ -272,12 +272,9 @@ stop music
 hide p46
 hide p47
 c0 '[textdict[2112173]]' with shake
-stop music
 c11551 '[textdict[2112174]]' (what_size=(gui.text_size*1.25))
-stop music
 show sc041_01 2 as p48 at r(-9), light, zorder 5
 c483 '[textdict[2112175]]'
-stop music
 hide p48
 show sc041_01 2 as p48 at r(-9), dark, zorder 5
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
@@ -500,19 +497,16 @@ hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc041_01 4 as p48 at r(-9), light, zorder 5
 c483 '[textdict[2112221]]'
-stop music
 hide p48
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc038_01 4 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2112222]]'
-stop music
 hide p45
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
 show sc040_01 3 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2112223]]'
-stop music
 hide p47
 hide p2731
 show oca00_01 1 as p2731 at l(-2), dark, zorder 6
@@ -652,18 +646,14 @@ c0 '[textdict[2112253]]'
 stop music
 play sfx2 "fight_6015.ogg"
 c27611 '[textdict[2112254]]' (what_size=(gui.text_size*1.25)) with shake
-stop music
 play sfx2 "other_7092.ogg"
 c0 '[textdict[2112255]]'
-stop music
 show sc038_01 2 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112256]]'
-stop music
 hide p45
 show sc038_01 2 as p45 at l(-1), dark, zorder 6
 show sc041_01 2 as p48 at r(-9), light, zorder 5
 c483 '[textdict[2112257]]'
-stop music
 hide p45
 hide p48
 show sc041_01 2 as p48 at r(-9), dark, zorder 5
@@ -741,7 +731,6 @@ hide p48
 c0 '[textdict[2112274]]'
 stop music
 c0 '[textdict[2112275]]'
-stop music
 scene avg_bg_038
 with fade
 play sfx2 "other_7088.ogg"

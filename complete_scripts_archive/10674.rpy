@@ -348,20 +348,16 @@ hide p2
 hide p8
 show oc008_01 1 as p8 at l(-5), dark, zorder 6
 c5003 '[textdict[1166148]]' with shake
-stop music
 hide p8
 play sfx2 "fight_6015.ogg"
 c0 '[textdict[1166149]]' with shake
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1166150]]'
-stop music
 scene avg_bg_041
 with fade
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166151]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
@@ -520,38 +516,31 @@ stop music
 play sfx2 "other_7059.ogg"
 show oc008_01 6 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1166185]]'
-stop music
 hide p8
 show oc008_01 6 as p8 at l(-5), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1166186]]'
-stop music
 hide p8
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc008_01 4 as p16 at l_midback(-18), light, zorder 6
 c161 '[textdict[1166187]]'
-stop music
 hide p1
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show oc001_01 3 as p1 at r_exit(-2), light, zorder 5
 c13 '[textdict[1166188]]'
 hide p1
-stop music
 scene avg_bg_070
 with fade
 play sfx2 "fight_6015.ogg"
 c0 '[textdict[1166189]]' with shake
-stop music
 show oc002_01 3 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1166190]]'
-stop music
 hide p2
 show oc002_01 3 as p2 at l(-3), dark, zorder 6
 show oc001_01 13 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1166191]]'
-stop music
 hide p2
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5

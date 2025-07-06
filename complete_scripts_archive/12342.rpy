@@ -168,26 +168,22 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1133541]]'
-stop music
 play sfxvoice "avg_vocal_ch10.ogg"
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1133542]]'
-stop music
 hide p1
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1133543]]'
-stop music
 hide p3
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 show oc001_01 11 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1133544]]'
-stop music
 hide p2
 hide p1
 show oc001_01 11 as p1 at r(-2), dark, zorder 5

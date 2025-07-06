@@ -321,39 +321,33 @@ play sfx2 "other_7057.ogg"
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 with fade
 c13 '[textdict[2107001]]'
-stop music
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show st013_01 4 as p212 at l(-16), light, zorder 6
 c2121 '[textdict[2107002]]'
-stop music
 hide p1
 hide p212
 show st013_01 4 as p212 at l(-16), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107003]]'
-stop music
 play sfx2 "other_7018.ogg"
 hide p1
 hide p212
 show st013_01 4 as p212 at l(-16), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107004]]'
-stop music
 play sfx2 "other_7018.ogg"
 hide p1
 hide p212
 show st013_01 4 as p212 at l(-16), dark, zorder 6
 show sc017_01 4 as p25 at r(-7), light, zorder 5
 c253 '[textdict[2107005]]'
-stop music
 play sfx2 "other_7018.ogg"
 hide p212
 hide p25
 show sc017_01 4 as p25 at r(-7), dark, zorder 5
 show st013_01 4 as p212 at l(-16), light, zorder 6
 c2121 '[textdict[2107006]]'
-stop music
 hide p25
 hide p212
 show st013_01 4 as p212 at l(-16), dark, zorder 6

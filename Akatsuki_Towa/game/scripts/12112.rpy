@@ -104,6 +104,7 @@ play sfx2 "other_7057.ogg"
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1128164]]' with shake
+play music "ed7117.ogg"
 scene avg_bg_017
 with fade
 play sfx2 "other_7088.ogg"

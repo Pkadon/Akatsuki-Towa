@@ -188,11 +188,9 @@ stop music
 hide p1308
 show st062_01 2 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1184746]]'
-stop music
 hide p1308
 show st062_01 2 as p1308 at l(-16), dark, zorder 6
 c5003 '[textdict[1184747]]'
-stop music
 hide p1308
 c0 '[textdict[1184748]]'
 play music "ed7511.ogg"

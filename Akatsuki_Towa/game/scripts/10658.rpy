@@ -235,13 +235,11 @@ c0 '[textdict[1165340]]'
 stop music
 show oc003_01 9 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1165341]]' with shake
-stop music
 play sfx2 "fight_6024.ogg"
 hide p3
 show oc003_01 9 as p3 at l(-6), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1165342]]'
-stop music
 hide p3
 hide p1
 play sfx2 "other_7052.ogg"

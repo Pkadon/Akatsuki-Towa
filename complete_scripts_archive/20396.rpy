@@ -36,7 +36,6 @@ c10523 '[textdict[1132691]]'
 stop music
 show oc004_01 13 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1132692]]' with shake
-stop music
 hide p4
 show uc003_04 5 as p1051 at mid(-14), light, zorder 5
 c10513 '[textdict[1132693]]'

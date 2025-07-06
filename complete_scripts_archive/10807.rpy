@@ -20,10 +20,8 @@ stop music
 hide p3
 play sfx2 "other_7057.ogg"
 c0 '[textdict[1181514]]' with shake
-stop music
 show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1181515]]'
-stop music
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
 show st061_01 5 as p1304 at l(-2), light, zorder 6

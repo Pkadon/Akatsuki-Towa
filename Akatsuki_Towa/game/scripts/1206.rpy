@@ -1,7 +1,6 @@
 label avg1206:
 stop music
 
-stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
@@ -143,13 +142,11 @@ stop music
 hide p28
 show sc020_01 4 as p28 at l(-10), l_shake, light, zorder 6
 c281 '[textdict[2108617]]'
-stop music
 play sfx2 "fight_6018.ogg"
 hide p28
 show sc020_01 4 as p28 at l(-10), dark, zorder 6
 show st009_01 4 as p209 at r(-22), light, zorder 5
 c2093 '[textdict[2108618]]'
-stop music
 hide p209
 hide p28
 show sc020_01 4 as p28 at l(-10), dark, zorder 6

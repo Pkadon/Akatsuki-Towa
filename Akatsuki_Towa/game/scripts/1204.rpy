@@ -1,7 +1,6 @@
 label avg1204:
 stop music
 
-stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
@@ -649,7 +648,6 @@ hide p29
 hide p39
 play sfx2 "fight_6011.ogg"
 c0 '[textdict[2108425]]'
-stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7080.ogg"
 c26821 '[textdict[2108426]]' with shake
@@ -689,21 +687,17 @@ scene avg_bg_034
 hide memoryoverlay
 with fade
 c0 '[textdict[2108433]]'
-stop music
 show sc031_01 3 as p39 at r(-14), light, zorder 5
 c393 '[textdict[2108434]]'
-stop music
 hide p39
 show sc031_01 3 as p39 at r(-14), dark, zorder 5
 show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108435]]'
-stop music
 hide p39
 hide p29
 show sc021_01 1 as p29 at l(-17), dark, zorder 6
 show sc031_01 3 as p39 at r(-14), light, zorder 5
 c393 '[textdict[2108436]]'
-stop music
 hide p39
 hide p29
 show sc021_01 1 as p29 at l(-17), dark, zorder 6
@@ -803,10 +797,8 @@ stop music
 hide p39
 play sfx2 "other_7050.ogg"
 c0 '[textdict[2108457]]'
-stop music
 show sc032_01 2 as p40 at l(-17), light, zorder 6
 c401 '[textdict[2108458]]'
-stop music
 hide p40
 show sc032_01 2 as p40 at l(-17), dark, zorder 6
 show sc030_01 2 as p38 at r(-12), light, zorder 5

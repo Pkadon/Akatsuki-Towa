@@ -180,7 +180,6 @@ hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1160986]]'
-stop music
 hide p1
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1160987]]'

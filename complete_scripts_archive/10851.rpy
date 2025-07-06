@@ -1,15 +1,11 @@
 label avg10851:
 stop music
 
-stop music
 scene avg_bg_204
 with fade
 c0 '[textdict[1189489]]'
-stop music
 c0 '[textdict[1189490]]'
-stop music
 c0 '[textdict[1189491]]'
-stop music
 c0 '[textdict[1189492]]'
 play music "ed7304.ogg"
 scene avg_bg_203

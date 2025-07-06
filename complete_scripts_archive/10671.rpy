@@ -29,7 +29,6 @@ hide p3
 hide p4
 with fade
 c13621 '[textdict[1165942]]'
-stop music
 c13633 '[textdict[1165943]]'
 play music "ed7511.ogg"
 show oc001_01 4 as p1 at r(-2), r_shake, light, zorder 5

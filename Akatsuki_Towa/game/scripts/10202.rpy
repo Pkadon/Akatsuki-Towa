@@ -37,12 +37,10 @@ hide p2
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 c6651 '[textdict[1004301]]'
-stop music
 play sfx2 "elc_5005.ogg"
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 c6651 '[textdict[1004302]]'
-stop music
 play sfx2 "elc_5005.ogg"
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5

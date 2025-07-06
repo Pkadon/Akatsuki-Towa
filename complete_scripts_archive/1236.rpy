@@ -9,48 +9,31 @@ c473 '[textdict[2112278]]'
 stop music
 play sfx2 "other_7060.ogg"
 c473 '[textdict[2112279]]'
-stop music
 play sfx2 "other_7060.ogg"
 c473 '[textdict[2112280]]'
-stop music
 c473 '[textdict[2112281]]'
-stop music
 play sfx2 "other_7044.ogg"
 c5001 '[textdict[2112282]]'
-stop music
 c473 '[textdict[2112283]]'
-stop music
 play sfx2 "other_7044.ogg"
 c5001 '[textdict[2112284]]'
-stop music
 c473 '[textdict[2112285]]'
-stop music
 c5001 '[textdict[2112286]]'
-stop music
 play sfx2 "other_7088.ogg"
 c473 '[textdict[2112287]]'
-stop music
 c473 '[textdict[2112288]]'
-stop music
 c473 '[textdict[2112289]]'
-stop music
 play sfx2 "other_7044.ogg"
 c5001 '[textdict[2112290]]'
-stop music
 c473 '[textdict[2112291]]'
-stop music
 c473 '[textdict[2112292]]'
-stop music
 play sfx2 "other_7047.ogg"
 c5001 '[textdict[2112293]]'
-stop music
 scene avg_bg_518
 with fade
 play sfx2 "other_7088.ogg"
 c473 '[textdict[2112294]]'
-stop music
 c5001 '[textdict[2112295]]'
-stop music
 c5001 '[textdict[2112296]]'
 play music "ed7514.ogg"
 c5001 '[textdict[2112297]]'

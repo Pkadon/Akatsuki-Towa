@@ -230,48 +230,37 @@ c0 '[textdict[2110927]]'
 stop music
 play sfx2 "other_7038.ogg"
 c0 '[textdict[2110928]]'
-stop music
 show oca02_01 12 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2110929]]'
-stop music
 hide p2702
 show oca02_01 12 as p2702 at l(-3), dark, zorder 6
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110930]]'
-stop music
 hide p2702
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c27151 '[textdict[2110931]]'
-stop music
 hide p2701
 c0 '[textdict[2110932]]'
-stop music
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110933]]'
-stop music
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 show oca02_01 2 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2110934]]'
-stop music
 hide p2702
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c6211 '[textdict[2110935]]'
-stop music
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c27151 '[textdict[2110936]]'
-stop music
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c13651 '[textdict[2110937]]'
-stop music
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c13641 '[textdict[2110938]]'
-stop music
 hide p2701
 show oca01_01 4 as p2701 at r(-2), dark, zorder 5
 c11571 '[textdict[2110939]]'

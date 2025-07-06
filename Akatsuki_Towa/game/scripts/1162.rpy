@@ -387,13 +387,11 @@ hide p1
 show oc001_01 16 as p1 at r(-2), dark, zorder 5
 show sc048_01 4 as p55 at l(-7), light, zorder 6
 c551 '[textdict[2104705]]'
-stop music
 hide p55
 hide p1
 show oc001_01 16 as p1 at r(-2), dark, zorder 5
 show sc014_01 4 as p22 at l(-6), light, zorder 6
 c221 '[textdict[2104706]]'
-stop music
 hide p1
 hide p22
 show sc014_01 4 as p22 at l(-6), dark, zorder 6

@@ -101,7 +101,6 @@ stop music
 play sfx2 "other_7087.ogg"
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100865]]' with shake
-stop music
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100866]]'

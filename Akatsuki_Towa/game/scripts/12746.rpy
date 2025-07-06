@@ -62,15 +62,10 @@ c43 '[textdict[1173453]]'
 c51 '[textdict[1173454]]'
 stop music
 c10833 '[textdict[1173455]]'
-stop music
 c11653 '[textdict[1173456]]'
-stop music
 c43 '[textdict[1173457]]'
-stop music
 c51 '[textdict[1173458]]'
-stop music
 c11653 '[textdict[1173459]]'
-stop music
 c11653 '[textdict[1173460]]'
 play music "ED6516.ogg"
 c6921 '[textdict[1173461]]'
@@ -158,18 +153,14 @@ c43 '[textdict[1173486]]'
 stop music
 hide p4
 c0 '[textdict[1173487]]'
-stop music
 show oc005_01 20 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1173488]]'
-stop music
 hide p5
 show oc005_01 20 as p5 at l(-6), dark, zorder 6
 c11653 '[textdict[1173489]]'
-stop music
 hide p5
 show oc005_01 3 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1173490]]'
-stop music
 hide p5
 show oc005_01 3 as p5 at l(-6), dark, zorder 6
 show oc004_01 11 as p4 at r(-5), light, zorder 5

@@ -175,44 +175,34 @@ stop music
 scene avg_bg_024
 with fade
 c5131 '[textdict[2109755]]'
-stop music
 c26901 '[textdict[2109756]]'
-stop music
 c5131 '[textdict[2109757]]'
-stop music
 show oc003_01 11 as p3 at r(-6), light, zorder 5
 c33 '[textdict[2109758]]'
-stop music
 hide p3
 show oc003_01 11 as p3 at r(-6), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2109759]]'
-stop music
 hide p3
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2109760]]'
-stop music
 hide p4
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2109761]]'
-stop music
 hide p2
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
 c5131 '[textdict[2109762]]'
-stop music
 hide p4
 show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2109763]]'
-stop music
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 c5001 '[textdict[2109764]]'
-stop music
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 show oc001_01 2 as p1 at l(-2), light, zorder 6

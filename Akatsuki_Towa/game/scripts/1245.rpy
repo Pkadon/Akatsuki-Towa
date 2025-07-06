@@ -285,44 +285,37 @@ hide p1267
 show sc016_01 2 as p1267 at l(-6), dark, zorder 6
 show oce02_01 4 as p2666 at r(-3), r_shake, light, zorder 5
 c26663 '[textdict[2113317]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5
 show sc016_01 2 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[2113318]]'
-stop music
 play sfx2 "other_7004.ogg"
 hide p2666
 hide p1267
 show sc016_01 2 as p1267 at l(-6), dark, zorder 6
 show oce02_01 4 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[2113319]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[2113320]]'
-stop music
 hide p2666
 hide p1267
 show sc016_01 4 as p1267 at l(-6), dark, zorder 6
 show oce02_01 4 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[2113321]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[2113322]]'
-stop music
 hide p2666
 hide p1267
 show sc016_01 4 as p1267 at l(-6), dark, zorder 6
 show oce02_01 4 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[2113323]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5
@@ -386,25 +379,21 @@ hide p1267
 show sc016_01 1 as p1267 at l(-6), dark, zorder 6
 show oce02_01 4 as p2666 at r(-3), r_shake, light, zorder 5
 c26663 '[textdict[2113335]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5
 show sc016_01 2 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[2113336]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5
 show sc016_01 2 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[2113337]]'
-stop music
 hide p2666
 hide p1267
 show sc016_01 2 as p1267 at l(-6), dark, zorder 6
 show oce02_01 21 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[2113338]]'
-stop music
 hide p1267
 hide p2666
 show oce02_01 21 as p2666 at r(-3), dark, zorder 5
@@ -587,20 +576,16 @@ stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[2113376]]'
-stop music
 scene avg_bg_036
 with fade
 play sfx2 "other_7080.ogg"
 c13091 '[textdict[2113377]]' with shake
-stop music
 show oce02_01 4 as p2666 at r_entrance(-3), light, zorder 5
 c26663 '[textdict[2113378]]'
-stop music
 play sfx2 "fight_6024.ogg"
 hide p2666
 show oce02_01 4 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[2113379]]'
-stop music
 play sfx2 "other_7080.ogg"
 hide p2666
 show oce02_01 4 as p2666 at r(-3), dark, zorder 5

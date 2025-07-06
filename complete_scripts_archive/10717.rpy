@@ -147,18 +147,14 @@ scene avg_bg_070
 with fade
 play sfx2 "other_7042.ogg"
 c14241 '[textdict[1171015]]'
-stop music
 c14241 '[textdict[1171016]]'
-stop music
 scene avg_bg_061
 with fade
 show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1171017]]'
-stop music
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
 c14241 '[textdict[1171018]]'
-stop music
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
 c14241 '[textdict[1171019]]'

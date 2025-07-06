@@ -288,25 +288,19 @@ stop music
 hide p2
 hide p1
 c0 '[textdict[1181112]]'
-stop music
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1181113]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c6901 '[textdict[1181114]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c14251 '[textdict[1181115]]'
-stop music
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 c12341 '[textdict[1181116]]'
-stop music
 hide p1
 c0 '[textdict[1181117]]'
-stop music
 show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1181118]]'
 play music "ed9999.ogg"

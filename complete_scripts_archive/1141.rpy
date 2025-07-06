@@ -1,19 +1,14 @@
 label avg1141:
 stop music
 
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[2104125]]'
-stop music
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104126]]'
-stop music
 hide p1
 c0 '[textdict[2104127]]'
-stop music
 c0 '[textdict[2104128]]'
-stop music
 scene avg_bg_038
 with fade
 show oc001_01 17 as p1 at r(-2), light, zorder 5
@@ -177,16 +172,12 @@ c13 '[textdict[2104172]]'
 stop music
 hide p1
 c0 '[textdict[2104173]]'
-stop music
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104174]]'
-stop music
 hide p1
 play sfx2 "other_7004.ogg"
 c0 '[textdict[2104175]]'
-stop music
 c0 '[textdict[2104176]]'
-stop music
 c0 '[textdict[2104177]]'
 play music "ed7515.ogg"
 show oc001_01 16 as p1 at r(-2), light, zorder 5
@@ -481,21 +472,16 @@ stop music
 hide p1
 play sfx2 "other_7091.ogg"
 c0 '[textdict[2104248]]'
-stop music
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104249]]'
-stop music
 hide p1
 show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104250]]'
-stop music
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104251]]'
-stop music
 hide p1
 c0 '[textdict[2104252]]'
-stop music
 c0 '[textdict[2104253]]'
 play music "ed7562.ogg"
 show oc001_01 2 as p1 at r(-2), light, zorder 5

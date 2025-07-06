@@ -1,7 +1,6 @@
 label avg10621:
 stop music
 
-stop music
 scene avg_bg_007
 with fade
 play sfx2 "other_7047.ogg"

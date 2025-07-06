@@ -62,25 +62,21 @@ hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
 show oc007_02 3 as p2623 at l(-24), l_shake, light, zorder 6
 c26231 '[textdict[1189638]]'
-stop music
 hide p2623
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
 show oc008_01 3 as p8 at l(-5), l_shake, light, zorder 6
 c81 '[textdict[1189639]]'
-stop music
 hide p8
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
 show oc007_02 3 as p2623 at l(-24), light, zorder 6
 c26231 '[textdict[1189640]]'
-stop music
 hide p2623
 hide p4
 show oc004_01 3 as p4 at r(-5), dark, zorder 5
 show oc008_01 3 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1189641]]' with shake
-stop music
 hide p4
 hide p8
 show oc008_01 3 as p8 at l(-5), dark, zorder 6

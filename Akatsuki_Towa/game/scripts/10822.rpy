@@ -591,13 +591,13 @@ hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), r_shake, light, zorder 5
 c13043 '[textdict[1184207]]'
-stop music
 show memoryoverlay zorder 2
 hide p1304
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1184208]]' with shake
+play music "ed7561.ogg"
 show memoryoverlay zorder 2
 hide p1
 hide p2

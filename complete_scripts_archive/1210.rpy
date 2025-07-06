@@ -163,36 +163,30 @@ hide p1
 show oc001_01 22 as p1 at r(-2), light, zorder 5
 with fade
 c13 '[textdict[2109064]]'
-stop music
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
 show sc048_01 1 as p55 at l(-7), light, zorder 6
 c551 '[textdict[2109065]]'
-stop music
 hide p1
 hide p55
 show sc048_01 1 as p55 at l(-7), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2109066]]'
-stop music
 hide p55
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show sc048_01 1 as p55 at l(-7), light, zorder 6
 c551 '[textdict[2109067]]'
-stop music
 hide p1
 hide p55
 show sc048_01 1 as p55 at l(-7), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2109068]]'
-stop music
 hide p55
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show sc048_01 5 as p55 at l(-7), light, zorder 6
 c551 '[textdict[2109069]]'
-stop music
 hide p1
 hide p55
 show sc048_01 5 as p55 at l(-7), dark, zorder 6

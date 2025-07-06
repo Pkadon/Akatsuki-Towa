@@ -163,7 +163,6 @@ hide p2
 show st050_01 3 as p257 at l(-11), light, zorder 6
 with fade
 c2571 '[textdict[1152071]]' (what_size=(gui.text_size*1.2))
-stop music
 hide p257
 show st050_01 3 as p257 at l(-11), dark, zorder 6
 c6883 '[textdict[1152072]]' with shake

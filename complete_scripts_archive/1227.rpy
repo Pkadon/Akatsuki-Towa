@@ -46,15 +46,14 @@ hide p2702
 hide p2701
 show oca01_01 22 as p2701 at r(-2), dark, zorder 5
 c5261 '[textdict[2111014]]'
-stop music
 hide p2701
 show oca01_01 5 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2111015]]'
-stop music
 hide p2701
 show oca01_01 5 as p2701 at r(-2), dark, zorder 5
 show oca02_01 12 as p2706 at l(-3), light, zorder 6
 c27061 '[textdict[2111016]]' (what_size=(gui.text_size*1.25)) with shake
+play music "ED6108.ogg"
 hide p2706
 hide p2701
 show oca01_01 5 as p2701 at r(-2), dark, zorder 5
@@ -240,7 +239,6 @@ with fade
 c0 '[textdict[2111063]]'
 stop music
 c0 '[textdict[2111064]]'
-stop music
 show sca44_01 3 as p2705 at l(-7), light, zorder 6
 c27051 '[textdict[2111065]]'
 play music "ed7565.ogg"
@@ -600,48 +598,40 @@ play sfx2 "other_7064.ogg"
 hide p2701
 show oca01_01 17 as p2701 at r_entrance(-2), light, zorder 5
 c27013 '[textdict[2111147]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p2701
 show oca01_01 17 as p2701 at r(-2), dark, zorder 5
 show oca02_01 1 as p2702 at l_entrance(-3), light, zorder 6
 c27021 '[textdict[2111148]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p2702
 hide p2701
 show oca01_01 17 as p2701 at r(-2), dark, zorder 5
 c27121 '[textdict[2111149]]'
-stop music
 hide p2701
 show oca01_01 17 as p2701 at r(-2), dark, zorder 5
 show oca02_01 2 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2111150]]'
-stop music
 hide p2701
 hide p2702
 show oca02_01 2 as p2702 at l(-3), dark, zorder 6
 show oca01_01 12 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2111151]]'
-stop music
 hide p2702
 hide p2701
 show oca01_01 12 as p2701 at r(-2), dark, zorder 5
 show oca02_01 22 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2111152]]'
-stop music
 hide p2701
 hide p2702
 show oca02_01 22 as p2702 at l(-3), dark, zorder 6
 show oca01_01 24 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2111153]]'
-stop music
 hide p2702
 hide p2701
 show oca01_01 24 as p2701 at r(-2), dark, zorder 5
 show oca02_01 6 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2111154]]'
-stop music
 hide p2702
 hide p2701
 show oca01_01 24 as p2701 at r(-2), dark, zorder 5
@@ -684,24 +674,20 @@ show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 show st021_01 1 as p220 at l(-17), light, zorder 6
 c2201 '[textdict[2111169]]'
-stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 hide p220
 show st021_01 1 as p220 at l(-17), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111170]]'
-stop music
 scene avg_bg_070
 show memoryoverlay zorder 2
 with fade
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111171]]'
-stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111172]]'
-stop music
 show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111173]]'

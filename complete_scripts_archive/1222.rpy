@@ -1,7 +1,6 @@
 label avg1222:
 stop music
 
-stop music
 scene avg_bg_013
 with fade
 c0 '[textdict[2110251]]'
@@ -72,29 +71,26 @@ hide p56
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 c27101 '[textdict[2110265]]' (what_size=(gui.text_size*1.25)) with shake
-stop music
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show sc049_01 2 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2110266]]'
-stop music
 hide p1
 hide p56
 show sc049_01 2 as p56 at l(-8), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110267]]'
-stop music
 hide p56
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2110268]]'
-stop music
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 20 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[2110269]]'
+play music "ed7453.ogg"
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -141,6 +137,7 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc049_01 5 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2110278]]'
+play music "ed7453.ogg"
 hide p1
 hide p56
 show sc049_01 5 as p56 at l(-8), dark, zorder 6

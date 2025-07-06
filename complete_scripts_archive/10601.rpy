@@ -1,15 +1,11 @@
 label avg10601:
 stop music
 
-stop music
 scene placeholderbackground
 with fade
 c0 '[textdict[1160002]]'
-stop music
 c0 '[textdict[1160003]]'
-stop music
 c0 '[textdict[1160004]]'
-stop music
 c0 '[textdict[1160005]]'
 play music "ED6102.ogg"
 scene avg_bg_105

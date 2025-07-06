@@ -374,13 +374,11 @@ hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1185388]]'
-stop music
 hide p1304
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1185389]]'
-stop music
 play sfx2 "fight_6024.ogg"
 hide p16
 hide p1304

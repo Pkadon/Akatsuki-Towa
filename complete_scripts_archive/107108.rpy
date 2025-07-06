@@ -102,6 +102,5 @@ stop music
 scene avg_bg_070
 with fade
 c14931 '[textdict[1180053]]'
-stop music
 c13493 '[textdict[1180054]]'
 return

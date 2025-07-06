@@ -128,12 +128,10 @@ stop music
 hide p2634
 show ocb01_01 9 as p2634 at l_entrance(-2), light, zorder 6
 c26341 '[textdict[2107332]]' (what_size=(gui.text_size*1.2)) with shake
-stop music
 hide p2634
 show ocb01_01 9 as p2634 at l(-2), dark, zorder 6
 show scb41_01 2 as p2631 at r_entrance(-9), light, zorder 5
 c26313 '[textdict[2107333]]'
-stop music
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
@@ -165,45 +163,37 @@ hide p2634
 hide p2631
 play sfx2 "other_7057.ogg"
 c0 '[textdict[2107339]]' with shake
-stop music
 show ocb01_01 14 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107340]]'
-stop music
 hide p2634
 show ocb01_01 14 as p2634 at l(-2), dark, zorder 6
 show scb41_01 4 as p2631 at r(-9), light, zorder 5
 c26313 '[textdict[2107341]]'
-stop music
 hide p2634
 hide p2631
 show scb41_01 4 as p2631 at r(-9), dark, zorder 5
 show ocb01_01 14 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107342]]'
-stop music
 hide p2631
 hide p2634
 show ocb01_01 14 as p2634 at l(-2), dark, zorder 6
 show scb41_01 2 as p2631 at r(-9), light, zorder 5
 c26313 '[textdict[2107343]]'
-stop music
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
 show ocb01_01 14 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107344]]'
-stop music
 hide p2634
 hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
 show ocb01_01 19 as p2634 at l(-2), light, zorder 6
 c26341 '[textdict[2107345]]'
-stop music
 hide p2631
 hide p2634
 show ocb01_01 19 as p2634 at l(-2), dark, zorder 6
 show scb41_01 2 as p2631 at r(-9), light, zorder 5
 c26313 '[textdict[2107346]]'
-stop music
 hide p2634
 hide p2631
 play sfx2 "other_7088.ogg"

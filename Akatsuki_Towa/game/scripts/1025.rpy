@@ -134,36 +134,28 @@ scene avg_bg_070
 with fade
 play sfx2 "other_7019.ogg"
 c0 '[textdict[2100504]]'
-stop music
 scene avg_bg_025
 with fade
 c5051 '[textdict[2100505]]'
-stop music
 c5051 '[textdict[2100506]]'
-stop music
 play sfx2 "other_7063.ogg"
 c5051 '[textdict[2100507]]'
-stop music
 show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[2100508]]'
-stop music
 hide p2
 show oc002_01 8 as p2 at l(-3), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2100509]]'
-stop music
 hide p2
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100510]]'
-stop music
 hide p2
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100511]]'
-stop music
 hide p1
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6

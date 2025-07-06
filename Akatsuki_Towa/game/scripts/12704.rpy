@@ -160,11 +160,9 @@ hide p3
 hide p1
 play sfx2 "other_7004.ogg"
 c0 '[textdict[1170463]]'
-stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[1170464]]'
-stop music
 c0 '[textdict[1170465]]'
 play music "ed7151.ogg"
 scene avg_bg_038

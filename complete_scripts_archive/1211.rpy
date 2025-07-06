@@ -334,27 +334,22 @@ play sfx2 "other_7064.ogg"
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 with fade
 c13 '[textdict[2109171]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c25161 '[textdict[2109172]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c25171 '[textdict[2109173]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c11471 '[textdict[2109174]]'
-stop music
 play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c11481 '[textdict[2109175]]'
-stop music
 hide p1
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2109176]]'

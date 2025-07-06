@@ -169,7 +169,6 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc002_01 4 as p10 at l(-12), light, zorder 6
 c101 '[textdict[2105565]]' with shake
-stop music
 play sfx2 "other_7010.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 hide p1

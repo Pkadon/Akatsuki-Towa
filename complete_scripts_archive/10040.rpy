@@ -323,15 +323,10 @@ stop music
 hide p1
 hide p2
 c0 '[textdict[1003528]]'
-stop music
 c0 '[textdict[1003529]]'
-stop music
 c0 '[textdict[1003530]]'
-stop music
 c0 '[textdict[1003531]]'
-stop music
 c0 '[textdict[1003532]]'
-stop music
 c0 '[textdict[1003533]]'
 play music "ed7565.ogg"
 scene avg_bg_027

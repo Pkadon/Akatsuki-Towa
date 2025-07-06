@@ -103,13 +103,11 @@ hide p4
 show oc004_01 21 as p4 at l(-5), dark, zorder 6
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1182449]]'
-stop music
 hide p4
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show oc004_01 18 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1182450]]'
-stop music
 hide p4
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5

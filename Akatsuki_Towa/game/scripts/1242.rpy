@@ -104,16 +104,14 @@ stop music
 hide p2670
 play sfx2 "elc_5006.ogg"
 c0 '[textdict[2112996]]' (what_size=(gui.text_size*1.25)) with shake
-stop music
 play sfx2 "other_7057.ogg"
 c13051 '[textdict[2112997]]'
-stop music
 show sta61_01 2 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[2112998]]'
-stop music
 hide p2670
 show sta61_01 2 as p2670 at r(-2), dark, zorder 5
 c13051 '[textdict[2112999]]'
+play music "ed7120.ogg"
 hide p2670
 play sfx2 "other_7088.ogg"
 show sta61_01 5 as p2670 at r(-2), light, zorder 5
@@ -338,47 +336,38 @@ stop music
 hide p239
 hide p2670
 c0 '[textdict[2113057]]'
-stop music
 show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113058]]'
-stop music
 hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show sta61_01 5 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[2113059]]'
-stop music
 hide p2670
 hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show sta61_01 5 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[2113060]]'
-stop music
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 c5001 '[textdict[2113061]]'
-stop music
 hide p2670
 show sta61_01 2 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[2113062]]'
-stop music
 hide p2670
 show sta61_01 2 as p2670 at r(-2), dark, zorder 5
 show st040_01 2 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113063]]'
-stop music
 hide p2670
 hide p239
 show st040_01 2 as p239 at l(-19), dark, zorder 6
 show sta61_01 5 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[2113064]]'
-stop music
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 show st040_01 2 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113065]]'
-stop music
 play sfx2 "other_7085.ogg"
 hide p2670
 hide p239
@@ -386,12 +375,10 @@ show st040_01 2 as p239 at l(-19), dark, zorder 6
 show sta61_01 5 as p2670 at r_exit(-2), light, zorder 5
 c26703 '[textdict[2113066]]'
 hide p2670
-stop music
 play sfx2 "other_7085.ogg"
 hide p239
 show st040_01 2 as p239 at l_entrance_midback(-19), light, zorder 6
 c2391 '[textdict[2113067]]'
-stop music
 scene avg_bg_521
 with fade
 c26131 '[textdict[2113068]]'

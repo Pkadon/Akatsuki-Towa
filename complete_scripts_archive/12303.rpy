@@ -115,7 +115,6 @@ scene avg_bg_070
 with fade
 play sfx2 "common_quest.ogg"
 c0 '[textdict[1133117]]'
-stop music
 scene avg_bg_010
 with fade
 show sc046_01 4 as p1004 at r(-5), light, zorder 5
@@ -176,7 +175,6 @@ hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show oc002_01 12 as p2 at l_midback(-3), light, zorder 6
 c21 '[textdict[1133130]]'
-stop music
 hide p1
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6

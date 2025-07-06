@@ -1,7 +1,6 @@
 label avg1203:
 stop music
 
-stop music
 scene avg_bg_034
 with fade
 play sfx2 "other_7062.ogg"
@@ -139,17 +138,14 @@ c0 '[textdict[2108233]]'
 stop music
 play sfx2 "other_7052.ogg"
 c0 '[textdict[2108234]]'
-stop music
 show sc019_01 2 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108235]]'
-stop music
 hide p27
 c0 '[textdict[2108236]]'
-stop music
 c0 '[textdict[2108237]]'
-stop music
 show sc022_01 2 as p30 at r(-9), light, zorder 5
 c303 '[textdict[2108238]]'
+play music "ed7452.ogg"
 play sfx2 "fight_6003.ogg"
 hide p30
 show sc022_01 2 as p30 at r(-9), dark, zorder 5
@@ -176,100 +172,85 @@ scene avg_bg_070
 with fade
 play sfx2 "other_7019.ogg"
 c0 '[textdict[2108244]]'
-stop music
 scene avg_bg_034
 with fade
 show sc019_01 3 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108245]]'
-stop music
 hide p27
 show sc019_01 3 as p27 at l(-18), dark, zorder 6
 show sc022_01 3 as p30 at r(-9), light, zorder 5
 c303 '[textdict[2108246]]'
-stop music
 hide p27
 hide p30
 show sc022_01 3 as p30 at r(-9), dark, zorder 5
 show sc019_01 4 as p27 at l(-18), l_shake, light, zorder 6
 c271 '[textdict[2108247]]'
-stop music
 hide p30
 hide p27
 show sc019_01 4 as p27 at l(-18), dark, zorder 6
 show sc022_01 4 as p30 at r(-9), r_shake, light, zorder 5
 c303 '[textdict[2108248]]'
-stop music
 hide p27
 hide p30
 show sc022_01 4 as p30 at r(-9), dark, zorder 5
 show sc019_01 3 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108249]]'
-stop music
 hide p27
 hide p30
 show sc022_01 4 as p30 at r(-9), dark, zorder 5
 show sc019_01 2 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108250]]'
-stop music
 hide p30
 hide p27
 show sc019_01 2 as p27 at l(-18), dark, zorder 6
 show sc022_01 4 as p30 at r(-9), light, zorder 5
 c303 '[textdict[2108251]]'
-stop music
 hide p27
 hide p30
 show sc022_01 4 as p30 at r(-9), dark, zorder 5
 show sc019_01 2 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108252]]'
-stop music
 hide p27
 hide p30
 show sc022_01 4 as p30 at r(-9), dark, zorder 5
 show sc019_01 4 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108253]]'
-stop music
 hide p30
 hide p27
 show sc019_01 4 as p27 at l(-18), dark, zorder 6
 show sc022_01 2 as p30 at r(-9), light, zorder 5
 c303 '[textdict[2108254]]'
-stop music
 hide p27
 hide p30
 show sc022_01 2 as p30 at r(-9), dark, zorder 5
 show sc019_01 4 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108255]]'
-stop music
 hide p27
 hide p30
 show sc022_01 2 as p30 at r(-9), dark, zorder 5
 show sc019_01 4 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108256]]'
-stop music
 hide p27
 hide p30
 show sc022_01 2 as p30 at r(-9), dark, zorder 5
 show sc019_01 4 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108257]]'
-stop music
 hide p30
 hide p27
 show sc019_01 4 as p27 at l(-18), dark, zorder 6
 show sc022_01 2 as p30 at r(-9), light, zorder 5
 c303 '[textdict[2108258]]'
-stop music
 hide p27
 hide p30
 show sc022_01 2 as p30 at r(-9), dark, zorder 5
 show sc019_01 4 as p27 at l(-18), light, zorder 6
 c271 '[textdict[2108259]]'
-stop music
 hide p30
 hide p27
 show sc019_01 4 as p27 at l(-18), dark, zorder 6
 show sc022_01 2 as p30 at r(-9), light, zorder 5
 c303 '[textdict[2108260]]'
+play music "ed7452.ogg"
 hide p27
 hide p30
 show sc022_01 2 as p30 at r(-9), dark, zorder 5

@@ -101,7 +101,6 @@ hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[1154672]]'
-stop music
 hide p4
 hide p1267
 show sc016_01 4 as p1267 at l(-6), dark, zorder 6

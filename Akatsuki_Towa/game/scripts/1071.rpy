@@ -537,7 +537,6 @@ c25193 '[textdict[2101652]]'
 stop music
 with fade
 c0 '[textdict[2101653]]'
-stop music
 c0 '[textdict[2101654]]'
 play music "ed7565.ogg"
 c5003 '[textdict[2101655]]' with shake

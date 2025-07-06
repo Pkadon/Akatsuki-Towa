@@ -241,72 +241,60 @@ scene avg_bg_064
 with fade
 show sc012_01 1 as p20 at l_entrance(-16), light, zorder 6
 c201 '[textdict[2110116]]'
-stop music
 hide p20
 show sc012_01 1 as p20 at l(-16), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110117]]'
-stop music
 hide p20
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc012_01 1 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110118]]'
-stop music
 hide p1
 hide p20
 show sc012_01 1 as p20 at l(-16), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110119]]'
-stop music
 hide p1
 hide p20
 show sc012_01 1 as p20 at l(-16), dark, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110120]]'
-stop music
 hide p20
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110121]]'
-stop music
 hide p20
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110122]]'
-stop music
 hide p20
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110123]]'
-stop music
 hide p1
 hide p20
 show sc012_01 4 as p20 at l(-16), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110124]]'
-stop music
 hide p20
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110125]]'
-stop music
 hide p20
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110126]]'
-stop music
 hide p20
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110127]]'
-stop music
 hide p20
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5

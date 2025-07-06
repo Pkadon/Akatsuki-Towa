@@ -166,10 +166,8 @@ stop music
 hide p2625
 play sfx2 "other_7073.ogg"
 c0 '[textdict[2107279]]'
-stop music
 show scc45_01 2 as p2630 at r(-11), light, zorder 5
 c26303 '[textdict[2107280]]'
-stop music
 hide p2630
 show scc45_01 2 as p2630 at r(-11), dark, zorder 5
 show occ02_01 18 as p2625 at l(-3), light, zorder 6

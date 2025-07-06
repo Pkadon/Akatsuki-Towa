@@ -216,14 +216,11 @@ c0 '[textdict[1173887]]'
 stop music
 play sfx2 "other_7079.ogg"
 c14551 '[textdict[1173888]]' with shake
-stop music
 show st061_01 4 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1173889]]'
-stop music
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 c14551 '[textdict[1173890]]'
-stop music
 hide p1304
 c0 '[textdict[1173891]]'
 play music "ed7514.ogg"

@@ -290,7 +290,6 @@ stop music
 scene avg_bg_070
 with fade
 c0 '[textdict[2101079]]'
-stop music
 c0 '[textdict[2101080]]'
 play music "ed7113.ogg"
 scene avg_bg_021
@@ -326,23 +325,18 @@ stop music
 play sfx2 "other_7087.ogg"
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101088]]' with shake
-stop music
 hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6
 c25063 '[textdict[2101089]]'
-stop music
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101090]]'
-stop music
 hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6
 c25083 '[textdict[2101091]]'
-stop music
 hide p202
 show st002_01 1 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2101092]]'
-stop music
 hide p202
 show st002_01 1 as p202 at l(-9), dark, zorder 6
 c25063 '[textdict[2101093]]' with shake

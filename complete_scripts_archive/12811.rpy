@@ -641,7 +641,6 @@ hide p8
 show oc008_01 1 as p8 at l(-5), dark, zorder 6
 show oc002_01 20 as p2 at r(-3), l_shake, light, zorder 5
 c23 '[textdict[1182710]]'
-stop music
 hide p8
 hide p2
 play sfx2 "fight_6015.ogg"
