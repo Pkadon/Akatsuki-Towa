@@ -332,12 +332,12 @@ show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187191]]'
 scene avg_bg_208
 show memoryoverlay zorder 2
-with fade
 show st056_01 4 as p1349 at l(-6), light, zorder 6
+with fade
 c13491 '[textdict[1187192]]'
 scene avg_bg_035
-with fade
 show oc001_01 14 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1187193]]'
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5

@@ -3,8 +3,8 @@ stop music
 
 play music "ed7151.ogg"
 scene avg_bg_105
-with fade
 show oc004_01 11 as p4 at r(-5), light, zorder 5
+with fade
 c43 '[textdict[1154027]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
@@ -42,8 +42,8 @@ show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154034]]'
 scene avg_bg_070
-with fade
 show oc001_01 17 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1154035]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5
@@ -170,8 +170,8 @@ c13 '[textdict[1154063]]'
 play music "ed7515.ogg"
 scene avg_bg_027
 show memoryoverlay zorder 2
-with fade
 show sc014_01 1 as p632 at l(-6), light, zorder 6
+with fade
 c6321 '[textdict[1154064]]'
 hide p632
 show sc014_01 1 as p632 at l(-6), light, zorder 6
@@ -180,8 +180,8 @@ hide p632
 show sc014_01 1 as p632 at l(-6), light, zorder 6
 c6321 '[textdict[1154066]]'
 scene avg_bg_070
-with fade
 show oc001_01 13 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1154067]]'
 hide p1
 show oc001_01 16 as p1 at r(-2), light, zorder 5
@@ -206,14 +206,14 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154074]]'
 stop music
 scene avg_bg_105
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 play sfxvoice "bcv_oc001_die_01.ogg"
 c13 '[textdict[1154075]]'
 play music "ed7151.ogg"
 hide p1
-show st041_01 1 as p240 at l_entrance(-1), light, zorder 6
 with fade
+show st041_01 1 as p240 at l_entrance(-1), light, zorder 6
 c2401 '[textdict[1154076]]'
 hide p240
 show st041_01 1 as p240 at l(-1), dark, zorder 6

@@ -3,8 +3,8 @@ stop music
 
 play music "ed7113.ogg"
 scene avg_bg_021
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7064.ogg"
 c13 '[textdict[1001786]]'
 hide p1
@@ -115,8 +115,8 @@ show st002_01 1 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[1001809]]'
 play music "ed7162.ogg"
 scene avg_bg_024
-with fade
 show sc058_01 2 as p63 at l(-20), light, zorder 6
+with fade
 play sfx2 "other_7020.ogg"
 c631 '[textdict[1001810]]'
 hide p63
@@ -288,8 +288,8 @@ show oc002_01 18 as p2 at r(-3), dark, zorder 5
 show oc001_01 7 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1001845]]'
 scene avg_bg_025
-with fade
 show st005_01 4 as p205 at l(4), light, zorder 6
+with fade
 c2051 '[textdict[1001846]]'
 hide p205
 show st005_01 4 as p205 at l(4), light, zorder 6
@@ -393,8 +393,8 @@ hide p2
 c0 '[textdict[1001867]]'
 play music "ed7113.ogg"
 scene avg_bg_021
-with fade
 show oc001_01 2 as p1 at l(-2), light, zorder 6
+with fade
 c11 '[textdict[1001868]]'
 hide p1
 show oc002_01 2 as p2 at l(-3), light, zorder 6

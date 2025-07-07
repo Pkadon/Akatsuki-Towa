@@ -24,8 +24,8 @@ play sfxvoice "avg_vocal_ro13.ogg"
 c31 '[textdict[1150422]]'
 hide p3
 hide p1
-show st040_01 1 as p239 at r_entrance(-19), light, zorder 5
 with fade
+show st040_01 1 as p239 at r_entrance(-19), light, zorder 5
 c2393 '[textdict[1150423]]'
 hide p239
 show st040_01 1 as p239 at r(-19), dark, zorder 5

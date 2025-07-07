@@ -239,8 +239,8 @@ show uc003_01 3 as p506 at l(-26), light, zorder 6
 c5061 '[textdict[1191021]]'
 play music "ED6518.ogg"
 scene avg_bg_050
-with fade
 show oce02_01 12 as p2666 at r(-3), light, zorder 5
+with fade
 c26663 '[textdict[1191022]]'
 hide p2666
 show oce02_01 15 as p2666 at r(-3), light, zorder 5

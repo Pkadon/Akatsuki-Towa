@@ -2,8 +2,8 @@ label avg101519:
 stop music
 
 scene placeholderbackground
-with fade
 show sc007_01 4 as p15 at mid(-17), light, zorder 5
+with fade
 c153 '[textdict[1221307]]'
 hide p15
 show oc001_01 17 as p1 at mid(-2), light, zorder 5

@@ -87,8 +87,8 @@ show oc002_01 5 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1007297]]'
 play music "ed7110.ogg"
 scene avg_bg_018
-with fade
 show oc001_01 1 as p1 at l(-2), light, zorder 6
+with fade
 c11 '[textdict[1007299]]'
 hide p1
 show oc001_01 1 as p1 at l(-2), dark, zorder 6
@@ -197,8 +197,8 @@ show oc001_01 6 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1007666]]'
 play music "ed7113.ogg"
 scene avg_bg_021
-with fade
 show oc001_01 1 as p1 at l(-2), light, zorder 6
+with fade
 play sfx2 "other_7064.ogg"
 c11 '[textdict[1007320]]'
 hide p1

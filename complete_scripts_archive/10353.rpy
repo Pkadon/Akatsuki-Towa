@@ -7,8 +7,8 @@ with fade
 play sfx2 "other_7046.ogg"
 c0 '[textdict[1131575]]'
 scene avg_bg_003
-with fade
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[1131576]]'
 hide p2
 show oc002_01 9 as p2 at l(-3), light, zorder 6
@@ -97,8 +97,8 @@ with fade
 c0 '[textdict[1131594]]'
 play music "ed7518.ogg"
 scene avg_bg_001
-with fade
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+with fade
 play sfx2 "other_7087.ogg"
 c41 '[textdict[1131595]]' (what_size=(gui.text_size*1.2)) with shake
 hide p4
@@ -114,8 +114,8 @@ hide p4
 show oc004_01 12 as p4 at l(-5), l_shake, light, zorder 6
 c41 '[textdict[1131599]]'
 scene avg_bg_002
-with fade
 show oc003_01 8 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1131600]]'
 hide p3
 show oc003_01 8 as p3 at l(-6), dark, zorder 6

@@ -114,8 +114,8 @@ c31 '[textdict[1171665]]'
 c31 '[textdict[1171666]]'
 c31 '[textdict[1171667]]'
 scene avg_bg_038
-with fade
 show oc003_01 1 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1171668]]'
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
@@ -312,8 +312,8 @@ c31 '[textdict[1171715]]'
 c13 '[textdict[1171716]]'
 c31 '[textdict[1171717]]'
 scene avg_bg_038
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1171718]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

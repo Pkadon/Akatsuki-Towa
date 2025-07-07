@@ -3,8 +3,8 @@ stop music
 
 play music "ed7151.ogg"
 scene avg_bg_027
-with fade
 show oc001_01 9 as p1 at r(-2), r_shake, light, zorder 5
+with fade
 play sfx2 "common_wrong.ogg"
 play sfxvoice "avg_vocal_na08.ogg"
 c13 '[textdict[1003008]]'
@@ -22,8 +22,8 @@ hide p2
 show oc001_01 9 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1003033]]'
 hide p1
-show sc001_01 4 as p603 at r_entrance_midback(-11), light, zorder 5
 with fade
+show sc001_01 4 as p603 at r_entrance_midback(-11), light, zorder 5
 play sfx2 "fight_6023.ogg"
 play sfxvoice "ed7v0659.ogg"
 c6033 '[textdict[1003034]]'

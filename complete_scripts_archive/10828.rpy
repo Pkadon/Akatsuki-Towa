@@ -12,8 +12,8 @@ c0 '[textdict[1185811]]'
 c0 '[textdict[1185812]]'
 c0 '[textdict[1185813]]'
 scene avg_bg_048
-with fade
 show st062_01 4 as p1308 at r(-16), light, zorder 5
+with fade
 c13083 '[textdict[1185814]]'
 hide p1308
 show st062_01 4 as p1308 at r(-16), light, zorder 5

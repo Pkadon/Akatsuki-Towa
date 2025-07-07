@@ -429,8 +429,8 @@ hide p1308
 hide p1
 c0 '[textdict[1160901]]'
 play music "ed7516.ogg"
-show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
 with fade
+show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
 play sfx2 "other_7085.ogg"
 c31 '[textdict[1160902]]'
 hide p3

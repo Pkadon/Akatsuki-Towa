@@ -24,14 +24,14 @@ show sc052_01 1 as p59 at l(-25), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2101947]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2101948]]'
 play music "ed7121.ogg"
 scene avg_bg_045
 show memoryoverlay zorder 2
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2101949]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -70,12 +70,12 @@ show oc001_01 1 as p1 at r(-2), dark, zorder 5
 c6601 '[textdict[2101960]]'
 play music "ed7202.ogg"
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2101961]]'
 scene avg_bg_079
-with fade
 show oc001_01 3 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2101962]]'
 hide p1
 show oc001_01 3 as p1 at r(-2), dark, zorder 5

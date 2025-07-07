@@ -2,8 +2,8 @@ label avg10317:
 stop music
 
 scene avg_bg_046
-with fade
 show oc002_01 4 as p2 at r(-3), light, zorder 5
+with fade
 c23 '[textdict[1130451]]'
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5

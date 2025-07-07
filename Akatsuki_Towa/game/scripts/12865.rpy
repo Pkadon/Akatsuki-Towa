@@ -53,8 +53,8 @@ show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1190498]]'
 play music "ed7515.ogg"
 scene avg_bg_040
-with fade
 show st061_01 1 as p1304 at l(-2), light, zorder 6
+with fade
 c13041 '[textdict[1190499]]'
 hide p1304
 show st061_01 1 as p1304 at l(-2), light, zorder 6
@@ -171,8 +171,8 @@ hide p1304
 show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1190537]]'
 scene avg_bg_003
-with fade
 show oc003_01 2 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1190538]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
@@ -197,8 +197,8 @@ hide p3
 hide p1
 c0 '[textdict[1190543]]'
 scene avg_bg_040
-with fade
 show st061_01 4 as p1304 at l(-2), light, zorder 6
+with fade
 c13041 '[textdict[1190544]]'
 hide p1304
 show st061_01 4 as p1304 at l(-2), light, zorder 6

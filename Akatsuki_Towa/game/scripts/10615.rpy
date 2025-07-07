@@ -445,8 +445,8 @@ play sfxvoice "avg_vocal_ch11.ogg"
 c21 '[textdict[1160805]]'
 hide p2
 hide p4
-show oc003_01 1 as p3 at l_entrance(-6), light, zorder 6
 with fade
+show oc003_01 1 as p3 at l_entrance(-6), light, zorder 6
 play sfxvoice "avg_vocal_ro02.ogg"
 c31 '[textdict[1160806]]'
 hide p3

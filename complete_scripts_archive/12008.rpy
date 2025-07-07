@@ -12,8 +12,8 @@ c7181 '[textdict[1007184]]'
 play sfx2 "other_7002.ogg"
 c0 '[textdict[1007251]]'
 scene avg_bg_018
-with fade
 show oc002_01 8 as p2 at r(-3), light, zorder 5
+with fade
 c23 '[textdict[1007185]]'
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5

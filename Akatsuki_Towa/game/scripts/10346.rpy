@@ -37,8 +37,8 @@ hide p1004
 show sc046_01 3 as p1004 at l(-5), dark, zorder 6
 c10243 '[textdict[1131276]]'
 hide p1004
-show oc001_01 12 as p1 at r_entrance(-2), r_shake, light, zorder 5
 with fade
+show oc001_01 12 as p1 at r_entrance(-2), r_shake, light, zorder 5
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1131277]]' (what_size=(gui.text_size*1.2))
 hide p1

@@ -3,8 +3,8 @@ stop music
 
 play music "ED6505.ogg"
 scene avg_bg_027
-with fade
 show oc002_01 2 as p2 at mid(-3), light, zorder 5
+with fade
 c23 '[textdict[1002777]]'
 hide p2
 show oc003_01 4 as p3 at mid(-6), light, zorder 5

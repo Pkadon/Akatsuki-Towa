@@ -2,8 +2,8 @@ label avg10611:
 stop music
 
 scene avg_bg_010
-with fade
 show oc003_01 4 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1160421]]'
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
@@ -382,8 +382,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1160498]]'
 scene avg_bg_010
-with fade
 show st061_01 1 as p1303 at l(-2), light, zorder 6
+with fade
 c13031 '[textdict[1160499]]'
 hide p1303
 show st061_01 1 as p1303 at l(-2), dark, zorder 6

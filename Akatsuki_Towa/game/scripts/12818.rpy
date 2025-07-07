@@ -108,8 +108,8 @@ play sfx2 "other_7013.ogg"
 c0 '[textdict[1183740]]'
 play music "ed7105.ogg"
 scene avg_bg_010
-with fade
 show oc003_01 2 as p3 at r(-6), light, zorder 5
+with fade
 c33 '[textdict[1183741]]'
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5

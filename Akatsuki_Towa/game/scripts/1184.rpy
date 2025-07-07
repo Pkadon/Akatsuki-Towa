@@ -3,8 +3,8 @@ stop music
 
 play music "ed7150.ogg"
 scene avg_bg_021
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106518]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), light, zorder 5
@@ -214,8 +214,8 @@ show oc001_01 1 as p1 at l(-2), light, zorder 6
 c11 '[textdict[2106560]]'
 play music "ed7113.ogg"
 scene avg_bg_021
-with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106561]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
@@ -259,8 +259,8 @@ show sc017_01 4 as p25 at l(-7), light, zorder 6
 c251 '[textdict[2106569]]'
 play music "ed7100.ogg"
 scene avg_bg_014
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106570]]'
 hide p1
 play sfx2 "other_7062.ogg"
@@ -283,8 +283,8 @@ show sc017_01 1 as p25 at l(-7), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106575]]'
 scene avg_bg_013
-with fade
 show sc017_01 4 as p25 at l(-7), light, zorder 6
+with fade
 c251 '[textdict[2106576]]'
 hide p25
 show sc017_01 4 as p25 at l(-7), dark, zorder 6
@@ -336,8 +336,8 @@ show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc017_01 3 as p25 at l(-7), light, zorder 6
 c251 '[textdict[2106586]]'
 scene avg_bg_015
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106587]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
@@ -375,8 +375,8 @@ c25701 '[textdict[2106594]]'
 c25711 '[textdict[2106595]]'
 play music "ed7150.ogg"
 scene avg_bg_017
-with fade
 show sc017_01 4 as p25 at l(-7), light, zorder 6
+with fade
 c251 '[textdict[2106596]]'
 hide p25
 show sc017_01 4 as p25 at l(-7), dark, zorder 6
@@ -455,8 +455,8 @@ c0 '[textdict[2106613]]' with shake
 play sfx2 "fight_6023.ogg"
 c0 '[textdict[2106614]]'
 scene avg_bg_017
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106615]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

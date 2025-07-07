@@ -24,8 +24,8 @@ with fade
 play sfx2 "other_7017.ogg"
 c0 '[textdict[1174376]]'
 scene avg_bg_010
-with fade
 show st057_01 1 as p1453 at l(-16), light, zorder 6
+with fade
 c14531 '[textdict[1174377]]'
 hide p1453
 show st057_01 1 as p1453 at l(-16), dark, zorder 6

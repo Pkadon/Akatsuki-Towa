@@ -52,8 +52,8 @@ hide p1304
 hide p1
 c0 '[textdict[1187439]]'
 scene avg_bg_216
-with fade
 show oc002_01 12 as p2 at r(-3), light, zorder 5
+with fade
 c23 '[textdict[1187440]]'
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5

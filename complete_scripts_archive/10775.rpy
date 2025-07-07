@@ -3,8 +3,8 @@ stop music
 
 play music "ed7120.ogg"
 scene avg_bg_077
-with fade
 show st065_01 1 as p1468 at l(-6), light, zorder 6
+with fade
 c14681 '[textdict[1176115]]'
 hide p1468
 show st065_01 1 as p1468 at l(-6), dark, zorder 6
@@ -288,8 +288,8 @@ c43 '[textdict[1176182]]'
 c14681 '[textdict[1176183]]'
 c14681 '[textdict[1176184]]'
 scene avg_bg_077
-with fade
 show st064_01 3 as p1469 at r(-2), light, zorder 5
+with fade
 c14693 '[textdict[1176185]]'
 hide p1469
 show st064_01 3 as p1469 at r(-2), dark, zorder 5
@@ -648,8 +648,8 @@ show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show st064_01 1 as p1469 at r(-2), light, zorder 5
 c14693 '[textdict[1176257]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1176258]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5

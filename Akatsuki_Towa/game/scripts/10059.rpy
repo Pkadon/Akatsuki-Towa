@@ -6,8 +6,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1004784]]'
 scene avg_bg_014
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1001032]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -25,12 +25,12 @@ show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1004788]]'
 scene avg_bg_042
-with fade
 show st021_01 1 as p220 at r(-17), light, zorder 5
+with fade
 c2203 '[textdict[1003701]]'
 scene avg_bg_014
-with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1004790]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), light, zorder 5

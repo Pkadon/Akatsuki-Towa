@@ -3,8 +3,8 @@ stop music
 
 play music "ed9999.ogg"
 scene avg_bg_050
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1131779]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
@@ -420,8 +420,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1131861]]'
 scene avg_bg_074
-with fade
 show oc001_01 11 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1131862]]'
 hide p1
 show oc001_01 11 as p1 at r(-2), dark, zorder 5

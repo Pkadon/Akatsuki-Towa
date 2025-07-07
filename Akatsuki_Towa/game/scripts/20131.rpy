@@ -2,8 +2,8 @@ label avg20131:
 stop music
 
 scene avg_bg_071
-with fade
 show oc001_01 20 as p1 at l(-2), light, zorder 6
+with fade
 play sfx2 "other_7054.ogg"
 c11 '[textdict[1006648]]'
 hide p1

@@ -6,8 +6,8 @@ with fade
 c0 '[textdict[1163861]]'
 play music "ed7516.ogg"
 scene avg_bg_023
-with fade
 show st040_01 1 as p239 at l(-19), light, zorder 6
+with fade
 c2391 '[textdict[1163862]]'
 hide p239
 show st040_01 1 as p239 at l(-19), light, zorder 6
@@ -236,8 +236,8 @@ with fade
 c0 '[textdict[1163909]]'
 c0 '[textdict[1163910]]'
 scene avg_bg_023
-with fade
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
+with fade
 c12671 '[textdict[1163911]]'
 hide p1267
 show st057_01 4 as p1211 at l(-16), light, zorder 6

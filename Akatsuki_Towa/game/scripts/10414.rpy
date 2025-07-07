@@ -9,8 +9,8 @@ c0 '[textdict[1140700]]'
 c0 '[textdict[1140701]]'
 c0 '[textdict[1140702]]'
 scene avg_bg_014
-with fade
 show oc001_01 19 as p1 at r(-2), light, zorder 5
+with fade
 play sfxvoice "avg_vocal_na09_b.ogg"
 c13 '[textdict[1140703]]'
 hide p1
@@ -80,12 +80,12 @@ show oc003_01 2 as p3 at l(-6), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1140716]]'
 scene avg_bg_070
-with fade
 show oc004_01 10 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[1140717]]'
 scene avg_bg_014
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1140718]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5

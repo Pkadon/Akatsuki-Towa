@@ -14,8 +14,8 @@ c0 '[textdict[1171543]]'
 play sfx2 "fight_6009.ogg"
 c0 '[textdict[1171544]]'
 scene avg_bg_208
-with fade
 show oc001_01 17 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1171545]]'
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5

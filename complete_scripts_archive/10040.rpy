@@ -3,8 +3,8 @@ stop music
 
 play music "ED6107.ogg"
 scene avg_bg_029
-with fade
 show st011_01 1 as p210 at l(-14), light, zorder 6
+with fade
 c2101 '[textdict[1003465]]'
 hide p210
 show st011_01 1 as p210 at l(-14), light, zorder 6
@@ -330,8 +330,8 @@ c0 '[textdict[1003532]]'
 c0 '[textdict[1003533]]'
 play music "ed7565.ogg"
 scene avg_bg_027
-with fade
 show oc002_01 9 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[1003534]]' (what_size=(gui.text_size*1.2)) with shake
 hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6

@@ -39,8 +39,8 @@ show oc002_01 14 as p2 at l(-3), l_shake, light, zorder 6
 play sfxvoice "avg_vocal_ch08.ogg"
 c21 '[textdict[1152411]]'
 hide p2
-show sc021_01 1 as p29 at l_entrance(-17), light, zorder 6
 with fade
+show sc021_01 1 as p29 at l_entrance(-17), light, zorder 6
 c291 '[textdict[1152412]]'
 hide p29
 show sc021_01 5 as p29 at l(-17), light, zorder 6

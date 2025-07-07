@@ -3,8 +3,8 @@ stop music
 
 play music "ed7511.ogg"
 scene placeholderbackground
-with fade
 show oc006_01 3 as p6 at l(-5), l_shake, light, zorder 6
+with fade
 c61 '[textdict[1144119]]'
 hide p6
 show oc006_01 3 as p6 at l(-5), dark, zorder 6
@@ -228,8 +228,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1144198]]'
 scene avg_bg_036
-with fade
 show oc006_01 4 as p6 at l(-5), light, zorder 6
+with fade
 c61 '[textdict[1144172]]'
 hide p6
 show oc006_01 4 as p6 at l(-5), dark, zorder 6

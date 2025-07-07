@@ -16,8 +16,8 @@ c9721 '[textdict[2109222]]'
 c9721 '[textdict[2109223]]'
 play music "ed7150.ogg"
 scene avg_bg_023
-with fade
 show oc002_01 11 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[2109224]]'
 hide p2
 show oc002_01 11 as p2 at l(-3), dark, zorder 6

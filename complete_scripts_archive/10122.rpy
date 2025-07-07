@@ -304,8 +304,8 @@ play sfxvoice "avg_vocal_ai13.ogg"
 c5891 '[textdict[1007036]]'
 hide p589
 hide p227
-show st028_01 1 as p227 at l_entrance(8), light, zorder 6
 with fade
+show st028_01 1 as p227 at l_entrance(8), light, zorder 6
 c2271 '[textdict[1007037]]'
 hide p227
 show st028_01 2 as p227 at l(8), light, zorder 6

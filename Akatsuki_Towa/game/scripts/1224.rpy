@@ -164,8 +164,8 @@ show oca02_01 21 as p2702 at l(-3), dark, zorder 6
 show oca01_01 8 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110596]]'
 scene avg_bg_036
-show oca01_01 1 as p2701 at r_entrance(-2), light, zorder 5
 with fade
+show oca01_01 1 as p2701 at r_entrance(-2), light, zorder 5
 c27013 '[textdict[2110597]]'
 hide p2701
 show oca01_01 1 as p2701 at r(-2), dark, zorder 5

@@ -3,8 +3,8 @@ stop music
 
 play music "ed7544.ogg"
 scene placeholderbackground
-with fade
 show st038_02 2 as p1168 at l(-9), l_shake, light, zorder 6
+with fade
 c11681 '[textdict[1141660]]'
 hide p1168
 show st038_02 2 as p1168 at l(-9), dark, zorder 6

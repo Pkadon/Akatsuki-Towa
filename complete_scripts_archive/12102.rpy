@@ -2,8 +2,8 @@ label avg12102:
 stop music
 
 scene avg_bg_012
-with fade
 show st051_01 6 as p709 at r(-9), light, zorder 5
+with fade
 play sfx2 "other_7042.ogg"
 c7093 '[textdict[1128007]]'
 hide p709
@@ -17,8 +17,8 @@ show st051_01 2 as p709 at r(-9), light, zorder 5
 c7093 '[textdict[1128009]]'
 play music "ed7111.ogg"
 scene avg_bg_047
-with fade
 show oc005_01 1 as p5 at r(-6), light, zorder 5
+with fade
 play sfxvoice "avg_vocal_ji07.ogg"
 c53 '[textdict[1128010]]'
 hide p5

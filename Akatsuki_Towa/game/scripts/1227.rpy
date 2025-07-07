@@ -243,8 +243,8 @@ show sca44_01 3 as p2705 at l(-7), light, zorder 6
 c27051 '[textdict[2111065]]'
 play music "ed7565.ogg"
 scene avg_bg_019
-with fade
 show oca01_01 8 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2111066]]'
 hide p2701
 show oca01_01 8 as p2701 at r(-2), dark, zorder 5

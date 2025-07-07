@@ -89,8 +89,8 @@ show st040_01 1 as p239 at l_exit(-19), light, zorder 6
 c2391 '[textdict[1153473]]'
 hide p239
 hide p2
-show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 with fade
+show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1153474]]'
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6

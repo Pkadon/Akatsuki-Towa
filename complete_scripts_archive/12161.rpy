@@ -69,14 +69,14 @@ show oc002_01 9 as p2 at l(-3), light, zorder 6
 play sfxvoice "bcv_oc002_arts_03.ogg"
 c21 '[textdict[1128464]]'
 scene avg_bg_070
-with fade
 show oc001_01 3 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1128465]]' with shake
 scene avg_bg_038
-with fade
 show oc004_01 3 as p4 at l(-5), light, zorder 6
+with fade
 play sfx2 "other_7079.ogg"
 c41 '[textdict[1128466]]'
 hide p4

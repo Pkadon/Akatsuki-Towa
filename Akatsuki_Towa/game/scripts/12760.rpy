@@ -53,8 +53,8 @@ hide p1
 play sfx2 "other_7085.ogg"
 c0 '[textdict[1174481]]'
 scene avg_bg_036
-with fade
 show st057_01 4 as p1453 at l(-16), light, zorder 6
+with fade
 c14531 '[textdict[1174482]]'
 hide p1453
 show st057_01 4 as p1453 at l(-16), dark, zorder 6

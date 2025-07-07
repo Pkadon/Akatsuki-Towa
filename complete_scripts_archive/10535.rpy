@@ -13,8 +13,8 @@ play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1152501]]'
 hide p2
 hide p1
-show oc002_01 1 as p2 at r_entrance(-3), light, zorder 5
 with fade
+show oc002_01 1 as p2 at r_entrance(-3), light, zorder 5
 c23 '[textdict[1152502]]'
 hide p2
 show oc002_01 1 as p2 at r(-3), dark, zorder 5
@@ -171,8 +171,8 @@ show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1152544]]'
 hide p4
 hide p2
-show sc021_01 4 as p29 at l_entrance(-17), light, zorder 6
 with fade
+show sc021_01 4 as p29 at l_entrance(-17), light, zorder 6
 play sfx2 "other_7085.ogg"
 c291 '[textdict[1152545]]'
 hide p29

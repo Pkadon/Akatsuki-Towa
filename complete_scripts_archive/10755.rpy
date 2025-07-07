@@ -18,8 +18,8 @@ c0 '[textdict[1175823]]'
 c0 '[textdict[1175824]]'
 play music "ed7111.ogg"
 scene avg_bg_035
-with fade
 show oc004_01 1 as p4 at r(-5), light, zorder 5
+with fade
 c43 '[textdict[1175825]]'
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5

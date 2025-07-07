@@ -63,14 +63,14 @@ show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show oc002_01 9 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1128464]]'
 scene avg_bg_070
-with fade
 show oc001_01 3 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1128465]]' with shake
 scene avg_bg_011
-with fade
 show oc003_01 3 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1128467]]'
 hide p3
 show oc003_01 3 as p3 at l(-6), dark, zorder 6

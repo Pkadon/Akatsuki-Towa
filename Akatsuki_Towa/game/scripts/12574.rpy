@@ -143,8 +143,8 @@ show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1155226]]'
 hide p2
 hide p1
-show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 with fade
+show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1155227]]'
 hide p2
 with fade
@@ -434,8 +434,8 @@ show oc001_01 1 as p1 at r_exit(-2), light, zorder 5
 c13 '[textdict[1155292]]'
 hide p1
 hide p1253
-show oc001_01 18 as p1 at r_entrance(-2), light, zorder 5
 with fade
+show oc001_01 18 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1155293]]'
 hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5

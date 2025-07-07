@@ -87,8 +87,8 @@ show st002_01 6 as p202 at l(-9), dark, zorder 6
 show st005_01 4 as p205 at r_midback(4), light, zorder 5
 c2053 '[textdict[2109606]]'
 scene avg_bg_024
-with fade
 show oc002_01 14 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[2109607]]'
 hide p2
 show oc002_01 14 as p2 at l(-3), dark, zorder 6
@@ -134,8 +134,8 @@ hide p1
 show oc001_01 2 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2109616]]'
 hide p1
-show scc39_01 1 as p2691 at l_entrance(-13), light, zorder 6
 with fade
+show scc39_01 1 as p2691 at l_entrance(-13), light, zorder 6
 c26911 '[textdict[2109617]]'
 hide p2691
 show scc39_01 1 as p2691 at l(-13), dark, zorder 6
@@ -256,8 +256,8 @@ show oc002_01 16 as p2 at l(-3), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2109664]]'
 scene avg_bg_024
-with fade
 show oc002_01 23 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[2109665]]'
 hide p2
 show oc002_01 23 as p2 at l(-3), dark, zorder 6

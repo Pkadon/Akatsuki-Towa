@@ -135,8 +135,8 @@ with fade
 c0 '[textdict[2113114]]'
 play music "ed7151.ogg"
 scene avg_bg_049
-with fade
 show ocd03_01 12 as p2667 at r(-6), light, zorder 5
+with fade
 c26673 '[textdict[2113115]]'
 hide p2667
 show ocd03_01 12 as p2667 at r(-6), light, zorder 5
@@ -229,8 +229,8 @@ with fade
 play sfx2 "other_7057.ogg"
 c0 '[textdict[2113143]]'
 scene avg_bg_010
-with fade
 show ocd03_01 20 as p2667 at r(-6), light, zorder 5
+with fade
 c26673 '[textdict[2113144]]'
 hide p2667
 show ocd03_01 19 as p2667 at r(-6), light, zorder 5

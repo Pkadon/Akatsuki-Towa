@@ -3,8 +3,8 @@ stop music
 
 play music "ed7544.ogg"
 scene avg_bg_218
-with fade
 show oc001_01 3 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7057.ogg"
 c13 '[textdict[1189730]]'
 stop music
@@ -28,8 +28,8 @@ show memoryoverlay zorder 2
 with fade
 c25231 '[textdict[1189735]]'
 scene avg_bg_218
-with fade
 show st063_01 1 as p1346 at l(-16), light, zorder 6
+with fade
 c13461 '[textdict[1189736]]'
 hide p1346
 c0 '[textdict[1189737]]'
@@ -264,8 +264,8 @@ c5001 '[textdict[1189789]]'
 c5001 '[textdict[1189790]]' (what_size=(gui.text_size*1.15)) with shake
 play music "ed7201.ogg"
 scene avg_bg_036
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1189791]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
@@ -408,8 +408,8 @@ c5001 '[textdict[1189824]]' with shake
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1189825]]'
 scene avg_bg_218
-with fade
 show oc002_01 16 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[1189826]]'
 hide p2
 show oc002_01 16 as p2 at l(-3), dark, zorder 6

@@ -3,16 +3,16 @@ stop music
 
 play music "ed7569.ogg"
 scene avg_bg_070
-with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1003640]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show st021_01 3 as p220 at l_entrance(-17), light, zorder 6
 c2201 '[textdict[1003641]]'
 scene avg_bg_036
-with fade
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+with fade
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1003642]]'
 hide p1
@@ -159,12 +159,12 @@ show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1003680]]'
 play music "ed7584.ogg"
 scene avg_bg_070
-with fade
 show st021_01 4 as p220 at l(-17), light, zorder 6
+with fade
 c2201 '[textdict[1003681]]'
 scene avg_bg_042
-with fade
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+with fade
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1003682]]'
 hide p1
@@ -246,8 +246,8 @@ show oc008_01 2 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1003707]]'
 play music "ed7514.ogg"
 scene avg_bg_038
-with fade
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1003708]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), light, zorder 5

@@ -34,8 +34,8 @@ with fade
 c0 '[textdict[1171824]]'
 play music "ed7117.ogg"
 scene avg_bg_050
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1171825]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -255,8 +255,8 @@ c14341 '[textdict[1171898]]'
 hide p1
 c0 '[textdict[1171899]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1171900]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5

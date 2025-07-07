@@ -53,18 +53,18 @@ show oc001_01 14 as p1 at r(-2), r_shake, light, zorder 5
 play sfx2 "other_7087.ogg"
 c13 '[textdict[2106244]]'
 scene avg_bg_014
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7085.ogg"
 c13 '[textdict[2106245]]'
 scene avg_bg_018
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7085.ogg"
 c13 '[textdict[2106246]]'
 scene avg_bg_021
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7085.ogg"
 c13 '[textdict[2106247]]'
 scene avg_bg_022
@@ -122,8 +122,8 @@ with fade
 c0 '[textdict[2106262]]'
 play music "ed7102.ogg"
 scene avg_bg_010
-with fade
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106263]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
@@ -159,8 +159,8 @@ play sfx2 "fight_6023.ogg"
 c0 '[textdict[2106272]]'
 play music "ed7205.ogg"
 scene avg_bg_010
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106273]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5

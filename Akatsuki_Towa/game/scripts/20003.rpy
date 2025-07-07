@@ -3,8 +3,8 @@ stop music
 
 play music "ed7300.ogg"
 scene placeholderbackground
-with fade
 show oc001_01 2 as p1 at mid(-2), light, zorder 5
+with fade
 play sfx2 "other_7020.ogg"
 play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[1000180]]'

@@ -30,8 +30,8 @@ show sc039_01 1 as p46 at r(-13), dark, zorder 5
 show oc001_01 11 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1005386]]'
 scene avg_bg_035
-with fade
 show st025_01 4 as p224 at l(-17), light, zorder 6
+with fade
 c2241 '[textdict[1005387]]'
 hide p224
 show st025_01 4 as p224 at l(-17), dark, zorder 6

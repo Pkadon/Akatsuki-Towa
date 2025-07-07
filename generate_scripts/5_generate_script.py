@@ -214,7 +214,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	framecount = 0
 	for frame in script_json['dialogueFrames']:
 		framecount += 1
-		newscene = False
+		
+		fade = False
 		
 		#Skip duplicate line 
 		#(if we skip it any earlier, it's going to screw up bgm and background scheduling)
@@ -266,7 +267,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#generate scene line only if it's different from the last frame
 			state.add_line(f"scene {framebackground}\n")
 			lastbackground = framebackground
-			newscene = True
+			fade = True
 			#The "scene" statement will hide all portraits, so the state needs to track that
 			state.hide_portraits('all', write=False)
 			#The scene statement will also hide the memory overlay, so track that too:
@@ -282,10 +283,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if memory:
 					state.add_line('hide memoryoverlay\n')
 					memory = False
-		#moved the "scene with fade" down here to account for memory overlay
-		if newscene and isClearModle != 1: state.add_line('with fade\n')
 
-
+		#The fade will be written later
+		#This is just to merge it with the fade from the background change up above
+		if isClearModle == 1:
+			fade = True
+			
 		#Both isClearModle and the green-text speaker 0 hide all portraits
 		if isClearModle == 1 or speaker == 0:
 			state.hide_portraits('all')
@@ -354,17 +357,25 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#then get effects figured out
 			if effect == 102: renpytransform += ', r_shake'
 			elif effect == 202: renpytransform += ', l_shake'
-
+			
+			#The fade will cover up portrait animations, so get it out of the way first
+			if fade:
+				if CharFadeIn == 1 or CharFadeOut == 1:
+					state.add_line(f"with fade\n")
+					fade = False
+					
 			#SHOW PORTRAIT									
 			portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder {zorder}' 
 			state.add_line(f"{portrait}\n")
 		
 		else: state.update_portrait(portraitpos, None)
 
-		#need the fade after all images are set up, before dialogue appears
-		if isClearModle == 1: state.add_line(f"with fade\n")
-		
-	#SFX/VOICE
+		#If fade was not done earlier because of portrait animations, do it here now
+		if fade: 
+			state.add_line(f"with fade\n")
+			fade = False
+			
+	#SOUND/VOICE
 		#check for sfx
 		if sfxID != 0:
 			sfxname = sfx_dict[sfxID]['_sfxName']
@@ -378,7 +389,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			voicename = voicename.split('/')[-1]
 			#play voice
 			state.add_line(f'play sfxvoice "{voicename}"\n')
-
+		
 	#START OF SAY STATEMENT
 		
 		#figure out where namebox goes

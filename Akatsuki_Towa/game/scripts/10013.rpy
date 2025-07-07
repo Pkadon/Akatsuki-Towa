@@ -3,8 +3,8 @@ stop music
 
 play music "ED6517.ogg"
 scene avg_bg_011
-with fade
 show sc013_01 4 as p21 at r(-12), light, zorder 5
+with fade
 c213 '[textdict[1001200]]'
 hide p21
 show sc013_01 4 as p21 at r(-12), light, zorder 5
@@ -90,8 +90,8 @@ c213 '[textdict[1001218]]'
 play music "ed7516.ogg"
 hide p518
 hide p21
-show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
 with fade
+show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
 play sfx2 "other_7045.ogg"
 c31 '[textdict[1001219]]' (what_size=(gui.text_size*1.2))
 hide p3

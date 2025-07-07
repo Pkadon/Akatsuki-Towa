@@ -28,15 +28,15 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 play sfxvoice "avg_vocal_na06.ogg"
 c13 '[textdict[2105536]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105537]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2105538]]'
 scene avg_bg_023
-with fade
 show sc002_01 1 as p10 at r(-12), light, zorder 5
+with fade
 c103 '[textdict[2105539]]'
 hide p10
 show sc002_01 1 as p10 at r(-12), dark, zorder 5
@@ -105,8 +105,8 @@ c13 '[textdict[2105552]]'
 hide p1
 play music "ed7200.ogg"
 scene avg_bg_010
-show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 with fade
+show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2105553]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -350,8 +350,8 @@ play sfxvoice "avg_vocal_na03_b.ogg"
 c13 '[textdict[2105608]]'
 play music "ed7150.ogg"
 scene avg_bg_023
-with fade
 show sc049_01 1 as p56 at l(-8), light, zorder 6
+with fade
 c561 '[textdict[2105609]]'
 hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6

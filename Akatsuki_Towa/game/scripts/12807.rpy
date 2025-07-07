@@ -244,8 +244,8 @@ with fade
 play sfx2 "other_7013.ogg"
 c0 '[textdict[1181829]]'
 scene avg_bg_010
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1181830]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5

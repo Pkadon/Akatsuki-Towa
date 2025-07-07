@@ -38,8 +38,8 @@ hide p232
 show st033_01 3 as p232 at r(-7), light, zorder 5
 c2323 '[textdict[1004502]]'
 hide p232
-show oc003_01 1 as p3 at r_entrance(-6), light, zorder 5
 with fade
+show oc003_01 1 as p3 at r_entrance(-6), light, zorder 5
 play sfxvoice "avg_vocal_ro02.ogg"
 c33 '[textdict[1004503]]'
 hide p3

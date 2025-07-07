@@ -7,8 +7,8 @@ c0 '[textdict[1164683]]'
 c0 '[textdict[1164684]]'
 play music "ed7151.ogg"
 scene avg_bg_040
-with fade
 show st052_01 2 as p1014 at l(2), light, zorder 6
+with fade
 c10141 '[textdict[1164685]]'
 hide p1014
 show st052_01 2 as p1014 at l(2), dark, zorder 6
@@ -124,8 +124,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1164708]]'
 scene avg_bg_040
-with fade
 show st052_01 1 as p1014 at l(2), light, zorder 6
+with fade
 c10141 '[textdict[1164709]]'
 hide p1014
 show st052_01 1 as p1014 at l(2), dark, zorder 6

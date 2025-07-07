@@ -67,8 +67,8 @@ hide p2739
 c6431 '[textdict[2111780]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7150.ogg"
 scene avg_bg_038
-with fade
 show sc040_01 1 as p47 at r(-9), light, zorder 5
+with fade
 c473 '[textdict[2111781]]'
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5

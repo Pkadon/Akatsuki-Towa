@@ -304,8 +304,8 @@ play sfx2 "other_7046.ogg"
 c21 '[textdict[1001013]]'
 play music "ed7514.ogg"
 hide p2
-show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 with fade
+show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 play sfx2 "bat_craft_wind_01.ogg"
 c13 '[textdict[1001014]]'
 hide p1
@@ -345,8 +345,8 @@ with fade
 play sfx2 "other_7019.ogg"
 c5261 '[textdict[1001023]]'
 scene avg_bg_009
-with fade
 show oc002_01 1 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[1001024]]'
 hide p2
 show oc002_01 1 as p2 at l(-3), dark, zorder 6

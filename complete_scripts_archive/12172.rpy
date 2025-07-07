@@ -3,8 +3,8 @@ stop music
 
 play music "ed7105.ogg"
 scene avg_bg_028
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7018.ogg"
 c13 '[textdict[1128504]]'
 hide p1

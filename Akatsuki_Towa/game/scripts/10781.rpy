@@ -104,8 +104,8 @@ c14681 '[textdict[1177239]]'
 c14681 '[textdict[1177240]]'
 c14681 '[textdict[1177241]]'
 scene avg_bg_212
-with fade
 show st065_01 1 as p1468 at l(-6), light, zorder 6
+with fade
 c14681 '[textdict[1177242]]'
 hide p1468
 show st065_01 1 as p1468 at l(-6), dark, zorder 6
@@ -151,8 +151,8 @@ c14681 '[textdict[1177253]]'
 c14681 '[textdict[1177254]]'
 c14681 '[textdict[1177255]]'
 scene avg_bg_212
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1177256]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

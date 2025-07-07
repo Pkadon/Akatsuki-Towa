@@ -6,8 +6,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1184791]]'
 scene avg_bg_065
-with fade
 show st062_01 4 as p1308 at r(-16), light, zorder 5
+with fade
 c13083 '[textdict[1184792]]'
 hide p1308
 show st062_01 4 as p1308 at r(-16), dark, zorder 5
@@ -58,8 +58,8 @@ with fade
 c0 '[textdict[1184810]]'
 play music "ed7566.ogg"
 scene avg_bg_003
-with fade
 show oc005_01 4 as p5 at l(-6), light, zorder 6
+with fade
 play sfx2 "other_7018.ogg"
 c51 '[textdict[1184811]]'
 hide p5
@@ -453,8 +453,8 @@ c25591 '[textdict[1184912]]'
 c25591 '[textdict[1184913]]'
 c25601 '[textdict[1184914]]'
 scene avg_bg_035
-with fade
 show st044_01 4 as p692 at r(10), light, zorder 5
+with fade
 c6923 '[textdict[1184915]]'
 hide p692
 show st044_01 4 as p692 at r(10), dark, zorder 5

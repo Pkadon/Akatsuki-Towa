@@ -160,8 +160,8 @@ show oc002_01 8 as p2 at r(-3), dark, zorder 5
 show oc001_01 5 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1133364]]'
 scene avg_bg_070
-with fade
 show oc001_01 11 as p1 at l(-2), light, zorder 6
+with fade
 play sfxvoice "avg_vocal_na17.ogg"
 c11 '[textdict[1133365]]'
 hide p1

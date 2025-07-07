@@ -22,8 +22,8 @@ show st053_01 4 as p1007 at l(-12), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106337]]'
 scene avg_bg_055
-with fade
 show oc001_01 18 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106338]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
@@ -332,8 +332,8 @@ show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106412]]'
 scene avg_bg_004
 show memoryoverlay zorder 2
-with fade
 show sc015_01 1 as p23 at l(9), light, zorder 6
+with fade
 c231 '[textdict[2106413]]'
 hide p23
 show sc015_01 1 as p23 at l(9), dark, zorder 6
@@ -360,8 +360,8 @@ show oc001_01 22 as p1 at r(-2), dark, zorder 5
 show sc015_01 1 as p23 at l(9), light, zorder 6
 c231 '[textdict[2106418]]'
 scene avg_bg_055
-with fade
 show oc001_01 17 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106419]]'
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5

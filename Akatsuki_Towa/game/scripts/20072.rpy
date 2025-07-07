@@ -18,8 +18,8 @@ show oc001_01 8 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1123004]]'
 hide p1
 hide p2
-show st033_01 4 as p232 at r_entrance(-7), light, zorder 5
 with fade
+show st033_01 4 as p232 at r_entrance(-7), light, zorder 5
 c2323 '[textdict[1123005]]'
 hide p232
 c5383 '[textdict[1123006]]'

@@ -3,8 +3,8 @@ stop music
 
 play music "ed7150.ogg"
 scene avg_bg_023
-with fade
 show sc049_01 4 as p56 at l(-8), light, zorder 6
+with fade
 c561 '[textdict[2105092]]'
 hide p56
 show sc049_01 4 as p56 at l(-8), dark, zorder 6
@@ -421,8 +421,8 @@ with fade
 c0 '[textdict[2105177]]'
 c0 '[textdict[2105178]]'
 scene avg_bg_026
-with fade
 show sc040_01 1 as p47 at r(-9), light, zorder 5
+with fade
 c473 '[textdict[2105179]]'
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
@@ -433,8 +433,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[2105181]]'
 scene avg_bg_010
-with fade
 show sc045_01 4 as p52 at r(-11), light, zorder 5
+with fade
 c523 '[textdict[2105182]]'
 hide p52
 show sc045_01 4 as p52 at r(-11), dark, zorder 5
@@ -448,8 +448,8 @@ play sfx2 "other_7047.ogg"
 c0 '[textdict[2105185]]'
 play music "ed7150.ogg"
 scene avg_bg_023
-with fade
 show sc049_01 1 as p56 at l(-8), light, zorder 6
+with fade
 c561 '[textdict[2105186]]'
 hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6

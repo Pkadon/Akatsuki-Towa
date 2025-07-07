@@ -8,8 +8,8 @@ play sfx2 "other_7017.ogg"
 c0 '[textdict[1131525]]'
 play music "ED6518.ogg"
 scene avg_bg_003
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1131526]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5

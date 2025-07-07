@@ -61,8 +61,8 @@ c0 '[textdict[1130889]]'
 c0 '[textdict[1130890]]'
 play music "ed7151.ogg"
 scene avg_bg_030
-with fade
 show oc002_01 10 as p2 at r(-3), light, zorder 5
+with fade
 play sfxvoice "avg_vocal_ch25.ogg"
 c23 '[textdict[1130891]]'
 hide p2

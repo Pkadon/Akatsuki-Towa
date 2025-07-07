@@ -3,8 +3,8 @@ stop music
 
 play music "ed7162.ogg"
 scene avg_bg_078
-with fade
 show st029_01 1 as p610 at l(-28), light, zorder 6
+with fade
 c6101 '[textdict[1143908]]'
 hide p610
 show st029_01 1 as p610 at l(-28), dark, zorder 6
@@ -44,8 +44,8 @@ c6113 '[textdict[1143918]]'
 play music "ed7515.ogg"
 scene avg_bg_029
 show memoryoverlay zorder 2
-with fade
 show st029_01 2 as p610 at l(-28), l_shake, light, zorder 6
+with fade
 c6101 '[textdict[1143919]]'
 hide p610
 show st029_01 2 as p610 at l(-28), dark, zorder 6
@@ -110,8 +110,8 @@ show st029_01 5 as p610 at r(-28), light, zorder 5
 c6103 '[textdict[1143934]]'
 play music "ed7162.ogg"
 scene avg_bg_078
-with fade
 show sc071_01 1 as p611 at r(-20), light, zorder 5
+with fade
 c6113 '[textdict[1143935]]'
 hide p611
 show sc071_01 1 as p611 at r(-20), light, zorder 5

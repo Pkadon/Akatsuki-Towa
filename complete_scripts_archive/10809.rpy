@@ -167,8 +167,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1181673]]'
 scene avg_bg_023
-with fade
 show oc003_01 1 as p3 at r(-6), light, zorder 5
+with fade
 c33 '[textdict[1181674]]'
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5

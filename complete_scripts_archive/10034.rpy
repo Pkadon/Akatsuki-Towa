@@ -2,8 +2,8 @@ label avg10034:
 stop music
 
 scene avg_bg_027
-with fade
 show oc001_01 9 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "common_correct.ogg"
 c13 '[textdict[1003009]]'
 hide p1
@@ -102,8 +102,8 @@ hide p1
 show oc001_01 9 as p1 at l(-2), l_shake, light, zorder 6
 c11 '[textdict[1003033]]'
 hide p1
-show sc001_01 4 as p603 at r_entrance_midback(-11), light, zorder 5
 with fade
+show sc001_01 4 as p603 at r_entrance_midback(-11), light, zorder 5
 play sfx2 "fight_6023.ogg"
 play sfxvoice "ed7v0659.ogg"
 c6033 '[textdict[1003034]]'

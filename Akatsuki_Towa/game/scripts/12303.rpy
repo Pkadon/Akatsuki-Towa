@@ -3,8 +3,8 @@ stop music
 
 play music "ed7126.ogg"
 scene avg_bg_035
-with fade
 show sc046_01 5 as p1004 at l(-5), light, zorder 6
+with fade
 play sfx2 "other_7021.ogg"
 c10041 '[textdict[1133097]]'
 hide p1004
@@ -116,8 +116,8 @@ with fade
 play sfx2 "common_quest.ogg"
 c0 '[textdict[1133117]]'
 scene avg_bg_010
-with fade
 show sc046_01 4 as p1004 at r(-5), light, zorder 5
+with fade
 c10043 '[textdict[1133118]]'
 play music "ed7518.ogg"
 hide p1004

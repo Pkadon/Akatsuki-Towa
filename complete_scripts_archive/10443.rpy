@@ -57,8 +57,8 @@ play sfx2 "fight_6016.ogg"
 c6101 '[textdict[1141836]]'
 hide p610
 hide p611
-show uc004_01 4 as p1022 at r_entrance(-25), light, zorder 5
 with fade
+show uc004_01 4 as p1022 at r_entrance(-25), light, zorder 5
 c10223 '[textdict[1141837]]'
 hide p1022
 show uc004_01 3 as p1022 at r(-25), r_shake, light, zorder 5

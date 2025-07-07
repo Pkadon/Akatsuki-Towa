@@ -199,8 +199,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1177514]]'
 scene avg_bg_077
-with fade
 show st064_01 1 as p1469 at r(-2), light, zorder 5
+with fade
 c14693 '[textdict[1177515]]'
 hide p1469
 show st064_01 1 as p1469 at r(-2), dark, zorder 5

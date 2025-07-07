@@ -3,8 +3,8 @@ stop music
 
 play music "ed7103.ogg"
 scene avg_bg_030
-with fade
 show sc038_01 4 as p45 at l(-1), light, zorder 6
+with fade
 c451 '[textdict[2112115]]'
 hide p45
 show sc038_01 4 as p45 at l(-1), dark, zorder 6
@@ -602,12 +602,12 @@ show sc038_01 2 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112242]]'
 scene avg_bg_030
 show memoryoverlay zorder 2
-with fade
 show sc038_01 1 as p45 at l(-1), light, zorder 6
+with fade
 c451 '[textdict[2112243]]'
 scene avg_bg_019
-with fade
 show sc038_01 3 as p45 at l(-1), light, zorder 6
+with fade
 c451 '[textdict[2112244]]'
 hide p45
 show sc038_01 3 as p45 at l(-1), dark, zorder 6

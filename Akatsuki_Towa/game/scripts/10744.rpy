@@ -9,8 +9,8 @@ c0 '[textdict[1173159]]'
 play music "ed7111.ogg"
 scene avg_bg_003
 show memoryoverlay zorder 2
-with fade
 show oc004_01 2 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[1173160]]'
 hide p4
 show oc004_01 2 as p4 at l(-5), dark, zorder 6

@@ -257,8 +257,8 @@ c25251 '[textdict[2103288]]'
 c25251 '[textdict[2103289]]'
 c25251 '[textdict[2103290]]'
 scene avg_bg_019
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2103291]]'
 hide p1
 c0 '[textdict[2103292]]'
@@ -303,8 +303,8 @@ hide p1
 c0 '[textdict[2103305]]'
 c0 '[textdict[2103306]]'
 scene avg_bg_070
-with fade
 show sca33_01 1 as p2525 at l(3), light, zorder 6
+with fade
 c25251 '[textdict[2103307]]'
 hide p2525
 show sca33_01 1 as p2525 at l(3), light, zorder 6

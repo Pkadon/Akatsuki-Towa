@@ -262,8 +262,8 @@ with fade
 c0 '[textdict[1162781]]'
 c0 '[textdict[1162782]]'
 scene avg_bg_023
-with fade
 show oc007_01 5 as p7 at l(-24), light, zorder 6
+with fade
 c71 '[textdict[1162783]]'
 hide p7
 show oc007_01 5 as p7 at l(-24), dark, zorder 6

@@ -121,8 +121,8 @@ show oca01_01 8 as p2701 at r(-2), dark, zorder 5
 show oca03_01 16 as p2703 at l(-6), light, zorder 6
 c27031 '[textdict[2110384]]'
 scene avg_bg_070
-with fade
 show oc005_01 12 as p5 at r(-6), r_shake, light, zorder 5
+with fade
 c53 '[textdict[2110385]]'
 hide p5
 show oc005_01 12 as p5 at r(-6), r_shake, light, zorder 5
@@ -134,8 +134,8 @@ hide p5
 show oc005_01 12 as p5 at r(-6), r_shake, light, zorder 5
 c53 '[textdict[2110388]]'
 scene avg_bg_019
-with fade
 show oca03_01 1 as p2703 at l(-6), light, zorder 6
+with fade
 c27031 '[textdict[2110389]]'
 hide p2703
 show oca03_01 1 as p2703 at l(-6), dark, zorder 6

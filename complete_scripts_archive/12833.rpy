@@ -8,8 +8,8 @@ c0 '[textdict[1185446]]'
 play sfx2 "other_7018.ogg"
 c0 '[textdict[1185447]]'
 scene avg_bg_003
-with fade
 show oc005_01 4 as p5 at l(-6), light, zorder 6
+with fade
 c51 '[textdict[1185448]]'
 hide p5
 show oc005_01 17 as p5 at l(-6), light, zorder 6
@@ -264,8 +264,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1185503]]'
 scene avg_bg_003
-with fade
 show sc010_01 4 as p18 at l(-10), light, zorder 6
+with fade
 c181 '[textdict[1185504]]'
 hide p18
 show sc010_01 4 as p18 at l(-10), dark, zorder 6

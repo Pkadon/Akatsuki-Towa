@@ -266,8 +266,8 @@ show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1181625]]'
 stop music
 scene avg_bg_070
-with fade
 show oc003_01 2 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1181626]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6

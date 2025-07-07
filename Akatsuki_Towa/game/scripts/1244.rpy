@@ -3,8 +3,8 @@ stop music
 
 play music "ed7513.ogg"
 scene avg_bg_010
-with fade
 show ocd03_01 12 as p2667 at r(-6), r_shake, light, zorder 5
+with fade
 c26673 '[textdict[2113155]]'
 hide p2667
 show ocd03_01 12 as p2667 at r_midback(-6), light, zorder 5
@@ -165,8 +165,8 @@ with fade
 c0 '[textdict[2113208]]'
 play music "ed7565.ogg"
 scene avg_bg_050
-with fade
 show oca05_01 15 as p2669 at l(-6), light, zorder 6
+with fade
 c26691 '[textdict[2113209]]'
 hide p2669
 show oca05_01 15 as p2669 at l(-6), dark, zorder 6

@@ -133,8 +133,8 @@ hide p4
 c0 '[textdict[1185327]]'
 play music "ed6564.ogg"
 scene avg_bg_004
-with fade
 show oc003_01 2 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1185328]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
@@ -204,8 +204,8 @@ hide p3
 play sfx2 "other_7047.ogg"
 c0 '[textdict[1185343]]'
 scene avg_bg_077
-with fade
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[1185344]]'
 hide p4
 c0 '[textdict[1185345]]'

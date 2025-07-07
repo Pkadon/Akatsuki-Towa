@@ -234,8 +234,8 @@ show oc001_01 13 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1175281]]'
 stop music
 scene avg_bg_070
-with fade
 show oc001_01 14 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7057.ogg"
 c13 '[textdict[1175282]]'
 hide p1

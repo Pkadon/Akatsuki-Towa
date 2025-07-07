@@ -3,8 +3,8 @@ stop music
 
 play music "ed7544.ogg"
 scene avg_bg_062
-with fade
 show uc003_04 3 as p1116 at r(-14), r_shake, light, zorder 5
+with fade
 c11163 '[textdict[1141899]]'
 hide p1116
 show uc003_04 4 as p1117 at r_entrance(-14), light, zorder 5
@@ -109,8 +109,8 @@ show sc071_01 4 as p73 at r_entrance(-20), light, zorder 5
 c733 '[textdict[1141923]]'
 hide p610
 hide p73
-show st037_01 4 as p236 at l_entrance(-10), light, zorder 6
 with fade
+show st037_01 4 as p236 at l_entrance(-10), light, zorder 6
 c2361 '[textdict[1141924]]'
 hide p236
 show st037_01 4 as p236 at l(-10), dark, zorder 6
@@ -121,8 +121,8 @@ c10263 '[textdict[1141926]]'
 show sc046_01 4 as p1004 at l_entrance(-5), light, zorder 6
 c10041 '[textdict[1141927]]'
 hide p1004
-show uc003_04 3 as p1124 at r_entrance(-14), light, zorder 5
 with fade
+show uc003_04 3 as p1124 at r_entrance(-14), light, zorder 5
 c11243 '[textdict[1141928]]'
 hide p1124
 show uc003_04 3 as p1124 at r(-14), dark, zorder 5
@@ -175,8 +175,8 @@ hide p55
 show sc048_01 4 as p55 at l(-7), light, zorder 6
 c551 '[textdict[1141938]]'
 hide p55
-show uc003_04 2 as p1116 at r_entrance(-14), light, zorder 5
 with fade
+show uc003_04 2 as p1116 at r_entrance(-14), light, zorder 5
 c11163 '[textdict[1141939]]'
 hide p1116
 show uc003_04 4 as p1117 at r_entrance(-14), light, zorder 5
@@ -253,8 +253,8 @@ show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1141955]]'
 hide p2
 hide p1
-show oc005_01 7 as p5 at r_entrance(-6), light, zorder 5
 with fade
+show oc005_01 7 as p5 at r_entrance(-6), light, zorder 5
 c53 '[textdict[1141956]]'
 hide p5
 show oc005_01 7 as p5 at r(-6), dark, zorder 5

@@ -3,8 +3,8 @@ stop music
 
 play music "ed7453.ogg"
 scene avg_bg_036
-with fade
 show oca01_01 19 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110867]]'
 hide p2701
 show oca01_01 19 as p2701 at r(-2), dark, zorder 5
@@ -189,8 +189,8 @@ hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110920]]'
 scene avg_bg_036
-with fade
 show oca01_01 13 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110921]]'
 hide p2701
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
@@ -299,8 +299,8 @@ show oca02_01 14 as p2702 at l(-3), dark, zorder 6
 c27153 '[textdict[2110951]]'
 scene avg_bg_023
 show memoryoverlay zorder 2
-with fade
 show sc049_01 4 as p56 at l(-8), light, zorder 6
+with fade
 c561 '[textdict[2110952]]'
 hide p56
 show sc049_01 4 as p56 at l(-8), dark, zorder 6
@@ -374,8 +374,8 @@ hide p2702
 show oca02_01 2 as p2702 at l(-3), dark, zorder 6
 c13 '[textdict[2110969]]' with shake
 scene avg_bg_036
-with fade
 show oca01_01 12 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110970]]'
 hide p2701
 c27153 '[textdict[2110971]]'

@@ -120,8 +120,8 @@ show oc006_01 4 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2109558]]'
 stop music
 scene avg_bg_070
-with fade
 show oc006_01 3 as p6 at r(-5), light, zorder 5
+with fade
 c63 '[textdict[2109559]]'
 hide p6
 show oc006_01 3 as p6 at r(-5), light, zorder 5
@@ -146,8 +146,8 @@ show oc006_01 2 as p6 at r(-5), r_shake, light, zorder 5
 c63 '[textdict[2109566]]'
 play music "ed7111.ogg"
 scene avg_bg_007
-with fade
 show uc002_03 1 as p2647 at r(-23), light, zorder 5
+with fade
 play sfx2 "other_7047.ogg"
 c26473 '[textdict[2109567]]'
 hide p2647

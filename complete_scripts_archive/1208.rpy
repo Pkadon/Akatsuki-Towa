@@ -719,8 +719,8 @@ hide p13
 hide p209
 c0 '[textdict[2108950]]'
 scene avg_bg_027
-with fade
 show sc019_01 2 as p27 at r(-18), light, zorder 5
+with fade
 c273 '[textdict[2108951]]'
 hide p27
 show sc019_01 2 as p27 at r(-18), dark, zorder 5
@@ -760,8 +760,8 @@ show sc021_01 5 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2108959]]'
 hide p29
 hide p39
-show sc007_01 5 as p15 at l_entrance(-17), light, zorder 6
 with fade
+show sc007_01 5 as p15 at l_entrance(-17), light, zorder 6
 c151 '[textdict[2108960]]'
 hide p15
 show sc007_01 5 as p15 at l(-17), dark, zorder 6

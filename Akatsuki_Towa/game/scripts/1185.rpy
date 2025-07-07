@@ -341,8 +341,8 @@ hide p16
 show sc008_01 1 as p16 at l(-18), dark, zorder 6
 c25813 '[textdict[2106731]]' with shake
 scene avg_bg_070
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106732]]'
 play music "ed7514.ogg"
 scene avg_bg_023
@@ -386,15 +386,15 @@ show sc008_01 1 as p16 at r(-18), dark, zorder 5
 play sfx2 "other_7081.ogg"
 c25821 '[textdict[2106745]]'
 scene avg_bg_070
-with fade
 show oc001_01 1 as p1 at l(-2), light, zorder 6
+with fade
 c11 '[textdict[2106746]]'
 hide p1
 show oc001_01 18 as p1 at l(-2), light, zorder 6
 c11 '[textdict[2106747]]'
 scene avg_bg_078
-with fade
 show sc008_01 4 as p16 at r(-18), light, zorder 5
+with fade
 c163 '[textdict[2106748]]'
 hide p16
 show sc008_01 1 as p16 at r(-18), light, zorder 5

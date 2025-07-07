@@ -173,8 +173,8 @@ with fade
 play sfx2 "other_7019.ogg"
 c0 '[textdict[2108244]]'
 scene avg_bg_034
-with fade
 show sc019_01 3 as p27 at l(-18), light, zorder 6
+with fade
 c271 '[textdict[2108245]]'
 hide p27
 show sc019_01 3 as p27 at l(-18), dark, zorder 6

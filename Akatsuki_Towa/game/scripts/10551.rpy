@@ -3,8 +3,8 @@ stop music
 
 play music "ed7516.ogg"
 scene avg_bg_078
-with fade
 show st057_01 4 as p1211 at l(-16), light, zorder 6
+with fade
 c12111 '[textdict[1153590]]'
 hide p1211
 show st057_01 4 as p1211 at l(-16), dark, zorder 6
@@ -166,8 +166,8 @@ show st056_01 5 as p1212 at r(-6), light, zorder 5
 c12123 '[textdict[1153623]]'
 hide p4
 hide p1212
-show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6
 with fade
+show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1153624]]'
 hide p2
 show oc002_01 10 as p2 at l(-3), light, zorder 6
@@ -238,8 +238,8 @@ play sfx2 "other_7047.ogg"
 c12123 '[textdict[1153638]]'
 hide p1212
 hide p2
-show oc002_01 15 as p2 at r_entrance(-3), light, zorder 5
 with fade
+show oc002_01 15 as p2 at r_entrance(-3), light, zorder 5
 play sfx2 "other_7048.ogg"
 c23 '[textdict[1153639]]'
 hide p2

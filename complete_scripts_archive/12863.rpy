@@ -84,8 +84,8 @@ show memoryoverlay zorder 2
 with fade
 c14161 '[textdict[1190273]]'
 scene avg_bg_216
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1190274]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
@@ -191,8 +191,8 @@ show memoryoverlay zorder 2
 with fade
 c14161 '[textdict[1190295]]'
 scene avg_bg_216
-with fade
 show oc001_01 16 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1190296]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), light, zorder 5

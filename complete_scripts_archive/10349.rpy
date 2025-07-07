@@ -11,8 +11,8 @@ play sfx2 "other_7018.ogg"
 c0 '[textdict[1131341]]'
 c0 '[textdict[1131342]]'
 scene avg_bg_040
-with fade
 show sc046_01 2 as p1004 at l(-5), light, zorder 6
+with fade
 c10041 '[textdict[1131343]]'
 hide p1004
 show sc046_01 3 as p1004 at l(-5), l_shake, light, zorder 6
@@ -267,8 +267,8 @@ show oc001_01 16 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1131395]]'
 hide p4
 hide p1
-show st052_01 5 as p1014 at r_entrance(2), light, zorder 5
 with fade
+show st052_01 5 as p1014 at r_entrance(2), light, zorder 5
 c10143 '[textdict[1131396]]'
 hide p1014
 show st052_01 4 as p1014 at r(2), light, zorder 5
@@ -376,8 +376,8 @@ show st052_01 1 as p1014 at l(2), light, zorder 6
 c10141 '[textdict[1131417]]'
 hide p1014
 hide p1
-show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 with fade
+show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1131418]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

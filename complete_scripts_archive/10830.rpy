@@ -56,8 +56,8 @@ show st061_01 5 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1185938]]'
 hide p239
 hide p1304
-show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 with fade
+show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1185939]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

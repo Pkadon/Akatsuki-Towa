@@ -3,8 +3,8 @@ stop music
 
 play music "ed7151.ogg"
 scene avg_bg_106
-with fade
 show sc030_01 4 as p38 at r(-12), light, zorder 5
+with fade
 c383 '[textdict[1153739]]'
 hide p38
 show sc030_01 4 as p38 at r(-12), dark, zorder 5
@@ -86,8 +86,8 @@ c0 '[textdict[1153755]]'
 c0 '[textdict[1153756]]'
 play music "ed7516.ogg"
 scene avg_bg_106
-with fade
 show sc031_01 2 as p39 at l(-14), light, zorder 6
+with fade
 c391 '[textdict[1153757]]'
 hide p39
 show sc031_01 2 as p39 at l(-14), dark, zorder 6

@@ -48,8 +48,8 @@ show oc002_01 22 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1151868]]'
 hide p239
 hide p2
-show sc008_01 1 as p16 at l_entrance(-18), light, zorder 6
 with fade
+show sc008_01 1 as p16 at l_entrance(-18), light, zorder 6
 c161 '[textdict[1151869]]'
 hide p16
 show sc008_01 1 as p16 at l(-18), dark, zorder 6
@@ -57,8 +57,8 @@ show sc007_01 1 as p15 at r_entrance(-17), light, zorder 5
 c153 '[textdict[1151870]]'
 hide p16
 hide p15
-show oc002_01 14 as p2 at r_entrance(-3), light, zorder 5
 with fade
+show oc002_01 14 as p2 at r_entrance(-3), light, zorder 5
 c23 '[textdict[1151871]]'
 hide p2
 show oc002_01 14 as p2 at r(-3), dark, zorder 5
@@ -114,8 +114,8 @@ hide p15
 show sc007_01 1 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1151882]]'
 hide p15
-show sc007_01 6 as p15 at l_entrance(-17), light, zorder 6
 with fade
+show sc007_01 6 as p15 at l_entrance(-17), light, zorder 6
 c151 '[textdict[1151883]]'
 hide p15
 show sc007_01 6 as p15 at l(-17), dark, zorder 6
@@ -143,8 +143,8 @@ show oc004_01 9 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1151888]]'
 hide p3
 hide p4
-show st041_01 5 as p240 at r_entrance(-1), light, zorder 5
 with fade
+show st041_01 5 as p240 at r_entrance(-1), light, zorder 5
 c2403 '[textdict[1151889]]'
 hide p240
 show st041_01 5 as p240 at r(-1), dark, zorder 5

@@ -125,8 +125,8 @@ show oc001_01 10 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1132640]]'
 stop music
 scene avg_bg_070
-with fade
 show oc002_01 20 as p2 at l(-3), light, zorder 6
+with fade
 play sfx2 "other_7089.ogg"
 c21 '[textdict[1132641]]'
 play music "ed7510.ogg"
@@ -146,14 +146,14 @@ c10501 '[textdict[1132651]]'
 c10493 '[textdict[1132652]]'
 c10501 '[textdict[1132653]]'
 scene avg_bg_070
-with fade
 show oc002_01 3 as p2 at l(-3), light, zorder 6
+with fade
 play sfx2 "other_7089.ogg"
 play sfxvoice "avg_vocal_ch14.ogg"
 c21 '[textdict[1132654]]' with shake
 scene avg_bg_052
-with fade
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+with fade
 c13 '[textdict[1132655]]'
 play music "ed7526.ogg"
 hide p1

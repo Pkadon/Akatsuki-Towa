@@ -75,8 +75,8 @@ show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1189141]]'
 hide p1469
 hide p2
-show oc002_01 23 as p2 at r_entrance(-3), light, zorder 5
 with fade
+show oc002_01 23 as p2 at r_entrance(-3), light, zorder 5
 c23 '[textdict[1189142]]'
 hide p2
 show oc002_01 23 as p2 at r(-3), dark, zorder 5

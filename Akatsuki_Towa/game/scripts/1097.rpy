@@ -28,8 +28,8 @@ show sc053_01 1 as p60 at l(-32), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102228]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2102229]]'
 scene avg_bg_023
 show memoryoverlay zorder 2
@@ -82,15 +82,15 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc053_01 1 as p60 at l(-32), light, zorder 6
 c601 '[textdict[2102245]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2102246]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102247]]'
 scene avg_bg_013
-with fade
 show sc053_01 4 as p60 at l(-32), light, zorder 6
+with fade
 c601 '[textdict[2102248]]'
 hide p60
 show sc053_01 4 as p60 at l(-32), dark, zorder 6
@@ -183,12 +183,12 @@ show sc053_01 5 as p60 at l(-32), light, zorder 6
 c601 '[textdict[2102266]]'
 play music "ED6516.ogg"
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2102267]]'
 scene avg_bg_013
-with fade
 show sc053_01 4 as p60 at l(-32), l_shake, light, zorder 6
+with fade
 c601 '[textdict[2102268]]'
 hide p60
 show sc053_01 4 as p60 at l(-32), dark, zorder 6

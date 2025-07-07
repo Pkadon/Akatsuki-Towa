@@ -2,8 +2,8 @@ label avg25196:
 stop music
 
 scene placeholderbackground
-with fade
 show uc001_01 2 as p2022 at mid(-2), light, zorder 5
+with fade
 c20223 '[textdict[1210663]]'
 menu:
     extend ""

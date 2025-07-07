@@ -13,8 +13,8 @@ scene avg_bg_507
 with fade
 c0 '[textdict[1190749]]'
 scene avg_bg_222
-with fade
 show Image8007 zorder 4
+with fade
 c0 '[textdict[1190750]]'
 hide Image8007
 c0 '[textdict[1190751]]'

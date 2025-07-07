@@ -88,8 +88,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1003576]]'
 scene avg_bg_041
-with fade
 show sc027_01 3 as p35 at r(-10), light, zorder 5
+with fade
 c353 '[textdict[1003577]]' with shake
 hide p35
 show sc027_01 3 as p35 at r(-10), light, zorder 5

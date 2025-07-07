@@ -7,8 +7,8 @@ with fade
 c0 '[textdict[2106133]]'
 c0 '[textdict[2106134]]'
 scene avg_bg_023
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106135]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
@@ -282,8 +282,8 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 play sfx2 "fight_6024.ogg"
 c13 '[textdict[2106212]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2106213]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -293,8 +293,8 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106215]]'
 play music "ed7113.ogg"
 scene avg_bg_021
-with fade
 show sc041_01 4 as p48 at l(-9), light, zorder 6
+with fade
 c481 '[textdict[2106216]]'
 hide p48
 show sc041_01 4 as p48 at l(-9), light, zorder 6

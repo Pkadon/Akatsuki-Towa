@@ -3,8 +3,8 @@ stop music
 
 play music "ed9997.ogg"
 scene placeholderbackground
-with fade
 show oc001_01 19 as p1 at mid(-2), light, zorder 5
+with fade
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1000214]]'
 hide p1

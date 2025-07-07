@@ -68,8 +68,8 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 play sfxvoice "avg_vocal_na06.ogg"
 c13 '[textdict[1000759]]'
 scene avg_bg_075
-with fade
 show oc002_01 9 as p2 at l(-3), light, zorder 6
+with fade
 c21 '[textdict[1000774]]' (what_size=(gui.text_size*1.2)) with shake
 hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6

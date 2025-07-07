@@ -3,8 +3,8 @@ stop music
 
 play music "ed7511.ogg"
 scene avg_bg_211
-with fade
 show oc002_01 3 as p2 at l(-3), light, zorder 6
+with fade
 play sfx2 "fight_6026.ogg"
 c21 '[textdict[1180155]]'
 hide p2
@@ -65,8 +65,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1180171]]'
 scene avg_bg_211
-with fade
 show oc003_01 3 as p3 at l(-6), light, zorder 6
+with fade
 play sfx2 "fight_6026.ogg"
 c31 '[textdict[1180172]]'
 hide p3

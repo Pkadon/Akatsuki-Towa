@@ -49,8 +49,8 @@ show st050_01 3 as p257 at l(-11), light, zorder 6
 c2571 '[textdict[1152045]]'
 hide p257
 hide p1
-show oc004_01 1 as p4 at l_entrance(-5), light, zorder 6
 with fade
+show oc004_01 1 as p4 at l_entrance(-5), light, zorder 6
 c41 '[textdict[1152046]]'
 hide p4
 show oc004_01 1 as p4 at l(-5), dark, zorder 6
@@ -191,8 +191,8 @@ show st050_01 3 as p257 at l(-11), l_shake, light, zorder 6
 c2571 '[textdict[1152077]]'
 hide p257
 hide p7
-show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6
 with fade
+show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1152078]]'
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6

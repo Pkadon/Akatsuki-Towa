@@ -3,8 +3,8 @@ stop music
 
 play music "ed7124.ogg"
 scene avg_bg_038
-with fade
 show sc040_01 6 as p47 at r(-9), light, zorder 5
+with fade
 c473 '[textdict[2111574]]'
 hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
@@ -173,8 +173,8 @@ with fade
 show oca00_01 1 as p2731 at l_entrance(-2), light, zorder 6
 c27311 '[textdict[2111609]]'
 scene avg_bg_038
-with fade
 show sc040_01 1 as p47 at r(-9), light, zorder 5
+with fade
 c473 '[textdict[2111610]]'
 hide p47
 show sc040_01 1 as p47 at r(-9), dark, zorder 5
@@ -273,14 +273,14 @@ c27311 '[textdict[2111630]]'
 stop music
 scene avg_bg_070
 show memoryoverlay zorder 2
-with fade
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
+with fade
 c27311 '[textdict[2111631]]'
 play music "ed7160.ogg"
 scene avg_bg_519
 show memoryoverlay zorder 2
-with fade
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
+with fade
 c27311 '[textdict[2111632]]'
 hide p2731
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
@@ -654,8 +654,8 @@ show oc000_09 1 as p2734 at r(-2), light, zorder 5
 c27343 '[textdict[2111722]]'
 play music "ed7513.ogg"
 scene avg_bg_038
-with fade
 show oca00_01 1 as p2731 at l(-2), light, zorder 6
+with fade
 c27311 '[textdict[2111723]]'
 hide p2731
 show oca00_01 1 as p2731 at l(-2), light, zorder 6

@@ -21,8 +21,8 @@ hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[2104465]]' with shake
 scene avg_bg_038
-with fade
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7088.ogg"
 c13 '[textdict[2104466]]'
 hide p1

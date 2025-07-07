@@ -10,8 +10,8 @@ play sfxvoice "avg_vocal_roi01.ogg"
 c5001 '[textdict[1002967]]' (what_size=(gui.text_size*1.5)) with shake
 scene avg_bg_004
 show memoryoverlay zorder 2
-with fade
 show oc001_01 19 as p1 at r(-2), light, zorder 5
+with fade
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1000001]]'
 hide p1

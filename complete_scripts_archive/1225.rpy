@@ -19,8 +19,8 @@ c27013 '[textdict[2110659]]'
 hide p2701
 c0 '[textdict[2110660]]'
 scene avg_bg_070
-with fade
 show oca01_01 18 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110661]]'
 hide p2701
 show oca01_01 10 as p2701 at r(-2), light, zorder 5
@@ -234,16 +234,16 @@ show oc008_01 1 as p8 at l(-5), dark, zorder 6
 show oc001_01 21 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110722]]'
 scene avg_bg_070
-with fade
 show oca01_01 18 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110723]]'
 stop music
 hide p2701
 c0 '[textdict[2110724]]'
 play music "ED6200.ogg"
 scene avg_bg_019
-with fade
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110725]]'
 hide p2701
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
@@ -600,8 +600,8 @@ hide p2701
 show oca01_01 4 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110839]]'
 scene avg_bg_070
-with fade
 show oca01_01 19 as p2701 at r(-2), light, zorder 5
+with fade
 c27013 '[textdict[2110840]]'
 hide p2701
 show oca01_01 19 as p2701 at r(-2), light, zorder 5

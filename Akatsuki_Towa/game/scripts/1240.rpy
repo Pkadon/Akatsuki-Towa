@@ -7,8 +7,8 @@ with fade
 c0 '[textdict[2112784]]'
 c0 '[textdict[2112785]]'
 scene avg_bg_032
-with fade
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
+with fade
 play sfx2 "other_7022.ogg"
 c26683 '[textdict[2112786]]'
 hide p2668
@@ -75,8 +75,8 @@ play sfx2 "other_7044.ogg"
 c26683 '[textdict[2112807]]'
 play music "ED6107.ogg"
 scene avg_bg_048
-with fade
 show st039_01 1 as p238 at l(-6), light, zorder 6
+with fade
 c2381 '[textdict[2112808]]'
 hide p238
 show st039_01 1 as p238 at l(-6), dark, zorder 6
@@ -332,8 +332,8 @@ show st062_01 5 as p1308 at r(-16), dark, zorder 5
 show st039_01 1 as p238 at l(-6), light, zorder 6
 c2381 '[textdict[2112858]]'
 scene avg_bg_032
-with fade
 show oce04_01 11 as p2668 at mid(-5), light, zorder 5
+with fade
 c26683 '[textdict[2112859]]'
 hide p2668
 show oce04_01 11 as p2668 at mid(-5), light, zorder 5
@@ -349,12 +349,12 @@ show oce04_01 11 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112863]]'
 scene avg_bg_048
 show memoryoverlay zorder 2
-with fade
 show st039_01 1 as p238 at l(-6), light, zorder 6
+with fade
 c2381 '[textdict[2112864]]'
 scene avg_bg_032
-with fade
 show oce04_01 2 as p2668 at mid(-5), light, zorder 5
+with fade
 c26683 '[textdict[2112865]]'
 play music "ed7124.ogg"
 scene avg_bg_010
@@ -366,8 +366,8 @@ c5001 '[textdict[2112868]]'
 c27693 '[textdict[2112869]]'
 stop music
 scene avg_bg_032
-with fade
 show oce04_01 7 as p2668 at mid(-5), light, zorder 5
+with fade
 c26683 '[textdict[2112870]]'
 hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
@@ -389,8 +389,8 @@ with fade
 play sfx2 "other_7074.ogg"
 c26683 '[textdict[2112877]]'
 scene avg_bg_032
-with fade
 show oce04_01 2 as p2668 at mid(-5), r_shake, light, zorder 5
+with fade
 c26683 '[textdict[2112878]]'
 hide p2668
 show oce04_01 2 as p2668 at mid(-5), light, zorder 5
@@ -407,8 +407,8 @@ with fade
 c0 '[textdict[2112882]]'
 c0 '[textdict[2112883]]'
 scene avg_bg_032
-with fade
 show oce04_01 1 as p2668 at mid(-5), light, zorder 5
+with fade
 c26683 '[textdict[2112884]]'
 hide p2668
 show oce04_01 1 as p2668 at mid(-5), light, zorder 5

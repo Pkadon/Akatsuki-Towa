@@ -52,8 +52,8 @@ c0 '[textdict[2105734]]'
 c0 '[textdict[2105735]]'
 c0 '[textdict[2105736]]'
 scene avg_bg_038
-with fade
 show st025_01 4 as p224 at l(-17), light, zorder 6
+with fade
 c2241 '[textdict[2105737]]'
 hide p224
 show st025_01 4 as p224 at l(-17), light, zorder 6
@@ -164,8 +164,8 @@ show sc001_01 1 as p9 at r(-11), light, zorder 5
 c93 '[textdict[2105759]]'
 play music "ED6200.ogg"
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105760]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5
@@ -174,8 +174,8 @@ hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2105762]]'
 scene avg_bg_010
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105763]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -393,8 +393,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[2105826]]'
 scene avg_bg_037
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105827]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5

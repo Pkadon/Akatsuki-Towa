@@ -504,8 +504,8 @@ show oc002_01 12 as p2 at l(-3), light, zorder 6
 play sfx2 "other_7044.ogg"
 c21 '[textdict[1187108]]' with shake
 scene avg_bg_038
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1187109]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5

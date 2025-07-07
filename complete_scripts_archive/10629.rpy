@@ -3,8 +3,8 @@ stop music
 
 play music "ed7516.ogg"
 scene avg_bg_078
-with fade
 show st057_01 1 as p1211 at l(-16), light, zorder 6
+with fade
 c12111 '[textdict[1163374]]'
 hide p1211
 show st057_01 1 as p1211 at l(-16), dark, zorder 6

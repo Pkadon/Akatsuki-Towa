@@ -54,8 +54,8 @@ play sfx2 "other_7044.ogg"
 c41 '[textdict[1121240]]'
 hide p4
 hide p1
-show st053_01 1 as p1007 at r_entrance(-12), light, zorder 5
 with fade
+show st053_01 1 as p1007 at r_entrance(-12), light, zorder 5
 play sfx2 "other_7045.ogg"
 c10073 '[textdict[1121241]]'
 hide p1007

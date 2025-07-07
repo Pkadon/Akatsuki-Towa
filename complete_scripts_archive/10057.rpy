@@ -59,8 +59,8 @@ show st004_01 5 as p204 at l_exit(4), light, zorder 6
 c2041 '[textdict[1004561]]'
 hide p204
 hide p45
-show oc002_01 6 as p2 at r_entrance(-3), light, zorder 5
 with fade
+show oc002_01 6 as p2 at r_entrance(-3), light, zorder 5
 play sfxvoice "avg_vocal_ch08.ogg"
 c23 '[textdict[1004563]]'
 hide p2

@@ -250,8 +250,8 @@ with fade
 c33 '[textdict[1190189]]'
 c33 '[textdict[1190190]]'
 scene avg_bg_003
-with fade
 show oc005_01 17 as p5 at l(-6), light, zorder 6
+with fade
 c51 '[textdict[1190191]]'
 hide p5
 show oc005_01 10 as p5 at l(-6), light, zorder 6

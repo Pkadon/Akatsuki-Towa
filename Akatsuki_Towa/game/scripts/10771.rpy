@@ -40,8 +40,8 @@ c12573 '[textdict[1175414]]'
 c12601 '[textdict[1175415]]' with shake
 play music "ed7511.ogg"
 scene avg_bg_077
-with fade
 show oc001_01 9 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1175416]]'
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
@@ -51,8 +51,8 @@ hide p1304
 hide p1
 play sfx2 "fight_6024.ogg"
 c0 '[textdict[1175418]]'
-show oc001_01 15 as p1 at r_entrance(-2), light, zorder 5
 with fade
+show oc001_01 15 as p1 at r_entrance(-2), light, zorder 5
 play sfx2 "other_7045.ogg"
 c13 '[textdict[1175419]]'
 hide p1

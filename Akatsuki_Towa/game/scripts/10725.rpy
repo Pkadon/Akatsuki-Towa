@@ -63,8 +63,8 @@ show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1171602]]'
 scene avg_bg_208
 show memoryoverlay zorder 2
-with fade
 show st056_01 1 as p1349 at l(-6), light, zorder 6
+with fade
 c13491 '[textdict[1171603]]'
 hide p1349
 show st056_01 1 as p1349 at l(-6), dark, zorder 6
@@ -76,8 +76,8 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show st056_01 1 as p1349 at l(-6), light, zorder 6
 c13491 '[textdict[1171605]]'
 scene avg_bg_038
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1171606]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

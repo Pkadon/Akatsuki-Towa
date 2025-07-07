@@ -13,8 +13,8 @@ c0 '[textdict[2105397]]'
 c0 '[textdict[2105398]]'
 c0 '[textdict[2105399]]'
 scene avg_bg_074
-with fade
 show sc046_01 4 as p1004 at l(-5), light, zorder 6
+with fade
 c10041 '[textdict[2105400]]'
 hide p1004
 show sc046_01 4 as p1004 at l(-5), light, zorder 6
@@ -75,8 +75,8 @@ c0 '[textdict[2105412]]'
 c0 '[textdict[2105413]]'
 c0 '[textdict[2105414]]'
 scene avg_bg_010
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7060.ogg"
 c13 '[textdict[2105415]]'
 hide p1
@@ -172,8 +172,8 @@ c0 '[textdict[2105441]]'
 c0 '[textdict[2105442]]'
 play music "ed7452.ogg"
 scene avg_bg_004
-with fade
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105443]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
@@ -347,8 +347,8 @@ with fade
 play sfx2 "fight_6009.ogg"
 c0 '[textdict[2105487]]'
 scene avg_bg_004
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105488]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

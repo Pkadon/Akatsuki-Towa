@@ -3,8 +3,8 @@ stop music
 
 play music "ed7511.ogg"
 scene avg_bg_034
-with fade
 show oc001_01 9 as p1 at l(-2), light, zorder 6
+with fade
 play sfx2 "fight_6022.ogg"
 play sfxvoice "bcv_oc001_c03_01.ogg"
 c11 '[textdict[1003378]]'

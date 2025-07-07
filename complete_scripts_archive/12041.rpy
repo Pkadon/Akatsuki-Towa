@@ -3,8 +3,8 @@ stop music
 
 play music "ed7111.ogg"
 scene avg_bg_018
-with fade
 show st024_01 2 as p223 at l(-16), light, zorder 6
+with fade
 c2231 '[textdict[1120306]]'
 hide p223
 show st024_01 2 as p223 at l(-16), dark, zorder 6
@@ -71,8 +71,8 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1120318]]'
 hide p223
 hide p1
-show oc005_01 8 as p976 at l_entrance(-6), light, zorder 6
 with fade
+show oc005_01 8 as p976 at l_entrance(-6), light, zorder 6
 c9761 '[textdict[1120319]]'
 hide p976
 show oc005_01 19 as p976 at l(-6), light, zorder 6

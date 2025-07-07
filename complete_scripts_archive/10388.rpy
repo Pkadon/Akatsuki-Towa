@@ -59,8 +59,8 @@ show oc003_01 9 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1132439]]'
 hide p3
 hide p1
-show oc002_01 9 as p2 at l_entrance(-3), light, zorder 6
 with fade
+show oc002_01 9 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1132440]]'
 hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6

@@ -59,12 +59,12 @@ show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103031]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
-with fade
 show sc045_01 6 as p52 at l(-11), light, zorder 6
+with fade
 c521 '[textdict[2103032]]'
 scene avg_bg_013
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2103033]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
@@ -101,8 +101,8 @@ show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc045_01 1 as p52 at l(-11), light, zorder 6
 c521 '[textdict[2103040]]'
 scene avg_bg_018
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2103041]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
@@ -324,8 +324,8 @@ hide p56
 hide p52
 c0 '[textdict[2103087]]'
 scene avg_bg_013
-with fade
 show oc001_01 7 as p1 at r(-2), light, zorder 5
+with fade
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[2103088]]'
 hide p1
@@ -377,8 +377,8 @@ show sc045_01 1 as p52 at l(-11), dark, zorder 6
 show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103097]]'
 scene avg_bg_010
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7085.ogg"
 c13 '[textdict[2103098]]'
 hide p1
@@ -387,8 +387,8 @@ show sc045_01 4 as p52 at l(-11), light, zorder 6
 play sfx2 "other_7085.ogg"
 c521 '[textdict[2103099]]'
 scene avg_bg_026
-with fade
 show sc045_01 4 as p52 at l(-11), light, zorder 6
+with fade
 play sfx2 "other_7085.ogg"
 c521 '[textdict[2103100]]'
 hide p52
@@ -396,8 +396,8 @@ show sc045_01 4 as p52 at l(-11), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103101]]'
 scene avg_bg_015
-with fade
 show sc045_01 4 as p52 at l(-11), light, zorder 6
+with fade
 c521 '[textdict[2103102]]'
 hide p52
 show sc045_01 4 as p52 at l(-11), dark, zorder 6

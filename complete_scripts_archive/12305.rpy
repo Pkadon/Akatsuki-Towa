@@ -61,12 +61,12 @@ show oc003_01 5 as p3 at r(-6), dark, zorder 5
 c10851 '[textdict[1133172]]' (what_size=(gui.text_size*1.2)) with shake
 play music "ed7105.ogg"
 scene avg_bg_070
-with fade
 show sc046_01 5 as p1004 at r(-5), light, zorder 5
+with fade
 c10043 '[textdict[1133173]]'
 scene avg_bg_010
-with fade
 show oc003_01 16 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1133174]]'
 hide p3
 show oc003_01 16 as p3 at l(-6), dark, zorder 6

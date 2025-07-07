@@ -17,8 +17,8 @@ c2051 '[textdict[2100926]]'
 play music "ed7515.ogg"
 scene avg_bg_025
 show memoryoverlay zorder 2
-with fade
 show st002_01 4 as p202 at l(-9), light, zorder 6
+with fade
 c2021 '[textdict[2100927]]'
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6
@@ -31,8 +31,8 @@ show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100930]]'
 play music "ed7101.ogg"
 scene avg_bg_020
-with fade
 show st005_01 4 as p205 at l(4), light, zorder 6
+with fade
 c2051 '[textdict[2100931]]'
 hide p205
 show st005_01 3 as p205 at l(4), light, zorder 6

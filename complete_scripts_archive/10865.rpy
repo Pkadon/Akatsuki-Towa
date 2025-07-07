@@ -507,8 +507,8 @@ with fade
 c0 '[textdict[1191484]]'
 play music "ed7514.ogg"
 scene avg_bg_058
-with fade
 show sta61_01 5 as p2670 at l(-2), light, zorder 6
+with fade
 c26701 '[textdict[1191485]]'
 hide p2670
 show sta61_01 5 as p2670 at l(-2), dark, zorder 6

@@ -29,8 +29,8 @@ hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170373]]'
 scene avg_bg_023
-with fade
 show oc007_01 2 as p7 at r(-24), light, zorder 5
+with fade
 c73 '[textdict[1170374]]'
 hide p7
 show oc007_01 2 as p7 at r(-24), dark, zorder 5
@@ -87,8 +87,8 @@ show st040_01 1 as p239 at l(-19), dark, zorder 6
 show oc007_01 3 as p7 at r(-24), light, zorder 5
 c73 '[textdict[1170385]]'
 scene avg_bg_049
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1170386]]'
 hide p1
 c0 '[textdict[1170387]]'

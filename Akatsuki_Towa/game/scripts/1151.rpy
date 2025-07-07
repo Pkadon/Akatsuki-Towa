@@ -185,13 +185,13 @@ show oc003_01 16 as p3 at l(-6), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104430]]'
 scene avg_bg_070
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2104431]]'
 play music "ed7514.ogg"
 scene avg_bg_003
-with fade
 show oc004_01 8 as p4 at l(-5), light, zorder 6
+with fade
 play sfx2 "other_7017.ogg"
 c41 '[textdict[2104432]]'
 hide p4
@@ -234,8 +234,8 @@ show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2104442]]'
 play music "ed7514.ogg"
 scene avg_bg_003
-with fade
 show oc004_01 11 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[2104443]]'
 hide p4
 show oc004_01 18 as p4 at l(-5), light, zorder 6

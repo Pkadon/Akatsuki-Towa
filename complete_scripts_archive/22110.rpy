@@ -3,8 +3,8 @@ stop music
 
 play music "ed7151.ogg"
 scene placeholderbackground
-with fade
 show oc001_01 18 as p1 at mid(-2), light, zorder 5
+with fade
 c13 '[textdict[1128090]]'
 hide p1
 show st033_01 3 as p537 at mid(-7), light, zorder 5
@@ -43,12 +43,12 @@ hide p537
 show oc003_01 14 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1128104]]'
 scene avg_bg_070
-with fade
 show oc003_01 4 as p3 at mid(-6), light, zorder 5
+with fade
 c33 '[textdict[1128105]]'
 scene placeholderbackground
-with fade
 show oc002_01 12 as p2 at mid(-3), light, zorder 5
+with fade
 c23 '[textdict[1128106]]'
 hide p2
 show oc003_01 14 as p3 at mid(-6), light, zorder 5

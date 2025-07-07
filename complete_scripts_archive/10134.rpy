@@ -21,8 +21,8 @@ play sfx2 "other_7085.ogg"
 c23 '[textdict[1007362]]'
 hide p2
 scene avg_bg_030
-with fade
 show st004_01 2 as p204 at l(4), light, zorder 6
+with fade
 play sfx2 "other_7088.ogg"
 c2041 '[textdict[1001637]]'
 hide p204

@@ -344,8 +344,8 @@ c23 '[textdict[1186932]]'
 c23 '[textdict[1186933]]'
 c23 '[textdict[1186934]]'
 scene avg_bg_220
-with fade
 show oc004_01 11 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[1186935]]'
 hide p4
 show oc004_01 11 as p4 at l(-5), dark, zorder 6
@@ -397,8 +397,8 @@ c23 '[textdict[1186950]]'
 c23 '[textdict[1186951]]'
 c23 '[textdict[1186952]]'
 scene avg_bg_220
-with fade
 show oc004_01 11 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[1186953]]'
 hide p4
 show oc001_01 4 as p1 at l(-2), light, zorder 6

@@ -8,8 +8,8 @@ show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 play sfx2 "other_7064.ogg"
 c13 '[textdict[1003854]]'
 scene avg_bg_070
-with fade
 show oc003_01 1 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1003855]]'
 scene avg_bg_014
 with fade
@@ -51,8 +51,8 @@ c6473 '[textdict[1003868]]'
 c6473 '[textdict[1003869]]'
 c6451 '[textdict[1003870]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1003871]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5
@@ -61,7 +61,7 @@ hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1003873]]'
 scene avg_bg_014
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1003874]]'
 return

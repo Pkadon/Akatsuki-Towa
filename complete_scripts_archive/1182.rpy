@@ -51,8 +51,8 @@ c23 '[textdict[2105986]]'
 play music "ed7111.ogg"
 scene avg_bg_007
 show memoryoverlay zorder 2
-with fade
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+with fade
 play sfx2 "other_7087.ogg"
 c41 '[textdict[2105987]]'
 hide p4
@@ -84,8 +84,8 @@ show oc004_01 20 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2105993]]'
 play music "ed7150.ogg"
 scene avg_bg_023
-with fade
 show oc002_01 10 as p2 at r(-3), light, zorder 5
+with fade
 c23 '[textdict[2105994]]'
 hide p2
 show oc002_01 16 as p2 at r(-3), light, zorder 5

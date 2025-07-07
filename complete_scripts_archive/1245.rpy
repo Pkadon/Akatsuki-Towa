@@ -62,8 +62,8 @@ show st059_01 4 as p1253 at l(-14), dark, zorder 6
 c26663 '[textdict[2113270]]'
 play music "ED6518.ogg"
 scene avg_bg_105
-with fade
 show oce02_01 5 as p2666 at r(-3), r_shake, light, zorder 5
+with fade
 c26663 '[textdict[2113271]]'
 hide p2666
 show oce02_01 5 as p2666 at r(-3), dark, zorder 5
@@ -601,8 +601,8 @@ with fade
 play sfx2 "fight_6018.ogg"
 c0 '[textdict[2113382]]'
 scene avg_bg_036
-with fade
 show oce02_01 4 as p2666 at mid(-3), light, zorder 5
+with fade
 c26663 '[textdict[2113383]]'
 hide p2666
 show oce02_01 5 as p2666 at mid(-3), light, zorder 5

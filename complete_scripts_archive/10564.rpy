@@ -3,8 +3,8 @@ stop music
 
 play music "ED6303.ogg"
 scene placeholderbackground
-with fade
 show oc004_01 11 as p4 at r(-5), light, zorder 5
+with fade
 c43 '[textdict[1154316]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5

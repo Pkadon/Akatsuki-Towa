@@ -11,8 +11,8 @@ c0 '[textdict[1143873]]'
 c0 '[textdict[1143874]]'
 c0 '[textdict[1143875]]'
 scene avg_bg_078
-with fade
 show st029_01 1 as p610 at l(-28), light, zorder 6
+with fade
 c6101 '[textdict[1143876]]'
 hide p610
 show st029_01 1 as p610 at l(-28), dark, zorder 6
@@ -113,8 +113,8 @@ c43 '[textdict[1143900]]'
 c43 '[textdict[1143901]]'
 play music "ed7162.ogg"
 scene avg_bg_078
-with fade
 show st039_01 2 as p238 at l(-6), light, zorder 6
+with fade
 c2381 '[textdict[1143902]]'
 hide p238
 show st039_01 2 as p238 at l(-6), dark, zorder 6

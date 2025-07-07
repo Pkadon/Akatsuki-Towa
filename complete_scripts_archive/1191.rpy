@@ -17,8 +17,8 @@ show scc45_01 4 as p2630 at r(-11), light, zorder 5
 c26303 '[textdict[2107244]]'
 play music "ed7300.ogg"
 scene avg_bg_071
-with fade
 show occ02_01 9 as p2633 at l(-3), light, zorder 6
+with fade
 play sfx2 "fight_6018.ogg"
 c26331 '[textdict[2107245]]' (what_size=(gui.text_size*1.2)) with shake
 hide p2633

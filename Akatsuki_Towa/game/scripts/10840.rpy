@@ -222,8 +222,8 @@ c41 '[textdict[1188121]]'
 hide p4
 hide p1
 c0 '[textdict[1188122]]'
-show oc002_01 4 as p2 at l_entrance(-3), light, zorder 6
 with fade
+show oc002_01 4 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1188123]]'
 hide p2
 show oc002_01 4 as p2 at l(-3), dark, zorder 6

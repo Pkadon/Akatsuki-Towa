@@ -9,8 +9,8 @@ c0 '[textdict[1166209]]'
 play sfx2 "other_7016.ogg"
 c0 '[textdict[1166210]]'
 scene avg_bg_050
-with fade
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+with fade
 play sfx2 "other_7016.ogg"
 c41 '[textdict[1166211]]'
 hide p4

@@ -32,8 +32,8 @@ play sfx2 "other_7045.ogg"
 c11351 '[textdict[2107777]]'
 play music "ed7302.ogg"
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2107778]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -45,8 +45,8 @@ hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107781]]'
 scene avg_bg_041
-with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2107782]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
@@ -74,8 +74,8 @@ show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107787]]'
 scene avg_bg_017
 show memoryoverlay zorder 2
-with fade
 show sc044_01 4 as p1135 at l(-7), light, zorder 6
+with fade
 c11351 '[textdict[2107788]]'
 hide p1135
 show sc044_01 4 as p1135 at l(-7), dark, zorder 6
@@ -97,8 +97,8 @@ show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show sc044_01 4 as p1135 at l(-7), light, zorder 6
 c11351 '[textdict[2107792]]'
 scene avg_bg_041
-with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2107793]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), light, zorder 5

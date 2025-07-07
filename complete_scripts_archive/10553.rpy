@@ -32,8 +32,8 @@ show oc002_01 2 as p2 at r(-3), light, zorder 5
 play sfx2 "other_7085.ogg"
 c23 '[textdict[1153675]]'
 hide p2
-show sc031_01 5 as p1262 at r_entrance(-14), light, zorder 5
 with fade
+show sc031_01 5 as p1262 at r_entrance(-14), light, zorder 5
 play sfx2 "other_7047.ogg"
 c12623 '[textdict[1153676]]'
 hide p1262

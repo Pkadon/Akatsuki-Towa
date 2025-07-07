@@ -151,12 +151,12 @@ c0 '[textdict[2100395]]'
 show sca68_01 1 as p2502 at l(-17), light, zorder 6
 c25021 '[textdict[2100396]]'
 scene avg_bg_070
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2100397]]'
 scene avg_bg_023
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2100398]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5

@@ -6,8 +6,8 @@ scene placeholderbackground
 with fade
 c7221 '[textdict[1120015]]'
 scene avg_bg_023
-with fade
 show uc001_01 3 as p244 at l(-2), light, zorder 6
+with fade
 c2441 '[textdict[1120016]]'
 hide p244
 show uc001_01 3 as p244 at l(-2), dark, zorder 6

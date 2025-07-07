@@ -47,8 +47,8 @@ with fade
 c0 '[textdict[2101216]]'
 c0 '[textdict[2101217]]'
 scene avg_bg_025
-with fade
 show st002_01 4 as p202 at l(-9), light, zorder 6
+with fade
 c2021 '[textdict[2101218]]'
 hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6

@@ -171,8 +171,8 @@ c6881 '[textdict[2100516]]'
 c6881 '[textdict[2100517]]'
 c6881 '[textdict[2100518]]'
 scene avg_bg_024
-with fade
 show sc015_01 4 as p23 at l(9), light, zorder 6
+with fade
 c231 '[textdict[2100519]]'
 hide p23
 show sc015_01 4 as p23 at l(9), dark, zorder 6

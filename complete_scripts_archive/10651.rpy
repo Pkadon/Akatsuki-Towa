@@ -6,8 +6,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1164754]]'
 scene avg_bg_007
-with fade
 show st027_01 4 as p226 at l(5), light, zorder 6
+with fade
 play sfx2 "other_7022.ogg"
 c2261 '[textdict[1164755]]'
 hide p226

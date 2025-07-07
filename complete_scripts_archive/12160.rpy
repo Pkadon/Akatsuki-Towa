@@ -11,8 +11,8 @@ hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 c9621 '[textdict[1128432]]'
 scene avg_bg_028
-with fade
 show oc002_01 8 as p2 at l(-3), light, zorder 6
+with fade
 play sfx2 "other_7021.ogg"
 play sfxvoice "avg_vocal_ch08.ogg"
 c21 '[textdict[1128433]]'

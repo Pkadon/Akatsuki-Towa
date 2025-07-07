@@ -135,8 +135,8 @@ show sc048_01 1 as p55 at r(-7), dark, zorder 5
 show st036_01 1 as p235 at l(-17), light, zorder 6
 c2351 '[textdict[2105245]]'
 scene avg_bg_070
-with fade
 show sc048_01 1 as p55 at r(-7), light, zorder 5
+with fade
 c553 '[textdict[2105246]]'
 hide p55
 show sc048_01 1 as p55 at r(-7), light, zorder 5
@@ -303,8 +303,8 @@ show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2105280]]'
 stop music
 scene avg_bg_013
-with fade
 show oc001_01 17 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2105281]]'
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5

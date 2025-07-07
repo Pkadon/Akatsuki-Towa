@@ -7,8 +7,8 @@ with fade
 c0 '[textdict[1177557]]'
 c0 '[textdict[1177558]]'
 scene avg_bg_209
-with fade
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+with fade
 c23 '[textdict[1177559]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
@@ -55,8 +55,8 @@ show oc003_01 2 as p3 at r(-6), dark, zorder 5
 show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177568]]'
 scene avg_bg_216
-with fade
 show st064_01 1 as p1469 at l(-2), light, zorder 6
+with fade
 c14691 '[textdict[1177569]]'
 scene avg_bg_077
 with fade

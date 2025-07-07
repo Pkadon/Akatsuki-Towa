@@ -221,8 +221,8 @@ show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187750]]'
 scene avg_bg_221
-with fade
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1187751]]'
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5

@@ -71,8 +71,8 @@ play sfxvoice "avg_vocal_na10.ogg"
 c13 '[textdict[1001914]]'
 play music "ed7150.ogg"
 scene avg_bg_019
-with fade
 show st020_01 2 as p556 at l(-8), light, zorder 6
+with fade
 c5561 '[textdict[1001915]]'
 hide p556
 show st020_01 2 as p556 at l(-8), dark, zorder 6

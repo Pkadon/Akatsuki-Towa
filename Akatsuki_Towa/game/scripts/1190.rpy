@@ -124,8 +124,8 @@ show scc45_01 1 as p2630 at r_entrance(-11), light, zorder 5
 c26303 '[textdict[2107206]]'
 hide p2629
 hide p2630
-show sca46_01 1 as p2632 at r_entrance(-5), light, zorder 5
 with fade
+show sca46_01 1 as p2632 at r_entrance(-5), light, zorder 5
 c26323 '[textdict[2107207]]'
 hide p2632
 show sca46_01 1 as p2632 at r(-5), dark, zorder 5

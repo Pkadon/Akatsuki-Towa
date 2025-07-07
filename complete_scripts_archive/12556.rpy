@@ -137,8 +137,8 @@ show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1153110]]'
 play music "ed9998.ogg"
 scene avg_bg_003
-with fade
 show oc003_01 5 as p3 at l(-6), light, zorder 6
+with fade
 play sfx2 "other_7017.ogg"
 c31 '[textdict[1153111]]'
 hide p3

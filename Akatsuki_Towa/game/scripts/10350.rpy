@@ -6,8 +6,8 @@ scene avg_bg_070
 with fade
 c0 '[textdict[1131424]]'
 scene avg_bg_047
-with fade
 show st031_01 4 as p230 at l(4), l_shake, light, zorder 6
+with fade
 play sfx2 "other_7007.ogg"
 c2301 '[textdict[1131425]]' (what_size=(gui.text_size*1.2))
 hide p230
@@ -63,8 +63,8 @@ show st031_01 2 as p230 at l(4), light, zorder 6
 c2301 '[textdict[1131435]]'
 hide p230
 hide p5
-show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 with fade
+show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[1131436]]'
 hide p3
@@ -78,8 +78,8 @@ show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1131438]]'
 hide p2
 hide p1
-show st030_01 1 as p229 at l_entrance(-8), light, zorder 6
 with fade
+show st030_01 1 as p229 at l_entrance(-8), light, zorder 6
 c2291 '[textdict[1131439]]'
 hide p229
 show st030_01 5 as p229 at l(-8), light, zorder 6

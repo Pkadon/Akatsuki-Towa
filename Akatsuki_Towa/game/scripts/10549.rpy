@@ -122,8 +122,8 @@ play sfx2 "other_7085.ogg"
 c71 '[textdict[1153515]]'
 hide p7
 hide p2
-show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 with fade
+show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1153516]]'
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6

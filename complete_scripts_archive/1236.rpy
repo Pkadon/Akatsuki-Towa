@@ -51,8 +51,8 @@ c5001 '[textdict[2112308]]'
 c473 '[textdict[2112309]]'
 c473 '[textdict[2112310]]'
 scene avg_bg_038
-with fade
 show sc038_01 1 as p45 at l(-1), light, zorder 6
+with fade
 play sfx2 "other_7088.ogg"
 c451 '[textdict[2112311]]'
 hide p45

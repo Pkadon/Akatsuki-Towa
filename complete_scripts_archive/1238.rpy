@@ -3,8 +3,8 @@ stop music
 
 play music "ed7116.ogg"
 scene avg_bg_013
-with fade
 show oc002_01 5 as p2 at l(-3), light, zorder 6
+with fade
 play sfx2 "other_7062.ogg"
 c21 '[textdict[2112586]]'
 hide p2
@@ -61,13 +61,13 @@ hide p1
 show sc004_01 1 as p12 at r(-12), light, zorder 5
 c123 '[textdict[2112597]]'
 scene avg_bg_070
-with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2112598]]'
 play music "ed7100.ogg"
 scene avg_bg_013
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2112599]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
@@ -244,12 +244,12 @@ show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show oc004_01 5 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2112637]]'
 scene avg_bg_070
-with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2112638]]'
 scene avg_bg_013
-with fade
 show oc002_01 9 as p2 at l(-3), light, zorder 6
+with fade
 play sfx2 "other_7030.ogg"
 c21 '[textdict[2112639]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7452.ogg"
@@ -420,12 +420,12 @@ show sc004_01 4 as p12 at l(-12), dark, zorder 6
 show oc004_01 19 as p4 at r(-5), r_shake, light, zorder 5
 c43 '[textdict[2112676]]'
 scene avg_bg_070
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2112677]]'
 scene avg_bg_013
-with fade
 show oc001_01 22 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2112678]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5

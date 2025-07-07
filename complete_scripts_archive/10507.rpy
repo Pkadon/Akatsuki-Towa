@@ -34,8 +34,8 @@ show oc002_01 8 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1150386]]'
 hide p2
 hide p240
-show st040_01 1 as p239 at l_entrance(-19), light, zorder 6
 with fade
+show st040_01 1 as p239 at l_entrance(-19), light, zorder 6
 play sfx2 "other_7020.ogg"
 c2391 '[textdict[1150387]]'
 hide p239

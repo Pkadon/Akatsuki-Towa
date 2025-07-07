@@ -40,8 +40,8 @@ c271 '[textdict[2102931]]'
 show memoryoverlay zorder 2
 hide p27
 hide p1
-show sc019_01 4 as p27 at r_entrance(-18), light, zorder 5
 with fade
+show sc019_01 4 as p27 at r_entrance(-18), light, zorder 5
 c273 '[textdict[2102932]]'
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5

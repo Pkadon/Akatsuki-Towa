@@ -3,16 +3,16 @@ stop music
 
 play music "ed7150.ogg"
 scene avg_bg_023
-with fade
 show sc049_01 2 as p56 at l(-8), light, zorder 6
+with fade
 play sfx2 "other_7047.ogg"
 c561 '[textdict[1150112]]'
 hide p56
 show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1150113]]'
 hide p56
-show oc004_01 1 as p4 at l_entrance(-5), light, zorder 6
 with fade
+show oc004_01 1 as p4 at l_entrance(-5), light, zorder 6
 play sfxvoice "avg_vocal_li03.ogg"
 c41 '[textdict[1150114]]'
 hide p4

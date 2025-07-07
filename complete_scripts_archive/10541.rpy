@@ -18,8 +18,8 @@ show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1152684]]'
 hide p239
 hide p3
-show oc004_01 4 as p4 at r_entrance(-5), light, zorder 5
 with fade
+show oc004_01 4 as p4 at r_entrance(-5), light, zorder 5
 c43 '[textdict[1152685]]'
 hide p4
 show oc001_01 4 as p1 at r(-2), light, zorder 5

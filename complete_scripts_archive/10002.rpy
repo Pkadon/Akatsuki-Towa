@@ -28,8 +28,8 @@ play sfxvoice "bcv_oc001_die_01.ogg"
 c13 '[textdict[1000018]]'
 hide p1
 scene avg_bg_070
-with fade
 show oc001_01 18 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1000019]]'
 hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5
@@ -83,8 +83,8 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 play sfx2 "other_7021.ogg"
 c13 '[textdict[1000034]]'
 scene avg_bg_023
-with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+with fade
 play sfx2 "other_7047.ogg"
 c13 '[textdict[1000035]]'
 hide p1

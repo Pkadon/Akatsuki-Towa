@@ -3,8 +3,8 @@ stop music
 
 play music "ed7150.ogg"
 scene avg_bg_014
-with fade
 show oca00_01 1 as p2732 at l(-2), light, zorder 6
+with fade
 play sfx2 "elc_5002.ogg"
 c27321 '[textdict[2111937]]'
 hide p2732
@@ -55,8 +55,8 @@ hide p2732
 show oca00_01 1 as p2732 at l(-2), dark, zorder 6
 c27553 '[textdict[2111948]]'
 scene avg_bg_022
-with fade
 show oca00_01 1 as p2732 at l(-2), light, zorder 6
+with fade
 c27321 '[textdict[2111949]]'
 hide p2732
 show oca00_01 1 as p2732 at l(-2), dark, zorder 6
@@ -117,8 +117,8 @@ c27561 '[textdict[2111964]]'
 c27581 '[textdict[2111965]]'
 c27561 '[textdict[2111966]]'
 scene avg_bg_019
-with fade
 show oca00_01 1 as p2732 at l(-2), light, zorder 6
+with fade
 c27321 '[textdict[2111967]]'
 hide p2732
 show oca00_01 1 as p2732 at l(-2), light, zorder 6
@@ -301,8 +301,8 @@ hide p48
 show sc041_01 5 as p48 at r(-9), light, zorder 5
 c483 '[textdict[2112017]]'
 scene avg_bg_070
-with fade
 show occ04_01 10 as p2627 at r(-5), light, zorder 5
+with fade
 c26273 '[textdict[2112018]]'
 hide p2627
 show occ04_01 9 as p2627 at r(-5), light, zorder 5
@@ -391,8 +391,8 @@ play sfx2 "fight_6006.ogg"
 c0 '[textdict[2112041]]'
 c0 '[textdict[2112042]]'
 scene avg_bg_019
-with fade
 show st024_01 1 as p223 at l(-16), light, zorder 6
+with fade
 play sfx2 "other_7064.ogg"
 c2231 '[textdict[2112043]]'
 hide p223

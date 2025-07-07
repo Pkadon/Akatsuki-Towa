@@ -8,8 +8,8 @@ c10401 '[textdict[1132421]]'
 c10443 '[textdict[1132422]]'
 c10411 '[textdict[1132423]]'
 scene avg_bg_049
-with fade
 show oc003_01 21 as p3 at r(-6), light, zorder 5
+with fade
 c33 '[textdict[1132425]]'
 hide p3
 show oc001_01 4 as p1 at r(-2), light, zorder 5

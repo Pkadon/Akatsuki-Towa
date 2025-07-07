@@ -26,8 +26,8 @@ play sfx2 "other_7051.ogg"
 c5001 '[textdict[2111518]]'
 play music "ed7110.ogg"
 scene avg_bg_030
-with fade
 show sc040_01 4 as p47 at l(-9), light, zorder 6
+with fade
 play sfx2 "other_7022.ogg"
 c471 '[textdict[2111519]]'
 hide p47
@@ -203,8 +203,8 @@ hide p47
 show sc040_01 6 as p47 at r(-9), dark, zorder 5
 c5001 '[textdict[2111559]]'
 scene avg_bg_038
-with fade
 show sc040_01 3 as p47 at r(-9), light, zorder 5
+with fade
 play sfx2 "other_7047.ogg"
 c473 '[textdict[2111560]]'
 hide p47

@@ -408,8 +408,8 @@ show st041_01 1 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108557]]'
 stop music
 scene avg_bg_070
-with fade
 show sc008_01 4 as p16 at r(-18), light, zorder 5
+with fade
 c163 '[textdict[2108558]]'
 scene avg_bg_034
 show sc007_01 3 as p15 at l(-17), light, zorder 6

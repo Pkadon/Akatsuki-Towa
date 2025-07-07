@@ -2,8 +2,8 @@ label avg25141:
 stop music
 
 scene placeholderbackground
-with fade
 show oc001_01 18 as p1 at mid(-2), light, zorder 5
+with fade
 play sfxvoice "avg_vocal_na06.ogg"
 c13 '[textdict[1210438]]'
 hide p1

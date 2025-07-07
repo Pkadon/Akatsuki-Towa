@@ -8,8 +8,8 @@ c0 '[textdict[1152777]]'
 c0 '[textdict[1152778]]'
 c0 '[textdict[1152779]]'
 scene avg_bg_004
-with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1152780]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

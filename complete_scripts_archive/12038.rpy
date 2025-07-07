@@ -248,8 +248,8 @@ show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1120318]]'
 hide p223
 hide p1
-show oc005_01 8 as p976 at l_entrance(-6), light, zorder 6
 with fade
+show oc005_01 8 as p976 at l_entrance(-6), light, zorder 6
 play sfx2 "other_7042.ogg"
 c9761 '[textdict[1120319]]'
 hide p976

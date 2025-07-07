@@ -233,8 +233,8 @@ hide p20
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2110114]]'
 scene avg_bg_070
-with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[2110115]]'
 stop music
 scene avg_bg_064

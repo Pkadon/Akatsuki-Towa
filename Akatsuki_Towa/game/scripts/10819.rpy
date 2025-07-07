@@ -19,8 +19,8 @@ c0 '[textdict[1183290]]'
 c0 '[textdict[1183291]]'
 play music "ed9999.ogg"
 scene avg_bg_050
-with fade
 show oc003_01 12 as p3 at l(-6), l_shake, light, zorder 6
+with fade
 c31 '[textdict[1183292]]'
 hide p3
 show oc003_01 12 as p3 at l(-6), dark, zorder 6
@@ -170,8 +170,8 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 play sfx2 "other_7047.ogg"
 c13 '[textdict[1183324]]'
 scene avg_bg_038
-with fade
 show st061_01 2 as p1304 at l(-2), light, zorder 6
+with fade
 c13041 '[textdict[1183325]]'
 hide p1304
 show oc003_01 17 as p3 at l(-6), light, zorder 6
@@ -423,12 +423,12 @@ show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1183377]]'
 scene avg_bg_208
 show memoryoverlay zorder 2
-with fade
 show st056_01 4 as p1349 at l(-6), light, zorder 6
+with fade
 c13491 '[textdict[1183378]]'
 scene avg_bg_038
-with fade
 show oc001_01 13 as p1 at r(-2), light, zorder 5
+with fade
 c13 '[textdict[1183379]]'
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5

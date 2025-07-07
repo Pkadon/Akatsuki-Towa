@@ -109,8 +109,8 @@ c0 '[textdict[1170811]]'
 c0 '[textdict[1170812]]'
 scene avg_bg_023
 show memoryoverlay zorder 2
-with fade
 show oc004_01 18 as p4 at l(-5), light, zorder 6
+with fade
 c41 '[textdict[1170813]]'
 hide p4
 show oc004_01 11 as p4 at l(-5), light, zorder 6

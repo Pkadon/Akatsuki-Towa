@@ -3,8 +3,8 @@ stop music
 
 play music "ED6100.ogg"
 scene avg_bg_104
-with fade
 show oc003_01 2 as p3 at r(-6), light, zorder 5
+with fade
 c33 '[textdict[1151462]]'
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
@@ -161,8 +161,8 @@ play sfxvoice "avg_vocal_ch09.ogg"
 c21 '[textdict[1151492]]'
 hide p2
 hide p1
-show sc008_01 1 as p672 at l_entrance(-18), light, zorder 6
 with fade
+show sc008_01 1 as p672 at l_entrance(-18), light, zorder 6
 c6721 '[textdict[1151493]]'
 hide p672
 show sc008_01 1 as p672 at l(-18), dark, zorder 6

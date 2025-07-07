@@ -233,8 +233,8 @@ c43 '[textdict[1173895]]'
 play sfx2 "other_7017.ogg"
 c51 '[textdict[1173896]]'
 scene avg_bg_036
-with fade
 show oc003_01 5 as p3 at r(-6), light, zorder 5
+with fade
 play sfx2 "other_7017.ogg"
 c33 '[textdict[1173897]]'
 hide p3
@@ -254,8 +254,8 @@ hide p1453
 play sfx2 "other_7065.ogg"
 c14591 '[textdict[1173903]]' with shake
 scene avg_bg_003
-with fade
 show oc005_01 4 as p5 at r(-6), light, zorder 5
+with fade
 c53 '[textdict[1173904]]'
 hide p5
 show oc005_01 4 as p5 at r(-6), dark, zorder 5

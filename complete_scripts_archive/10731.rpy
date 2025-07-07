@@ -8,8 +8,8 @@ play sfx2 "other_7060.ogg"
 c0 '[textdict[1172484]]'
 c0 '[textdict[1172485]]'
 scene avg_bg_203
-with fade
 show oc003_01 4 as p3 at l(-6), light, zorder 6
+with fade
 c31 '[textdict[1172486]]'
 hide p3
 show oc003_01 4 as p3 at l(-6), light, zorder 6
