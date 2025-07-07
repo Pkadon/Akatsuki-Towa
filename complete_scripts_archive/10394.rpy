@@ -134,30 +134,18 @@ scene avg_bg_051
 show memoryoverlay zorder 2
 with fade
 c10493 '[textdict[1132642]]'
-show memoryoverlay zorder 2
 c10493 '[textdict[1132643]]'
-show memoryoverlay zorder 2
 c10501 '[textdict[1132644]]'
-show memoryoverlay zorder 2
 c10501 '[textdict[1132645]]'
-show memoryoverlay zorder 2
 c10493 '[textdict[1132646]]'
-show memoryoverlay zorder 2
 c10493 '[textdict[1132647]]'
-show memoryoverlay zorder 2
 c10501 '[textdict[1132648]]'
-show memoryoverlay zorder 2
 c10501 '[textdict[1132649]]'
-show memoryoverlay zorder 2
 c10493 '[textdict[1132650]]'
-show memoryoverlay zorder 2
 c10501 '[textdict[1132651]]'
-show memoryoverlay zorder 2
 c10493 '[textdict[1132652]]'
-show memoryoverlay zorder 2
 c10501 '[textdict[1132653]]'
 scene avg_bg_070
-hide memoryoverlay
 with fade
 play sfx2 "other_7089.ogg"
 play sfxvoice "avg_vocal_ch14.ogg"

@@ -28,20 +28,17 @@ scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143948]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143949]]'
 scene avg_bg_065
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143950]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143951]]'
 scene avg_bg_049
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143952]]'
 scene avg_bg_007
-hide memoryoverlay
 with fade
 c0 '[textdict[1143953]]'
 c0 '[textdict[1143954]]'
@@ -55,14 +52,10 @@ scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
 c5003 '[textdict[1143958]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1143959]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1143960]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1143961]]'
 scene avg_bg_007
-hide memoryoverlay
 with fade
 c0 '[textdict[1143962]]'
 stop music

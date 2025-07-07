@@ -60,48 +60,30 @@ scene avg_bg_048
 show memoryoverlay zorder 2
 with fade
 c11601 '[textdict[1143382]]'
-show memoryoverlay zorder 2
 c61 '[textdict[1143383]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143384]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143385]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143386]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143387]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143388]]'
-show memoryoverlay zorder 2
 c61 '[textdict[1143389]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143390]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143391]]'
 scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
 c61 '[textdict[1143392]]'
-show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_li13.ogg"
 c43 '[textdict[1143393]]'
-show memoryoverlay zorder 2
 c61 '[textdict[1143394]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143395]]'
-show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_sa08.ogg"
 c61 '[textdict[1143396]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143397]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143398]]'
-show memoryoverlay zorder 2
 c61 '[textdict[1143399]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143400]]'
 scene avg_bg_020
-hide memoryoverlay
 with fade
 c0 '[textdict[1143401]]'
 show oc004_01 18 as p4 at r(-5), light, zorder 5

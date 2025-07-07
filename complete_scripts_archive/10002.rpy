@@ -8,32 +8,26 @@ with fade
 play sfx2 "other_7085.ogg"
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1000013]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000014]]'
-show memoryoverlay zorder 2
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000015]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000016]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000017]]'
 play music "ed7513.ogg"
-show memoryoverlay zorder 2
 play sfxvoice "bcv_oc001_die_01.ogg"
 hide p1
 show oc001_01 17 as p1 at r_exit(-2), light, zorder 5
 c13 '[textdict[1000018]]'
 hide p1
 scene avg_bg_070
-hide memoryoverlay
 with fade
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000019]]'

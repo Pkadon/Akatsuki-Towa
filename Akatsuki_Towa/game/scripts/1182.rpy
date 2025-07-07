@@ -55,34 +55,28 @@ with fade
 play sfx2 "other_7087.ogg"
 show oc004_01 16 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2105987]]'
-show memoryoverlay zorder 2
 hide p4
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2105988]]'
-show memoryoverlay zorder 2
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc006_01 1 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2105989]]'
-show memoryoverlay zorder 2
 hide p4
 hide p6
 show oc006_01 1 as p6 at r(-5), dark, zorder 5
 show oc004_01 7 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2105990]]'
-show memoryoverlay zorder 2
 hide p4
 hide p6
 show oc006_01 1 as p6 at r(-5), dark, zorder 5
 show oc004_01 16 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2105991]]' with shake
-show memoryoverlay zorder 2
 hide p6
 hide p4
 show oc004_01 16 as p4 at l(-5), dark, zorder 6
 show oc006_01 1 as p6 at r(-5), light, zorder 5
 c63 '[textdict[2105992]]'
-show memoryoverlay zorder 2
 hide p4
 hide p6
 show oc006_01 1 as p6 at r(-5), dark, zorder 5
@@ -90,7 +84,6 @@ show oc004_01 20 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2105993]]'
 play music "ed7150.ogg"
 scene avg_bg_023
-hide memoryoverlay
 with fade
 show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2105994]]'

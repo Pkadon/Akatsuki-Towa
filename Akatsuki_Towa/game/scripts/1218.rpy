@@ -320,12 +320,9 @@ scene avg_bg_048
 show memoryoverlay zorder 2
 with fade
 c41 '[textdict[2109963]]'
-show memoryoverlay zorder 2
 c41 '[textdict[2109964]]'
-show memoryoverlay zorder 2
 c41 '[textdict[2109965]]'
 scene avg_bg_078
-hide memoryoverlay
 with fade
 show st039_01 2 as p1172 at l(-6), l_shake, light, zorder 6
 c11721 '[textdict[2109966]]'

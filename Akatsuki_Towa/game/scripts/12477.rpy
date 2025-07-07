@@ -16,12 +16,10 @@ show memoryoverlay zorder 2
 with fade
 show oc004_01 15 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1144085]]'
-show memoryoverlay zorder 2
 hide p4
 show oc004_01 15 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1144086]]'
 scene placeholderbackground
-hide memoryoverlay
 show oc006_01 4 as p6 at l(-5), l_shake, light, zorder 6
 with fade
 c61 '[textdict[1144087]]'

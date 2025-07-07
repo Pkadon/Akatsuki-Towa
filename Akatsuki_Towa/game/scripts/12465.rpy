@@ -90,12 +90,9 @@ scene avg_bg_048
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143892]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143893]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p238 at l(-6), light, zorder 6
 c2381 '[textdict[1143894]]'
-show memoryoverlay zorder 2
 hide p238
 show st039_01 1 as p238 at l(-6), dark, zorder 6
 c43 '[textdict[1143895]]'
@@ -103,23 +100,19 @@ scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143896]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143897]]'
 scene avg_bg_065
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143898]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143899]]'
 scene avg_bg_063
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143900]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143901]]'
 play music "ed7162.ogg"
 scene avg_bg_078
-hide memoryoverlay
 with fade
 show st039_01 2 as p238 at l(-6), light, zorder 6
 c2381 '[textdict[1143902]]'

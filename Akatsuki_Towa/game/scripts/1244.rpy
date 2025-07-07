@@ -105,20 +105,13 @@ scene avg_bg_518
 show memoryoverlay zorder 2
 with fade
 c27791 '[textdict[2113189]]'
-show memoryoverlay zorder 2
 c27791 '[textdict[2113190]]'
-show memoryoverlay zorder 2
 c26673 '[textdict[2113191]]'
-show memoryoverlay zorder 2
 c27791 '[textdict[2113192]]'
-show memoryoverlay zorder 2
 c27791 '[textdict[2113193]]'
-show memoryoverlay zorder 2
 c27791 '[textdict[2113194]]'
-show memoryoverlay zorder 2
 c26673 '[textdict[2113195]]'
 scene avg_bg_058
-hide memoryoverlay
 with fade
 c0 '[textdict[2113196]]'
 show ocd03_01 19 as p2667 at r(-6), light, zorder 5

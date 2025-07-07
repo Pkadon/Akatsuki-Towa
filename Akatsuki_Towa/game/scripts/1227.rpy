@@ -646,35 +646,22 @@ show memoryoverlay zorder 2
 with fade
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111157]]'
-show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111158]]'
-show memoryoverlay zorder 2
 c2201 '[textdict[2111159]]'
-show memoryoverlay zorder 2
 c11 '[textdict[2111160]]'
-show memoryoverlay zorder 2
 c2201 '[textdict[2111161]]'
-show memoryoverlay zorder 2
 c2201 '[textdict[2111162]]'
-show memoryoverlay zorder 2
 c11 '[textdict[2111163]]'
-show memoryoverlay zorder 2
 c2201 '[textdict[2111164]]'
-show memoryoverlay zorder 2
 c11 '[textdict[2111165]]'
-show memoryoverlay zorder 2
 c2201 '[textdict[2111166]]'
-show memoryoverlay zorder 2
 c2201 '[textdict[2111167]]'
-show memoryoverlay zorder 2
 c11 '[textdict[2111168]]'
 stop music
-show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 show st021_01 1 as p220 at l(-17), light, zorder 6
 c2201 '[textdict[2111169]]'
-show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 hide p220
 show st021_01 1 as p220 at l(-17), dark, zorder 6
@@ -685,10 +672,8 @@ show memoryoverlay zorder 2
 with fade
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111171]]'
-show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111172]]'
-show memoryoverlay zorder 2
 play sfx2 "other_7069.ogg"
 c2201 '[textdict[2111173]]'
 return

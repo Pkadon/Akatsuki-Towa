@@ -111,145 +111,91 @@ scene avg_bg_049
 show memoryoverlay zorder 2
 with fade
 c43 '[textdict[1143441]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143442]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143443]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143444]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143445]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143446]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143447]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143448]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143449]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143450]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143451]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143452]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143453]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143454]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143455]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143456]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143457]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143458]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143459]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143460]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143461]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143462]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143463]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143464]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143465]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143466]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143467]]'
 scene avg_bg_078
 show memoryoverlay zorder 2
 with fade
 c0 '[textdict[1143468]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143469]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143470]]'
-show memoryoverlay zorder 2
 hide p1172
 show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143471]]'
-show memoryoverlay zorder 2
 hide p1172
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143472]]'
-show memoryoverlay zorder 2
 hide p1172
 show st039_01 1 as p1172 at l(-6), dark, zorder 6
 c43 '[textdict[1143473]]'
-show memoryoverlay zorder 2
 hide p1172
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143474]]'
-show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143475]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143476]]'
-show memoryoverlay zorder 2
 hide p1172
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143477]]'
-show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143478]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143479]]'
-show memoryoverlay zorder 2
 hide p1172
 c0 '[textdict[1143480]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143481]]'
-show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143482]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143483]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143484]]'
 scene avg_bg_048
 show memoryoverlay zorder 2
 with fade
 c0 '[textdict[1143485]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1143486]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143487]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143488]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143489]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143490]]'
-show memoryoverlay zorder 2
 hide p1172
 c11601 '[textdict[1143491]]'
-show memoryoverlay zorder 2
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143492]]'
-show memoryoverlay zorder 2
 hide p1172
 show st039_01 1 as p1172 at l(-6), light, zorder 6
 c11721 '[textdict[1143493]]'
-show memoryoverlay zorder 2
 hide p1172
 c0 '[textdict[1143494]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143495]]'
-show memoryoverlay zorder 2
 c11601 '[textdict[1143496]]'
-show memoryoverlay zorder 2
 c43 '[textdict[1143497]]'
 return

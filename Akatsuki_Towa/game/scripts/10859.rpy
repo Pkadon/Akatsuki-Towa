@@ -63,100 +63,55 @@ scene avg_bg_036
 show memoryoverlay zorder 2
 with fade
 c26541 '[textdict[1190769]]' with shake
-show memoryoverlay zorder 2
 c26541 '[textdict[1190770]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190771]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190772]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190773]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190774]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190775]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190776]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190777]]'
-show memoryoverlay zorder 2
 play sfx2 "other_7079.ogg"
 c26561 '[textdict[1190778]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190779]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190780]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190781]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190782]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190783]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190784]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190785]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190786]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190787]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190788]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190789]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190790]]'
-show memoryoverlay zorder 2
 play sfx2 "other_7079.ogg"
 with fade
 c13091 '[textdict[1190791]]' with shake
-show memoryoverlay zorder 2
 c14881 '[textdict[1190792]]'
-show memoryoverlay zorder 2
 c14761 '[textdict[1190793]]'
-show memoryoverlay zorder 2
 c14751 '[textdict[1190794]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1190795]]'
-show memoryoverlay zorder 2
 c14761 '[textdict[1190796]]'
-show memoryoverlay zorder 2
 c14881 '[textdict[1190797]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190798]]'
-show memoryoverlay zorder 2
 c14751 '[textdict[1190799]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190800]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1190801]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190802]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190803]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1190804]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1190805]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190806]]'
-show memoryoverlay zorder 2
 c0 '[textdict[1190807]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190808]]'
-show memoryoverlay zorder 2
 c26551 '[textdict[1190809]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190810]]'
-show memoryoverlay zorder 2
 c14751 '[textdict[1190811]]'
-show memoryoverlay zorder 2
 c26541 '[textdict[1190812]]'
-show memoryoverlay zorder 2
 c26561 '[textdict[1190813]]'
 play music "ed7200.ogg"
 scene avg_bg_040
-hide memoryoverlay
 with fade
 c26561 '[textdict[1190814]]' with shake
 c26561 '[textdict[1190815]]'

@@ -43,55 +43,42 @@ hide p1
 show sc019_01 4 as p27 at r_entrance(-18), light, zorder 5
 with fade
 c273 '[textdict[2102932]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5
 c25211 '[textdict[2102933]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5
 c25221 '[textdict[2102934]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 2 as p27 at r(-18), r_shake, light, zorder 5
 c273 '[textdict[2102935]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), r_shake, light, zorder 5
 c273 '[textdict[2102936]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5
 c25211 '[textdict[2102937]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), light, zorder 5
 c273 '[textdict[2102938]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5
 c25221 '[textdict[2102939]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), light, zorder 5
 c273 '[textdict[2102940]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5
 c25231 '[textdict[2102941]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), r_shake, light, zorder 5
 c273 '[textdict[2102942]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), light, zorder 5
 c273 '[textdict[2102943]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 4 as p27 at r(-18), dark, zorder 5
 c25221 '[textdict[2102944]]'
-show memoryoverlay zorder 2
 hide p27
 show sc019_01 3 as p27 at r(-18), light, zorder 5
 c273 '[textdict[2102945]]'

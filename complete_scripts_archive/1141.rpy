@@ -188,48 +188,40 @@ with fade
 play sfxvoice "avg_vocal_li01.ogg"
 show oc004_01 1 as p523 at l(-5), light, zorder 6
 c5231 '[textdict[2104179]]'
-show memoryoverlay zorder 2
 hide p523
 show oc004_01 1 as p523 at l(-5), r_shake, light, zorder 6
 c5231 '[textdict[2104180]]'
-show memoryoverlay zorder 2
 hide p523
 show oc004_01 1 as p523 at l(-5), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104181]]'
-show memoryoverlay zorder 2
 hide p1
 hide p523
 show oc004_01 1 as p523 at l(-5), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2104182]]'
-show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_li07.ogg"
 hide p523
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
 show oc004_01 5 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2104183]]'
-show memoryoverlay zorder 2
 hide p4
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
 show oc004_01 22 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2104184]]'
-show memoryoverlay zorder 2
 hide p2
 hide p4
 show oc004_01 22 as p4 at l(-5), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104185]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show oc004_01 9 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2104186]]'
 scene avg_bg_019
-hide memoryoverlay
 with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104187]]'
@@ -245,42 +237,35 @@ with fade
 play sfxvoice "avg_vocal_ro13.ogg"
 show oc003_01 8 as p719 at l(-6), light, zorder 6
 c7191 '[textdict[2104190]]'
-show memoryoverlay zorder 2
 hide p719
 show oc003_01 1 as p719 at l(-6), light, zorder 6
 c7191 '[textdict[2104191]]'
-show memoryoverlay zorder 2
 hide p719
 show oc003_01 1 as p719 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104192]]'
-show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_ro01.ogg"
 hide p719
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2104193]]'
-show memoryoverlay zorder 2
 hide p1
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[2104194]]'
-show memoryoverlay zorder 2
 hide p2
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104195]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc003_01 8 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2104196]]'
 scene avg_bg_019
-hide memoryoverlay
 with fade
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104197]]'
@@ -298,73 +283,61 @@ show memoryoverlay zorder 2
 with fade
 show oc002_01 2 as p501 at l_entrance(-3), light, zorder 6
 c5011 '[textdict[2104201]]'
-show memoryoverlay zorder 2
 hide p501
 show oc002_01 6 as p501 at l(-3), light, zorder 6
 c5011 '[textdict[2104202]]'
-show memoryoverlay zorder 2
 hide p501
 show oc002_01 6 as p501 at l(-3), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104203]]'
-show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_ch01.ogg"
 hide p501
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 1 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2104204]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2104205]]'
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 8 as p2 at l(-3), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2104206]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show oc002_01 8 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2104207]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2104208]]'
-show memoryoverlay zorder 2
 play sfxvoice "avg_vocal_na01.ogg"
 hide p1
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104209]]'
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 show oc001_01 11 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104210]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 11 as p1 at r(-2), dark, zorder 5
 show oc002_01 22 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2104211]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 11 as p1 at r(-2), dark, zorder 5
 show oc002_01 6 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[2104212]]'
 scene avg_bg_019
-hide memoryoverlay
 with fade
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104213]]'

@@ -7,25 +7,21 @@ show memoryoverlay zorder 2
 with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171509]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1171510]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 14 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1171511]]'
-show memoryoverlay zorder 2
 hide p1
 hide p4
 show oc004_01 14 as p4 at l(-5), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171512]]'
 scene avg_bg_070
-hide memoryoverlay
 with fade
 c0 '[textdict[1171513]]'
 c0 '[textdict[1171514]]'

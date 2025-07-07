@@ -346,18 +346,14 @@ show memoryoverlay zorder 2
 hide p1
 with fade
 c5001 '[textdict[2103547]]'
-show memoryoverlay zorder 2
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103548]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[2103549]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2103550]]'
-show memoryoverlay zorder 2
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc004_01 1 as p4 at l(-5), light, zorder 6

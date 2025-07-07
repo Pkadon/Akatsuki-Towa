@@ -89,21 +89,17 @@ show memoryoverlay zorder 2
 show oc008_01 5 as p8 at l(-5), light, zorder 6
 with fade
 c81 '[textdict[1160021]]'
-show memoryoverlay zorder 2
 hide p8
 show oc008_01 5 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1160022]]'
-show memoryoverlay zorder 2
 hide p8
 show oc008_01 6 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1160023]]'
-show memoryoverlay zorder 2
 hide p8
 show oc008_01 5 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1160024]]'
 play music "ED6102.ogg"
 scene avg_bg_105
-hide memoryoverlay
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 with fade
 c13 '[textdict[1160025]]'

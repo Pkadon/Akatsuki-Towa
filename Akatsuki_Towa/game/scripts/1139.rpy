@@ -435,11 +435,9 @@ show memoryoverlay zorder 2
 show oc003_01 6 as p3 at l(-6), light, zorder 6
 with fade
 c31 '[textdict[2103975]]'
-show memoryoverlay zorder 2
 hide p3
 show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2103976]]'
-show memoryoverlay zorder 2
 hide p3
 show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2103977]]'

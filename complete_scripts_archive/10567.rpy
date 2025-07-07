@@ -476,27 +476,17 @@ scene avg_bg_052
 show memoryoverlay zorder 2
 with fade
 c10491 '[textdict[1154515]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1154516]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1154517]]'
-show memoryoverlay zorder 2
 c10491 '[textdict[1154518]]'
-show memoryoverlay zorder 2
 c10491 '[textdict[1154519]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1154520]]'
-show memoryoverlay zorder 2
 c10491 '[textdict[1154521]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1154522]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1154523]]'
-show memoryoverlay zorder 2
 c5003 '[textdict[1154524]]'
 play music "ed7564.ogg"
 scene placeholderbackground
-hide memoryoverlay
 show oc004_01 16 as p4 at l(-5), l_shake, light, zorder 6
 with fade
 c41 '[textdict[1154525]]'

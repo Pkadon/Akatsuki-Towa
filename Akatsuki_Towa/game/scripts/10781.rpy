@@ -99,16 +99,11 @@ scene avg_bg_205
 show memoryoverlay zorder 2
 with fade
 c14681 '[textdict[1177237]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177238]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177239]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177240]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177241]]'
 scene avg_bg_212
-hide memoryoverlay
 with fade
 show st065_01 1 as p1468 at l(-6), light, zorder 6
 c14681 '[textdict[1177242]]'
@@ -150,18 +145,12 @@ scene avg_bg_203
 show memoryoverlay zorder 2
 with fade
 c14681 '[textdict[1177250]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177251]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177252]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177253]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177254]]'
-show memoryoverlay zorder 2
 c14681 '[textdict[1177255]]'
 scene avg_bg_212
-hide memoryoverlay
 with fade
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1177256]]'

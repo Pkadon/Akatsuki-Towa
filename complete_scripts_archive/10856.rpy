@@ -28,7 +28,6 @@ show memoryoverlay zorder 2
 with fade
 c25231 '[textdict[1189735]]'
 scene avg_bg_218
-hide memoryoverlay
 with fade
 show st063_01 1 as p1346 at l(-16), light, zorder 6
 c13461 '[textdict[1189736]]'

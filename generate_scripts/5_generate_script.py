@@ -269,11 +269,15 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			newscene = True
 			#The "scene" statement will hide all portraits, so the state needs to track that
 			state.hide_portraits('all', write=False)
+			#The scene statement will also hide the memory overlay, so track that too:
+			memory = False
+			
 		#check for memory overlay
 		if len(memory_schedule) > 0:
 			if framecount in memory_schedule:
-				state.add_line('show memoryoverlay zorder 2\n')
-				memory = True
+				if not memory:
+					state.add_line('show memoryoverlay zorder 2\n')
+					memory = True
 			else:
 				if memory:
 					state.add_line('hide memoryoverlay\n')

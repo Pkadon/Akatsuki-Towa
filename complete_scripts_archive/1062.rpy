@@ -20,21 +20,17 @@ show memoryoverlay zorder 2
 with fade
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100927]]'
-show memoryoverlay zorder 2
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100928]]'
-show memoryoverlay zorder 2
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100929]]'
-show memoryoverlay zorder 2
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6
 c2021 '[textdict[2100930]]'
 play music "ed7101.ogg"
 scene avg_bg_020
-hide memoryoverlay
 with fade
 show st005_01 4 as p205 at l(4), light, zorder 6
 c2051 '[textdict[2100931]]'

@@ -6,52 +6,31 @@ scene avg_bg_504
 show memoryoverlay zorder 2
 with fade
 c15011 '[textdict[1182139]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182140]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182141]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182142]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182143]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182144]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182145]]'
-show memoryoverlay zorder 2
 c14931 '[textdict[1182146]]'
-show memoryoverlay zorder 2
 c15011 '[textdict[1182147]]'
-show memoryoverlay zorder 2
 play sfx2 "elc_5002.ogg"
 c15021 '[textdict[1182148]]'
-show memoryoverlay zorder 2
 play sfx2 "elc_5005.ogg"
 c14931 '[textdict[1182149]]'
-show memoryoverlay zorder 2
 play sfx2 "elc_5006.ogg"
 c15021 '[textdict[1182150]]'
-show memoryoverlay zorder 2
 play sfx2 "elc_5007.ogg"
 c15011 '[textdict[1182151]]'
-show memoryoverlay zorder 2
 play sfx2 "fight_6008.ogg"
 c0 '[textdict[1182152]]' with shake
-show memoryoverlay zorder 2
 with fade
 c15021 '[textdict[1182153]]'
-show memoryoverlay zorder 2
 c14931 '[textdict[1182154]]'
-show memoryoverlay zorder 2
 c15011 '[textdict[1182155]]'
-show memoryoverlay zorder 2
 c14931 '[textdict[1182156]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182157]]'
-show memoryoverlay zorder 2
 c14931 '[textdict[1182158]]'
-show memoryoverlay zorder 2
 c15021 '[textdict[1182159]]'
-show memoryoverlay zorder 2
 c14931 '[textdict[1182160]]'
 return

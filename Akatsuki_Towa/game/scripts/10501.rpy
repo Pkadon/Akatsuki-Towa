@@ -142,16 +142,13 @@ show memoryoverlay zorder 2
 with fade
 show st021_01 2 as p220 at l_entrance(-17), light, zorder 6
 c2201 '[textdict[1150033]]'
-show memoryoverlay zorder 2
 hide p220
 show st021_01 1 as p220 at l(-17), light, zorder 6
 c2201 '[textdict[1150034]]'
-show memoryoverlay zorder 2
 hide p220
 show st021_01 4 as p220 at l(-17), light, zorder 6
 c2201 '[textdict[1150035]]'
 scene avg_bg_070
-hide memoryoverlay
 with fade
 play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6

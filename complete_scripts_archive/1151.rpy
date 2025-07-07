@@ -205,43 +205,35 @@ show memoryoverlay zorder 2
 show oc002_01 14 as p2 at r(-3), light, zorder 5
 with fade
 c23 '[textdict[2104435]]'
-show memoryoverlay zorder 2
 hide p2
 show oc002_01 13 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2104436]]'
-show memoryoverlay zorder 2
 hide p2
 show oc002_01 16 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2104437]]'
-show memoryoverlay zorder 2
 hide p2
 show oc002_01 16 as p2 at r(-3), dark, zorder 5
 show oc004_01 23 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2104438]]'
-show memoryoverlay zorder 2
 hide p4
 hide p2
 show oc002_01 16 as p2 at r(-3), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2104439]]'
-show memoryoverlay zorder 2
 hide p2
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc002_01 16 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2104440]]'
-show memoryoverlay zorder 2
 hide p2
 hide p4
 show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2104441]]'
-show memoryoverlay zorder 2
 hide p4
 show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2104442]]'
 play music "ed7514.ogg"
 scene avg_bg_003
-hide memoryoverlay
 with fade
 show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2104443]]'

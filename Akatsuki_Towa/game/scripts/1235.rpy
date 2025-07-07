@@ -606,7 +606,6 @@ with fade
 show sc038_01 1 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112243]]'
 scene avg_bg_019
-hide memoryoverlay
 with fade
 show sc038_01 3 as p45 at l(-1), light, zorder 6
 c451 '[textdict[2112244]]'

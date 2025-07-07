@@ -494,19 +494,16 @@ show memoryoverlay zorder 2
 with fade
 show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184189]]'
-show memoryoverlay zorder 2
 hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1184190]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 show oc004_01 2 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184191]]'
 scene avg_bg_023
-hide memoryoverlay
 with fade
 show sc016_01 2 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[1184192]]'
@@ -525,327 +522,273 @@ show memoryoverlay zorder 2
 with fade
 show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184196]]'
-show memoryoverlay zorder 2
 hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6
 show oc003_01 16 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1184197]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 show st061_01 5 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184198]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 show oc004_01 2 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184199]]'
-show memoryoverlay zorder 2
 hide p3
 hide p4
 show oc004_01 2 as p4 at l(-5), dark, zorder 6
 show oc003_01 2 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1184200]]'
-show memoryoverlay zorder 2
 hide p4
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184201]]'
-show memoryoverlay zorder 2
 hide p3
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show st044_01 1 as p692 at r(10), light, zorder 5
 c6923 '[textdict[1184202]]'
-show memoryoverlay zorder 2
 hide p2
 hide p692
 show st044_01 1 as p692 at r(10), dark, zorder 5
 show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184203]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p692
 show st044_01 1 as p692 at r(10), dark, zorder 5
 show oc001_01 7 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1184204]]'
-show memoryoverlay zorder 2
 hide p692
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1184205]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show st061_01 2 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184206]]'
 stop music
-show memoryoverlay zorder 2
 hide p1304
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), r_shake, light, zorder 5
 c13043 '[textdict[1184207]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1184208]]' with shake
 play music "ed7561.ogg"
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
 show oc003_01 16 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1184209]]'
-show memoryoverlay zorder 2
 hide p2
 hide p3
 show oc003_01 16 as p3 at l(-6), dark, zorder 6
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184210]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc004_01 13 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184211]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1184212]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p1
 show oc001_01 4 as p1 at l(-2), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184213]]'
-show memoryoverlay zorder 2
 hide p1
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184214]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184215]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184216]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184217]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1184218]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p1
 show oc001_01 4 as p1 at l(-2), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184219]]'
-show memoryoverlay zorder 2
 hide p1
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc001_01 4 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1184220]]'
-show memoryoverlay zorder 2
 hide p1
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1184221]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184222]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184223]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184224]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184225]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1184226]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184227]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1184228]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184229]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc003_01 12 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1184230]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc003_01 12 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1184231]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc003_01 16 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1184232]]'
-show memoryoverlay zorder 2
 hide p3
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc002_01 17 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184233]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184234]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184235]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5
 show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184236]]'
-show memoryoverlay zorder 2
 hide p1304
 hide p2
 show oc002_01 4 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184237]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184238]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184239]]'
-show memoryoverlay zorder 2
 hide p1
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184240]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184241]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184242]]'
-show memoryoverlay zorder 2
 hide p4
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184243]]'
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184244]]'
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184245]]'
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184246]]'
-show memoryoverlay zorder 2
 hide p1
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1184247]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1184248]]'
-show memoryoverlay zorder 2
 hide p2
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc004_01 11 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1184249]]'
 scene avg_bg_023
-hide memoryoverlay
 with fade
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[1184250]]'

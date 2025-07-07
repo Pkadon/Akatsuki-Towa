@@ -353,7 +353,6 @@ with fade
 show st039_01 1 as p238 at l(-6), light, zorder 6
 c2381 '[textdict[2112864]]'
 scene avg_bg_032
-hide memoryoverlay
 with fade
 show oce04_01 2 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112865]]'
@@ -362,15 +361,11 @@ scene avg_bg_010
 show memoryoverlay zorder 2
 with fade
 c5001 '[textdict[2112866]]'
-show memoryoverlay zorder 2
 c27693 '[textdict[2112867]]'
-show memoryoverlay zorder 2
 c5001 '[textdict[2112868]]'
-show memoryoverlay zorder 2
 c27693 '[textdict[2112869]]'
 stop music
 scene avg_bg_032
-hide memoryoverlay
 with fade
 show oce04_01 7 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112870]]'
