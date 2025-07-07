@@ -175,6 +175,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	#Fix unset charPos
 	if fname == '10008':
 		script_json['dialogueFrames'][98]['charPos'] = 1
+		script_json['dialogueFrames'][98]['character']['mirror'] = 1
 
 	#Apply corrections found in mobile version files
 	elif fname == '10330':
@@ -252,6 +253,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		charID = frame['character']['charID']
 		speaker = frame['character']['speaker']
 		displayName = frame['character']['displayName']
+		mirror = frame['character']['mirror']
 		expression = frame['expression']
 		charPos = frame['charPos']
 		strID = frame['strID']
