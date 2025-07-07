@@ -2,7 +2,8 @@ label avg25258:
 stop music
 
 scene placeholderbackground
-with fade
+window show
+with fade_out
 c20093 '[textdict[1210958]]'
 c20083 '[textdict[1210959]]'
 c20103 '[textdict[1210960]]'

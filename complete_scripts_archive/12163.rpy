@@ -4,7 +4,8 @@ stop music
 play music "ed7105.ogg"
 scene avg_bg_038
 show oc001_01 8 as p1 at r(-2), light, zorder 5
-with fade
+window show
+with fade_out
 play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1128475]]'
 hide p1

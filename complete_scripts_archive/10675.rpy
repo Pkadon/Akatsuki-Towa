@@ -3,7 +3,8 @@ stop music
 
 play music "ed7544.ogg"
 scene avg_bg_070
-with fade
+window show
+with fade_out
 play sfx2 "other_7016.ogg"
 c0 '[textdict[1166209]]'
 play sfx2 "other_7016.ogg"

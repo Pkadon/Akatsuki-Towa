@@ -3,7 +3,8 @@ stop music
 
 scene placeholderbackground
 show sc052_01 6 as p59 at l(-25), light, zorder 6
-with fade
+window show
+with fade_out
 c591 '[textdict[1219328]]'
 hide p59
 show sc052_01 6 as p59 at l(-25), dark, zorder 6

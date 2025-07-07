@@ -3,7 +3,8 @@ stop music
 
 play music "ed7511.ogg"
 scene avg_bg_004
-with fade
+window show
+with fade_out
 show oc003_01 21 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1172633]]'
 hide p3

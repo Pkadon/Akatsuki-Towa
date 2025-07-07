@@ -2,7 +2,8 @@ label avg25231:
 stop music
 
 scene placeholderbackground
-with fade
+window show
+with fade_out
 play sfx2 "other_7092.ogg"
 c6123 '[textdict[1210821]]'
 c6123 '[textdict[1210822]]'

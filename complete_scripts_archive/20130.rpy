@@ -2,7 +2,8 @@ label avg20130:
 stop music
 
 scene avg_bg_071
-with fade
+window show
+with fade_out
 show oc001_01 4 as p1 at l_entrance(-2), light, zorder 6
 play sfxvoice "avg_vocal_na10.ogg"
 c11 '[textdict[1006633]]'

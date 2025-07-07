@@ -4,7 +4,8 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_023
 show st040_01 5 as p1043 at l(-19), light, zorder 6
-with fade
+window show
+with fade_out
 c10431 '[textdict[1133897]]'
 hide p1043
 show st040_01 5 as p1043 at l(-19), dark, zorder 6

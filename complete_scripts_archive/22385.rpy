@@ -4,7 +4,8 @@ stop music
 play music "ed7201.ogg"
 scene placeholderbackground
 show oc002_01 4 as p2 at mid(-3), light, zorder 5
-with fade
+window show
+with fade_out
 play sfx2 "other_7021.ogg"
 c23 '[textdict[1133911]]'
 hide p2

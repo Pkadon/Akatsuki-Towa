@@ -3,7 +3,8 @@ stop music
 
 play music "ED6100.ogg"
 scene avg_bg_104
-with fade
+window show
+with fade_out
 c0 '[textdict[2107924]]'
 c91 '[textdict[2107925]]' (what_size=(gui.text_size*1.2)) with shake
 scene avg_bg_023

@@ -3,7 +3,8 @@ stop music
 
 play music "ed7561.ogg"
 scene avg_bg_070
-with fade
+window show
+with fade_out
 play sfx2 "other_7028.ogg"
 c5001 '[textdict[2111507]]' (what_size=(gui.text_size*1.25)) with shake
 play sfx2 "other_7028.ogg"

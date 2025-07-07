@@ -2,7 +2,8 @@ label avg25242:
 stop music
 
 scene placeholderbackground
-with fade
+window show
+with fade_out
 c20243 '[textdict[1210880]]'
 menu:
     extend ""

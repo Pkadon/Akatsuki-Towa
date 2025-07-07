@@ -49,6 +49,7 @@ class GameState:
 			'r': None, #right
 		}
 		self.bgm = None
+		self.first_fade = True
 	
 	def add_line(self, *lines):
 		for line in lines:
@@ -123,7 +124,18 @@ class GameState:
 			self.bgm = newbgm
 			
 	def add_fade(self):
-		self.add_line(f"with fade\n")
+		#The first fade-in from the scene select menu needs to be treated specially
+		#just because of how the default renpy fade transition interacts with the say window
+		if self.first_fade == True:
+			self.add_line(
+				'window show\n'
+				'with fade_out\n'
+				)
+			self.first_fade = False
+			
+		else:
+			self.add_line(f"with fade\n")
+		
 
 def make_schedule_dict(json, key):
 	d = dict()
@@ -351,7 +363,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#check if portrait is entering or exiting:
 			if CharFadeIn == 1: renpytransform += '_entrance'
 			if CharFadeOut == 1:  renpytransform += '_exit'
-				
+
 			#moved midback up here so it can get the xoffset added to it	
 			if effect == 103 or effect == 203: renpytransform += '_midback'
 

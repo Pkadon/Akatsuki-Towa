@@ -3,7 +3,8 @@ stop music
 
 play music "ed7514.ogg"
 scene placeholderbackground
-with fade
+window show
+with fade_out
 show sc041_01 4 as p48 at l_entrance(-9), light, zorder 6
 c481 '[textdict[1000013]]'
 hide p48

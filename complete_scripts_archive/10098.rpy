@@ -4,7 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene avg_bg_038
 show oc004_01 1 as p4 at r(-5), light, zorder 5
-with fade
+window show
+with fade_out
 c43 '[textdict[1005539]]'
 hide p4
 show oc004_01 9 as p4 at r(-5), light, zorder 5

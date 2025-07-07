@@ -3,7 +3,8 @@ stop music
 
 play music "ed6324.ogg"
 scene placeholderbackground
-with fade
+window show
+with fade_out
 c0 '[textdict[1164098]]'
 scene avg_bg_070
 with fade

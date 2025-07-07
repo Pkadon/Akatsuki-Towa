@@ -4,7 +4,8 @@ stop music
 play music "ED6516.ogg"
 scene avg_bg_004
 show memoryoverlay zorder 2
-with fade
+window show
+with fade_out
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 play sfx2 "other_7085.ogg"
 c13 '[textdict[1000013]]'

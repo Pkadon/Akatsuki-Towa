@@ -4,7 +4,8 @@ stop music
 play music "ed7580.ogg"
 scene avg_bg_211
 show oc008_01 5 as p8 at l(-5), light, zorder 6
-with fade
+window show
+with fade_out
 c81 '[textdict[1179686]]'
 hide p8
 show oc008_01 5 as p8 at l(-5), dark, zorder 6

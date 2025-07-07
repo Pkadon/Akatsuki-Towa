@@ -2,7 +2,8 @@ label avg10795:
 stop music
 
 scene avg_bg_070
-with fade
+window show
+with fade_out
 c0 '[textdict[1178325]]'
 play music "ed7150.ogg"
 scene avg_bg_023

@@ -2,7 +2,8 @@ label avg1141:
 stop music
 
 scene avg_bg_070
-with fade
+window show
+with fade_out
 c0 '[textdict[2104125]]'
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104126]]'

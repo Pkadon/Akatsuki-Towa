@@ -3,7 +3,8 @@ stop music
 
 play music "ed7200.ogg"
 scene avg_bg_026
-with fade
+window show
+with fade_out
 show oc002_01 2 as p2 at l_entrance(-3), light, zorder 6
 play sfx2 "other_7060.ogg"
 play sfxvoice "avg_vocal_ch10.ogg"

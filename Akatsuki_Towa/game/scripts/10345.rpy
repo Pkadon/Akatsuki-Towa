@@ -3,7 +3,8 @@ stop music
 
 scene avg_bg_031
 show st037_01 4 as p236 at l(-10), light, zorder 6
-with fade
+window show
+with fade_out
 c2361 '[textdict[1131206]]'
 hide p236
 show st037_01 3 as p236 at l(-10), light, zorder 6

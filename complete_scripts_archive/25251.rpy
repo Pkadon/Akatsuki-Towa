@@ -3,7 +3,8 @@ stop music
 
 scene placeholderbackground
 show oc002_01 2 as p2 at mid(-3), light, zorder 5
-with fade
+window show
+with fade_out
 play sfx2 "fight_6025.ogg"
 c23 '[textdict[1210924]]'
 hide p2

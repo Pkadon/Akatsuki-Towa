@@ -4,7 +4,8 @@ stop music
 play music "ed7300.ogg"
 scene placeholderbackground
 show oc002_01 3 as p2 at l(-3), l_shake, light, zorder 6
-with fade
+window show
+with fade_out
 play sfx2 "fight_6019.ogg"
 play sfxvoice "avg_vocal_ch15.ogg"
 c21 '[textdict[1007066]]'

@@ -3,7 +3,8 @@ stop music
 
 scene avg_bg_012
 show st051_01 6 as p709 at r(-9), light, zorder 5
-with fade
+window show
+with fade_out
 play sfx2 "other_7042.ogg"
 c7093 '[textdict[1128007]]'
 hide p709

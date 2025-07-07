@@ -2,7 +2,8 @@ label avg10631:
 stop music
 
 scene avg_bg_070
-with fade
+window show
+with fade_out
 c0 '[textdict[1163946]]'
 play sfx2 "other_7017.ogg"
 c0 '[textdict[1163947]]'

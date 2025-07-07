@@ -4,7 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
-with fade
+window show
+with fade_out
 c0 '[textdict[1189058]]'
 scene avg_bg_004
 show memoryoverlay zorder 2

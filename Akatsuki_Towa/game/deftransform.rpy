@@ -23,6 +23,9 @@ transform shake(*, new_widget=None, old_widget=None):
     linear .025 rotate 2
     ease .025 rotate 0
 
+###used as the transition from the scene select menu to a cutscene
+define fade_out = Fade(0,0,0.5)
+
 #######################################
 ###used to shake the portrait in place
 

@@ -3,7 +3,8 @@ stop music
 
 play music "ED6104.ogg"
 scene placeholderbackground
-with fade
+window show
+with fade_out
 c0 '[textdict[1003452]]'
 c0 '[textdict[1003453]]'
 c0 '[textdict[1003454]]'

@@ -2,7 +2,8 @@ label avg1174:
 stop music
 
 scene avg_bg_030
-with fade
+window show
+with fade_out
 play sfx2 "other_7088.ogg"
 c0 '[textdict[2105631]]'
 show sc039_01 1 as p46 at l(-13), light, zorder 6

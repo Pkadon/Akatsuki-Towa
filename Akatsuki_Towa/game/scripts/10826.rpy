@@ -3,7 +3,8 @@ stop music
 
 play music "ed7513.ogg"
 scene avg_bg_507
-with fade
+window show
+with fade_out
 c0 '[textdict[1185110]]'
 scene avg_bg_508
 with fade

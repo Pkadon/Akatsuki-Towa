@@ -2,7 +2,8 @@ label avg1199:
 stop music
 
 scene avg_bg_041
-with fade
+window show
+with fade_out
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2107772]]'
 hide p1

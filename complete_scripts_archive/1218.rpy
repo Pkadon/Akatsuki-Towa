@@ -3,7 +3,8 @@ stop music
 
 scene avg_bg_024
 show oc001_01 24 as p1 at r(-2), light, zorder 5
-with fade
+window show
+with fade_out
 c13 '[textdict[2109888]]'
 hide p1
 show oc001_01 14 as p1 at r(-2), r_shake, light, zorder 5

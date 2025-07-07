@@ -2,7 +2,8 @@ label avg10754:
 stop music
 
 scene avg_bg_070
-with fade
+window show
+with fade_out
 c0 '[textdict[1174053]]'
 c0 '[textdict[1174054]]'
 c0 '[textdict[1174055]]'

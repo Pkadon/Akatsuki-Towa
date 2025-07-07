@@ -4,7 +4,8 @@ stop music
 play music "ED6100.ogg"
 scene avg_bg_104
 show oc003_01 2 as p3 at r(-6), light, zorder 5
-with fade
+window show
+with fade_out
 c33 '[textdict[1151462]]'
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5

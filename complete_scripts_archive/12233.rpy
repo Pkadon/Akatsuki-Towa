@@ -2,7 +2,8 @@ label avg12233:
 stop music
 
 scene avg_bg_023
-with fade
+window show
+with fade_out
 c6891 '[textdict[1121120]]'
 play music "ed7519.ogg"
 show sc032_01 3 as p40 at l(-17), light, zorder 6

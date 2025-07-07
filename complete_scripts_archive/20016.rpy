@@ -4,7 +4,8 @@ stop music
 play music "ED6518.ogg"
 scene placeholderbackground
 show oc002_01 8 as p2 at mid(-3), light, zorder 5
-with fade
+window show
+with fade_out
 play sfx2 "common_cancel.ogg"
 play sfxvoice "avg_vocal_ch08.ogg"
 c23 '[textdict[1000950]]'

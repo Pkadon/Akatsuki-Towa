@@ -2,7 +2,8 @@ label avg20135:
 stop music
 
 scene placeholderbackground
-with fade
+window show
+with fade_out
 show sc038_01 4 as p45 at l_entrance(-1), light, zorder 6
 c451 '[textdict[1006689]]'
 hide p45
