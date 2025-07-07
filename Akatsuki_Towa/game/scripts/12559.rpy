@@ -4,8 +4,8 @@ stop music
 play music "ed7565.ogg"
 scene avg_bg_077
 with fade
-play sfx2 "other_7047.ogg"
 show oc002_01 6 as p2 at r_entrance(-3), light, zorder 5
+play sfx2 "other_7047.ogg"
 c23 '[textdict[1153368]]'
 hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
@@ -31,11 +31,11 @@ hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
 show st059_01 1 as p1227 at l(-14), light, zorder 6
 c12271 '[textdict[1153373]]'
-play sfxvoice "avg_vocal_ch10.ogg"
 hide p2
 hide p1227
 show st059_01 1 as p1227 at l(-14), dark, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch10.ogg"
 c23 '[textdict[1153374]]'
 hide p1227
 hide p2
@@ -160,11 +160,11 @@ hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
 show st058_01 6 as p1254 at l(-6), light, zorder 6
 c12541 '[textdict[1153400]]'
-play sfxvoice "avg_vocal_na20.ogg"
 hide p2
 hide p1254
 show st058_01 6 as p1254 at l(-6), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1153401]]'
 hide p1
 hide p1254
@@ -176,11 +176,11 @@ hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
 show st058_01 5 as p1254 at l(-6), light, zorder 6
 c12541 '[textdict[1153403]]'
-play sfxvoice "avg_vocal_ch08.ogg"
 hide p3
 hide p1254
 show st058_01 5 as p1254 at l(-6), dark, zorder 6
 show oc002_01 6 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch08.ogg"
 c23 '[textdict[1153404]]'
 hide p1254
 hide p2
@@ -279,11 +279,11 @@ hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 show st059_01 2 as p1253 at l(-14), light, zorder 6
 c12531 '[textdict[1153424]]'
-play sfx2 "other_7085.ogg"
 hide p2
 hide p1253
 show st059_01 2 as p1253 at l(-14), dark, zorder 6
 show oc002_01 8 as p2 at r_exit(-3), light, zorder 5
+play sfx2 "other_7085.ogg"
 c23 '[textdict[1153425]]'
 hide p2
 hide p1253
@@ -345,9 +345,9 @@ show st058_01 1 as p1254 at l(-6), light, zorder 6
 c12541 '[textdict[1153437]]'
 hide p1254
 hide p3
-play sfx2 "other_7020.ogg"
 show oc002_01 14 as p2 at r_entrance(-3), light, zorder 5
 with fade
+play sfx2 "other_7020.ogg"
 c23 '[textdict[1153438]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), r_shake, light, zorder 5

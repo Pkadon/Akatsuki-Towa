@@ -35,11 +35,11 @@ hide p23
 show sc015_01 1 as p23 at l(9), dark, zorder 6
 show oc002_01 14 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[2100468]]'
-play sfxvoice "avg_vocal_na02.ogg"
 hide p2
 hide p23
 show sc015_01 1 as p23 at l(9), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[2100469]]'
 hide p1
 hide p23
@@ -51,11 +51,11 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc015_01 1 as p23 at l(9), light, zorder 6
 c231 '[textdict[2100471]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 hide p1
 hide p23
 show sc015_01 1 as p23 at l(9), dark, zorder 6
 show oc002_01 14 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[2100472]]'
 hide p23
 hide p2

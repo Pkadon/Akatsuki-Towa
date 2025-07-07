@@ -85,16 +85,16 @@ scene avg_bg_030
 with fade
 show sc039_01 1 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2105648]]'
-play sfx2 "other_7004.ogg"
 hide p46
 show sc039_01 1 as p46 at l(-13), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
-c13 '[textdict[2105649]]'
 play sfx2 "other_7004.ogg"
+c13 '[textdict[2105649]]'
 hide p46
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc039_01 1 as p46 at l(-13), light, zorder 6
+play sfx2 "other_7004.ogg"
 c461 '[textdict[2105650]]'
 hide p1
 hide p46
@@ -210,10 +210,10 @@ c461 '[textdict[2105673]]'
 hide p46
 show sc039_01 1 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2105674]]'
-play sfx2 "other_7088.ogg"
 hide p46
 show sc039_01 1 as p46 at l(-13), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7088.ogg"
 c13 '[textdict[2105675]]'
 hide p46
 hide p1

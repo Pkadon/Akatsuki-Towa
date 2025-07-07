@@ -43,9 +43,9 @@ hide p232
 show st033_01 3 as p232 at r(-7), dark, zorder 5
 c5381 '[textdict[1120285]]'
 hide p232
-play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 12 as p2 at l(-3), light, zorder 6
 with fade
+play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1120286]]'
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6

@@ -92,8 +92,8 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170386]]'
 hide p1
 c0 '[textdict[1170387]]'
-play sfx2 "other_7047.ogg"
 show oc007_01 1 as p7 at l_entrance(-24), light, zorder 6
+play sfx2 "other_7047.ogg"
 c71 '[textdict[1170388]]'
 hide p7
 show oc007_01 4 as p7 at l(-24), light, zorder 6

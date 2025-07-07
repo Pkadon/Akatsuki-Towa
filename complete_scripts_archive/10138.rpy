@@ -9,19 +9,19 @@ c0 '[textdict[1007688]]'
 c5691 '[textdict[1002313]]'
 c5691 '[textdict[1002314]]'
 c5691 '[textdict[1002315]]'
-play sfxvoice "avg_vocal_ch25.ogg"
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch25.ogg"
 c21 '[textdict[1002316]]'
-play sfxvoice "avg_vocal_na05.ogg"
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1002317]]'
-play sfx2 "other_7021.ogg"
 hide p1
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7021.ogg"
 c13 '[textdict[1007413]]'
 hide p2
 hide p1

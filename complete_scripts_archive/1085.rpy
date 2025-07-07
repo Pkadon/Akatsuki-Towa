@@ -28,9 +28,9 @@ c41 '[textdict[2101861]]'
 hide p4
 hide p1
 c0 '[textdict[2101862]]'
+show oc004_01 7 as p4 at l_midback(-5), light, zorder 6
 play sfx2 "other_7007.ogg"
 play sfxvoice "avg_vocal_li26.ogg"
-show oc004_01 7 as p4 at l_midback(-5), light, zorder 6
 c41 '[textdict[2101863]]'
 stop music
 hide p4
@@ -53,18 +53,18 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 7 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2101867]]'
-play sfx2 "fight_6002.ogg"
 hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
+play sfx2 "fight_6002.ogg"
 c10871 '[textdict[2101868]]' with shake
-play sfxvoice "bcv_oc001_com_01.ogg"
 hide p1
 show oc001_01 9 as p1 at r(-2), light, zorder 5
+play sfxvoice "bcv_oc001_com_01.ogg"
 c13 '[textdict[2101869]]'
-play sfxvoice "avg_vocal_li23.ogg"
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li23.ogg"
 c41 '[textdict[2101870]]'
 return

@@ -4,8 +4,8 @@ stop music
 play music "ed7102.ogg"
 scene avg_bg_074
 with fade
-play sfx2 "other_7047.ogg"
 show oc004_01 2 as p4 at r_entrance(-5), light, zorder 5
+play sfx2 "other_7047.ogg"
 c43 '[textdict[1132266]]'
 hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
@@ -21,23 +21,23 @@ hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
 show st038_01 1 as p237 at l(-9), light, zorder 6
 c2371 '[textdict[1132269]]'
-play sfx2 "other_7087.ogg"
-play sfxvoice "avg_vocal_li13.ogg"
 hide p4
 hide p237
 show st038_01 1 as p237 at l(-9), dark, zorder 6
 show oc004_01 13 as p4 at r(-5), light, zorder 5
+play sfx2 "other_7087.ogg"
+play sfxvoice "avg_vocal_li13.ogg"
 c43 '[textdict[1132270]]' (what_size=(gui.text_size*1.2)) with shake
 hide p4
 hide p237
 show st038_01 1 as p237 at l(-9), dark, zorder 6
 show oc002_01 6 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1132271]]'
-play sfxvoice "avg_vocal_li20.ogg"
 hide p237
 hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
 show oc004_01 15 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li20.ogg"
 c41 '[textdict[1132272]]'
 hide p2
 hide p4
@@ -54,11 +54,11 @@ hide p4
 show oc004_01 21 as p4 at l(-5), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1132275]]' (what_size=(gui.text_size*0.9))
-play sfxvoice "avg_vocal_ch16.ogg"
 hide p4
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch16.ogg"
 c21 '[textdict[1132276]]' (what_size=(gui.text_size*0.9))
 hide p2
 hide p1
@@ -100,11 +100,11 @@ hide p4
 show oc004_01 16 as p4 at r(-5), dark, zorder 5
 show st038_01 1 as p237 at l(-9), light, zorder 6
 c2371 '[textdict[1132284]]'
-play sfxvoice "avg_vocal_li11.ogg"
 hide p4
 hide p237
 show st038_01 1 as p237 at l(-9), dark, zorder 6
 show oc004_01 13 as p4 at r_midback(-5), light, zorder 5
+play sfxvoice "avg_vocal_li11.ogg"
 c43 '[textdict[1132285]]'
 hide p237
 hide p4
@@ -116,22 +116,22 @@ hide p237
 show st038_01 5 as p237 at l(-9), dark, zorder 6
 show oc004_01 16 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1132287]]'
-play sfxvoice "avg_vocal_li22.ogg"
 hide p4
 hide p237
 show st038_01 5 as p237 at l(-9), dark, zorder 6
 show oc004_01 15 as p4 at r(-5), light, zorder 5
+play sfxvoice "avg_vocal_li22.ogg"
 c43 '[textdict[1132288]]'
 hide p237
 hide p4
 show oc004_01 15 as p4 at r(-5), dark, zorder 5
 show st038_01 4 as p237 at l(-9), light, zorder 6
 c2371 '[textdict[1132289]]'
-play sfx2 "other_7020.ogg"
 hide p237
 hide p4
 show oc004_01 15 as p4 at r(-5), dark, zorder 5
 show st038_01 5 as p237 at l_exit(-9), light, zorder 6
+play sfx2 "other_7020.ogg"
 c2371 '[textdict[1132290]]'
 hide p237
 hide p4

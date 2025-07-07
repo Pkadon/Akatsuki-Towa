@@ -98,9 +98,9 @@ show sc012_01 5 as p20 at r(-16), dark, zorder 5
 show oc002_01 20 as p2 at l_exit(-3), light, zorder 6
 c21 '[textdict[2106067]]'
 hide p2
-play sfx2 "other_7088.ogg"
 hide p20
 show oc003_01 1 as p3 at r(-6), light, zorder 5
+play sfx2 "other_7088.ogg"
 c33 '[textdict[2106068]]'
 hide p3
 show oc003_01 17 as p3 at r(-6), light, zorder 5
@@ -278,11 +278,11 @@ hide p2
 show oc002_01 22 as p2 at l(-3), dark, zorder 6
 show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106109]]'
-play sfx2 "other_7088.ogg"
 hide p2
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
+play sfx2 "other_7088.ogg"
 c21 '[textdict[2106110]]'
 hide p1
 hide p2
@@ -368,11 +368,11 @@ hide p19
 show sc011_01 4 as p19 at r(-1), dark, zorder 5
 show sc012_01 4 as p20 at l(-16), light, zorder 6
 c201 '[textdict[2106129]]'
-play sfx2 "fight_6010.ogg"
 hide p19
 hide p20
 show sc012_01 4 as p20 at l(-16), dark, zorder 6
 show sc011_01 4 as p19 at r(-1), r_shake, light, zorder 5
+play sfx2 "fight_6010.ogg"
 c193 '[textdict[2106130]]'
 hide p19
 hide p20

@@ -188,8 +188,8 @@ c13 '[textdict[1173384]]'
 hide p3
 hide p1
 c0 '[textdict[1173385]]'
-play sfx2 "other_7046.ogg"
 show st044_01 4 as p692 at l_entrance(10), light, zorder 6
+play sfx2 "other_7046.ogg"
 c6921 '[textdict[1173386]]'
 hide p692
 show st044_01 4 as p692 at l(10), light, zorder 6

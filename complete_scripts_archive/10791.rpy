@@ -6,8 +6,8 @@ scene avg_bg_077
 with fade
 play sfx2 "other_7064.ogg"
 c0 '[textdict[1178018]]'
-play sfx2 "other_7064.ogg"
 show oc001_01 22 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7064.ogg"
 c13 '[textdict[1178019]]'
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5

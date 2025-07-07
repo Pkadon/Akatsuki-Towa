@@ -321,17 +321,17 @@ show oc003_01 18 as p3 at l(-6), dark, zorder 6
 show oc004_01 8 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2105284]]'
 play music "ed7514.ogg"
-play sfxvoice "avg_vocal_na08.ogg"
 hide p4
 hide p3
 show oc003_01 18 as p3 at l(-6), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na08.ogg"
 c13 '[textdict[2105285]]'
-play sfxvoice "avg_vocal_ch23.ogg"
 hide p3
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
 show oc002_01 16 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch23.ogg"
 c21 '[textdict[2105286]]'
 hide p2
 hide p1
@@ -343,11 +343,11 @@ hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
 show oc003_01 20 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2105288]]'
-play sfxvoice "avg_vocal_li17.ogg"
 hide p1
 hide p3
 show oc003_01 20 as p3 at l(-6), dark, zorder 6
 show oc004_01 8 as p4 at r(-5), light, zorder 5
+play sfxvoice "avg_vocal_li17.ogg"
 c43 '[textdict[2105289]]'
 hide p4
 hide p3

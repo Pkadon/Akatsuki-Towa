@@ -19,9 +19,9 @@ c12351 '[textdict[1154604]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c12351 '[textdict[1154605]]'
-play sfxvoice "avg_vocal_ro10.ogg"
 hide p1
 show oc003_01 17 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro10.ogg"
 c33 '[textdict[1154606]]'
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
@@ -118,9 +118,9 @@ show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[1154625]]'
 hide p1211
 hide p16
-play sfx2 "other_7047.ogg"
 show sc031_01 2 as p39 at r_entrance(-14), light, zorder 5
 with fade
+play sfx2 "other_7047.ogg"
 c393 '[textdict[1154626]]'
 hide p39
 show sc031_01 2 as p39 at r(-14), dark, zorder 5

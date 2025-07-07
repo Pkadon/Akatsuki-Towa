@@ -123,11 +123,11 @@ hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1163309]]'
-play sfx2 "other_7004.ogg"
 hide p1304
 hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show oc003_01 4 as p3 at r(-6), light, zorder 5
+play sfx2 "other_7004.ogg"
 c33 '[textdict[1163310]]'
 hide p239
 hide p3
@@ -229,11 +229,11 @@ hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1163330]]'
-play sfx2 "other_7004.ogg"
 hide p239
 hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
+play sfx2 "other_7004.ogg"
 c2391 '[textdict[1163331]]'
 hide p4
 hide p239

@@ -7,10 +7,10 @@ with fade
 c0 '[textdict[1186021]]'
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[1186022]]'
-play sfx2 "other_7088.ogg"
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
 show sc007_01 2 as p15 at l(-17), light, zorder 6
+play sfx2 "other_7088.ogg"
 c151 '[textdict[1186023]]'
 hide p16
 hide p15
@@ -97,11 +97,11 @@ hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1186040]]'
-play sfx2 "other_7047.ogg"
 hide p16
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc008_01 4 as p16 at l_exit(-18), light, zorder 6
+play sfx2 "other_7047.ogg"
 c161 '[textdict[1186041]]'
 hide p16
 hide p1
@@ -167,11 +167,11 @@ hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1186055]]'
-play sfx2 "other_7022.ogg"
 hide p692
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 show sc007_01 4 as p15 at l(-17), light, zorder 6
+play sfx2 "other_7022.ogg"
 c151 '[textdict[1186056]]'
 hide p15
 hide p4

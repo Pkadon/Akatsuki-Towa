@@ -24,11 +24,11 @@ hide p1135
 show sc044_01 4 as p1135 at l(-7), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107776]]'
-play sfx2 "other_7045.ogg"
 hide p1135
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc044_01 4 as p1135 at l_midback(-7), light, zorder 6
+play sfx2 "other_7045.ogg"
 c11351 '[textdict[2107777]]'
 play music "ed7302.ogg"
 scene avg_bg_070
@@ -125,8 +125,8 @@ stop music
 hide p1135
 hide p1
 c0 '[textdict[2107800]]'
-play sfx2 "other_7045.ogg"
 show oc001_01 9 as p1 at r_midback(-2), light, zorder 5
+play sfx2 "other_7045.ogg"
 c13 '[textdict[2107801]]'
 scene avg_bg_038
 with fade

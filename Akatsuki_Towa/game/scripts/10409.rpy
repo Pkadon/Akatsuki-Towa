@@ -60,11 +60,11 @@ hide p20
 show sc012_01 4 as p20 at l(-16), dark, zorder 6
 show sc011_01 2 as p19 at r(-1), light, zorder 5
 c193 '[textdict[1140608]]'
-play sfxvoice "avg_vocal_na05.ogg"
 hide p19
 hide p20
 show sc012_01 4 as p20 at l(-16), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1140609]]'
 hide p20
 hide p1
@@ -101,11 +101,11 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc011_01 1 as p19 at l(-1), light, zorder 6
 c191 '[textdict[1140616]]'
-play sfxvoice "avg_vocal_ch20.ogg"
 hide p1
 hide p19
 show sc011_01 1 as p19 at l(-1), dark, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch20.ogg"
 c23 '[textdict[1140617]]'
 hide p19
 hide p2
@@ -122,11 +122,11 @@ hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 show sc011_01 1 as p19 at l(-1), light, zorder 6
 c191 '[textdict[1140620]]'
-play sfxvoice "avg_vocal_na20.ogg"
 hide p2
 hide p19
 show sc011_01 1 as p19 at l(-1), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1140621]]'
 hide p1
 hide p19

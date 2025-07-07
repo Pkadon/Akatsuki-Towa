@@ -50,11 +50,11 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc004_01 9 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1155420]]'
-play sfxvoice "avg_vocal_ro09.ogg"
 hide p4
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc003_01 12 as p3 at l(-6), l_shake, light, zorder 6
+play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[1155421]]'
 hide p1
 hide p3
@@ -66,11 +66,11 @@ hide p3
 show oc003_01 12 as p3 at l(-6), dark, zorder 6
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1155423]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 hide p4
 hide p3
 show oc003_01 12 as p3 at l(-6), dark, zorder 6
 show oc002_01 14 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1155424]]'
 hide p2
 hide p3

@@ -67,10 +67,10 @@ hide p13
 show sc005_01 4 as p13 at l(-17), dark, zorder 6
 show oc002_01 8 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1151679]]'
-play sfxvoice "avg_vocal_na04_b.ogg"
 hide p2
 hide p13
 show sc005_01 4 as p13 at l(-17), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[1151680]]'
 return

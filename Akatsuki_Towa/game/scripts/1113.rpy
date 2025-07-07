@@ -60,11 +60,11 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show st004_01 3 as p204 at l(4), light, zorder 6
 c2041 '[textdict[2102826]]'
-play sfxvoice "avg_vocal_na04_b.ogg"
 hide p1
 hide p204
 show st004_01 3 as p204 at l(4), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[2102827]]'
 hide p1
 hide p204
@@ -81,11 +81,11 @@ hide p204
 show st004_01 3 as p204 at l(4), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102830]]'
-play sfxvoice "avg_vocal_li23.ogg"
 hide p204
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li23.ogg"
 c41 '[textdict[2102831]]'
 hide p1
 hide p4

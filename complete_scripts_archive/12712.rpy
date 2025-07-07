@@ -32,9 +32,9 @@ c5301 '[textdict[1170740]]'
 hide p530
 show uc002_03 1 as p530 at l(-23), dark, zorder 6
 c14183 '[textdict[1170741]]'
-play sfx2 "other_7007.ogg"
 hide p530
 show uc002_03 1 as p531 at l_midback(-23), light, zorder 6
+play sfx2 "other_7007.ogg"
 c5311 '[textdict[1170742]]'
 hide p531
 show uc002_03 1 as p531 at l(-23), dark, zorder 6
@@ -72,10 +72,10 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show uc002_03 1 as p531 at l(-23), light, zorder 6
 c5311 '[textdict[1170750]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p531
 show uc002_03 1 as p531 at l(-23), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1170751]]'
 return

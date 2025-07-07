@@ -541,11 +541,11 @@ hide p2704
 show ocb04_01 4 as p2704 at r(-5), dark, zorder 5
 show oca03_01 17 as p2703 at l(-6), light, zorder 6
 c27031 '[textdict[2111136]]'
-play sfx2 "fight_6010.ogg"
 hide p2704
 hide p2703
 show oca03_01 17 as p2703 at l(-6), dark, zorder 6
 show ocb04_01 16 as p2704 at r_midback(-5), light, zorder 5
+play sfx2 "fight_6010.ogg"
 c27043 '[textdict[2111137]]'
 hide p2703
 hide p2704
@@ -594,19 +594,19 @@ show ocb04_01 1 as p2704 at l_exit(-5), light, zorder 6
 c27041 '[textdict[2111146]]'
 hide p2704
 stop music
-play sfx2 "other_7064.ogg"
 hide p2701
 show oca01_01 17 as p2701 at r_entrance(-2), light, zorder 5
-c27013 '[textdict[2111147]]'
 play sfx2 "other_7064.ogg"
+c27013 '[textdict[2111147]]'
 hide p2701
 show oca01_01 17 as p2701 at r(-2), dark, zorder 5
 show oca02_01 1 as p2702 at l_entrance(-3), light, zorder 6
-c27021 '[textdict[2111148]]'
 play sfx2 "other_7064.ogg"
+c27021 '[textdict[2111148]]'
 hide p2702
 hide p2701
 show oca01_01 17 as p2701 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c27121 '[textdict[2111149]]'
 hide p2701
 show oca01_01 17 as p2701 at r(-2), dark, zorder 5
@@ -659,13 +659,13 @@ c2201 '[textdict[2111166]]'
 c2201 '[textdict[2111167]]'
 c11 '[textdict[2111168]]'
 stop music
-play sfx2 "other_7069.ogg"
 show st021_01 1 as p220 at l(-17), light, zorder 6
-c2201 '[textdict[2111169]]'
 play sfx2 "other_7069.ogg"
+c2201 '[textdict[2111169]]'
 hide p220
 show st021_01 1 as p220 at l(-17), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7069.ogg"
 c13 '[textdict[2111170]]'
 scene avg_bg_070
 show memoryoverlay zorder 2

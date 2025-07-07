@@ -198,9 +198,9 @@ c25801 '[textdict[2106691]]'
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
 c25811 '[textdict[2106692]]' with shake
-play sfx2 "fight_6019.ogg"
 hide p16
 show sc008_01 4 as p16 at r(-18), light, zorder 5
+play sfx2 "fight_6019.ogg"
 c163 '[textdict[2106693]]'
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
@@ -240,17 +240,17 @@ c25783 '[textdict[2106703]]'
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 c25793 '[textdict[2106704]]'
-play sfx2 "other_7088.ogg"
 hide p16
 show sc008_01 4 as p16 at l(-18), light, zorder 6
+play sfx2 "other_7088.ogg"
 c161 '[textdict[2106705]]'
-play sfx2 "other_7081.ogg"
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
+play sfx2 "other_7081.ogg"
 c25833 '[textdict[2106706]]'
-play sfx2 "other_7081.ogg"
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
+play sfx2 "other_7081.ogg"
 c25843 '[textdict[2106707]]'
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
@@ -285,9 +285,9 @@ c25793 '[textdict[2106715]]'
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 c25803 '[textdict[2106716]]'
-play sfx2 "fight_6010.ogg"
 hide p16
 show sc008_01 4 as p16 at l(-18), l_shake, light, zorder 6
+play sfx2 "fight_6010.ogg"
 c161 '[textdict[2106717]]'
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
@@ -314,10 +314,10 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc008_01 1 as p16 at l(-18), light, zorder 6
 c161 '[textdict[2106723]]'
-play sfx2 "other_7081.ogg"
 hide p1
 hide p16
 show sc008_01 1 as p16 at l(-18), dark, zorder 6
+play sfx2 "other_7081.ogg"
 c25823 '[textdict[2106724]]'
 hide p16
 show sc008_01 1 as p16 at l(-18), light, zorder 6
@@ -356,9 +356,9 @@ c11541 '[textdict[2106735]]'
 hide p16
 show sc008_01 1 as p16 at r(-18), dark, zorder 5
 c11541 '[textdict[2106736]]'
-play sfx2 "other_7081.ogg"
 hide p16
 show sc008_01 1 as p16 at r(-18), dark, zorder 5
+play sfx2 "other_7081.ogg"
 c25821 '[textdict[2106737]]'
 hide p16
 show sc008_01 1 as p16 at r(-18), light, zorder 5
@@ -381,9 +381,9 @@ c163 '[textdict[2106743]]'
 hide p16
 show sc008_01 1 as p16 at r(-18), dark, zorder 5
 c11541 '[textdict[2106744]]'
-play sfx2 "other_7081.ogg"
 hide p16
 show sc008_01 1 as p16 at r(-18), dark, zorder 5
+play sfx2 "other_7081.ogg"
 c25821 '[textdict[2106745]]'
 scene avg_bg_070
 with fade

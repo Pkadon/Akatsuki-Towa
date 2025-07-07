@@ -83,9 +83,9 @@ hide p1304
 c0 '[textdict[1173852]]'
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1173853]]'
-play sfx2 "other_7010.ogg"
 hide p692
 show st044_01 4 as p692 at l(10), dark, zorder 6
+play sfx2 "other_7010.ogg"
 c14403 '[textdict[1173854]]'
 scene avg_bg_070
 with fade
@@ -111,14 +111,14 @@ play sfx2 "other_7085.ogg"
 c0 '[textdict[1173862]]'
 show st057_01 3 as p1453 at l(-16), light, zorder 6
 c14531 '[textdict[1173863]]' with shake
-play sfx2 "other_7046.ogg"
 hide p1453
+play sfx2 "other_7046.ogg"
 c14541 '[textdict[1173864]]'
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1173865]]'
-play sfx2 "other_7080.ogg"
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
+play sfx2 "other_7080.ogg"
 c14551 '[textdict[1173866]]'
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
@@ -129,11 +129,11 @@ hide p1453
 show st057_01 3 as p1453 at l(-16), dark, zorder 6
 show st061_01 3 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1173868]]'
-play sfx2 "other_7087.ogg"
 hide p1453
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
 show oc003_01 20 as p3 at l(-6), l_shake, light, zorder 6
+play sfx2 "other_7087.ogg"
 c31 '[textdict[1173869]]'
 hide p1304
 hide p3
@@ -179,8 +179,8 @@ hide p2
 hide p1
 play sfx2 "fight_6027.ogg"
 c0 '[textdict[1173878]]' with shake
-play sfx2 "fight_6027.ogg"
 show oc002_01 20 as p2 at l(-3), l_shake, light, zorder 6
+play sfx2 "fight_6027.ogg"
 c21 '[textdict[1173879]]'
 hide p2
 show oc002_01 20 as p2 at l(-3), dark, zorder 6
@@ -234,8 +234,8 @@ play sfx2 "other_7017.ogg"
 c51 '[textdict[1173896]]'
 scene avg_bg_036
 with fade
-play sfx2 "other_7017.ogg"
 show oc003_01 5 as p3 at r(-6), light, zorder 5
+play sfx2 "other_7017.ogg"
 c33 '[textdict[1173897]]'
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
@@ -250,8 +250,8 @@ c14531 '[textdict[1173901]]'
 hide p1453
 show st057_01 1 as p1453 at l(-16), light, zorder 6
 c14531 '[textdict[1173902]]'
-play sfx2 "other_7065.ogg"
 hide p1453
+play sfx2 "other_7065.ogg"
 c14591 '[textdict[1173903]]' with shake
 scene avg_bg_003
 with fade

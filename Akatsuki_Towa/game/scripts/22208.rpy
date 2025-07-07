@@ -6,8 +6,8 @@ scene avg_bg_046
 with fade
 play sfx2 "other_7042.ogg"
 c7221 '[textdict[1128646]]'
-play sfxvoice "avg_vocal_ch03_b.ogg"
 show oc002_01 14 as p2 at r_entrance(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch03_b.ogg"
 c23 '[textdict[1128647]]'
 hide p2
 show oc002_01 14 as p2 at r(-3), dark, zorder 5
@@ -43,10 +43,10 @@ hide p1
 show oc001_01 2 as p1 at l(-2), dark, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1128655]]'
-play sfxvoice "avg_vocal_na15.ogg"
 hide p1
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 show oc001_01 1 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na15.ogg"
 c11 '[textdict[1128656]]'
 return

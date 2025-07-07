@@ -290,20 +290,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		if isClearModle == 1 or speaker == 0:
 			state.hide_portraits('all')
 			
-		#check for sfx
-		if sfxID != 0:
-			sfxname = sfx_dict[sfxID]['_sfxName']
-			sfxname = sfxname.split('/')[-1]
-			#play sfx
-			state.add_line(f'play sfx2 "{sfxname}"\n')
-			
-		#check for voice
-		if voiceID != 0:
-			voicename = voice_dict[voiceID]['_voiceName']
-			voicename = voicename.split('/')[-1]
-			#play voice
-			state.add_line(f'play sfxvoice "{voicename}"\n')
-			
 		#check for image to display
 		if avgImageID == 0:
 			if showingimage:
@@ -378,6 +364,21 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#need the fade after all images are set up, before dialogue appears
 		if isClearModle == 1: state.add_line(f"with fade\n")
 		
+	#SFX/VOICE
+		#check for sfx
+		if sfxID != 0:
+			sfxname = sfx_dict[sfxID]['_sfxName']
+			sfxname = sfxname.split('/')[-1]
+			#play sfx
+			state.add_line(f'play sfx2 "{sfxname}"\n')
+			
+		#check for voice
+		if voiceID != 0:
+			voicename = voice_dict[voiceID]['_voiceName']
+			voicename = voicename.split('/')[-1]
+			#play voice
+			state.add_line(f'play sfxvoice "{voicename}"\n')
+
 	#START OF SAY STATEMENT
 		
 		#figure out where namebox goes

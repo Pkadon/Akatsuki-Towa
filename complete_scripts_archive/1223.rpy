@@ -705,19 +705,19 @@ hide p2704
 show ocb04_01 4 as p2704 at l(-5), dark, zorder 6
 show oca01_01 10 as p2701 at r(-2), light, zorder 5
 c27013 '[textdict[2110523]]'
-play sfx2 "other_7064.ogg"
 hide p2704
 hide p2701
 show oca01_01 10 as p2701 at r(-2), dark, zorder 5
-c27141 '[textdict[2110524]]'
 play sfx2 "other_7064.ogg"
+c27141 '[textdict[2110524]]'
 hide p2701
 show uc002_03 3 as p2709 at r(-23), light, zorder 5
-c27093 '[textdict[2110525]]'
 play sfx2 "other_7064.ogg"
+c27093 '[textdict[2110525]]'
 hide p2709
 show uc002_03 3 as p2709 at r(-23), dark, zorder 5
 show ocb04_01 16 as p2704 at l(-5), l_shake, light, zorder 6
+play sfx2 "other_7064.ogg"
 c27041 '[textdict[2110526]]'
 hide p2709
 hide p2704
@@ -810,10 +810,10 @@ show oca01_01 12 as p2701 at r(-2), dark, zorder 5
 show oca02_01 17 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2110546]]'
 stop music
-play sfx2 "other_7019.ogg"
 hide p2702
 hide p2701
 show oca01_01 12 as p2701 at r(-2), dark, zorder 5
+play sfx2 "other_7019.ogg"
 c5261 '[textdict[2110547]]'
 hide p2701
 show oca01_01 12 as p2701 at r(-2), dark, zorder 5

@@ -53,8 +53,8 @@ c0 '[textdict[2100851]]'
 c0 '[textdict[2100852]]'
 c0 '[textdict[2100853]]'
 stop music
-play sfx2 "other_7087.ogg"
 show st002_01 4 as p202 at l(-9), light, zorder 6
+play sfx2 "other_7087.ogg"
 c2021 '[textdict[2100854]]' with shake
 play music "ed7113.ogg"
 hide p202
@@ -98,8 +98,8 @@ hide p202
 c0 '[textdict[2100863]]'
 c0 '[textdict[2100864]]'
 stop music
-play sfx2 "other_7087.ogg"
 show st002_01 4 as p202 at l(-9), light, zorder 6
+play sfx2 "other_7087.ogg"
 c2021 '[textdict[2100865]]' with shake
 hide p202
 show st002_01 4 as p202 at l(-9), light, zorder 6

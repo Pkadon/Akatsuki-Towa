@@ -4,8 +4,8 @@ stop music
 play music "ed7569.ogg"
 scene avg_bg_036
 with fade
-play sfx2 "other_7018.ogg"
 show uc004_02 2 as p990 at l(-6), light, zorder 6
+play sfx2 "other_7018.ogg"
 c9901 '[textdict[1121038]]'
 hide p990
 show uc004_02 2 as p990 at l(-6), dark, zorder 6
@@ -41,11 +41,11 @@ hide p2
 show oc002_01 9 as p2 at r(-3), dark, zorder 5
 show uc004_02 2 as p990 at l(-6), light, zorder 6
 c9901 '[textdict[1121043]]'
-play sfx2 "other_7002.ogg"
 hide p2
 hide p990
 show uc004_02 2 as p990 at l(-6), dark, zorder 6
 show oc001_01 1 as p1 at r_midback(-2), light, zorder 5
+play sfx2 "other_7002.ogg"
 c13 '[textdict[1121044]]'
 hide p1
 hide p990

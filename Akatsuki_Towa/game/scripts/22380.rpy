@@ -14,9 +14,9 @@ c43 '[textdict[1133978]]'
 hide p4
 show oc003_01 2 as p3 at mid(-6), light, zorder 5
 c33 '[textdict[1133979]]'
-play sfx2 "fight_6024.ogg"
 hide p3
 show oc002_01 4 as p2 at mid(-3), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c23 '[textdict[1133980]]'
 hide p2
 show oc001_01 20 as p1 at mid(-2), light, zorder 5

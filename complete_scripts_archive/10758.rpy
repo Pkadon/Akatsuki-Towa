@@ -600,11 +600,11 @@ hide p257
 show st050_01 5 as p257 at l(-11), dark, zorder 6
 show oc001_01 24 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1174911]]'
-play sfx2 "other_7061.ogg"
 hide p257
 hide p1
 show oc001_01 24 as p1 at r(-2), dark, zorder 5
 show st050_01 1 as p257 at l(-11), light, zorder 6
+play sfx2 "other_7061.ogg"
 c2571 '[textdict[1174912]]'
 hide p1
 hide p257
@@ -616,11 +616,11 @@ hide p257
 show st050_01 1 as p257 at l(-11), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1174914]]'
-play sfx2 "other_7061.ogg"
 hide p257
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show st050_01 5 as p257 at l(-11), light, zorder 6
+play sfx2 "other_7061.ogg"
 c2571 '[textdict[1174915]]'
 hide p257
 hide p1

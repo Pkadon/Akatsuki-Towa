@@ -8,8 +8,8 @@ c0 '[textdict[1161773]]'
 scene avg_bg_074
 with fade
 c10471 '[textdict[1161774]]'
-play sfx2 "other_7004.ogg"
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7004.ogg"
 c13 '[textdict[1161775]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
@@ -63,9 +63,9 @@ c10471 '[textdict[1161788]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c10471 '[textdict[1161789]]'
-play sfxvoice "avg_vocal_na06.ogg"
 hide p1
 show oc001_01 16 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na06.ogg"
 c13 '[textdict[1161790]]'
 hide p1
 show oc001_01 16 as p1 at r(-2), light, zorder 5
@@ -193,17 +193,17 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1161817]]'
-play sfx2 "other_7087.ogg"
 hide p3
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7087.ogg"
 c41 '[textdict[1161818]]' with shake
-play sfxvoice "avg_vocal_ch11.ogg"
 hide p1
 hide p4
 show oc004_01 16 as p4 at l(-5), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1161819]]'
 hide p4
 hide p2

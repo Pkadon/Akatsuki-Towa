@@ -383,9 +383,9 @@ hide p18
 show sc010_01 4 as p18 at r(-10), light, zorder 5
 c183 '[textdict[1163811]]'
 play music "ed7511.ogg"
-play sfx2 "fight_6024.ogg"
 hide p18
 show oc001_01 20 as p1 at r_midback(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1163812]]'
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
@@ -396,11 +396,11 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1163814]]'
-play sfx2 "fight_6019.ogg"
 hide p1
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc002_01 9 as p2 at r(-3), l_shake, light, zorder 5
+play sfx2 "fight_6019.ogg"
 c23 '[textdict[1163815]]'
 hide p3
 hide p2

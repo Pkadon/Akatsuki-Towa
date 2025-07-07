@@ -66,11 +66,11 @@ hide p1304
 show st061_01 5 as p1304 at l(-2), dark, zorder 6
 show oc003_01 1 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1163145]]'
-play sfx2 "fight_6010.ogg"
 hide p1304
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 show oc004_01 14 as p4 at l_midback(-5), light, zorder 6
+play sfx2 "fight_6010.ogg"
 c41 '[textdict[1163146]]'
 hide p3
 hide p4

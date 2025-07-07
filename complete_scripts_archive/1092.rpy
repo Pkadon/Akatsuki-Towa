@@ -4,8 +4,8 @@ stop music
 play music "ed7202.ogg"
 scene avg_bg_079
 with fade
-play sfxvoice "avg_vocal_na03_b.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na03_b.ogg"
 c13 '[textdict[2102004]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -16,11 +16,11 @@ hide p59
 show sc052_01 2 as p59 at l(-25), dark, zorder 6
 show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102006]]'
-play sfx2 "fight_6019.ogg"
 hide p59
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5
 show sc052_01 4 as p59 at l(-25), light, zorder 6
+play sfx2 "fight_6019.ogg"
 c591 '[textdict[2102007]]' (what_size=(gui.text_size*1.3)) with shake
 hide p59
 hide p1

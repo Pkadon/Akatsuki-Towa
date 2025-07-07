@@ -187,16 +187,16 @@ hide p3
 hide p1
 play sfx2 "other_7046.ogg"
 c0 '[textdict[1173556]]'
-play sfx2 "other_7017.ogg"
 show oc005_01 4 as p5 at l_entrance(-6), light, zorder 6
-c51 '[textdict[1173557]]'
 play sfx2 "other_7017.ogg"
+c51 '[textdict[1173557]]'
 hide p5
 show oc005_01 4 as p5 at l(-6), dark, zorder 6
-c10833 '[textdict[1173558]]'
 play sfx2 "other_7017.ogg"
+c10833 '[textdict[1173558]]'
 hide p5
 show oc005_01 22 as p5 at l(-6), light, zorder 6
+play sfx2 "other_7017.ogg"
 c51 '[textdict[1173559]]'
 hide p5
 c0 '[textdict[1173560]]'

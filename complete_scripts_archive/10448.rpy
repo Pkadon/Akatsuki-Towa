@@ -145,17 +145,17 @@ hide p1139
 show uc003_04 4 as p1139 at l(-14), dark, zorder 6
 show sc068_01 3 as p72 at r(-17), r_shake, light, zorder 5
 c723 '[textdict[1142207]]'
-play sfx2 "fight_6005.ogg"
 hide p1139
 hide p72
 show sc068_01 3 as p72 at r(-17), dark, zorder 5
 show uc003_04 3 as p1140 at l(-14), light, zorder 6
+play sfx2 "fight_6005.ogg"
 c11401 '[textdict[1142208]]' with shake
-play sfx2 "fight_6014.ogg"
 hide p1140
 hide p72
 show sc068_01 3 as p72 at r(-17), dark, zorder 5
 show uc003_04 3 as p1045 at l_entrance(-14), l_shake, light, zorder 6
+play sfx2 "fight_6014.ogg"
 c10451 '[textdict[1142209]]'
 hide p1045
 hide p72
@@ -177,40 +177,40 @@ hide p72
 show sc068_01 2 as p72 at r(-17), dark, zorder 5
 show uc003_04 3 as p1118 at l(-14), light, zorder 6
 c11181 '[textdict[1142213]]'
-play sfx2 "other_7086.ogg"
 hide p1118
 hide p72
 show sc068_01 2 as p72 at r(-17), dark, zorder 5
 show uc003_04 3 as p1117 at l(-14), light, zorder 6
+play sfx2 "other_7086.ogg"
 c11171 '[textdict[1142214]]'
 hide p72
 hide p1117
 show uc003_04 3 as p1117 at l(-14), dark, zorder 6
 show sc068_01 1 as p72 at r(-17), light, zorder 5
 c723 '[textdict[1142215]]'
-play sfx2 "fight_6020.ogg"
 hide p72
 hide p1117
 show uc003_04 3 as p1117 at l(-14), dark, zorder 6
 show sc068_01 5 as p72 at r(-17), light, zorder 5
+play sfx2 "fight_6020.ogg"
 c723 '[textdict[1142216]]'
-play sfx2 "other_7007.ogg"
 hide p1117
 hide p72
 show sc068_01 5 as p72 at r(-17), dark, zorder 5
 show uc003_04 1 as p1045 at l(-14), l_shake, light, zorder 6
+play sfx2 "other_7007.ogg"
 c10451 '[textdict[1142217]]'
-play sfx2 "other_7086.ogg"
 hide p1045
 hide p72
 show sc068_01 5 as p72 at r(-17), dark, zorder 5
 show uc003_04 1 as p1046 at l(-14), light, zorder 6
+play sfx2 "other_7086.ogg"
 c10461 '[textdict[1142218]]'
-play sfx2 "fight_6014.ogg"
 hide p1046
 hide p72
 show sc068_01 5 as p72 at r(-17), dark, zorder 5
 show uc003_04 3 as p1118 at l(-14), l_shake, light, zorder 6
+play sfx2 "fight_6014.ogg"
 c11181 '[textdict[1142219]]'
 hide p72
 hide p1118
@@ -369,25 +369,25 @@ hide p1144
 show uc003_04 1 as p1143 at l(-14), light, zorder 6
 with fade
 c11431 '[textdict[1142250]]'
-play sfx2 "fight_6005.ogg"
 hide p1143
 show uc003_04 1 as p1144 at l(-14), light, zorder 6
+play sfx2 "fight_6005.ogg"
 c11441 '[textdict[1142251]]'
-play sfx2 "fight_6014.ogg"
 hide p1144
 show uc003_04 1 as p1144 at l(-14), dark, zorder 6
 show uc003_04 3 as p1116 at r(-14), r_shake, light, zorder 5
+play sfx2 "fight_6014.ogg"
 c11163 '[textdict[1142252]]'
-play sfx2 "fight_6005.ogg"
 hide p1116
 hide p1144
 show uc003_04 1 as p1144 at l(-14), dark, zorder 6
 show uc003_04 3 as p1117 at r(-14), r_shake, light, zorder 5
+play sfx2 "fight_6005.ogg"
 c11173 '[textdict[1142253]]'
-play sfx2 "fight_6014.ogg"
 hide p1117
 hide p1144
 show uc003_04 1 as p1144 at l(-14), dark, zorder 6
+play sfx2 "fight_6014.ogg"
 c11393 '[textdict[1142254]]'
 hide p1144
 show uc003_04 1 as p1144 at l(-14), dark, zorder 6
@@ -488,11 +488,11 @@ hide p71
 show sc067_01 4 as p71 at r(-38), dark, zorder 5
 show oc008_01 1 as p1142 at l(-5), light, zorder 6
 c11421 '[textdict[1142274]]'
-play sfx2 "other_7088.ogg"
 hide p1142
 hide p71
 show sc067_01 4 as p71 at r(-38), dark, zorder 5
 show oc008_01 5 as p1142 at l_exit(-5), light, zorder 6
+play sfx2 "other_7088.ogg"
 c11421 '[textdict[1142275]]'
 hide p1142
 hide p71

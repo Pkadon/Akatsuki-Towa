@@ -12,9 +12,9 @@ c7223 '[textdict[2110559]]'
 hide p2702
 show oca02_01 14 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2110560]]'
-play sfx2 "other_7004.ogg"
 hide p2702
 show oca02_01 14 as p2702 at l(-3), dark, zorder 6
+play sfx2 "other_7004.ogg"
 c7223 '[textdict[2110561]]'
 hide p2702
 show oca02_01 14 as p2702 at l(-3), dark, zorder 6
@@ -146,10 +146,10 @@ hide p2701
 show oca01_01 8 as p2701 at r(-2), dark, zorder 5
 show oca02_01 12 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2110592]]'
-play sfx2 "other_7019.ogg"
 hide p2702
 hide p2701
 show oca01_01 8 as p2701 at r(-2), dark, zorder 5
+play sfx2 "other_7019.ogg"
 c5261 '[textdict[2110593]]'
 hide p2701
 show oca01_01 10 as p2701 at r(-2), light, zorder 5

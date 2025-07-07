@@ -40,10 +40,10 @@ hide p4
 show oc004_01 12 as p4 at l(-5), dark, zorder 6
 show oc003_01 16 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1166394]]'
-play sfx2 "other_7087.ogg"
 hide p4
 hide p3
 show oc003_01 16 as p3 at r(-6), dark, zorder 5
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7087.ogg"
 c41 '[textdict[1166395]]' with shake
 return

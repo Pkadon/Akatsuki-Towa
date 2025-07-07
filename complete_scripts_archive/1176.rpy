@@ -13,23 +13,23 @@ hide p2539
 show oc000_01 1 as p2539 at l(-2), dark, zorder 6
 c5113 '[textdict[2105836]]'
 play music "ed7151.ogg"
-play sfx2 "other_7079.ogg"
 hide p2539
 show oc000_01 1 as p2539 at l(-2), light, zorder 6
+play sfx2 "other_7079.ogg"
 c25391 '[textdict[2105837]]'
 hide p2539
 show oc000_01 1 as p2539 at l(-2), dark, zorder 6
 c5123 '[textdict[2105838]]'
-play sfx2 "other_7079.ogg"
 hide p2539
 show oc000_01 1 as p2539 at l(-2), light, zorder 6
+play sfx2 "other_7079.ogg"
 c25391 '[textdict[2105839]]' with shake
 hide p2539
 show oc000_01 1 as p2539 at l(-2), dark, zorder 6
 c5113 '[textdict[2105840]]'
-play sfx2 "other_7085.ogg"
 hide p2539
 show oc000_01 1 as p2539 at l(-2), dark, zorder 6
+play sfx2 "other_7085.ogg"
 c5123 '[textdict[2105841]]'
 play music "ed7150.ogg"
 hide p2539
@@ -174,9 +174,9 @@ c21 '[textdict[2105874]]'
 play music "ed7151.ogg"
 hide p2
 hide p1
-play sfx2 "other_7079.ogg"
 show oc000_01 1 as p2539 at r(-2), light, zorder 5
 with fade
+play sfx2 "other_7079.ogg"
 c25393 '[textdict[2105875]]'
 hide p2539
 show oc000_01 1 as p2539 at r(-2), dark, zorder 5
@@ -197,18 +197,18 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc040_01 1 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2105879]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p47
 show sc040_01 1 as p47 at l(-9), dark, zorder 6
 show oc001_01 9 as p1 at r(-2), r_shake, light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[2105880]]'
 play music "ed7511.ogg"
-play sfx2 "other_7079.ogg"
 hide p47
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show oc000_01 1 as p2539 at l(-2), light, zorder 6
+play sfx2 "other_7079.ogg"
 c25391 '[textdict[2105881]]' with shake
 hide p1
 hide p2539
@@ -239,8 +239,8 @@ hide p2539
 hide p47
 play sfx2 "fight_6019.ogg"
 c0 '[textdict[2105887]]' with shake
-play sfx2 "other_7057.ogg"
 show oc000_01 1 as p2539 at l(-2), light, zorder 6
+play sfx2 "other_7057.ogg"
 c25391 '[textdict[2105888]]'
 hide p2539
 show oc000_01 1 as p2539 at l(-2), dark, zorder 6
@@ -271,10 +271,10 @@ hide p47
 show sc040_01 3 as p47 at l(-9), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2105894]]'
-play sfx2 "other_7051.ogg"
 hide p47
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7051.ogg"
 c13091 '[textdict[2105895]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -293,18 +293,18 @@ hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show sc040_01 4 as p47 at l(-9), light, zorder 6
 c471 '[textdict[2105899]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p47
 show sc040_01 4 as p47 at l(-9), dark, zorder 6
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[2105900]]'
 play music "ed7150.ogg"
 hide p47
 hide p1
-play sfx2 "fight_6009.ogg"
 show sc040_01 4 as p47 at l(-9), light, zorder 6
 with fade
+play sfx2 "fight_6009.ogg"
 c471 '[textdict[2105901]]'
 hide p47
 show sc040_01 4 as p47 at l(-9), dark, zorder 6

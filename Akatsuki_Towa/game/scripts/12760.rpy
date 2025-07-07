@@ -6,8 +6,8 @@ scene avg_bg_010
 with fade
 play sfx2 "other_7014.ogg"
 c14613 '[textdict[1174469]]'
-play sfx2 "other_7014.ogg"
 show st057_01 4 as p1453 at l(-16), light, zorder 6
+play sfx2 "other_7014.ogg"
 c14531 '[textdict[1174470]]'
 hide p1453
 show st057_01 4 as p1453 at l(-16), light, zorder 6
@@ -126,8 +126,8 @@ c14531 '[textdict[1174499]]'
 hide p1453
 play sfx2 "fight_6016.ogg"
 c0 '[textdict[1174500]]'
-play sfx2 "fight_6008.ogg"
 show st061_01 2 as p1304 at r(-2), r_shake, light, zorder 5
+play sfx2 "fight_6008.ogg"
 c13043 '[textdict[1174501]]'
 hide p1304
 show st061_01 2 as p1304 at r(-2), dark, zorder 5
@@ -201,10 +201,10 @@ hide p1453
 show st057_01 1 as p1453 at l(-16), dark, zorder 6
 show st061_01 3 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1174521]]'
-play sfx2 "other_7080.ogg"
 hide p1453
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7080.ogg"
 c14451 '[textdict[1174522]]' with shake
 hide p1304
 c0 '[textdict[1174523]]'

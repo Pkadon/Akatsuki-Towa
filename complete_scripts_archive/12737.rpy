@@ -37,8 +37,8 @@ c13043 '[textdict[1172857]]'
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 c14401 '[textdict[1172858]]'
-play sfx2 "fight_6025.ogg"
 hide p1304
 show oc003_01 8 as p3 at r(-6), light, zorder 5
+play sfx2 "fight_6025.ogg"
 c33 '[textdict[1172859]]'
 return

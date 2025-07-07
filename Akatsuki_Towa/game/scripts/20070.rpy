@@ -4,25 +4,25 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_018
 with fade
-play sfx2 "other_7064.ogg"
 show oc001_01 2 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7064.ogg"
 c13 '[textdict[1003886]]'
 hide p1
 c6483 '[textdict[1003887]]'
 c6491 '[textdict[1003888]]'
 c6503 '[textdict[1003889]]'
-play sfxvoice "avg_vocal_na02.ogg"
 show oc001_01 7 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1003890]]'
-play sfxvoice "avg_vocal_li17.ogg"
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show oc004_01 8 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li17.ogg"
 c41 '[textdict[1003891]]'
 hide p4
 hide p1
-play sfx2 "other_7021.ogg"
 with fade
+play sfx2 "other_7021.ogg"
 c0 '[textdict[1003892]]'
 play sfx2 "other_7004.ogg"
 c6491 '[textdict[1003893]]'
@@ -40,9 +40,9 @@ c6491 '[textdict[1003897]]'
 hide p1
 show oc002_01 17 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1003898]]'
-play sfx2 "other_7021.ogg"
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7021.ogg"
 c6511 '[textdict[1003899]]'
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5

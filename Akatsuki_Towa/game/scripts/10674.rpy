@@ -404,11 +404,11 @@ hide p2
 show oc002_01 14 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1166161]]'
-play sfx2 "other_7088.ogg"
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc008_01 3 as p8 at l(-5), light, zorder 6
+play sfx2 "other_7088.ogg"
 c81 '[textdict[1166162]]'
 hide p1
 hide p8
@@ -513,8 +513,8 @@ hide p8
 hide p1
 c0 '[textdict[1166184]]'
 stop music
-play sfx2 "other_7059.ogg"
 show oc008_01 6 as p8 at l(-5), light, zorder 6
+play sfx2 "other_7059.ogg"
 c81 '[textdict[1166185]]'
 hide p8
 show oc008_01 6 as p8 at l(-5), dark, zorder 6
@@ -597,11 +597,11 @@ hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc008_01 5 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1166204]]'
-play sfxvoice "bcv_oc008_c03_02.ogg"
 hide p8
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc008_01 6 as p8 at l(-5), light, zorder 6
+play sfxvoice "bcv_oc008_c03_02.ogg"
 c81 '[textdict[1166205]]'
 hide p8
 hide p1

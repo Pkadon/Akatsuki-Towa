@@ -85,8 +85,8 @@ c26551 '[textdict[1190787]]'
 c26541 '[textdict[1190788]]'
 c26551 '[textdict[1190789]]'
 c26561 '[textdict[1190790]]'
-play sfx2 "other_7079.ogg"
 with fade
+play sfx2 "other_7079.ogg"
 c13091 '[textdict[1190791]]' with shake
 c14881 '[textdict[1190792]]'
 c14761 '[textdict[1190793]]'
@@ -211,10 +211,10 @@ c14281 '[textdict[1190856]]'
 hide p2668
 show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1190857]]'
-play sfx2 "other_7044.ogg"
 hide p2668
 show oce04_01 1 as p2668 at r(-5), dark, zorder 5
 show st062_01 1 as p1308 at l_entrance(-16), light, zorder 6
+play sfx2 "other_7044.ogg"
 c13081 '[textdict[1190858]]'
 hide p2668
 hide p1308

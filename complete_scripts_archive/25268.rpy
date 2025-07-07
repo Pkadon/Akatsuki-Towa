@@ -3,9 +3,9 @@ stop music
 
 scene placeholderbackground
 with fade
+show oc002_01 9 as p2 at mid(-3), light, zorder 5
 play sfx2 "common_select.ogg"
 play sfxvoice "avg_vocal_ch04.ogg"
-show oc002_01 9 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1211006]]'
 hide p2
 c20133 '[textdict[1211007]]'

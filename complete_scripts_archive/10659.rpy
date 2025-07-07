@@ -90,11 +90,11 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc008_01 4 as p16 at l(-18), light, zorder 6
 c161 '[textdict[1165452]]'
-play sfx2 "common_correct.ogg"
 hide p1
 hide p16
 show sc008_01 4 as p16 at l(-18), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
+play sfx2 "common_correct.ogg"
 c23 '[textdict[1165453]]'
 hide p16
 hide p2

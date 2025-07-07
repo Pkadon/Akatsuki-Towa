@@ -9,10 +9,10 @@ c12321 '[textdict[1153118]]'
 c12321 '[textdict[1153119]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1153120]]'
-play sfxvoice "avg_vocal_ch04_b.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 18 as p2 at l_entrance(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch04_b.ogg"
 c21 '[textdict[1153121]]'
 hide p2
 hide p1

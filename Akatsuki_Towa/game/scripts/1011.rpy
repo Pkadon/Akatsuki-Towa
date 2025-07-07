@@ -13,11 +13,11 @@ hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2100135]]'
-play sfx2 "other_7036.ogg"
 hide p2
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc049_01 4 as p56 at l(-8), light, zorder 6
+play sfx2 "other_7036.ogg"
 c561 '[textdict[2100136]]'
 hide p1
 hide p56
@@ -64,11 +64,11 @@ hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
 show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2100145]]'
-play sfxvoice "avg_vocal_na20.ogg"
 hide p2
 hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[2100146]]'
 hide p56
 hide p1

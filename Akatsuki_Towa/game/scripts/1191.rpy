@@ -18,12 +18,12 @@ c26303 '[textdict[2107244]]'
 play music "ed7300.ogg"
 scene avg_bg_071
 with fade
-play sfx2 "fight_6018.ogg"
 show occ02_01 9 as p2633 at l(-3), light, zorder 6
+play sfx2 "fight_6018.ogg"
 c26331 '[textdict[2107245]]' (what_size=(gui.text_size*1.2)) with shake
-play sfx2 "fight_6021.ogg"
 hide p2633
 show occ02_01 4 as p2633 at l(-3), light, zorder 6
+play sfx2 "fight_6021.ogg"
 c26331 '[textdict[2107246]]' (what_size=(gui.text_size*1.2))
 hide p2633
 show occ02_01 17 as p2633 at l(-3), light, zorder 6
@@ -238,11 +238,11 @@ hide p2630
 show scc45_01 4 as p2630 at r(-11), dark, zorder 5
 show occ02_01 2 as p2625 at l(-3), light, zorder 6
 c26251 '[textdict[2107294]]'
-play sfx2 "fight_6025.ogg"
 hide p2630
 hide p2625
 show occ02_01 2 as p2625 at l(-3), dark, zorder 6
 show scc45_01 4 as p2630 at r(-11), light, zorder 5
+play sfx2 "fight_6025.ogg"
 c26303 '[textdict[2107295]]'
 hide p2625
 hide p2630

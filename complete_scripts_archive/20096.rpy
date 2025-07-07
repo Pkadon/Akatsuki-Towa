@@ -25,11 +25,11 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc041_01 4 as p48 at l_midback(-9), light, zorder 6
 c481 '[textdict[1004714]]'
-play sfxvoice "avg_vocal_na21.ogg"
 hide p1
 hide p48
 show sc041_01 4 as p48 at l(-9), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1004715]]'
 hide p48
 hide p1
@@ -92,11 +92,11 @@ hide p1
 show oc001_01 3 as p1 at r(-2), dark, zorder 5
 show sc041_01 4 as p48 at l(-9), light, zorder 6
 c481 '[textdict[1004727]]'
-play sfxvoice "avg_vocal_na21.ogg"
 hide p1
 hide p48
 show sc041_01 4 as p48 at l(-9), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1004728]]'
 hide p48
 hide p1

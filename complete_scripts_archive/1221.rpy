@@ -126,8 +126,8 @@ show sc011_01 3 as p19 at l(-1), light, zorder 6
 c191 '[textdict[2110177]]' with shake
 scene avg_bg_064
 with fade
-play sfx2 "other_7045.ogg"
 show sc011_01 3 as p19 at l_exit(-1), light, zorder 6
+play sfx2 "other_7045.ogg"
 c191 '[textdict[2110178]]'
 hide p19
 stop music
@@ -263,17 +263,17 @@ c13 '[textdict[2110205]]'
 stop music
 scene avg_bg_064
 with fade
-play sfx2 "other_7064.ogg"
 show oc001_01 2 as p1 at r_entrance(-2), light, zorder 5
-c13 '[textdict[2110206]]'
 play sfx2 "other_7064.ogg"
+c13 '[textdict[2110206]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7064.ogg"
 c13 '[textdict[2110207]]'
 hide p1
-play sfx2 "other_7085.ogg"
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 with fade
+play sfx2 "other_7085.ogg"
 c13 '[textdict[2110208]]'
 hide p1
 show oc001_01 10 as p1 at r_midback(-2), light, zorder 5

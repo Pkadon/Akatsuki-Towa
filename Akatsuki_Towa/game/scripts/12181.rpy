@@ -24,10 +24,10 @@ hide p1
 show sc022_01 2 as p500 at l(-9), light, zorder 6
 with fade
 c5001 '[textdict[1120604]]'
-play sfxvoice "avg_vocal_ch05.ogg"
 hide p500
 show sc022_01 2 as p500 at l(-9), dark, zorder 6
 show oc002_01 6 as p2 at r_entrance(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch05.ogg"
 c23 '[textdict[1120605]]'
 hide p2
 hide p500

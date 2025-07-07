@@ -121,12 +121,12 @@ show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1181793]]'
 hide p3
 c0 '[textdict[1181794]]'
-play sfx2 "other_7071.ogg"
 show oc003_01 2 as p3 at r(-6), light, zorder 5
+play sfx2 "other_7071.ogg"
 c33 '[textdict[1181795]]'
-play sfx2 "other_7072.ogg"
 hide p3
 show oc003_01 1 as p3 at r(-6), light, zorder 5
+play sfx2 "other_7072.ogg"
 c33 '[textdict[1181796]]'
 play music "ed7511.ogg"
 hide p3

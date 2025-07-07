@@ -4,20 +4,20 @@ stop music
 play music "ed7513.ogg"
 scene avg_bg_007
 with fade
-play sfx2 "other_7024.ogg"
 show oc006_01 4 as p6 at l(-5), light, zorder 6
+play sfx2 "other_7024.ogg"
 c61 '[textdict[1131483]]'
-play sfx2 "other_7024.ogg"
 hide p6
 show oc006_01 4 as p6 at l(-5), light, zorder 6
+play sfx2 "other_7024.ogg"
 c61 '[textdict[1131484]]'
+hide p6
+show oc006_01 4 as p6 at l(-5), light, zorder 6
 play sfx2 "other_7024.ogg"
-hide p6
-show oc006_01 4 as p6 at l(-5), light, zorder 6
 c61 '[textdict[1131485]]'
-play sfx2 "other_7085.ogg"
 hide p6
 show oc006_01 4 as p6 at l(-5), light, zorder 6
+play sfx2 "other_7085.ogg"
 c61 '[textdict[1131486]]'
 hide p6
 show oc006_01 4 as p6 at l(-5), dark, zorder 6
@@ -178,9 +178,9 @@ hide p5006
 show oc006_01 4 as p6 at l(-5), light, zorder 6
 with fade
 c61 '[textdict[1131518]]'
-play sfx2 "other_7022.ogg"
 hide p6
 show oc006_01 4 as p6 at l(-5), light, zorder 6
+play sfx2 "other_7022.ogg"
 c61 '[textdict[1131519]]'
 hide p6
 show oc006_01 4 as p6 at l(-5), light, zorder 6

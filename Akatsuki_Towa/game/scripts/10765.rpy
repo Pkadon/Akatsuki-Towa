@@ -6,10 +6,10 @@ scene avg_bg_206
 with fade
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1175165]]'
-play sfx2 "other_7080.ogg"
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7080.ogg"
 c13 '[textdict[1175166]]'
 hide p1
 hide p3
@@ -73,9 +73,9 @@ hide p1
 c0 '[textdict[1175180]]'
 show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1175181]]'
-play sfx2 "other_7080.ogg"
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7080.ogg"
 c5001 '[textdict[1175182]]'
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
@@ -176,9 +176,9 @@ play sfx2 "other_7059.ogg"
 c0 '[textdict[1175203]]'
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1175204]]'
-play sfx2 "other_7080.ogg"
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
+play sfx2 "other_7080.ogg"
 c5001 '[textdict[1175205]]' with shake
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5

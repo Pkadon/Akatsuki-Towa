@@ -49,11 +49,11 @@ hide p611
 show sc071_01 4 as p611 at r(-20), dark, zorder 5
 show st029_01 4 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[1141835]]'
-play sfx2 "fight_6016.ogg"
 hide p610
 hide p611
 show sc071_01 4 as p611 at r(-20), dark, zorder 5
 show st029_01 2 as p610 at l(-28), l_shake, light, zorder 6
+play sfx2 "fight_6016.ogg"
 c6101 '[textdict[1141836]]'
 hide p610
 hide p611

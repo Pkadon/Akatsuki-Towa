@@ -8,8 +8,8 @@ play sfx2 "other_7060.ogg"
 c0 '[textdict[1175888]]'
 play sfx2 "other_7060.ogg"
 c0 '[textdict[1175889]]'
-play sfx2 "other_7047.ogg"
 show oc001_01 8 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[1175890]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5

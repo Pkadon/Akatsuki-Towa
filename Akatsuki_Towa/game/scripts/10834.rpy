@@ -7,8 +7,8 @@ with fade
 c0 '[textdict[1187126]]'
 scene avg_bg_035
 with fade
-play sfx2 "other_7047.ogg"
 show oc001_01 19 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[1187127]]'
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
@@ -383,11 +383,11 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1187202]]'
-play sfx2 "other_7047.ogg"
 hide p1
 hide p692
 show st044_01 4 as p692 at l(10), dark, zorder 6
 show sc007_01 1 as p15 at r_entrance(-17), light, zorder 5
+play sfx2 "other_7047.ogg"
 c153 '[textdict[1187203]]'
 hide p692
 hide p15

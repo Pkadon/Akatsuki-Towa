@@ -9,10 +9,10 @@ c601 '[textdict[2102284]]'
 hide p60
 show sc053_01 5 as p60 at l_midback(-32), light, zorder 6
 c601 '[textdict[2102285]]'
-play sfxvoice "bcv_oc001_hurt_01.ogg"
 hide p60
 show sc053_01 5 as p60 at l(-32), dark, zorder 6
 show oc001_01 13 as p1 at r(-2), light, zorder 5
+play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[2102286]]'
 hide p60
 hide p1
@@ -98,11 +98,11 @@ hide p60
 show sc053_01 5 as p60 at l(-32), dark, zorder 6
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102306]]'
-play sfxvoice "avg_vocal_na14.ogg"
 hide p1
 hide p60
 show sc053_01 5 as p60 at l(-32), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na14.ogg"
 c13 '[textdict[2102307]]' with shake
 hide p1
 hide p60
@@ -126,9 +126,9 @@ c7481 '[textdict[2102311]]'
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
 c7481 '[textdict[2102312]]'
-play sfxvoice "avg_vocal_na04_b.ogg"
 hide p1
 show oc001_01 7 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[2102313]]'
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5

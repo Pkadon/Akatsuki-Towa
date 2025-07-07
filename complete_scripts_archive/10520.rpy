@@ -40,9 +40,9 @@ c12293 '[textdict[1151934]]'
 c12301 '[textdict[1151935]]'
 show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1151936]]'
-play sfxvoice "avg_vocal_na02.ogg"
 hide p2
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1151937]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5

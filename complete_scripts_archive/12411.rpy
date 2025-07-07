@@ -4,8 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene placeholderbackground
 with fade
-play sfx2 "other_7057.ogg"
 show uc003_04 1 as p1045 at l(-14), l_shake, light, zorder 6
+play sfx2 "other_7057.ogg"
 c10451 '[textdict[1142604]]'
 hide p1045
 show uc003_04 1 as p1045 at l(-14), dark, zorder 6
@@ -66,11 +66,11 @@ hide p4
 show oc004_01 13 as p4 at r(-5), dark, zorder 5
 show uc003_04 1 as p1046 at l(-14), light, zorder 6
 c10461 '[textdict[1142616]]'
-play sfxvoice "avg_vocal_li10.ogg"
 hide p4
 hide p1046
 show uc003_04 1 as p1046 at l(-14), dark, zorder 6
 show oc004_01 13 as p4 at r(-5), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_li10.ogg"
 c43 '[textdict[1142617]]'
 hide p4
 hide p1046

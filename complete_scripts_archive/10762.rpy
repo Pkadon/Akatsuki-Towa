@@ -40,10 +40,10 @@ hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show st061_01 4 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1175143]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p1304
 show st061_01 4 as p1304 at l(-2), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1175144]]'
 return

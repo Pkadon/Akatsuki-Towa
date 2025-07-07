@@ -108,26 +108,26 @@ c26913 '[textdict[2109733]]'
 hide p2691
 show scc39_01 1 as p2691 at r(-13), light, zorder 5
 c26913 '[textdict[2109734]]'
-play sfx2 "other_7093.ogg"
 hide p2691
 show scc39_01 4 as p2691 at r(-13), r_shake, light, zorder 5
+play sfx2 "other_7093.ogg"
 c26913 '[textdict[2109735]]'
-play sfx2 "other_7062.ogg"
 hide p2691
 show scc39_01 4 as p2691 at r(-13), dark, zorder 5
+play sfx2 "other_7062.ogg"
 c26791 '[textdict[2109736]]' with shake
 hide p2691
 show scc39_01 5 as p2691 at r(-13), light, zorder 5
 c26913 '[textdict[2109737]]'
-play sfx2 "other_7061.ogg"
 hide p2691
 show scc39_01 5 as p2691 at r(-13), dark, zorder 5
 show st023_01 1 as p222 at l(-12), light, zorder 6
-c2221 '[textdict[2109738]]'
 play sfx2 "other_7061.ogg"
+c2221 '[textdict[2109738]]'
 hide p2691
 hide p222
 show st023_01 1 as p222 at l(-12), dark, zorder 6
+play sfx2 "other_7061.ogg"
 c6533 '[textdict[2109739]]'
 hide p222
 c25101 '[textdict[2109740]]'
@@ -138,21 +138,21 @@ c26923 '[textdict[2109742]]'
 hide p2692
 show scb52_01 5 as p2692 at r(-25), light, zorder 5
 c26923 '[textdict[2109743]]'
-play sfx2 "other_7062.ogg"
 hide p2692
 show scb52_01 5 as p2692 at r(-25), dark, zorder 5
-c26961 '[textdict[2109744]]' with shake
 play sfx2 "other_7062.ogg"
+c26961 '[textdict[2109744]]' with shake
 hide p2692
 show scb52_01 6 as p2692 at r(-25), light, zorder 5
-c26923 '[textdict[2109745]]'
 play sfx2 "other_7062.ogg"
+c26923 '[textdict[2109745]]'
 hide p2692
 show scb52_01 6 as p2692 at r(-25), dark, zorder 5
+play sfx2 "other_7062.ogg"
 c26961 '[textdict[2109746]]'
-play sfx2 "other_7061.ogg"
 hide p2692
 show scb52_01 6 as p2692 at r(-25), dark, zorder 5
+play sfx2 "other_7061.ogg"
 c26961 '[textdict[2109747]]'
 hide p2692
 show scb52_01 5 as p2692 at r(-25), light, zorder 5

@@ -14,8 +14,8 @@ show oc001_01 4 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1002837]]'
 hide p1
 c13 '[textdict[1002838]]'
-play sfxvoice "avg_vocal_ro14.ogg"
 show oc003_01 4 as p3 at mid(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro14.ogg"
 c33 '[textdict[1002839]]'
 hide p3
 show oc001_01 4 as p1 at mid(-2), light, zorder 5

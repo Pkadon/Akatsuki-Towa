@@ -5,8 +5,8 @@ play music "ed7124.ogg"
 scene avg_bg_059
 with fade
 c0 '[textdict[2102438]]'
-play sfx2 "other_7047.ogg"
 show oc002_01 8 as p2 at r_entrance(-3), light, zorder 5
+play sfx2 "other_7047.ogg"
 c23 '[textdict[2102439]]'
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
@@ -33,17 +33,17 @@ hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2102447]]'
-play sfxvoice "avg_vocal_ro10.ogg"
 hide p4
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc003_01 2 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro10.ogg"
 c31 '[textdict[2102448]]'
-play sfxvoice "avg_vocal_ch04.ogg"
 hide p1
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
 show oc002_01 5 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch04.ogg"
 c23 '[textdict[2102449]]'
 hide p3
 hide p2
@@ -53,11 +53,11 @@ hide p2
 show oc002_01 5 as p2 at r(-3), dark, zorder 5
 show st004_01 2 as p204 at l_entrance(4), light, zorder 6
 c2041 '[textdict[2102451]]'
-play sfxvoice "avg_vocal_li10.ogg"
 hide p2
 hide p204
 show st004_01 2 as p204 at l(4), dark, zorder 6
 show oc004_01 12 as p4 at r(-5), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_li10.ogg"
 c43 '[textdict[2102452]]'
 hide p4
 hide p204
@@ -82,9 +82,9 @@ c23 '[textdict[2102457]]'
 hide p2
 show oc002_01 13 as p2 at r(-3), dark, zorder 5
 c9771 '[textdict[2102458]]'
-play sfxvoice "avg_vocal_li26.ogg"
 hide p2
 show oc004_01 7 as p4 at r(-5), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_li26.ogg"
 c43 '[textdict[2102459]]'
 hide p4
 show oc004_01 7 as p4 at r(-5), light, zorder 5
@@ -123,22 +123,22 @@ hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc002_01 6 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2102467]]'
-play sfx2 "other_7087.ogg"
 hide p2
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc002_01 9 as p2 at r(-3), light, zorder 5
+play sfx2 "other_7087.ogg"
 c23 '[textdict[2102468]]' with shake
 hide p2
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102469]]'
-play sfx2 "other_7088.ogg"
 hide p3
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 5 as p2 at l_midback(-3), light, zorder 6
+play sfx2 "other_7088.ogg"
 c21 '[textdict[2102470]]'
 hide p1
 hide p2
@@ -150,11 +150,11 @@ hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2102472]]'
-play sfxvoice "avg_vocal_na21.ogg"
 hide p1
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[2102473]]'
 hide p1
 hide p2
@@ -166,33 +166,33 @@ hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show oc003_01 2 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2102475]]'
-play sfxvoice "avg_vocal_ch29.ogg"
 hide p1
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
 show oc002_01 18 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch29.ogg"
 c23 '[textdict[2102476]]'
 hide p3
 hide p2
 show oc002_01 18 as p2 at r(-3), dark, zorder 5
 show oc003_01 5 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2102477]]'
-play sfx2 "other_7088.ogg"
 hide p3
 hide p2
 show oc002_01 18 as p2 at r(-3), dark, zorder 5
 show oc003_01 1 as p3 at l(-6), light, zorder 6
+play sfx2 "other_7088.ogg"
 c31 '[textdict[2102478]]'
 hide p2
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
 show oc002_01 14 as p2 at r(-3), light, zorder 5
 c23 '[textdict[2102479]]'
-play sfx2 "other_7088.ogg"
 hide p2
 hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
 show oc002_01 5 as p2 at r_midback(-3), light, zorder 5
+play sfx2 "other_7088.ogg"
 c23 '[textdict[2102480]]'
 hide p3
 hide p2
@@ -213,11 +213,11 @@ hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102485]]'
-play sfxvoice "avg_vocal_ro09.ogg"
 hide p3
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[2102486]]'
 hide p3
 hide p1
@@ -234,11 +234,11 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc003_01 15 as p3 at l(-6), light, zorder 6
 c31 '[textdict[2102489]]'
-play sfxvoice "avg_vocal_na11.ogg"
 hide p1
 hide p3
 show oc003_01 15 as p3 at l(-6), dark, zorder 6
 show oc001_01 13 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na11.ogg"
 c13 '[textdict[2102490]]'
 hide p3
 hide p1
@@ -273,11 +273,11 @@ hide p4
 show oc004_01 13 as p4 at l(-5), dark, zorder 6
 show st004_01 5 as p204 at r_entrance(4), light, zorder 5
 c2043 '[textdict[2102498]]'
-play sfxvoice "avg_vocal_li09.ogg"
 hide p4
 hide p204
 show st004_01 5 as p204 at r(4), dark, zorder 5
 show oc004_01 23 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li09.ogg"
 c41 '[textdict[2102499]]'
 hide p204
 hide p4
@@ -287,11 +287,11 @@ hide p4
 show oc004_01 23 as p4 at l(-5), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102501]]'
-play sfx2 "other_7088.ogg"
 hide p1
 hide p4
 show oc004_01 23 as p4 at l(-5), dark, zorder 6
 show oc002_01 13 as p2 at r_midback(-3), light, zorder 5
+play sfx2 "other_7088.ogg"
 c23 '[textdict[2102502]]'
 hide p4
 hide p2
@@ -342,9 +342,9 @@ hide p2
 hide p4
 show oc004_01 13 as p4 at l(-5), dark, zorder 6
 c9773 '[textdict[2102512]]'
-play sfxvoice "avg_vocal_li11.ogg"
 hide p4
 show oc004_01 12 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li11.ogg"
 c41 '[textdict[2102513]]'
 hide p4
 show oc004_01 12 as p4 at l(-5), dark, zorder 6
@@ -373,11 +373,11 @@ hide p4
 show oc004_01 15 as p4 at l(-5), dark, zorder 6
 show st004_01 5 as p204 at r(4), light, zorder 5
 c2043 '[textdict[2102519]]'
-play sfxvoice "avg_vocal_li08.ogg"
 hide p4
 hide p204
 show st004_01 5 as p204 at r(4), dark, zorder 5
 show oc004_01 23 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li08.ogg"
 c41 '[textdict[2102520]]'
 hide p4
 hide p204

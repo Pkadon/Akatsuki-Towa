@@ -138,8 +138,8 @@ c13 '[textdict[1153110]]'
 play music "ed9998.ogg"
 scene avg_bg_003
 with fade
-play sfx2 "other_7017.ogg"
 show oc003_01 5 as p3 at l(-6), light, zorder 6
+play sfx2 "other_7017.ogg"
 c31 '[textdict[1153111]]'
 hide p3
 show oc003_01 4 as p3 at l(-6), light, zorder 6

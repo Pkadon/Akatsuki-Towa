@@ -80,10 +80,10 @@ hide p2668
 show oce04_01 2 as p2668 at r(-5), dark, zorder 5
 show oc006_01 1 as p6 at l(-5), light, zorder 6
 c61 '[textdict[2112921]]'
-play sfx2 "other_7088.ogg"
 hide p2668
 hide p6
 show oc006_01 1 as p6 at l(-5), dark, zorder 6
+play sfx2 "other_7088.ogg"
 c26683 '[textdict[2112922]]'
 hide p6
 show oc006_01 5 as p6 at l(-5), light, zorder 6
@@ -109,11 +109,11 @@ hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 show oc006_01 5 as p6 at l(-5), light, zorder 6
 c61 '[textdict[2112929]]'
-play sfx2 "other_7088.ogg"
 hide p6
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 show oc006_01 1 as p6 at l(-5), light, zorder 6
+play sfx2 "other_7088.ogg"
 c61 '[textdict[2112930]]'
 hide p6
 hide p2668
@@ -137,10 +137,10 @@ hide p2668
 c0 '[textdict[2112936]]'
 show uc002_03 4 as p5006 at l_midback(-23), light, zorder 6
 c50061 '[textdict[2112937]]'
-play sfx2 "fight_6010.ogg"
 hide p5006
 show uc002_03 4 as p5006 at l(-23), dark, zorder 6
 show oce04_01 12 as p2668 at r(-5), r_shake, light, zorder 5
+play sfx2 "fight_6010.ogg"
 c26683 '[textdict[2112938]]'
 hide p5006
 hide p2668
@@ -152,10 +152,10 @@ hide p2668
 show oce04_01 12 as p2668 at r(-5), dark, zorder 5
 show uc002_03 4 as p5008 at l(-23), light, zorder 6
 c50081 '[textdict[2112940]]'
-play sfx2 "other_7062.ogg"
 hide p5008
 hide p2668
 show oce04_01 12 as p2668 at r(-5), dark, zorder 5
+play sfx2 "other_7062.ogg"
 c27711 '[textdict[2112941]]' (what_size=(gui.text_size*1.15)) with shake
 hide p2668
 show oce04_01 16 as p2668 at r(-5), r_shake, light, zorder 5
@@ -230,9 +230,9 @@ c6431 '[textdict[2112957]]'
 hide p2668
 show oce04_01 1 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[2112958]]'
-play sfx2 "other_7087.ogg"
 hide p2668
 show oce04_01 16 as p2668 at r(-5), light, zorder 5
+play sfx2 "other_7087.ogg"
 c26683 '[textdict[2112959]]' with shake
 hide p2668
 show oce04_01 16 as p2668 at r(-5), dark, zorder 5

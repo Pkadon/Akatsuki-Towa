@@ -572,9 +572,9 @@ hide p2731
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
 c25921 '[textdict[2112236]]'
-play sfx2 "elc_5002.ogg"
 hide p47
 show sc040_01 4 as p47 at r(-9), light, zorder 5
+play sfx2 "elc_5002.ogg"
 c473 '[textdict[2112237]]' (what_size=(gui.text_size*1.25))
 hide p47
 show sc040_01 4 as p47 at r(-9), dark, zorder 5
@@ -620,24 +620,24 @@ show oca00_01 1 as p2731 at l(-2), light, zorder 6
 c27311 '[textdict[2112246]]'
 hide p2731
 hide p47
-play sfx2 "other_7064.ogg"
 with fade
+play sfx2 "other_7064.ogg"
 c27611 '[textdict[2112247]]'
 play sfx2 "other_7064.ogg"
 c27611 '[textdict[2112248]]'
 play sfx2 "other_7064.ogg"
 c27611 '[textdict[2112249]]'
-play sfx2 "other_7064.ogg"
 show sc040_01 1 as p47 at l(-9), light, zorder 6
 with fade
+play sfx2 "other_7064.ogg"
 c471 '[textdict[2112250]]'
-play sfx2 "elc_5005.ogg"
 hide p47
 show sc040_01 1 as p47 at l(-9), light, zorder 6
+play sfx2 "elc_5005.ogg"
 c471 '[textdict[2112251]]'
-play sfx2 "fight_6026.ogg"
 hide p47
 show sc040_01 4 as p47 at l(-9), light, zorder 6
+play sfx2 "fight_6026.ogg"
 c471 '[textdict[2112252]]'
 hide p47
 play sfx2 "fight_6009.ogg"

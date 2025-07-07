@@ -231,10 +231,10 @@ show sc015_01 1 as p23 at l(9), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106389]]'
 play music "ed7511.ogg"
-play sfx2 "other_7079.ogg"
 hide p23
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7079.ogg"
 c5001 '[textdict[2106390]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
@@ -280,11 +280,11 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show sc015_01 1 as p23 at l(9), light, zorder 6
 c231 '[textdict[2106399]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p23
 show sc015_01 1 as p23 at l(9), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[2106400]]'
 play music "ed7203.ogg"
 hide p23

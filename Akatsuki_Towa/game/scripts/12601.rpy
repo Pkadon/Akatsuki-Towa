@@ -12,9 +12,9 @@ c23 '[textdict[1161119]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c12321 '[textdict[1161120]]'
-play sfxvoice "avg_vocal_ch11.ogg"
 hide p2
 show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1161121]]'
 hide p2
 show oc003_01 4 as p3 at r(-6), light, zorder 5

@@ -5,8 +5,8 @@ play music "ED6523.ogg"
 scene avg_bg_081
 with fade
 c12411 '[textdict[1153059]]'
-play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1153060]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5

@@ -96,11 +96,11 @@ hide p18
 show sc010_01 1 as p18 at r(-10), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1163693]]'
-play sfx2 "other_7004.ogg"
 hide p239
 hide p18
 show sc010_01 1 as p18 at r(-10), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
+play sfx2 "other_7004.ogg"
 c2391 '[textdict[1163694]]'
 hide p18
 hide p239

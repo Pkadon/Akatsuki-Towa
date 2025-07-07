@@ -4,8 +4,8 @@ stop music
 play music "ED6105.ogg"
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show sc010_01 1 as p18 at l_entrance(-10), light, zorder 6
+play sfx2 "other_7047.ogg"
 c181 '[textdict[1180191]]'
 hide p18
 show sc010_01 1 as p18 at l(-10), dark, zorder 6
@@ -133,15 +133,15 @@ c181 '[textdict[1180218]]'
 hide p18
 show sc010_01 1 as p18 at l(-10), light, zorder 6
 c181 '[textdict[1180219]]'
-play sfx2 "other_7071.ogg"
 hide p18
 show sc010_01 1 as p18 at l(-10), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7071.ogg"
 c13 '[textdict[1180220]]'
-play sfx2 "other_7072.ogg"
 hide p18
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7072.ogg"
 c13351 '[textdict[1180221]]'
 play music "ed7516.ogg"
 hide p1
@@ -208,14 +208,14 @@ hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1180239]]'
-play sfx2 "other_7071.ogg"
 hide p2
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
+play sfx2 "other_7071.ogg"
 c13351 '[textdict[1180240]]'
-play sfx2 "other_7072.ogg"
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
+play sfx2 "other_7072.ogg"
 c13351 '[textdict[1180241]]'
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
@@ -287,8 +287,8 @@ play music "ed7511.ogg"
 scene avg_bg_202
 with fade
 c0 '[textdict[1180260]]'
-play sfx2 "other_7079.ogg"
 show st063_01 3 as p1346 at l(-16), l_shake, light, zorder 6
+play sfx2 "other_7079.ogg"
 c13461 '[textdict[1180261]]'
 hide p1346
 c0 '[textdict[1180262]]'
@@ -318,11 +318,11 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show st063_01 4 as p1346 at l(-16), light, zorder 6
 c13461 '[textdict[1180268]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p1346
 show st063_01 4 as p1346 at l(-16), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1180269]]'
 hide p1346
 hide p1

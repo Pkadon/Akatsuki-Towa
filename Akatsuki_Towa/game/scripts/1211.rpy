@@ -330,25 +330,25 @@ c12671 '[textdict[2109170]]'
 stop music
 hide p1267
 hide p1
-play sfx2 "other_7064.ogg"
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 with fade
+play sfx2 "other_7064.ogg"
 c13 '[textdict[2109171]]'
-play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c25161 '[textdict[2109172]]'
-play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c25171 '[textdict[2109173]]'
-play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c11471 '[textdict[2109174]]'
-play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c11481 '[textdict[2109175]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), light, zorder 5

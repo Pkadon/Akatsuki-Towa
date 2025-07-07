@@ -6,8 +6,8 @@ scene placeholderbackground
 with fade
 c0 '[textdict[1120710]]'
 c0 '[textdict[1120711]]'
-play sfx2 "other_7020.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7020.ogg"
 c13 '[textdict[1120712]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5

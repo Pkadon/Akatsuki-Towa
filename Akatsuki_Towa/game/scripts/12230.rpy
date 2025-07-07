@@ -5,8 +5,8 @@ play music "ed7105.ogg"
 scene avg_bg_023
 with fade
 c6891 '[textdict[1121103]]'
-play sfxvoice "avg_vocal_na15.ogg"
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na15.ogg"
 c13 '[textdict[1121104]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5

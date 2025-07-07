@@ -21,22 +21,22 @@ hide p56
 show sc049_01 5 as p56 at l(-8), dark, zorder 6
 show oc001_01 22 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2111256]]'
-play sfx2 "other_7044.ogg"
 hide p1
 hide p56
 show sc049_01 5 as p56 at l(-8), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7044.ogg"
 c13 '[textdict[2111257]]'
 hide p56
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2111258]]'
-play sfx2 "other_7047.ogg"
 hide p56
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc013_01 5 as p21 at l_entrance(-12), light, zorder 6
+play sfx2 "other_7047.ogg"
 c211 '[textdict[2111259]]'
 hide p1
 hide p21
@@ -432,8 +432,8 @@ c27291 '[textdict[2111345]]'
 c27301 '[textdict[2111346]]'
 c0 '[textdict[2111347]]'
 stop music
-play sfx2 "other_7045.ogg"
 show sc013_01 4 as p21 at r_entrance(-12), light, zorder 5
+play sfx2 "other_7045.ogg"
 c213 '[textdict[2111348]]' (what_size=(gui.text_size*1.25)) with shake
 play music "ED6517.ogg"
 hide p21
@@ -442,9 +442,9 @@ c27281 '[textdict[2111349]]' with shake
 hide p21
 show sc013_01 4 as p21 at r(-12), light, zorder 5
 c213 '[textdict[2111350]]'
-play sfx2 "fight_6026.ogg"
 hide p21
 show sc013_01 4 as p21 at r(-12), light, zorder 5
+play sfx2 "fight_6026.ogg"
 c213 '[textdict[2111351]]'
 hide p21
 show sc013_01 4 as p21 at r(-12), dark, zorder 5
@@ -455,13 +455,13 @@ c213 '[textdict[2111353]]'
 hide p21
 show sc013_01 4 as p21 at r(-12), dark, zorder 5
 c27281 '[textdict[2111354]]' with shake
-play sfx2 "fight_6010.ogg"
 hide p21
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6010.ogg"
 c13 '[textdict[2111355]]'
-play sfx2 "other_7057.ogg"
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7057.ogg"
 c27281 '[textdict[2111356]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5

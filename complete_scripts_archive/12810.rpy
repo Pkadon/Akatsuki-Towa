@@ -100,11 +100,11 @@ show oc001_01 16 as p1 at r(-2), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1182053]]'
 stop music
-play sfx2 "other_7052.ogg"
 hide p2
 hide p1
 show oc001_01 16 as p1 at r(-2), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
+play sfx2 "other_7052.ogg"
 c21 '[textdict[1182054]]'
 hide p1
 hide p2

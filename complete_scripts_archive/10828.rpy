@@ -48,9 +48,9 @@ c43 '[textdict[1185822]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 c15251 '[textdict[1185823]]'
-play sfx2 "other_7004.ogg"
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
+play sfx2 "other_7004.ogg"
 c15251 '[textdict[1185824]]'
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5

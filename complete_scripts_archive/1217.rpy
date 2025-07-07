@@ -72,15 +72,15 @@ c26951 '[textdict[2109804]]'
 hide p2695
 show sce09_01 1 as p2695 at l(-13), dark, zorder 6
 c5133 '[textdict[2109805]]'
-play sfx2 "other_7062.ogg"
 hide p2695
+play sfx2 "other_7062.ogg"
 c26791 '[textdict[2109806]]'
-play sfx2 "other_7061.ogg"
 show st023_01 6 as p222 at l(-12), light, zorder 6
-c2221 '[textdict[2109807]]'
 play sfx2 "other_7061.ogg"
+c2221 '[textdict[2109807]]'
 hide p222
 show st023_01 6 as p222 at l(-12), dark, zorder 6
+play sfx2 "other_7061.ogg"
 c6533 '[textdict[2109808]]'
 hide p222
 c26791 '[textdict[2109809]]'
@@ -133,9 +133,9 @@ scene avg_bg_024
 with fade
 show oc002_01 14 as p2 at r_midback(-3), light, zorder 5
 c23 '[textdict[2109834]]'
-play sfx2 "other_7057.ogg"
 hide p2
 show oc002_01 14 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7057.ogg"
 c26901 '[textdict[2109835]]'
 hide p2
 show oc002_01 12 as p2 at r(-3), light, zorder 5
@@ -173,10 +173,10 @@ c26901 '[textdict[2109846]]'
 hide p4
 show oc004_01 21 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2109847]]'
-play sfx2 "fight_6006.ogg"
 hide p4
 show oc004_01 21 as p4 at r(-5), dark, zorder 5
 show oc003_01 16 as p3 at l_exit_midback(-6), light, zorder 6
+play sfx2 "fight_6006.ogg"
 c31 '[textdict[2109848]]'
 hide p3
 hide p4

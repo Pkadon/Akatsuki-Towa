@@ -11,8 +11,8 @@ c20003 '[textdict[1210084]]'
 hide p2000
 show oc001_01 2 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210085]]'
-play sfx2 "common_35rewardholy.ogg"
 hide p1
 show uc001_01 1 as p2000 at mid(-2), light, zorder 5
+play sfx2 "common_35rewardholy.ogg"
 c20003 '[textdict[1210086]]'
 return

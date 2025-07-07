@@ -435,10 +435,10 @@ hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
 show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1184386]]'
-play sfx2 "elc_5005.ogg"
 hide p1304
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
+play sfx2 "elc_5005.ogg"
 c14491 '[textdict[1184387]]'
 hide p2
 show oc004_01 1 as p4 at r(-5), r_shake, light, zorder 5

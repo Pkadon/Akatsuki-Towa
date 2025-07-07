@@ -11,8 +11,8 @@ show oc001_01 9 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1002998]]'
 hide p1
 c4973 '[textdict[1002999]]'
-play sfx2 "other_7073.ogg"
 show oc001_01 18 as p1 at mid(-2), light, zorder 5
+play sfx2 "other_7073.ogg"
 c13 '[textdict[1003000]]'
 hide p1
 show oc001_01 3 as p1 at mid(-2), light, zorder 5

@@ -50,17 +50,17 @@ hide p1007
 show st053_01 1 as p1007 at r(-12), dark, zorder 5
 show oc001_01 2 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1130311]]'
-play sfxvoice "avg_vocal_ro05.ogg"
 hide p1007
 hide p1
 show oc001_01 2 as p1 at l(-2), dark, zorder 6
 show oc003_01 5 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro05.ogg"
 c33 '[textdict[1130312]]'
-play sfxvoice "avg_vocal_li21.ogg"
 hide p1
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
 show oc004_01 7 as p4 at l(-5), l_shake, light, zorder 6
+play sfxvoice "avg_vocal_li21.ogg"
 c41 '[textdict[1130313]]'
 hide p3
 hide p4

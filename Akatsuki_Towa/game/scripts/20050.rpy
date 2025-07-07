@@ -24,9 +24,9 @@ c43 '[textdict[1002782]]'
 hide p4
 show oc004_01 4 as p4 at mid(-5), light, zorder 5
 c43 '[textdict[1002783]]'
-play sfxvoice "avg_vocal_ch20.ogg"
 hide p4
 show oc002_01 17 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch20.ogg"
 c23 '[textdict[1002784]]'
 hide p2
 show oc001_01 4 as p1 at mid(-2), light, zorder 5

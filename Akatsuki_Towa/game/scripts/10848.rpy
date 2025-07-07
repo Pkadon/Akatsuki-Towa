@@ -265,8 +265,8 @@ scene avg_bg_003
 with fade
 play sfx2 "other_7022.ogg"
 c26191 '[textdict[1189330]]'
-play sfx2 "other_7018.ogg"
 show oc004_01 4 as p4 at l(-5), l_shake, light, zorder 6
+play sfx2 "other_7018.ogg"
 c41 '[textdict[1189331]]'
 play music "ed7512.ogg"
 hide p4
@@ -327,8 +327,8 @@ hide p4
 hide p1
 play sfx2 "other_7071.ogg"
 c0 '[textdict[1189345]]'
-play sfx2 "other_7071.ogg"
 show oc002_01 12 as p2 at r(-3), light, zorder 5
+play sfx2 "other_7071.ogg"
 c23 '[textdict[1189346]]'
 hide p2
 show oc002_01 4 as p2 at r(-3), light, zorder 5

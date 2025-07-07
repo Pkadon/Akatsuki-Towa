@@ -6,10 +6,10 @@ scene avg_bg_080
 with fade
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1155326]]'
-play sfxvoice "avg_vocal_ro09.ogg"
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[1155327]]'
 hide p4
 hide p3

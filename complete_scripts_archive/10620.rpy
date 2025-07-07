@@ -10,8 +10,8 @@ c0 '[textdict[1162124]]'
 play music "ed9999.ogg"
 scene avg_bg_050
 with fade
-play sfxvoice "avg_vocal_ro13.ogg"
 show oc003_01 8 as p3 at l_entrance(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro13.ogg"
 c31 '[textdict[1162125]]'
 hide p3
 show oc003_01 17 as p3 at l(-6), light, zorder 6
@@ -30,11 +30,11 @@ hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc003_01 8 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1162129]]'
-play sfxvoice "avg_vocal_na03.ogg"
 hide p1
 hide p3
 show oc003_01 8 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na03.ogg"
 c13 '[textdict[1162130]]'
 hide p3
 hide p1
@@ -51,10 +51,10 @@ show memoryoverlay zorder 2
 with fade
 show oc004_01 2 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1162133]]'
-play sfxvoice "avg_vocal_ch11.ogg"
 hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch11.ogg"
 c21 '[textdict[1162134]]'
 hide p2
 hide p4
@@ -66,11 +66,11 @@ hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
 show oc002_01 15 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1162136]]'
-play sfxvoice "avg_vocal_li19.ogg"
 hide p4
 hide p2
 show oc002_01 15 as p2 at l(-3), dark, zorder 6
 show oc004_01 7 as p4 at r(-5), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_li19.ogg"
 c43 '[textdict[1162137]]'
 hide p4
 hide p2
@@ -122,11 +122,11 @@ hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162147]]'
-play sfxvoice "avg_vocal_li03.ogg"
 hide p4
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc004_01 9 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li03.ogg"
 c41 '[textdict[1162148]]'
 hide p4
 hide p1
@@ -153,11 +153,11 @@ hide p4
 show oc004_01 1 as p4 at l(-5), dark, zorder 6
 show oc001_01 5 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162153]]'
-play sfxvoice "avg_vocal_ro11.ogg"
 hide p4
 hide p1
 show oc001_01 5 as p1 at r(-2), dark, zorder 5
 show oc003_01 5 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro11.ogg"
 c31 '[textdict[1162154]]'
 hide p1
 hide p3

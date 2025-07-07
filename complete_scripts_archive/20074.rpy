@@ -12,8 +12,8 @@ play sfx2 "other_7045.ogg"
 c0 '[textdict[1003944]]'
 scene avg_bg_022
 with fade
-play sfxvoice "avg_vocal_ro10.ogg"
 show oc003_01 2 as p3 at l_entrance(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro10.ogg"
 c31 '[textdict[1003945]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6

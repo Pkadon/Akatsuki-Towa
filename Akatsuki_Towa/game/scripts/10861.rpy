@@ -18,8 +18,8 @@ play music "ed7511.ogg"
 scene avg_bg_035
 with fade
 c0 '[textdict[1190975]]'
-play sfx2 "fight_6022.ogg"
 show oce02_01 4 as p2666 at r_entrance(-3), light, zorder 5
+play sfx2 "fight_6022.ogg"
 c26663 '[textdict[1190976]]'
 hide p2666
 show oce02_01 21 as p2666 at r(-3), light, zorder 5
@@ -78,17 +78,17 @@ hide p2666
 show oce02_01 5 as p2666 at r(-3), dark, zorder 5
 show uc003_01 1 as p2615 at l(-26), light, zorder 6
 c26151 '[textdict[1190988]]'
-play sfx2 "other_7057.ogg"
 hide p2615
 hide p2666
 show oce02_01 5 as p2666 at r(-3), dark, zorder 5
 show uc003_01 2 as p2615 at l(-26), light, zorder 6
-c26151 '[textdict[1190989]]'
 play sfx2 "other_7057.ogg"
+c26151 '[textdict[1190989]]'
 hide p2615
 hide p2666
 show oce02_01 5 as p2666 at r(-3), dark, zorder 5
 show uc003_01 2 as p507 at l(-26), light, zorder 6
+play sfx2 "other_7057.ogg"
 c5071 '[textdict[1190990]]' with shake
 hide p2666
 hide p507
@@ -413,9 +413,9 @@ hide p2666
 hide p2667
 show ocd03_01 17 as p2667 at l(-6), dark, zorder 6
 c14403 '[textdict[1191071]]'
-play sfx2 "fight_6010.ogg"
 hide p2667
 show ocd03_01 1 as p2667 at l_midback(-6), light, zorder 6
+play sfx2 "fight_6010.ogg"
 c26671 '[textdict[1191072]]'
 hide p2667
 show ocd03_01 5 as p2667 at l(-6), light, zorder 6

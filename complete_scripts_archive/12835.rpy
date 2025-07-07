@@ -147,16 +147,16 @@ hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
 show st061_01 2 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1185641]]' with shake
-play sfx2 "other_7034.ogg"
 hide p3
 hide p1304
 show st061_01 2 as p1304 at l(-2), dark, zorder 6
 show oc001_01 15 as p1 at r(-2), light, zorder 5
-c13 '[textdict[1185642]]'
 play sfx2 "other_7034.ogg"
+c13 '[textdict[1185642]]'
 hide p1304
 hide p1
 show oc001_01 15 as p1 at r(-2), dark, zorder 5
 show st061_01 4 as p1304 at l(-2), light, zorder 6
+play sfx2 "other_7034.ogg"
 c13041 '[textdict[1185643]]'
 return

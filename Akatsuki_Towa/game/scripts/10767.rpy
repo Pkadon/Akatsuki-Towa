@@ -137,9 +137,9 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c5001 '[textdict[1175259]]' with shake
 play music "ed7511.ogg"
-play sfx2 "fight_6025.ogg"
 hide p1
 show oc003_01 9 as p3 at r(-6), light, zorder 5
+play sfx2 "fight_6025.ogg"
 c33 '[textdict[1175260]]'
 hide p3
 show oc003_01 9 as p3 at r(-6), dark, zorder 5
@@ -182,8 +182,8 @@ hide p2
 hide p1
 play sfx2 "other_7057.ogg"
 c0 '[textdict[1175269]]'
-play sfx2 "fight_6024.ogg"
 show oc001_01 15 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1175270]]'
 hide p1
 show oc001_01 15 as p1 at r(-2), dark, zorder 5
@@ -235,8 +235,8 @@ c5001 '[textdict[1175281]]'
 stop music
 scene avg_bg_070
 with fade
-play sfx2 "other_7057.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7057.ogg"
 c13 '[textdict[1175282]]'
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5

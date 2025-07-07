@@ -33,9 +33,9 @@ c23 '[textdict[1120888]]'
 hide p2
 show oc002_01 5 as p2 at r(-3), dark, zorder 5
 c9891 '[textdict[1121463]]'
-play sfxvoice "avg_vocal_ch29.ogg"
 hide p2
 show oc002_01 18 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch29.ogg"
 c23 '[textdict[1121464]]'
 hide p2
 show oc002_01 18 as p2 at r(-3), dark, zorder 5
@@ -97,9 +97,9 @@ c23 '[textdict[1121473]]'
 hide p2
 show oc002_01 1 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1120897]]'
-play sfxvoice "avg_vocal_ch05.ogg"
 hide p2
 show oc002_01 6 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch05.ogg"
 c23 '[textdict[1120898]]'
 hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5

@@ -199,9 +199,9 @@ play sfx2 "fight_6008.ogg"
 c0 '[textdict[1184750]]'
 show st062_01 4 as p1308 at l_midback(-16), light, zorder 6
 c13081 '[textdict[1184751]]'
-play sfx2 "fight_6010.ogg"
 hide p1308
 show st062_01 4 as p1308 at l(-16), dark, zorder 6
+play sfx2 "fight_6010.ogg"
 c5003 '[textdict[1184752]]'
 hide p1308
 play sfx2 "other_7007.ogg"

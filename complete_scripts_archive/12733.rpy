@@ -33,9 +33,9 @@ c14421 '[textdict[1172135]]'
 hide p3
 show oc003_01 8 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1172136]]'
-play sfx2 "other_7087.ogg"
 hide p3
 show oc003_01 9 as p3 at r(-6), light, zorder 5
+play sfx2 "other_7087.ogg"
 c33 '[textdict[1172137]]' with shake
 hide p3
 show oc003_01 9 as p3 at r(-6), dark, zorder 5

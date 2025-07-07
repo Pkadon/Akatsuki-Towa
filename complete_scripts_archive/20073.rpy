@@ -25,8 +25,8 @@ c6541 '[textdict[1003936]]'
 c6541 '[textdict[1003937]]'
 c6541 '[textdict[1003938]]'
 c6553 '[textdict[1003939]]'
-play sfx2 "other_7047.ogg"
 show oc003_01 2 as p3 at l_entrance(-6), light, zorder 6
+play sfx2 "other_7047.ogg"
 c31 '[textdict[1003940]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6

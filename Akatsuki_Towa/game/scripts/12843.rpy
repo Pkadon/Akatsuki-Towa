@@ -250,9 +250,9 @@ c14161 '[textdict[1186339]]'
 hide p1304
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1186340]]'
-play sfx2 "other_7088.ogg"
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7088.ogg"
 c14161 '[textdict[1186341]]'
 hide p1304
 show oc002_01 2 as p2 at r(-3), light, zorder 5

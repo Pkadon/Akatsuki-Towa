@@ -6,22 +6,22 @@ scene avg_bg_080
 with fade
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1155443]]'
-play sfxvoice "avg_vocal_ro11.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro11.ogg"
 c31 '[textdict[1155444]]'
-play sfx2 "other_7017.ogg"
 hide p1
 hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfx2 "other_7017.ogg"
 c23 '[textdict[1155445]]'
-play sfx2 "other_7085.ogg"
 hide p3
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7085.ogg"
 c41 '[textdict[1155446]]'
 hide p4
 hide p2
@@ -83,11 +83,11 @@ hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1155458]]'
-play sfxvoice "avg_vocal_li18.ogg"
 hide p2
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc004_01 17 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li18.ogg"
 c41 '[textdict[1155459]]'
 hide p4
 hide p1

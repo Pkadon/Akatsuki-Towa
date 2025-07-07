@@ -14,8 +14,8 @@ c2401 '[textdict[2108790]]'
 hide p240
 show st041_01 4 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108791]]'
-play sfx2 "other_7062.ogg"
 hide p240
+play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108792]]'
 show sc009_01 5 as p17 at l(-13), light, zorder 6
 c171 '[textdict[2108793]]'
@@ -391,9 +391,9 @@ c2401 '[textdict[2108873]]'
 hide p240
 show st041_01 5 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108874]]'
-play sfx2 "other_7062.ogg"
 hide p240
 show st041_01 5 as p240 at l(-1), dark, zorder 6
+play sfx2 "other_7062.ogg"
 c26793 '[textdict[2108875]]' with shake
 hide p240
 show st041_01 1 as p240 at l(-1), light, zorder 6
@@ -465,17 +465,17 @@ c6101 '[textdict[2108890]]'
 hide p610
 show st029_01 5 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2108891]]'
-play sfx2 "other_7062.ogg"
 hide p610
 show st029_01 5 as p610 at l(-28), dark, zorder 6
+play sfx2 "other_7062.ogg"
 c26793 '[textdict[2108892]]'
 hide p610
 show st041_01 1 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108893]]'
-play sfx2 "other_7061.ogg"
 hide p240
 show st041_01 1 as p240 at l(-1), dark, zorder 6
 show st050_01 5 as p257 at r(-11), light, zorder 5
+play sfx2 "other_7061.ogg"
 c2573 '[textdict[2108894]]'
 play music "ed7550.ogg"
 hide p240

@@ -7,10 +7,10 @@ with fade
 c0 '[textdict[1152919]]'
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1152920]]'
-play sfxvoice "avg_vocal_ch19.ogg"
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch19.ogg"
 c23 '[textdict[1152921]]'
 hide p3
 hide p2

@@ -7,33 +7,33 @@ with fade
 play sfx2 "other_7060.ogg"
 c0 '[textdict[2111175]]'
 stop music
-play sfx2 "other_7071.ogg"
 show oc001_01 11 as p1 at r(-2), light, zorder 5
-c13 '[textdict[2111176]]'
 play sfx2 "other_7071.ogg"
+c13 '[textdict[2111176]]'
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5
-c13 '[textdict[2111177]]'
 play sfx2 "other_7071.ogg"
+c13 '[textdict[2111177]]'
 hide p1
 show oc001_01 11 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7071.ogg"
 c13 '[textdict[2111178]]'
 scene avg_bg_038
 with fade
-play sfx2 "other_7071.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
-c13 '[textdict[2111179]]' with shake
 play sfx2 "other_7071.ogg"
+c13 '[textdict[2111179]]' with shake
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
-c13 '[textdict[2111180]]'
 play sfx2 "other_7071.ogg"
+c13 '[textdict[2111180]]'
 hide p1
 show oc001_01 7 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7071.ogg"
 c13 '[textdict[2111181]]'
-play sfx2 "other_7072.ogg"
 hide p1
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7072.ogg"
 c13 '[textdict[2111182]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5

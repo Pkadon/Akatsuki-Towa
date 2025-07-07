@@ -50,14 +50,14 @@ c5381 '[textdict[1130139]]'
 hide p232
 show st033_01 3 as p232 at r(-7), dark, zorder 5
 c5381 '[textdict[1130140]]'
-play sfx2 "other_7020.ogg"
 hide p232
 show st033_01 6 as p232 at r_exit(-7), light, zorder 5
+play sfx2 "other_7020.ogg"
 c2323 '[textdict[1130141]]'
 hide p232
 play music "ed7101.ogg"
-play sfxvoice "avg_vocal_ro08.ogg"
 show oc003_01 5 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro08.ogg"
 c31 '[textdict[1130142]]'
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
@@ -73,10 +73,10 @@ hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc002_01 4 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1130145]]'
-play sfxvoice "avg_vocal_na06.ogg"
 hide p2
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na06.ogg"
 c13 '[textdict[1130146]]'
 return

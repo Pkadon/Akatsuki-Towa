@@ -4,8 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene avg_bg_034
 with fade
-play sfx2 "other_7062.ogg"
 show oc002_01 12 as p2 at l(-3), light, zorder 6
+play sfx2 "other_7062.ogg"
 c21 '[textdict[1003263]]'
 hide p2
 show oc002_01 8 as p2 at l(-3), light, zorder 6
@@ -23,13 +23,13 @@ hide p1
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 c6063 '[textdict[1003267]]'
-play sfxvoice "avg_vocal_ch10.ogg"
 hide p3
 show oc002_01 2 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch10.ogg"
 c21 '[textdict[1003268]]'
-play sfxvoice "avg_vocal_na15.ogg"
 hide p2
 show oc001_01 1 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na15.ogg"
 c11 '[textdict[1003269]]'
 hide p1
 show oc001_01 1 as p1 at l(-2), dark, zorder 6
@@ -37,9 +37,9 @@ c6063 '[textdict[1003270]]'
 hide p1
 show oc001_01 1 as p1 at l(-2), dark, zorder 6
 c6073 '[textdict[1003271]]'
-play sfxvoice "avg_vocal_ch25.ogg"
 hide p1
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch25.ogg"
 c21 '[textdict[1003272]]'
 hide p2
 show oc004_01 7 as p4 at l(-5), light, zorder 6
@@ -53,9 +53,9 @@ c6083 '[textdict[1003275]]'
 hide p4
 show oc004_01 7 as p4 at l(-5), dark, zorder 6
 c6083 '[textdict[1003276]]'
-play sfxvoice "avg_vocal_na20.ogg"
 hide p4
 show oc001_01 10 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na20.ogg"
 c11 '[textdict[1003277]]'
 hide p1
 show oc001_01 10 as p1 at l(-2), dark, zorder 6
@@ -72,19 +72,19 @@ c6093 '[textdict[1003281]]'
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
 c6093 '[textdict[1003282]]'
-play sfxvoice "avg_vocal_na02.ogg"
 hide p3
 show oc001_01 7 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1003283]]'
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6
 show oc003_01 7 as p3 at r(-6), r_shake, light, zorder 5
 c33 '[textdict[1003284]]'
-play sfxvoice "avg_vocal_ch23.ogg"
 hide p1
 hide p3
 show oc003_01 7 as p3 at r(-6), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch23.ogg"
 c21 '[textdict[1003285]]'
 hide p2
 hide p3

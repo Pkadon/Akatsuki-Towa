@@ -6,13 +6,13 @@ scene avg_bg_006
 with fade
 play sfx2 "other_7020.ogg"
 c0 '[textdict[1000623]]'
-play sfx2 "other_7042.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7042.ogg"
 c13 '[textdict[1000624]]'
-play sfx2 "other_7046.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 17 as p2 at l(-3), light, zorder 6
+play sfx2 "other_7046.ogg"
 c21 '[textdict[1000625]]'
 hide p2
 hide p1
@@ -114,9 +114,9 @@ show uc002_03 2 as p518 at l(-23), light, zorder 6
 c5181 '[textdict[1000646]]'
 hide p518
 hide p519
-play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 with fade
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1000647]]' (what_size=(gui.text_size*1.2)) with shake
 hide p1
 show oc001_01 12 as p1 at r(-2), light, zorder 5

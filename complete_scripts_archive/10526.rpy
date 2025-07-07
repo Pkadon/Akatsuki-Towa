@@ -19,11 +19,11 @@ hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show uc001_01 1 as p1255 at l(-2), light, zorder 6
 c12551 '[textdict[1152188]]'
-play sfxvoice "avg_vocal_ro02.ogg"
 hide p1
 hide p1255
 show uc001_01 1 as p1255 at l(-2), dark, zorder 6
 show oc003_01 5 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro02.ogg"
 c33 '[textdict[1152189]]'
 hide p1255
 hide p3
@@ -50,10 +50,10 @@ hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
 show uc001_01 1 as p1255 at l(-2), light, zorder 6
 c12551 '[textdict[1152194]]'
-play sfxvoice "avg_vocal_ro13.ogg"
 hide p2
 hide p1255
 show uc001_01 1 as p1255 at l(-2), dark, zorder 6
 show oc003_01 8 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro13.ogg"
 c33 '[textdict[1152195]]'
 return

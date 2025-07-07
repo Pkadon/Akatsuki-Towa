@@ -24,12 +24,12 @@ c2043 '[textdict[1001642]]'
 hide p204
 show st004_01 1 as p204 at mid(4), light, zorder 5
 c2043 '[textdict[1001643]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 hide p204
 show oc002_01 2 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1001644]]'
-play sfxvoice "avg_vocal_na15.ogg"
 hide p2
 show oc001_01 1 as p1 at mid(-2), light, zorder 5
+play sfxvoice "avg_vocal_na15.ogg"
 c13 '[textdict[1001645]]'
 return

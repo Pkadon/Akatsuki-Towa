@@ -180,11 +180,11 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show st061_01 1 as p1304 at l(-2), light, zorder 6
 c13041 '[textdict[1172459]]'
 play music "ED6105.ogg"
-play sfx2 "other_7047.ogg"
 hide p1
 hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6
 show st063_01 1 as p1346 at r(-16), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13463 '[textdict[1172460]]'
 hide p1304
 hide p1346

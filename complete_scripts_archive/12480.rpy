@@ -6,9 +6,9 @@ scene placeholderbackground
 with fade
 show oc006_01 3 as p6 at l(-5), l_shake, light, zorder 6
 c61 '[textdict[1144119]]'
-play sfx2 "other_7080.ogg"
 hide p6
 show oc006_01 3 as p6 at l(-5), dark, zorder 6
+play sfx2 "other_7080.ogg"
 c10543 '[textdict[1144120]]'
 hide p6
 show oc006_01 4 as p6 at l(-5), l_shake, light, zorder 6
@@ -33,8 +33,8 @@ c0 '[textdict[1144127]]'
 play sfx2 "fight_6016.ogg"
 c0 '[textdict[1144128]]'
 play music "ed7304.ogg"
-play sfx2 "other_7057.ogg"
 show oc006_01 2 as p6 at l(-5), l_shake, light, zorder 6
+play sfx2 "other_7057.ogg"
 c61 '[textdict[1144129]]'
 hide p6
 c0 '[textdict[1144130]]'

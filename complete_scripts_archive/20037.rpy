@@ -14,9 +14,9 @@ c5683 '[textdict[1002309]]'
 c5671 '[textdict[1002310]]'
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1002311]]'
-play sfxvoice "avg_vocal_ch25.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch25.ogg"
 c21 '[textdict[1002312]]'
 return

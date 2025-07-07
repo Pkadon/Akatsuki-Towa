@@ -6,8 +6,8 @@ scene avg_bg_010
 with fade
 play sfx2 "other_7060.ogg"
 c0 '[textdict[2112969]]'
-play sfx2 "other_7060.ogg"
 show sta61_01 5 as p2670 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7060.ogg"
 c26703 '[textdict[2112970]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
@@ -113,9 +113,9 @@ show sta61_01 2 as p2670 at r(-2), dark, zorder 5
 c13051 '[textdict[2112999]]'
 play music "ed7120.ogg"
 hide p2670
-play sfx2 "other_7088.ogg"
 show sta61_01 5 as p2670 at r(-2), light, zorder 5
 with fade
+play sfx2 "other_7088.ogg"
 c26703 '[textdict[2113000]]'
 hide p2670
 show st040_01 1 as p239 at r(-19), light, zorder 5
@@ -368,16 +368,16 @@ hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 show st040_01 2 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[2113065]]'
-play sfx2 "other_7085.ogg"
 hide p2670
 hide p239
 show st040_01 2 as p239 at l(-19), dark, zorder 6
 show sta61_01 5 as p2670 at r_exit(-2), light, zorder 5
+play sfx2 "other_7085.ogg"
 c26703 '[textdict[2113066]]'
 hide p2670
-play sfx2 "other_7085.ogg"
 hide p239
 show st040_01 2 as p239 at l_entrance_midback(-19), light, zorder 6
+play sfx2 "other_7085.ogg"
 c2391 '[textdict[2113067]]'
 scene avg_bg_521
 with fade

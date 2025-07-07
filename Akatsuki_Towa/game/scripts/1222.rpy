@@ -7,8 +7,8 @@ c0 '[textdict[2110251]]'
 play music "ed7453.ogg"
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show oc001_01 20 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[2110252]]'
 hide p1
 show oc002_01 10 as p2 at r_entrance(-3), light, zorder 5
@@ -66,10 +66,10 @@ show sc049_01 4 as p56 at l(-8), dark, zorder 6
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110264]]' (what_size=(gui.text_size*1.25))
 stop music
-play sfx2 "other_7038.ogg"
 hide p56
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7038.ogg"
 c27101 '[textdict[2110265]]' (what_size=(gui.text_size*1.25)) with shake
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
@@ -293,10 +293,10 @@ hide p56
 show sc049_01 2 as p56 at l(-8), dark, zorder 6
 show oca02_01 21 as p2702 at r_midback(-3), light, zorder 5
 c27023 '[textdict[2110313]]'
-play sfx2 "other_7038.ogg"
 hide p56
 hide p2702
 show oca02_01 21 as p2702 at r(-3), dark, zorder 5
+play sfx2 "other_7038.ogg"
 c27111 '[textdict[2110314]]'
 hide p2702
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
@@ -463,9 +463,9 @@ c13 '[textdict[2110349]]'
 hide p2702
 show oca02_01 22 as p2702 at l(-3), light, zorder 6
 c27021 '[textdict[2110350]]'
-play sfx2 "other_7047.ogg"
 hide p2702
 show oca02_01 22 as p2702 at l(-3), dark, zorder 6
+play sfx2 "other_7047.ogg"
 c13 '[textdict[2110351]]'
 hide p2702
 show oca02_01 1 as p2702 at l(-3), light, zorder 6

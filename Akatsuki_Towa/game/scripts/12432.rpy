@@ -6,17 +6,17 @@ scene placeholderbackground
 with fade
 show oc001_01 17 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1143049]]'
-play sfx2 "other_7009.ogg"
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
-c31 '[textdict[1143050]]'
 play sfx2 "other_7009.ogg"
-play sfxvoice "avg_vocal_ch20.ogg"
+c31 '[textdict[1143050]]'
 hide p1
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc002_01 17 as p2 at r(-3), r_shake, light, zorder 5
+play sfx2 "other_7009.ogg"
+play sfxvoice "avg_vocal_ch20.ogg"
 c23 '[textdict[1143051]]'
 hide p2
 hide p3
@@ -80,15 +80,15 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1143069]]'
 hide p3
 hide p1
-play sfx2 "other_7010.ogg"
 with fade
+play sfx2 "other_7010.ogg"
 c0 '[textdict[1143070]]'
-play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 17 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch20.ogg"
 c21 '[textdict[1143071]]'
-play sfx2 "other_7046.ogg"
 hide p2
 show oc002_01 17 as p2 at l(-3), dark, zorder 6
+play sfx2 "other_7046.ogg"
 c5003 '[textdict[1143072]]'
 hide p2
 c0 '[textdict[1143073]]'
@@ -121,16 +121,16 @@ hide p3
 show oc003_01 1 as p3 at l(-6), dark, zorder 6
 c11503 '[textdict[1143084]]'
 hide p3
-play sfxvoice "avg_vocal_ch06.ogg"
 show oc002_01 8 as p2 at l(-3), light, zorder 6
 with fade
+play sfxvoice "avg_vocal_ch06.ogg"
 c21 '[textdict[1143085]]'
 hide p2
 c10901 '[textdict[1143086]]'
 c11503 '[textdict[1143087]]'
 c10901 '[textdict[1143088]]'
-play sfxvoice "avg_vocal_ch14.ogg"
 show oc002_01 16 as p2 at r(-3), l_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch14.ogg"
 c23 '[textdict[1143089]]'
 hide p2
 c11503 '[textdict[1143090]]'

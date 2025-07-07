@@ -101,10 +101,10 @@ c461 '[textdict[2100495]]'
 hide p46
 show sc039_01 1 as p46 at l(-13), light, zorder 6
 c461 '[textdict[2100496]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 hide p46
 show sc039_01 1 as p46 at l(-13), dark, zorder 6
 show oc002_01 14 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[2100497]]'
 hide p46
 hide p2

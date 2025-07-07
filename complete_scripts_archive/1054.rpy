@@ -20,9 +20,9 @@ c21 '[textdict[2100753]]'
 hide p2
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100754]]'
-play sfxvoice "avg_vocal_ch02.ogg"
 hide p2
 show oc002_01 5 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch02.ogg"
 c21 '[textdict[2100755]]'
 hide p2
 show oc002_01 8 as p2 at l(-3), light, zorder 6
@@ -37,13 +37,13 @@ play sfx2 "other_7047.ogg"
 c0 '[textdict[2100759]]'
 play sfx2 "other_7033.ogg"
 c0 '[textdict[2100760]]'
+show oc002_01 12 as p2 at l(-3), light, zorder 6
 play sfx2 "other_7033.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
-show oc002_01 12 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2100761]]'
-play sfx2 "other_7033.ogg"
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, zorder 6
+play sfx2 "other_7033.ogg"
 c5003 '[textdict[2100762]]'
 hide p2
 c0 '[textdict[2100763]]'
@@ -74,16 +74,16 @@ c11543 '[textdict[2100772]]'
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 c11543 '[textdict[2100773]]'
-play sfxvoice "avg_vocal_ch03.ogg"
 hide p2
 show oc002_01 22 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch03.ogg"
 c21 '[textdict[2100774]]'
 stop music
 hide p2
 play sfx2 "fight_6016.ogg"
 c0 '[textdict[2100775]]' with shake
-play sfxvoice "avg_vocal_ch27.ogg"
 show oc002_01 3 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch27.ogg"
 c21 '[textdict[2100776]]'
 hide p2
 show oc002_01 3 as p2 at l(-3), dark, zorder 6
@@ -158,9 +158,9 @@ c21 '[textdict[2100801]]'
 hide p2
 show oc002_01 22 as p2 at l(-3), dark, zorder 6
 c11543 '[textdict[2100802]]'
-play sfxvoice "avg_vocal_ch02.ogg"
 hide p2
 show oc002_01 8 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch02.ogg"
 c21 '[textdict[2100803]]'
 play music "ed7514.ogg"
 scene avg_bg_013

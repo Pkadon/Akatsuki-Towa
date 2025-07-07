@@ -15,16 +15,16 @@ hide p1
 show oc001_01 6 as p1 at r(-2), dark, zorder 5
 show st040_01 2 as p1043 at l(-19), light, zorder 6
 c10431 '[textdict[1133899]]'
-play sfxvoice "avg_vocal_ch07.ogg"
 hide p1043
 hide p1
 show oc001_01 6 as p1 at r(-2), dark, zorder 5
 show oc002_01 5 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch07.ogg"
 c21 '[textdict[1133900]]'
-play sfx2 "common_quest.ogg"
 hide p2
 hide p1
 show oc001_01 6 as p1 at r(-2), dark, zorder 5
 show st040_01 6 as p1043 at l(-19), light, zorder 6
+play sfx2 "common_quest.ogg"
 c10431 '[textdict[1133901]]'
 return

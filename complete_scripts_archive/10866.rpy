@@ -18,14 +18,14 @@ c26683 '[textdict[1191505]]'
 hide p2668
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191506]]'
-play sfx2 "other_7073.ogg"
 hide p2668
 show oce04_01 16 as p2668 at r(-5), light, zorder 5
+play sfx2 "other_7073.ogg"
 c26683 '[textdict[1191507]]'
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show oce04_01 8 as p2668 at r_entrance(-5), light, zorder 5
+play sfx2 "other_7047.ogg"
 c26683 '[textdict[1191508]]' with shake
 hide p2668
 show oce04_01 11 as p2668 at r(-5), light, zorder 5
@@ -51,9 +51,9 @@ c26683 '[textdict[1191515]]'
 hide p2668
 show oce04_01 8 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191516]]'
-play sfx2 "other_7047.ogg"
 hide p2668
 show oce04_01 8 as p2668 at r(-5), dark, zorder 5
+play sfx2 "other_7047.ogg"
 c5001 '[textdict[1191517]]'
 hide p2668
 show oce04_01 8 as p2668 at r(-5), dark, zorder 5
@@ -413,11 +413,11 @@ hide p2665
 show ocd01_01 24 as p2665 at r(-2), dark, zorder 5
 show oce02_01 21 as p2666 at l(-3), light, zorder 6
 c26661 '[textdict[1191620]]'
-play sfx2 "other_7061.ogg"
 hide p2666
 hide p2665
 show ocd01_01 24 as p2665 at r(-2), dark, zorder 5
 show ocd03_01 15 as p2667 at l(-6), light, zorder 6
+play sfx2 "other_7061.ogg"
 c26671 '[textdict[1191621]]'
 hide p2667
 hide p2665

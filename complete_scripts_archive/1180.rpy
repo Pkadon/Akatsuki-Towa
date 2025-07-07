@@ -14,13 +14,13 @@ hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106426]]'
 hide p1
-play sfx2 "other_7064.ogg"
 with fade
+play sfx2 "other_7064.ogg"
 c25551 '[textdict[2106427]]'
 play sfx2 "other_7064.ogg"
 c25561 '[textdict[2106428]]'
-play sfx2 "other_7064.ogg"
 show oc001_01 2 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7064.ogg"
 c13 '[textdict[2106429]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
@@ -202,12 +202,12 @@ c6321 '[textdict[2106480]]'
 hide p632
 hide p1
 c0 '[textdict[2106481]]'
-play sfx2 "fight_6023.ogg"
 show sc014_01 4 as p632 at l(-6), light, zorder 6
+play sfx2 "fight_6023.ogg"
 c6321 '[textdict[2106482]]' with shake
-play sfx2 "fight_6001.ogg"
 hide p632
 show sc014_01 4 as p632 at l_midback(-6), light, zorder 6
+play sfx2 "fight_6001.ogg"
 c6321 '[textdict[2106483]]'
 hide p632
 show sc014_01 4 as p632 at l(-6), dark, zorder 6
@@ -258,11 +258,11 @@ hide p632
 show sc014_01 1 as p632 at l(-6), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2106493]]'
-play sfx2 "fight_6018.ogg"
 hide p632
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
 show sc014_01 4 as p632 at l(-6), l_shake, light, zorder 6
+play sfx2 "fight_6018.ogg"
 c6321 '[textdict[2106494]]'
 hide p1
 hide p632

@@ -29,9 +29,9 @@ c21 '[textdict[1134020]]'
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
 c10993 '[textdict[1134021]]'
-play sfxvoice "avg_vocal_ch21.ogg"
 hide p2
 show oc002_01 21 as p2 at l_midback(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch21.ogg"
 c21 '[textdict[1134022]]'
 hide p2
 play sfx2 "fight_6022.ogg"
@@ -44,8 +44,8 @@ c10993 '[textdict[1134025]]'
 hide p1
 play sfx2 "fight_6025.ogg"
 c0 '[textdict[1134026]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1134027]]'
 hide p2
 show oc002_01 2 as p2 at l(-3), dark, zorder 6
@@ -71,15 +71,15 @@ c10993 '[textdict[1134034]]'
 hide p2
 show oc001_01 8 as p1 at l(-2), light, zorder 6
 c11 '[textdict[1134035]]'
-play sfxvoice "avg_vocal_li10.ogg"
 hide p1
 show oc004_01 16 as p4 at l(-5), l_shake, light, zorder 6
+play sfxvoice "avg_vocal_li10.ogg"
 c41 '[textdict[1134036]]'
 hide p4
 show oc004_01 16 as p4 at l(-5), dark, zorder 6
 c10993 '[textdict[1134037]]'
-play sfxvoice "avg_vocal_li22.ogg"
 hide p4
 show oc004_01 19 as p4 at l(-5), l_shake, light, zorder 6
+play sfxvoice "avg_vocal_li22.ogg"
 c41 '[textdict[1134038]]'
 return

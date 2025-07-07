@@ -46,32 +46,32 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[2106243]]'
-play sfx2 "other_7087.ogg"
 hide p1
 hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), r_shake, light, zorder 5
+play sfx2 "other_7087.ogg"
 c13 '[textdict[2106244]]'
 scene avg_bg_014
 with fade
-play sfx2 "other_7085.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7085.ogg"
 c13 '[textdict[2106245]]'
 scene avg_bg_018
 with fade
-play sfx2 "other_7085.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7085.ogg"
 c13 '[textdict[2106246]]'
 scene avg_bg_021
 with fade
-play sfx2 "other_7085.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7085.ogg"
 c13 '[textdict[2106247]]'
 scene avg_bg_022
 with fade
 c5001 '[textdict[2106248]]' with shake
-play sfx2 "other_7087.ogg"
 show oc001_01 12 as p1 at r_midback(-2), light, zorder 5
+play sfx2 "other_7087.ogg"
 c13 '[textdict[2106249]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
@@ -132,9 +132,9 @@ hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106265]]'
 play music "ed7511.ogg"
-play sfx2 "fight_6009.ogg"
 hide p1
 show sc038_01 4 as p45 at r(-1), light, zorder 5
+play sfx2 "fight_6009.ogg"
 c453 '[textdict[2106266]]' with shake
 hide p45
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
@@ -142,16 +142,16 @@ c13 '[textdict[2106267]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106268]]'
-play sfx2 "fight_6010.ogg"
 hide p1
 show sc038_01 4 as p45 at r(-1), light, zorder 5
+play sfx2 "fight_6010.ogg"
 c453 '[textdict[2106269]]'
 hide p45
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2106270]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[2106271]]'
 scene avg_bg_070
 with fade
@@ -262,9 +262,9 @@ c10061 '[textdict[2106297]]'
 hide p45
 show sc038_01 5 as p45 at r(-1), light, zorder 5
 c453 '[textdict[2106298]]'
-play sfx2 "other_7010.ogg"
 hide p45
 show sc038_01 5 as p45 at r(-1), dark, zorder 5
+play sfx2 "other_7010.ogg"
 c25451 '[textdict[2106299]]'
 hide p45
 show oc001_01 2 as p1 at r(-2), light, zorder 5

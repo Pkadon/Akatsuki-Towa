@@ -7,10 +7,10 @@ with fade
 c0 '[textdict[2102908]]'
 show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2102909]]'
-play sfxvoice "avg_vocal_ch31.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc002_01 21 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch31.ogg"
 c21 '[textdict[2102910]]'
 hide p2
 hide p1
@@ -25,11 +25,11 @@ hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2102913]]'
-play sfxvoice "avg_vocal_ro14.ogg"
 hide p2
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc003_01 8 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro14.ogg"
 c31 '[textdict[2102914]]'
 hide p1
 hide p3

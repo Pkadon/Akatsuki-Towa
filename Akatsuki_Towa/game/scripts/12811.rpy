@@ -635,11 +635,11 @@ show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc008_01 1 as p8 at l(-5), light, zorder 6
 c81 '[textdict[1182709]]'
 stop music
-play sfx2 "fight_6015.ogg"
 hide p1
 hide p8
 show oc008_01 1 as p8 at l(-5), dark, zorder 6
 show oc002_01 20 as p2 at r(-3), l_shake, light, zorder 5
+play sfx2 "fight_6015.ogg"
 c23 '[textdict[1182710]]'
 hide p8
 hide p2

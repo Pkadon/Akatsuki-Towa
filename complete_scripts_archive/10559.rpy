@@ -6,10 +6,10 @@ scene avg_bg_105
 with fade
 show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1154009]]'
-play sfx2 "other_7085.ogg"
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
 show sc031_01 2 as p39 at l_entrance(-14), light, zorder 6
+play sfx2 "other_7085.ogg"
 c391 '[textdict[1154010]]'
 hide p3
 hide p39

@@ -4,24 +4,24 @@ stop music
 play music "ED6302.ogg"
 scene placeholderbackground
 with fade
-play sfxvoice "avg_vocal_ro14.ogg"
 show oc003_01 7 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro14.ogg"
 c33 '[textdict[1161378]]'
 hide p3
 show oc003_01 7 as p3 at r(-6), dark, zorder 5
 show oc004_01 8 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1161379]]'
-play sfxvoice "avg_vocal_li30.ogg"
 hide p4
 hide p3
 show oc003_01 7 as p3 at r(-6), dark, zorder 5
 show oc004_01 9 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li30.ogg"
 c41 '[textdict[1161380]]'
-play sfxvoice "avg_vocal_na19.ogg"
 hide p3
 hide p4
 show oc004_01 9 as p4 at l(-5), dark, zorder 6
 show oc001_01 5 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na19.ogg"
 c13 '[textdict[1161381]]'
 hide p4
 hide p1
@@ -99,11 +99,11 @@ hide p4
 show oc004_01 2 as p4 at r(-5), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1161396]]'
-play sfxvoice "avg_vocal_na04.ogg"
 hide p4
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na04.ogg"
 c13 '[textdict[1161397]]'
 hide p2
 hide p1

@@ -36,11 +36,11 @@ hide p209
 show st009_01 1 as p209 at l(-22), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1202357]]'
-play sfxvoice "avg_vocal_ch18.ogg"
 hide p1
 hide p209
 show st009_01 1 as p209 at l(-22), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch18.ogg"
 c23 '[textdict[1202358]]'
 hide p209
 hide p2

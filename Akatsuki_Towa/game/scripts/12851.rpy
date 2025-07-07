@@ -125,10 +125,10 @@ with fade
 c0 '[textdict[1187824]]'
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1187825]]'
-play sfx2 "other_7007.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc003_01 20 as p3 at l(-6), l_shake, light, zorder 6
+play sfx2 "other_7007.ogg"
 c31 '[textdict[1187826]]'
 hide p1
 hide p3

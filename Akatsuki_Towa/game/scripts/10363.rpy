@@ -25,11 +25,11 @@ hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1131991]]'
-play sfxvoice "avg_vocal_ch08.ogg"
 hide p3
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 6 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch08.ogg"
 c21 '[textdict[1131992]]'
 hide p1
 hide p2
@@ -56,10 +56,10 @@ hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1131997]]'
-play sfxvoice "avg_vocal_ch20.ogg"
 hide p3
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc002_01 17 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch20.ogg"
 c21 '[textdict[1131998]]'
 return

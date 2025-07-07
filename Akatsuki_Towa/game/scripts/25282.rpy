@@ -3,26 +3,26 @@ stop music
 
 scene placeholderbackground
 with fade
-play sfx2 "fight_6025.ogg"
 show oc001_01 1 as p1 at mid(-2), light, zorder 5
+play sfx2 "fight_6025.ogg"
 c13 '[textdict[1211068]]'
 hide p1
 c20153 '[textdict[1211069]]'
+show oc002_01 19 as p2 at mid(-3), light, zorder 5
 play sfx2 "fight_6010.ogg"
 play sfxvoice "bcv_oc002_atk_01.ogg"
-show oc002_01 19 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1211070]]'
-play sfx2 "other_7057.ogg"
 hide p2
+play sfx2 "other_7057.ogg"
 c20153 '[textdict[1211071]]'
-play sfxvoice "avg_vocal_ch25.ogg"
 show oc002_01 21 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch25.ogg"
 c23 '[textdict[1211072]]'
 hide p2
 c20153 '[textdict[1211073]]'
 play sfx2 "other_7086.ogg"
 c0 '[textdict[1211074]]'
-play sfxvoice "avg_vocal_na05.ogg"
 show oc001_01 8 as p1 at mid(-2), light, zorder 5
+play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1211075]]'
 return

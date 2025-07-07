@@ -9,10 +9,10 @@ c0 '[textdict[2101825]]'
 c0 '[textdict[2101826]]'
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2101827]]'
-play sfxvoice "avg_vocal_ch24.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc002_01 5 as p2 at l(-3), l_shake, light, zorder 6
+play sfxvoice "avg_vocal_ch24.ogg"
 c21 '[textdict[2101828]]'
 hide p1
 hide p2
@@ -29,11 +29,11 @@ hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc004_01 7 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2101831]]'
-play sfxvoice "avg_vocal_na16.ogg"
 hide p4
 hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show oc001_01 22 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na16.ogg"
 c13 '[textdict[2101832]]'
 hide p3
 hide p1

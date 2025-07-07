@@ -43,11 +43,11 @@ hide p238
 show st039_01 4 as p238 at l(-6), dark, zorder 6
 show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170091]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 hide p238
 show st039_01 4 as p238 at l(-6), dark, zorder 6
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1170092]]'
 hide p238
 hide p1
@@ -59,17 +59,17 @@ hide p1308
 show st062_01 2 as p1308 at l(-16), dark, zorder 6
 show oc001_01 14 as p1 at r_midback(-2), light, zorder 5
 c13 '[textdict[1170094]]'
-play sfx2 "other_7087.ogg"
 hide p1308
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
 show st062_01 4 as p1308 at l_midback(-16), light, zorder 6
+play sfx2 "other_7087.ogg"
 c13081 '[textdict[1170095]]'
-play sfx2 "other_7057.ogg"
 hide p1
 hide p1308
 show st062_01 4 as p1308 at l(-16), dark, zorder 6
 show oc001_01 3 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7057.ogg"
 c13 '[textdict[1170096]]' with shake
 hide p1308
 hide p1

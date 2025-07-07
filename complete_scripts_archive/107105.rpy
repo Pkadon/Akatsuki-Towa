@@ -4,13 +4,13 @@ stop music
 play music "ed7544.ogg"
 scene avg_bg_211
 with fade
-play sfx2 "other_7018.ogg"
 show oc002_01 10 as p2 at l(-3), light, zorder 6
-c21 '[textdict[1179769]]'
 play sfx2 "other_7018.ogg"
+c21 '[textdict[1179769]]'
 hide p2
 show oc002_01 10 as p2 at l(-3), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7018.ogg"
 c13 '[textdict[1179770]]'
 hide p2
 hide p1
@@ -37,11 +37,11 @@ hide p4
 show oc004_01 16 as p4 at r(-5), dark, zorder 5
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1179777]]'
-play sfx2 "other_7073.ogg"
 hide p3
 hide p4
 show oc004_01 16 as p4 at r(-5), dark, zorder 5
 show oc003_01 2 as p3 at l(-6), light, zorder 6
+play sfx2 "other_7073.ogg"
 c31 '[textdict[1179778]]'
 hide p4
 hide p3
@@ -61,8 +61,8 @@ hide p4
 hide p1
 play sfx2 "other_7011.ogg"
 c0 '[textdict[1179783]]'
-play sfx2 "other_7011.ogg"
 show oc004_01 3 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7011.ogg"
 c41 '[textdict[1179784]]'
 hide p4
 show oc004_01 3 as p4 at l(-5), dark, zorder 6
@@ -107,8 +107,8 @@ hide p4
 hide p3
 play sfx2 "other_7023.ogg"
 c0 '[textdict[1179793]]'
-play sfx2 "other_7087.ogg"
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7087.ogg"
 c41 '[textdict[1179794]]' with shake
 scene avg_bg_506
 with fade
@@ -160,11 +160,11 @@ hide p4
 show oc004_01 16 as p4 at l(-5), dark, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1179805]]'
-play sfx2 "other_7085.ogg"
 hide p4
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l_exit(-5), light, zorder 6
+play sfx2 "other_7085.ogg"
 c41 '[textdict[1179806]]'
 hide p4
 hide p1

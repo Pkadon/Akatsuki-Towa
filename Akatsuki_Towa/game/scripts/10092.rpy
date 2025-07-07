@@ -4,16 +4,16 @@ stop music
 play music "ed7516.ogg"
 scene avg_bg_035
 with fade
-play sfxvoice "avg_vocal_na06.ogg"
 show oc001_01 18 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na06.ogg"
 c13 '[textdict[1005451]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1005452]]'
-play sfxvoice "avg_vocal_ch11.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc002_01 12 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch11.ogg"
 c21 '[textdict[1005453]]'
 hide p2
 hide p1
@@ -55,11 +55,11 @@ hide p224
 show st025_01 2 as p224 at l(-17), dark, zorder 6
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1005461]]'
-play sfxvoice "avg_vocal_na05.ogg"
 hide p1
 hide p224
 show st025_01 2 as p224 at l(-17), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1005462]]'
 hide p224
 hide p1
@@ -86,11 +86,11 @@ hide p224
 show st025_01 2 as p224 at l(-17), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1005467]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 hide p224
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1005468]]'
 hide p1
 hide p2
@@ -157,11 +157,11 @@ hide p224
 show st025_01 3 as p224 at l(-17), dark, zorder 6
 show sc039_01 1 as p46 at r(-13), light, zorder 5
 c463 '[textdict[1005482]]'
-play sfxvoice "avg_vocal_ch31.ogg"
 hide p46
 hide p224
 show st025_01 3 as p224 at l(-17), dark, zorder 6
 show oc002_01 21 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch31.ogg"
 c23 '[textdict[1005483]]'
 hide p2
 hide p224
@@ -213,17 +213,17 @@ hide p46
 show sc039_01 1 as p46 at r(-13), dark, zorder 5
 show st025_01 4 as p224 at l(-17), light, zorder 6
 c2241 '[textdict[1005496]]'
-play sfxvoice "avg_vocal_na04_b.ogg"
 hide p46
 hide p224
 show st025_01 4 as p224 at l(-17), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[1005497]]'
-play sfxvoice "avg_vocal_ch31.ogg"
 hide p224
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show oc002_01 7 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch31.ogg"
 c21 '[textdict[1005498]]'
 hide p2
 hide p1

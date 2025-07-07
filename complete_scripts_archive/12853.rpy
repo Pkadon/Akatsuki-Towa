@@ -151,11 +151,11 @@ hide p692
 show st044_01 4 as p692 at l(10), dark, zorder 6
 show sc007_01 4 as p15 at r(-17), light, zorder 5
 c153 '[textdict[1188064]]'
-play sfx2 "other_7022.ogg"
 hide p15
 hide p692
 show st044_01 4 as p692 at l(10), dark, zorder 6
 show sc007_01 4 as p15 at r(-17), light, zorder 5
+play sfx2 "other_7022.ogg"
 c153 '[textdict[1188065]]'
 hide p692
 hide p15

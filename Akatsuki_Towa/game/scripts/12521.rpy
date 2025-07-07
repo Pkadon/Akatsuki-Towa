@@ -4,8 +4,8 @@ stop music
 play music "ED6100.ogg"
 scene avg_bg_104
 with fade
-play sfxvoice "avg_vocal_ch20.ogg"
 show oc002_01 14 as p2 at l(-3), r_shake, light, zorder 6
+play sfxvoice "avg_vocal_ch20.ogg"
 c21 '[textdict[1151258]]'
 hide p2
 show oc002_01 14 as p2 at l(-3), dark, zorder 6
@@ -25,11 +25,11 @@ hide p1218
 show st041_01 1 as p1218 at l(-1), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1151262]]'
-play sfxvoice "avg_vocal_ch19.ogg"
 hide p1
 hide p1218
 show st041_01 1 as p1218 at l(-1), dark, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch19.ogg"
 c23 '[textdict[1151263]]'
 hide p1218
 hide p2
@@ -58,11 +58,11 @@ hide p1219
 show st050_01 5 as p1219 at l(-11), dark, zorder 6
 show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1151270]]'
-play sfxvoice "avg_vocal_na04_b.ogg"
 hide p2
 hide p1219
 show st050_01 5 as p1219 at l(-11), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[1151276]]'
 hide p1219
 hide p1

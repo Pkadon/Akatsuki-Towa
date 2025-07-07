@@ -4,13 +4,13 @@ stop music
 play music "ED6102.ogg"
 scene avg_bg_078
 with fade
-play sfx2 "other_7064.ogg"
 show oc003_01 2 as p3 at l_entrance(-6), light, zorder 6
+play sfx2 "other_7064.ogg"
 c31 '[textdict[1153519]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 hide p3
 show oc003_01 2 as p3 at l(-6), dark, zorder 6
 show oc002_01 2 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1153520]]'
 hide p3
 hide p2
@@ -67,11 +67,11 @@ hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show st041_01 4 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[1153531]]'
-play sfxvoice "avg_vocal_ro11.ogg"
 hide p4
 hide p240
 show st041_01 4 as p240 at l(-1), dark, zorder 6
 show oc003_01 8 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro11.ogg"
 c33 '[textdict[1153532]]'
 hide p3
 hide p240
@@ -146,8 +146,8 @@ hide p240
 show st041_01 1 as p240 at r(-1), light, zorder 5
 c2403 '[textdict[1153559]]'
 hide p240
-play sfx2 "other_7085.ogg"
 with fade
+play sfx2 "other_7085.ogg"
 c12331 '[textdict[1153560]]'
 play music "ed7151.ogg"
 play sfx2 "other_7087.ogg"
@@ -176,18 +176,18 @@ c12351 '[textdict[1153567]]'
 hide p1211
 show st057_01 3 as p1211 at r(-16), dark, zorder 5
 c12331 '[textdict[1153568]]'
-play sfx2 "other_7087.ogg"
 hide p1211
 show st057_01 3 as p1211 at r(-16), light, zorder 5
+play sfx2 "other_7087.ogg"
 c12113 '[textdict[1153569]]' with shake
 hide p1211
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 with fade
 c31 '[textdict[1153570]]'
-play sfxvoice "avg_vocal_na10_b.ogg"
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na10_b.ogg"
 c13 '[textdict[1153571]]'
 hide p3
 hide p1
@@ -204,10 +204,10 @@ hide p1211
 show st041_01 4 as p240 at r(-1), light, zorder 5
 with fade
 c2403 '[textdict[1153574]]'
-play sfx2 "other_7061.ogg"
 hide p240
 show st041_01 4 as p240 at r(-1), dark, zorder 5
 show st050_01 5 as p257 at l(-11), light, zorder 6
+play sfx2 "other_7061.ogg"
 c2571 '[textdict[1153575]]'
 hide p257
 hide p240

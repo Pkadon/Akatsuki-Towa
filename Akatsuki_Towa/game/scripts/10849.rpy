@@ -220,16 +220,16 @@ hide p2
 show oc002_01 23 as p2 at l(-3), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), l_shake, light, zorder 5
 c13043 '[textdict[1189421]]'
-play sfx2 "fight_6024.ogg"
 hide p1304
 hide p2
 show oc002_01 23 as p2 at l(-3), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), l_shake, light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1189422]]'
-play sfx2 "fight_6025.ogg"
 hide p2
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5
 show oc003_01 21 as p3 at l(-6), light, zorder 6
+play sfx2 "fight_6025.ogg"
 c31 '[textdict[1189423]]'
 return

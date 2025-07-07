@@ -8,16 +8,16 @@ c0 '[textdict[2112784]]'
 c0 '[textdict[2112785]]'
 scene avg_bg_032
 with fade
-play sfx2 "other_7022.ogg"
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
+play sfx2 "other_7022.ogg"
 c26683 '[textdict[2112786]]'
+hide p2668
+show oce04_01 4 as p2668 at mid(-5), light, zorder 5
 play sfx2 "other_7022.ogg"
-hide p2668
-show oce04_01 4 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112787]]'
-play sfx2 "other_7074.ogg"
 hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
+play sfx2 "other_7074.ogg"
 c26683 '[textdict[2112788]]'
 hide p2668
 show oce04_01 1 as p2668 at mid(-5), light, zorder 5
@@ -70,18 +70,18 @@ c0 '[textdict[2112805]]'
 scene avg_bg_070
 with fade
 c0 '[textdict[2112806]]'
-play sfx2 "other_7044.ogg"
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
+play sfx2 "other_7044.ogg"
 c26683 '[textdict[2112807]]'
 play music "ED6107.ogg"
 scene avg_bg_048
 with fade
 show st039_01 1 as p238 at l(-6), light, zorder 6
 c2381 '[textdict[2112808]]'
-play sfx2 "other_7047.ogg"
 hide p238
 show st039_01 1 as p238 at l(-6), dark, zorder 6
 show oce04_01 7 as p2668 at r_entrance(-5), light, zorder 5
+play sfx2 "other_7047.ogg"
 c26683 '[textdict[2112809]]'
 hide p238
 hide p2668
@@ -284,11 +284,11 @@ hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
 show st039_01 1 as p238 at l(-6), light, zorder 6
 c2381 '[textdict[2112849]]'
-play sfx2 "other_7045.ogg"
 hide p2668
 hide p238
 show st039_01 1 as p238 at l(-6), dark, zorder 6
 show oce04_01 7 as p2668 at r_exit(-5), light, zorder 5
+play sfx2 "other_7045.ogg"
 c26683 '[textdict[2112850]]'
 hide p2668
 stop music
@@ -372,9 +372,9 @@ c26683 '[textdict[2112870]]'
 hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112871]]'
-play sfx2 "other_7074.ogg"
 hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
+play sfx2 "other_7074.ogg"
 c26683 '[textdict[2112872]]'
 c14501 '[textdict[2112873]]'
 hide p2668
@@ -430,9 +430,9 @@ show oce04_01 1 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112890]]'
 c27701 '[textdict[2112891]]'
 stop music
-play sfx2 "other_7073.ogg"
 hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
+play sfx2 "other_7073.ogg"
 c26683 '[textdict[2112892]]'
 hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5

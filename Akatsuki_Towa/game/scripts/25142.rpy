@@ -5,23 +5,23 @@ scene placeholderbackground
 with fade
 play sfx2 "other_7092.ogg"
 c0 '[textdict[1210444]]'
-play sfxvoice "avg_vocal_ch08.ogg"
 show oc002_01 14 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch08.ogg"
 c23 '[textdict[1210445]]'
 hide p2
 show oc001_01 8 as p1 at mid(-2), light, zorder 5
 c13 '[textdict[1210446]]'
-play sfxvoice "avg_vocal_ch07.ogg"
 hide p1
 show oc002_01 5 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch07.ogg"
 c23 '[textdict[1210447]]'
-play sfxvoice "avg_vocal_na10.ogg"
 hide p2
 show oc001_01 4 as p1 at mid(-2), light, zorder 5
+play sfxvoice "avg_vocal_na10.ogg"
 c13 '[textdict[1210448]]'
-play sfxvoice "avg_vocal_ch04.ogg"
 hide p1
 show oc002_01 14 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch04.ogg"
 c23 '[textdict[1210449]]'
 hide p2
 show oc001_01 17 as p1 at mid(-2), light, zorder 5

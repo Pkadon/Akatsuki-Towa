@@ -25,11 +25,11 @@ hide p3
 show oc003_01 5 as p3 at l(-6), dark, zorder 6
 show sc038_01 2 as p45 at r(-1), light, zorder 5
 c453 '[textdict[1004605]]'
-play sfxvoice "avg_vocal_ro02.ogg"
 hide p3
 hide p45
 show sc038_01 2 as p45 at r(-1), dark, zorder 5
 show oc003_01 1 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro02.ogg"
 c31 '[textdict[1004606]]'
 hide p3
 hide p45
@@ -51,11 +51,11 @@ hide p3
 show oc003_01 7 as p3 at l(-6), dark, zorder 6
 show sc038_01 4 as p45 at r(-1), light, zorder 5
 c453 '[textdict[1004610]]'
-play sfxvoice "avg_vocal_ro13.ogg"
 hide p3
 hide p45
 show sc038_01 4 as p45 at r(-1), dark, zorder 5
 show oc003_01 8 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro13.ogg"
 c31 '[textdict[1004611]]'
 hide p3
 hide p45

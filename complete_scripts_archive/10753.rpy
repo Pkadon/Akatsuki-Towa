@@ -171,10 +171,10 @@ c5001 '[textdict[1173954]]'
 hide p4
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1173955]]'
-play sfx2 "other_7047.ogg"
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc016_01 1 as p1267 at l_entrance(-6), light, zorder 6
+play sfx2 "other_7047.ogg"
 c12671 '[textdict[1173956]]'
 hide p1
 hide p1267
@@ -533,11 +533,11 @@ hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 show sc016_01 4 as p1267 at l(-6), light, zorder 6
 c12671 '[textdict[1174028]]'
-play sfx2 "other_7071.ogg"
 hide p4
 hide p1267
 show sc016_01 4 as p1267 at l(-6), dark, zorder 6
 show st040_01 4 as p239 at r(-19), light, zorder 5
+play sfx2 "other_7071.ogg"
 c2393 '[textdict[1174029]]'
 hide p1267
 hide p239

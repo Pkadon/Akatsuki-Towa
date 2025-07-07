@@ -8,13 +8,13 @@ c13541 '[textdict[1165846]]' with shake
 c13541 '[textdict[1165847]]'
 c13613 '[textdict[1165848]]'
 c13161 '[textdict[1165849]]'
-play sfx2 "fight_6024.ogg"
 show oc001_01 9 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1165850]]'
-play sfx2 "fight_6025.ogg"
 hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show oc003_01 9 as p3 at l_entrance(-6), light, zorder 6
+play sfx2 "fight_6025.ogg"
 c31 '[textdict[1165851]]'
 hide p1
 hide p3

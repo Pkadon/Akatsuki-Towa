@@ -52,8 +52,8 @@ c473 '[textdict[2112309]]'
 c473 '[textdict[2112310]]'
 scene avg_bg_038
 with fade
-play sfx2 "other_7088.ogg"
 show sc038_01 1 as p45 at l(-1), light, zorder 6
+play sfx2 "other_7088.ogg"
 c451 '[textdict[2112311]]'
 hide p45
 show sc038_01 1 as p45 at l(-1), dark, zorder 6
@@ -74,11 +74,11 @@ hide p45
 show sc038_01 5 as p45 at l(-1), dark, zorder 6
 show sc040_01 2 as p47 at r(-9), light, zorder 5
 c473 '[textdict[2112315]]'
-play sfx2 "other_7004.ogg"
 hide p45
 hide p47
 show sc040_01 2 as p47 at r(-9), dark, zorder 5
 show sc038_01 1 as p45 at l(-1), light, zorder 6
+play sfx2 "other_7004.ogg"
 c451 '[textdict[2112316]]'
 hide p47
 hide p45

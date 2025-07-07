@@ -35,11 +35,11 @@ hide p1211
 show st057_01 2 as p1211 at l(-16), dark, zorder 6
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1163380]]'
-play sfx2 "other_7059.ogg"
 hide p1211
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show st057_01 1 as p1211 at l(-16), light, zorder 6
+play sfx2 "other_7059.ogg"
 c12111 '[textdict[1163381]]'
 hide p1211
 hide p4

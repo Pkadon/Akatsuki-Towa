@@ -201,11 +201,11 @@ hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
 show st056_01 4 as p1349 at l(-6), light, zorder 6
 c13491 '[textdict[1165331]]'
-play sfx2 "other_7087.ogg"
 hide p3
 hide p1349
 show st056_01 4 as p1349 at l(-6), dark, zorder 6
 show oc003_01 9 as p3 at r_midback(-6), light, zorder 5
+play sfx2 "other_7087.ogg"
 c33 '[textdict[1165332]]'
 hide p1349
 hide p3
@@ -235,10 +235,10 @@ c0 '[textdict[1165340]]'
 stop music
 show oc003_01 9 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1165341]]' with shake
-play sfx2 "fight_6024.ogg"
 hide p3
 show oc003_01 9 as p3 at l(-6), dark, zorder 6
 show oc001_01 19 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1165342]]'
 hide p3
 hide p1
@@ -472,9 +472,9 @@ hide p1304
 c0 '[textdict[1165394]]'
 show st056_01 3 as p1349 at l(-6), l_shake, light, zorder 6
 c13491 '[textdict[1165395]]'
-play sfx2 "other_7007.ogg"
 hide p1349
 show st056_01 4 as p1349 at l_exit(-6), light, zorder 6
+play sfx2 "other_7007.ogg"
 c13491 '[textdict[1165396]]'
 hide p1349
 show st061_01 5 as p1304 at r(-2), light, zorder 5

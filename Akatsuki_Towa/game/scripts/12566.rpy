@@ -58,11 +58,11 @@ hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
 show st018_01 2 as p217 at l(-16), light, zorder 6
 c2171 '[textdict[1153278]]'
-play sfxvoice "avg_vocal_ro02.ogg"
 hide p3
 hide p217
 show st018_01 2 as p217 at l(-16), dark, zorder 6
 show oc003_01 17 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro02.ogg"
 c33 '[textdict[1153279]]'
 hide p217
 hide p3

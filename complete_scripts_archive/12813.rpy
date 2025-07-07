@@ -374,11 +374,11 @@ hide p1304
 show st061_01 1 as p1304 at l(-2), dark, zorder 6
 show oc003_01 12 as p3 at r(-6), r_shake, light, zorder 5
 c33 '[textdict[1182880]]'
-play sfx2 "elc_5005.ogg"
 hide p1304
 hide p3
 show oc003_01 12 as p3 at r(-6), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+play sfx2 "elc_5005.ogg"
 c41 '[textdict[1182881]]'
 hide p4
 hide p3

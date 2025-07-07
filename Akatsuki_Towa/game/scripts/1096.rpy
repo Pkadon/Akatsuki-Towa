@@ -42,16 +42,16 @@ hide p57
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102211]]'
-play sfxvoice "avg_vocal_na20.ogg"
 hide p1
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[2102212]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 c10931 '[textdict[2102213]]'
-play sfxvoice "avg_vocal_na21.ogg"
 hide p1
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[2102214]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5

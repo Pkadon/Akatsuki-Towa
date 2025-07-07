@@ -25,8 +25,8 @@ hide p4
 hide p1
 play sfx2 "other_7044.ogg"
 c0 '[textdict[1121253]]'
-play sfx2 "other_7047.ogg"
 show st023_01 5 as p222 at l_entrance(-12), light, zorder 6
+play sfx2 "other_7047.ogg"
 c2221 '[textdict[1121254]]'
 hide p222
 show st023_01 5 as p222 at l(-12), dark, zorder 6

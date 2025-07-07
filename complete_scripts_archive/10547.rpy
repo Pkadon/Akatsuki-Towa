@@ -9,9 +9,9 @@ c12111 '[textdict[1152844]]'
 hide p1211
 show st057_01 3 as p1211 at l(-16), l_shake, light, zorder 6
 c12111 '[textdict[1152845]]'
-play sfx2 "other_7047.ogg"
 hide p1211
 show st057_01 3 as p1211 at l(-16), dark, zorder 6
+play sfx2 "other_7047.ogg"
 c5053 '[textdict[1152846]]'
 hide p1211
 show st057_01 2 as p1211 at l(-16), light, zorder 6

@@ -52,11 +52,11 @@ hide p3
 show oc003_01 15 as p3 at r(-6), dark, zorder 5
 show oc005_01 24 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1006910]]'
-play sfxvoice "avg_vocal_ro03.ogg"
 hide p3
 hide p5
 show oc005_01 24 as p5 at l(-6), dark, zorder 6
 show oc003_01 14 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro03.ogg"
 c33 '[textdict[1006911]]'
 hide p5
 hide p3
@@ -96,8 +96,8 @@ c11 '[textdict[1006918]]'
 hide p1
 hide p3
 c0 '[textdict[1006919]]'
-play sfxvoice "avg_vocal_ro04.ogg"
 show oc003_01 13 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro04.ogg"
 c33 '[textdict[1006920]]'
 hide p3
 show oc003_01 14 as p3 at r(-6), light, zorder 5
@@ -149,11 +149,11 @@ hide p5
 show oc005_01 20 as p5 at l(-6), dark, zorder 6
 show oc003_01 17 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1006931]]'
-play sfxvoice "avg_vocal_ji19.ogg"
 hide p5
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
 show oc005_01 7 as p5 at l(-6), l_shake, light, zorder 6
+play sfxvoice "avg_vocal_ji19.ogg"
 c51 '[textdict[1006124]]'
 hide p5
 hide p3
@@ -205,12 +205,12 @@ hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 show oc005_01 23 as p5 at l_midback(-6), light, zorder 6
 c51 '[textdict[1006942]]'
-play sfx2 "other_7007.ogg"
-play sfxvoice "avg_vocal_ro09.ogg"
 hide p3
 hide p5
 show oc005_01 23 as p5 at l(-6), dark, zorder 6
 show oc003_01 12 as p3 at r_midback(-6), light, zorder 5
+play sfx2 "other_7007.ogg"
+play sfxvoice "avg_vocal_ro09.ogg"
 c33 '[textdict[1006943]]'
 hide p5
 hide p3
@@ -243,8 +243,8 @@ c43 '[textdict[1006949]]'
 hide p1
 hide p4
 c0 '[textdict[1006950]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1006951]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
@@ -258,8 +258,8 @@ c43 '[textdict[1006953]]'
 hide p1
 hide p4
 c0 '[textdict[1006954]]'
-play sfxvoice "avg_vocal_li30.ogg"
 show oc004_01 5 as p4 at r(-5), light, zorder 5
+play sfxvoice "avg_vocal_li30.ogg"
 c43 '[textdict[1006955]]'
 hide p4
 show oc004_01 5 as p4 at r(-5), dark, zorder 5

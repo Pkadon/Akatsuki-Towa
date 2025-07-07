@@ -51,10 +51,10 @@ show oc003_01 4 as p3 at r(-6), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1189502]]'
 play music "ed7511.ogg"
-play sfx2 "elc_5006.ogg"
 hide p4
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
+play sfx2 "elc_5006.ogg"
 c26221 '[textdict[1189503]]'
 hide p3
 play sfx2 "other_7034.ogg"

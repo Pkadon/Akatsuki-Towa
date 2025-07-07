@@ -67,13 +67,13 @@ hide p28
 hide p209
 play sfx2 "other_7038.ogg"
 c0 '[textdict[2108599]]'
-play sfx2 "other_7038.ogg"
 show st009_01 2 as p209 at r(-22), light, zorder 5
-c2093 '[textdict[2108600]]'
 play sfx2 "other_7038.ogg"
+c2093 '[textdict[2108600]]'
 hide p209
 show st009_01 2 as p209 at r(-22), dark, zorder 5
 show sc020_01 4 as p28 at l(-10), light, zorder 6
+play sfx2 "other_7038.ogg"
 c281 '[textdict[2108601]]'
 hide p28
 hide p209
@@ -100,11 +100,11 @@ hide p209
 show st009_01 1 as p209 at r(-22), dark, zorder 5
 show st041_01 1 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[2108606]]'
-play sfx2 "other_7061.ogg"
 hide p240
 hide p209
 show st009_01 1 as p209 at r(-22), dark, zorder 5
 show st050_01 3 as p257 at l(-11), light, zorder 6
+play sfx2 "other_7061.ogg"
 c2571 '[textdict[2108607]]'
 hide p257
 hide p209
@@ -142,10 +142,10 @@ stop music
 hide p28
 show sc020_01 4 as p28 at l(-10), l_shake, light, zorder 6
 c281 '[textdict[2108617]]'
-play sfx2 "fight_6018.ogg"
 hide p28
 show sc020_01 4 as p28 at l(-10), dark, zorder 6
 show st009_01 4 as p209 at r(-22), light, zorder 5
+play sfx2 "fight_6018.ogg"
 c2093 '[textdict[2108618]]'
 hide p209
 hide p28
@@ -153,11 +153,11 @@ show sc020_01 4 as p28 at l(-10), dark, zorder 6
 show st041_01 2 as p240 at r(-1), light, zorder 5
 c2403 '[textdict[2108619]]'
 play music "ed7451.ogg"
-play sfx2 "other_7093.ogg"
 hide p28
 hide p240
 show st041_01 2 as p240 at r(-1), dark, zorder 5
 show sc020_01 1 as p28 at l(-10), light, zorder 6
+play sfx2 "other_7093.ogg"
 c281 '[textdict[2108620]]'
 hide p240
 hide p28
@@ -224,11 +224,11 @@ hide p17
 show sc009_01 1 as p17 at r(-13), dark, zorder 5
 show sc020_01 1 as p28 at l(-10), light, zorder 6
 c281 '[textdict[2108633]]'
-play sfx2 "other_7093.ogg"
 hide p17
 hide p28
 show sc020_01 1 as p28 at l(-10), dark, zorder 6
 show st009_01 1 as p209 at r(-22), light, zorder 5
+play sfx2 "other_7093.ogg"
 c2093 '[textdict[2108634]]'
 hide p209
 hide p28
@@ -250,15 +250,15 @@ hide p28
 show sc020_01 1 as p28 at l(-10), dark, zorder 6
 show st009_01 5 as p209 at r(-22), light, zorder 5
 c2093 '[textdict[2108638]]'
-play sfx2 "other_7062.ogg"
 hide p28
 hide p209
 show st009_01 5 as p209 at r(-22), dark, zorder 5
-c26791 '[textdict[2108639]]' with shake
 play sfx2 "other_7062.ogg"
+c26791 '[textdict[2108639]]' with shake
 hide p209
 show st009_01 5 as p209 at r(-22), dark, zorder 5
 show st041_01 1 as p240 at l(-1), light, zorder 6
+play sfx2 "other_7062.ogg"
 c2401 '[textdict[2108640]]'
 hide p240
 hide p209

@@ -4,13 +4,13 @@ stop music
 play music "ed7100.ogg"
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[1162268]]'
-play sfx2 "other_7064.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7064.ogg"
 c41 '[textdict[1162269]]'
 hide p1
 hide p4
@@ -32,9 +32,9 @@ c13173 '[textdict[1162273]]'
 hide p4
 show oc004_01 23 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1162274]]'
-play sfx2 "other_7004.ogg"
 hide p4
 show oc004_01 5 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7004.ogg"
 c41 '[textdict[1162275]]'
 hide p4
 show oc004_01 5 as p4 at l(-5), dark, zorder 6
@@ -85,13 +85,13 @@ c13173 '[textdict[1162287]]'
 hide p4
 show oc004_01 6 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1162288]]'
-play sfx2 "other_7047.ogg"
 hide p4
 show oc004_01 6 as p4 at l(-5), dark, zorder 6
+play sfx2 "other_7047.ogg"
 c13183 '[textdict[1162289]]'
-play sfx2 "other_7004.ogg"
 hide p4
 show oc004_01 1 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7004.ogg"
 c41 '[textdict[1162290]]'
 hide p4
 show oc004_01 1 as p4 at l(-5), dark, zorder 6
@@ -114,9 +114,9 @@ c41 '[textdict[1162296]]'
 hide p4
 show oc004_01 2 as p4 at l(-5), dark, zorder 6
 c13183 '[textdict[1162297]]'
-play sfx2 "other_7004.ogg"
 hide p4
 show oc004_01 1 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7004.ogg"
 c41 '[textdict[1162298]]'
 hide p4
 show oc004_01 6 as p4 at l(-5), light, zorder 6
@@ -273,11 +273,11 @@ hide p18
 show sc010_01 1 as p18 at l(-10), dark, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162331]]'
-play sfx2 "other_7004.ogg"
 hide p18
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc010_01 4 as p18 at l(-10), light, zorder 6
+play sfx2 "other_7004.ogg"
 c181 '[textdict[1162332]]'
 hide p18
 hide p1
@@ -378,8 +378,8 @@ show oc004_01 4 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1162352]]'
 hide p4
 hide p1
-play sfx2 "other_7088.ogg"
 show Image8006 zorder 4
+play sfx2 "other_7088.ogg"
 c0 '[textdict[1162353]]'
 show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1162354]]'

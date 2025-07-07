@@ -20,9 +20,9 @@ c51 '[textdict[1170960]]'
 hide p5
 show oc005_01 4 as p5 at l(-6), light, zorder 6
 c51 '[textdict[1170961]]'
-play sfx2 "other_7022.ogg"
 hide p5
 show oc005_01 4 as p5 at l(-6), light, zorder 6
+play sfx2 "other_7022.ogg"
 c51 '[textdict[1170962]]'
 hide p5
 show oc005_01 22 as p5 at l(-6), light, zorder 6

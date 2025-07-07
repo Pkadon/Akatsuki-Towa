@@ -161,8 +161,8 @@ c26673 '[textdict[2113121]]'
 hide p2667
 with fade
 c27751 '[textdict[2113122]]'
-play sfx2 "other_7087.ogg"
 show ocd03_01 9 as p2667 at r_midback(-6), light, zorder 5
+play sfx2 "other_7087.ogg"
 c26673 '[textdict[2113123]]' (what_size=(gui.text_size*1.2))
 hide p2667
 show ocd03_01 9 as p2667 at r(-6), dark, zorder 5
@@ -182,9 +182,9 @@ c26673 '[textdict[2113128]]' (what_size=(gui.text_size*1.2)) with shake
 hide p2667
 show ocd03_01 4 as p2667 at r(-6), dark, zorder 5
 c27761 '[textdict[2113129]]'
-play sfx2 "other_7088.ogg"
 hide p2667
 show ocd03_01 4 as p2667 at r(-6), light, zorder 5
+play sfx2 "other_7088.ogg"
 c26673 '[textdict[2113130]]'
 hide p2667
 show ocd03_01 10 as p2667 at r(-6), light, zorder 5
@@ -235,9 +235,9 @@ c26673 '[textdict[2113144]]'
 hide p2667
 show ocd03_01 19 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113145]]'
-play sfx2 "other_7087.ogg"
 hide p2667
 show ocd03_01 3 as p2667 at r(-6), r_shake, light, zorder 5
+play sfx2 "other_7087.ogg"
 c26673 '[textdict[2113146]]'
 hide p2667
 show ocd03_01 3 as p2667 at r(-6), dark, zorder 5

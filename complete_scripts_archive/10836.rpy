@@ -209,11 +209,11 @@ hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc002_01 16 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1187362]]'
-play sfx2 "other_7058.ogg"
 hide p1
 hide p2
 show oc002_01 16 as p2 at l(-3), dark, zorder 6
 show oc005_01 22 as p5 at r(-6), r_shake, light, zorder 5
+play sfx2 "other_7058.ogg"
 c53 '[textdict[1187363]]'
 scene avg_bg_001
 with fade
@@ -419,10 +419,10 @@ hide p5
 show oc005_01 3 as p5 at l(-6), dark, zorder 6
 show oc002_01 12 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1187409]]'
-play sfx2 "other_7018.ogg"
 hide p2
 hide p5
 show oc005_01 3 as p5 at l(-6), dark, zorder 6
+play sfx2 "other_7018.ogg"
 c14523 '[textdict[1187410]]'
 hide p5
 show oc005_01 3 as p5 at l(-6), light, zorder 6

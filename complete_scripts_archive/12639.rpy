@@ -17,10 +17,10 @@ hide p2
 show oc002_01 17 as p2 at l(-3), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1162994]]'
-play sfx2 "other_7034.ogg"
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7034.ogg"
 c5001 '[textdict[1162995]]' with shake
 hide p1
 show oc001_01 19 as p1 at r(-2), light, zorder 5

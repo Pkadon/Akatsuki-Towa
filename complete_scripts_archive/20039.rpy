@@ -4,8 +4,8 @@ stop music
 play music "ED6200.ogg"
 scene avg_bg_010
 with fade
-play sfxvoice "avg_vocal_ch11.ogg"
 show oc002_01 12 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1002318]]'
 hide p2
 show uc004_02 1 as p570 at r(-9), light, zorder 5
@@ -26,14 +26,14 @@ show uc004_02 1 as p570 at r(-9), light, zorder 5
 c5703 '[textdict[1002322]]'
 hide p571
 hide p570
-play sfxvoice "avg_vocal_ch21.ogg"
 show oc002_01 17 as p2 at r(-3), light, zorder 5
 with fade
+play sfxvoice "avg_vocal_ch21.ogg"
 c23 '[textdict[1002323]]'
-play sfxvoice "avg_vocal_na02.ogg"
 hide p2
 show oc002_01 17 as p2 at r(-3), dark, zorder 5
 show oc001_01 2 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1002324]]'
 hide p1
 hide p2

@@ -7,12 +7,12 @@ play sfx2 "other_7060.ogg"
 c0 '[textdict[2104015]]'
 scene avg_bg_038
 with fade
-play sfx2 "other_7060.ogg"
 show oc001_01 16 as p1 at r(-2), light, zorder 5
-c13 '[textdict[2104016]]'
 play sfx2 "other_7060.ogg"
+c13 '[textdict[2104016]]'
 hide p1
 show oc001_01 17 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7060.ogg"
 c13 '[textdict[2104017]]'
 hide p1
 play sfx2 "other_7088.ogg"
@@ -78,15 +78,15 @@ scene avg_bg_019
 with fade
 play sfx2 "fight_6002.ogg"
 c25271 '[textdict[2104039]]' with shake
-play sfxvoice "avg_vocal_na21.ogg"
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[2104040]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104041]]'
-play sfx2 "fight_6002.ogg"
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
+play sfx2 "fight_6002.ogg"
 c25271 '[textdict[2104042]]' with shake
 hide p1
 c0 '[textdict[2104043]]'
@@ -99,16 +99,16 @@ c13 '[textdict[2104046]]'
 hide p1
 show oc001_01 3 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104047]]'
-play sfx2 "fight_6002.ogg"
 hide p1
 show oc001_01 3 as p1 at r(-2), dark, zorder 5
+play sfx2 "fight_6002.ogg"
 c25271 '[textdict[2104048]]' with shake
 hide p1
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104049]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 show oc001_01 15 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[2104050]]'
 hide p1
 c0 '[textdict[2104051]]'
@@ -127,12 +127,12 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104057]]'
 hide p1
 c0 '[textdict[2104058]]'
-play sfx2 "fight_6009.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6009.ogg"
 c13 '[textdict[2104059]]'
-play sfx2 "fight_6002.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
+play sfx2 "fight_6002.ogg"
 c25271 '[textdict[2104060]]' with shake
 hide p1
 show oc001_01 9 as p1 at r(-2), light, zorder 5
@@ -142,8 +142,8 @@ show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104062]]'
 hide p1
 c0 '[textdict[2104063]]'
-play sfxvoice "avg_vocal_na03_b.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na03_b.ogg"
 c13 '[textdict[2104064]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -193,11 +193,11 @@ hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104076]]'
-play sfx2 "fight_6019.ogg"
 hide p2
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc002_01 9 as p2 at l(-3), light, zorder 6
+play sfx2 "fight_6019.ogg"
 c21 '[textdict[2104077]]'
 hide p2
 hide p1
@@ -299,24 +299,24 @@ hide p1
 show oc001_01 9 as p1 at r(-2), dark, zorder 5
 show oc002_01 4 as p2 at l(-3), light, zorder 6
 c21 '[textdict[2104100]]'
-play sfxvoice "avg_vocal_na09_b.ogg"
 hide p1
 hide p2
 show oc002_01 4 as p2 at l(-3), dark, zorder 6
 show oc001_01 15 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na09_b.ogg"
 c13 '[textdict[2104101]]'
 hide p2
 hide p1
 play sfx2 "fight_6024.ogg"
 c0 '[textdict[2104102]]'
-play sfx2 "fight_6017.ogg"
 show oc002_01 9 as p2 at l(-3), light, zorder 6
+play sfx2 "fight_6017.ogg"
 c21 '[textdict[2104103]]'
-play sfx2 "other_7057.ogg"
-play sfxvoice "avg_vocal_na14.ogg"
 hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6
 show oc001_01 14 as p1 at r_exit(-2), light, zorder 5
+play sfx2 "other_7057.ogg"
+play sfxvoice "avg_vocal_na14.ogg"
 c13 '[textdict[2104104]]'
 hide p1
 hide p2
@@ -357,10 +357,10 @@ hide p2
 show oc002_01 22 as p2 at l(-3), dark, zorder 6
 show oc001_01 14 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104113]]'
-play sfx2 "fight_6003.ogg"
 hide p2
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5
+play sfx2 "fight_6003.ogg"
 c21 '[textdict[2104114]]' with shake
 hide p1
 show oc001_01 3 as p1 at r(-2), light, zorder 5
@@ -378,8 +378,8 @@ c13 '[textdict[2104118]]'
 hide p1
 play sfx2 "other_7091.ogg"
 c0 '[textdict[2104119]]'
-play sfx2 "other_7057.ogg"
 show oc001_01 19 as p1 at r_exit(-2), light, zorder 5
+play sfx2 "other_7057.ogg"
 c13 '[textdict[2104120]]'
 hide p1
 scene avg_bg_070

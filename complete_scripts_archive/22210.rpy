@@ -34,10 +34,10 @@ hide p1
 show oc001_01 10 as p1 at l(-2), dark, zorder 6
 show st026_01 1 as p225 at r(-14), light, zorder 5
 c2253 '[textdict[1128687]]'
-play sfxvoice "bcv_oc001_com_01.ogg"
 hide p1
 hide p225
 show st026_01 1 as p225 at r(-14), dark, zorder 5
 show oc001_01 4 as p1 at l(-2), light, zorder 6
+play sfxvoice "bcv_oc001_com_01.ogg"
 c11 '[textdict[1128688]]'
 return

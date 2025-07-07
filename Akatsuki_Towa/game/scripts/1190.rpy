@@ -6,13 +6,13 @@ scene avg_bg_014
 with fade
 play sfx2 "other_7064.ogg"
 c0 '[textdict[2107176]]'
-play sfx2 "other_7064.ogg"
 show scb38_01 1 as p2629 at l_entrance(-1), light, zorder 6
-c26291 '[textdict[2107177]]'
 play sfx2 "other_7064.ogg"
+c26291 '[textdict[2107177]]'
 hide p2629
 show scb38_01 1 as p2629 at l(-1), dark, zorder 6
 show scc45_01 1 as p2630 at r_entrance(-11), light, zorder 5
+play sfx2 "other_7064.ogg"
 c26303 '[textdict[2107178]]'
 hide p2629
 hide p2630
@@ -59,16 +59,16 @@ hide p2629
 show scb38_01 5 as p2629 at l(-1), dark, zorder 6
 show scc45_01 6 as p2630 at r(-11), light, zorder 5
 c26303 '[textdict[2107187]]'
-play sfx2 "other_7071.ogg"
 hide p2629
 hide p2630
 show scc45_01 6 as p2630 at r(-11), dark, zorder 5
 show scb38_01 2 as p2629 at l(-1), light, zorder 6
+play sfx2 "other_7071.ogg"
 c26291 '[textdict[2107188]]'
-play sfx2 "other_7072.ogg"
 hide p2630
 hide p2629
 show scb38_01 2 as p2629 at l(-1), dark, zorder 6
+play sfx2 "other_7072.ogg"
 c26353 '[textdict[2107189]]'
 hide p2629
 show scb38_01 2 as p2629 at l(-1), light, zorder 6

@@ -73,8 +73,8 @@ c43 '[textdict[1173462]]'
 c51 '[textdict[1173463]]'
 scene avg_bg_003
 with fade
-play sfx2 "other_7046.ogg"
 show st061_01 4 as p1304 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7046.ogg"
 c13043 '[textdict[1173464]]'
 hide p1304
 show st061_01 4 as p1304 at r(-2), dark, zorder 5

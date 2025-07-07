@@ -330,9 +330,9 @@ c43 '[textdict[1185178]]'
 play music "ED6103.ogg"
 hide p2
 hide p4
-play sfx2 "other_7047.ogg"
 show sc007_01 1 as p15 at l_entrance(-17), light, zorder 6
 with fade
+play sfx2 "other_7047.ogg"
 c151 '[textdict[1185179]]'
 hide p15
 c0 '[textdict[1185180]]'
@@ -678,11 +678,11 @@ hide p15
 show sc007_01 2 as p15 at r(-17), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
 c6921 '[textdict[1185260]]'
-play sfx2 "other_7022.ogg"
 hide p692
 hide p15
 show sc007_01 2 as p15 at r(-17), dark, zorder 5
 show st044_01 4 as p692 at l(10), light, zorder 6
+play sfx2 "other_7022.ogg"
 c6921 '[textdict[1185261]]'
 hide p692
 hide p15

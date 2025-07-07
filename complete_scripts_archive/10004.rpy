@@ -4,8 +4,8 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[1000407]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
@@ -28,9 +28,9 @@ show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000411]]'
 hide p2
 hide p1
-play sfx2 "other_7020.ogg"
 show sc049_01 1 as p56 at l(-8), light, zorder 6
 with fade
+play sfx2 "other_7020.ogg"
 c561 '[textdict[1000412]]'
 hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
@@ -61,23 +61,23 @@ hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
 show sc049_01 1 as p56 at l(-8), light, zorder 6
 c561 '[textdict[1000418]]'
-play sfx2 "other_7091.ogg"
 hide p56
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
 show sc049_01 5 as p56 at l(-8), light, zorder 6
+play sfx2 "other_7091.ogg"
 c561 '[textdict[1000419]]'
 hide p56
 hide p2
-play sfx2 "common_correct.ogg"
 show Image8 zorder 4
+play sfx2 "common_correct.ogg"
 c0 '[textdict[1000420]]'
 hide Image8
 show oc002_01 6 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1007521]]'
-play sfxvoice "avg_vocal_ch09.ogg"
 hide p2
 show oc002_01 13 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch09.ogg"
 c21 '[textdict[1000421]]'
 hide p2
 show oc002_01 8 as p2 at l(-3), light, zorder 6
@@ -187,10 +187,10 @@ play sfx2 "common_correct.ogg"
 c0 '[textdict[1000443]]'
 show oc002_01 22 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1000444]]'
-play sfx2 "other_7004.ogg"
 hide p2
 show oc002_01 22 as p2 at l(-3), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7004.ogg"
 c13 '[textdict[1000445]]'
 hide p2
 hide p1
@@ -232,10 +232,10 @@ hide p56
 show sc049_01 1 as p56 at l(-8), dark, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1000453]]'
-play sfx2 "other_7091.ogg"
 hide p56
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc049_01 1 as p56 at l(-8), light, zorder 6
+play sfx2 "other_7091.ogg"
 c561 '[textdict[1000454]]'
 return

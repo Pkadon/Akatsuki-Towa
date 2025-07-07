@@ -120,11 +120,11 @@ show sc071_01 3 as p73 at r(-20), dark, zorder 5
 show st029_01 5 as p610 at l(-28), light, zorder 6
 c6101 '[textdict[2107869]]'
 stop music
-play sfx2 "elc_5006.ogg"
 hide p610
 hide p73
 show sc071_01 3 as p73 at r(-20), dark, zorder 5
 show st029_01 3 as p610 at l(-28), light, zorder 6
+play sfx2 "elc_5006.ogg"
 c6101 '[textdict[2107870]]' (what_size=(gui.text_size*1.2)) with shake
 hide p610
 hide p73
@@ -280,10 +280,10 @@ hide p610
 hide p73
 show sc071_01 4 as p73 at r(-20), dark, zorder 5
 c13361 '[textdict[2107904]]'
-play sfx2 "other_7087.ogg"
 hide p73
 show sc071_01 4 as p73 at r(-20), dark, zorder 5
 show st029_01 5 as p610 at l(-28), light, zorder 6
+play sfx2 "other_7087.ogg"
 c6101 '[textdict[2107905]]' with shake
 hide p73
 hide p610

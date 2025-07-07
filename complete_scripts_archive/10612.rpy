@@ -70,10 +70,10 @@ c13051 '[textdict[1160591]]'
 hide p2
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1160592]]'
-play sfxvoice "avg_vocal_li02.ogg"
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc004_01 1 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li02.ogg"
 c41 '[textdict[1160593]]'
 hide p4
 hide p1
@@ -89,9 +89,9 @@ hide p4
 hide p3
 show oc003_01 2 as p3 at r(-6), dark, zorder 5
 c13051 '[textdict[1160596]]'
-play sfxvoice "avg_vocal_ro02.ogg"
 hide p3
 show oc003_01 1 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro02.ogg"
 c33 '[textdict[1160597]]'
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5

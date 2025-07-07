@@ -4,8 +4,8 @@ stop music
 play music "ed6570.ogg"
 scene placeholderbackground
 with fade
-play sfx2 "other_7088.ogg"
 show sc027_01 4 as p35 at l(-10), light, zorder 6
+play sfx2 "other_7088.ogg"
 c351 '[textdict[1120718]]'
 hide p35
 show sc027_01 3 as p35 at l(-10), l_shake, light, zorder 6
@@ -14,11 +14,11 @@ hide p35
 show sc027_01 3 as p35 at l(-10), dark, zorder 6
 show oc001_01 2 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[1120720]]'
-play sfxvoice "avg_vocal_ch04_b.ogg"
 hide p35
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 8 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch04_b.ogg"
 c21 '[textdict[1120721]]'
 hide p2
 hide p1
@@ -45,11 +45,11 @@ hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
 show sc027_01 3 as p35 at l(-10), l_shake, light, zorder 6
 c351 '[textdict[1120726]]'
-play sfxvoice "avg_vocal_na22.ogg"
 hide p1
 hide p35
 show sc027_01 3 as p35 at l(-10), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_na22.ogg"
 c13 '[textdict[1120727]]'
 hide p35
 hide p1
@@ -69,15 +69,15 @@ c351 '[textdict[1120730]]'
 stop music
 hide p35
 hide p2
-play sfx2 "other_7080.ogg"
 with fade
+play sfx2 "other_7080.ogg"
 c20161 '[textdict[1120731]]' with shake
 play music "ed7511.ogg"
 show oc001_01 3 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1120732]]'
-play sfx2 "fight_6024.ogg"
 hide p1
 show oc001_01 3 as p1 at r(-2), dark, zorder 5
 show oc002_01 4 as p2 at l(-3), light, zorder 6
+play sfx2 "fight_6024.ogg"
 c21 '[textdict[1120733]]'
 return

@@ -322,8 +322,8 @@ scene avg_bg_025
 with fade
 c0 '[textdict[2101087]]'
 stop music
-play sfx2 "other_7087.ogg"
 show st002_01 4 as p202 at l(-9), light, zorder 6
+play sfx2 "other_7087.ogg"
 c2021 '[textdict[2101088]]' with shake
 hide p202
 show st002_01 4 as p202 at l(-9), dark, zorder 6

@@ -461,8 +461,8 @@ hide p2
 hide p1
 play sfx2 "elc_5003.ogg"
 c0 '[textdict[1185546]]'
-play sfx2 "other_7091.ogg"
 show oc004_01 4 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7091.ogg"
 c41 '[textdict[1185547]]'
 hide p4
 show oc004_01 4 as p4 at l(-5), dark, zorder 6

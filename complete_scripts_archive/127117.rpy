@@ -61,17 +61,17 @@ show oc002_01 5 as p2 at l(-3), dark, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1179497]]'
 play music "ed7511.ogg"
-play sfx2 "other_7080.ogg"
 hide p1
 hide p2
 show oc002_01 5 as p2 at l(-3), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), r_shake, light, zorder 5
+play sfx2 "other_7080.ogg"
 c13 '[textdict[1179498]]'
-play sfx2 "other_7079.ogg"
 hide p1
 hide p2
 show oc002_01 5 as p2 at l(-3), dark, zorder 6
 show st061_01 4 as p1304 at r(-2), light, zorder 5
+play sfx2 "other_7079.ogg"
 c13043 '[textdict[1179499]]'
 hide p2
 hide p1304

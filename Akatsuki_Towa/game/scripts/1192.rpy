@@ -4,8 +4,8 @@ stop music
 play music "ed7300.ogg"
 scene avg_bg_071
 with fade
-play sfx2 "other_7057.ogg"
 show occ02_01 3 as p2625 at l_entrance(-3), light, zorder 6
+play sfx2 "other_7057.ogg"
 c26251 '[textdict[2107303]]'
 hide p2625
 show occ02_01 3 as p2625 at l(-3), dark, zorder 6
@@ -31,11 +31,11 @@ hide p2630
 show scc45_01 2 as p2630 at r(-11), dark, zorder 5
 show occ02_01 4 as p2625 at l(-3), light, zorder 6
 c26251 '[textdict[2107308]]'
-play sfx2 "other_7086.ogg"
 hide p2625
 hide p2630
 show scc45_01 2 as p2630 at r(-11), dark, zorder 5
 show occ02_01 21 as p2625 at l_exit(-3), light, zorder 6
+play sfx2 "other_7086.ogg"
 c26251 '[textdict[2107309]]'
 hide p2625
 hide p2630
@@ -199,8 +199,8 @@ hide p2631
 play sfx2 "other_7088.ogg"
 c0 '[textdict[2107347]]'
 play music "ed7518.ogg"
-play sfx2 "other_7004.ogg"
 show ocb01_01 16 as p2626 at l(-2), light, zorder 6
+play sfx2 "other_7004.ogg"
 c26261 '[textdict[2107348]]'
 hide p2626
 show ocb01_01 16 as p2626 at l(-2), dark, zorder 6
@@ -226,22 +226,22 @@ hide p2631
 show scb41_01 2 as p2631 at r(-9), dark, zorder 5
 show ocb01_01 8 as p2626 at l(-2), light, zorder 6
 c26261 '[textdict[2107353]]'
-play sfx2 "other_7064.ogg"
 hide p2631
 hide p2626
 show ocb01_01 8 as p2626 at l(-2), dark, zorder 6
+play sfx2 "other_7064.ogg"
 c25933 '[textdict[2107354]]'
-play sfx2 "other_7064.ogg"
 hide p2626
 show ocb01_01 8 as p2626 at l(-2), dark, zorder 6
+play sfx2 "other_7064.ogg"
 c25943 '[textdict[2107355]]'
-play sfx2 "other_7064.ogg"
 hide p2626
 show ocb01_01 8 as p2626 at l(-2), dark, zorder 6
+play sfx2 "other_7064.ogg"
 c26503 '[textdict[2107356]]'
-play sfx2 "other_7064.ogg"
 hide p2626
 show ocb01_01 8 as p2626 at l(-2), dark, zorder 6
+play sfx2 "other_7064.ogg"
 c11543 '[textdict[2107357]]'
 hide p2626
 show ocb01_01 8 as p2626 at l(-2), dark, zorder 6
@@ -298,11 +298,11 @@ hide p2626
 show ocb01_01 9 as p2626 at l(-2), dark, zorder 6
 show scb41_01 4 as p2631 at r(-9), light, zorder 5
 c26313 '[textdict[2107370]]'
-play sfx2 "fight_6024.ogg"
 hide p2631
 hide p2626
 show ocb01_01 9 as p2626 at l(-2), dark, zorder 6
 show scb41_01 4 as p2631 at r(-9), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c26313 '[textdict[2107371]]'
 hide p2626
 hide p2631

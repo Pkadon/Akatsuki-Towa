@@ -15,8 +15,8 @@ hide p1
 c0 '[textdict[1120131]]'
 c9721 '[textdict[1120132]]'
 c9721 '[textdict[1120133]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 show oc002_01 5 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1120134]]'
 hide p2
 show oc002_01 5 as p2 at r(-3), dark, zorder 5

@@ -51,17 +51,17 @@ hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 show st040_01 1 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1132056]]'
-play sfxvoice "avg_vocal_na15.ogg"
 hide p2
 hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na15.ogg"
 c13 '[textdict[1132057]]'
-play sfx2 "other_7027.ogg"
 hide p239
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show st040_01 5 as p239 at l(-19), light, zorder 6
+play sfx2 "other_7027.ogg"
 c2391 '[textdict[1132058]]'
 hide p1
 hide p239

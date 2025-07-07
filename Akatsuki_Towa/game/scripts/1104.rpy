@@ -19,21 +19,21 @@ c2361 '[textdict[2102531]]'
 hide p236
 show st037_01 4 as p236 at l(-10), dark, zorder 6
 c10893 '[textdict[2102532]]' with shake
-play sfxvoice "avg_vocal_ro09.ogg"
 hide p236
 show st037_01 4 as p236 at l(-10), dark, zorder 6
 show oc003_01 5 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro09.ogg"
 c33 '[textdict[2102533]]'
 hide p236
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
 show st037_01 6 as p236 at l(-10), light, zorder 6
 c2361 '[textdict[2102534]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 hide p3
 hide p236
 show st037_01 6 as p236 at l(-10), dark, zorder 6
 show oc002_01 6 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[2102535]]'
 hide p2
 hide p236
@@ -74,10 +74,10 @@ hide p204
 hide p236
 show st037_01 6 as p236 at l(-10), dark, zorder 6
 c5113 '[textdict[2102543]]'
-play sfxvoice "avg_vocal_ch05.ogg"
 hide p236
 show st037_01 6 as p236 at l(-10), dark, zorder 6
 show oc002_01 13 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch05.ogg"
 c23 '[textdict[2102544]]'
 hide p236
 hide p2

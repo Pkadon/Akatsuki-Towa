@@ -232,10 +232,10 @@ c14791 '[textdict[1177955]]'
 show oc002_01 22 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1177956]]'
 play music "ed7511.ogg"
-play sfx2 "other_7079.ogg"
 hide p2
 show oc002_01 22 as p2 at r(-3), dark, zorder 5
 show oc004_01 16 as p4 at l(-5), light, zorder 6
+play sfx2 "other_7079.ogg"
 c41 '[textdict[1177957]]' with shake
 hide p4
 hide p2

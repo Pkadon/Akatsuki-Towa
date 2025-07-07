@@ -7,8 +7,8 @@ c0 '[textdict[1178325]]'
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[1178326]]'
 hide p1
 show st061_01 5 as p1304 at r(-2), light, zorder 5

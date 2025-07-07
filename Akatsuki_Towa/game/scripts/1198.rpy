@@ -138,8 +138,8 @@ show oc001_01 14 as p1 at r_midback(-2), light, zorder 5
 c13 '[textdict[2107708]]'
 hide p29
 hide p1
-play sfx2 "other_7086.ogg"
 with fade
+play sfx2 "other_7086.ogg"
 c0 '[textdict[2107709]]'
 show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2107710]]'
@@ -149,8 +149,8 @@ show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2107711]]'
 hide p29
 hide p1
-play sfx2 "other_7086.ogg"
 with fade
+play sfx2 "other_7086.ogg"
 c0 '[textdict[2107712]]'
 show oc001_01 4 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2107713]]'
@@ -160,8 +160,8 @@ show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2107714]]'
 hide p29
 hide p1
-play sfx2 "other_7086.ogg"
 with fade
+play sfx2 "other_7086.ogg"
 c0 '[textdict[2107715]]'
 show oc001_01 13 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2107716]]'
@@ -171,8 +171,8 @@ show sc021_01 4 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2107717]]'
 hide p29
 hide p1
-play sfx2 "other_7086.ogg"
 with fade
+play sfx2 "other_7086.ogg"
 c0 '[textdict[2107718]]'
 show oc001_01 19 as p1 at r_entrance(-2), light, zorder 5
 c13 '[textdict[2107719]]'
@@ -182,8 +182,8 @@ show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[2107720]]'
 hide p29
 hide p1
-play sfx2 "other_7086.ogg"
 with fade
+play sfx2 "other_7086.ogg"
 c0 '[textdict[2107721]]'
 play music "ed7101.ogg"
 show oc001_01 14 as p1 at r_entrance(-2), light, zorder 5
@@ -315,8 +315,8 @@ c0 '[textdict[2107751]]'
 play music "ed7511.ogg"
 scene avg_bg_080
 with fade
-play sfx2 "other_7079.ogg"
 show oc001_01 3 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7079.ogg"
 c13 '[textdict[2107752]]' with shake
 hide p1
 show oc001_01 3 as p1 at r(-2), dark, zorder 5
@@ -329,8 +329,8 @@ c0 '[textdict[2107754]]'
 play music "ed7514.ogg"
 scene avg_bg_010
 with fade
-play sfx2 "other_7057.ogg"
 show oc001_01 14 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7057.ogg"
 c13 '[textdict[2107755]]'
 hide p1
 show oc001_01 14 as p1 at r(-2), dark, zorder 5

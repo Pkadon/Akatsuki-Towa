@@ -19,15 +19,15 @@ hide p1
 c12463 '[textdict[1153051]]'
 c12471 '[textdict[1153052]]'
 c12483 '[textdict[1153053]]'
-play sfxvoice "avg_vocal_ro04.ogg"
 show oc003_01 17 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro04.ogg"
 c33 '[textdict[1153054]]'
 hide p3
 show oc003_01 17 as p3 at r(-6), dark, zorder 5
 c12491 '[textdict[1153055]]'
-play sfxvoice "avg_vocal_ch24.ogg"
 hide p3
 show oc002_01 8 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch24.ogg"
 c23 '[textdict[1153056]]'
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5

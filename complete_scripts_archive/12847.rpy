@@ -45,9 +45,9 @@ c2393 '[textdict[1186549]]'
 hide p239
 show st040_01 3 as p239 at r(-19), dark, zorder 5
 c14251 '[textdict[1186550]]'
-play sfx2 "other_7047.ogg"
 hide p239
 show oc001_01 1 as p1 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13 '[textdict[1186551]]'
 hide p1
 show st061_01 1 as p1304 at r_entrance(-2), light, zorder 5
@@ -531,11 +531,11 @@ show oc001_01 7 as p1 at r(-2), dark, zorder 5
 show oc002_01 21 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1186655]]'
 play music "ed7150.ogg"
-play sfx2 "other_7047.ogg"
 hide p1
 hide p2
 show oc002_01 21 as p2 at l(-3), dark, zorder 6
 show st061_01 1 as p1304 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c13043 '[textdict[1186656]]'
 hide p2
 hide p1304

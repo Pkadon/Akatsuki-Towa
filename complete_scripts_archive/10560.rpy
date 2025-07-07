@@ -6,10 +6,10 @@ scene avg_bg_105
 with fade
 show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1154027]]'
-play sfx2 "other_7087.ogg"
 hide p4
 show oc004_01 11 as p4 at r(-5), dark, zorder 5
 show sc008_01 4 as p16 at l_entrance(-18), light, zorder 6
+play sfx2 "other_7087.ogg"
 c161 '[textdict[1154028]]' with shake
 hide p16
 hide p4
@@ -136,11 +136,11 @@ hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show sc032_01 5 as p40 at l(-17), l_shake, light, zorder 6
 c401 '[textdict[1154057]]'
-play sfx2 "other_7088.ogg"
 hide p1
 hide p40
 show sc032_01 5 as p40 at l(-17), dark, zorder 6
 show sc030_01 4 as p38 at r_midback(-12), light, zorder 5
+play sfx2 "other_7088.ogg"
 c383 '[textdict[1154058]]'
 hide p40
 hide p38
@@ -151,11 +151,11 @@ hide p4
 show oc004_01 1 as p4 at l(-5), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1154060]]'
-play sfx2 "other_7087.ogg"
 hide p4
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show oc003_01 9 as p3 at l(-6), light, zorder 6
+play sfx2 "other_7087.ogg"
 c31 '[textdict[1154061]]' with shake
 hide p3
 hide p1
@@ -207,8 +207,8 @@ c13 '[textdict[1154074]]'
 stop music
 scene avg_bg_105
 with fade
-play sfxvoice "bcv_oc001_die_01.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "bcv_oc001_die_01.ogg"
 c13 '[textdict[1154075]]'
 play music "ed7151.ogg"
 hide p1
@@ -310,9 +310,9 @@ show oc002_01 12 as p2 at r(-3), dark, zorder 5
 show sc008_01 4 as p16 at l_exit(-18), light, zorder 6
 c161 '[textdict[1154095]]'
 hide p16
-play sfx2 "other_7085.ogg"
 hide p2
 show oc002_01 4 as p2 at r(-3), r_shake, light, zorder 5
+play sfx2 "other_7085.ogg"
 c23 '[textdict[1154096]]'
 hide p2
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -330,10 +330,10 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc003_01 4 as p3 at l_entrance(-6), light, zorder 6
 c31 '[textdict[1154101]]'
-play sfxvoice "avg_vocal_na10_b.ogg"
 hide p1
 hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na10_b.ogg"
 c13 '[textdict[1154102]]'
 return

@@ -3,8 +3,8 @@ stop music
 
 scene avg_bg_070
 with fade
-play sfxvoice "avg_vocal_na03_b.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na03_b.ogg"
 c13 '[textdict[2102128]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -189,10 +189,10 @@ with fade
 c10931 '[textdict[2102179]]'
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2102180]]'
-play sfx2 "common_sephi.ogg"
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show sc050_01 1 as p57 at l(-19), light, zorder 6
+play sfx2 "common_sephi.ogg"
 c571 '[textdict[2102181]]'
 hide p1
 hide p57

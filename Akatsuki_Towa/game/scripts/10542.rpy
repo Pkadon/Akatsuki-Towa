@@ -26,10 +26,10 @@ hide p1
 show st040_01 5 as p239 at l(-19), light, zorder 6
 with fade
 c2391 '[textdict[1152700]]'
-play sfxvoice "avg_vocal_li03.ogg"
 hide p239
 show st040_01 5 as p239 at l(-19), dark, zorder 6
 show oc004_01 9 as p4 at r(-5), light, zorder 5
+play sfxvoice "avg_vocal_li03.ogg"
 c43 '[textdict[1152701]]'
 hide p4
 hide p239

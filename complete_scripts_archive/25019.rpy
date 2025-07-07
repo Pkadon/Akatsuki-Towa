@@ -5,8 +5,8 @@ scene placeholderbackground
 with fade
 c20083 '[textdict[1210042]]'
 c20093 '[textdict[1210043]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 show oc002_01 2 as p2 at mid(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1210044]]'
 hide p2
 c20083 '[textdict[1210045]]'

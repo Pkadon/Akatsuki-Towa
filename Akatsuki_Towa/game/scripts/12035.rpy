@@ -14,11 +14,11 @@ hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6
 show st033_01 3 as p537 at r(-7), light, zorder 5
 c5373 '[textdict[1121560]]'
-play sfx2 "fight_6003.ogg"
 hide p2
 hide p537
 show st033_01 3 as p537 at r(-7), dark, zorder 5
 show oc002_01 20 as p2 at l(-3), light, zorder 6
+play sfx2 "fight_6003.ogg"
 c21 '[textdict[1121561]]'
 hide p537
 hide p2
@@ -60,11 +60,11 @@ hide p2
 show oc002_01 9 as p2 at l(-3), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1120223]]'
-play sfxvoice "avg_vocal_ch25.ogg"
 hide p2
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show oc002_01 10 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch25.ogg"
 c21 '[textdict[1120224]]'
 hide p1
 hide p2
@@ -91,11 +91,11 @@ hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1120229]]'
-play sfxvoice "avg_vocal_ch09.ogg"
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 14 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch09.ogg"
 c21 '[textdict[1120230]]'
 hide p1
 hide p2

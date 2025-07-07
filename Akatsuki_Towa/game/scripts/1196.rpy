@@ -10,9 +10,9 @@ c13 '[textdict[2107598]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2107599]]'
-play sfx2 "other_7004.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7004.ogg"
 c13 '[textdict[2107600]]'
 hide p1
 show oc001_01 1 as p1 at r(-2), light, zorder 5
@@ -132,9 +132,9 @@ hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 with fade
 c13 '[textdict[2107633]]'
-play sfx2 "other_7085.ogg"
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7085.ogg"
 c13 '[textdict[2107634]]'
 hide p1
 with fade

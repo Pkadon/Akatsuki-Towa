@@ -155,8 +155,8 @@ show st041_01 4 as p240 at l(-1), light, zorder 6
 c2401 '[textdict[1152158]]'
 hide p240
 hide p4
-play sfx2 "other_7047.ogg"
 with fade
+play sfx2 "other_7047.ogg"
 c6883 '[textdict[1152159]]'
 c12021 '[textdict[1152160]]'
 c12313 '[textdict[1152161]]'
@@ -206,13 +206,13 @@ c23 '[textdict[1152175]]'
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5
 c12021 '[textdict[1152176]]'
-play sfxvoice "avg_vocal_ch04.ogg"
 hide p2
 show oc002_01 5 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch04.ogg"
 c23 '[textdict[1152177]]'
-play sfxvoice "avg_vocal_na20.ogg"
 hide p2
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1152178]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5

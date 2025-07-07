@@ -6,8 +6,8 @@ scene avg_bg_023
 with fade
 c12021 '[textdict[1150376]]'
 c12021 '[textdict[1150377]]'
-play sfxvoice "avg_vocal_na20.ogg"
 show oc001_01 10 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1150378]]'
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
@@ -34,9 +34,9 @@ show oc002_01 8 as p2 at l(-3), l_shake, light, zorder 6
 c21 '[textdict[1150386]]'
 hide p2
 hide p240
-play sfx2 "other_7020.ogg"
 show st040_01 1 as p239 at l_entrance(-19), light, zorder 6
 with fade
+play sfx2 "other_7020.ogg"
 c2391 '[textdict[1150387]]'
 hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
@@ -82,22 +82,22 @@ hide p239
 show st040_01 1 as p239 at l(-19), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1150396]]'
-play sfxvoice "avg_vocal_ch04_b.ogg"
 hide p239
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 8 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch04_b.ogg"
 c21 '[textdict[1150397]]'
 hide p2
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show st040_01 4 as p239 at l(-19), light, zorder 6
 c2391 '[textdict[1150398]]'
-play sfxvoice "avg_vocal_ch09.ogg"
 hide p1
 hide p239
 show st040_01 4 as p239 at l(-19), dark, zorder 6
 show oc002_01 14 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch09.ogg"
 c23 '[textdict[1150399]]'
 hide p239
 hide p2
@@ -173,11 +173,11 @@ hide p3
 show oc003_01 17 as p3 at l(-6), dark, zorder 6
 show st041_01 1 as p240 at r(-1), light, zorder 5
 c2403 '[textdict[1150414]]'
-play sfxvoice "avg_vocal_li03.ogg"
 hide p3
 hide p240
 show st041_01 1 as p240 at r(-1), dark, zorder 5
 show oc004_01 1 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li03.ogg"
 c41 '[textdict[1150415]]'
 hide p240
 hide p4

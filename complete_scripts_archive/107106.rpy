@@ -145,14 +145,14 @@ c13351 '[textdict[1179890]]'
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
 c13351 '[textdict[1179891]]'
-play sfx2 "other_7024.ogg"
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7024.ogg"
 c13351 '[textdict[1179892]]'
 play music "ed7516.ogg"
-play sfx2 "other_7072.ogg"
 hide p2
 show oc002_01 15 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7072.ogg"
 c13021 '[textdict[1179893]]'
 hide p2
 show oc001_01 4 as p1 at r(-2), light, zorder 5

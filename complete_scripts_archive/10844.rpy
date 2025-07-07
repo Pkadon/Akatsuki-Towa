@@ -90,8 +90,8 @@ hide p4
 show oc004_01 1 as p4 at l(-5), light, zorder 6
 c41 '[textdict[1188579]]'
 hide p4
-play sfx2 "other_7072.ogg"
 with fade
+play sfx2 "other_7072.ogg"
 c0 '[textdict[1188580]]'
 c26041 '[textdict[1188581]]'
 c26041 '[textdict[1188582]]'

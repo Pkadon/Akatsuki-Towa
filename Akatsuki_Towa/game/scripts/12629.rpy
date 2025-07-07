@@ -48,10 +48,10 @@ c0 '[textdict[1162587]]'
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 with fade
 c43 '[textdict[1162588]]'
-play sfx2 "other_7004.ogg"
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show oc003_01 4 as p3 at l(-6), light, zorder 6
+play sfx2 "other_7004.ogg"
 c31 '[textdict[1162589]]'
 hide p4
 hide p3

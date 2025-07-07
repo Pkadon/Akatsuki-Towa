@@ -24,8 +24,8 @@ c10893 '[textdict[2102664]]'
 hide p2
 c7481 '[textdict[2102665]]'
 c0 '[textdict[2102666]]'
-play sfxvoice "bcv_oc002_c02_01.ogg"
 show oc002_01 8 as p2 at r(-3), light, zorder 5
+play sfxvoice "bcv_oc002_c02_01.ogg"
 c23 '[textdict[2102667]]'
 hide p2
 show oc002_01 8 as p2 at r(-3), dark, zorder 5

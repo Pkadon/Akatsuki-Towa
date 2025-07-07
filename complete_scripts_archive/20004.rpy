@@ -4,8 +4,8 @@ stop music
 play music "ed9997.ogg"
 scene placeholderbackground
 with fade
-play sfxvoice "bcv_oc001_hurt_01.ogg"
 show oc001_01 19 as p1 at mid(-2), light, zorder 5
+play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1000214]]'
 hide p1
 show oc002_01 6 as p2 at mid(-3), light, zorder 5
@@ -19,9 +19,9 @@ c13 '[textdict[1000217]]'
 hide p1
 show oc002_01 8 as p2 at mid(-3), light, zorder 5
 c23 '[textdict[1000218]]'
-play sfxvoice "avg_vocal_na05.ogg"
 hide p2
 show oc001_01 8 as p1 at mid(-2), light, zorder 5
+play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1000219]]'
 hide p1
 play sfx2 "common_remind.ogg"

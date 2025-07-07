@@ -93,8 +93,8 @@ c591 '[textdict[1143180]]'
 hide p59
 hide p1
 c0 '[textdict[1143181]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 show oc002_01 14 as p2 at r(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1143182]]'
 hide p2
 show sc046_01 1 as p1004 at r(-5), light, zorder 5
@@ -133,10 +133,10 @@ hide p2
 show sc046_01 4 as p1004 at l(-5), light, zorder 6
 with fade
 c10041 '[textdict[1143190]]'
-play sfxvoice "avg_vocal_ro04.ogg"
 hide p1004
 show sc046_01 4 as p1004 at l(-5), dark, zorder 6
 show oc003_01 17 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro04.ogg"
 c33 '[textdict[1143191]]'
 hide p1004
 hide p3

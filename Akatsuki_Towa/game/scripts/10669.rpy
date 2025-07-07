@@ -29,9 +29,9 @@ hide p2
 hide p3
 show oc003_01 7 as p3 at r(-6), dark, zorder 5
 c5001 '[textdict[1165888]]' with shake
-play sfx2 "fight_6024.ogg"
 hide p3
 show oc001_01 20 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1165889]]'
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5

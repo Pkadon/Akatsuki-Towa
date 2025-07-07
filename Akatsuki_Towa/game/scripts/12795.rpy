@@ -60,8 +60,8 @@ show st064_01 1 as p1469 at l(-2), light, zorder 6
 c14691 '[textdict[1177569]]'
 scene avg_bg_077
 with fade
-play sfx2 "other_7047.ogg"
 show st064_01 1 as p1469 at l_entrance(-2), light, zorder 6
+play sfx2 "other_7047.ogg"
 c14691 '[textdict[1177570]]'
 hide p1469
 show st064_01 1 as p1469 at l(-2), light, zorder 6

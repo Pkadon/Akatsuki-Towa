@@ -10,9 +10,9 @@ c41 '[textdict[2102865]]'
 hide p4
 show oc004_01 12 as p4 at l(-5), l_shake, light, zorder 6
 c41 '[textdict[2102866]]'
-play sfxvoice "avg_vocal_li15.ogg"
 hide p4
 show oc004_01 8 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li15.ogg"
 c41 '[textdict[2102867]]'
 hide p4
 show oc004_01 8 as p4 at l(-5), dark, zorder 6
@@ -28,10 +28,10 @@ hide p1
 c0 '[textdict[2102870]]'
 show oc004_01 7 as p4 at l(-5), light, zorder 6
 c41 '[textdict[2102871]]'
-play sfxvoice "avg_vocal_na03.ogg"
 hide p4
 show oc004_01 7 as p4 at l(-5), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na03.ogg"
 c13 '[textdict[2102872]]'
 hide p4
 hide p1

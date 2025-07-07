@@ -6,10 +6,10 @@ scene avg_bg_049
 with fade
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1132030]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show oc002_01 2 as p2 at l(-3), light, zorder 6
+play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1132031]]'
 hide p2
 hide p1
@@ -41,22 +41,22 @@ hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
 show st040_01 1 as p1042 at l(-19), light, zorder 6
 c10421 '[textdict[1132038]]'
-play sfxvoice "avg_vocal_ro02.ogg"
 hide p1
 hide p1042
 show st040_01 1 as p1042 at l(-19), dark, zorder 6
 show oc003_01 1 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro02.ogg"
 c33 '[textdict[1132039]]'
 hide p1042
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
 show st040_01 1 as p1042 at l(-19), light, zorder 6
 c10421 '[textdict[1132040]]'
-play sfxvoice "avg_vocal_li03.ogg"
 hide p3
 hide p1042
 show st040_01 1 as p1042 at l(-19), dark, zorder 6
 show oc004_01 1 as p4 at r(-5), light, zorder 5
+play sfxvoice "avg_vocal_li03.ogg"
 c43 '[textdict[1132041]]'
 hide p1042
 hide p4

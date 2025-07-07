@@ -7,8 +7,8 @@ with fade
 play sfx2 "other_7060.ogg"
 c0 '[textdict[2113393]]'
 stop music
-play sfx2 "other_7060.ogg"
 show ocd01_01 1 as p2665 at mid_entrance(-2), light, zorder 5
+play sfx2 "other_7060.ogg"
 c26653 '[textdict[2113394]]'
 hide p2665
 show ocd01_01 22 as p2665 at mid(-2), light, zorder 5
@@ -103,13 +103,13 @@ c26653 '[textdict[2113426]]'
 hide p2665
 show ocd01_01 1 as p2665 at mid(-2), light, zorder 5
 c26653 '[textdict[2113427]]'
-play sfx2 "other_7071.ogg"
 hide p2665
 show ocd01_01 2 as p2665 at mid(-2), light, zorder 5
+play sfx2 "other_7071.ogg"
 c26653 '[textdict[2113428]]'
-play sfx2 "other_7072.ogg"
 hide p2665
 show ocd01_01 4 as p2665 at mid(-2), light, zorder 5
+play sfx2 "other_7072.ogg"
 c26653 '[textdict[2113429]]'
 hide p2665
 show ocd01_01 12 as p2665 at mid(-2), light, zorder 5
@@ -117,9 +117,9 @@ c26653 '[textdict[2113430]]'
 hide p2665
 show ocd01_01 12 as p2665 at mid(-2), light, zorder 5
 c26653 '[textdict[2113431]]'
-play sfx2 "other_7073.ogg"
 hide p2665
 show ocd01_01 10 as p2665 at mid(-2), light, zorder 5
+play sfx2 "other_7073.ogg"
 c26653 '[textdict[2113432]]'
 hide p2665
 show ocd01_01 1 as p2665 at mid(-2), light, zorder 5

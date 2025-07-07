@@ -22,16 +22,16 @@ hide p4
 show oc004_01 21 as p4 at l(-5), dark, zorder 6
 show oc005_01 17 as p5 at r(-6), r_shake, light, zorder 5
 c53 '[textdict[1173677]]'
-play sfx2 "other_7071.ogg"
 hide p5
 hide p4
 show oc004_01 21 as p4 at l(-5), dark, zorder 6
 show oc005_01 22 as p5 at r(-6), light, zorder 5
+play sfx2 "other_7071.ogg"
 c53 '[textdict[1173678]]'
-play sfx2 "other_7072.ogg"
 hide p4
 hide p5
 show oc005_01 22 as p5 at r(-6), dark, zorder 5
+play sfx2 "other_7072.ogg"
 c14491 '[textdict[1173679]]'
 hide p5
 show oc005_01 4 as p5 at r(-6), light, zorder 5
@@ -118,14 +118,14 @@ hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
 show oc003_01 4 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1173707]]'
-play sfx2 "other_7071.ogg"
 hide p3
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7071.ogg"
 c14571 '[textdict[1173708]]'
-play sfx2 "other_7072.ogg"
 hide p1304
 show st057_01 1 as p1453 at r(-16), light, zorder 5
+play sfx2 "other_7072.ogg"
 c14533 '[textdict[1173709]]'
 hide p1453
 show st057_01 2 as p1453 at r(-16), light, zorder 5

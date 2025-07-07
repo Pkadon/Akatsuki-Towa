@@ -9,16 +9,16 @@ play music "ED6103.ogg"
 c0 '[textdict[2108465]]'
 show st041_01 1 as p240 at r(-1), light, zorder 5
 c2403 '[textdict[2108466]]'
-play sfx2 "other_7039.ogg"
 hide p240
 show st041_01 1 as p240 at r(-1), dark, zorder 5
 show uc001_01 1 as p689 at l(-2), r_shake, light, zorder 6
-c6891 '[textdict[2108467]]'
 play sfx2 "other_7039.ogg"
+c6891 '[textdict[2108467]]'
 hide p240
 hide p689
 show uc001_01 1 as p689 at l(-2), dark, zorder 6
 show st041_01 1 as p240 at r(-1), light, zorder 5
+play sfx2 "other_7039.ogg"
 c2403 '[textdict[2108468]]'
 hide p689
 hide p240
@@ -359,17 +359,17 @@ c163 '[textdict[2108545]]'
 hide p16
 show sc008_01 4 as p16 at r(-18), light, zorder 5
 c163 '[textdict[2108546]]'
-play sfx2 "other_7062.ogg"
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
+play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108547]]'
-play sfx2 "other_7062.ogg"
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
+play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108548]]'
-play sfx2 "fight_6009.ogg"
 hide p16
 show sc008_01 4 as p16 at r(-18), light, zorder 5
+play sfx2 "fight_6009.ogg"
 c163 '[textdict[2108549]]' (what_size=(gui.text_size*1.25)) with shake
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
@@ -436,21 +436,21 @@ c0 '[textdict[2108566]]'
 play music "ed7506.ogg"
 play sfx2 "other_7062.ogg"
 c26791 '[textdict[2108567]]' (what_size=(gui.text_size*1.2)) with shake
-play sfx2 "other_7062.ogg"
 show st041_01 5 as p240 at l(-1), light, zorder 6
+play sfx2 "other_7062.ogg"
 c2401 '[textdict[2108568]]'
-play sfx2 "other_7061.ogg"
 hide p240
 show st050_01 3 as p257 at l(-11), light, zorder 6
+play sfx2 "other_7061.ogg"
 c2571 '[textdict[2108569]]'
-play sfx2 "other_7062.ogg"
 hide p257
 show sc007_01 5 as p15 at l(-17), l_shake, light, zorder 6
-c151 '[textdict[2108570]]'
 play sfx2 "other_7062.ogg"
+c151 '[textdict[2108570]]'
 hide p15
 show sc007_01 5 as p15 at l(-17), dark, zorder 6
 show sc005_01 2 as p13 at r(-17), light, zorder 5
+play sfx2 "other_7062.ogg"
 c133 '[textdict[2108571]]'
 hide p15
 hide p13

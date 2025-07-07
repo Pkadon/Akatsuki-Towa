@@ -95,10 +95,10 @@ show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 20 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1186519]]'
 play music "ed7151.ogg"
-play sfx2 "other_7080.ogg"
 hide p3
 hide p1
 show oc001_01 20 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7080.ogg"
 c5001 '[textdict[1186520]]'
 hide p1
 c0 '[textdict[1186521]]'
@@ -119,11 +119,11 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 4 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1186525]]'
-play sfx2 "fight_6025.ogg"
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show oc003_01 5 as p3 at l(-6), light, zorder 6
+play sfx2 "fight_6025.ogg"
 c31 '[textdict[1186526]]'
 hide p1
 hide p3

@@ -142,8 +142,8 @@ play sfx2 "other_7044.ogg"
 c0 '[textdict[1165630]]'
 show st062_01 1 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1165631]]'
-play sfx2 "other_7047.ogg"
 hide p1308
+play sfx2 "other_7047.ogg"
 c13541 '[textdict[1165632]]'
 show st062_01 1 as p1308 at l(-16), light, zorder 6
 c13081 '[textdict[1165633]]'

@@ -6,11 +6,11 @@ scene avg_bg_038
 with fade
 show st044_01 2 as p692 at r_entrance(10), light, zorder 5
 c6923 '[textdict[1005040]]'
-play sfx2 "other_7047.ogg"
-play sfxvoice "avg_vocal_na20.ogg"
 hide p692
 show st044_01 2 as p692 at r(10), dark, zorder 5
 show oc001_01 10 as p1 at l_entrance(-2), light, zorder 6
+play sfx2 "other_7047.ogg"
+play sfxvoice "avg_vocal_na20.ogg"
 c11 '[textdict[1005041]]'
 hide p692
 hide p1

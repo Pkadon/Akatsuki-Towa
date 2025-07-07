@@ -119,9 +119,9 @@ with fade
 c0 '[textdict[1202417]]'
 show oc002_01 8 as p2 at l_entrance(-3), light, zorder 6
 c21 '[textdict[1202418]]'
-play sfx2 "other_7092.ogg"
 hide p2
 show oc002_01 18 as p2 at l(-3), light, zorder 6
+play sfx2 "other_7092.ogg"
 c21 '[textdict[1202419]]'
 hide p2
 show oc002_01 18 as p2 at l(-3), dark, zorder 6

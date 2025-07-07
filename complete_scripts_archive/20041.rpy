@@ -4,8 +4,8 @@ stop music
 play music "ed6570.ogg"
 scene placeholderbackground
 with fade
-play sfx2 "other_7085.ogg"
 show oc001_01 3 as p1 at l(-2), light, zorder 6
+play sfx2 "other_7085.ogg"
 c11 '[textdict[1002428]]'
 hide p1
 show oc001_01 3 as p1 at l(-2), dark, zorder 6
@@ -106,11 +106,11 @@ hide p35
 show sc027_01 3 as p35 at r(-10), dark, zorder 5
 show oc002_01 6 as p2 at l(-3), light, zorder 6
 c21 '[textdict[1002448]]'
-play sfx2 "other_7057.ogg"
 hide p35
 hide p2
 show oc002_01 6 as p2 at l(-3), dark, zorder 6
 show sc027_01 3 as p35 at r(-10), r_shake, light, zorder 5
+play sfx2 "other_7057.ogg"
 c353 '[textdict[1002449]]'
 hide p2
 hide p35
@@ -133,10 +133,10 @@ hide p3
 show oc003_01 7 as p3 at l(-6), dark, zorder 6
 show sc027_01 3 as p35 at r(-10), light, zorder 5
 c353 '[textdict[1002453]]'
-play sfx2 "fight_6009.ogg"
 hide p35
 hide p3
 show oc003_01 7 as p3 at l(-6), dark, zorder 6
 show sc027_01 5 as p35 at r(-10), light, zorder 5
+play sfx2 "fight_6009.ogg"
 c353 '[textdict[1002454]]'
 return

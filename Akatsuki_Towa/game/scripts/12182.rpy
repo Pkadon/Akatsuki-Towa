@@ -7,10 +7,10 @@ with fade
 c0 '[textdict[1120618]]'
 show sc021_01 1 as p29 at l(-17), light, zorder 6
 c291 '[textdict[1120619]]'
-play sfx2 "other_7067.ogg"
 hide p29
 show sc021_01 1 as p29 at l(-17), dark, zorder 6
 show sc019_01 3 as p27 at r(-18), light, zorder 5
+play sfx2 "other_7067.ogg"
 c273 '[textdict[1120620]]'
 hide p29
 hide p27
@@ -87,11 +87,11 @@ hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 show sc019_01 2 as p27 at l(-18), l_shake, light, zorder 6
 c271 '[textdict[1120635]]'
-play sfx2 "other_7088.ogg"
 hide p27
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 show sc019_01 6 as p27 at l(-18), light, zorder 6
+play sfx2 "other_7088.ogg"
 c271 '[textdict[1120636]]'
 hide p27
 hide p2
@@ -113,11 +113,11 @@ hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
 show sc019_01 6 as p27 at l(-18), l_shake, light, zorder 6
 c271 '[textdict[1120640]]'
-play sfxvoice "avg_vocal_ch10.ogg"
 hide p2
 hide p27
 show sc019_01 6 as p27 at l(-18), dark, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch10.ogg"
 c23 '[textdict[1120641]]'
 hide p27
 hide p2

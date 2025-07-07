@@ -21,9 +21,9 @@ c9621 '[textdict[1128386]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 c9621 '[textdict[1128387]]'
-play sfxvoice "avg_vocal_na22.ogg"
 hide p1
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na22.ogg"
 c13 '[textdict[1128388]]'
 hide p1
 show oc002_01 9 as p2 at r(-3), light, zorder 5
@@ -60,15 +60,15 @@ c9621 '[textdict[1128396]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), dark, zorder 5
 c9621 '[textdict[1128397]]'
-play sfx2 "common_quest.ogg"
 hide p1
 show oc001_01 18 as p1 at r(-2), dark, zorder 5
+play sfx2 "common_quest.ogg"
 c9621 '[textdict[1128398]]'
 play music "ED6505.ogg"
 scene avg_bg_027
 with fade
-play sfx2 "other_7021.ogg"
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfx2 "other_7021.ogg"
 c13 '[textdict[1128399]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5

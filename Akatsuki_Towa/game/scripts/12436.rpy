@@ -10,11 +10,11 @@ hide p1004
 show sc046_01 4 as p1004 at l(-5), dark, zorder 6
 show oc002_01 4 as p2 at r_entrance(-3), r_shake, light, zorder 5
 c23 '[textdict[1143139]]'
-play sfxvoice "avg_vocal_ro09.ogg"
 hide p1004
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5
 show oc003_01 17 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[1143140]]'
 hide p3
 hide p2

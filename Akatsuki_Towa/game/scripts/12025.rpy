@@ -18,11 +18,11 @@ hide p20
 show sc012_01 3 as p20 at l(-16), dark, zorder 6
 show sc011_01 2 as p19 at r(-1), r_shake, light, zorder 5
 c193 '[textdict[1120045]]'
-play sfxvoice "avg_vocal_ch16.ogg"
 hide p19
 hide p20
 show sc012_01 3 as p20 at l(-16), dark, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch16.ogg"
 c23 '[textdict[1120046]]'
 hide p20
 hide p2

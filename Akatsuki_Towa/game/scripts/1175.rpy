@@ -7,9 +7,9 @@ with fade
 c0 '[textdict[2105724]]'
 show sc001_01 2 as p9 at l(-11), light, zorder 6
 c91 '[textdict[2105725]]'
-play sfx2 "other_7087.ogg"
 hide p9
 show sc001_01 4 as p9 at l(-11), light, zorder 6
+play sfx2 "other_7087.ogg"
 c91 '[textdict[2105726]]' with shake
 hide p9
 show sc001_01 4 as p9 at l(-11), dark, zorder 6
@@ -203,9 +203,9 @@ c25371 '[textdict[2105768]]'
 hide p1
 show oc001_01 7 as p1 at r(-2), dark, zorder 5
 c25381 '[textdict[2105769]]'
-play sfx2 "other_7087.ogg"
 hide p1
 show sc001_01 4 as p9 at r_midback(-11), light, zorder 5
+play sfx2 "other_7087.ogg"
 c93 '[textdict[2105770]]'
 hide p9
 show sc001_01 4 as p9 at r(-11), light, zorder 5

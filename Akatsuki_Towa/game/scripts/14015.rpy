@@ -97,8 +97,8 @@ c0 '[textdict[1202344]]'
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1202345]]'
 hide p1
-play sfx2 "other_7079.ogg"
 with fade
+play sfx2 "other_7079.ogg"
 c20161 '[textdict[1202346]]' (what_size=(gui.text_size*1.2))
 play music "ed7511.ogg"
 show oc001_01 3 as p1 at l(-2), light, zorder 6

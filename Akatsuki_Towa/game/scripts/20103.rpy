@@ -41,9 +41,9 @@ c6941 '[textdict[1005090]]'
 hide p15
 show sc007_01 5 as p15 at r(-17), dark, zorder 5
 c6951 '[textdict[1005096]]'
-play sfxvoice "avg_vocal_na21.ogg"
 hide p15
 show oc001_01 12 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1005097]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5

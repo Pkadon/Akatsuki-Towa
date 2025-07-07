@@ -4,8 +4,8 @@ stop music
 play music "ed7151.ogg"
 scene placeholderbackground
 with fade
-play sfx2 "fight_6024.ogg"
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfx2 "fight_6024.ogg"
 c13 '[textdict[1120734]]'
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
@@ -21,11 +21,11 @@ hide p4
 show oc004_01 10 as p4 at l(-5), dark, zorder 6
 show oc003_01 5 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1120737]]'
-play sfx2 "other_7057.ogg"
 hide p4
 hide p3
 show oc003_01 5 as p3 at r(-6), dark, zorder 5
 show sc027_01 3 as p35 at l(-10), light, zorder 6
+play sfx2 "other_7057.ogg"
 c351 '[textdict[1120738]]'
 hide p3
 hide p35
@@ -57,11 +57,11 @@ hide p4
 show oc004_01 10 as p4 at l(-5), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1120744]]'
-play sfx2 "other_7088.ogg"
 hide p4
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc027_01 2 as p35 at l(-10), l_shake, light, zorder 6
+play sfx2 "other_7088.ogg"
 c351 '[textdict[1120745]]'
 hide p1
 hide p35
@@ -78,11 +78,11 @@ hide p35
 show sc027_01 3 as p35 at l(-10), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1120748]]'
-play sfx2 "other_7057.ogg"
 hide p35
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show sc027_01 6 as p35 at l(-10), l_shake, light, zorder 6
+play sfx2 "other_7057.ogg"
 c351 '[textdict[1120749]]'
 hide p1
 hide p35
@@ -95,17 +95,17 @@ show sc027_01 6 as p35 at l(-10), dark, zorder 6
 show oc004_01 23 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1121434]]'
 stop music
-play sfx2 "other_7086.ogg"
 hide p35
 hide p4
 show oc004_01 23 as p4 at r(-5), dark, zorder 5
 show sc027_01 3 as p35 at l_exit(-10), light, zorder 6
+play sfx2 "other_7086.ogg"
 c351 '[textdict[1121435]]'
 hide p35
 play music "ed6570.ogg"
-play sfxvoice "avg_vocal_na21.ogg"
 hide p4
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1121436]]'
 hide p1
 show oc001_01 12 as p1 at r(-2), dark, zorder 5
@@ -138,23 +138,23 @@ show oc003_01 1 as p3 at l(-6), light, zorder 6
 c31 '[textdict[1121442]]'
 scene avg_bg_027
 with fade
-play sfx2 "other_7085.ogg"
 show sc027_01 5 as p35 at r_entrance(-10), light, zorder 5
+play sfx2 "other_7085.ogg"
 c353 '[textdict[1121443]]'
-play sfx2 "fight_6024.ogg"
 hide p35
 show sc027_01 5 as p35 at r(-10), dark, zorder 5
 show uc004_02 4 as p631 at l_entrance(-9), light, zorder 6
+play sfx2 "fight_6024.ogg"
 c6311 '[textdict[1121444]]'
 hide p631
 hide p35
 show sc027_01 5 as p35 at r(-10), dark, zorder 5
 show uc004_02 2 as p626 at l_midback(-9), light, zorder 6
 c6261 '[textdict[1121445]]'
-play sfx2 "fight_6010.ogg"
 hide p35
 hide p626
 show uc004_02 2 as p626 at l(-9), dark, zorder 6
 show sc027_01 3 as p35 at r(-10), r_shake, light, zorder 5
+play sfx2 "fight_6010.ogg"
 c353 '[textdict[1007724]]' (what_size=(gui.text_size*1.2))
 return

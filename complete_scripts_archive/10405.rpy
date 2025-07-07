@@ -4,8 +4,8 @@ stop music
 play music "ED6518.ogg"
 scene avg_bg_001
 with fade
-play sfx2 "common_select.ogg"
 show oc001_01 4 as p1 at r(-2), light, zorder 5
+play sfx2 "common_select.ogg"
 c13 '[textdict[1140288]]' (what_size=(gui.text_size*0.9))
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
@@ -86,11 +86,11 @@ hide p4
 show oc004_01 10 as p4 at r(-5), dark, zorder 5
 show sc048_01 4 as p55 at l(-7), light, zorder 6
 c551 '[textdict[1140304]]'
-play sfxvoice "avg_vocal_ro14.ogg"
 hide p55
 hide p4
 show oc004_01 10 as p4 at r(-5), dark, zorder 5
 show oc003_01 7 as p3 at l(-6), light, zorder 6
+play sfxvoice "avg_vocal_ro14.ogg"
 c31 '[textdict[1140305]]'
 hide p3
 hide p4
@@ -132,11 +132,11 @@ hide p55
 show sc048_01 4 as p55 at l(-7), dark, zorder 6
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1140313]]'
-play sfxvoice "avg_vocal_ch19.ogg"
 hide p3
 hide p55
 show sc048_01 4 as p55 at l(-7), dark, zorder 6
 show oc002_01 17 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch19.ogg"
 c23 '[textdict[1140314]]'
 hide p2
 hide p55
@@ -148,17 +148,17 @@ hide p55
 show sc048_01 4 as p55 at l(-7), dark, zorder 6
 show oc002_01 18 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1140316]]'
-play sfxvoice "avg_vocal_ch07.ogg"
 hide p2
 hide p55
 show sc048_01 4 as p55 at l(-7), dark, zorder 6
 show oc002_01 5 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch07.ogg"
 c23 '[textdict[1140317]]'
-play sfxvoice "avg_vocal_na05.ogg"
 hide p2
 hide p55
 show sc048_01 4 as p55 at l(-7), dark, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1140318]]'
 hide p55
 hide p1
@@ -190,11 +190,11 @@ hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
 show sc048_01 4 as p55 at l(-7), light, zorder 6
 c551 '[textdict[1140324]]'
-play sfxvoice "avg_vocal_ro16.ogg"
 hide p1
 hide p55
 show sc048_01 4 as p55 at l(-7), dark, zorder 6
 show oc003_01 10 as p3 at r(-6), light, zorder 5
+play sfxvoice "avg_vocal_ro16.ogg"
 c33 '[textdict[1140325]]'
 hide p3
 hide p55

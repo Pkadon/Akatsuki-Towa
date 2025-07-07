@@ -8,12 +8,12 @@ play sfx2 "other_7060.ogg"
 c0 '[textdict[1171589]]'
 play sfx2 "other_7060.ogg"
 c5001 '[textdict[1171590]]'
-play sfx2 "other_7088.ogg"
 show oc001_01 18 as p1 at r(-2), light, zorder 5
-c13 '[textdict[1171591]]'
 play sfx2 "other_7088.ogg"
+c13 '[textdict[1171591]]'
 hide p1
 show oc001_01 18 as p1 at r(-2), dark, zorder 5
+play sfx2 "other_7088.ogg"
 c5001 '[textdict[1171592]]'
 hide p1
 show oc001_01 16 as p1 at r(-2), light, zorder 5
@@ -149,11 +149,11 @@ show oc003_01 7 as p3 at l(-6), dark, zorder 6
 show oc001_01 17 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1171620]]'
 play music "ed7150.ogg"
-play sfx2 "other_7047.ogg"
 hide p3
 hide p1
 show oc001_01 17 as p1 at r(-2), dark, zorder 5
 show st061_01 1 as p1304 at l_entrance(-2), light, zorder 6
+play sfx2 "other_7047.ogg"
 c13041 '[textdict[1171621]]'
 hide p1
 hide p1304

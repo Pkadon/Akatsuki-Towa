@@ -9,10 +9,10 @@ c91 '[textdict[1218020]]'
 hide p9
 show sc001_01 1 as p9 at l(-11), light, zorder 6
 c91 '[textdict[1218021]]'
-play sfxvoice "avg_vocal_na02.ogg"
 hide p9
 show sc001_01 1 as p9 at l(-11), dark, zorder 6
 show oc001_01 2 as p1 at r(-2), light, zorder 5
+play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1218022]]'
 hide p9
 hide p1

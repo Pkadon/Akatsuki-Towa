@@ -36,9 +36,9 @@ c231 '[textdict[1005031]]'
 hide p23
 show sc015_01 1 as p23 at l(9), light, zorder 6
 c231 '[textdict[1005033]]'
-play sfxvoice "avg_vocal_na02.ogg"
 hide p23
 show oc001_01 7 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1005034]]'
 hide p1
 show oc001_01 7 as p1 at l(-2), dark, zorder 6

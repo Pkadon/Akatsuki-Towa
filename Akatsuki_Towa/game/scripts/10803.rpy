@@ -23,46 +23,46 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show st061_01 3 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1180826]]'
-play sfx2 "other_7064.ogg"
 hide p3
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c11571 '[textdict[1180827]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c6901 '[textdict[1180828]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c15031 '[textdict[1180829]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c15041 '[textdict[1180830]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c6901 '[textdict[1180831]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c11571 '[textdict[1180832]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c15051 '[textdict[1180833]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c15061 '[textdict[1180834]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c12341 '[textdict[1180835]]'
-play sfx2 "other_7064.ogg"
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c15051 '[textdict[1180836]]'
 hide p1304
 show st061_01 3 as p1304 at r(-2), dark, zorder 5

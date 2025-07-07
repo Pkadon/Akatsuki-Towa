@@ -57,11 +57,11 @@ hide p3
 show oc003_01 13 as p3 at r(-6), dark, zorder 5
 show st057_01 1 as p1211 at l(-16), light, zorder 6
 c12111 '[textdict[1164000]]'
-play sfx2 "other_7004.ogg"
 hide p1211
 hide p3
 show oc003_01 13 as p3 at r(-6), dark, zorder 5
 show st057_01 1 as p1211 at l(-16), light, zorder 6
+play sfx2 "other_7004.ogg"
 c12111 '[textdict[1164001]]'
 hide p3
 hide p1211

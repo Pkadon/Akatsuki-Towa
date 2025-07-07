@@ -31,8 +31,8 @@ c13 '[textdict[1163614]]'
 hide p1
 play sfx2 "other_7047.ogg"
 c0 '[textdict[1163615]]'
-play sfx2 "other_7085.ogg"
 show oc002_01 12 as p2 at r_entrance(-3), light, zorder 5
+play sfx2 "other_7085.ogg"
 c23 '[textdict[1163616]]'
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
@@ -95,9 +95,9 @@ c23 '[textdict[1163632]]'
 hide p2
 show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1163633]]'
-play sfx2 "other_7004.ogg"
 hide p2
 show oc002_01 4 as p2 at r(-3), light, zorder 5
+play sfx2 "other_7004.ogg"
 c23 '[textdict[1163634]]'
 hide p2
 show oc002_01 4 as p2 at r(-3), dark, zorder 5

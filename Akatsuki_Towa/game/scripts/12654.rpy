@@ -12,9 +12,9 @@ c13351 '[textdict[1166345]]'
 hide p1
 show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1166346]]'
-play sfx2 "other_7087.ogg"
 hide p2
 show oc002_01 9 as p2 at r(-3), r_shake, light, zorder 5
+play sfx2 "other_7087.ogg"
 c23 '[textdict[1166347]]'
 hide p2
 show oc002_01 9 as p2 at r(-3), dark, zorder 5

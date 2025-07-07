@@ -88,8 +88,8 @@ hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 c7371 '[textdict[1143775]]'
 hide p1
-play sfx2 "other_7048.ogg"
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 with fade
+play sfx2 "other_7048.ogg"
 c13 '[textdict[1143776]]'
 return

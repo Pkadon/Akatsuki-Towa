@@ -191,9 +191,9 @@ hide p1304
 hide p1469
 show st064_01 3 as p1469 at r(-2), dark, zorder 5
 c14811 '[textdict[1177512]]'
-play sfx2 "other_7087.ogg"
 hide p1469
 show st064_01 4 as p1469 at r(-2), light, zorder 5
+play sfx2 "other_7087.ogg"
 c14693 '[textdict[1177513]]' with shake
 scene avg_bg_070
 with fade

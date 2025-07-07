@@ -15,17 +15,17 @@ hide p3
 show oc003_01 4 as p3 at l(-6), dark, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1151735]]'
-play sfxvoice "avg_vocal_li11.ogg"
 hide p3
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
 show oc004_01 24 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li11.ogg"
 c41 '[textdict[1151736]]'
 hide p4
 hide p1
 c0 '[textdict[1151737]]'
-play sfxvoice "avg_vocal_li27.ogg"
 show oc004_01 15 as p4 at l(-5), light, zorder 6
+play sfxvoice "avg_vocal_li27.ogg"
 c41 '[textdict[1151738]]' with shake
 hide p4
 show oc004_01 15 as p4 at l(-5), dark, zorder 6

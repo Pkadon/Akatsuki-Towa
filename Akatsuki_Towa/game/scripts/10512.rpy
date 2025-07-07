@@ -6,13 +6,13 @@ scene placeholderbackground
 with fade
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1150495]]'
-play sfx2 "fight_6015.ogg"
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
+play sfx2 "fight_6015.ogg"
 c12031 '[textdict[1150496]]' with shake
-play sfx2 "fight_6016.ogg"
 hide p1
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfx2 "fight_6016.ogg"
 c23 '[textdict[1150497]]' with shake
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5

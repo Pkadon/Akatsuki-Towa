@@ -4,8 +4,8 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_023
 with fade
-play sfx2 "other_7047.ogg"
 show sc016_01 1 as p1267 at l_entrance(-6), light, zorder 6
+play sfx2 "other_7047.ogg"
 c12671 '[textdict[1183497]]'
 hide p1267
 show sc016_01 1 as p1267 at l(-6), dark, zorder 6
@@ -189,17 +189,17 @@ scene avg_bg_074
 with fade
 show oc002_01 1 as p2 at r_entrance(-3), light, zorder 5
 c23 '[textdict[1183534]]'
-play sfx2 "other_7064.ogg"
 hide p2
 show oc002_01 1 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c25481 '[textdict[1183535]]' with shake
-play sfx2 "other_7064.ogg"
 hide p2
 show oc002_01 1 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c25491 '[textdict[1183536]]' with shake
-play sfx2 "other_7064.ogg"
 hide p2
 show oc002_01 1 as p2 at r(-3), dark, zorder 5
+play sfx2 "other_7064.ogg"
 c25501 '[textdict[1183537]]' with shake
 hide p2
 show oc002_01 12 as p2 at r(-3), light, zorder 5

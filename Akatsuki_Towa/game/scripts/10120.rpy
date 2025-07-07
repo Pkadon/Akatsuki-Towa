@@ -8,8 +8,8 @@ play sfx2 "other_7022.ogg"
 c0 '[textdict[1123036]]'
 play sfx2 "other_7022.ogg"
 c7143 '[textdict[1006641]]'
-play sfx2 "other_7023.ogg"
 show st051_01 3 as p258 at l(-9), light, zorder 6
+play sfx2 "other_7023.ogg"
 c2581 '[textdict[1006642]]'
 hide p258
 play sfx2 "other_7022.ogg"
@@ -25,8 +25,8 @@ c2333 '[textdict[1006645]]'
 hide p233
 show st034_01 2 as p233 at r(12), dark, zorder 5
 c6771 '[textdict[1006646]]'
-play sfx2 "other_7022.ogg"
 hide p233
 show st027_01 5 as p226 at r(5), light, zorder 5
+play sfx2 "other_7022.ogg"
 c2263 '[textdict[1006647]]'
 return

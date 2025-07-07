@@ -14,9 +14,9 @@ c10513 '[textdict[1132664]]'
 hide p1051
 show uc003_04 1 as p1051 at r(-14), light, zorder 5
 c10513 '[textdict[1132665]]'
-play sfx2 "other_7087.ogg"
 hide p1051
 show uc003_04 1 as p1051 at r(-14), dark, zorder 5
+play sfx2 "other_7087.ogg"
 c10301 '[textdict[1132666]]' (what_size=(gui.text_size*1.2)) with shake
 hide p1051
 show uc003_04 1 as p1051 at r(-14), dark, zorder 5

@@ -7,8 +7,8 @@ with fade
 c0 '[textdict[1123039]]'
 play sfx2 "elc_5002.ogg"
 c0 '[textdict[1004953]]'
-play sfx2 "other_7023.ogg"
 show st044_01 4 as p692 at r(10), light, zorder 5
+play sfx2 "other_7023.ogg"
 c6923 '[textdict[1004954]]'
 hide p692
 show st044_01 4 as p692 at r(10), dark, zorder 5
@@ -69,11 +69,11 @@ hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5
 show sc007_01 4 as p15 at l(-17), light, zorder 6
 c151 '[textdict[1004966]]'
-play sfx2 "other_7022.ogg"
 hide p4
 hide p15
 show sc007_01 4 as p15 at l(-17), dark, zorder 6
 show st044_01 2 as p692 at r(10), light, zorder 5
+play sfx2 "other_7022.ogg"
 c6923 '[textdict[1004967]]'
 hide p15
 hide p692
@@ -195,11 +195,11 @@ hide p1
 show oc001_01 2 as p1 at l(-2), dark, zorder 6
 show oc004_01 1 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1004991]]'
-play sfxvoice "avg_vocal_na05.ogg"
 hide p1
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
 show oc001_01 7 as p1 at l(-2), light, zorder 6
+play sfxvoice "avg_vocal_na05.ogg"
 c11 '[textdict[1004992]]'
 hide p4
 hide p1

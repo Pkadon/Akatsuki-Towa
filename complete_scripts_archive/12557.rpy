@@ -5,15 +5,15 @@ play music "ED6102.ogg"
 scene avg_bg_023
 with fade
 c12321 '[textdict[1153295]]'
-play sfxvoice "avg_vocal_ch06.ogg"
 show oc002_01 6 as p2 at r_entrance(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1153296]]'
 hide p2
 show oc002_01 6 as p2 at r(-3), dark, zorder 5
 c12321 '[textdict[1153297]]'
-play sfxvoice "avg_vocal_ch11.ogg"
 hide p2
 show oc002_01 12 as p2 at r_exit(-3), r_shake, light, zorder 5
+play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1153298]]'
 hide p2
 show oc001_01 8 as p1 at r_entrance(-2), light, zorder 5
@@ -54,9 +54,9 @@ c12321 '[textdict[1153306]]'
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
 c12321 '[textdict[1153307]]'
-play sfxvoice "avg_vocal_ch12.ogg"
 hide p2
 show oc002_01 2 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1153308]]'
 hide p2
 show oc001_01 10 as p1 at r(-2), light, zorder 5

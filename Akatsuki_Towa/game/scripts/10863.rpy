@@ -12,8 +12,8 @@ c5001 '[textdict[1191184]]'
 play sfx2 "other_7004.ogg"
 c5001 '[textdict[1191185]]'
 c5001 '[textdict[1191186]]'
-play sfx2 "other_7047.ogg"
 show sta61_01 5 as p2670 at r_entrance(-2), light, zorder 5
+play sfx2 "other_7047.ogg"
 c26703 '[textdict[1191187]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
@@ -223,15 +223,15 @@ show st040_01 5 as p239 at r(-19), dark, zorder 5
 show sta61_01 5 as p2670 at l(-2), light, zorder 6
 c26701 '[textdict[1191233]]'
 stop music
-play sfx2 "other_7060.ogg"
 hide p239
 hide p2670
 show sta61_01 5 as p2670 at l(-2), dark, zorder 6
-c26713 '[textdict[1191234]]'
 play sfx2 "other_7060.ogg"
+c26713 '[textdict[1191234]]'
 hide p2670
 show sta61_01 5 as p2670 at l(-2), dark, zorder 6
 show st040_01 2 as p239 at r(-19), light, zorder 5
+play sfx2 "other_7060.ogg"
 c2393 '[textdict[1191235]]'
 hide p2670
 hide p239
@@ -277,10 +277,10 @@ c26611 '[textdict[1191246]]'
 hide p2670
 show sta61_01 5 as p2670 at r(-2), light, zorder 5
 c26703 '[textdict[1191247]]'
-play sfx2 "other_7047.ogg"
 hide p2670
 show sta61_01 5 as p2670 at r(-2), dark, zorder 5
 show oca05_01 2 as p2669 at l(-6), light, zorder 6
+play sfx2 "other_7047.ogg"
 c26691 '[textdict[1191248]]'
 hide p2670
 hide p2669

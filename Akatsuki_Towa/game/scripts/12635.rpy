@@ -8,10 +8,10 @@ c0 '[textdict[1162901]]'
 c0 '[textdict[1162902]]'
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162903]]'
-play sfx2 "other_7004.ogg"
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
 show sc010_01 1 as p18 at l(-10), light, zorder 6
+play sfx2 "other_7004.ogg"
 c181 '[textdict[1162904]]'
 hide p18
 hide p1
@@ -185,9 +185,9 @@ c181 '[textdict[1162946]]'
 hide p18
 show sc010_01 1 as p18 at l(-10), dark, zorder 6
 c11573 '[textdict[1162947]]'
-play sfx2 "other_7004.ogg"
 hide p18
 show sc010_01 2 as p18 at l(-10), light, zorder 6
+play sfx2 "other_7004.ogg"
 c181 '[textdict[1162948]]'
 hide p18
 show sc010_01 2 as p18 at l(-10), dark, zorder 6

@@ -15,11 +15,11 @@ hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
 show st009_01 1 as p209 at l(-22), light, zorder 6
 c2091 '[textdict[1120592]]'
-play sfxvoice "avg_vocal_ch08.ogg"
 hide p1
 hide p209
 show st009_01 1 as p209 at l(-22), dark, zorder 6
 show oc002_01 6 as p2 at r(-3), light, zorder 5
+play sfxvoice "avg_vocal_ch08.ogg"
 c23 '[textdict[1120593]]'
 hide p2
 hide p209
