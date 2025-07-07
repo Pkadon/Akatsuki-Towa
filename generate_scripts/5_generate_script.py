@@ -97,10 +97,6 @@ class GameState:
 	def darken_portraits(self, lit_pos):
 		for key in self.state.keys():
 			if key == lit_pos: continue
-		#might end up coming back and removing this
-		#in the original game, 'middle' portraits are not ever darkened
-		#but it might make sense to change that
-			if key == 'mid': continue
 			
 			elif self.state[key]:
 				if self.state[lit_pos]:

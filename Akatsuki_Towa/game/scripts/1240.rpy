@@ -377,10 +377,14 @@ hide p2668
 show oce04_01 4 as p2668 at mid(-5), light, zorder 5
 play sfx2 "other_7074.ogg"
 c26683 '[textdict[2112872]]'
+hide p2668
+show oce04_01 4 as p2668 at mid(-5), dark, zorder 5
 c14501 '[textdict[2112873]]'
 hide p2668
 show oce04_01 1 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112874]]'
+hide p2668
+show oce04_01 1 as p2668 at mid(-5), dark, zorder 5
 c14501 '[textdict[2112875]]'
 hide p2668
 show oce04_01 1 as p2668 at mid(-5), light, zorder 5
@@ -429,6 +433,8 @@ c26683 '[textdict[2112889]]'
 hide p2668
 show oce04_01 1 as p2668 at mid(-5), light, zorder 5
 c26683 '[textdict[2112890]]'
+hide p2668
+show oce04_01 1 as p2668 at mid(-5), dark, zorder 5
 c27701 '[textdict[2112891]]'
 stop music
 hide p2668

@@ -612,6 +612,8 @@ hide p2666
 show oce02_01 4 as p2666 at mid(-3), light, zorder 5
 play sfx2 "fight_6017.ogg"
 c26663 '[textdict[2113385]]' (what_size=(gui.text_size*1.25)) with shake
+hide p2666
+show oce02_01 4 as p2666 at mid(-3), dark, zorder 5
 c13091 '[textdict[2113386]]' with shake
 hide p2666
 show oce02_01 1 as p2666 at mid(-3), light, zorder 5
