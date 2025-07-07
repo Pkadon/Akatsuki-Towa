@@ -3,6 +3,7 @@ stop music
 
 play music "ed7151.ogg"
 scene placeholderbackground
+show sc027_01 1 as p35 at r(-10), light, zorder 5
 window show
 with fade_out
 show sc027_01 1 as p35 at r_exit(-10), light, zorder 5

@@ -490,6 +490,7 @@ hide p1
 show oc001_01 18 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2104266]]'
 scene avg_bg_070
+show oc002_01 6 as p501 at l(-3), light, zorder 6
 with fade
 show oc002_01 6 as p501 at l_exit(-3), light, zorder 6
 play sfxvoice "bcv_oc002_c02_01.ogg"

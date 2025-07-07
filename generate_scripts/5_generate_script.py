@@ -77,7 +77,7 @@ class GameState:
 					self.add_line(f'hide {alias}')
 				if clear:
 					self.state[pos] = None
-	
+					
 	def unpack_portrait_dict(self, pos, color='light'):
 		folderName = self.state[pos]['folderName']
 		expression = self.state[pos]['expression']
@@ -129,7 +129,13 @@ class GameState:
 				self.add_line(f'play music "{newbgm}"\n')
 			self.bgm = newbgm
 			
-	def add_fade(self):
+	def add_fade(self, portraitpos=None):
+		#Adds a placeholder portrait, so it isn't missing during the transition
+		#it will use the same alias as the real one, so it shouldn't need to be hidden
+		if portraitpos:
+			line = self.unpack_portrait_dict(portraitpos, color='light')
+			self.add_line(line)
+
 		#The first fade-in from the scene select menu needs to be treated specially
 		#just because of how the default renpy fade transition interacts with the say window
 		if self.first_fade == True:
@@ -382,7 +388,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#The fade will cover up portrait animations, so get it out of the way first
 			if fade:
 				if CharFadeIn == 1 or CharFadeOut == 1:
-					state.add_fade()
+				#everything except for CharFadeIn needs a placeholder portrait so it isn't missing during the fade in
+					if not CharFadeIn == 1:
+						state.add_fade(portraitpos)
+					else:
+						state.add_fade()
 					fade = False
 					
 			#SHOW PORTRAIT									

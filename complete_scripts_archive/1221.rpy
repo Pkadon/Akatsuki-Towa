@@ -126,6 +126,7 @@ show sc011_01 3 as p19 at l(-1), light, zorder 6
 with fade
 c191 '[textdict[2110177]]' with shake
 scene avg_bg_064
+show sc011_01 3 as p19 at l(-1), light, zorder 6
 with fade
 show sc011_01 3 as p19 at l_exit(-1), light, zorder 6
 play sfx2 "other_7045.ogg"

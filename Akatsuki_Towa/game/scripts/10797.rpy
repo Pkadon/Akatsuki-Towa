@@ -3,6 +3,7 @@ stop music
 
 play music "ed9999.ogg"
 scene avg_bg_050
+show sc016_01 1 as p1267 at l(-6), light, zorder 6
 window show
 with fade_out
 show sc016_01 1 as p1267 at l_exit(-6), light, zorder 6
