@@ -78,6 +78,22 @@ class GameState:
 				if clear:
 					self.state[pos] = None
 	
+	def unpack_portrait_dict(self, pos, color='light'):
+		folderName = self.state[pos]['folderName']
+		expression = self.state[pos]['expression']
+		alias = self.state[pos]['alias']
+		offset = self.state[pos]['offset']
+		zorder = self.state[pos]['zorder']
+		#don't need to worry about tracking transforms so far, but that could change
+		
+		return (
+			f"show {folderName} "
+			f"{expression} "
+			f"as {alias} "
+			f"at {pos}({offset}), {color}, "
+			f"zorder {zorder}\n"
+		)
+	
 	def darken_portraits(self, lit_pos):
 		for key in self.state.keys():
 			if key == lit_pos: continue
@@ -91,24 +107,14 @@ class GameState:
 					lit_alias = self.state[lit_pos]['alias']
 				else:
 					lit_alias = None
-				
-				folderName = self.state[key]['folderName']
-				expression = self.state[key]['expression']
+
 				alias = self.state[key]['alias']
-				offset = self.state[key]['offset']
-				zorder = self.state[key]['zorder']
-				
 				if alias == lit_alias:
 					self.hide_portraits(key)
 				else:
 					self.hide_portraits(key, clear=False)
-					state.add_line(
-						f"show {folderName} "
-						f"{expression} "
-						f"as {alias} "
-						f"at {key}({offset}), dark, "
-						f"zorder {zorder}\n"
-					)
+					line = self.unpack_portrait_dict(key, color='dark')
+					self.add_line(line)
 		
 	def update_portrait(self, pos, portrait_dict):
 		self.hide_portraits(pos)
