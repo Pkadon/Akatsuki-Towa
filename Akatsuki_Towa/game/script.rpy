@@ -14,6 +14,8 @@ init python:
     config.autosave_on_choice = False
     config.save = False
 
+    config.window_show_transition = None
+
 #################################################################
 label start:
 return
