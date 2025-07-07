@@ -121,6 +121,9 @@ class GameState:
 			else:
 				self.add_line(f'play music "{newbgm}"\n')
 			self.bgm = newbgm
+			
+	def add_fade(self):
+		self.add_line(f"with fade\n")
 
 def make_schedule_dict(json, key):
 	d = dict()
@@ -361,7 +364,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			#The fade will cover up portrait animations, so get it out of the way first
 			if fade:
 				if CharFadeIn == 1 or CharFadeOut == 1:
-					state.add_line(f"with fade\n")
+					state.add_fade()
 					fade = False
 					
 			#SHOW PORTRAIT									
@@ -372,7 +375,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 
 		#If fade was not done earlier because of portrait animations, do it here now
 		if fade: 
-			state.add_line(f"with fade\n")
+			state.add_fade()
 			fade = False
 			
 	#SOUND/VOICE
