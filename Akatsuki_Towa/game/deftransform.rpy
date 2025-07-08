@@ -49,11 +49,13 @@ transform r_shake:
 ####################################
 ###used to light up the speaking portrait
 transform light():
+    yalign 1.0
     matrixcolor TintMatrix("#fff")
     zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
 #used to darken the non-speaking portrait
 transform dark():
+    yalign 1.0
     matrixcolor TintMatrix("#808080")
     zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
@@ -61,17 +63,20 @@ transform dark():
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos (680 + charpos)
 
 transform l(charpos):
+    reset
     xanchor 0.5
     xzoom -1.0
     xpos (160 - charpos)
 
 ###doesn't seem like xoffset is taken into account for center placement
 transform mid(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos 460
@@ -82,6 +87,7 @@ transform mid(charpos):
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r_midback(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos (680 + charpos)
@@ -91,6 +97,7 @@ transform r_midback(charpos):
     ease 0.5 xpos (680 + charpos)
 
 transform l_midback(charpos):
+    reset
     xanchor 0.5
     xzoom -1.0
     xpos (160 - charpos)
@@ -105,6 +112,7 @@ transform l_midback(charpos):
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r_entrance(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos 1.50
@@ -112,10 +120,10 @@ transform r_entrance(charpos):
     ease 0.5 xpos (680 + charpos)
 
 transform l_entrance(charpos):
+    reset
     xanchor 0.5
     xzoom -1.0
     xpos -0.50
-    xzoom -1.0
     pause 0.1
     ease 0.5 xpos (160 - charpos)
 
@@ -124,6 +132,7 @@ transform l_entrance(charpos):
 ###there is ONE scene where entrance and midback are used at the same time
 
 transform r_entrance_midback(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos 1.50
@@ -135,10 +144,10 @@ transform r_entrance_midback(charpos):
     ease 0.5 xpos (680 + charpos)
 
 transform l_entrance_midback(charpos):
+    reset
     xanchor 0.5
     xzoom -1.0
     xpos -0.50
-    xzoom -1.0
     pause 0.1
     ease 0.5 xpos (160 - charpos)
     linear 0.1 xpos 0.60
@@ -152,6 +161,7 @@ transform l_entrance_midback(charpos):
 ###charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r_exit(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos (680 + charpos)
@@ -159,6 +169,7 @@ transform r_exit(charpos):
     ease .5 xpos 1.50
 
 transform l_exit(charpos):
+    reset
     xanchor 0.5
     xzoom -1.0
     xpos (160 - charpos)
@@ -170,6 +181,7 @@ transform l_exit(charpos):
 ###there is ONE scene where midback and exit are used at the same time
 
 transform r_exit_midback(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos (680 + charpos)
@@ -181,6 +193,7 @@ transform r_exit_midback(charpos):
     ease .5 xpos 1.50
 
 transform l_exit_midback(charpos):
+    reset
     xanchor 0.5
     xzoom -1.0
     xpos (160 - charpos)
@@ -198,18 +211,21 @@ transform l_exit_midback(charpos):
 #placeholder so it doesn't crash 
 #(these effects shouldn't be used on mid position hopefully)
 transform mid_entrance(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos 460
 
 #placeholder so it doesn't crash
 transform mid_exit(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos 460
 
 #placeholder so it doesn't crash
 transform mid_midback(charpos):
+    reset
     xanchor 0.5
     xzoom 1.0
     xpos 460
