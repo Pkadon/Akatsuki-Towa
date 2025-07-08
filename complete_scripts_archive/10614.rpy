@@ -3,9 +3,10 @@ stop music
 
 play music "ed7100.ogg"
 scene avg_bg_023
-show st040_01 3 as p239 at l(-19), l_shake, light, flip, zorder 6
+show st040_01 3 as p239 at l(-19), light, flip, zorder 6
 window show
 with fade_out
+show st040_01 3 as p239 at l(-19), l_shake, light, flip, zorder 6
 c2391 '[textdict[1160643]]' (what_size=(gui.text_size*1.25))
 hide p239
 show st040_01 3 as p239 at l(-19), dark, flip, zorder 6

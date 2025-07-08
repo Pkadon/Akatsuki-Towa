@@ -141,8 +141,9 @@ c13 '[textdict[2109058]]'
 hide p1
 c0 '[textdict[2109059]]'
 scene avg_bg_010
-show oc001_01 22 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 22 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 22 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[2109060]]'
 hide p1
 show oc001_01 22 as p1 at r(-2), dark, zorder 5

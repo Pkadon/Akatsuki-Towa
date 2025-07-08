@@ -71,8 +71,9 @@ hide p2
 show oc002_01 1 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[1142303]]'
 scene avg_bg_061
-show oc001_01 3 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 3 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 3 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1142304]]'
 hide p1
 show oc001_01 13 as p1 at r(-2), light, zorder 5

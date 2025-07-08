@@ -216,8 +216,9 @@ show oc002_01 12 as p2 at l(-3), dark, flip, zorder 6
 play sfx2 "other_7073.ogg"
 c4973 '[textdict[1002960]]'
 scene avg_bg_034
-show oc001_01 9 as p1 at l(-2), l_shake, light, flip, zorder 6
+show oc001_01 9 as p1 at l(-2), light, flip, zorder 6
 with fade
+show oc001_01 9 as p1 at l(-2), l_shake, light, flip, zorder 6
 c11 '[textdict[1002961]]'
 hide p1
 show oc001_01 9 as p1 at l(-2), dark, flip, zorder 6

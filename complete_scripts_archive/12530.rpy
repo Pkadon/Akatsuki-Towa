@@ -31,8 +31,9 @@ show sc007_01 1 as p15 at l(-17), light, flip, zorder 6
 c151 '[textdict[1151627]]'
 hide p15
 hide p1
-show sc008_01 3 as p16 at r(-18), r_shake, light, zorder 5
+show sc008_01 3 as p16 at r(-18), light, zorder 5
 with fade
+show sc008_01 3 as p16 at r(-18), r_shake, light, zorder 5
 c163 '[textdict[1151628]]'
 hide p16
 show sc008_01 3 as p16 at r(-18), dark, zorder 5

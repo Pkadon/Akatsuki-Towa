@@ -13,8 +13,9 @@ show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110151]]'
 stop music
 scene avg_bg_011
-show sc011_01 4 as p19 at l(-1), l_shake, light, flip, zorder 6
+show sc011_01 4 as p19 at l(-1), light, flip, zorder 6
 with fade
+show sc011_01 4 as p19 at l(-1), l_shake, light, flip, zorder 6
 c191 '[textdict[2110152]]'
 hide p19
 show sc011_01 4 as p19 at l(-1), light, flip, zorder 6

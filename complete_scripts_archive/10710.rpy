@@ -92,8 +92,9 @@ show oc001_01 19 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1170278]]'
 play music "ed7151.ogg"
 scene avg_bg_040
-show oc002_01 12 as p2 at l(-3), l_shake, light, flip, zorder 6
+show oc002_01 12 as p2 at l(-3), light, flip, zorder 6
 with fade
+show oc002_01 12 as p2 at l(-3), l_shake, light, flip, zorder 6
 c21 '[textdict[1170279]]'
 hide p2
 show oc002_01 12 as p2 at l(-3), dark, flip, zorder 6
@@ -150,8 +151,9 @@ show oc008_01 1 as p8 at r(-5), dark, zorder 5
 show oc002_01 9 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[1170290]]' with shake
 scene avg_bg_061
-show oc001_01 19 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 19 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 19 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1170291]]'
 hide p1
 show oc001_01 19 as p1 at r(-2), dark, zorder 5

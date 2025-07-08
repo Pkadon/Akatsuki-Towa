@@ -273,8 +273,9 @@ play sfx2 "other_7085.ogg"
 c6111 '[textdict[1003435]]'
 hide p611
 hide p610
-show st012_01 3 as p211 at r(-6), r_shake, light, zorder 5
+show st012_01 3 as p211 at r(-6), light, zorder 5
 with fade
+show st012_01 3 as p211 at r(-6), r_shake, light, zorder 5
 c2113 '[textdict[1003436]]'
 hide p211
 show st012_01 3 as p211 at r(-6), light, zorder 5

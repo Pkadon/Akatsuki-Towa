@@ -19,8 +19,9 @@ c5003 '[textdict[1144025]]'
 show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
 c61 '[textdict[1144026]]'
 hide p6
-show uc003_04 3 as p1045 at r(-14), r_shake, light, zorder 5
+show uc003_04 3 as p1045 at r(-14), light, zorder 5
 with fade
+show uc003_04 3 as p1045 at r(-14), r_shake, light, zorder 5
 c10453 '[textdict[1144027]]'
 hide p1045
 show uc003_04 4 as p1046 at r(-14), light, zorder 5

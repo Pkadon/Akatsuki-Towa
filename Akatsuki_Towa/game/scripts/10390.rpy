@@ -59,8 +59,9 @@ show uc003_04 3 as p1046 at l(-14), light, flip, zorder 6
 c10461 '[textdict[1132484]]'
 hide p1046
 hide p55
-show st040_01 5 as p239 at l_midback(-19), light, flip, zorder 6
+show st040_01 5 as p239 at l(-19), light, flip, zorder 6
 with fade
+show st040_01 5 as p239 at l_midback(-19), light, flip, zorder 6
 play sfx2 "fight_6006.ogg"
 c2391 '[textdict[1132485]]'
 hide p239
@@ -86,8 +87,9 @@ show oc004_01 10 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1132489]]'
 hide p4
 hide p1
-show sc048_01 4 as p55 at r_midback(-7), light, zorder 5
+show sc048_01 4 as p55 at r(-7), light, zorder 5
 with fade
+show sc048_01 4 as p55 at r_midback(-7), light, zorder 5
 play sfx2 "fight_6003.ogg"
 c553 '[textdict[1132490]]'
 hide p55

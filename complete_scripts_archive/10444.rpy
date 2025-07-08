@@ -43,8 +43,9 @@ c10563 '[textdict[1141868]]'
 show st039_01 1 as p238 at l(-6), light, flip, zorder 6
 c2381 '[textdict[1141869]]'
 scene avg_bg_003
-show oc004_01 16 as p4 at l(-5), l_shake, light, flip, zorder 6
+show oc004_01 16 as p4 at l(-5), light, flip, zorder 6
 with fade
+show oc004_01 16 as p4 at l(-5), l_shake, light, flip, zorder 6
 c41 '[textdict[1141870]]'
 hide p4
 show oc004_01 16 as p4 at l(-5), dark, flip, zorder 6

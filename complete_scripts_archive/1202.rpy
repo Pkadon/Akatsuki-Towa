@@ -119,8 +119,9 @@ play sfx2 "other_7062.ogg"
 c103 '[textdict[2108130]]'
 hide p9
 hide p10
-show sc005_01 1 as p13 at l(-17), l_shake, light, flip, zorder 6
+show sc005_01 1 as p13 at l(-17), light, flip, zorder 6
 with fade
+show sc005_01 1 as p13 at l(-17), l_shake, light, flip, zorder 6
 c131 '[textdict[2108131]]'
 hide p13
 show sc005_01 5 as p13 at l(-17), light, flip, zorder 6
@@ -257,8 +258,9 @@ play sfx2 "other_7062.ogg"
 c303 '[textdict[2108170]]'
 hide p27
 hide p30
-show sc009_01 1 as p17 at l(-13), l_shake, light, flip, zorder 6
+show sc009_01 1 as p17 at l(-13), light, flip, zorder 6
 with fade
+show sc009_01 1 as p17 at l(-13), l_shake, light, flip, zorder 6
 c171 '[textdict[2108171]]'
 hide p17
 show sc009_01 1 as p17 at l(-13), dark, flip, zorder 6

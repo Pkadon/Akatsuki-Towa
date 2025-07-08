@@ -21,8 +21,9 @@ hide p4
 show oc004_01 15 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1144086]]'
 scene placeholderbackground
-show oc006_01 4 as p6 at l(-5), l_shake, light, flip, zorder 6
+show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
 with fade
+show oc006_01 4 as p6 at l(-5), l_shake, light, flip, zorder 6
 c61 '[textdict[1144087]]'
 hide p6
 c0 '[textdict[1144088]]'

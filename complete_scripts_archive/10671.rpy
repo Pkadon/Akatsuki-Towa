@@ -32,8 +32,9 @@ with fade
 c13621 '[textdict[1165942]]'
 c13633 '[textdict[1165943]]'
 play music "ed7511.ogg"
-show oc001_01 4 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 4 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 4 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1165944]]'
 hide p1
 c0 '[textdict[1165945]]'

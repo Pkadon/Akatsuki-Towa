@@ -394,7 +394,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			
 			#The fade will cover up portrait animations, so get it out of the way first
 			if fade:
-				if CharFadeIn == 1 or CharFadeOut == 1:
+				if CharFadeIn == 1 or CharFadeOut == 1 or effect in [103, 203, 102, 202]:
 				#everything except for CharFadeIn needs a placeholder portrait so it isn't missing during the fade in
 					if not CharFadeIn == 1:
 						state.add_fade(portraitpos)

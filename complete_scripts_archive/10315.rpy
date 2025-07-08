@@ -284,8 +284,9 @@ show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1130391]]'
 hide p4
 hide p1
-show sc052_01 5 as p59 at l_midback(-25), light, flip, zorder 6
+show sc052_01 5 as p59 at l(-25), light, flip, zorder 6
 with fade
+show sc052_01 5 as p59 at l_midback(-25), light, flip, zorder 6
 c591 '[textdict[1130392]]'
 hide p59
 show sc052_01 5 as p59 at l(-25), dark, flip, zorder 6

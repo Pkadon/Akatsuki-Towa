@@ -7,8 +7,9 @@ with fade_out
 c0 '[textdict[1180858]]'
 c0 '[textdict[1180859]]'
 scene avg_bg_023
-show st061_01 3 as p1304 at l(-2), l_shake, light, flip, zorder 6
+show st061_01 3 as p1304 at l(-2), light, flip, zorder 6
 with fade
+show st061_01 3 as p1304 at l(-2), l_shake, light, flip, zorder 6
 play sfx2 "other_7088.ogg"
 c13041 '[textdict[1180860]]'
 hide p1304

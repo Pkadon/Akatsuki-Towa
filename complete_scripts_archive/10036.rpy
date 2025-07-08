@@ -3,9 +3,10 @@ stop music
 
 play music "ed7151.ogg"
 scene avg_bg_027
-show oc001_01 9 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 9 as p1 at r(-2), light, zorder 5
 window show
 with fade_out
+show oc001_01 9 as p1 at r(-2), r_shake, light, zorder 5
 play sfx2 "common_wrong.ogg"
 play sfxvoice "avg_vocal_na08.ogg"
 c13 '[textdict[1003008]]'

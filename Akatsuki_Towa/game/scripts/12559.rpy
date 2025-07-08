@@ -270,8 +270,9 @@ show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1153421]]'
 hide p1254
 hide p1
-show oc002_01 2 as p2 at r(-3), l_shake, light, zorder 5
+show oc002_01 2 as p2 at r(-3), light, zorder 5
 with fade
+show oc002_01 2 as p2 at r(-3), l_shake, light, zorder 5
 c23 '[textdict[1153422]]'
 hide p2
 show oc002_01 10 as p2 at r(-3), light, zorder 5

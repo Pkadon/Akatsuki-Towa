@@ -120,8 +120,9 @@ hide p4
 show oc004_01 5 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1133405]]' (what_size=(gui.text_size*1.4)) with shake
 hide p4
-show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 12 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1133406]]'
 hide p1

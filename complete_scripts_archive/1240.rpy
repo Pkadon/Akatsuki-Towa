@@ -394,8 +394,9 @@ with fade
 play sfx2 "other_7074.ogg"
 c26683 '[textdict[2112877]]'
 scene avg_bg_032
-show oce04_01 2 as p2668 at mid(-5), r_shake, light, zorder 5
+show oce04_01 2 as p2668 at mid(-5), light, zorder 5
 with fade
+show oce04_01 2 as p2668 at mid(-5), r_shake, light, zorder 5
 c26683 '[textdict[2112878]]'
 hide p2668
 show oce04_01 2 as p2668 at mid(-5), light, zorder 5

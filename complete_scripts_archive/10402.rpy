@@ -75,8 +75,9 @@ hide p239
 show st040_01 3 as p239 at l(-19), light, flip, zorder 6
 c2391 '[textdict[1140191]]'
 scene avg_bg_049
-show oc001_01 7 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 7 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 7 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1140192]]'
 scene avg_bg_023
 with fade

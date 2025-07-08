@@ -97,8 +97,9 @@ show oc003_01 3 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1131302]]'
 hide p236
 hide p3
-show oc004_01 3 as p4 at r_midback(-5), light, zorder 5
+show oc004_01 3 as p4 at r(-5), light, zorder 5
 with fade
+show oc004_01 3 as p4 at r_midback(-5), light, zorder 5
 play sfxvoice "avg_vocal_li26.ogg"
 c43 '[textdict[1131303]]'
 hide p4

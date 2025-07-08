@@ -237,8 +237,9 @@ show sc049_01 4 as p56 at l(-8), light, flip, zorder 6
 c561 '[textdict[1007504]]'
 hide p56
 hide p2
-show oc002_01 6 as p2 at l(-3), l_shake, light, flip, zorder 6
+show oc002_01 6 as p2 at l(-3), light, flip, zorder 6
 with fade
+show oc002_01 6 as p2 at l(-3), l_shake, light, flip, zorder 6
 play sfx2 "common_wheel.ogg"
 c21 '[textdict[1007505]]'
 hide p2

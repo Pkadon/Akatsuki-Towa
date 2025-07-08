@@ -7,8 +7,9 @@ window show
 with fade_out
 c0 '[textdict[1131424]]'
 scene avg_bg_047
-show st031_01 4 as p230 at l(4), l_shake, light, flip, zorder 6
+show st031_01 4 as p230 at l(4), light, flip, zorder 6
 with fade
+show st031_01 4 as p230 at l(4), l_shake, light, flip, zorder 6
 play sfx2 "other_7007.ogg"
 c2301 '[textdict[1131425]]' (what_size=(gui.text_size*1.2))
 hide p230

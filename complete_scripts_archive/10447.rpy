@@ -153,8 +153,9 @@ play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[1142106]]'
 hide p3
 hide p5
-show st039_01 4 as p238 at l(-6), l_shake, light, flip, zorder 6
+show st039_01 4 as p238 at l(-6), light, flip, zorder 6
 with fade
+show st039_01 4 as p238 at l(-6), l_shake, light, flip, zorder 6
 c2381 '[textdict[1142107]]'
 hide p238
 show st039_01 1 as p238 at l(-6), light, flip, zorder 6

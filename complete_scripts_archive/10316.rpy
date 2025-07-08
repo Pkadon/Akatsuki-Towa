@@ -20,8 +20,9 @@ hide p6
 with fade
 play sfx2 "other_7047.ogg"
 c43 '[textdict[1130403]]'
-show oc006_01 2 as p6 at l(-5), l_shake, light, flip, zorder 6
+show oc006_01 2 as p6 at l(-5), light, flip, zorder 6
 with fade
+show oc006_01 2 as p6 at l(-5), l_shake, light, flip, zorder 6
 c61 '[textdict[1130404]]'
 hide p6
 show oc006_01 2 as p6 at l(-5), dark, flip, zorder 6

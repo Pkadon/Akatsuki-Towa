@@ -99,8 +99,9 @@ show oc004_01 10 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1003287]]'
 hide p2
 hide p4
-show st029_01 3 as p610 at l(-28), l_shake, light, flip, zorder 6
+show st029_01 3 as p610 at l(-28), light, flip, zorder 6
 with fade
+show st029_01 3 as p610 at l(-28), l_shake, light, flip, zorder 6
 c6101 '[textdict[1003288]]'
 hide p610
 show st029_01 3 as p610 at l(-28), dark, flip, zorder 6

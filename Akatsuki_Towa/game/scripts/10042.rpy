@@ -12,8 +12,9 @@ show oc001_01 8 as p1 at r(-2), dark, zorder 5
 show st021_01 3 as p220 at l_entrance(-17), light, flip, zorder 6
 c2201 '[textdict[1003641]]'
 scene avg_bg_036
-show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 12 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1003642]]'
 hide p1

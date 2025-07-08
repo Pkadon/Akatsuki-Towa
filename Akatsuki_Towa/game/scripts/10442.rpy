@@ -160,8 +160,9 @@ show sc046_01 4 as p1004 at l(-5), l_shake, light, flip, zorder 6
 c10041 '[textdict[1141801]]'
 hide p1004
 hide p1022
-show uc003_04 4 as p1045 at r(-14), r_shake, light, zorder 5
+show uc003_04 4 as p1045 at r(-14), light, zorder 5
 with fade
+show uc003_04 4 as p1045 at r(-14), r_shake, light, zorder 5
 play sfx2 "fight_6011.ogg"
 c10453 '[textdict[1141802]]'
 hide p1045

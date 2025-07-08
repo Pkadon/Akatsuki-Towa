@@ -488,8 +488,9 @@ c5003 '[textdict[1154523]]'
 c5003 '[textdict[1154524]]'
 play music "ed7564.ogg"
 scene placeholderbackground
-show oc004_01 16 as p4 at l(-5), l_shake, light, flip, zorder 6
+show oc004_01 16 as p4 at l(-5), light, flip, zorder 6
 with fade
+show oc004_01 16 as p4 at l(-5), l_shake, light, flip, zorder 6
 c41 '[textdict[1154525]]'
 hide p4
 show oc004_01 16 as p4 at l(-5), dark, flip, zorder 6

@@ -3,9 +3,10 @@ stop music
 
 play music "ed7150.ogg"
 scene avg_bg_006
-show st003_01 2 as p203 at l(-7), l_shake, light, flip, zorder 6
+show st003_01 2 as p203 at l(-7), light, flip, zorder 6
 window show
 with fade_out
+show st003_01 2 as p203 at l(-7), l_shake, light, flip, zorder 6
 play sfx2 "other_7042.ogg"
 c2031 '[textdict[1003987]]'
 hide p203

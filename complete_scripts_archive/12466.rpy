@@ -45,8 +45,9 @@ c6113 '[textdict[1143918]]'
 play music "ed7515.ogg"
 scene avg_bg_029
 show memoryoverlay zorder 2
-show st029_01 2 as p610 at l(-28), l_shake, light, flip, zorder 6
+show st029_01 2 as p610 at l(-28), light, flip, zorder 6
 with fade
+show st029_01 2 as p610 at l(-28), l_shake, light, flip, zorder 6
 c6101 '[textdict[1143919]]'
 hide p610
 show st029_01 2 as p610 at l(-28), dark, flip, zorder 6

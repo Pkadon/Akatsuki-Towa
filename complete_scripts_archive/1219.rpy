@@ -156,8 +156,9 @@ hide p4
 c5133 '[textdict[2110027]]'
 c0 '[textdict[2110028]]'
 play music "ed7565.ogg"
-show oc002_01 5 as p2 at l(-3), l_shake, light, flip, zorder 6
+show oc002_01 5 as p2 at l(-3), light, flip, zorder 6
 with fade
+show oc002_01 5 as p2 at l(-3), l_shake, light, flip, zorder 6
 c21 '[textdict[2110029]]'
 hide p2
 show oc002_01 5 as p2 at l(-3), dark, flip, zorder 6

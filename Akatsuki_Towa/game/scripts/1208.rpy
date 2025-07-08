@@ -659,8 +659,9 @@ hide p17
 hide p32
 c0 '[textdict[2108936]]'
 play music "ed7565.ogg"
-show sc019_01 5 as p27 at l_midback(-18), light, flip, zorder 6
+show sc019_01 5 as p27 at l(-18), light, flip, zorder 6
 with fade
+show sc019_01 5 as p27 at l_midback(-18), light, flip, zorder 6
 c271 '[textdict[2108937]]'
 hide p27
 show sc019_01 5 as p27 at l(-18), dark, flip, zorder 6

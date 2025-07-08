@@ -3,9 +3,10 @@ stop music
 
 play music "ED6200.ogg"
 scene avg_bg_010
-show oc004_01 5 as p4 at l(-5), l_shake, light, flip, zorder 6
+show oc004_01 5 as p4 at l(-5), light, flip, zorder 6
 window show
 with fade_out
+show oc004_01 5 as p4 at l(-5), l_shake, light, flip, zorder 6
 play sfxvoice "avg_vocal_li07.ogg"
 c41 '[textdict[1155140]]'
 hide p4

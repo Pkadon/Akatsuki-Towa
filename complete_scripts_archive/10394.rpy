@@ -153,8 +153,9 @@ play sfx2 "other_7089.ogg"
 play sfxvoice "avg_vocal_ch14.ogg"
 c21 '[textdict[1132654]]' with shake
 scene avg_bg_052
-show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 12 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1132655]]'
 play music "ed7526.ogg"
 hide p1

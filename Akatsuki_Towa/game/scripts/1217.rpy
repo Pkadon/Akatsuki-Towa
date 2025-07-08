@@ -131,8 +131,9 @@ show st002_01 6 as p202 at l(-9), dark, flip, zorder 6
 show st005_01 4 as p205 at r(4), r_shake, light, zorder 5
 c2053 '[textdict[2109833]]'
 scene avg_bg_024
-show oc002_01 14 as p2 at r_midback(-3), light, zorder 5
+show oc002_01 14 as p2 at r(-3), light, zorder 5
 with fade
+show oc002_01 14 as p2 at r_midback(-3), light, zorder 5
 c23 '[textdict[2109834]]'
 hide p2
 show oc002_01 14 as p2 at r(-3), dark, zorder 5

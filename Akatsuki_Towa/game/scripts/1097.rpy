@@ -188,8 +188,9 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 with fade
 c13 '[textdict[2102267]]'
 scene avg_bg_013
-show sc053_01 4 as p60 at l(-32), l_shake, light, flip, zorder 6
+show sc053_01 4 as p60 at l(-32), light, flip, zorder 6
 with fade
+show sc053_01 4 as p60 at l(-32), l_shake, light, flip, zorder 6
 c601 '[textdict[2102268]]'
 hide p60
 show sc053_01 4 as p60 at l(-32), dark, flip, zorder 6

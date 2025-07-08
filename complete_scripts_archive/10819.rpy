@@ -20,8 +20,9 @@ c0 '[textdict[1183290]]'
 c0 '[textdict[1183291]]'
 play music "ed9999.ogg"
 scene avg_bg_050
-show oc003_01 12 as p3 at l(-6), l_shake, light, flip, zorder 6
+show oc003_01 12 as p3 at l(-6), light, flip, zorder 6
 with fade
+show oc003_01 12 as p3 at l(-6), l_shake, light, flip, zorder 6
 c31 '[textdict[1183292]]'
 hide p3
 show oc003_01 12 as p3 at l(-6), dark, flip, zorder 6

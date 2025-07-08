@@ -3,9 +3,10 @@ stop music
 
 play music "ed7544.ogg"
 scene avg_bg_062
-show uc003_04 3 as p1116 at r(-14), r_shake, light, zorder 5
+show uc003_04 3 as p1116 at r(-14), light, zorder 5
 window show
 with fade_out
+show uc003_04 3 as p1116 at r(-14), r_shake, light, zorder 5
 c11163 '[textdict[1141899]]'
 hide p1116
 show uc003_04 4 as p1117 at r_entrance(-14), light, zorder 5
@@ -357,8 +358,9 @@ c11713 '[textdict[1141978]]'
 show sc046_01 4 as p1004 at l(-5), light, flip, zorder 6
 c10041 '[textdict[1141979]]'
 hide p1004
-show uc003_04 2 as p1128 at r(-14), r_shake, light, zorder 5
+show uc003_04 2 as p1128 at r(-14), light, zorder 5
 with fade
+show uc003_04 2 as p1128 at r(-14), r_shake, light, zorder 5
 c11283 '[textdict[1141980]]'
 hide p1128
 show uc003_04 4 as p1129 at r(-14), light, zorder 5

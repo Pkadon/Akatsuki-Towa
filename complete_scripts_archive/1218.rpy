@@ -324,8 +324,9 @@ c41 '[textdict[2109963]]'
 c41 '[textdict[2109964]]'
 c41 '[textdict[2109965]]'
 scene avg_bg_078
-show st039_01 2 as p1172 at l(-6), l_shake, light, flip, zorder 6
+show st039_01 2 as p1172 at l(-6), light, flip, zorder 6
 with fade
+show st039_01 2 as p1172 at l(-6), l_shake, light, flip, zorder 6
 c11721 '[textdict[2109966]]'
 hide p1172
 show st039_01 2 as p1172 at l(-6), dark, flip, zorder 6

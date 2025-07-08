@@ -18,8 +18,9 @@ hide p506
 show uc003_01 4 as p507 at r(-26), light, zorder 5
 c5073 '[textdict[1000308]]'
 hide p507
-show oc002_01 16 as p2 at l(-3), l_shake, light, flip, zorder 6
+show oc002_01 16 as p2 at l(-3), light, flip, zorder 6
 with fade
+show oc002_01 16 as p2 at l(-3), l_shake, light, flip, zorder 6
 play sfxvoice "avg_vocal_ch13.ogg"
 c21 '[textdict[1000309]]'
 hide p2

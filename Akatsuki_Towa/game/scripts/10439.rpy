@@ -3,9 +3,10 @@ stop music
 
 play music "ed7544.ogg"
 scene placeholderbackground
-show oc001_01 2 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 2 as p1 at r(-2), light, zorder 5
 window show
 with fade_out
+show oc001_01 2 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1141559]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), light, zorder 5
@@ -27,8 +28,9 @@ hide p1046
 show uc003_04 1 as p1046 at r(-14), light, zorder 5
 c10463 '[textdict[1141565]]'
 hide p1046
-show oc001_01 3 as p1 at r(-2), r_shake, light, zorder 5
+show oc001_01 3 as p1 at r(-2), light, zorder 5
 with fade
+show oc001_01 3 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1141566]]'
 hide p1
 show oc001_01 3 as p1 at r(-2), dark, zorder 5
@@ -50,8 +52,9 @@ show oc006_01 3 as p6 at r(-5), light, zorder 5
 with fade
 c63 '[textdict[1141570]]'
 hide p6
-show oc004_01 13 as p4 at l(-5), l_shake, light, flip, zorder 6
+show oc004_01 13 as p4 at l(-5), light, flip, zorder 6
 with fade
+show oc004_01 13 as p4 at l(-5), l_shake, light, flip, zorder 6
 play sfxvoice "avg_vocal_li14.ogg"
 c41 '[textdict[1141571]]'
 hide p4
@@ -83,8 +86,9 @@ hide p1168
 show st038_02 5 as p1168 at l(-9), light, flip, zorder 6
 c11681 '[textdict[1141579]]'
 hide p1168
-show oc004_01 13 as p4 at r(-5), r_shake, light, zorder 5
+show oc004_01 13 as p4 at r(-5), light, zorder 5
 with fade
+show oc004_01 13 as p4 at r(-5), r_shake, light, zorder 5
 play sfxvoice "avg_vocal_li13.ogg"
 c43 '[textdict[1141580]]'
 hide p4
@@ -127,8 +131,9 @@ show st038_02 1 as p1168 at l(-9), light, flip, zorder 6
 c11681 '[textdict[1141588]]'
 hide p1168
 hide p6
-show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
+show oc002_01 12 as p2 at r(-3), light, zorder 5
 with fade
+show oc002_01 12 as p2 at r(-3), r_shake, light, zorder 5
 c23 '[textdict[1141589]]'
 hide p2
 show oc002_01 12 as p2 at r(-3), dark, zorder 5
@@ -154,8 +159,9 @@ show st038_02 5 as p1168 at l(-9), light, flip, zorder 6
 c11681 '[textdict[1141594]]'
 hide p1168
 hide p6
-show oc004_01 19 as p4 at l(-5), l_shake, light, flip, zorder 6
+show oc004_01 19 as p4 at l(-5), light, flip, zorder 6
 with fade
+show oc004_01 19 as p4 at l(-5), l_shake, light, flip, zorder 6
 c41 '[textdict[1141595]]'
 hide p4
 show oc004_01 19 as p4 at l(-5), dark, flip, zorder 6

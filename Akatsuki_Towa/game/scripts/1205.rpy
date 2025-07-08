@@ -181,8 +181,9 @@ c133 '[textdict[2108503]]'
 stop music
 hide p15
 hide p13
-show sc008_01 4 as p16 at r_midback(-18), light, zorder 5
+show sc008_01 4 as p16 at r(-18), light, zorder 5
 with fade
+show sc008_01 4 as p16 at r_midback(-18), light, zorder 5
 c163 '[textdict[2108504]]' (what_size=(gui.text_size*1.25))
 hide p16
 show sc008_01 4 as p16 at r(-18), dark, zorder 5
