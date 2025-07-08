@@ -3,151 +3,151 @@ stop music
 
 play music "ed7111.ogg"
 scene avg_bg_003
-show st061_01 3 as p1304 at l(-2), light, flip, zorder 6
+$ update_portrait('st061_01 3', 'p1304', [l(-2), light, flip], 6)
 window show
 with fade_in
 c13041 '[textdict[1180426]]'
 hide p1304
-show st061_01 3 as p1304 at l(-2), dark, flip, zorder 6
-show oc001_01 18 as p1 at r(-2), light, zorder 5
+$ update_portrait('st061_01 3', 'p1304', [l(-2), dark, flip], 6)
+$ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180427]]'
 hide p1
 hide p1304
-show st061_01 3 as p1304 at l(-2), dark, flip, zorder 6
-show oc001_01 17 as p1 at r(-2), light, zorder 5
+$ update_portrait('st061_01 3', 'p1304', [l(-2), dark, flip], 6)
+$ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180428]]'
 hide p1304
 hide p1
-show oc001_01 17 as p1 at r(-2), dark, zorder 5
-show oc005_01 4 as p5 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 play sfx2 "other_7071.ogg"
 c51 '[textdict[1180429]]'
 hide p5
 hide p1
-show oc001_01 17 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7072.ogg"
 c13021 '[textdict[1180430]]'
 hide p1
-show oc001_01 1 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180431]]'
 hide p1
-show oc001_01 1 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 c13021 '[textdict[1180432]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180433]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13021 '[textdict[1180434]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13021 '[textdict[1180435]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 16 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 16', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1180436]]'
 hide p1
 hide p3
-show oc003_01 16 as p3 at l(-6), dark, flip, zorder 6
-show oc004_01 4 as p4 at r(-5), light, zorder 5
+$ update_portrait('oc003_01 16', 'p3', [l(-6), dark, flip], 6)
+$ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1180437]]'
 hide p3
 hide p4
-show oc004_01 4 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
 c13021 '[textdict[1180438]]'
 hide p4
-show oc004_01 4 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180439]]'
 hide p4
-show oc004_01 1 as p4 at r(-5), light, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
 c43 '[textdict[1180440]]'
 hide p4
-show oc004_01 1 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180441]]'
 hide p4
-show oc004_01 1 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180442]]'
 hide p4
-show oc004_01 1 as p4 at r(-5), light, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
 c43 '[textdict[1180443]]'
 hide p4
-show oc004_01 1 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180444]]'
 hide p4
-show oc004_01 1 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180445]]'
 hide p4
-show oc004_01 8 as p4 at r(-5), light, zorder 5
+$ update_portrait('oc004_01 8', 'p4', [r(-5), light], 5)
 c43 '[textdict[1180446]]'
 hide p4
-show oc004_01 8 as p4 at r(-5), dark, zorder 5
-show st061_01 3 as p1304 at l(-2), light, flip, zorder 6
+$ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)
+$ update_portrait('st061_01 3', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1180447]]'
 hide p1304
 hide p4
-show oc004_01 8 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180448]]'
 hide p4
-show oc004_01 8 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180449]]'
 hide p4
-show oc004_01 8 as p4 at r(-5), dark, zorder 5
+$ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)
 c14631 '[textdict[1180450]]'
 hide p4
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180451]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13021 '[textdict[1180452]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13021 '[textdict[1180453]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14631 '[textdict[1180454]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14631 '[textdict[1180455]]'
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14631 '[textdict[1180456]]'
 hide p1
-show oc001_01 10 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180457]]'
 hide p1
-show oc001_01 1 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180458]]'
 hide p1
-show oc001_01 1 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 c13021 '[textdict[1180459]]'
 hide p1
 play sfx2 "other_7073.ogg"
 c0 '[textdict[1180460]]'
-show oc005_01 13 as p5 at r(-6), light, zorder 5
+$ update_portrait('oc005_01 13', 'p5', [r(-6), light], 5)
 c53 '[textdict[1180461]]'
 hide p5
-show oc005_01 13 as p5 at r(-6), dark, zorder 5
-show oc004_01 18 as p4 at l(-5), light, flip, zorder 6
+$ update_portrait('oc005_01 13', 'p5', [r(-6), dark], 5)
+$ update_portrait('oc004_01 18', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1180462]]'
 hide p4
 hide p5
-show oc005_01 13 as p5 at r(-6), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
+$ update_portrait('oc005_01 13', 'p5', [r(-6), dark], 5)
+$ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1180463]]'
 hide p5
 hide p4
-show oc004_01 1 as p4 at l(-5), dark, flip, zorder 6
-show oc005_01 14 as p5 at r(-6), light, zorder 5
+$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
+$ update_portrait('oc005_01 14', 'p5', [r(-6), light], 5)
 c53 '[textdict[1180464]]'
 hide p4
 hide p5
-show oc005_01 14 as p5 at r(-6), dark, zorder 5
-show st061_01 1 as p1304 at l(-2), light, flip, zorder 6
+$ update_portrait('oc005_01 14', 'p5', [r(-6), dark], 5)
+$ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1180465]]'
 hide p5
 hide p1304
-show st061_01 1 as p1304 at l(-2), dark, flip, zorder 6
-show oc002_01 23 as p2 at r(-3), light, zorder 5
+$ update_portrait('st061_01 1', 'p1304', [l(-2), dark, flip], 6)
+$ update_portrait('oc002_01 23', 'p2', [r(-3), light], 5)
 c23 '[textdict[1180466]]'
 scene avg_bg_036
 with fade

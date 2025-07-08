@@ -3,18 +3,18 @@ stop music
 
 play music "ed6564.ogg"
 scene avg_bg_004
-show oc003_01 4 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 window show
 with fade_in
 c31 '[textdict[1174464]]'
 hide p3
-show oc003_01 4 as p3 at l(-6), dark, flip, zorder 6
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1174465]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1174466]]'
 hide p3
 hide p1

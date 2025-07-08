@@ -3,35 +3,35 @@ stop music
 
 play music "ed7150.ogg"
 scene avg_bg_071
-show oc001_01 2 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 window show
 with fade_in
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1218031]]' (what_size=(gui.text_size*0.9))
 hide p1
-show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc001_01 1 as p9 at l(-11), light, flip, zorder 6
+$ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc001_01 1', 'p9', [l(-11), light, flip], 6)
 c91 '[textdict[1218032]]' (what_size=(gui.text_size*0.9))
 hide p1
 hide p9
-show sc001_01 1 as p9 at l(-11), dark, flip, zorder 6
-show oc001_01 12 as p1 at r(-2), light, zorder 5
+$ update_portrait('sc001_01 1', 'p9', [l(-11), dark, flip], 6)
+$ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1218033]]' (what_size=(gui.text_size*0.9))
 hide p9
 hide p1
-show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc001_01 1 as p9 at l(-11), light, flip, zorder 6
+$ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc001_01 1', 'p9', [l(-11), light, flip], 6)
 c91 '[textdict[1218034]]' (what_size=(gui.text_size*0.9))
 hide p9
 hide p1
-show oc001_01 12 as p1 at r(-2), dark, zorder 5
-show sc001_01 5 as p9 at l(-11), light, flip, zorder 6
+$ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc001_01 5', 'p9', [l(-11), light, flip], 6)
 c91 '[textdict[1218035]]' (what_size=(gui.text_size*0.9))
 hide p1
 hide p9
-show sc001_01 5 as p9 at l(-11), dark, flip, zorder 6
-show oc001_01 2 as p1 at r(-2), light, zorder 5
+$ update_portrait('sc001_01 5', 'p9', [l(-11), dark, flip], 6)
+$ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1218036]]' (what_size=(gui.text_size*0.9))
 menu:

@@ -3,12 +3,12 @@ stop music
 
 play music "ed7105.ogg"
 scene placeholderbackground
-show oc001_01 1 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 c13 '[textdict[1200104]]'
 hide p1
 c9573 '[textdict[1200105]]'
-show oc001_01 10 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 10', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1200106]]'
 return

@@ -3,7 +3,7 @@ stop music
 
 play music "ed6564.ogg"
 scene avg_bg_004
-show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
+$ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 window show
 with fade_in
 play sfxvoice "avg_vocal_li03.ogg"

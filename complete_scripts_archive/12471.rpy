@@ -7,20 +7,20 @@ window show
 with fade_in
 c0 '[textdict[1143939]]'
 c11663 '[textdict[1143940]]'
-show oc006_01 1 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 1', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143941]]'
 hide p6
 play sfx2 "other_7024.ogg"
 c0 '[textdict[1143942]]'
-show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143943]]'
 hide p6
 play sfx2 "other_7024.ogg"
 c0 '[textdict[1143944]]'
-show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143945]]'
 hide p6
-show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143946]]'
 hide p6
 c0 '[textdict[1143947]]'
@@ -43,11 +43,11 @@ scene avg_bg_007
 with fade
 c0 '[textdict[1143953]]'
 c0 '[textdict[1143954]]'
-show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143955]]'
 hide p6
 c0 '[textdict[1143956]]'
-show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143957]]'
 scene avg_bg_078
 show memoryoverlay zorder 2
@@ -63,7 +63,7 @@ stop music
 play sfx2 "fight_6024.ogg"
 c0 '[textdict[1143963]]'
 play music "ed7151.ogg"
-show oc006_01 4 as p6 at l(-5), light, flip, zorder 6
+$ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143964]]'
 scene avg_bg_070
 with fade

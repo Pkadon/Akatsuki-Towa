@@ -2,25 +2,25 @@ label avg100902:
 stop music
 
 scene placeholderbackground
-show oc001_01 2 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1218008]]'
 hide p1
-show sc001_01 1 as p9 at mid(-11), light, zorder 5
+$ update_portrait('sc001_01 1', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218009]]'
 hide p9
-show sc001_01 2 as p9 at mid(-11), light, zorder 5
+$ update_portrait('sc001_01 2', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218010]]'
 hide p9
-show sc001_01 1 as p9 at mid(-11), light, zorder 5
+$ update_portrait('sc001_01 1', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218011]]'
 hide p9
-show sc001_01 2 as p9 at mid(-11), light, zorder 5
+$ update_portrait('sc001_01 2', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218012]]'
 hide p9
-show oc001_01 10 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 10', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1218013]]'
 return

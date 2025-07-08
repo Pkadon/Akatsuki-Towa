@@ -6,7 +6,7 @@ window show
 with fade_in
 c20083 '[textdict[1210042]]'
 c20093 '[textdict[1210043]]'
-show oc002_01 2 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 2', 'p2', [mid(-3), light], 5)
 play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1210044]]'
 hide p2

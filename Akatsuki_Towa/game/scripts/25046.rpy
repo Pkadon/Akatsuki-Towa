@@ -2,7 +2,7 @@ label avg25046:
 stop music
 
 scene placeholderbackground
-show uc001_02 1 as p2001 at mid(6), light, zorder 5
+$ update_portrait('uc001_02 1', 'p2001', [mid(6), light], 5)
 window show
 with fade_in
 play sfx2 "common_sephi2.ogg"

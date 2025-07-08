@@ -2,27 +2,27 @@ label avg25262:
 stop music
 
 scene placeholderbackground
-show oc002_01 17 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 17', 'p2', [mid(-3), light], 5)
 window show
 with fade_in
 play sfxvoice "avg_vocal_ch19.ogg"
 c23 '[textdict[1210976]]'
 hide p2
-show oc001_01 4 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 play sfx2 "fight_6025.ogg"
 c13 '[textdict[1210977]]'
 hide p1
-show oc001_01 2 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1210978]]'
 hide p1
-show oc002_01 12 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 12', 'p2', [mid(-3), light], 5)
 play sfx2 "fight_6026.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1210979]]'
 hide p2
 play sfx2 "other_7068.ogg"
 c0 '[textdict[1210980]]'
-show oc001_01 5 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 5', 'p1', [mid(-2), light], 5)
 play sfx2 "common_36rewardsp.ogg"
 play sfxvoice "avg_vocal_na18.ogg"
 c13 '[textdict[1210981]]'

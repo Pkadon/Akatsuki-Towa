@@ -2,18 +2,18 @@ label avg102108:
 stop music
 
 scene placeholderbackground
-show sc013_01 5 as p21 at l(-12), light, flip, zorder 6
+$ update_portrait('sc013_01 5', 'p21', [l(-12), light, flip], 6)
 window show
 with fade_in
 c211 '[textdict[1218830]]'
 hide p21
-show sc013_01 5 as p21 at l(-12), dark, flip, zorder 6
-show oc001_01 1 as p1 at r(-2), light, zorder 5
+$ update_portrait('sc013_01 5', 'p21', [l(-12), dark, flip], 6)
+$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1218831]]'
 hide p21
 hide p1
-show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show sc013_01 1 as p21 at l(-12), light, flip, zorder 6
+$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc013_01 1', 'p21', [l(-12), light, flip], 6)
 c211 '[textdict[1218832]]'
 menu:
     extend ""

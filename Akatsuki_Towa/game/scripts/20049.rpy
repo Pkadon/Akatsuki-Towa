@@ -13,10 +13,10 @@ c5973 '[textdict[1002771]]'
 c5973 '[textdict[1002772]]'
 c5983 '[textdict[1002773]]'
 c5963 '[textdict[1002774]]'
-show oc002_01 6 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 6', 'p2', [mid(-3), light], 5)
 play sfxvoice "avg_vocal_ch08.ogg"
 c23 '[textdict[1002775]]'
 hide p2
-show oc001_01 4 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1002776]]'
 return

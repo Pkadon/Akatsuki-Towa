@@ -3,7 +3,7 @@ stop music
 
 play music "ed7111.ogg"
 scene avg_bg_047
-show oc005_01 1 as p5 at r(-6), light, zorder 5
+$ update_portrait('oc005_01 1', 'p5', [r(-6), light], 5)
 window show
 with fade_in
 play sfx2 "common_cancel.ogg"

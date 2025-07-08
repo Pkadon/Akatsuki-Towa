@@ -7,6 +7,6 @@ window show
 with fade_in
 play sfx2 "common_select.ogg"
 c5173 '[textdict[1000948]]'
-show oc001_01 1 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000949]]'
 return

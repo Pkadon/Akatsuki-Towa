@@ -3,32 +3,32 @@ stop music
 
 play music "ed7201.ogg"
 scene avg_bg_010
-show sc051_01 4 as p58 at l(-32), light, flip, zorder 6
+$ update_portrait('sc051_01 4', 'p58', [l(-32), light, flip], 6)
 window show
 with fade_in
 c581 '[textdict[2100613]]'
 hide p58
-show sc051_01 4 as p58 at l(-32), dark, flip, zorder 6
-show oc002_01 10 as p2 at r(-3), light, zorder 5
+$ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 6)
+$ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[2100614]]'
 hide p2
 hide p58
-show sc051_01 4 as p58 at l(-32), dark, flip, zorder 6
-show oc001_01 10 as p1 at r(-2), light, zorder 5
+$ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 6)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[2100615]]'
 hide p58
 hide p1
-show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc051_01 4 as p58 at l(-32), light, flip, zorder 6
+$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc051_01 4', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2100616]]'
 hide p58
 hide p1
-show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc051_01 4 as p58 at l(-32), light, flip, zorder 6
+$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc051_01 4', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2100617]]'
 hide p1
 hide p58
-show sc051_01 4 as p58 at l(-32), dark, flip, zorder 6
-show oc002_01 4 as p2 at r(-3), light, zorder 5
+$ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 6)
+$ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[2100618]]'
 return

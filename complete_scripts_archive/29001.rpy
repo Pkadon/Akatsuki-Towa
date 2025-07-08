@@ -8,31 +8,31 @@ c0 '[textdict[1216000]]'
 c0 '[textdict[1216001]]'
 c0 '[textdict[1216002]]'
 c0 '[textdict[1216003]]'
-show st009_01 1 as p209 at mid(-22), light, zorder 5
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
 c2093 '[textdict[1216004]]'
 hide p209
-show oc002_01 5 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 5', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1216005]]'
 hide p2
-show oc001_01 7 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1216006]]'
 hide p1
-show st009_01 1 as p209 at mid(-22), light, zorder 5
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
 c2093 '[textdict[1216007]]'
 hide p209
-show oc002_01 6 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 6', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1216008]]'
 hide p2
-show oc001_01 7 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1216009]]'
 hide p1
-show st009_01 1 as p209 at mid(-22), light, zorder 5
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
 c2093 '[textdict[1216010]]'
 hide p209
-show st009_01 1 as p209 at mid(-22), light, zorder 5
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
 c2093 '[textdict[1216011]]'
 hide p209
-show st009_01 1 as p209 at mid(-22), light, zorder 5
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
 c2093 '[textdict[1216012]]'
 menu:
     extend ""

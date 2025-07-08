@@ -3,7 +3,7 @@ stop music
 
 play music "ed7150.ogg"
 scene placeholderbackground
-show oc001_01 1 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 play sfxvoice "avg_vocal_na17.ogg"

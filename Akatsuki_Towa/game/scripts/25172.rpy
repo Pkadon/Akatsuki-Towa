@@ -2,7 +2,7 @@ label avg25172:
 stop music
 
 scene placeholderbackground
-show oc001_01 6 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 6', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 play sfx2 "common_35rewardholy.ogg"

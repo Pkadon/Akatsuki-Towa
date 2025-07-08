@@ -2,13 +2,13 @@ label avg25036:
 stop music
 
 scene placeholderbackground
-show oc002_01 12 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 12', 'p2', [mid(-3), light], 5)
 window show
 with fade_in
 play sfx2 "other_7080.ogg"
 play sfxvoice "bcv_oc002_hurt_02.ogg"
 c23 '[textdict[1210093]]'
 hide p2
-show oc001_01 4 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1210094]]'
 return

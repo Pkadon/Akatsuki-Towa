@@ -3,50 +3,50 @@ stop music
 
 play music "ed7516.ogg"
 scene avg_bg_050
-show oc003_01 7 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc003_01 7', 'p3', [l(-6), light, flip], 6)
 window show
 with fade_in
 c31 '[textdict[1172192]]'
 hide p3
-show oc003_01 4 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172193]]'
 hide p3
-show oc003_01 4 as p3 at l(-6), dark, flip, zorder 6
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172194]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172195]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172196]]'
 hide p1
 hide p3
-show oc003_01 1 as p3 at l(-6), dark, flip, zorder 6
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172197]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172198]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172199]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172200]]'
 hide p1
 hide p3
-show oc003_01 1 as p3 at l(-6), dark, flip, zorder 6
-show oc001_01 20 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
+$ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172201]]'
 return

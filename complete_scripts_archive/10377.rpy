@@ -3,7 +3,7 @@ stop music
 
 play music "ed7151.ogg"
 scene avg_bg_023
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 window show
 with fade_in
 c13 '[textdict[1132160]]'

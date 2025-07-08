@@ -3,13 +3,13 @@ stop music
 
 play music "ed7105.ogg"
 scene avg_bg_022
-show oc001_01 6 as p1 at l(-2), light, flip, zorder 6
+$ update_portrait('oc001_01 6', 'p1', [l(-2), light, flip], 6)
 window show
 with fade_in
 play sfx2 "common_select.ogg"
 c11 '[textdict[1130317]]'
 hide p1
-show oc001_01 6 as p1 at l(-2), dark, flip, zorder 6
-show st053_01 5 as p1007 at r(-12), light, zorder 5
+$ update_portrait('oc001_01 6', 'p1', [l(-2), dark, flip], 6)
+$ update_portrait('st053_01 5', 'p1007', [r(-12), light], 5)
 c10073 '[textdict[1130318]]'
 return

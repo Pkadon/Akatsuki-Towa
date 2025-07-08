@@ -3,25 +3,25 @@ stop music
 
 play music "ed9997.ogg"
 scene placeholderbackground
-show oc001_01 19 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 19', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1000214]]'
 hide p1
-show oc002_01 6 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 6', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1000215]]'
 hide p2
-show oc001_01 4 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000216]]'
 hide p1
-show oc001_01 2 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000217]]'
 hide p1
-show oc002_01 8 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 8', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1000218]]'
 hide p2
-show oc001_01 8 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1000219]]'
 hide p1

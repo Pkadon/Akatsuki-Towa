@@ -7,15 +7,15 @@ window show
 with fade_in
 play sfx2 "other_7047.ogg"
 c9591 '[textdict[1128272]]'
-show oc001_01 8 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1128273]]'
 hide p1
-show oc001_01 8 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128274]]'
 hide p1
-show oc001_01 8 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128275]]'
 hide p1
-show oc002_01 1 as p2 at r(-3), light, zorder 5
+$ update_portrait('oc002_01 1', 'p2', [r(-3), light], 5)
 c23 '[textdict[1128276]]'
 return

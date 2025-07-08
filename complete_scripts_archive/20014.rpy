@@ -3,12 +3,12 @@ stop music
 
 play music "ED6518.ogg"
 scene avg_bg_014
-show oc001_01 8 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 c13 '[textdict[1000941]]'
 hide p1
-show oc002_01 8 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 8', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1000942]]'
 hide p2
 c5173 '[textdict[1000943]]'

@@ -3,12 +3,12 @@ stop music
 
 play music "ed7105.ogg"
 scene placeholderbackground
-show st044_01 2 as p243 at l(10), light, flip, zorder 6
+$ update_portrait('st044_01 2', 'p243', [l(10), light, flip], 6)
 window show
 with fade_in
 c2431 '[textdict[1200317]]'
 hide p243
-show st044_01 2 as p243 at l(10), dark, flip, zorder 6
-show oc001_01 10 as p1 at r(-2), light, zorder 5
+$ update_portrait('st044_01 2', 'p243', [l(10), dark, flip], 6)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1200318]]'
 return

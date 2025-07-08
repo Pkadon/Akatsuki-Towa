@@ -10,30 +10,30 @@ play sfx2 "other_7014.ogg"
 c0 '[textdict[1172862]]'
 c14401 '[textdict[1172863]]'
 c14401 '[textdict[1172864]]'
-show st061_01 1 as p1304 at l(-2), light, flip, zorder 6
+$ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1172865]]'
 hide p1304
-show st061_01 1 as p1304 at l(-2), dark, flip, zorder 6
-show oc001_01 20 as p1 at r(-2), light, zorder 5
+$ update_portrait('st061_01 1', 'p1304', [l(-2), dark, flip], 6)
+$ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172866]]'
 hide p1304
 hide p1
-show oc001_01 20 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 c14401 '[textdict[1172867]]'
 hide p1
-show oc001_01 20 as p1 at r(-2), dark, zorder 5
-show oc003_01 9 as p3 at l(-6), light, flip, zorder 6
+$ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc003_01 9', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172868]]'
 hide p1
 hide p3
-show oc003_01 9 as p3 at l(-6), dark, flip, zorder 6
-show oc001_01 4 as p1 at r(-2), light, zorder 5
+$ update_portrait('oc003_01 9', 'p3', [l(-6), dark, flip], 6)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172869]]'
 hide p3
 hide p1
-show oc001_01 4 as p1 at r(-2), dark, zorder 5
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14401 '[textdict[1172870]]'
 hide p1
-show st061_01 1 as p1304 at r(-2), light, zorder 5
+$ update_portrait('st061_01 1', 'p1304', [r(-2), light], 5)
 c13043 '[textdict[1172871]]'
 return

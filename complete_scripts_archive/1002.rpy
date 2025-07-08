@@ -6,13 +6,13 @@ scene avg_bg_023
 window show
 with fade_in
 c0 '[textdict[2100030]]'
-show sc049_01 1 as p56 at l(-8), light, flip, zorder 6
+$ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[2100031]]'
 hide p56
-show sc049_01 1 as p56 at l(-8), light, flip, zorder 6
+$ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[2100032]]'
 hide p56
-show sc049_01 1 as p56 at l(-8), light, flip, zorder 6
+$ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[2100033]]'
 menu:
     extend ""

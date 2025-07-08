@@ -6,6 +6,6 @@ scene avg_bg_052
 window show
 with fade_in
 c0 '[textdict[1132744]]'
-show sc048_01 3 as p55 at r(-7), light, zorder 5
+$ update_portrait('sc048_01 3', 'p55', [r(-7), light], 5)
 c553 '[textdict[1132745]]'
 return

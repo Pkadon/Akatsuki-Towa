@@ -3,25 +3,25 @@ stop music
 
 play music "ed7105.ogg"
 scene placeholderbackground
-show sc049_01 5 as p56 at mid(-8), light, zorder 5
+$ update_portrait('sc049_01 5', 'p56', [mid(-8), light], 5)
 window show
 with fade_in
 c563 '[textdict[1120002]]'
 hide p56
-show oc001_01 8 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1120003]]'
 hide p1
-show sc049_01 1 as p56 at mid(-8), light, zorder 5
+$ update_portrait('sc049_01 1', 'p56', [mid(-8), light], 5)
 play sfx2 "other_7091.ogg"
 c563 '[textdict[1120004]]'
 hide p56
-show sc050_01 1 as p57 at mid(-19), light, zorder 5
+$ update_portrait('sc050_01 1', 'p57', [mid(-19), light], 5)
 c573 '[textdict[1120005]]'
 hide p57
-show sc052_01 5 as p59 at mid(-25), light, zorder 5
+$ update_portrait('sc052_01 5', 'p59', [mid(-25), light], 5)
 c593 '[textdict[1120006]]'
 hide p59
-show oc002_01 12 as p2 at mid(-3), light, zorder 5
+$ update_portrait('oc002_01 12', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1120007]]'
 menu:
     extend ""

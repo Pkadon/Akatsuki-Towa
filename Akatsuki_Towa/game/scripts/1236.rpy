@@ -52,119 +52,119 @@ c5001 '[textdict[2112308]]'
 c473 '[textdict[2112309]]'
 c473 '[textdict[2112310]]'
 scene avg_bg_038
-show sc038_01 1 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 with fade
 play sfx2 "other_7088.ogg"
 c451 '[textdict[2112311]]'
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 2 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112312]]'
 hide p47
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 1 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112313]]'
 hide p45
 hide p47
-show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 5 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112314]]'
 hide p47
 hide p45
-show sc038_01 5 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 2 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 5', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112315]]'
 hide p45
 hide p47
-show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 play sfx2 "other_7004.ogg"
 c451 '[textdict[2112316]]'
 hide p47
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 2 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112317]]'
 hide p47
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 1 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112318]]'
 hide p45
 hide p47
-show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112319]]'
 hide p45
 hide p47
 play sfx2 "other_7004.ogg"
 c0 '[textdict[2112320]]'
-show sc040_01 2 as p47 at r(-9), r_shake, light, zorder 5
+$ update_portrait('sc040_01 2', 'p47', [r(-9), r_shake, light], 5)
 c473 '[textdict[2112321]]'
 hide p47
-show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 5 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112322]]'
 hide p47
 hide p45
-show sc038_01 5 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 2 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 5', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112323]]'
 hide p45
 hide p47
-show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112324]]'
 hide p47
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 1 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112325]]'
 hide p45
 hide p47
-show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 5 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112326]]'
 hide p45
 hide p47
-show sc040_01 1 as p47 at r(-9), dark, zorder 5
-show sc038_01 1 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112327]]'
 hide p47
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 1 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112328]]'
 hide p47
 hide p45
-show sc038_01 1 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 2 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112329]]'
 hide p45
 hide p47
-show sc040_01 2 as p47 at r(-9), dark, zorder 5
-show sc038_01 2 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112330]]'
 hide p47
 hide p45
-show sc038_01 2 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 1 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112331]]'
 hide p47
 hide p45
-show sc038_01 2 as p45 at l(-1), dark, flip, zorder 6
-show sc040_01 6 as p47 at r(-9), light, zorder 5
+$ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
+$ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112332]]'
 hide p45
 hide p47
-show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show sc038_01 2 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112333]]'
 hide p45
 hide p47
-show sc040_01 6 as p47 at r(-9), dark, zorder 5
-show sc038_01 6 as p45 at l(-1), light, flip, zorder 6
+$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
+$ update_portrait('sc038_01 6', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112334]]'
 scene avg_bg_019
 with fade

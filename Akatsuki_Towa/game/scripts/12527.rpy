@@ -5,30 +5,30 @@ play music "ED6301.ogg"
 scene placeholderbackground
 window show
 with fade_in
-show oc003_01 8 as p3 at r_entrance(-6), light, zorder 5
+$ update_portrait('oc003_01 8', 'p3', [r_entrance(-6), light], 5)
 play sfxvoice "avg_vocal_ro13.ogg"
 c33 '[textdict[1151515]]'
 hide p3
-show oc003_01 17 as p3 at r(-6), light, zorder 5
+$ update_portrait('oc003_01 17', 'p3', [r(-6), light], 5)
 c33 '[textdict[1151516]]'
 hide p3
-show oc003_01 17 as p3 at r(-6), dark, zorder 5
-show sc008_01 4 as p16 at l(-18), light, flip, zorder 6
+$ update_portrait('oc003_01 17', 'p3', [r(-6), dark], 5)
+$ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1151517]]'
 hide p3
 hide p16
-show sc008_01 4 as p16 at l(-18), dark, flip, zorder 6
-show oc002_01 8 as p2 at r(-3), r_shake, light, zorder 5
+$ update_portrait('sc008_01 4', 'p16', [l(-18), dark, flip], 6)
+$ update_portrait('oc002_01 8', 'p2', [r(-3), r_shake, light], 5)
 c23 '[textdict[1151518]]'
 hide p2
 hide p16
-show sc008_01 4 as p16 at l(-18), dark, flip, zorder 6
-show oc002_01 14 as p2 at r(-3), r_shake, light, zorder 5
+$ update_portrait('sc008_01 4', 'p16', [l(-18), dark, flip], 6)
+$ update_portrait('oc002_01 14', 'p2', [r(-3), r_shake, light], 5)
 play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1151519]]'
 hide p16
 hide p2
-show oc002_01 14 as p2 at r(-3), dark, zorder 5
-show sc008_01 4 as p16 at l(-18), light, flip, zorder 6
+$ update_portrait('oc002_01 14', 'p2', [r(-3), dark], 5)
+$ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1151520]]'
 return

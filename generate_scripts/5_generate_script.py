@@ -87,15 +87,16 @@ class GameState:
 		zorder = self.state[pos]['zorder']
 		#don't need to worry about tracking transforms so far, but that could change
 		
-		if mirror == 1: flip = 'flip, '
+		if mirror == 1: flip = ', flip'
 		else: flip = ''
 		
 		return (
-			f"show {folderName} "
-			f"{expression} "
-			f"as {alias} "
-			f"at {pos}({offset}), {color}, {flip}"
-			f"zorder {zorder}\n"
+			f"$ update_portrait("
+			f"'{folderName} {expression}', "
+			f"'{alias}', "
+			f"[{pos}({offset}), {color}{flip}], "
+			f"{zorder}"
+			")"
 		)
 	
 	def darken_portraits(self, lit_pos):
@@ -389,7 +390,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			elif effect == 202: renpytransform += ', l_shake'
 			
 			#manually add flip to portraits on the left side of the screen
-			if mirror == 1: flip = 'flip, '
+			if mirror == 1: flip = ', flip'
 			else: flip = ''
 			
 			#The fade will cover up portrait animations, so get it out of the way first
@@ -403,7 +404,14 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					fade = False
 					
 			#SHOW PORTRAIT									
-			portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, {flip}zorder {zorder}' 
+			portrait = (
+				f"$ update_portrait("
+				f"'{folderName} {expression}', "
+				f"'{alias}', "
+				f"[{renpytransform}, light{flip}], "
+				f"{zorder}"
+				")"
+			)
 			state.add_line(f"{portrait}\n")
 		
 		else: state.update_portrait(portraitpos, None)

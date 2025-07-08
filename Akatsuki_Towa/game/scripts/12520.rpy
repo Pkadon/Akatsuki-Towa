@@ -3,27 +3,27 @@ stop music
 
 play music "ED6301.ogg"
 scene placeholderbackground
-show sc005_01 1 as p13 at l(-17), light, flip, zorder 6
+$ update_portrait('sc005_01 1', 'p13', [l(-17), light, flip], 6)
 window show
 with fade_in
 c131 '[textdict[1151252]]'
 hide p13
-show sc005_01 1 as p13 at l(-17), dark, flip, zorder 6
-show oc003_01 17 as p3 at r(-6), light, zorder 5
+$ update_portrait('sc005_01 1', 'p13', [l(-17), dark, flip], 6)
+$ update_portrait('oc003_01 17', 'p3', [r(-6), light], 5)
 c33 '[textdict[1151253]]'
 hide p3
 hide p13
-show sc005_01 1 as p13 at l(-17), dark, flip, zorder 6
-show oc003_01 8 as p3 at r(-6), light, zorder 5
+$ update_portrait('sc005_01 1', 'p13', [l(-17), dark, flip], 6)
+$ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
 c33 '[textdict[1151254]]'
 hide p3
 hide p13
-show sc005_01 1 as p13 at l(-17), dark, flip, zorder 6
-show oc001_01 10 as p1 at r(-2), light, zorder 5
+$ update_portrait('sc005_01 1', 'p13', [l(-17), dark, flip], 6)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151255]]'
 hide p13
 hide p1
-show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show sc005_01 1 as p13 at l(-17), light, flip, zorder 6
+$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc005_01 1', 'p13', [l(-17), light, flip], 6)
 c131 '[textdict[1151256]]'
 return

@@ -17,11 +17,11 @@ c6861 '[textdict[1004844]]'
 c6853 '[textdict[1004845]]'
 c6861 '[textdict[1004846]]'
 c6853 '[textdict[1004847]]'
-show oc001_01 1 as p1 at l_entrance(-2), light, flip, zorder 6
+$ update_portrait('oc001_01 1', 'p1', [l_entrance(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na15.ogg"
 c11 '[textdict[1004848]]'
 hide p1
-show oc001_01 1 as p1 at l(-2), dark, flip, zorder 6
-show sc039_01 1 as p46 at r(-13), light, zorder 5
+$ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
+$ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
 c463 '[textdict[1004849]]'
 return

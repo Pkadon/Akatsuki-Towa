@@ -6,6 +6,6 @@ scene placeholderbackground
 window show
 with fade_in
 c50123 '[textdict[1200327]]'
-show oc001_01 10 as p1 at l(-2), light, flip, zorder 6
+$ update_portrait('oc001_01 10', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1200328]]'
 return

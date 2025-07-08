@@ -2,12 +2,12 @@ label avg25052:
 stop music
 
 scene placeholderbackground
-show oc001_01 6 as p1 at mid(-2), light, zorder 5
+$ update_portrait('oc001_01 6', 'p1', [mid(-2), light], 5)
 window show
 with fade_in
 play sfx2 "common_select.ogg"
 c13 '[textdict[1210144]]'
 hide p1
-show uc001_02 1 as p2006 at mid(6), light, zorder 5
+$ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 5)
 c20063 '[textdict[1210145]]'
 return

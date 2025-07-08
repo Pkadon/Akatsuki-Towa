@@ -2,7 +2,7 @@ label avg25150:
 stop music
 
 scene placeholderbackground
-show uc001_02 2 as p2014 at mid(6), light, zorder 5
+$ update_portrait('uc001_02 2', 'p2014', [mid(6), light], 5)
 window show
 with fade_in
 c20143 '[textdict[1210478]]'

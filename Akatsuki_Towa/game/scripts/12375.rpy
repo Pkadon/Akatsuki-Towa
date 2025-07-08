@@ -2,7 +2,7 @@ label avg12375:
 stop music
 
 scene avg_bg_058
-show oc002_01 9 as p2 at l(-3), light, flip, zorder 6
+$ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
 window show
 with fade_in
 play sfx2 "common_select.ogg"
