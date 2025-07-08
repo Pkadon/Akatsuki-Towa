@@ -120,16 +120,16 @@ c26673 '[textdict[2113197]]'
 stop music
 hide p2667
 show ocd03_01 19 as p2667 at r(-6), dark, zorder 5
-show oca05_01 7 as p2669 at l_entrance(-6), light, zorder 6
+show oca05_01 7 as p2669 at l_entrance(-6), light, flip, zorder 6
 c26691 '[textdict[2113198]]' (what_size=(gui.text_size*1.2))
 hide p2669
 hide p2667
 show ocd03_01 19 as p2667 at r(-6), dark, zorder 5
-show oca05_01 7 as p2669 at l(-6), light, zorder 6
+show oca05_01 7 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113199]]'
 hide p2667
 hide p2669
-show oca05_01 7 as p2669 at l(-6), dark, zorder 6
+show oca05_01 7 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 18 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113200]]'
 hide p2669
@@ -138,24 +138,24 @@ show ocd03_01 18 as p2667 at r(-6), dark, zorder 5
 c26601 '[textdict[2113201]]'
 hide p2667
 show ocd03_01 18 as p2667 at r(-6), dark, zorder 5
-show oca05_01 10 as p2669 at l(-6), light, zorder 6
+show oca05_01 10 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113202]]'
 hide p2667
 hide p2669
-show oca05_01 10 as p2669 at l(-6), dark, zorder 6
+show oca05_01 10 as p2669 at l(-6), dark, flip, zorder 6
 c11493 '[textdict[2113203]]'
 hide p2669
-show oca05_01 7 as p2669 at l(-6), light, zorder 6
+show oca05_01 7 as p2669 at l(-6), light, flip, zorder 6
 with fade
 c26691 '[textdict[2113204]]'
 hide p2669
-show oca05_01 7 as p2669 at l(-6), dark, zorder 6
+show oca05_01 7 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 18 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113205]]'
 hide p2669
 hide p2667
 show ocd03_01 18 as p2667 at r(-6), dark, zorder 5
-show oca05_01 13 as p2669 at l(-6), light, zorder 6
+show oca05_01 13 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113206]]'
 hide p2669
 hide p2667
@@ -166,66 +166,66 @@ with fade
 c0 '[textdict[2113208]]'
 play music "ed7565.ogg"
 scene avg_bg_050
-show oca05_01 15 as p2669 at l(-6), light, zorder 6
+show oca05_01 15 as p2669 at l(-6), light, flip, zorder 6
 with fade
 c26691 '[textdict[2113209]]'
 hide p2669
-show oca05_01 15 as p2669 at l(-6), dark, zorder 6
+show oca05_01 15 as p2669 at l(-6), dark, flip, zorder 6
 c26603 '[textdict[2113210]]'
 hide p2669
-show oca05_01 15 as p2669 at l(-6), dark, zorder 6
+show oca05_01 15 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 1 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113211]]'
 hide p2669
 hide p2667
 show ocd03_01 1 as p2667 at r(-6), dark, zorder 5
-show oca05_01 5 as p2669 at l(-6), light, zorder 6
+show oca05_01 5 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113212]]'
 hide p2669
 hide p2667
 show ocd03_01 1 as p2667 at r(-6), dark, zorder 5
-show oca05_01 15 as p2669 at l(-6), light, zorder 6
+show oca05_01 15 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113213]]'
 hide p2667
 hide p2669
-show oca05_01 15 as p2669 at l(-6), dark, zorder 6
+show oca05_01 15 as p2669 at l(-6), dark, flip, zorder 6
 c26603 '[textdict[2113214]]'
 hide p2669
-show oca05_01 15 as p2669 at l(-6), dark, zorder 6
+show oca05_01 15 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 17 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113215]]'
 hide p2669
 hide p2667
 show ocd03_01 17 as p2667 at r(-6), dark, zorder 5
-show oca05_01 2 as p2669 at l(-6), light, zorder 6
+show oca05_01 2 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113216]]'
 hide p2669
 hide p2667
 show ocd03_01 17 as p2667 at r(-6), dark, zorder 5
-show oca05_01 15 as p2669 at l(-6), light, zorder 6
+show oca05_01 15 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113217]]'
 hide p2667
 hide p2669
-show oca05_01 15 as p2669 at l(-6), dark, zorder 6
+show oca05_01 15 as p2669 at l(-6), dark, flip, zorder 6
 c26603 '[textdict[2113218]]'
 hide p2669
-show oca05_01 15 as p2669 at l(-6), dark, zorder 6
+show oca05_01 15 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 16 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113219]]'
 hide p2669
 hide p2667
 show ocd03_01 16 as p2667 at r(-6), dark, zorder 5
-show oca05_01 1 as p2669 at l(-6), light, zorder 6
+show oca05_01 1 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113220]]'
 hide p2667
 hide p2669
-show oca05_01 1 as p2669 at l(-6), dark, zorder 6
+show oca05_01 1 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 1 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113221]]'
 hide p2669
 hide p2667
 show ocd03_01 1 as p2667 at r(-6), dark, zorder 5
-show oca05_01 14 as p2669 at l(-6), light, zorder 6
+show oca05_01 14 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113222]]'
 hide p2669
 hide p2667
@@ -246,11 +246,11 @@ show ocd03_01 1 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113227]]'
 hide p2667
 show ocd03_01 1 as p2667 at r(-6), dark, zorder 5
-show oca05_01 1 as p2669 at l(-6), light, zorder 6
+show oca05_01 1 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113228]]'
 hide p2667
 hide p2669
-show oca05_01 1 as p2669 at l(-6), dark, zorder 6
+show oca05_01 1 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 5 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113229]]'
 stop music
@@ -267,7 +267,7 @@ play sfx2 "other_7011.ogg"
 c26601 '[textdict[2113232]]'
 hide p2667
 show ocd03_01 12 as p2667 at r(-6), dark, zorder 5
-show oca05_01 2 as p2669 at l(-6), light, zorder 6
+show oca05_01 2 as p2669 at l(-6), light, flip, zorder 6
 play sfx2 "other_7011.ogg"
 c26691 '[textdict[2113233]]'
 hide p2669
@@ -279,16 +279,16 @@ show ocd03_01 16 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113235]]'
 hide p2667
 show ocd03_01 16 as p2667 at r(-6), dark, zorder 5
-show oca05_01 12 as p2669 at l(-6), light, zorder 6
+show oca05_01 12 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113236]]'
 play music "ed7514.ogg"
 hide p2669
 hide p2667
 c0 '[textdict[2113237]]'
-show oca05_01 8 as p2669 at l(-6), light, zorder 6
+show oca05_01 8 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113238]]'
 hide p2669
-show oca05_01 8 as p2669 at l(-6), dark, zorder 6
+show oca05_01 8 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 17 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113239]]'
 hide p2669
@@ -302,17 +302,17 @@ scene avg_bg_009
 with fade
 play sfx2 "other_7017.ogg"
 c26601 '[textdict[2113242]]'
-show oca05_01 1 as p2669 at l(-6), light, zorder 6
+show oca05_01 1 as p2669 at l(-6), light, flip, zorder 6
 play sfx2 "other_7017.ogg"
 c26691 '[textdict[2113243]]'
 hide p2669
-show oca05_01 1 as p2669 at l(-6), dark, zorder 6
+show oca05_01 1 as p2669 at l(-6), dark, flip, zorder 6
 show ocd03_01 5 as p2667 at r(-6), light, zorder 5
 c26673 '[textdict[2113244]]'
 hide p2669
 hide p2667
 show ocd03_01 5 as p2667 at r(-6), dark, zorder 5
-show oca05_01 15 as p2669 at l(-6), light, zorder 6
+show oca05_01 15 as p2669 at l(-6), light, flip, zorder 6
 c26691 '[textdict[2113245]]'
 scene avg_bg_520
 with fade

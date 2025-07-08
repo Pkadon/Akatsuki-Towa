@@ -2,7 +2,7 @@ label avg12375:
 stop music
 
 scene avg_bg_058
-show oc002_01 9 as p2 at l(-3), light, zorder 6
+show oc002_01 9 as p2 at l(-3), light, flip, zorder 6
 window show
 with fade_out
 play sfx2 "common_select.ogg"

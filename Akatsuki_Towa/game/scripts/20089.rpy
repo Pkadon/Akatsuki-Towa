@@ -45,12 +45,12 @@ play sfxvoice "avg_vocal_ro02.ogg"
 c33 '[textdict[1004503]]'
 hide p3
 show oc003_01 1 as p3 at r(-6), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 6
+show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
 play sfxvoice "avg_vocal_li03.ogg"
 c41 '[textdict[1004504]]'
 hide p3
 hide p4
-show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show oc004_01 1 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 11 as p1 at r(-2), light, zorder 5
 play sfxvoice "avg_vocal_na15.ogg"
 c13 '[textdict[1004505]]'

@@ -2,7 +2,7 @@ label avg101511:
 stop music
 
 scene placeholderbackground
-show sc007_01 6 as p15 at l(-17), light, zorder 6
+show sc007_01 6 as p15 at l(-17), light, flip, zorder 6
 window show
 with fade_out
 c151 '[textdict[1221290]]'

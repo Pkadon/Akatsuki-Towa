@@ -8,7 +8,7 @@ window show
 with fade_out
 c13 '[textdict[1162956]]'
 scene avg_bg_070
-show oc004_01 4 as p4 at l(-5), light, zorder 6
+show oc004_01 4 as p4 at l(-5), light, flip, zorder 6
 with fade
 c41 '[textdict[1162957]]'
 hide p4

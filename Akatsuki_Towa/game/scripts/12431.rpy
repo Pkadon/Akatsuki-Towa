@@ -80,86 +80,86 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c5241 '[textdict[1143028]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 5 as p2 at l_entrance(-3), light, zorder 6
+show oc002_01 5 as p2 at l_entrance(-3), light, flip, zorder 6
 play sfx2 "other_7073.ogg"
 c21 '[textdict[1143029]]'
 hide p1
 hide p2
-show oc002_01 5 as p2 at l(-3), dark, zorder 6
+show oc002_01 5 as p2 at l(-3), dark, flip, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 play sfxvoice "avg_vocal_na15.ogg"
 c13 '[textdict[1143030]]'
 hide p2
 hide p1
 c0 '[textdict[1143031]]'
-show oc003_01 17 as p3 at l_entrance(-6), light, zorder 6
+show oc003_01 17 as p3 at l_entrance(-6), light, flip, zorder 6
 c31 '[textdict[1143032]]'
 hide p3
-show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc003_01 17 as p3 at l(-6), dark, flip, zorder 6
 show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143033]]'
 hide p2
 hide p3
-show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc003_01 17 as p3 at l(-6), dark, flip, zorder 6
 show oc001_01 8 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1143034]]'
 hide p3
 hide p1
 show oc001_01 8 as p1 at r(-2), dark, zorder 5
-show oc003_01 4 as p3 at l(-6), light, zorder 6
+show oc003_01 4 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[1143035]]'
 hide p1
 hide p3
-show oc003_01 4 as p3 at l(-6), dark, zorder 6
+show oc003_01 4 as p3 at l(-6), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1143036]]'
 hide p3
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 17 as p2 at l(-3), light, zorder 6
+show oc002_01 17 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[1143037]]'
 hide p2
 hide p1
-show oc004_01 8 as p4 at l(-5), light, zorder 6
+show oc004_01 8 as p4 at l(-5), light, flip, zorder 6
 with fade
 play sfxvoice "avg_vocal_li18.ogg"
 c41 '[textdict[1143038]]'
 hide p4
-show oc004_01 8 as p4 at l(-5), dark, zorder 6
+show oc004_01 8 as p4 at l(-5), dark, flip, zorder 6
 show oc002_01 15 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143039]]'
 hide p2
 hide p4
-show oc004_01 8 as p4 at l(-5), dark, zorder 6
+show oc004_01 8 as p4 at l(-5), dark, flip, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143040]]'
 hide p4
 hide p2
 c0 '[textdict[1143041]]'
-show oc004_01 7 as p4 at l(-5), light, zorder 6
+show oc004_01 7 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1143042]]'
 hide p4
-show oc004_01 7 as p4 at l(-5), dark, zorder 6
+show oc004_01 7 as p4 at l(-5), dark, flip, zorder 6
 show oc002_01 10 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1143043]]'
 hide p4
 hide p2
 show oc002_01 10 as p2 at r(-3), dark, zorder 5
-show oc004_01 9 as p4 at l(-5), light, zorder 6
+show oc004_01 9 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1143044]]'
 hide p2
 hide p4
-show oc004_01 9 as p4 at l(-5), dark, zorder 6
+show oc004_01 9 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1143045]]'
 hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 6
+show oc003_01 17 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[1143046]]'
 hide p1
 hide p3
-show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc003_01 17 as p3 at l(-6), dark, flip, zorder 6
 show oc004_01 7 as p4 at r(-5), r_shake, light, zorder 5
 c43 '[textdict[1143047]]'
 return

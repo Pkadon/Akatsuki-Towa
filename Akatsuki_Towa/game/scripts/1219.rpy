@@ -7,10 +7,10 @@ window show
 with fade_out
 c0 '[textdict[2109977]]'
 c9721 '[textdict[2109978]]'
-show oc002_01 14 as p2 at l_entrance(-3), light, zorder 6
+show oc002_01 14 as p2 at l_entrance(-3), light, flip, zorder 6
 c21 '[textdict[2109979]]'
 hide p2
-show oc002_01 14 as p2 at l(-3), dark, zorder 6
+show oc002_01 14 as p2 at l(-3), dark, flip, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2109980]]'
 hide p2
@@ -109,7 +109,7 @@ play sfx2 "other_7047.ogg"
 c43 '[textdict[2110010]]'
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show oc003_01 16 as p3 at l(-6), light, zorder 6
+show oc003_01 16 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[2110011]]'
 hide p3
 hide p4
@@ -140,7 +140,7 @@ show oc004_01 1 as p4 at r(-5), r_shake, light, zorder 5
 c43 '[textdict[2110022]]'
 hide p4
 show oc004_01 1 as p4 at r(-5), dark, zorder 5
-show oc002_01 13 as p2 at l(-3), light, zorder 6
+show oc002_01 13 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[2110023]]'
 hide p2
 hide p4
@@ -156,21 +156,21 @@ hide p4
 c5133 '[textdict[2110027]]'
 c0 '[textdict[2110028]]'
 play music "ed7565.ogg"
-show oc002_01 5 as p2 at l(-3), l_shake, light, zorder 6
+show oc002_01 5 as p2 at l(-3), l_shake, light, flip, zorder 6
 with fade
 c21 '[textdict[2110029]]'
 hide p2
-show oc002_01 5 as p2 at l(-3), dark, zorder 6
+show oc002_01 5 as p2 at l(-3), dark, flip, zorder 6
 show oc004_01 9 as p4 at r(-5), light, zorder 5
 c43 '[textdict[2110030]]'
 hide p2
 hide p4
 show oc004_01 9 as p4 at r(-5), dark, zorder 5
-show oc003_01 16 as p3 at l(-6), light, zorder 6
+show oc003_01 16 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[2110031]]'
 hide p4
 hide p3
-show oc003_01 16 as p3 at l(-6), dark, zorder 6
+show oc003_01 16 as p3 at l(-6), dark, flip, zorder 6
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 c13 '[textdict[2110032]]'
 hide p3

@@ -101,24 +101,24 @@ show oce02_01 15 as p2666 at r(-3), light, zorder 5
 c26663 '[textdict[1191298]]'
 hide p2666
 show oce02_01 15 as p2666 at r(-3), dark, zorder 5
-show ocd01_01 1 as p2665 at l_entrance(-2), light, zorder 6
+show ocd01_01 1 as p2665 at l_entrance(-2), light, flip, zorder 6
 c26651 '[textdict[1191299]]'
 hide p2666
 hide p2665
-show ocd01_01 1 as p2665 at l(-2), dark, zorder 6
+show ocd01_01 1 as p2665 at l(-2), dark, flip, zorder 6
 c14403 '[textdict[1191300]]'
 hide p2665
-show ocd01_01 1 as p2665 at l(-2), dark, zorder 6
+show ocd01_01 1 as p2665 at l(-2), dark, flip, zorder 6
 show oce02_01 14 as p2666 at r_midback(-3), light, zorder 5
 c26663 '[textdict[1191301]]'
 hide p2665
 hide p2666
 show oce02_01 14 as p2666 at r(-3), dark, zorder 5
-show ocd01_01 22 as p2665 at l(-2), light, zorder 6
+show ocd01_01 22 as p2665 at l(-2), light, flip, zorder 6
 c26651 '[textdict[1191302]]'
 hide p2666
 hide p2665
-show ocd01_01 22 as p2665 at l(-2), dark, zorder 6
+show ocd01_01 22 as p2665 at l(-2), dark, flip, zorder 6
 c14403 '[textdict[1191303]]'
 scene avg_bg_070
 with fade
@@ -263,11 +263,11 @@ show ocd01_01 10 as p2665 at r(-2), light, zorder 5
 c26653 '[textdict[1191355]]'
 hide p2665
 show ocd01_01 10 as p2665 at r(-2), dark, zorder 5
-show oce02_01 21 as p2666 at l(-3), light, zorder 6
+show oce02_01 21 as p2666 at l(-3), light, flip, zorder 6
 c26661 '[textdict[1191356]]'
 hide p2665
 hide p2666
-show oce02_01 21 as p2666 at l(-3), dark, zorder 6
+show oce02_01 21 as p2666 at l(-3), dark, flip, zorder 6
 show st040_01 5 as p239 at r_entrance(-19), light, zorder 5
 c2393 '[textdict[1191357]]'
 hide p2666
@@ -282,27 +282,27 @@ show st040_01 4 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191360]]'
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
-show ocd01_01 2 as p2665 at l(-2), light, zorder 6
+show ocd01_01 2 as p2665 at l(-2), light, flip, zorder 6
 c26651 '[textdict[1191361]]'
 stop music
 hide p239
 hide p2665
-show ocd01_01 2 as p2665 at l(-2), dark, zorder 6
+show ocd01_01 2 as p2665 at l(-2), dark, flip, zorder 6
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191362]]'
 hide p2665
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
-show oce02_01 1 as p2666 at l(-3), light, zorder 6
+show oce02_01 1 as p2666 at l(-3), light, flip, zorder 6
 c26661 '[textdict[1191363]]'
 hide p2666
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
-show ocd01_01 4 as p2665 at l(-2), light, zorder 6
+show ocd01_01 4 as p2665 at l(-2), light, flip, zorder 6
 c26651 '[textdict[1191364]]'
 hide p2668
 hide p2665
-show ocd01_01 4 as p2665 at l(-2), dark, zorder 6
+show ocd01_01 4 as p2665 at l(-2), dark, flip, zorder 6
 show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191365]]'
 hide p2665
@@ -320,21 +320,21 @@ show oce04_01 4 as p2668 at r(-5), light, zorder 5
 c26683 '[textdict[1191369]]'
 hide p2668
 show oce04_01 4 as p2668 at r(-5), dark, zorder 5
-show oce02_01 4 as p2666 at l(-3), light, zorder 6
+show oce02_01 4 as p2666 at l(-3), light, flip, zorder 6
 c26661 '[textdict[1191370]]'
 hide p2668
 hide p2666
-show oce02_01 4 as p2666 at l(-3), dark, zorder 6
+show oce02_01 4 as p2666 at l(-3), dark, flip, zorder 6
 show st040_01 4 as p239 at r(-19), light, zorder 5
 c2393 '[textdict[1191371]]'
 hide p2666
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
-show ocd01_01 4 as p2665 at l(-2), light, zorder 6
+show ocd01_01 4 as p2665 at l(-2), light, flip, zorder 6
 c26651 '[textdict[1191372]]'
 hide p2665
 hide p239
 show st040_01 4 as p239 at r(-19), dark, zorder 5
-show ocd01_01 1 as p2665 at l(-2), light, zorder 6
+show ocd01_01 1 as p2665 at l(-2), light, flip, zorder 6
 c26651 '[textdict[1191373]]'
 return

@@ -8,12 +8,12 @@ with fade_out
 c13 '[textdict[1219451]]'
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc019_01 3 as p27 at l(-18), light, zorder 6
+show sc019_01 3 as p27 at l(-18), light, flip, zorder 6
 c271 '[textdict[1219452]]'
 hide p27
 hide p1
 show oc001_01 2 as p1 at r(-2), dark, zorder 5
-show sc019_01 1 as p27 at l(-18), light, zorder 6
+show sc019_01 1 as p27 at l(-18), light, flip, zorder 6
 c271 '[textdict[1219453]]'
 menu:
     extend ""

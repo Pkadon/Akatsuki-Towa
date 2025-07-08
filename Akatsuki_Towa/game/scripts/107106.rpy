@@ -6,123 +6,123 @@ scene avg_bg_219
 window show
 with fade_out
 c0 '[textdict[1179858]]'
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179859]]'
 hide p8
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179860]]'
 hide p8
-show oc008_01 4 as p8 at l(-5), dark, zorder 6
+show oc008_01 4 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179861]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179862]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179863]]'
 hide p1349
 hide p8
-show oc008_01 4 as p8 at l(-5), dark, zorder 6
+show oc008_01 4 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179864]]'
 hide p1349
 hide p8
-show oc008_01 4 as p8 at l(-5), dark, zorder 6
+show oc008_01 4 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179865]]'
 hide p1349
 hide p8
-show oc008_01 4 as p8 at l(-5), dark, zorder 6
+show oc008_01 4 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179866]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179867]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179868]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179869]]'
 hide p1349
 hide p8
-show oc008_01 4 as p8 at l(-5), dark, zorder 6
+show oc008_01 4 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179870]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179871]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 2 as p8 at l(-5), light, zorder 6
+show oc008_01 2 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179872]]'
 hide p1349
 hide p8
-show oc008_01 2 as p8 at l(-5), dark, zorder 6
+show oc008_01 2 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179873]]'
 hide p1349
 hide p8
-show oc008_01 2 as p8 at l(-5), dark, zorder 6
+show oc008_01 2 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 5 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179874]]'
 hide p8
 hide p1349
 show st056_01 5 as p1349 at r(-6), dark, zorder 5
-show oc008_01 2 as p8 at l(-5), light, zorder 6
+show oc008_01 2 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179875]]'
 hide p8
 hide p1349
 show st056_01 5 as p1349 at r(-6), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 6
+show oc008_01 1 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179876]]'
 hide p8
 hide p1349
 show st056_01 5 as p1349 at r(-6), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 6
+show oc008_01 1 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179877]]'
 hide p8
 hide p1349
 show st056_01 5 as p1349 at r(-6), dark, zorder 5
-show oc008_01 1 as p8 at l(-5), light, zorder 6
+show oc008_01 1 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179878]]'
 hide p8
 hide p1349
 show st056_01 5 as p1349 at r(-6), dark, zorder 5
-show oc008_01 4 as p8 at l(-5), light, zorder 6
+show oc008_01 4 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179879]]'
 hide p1349
 hide p8
-show oc008_01 4 as p8 at l(-5), dark, zorder 6
+show oc008_01 4 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179880]]'
 hide p8
 hide p1349
 show st056_01 1 as p1349 at r(-6), dark, zorder 5
-show oc008_01 5 as p8 at l(-5), light, zorder 6
+show oc008_01 5 as p8 at l(-5), light, flip, zorder 6
 c81 '[textdict[1179881]]'
 hide p1349
 hide p8
-show oc008_01 5 as p8 at l(-5), dark, zorder 6
+show oc008_01 5 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 1 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179882]]'
 hide p1349
 hide p8
-show oc008_01 5 as p8 at l(-5), dark, zorder 6
+show oc008_01 5 as p8 at l(-5), dark, flip, zorder 6
 show st056_01 4 as p1349 at r(-6), light, zorder 5
 c13493 '[textdict[1179883]]'
 stop music
@@ -205,26 +205,26 @@ show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1179909]]'
 hide p3
 show oc003_01 4 as p3 at r(-6), dark, zorder 5
-show oc002_01 4 as p2 at l(-3), light, zorder 6
+show oc002_01 4 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[1179910]]'
 hide p3
 hide p2
-show oc002_01 4 as p2 at l(-3), dark, zorder 6
+show oc002_01 4 as p2 at l(-3), dark, flip, zorder 6
 show oc003_01 4 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1179911]]'
 hide p3
 hide p2
-show oc002_01 4 as p2 at l(-3), dark, zorder 6
+show oc002_01 4 as p2 at l(-3), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1179912]]'
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show st061_01 2 as p1304 at l(-2), light, zorder 6
+show st061_01 2 as p1304 at l(-2), light, flip, zorder 6
 c13041 '[textdict[1179913]]'
 hide p1
 hide p1304
-show st061_01 2 as p1304 at l(-2), dark, zorder 6
+show st061_01 2 as p1304 at l(-2), dark, flip, zorder 6
 show oc004_01 11 as p4 at r(-5), light, zorder 5
 c43 '[textdict[1179914]]'
 hide p1304

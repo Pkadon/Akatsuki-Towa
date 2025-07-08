@@ -3,7 +3,7 @@ stop music
 
 play music "ed6564.ogg"
 scene avg_bg_004
-show oc003_01 2 as p3 at l(-6), light, zorder 6
+show oc003_01 2 as p3 at l(-6), light, flip, zorder 6
 window show
 with fade_out
 play sfxvoice "avg_vocal_ro10.ogg"

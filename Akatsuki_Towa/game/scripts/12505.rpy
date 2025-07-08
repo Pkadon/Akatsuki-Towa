@@ -41,12 +41,12 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1150857]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc002_01 14 as p2 at l(-3), light, zorder 6
+show oc002_01 14 as p2 at l(-3), light, flip, zorder 6
 play sfx2 "other_7073.ogg"
 c21 '[textdict[1150858]]'
 hide p2
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 6
+show oc003_01 17 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[1150859]]'
 return

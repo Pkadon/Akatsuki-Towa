@@ -20,11 +20,11 @@ show st061_01 5 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1164036]]'
 hide p1304
 show st061_01 5 as p1304 at r(-2), dark, zorder 5
-show oc004_01 2 as p4 at l(-5), light, zorder 6
+show oc004_01 2 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1164037]]'
 hide p1304
 hide p4
-show oc004_01 2 as p4 at l(-5), dark, zorder 6
+show oc004_01 2 as p4 at l(-5), dark, flip, zorder 6
 show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1164038]]'
 hide p4
@@ -57,11 +57,11 @@ show st061_01 6 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1164047]]'
 hide p1304
 show st061_01 6 as p1304 at r(-2), dark, zorder 5
-show oc003_01 17 as p3 at l(-6), light, zorder 6
+show oc003_01 17 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[1164048]]'
 hide p1304
 hide p3
-show oc003_01 17 as p3 at l(-6), dark, zorder 6
+show oc003_01 17 as p3 at l(-6), dark, flip, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
 play sfx2 "other_7004.ogg"
 c23 '[textdict[1164049]]'

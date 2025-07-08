@@ -7,6 +7,6 @@ window show
 with fade_out
 c50123 '[textdict[1200324]]'
 c50123 '[textdict[1200325]]'
-show oc002_01 5 as p2 at l(-3), light, zorder 6
+show oc002_01 5 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[1200326]]'
 return

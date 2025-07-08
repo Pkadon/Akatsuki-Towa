@@ -85,6 +85,6 @@ play sfx2 "other_7080.ogg"
 c33 '[textdict[1133323]]'
 hide p3
 show oc003_01 9 as p3 at r(-6), dark, zorder 5
-show sc051_01 4 as p58 at l(-32), light, zorder 6
+show sc051_01 4 as p58 at l(-32), light, flip, zorder 6
 c581 '[textdict[1133324]]'
 return

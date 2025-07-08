@@ -11,11 +11,11 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1162991]]'
 hide p1
 c0 '[textdict[1162992]]'
-show oc002_01 17 as p2 at l(-3), light, zorder 6
+show oc002_01 17 as p2 at l(-3), light, flip, zorder 6
 c21 '[textdict[1162993]]'
 play music "ed7511.ogg"
 hide p2
-show oc002_01 17 as p2 at l(-3), dark, zorder 6
+show oc002_01 17 as p2 at l(-3), dark, flip, zorder 6
 show oc001_01 2 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1162994]]'
 hide p2

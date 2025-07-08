@@ -9,7 +9,7 @@ play sfx2 "other_7022.ogg"
 c0 '[textdict[1123036]]'
 play sfx2 "other_7022.ogg"
 c7143 '[textdict[1006641]]'
-show st051_01 3 as p258 at l(-9), light, zorder 6
+show st051_01 3 as p258 at l(-9), light, flip, zorder 6
 play sfx2 "other_7023.ogg"
 c2581 '[textdict[1006642]]'
 hide p258

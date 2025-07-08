@@ -59,26 +59,30 @@ transform dark():
     matrixcolor TintMatrix("#808080")
     zoom (1.0 if not renpy.variant('touch') else touch_portrait_scale)
 
-###used for positioning
-###charpos is the portrait's "_xPostion" value from avg_role.json 
+#####################################################################
+### used to flip the portrait on the left side of the screen
+
+transform flip():
+    xzoom -1.0
+
+#####################################################################
+### used for positioning
+### charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos (680 + charpos)
 
 transform l(charpos):
     reset
     xanchor 0.5
-    xzoom -1.0
     xpos (160 - charpos)
 
 ### doesn't seem like xoffset is taken into account for center placement
 transform mid(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos 460
 
 #####################################################################
@@ -88,7 +92,6 @@ transform mid(charpos):
 transform r_midback(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos (680 + charpos)
     linear 0.1 xpos 0.40
     ease .1 xpos 0.45
@@ -98,7 +101,6 @@ transform r_midback(charpos):
 transform l_midback(charpos):
     reset
     xanchor 0.5
-    xzoom -1.0
     xpos (160 - charpos)
     linear 0.1 xpos 0.60
     ease .1 xpos 0.55
@@ -113,7 +115,6 @@ transform l_midback(charpos):
 transform r_entrance(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos 1.50
     pause 0.1
     ease 0.5 xpos (680 + charpos)
@@ -121,7 +122,6 @@ transform r_entrance(charpos):
 transform l_entrance(charpos):
     reset
     xanchor 0.5
-    xzoom -1.0
     xpos -0.50
     pause 0.1
     ease 0.5 xpos (160 - charpos)
@@ -133,7 +133,6 @@ transform l_entrance(charpos):
 transform r_entrance_midback(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos 1.50
     pause 0.1
     ease 0.5 xpos (680 + charpos)
@@ -145,7 +144,6 @@ transform r_entrance_midback(charpos):
 transform l_entrance_midback(charpos):
     reset
     xanchor 0.5
-    xzoom -1.0
     xpos -0.50
     pause 0.1
     ease 0.5 xpos (160 - charpos)
@@ -162,7 +160,6 @@ transform l_entrance_midback(charpos):
 transform r_exit(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos (680 + charpos)
     pause 0.5
     ease .5 xpos 1.50
@@ -170,7 +167,6 @@ transform r_exit(charpos):
 transform l_exit(charpos):
     reset
     xanchor 0.5
-    xzoom -1.0
     xpos (160 - charpos)
     pause 0.5
     ease .5 xpos -0.50
@@ -182,7 +178,6 @@ transform l_exit(charpos):
 transform r_exit_midback(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos (680 + charpos)
     linear 0.1 xpos 0.40
     ease .1 xpos 0.45
@@ -194,7 +189,6 @@ transform r_exit_midback(charpos):
 transform l_exit_midback(charpos):
     reset
     xanchor 0.5
-    xzoom -1.0
     xpos (160 - charpos)
     linear 0.1 xpos 0.60
     ease .1 xpos 0.55
@@ -212,21 +206,18 @@ transform l_exit_midback(charpos):
 transform mid_entrance(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos 460
 
 #placeholder so it doesn't crash
 transform mid_exit(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos 460
 
 #placeholder so it doesn't crash
 transform mid_midback(charpos):
     reset
     xanchor 0.5
-    xzoom 1.0
     xpos 460
 
 return

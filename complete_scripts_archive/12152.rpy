@@ -3,29 +3,29 @@ stop music
 
 play music "ed7104.ogg"
 scene avg_bg_027
-show uc004_02 1 as p960 at l(-9), light, zorder 6
+show uc004_02 1 as p960 at l(-9), light, flip, zorder 6
 window show
 with fade_out
 play sfx2 "other_7060.ogg"
 c9601 '[textdict[1128367]]'
 hide p960
-show uc004_02 1 as p960 at l(-9), dark, zorder 6
+show uc004_02 1 as p960 at l(-9), dark, flip, zorder 6
 show uc004_02 2 as p961 at r(-9), light, zorder 5
 c9613 '[textdict[1128368]]'
 hide p961
 hide p960
-show uc004_02 1 as p960 at l(-9), dark, zorder 6
+show uc004_02 1 as p960 at l(-9), dark, flip, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1128369]]'
 hide p1
 hide p960
-show uc004_02 1 as p960 at l(-9), dark, zorder 6
+show uc004_02 1 as p960 at l(-9), dark, flip, zorder 6
 show oc002_01 2 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1128370]]'
 hide p960
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show uc004_02 1 as p960 at l(-9), light, zorder 6
+show uc004_02 1 as p960 at l(-9), light, flip, zorder 6
 c9601 '[textdict[1128371]]'
 scene avg_bg_070
 with fade

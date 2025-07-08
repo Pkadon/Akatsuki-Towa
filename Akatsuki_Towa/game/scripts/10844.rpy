@@ -47,48 +47,48 @@ show oc001_01 4 as p1 at r(-2), dark, zorder 5
 c14861 '[textdict[1188568]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc004_01 4 as p4 at l(-5), light, zorder 6
+show oc004_01 4 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188569]]'
 hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc004_01 4 as p4 at l(-5), light, zorder 6
+show oc004_01 4 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188570]]'
 hide p1
 hide p4
-show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc004_01 4 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188571]]'
 hide p4
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show oc004_01 4 as p4 at l(-5), light, zorder 6
+show oc004_01 4 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188572]]'
 hide p1
 hide p4
-show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc004_01 4 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188573]]'
 hide p4
 hide p1
 show oc001_01 10 as p1 at r(-2), dark, zorder 5
-show oc004_01 7 as p4 at l(-5), light, zorder 6
+show oc004_01 7 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188574]]'
 hide p1
 hide p4
-show oc004_01 7 as p4 at l(-5), dark, zorder 6
+show oc004_01 7 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 12 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188575]]'
 hide p4
 hide p1
 c0 '[textdict[1188576]]'
-show oc004_01 1 as p4 at l(-5), light, zorder 6
+show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188577]]'
 hide p4
-show oc004_01 1 as p4 at l(-5), light, zorder 6
+show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188578]]'
 hide p4
-show oc004_01 1 as p4 at l(-5), light, zorder 6
+show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188579]]'
 hide p4
 with fade
@@ -216,49 +216,49 @@ show oc001_01 13 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188625]]'
 hide p1
 show oc001_01 13 as p1 at r(-2), dark, zorder 5
-show oc004_01 11 as p4 at l(-5), light, zorder 6
+show oc004_01 11 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188626]]'
 hide p4
 hide p1
 play sfx2 "other_7073.ogg"
 c0 '[textdict[1188627]]'
-show oc004_01 4 as p4 at l(-5), light, zorder 6
+show oc004_01 4 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188628]]'
 hide p4
-show oc004_01 8 as p4 at l(-5), light, zorder 6
+show oc004_01 8 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188629]]'
 hide p4
-show oc004_01 8 as p4 at l(-5), dark, zorder 6
+show oc004_01 8 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188630]]'
 hide p1
 hide p4
-show oc004_01 8 as p4 at l(-5), dark, zorder 6
+show oc004_01 8 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 10 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188631]]'
 hide p1
 hide p4
-show oc004_01 8 as p4 at l(-5), dark, zorder 6
+show oc004_01 8 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188632]]'
 hide p1
 hide p4
-show oc004_01 8 as p4 at l(-5), dark, zorder 6
+show oc004_01 8 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 1 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188633]]'
 hide p4
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 6
+show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188634]]'
 hide p4
 hide p1
 show oc001_01 1 as p1 at r(-2), dark, zorder 5
-show oc004_01 1 as p4 at l(-5), light, zorder 6
+show oc004_01 1 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1188635]]'
 hide p1
 hide p4
-show oc004_01 1 as p4 at l(-5), dark, zorder 6
+show oc004_01 1 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1188636]]'
 scene avg_bg_070

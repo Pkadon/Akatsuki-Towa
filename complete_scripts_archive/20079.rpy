@@ -3,12 +3,12 @@ stop music
 
 play music "ed7105.ogg"
 scene avg_bg_045
-show oc004_01 2 as p4 at l(-5), light, zorder 6
+show oc004_01 2 as p4 at l(-5), light, flip, zorder 6
 window show
 with fade_out
 c41 '[textdict[1004000]]'
 hide p4
-show oc004_01 2 as p4 at l(-5), dark, zorder 6
+show oc004_01 2 as p4 at l(-5), dark, flip, zorder 6
 show oc002_01 14 as p2 at r(-3), light, zorder 5
 play sfx2 "other_7060.ogg"
 play sfxvoice "avg_vocal_ch09.ogg"
@@ -16,12 +16,12 @@ c23 '[textdict[1004001]]'
 hide p4
 hide p2
 show oc002_01 14 as p2 at r(-3), dark, zorder 5
-show oc001_01 7 as p1 at l(-2), light, zorder 6
+show oc001_01 7 as p1 at l(-2), light, flip, zorder 6
 play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1004002]]'
 hide p2
 hide p1
-show oc001_01 7 as p1 at l(-2), dark, zorder 6
+show oc001_01 7 as p1 at l(-2), dark, flip, zorder 6
 show oc002_01 18 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1004003]]'
 hide p1

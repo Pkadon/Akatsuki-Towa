@@ -8,15 +8,15 @@ with fade_out
 c0 '[textdict[1172848]]'
 play sfx2 "other_7014.ogg"
 c0 '[textdict[1172849]]'
-show st061_01 2 as p1304 at l_entrance(-2), light, zorder 6
+show st061_01 2 as p1304 at l_entrance(-2), light, flip, zorder 6
 c13041 '[textdict[1172850]]'
 hide p1304
-show st061_01 2 as p1304 at l(-2), dark, zorder 6
+show st061_01 2 as p1304 at l(-2), dark, flip, zorder 6
 show oc003_01 1 as p3 at r(-6), light, zorder 5
 c33 '[textdict[1172851]]'
 hide p3
 hide p1304
-show st061_01 2 as p1304 at l(-2), dark, zorder 6
+show st061_01 2 as p1304 at l(-2), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1172852]]'
 hide p1304

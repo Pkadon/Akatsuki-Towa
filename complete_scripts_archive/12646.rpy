@@ -20,11 +20,11 @@ show oc002_01 2 as p2 at r(-3), dark, zorder 5
 c13281 '[textdict[1163236]]'
 hide p2
 show oc002_01 2 as p2 at r(-3), dark, zorder 5
-show oc004_01 2 as p4 at l(-5), light, zorder 6
+show oc004_01 2 as p4 at l(-5), light, flip, zorder 6
 c41 '[textdict[1163237]]'
 hide p2
 hide p4
-show oc004_01 2 as p4 at l(-5), dark, zorder 6
+show oc004_01 2 as p4 at l(-5), dark, flip, zorder 6
 show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1163238]]'
 hide p4

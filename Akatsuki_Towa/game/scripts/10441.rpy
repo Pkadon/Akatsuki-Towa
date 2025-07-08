@@ -20,16 +20,16 @@ c10223 '[textdict[1141754]]'
 play music "ed7544.ogg"
 hide p1022
 show uc004_01 4 as p1022 at r(-25), dark, zorder 5
-show st037_01 1 as p236 at l(-10), light, zorder 6
+show st037_01 1 as p236 at l(-10), light, flip, zorder 6
 c2361 '[textdict[1141755]]'
 hide p1022
 hide p236
-show st037_01 1 as p236 at l(-10), dark, zorder 6
+show st037_01 1 as p236 at l(-10), dark, flip, zorder 6
 show uc004_01 4 as p1022 at r(-25), light, zorder 5
 c10223 '[textdict[1141756]]'
 hide p236
 hide p1022
 show uc004_01 4 as p1022 at r(-25), dark, zorder 5
-show st037_01 4 as p236 at l(-10), light, zorder 6
+show st037_01 4 as p236 at l(-10), light, flip, zorder 6
 c2361 '[textdict[1141757]]'
 return

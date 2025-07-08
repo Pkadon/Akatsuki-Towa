@@ -3,17 +3,17 @@ stop music
 
 play music "ED6105.ogg"
 scene avg_bg_102
-show oc004_01 4 as p4 at l(-5), light, zorder 6
+show oc004_01 4 as p4 at l(-5), light, flip, zorder 6
 window show
 with fade_out
 c41 '[textdict[1152560]]'
 hide p4
-show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc004_01 4 as p4 at l(-5), dark, flip, zorder 6
 show oc002_01 18 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152561]]'
 hide p2
 hide p4
-show oc004_01 4 as p4 at l(-5), dark, zorder 6
+show oc004_01 4 as p4 at l(-5), dark, flip, zorder 6
 show oc002_01 8 as p2 at r(-3), light, zorder 5
 c23 '[textdict[1152562]]'
 hide p4
@@ -47,6 +47,6 @@ show oc001_01 4 as p1 at r(-2), light, zorder 5
 c13 '[textdict[1152571]]'
 hide p1
 show oc001_01 4 as p1 at r(-2), dark, zorder 5
-show sc021_01 4 as p29 at l(-17), light, zorder 6
+show sc021_01 4 as p29 at l(-17), light, flip, zorder 6
 c291 '[textdict[1152572]]'
 return

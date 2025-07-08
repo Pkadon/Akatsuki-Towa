@@ -83,14 +83,18 @@ class GameState:
 		expression = self.state[pos]['expression']
 		alias = self.state[pos]['alias']
 		offset = self.state[pos]['offset']
+		mirror = self.state[pos]['mirror']
 		zorder = self.state[pos]['zorder']
 		#don't need to worry about tracking transforms so far, but that could change
+		
+		if mirror == 1: flip = 'flip, '
+		else: flip = ''
 		
 		return (
 			f"show {folderName} "
 			f"{expression} "
 			f"as {alias} "
-			f"at {pos}({offset}), {color}, "
+			f"at {pos}({offset}), {color}, {flip}"
 			f"zorder {zorder}\n"
 		)
 	
@@ -364,6 +368,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				'alias': alias,
 				'expression': expression,
 				'offset': offset,
+				'mirror': mirror,
 				'zorder': zorder
 			}
 
@@ -383,6 +388,10 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if effect == 102: renpytransform += ', r_shake'
 			elif effect == 202: renpytransform += ', l_shake'
 			
+			#manually add flip to portraits on the left side of the screen
+			if mirror == 1: flip = 'flip, '
+			else: flip = ''
+			
 			#The fade will cover up portrait animations, so get it out of the way first
 			if fade:
 				if CharFadeIn == 1 or CharFadeOut == 1:
@@ -394,7 +403,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 					fade = False
 					
 			#SHOW PORTRAIT									
-			portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, zorder {zorder}' 
+			portrait = f'show {folderName} {expression} as {alias} at {renpytransform}, light, {flip}zorder {zorder}' 
 			state.add_line(f"{portrait}\n")
 		
 		else: state.update_portrait(portraitpos, None)

@@ -11,6 +11,6 @@ show st061_01 1 as p1304 at r(-2), light, zorder 5
 c13043 '[textdict[1172875]]'
 hide p1304
 show st061_01 1 as p1304 at r(-2), dark, zorder 5
-show oc003_01 1 as p3 at l(-6), light, zorder 6
+show oc003_01 1 as p3 at l(-6), light, flip, zorder 6
 c31 '[textdict[1172876]]'
 return
