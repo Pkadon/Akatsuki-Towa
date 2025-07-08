@@ -7,10 +7,8 @@ $ update_portrait('st061_01 1', 'p1304', [r(-2), light], 5)
 window show
 with fade_in
 c13043 '[textdict[1172536]]'
-hide p1304
 $ update_portrait('st061_01 1', 'p1304', [r(-2), dark], 5)
 c13361 '[textdict[1172537]]'
-hide p1304
 $ update_portrait('st061_01 1', 'p1304', [r(-2), dark], 5)
 c13361 '[textdict[1172538]]'
 hide p1304
@@ -19,13 +17,11 @@ c13043 '[textdict[1172539]]'
 hide p1304
 $ update_portrait('st061_01 1', 'p1304', [r(-2), light], 5)
 c13043 '[textdict[1172540]]'
-hide p1304
 $ update_portrait('st061_01 1', 'p1304', [r(-2), dark], 5)
 c13361 '[textdict[1172541]]'
 hide p1304
 $ update_portrait('st061_01 1', 'p1304', [r(-2), light], 5)
 c13043 '[textdict[1172542]]'
-hide p1304
 $ update_portrait('st061_01 1', 'p1304', [r(-2), dark], 5)
 c13361 '[textdict[1172543]]'
 hide p1304

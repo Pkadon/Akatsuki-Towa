@@ -8,20 +8,17 @@ with fade_in
 $ update_portrait('oc002_01 2', 'p2', [l_entrance(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1004850]]'
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 play sfx2 "other_7044.ogg"
 c13 '[textdict[1004851]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7047.ogg"
 c6871 '[textdict[1004852]]'
 hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1004853]]'
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7004.ogg"
 c6871 '[textdict[1004854]]'

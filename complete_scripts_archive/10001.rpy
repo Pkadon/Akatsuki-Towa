@@ -51,7 +51,6 @@ hide p1
 $ update_portrait('oc001_01 13', 'p1', [r(-2), light], 5)
 c13 '[textdict[1000012]]'
 play music "ed7511.ogg"
-hide p1
 $ update_portrait('oc001_01 13', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7079.ogg"
 c5291 '[textdict[1100035]]'
@@ -67,7 +66,6 @@ $ update_portrait('oc001_01 15', 'p1', [r(-2), r_shake, light], 5)
 play sfx2 "fight_6029.ogg"
 play sfxvoice "avg_vocal_na24.ogg"
 c13 '[textdict[1100038]]'
-hide p1
 $ update_portrait('oc001_01 15', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7076.ogg"
 c5291 '[textdict[1100039]]'

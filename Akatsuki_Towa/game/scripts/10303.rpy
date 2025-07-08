@@ -9,46 +9,37 @@ play sfx2 "other_7020.ogg"
 c5381 '[textdict[1130125]]'
 $ update_portrait('st033_01 2', 'p232', [r_entrance(-7), light], 5)
 c2323 '[textdict[1130126]]'
-hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130127]]'
-hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130128]]'
 hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1130129]]'
-hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130130]]'
-hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130131]]'
 hide p232
 $ update_portrait('st033_01 4', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1130132]]'
-hide p232
 $ update_portrait('st033_01 4', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130133]]'
 hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1130134]]'
-hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130135]]'
 hide p232
 $ update_portrait('st033_01 4', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1130136]]'
-hide p232
 $ update_portrait('st033_01 4', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130137]]'
 hide p232
 $ update_portrait('st033_01 3', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1130138]]'
-hide p232
 $ update_portrait('st033_01 3', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130139]]'
-hide p232
 $ update_portrait('st033_01 3', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1130140]]'
 hide p232
@@ -60,22 +51,18 @@ play music "ed7101.ogg"
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro08.ogg"
 c31 '[textdict[1130142]]'
-hide p3
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 8', 'p4', [r_entrance(-5), light], 5)
 c43 '[textdict[1130143]]'
 hide p4
-hide p3
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1130144]]'
 hide p2
-hide p3
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[1130145]]'
 hide p2
-hide p3
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na06.ogg"

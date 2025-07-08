@@ -13,107 +13,87 @@ with fade
 $ update_portrait('oc002_01 9', 'p2', [l_entrance(-3), light, flip], 6)
 play sfx2 "other_7085.ogg"
 c21 '[textdict[1150005]]'
-hide p2
 $ update_portrait('oc002_01 9', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r_entrance(-2), light], 5)
 play sfx2 "other_7085.ogg"
 c13 '[textdict[1150006]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 c12011 '[textdict[1150007]]' with shake
 hide p1
 $ update_portrait('oc001_01 12', 'p1', [r(-2), r_shake, light], 5)
 c13 '[textdict[1150008]]'
-hide p1
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 17', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150009]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch15.ogg"
 c21 '[textdict[1150010]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150011]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[1150012]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1150013]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150014]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1150015]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 8', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1150016]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150017]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150018]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1150019]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150020]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1150021]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1150022]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150023]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 4', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150024]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 18', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150025]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l_exit(-3), light, flip], 6)
 c21 '[textdict[1150026]]'
@@ -163,12 +143,10 @@ c13 '[textdict[1150037]]'
 hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 c13 '[textdict[1150038]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1150039]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1150040]]'

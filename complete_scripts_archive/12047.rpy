@@ -7,42 +7,34 @@ $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 window show
 with fade_in
 c11 '[textdict[1120453]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120454]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 23', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120455]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 4', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120456]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120457]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 18', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120458]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 18', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 9', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120459]]'
 hide p1
-hide p2
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 9', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120460]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 9', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 13', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120461]]'
@@ -52,67 +44,54 @@ with fade
 c0 '[textdict[1120463]]'
 $ update_portrait('st004_01 1', 'p204', [l_entrance(4), light, flip], 6)
 c2041 '[textdict[1120464]]'
-hide p204
 $ update_portrait('st004_01 1', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120465]]'
 hide p2
-hide p204
 $ update_portrait('st004_01 1', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120466]]'
 hide p204
-hide p1
 $ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
 $ update_portrait('st004_01 2', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1120467]]'
 hide p1
-hide p204
 $ update_portrait('st004_01 2', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc002_01 13', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120468]]'
 hide p2
-hide p204
 $ update_portrait('st004_01 2', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc002_01 8', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120469]]'
 hide p2
-hide p204
 $ update_portrait('st004_01 2', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120470]]'
 hide p204
-hide p1
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('st004_01 6', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1120471]]'
 hide p204
-hide p1
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('st004_01 1', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1120472]]'
 hide p1
-hide p204
 $ update_portrait('st004_01 1', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc002_01 1', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120473]]'
 hide p204
-hide p2
 $ update_portrait('oc002_01 1', 'p2', [r(-3), dark], 5)
 $ update_portrait('st004_01 5', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1120474]]'
 hide p2
-hide p204
 $ update_portrait('st004_01 5', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120475]]'
 hide p204
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('st004_01 2', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1120476]]'
 hide p204
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('st004_01 5', 'p204', [l_exit(4), light, flip], 6)
 c2041 '[textdict[1120477]]'
@@ -124,7 +103,6 @@ c23 '[textdict[1120478]]'
 hide p2
 $ update_portrait('oc002_01 22', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120479]]'
-hide p2
 $ update_portrait('oc002_01 22', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 17', 'p1', [l_entrance(-2), light, flip], 6)
 c11 '[textdict[1120480]]'

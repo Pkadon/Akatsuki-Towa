@@ -40,7 +40,6 @@ c633 '[textdict[1143984]]'
 hide p63
 $ update_portrait('sc058_01 3', 'p63', [r(-20), light], 5)
 c633 '[textdict[1143985]]'
-hide p63
 $ update_portrait('sc058_01 3', 'p63', [r(-20), dark], 5)
 $ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143986]]'

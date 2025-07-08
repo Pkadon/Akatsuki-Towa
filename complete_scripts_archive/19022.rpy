@@ -12,7 +12,6 @@ c23 '[textdict[1216227]]' (what_size=(gui.text_size*0.9))
 hide p2
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1216228]]' (what_size=(gui.text_size*0.9))
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[1216229]]' (what_size=(gui.text_size*0.9))

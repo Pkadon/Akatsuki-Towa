@@ -9,12 +9,10 @@ c0 '[textdict[1170876]]'
 c0 '[textdict[1170877]]'
 $ update_portrait('oc002_01 3', 'p2', [l_entrance(-3), light, flip], 6)
 c21 '[textdict[1170878]]'
-hide p2
 $ update_portrait('oc002_01 3', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 1', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170879]]'
 hide p8
-hide p2
 $ update_portrait('oc002_01 3', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 2', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170880]]'
@@ -24,47 +22,38 @@ play sfx2 "other_7004.ogg"
 c0 '[textdict[1170881]]'
 $ update_portrait('oc008_01 5', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170882]]'
-hide p8
 $ update_portrait('oc008_01 5', 'p8', [r(-5), dark], 5)
 $ update_portrait('oc002_01 17', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1170883]]'
 hide p2
-hide p8
 $ update_portrait('oc008_01 5', 'p8', [r(-5), dark], 5)
 $ update_portrait('oc002_01 21', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1170884]]'
 hide p8
-hide p2
 $ update_portrait('oc002_01 21', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 2', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170885]]'
 hide p8
-hide p2
 $ update_portrait('oc002_01 21', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 6', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170886]]'
 hide p2
-hide p8
 $ update_portrait('oc008_01 6', 'p8', [r(-5), dark], 5)
 $ update_portrait('oc002_01 19', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1170887]]' with shake
 hide p8
-hide p2
 $ update_portrait('oc002_01 19', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 1', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170888]]'
 hide p8
-hide p2
 $ update_portrait('oc002_01 19', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 5', 'p8', [r(-5), light], 5)
 c83 '[textdict[1170889]]'
 hide p2
-hide p8
 $ update_portrait('oc008_01 5', 'p8', [r(-5), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1170890]]'
 hide p8
-hide p2
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc008_01 6', 'p8', [r_exit(-5), light], 5)
 c83 '[textdict[1170891]]'

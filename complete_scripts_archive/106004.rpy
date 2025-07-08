@@ -6,17 +6,14 @@ $ update_portrait('sc053_01 2', 'p60', [l(-32), light, flip], 6)
 window show
 with fade_in
 c601 '[textdict[1219056]]'
-hide p60
 $ update_portrait('sc053_01 2', 'p60', [l(-32), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1219057]]'
 hide p60
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc053_01 1', 'p60', [l(-32), light, flip], 6)
 c601 '[textdict[1219058]]'
 hide p60
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc053_01 4', 'p60', [l(-32), light, flip], 6)
 c601 '[textdict[1219059]]'

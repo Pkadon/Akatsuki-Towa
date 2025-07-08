@@ -6,17 +6,14 @@ $ update_portrait('sc022_01 1', 'p30', [l(-9), light, flip], 6)
 window show
 with fade_in
 c301 '[textdict[1222432]]'
-hide p30
 $ update_portrait('sc022_01 1', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222433]]'
 hide p30
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 1', 'p30', [l(-9), light, flip], 6)
 c301 '[textdict[1222434]]'
 hide p1
-hide p30
 $ update_portrait('sc022_01 1', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222435]]'

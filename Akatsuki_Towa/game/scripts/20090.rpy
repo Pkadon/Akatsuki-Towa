@@ -17,19 +17,16 @@ c6801 '[textdict[1004514]]'
 c6801 '[textdict[1004515]]'
 $ update_portrait('oc001_01 2', 'p1', [l_entrance(-2), light, flip], 6)
 c11 '[textdict[1004516]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
 play sfxvoice "avg_vocal_ro13.ogg"
 c33 '[textdict[1004517]]'
 hide p1
-hide p3
 $ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc002_01 5', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch07.ogg"
 c21 '[textdict[1004518]]'
 hide p3
-hide p2
 $ update_portrait('oc002_01 5', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc004_01 8', 'p4', [r(-5), light], 5)
 c43 '[textdict[1123027]]'

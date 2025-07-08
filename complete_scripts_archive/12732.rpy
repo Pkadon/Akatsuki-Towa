@@ -16,7 +16,6 @@ hide p1
 c7493 '[textdict[1172103]]'
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172104]]'
-hide p3
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
 c7493 '[textdict[1172105]]'
 hide p3
@@ -32,15 +31,12 @@ c31 '[textdict[1172109]]'
 hide p3
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172110]]'
-hide p3
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172111]]'
 hide p3
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c5001 '[textdict[1172112]]' with shake
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c7491 '[textdict[1172113]]'
 play music "ed7511.ogg"
@@ -57,20 +53,16 @@ c14381 '[textdict[1172118]]'
 c14393 '[textdict[1172119]]'
 $ update_portrait('oc003_01 21', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172120]]'
-hide p3
 $ update_portrait('oc003_01 21', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172121]]'
 hide p1
-hide p3
 $ update_portrait('oc003_01 21', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1172122]]'
 hide p3
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14401 '[textdict[1172123]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1172124]]'

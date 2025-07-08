@@ -20,7 +20,6 @@ c6853 '[textdict[1004847]]'
 $ update_portrait('oc001_01 1', 'p1', [l_entrance(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na15.ogg"
 c11 '[textdict[1004848]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
 c463 '[textdict[1004849]]'

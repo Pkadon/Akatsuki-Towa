@@ -15,7 +15,6 @@ c0 '[textdict[1143548]]'
 stop music
 $ update_portrait('oc004_01 12', 'p4', [r(-5), r_shake, light], 5)
 c43 '[textdict[1143549]]'
-hide p4
 $ update_portrait('oc004_01 12', 'p4', [r(-5), dark], 5)
 play sfx2 "other_7080.ogg"
 c10531 '[textdict[1143550]]'

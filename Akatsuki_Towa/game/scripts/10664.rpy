@@ -14,7 +14,6 @@ c13081 '[textdict[1165680]]'
 hide p1308
 $ update_portrait('st062_01 4', 'p1308', [l(-16), light, flip], 6)
 c13081 '[textdict[1165681]]'
-hide p1308
 $ update_portrait('st062_01 4', 'p1308', [l(-16), dark, flip], 6)
 c13543 '[textdict[1165682]]'
 hide p1308
@@ -26,13 +25,11 @@ c13161 '[textdict[1165687]]'
 c13161 '[textdict[1165688]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1165689]]'
-hide p1308
 $ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c13161 '[textdict[1165690]]'
 hide p1308
 $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1165691]]'
-hide p1308
 $ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c13161 '[textdict[1165692]]'
 return

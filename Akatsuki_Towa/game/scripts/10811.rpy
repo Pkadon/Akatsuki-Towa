@@ -50,7 +50,6 @@ c13493 '[textdict[1182192]]'
 hide p1349
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182193]]'
-hide p1349
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182194]]'
 hide p1349
@@ -59,49 +58,38 @@ c13493 '[textdict[1182195]]'
 hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182196]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182197]]'
 hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182198]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182199]]'
 hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182200]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182201]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182202]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182203]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182204]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182205]]'
 hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182206]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182207]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182208]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182209]]'
 hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182210]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182211]]'
 hide p1349

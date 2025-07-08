@@ -18,17 +18,14 @@ hide p611
 $ update_portrait('uc004_01 4', 'p1022', [r(-25), light], 5)
 c10223 '[textdict[1141754]]'
 play music "ed7544.ogg"
-hide p1022
 $ update_portrait('uc004_01 4', 'p1022', [r(-25), dark], 5)
 $ update_portrait('st037_01 1', 'p236', [l(-10), light, flip], 6)
 c2361 '[textdict[1141755]]'
 hide p1022
-hide p236
 $ update_portrait('st037_01 1', 'p236', [l(-10), dark, flip], 6)
 $ update_portrait('uc004_01 4', 'p1022', [r(-25), light], 5)
 c10223 '[textdict[1141756]]'
 hide p236
-hide p1022
 $ update_portrait('uc004_01 4', 'p1022', [r(-25), dark], 5)
 $ update_portrait('st037_01 4', 'p236', [l(-10), light, flip], 6)
 c2361 '[textdict[1141757]]'

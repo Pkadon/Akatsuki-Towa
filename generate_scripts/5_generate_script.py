@@ -111,9 +111,8 @@ class GameState:
 
 				alias = self.state[key]['alias']
 				if alias == lit_alias:
-					self.hide_portraits(key)
+					self.hide_portraits(key, write=False)
 				else:
-					self.hide_portraits(key, clear=False)
 					line = self.unpack_portrait_dict(key, color='dark')
 					self.add_line(line)
 		

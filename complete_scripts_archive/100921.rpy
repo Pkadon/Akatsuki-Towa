@@ -6,29 +6,24 @@ $ update_portrait('sc001_01 2', 'p9', [l(-11), light, flip], 6)
 window show
 with fade_in
 c91 '[textdict[1218074]]'
-hide p9
 $ update_portrait('sc001_01 2', 'p9', [l(-11), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 play sfxvoice "bcv_oc002_get_02.ogg"
 c13 '[textdict[1218075]]'
 hide p9
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc001_01 1', 'p9', [l(-11), light, flip], 6)
 c91 '[textdict[1218076]]'
 hide p1
-hide p9
 $ update_portrait('sc001_01 1', 'p9', [l(-11), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 play sfxvoice "bcv_oc002_get_02.ogg"
 c13 '[textdict[1218077]]'
 hide p9
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc001_01 4', 'p9', [l(-11), light, flip], 6)
 c91 '[textdict[1218078]]'
 hide p1
-hide p9
 $ update_portrait('sc001_01 4', 'p9', [l(-11), dark, flip], 6)
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 play sfxvoice "bcv_oc002_arts_02.ogg"

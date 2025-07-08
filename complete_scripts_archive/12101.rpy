@@ -8,34 +8,28 @@ window show
 with fade_in
 play sfxvoice "avg_vocal_ji04.ogg"
 c53 '[textdict[1128006]]'
-hide p5
 $ update_portrait('oc005_01 2', 'p5', [r(-6), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1128011]]'
 hide p5
-hide p3
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc005_01 5', 'p5', [r(-6), light], 5)
 play sfxvoice "avg_vocal_ji06.ogg"
 c53 '[textdict[1128012]]'
 hide p5
-hide p3
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc005_01 1', 'p5', [r(-6), light], 5)
 c53 '[textdict[1128013]]'
 hide p5
-hide p3
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc005_01 4', 'p5', [r(-6), light], 5)
 c53 '[textdict[1128014]]'
 hide p5
-hide p3
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc005_01 9', 'p5', [r(-6), light], 5)
 play sfxvoice "avg_vocal_ji16.ogg"
 c53 '[textdict[1128015]]'
 hide p5
-hide p3
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc005_01 4', 'p5', [r(-6), light], 5)
 play sfxvoice "avg_vocal_ji05.ogg"

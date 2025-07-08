@@ -16,34 +16,27 @@ scene avg_bg_014
 with fade
 $ update_portrait('oc001_01 1', 'p1', [l_entrance(-2), light, flip], 6)
 c11 '[textdict[1003856]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 c6453 '[textdict[1003857]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 c5343 '[textdict[1003858]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 c6453 '[textdict[1003859]]'
 hide p1
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1003860]]'
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c5343 '[textdict[1003861]]'
 hide p2
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003862]]'
-hide p4
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 c6473 '[textdict[1003863]]'
 hide p4
 $ update_portrait('oc004_01 2', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003864]]'
-hide p4
 $ update_portrait('oc004_01 2', 'p4', [l(-5), dark, flip], 6)
 c6473 '[textdict[1003865]]'
-hide p4
 $ update_portrait('oc004_01 2', 'p4', [l(-5), dark, flip], 6)
 c6473 '[textdict[1003866]]'
 hide p4

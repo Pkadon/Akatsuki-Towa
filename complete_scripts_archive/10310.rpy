@@ -13,7 +13,6 @@ c10063 '[textdict[1130292]]'
 $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 play sfxvoice "avg_vocal_li18.ogg"
 c41 '[textdict[1130293]]'
-hide p4
 $ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1130294]]'

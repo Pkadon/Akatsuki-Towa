@@ -23,7 +23,6 @@ play sfx2 "other_7023.ogg"
 c7131 '[textdict[1006644]]'
 $ update_portrait('st034_01 2', 'p233', [r(12), light], 5)
 c2333 '[textdict[1006645]]'
-hide p233
 $ update_portrait('st034_01 2', 'p233', [r(12), dark], 5)
 c6771 '[textdict[1006646]]'
 hide p233

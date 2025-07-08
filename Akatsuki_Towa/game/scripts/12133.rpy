@@ -9,10 +9,8 @@ play sfx2 "other_7047.ogg"
 c9591 '[textdict[1128272]]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1128273]]'
-hide p1
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128274]]'
-hide p1
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128275]]'
 hide p1

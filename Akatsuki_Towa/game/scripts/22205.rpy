@@ -7,39 +7,32 @@ $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 window show
 with fade_in
 c13 '[textdict[1128594]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c5621 '[textdict[1128595]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c5631 '[textdict[1128596]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c5621 '[textdict[1128597]]'
 hide p1
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch17.ogg"
 c23 '[textdict[1128598]]'
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 play sfxvoice "avg_vocal_li18.ogg"
 c41 '[textdict[1128599]]'
 hide p2
-hide p4
 $ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
 c33 '[textdict[1128600]]'
 play music "ED6516.ogg"
 hide p4
-hide p3
 $ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 play sfx2 "other_7007.ogg"
 c7201 '[textdict[1128601]]'
 hide p3
 $ update_portrait('oc001_01 20', 'p1', [r(-2), r_shake, light], 5)
 c13 '[textdict[1128602]]'
-hide p1
 $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 9', 'p2', [l_midback(-3), light, flip], 6)
 c21 '[textdict[1128603]]'
@@ -50,7 +43,6 @@ play sfx2 "other_7080.ogg"
 c5631 '[textdict[1128604]]'
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 c13 '[textdict[1128605]]'
-hide p1
 $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 c5621 '[textdict[1128606]]'
 hide p1

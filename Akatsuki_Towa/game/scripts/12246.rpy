@@ -7,42 +7,34 @@ window show
 with fade_in
 $ update_portrait('oc001_01 1', 'p1', [l_entrance(-2), light, flip], 6)
 c11 '[textdict[1121316]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc004_01 2', 'p5011', [r(-25), light], 5)
 c50113 '[textdict[1121317]]'
 hide p5011
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc004_01 1', 'p5011', [r(-25), light], 5)
 c50113 '[textdict[1121318]]'
 hide p1
-hide p5011
 $ update_portrait('uc004_01 1', 'p5011', [r(-25), dark], 5)
 $ update_portrait('oc001_01 4', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1121319]]'
 hide p5011
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc004_01 4', 'p5011', [r(-25), light], 5)
 c50113 '[textdict[1121320]]'
 hide p5011
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc004_01 2', 'p5011', [r(-25), light], 5)
 c50113 '[textdict[1121321]]'
 hide p1
-hide p5011
 $ update_portrait('uc004_01 2', 'p5011', [r(-25), dark], 5)
 $ update_portrait('oc001_01 4', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1121322]]'
 hide p1
-hide p5011
 $ update_portrait('uc004_01 2', 'p5011', [r(-25), dark], 5)
 $ update_portrait('oc002_01 4', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1121323]]'
 hide p5011
-hide p2
 $ update_portrait('oc002_01 4', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('uc004_01 1', 'p5011', [r(-25), light], 5)
 c50113 '[textdict[1121324]]'

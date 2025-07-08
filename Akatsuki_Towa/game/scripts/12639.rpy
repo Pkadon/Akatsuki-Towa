@@ -14,12 +14,10 @@ c0 '[textdict[1162992]]'
 $ update_portrait('oc002_01 17', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1162993]]'
 play music "ed7511.ogg"
-hide p2
 $ update_portrait('oc002_01 17', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), r_shake, light], 5)
 c13 '[textdict[1162994]]'
 hide p2
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7034.ogg"
 c5001 '[textdict[1162995]]' with shake
