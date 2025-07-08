@@ -1,10 +1,8 @@
 label deftransform:
 
-###general transforms###############################################
-
-
+### General Screen Transitions:
 ########################################
-###used as a transition to shake the screen
+### used as a transition to shake the screen
 transform shake(*, new_widget=None, old_widget=None):
     delay .3
     xcenter .5
@@ -23,11 +21,12 @@ transform shake(*, new_widget=None, old_widget=None):
     linear .025 rotate 2
     ease .025 rotate 0
 
-###used as the transition from the scene select menu to a cutscene
+### used as the transition to fade from the scene select menu to a cutscene
 define fade_out = Fade(0,0,0.5)
 
+### Portrait Transforms:
 #######################################
-###used to shake the portrait in place
+### used to shake the portrait in place
 
 transform l_shake:
     pause .1
@@ -46,8 +45,9 @@ transform r_shake:
     ease .05 xoffset -10
     ease .05 xoffset 0
 
-####################################
-###used to light up the speaking portrait
+#####################################################################
+### used to light up the speaking portrait
+
 transform light():
     yalign 1.0
     matrixcolor TintMatrix("#fff")
@@ -74,17 +74,16 @@ transform l(charpos):
     xzoom -1.0
     xpos (160 - charpos)
 
-###doesn't seem like xoffset is taken into account for center placement
+### doesn't seem like xoffset is taken into account for center placement
 transform mid(charpos):
     reset
     xanchor 0.5
     xzoom 1.0
     xpos 460
 
-
-####################################
-###used for the animation where the portrait moves to the middle of the screen and returns starting position
-###charpos is the portrait's "_xPostion" value from avg_role.json 
+#####################################################################
+### used for the animation where the portrait moves to the middle of the screen and returns starting position
+### charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r_midback(charpos):
     reset
@@ -107,9 +106,9 @@ transform l_midback(charpos):
     ease 0.5 xpos (160 - charpos)
 
 
-####################################
-###used to move the portrait in from offscreen
-###charpos is the portrait's "_xPostion" value from avg_role.json 
+#####################################################################
+### used to move the portrait in from offscreen
+### charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r_entrance(charpos):
     reset
@@ -128,8 +127,8 @@ transform l_entrance(charpos):
     ease 0.5 xpos (160 - charpos)
 
 
-############################
-###there is ONE scene where entrance and midback are used at the same time
+#####################################################################
+### there is ONE scene where entrance and midback are used at the same time
 
 transform r_entrance_midback(charpos):
     reset
@@ -156,9 +155,9 @@ transform l_entrance_midback(charpos):
     ease 0.5 xpos (160 - charpos)
 
 
-####################################
-###used to move portraits off screen
-###charpos is the portrait's "_xPostion" value from avg_role.json 
+#####################################################################
+### used to move portraits off screen
+### charpos is the portrait's "_xPostion" value from avg_role.json 
 
 transform r_exit(charpos):
     reset
@@ -177,8 +176,8 @@ transform l_exit(charpos):
     ease .5 xpos -0.50
 
 
-####################################
-###there is ONE scene where midback and exit are used at the same time
+#####################################################################
+### there is ONE scene where midback and exit are used at the same time
 
 transform r_exit_midback(charpos):
     reset
@@ -204,9 +203,9 @@ transform l_exit_midback(charpos):
     pause 0.5
     ease .5 xpos -0.50
 
-####################################
-###midpos placeholder transforms
-###there are references to them in cutscene files but they do not do anything
+#####################################################################
+### midpos placeholder transforms
+### there are references to them in cutscene files but they do not do anything
 
 #placeholder so it doesn't crash 
 #(these effects shouldn't be used on mid position hopefully)
