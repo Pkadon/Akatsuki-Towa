@@ -4,7 +4,7 @@ stop music
 scene avg_bg_036
 show oc003_01 9 as p3 at mid(-6), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfxvoice "avg_vocal_ro15.ogg"
 c33 '[textdict[1128262]]'
 hide p3

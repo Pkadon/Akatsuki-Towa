@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 c0 '[textdict[1006678]]'
 show sc052_01 4 as p59 at l_entrance(-25), light, flip, zorder 6
 play sfx2 "other_7050.ogg"

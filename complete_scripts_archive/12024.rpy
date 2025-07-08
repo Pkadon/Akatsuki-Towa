@@ -5,7 +5,7 @@ play music "ed7161.ogg"
 scene placeholderbackground
 show sc049_01 1 as p56 at l(-8), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 c561 '[textdict[1120015]]'
 scene avg_bg_023
 show sc050_01 3 as p57 at r(-19), light, zorder 5

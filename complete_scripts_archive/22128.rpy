@@ -4,7 +4,7 @@ stop music
 scene avg_bg_036
 show oc001_01 2 as p1 at mid(-2), light, zorder 5
 window show
-with fade_out
+with fade_in
 c13 '[textdict[1128253]]'
 hide p1
 show oc002_01 4 as p2 at mid(-3), light, zorder 5

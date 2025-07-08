@@ -4,7 +4,7 @@ stop music
 play music "ed7514.ogg"
 scene avg_bg_070
 window show
-with fade_out
+with fade_in
 c0 '[textdict[1202875]]'
 c0 '[textdict[1202876]]'
 scene avg_bg_001

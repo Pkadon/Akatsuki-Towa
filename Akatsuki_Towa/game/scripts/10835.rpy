@@ -5,7 +5,7 @@ play music "ed7513.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
 window show
-with fade_out
+with fade_in
 c0 '[textdict[1187229]]'
 c0 '[textdict[1187230]]'
 c0 '[textdict[1187231]]'

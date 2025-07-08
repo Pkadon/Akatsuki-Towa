@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7080.ogg"
 c0 '[textdict[1210843]]'
 c6123 '[textdict[1210844]]'

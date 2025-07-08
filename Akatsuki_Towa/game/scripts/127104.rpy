@@ -4,7 +4,7 @@ stop music
 play music "ed7120.ogg"
 scene avg_bg_215
 window show
-with fade_out
+with fade_in
 show oc002_01 14 as p2 at l_entrance(-3), light, flip, zorder 6
 c21 '[textdict[1178427]]'
 hide p2

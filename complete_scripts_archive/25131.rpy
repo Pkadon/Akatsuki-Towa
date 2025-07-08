@@ -4,7 +4,7 @@ stop music
 scene placeholderbackground
 show uc002_01 2 as p2012 at mid(2), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7088.ogg"
 c20123 '[textdict[1210391]]'
 hide p2012

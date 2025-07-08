@@ -3,6 +3,6 @@ stop music
 
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 c7543 '[textdict[1200251]]'
 return

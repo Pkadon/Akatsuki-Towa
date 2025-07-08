@@ -5,7 +5,7 @@ play music "ed7151.ogg"
 scene placeholderbackground
 show uc003_04 1 as p1045 at l(-14), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 show uc003_04 1 as p1045 at l(-14), l_shake, light, flip, zorder 6
 play sfx2 "other_7057.ogg"
 c10451 '[textdict[1142604]]'

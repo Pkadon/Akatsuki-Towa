@@ -3,7 +3,7 @@ stop music
 
 scene avg_bg_071
 window show
-with fade_out
+with fade_in
 show oc001_01 4 as p1 at l_entrance(-2), light, flip, zorder 6
 play sfxvoice "avg_vocal_na10.ogg"
 c11 '[textdict[1006633]]'

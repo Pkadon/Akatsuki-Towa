@@ -5,7 +5,7 @@ play music "ed7516.ogg"
 scene placeholderbackground
 show oc002_01 17 as p2 at l(-3), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 play sfx2 "common_select.ogg"
 play sfxvoice "avg_vocal_ch21.ogg"
 c21 '[textdict[1141537]]'

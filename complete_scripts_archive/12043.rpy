@@ -5,7 +5,7 @@ play music "ed7117.ogg"
 scene avg_bg_017
 show uc002_01 3 as p5001 at r(2), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7057.ogg"
 c50013 '[textdict[1121378]]'
 hide p5001

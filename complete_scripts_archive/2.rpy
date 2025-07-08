@@ -4,7 +4,7 @@ stop music
 play music "ed7519.ogg"
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 c7221 '[textdict[1120015]]'
 scene avg_bg_023
 show uc001_01 3 as p244 at l(-2), light, flip, zorder 6

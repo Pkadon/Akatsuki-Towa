@@ -3,7 +3,7 @@ stop music
 
 scene avg_bg_023
 window show
-with fade_out
+with fade_in
 c6891 '[textdict[1121120]]'
 play music "ed7519.ogg"
 show sc032_01 3 as p40 at l(-17), light, flip, zorder 6

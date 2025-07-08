@@ -4,7 +4,7 @@ stop music
 play music "ed7102.ogg"
 scene avg_bg_043
 window show
-with fade_out
+with fade_in
 show scc45_01 4 as p2630 at r_entrance(-11), light, zorder 5
 c26303 '[textdict[2107241]]'
 hide p2630

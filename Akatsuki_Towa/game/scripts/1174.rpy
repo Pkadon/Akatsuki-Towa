@@ -3,7 +3,7 @@ stop music
 
 scene avg_bg_030
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7088.ogg"
 c0 '[textdict[2105631]]'
 show sc039_01 1 as p46 at l(-13), light, flip, zorder 6

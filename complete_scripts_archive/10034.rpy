@@ -4,7 +4,7 @@ stop music
 scene avg_bg_027
 show oc001_01 9 as p1 at r(-2), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfx2 "common_correct.ogg"
 c13 '[textdict[1003009]]'
 hide p1

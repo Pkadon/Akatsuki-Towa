@@ -4,7 +4,7 @@ stop music
 play music "ed7202.ogg"
 scene avg_bg_036
 window show
-with fade_out
+with fade_in
 show oc001_01 3 as p1 at r_entrance(-2), light, zorder 5
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[2102070]]'

@@ -5,7 +5,7 @@ play music "ed7518.ogg"
 scene avg_bg_059
 show oc001_01 7 as p1 at r(-2), light, zorder 5
 window show
-with fade_out
+with fade_in
 show oc001_01 7 as p1 at r(-2), r_shake, light, zorder 5
 play sfx2 "fight_6010.ogg"
 play sfxvoice "avg_vocal_na02.ogg"

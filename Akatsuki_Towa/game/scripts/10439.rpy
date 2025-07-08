@@ -5,7 +5,7 @@ play music "ed7544.ogg"
 scene placeholderbackground
 show oc001_01 2 as p1 at r(-2), light, zorder 5
 window show
-with fade_out
+with fade_in
 show oc001_01 2 as p1 at r(-2), r_shake, light, zorder 5
 c13 '[textdict[1141559]]'
 hide p1

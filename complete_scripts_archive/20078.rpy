@@ -5,7 +5,7 @@ play music "ed7105.ogg"
 scene avg_bg_045
 show oc004_01 2 as p4 at l(-5), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 c41 '[textdict[1004000]]'
 hide p4
 show oc004_01 2 as p4 at l(-5), dark, flip, zorder 6

@@ -5,7 +5,7 @@ play music "ed7103.ogg"
 scene avg_bg_023
 show oc002_01 12 as p2 at l(-3), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 play sfxvoice "avg_vocal_ch11.ogg"
 c21 '[textdict[1140266]]'
 hide p2

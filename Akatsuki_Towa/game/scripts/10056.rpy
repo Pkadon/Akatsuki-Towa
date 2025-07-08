@@ -4,7 +4,7 @@ stop music
 play music "ed7106.ogg"
 scene avg_bg_033
 window show
-with fade_out
+with fade_in
 show oc001_01 12 as p1 at r_entrance(-2), light, zorder 5
 play sfx2 "other_7046.ogg"
 play sfxvoice "avg_vocal_na21.ogg"

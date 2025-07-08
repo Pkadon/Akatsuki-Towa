@@ -5,7 +5,7 @@ play music "ed7300.ogg"
 scene placeholderbackground
 show oc002_01 3 as p2 at l(-3), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 show oc002_01 3 as p2 at l(-3), l_shake, light, flip, zorder 6
 play sfx2 "fight_6019.ogg"
 play sfxvoice "avg_vocal_ch15.ogg"

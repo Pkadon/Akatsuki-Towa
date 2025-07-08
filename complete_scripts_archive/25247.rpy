@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7088.ogg"
 c20183 '[textdict[1210896]]'
 show oc002_01 9 as p2 at mid(-3), light, zorder 5

@@ -141,7 +141,7 @@ class GameState:
 		if self.first_fade == True:
 			self.add_line(
 				'window show\n'
-				'with fade_out\n'
+				'with fade_in\n'
 				)
 			self.first_fade = False
 			

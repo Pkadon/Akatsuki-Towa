@@ -4,7 +4,7 @@ stop music
 play music "ed7150.ogg"
 scene avg_bg_019
 window show
-with fade_out
+with fade_in
 c0 '[textdict[1143199]]'
 c5051 '[textdict[1143200]]' (what_size=(gui.text_size*1.2)) with shake
 show oc001_01 12 as p1 at r(-2), r_shake, light, zorder 5

@@ -4,7 +4,7 @@ stop music
 play music "ed7126.ogg"
 scene avg_bg_074
 window show
-with fade_out
+with fade_in
 show st030_01 1 as p229 at l_entrance(-8), light, flip, zorder 6
 play sfx2 "other_7044.ogg"
 c2291 '[textdict[1130199]]'

@@ -4,7 +4,7 @@ stop music
 scene placeholderbackground
 show uc001_01 2 as p2022 at mid(-2), light, zorder 5
 window show
-with fade_out
+with fade_in
 c20223 '[textdict[1210663]]'
 menu:
     extend ""

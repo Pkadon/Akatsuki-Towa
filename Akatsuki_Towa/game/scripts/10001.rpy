@@ -5,7 +5,7 @@ play music "ED6516.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_roi01.ogg"
 c5001 '[textdict[1002967]]' (what_size=(gui.text_size*1.5)) with shake

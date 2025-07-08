@@ -5,7 +5,7 @@ play music "ED6200.ogg"
 scene placeholderbackground
 show oc007_01 5 as p7 at r(-24), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfxvoice "avg_vocal_ar06.ogg"
 c73 '[textdict[1128310]]'
 hide p7

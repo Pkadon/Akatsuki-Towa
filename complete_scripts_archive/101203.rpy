@@ -4,7 +4,7 @@ stop music
 scene placeholderbackground
 show sc004_01 1 as p12 at mid(-12), light, zorder 5
 window show
-with fade_out
+with fade_in
 c123 '[textdict[1220662]]'
 hide p12
 show oc001_01 11 as p1 at mid(-2), light, zorder 5

@@ -5,7 +5,7 @@ play music "ed7571.ogg"
 scene avg_bg_077
 show oc008_01 3 as p8 at l(-5), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7007.ogg"
 c81 '[textdict[1171150]]'
 hide p8

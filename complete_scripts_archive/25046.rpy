@@ -4,7 +4,7 @@ stop music
 scene placeholderbackground
 show uc001_02 1 as p2001 at mid(6), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfx2 "common_sephi2.ogg"
 c20013 '[textdict[1210119]]'
 return

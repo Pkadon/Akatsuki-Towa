@@ -5,7 +5,7 @@ play music "ed7123.ogg"
 scene avg_bg_040
 show st036_01 2 as p235 at r(-17), light, zorder 5
 window show
-with fade_out
+with fade_in
 play sfx2 "other_7047.ogg"
 c2353 '[textdict[1130507]]'
 hide p235

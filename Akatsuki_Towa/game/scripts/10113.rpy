@@ -5,7 +5,7 @@ play music "ed7103.ogg"
 scene avg_bg_031
 show st037_01 1 as p236 at l(-10), light, flip, zorder 6
 window show
-with fade_out
+with fade_in
 c2361 '[textdict[1006258]]'
 hide p236
 show sc044_01 1 as p51 at l(-7), light, flip, zorder 6

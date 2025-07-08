@@ -5,7 +5,7 @@ play music "ED6300.ogg"
 scene placeholderbackground
 show oc004_01 4 as p4 at r(-5), light, zorder 5
 window show
-with fade_out
+with fade_in
 c43 '[textdict[1150483]]'
 hide p4
 show oc004_01 4 as p4 at r(-5), dark, zorder 5

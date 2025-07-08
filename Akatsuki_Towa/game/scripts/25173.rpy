@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 c20133 '[textdict[1210555]]'
 menu:
     extend ""

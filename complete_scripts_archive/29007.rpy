@@ -3,7 +3,7 @@ stop music
 
 scene placeholderbackground
 window show
-with fade_out
+with fade_in
 c0 '[textdict[1216042]]'
 c0 '[textdict[1216043]]'
 c0 '[textdict[1216044]]'
