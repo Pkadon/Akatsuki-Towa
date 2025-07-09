@@ -68,10 +68,8 @@ with fade
 c31 '[textdict[1128467]]'
 $ update_portrait('oc003_01 3', 'p3', [l(-6), dark, flip], 6)
 c9643 '[textdict[1128468]]'
-hide p3
 $ update_portrait('oc003_01 7', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1128469]]'
-hide p3
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1128470]]'
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)

@@ -39,7 +39,6 @@ $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c14291 '[textdict[1171273]]'
 $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c14291 '[textdict[1171274]]'
-hide p2
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1171275]]'
 $ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
@@ -54,7 +53,6 @@ $ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 9', 'p2', [r_exit(-3), light], 5)
 c23 '[textdict[1171279]]'
 hide p2
-hide p5
 $ update_portrait('oc005_01 7', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171280]]'
 scene avg_bg_207
@@ -66,7 +64,6 @@ $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c14301 '[textdict[1171283]]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c14301 '[textdict[1171284]]'
-hide p2
 $ update_portrait('oc002_01 14', 'p2', [r(-3), light], 5)
 c23 '[textdict[1171285]]'
 $ update_portrait('oc002_01 14', 'p2', [r(-3), dark], 5)
@@ -85,16 +82,13 @@ $ update_portrait('oc005_01 1', 'p5', [r(-6), dark], 5)
 c14301 '[textdict[1171293]]'
 $ update_portrait('oc005_01 1', 'p5', [r(-6), dark], 5)
 c14301 '[textdict[1171294]]'
-hide p5
 $ update_portrait('oc005_01 13', 'p5', [r(-6), light], 5)
 c53 '[textdict[1171295]]'
-hide p5
 $ update_portrait('oc005_01 4', 'p5', [r(-6), light], 5)
 c53 '[textdict[1171296]]'
 $ update_portrait('oc005_01 4', 'p5', [r(-6), dark], 5)
 $ update_portrait('oc002_01 17', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1171297]]'
-hide p2
 $ update_portrait('oc005_01 4', 'p5', [r(-6), dark], 5)
 $ update_portrait('oc002_01 4', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1171298]]'

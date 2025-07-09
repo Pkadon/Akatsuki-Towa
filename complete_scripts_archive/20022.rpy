@@ -19,10 +19,8 @@ c503 '[textdict[1001638]]'
 hide p50
 $ update_portrait('st004_01 2', 'p204', [mid(4), light], 5)
 c2043 '[textdict[1001641]]'
-hide p204
 $ update_portrait('st004_01 5', 'p204', [mid(4), light], 5)
 c2043 '[textdict[1001642]]'
-hide p204
 $ update_portrait('st004_01 1', 'p204', [mid(4), light], 5)
 c2043 '[textdict[1001643]]'
 hide p204

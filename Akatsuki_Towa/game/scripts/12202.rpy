@@ -30,7 +30,6 @@ hide p2
 $ update_portrait('st026_01 4', 'p225', [r(-14), dark], 5)
 $ update_portrait('sc039_01 2', 'p46', [l(-13), light, flip], 6)
 c461 '[textdict[1128674]]'
-hide p225
 $ update_portrait('sc039_01 2', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('st026_01 4', 'p225', [r(-14), light], 5)
 c2253 '[textdict[1128675]]'
@@ -39,11 +38,9 @@ $ update_portrait('st026_01 4', 'p225', [r(-14), dark], 5)
 $ update_portrait('oc001_01 1', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na16.ogg"
 c11 '[textdict[1128676]]'
-hide p225
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('st026_01 1', 'p225', [r(-14), light], 5)
 c2253 '[textdict[1128677]]'
-hide p225
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('st026_01 1', 'p225', [r(-14), light], 5)
 c2253 '[textdict[1128678]]'

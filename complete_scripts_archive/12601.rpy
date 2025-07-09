@@ -12,7 +12,6 @@ $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1161119]]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c12321 '[textdict[1161120]]'
-hide p2
 $ update_portrait('oc002_01 12', 'p2', [r(-3), r_shake, light], 5)
 play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1161121]]'

@@ -13,7 +13,6 @@ c6871 '[textdict[1120915]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7004.ogg"
 c6871 '[textdict[1120916]]'
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120917]]'
 hide p1
@@ -41,7 +40,6 @@ c6871 '[textdict[1120920]]'
 hide p47
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120921]]'
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120922]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)

@@ -47,25 +47,20 @@ scene avg_bg_078
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 with fade
 c13493 '[textdict[1182192]]'
-hide p1349
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182193]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182194]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182195]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182196]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182197]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182198]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182199]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182200]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
@@ -78,7 +73,6 @@ $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182204]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182205]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182206]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
@@ -87,12 +81,10 @@ $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182208]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182209]]'
-hide p1349
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182210]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182211]]'
-hide p1349
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182212]]'
 return

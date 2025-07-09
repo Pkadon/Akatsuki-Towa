@@ -10,27 +10,22 @@ $ update_portrait('st033_01 2', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004492]]'
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004493]]'
-hide p232
 $ update_portrait('st033_01 4', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004494]]'
-hide p232
 $ update_portrait('st033_01 3', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004495]]'
 $ update_portrait('st033_01 3', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004496]]'
-hide p232
 $ update_portrait('st033_01 2', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004497]]'
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004498]]'
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004499]]'
-hide p232
 $ update_portrait('st033_01 3', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004500]]'
 $ update_portrait('st033_01 3', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004501]]'
-hide p232
 $ update_portrait('st033_01 3', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004502]]'
 hide p232

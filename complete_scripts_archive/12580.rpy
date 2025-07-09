@@ -22,7 +22,6 @@ hide p1
 $ update_portrait('sc021_01 1', 'p29', [l(-17), dark, flip], 6)
 $ update_portrait('oc004_01 20', 'p4', [r(-5), light], 5)
 c43 '[textdict[1155392]]'
-hide p29
 $ update_portrait('oc004_01 20', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc021_01 1', 'p29', [l(-17), light, flip], 6)
 c291 '[textdict[1155393]]'

@@ -10,7 +10,6 @@ c10433 '[textdict[1132231]]'
 hide p1043
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132232]]'
-hide p1
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132233]]'
 hide p1
@@ -19,7 +18,6 @@ c23 '[textdict[1132234]]'
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('st040_01 6', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132235]]'
-hide p1043
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('st040_01 1', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132236]]'
@@ -32,7 +30,6 @@ c10431 '[textdict[1132239]]'
 $ update_portrait('st040_01 5', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc004_01 2', 'p4', [r(-5), light], 5)
 c43 '[textdict[1132240]]'
-hide p1043
 $ update_portrait('oc004_01 2', 'p4', [r(-5), dark], 5)
 $ update_portrait('st040_01 6', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132241]]'
@@ -40,11 +37,9 @@ hide p4
 $ update_portrait('st040_01 6', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 7', 'p3', [r(-6), light], 5)
 c33 '[textdict[1132242]]'
-hide p1043
 $ update_portrait('oc003_01 7', 'p3', [r(-6), dark], 5)
 $ update_portrait('st040_01 5', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132243]]'
-hide p1043
 $ update_portrait('oc003_01 7', 'p3', [r(-6), dark], 5)
 $ update_portrait('st040_01 1', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132244]]'
@@ -52,15 +47,12 @@ hide p3
 $ update_portrait('st040_01 1', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1132245]]'
-hide p1043
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('st040_01 5', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132246]]'
-hide p2
 $ update_portrait('st040_01 5', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc002_01 11', 'p2', [r(-3), light], 5)
 c23 '[textdict[1132247]]'
-hide p1043
 $ update_portrait('oc002_01 11', 'p2', [r(-3), dark], 5)
 $ update_portrait('st040_01 1', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132248]]'
@@ -68,47 +60,36 @@ hide p2
 $ update_portrait('st040_01 1', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132249]]'
-hide p1043
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 6', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132250]]'
-hide p1
 $ update_portrait('st040_01 6', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132251]]'
-hide p1043
 $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 5', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132252]]'
-hide p1
 $ update_portrait('st040_01 5', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132253]]'
-hide p1043
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 1', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132254]]'
-hide p1043
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 6', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132255]]'
-hide p1
 $ update_portrait('st040_01 6', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132256]]'
-hide p1043
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 3', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132257]]'
-hide p1043
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 4', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132258]]'
-hide p1043
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 1', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1132261]]'
-hide p1
 $ update_portrait('st040_01 1', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132262]]'

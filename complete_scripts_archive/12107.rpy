@@ -23,7 +23,6 @@ play sfx2 "other_7004.ogg"
 c0 '[textdict[1128032]]'
 $ update_portrait('oc002_01 8', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1128034]]'
-hide p2
 $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "bcv_oc002_c02_01.ogg"
 c21 '[textdict[1128035]]'

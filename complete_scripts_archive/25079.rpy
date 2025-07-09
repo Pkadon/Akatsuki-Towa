@@ -11,7 +11,6 @@ c23 '[textdict[1210235]]'
 hide p2
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1210236]]'
-hide p1
 $ update_portrait('oc001_01 5', 'p1', [mid(-2), light], 5)
 play sfx2 "common_36rewardsp.ogg"
 play sfxvoice "avg_vocal_na19.ogg"

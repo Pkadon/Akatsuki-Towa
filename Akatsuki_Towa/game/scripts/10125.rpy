@@ -30,7 +30,6 @@ hide p2
 $ update_portrait('oc001_01 3', 'p1', [r(-2), dark], 5)
 $ update_portrait('st000_01 4', 'p504', [l(-9), l_shake, light, flip], 6)
 c5041 '[textdict[1000311]]' (what_size=(gui.text_size*1.1))
-hide p1
 $ update_portrait('st000_01 4', 'p504', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1000312]]'
@@ -39,7 +38,6 @@ hide p1
 $ update_portrait('st001_01 3', 'p201', [l(-15), light, flip], 6)
 with fade
 c2011 '[textdict[1000313]]'
-hide p201
 $ update_portrait('st001_01 4', 'p201', [l(-15), l_shake, light, flip], 6)
 c2011 '[textdict[1000314]]'
 $ update_portrait('st001_01 4', 'p201', [l(-15), dark, flip], 6)
@@ -57,11 +55,9 @@ c21 '[textdict[1000317]]'
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 5)
 c13 '[textdict[1000318]]'
-hide p2
 $ update_portrait('oc001_01 3', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 15', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1000319]]'
-hide p1
 $ update_portrait('oc002_01 15', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1000320]]'
@@ -73,11 +69,9 @@ hide p504
 $ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1000322]]'
-hide p1
 $ update_portrait('oc002_01 9', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
 c13 '[textdict[1000323]]'
-hide p2
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 21', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1000324]]'
@@ -103,7 +97,6 @@ $ update_portrait('st000_01 3', 'p504', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 15', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na07.ogg"
 c13 '[textdict[1000329]]'
-hide p1
 $ update_portrait('st000_01 3', 'p504', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
 c13 '[textdict[1000330]]'

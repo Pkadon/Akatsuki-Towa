@@ -10,11 +10,9 @@ c11 '[textdict[1005009]]'
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('sc015_01 1', 'p693', [r_entrance(9), light], 5)
 c6933 '[textdict[1005010]]'
-hide p693
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('sc015_01 1', 'p693', [r(9), light], 5)
 c6933 '[textdict[1005011]]'
-hide p1
 $ update_portrait('sc015_01 1', 'p693', [r(9), dark], 5)
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na21.ogg"
@@ -23,15 +21,12 @@ hide p693
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('sc015_01 1', 'p23', [r(9), light], 5)
 c233 '[textdict[1005014]]'
-hide p1
 $ update_portrait('sc015_01 1', 'p23', [r(9), dark], 5)
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1005015]]'
-hide p1
 $ update_portrait('sc015_01 1', 'p23', [r(9), dark], 5)
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1005016]]'
-hide p23
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('sc015_01 1', 'p23', [r(9), light], 5)
 c233 '[textdict[1005017]]'
@@ -39,11 +34,9 @@ hide p1
 $ update_portrait('sc015_01 1', 'p23', [r(9), dark], 5)
 $ update_portrait('sc007_01 2', 'p15', [l(-17), light, flip], 6)
 c151 '[textdict[1005018]]'
-hide p23
 $ update_portrait('sc007_01 2', 'p15', [l(-17), dark, flip], 6)
 $ update_portrait('sc015_01 1', 'p23', [r(9), light], 5)
 c233 '[textdict[1005019]]'
-hide p15
 $ update_portrait('sc015_01 1', 'p23', [r(9), dark], 5)
 $ update_portrait('sc007_01 1', 'p15', [l(-17), light, flip], 6)
 c151 '[textdict[1005020]]'
@@ -52,10 +45,8 @@ hide p23
 c0 '[textdict[1005021]]'
 $ update_portrait('sc015_01 2', 'p23', [l(9), light, flip], 6)
 c231 '[textdict[1005022]]'
-hide p23
 $ update_portrait('sc015_01 1', 'p23', [l(9), light, flip], 6)
 c231 '[textdict[1005023]]'
-hide p23
 $ update_portrait('sc015_01 1', 'p23', [l(9), light, flip], 6)
 c231 '[textdict[1005024]]'
 $ update_portrait('sc015_01 1', 'p23', [l(9), dark, flip], 6)

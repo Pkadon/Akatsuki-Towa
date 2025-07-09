@@ -7,7 +7,6 @@ window show
 with fade_in
 $ update_portrait('oc004_01 4', 'p4', [r_entrance(-5), light], 5)
 c43 '[textdict[1141497]]'
-hide p4
 $ update_portrait('oc004_01 11', 'p4', [r(-5), light], 5)
 c43 '[textdict[1141498]]'
 $ update_portrait('oc004_01 11', 'p4', [r(-5), dark], 5)
@@ -27,7 +26,6 @@ hide p2
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r_entrance(-2), light], 5)
 c13 '[textdict[1141502]]'
-hide p3
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1141503]]'

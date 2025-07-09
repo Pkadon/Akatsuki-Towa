@@ -31,7 +31,6 @@ c13 '[textdict[1000312]]'
 hide p1
 $ update_portrait('st001_01 2', 'p201', [mid(-15), light], 5)
 c2013 '[textdict[1000313]]'
-hide p201
 $ update_portrait('st001_01 4', 'p201', [mid(-15), light], 5)
 c2013 '[textdict[1000314]]'
 hide p201
@@ -86,7 +85,6 @@ hide p504
 $ update_portrait('oc001_01 15', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na08.ogg"
 c13 '[textdict[1000329]]'
-hide p1
 $ update_portrait('oc001_01 9', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000330]]'
 hide p1

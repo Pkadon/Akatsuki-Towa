@@ -34,7 +34,6 @@ $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1002811]]'
 play music "ed7511.ogg"
-hide p1
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 play sfx2 "other_7085.ogg"
@@ -69,7 +68,6 @@ $ update_portrait('oc004_01 2', 'p4', [r(-5), light], 5)
 c43 '[textdict[1002823]]'
 $ update_portrait('oc004_01 2', 'p4', [r(-5), dark], 5)
 c5991 '[textdict[1002824]]'
-hide p4
 $ update_portrait('oc004_01 2', 'p4', [r(-5), light], 5)
 c43 '[textdict[1002825]]'
 $ update_portrait('oc004_01 2', 'p4', [r(-5), dark], 5)
@@ -80,7 +78,6 @@ $ update_portrait('oc004_01 2', 'p4', [r(-5), dark], 5)
 c5991 '[textdict[1002828]]'
 $ update_portrait('oc004_01 2', 'p4', [r(-5), dark], 5)
 c5991 '[textdict[1002829]]'
-hide p4
 $ update_portrait('oc004_01 9', 'p4', [r(-5), light], 5)
 play sfxvoice "avg_vocal_li05.ogg"
 c43 '[textdict[1002830]]'

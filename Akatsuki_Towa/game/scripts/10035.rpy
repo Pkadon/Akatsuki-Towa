@@ -27,7 +27,6 @@ $ update_portrait('sc001_01 4', 'p603', [r_entrance_midback(-11), light], 5)
 play sfx2 "fight_6023.ogg"
 play sfxvoice "ed7v0659.ogg"
 c6033 '[textdict[1003034]]'
-hide p603
 $ update_portrait('sc001_01 4', 'p603', [r(-11), light], 5)
 play sfx2 "fight_6020.ogg"
 c6033 '[textdict[1003035]]'
@@ -36,7 +35,6 @@ $ update_portrait('sc002_01 4', 'p604', [l_entrance(-12), light, flip], 6)
 play sfx2 "other_7085.ogg"
 play sfxvoice "ed7v0759.ogg"
 c6041 '[textdict[1003036]]'
-hide p604
 $ update_portrait('sc001_01 4', 'p603', [r(-11), dark], 5)
 $ update_portrait('sc002_01 4', 'p604', [l_midback(-12), light, flip], 6)
 play sfx2 "fight_6022.ogg"
@@ -47,7 +45,6 @@ $ update_portrait('sc001_01 4', 'p603', [r(-11), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 play sfx2 "elc_5007.ogg"
 c21 '[textdict[1003038]]'
-hide p603
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('sc001_01 5', 'p603', [r(-11), light], 5)
 c6033 '[textdict[1003039]]'

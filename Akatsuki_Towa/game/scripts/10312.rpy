@@ -26,15 +26,12 @@ hide p3
 $ update_portrait('st053_01 2', 'p1007', [r(-12), dark], 5)
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1130307]]'
-hide p1007
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('st053_01 4', 'p1007', [r(-12), light], 5)
 c10073 '[textdict[1130308]]'
-hide p1007
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('st053_01 1', 'p1007', [r(-12), light], 5)
 c10073 '[textdict[1130309]]'
-hide p1007
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('st053_01 1', 'p1007', [r(-12), light], 5)
 c10073 '[textdict[1130310]]'

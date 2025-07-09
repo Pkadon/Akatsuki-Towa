@@ -12,21 +12,17 @@ scene avg_bg_050
 with fade
 $ update_portrait('oc001_01 4', 'p1', [r_entrance(-2), light], 5)
 c13 '[textdict[1171907]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171908]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1171909]]'
-hide p1
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171910]]'
-hide p3
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1171911]]'
-hide p1
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171912]]'
@@ -54,7 +50,6 @@ c14371 '[textdict[1171921]]'
 hide p3
 $ update_portrait('oc001_01 22', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171922]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171923]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
@@ -66,14 +61,12 @@ $ update_portrait('oc003_01 16', 'p3', [r(-6), light], 5)
 c33 '[textdict[1171926]]'
 $ update_portrait('oc003_01 16', 'p3', [r(-6), dark], 5)
 c14371 '[textdict[1171927]]'
-hide p3
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1171928]]'
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 c14371 '[textdict[1171929]]'
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 c14371 '[textdict[1171930]]'
-hide p3
 $ update_portrait('oc003_01 1', 'p3', [r(-6), light], 5)
 c33 '[textdict[1171931]]'
 $ update_portrait('oc003_01 1', 'p3', [r(-6), dark], 5)
@@ -81,7 +74,6 @@ c14361 '[textdict[1171932]]'
 hide p3
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171933]]'
-hide p1
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1171934]]'
 $ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)

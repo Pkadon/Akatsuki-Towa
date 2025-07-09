@@ -11,11 +11,9 @@ c4973 '[textdict[1002977]]'
 c4973 '[textdict[1002978]]'
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1002979]]'
-hide p1
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 5)
 play sfx2 "other_7073.ogg"
 c13 '[textdict[1002980]]'
-hide p1
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1002981]]'
 return

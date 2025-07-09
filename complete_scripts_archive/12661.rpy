@@ -47,10 +47,8 @@ $ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 c13371 '[textdict[1166453]]'
 $ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 c13371 '[textdict[1166454]]'
-hide p2
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1166455]]'
-hide p2
 $ update_portrait('oc002_01 8', 'p2', [r(-3), light], 5)
 c23 '[textdict[1166456]]'
 $ update_portrait('oc002_01 8', 'p2', [r(-3), dark], 5)
@@ -65,19 +63,15 @@ c33 '[textdict[1166459]]'
 $ update_portrait('oc003_01 1', 'p3', [r(-6), dark], 5)
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1166460]]'
-hide p3
 $ update_portrait('st061_01 1', 'p1304', [l(-2), dark, flip], 6)
 $ update_portrait('oc003_01 12', 'p3', [r(-6), light], 5)
 c33 '[textdict[1166461]]'
-hide p1304
 $ update_portrait('oc003_01 12', 'p3', [r(-6), dark], 5)
 $ update_portrait('st061_01 5', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1166462]]'
-hide p1304
 $ update_portrait('oc003_01 12', 'p3', [r(-6), dark], 5)
 $ update_portrait('st061_01 4', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1166463]]'
-hide p1304
 $ update_portrait('oc003_01 12', 'p3', [r(-6), dark], 5)
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1166464]]'
@@ -85,11 +79,9 @@ hide p3
 $ update_portrait('st061_01 1', 'p1304', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1166465]]'
-hide p1304
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1166466]]'
-hide p1304
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('st061_01 5', 'p1304', [l_exit(-2), light, flip], 6)
 c13041 '[textdict[1166467]]'
@@ -103,7 +95,6 @@ c13041 '[textdict[1166469]]'
 hide p1304
 $ update_portrait('oc003_01 12', 'p3', [r(-6), dark], 5)
 c13371 '[textdict[1166470]]'
-hide p3
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
 c33 '[textdict[1166471]]'
 $ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)

@@ -8,11 +8,9 @@ window show
 with fade_in
 play sfx2 "other_7017.ogg"
 c13 '[textdict[1001028]]'
-hide p1
 $ update_portrait('oc001_01 1', 'p1', [mid(-2), light], 5)
 play sfx2 "other_7064.ogg"
 c13 '[textdict[1001029]]'
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001030]]'
 hide p1

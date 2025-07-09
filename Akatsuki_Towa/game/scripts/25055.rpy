@@ -6,10 +6,8 @@ $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 5)
 window show
 with fade_in
 c20063 '[textdict[1210156]]'
-hide p2006
 $ update_portrait('uc001_02 2', 'p2006', [mid(6), light], 5)
 c20063 '[textdict[1210157]]'
-hide p2006
 $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 5)
 c20063 '[textdict[1210158]]'
 hide p2006

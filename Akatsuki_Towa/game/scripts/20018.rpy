@@ -8,7 +8,6 @@ window show
 with fade_in
 play sfx2 "other_7088.ogg"
 c13 '[textdict[1001032]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 play sfxvoice "bcv_oc001_com_01.ogg"
 c13 '[textdict[1001033]]'

@@ -8,17 +8,14 @@ with fade_in
 c7401 '[textdict[1151099]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151100]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151101]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1151102]]'
-hide p1
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151103]]'
-hide p1
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151104]]'
@@ -27,7 +24,6 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c7401 '[textdict[1151105]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c10901 '[textdict[1151106]]'
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151107]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)

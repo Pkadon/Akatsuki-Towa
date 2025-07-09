@@ -11,7 +11,6 @@ c23 '[textdict[1166646]]'
 $ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 17', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1166647]]'
-hide p4
 $ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1166648]]'
@@ -21,7 +20,6 @@ $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 play sfx2 "fight_6021.ogg"
 c13 '[textdict[1166649]]'
 play music "ed7511.ogg"
-hide p1
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r_midback(-2), light], 5)
 play sfx2 "other_7087.ogg"

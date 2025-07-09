@@ -6,7 +6,6 @@ $ update_portrait('sc013_01 1', 'p21', [mid(-12), light], 5)
 window show
 with fade_in
 c213 '[textdict[1218848]]'
-hide p21
 $ update_portrait('sc013_01 1', 'p21', [mid(-12), light], 5)
 c213 '[textdict[1218849]]'
 hide p21

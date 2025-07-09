@@ -12,7 +12,6 @@ c10301 '[textdict[1132662]]'
 c10301 '[textdict[1132663]]'
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132664]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132665]]'
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
@@ -22,27 +21,20 @@ $ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 c10301 '[textdict[1132667]]'
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 c10301 '[textdict[1132668]]'
-hide p1051
 $ update_portrait('uc003_04 2', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132669]]'
 $ update_portrait('uc003_04 2', 'p1051', [r(-14), dark], 5)
 c10521 '[textdict[1132670]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132671]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132672]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132673]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132674]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132675]]'
-hide p1051
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132676]]'
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)

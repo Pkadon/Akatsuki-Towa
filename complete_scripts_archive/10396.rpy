@@ -26,7 +26,6 @@ hide p4
 $ update_portrait('sc048_01 4', 'p55', [r(-7), light], 5)
 with fade
 c553 '[textdict[1132685]]'
-hide p55
 $ update_portrait('sc048_01 4', 'p55', [r(-7), light], 5)
 c553 '[textdict[1132686]]'
 $ update_portrait('sc048_01 4', 'p55', [r(-7), dark], 5)
@@ -93,7 +92,6 @@ c10453 '[textdict[1132705]]'
 hide p1045
 $ update_portrait('uc003_04 2', 'p1051', [l(-14), dark, flip], 6)
 c10543 '[textdict[1132706]]'
-hide p1051
 $ update_portrait('uc003_04 3', 'p1051', [l(-14), light, flip], 6)
 c10511 '[textdict[1132707]]'
 hide p1051
@@ -111,7 +109,6 @@ hide p2
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc048_01 4', 'p55', [l_midback(-7), light, flip], 6)
 c551 '[textdict[1132711]]'
-hide p1
 $ update_portrait('sc048_01 4', 'p55', [l(-7), dark, flip], 6)
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
 play sfx2 "fight_6025.ogg"

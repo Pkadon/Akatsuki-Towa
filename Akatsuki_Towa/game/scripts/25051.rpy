@@ -12,7 +12,6 @@ c13 '[textdict[1210141]]'
 hide p1
 $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 5)
 c20063 '[textdict[1210142]]'
-hide p2006
 $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 5)
 c20063 '[textdict[1210143]]'
 menu:

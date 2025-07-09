@@ -7,7 +7,6 @@ $ update_portrait('sc008_01 2', 'p16', [r(-18), light], 5)
 window show
 with fade_in
 c163 '[textdict[1151622]]'
-hide p16
 $ update_portrait('sc008_01 1', 'p16', [r(-18), light], 5)
 c163 '[textdict[1151623]]'
 $ update_portrait('sc008_01 1', 'p16', [r(-18), dark], 5)
@@ -34,11 +33,9 @@ c163 '[textdict[1151628]]'
 $ update_portrait('sc008_01 3', 'p16', [r(-18), dark], 5)
 $ update_portrait('sc028_01 1', 'p36', [l(-7), light, flip], 6)
 c361 '[textdict[1151629]]'
-hide p36
 $ update_portrait('sc008_01 3', 'p16', [r(-18), dark], 5)
 $ update_portrait('sc028_01 1', 'p36', [l(-7), light, flip], 6)
 c361 '[textdict[1151630]]'
-hide p16
 $ update_portrait('sc028_01 1', 'p36', [l(-7), dark, flip], 6)
 $ update_portrait('sc008_01 4', 'p16', [r(-18), light], 5)
 c163 '[textdict[1151631]]'
@@ -54,11 +51,9 @@ c153 '[textdict[1151634]]'
 $ update_portrait('sc007_01 2', 'p15', [r(-17), dark], 5)
 $ update_portrait('sc008_01 3', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1151635]]'
-hide p15
 $ update_portrait('sc008_01 3', 'p16', [l(-18), dark, flip], 6)
 $ update_portrait('sc007_01 2', 'p15', [r(-17), light], 5)
 c153 '[textdict[1151636]]'
-hide p16
 $ update_portrait('sc007_01 2', 'p15', [r(-17), dark], 5)
 $ update_portrait('sc008_01 1', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1151637]]'
@@ -90,7 +85,6 @@ hide p1
 $ update_portrait('sc028_01 2', 'p36', [l(-7), dark, flip], 6)
 $ update_portrait('sc005_01 1', 'p13', [r(-17), light], 5)
 c133 '[textdict[1151644]]'
-hide p36
 $ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 $ update_portrait('sc028_01 4', 'p36', [l(-7), light, flip], 6)
 c361 '[textdict[1151645]]'
@@ -98,7 +92,6 @@ hide p13
 $ update_portrait('sc028_01 4', 'p36', [l(-7), dark, flip], 6)
 $ update_portrait('sc008_01 4', 'p16', [r(-18), light], 5)
 c163 '[textdict[1151646]]'
-hide p36
 $ update_portrait('sc008_01 4', 'p16', [r(-18), dark], 5)
 $ update_portrait('sc028_01 1', 'p36', [l(-7), light, flip], 6)
 c361 '[textdict[1151647]]'
@@ -115,7 +108,6 @@ hide p36
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('st050_01 5', 'p257', [l_entrance(-11), light, flip], 6)
 c2571 '[textdict[1151650]]'
-hide p257
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('st050_01 5', 'p257', [l(-11), light, flip], 6)
 c2571 '[textdict[1151651]]'
@@ -127,11 +119,9 @@ hide p257
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc028_01 1', 'p36', [l(-7), light, flip], 6)
 c361 '[textdict[1151653]]'
-hide p36
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc028_01 4', 'p36', [l(-7), light, flip], 6)
 c361 '[textdict[1151654]]'
-hide p1
 $ update_portrait('sc028_01 4', 'p36', [l(-7), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151655]]'

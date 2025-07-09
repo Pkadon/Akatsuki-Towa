@@ -7,7 +7,6 @@ window show
 with fade_in
 $ update_portrait('sc015_01 1', 'p693', [r_entrance(9), light], 5)
 c6933 '[textdict[1005010]]'
-hide p693
 $ update_portrait('sc015_01 1', 'p693', [r(9), light], 5)
 c6933 '[textdict[1005011]]'
 $ update_portrait('sc015_01 1', 'p693', [r(9), dark], 5)
@@ -21,7 +20,6 @@ hide p693
 $ update_portrait('sc040_01 2', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('sc015_01 1', 'p23', [r(9), light], 5)
 c233 '[textdict[1005028]]'
-hide p47
 $ update_portrait('sc015_01 1', 'p23', [r(9), dark], 5)
 $ update_portrait('sc040_01 6', 'p47', [l(-9), light, flip], 6)
 c471 '[textdict[1005029]]'
@@ -30,7 +28,6 @@ hide p23
 c0 '[textdict[1005030]]'
 $ update_portrait('sc015_01 2', 'p23', [l(9), light, flip], 6)
 c231 '[textdict[1005031]]'
-hide p23
 $ update_portrait('sc015_01 1', 'p23', [l(9), light, flip], 6)
 c231 '[textdict[1005033]]'
 hide p23

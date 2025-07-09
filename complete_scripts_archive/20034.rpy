@@ -28,7 +28,6 @@ c5633 '[textdict[1002268]]'
 $ update_portrait('oc002_01 1', 'p2', [mid(-3), light], 5)
 play sfxvoice "avg_vocal_ch02.ogg"
 c23 '[textdict[1002269]]'
-hide p2
 $ update_portrait('oc002_01 13', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1002270]]'
 hide p2

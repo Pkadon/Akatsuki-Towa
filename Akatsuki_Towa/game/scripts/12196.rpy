@@ -8,12 +8,10 @@ with fade_in
 c0 '[textdict[1120807]]'
 $ update_portrait('st016_01 4', 'p215', [r(-8), light], 5)
 c2153 '[textdict[1120808]]'
-hide p215
 $ update_portrait('st016_01 2', 'p215', [r(-8), light], 5)
 c2153 '[textdict[1120809]]'
 $ update_portrait('st016_01 2', 'p215', [r(-8), dark], 5)
 c9871 '[textdict[1120810]]'
-hide p215
 $ update_portrait('st016_01 1', 'p215', [r(-8), light], 5)
 c2153 '[textdict[1120811]]'
 $ update_portrait('st016_01 1', 'p215', [r(-8), dark], 5)
@@ -53,11 +51,9 @@ hide p217
 $ update_portrait('st016_01 4', 'p215', [r(-8), dark], 5)
 $ update_portrait('oc001_01 17', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120824]]'
-hide p1
 $ update_portrait('st016_01 4', 'p215', [r(-8), dark], 5)
 $ update_portrait('oc001_01 18', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120825]]'
-hide p215
 $ update_portrait('oc001_01 18', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('st016_01 6', 'p215', [r(-8), light], 5)
 c2153 '[textdict[1120826]]'

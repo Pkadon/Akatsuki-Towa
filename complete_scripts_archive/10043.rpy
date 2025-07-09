@@ -20,7 +20,6 @@ hide p543
 $ update_portrait('oc002_01 6', 'p2', [r(-3), dark], 5)
 $ update_portrait('uc002_03 3', 'p544', [l(-23), light, flip], 6)
 c5441 '[textdict[1001671]]'
-hide p2
 $ update_portrait('uc002_03 3', 'p544', [l(-23), dark, flip], 6)
 $ update_portrait('oc002_01 18', 'p2', [r(-3), light], 5)
 c23 '[textdict[1001672]]'
@@ -72,7 +71,6 @@ hide p547
 $ update_portrait('st042_01 5', 'p241', [r(-14), dark], 5)
 $ update_portrait('st043_01 5', 'p242', [l(-17), light, flip], 6)
 c2421 '[textdict[1001684]]'
-hide p241
 $ update_portrait('st043_01 5', 'p242', [l(-17), dark, flip], 6)
 $ update_portrait('st042_01 1', 'p241', [r(-14), light], 5)
 c2413 '[textdict[1001685]]'
@@ -89,11 +87,9 @@ hide p2
 $ update_portrait('oc001_01 8', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc002_03 1', 'p5007', [r(-23), light], 5)
 c50073 '[textdict[1001689]]'
-hide p1
 $ update_portrait('uc002_03 1', 'p5007', [r(-23), dark], 5)
 $ update_portrait('oc001_01 10', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1001690]]'
-hide p1
 $ update_portrait('uc002_03 1', 'p5007', [r(-23), dark], 5)
 $ update_portrait('oc001_01 1', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1003734]]'
@@ -113,23 +109,19 @@ hide p5007
 $ update_portrait('oc004_01 3', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc006_01 2', 'p6', [r(-5), light], 5)
 c63 '[textdict[1003738]]'
-hide p4
 $ update_portrait('oc006_01 2', 'p6', [r(-5), dark], 5)
 $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003739]]'
-hide p4
 $ update_portrait('oc006_01 2', 'p6', [r(-5), dark], 5)
 $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003740]]'
 hide p6
 $ update_portrait('oc004_01 16', 'p4', [l(-5), dark, flip], 6)
 c6433 '[textdict[1003421]]'
-hide p4
 $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003742]]'
 $ update_portrait('oc004_01 16', 'p4', [l(-5), dark, flip], 6)
 c6423 '[textdict[1003743]]'
-hide p4
 $ update_portrait('oc004_01 21', 'p4', [l_midback(-5), light, flip], 6)
 play sfx2 "other_7007.ogg"
 c41 '[textdict[1003744]]'
@@ -152,28 +144,22 @@ c43 '[textdict[1003748]]'
 $ update_portrait('oc004_01 5', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc006_01 1', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1003749]]'
-hide p6
 $ update_portrait('oc004_01 5', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc006_01 1', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1003750]]'
-hide p6
 $ update_portrait('oc004_01 5', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc006_01 1', 'p6', [l(-5), light, flip], 6)
 play sfx2 "other_7004.ogg"
 c61 '[textdict[1003751]]'
-hide p4
 $ update_portrait('oc006_01 1', 'p6', [l(-5), dark, flip], 6)
 $ update_portrait('oc004_01 3', 'p4', [r(-5), r_shake, light], 5)
 c43 '[textdict[1003752]]'
-hide p4
 $ update_portrait('oc006_01 1', 'p6', [l(-5), dark, flip], 6)
 $ update_portrait('oc004_01 10', 'p4', [r(-5), light], 5)
 c43 '[textdict[1003753]]'
-hide p4
 $ update_portrait('oc006_01 1', 'p6', [l(-5), dark, flip], 6)
 $ update_portrait('oc004_01 9', 'p4', [r(-5), light], 5)
 c43 '[textdict[1003754]]'
-hide p4
 $ update_portrait('oc006_01 1', 'p6', [l(-5), dark, flip], 6)
 $ update_portrait('oc004_01 16', 'p4', [r(-5), light], 5)
 c43 '[textdict[1003755]]'
@@ -193,19 +179,15 @@ hide p2
 $ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 2', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003759]]'
-hide p1
 $ update_portrait('oc004_01 2', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1003760]]'
-hide p4
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003761]]'
-hide p4
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 3', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1003762]]'
-hide p1
 $ update_portrait('oc004_01 3', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1003763]]'

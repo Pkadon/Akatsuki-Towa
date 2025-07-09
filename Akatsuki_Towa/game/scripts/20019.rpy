@@ -18,7 +18,6 @@ hide p2
 $ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 5)
 play sfx2 "fight_6010.ogg"
 c13 '[textdict[1001039]]'
-hide p1
 $ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[textdict[1001040]]'
@@ -29,10 +28,8 @@ hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
 play sfx2 "other_7088.ogg"
 c13 '[textdict[1001042]]'
-hide p1
 $ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001043]]'
-hide p1
 $ update_portrait('oc001_01 19', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001044]]'
 hide p1
@@ -44,7 +41,6 @@ c13 '[textdict[1001046]]'
 hide p1
 $ update_portrait('oc002_01 10', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1001047]]'
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1001048]]'
 hide p2
@@ -56,7 +52,6 @@ c23 '[textdict[1001050]]'
 hide p2
 $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001051]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001052]]'
 hide p1
@@ -65,7 +60,6 @@ c23 '[textdict[1001053]]'
 hide p2
 $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001054]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001055]]'
 hide p1
@@ -88,19 +82,14 @@ c23 '[textdict[1001060]]'
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001061]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001062]]'
-hide p1
 $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001063]]'
-hide p1
 $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001064]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001065]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1001066]]'
@@ -123,7 +112,6 @@ c23 '[textdict[1001071]]'
 hide p2
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1001072]]'
-hide p1
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 5)
 play sfx2 "other_7085.ogg"
 play sfxvoice "bcv_oc001_com_01.ogg"

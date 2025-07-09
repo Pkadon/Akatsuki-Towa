@@ -8,7 +8,6 @@ window show
 with fade_in
 play sfx2 "other_7062.ogg"
 c21 '[textdict[1003263]]'
-hide p2
 $ update_portrait('oc002_01 8', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1003264]]'
 $ update_portrait('oc002_01 8', 'p2', [l(-3), dark, flip], 6)
@@ -73,7 +72,6 @@ $ update_portrait('oc003_01 7', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch23.ogg"
 c21 '[textdict[1003285]]'
-hide p2
 $ update_portrait('oc003_01 7', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1003286]]'
@@ -90,7 +88,6 @@ c6101 '[textdict[1003288]]'
 $ update_portrait('st029_01 3', 'p610', [l(-28), dark, flip], 6)
 $ update_portrait('sc071_01 2', 'p611', [r(-20), light], 5)
 c6113 '[textdict[1003289]]'
-hide p610
 $ update_portrait('sc071_01 2', 'p611', [r(-20), dark], 5)
 $ update_portrait('st029_01 2', 'p610', [l(-28), l_shake, light, flip], 6)
 c6101 '[textdict[1003290]]'

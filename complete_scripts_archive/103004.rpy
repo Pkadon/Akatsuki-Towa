@@ -9,19 +9,15 @@ c301 '[textdict[1222419]]'
 $ update_portrait('sc022_01 1', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222420]]'
-hide p30
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 4', 'p30', [l(-9), light, flip], 6)
 c301 '[textdict[1222421]]'
-hide p1
 $ update_portrait('sc022_01 4', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222422]]'
-hide p1
 $ update_portrait('sc022_01 4', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222423]]'
-hide p30
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 5', 'p30', [l(-9), light, flip], 6)
 c301 '[textdict[1222424]]'

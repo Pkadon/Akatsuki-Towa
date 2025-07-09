@@ -19,7 +19,6 @@ c20023 '[textdict[1210134]]'
 hide p2002
 $ update_portrait('uc001_01 1', 'p2003', [mid(-2), light], 5)
 c20033 '[textdict[1210135]]'
-hide p2003
 $ update_portrait('uc001_01 1', 'p2003', [mid(-2), light], 5)
 play sfx2 "common_35rewardholy.ogg"
 c20033 '[textdict[1210136]]'

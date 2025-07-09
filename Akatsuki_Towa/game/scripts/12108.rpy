@@ -10,7 +10,6 @@ play sfx2 "other_7020.ogg"
 c11 '[textdict[1128038]]'
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 c9513 '[textdict[1128039]]'
-hide p1
 $ update_portrait('oc001_01 10', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1128040]]'
 hide p1
@@ -30,7 +29,6 @@ $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1128046]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c9513 '[textdict[1128047]]'
-hide p2
 $ update_portrait('oc002_01 21', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1128048]]'
 hide p2

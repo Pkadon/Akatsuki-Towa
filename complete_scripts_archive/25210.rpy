@@ -16,7 +16,6 @@ $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 5)
 play sfx2 "common_tag_2.ogg"
 play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1210728]]'
-hide p2
 $ update_portrait('oc002_01 6', 'p2', [mid(-3), light], 5)
 play sfx2 "common_sephi2.ogg"
 play sfxvoice "avg_vocal_ch08.ogg"

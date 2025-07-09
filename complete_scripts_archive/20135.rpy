@@ -38,7 +38,6 @@ hide p65
 $ update_portrait('sc045_01 4', 'p52', [l(-11), dark, flip], 6)
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
 c453 '[textdict[1006698]]'
-hide p45
 $ update_portrait('sc045_01 4', 'p52', [l(-11), dark, flip], 6)
 $ update_portrait('sc038_01 3', 'p45', [r(-1), light], 5)
 play sfx2 "fight_6023.ogg"

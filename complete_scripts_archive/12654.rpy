@@ -12,7 +12,6 @@ c13351 '[textdict[1166345]]'
 hide p1
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1166346]]'
-hide p2
 $ update_portrait('oc002_01 9', 'p2', [r(-3), r_shake, light], 5)
 play sfx2 "other_7087.ogg"
 c23 '[textdict[1166347]]'
@@ -33,15 +32,12 @@ c13351 '[textdict[1166352]]'
 $ update_portrait('oc004_01 17', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc003_01 2', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1166353]]'
-hide p4
 $ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 10', 'p4', [r(-5), light], 5)
 c43 '[textdict[1166354]]'
-hide p4
 $ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
 c43 '[textdict[1166355]]'
-hide p3
 $ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1166356]]'

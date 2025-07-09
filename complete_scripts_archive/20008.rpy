@@ -21,7 +21,6 @@ c23 '[textdict[1000351]]'
 hide p2
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000352]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na10.ogg"
 c13 '[textdict[1000353]]'
@@ -45,7 +44,6 @@ c23 '[textdict[1000358]]'
 hide p2
 $ update_portrait('oc001_01 9', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000359]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1000360]]'
 hide p1
@@ -94,7 +92,6 @@ c13 '[textdict[1000372]]'
 hide p1
 $ update_portrait('sc049_01 6', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000373]]'
-hide p56
 $ update_portrait('sc049_01 1', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000374]]'
 hide p56
@@ -103,25 +100,21 @@ c13 '[textdict[1000375]]'
 hide p1
 $ update_portrait('st000_01 4', 'p504', [mid(-9), light], 5)
 c5043 '[textdict[1000376]]'
-hide p504
 $ update_portrait('st000_01 1', 'p504', [mid(-9), light], 5)
 c5043 '[textdict[1000377]]'
 hide p504
 $ update_portrait('st001_01 4', 'p201', [mid(-15), light], 5)
 c2013 '[textdict[1000378]]'
-hide p201
 $ update_portrait('st001_01 4', 'p201', [mid(-15), light], 5)
 c2013 '[textdict[1000379]]'
 hide p201
 $ update_portrait('uc003_01 1', 'p506', [mid(-26), light], 5)
 c5063 '[textdict[1000380]]'
-hide p506
 $ update_portrait('uc003_01 1', 'p506', [mid(-26), light], 5)
 c5063 '[textdict[1000381]]'
 hide p506
 $ update_portrait('uc003_01 1', 'p507', [mid(-26), light], 5)
 c5073 '[textdict[1000382]]'
-hide p507
 $ update_portrait('uc003_01 1', 'p507', [mid(-26), light], 5)
 c5073 '[textdict[1000383]]'
 hide p507
@@ -135,13 +128,11 @@ c13 '[textdict[1000385]]'
 hide p1
 $ update_portrait('oc002_01 12', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1000386]]'
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [mid(-3), light], 5)
 c23 '[textdict[1000387]]'
 hide p2
 $ update_portrait('sc049_01 1', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000388]]'
-hide p56
 $ update_portrait('sc049_01 6', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000389]]'
 hide p56
@@ -192,10 +183,8 @@ c23 '[textdict[1000403]]'
 hide p2
 $ update_portrait('sc049_01 4', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000404]]'
-hide p56
 $ update_portrait('sc049_01 1', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000405]]'
-hide p56
 $ update_portrait('sc049_01 10', 'p56', [mid(-8), light], 5)
 c563 '[textdict[1000406]]'
 return

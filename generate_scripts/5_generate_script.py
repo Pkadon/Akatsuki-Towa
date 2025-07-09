@@ -117,7 +117,14 @@ class GameState:
 					self.add_line(line)
 		
 	def update_portrait(self, pos, portrait_dict):
-		self.hide_portraits(pos)
+		if portrait_dict == None:
+			self.hide_portraits(pos)
+		#if the current portrait in the new portrait's position uses a different alias
+		#explicitly hide it
+		#otherwise it will be handled on the renpy side
+		elif self.state[pos] and portrait_dict['alias'] != self.state[pos]['alias']:
+			self.hide_portraits(pos)
+
 		self.state[pos] = portrait_dict
 		self.darken_portraits(pos)
 		

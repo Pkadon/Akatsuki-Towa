@@ -10,12 +10,10 @@ c23 '[textdict[1211267]]'
 hide p2
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1211268]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 play sfx2 "fight_6026.ogg"
 play sfxvoice "bcv_oc001_com_01.ogg"
 c13 '[textdict[1211269]]'
-hide p1
 $ update_portrait('oc001_01 5', 'p1', [mid(-2), light], 5)
 play sfx2 "elc_5001.ogg"
 play sfxvoice "avg_vocal_na19.ogg"

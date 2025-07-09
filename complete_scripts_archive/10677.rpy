@@ -13,17 +13,13 @@ scene avg_bg_070
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
 with fade
 c81 '[textdict[1166337]]'
-hide p8
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
 c81 '[textdict[1166338]]'
-hide p8
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
 c81 '[textdict[1166339]]'
-hide p8
 $ update_portrait('oc008_01 5', 'p8', [l(-5), light, flip], 6)
 play sfxvoice "avg_vocal_ai02b.ogg"
 c81 '[textdict[1166340]]'
-hide p8
 $ update_portrait('oc008_01 6', 'p8', [l(-5), light, flip], 6)
 c81 '[textdict[1166341]]'
 hide p8

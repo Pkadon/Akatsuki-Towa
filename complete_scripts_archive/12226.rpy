@@ -23,7 +23,6 @@ hide p2
 $ update_portrait('uc004_02 2', 'p990', [l(-6), dark, flip], 6)
 $ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
 c463 '[textdict[1121041]]'
-hide p990
 $ update_portrait('sc039_01 1', 'p46', [r(-13), dark], 5)
 $ update_portrait('uc004_02 2', 'p990', [l(-6), light, flip], 6)
 c9901 '[textdict[1121042]]'
@@ -31,7 +30,6 @@ hide p46
 $ update_portrait('uc004_02 2', 'p990', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 9', 'p2', [r(-3), light], 5)
 c23 '[textdict[1121493]]'
-hide p990
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('uc004_02 2', 'p990', [l(-6), light, flip], 6)
 c9901 '[textdict[1121043]]'
@@ -44,7 +42,6 @@ hide p1
 $ update_portrait('uc004_02 2', 'p990', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 11', 'p2', [r(-3), light], 5)
 c23 '[textdict[1121045]]'
-hide p990
 $ update_portrait('oc002_01 11', 'p2', [r(-3), dark], 5)
 $ update_portrait('uc004_02 2', 'p990', [l(-6), light, flip], 6)
 c9901 '[textdict[1121046]]'

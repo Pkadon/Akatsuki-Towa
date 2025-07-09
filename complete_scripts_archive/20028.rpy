@@ -11,7 +11,6 @@ c23 '[textdict[1001691]]'
 hide p2
 $ update_portrait('st008_01 1', 'p208', [mid(-19), light], 5)
 c2083 '[textdict[1001692]]'
-hide p208
 $ update_portrait('st008_01 1', 'p208', [mid(-19), light], 5)
 c2083 '[textdict[1001693]]'
 hide p208
@@ -25,10 +24,8 @@ c13 '[textdict[1001695]]'
 hide p1
 $ update_portrait('st008_01 1', 'p208', [mid(-19), light], 5)
 c2083 '[textdict[1001696]]'
-hide p208
 $ update_portrait('st008_01 5', 'p208', [mid(-19), light], 5)
 c2083 '[textdict[1001697]]'
-hide p208
 $ update_portrait('st008_01 1', 'p208', [mid(-19), light], 5)
 c2083 '[textdict[1001698]]'
 hide p208

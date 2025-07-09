@@ -17,12 +17,10 @@ $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1006651]]'
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 c7013 '[textdict[1006652]]'
-hide p3
 $ update_portrait('oc003_01 2', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1000335]]'
 $ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 c7013 '[textdict[1006654]]'
-hide p3
 $ update_portrait('oc003_01 15', 'p3', [l(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro05.ogg"
 c31 '[textdict[1006655]]'

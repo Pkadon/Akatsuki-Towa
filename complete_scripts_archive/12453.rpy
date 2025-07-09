@@ -11,10 +11,8 @@ play sfx2 "other_7060.ogg"
 c0 '[textdict[1143500]]'
 $ update_portrait('oc004_01 18', 'p4', [r(-5), light], 5)
 c43 '[textdict[1143501]]'
-hide p4
 $ update_portrait('oc004_01 18', 'p4', [r(-5), light], 5)
 c43 '[textdict[1143502]]'
-hide p4
 $ update_portrait('oc004_01 11', 'p4', [r(-5), light], 5)
 c43 '[textdict[1143503]]'
 hide p4
@@ -23,7 +21,6 @@ play sfx2 "other_7050.ogg"
 c0 '[textdict[1143505]]'
 $ update_portrait('oc004_01 20', 'p4', [r(-5), light], 5)
 c43 '[textdict[1143506]]'
-hide p4
 $ update_portrait('oc004_01 19', 'p4', [r(-5), light], 5)
 c43 '[textdict[1143507]]'
 scene avg_bg_065
@@ -58,12 +55,10 @@ with fade
 c43 '[textdict[1143525]]'
 $ update_portrait('st039_01 1', 'p1172', [l(-6), light, flip], 6)
 c11721 '[textdict[1143526]]'
-hide p1172
 $ update_portrait('st039_01 1', 'p1172', [l(-6), light, flip], 6)
 c11721 '[textdict[1143527]]'
 $ update_portrait('st039_01 1', 'p1172', [l(-6), dark, flip], 6)
 c43 '[textdict[1143528]]'
-hide p1172
 $ update_portrait('st039_01 1', 'p1172', [l(-6), light, flip], 6)
 c11721 '[textdict[1143529]]'
 $ update_portrait('st039_01 1', 'p1172', [l(-6), dark, flip], 6)
@@ -72,7 +67,6 @@ hide p1172
 c0 '[textdict[1143531]]'
 $ update_portrait('st039_01 1', 'p1172', [l(-6), light, flip], 6)
 c11721 '[textdict[1143532]]'
-hide p1172
 $ update_portrait('st039_01 1', 'p1172', [l(-6), light, flip], 6)
 c11721 '[textdict[1143533]]'
 scene avg_bg_049

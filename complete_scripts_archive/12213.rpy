@@ -53,7 +53,6 @@ $ update_portrait('oc004_01 7', 'p4', [r(-5), light], 5)
 c43 '[textdict[1121451]]'
 $ update_portrait('oc004_01 7', 'p4', [r(-5), dark], 5)
 c9881 '[textdict[1121452]]'
-hide p4
 $ update_portrait('oc004_01 8', 'p4', [r(-5), light], 5)
 c43 '[textdict[1121453]]'
 $ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)

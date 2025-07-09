@@ -73,7 +73,6 @@ with fade
 c12413 '[textdict[1153077]]'
 $ update_portrait('sc025_01 1', 'p622', [l(-1), light, flip], 6)
 c6221 '[textdict[1153078]]'
-hide p622
 $ update_portrait('sc025_01 4', 'p622', [l(-1), light, flip], 6)
 c6221 '[textdict[1153079]]'
 hide p622

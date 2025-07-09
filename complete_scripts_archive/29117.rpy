@@ -6,7 +6,6 @@ $ update_portrait('sc001_01 5', 'p9', [mid(-11), light], 5)
 window show
 with fade_in
 c93 '[textdict[1218052]]'
-hide p9
 $ update_portrait('sc001_01 6', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218053]]'
 hide p9
@@ -16,7 +15,6 @@ c13 '[textdict[1218054]]'
 hide p1
 $ update_portrait('sc001_01 1', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218055]]'
-hide p9
 $ update_portrait('sc001_01 1', 'p9', [mid(-11), light], 5)
 c93 '[textdict[1218056]]'
 hide p9

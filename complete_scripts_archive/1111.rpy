@@ -18,7 +18,6 @@ c2043 '[textdict[2102765]]'
 hide p204
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 c9773 '[textdict[2102766]]'
-hide p4
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 play sfx2 "other_7013.ogg"
 c41 '[textdict[2102767]]'

@@ -9,7 +9,6 @@ with fade_in
 c11 '[textdict[1200333]]'
 $ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
 c7603 '[textdict[1200334]]'
-hide p1
 $ update_portrait('oc001_01 5', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1200335]]'
 return

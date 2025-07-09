@@ -45,7 +45,6 @@ c10743 '[textdict[1133897]]'
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 play sfx2 "other_7043.ogg"
 c10743 '[textdict[1133898]]'
-hide p1
 $ update_portrait('oc001_01 7', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1133899]]'

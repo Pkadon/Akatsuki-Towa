@@ -13,7 +13,6 @@ c21 '[textdict[1166662]]'
 hide p2
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 c13661 '[textdict[1166663]]'
-hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1166664]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)

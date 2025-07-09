@@ -10,7 +10,6 @@ c10431 '[textdict[1133897]]'
 $ update_portrait('st040_01 5', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 6', 'p1', [r(-2), light], 5)
 c13 '[textdict[1133898]]'
-hide p1043
 $ update_portrait('oc001_01 6', 'p1', [r(-2), dark], 5)
 $ update_portrait('st040_01 2', 'p1043', [l(-19), light, flip], 6)
 c10431 '[textdict[1133899]]'

@@ -19,7 +19,6 @@ play sfx2 "other_7024.ogg"
 c0 '[textdict[1143944]]'
 $ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143945]]'
-hide p6
 $ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)
 c61 '[textdict[1143946]]'
 hide p6

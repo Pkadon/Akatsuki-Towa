@@ -6,7 +6,6 @@ $ update_portrait('sc020_01 1', 'p28', [l(-10), light, flip], 6)
 window show
 with fade_in
 c281 '[textdict[1219788]]'
-hide p28
 $ update_portrait('sc020_01 4', 'p28', [l(-10), light, flip], 6)
 c281 '[textdict[1219789]]'
 $ update_portrait('sc020_01 4', 'p28', [l(-10), dark, flip], 6)

@@ -22,7 +22,6 @@ $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1120907]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c9883 '[textdict[1120908]]'
-hide p2
 $ update_portrait('oc002_01 6', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1120909]]'
 $ update_portrait('oc002_01 6', 'p2', [l(-3), dark, flip], 6)

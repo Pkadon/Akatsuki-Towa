@@ -12,7 +12,6 @@ hide p2
 $ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1210298]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1210299]]'
 hide p1

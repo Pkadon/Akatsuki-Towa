@@ -12,7 +12,6 @@ c131 '[textdict[1151443]]'
 $ update_portrait('sc005_01 1', 'p13', [l(-17), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1151444]]'
-hide p13
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc005_01 4', 'p13', [l(-17), light, flip], 6)
 c131 '[textdict[1151445]]'
@@ -43,7 +42,6 @@ with fade
 c133 '[textdict[1151451]]'
 $ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151452]]'
-hide p13
 $ update_portrait('sc005_01 1', 'p13', [r(-17), light], 5)
 c133 '[textdict[1151453]]'
 $ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
@@ -52,7 +50,6 @@ $ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151455]]'
 $ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151456]]'
-hide p13
 $ update_portrait('sc005_01 2', 'p13', [r(-17), r_shake, light], 5)
 c133 '[textdict[1151457]]'
 $ update_portrait('sc005_01 2', 'p13', [r(-17), dark], 5)

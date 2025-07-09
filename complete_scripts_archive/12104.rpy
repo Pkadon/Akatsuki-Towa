@@ -12,19 +12,15 @@ $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc005_01 5', 'p5', [r(-6), light], 5)
 play sfxvoice "avg_vocal_ji11.ogg"
 c53 '[textdict[1128020]]'
-hide p5
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc005_01 4', 'p5', [r(-6), light], 5)
 c53 '[textdict[1128021]]'
-hide p5
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc005_01 10', 'p5', [r(-6), light], 5)
 c53 '[textdict[1128022]]'
-hide p1
 $ update_portrait('oc005_01 10', 'p5', [r(-6), dark], 5)
 $ update_portrait('oc001_01 18', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1128023]]'
-hide p5
 $ update_portrait('oc001_01 18', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc005_01 1', 'p5', [r(-6), light], 5)
 play sfx2 "common_quest.ogg"

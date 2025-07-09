@@ -15,7 +15,6 @@ c193 '[textdict[1218370]]'
 hide p19
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1218371]]'
-hide p1
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 5)
 c13 '[textdict[1218372]]'
 hide p1

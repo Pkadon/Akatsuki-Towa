@@ -15,7 +15,6 @@ hide p3
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1133915]]'
-hide p2
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 9', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1133916]]'
@@ -32,7 +31,6 @@ c11 '[textdict[1133918]]'
 hide p4
 $ update_portrait('oc001_01 12', 'p1', [l(-2), dark, flip], 6)
 c10743 '[textdict[1133919]]'
-hide p1
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 play sfx2 "dun_obj005_01_01.ogg"
 c11 '[textdict[1133920]]'
@@ -48,12 +46,10 @@ c11 '[textdict[1133923]]'
 $ update_portrait('oc001_01 12', 'p1', [l(-2), dark, flip], 6)
 play sfx2 "fight_6025.ogg"
 c10743 '[textdict[1133924]]'
-hide p1
 $ update_portrait('oc001_01 12', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1133925]]'
 $ update_portrait('oc001_01 12', 'p1', [l(-2), dark, flip], 6)
 c10743 '[textdict[1133926]]'
-hide p1
 $ update_portrait('oc001_01 7', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na22.ogg"
 c11 '[textdict[1133927]]'

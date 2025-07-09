@@ -12,11 +12,9 @@ hide p1
 $ update_portrait('oc002_01 4', 'p2', [mid(-3), light], 5)
 play sfx2 "fight_6025.ogg"
 c23 '[textdict[1210079]]'
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [mid(-3), light], 5)
 play sfx2 "other_7034.ogg"
 c23 '[textdict[1210080]]'
-hide p2
 $ update_portrait('oc002_01 5', 'p2', [mid(-3), light], 5)
 play sfxvoice "avg_vocal_ch07.ogg"
 c23 '[textdict[1210081]]'

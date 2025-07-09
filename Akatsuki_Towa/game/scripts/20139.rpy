@@ -19,16 +19,13 @@ c23 '[textdict[1003725]]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc042_01 1', 'p641', [l_entrance(-19), light, flip], 6)
 c6411 '[textdict[1003726]]'
-hide p641
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc042_01 1', 'p641', [l(-19), light, flip], 6)
 c6411 '[textdict[1003727]]'
-hide p641
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc042_01 1', 'p641', [l_exit(-19), light, flip], 6)
 c6411 '[textdict[1003728]]'
 hide p641
-hide p2
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch19.ogg"
 c23 '[textdict[1003729]]'

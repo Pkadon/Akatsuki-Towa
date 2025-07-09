@@ -17,13 +17,10 @@ c5953 '[textdict[1002759]]'
 c5953 '[textdict[1002760]]'
 $ update_portrait('oc004_01 1', 'p4', [mid(-5), light], 5)
 c43 '[textdict[1002761]]'
-hide p4
 $ update_portrait('oc004_01 21', 'p4', [mid(-5), light], 5)
 c43 '[textdict[1002762]]'
-hide p4
 $ update_portrait('oc004_01 1', 'p4', [mid(-5), light], 5)
 c43 '[textdict[1002763]]'
-hide p4
 $ update_portrait('oc004_01 1', 'p4', [mid(-5), light], 5)
 c43 '[textdict[1002764]]'
 hide p4

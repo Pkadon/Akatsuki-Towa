@@ -13,17 +13,14 @@ c12293 '[textdict[1152107]]' (what_size=(gui.text_size*1.2)) with shake
 c12301 '[textdict[1152108]]'
 $ update_portrait('oc004_01 4', 'p4', [r_entrance(-5), light], 5)
 c43 '[textdict[1152109]]'
-hide p4
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1152110]]'
 $ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
 c12291 '[textdict[1152111]]'
-hide p4
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1152112]]'
 $ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
 c12301 '[textdict[1152113]]'
-hide p4
 $ update_portrait('oc004_01 11', 'p4', [r(-5), light], 5)
 c43 '[textdict[1152114]]'
 $ update_portrait('oc004_01 11', 'p4', [r(-5), dark], 5)
