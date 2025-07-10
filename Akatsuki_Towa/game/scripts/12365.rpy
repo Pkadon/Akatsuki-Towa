@@ -73,7 +73,7 @@ $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1133799]]'
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1133800]]'
-hide p5
+$ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 6)
 play sfx2 "other_7097.ogg"
 c10703 '[textdict[1133801]]'
 $ update_portrait('oc005_01 8', 'p5', [l(-6), light, flip], 6)

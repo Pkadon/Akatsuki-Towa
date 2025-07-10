@@ -366,15 +366,19 @@ c23 '[textdict[2105057]]'
 $ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc002_01 20', 'p2', [r(-3), r_shake, light], 5)
 c23 '[textdict[2105058]]'
-hide p56
-hide p2
+$ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
+$ update_portrait('oc002_01 20', 'p2', [r(-3), dark], 5)
 play sfx2 "other_7047.ogg"
 c5003 '[textdict[2105059]]'
+hide p2
+$ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('sc038_01 1', 'p45', [r_entrance(-1), light], 5)
 c453 '[textdict[2105060]]'
 hide p45
+$ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
 c483 '[textdict[2105061]]'
+hide p56
 $ update_portrait('sc041_01 1', 'p48', [r(-9), dark], 5)
 $ update_portrait('sc052_01 5', 'p59', [l(-25), light, flip], 6)
 c591 '[textdict[2105062]]'

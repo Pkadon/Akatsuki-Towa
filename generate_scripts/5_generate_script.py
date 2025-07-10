@@ -363,7 +363,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			portraitpos = 'mid'
 			zorder = 5
 			darkpos = None
-			state.hide_portraits('l', 'r',)
+			if folderName:
+				state.hide_portraits('l', 'r',)
 
 		if folderName:
 			alias = f'p{speaker}'

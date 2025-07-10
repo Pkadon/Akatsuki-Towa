@@ -271,7 +271,7 @@ c13 '[textdict[2110965]]'
 hide p1
 $ update_portrait('oca02_01 1', 'p2702', [l_entrance(-3), light, flip], 6)
 c27021 '[textdict[2110966]]'
-hide p2702
+$ update_portrait('oca02_01 1', 'p2702', [l(-3), dark, flip], 6)
 c13 '[textdict[2110967]]'
 $ update_portrait('oca02_01 2', 'p2702', [l(-3), light, flip], 6)
 c27021 '[textdict[2110968]]'

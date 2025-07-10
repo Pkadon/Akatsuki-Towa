@@ -102,9 +102,10 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c10061 '[textdict[1133488]]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c10061 '[textdict[1133489]]'
-hide p1
+$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7063.ogg"
 c10893 '[textdict[1133490]]'
+hide p1
 $ update_portrait('oc004_01 24', 'p4', [r(-5), light], 5)
 play sfxvoice "avg_vocal_li09.ogg"
 c43 '[textdict[1133491]]'

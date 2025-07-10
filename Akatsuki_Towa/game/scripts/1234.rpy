@@ -110,9 +110,10 @@ $ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
 c481 '[textdict[2111973]]'
 stop music
-hide p48
-hide p45
+$ update_portrait('sc041_01 4', 'p48', [l(-9), dark, flip], 6)
+$ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 c5003 '[textdict[2111974]]' (what_size=(gui.text_size*1.25)) with shake
+$ update_portrait('sc041_01 4', 'p48', [l(-9), dark, flip], 6)
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 5)
 c453 '[textdict[2111975]]'
 $ update_portrait('sc038_01 2', 'p45', [r(-1), dark], 5)

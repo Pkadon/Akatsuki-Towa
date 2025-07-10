@@ -51,10 +51,11 @@ c21 '[textdict[1133759]]'
 $ update_portrait('oc002_01 8', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1133760]]'
-hide p2
-hide p1
+$ update_portrait('oc002_01 8', 'p2', [l(-3), dark, flip], 6)
+$ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7097.ogg"
 c10703 '[textdict[1133761]]'
+$ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1133762]]'
 $ update_portrait('oc002_01 9', 'p2', [l(-3), dark, flip], 6)

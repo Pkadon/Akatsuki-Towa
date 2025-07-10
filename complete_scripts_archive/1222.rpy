@@ -323,7 +323,7 @@ play sfx2 "other_7047.ogg"
 c13 '[textdict[2110351]]'
 $ update_portrait('oca02_01 1', 'p2702', [l(-3), light, flip], 6)
 c27021 '[textdict[2110352]]'
-hide p2702
+$ update_portrait('oca02_01 1', 'p2702', [l(-3), dark, flip], 6)
 c13 '[textdict[2110353]]'
 $ update_portrait('oca02_01 2', 'p2702', [l(-3), light, flip], 6)
 c27021 '[textdict[2110354]]'
