@@ -193,16 +193,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][88]['character']['charID'] = 4
 		script_json['dialogueFrames'][88]['character']['speaker'] = 4
 		script_json['dialogueFrames'][118]['strID'] = 1130966
-		
-	#Fix two different unset charPos
-	#These originally have their charPos set to 0, which does some weird things - 
-	#It does not display a namebox for the speaker, it does not darken any portraits onscreen,
-	#and it does not hide any onscreen portraits, 
-	#It's a little unclear whether they are intended to be like this or not, but I chose to treat them as errors.
-	#If this were to be reworked to be more accurate, handling of charPos 0 would need to be looked at closer.
-	elif fname == '10840':
-		script_json['dialogueFrames'][21]['charPos'] = 1
-		script_json['dialogueFrames'][81]['charPos'] = 1
 	
 	#The CharFadeOut was on the wrong line
 	elif fname == '1138':
