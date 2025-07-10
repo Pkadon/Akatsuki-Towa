@@ -183,6 +183,8 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	if fname == '10008':
 		script_json['dialogueFrames'][98]['charPos'] = 1
 		script_json['dialogueFrames'][98]['character']['mirror'] = 1
+	elif fname == '12766':
+		script_json['dialogueFrames'][16]['charPos'] = 1
 
 	#Apply corrections found in mobile version files
 	elif fname == '10330':
