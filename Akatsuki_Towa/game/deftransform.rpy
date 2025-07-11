@@ -1,5 +1,3 @@
-label deftransform:
-
 ### General Screen Transitions:
 ########################################
 ### used as a transition to shake the screen

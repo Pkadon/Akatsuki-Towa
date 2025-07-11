@@ -1,5 +1,3 @@
-label defavgimg:
-
 ###these are the insert images that appear in the middle of the screen during some cutscenes
 ### avg_img_005.png is not used as far as I am aware
 

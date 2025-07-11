@@ -1,6 +1,3 @@
-label defbg:
-
-
 ###memory overlay is original and will be included, so is in a different folder
 image memoryoverlay = "images_free/memoryoverlay.png"
 

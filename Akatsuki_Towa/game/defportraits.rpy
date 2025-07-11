@@ -1,9 +1,3 @@
-label defportraits:
-
-
-#########################################################
-#START OF CHARACTER PORTRAITS
-##########################################################
 layeredimage oc000_01:
     always:
          Crop((0,0,270,420), "oc000_01_avg.png")

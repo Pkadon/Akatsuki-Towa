@@ -1,4 +1,3 @@
-label enabletypewriter:
 #########################################
 ###typewriter sound effect, copied from here: 
 ###https://www.renpy.org/wiki/renpy/doc/FAQ#How_do_I_get_a_sound_to_play_while_the_text_appears.2C_like_Phoenix_Wright.3F

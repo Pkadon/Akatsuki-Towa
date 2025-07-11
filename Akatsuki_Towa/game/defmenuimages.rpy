@@ -1,5 +1,3 @@
-label defmenuimages:
-
 ###dialogue boxes############################################
 image dialoguewindow:
     Crop((162,212,45,45), "avg_a1screen.png")

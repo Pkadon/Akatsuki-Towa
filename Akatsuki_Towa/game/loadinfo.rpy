@@ -1,4 +1,3 @@
-label loadinfo:
 python early:
     import json
     import csv
