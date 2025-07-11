@@ -306,17 +306,18 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		avgImageID = frame['avgImageID']
 		
 	#Check bgm schedule, and update if needed
-		if len(bgm_schedule) > 0:
-			#Stop the music if framecount is not listed in the bgm schedule
-			#and filter out the unused bgm id -1
-			if framecount not in bgm_schedule or bgm_schedule[framecount] == -1:
+		if len(bgm_schedule) > 0 and framecount in bgm_schedule:
+			#filter out the unused bgm id -1
+			if bgm_schedule[framecount] == -1:
 				bgmName = None
 			#Otherwise figure out the name of the bgm that should be playing
 			else:
 				bgmName = bgm_dict[bgm_schedule[framecount]]['_bgmName']
-
-			#update the bgm
-			state.update_bgm(bgmName)
+		#Stop the music if framecount is not listed in the bgm schedule
+		else: bgmName = None
+		
+		#update the bgm
+		state.update_bgm(bgmName)
 			
 	#Check background schedule, and update if needed
 		if len(background_schedule) > 0 and framecount in background_schedule:

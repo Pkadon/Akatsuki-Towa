@@ -1,5 +1,6 @@
 label avg25240:
 
+stop music
 scene placeholderbackground
 window show
 with fade_in
