@@ -8,7 +8,6 @@ scriptdirec = direc / 'MonoBehaviour'
 targetdirec = direc / 'Renpy_Scripts' / 'scripts'
 if not targetdirec.exists():
 	targetdirec.mkdir(parents=True, exist_ok=True)
-	
 
 def load_design_json(filepath):
 	with open(filepath, 'r', encoding='utf-8') as f:
@@ -32,7 +31,6 @@ bgm_dict = load_design_json(bgm_file)
 sfx_file = (scriptdirec / 'sfx.json')
 sfx_dict = load_design_json(sfx_file)
 
-
 #IMPORT VOICE
 voice_file = (scriptdirec / 'voice.json')
 voice_dict = load_design_json(voice_file)
@@ -49,6 +47,10 @@ class GameState:
 			'r': None, #right
 		}
 		self.bgm = 'not set'
+		self.background = None
+		self.memory = False
+		self.avgimage = None
+		
 		self.first_fade = True
 	
 	def add_line(self, *lines):
@@ -99,19 +101,23 @@ class GameState:
 		)
 	
 	def darken_portraits(self, lit_pos):
+		if self.state[lit_pos]:
+			lit_alias = self.state[lit_pos]['alias']
+		else:
+			lit_alias = None
+
 		for key in self.state.keys():
 			if key == lit_pos: continue
 			
 			elif self.state[key]:
-				if self.state[lit_pos]:
-					lit_alias = self.state[lit_pos]['alias']
-				else:
-					lit_alias = None
-
 				alias = self.state[key]['alias']
 				if alias == lit_alias:
+					#this would mean that the current lit portrait has changed sides from last frame
+					#renpy will handle the actual hiding, just keeping track here
 					self.hide_portraits(key, write=False)
 				else:
+					#then darken the existing portrait only if it isn't already dark
+					#again, renpy is able to handle the hiding and updating for the moment
 					if not self.state[key].get('dark'):
 						line = self.unpack_portrait_dict(key, color='dark')
 						self.add_line(line)
@@ -136,6 +142,42 @@ class GameState:
 			else:
 				self.add_line(f'play music "{newbgm}"\n')
 			self.bgm = newbgm
+			
+	def update_background(self, newbackground):
+		if self.background != newbackground:
+			#generate scene line only if it's different from the last frame
+			self.add_line(f"scene {newbackground}\n")
+			self.background = newbackground
+			
+			#The "scene" statement will hide all portraits, so the state needs to track that
+			self.hide_portraits('all', write=False)
+			#The scene statement will also hide the memory overlay, so track that too:
+			self.memory = False
+			
+			#then return True so the outside loop knows to add a fade effect later
+			return True
+		else: 
+			return False
+			
+	def update_memory(self, is_memory):
+		if is_memory == True and self.memory == False:
+			state.add_line('show memoryoverlay zorder 2\n')
+			self.memory = True
+		elif is_memory == False and self.memory == True:
+			state.add_line('hide memoryoverlay\n')
+			self.memory = False
+			
+	def update_avgimage(self, newimage):
+		if self.avgimage != newimage:
+			if newimage == None:
+				state.add_line(f'hide {self.avgimage}\n')
+				self.avgimage = None
+				
+			else:
+				if self.avgimage != None:
+					state.add_line(f'hide {self.avgimage}\n')
+				state.add_line(f'show {newimage} zorder 4\n')
+				self.avgimage = newimage
 			
 	def add_fade(self, portraitpos=None):
 		#Adds a placeholder portrait, so it isn't missing during the transition
@@ -233,11 +275,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	memory_schedule = make_schedule_dict(script_json, 'memory')
 
 	state = GameState(fname)
-
-	lastplayed = None
-	lastbackground = None
-	showingimage = None
-	memory = False
 	
 	framecount = 0
 	for frame in script_json['dialogueFrames']:
@@ -268,7 +305,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		effect = frame['effect']
 		avgImageID = frame['avgImageID']
 		
-		#Check bgm schedule, and update if needed
+	#Check bgm schedule, and update if needed
 		if len(bgm_schedule) > 0:
 			#Stop the music if framecount is not listed in the bgm schedule
 			#and filter out the unused bgm id -1
@@ -278,41 +315,30 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			else:
 				bgmName = bgm_dict[bgm_schedule[framecount]]['_bgmName']
 
+			#update the bgm
 			state.update_bgm(bgmName)
 			
-		#check if there is supposed to be a background
-		if len(background_schedule) > 0:
-			#this is for if there will be a background later, but not yet
-			if framecount not in background_schedule:
-				framebackground = 'placeholderbackground'
-			else:	
-				framebackground = str(background_schedule[framecount])
-				while len(framebackground) < 3: framebackground = '0'+framebackground
-				framebackground = 'avg_bg_'+framebackground
-		#this is for if there isn't supposed to be a background at all
+	#Check background schedule, and update if needed
+		if len(background_schedule) > 0 and framecount in background_schedule:
+				backgroundid = str(background_schedule[framecount]).zfill(3)
+				framebackground = 'avg_bg_'+backgroundid
+		#Some scenes/frames would have just had a transparent background
+		#So there is a predefined placeholder background for those
 		else: framebackground = 'placeholderbackground'
 		
-		if lastbackground != framebackground:
-			#generate scene line only if it's different from the last frame
-			state.add_line(f"scene {framebackground}\n")
-			lastbackground = framebackground
+		#Update the background.
+		#If the background was changed, then a "with fade" statement will need to be added later
+		if state.update_background(framebackground):
 			fade = True
-			#The "scene" statement will hide all portraits, so the state needs to track that
-			state.hide_portraits('all', write=False)
-			#The scene statement will also hide the memory overlay, so track that too:
-			memory = False
-			
-		#check for memory overlay
-		if len(memory_schedule) > 0:
-			if framecount in memory_schedule:
-				if not memory:
-					state.add_line('show memoryoverlay zorder 2\n')
-					memory = True
-			else:
-				if memory:
-					state.add_line('hide memoryoverlay\n')
-					memory = False
 
+	#Check memory schedule, and update if needed
+		if len(memory_schedule) > 0 and framecount in memory_schedule:
+			is_memory = True
+		else:
+			is_memory = False
+		state.update_memory(is_memory)
+			
+	#Misc
 		#The fade will be written later
 		#This is just to merge it with the fade from the background change up above
 		if isClearModle == 1:
@@ -321,18 +347,15 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#Both isClearModle and the green-text speaker 0 hide all portraits
 		if isClearModle == 1 or speaker == 0:
 			state.hide_portraits('all')
-			
-		#check for image to display
+
+	#Check for avgimage to display
 		if avgImageID == 0:
-			if showingimage:
-				state.add_line(f'hide {showingimage}\n')
-				showingimage = None
+			avgimagename = None
 		else:
 			avgimagename = "Image"+str(avgImageID)
-			if showingimage != avgimagename:
-				state.add_line(f'show {avgimagename} zorder 4\n')
-				showingimage = avgimagename
+		state.update_avgimage(avgimagename)
 		
+	#Portrait
 		#figure out if a portrait needs to be displayed 
 		if charID == 0:
 			folderName = None
@@ -343,19 +366,16 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		if charPos == 1: 
 			portraitpos = 'l'
 			zorder = 6
-			darkpos = 'r'
 			if folderName:
 				state.hide_portraits('mid')
 		elif charPos == 3: 
 			portraitpos = 'r'
 			zorder = 5
-			darkpos = 'l'
 			if folderName:
 				state.hide_portraits('mid')
 		elif charPos in [2, 0]: 
 			portraitpos = 'mid'
 			zorder = 5
-			darkpos = None
 			if folderName:
 				state.hide_portraits('l', 'r',)
 
@@ -380,7 +400,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			if CharFadeIn == 1: renpytransform += '_entrance'
 			if CharFadeOut == 1:  renpytransform += '_exit'
 
-			#moved midback up here so it can get the xoffset added to it	
+			#check if portrait does the forward lunge animation	
 			if effect == 103 or effect == 203: renpytransform += '_midback'
 
 			renpytransform += f'({offset})'
@@ -421,7 +441,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			state.add_fade()
 			fade = False
 			
-	#SOUND/VOICE
+	#Sound/Voice
 		#check for sfx
 		if sfxID != 0:
 			sfxname = sfx_dict[sfxID]['_sfxName']
@@ -437,7 +457,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			state.add_line(f'play sfxvoice "{voicename}"\n')
 		
 	#START OF SAY STATEMENT
-		
 		#figure out where namebox goes
 		if speaker == 0: nameboxPos = ''
 		elif charPos == 1: nameboxPos = 1
@@ -453,7 +472,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#(20 is already the default)
 		if contentSize != 20:
 			#don't want to use the text size values for the scenes that are 
-			#supposed to be "minimized" in the corner
+			#supposed to be "minimized" in the corner (template = 1)
 			noresizelist = ['10134', '20002', '20112', '20113', '29135'] #NOTE - not 100% sure on 10134
 			if contentSize <= 16 and template == 1: pass
 			#the files in noresizelist don't have template set to 1, but still need to be filtered
@@ -482,7 +501,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			choicetext = f"[textdict[{choicestrID}]]"
 			choiceavgID = script_json["ending"]["options"][choice]["avgID"]
 			state.add_line(f'    "{choicetext}":\n')
-			#state.add_line(f'        jump avg{choiceavgID}\n')
 			state.add_line(f'        call avg{choiceavgID}\n')
 
 	state.write_file(targetdirec)
