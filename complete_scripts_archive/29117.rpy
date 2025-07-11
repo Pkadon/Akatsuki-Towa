@@ -1,5 +1,4 @@
 label avg29117:
-stop music
 
 scene placeholderbackground
 $ update_portrait('sc001_01 5', 'p9', [mid(-11), light], 5)

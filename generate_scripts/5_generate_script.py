@@ -48,7 +48,7 @@ class GameState:
 			'mid': None, #middle
 			'r': None, #right
 		}
-		self.bgm = None
+		self.bgm = 'not set'
 		self.first_fade = True
 	
 	def add_line(self, *lines):
@@ -61,7 +61,6 @@ class GameState:
 		out = Path(outpath) / f'{self.avgcode}.rpy'
 		with open(out, 'w', encoding='utf-8') as w:
 			w.write(f"label avg{self.avgcode}:\n")
-			w.write('stop music\n')
 			w.write('\n')
 			for line in self.lines:
 				w.write(line)

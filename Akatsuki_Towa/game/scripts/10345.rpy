@@ -1,6 +1,6 @@
 label avg10345:
-stop music
 
+stop music
 scene avg_bg_031
 $ update_portrait('st037_01 4', 'p236', [l(-10), light, flip], 6)
 window show

@@ -1,5 +1,4 @@
 label avg25316:
-stop music
 
 scene placeholderbackground
 window show

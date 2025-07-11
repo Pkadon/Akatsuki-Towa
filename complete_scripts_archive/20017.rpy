@@ -1,5 +1,4 @@
 label avg20017:
-stop music
 
 play music "ED6101.ogg"
 scene placeholderbackground

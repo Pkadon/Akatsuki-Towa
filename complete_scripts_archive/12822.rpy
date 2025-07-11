@@ -1,6 +1,6 @@
 label avg12822:
-stop music
 
+stop music
 scene avg_bg_035
 window show
 with fade_in

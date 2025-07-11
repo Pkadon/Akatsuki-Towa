@@ -1,5 +1,4 @@
 label avg12655:
-stop music
 
 play music "ED6300.ogg"
 scene avg_bg_070
