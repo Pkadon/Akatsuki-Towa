@@ -5,7 +5,7 @@ define config.all_character_callbacks = [typewriter]
 define nobody = Character(name=None, namebox_xalign=0.02)
 
 ###for no-nameplate messages with green text
-define c0 = Character(name=None, what_color='#44e680')
+define c0 = Character(name=None, what_color='#4FFFB0')
 
 define c11 = Character(avgroledict[1], namebox_xalign=0.02)
 define c13 = Character(avgroledict[1], namebox_xalign=0.98)
