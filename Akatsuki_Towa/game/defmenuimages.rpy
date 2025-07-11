@@ -3,8 +3,9 @@ image dialoguewindow:
     Crop((162,212,45,45), "avg_a1screen.png")
     alpha .75
 
-image namebox:
-    Crop((200,5,64,37), "avg_a1screen.png")
+layeredimage namebox:
+    always "images_free/namebox_under.png"
+    always Crop((200,5,64,37), "avg_a1screen.png")
 
 ###Choice Menu###############################################
 layeredimage choicehover:
