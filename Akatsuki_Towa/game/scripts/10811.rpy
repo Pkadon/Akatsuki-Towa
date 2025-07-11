@@ -64,21 +64,15 @@ $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182200]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182201]]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182202]]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182203]]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182204]]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182205]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182206]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182207]]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182208]]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[textdict[1182209]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1182210]]'

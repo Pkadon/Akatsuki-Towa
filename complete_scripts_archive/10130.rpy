@@ -53,16 +53,13 @@ play sfx2 "fight_6024.ogg"
 c11 '[textdict[1007312]]'
 $ update_portrait('oc001_01 22', 'p1', [l(-2), dark, flip], 6)
 c9673 '[textdict[1007313]]'
-$ update_portrait('oc001_01 22', 'p1', [l(-2), dark, flip], 6)
 c9673 '[textdict[1007314]]'
-$ update_portrait('oc001_01 22', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 14', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch04_b.ogg"
 c23 '[textdict[1007315]]'
 $ update_portrait('oc002_01 14', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 7', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1007316]]'
-$ update_portrait('oc002_01 14', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 8', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na05.ogg"
 c11 '[textdict[1007317]]'

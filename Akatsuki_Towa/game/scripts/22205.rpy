@@ -8,9 +8,7 @@ with fade_in
 c13 '[textdict[1128594]]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c5621 '[textdict[1128595]]'
-$ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c5631 '[textdict[1128596]]'
-$ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c5621 '[textdict[1128597]]'
 hide p1
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)

@@ -59,13 +59,11 @@ c25031 '[textdict[2100345]]'
 $ update_portrait('sca38_01 1', 'p2503', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
 c483 '[textdict[2100346]]'
-$ update_portrait('sca38_01 1', 'p2503', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 4', 'p48', [r(-9), light], 5)
 c483 '[textdict[2100347]]'
 $ update_portrait('sc041_01 4', 'p48', [r(-9), dark], 5)
 $ update_portrait('sca38_01 2', 'p2503', [l(-1), light, flip], 6)
 c25031 '[textdict[2100348]]'
-$ update_portrait('sc041_01 4', 'p48', [r(-9), dark], 5)
 $ update_portrait('sca38_01 1', 'p2503', [l(-1), light, flip], 6)
 c25031 '[textdict[2100349]]'
 $ update_portrait('sca38_01 1', 'p2503', [l(-1), dark, flip], 6)

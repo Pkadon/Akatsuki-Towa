@@ -9,7 +9,6 @@ play sfx2 "other_7042.ogg"
 c11 '[textdict[1120901]]'
 $ update_portrait('oc001_01 8', 'p1', [l(-2), dark, flip], 6)
 c9893 '[textdict[1120902]]'
-$ update_portrait('oc001_01 8', 'p1', [l(-2), dark, flip], 6)
 c9883 '[textdict[1121477]]'
 hide p1
 c9881 '[textdict[1121478]]'
@@ -27,7 +26,6 @@ $ update_portrait('oc002_01 6', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc004_01 7', 'p4', [r(-5), light], 5)
 c43 '[textdict[1120910]]'
 hide p4
-$ update_portrait('oc002_01 6', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120911]]'
 return

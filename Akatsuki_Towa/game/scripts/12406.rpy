@@ -17,9 +17,7 @@ $ update_portrait('oc004_01 12', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), r_shake, light], 5)
 c13 '[textdict[1142489]]'
 hide p1
-$ update_portrait('oc004_01 12', 'p4', [l(-5), dark, flip], 6)
 c11473 '[textdict[1142490]]'
-$ update_portrait('oc004_01 12', 'p4', [l(-5), dark, flip], 6)
 c11483 '[textdict[1142491]]'
 hide p4
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
@@ -43,7 +41,6 @@ c31 '[textdict[1142496]]'
 hide p1
 $ update_portrait('oc003_01 16', 'p3', [l(-6), dark, flip], 6)
 c11473 '[textdict[1142497]]'
-$ update_portrait('oc003_01 16', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1142498]]'
 $ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
@@ -52,7 +49,6 @@ c31 '[textdict[1142499]]'
 hide p1
 $ update_portrait('oc003_01 6', 'p3', [l(-6), dark, flip], 6)
 c11483 '[textdict[1142500]]'
-$ update_portrait('oc003_01 6', 'p3', [l(-6), dark, flip], 6)
 c11373 '[textdict[1142501]]'
 hide p3
 $ update_portrait('oc004_01 3', 'p4', [l(-5), l_shake, light, flip], 6)
@@ -89,7 +85,6 @@ $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 7', 'p4', [r(-5), light], 5)
 c43 '[textdict[1142513]]'
 hide p4
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 5', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na19.ogg"
 c13 '[textdict[1142514]]'
@@ -98,13 +93,10 @@ $ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1142515]]'
 hide p2
-$ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 13', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1142516]]'
-$ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 7', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1142517]]'
-$ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 7', 'p4', [l(-5), l_shake, light, flip], 6)
 play sfxvoice "avg_vocal_li19.ogg"
 c41 '[textdict[1142518]]'

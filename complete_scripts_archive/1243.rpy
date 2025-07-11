@@ -44,7 +44,6 @@ $ update_portrait('ocd03_01 15', 'p2667', [r(-6), light], 5)
 c26673 '[textdict[2113088]]'
 $ update_portrait('ocd03_01 15', 'p2667', [r(-6), dark], 5)
 c27761 '[textdict[2113089]]'
-$ update_portrait('ocd03_01 15', 'p2667', [r(-6), dark], 5)
 c27751 '[textdict[2113090]]'
 $ update_portrait('ocd03_01 1', 'p2667', [r(-6), light], 5)
 c26673 '[textdict[2113091]]'
@@ -125,7 +124,6 @@ play sfx2 "other_7087.ogg"
 c26673 '[textdict[2113123]]' (what_size=(gui.text_size*1.2))
 $ update_portrait('ocd03_01 9', 'p2667', [r(-6), dark], 5)
 c27761 '[textdict[2113124]]'
-$ update_portrait('ocd03_01 9', 'p2667', [r(-6), dark], 5)
 c27751 '[textdict[2113125]]'
 $ update_portrait('ocd03_01 9', 'p2667', [r(-6), light], 5)
 c26673 '[textdict[2113126]]'
@@ -146,7 +144,6 @@ $ update_portrait('ocd03_01 4', 'p2667', [r(-6), light], 5)
 c26673 '[textdict[2113133]]'
 $ update_portrait('ocd03_01 4', 'p2667', [r(-6), dark], 5)
 c27751 '[textdict[2113134]]'
-$ update_portrait('ocd03_01 4', 'p2667', [r(-6), dark], 5)
 c27761 '[textdict[2113135]]'
 $ update_portrait('ocd03_01 9', 'p2667', [r(-6), light], 5)
 c26673 '[textdict[2113136]]'

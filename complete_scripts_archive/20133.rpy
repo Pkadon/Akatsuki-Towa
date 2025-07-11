@@ -14,7 +14,6 @@ $ update_portrait('sc050_01 4', 'p57', [l(-19), dark, flip], 6)
 $ update_portrait('sc051_01 4', 'p58', [r(-32), light], 5)
 c583 '[textdict[1006673]]'
 hide p58
-$ update_portrait('sc050_01 4', 'p57', [l(-19), dark, flip], 6)
 play sfx2 "elc_5005.ogg"
 c6653 '[textdict[1004289]]'
 $ update_portrait('sc050_01 1', 'p57', [l(-19), light, flip], 6)

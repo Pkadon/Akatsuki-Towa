@@ -36,10 +36,8 @@ c503 '[textdict[1001640]]'
 $ update_portrait('sc043_01 4', 'p50', [r(-20), dark], 5)
 $ update_portrait('st004_01 2', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1001641]]'
-$ update_portrait('sc043_01 4', 'p50', [r(-20), dark], 5)
 $ update_portrait('st004_01 5', 'p204', [l(4), light, flip], 6)
 c2041 '[textdict[1001642]]'
-$ update_portrait('sc043_01 4', 'p50', [r(-20), dark], 5)
 $ update_portrait('st004_01 1', 'p204', [l(4), light, flip], 6)
 play sfx2 "other_7088.ogg"
 c2041 '[textdict[1001643]]'

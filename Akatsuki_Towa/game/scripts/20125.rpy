@@ -16,26 +16,21 @@ c451 '[textdict[1006455]]'
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1006456]]'
-$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1006457]]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[1006458]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[1006459]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[1006460]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[1006461]]'
 $ update_portrait('sc038_01 5', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1006462]]'
-$ update_portrait('sc038_01 5', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1006463]]'
 hide p45

@@ -81,7 +81,6 @@ c561 '[textdict[2103338]]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc002_01 6', 'p2', [r(-3), light], 5)
 c23 '[textdict[2103339]]'
-$ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc002_01 22', 'p2', [r(-3), light], 5)
 c23 '[textdict[2103340]]'
 $ update_portrait('oc002_01 22', 'p2', [r(-3), dark], 5)
@@ -142,7 +141,6 @@ $ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc002_01 5', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch04.ogg"
 c23 '[textdict[2103363]]'
-$ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc002_01 6', 'p2', [r(-3), light], 5)
 c23 '[textdict[2103364]]'
 $ update_portrait('oc002_01 6', 'p2', [r(-3), dark], 5)
@@ -160,13 +158,11 @@ $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch11.ogg"
 c21 '[textdict[2103368]]'
 hide p2
-$ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc049_01 4', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[2103369]]'
 $ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc001_01 14', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103370]]'
-$ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc001_01 22', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103371]]'
 hide p56
@@ -191,7 +187,6 @@ c21 '[textdict[2103377]]'
 $ update_portrait('oc002_01 15', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103378]]'
-$ update_portrait('oc002_01 15', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103379]]'
 hide p2
@@ -203,7 +198,6 @@ $ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[2103381]]'
 hide p2
-$ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103382]]'
 hide p56

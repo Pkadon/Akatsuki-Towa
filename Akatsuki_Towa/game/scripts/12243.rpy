@@ -44,7 +44,6 @@ $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 $ update_portrait('oc001_01 8', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1121591]]'
 hide p1
-$ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 $ update_portrait('oc002_01 14', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1121592]]'
 $ update_portrait('oc002_01 14', 'p2', [l(-3), dark, flip], 6)

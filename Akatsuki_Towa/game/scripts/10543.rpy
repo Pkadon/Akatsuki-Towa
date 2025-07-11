@@ -20,7 +20,6 @@ $ update_portrait('st057_01 1', 'p1211', [r(-16), light], 5)
 c12113 '[textdict[1152712]]'
 $ update_portrait('st057_01 1', 'p1211', [r(-16), dark], 5)
 c12351 '[textdict[1152713]]'
-$ update_portrait('st057_01 1', 'p1211', [r(-16), dark], 5)
 c12351 '[textdict[1152714]]'
 $ update_portrait('st057_01 3', 'p1211', [r(-16), r_shake, light], 5)
 c12113 '[textdict[1152715]]'

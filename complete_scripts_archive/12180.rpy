@@ -23,7 +23,6 @@ $ update_portrait('oc005_01 9', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120585]]'
 hide p1
-$ update_portrait('oc005_01 9', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch25.ogg"
 c23 '[textdict[1120586]]'

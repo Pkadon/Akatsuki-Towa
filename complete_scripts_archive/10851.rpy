@@ -24,7 +24,6 @@ hide p4
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 4', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1189496]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1189497]]'
 hide p2
@@ -45,7 +44,6 @@ $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1189502]]'
 play music "ed7511.ogg"
 hide p4
-$ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 play sfx2 "elc_5006.ogg"
 c26221 '[textdict[1189503]]'
 hide p3

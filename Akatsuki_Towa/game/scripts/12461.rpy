@@ -30,9 +30,7 @@ play sfx2 "other_7072.ogg"
 c23 '[textdict[1143787]]'
 $ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143788]]'
-$ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143789]]'
-$ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143790]]'
 $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[1143791]]'

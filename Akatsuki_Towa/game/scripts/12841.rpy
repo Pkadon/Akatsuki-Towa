@@ -25,9 +25,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1186245]]'
 hide p4
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c15301 '[textdict[1186246]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c15291 '[textdict[1186247]]'
 hide p1
 play sfx2 "other_7016.ogg"

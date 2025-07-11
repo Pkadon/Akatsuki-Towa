@@ -15,7 +15,6 @@ $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('st004_01 5', 'p204', [r(4), light], 5)
 c2043 '[textdict[2102765]]'
 hide p204
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 c9773 '[textdict[2102766]]'
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 play sfx2 "other_7013.ogg"

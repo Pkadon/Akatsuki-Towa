@@ -24,11 +24,9 @@ c31 '[textdict[1177376]]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
 c43 '[textdict[1177377]]'
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 8', 'p4', [r(-5), light], 5)
 c43 '[textdict[1177378]]'
 hide p4
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1177379]]'
 hide p3
@@ -48,10 +46,8 @@ c33 '[textdict[1177383]]'
 $ update_portrait('oc003_01 1', 'p3', [r(-6), dark], 5)
 $ update_portrait('st065_01 1', 'p1468', [l(-6), light, flip], 6)
 c14681 '[textdict[1177384]]'
-$ update_portrait('oc003_01 1', 'p3', [r(-6), dark], 5)
 $ update_portrait('st065_01 1', 'p1468', [l(-6), light, flip], 6)
 c14681 '[textdict[1177385]]'
-$ update_portrait('oc003_01 1', 'p3', [r(-6), dark], 5)
 $ update_portrait('st065_01 1', 'p1468', [l(-6), light, flip], 6)
 c14681 '[textdict[1177386]]'
 scene avg_bg_070

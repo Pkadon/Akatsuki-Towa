@@ -10,7 +10,6 @@ $ update_portrait('oc004_01 11', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l_entrance(-18), light, flip], 6)
 play sfx2 "other_7087.ogg"
 c161 '[textdict[1154028]]' with shake
-$ update_portrait('oc004_01 11', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1154029]]'
 hide p4
@@ -21,10 +20,8 @@ hide p16
 $ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1154031]]'
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 15', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1154032]]'
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1154033]]'
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
@@ -58,7 +55,6 @@ $ update_portrait('sc031_01 2', 'p39', [l(-14), dark, flip], 6)
 $ update_portrait('sc032_01 4', 'p40', [r(-17), light], 5)
 c403 '[textdict[1154045]]'
 hide p40
-$ update_portrait('sc031_01 2', 'p39', [l(-14), dark, flip], 6)
 $ update_portrait('sc008_01 4', 'p16', [r(-18), light], 5)
 c163 '[textdict[1154046]]'
 hide p39
@@ -80,7 +76,6 @@ $ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1154051]]'
 hide p16
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1154052]]'
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
@@ -91,14 +86,11 @@ $ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc030_01 4', 'p38', [l(-12), light, flip], 6)
 c381 '[textdict[1154054]]'
 hide p38
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc031_01 1', 'p39', [l(-14), light, flip], 6)
 c391 '[textdict[1154055]]'
 hide p39
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc032_01 1', 'p40', [l(-17), light, flip], 6)
 c401 '[textdict[1154056]]'
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc032_01 5', 'p40', [l(-17), l_shake, light, flip], 6)
 c401 '[textdict[1154057]]'
 hide p1
@@ -119,7 +111,6 @@ $ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 9', 'p3', [l(-6), light, flip], 6)
 play sfx2 "other_7087.ogg"
 c31 '[textdict[1154061]]' with shake
-$ update_portrait('oc001_01 17', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1154062]]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
@@ -168,21 +159,17 @@ $ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('st050_01 1', 'p257', [r(-11), light], 5)
 c2573 '[textdict[1154077]]'
 hide p257
-$ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1154078]]'
 hide p2
-$ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1154079]]'
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('st041_01 4', 'p240', [l(-1), l_shake, light, flip], 6)
 c2401 '[textdict[1154080]]'
-$ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1154081]]'
 hide p240
-$ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('st050_01 4', 'p257', [l(-11), light, flip], 6)
 c2571 '[textdict[1154082]]'
 $ update_portrait('st050_01 4', 'p257', [l(-11), dark, flip], 6)
@@ -191,41 +178,32 @@ c33 '[textdict[1154083]]'
 $ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 $ update_portrait('st050_01 4', 'p257', [l(-11), light, flip], 6)
 c2571 '[textdict[1154084]]'
-$ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 $ update_portrait('st050_01 3', 'p257', [l(-11), light, flip], 6)
 c2571 '[textdict[1154085]]'
 hide p257
-$ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1154086]]'
-$ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1154087]]'
 hide p3
 $ update_portrait('st041_01 4', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('oc004_01 13', 'p4', [r(-5), light], 5)
 c43 '[textdict[1154088]]'
-$ update_portrait('st041_01 4', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1154089]]'
 hide p4
-$ update_portrait('st041_01 4', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1154090]]'
 hide p240
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1154091]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1154092]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1154093]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
 c161 '[textdict[1154094]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l_exit(-18), light, flip], 6)
 c161 '[textdict[1154095]]'
 hide p16

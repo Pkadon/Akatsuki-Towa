@@ -53,11 +53,8 @@ $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[2100769]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c11543 '[textdict[2100770]]'
-$ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c11543 '[textdict[2100771]]'
-$ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c11543 '[textdict[2100772]]'
-$ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 c11543 '[textdict[2100773]]'
 $ update_portrait('oc002_01 22', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch03.ogg"
@@ -143,7 +140,6 @@ $ update_portrait('oc002_01 14', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[2100811]]'
 $ update_portrait('oc002_01 14', 'p2', [l(-3), dark, flip], 6)
 c11543 '[textdict[2100812]]'
-$ update_portrait('oc002_01 14', 'p2', [l(-3), dark, flip], 6)
 c11543 '[textdict[2100813]]'
 $ update_portrait('oc002_01 22', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[2100814]]'

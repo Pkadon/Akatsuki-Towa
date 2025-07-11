@@ -45,14 +45,11 @@ $ update_portrait('sc005_01 1', 'p13', [r(-17), light], 5)
 c133 '[textdict[1151453]]'
 $ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151454]]'
-$ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151455]]'
-$ update_portrait('sc005_01 1', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151456]]'
 $ update_portrait('sc005_01 2', 'p13', [r(-17), r_shake, light], 5)
 c133 '[textdict[1151457]]'
 $ update_portrait('sc005_01 2', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151458]]'
-$ update_portrait('sc005_01 2', 'p13', [r(-17), dark], 5)
 c12021 '[textdict[1151459]]'
 return

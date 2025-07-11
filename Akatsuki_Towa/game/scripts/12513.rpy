@@ -28,7 +28,6 @@ c13 '[textdict[1151042]]'
 hide p3
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c5241 '[textdict[1151043]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 12', 'p3', [l(-6), l_shake, light, flip], 6)
 play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[1151044]]'

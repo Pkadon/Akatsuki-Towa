@@ -14,7 +14,6 @@ c13 '[textdict[1219110]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc053_01 4', 'p60', [l(-32), light, flip], 6)
 c601 '[textdict[1219111]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc053_01 4', 'p60', [l(-32), light, flip], 6)
 c601 '[textdict[1219112]]'
 menu:

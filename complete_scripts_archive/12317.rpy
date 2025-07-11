@@ -24,11 +24,8 @@ play sfxvoice "avg_vocal_ro13.ogg"
 c33 '[textdict[1133306]]'
 $ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 c5631 '[textdict[1133307]]'
-$ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 c5631 '[textdict[1133308]]'
-$ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 c5631 '[textdict[1133309]]'
-$ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 c5631 '[textdict[1133310]]'
 $ update_portrait('oc003_01 21', 'p3', [r(-6), r_shake, light], 5)
 play sfxvoice "avg_vocal_ro16.ogg"
@@ -45,7 +42,6 @@ $ update_portrait('oc002_01 7', 'p2', [r(-3), r_shake, light], 5)
 c23 '[textdict[1133314]]'
 $ update_portrait('oc002_01 7', 'p2', [r(-3), dark], 5)
 c5631 '[textdict[1133315]]'
-$ update_portrait('oc002_01 7', 'p2', [r(-3), dark], 5)
 c5631 '[textdict[1133316]]'
 hide p2
 $ update_portrait('sc050_01 4', 'p57', [r(-19), light], 5)

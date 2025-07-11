@@ -39,10 +39,8 @@ c14691 '[textdict[1190889]]'
 $ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 4', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190890]]'
-$ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 4', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190891]]'
-$ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 4', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190892]]'
 $ update_portrait('sta61_01 4', 'p2670', [r(-2), dark], 5)
@@ -51,18 +49,14 @@ c14691 '[textdict[1190893]]'
 hide p2670
 $ update_portrait('st064_01 3', 'p1469', [l(-2), dark, flip], 6)
 c14743 '[textdict[1190894]]'
-$ update_portrait('st064_01 3', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190895]]'
-$ update_portrait('st064_01 3', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190896]]'
 hide p1469
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14741 '[textdict[1190897]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14751 '[textdict[1190898]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14761 '[textdict[1190899]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190900]]'
@@ -72,16 +66,11 @@ $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 $ update_portrait('st064_01 3', 'p1469', [l(-2), light, flip], 6)
 c14691 '[textdict[1190902]]'
 hide p1469
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c25981 '[textdict[1190903]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c25971 '[textdict[1190904]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14741 '[textdict[1190905]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 $ update_portrait('st064_01 3', 'p1469', [l(-2), light, flip], 6)
 c14691 '[textdict[1190906]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 $ update_portrait('st064_01 1', 'p1469', [l(-2), light, flip], 6)
 c14691 '[textdict[1190907]]'
 $ update_portrait('st064_01 1', 'p1469', [l(-2), dark, flip], 6)
@@ -90,7 +79,6 @@ c26703 '[textdict[1190908]]'
 hide p1469
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14751 '[textdict[1190909]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 $ update_portrait('st064_01 2', 'p1469', [l(-2), light, flip], 6)
 c14691 '[textdict[1190910]]'
 $ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
@@ -102,17 +90,14 @@ c14691 '[textdict[1190912]]'
 $ update_portrait('st064_01 5', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190913]]'
-$ update_portrait('st064_01 5', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190914]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 $ update_portrait('st064_01 2', 'p1469', [l(-2), light, flip], 6)
 c14691 '[textdict[1190915]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 $ update_portrait('st064_01 3', 'p1469', [l(-2), l_shake, light, flip], 6)
 c14691 '[textdict[1190916]]'
 hide p1469
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 play sfx2 "other_7047.ogg"
 c14881 '[textdict[1190917]]'
 hide p2670
@@ -129,18 +114,14 @@ $ update_portrait('st064_01 2', 'p1469', [r(-2), light], 5)
 c14693 '[textdict[1190924]]'
 $ update_portrait('st064_01 2', 'p1469', [r(-2), dark], 5)
 c14821 '[textdict[1190925]]'
-$ update_portrait('st064_01 2', 'p1469', [r(-2), dark], 5)
 c14711 '[textdict[1190926]]'
 hide p1469
 $ update_portrait('st065_01 1', 'p1468', [r(-6), light], 5)
 c14683 '[textdict[1190927]]'
 $ update_portrait('st065_01 1', 'p1468', [r(-6), dark], 5)
 c14711 '[textdict[1190928]]'
-$ update_portrait('st065_01 1', 'p1468', [r(-6), dark], 5)
 c14711 '[textdict[1190929]]'
-$ update_portrait('st065_01 1', 'p1468', [r(-6), dark], 5)
 c14711 '[textdict[1190930]]'
-$ update_portrait('st065_01 1', 'p1468', [r(-6), dark], 5)
 c14711 '[textdict[1190931]]'
 hide p1468
 play sfx2 "other_7063.ogg"
@@ -151,23 +132,16 @@ $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190934]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190935]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14821 '[textdict[1190936]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190937]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190938]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190939]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190940]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14741 '[textdict[1190941]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190942]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190943]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190944]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190945]]'
@@ -186,19 +160,14 @@ c26703 '[textdict[1190950]]'
 hide p1469
 $ update_portrait('sta61_01 2', 'p2670', [r(-2), dark], 5)
 c14821 '[textdict[1190951]]'
-$ update_portrait('sta61_01 2', 'p2670', [r(-2), dark], 5)
 c14831 '[textdict[1190952]]'
-$ update_portrait('sta61_01 2', 'p2670', [r(-2), dark], 5)
 c14841 '[textdict[1190953]]'
-$ update_portrait('sta61_01 2', 'p2670', [r(-2), dark], 5)
 c14741 '[textdict[1190954]]'
-$ update_portrait('sta61_01 2', 'p2670', [r(-2), dark], 5)
 c25971 '[textdict[1190955]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), light], 5)
 c26703 '[textdict[1190956]]'
 $ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c14711 '[textdict[1190957]]'
-$ update_portrait('sta61_01 5', 'p2670', [r(-2), dark], 5)
 c25231 '[textdict[1190958]]' with shake
 hide p2670
 play sfx2 "other_7064.ogg"

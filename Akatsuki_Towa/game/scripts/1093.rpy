@@ -20,7 +20,6 @@ c13 '[textdict[2102042]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 4', 'p58', [l_entrance(-32), light, flip], 6)
 c581 '[textdict[2102043]]'
-$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102044]]'
 $ update_portrait('sc051_01 1', 'p58', [l(-32), dark, flip], 6)
@@ -29,7 +28,6 @@ c13 '[textdict[2102045]]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102046]]'
-$ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102047]]'
 $ update_portrait('sc051_01 1', 'p58', [l(-32), dark, flip], 6)
@@ -38,16 +36,13 @@ c13 '[textdict[2102048]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102049]]'
-$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102050]]'
-$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102051]]'
 $ update_portrait('sc051_01 1', 'p58', [l(-32), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102052]]'
-$ update_portrait('sc051_01 1', 'p58', [l(-32), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102053]]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
@@ -84,13 +79,11 @@ $ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102063]]'
 play music "ED6516.ogg"
-$ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 6)
 $ update_portrait('oc001_01 20', 'p1', [r(-2), r_shake, light], 5)
 c13 '[textdict[2102064]]'
 $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 1', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102065]]'
-$ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc051_01 4', 'p58', [l(-32), light, flip], 6)
 c581 '[textdict[2102066]]'
 $ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 6)

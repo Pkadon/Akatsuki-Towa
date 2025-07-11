@@ -27,7 +27,6 @@ $ update_portrait('sc044_01 2', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
 c33 '[textdict[1006665]]'
 hide p3
-$ update_portrait('sc044_01 2', 'p51', [l(-7), dark, flip], 6)
 play sfx2 "other_7072.ogg"
 play sfxvoice "avg_vocal_ji03.ogg"
 c7013 '[textdict[1006666]]'

@@ -8,7 +8,6 @@ play sfx2 "other_7054.ogg"
 c11 '[textdict[1006648]]'
 $ update_portrait('oc001_01 20', 'p1', [l(-2), dark, flip], 6)
 c7013 '[textdict[1006649]]'
-$ update_portrait('oc001_01 20', 'p1', [l(-2), dark, flip], 6)
 play sfxvoice "avg_vocal_ji05.ogg"
 c7013 '[textdict[1006650]]'
 hide p1

@@ -12,7 +12,6 @@ $ update_portrait('oc002_01 15', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch10.ogg"
 c21 '[textdict[1005453]]'
 hide p2
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st025_01 2', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005454]]'
 $ update_portrait('st025_01 2', 'p224', [l(-17), dark, flip], 6)
@@ -36,7 +35,6 @@ c2241 '[textdict[1005460]]'
 $ update_portrait('st025_01 2', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 c13 '[textdict[1005461]]'
-$ update_portrait('st025_01 2', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na05.ogg"
 c13 '[textdict[1005462]]'
@@ -49,7 +47,6 @@ c13 '[textdict[1005464]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st025_01 4', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005465]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st025_01 2', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005466]]'
 $ update_portrait('st025_01 2', 'p224', [l(-17), dark, flip], 6)
@@ -63,7 +60,6 @@ c21 '[textdict[1005468]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1005469]]'
-$ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1005470]]'
 hide p2
@@ -71,13 +67,11 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc039_01 2', 'p46', [l(-13), l_shake, light, flip], 6)
 c461 '[textdict[1005471]]'
 hide p46
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st025_01 3', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005472]]'
 $ update_portrait('st025_01 3', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1005473]]'
-$ update_portrait('st025_01 3', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1005474]]'
 hide p224
@@ -98,7 +92,6 @@ c473 '[textdict[1005479]]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('st025_01 4', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005480]]'
-$ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('st025_01 3', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005481]]'
 hide p47
@@ -106,14 +99,11 @@ $ update_portrait('st025_01 3', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
 c463 '[textdict[1005482]]'
 hide p46
-$ update_portrait('st025_01 3', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc002_01 21', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch15.ogg"
 c23 '[textdict[1005483]]'
-$ update_portrait('st025_01 3', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc002_01 19', 'p2', [r(-3), light], 5)
 c23 '[textdict[1005484]]'
-$ update_portrait('st025_01 3', 'p224', [l(-17), dark, flip], 6)
 $ update_portrait('oc002_01 18', 'p2', [r(-3), light], 5)
 c23 '[textdict[1005485]]'
 $ update_portrait('oc002_01 18', 'p2', [r(-3), dark], 5)
@@ -126,7 +116,6 @@ c473 '[textdict[1005487]]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('st025_01 4', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005490]]'
-$ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('st025_01 4', 'p224', [l(-17), light, flip], 6)
 c2241 '[textdict[1005491]]'
 $ update_portrait('st025_01 4', 'p224', [l(-17), dark, flip], 6)
@@ -154,7 +143,6 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 7', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch31.ogg"
 c21 '[textdict[1005498]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 4', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1005499]]'
 $ update_portrait('oc002_01 4', 'p2', [l(-3), dark, flip], 6)

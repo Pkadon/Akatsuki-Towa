@@ -21,9 +21,7 @@ c14691 '[textdict[1178625]]'
 hide p1304
 $ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
 c14743 '[textdict[1178626]]'
-$ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
 c14753 '[textdict[1178627]]'
-$ update_portrait('st064_01 2', 'p1469', [l(-2), dark, flip], 6)
 $ update_portrait('st061_01 2', 'p1304', [r(-2), light], 5)
 c13043 '[textdict[1178628]]'
 hide p1469

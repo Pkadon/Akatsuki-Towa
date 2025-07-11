@@ -20,20 +20,17 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1133810]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c10961 '[textdict[1133811]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c10961 '[textdict[1133812]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1133813]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 c10961 '[textdict[1133814]]'
-$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 c10961 '[textdict[1133815]]'
 hide p1
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1133816]]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c10961 '[textdict[1133817]]'
-$ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c10961 '[textdict[1133818]]'
 $ update_portrait('oc002_01 5', 'p2', [r(-3), light], 5)
 play sfx2 "common_quest.ogg"

@@ -19,7 +19,6 @@ $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1178610]]'
 play music "ed7511.ogg"
 hide p4
-$ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 play sfx2 "other_7080.ogg"
 c13091 '[textdict[1178611]]' with shake
 hide p3

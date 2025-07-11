@@ -82,7 +82,6 @@ $ update_portrait('sc040_01 1', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 5)
 c453 '[textdict[2111535]]'
 hide p45
-$ update_portrait('sc040_01 1', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('sc039_01 5', 'p46', [r(-13), light], 5)
 c463 '[textdict[2111536]]'
 $ update_portrait('sc039_01 5', 'p46', [r(-13), dark], 5)
@@ -105,7 +104,6 @@ c461 '[textdict[2111541]]'
 $ update_portrait('sc039_01 1', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 5)
 c453 '[textdict[2111542]]'
-$ update_portrait('sc039_01 1', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 5)
 play sfx2 "other_7004.ogg"
 c453 '[textdict[2111543]]'
@@ -143,13 +141,9 @@ c473 '[textdict[2111554]]'
 $ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 play sfx2 "other_7044.ogg"
 c5001 '[textdict[2111555]]'
-$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 c27411 '[textdict[2111556]]' with shake
-$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 c5001 '[textdict[2111557]]'
-$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 c27411 '[textdict[2111558]]'
-$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 c5001 '[textdict[2111559]]'
 scene avg_bg_038
 $ update_portrait('sc040_01 3', 'p47', [r(-9), light], 5)
@@ -160,7 +154,6 @@ $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
 c473 '[textdict[2111561]]'
 $ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 c27411 '[textdict[2111562]]'
-$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 c5001 '[textdict[2111563]]'
 $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
 play sfx2 "other_7047.ogg"
@@ -185,7 +178,6 @@ $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
 play sfx2 "other_7088.ogg"
 c473 '[textdict[2111571]]'
-$ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
 c473 '[textdict[2111572]]'
 return

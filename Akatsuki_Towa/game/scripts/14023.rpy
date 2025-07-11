@@ -12,7 +12,6 @@ $ update_portrait('oc002_01 20', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r_entrance(-2), light], 5)
 play sfx2 "elc_5005.ogg"
 c13 '[textdict[1202448]]'
-$ update_portrait('oc002_01 20', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1202459]]'
 scene avg_bg_022
@@ -45,7 +44,6 @@ c13 '[textdict[1202488]]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1202489]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 21', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1202490]]'
 hide p1

@@ -11,7 +11,6 @@ c41 '[textdict[1155140]]'
 $ update_portrait('oc004_01 5', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc002_01 16', 'p2', [r(-3), light], 5)
 c23 '[textdict[1155141]]'
-$ update_portrait('oc004_01 5', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc002_01 14', 'p2', [r(-3), r_shake, light], 5)
 play sfxvoice "avg_vocal_ch09.ogg"
 c23 '[textdict[1155142]]'

@@ -36,7 +36,6 @@ play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1120207]]'
 $ update_portrait('oc001_01 7', 'p1', [l(-2), dark, flip], 6)
 c7173 '[textdict[1120208]]'
-$ update_portrait('oc001_01 7', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('st033_01 3', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1120209]]'
 hide p1
@@ -45,11 +44,9 @@ $ update_portrait('oc002_01 5', 'p2', [l(-3), light, flip], 6)
 play sfx2 "fight_6024.ogg"
 play sfxvoice "bcv_oc002_c03_01.ogg"
 c21 '[textdict[1120210]]'
-$ update_portrait('st033_01 3', 'p232', [r(-7), dark], 5)
 $ update_portrait('oc002_01 5', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1121550]]'
 hide p2
-$ update_portrait('st033_01 3', 'p232', [r(-7), dark], 5)
 $ update_portrait('oc001_01 9', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120211]]'
 hide p232

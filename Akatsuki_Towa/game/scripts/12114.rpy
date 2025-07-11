@@ -44,7 +44,6 @@ play sfxvoice "avg_vocal_ro08.ogg"
 c31 '[textdict[1128195]]'
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 c9573 '[textdict[1128196]]'
-$ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
 c9573 '[textdict[1128197]]'
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1128198]]'

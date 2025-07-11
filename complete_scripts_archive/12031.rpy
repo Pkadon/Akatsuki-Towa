@@ -23,12 +23,9 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1120148]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c10091 '[textdict[1120149]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c10081 '[textdict[1120151]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7020.ogg"
 c10091 '[textdict[1120152]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7048.ogg"
 c10091 '[textdict[1120153]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)

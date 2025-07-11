@@ -22,11 +22,9 @@ $ update_portrait('oc002_01 21', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1160417]]'
 play music "ed7511.ogg"
-$ update_portrait('oc002_01 21', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), r_shake, light], 5)
 play sfx2 "other_7079.ogg"
 c13 '[textdict[1160418]]'
-$ update_portrait('oc002_01 21', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
 c13 '[textdict[1160419]]'
 return

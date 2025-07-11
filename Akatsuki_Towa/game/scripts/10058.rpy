@@ -17,7 +17,6 @@ $ update_portrait('oc001_01 10', 'p1', [l_entrance(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na20.ogg"
 c11 '[textdict[1004744]]'
 hide p1
-$ update_portrait('oc007_01 3', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1004745]]'
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
@@ -35,7 +34,6 @@ $ update_portrait('oc007_01 2', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc001_01 12', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1004749]]'
 hide p1
-$ update_portrait('oc007_01 2', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 play sfxvoice "avg_vocal_li18.ogg"
 c41 '[textdict[1004750]]'
@@ -46,7 +44,6 @@ hide p4
 $ update_portrait('oc007_01 3', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1004752]]'
-$ update_portrait('oc007_01 3', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1004753]]'
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
@@ -57,7 +54,6 @@ $ update_portrait('oc007_01 5', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1004755]]'
 hide p2
-$ update_portrait('oc007_01 5', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc001_01 7', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1004756]]'
@@ -70,7 +66,6 @@ $ update_portrait('oc007_01 1', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l_midback(-6), light, flip], 6)
 play sfx2 "other_7004.ogg"
 c31 '[textdict[1004758]]'
-$ update_portrait('oc007_01 1', 'p7', [r(-24), dark], 5)
 $ update_portrait('oc003_01 9', 'p3', [l(-6), l_shake, light, flip], 6)
 c31 '[textdict[1004759]]'
 hide p7
@@ -81,7 +76,6 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 7', 'p3', [l(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro14.ogg"
 c31 '[textdict[1004761]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1004762]]'
 hide p1
@@ -115,7 +109,6 @@ $ update_portrait('oc001_01 10', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na20.ogg"
 c11 '[textdict[1004770]]'
 hide p1
-$ update_portrait('sc049_01 2', 'p56', [r(-8), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1004771]]'
 $ update_portrait('oc002_01 8', 'p2', [l(-3), dark, flip], 6)
@@ -147,7 +140,6 @@ c13 '[textdict[1004778]]'
 $ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc049_01 7', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[1004779]]'
-$ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc049_01 7', 'p56', [l(-8), light, flip], 6)
 c561 '[textdict[1004780]]'
 hide p1

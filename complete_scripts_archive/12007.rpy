@@ -34,7 +34,6 @@ hide p2
 $ update_portrait('sc068_01 1', 'p72', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1007151]]'
-$ update_portrait('sc068_01 1', 'p72', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1007152]]'
 hide p72
@@ -56,16 +55,13 @@ $ update_portrait('sc068_01 2', 'p72', [l(-17), dark, flip], 6)
 $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[1007160]]'
 hide p2
-$ update_portrait('sc068_01 2', 'p72', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1007161]]'
-$ update_portrait('sc068_01 2', 'p72', [l(-17), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 play sfx2 "other_7088.ogg"
 c13 '[textdict[1007162]]'
 hide p1
-$ update_portrait('sc068_01 2', 'p72', [l(-17), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), r_shake, light], 5)
 play sfx2 "bat_craft_wind_01.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"
@@ -73,7 +69,6 @@ c23 '[textdict[1007163]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc068_01 4', 'p72', [l(-17), light, flip], 6)
 c721 '[textdict[1007164]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc068_01 1', 'p72', [l_exit(-17), light, flip], 6)
 play sfx2 "bat_utility_jump.ogg"
 c721 '[textdict[1007165]]'

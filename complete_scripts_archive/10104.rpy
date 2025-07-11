@@ -105,7 +105,6 @@ hide p230
 $ update_portrait('sc044_01 4', 'p51', [r(-7), dark], 5)
 $ update_portrait('st030_01 4', 'p229', [l(-8), light, flip], 6)
 c2291 '[textdict[1005764]]'
-$ update_portrait('sc044_01 4', 'p51', [r(-7), dark], 5)
 $ update_portrait('st030_01 4', 'p229', [l(-8), light, flip], 6)
 c2291 '[textdict[1005765]]'
 hide p51
@@ -119,14 +118,12 @@ c2301 '[textdict[1005767]]'
 $ update_portrait('st031_01 3', 'p230', [l(4), dark, flip], 6)
 $ update_portrait('st037_01 4', 'p236', [r(-10), light], 5)
 c2363 '[textdict[1005768]]'
-$ update_portrait('st031_01 3', 'p230', [l(4), dark, flip], 6)
 $ update_portrait('st037_01 4', 'p236', [r(-10), light], 5)
 c2363 '[textdict[1005769]]'
 hide p230
 $ update_portrait('st037_01 4', 'p236', [r(-10), dark], 5)
 $ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[textdict[1005770]]'
-$ update_portrait('st037_01 4', 'p236', [r(-10), dark], 5)
 $ update_portrait('st030_01 1', 'p229', [l_exit(-8), light, flip], 6)
 c2291 '[textdict[1005771]]'
 hide p229
@@ -147,19 +144,15 @@ c2363 '[textdict[1005776]]'
 $ update_portrait('st037_01 2', 'p236', [r(-10), dark], 5)
 $ update_portrait('sc044_01 2', 'p51', [l(-7), light, flip], 6)
 c511 '[textdict[1005777]]'
-$ update_portrait('st037_01 2', 'p236', [r(-10), dark], 5)
 $ update_portrait('sc044_01 1', 'p51', [l(-7), light, flip], 6)
 c511 '[textdict[1005778]]'
 $ update_portrait('sc044_01 1', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st037_01 3', 'p236', [r(-10), light], 5)
 c2363 '[textdict[1005779]]'
-$ update_portrait('sc044_01 1', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st037_01 4', 'p236', [r(-10), light], 5)
 c2363 '[textdict[1005780]]'
-$ update_portrait('sc044_01 1', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st037_01 4', 'p236', [r(-10), light], 5)
 c2363 '[textdict[1005781]]'
-$ update_portrait('sc044_01 1', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st037_01 4', 'p236', [r(-10), light], 5)
 c2363 '[textdict[1005782]]'
 $ update_portrait('st037_01 4', 'p236', [r(-10), dark], 5)

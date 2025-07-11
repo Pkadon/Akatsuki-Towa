@@ -21,10 +21,8 @@ hide p46
 $ update_portrait('sc041_01 4', 'p48', [r(-9), dark], 5)
 play sfx2 "elc_5005.ogg"
 c6651 '[textdict[1006693]]'
-$ update_portrait('sc041_01 4', 'p48', [r(-9), dark], 5)
 play sfx2 "elc_5005.ogg"
 c6651 '[textdict[1006693]]'
-$ update_portrait('sc041_01 4', 'p48', [r(-9), dark], 5)
 play sfx2 "elc_5005.ogg"
 c6651 '[textdict[1006693]]'
 hide p48
@@ -37,7 +35,6 @@ hide p65
 $ update_portrait('sc045_01 4', 'p52', [l(-11), dark, flip], 6)
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
 c453 '[textdict[1006698]]'
-$ update_portrait('sc045_01 4', 'p52', [l(-11), dark, flip], 6)
 $ update_portrait('sc038_01 3', 'p45', [r(-1), light], 5)
 play sfx2 "fight_6023.ogg"
 c453 '[textdict[1006699]]'

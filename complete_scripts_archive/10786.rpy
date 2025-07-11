@@ -38,7 +38,6 @@ hide p1469
 $ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 $ update_portrait('st065_01 1', 'p1468', [l(-6), light, flip], 6)
 c14681 '[textdict[1177830]]'
-$ update_portrait('oc002_01 23', 'p2', [r(-3), dark], 5)
 $ update_portrait('st065_01 1', 'p1468', [l(-6), light, flip], 6)
 c14681 '[textdict[1177831]]'
 hide p2

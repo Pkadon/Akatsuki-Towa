@@ -64,19 +64,14 @@ play sfxvoice "avg_vocal_ch21.ogg"
 c23 '[textdict[1143816]]'
 $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143817]]'
-$ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143818]]'
-$ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143819]]'
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1143820]]'
 $ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143821]]'
-$ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143822]]'
-$ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143823]]'
-$ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 c11651 '[textdict[1143824]]'
 $ update_portrait('oc002_01 18', 'p2', [r(-3), light], 5)
 c23 '[textdict[1143825]]'

@@ -36,9 +36,7 @@ play sfxvoice "bcv_oc001_c04_01.ogg"
 c11 '[textdict[1128049]]' (what_size=(gui.text_size*1.2)) with shake
 $ update_portrait('oc001_01 9', 'p1', [l(-2), dark, flip], 6)
 c9513 '[textdict[1128050]]'
-$ update_portrait('oc001_01 9', 'p1', [l(-2), dark, flip], 6)
 c9513 '[textdict[1128051]]'
-$ update_portrait('oc001_01 9', 'p1', [l(-2), dark, flip], 6)
 c9513 '[textdict[1128052]]'
 hide p1
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)

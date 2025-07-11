@@ -16,7 +16,6 @@ with fade
 c2323 '[textdict[1120276]]'
 $ update_portrait('st033_01 4', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1120277]]'
-$ update_portrait('st033_01 4', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1120278]]'
 $ update_portrait('st033_01 1', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1120279]]'

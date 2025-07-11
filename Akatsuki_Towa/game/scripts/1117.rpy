@@ -31,7 +31,6 @@ hide p1
 $ update_portrait('st004_01 6', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('sca15_01 5', 'p23', [r(9), light], 5)
 c233 '[textdict[2102905]]'
-$ update_portrait('st004_01 6', 'p204', [l(4), dark, flip], 6)
 $ update_portrait('sca15_01 1', 'p23', [r(9), light], 5)
 c233 '[textdict[2102906]]'
 return

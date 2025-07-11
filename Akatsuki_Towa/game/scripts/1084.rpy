@@ -45,13 +45,10 @@ c41 '[textdict[2101851]]'
 $ update_portrait('oc004_01 24', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[2101852]]'
-$ update_portrait('oc004_01 24', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[2101853]]'
-$ update_portrait('oc004_01 24', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[2101854]]'
-$ update_portrait('oc004_01 24', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 22', 'p1', [r(-2), light], 5)
 c13 '[textdict[2101855]]'
 return

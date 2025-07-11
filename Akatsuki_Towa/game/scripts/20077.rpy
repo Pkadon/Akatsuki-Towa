@@ -43,7 +43,6 @@ hide p203
 $ update_portrait('oc002_01 18', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1003998]]'
-$ update_portrait('oc002_01 18', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1003999]]'
 return

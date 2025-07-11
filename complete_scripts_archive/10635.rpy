@@ -32,7 +32,6 @@ hide p3
 $ update_portrait('st061_01 6', 'p1304', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1164079]]'
-$ update_portrait('st061_01 6', 'p1304', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1164080]]'
 play music "ed6564.ogg"
@@ -49,7 +48,6 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 14', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1164084]]'
 hide p2
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st061_01 2', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1164085]]'
 hide p1
@@ -77,7 +75,6 @@ hide p2
 $ update_portrait('sc010_01 4', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc004_01 11', 'p4', [r(-5), light], 5)
 c43 '[textdict[1164092]]'
-$ update_portrait('sc010_01 4', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1164093]]'
 hide p18

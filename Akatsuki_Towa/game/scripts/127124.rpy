@@ -9,20 +9,16 @@ play sfx2 "other_7047.ogg"
 c181 '[textdict[1180191]]'
 $ update_portrait('sc010_01 1', 'p18', [l(-10), dark, flip], 6)
 c13353 '[textdict[1180192]]'
-$ update_portrait('sc010_01 1', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180193]]'
 hide p1
-$ update_portrait('sc010_01 1', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
 c43 '[textdict[1180194]]'
 $ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180195]]'
-$ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180196]]'
-$ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180197]]'
 hide p4
@@ -30,19 +26,15 @@ $ update_portrait('sc010_01 4', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180198]]'
 hide p1
-$ update_portrait('sc010_01 4', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1180199]]'
-$ update_portrait('sc010_01 4', 'p18', [l(-10), dark, flip], 6)
 $ update_portrait('oc003_01 21', 'p3', [r(-6), light], 5)
 c33 '[textdict[1180200]]'
 $ update_portrait('oc003_01 21', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180201]]'
-$ update_portrait('oc003_01 21', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180202]]'
-$ update_portrait('oc003_01 21', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180203]]'
 hide p3
@@ -60,10 +52,8 @@ hide p18
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 7', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1180207]]'
-$ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1180208]]'
-$ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1180209]]'
 hide p3
@@ -78,10 +68,8 @@ $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc002_01 5', 'p2', [r(-3), light], 5)
 c23 '[textdict[1180212]]'
 hide p2
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180213]]'
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), r_shake, light], 5)
 c13 '[textdict[1180214]]'
 hide p4
@@ -105,7 +93,6 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7072.ogg"
 c13351 '[textdict[1180221]]'
 play music "ed7516.ogg"
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180222]]'
 hide p1
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
@@ -119,28 +106,19 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1180226]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180227]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180228]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180229]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180230]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180231]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc010_01 4', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180232]]'
 hide p18
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180233]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180234]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180235]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc010_01 1', 'p18', [l(-10), light, flip], 6)
 c181 '[textdict[1180236]]'
 hide p18
@@ -156,10 +134,8 @@ hide p2
 $ update_portrait('oc003_01 17', 'p3', [r(-6), dark], 5)
 play sfx2 "other_7071.ogg"
 c13351 '[textdict[1180240]]'
-$ update_portrait('oc003_01 17', 'p3', [r(-6), dark], 5)
 play sfx2 "other_7072.ogg"
 c13351 '[textdict[1180241]]'
-$ update_portrait('oc003_01 17', 'p3', [r(-6), dark], 5)
 c13351 '[textdict[1180242]]' with shake
 hide p3
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
@@ -183,7 +159,6 @@ $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1180250]]'
 hide p3
-$ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1180251]]'
 hide p2
@@ -193,11 +168,8 @@ c13 '[textdict[1180252]]'
 hide p4
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180253]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180254]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[textdict[1180255]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st061_01 4', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1180256]]'
 $ update_portrait('st061_01 4', 'p1304', [l(-2), dark, flip], 6)
@@ -227,7 +199,6 @@ c23 '[textdict[1180264]]'
 $ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('st063_01 2', 'p1346', [l(-16), light, flip], 6)
 c13461 '[textdict[1180265]]'
-$ update_portrait('oc002_01 9', 'p2', [r(-3), dark], 5)
 $ update_portrait('st063_01 4', 'p1346', [l(-16), light, flip], 6)
 c13461 '[textdict[1180266]]'
 hide p2

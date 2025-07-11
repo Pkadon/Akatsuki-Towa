@@ -11,7 +11,6 @@ c2053 '[textdict[2101344]]'
 $ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 $ update_portrait('sca58_01 1', 'p63', [l(-20), light, flip], 6)
 c631 '[textdict[2101345]]'
-$ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 $ update_portrait('sca58_01 1', 'p63', [l(-20), light, flip], 6)
 c631 '[textdict[2101346]]'
 $ update_portrait('sca58_01 1', 'p63', [l(-20), dark, flip], 6)
@@ -28,7 +27,6 @@ c2053 '[textdict[2101350]]'
 $ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 $ update_portrait('sca58_01 1', 'p63', [l(-20), light, flip], 6)
 c631 '[textdict[2101351]]'
-$ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 $ update_portrait('sca58_01 6', 'p63', [l(-20), light, flip], 6)
 c631 '[textdict[2101352]]'
 $ update_portrait('sca58_01 6', 'p63', [l(-20), dark, flip], 6)
@@ -85,7 +83,6 @@ c2021 '[textdict[2101378]]'
 $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 6)
 $ update_portrait('st005_01 4', 'p205', [r(4), light], 5)
 c2053 '[textdict[2101379]]'
-$ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 6)
 $ update_portrait('st005_01 4', 'p205', [r(4), light], 5)
 c2053 '[textdict[2101380]]'
 $ update_portrait('st005_01 4', 'p205', [r(4), dark], 5)
@@ -96,7 +93,6 @@ $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 6)
 $ update_portrait('sc058_01 4', 'p63', [r(-20), light], 5)
 c633 '[textdict[2101382]]'
 hide p63
-$ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 6)
 $ update_portrait('st005_01 2', 'p205', [r(4), light], 5)
 c2053 '[textdict[2101383]]'
 hide p202
@@ -124,10 +120,8 @@ c2053 '[textdict[2101395]]'
 $ update_portrait('st005_01 1', 'p205', [r(4), dark], 5)
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[textdict[2101396]]'
-$ update_portrait('st005_01 1', 'p205', [r(4), dark], 5)
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[textdict[2101397]]'
-$ update_portrait('st005_01 1', 'p205', [r(4), dark], 5)
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[textdict[2101398]]'
 $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 6)
@@ -145,13 +139,11 @@ c2021 '[textdict[2101402]]'
 hide p205
 $ update_portrait('st002_01 1', 'p202', [l(-9), dark, flip], 6)
 c25093 '[textdict[2101403]]'
-$ update_portrait('st002_01 1', 'p202', [l(-9), dark, flip], 6)
 $ update_portrait('st005_01 2', 'p205', [r(4), light], 5)
 c2053 '[textdict[2101404]]'
 hide p202
 $ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 c25101 '[textdict[2101405]]'
-$ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 c25121 '[textdict[2101406]]'
 $ update_portrait('st005_01 5', 'p205', [r(4), light], 5)
 c2053 '[textdict[2101407]]'

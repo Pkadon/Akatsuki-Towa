@@ -36,13 +36,11 @@ c13 '[textdict[1222514]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 1', 'p30', [l(-9), light, flip], 6)
 c301 '[textdict[1222515]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 1', 'p30', [l(-9), light, flip], 6)
 c301 '[textdict[1222516]]'
 $ update_portrait('sc022_01 1', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222517]]'
-$ update_portrait('sc022_01 1', 'p30', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 c13 '[textdict[1222518]]'
 $ update_portrait('oc001_01 18', 'p1', [r(-2), dark], 5)

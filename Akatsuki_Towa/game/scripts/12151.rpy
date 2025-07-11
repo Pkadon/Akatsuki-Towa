@@ -11,11 +11,9 @@ $ update_portrait('uc004_02 1', 'p960', [l(-9), dark, flip], 6)
 $ update_portrait('uc004_02 2', 'p961', [r(-9), light], 5)
 c9613 '[textdict[1128368]]'
 hide p961
-$ update_portrait('uc004_02 1', 'p960', [l(-9), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r_entrance(-2), light], 5)
 c13 '[textdict[1128369]]'
 hide p1
-$ update_portrait('uc004_02 1', 'p960', [l(-9), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1128370]]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
@@ -34,7 +32,6 @@ $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1128376]]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c9621 '[textdict[1128377]]'
-$ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c9621 '[textdict[1128378]]'
 menu:
     extend ""

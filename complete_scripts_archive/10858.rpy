@@ -15,10 +15,8 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 15', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[textdict[1190012]]'
 hide p2
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_02 3', 'p8', [l(-5), light, flip], 6)
 c81 '[textdict[1190013]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_02 3', 'p8', [l(-5), light, flip], 6)
 c81 '[textdict[1190014]]'
 hide p8
@@ -51,7 +49,6 @@ c13 '[textdict[1190023]]' with shake
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1190024]]'
-$ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1190025]]'
 $ update_portrait('oc002_01 3', 'p2', [l(-3), dark, flip], 6)
@@ -207,7 +204,6 @@ $ update_portrait('st061_01 3', 'p1304', [l(-2), dark, flip], 6)
 $ update_portrait('sc008_01 4', 'p16', [r(-18), light], 5)
 c163 '[textdict[1190117]]'
 hide p16
-$ update_portrait('st061_01 3', 'p1304', [l(-2), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1190118]]'
 hide p1304
@@ -218,17 +214,14 @@ hide p3
 $ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('st063_01 1', 'p1346', [r(-16), light], 5)
 c13463 '[textdict[1190120]]'
-$ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('st063_01 1', 'p1346', [r(-16), light], 5)
 c13463 '[textdict[1190121]]'
 hide p4
 $ update_portrait('st063_01 1', 'p1346', [r(-16), dark], 5)
 $ update_portrait('st061_01 2', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1190122]]'
-$ update_portrait('st063_01 1', 'p1346', [r(-16), dark], 5)
 $ update_portrait('st061_01 4', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1190123]]'
-$ update_portrait('st063_01 1', 'p1346', [r(-16), dark], 5)
 $ update_portrait('st061_01 4', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1190124]]'
 hide p1346

@@ -19,7 +19,6 @@ $ update_portrait('st033_01 2', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004497]]'
 $ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004498]]'
-$ update_portrait('st033_01 2', 'p232', [r(-7), dark], 5)
 c5381 '[textdict[1004499]]'
 $ update_portrait('st033_01 3', 'p232', [r(-7), light], 5)
 c2323 '[textdict[1004500]]'

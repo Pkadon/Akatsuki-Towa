@@ -28,11 +28,8 @@ $ update_portrait('oc002_01 5', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 4', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1177091]]'
 hide p1
-$ update_portrait('oc002_01 5', 'p2', [r(-3), dark], 5)
 c14781 '[textdict[1177092]]'
-$ update_portrait('oc002_01 5', 'p2', [r(-3), dark], 5)
 c14791 '[textdict[1177093]]'
-$ update_portrait('oc002_01 5', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1177094]]'
 hide p2
@@ -66,7 +63,6 @@ c11 '[textdict[1177103]]'
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('st065_01 1', 'p1468', [r(-6), light], 5)
 c14683 '[textdict[1177104]]'
-$ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('st065_01 5', 'p1468', [r(-6), light], 5)
 c14683 '[textdict[1177105]]'
 hide p1

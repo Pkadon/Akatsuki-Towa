@@ -16,9 +16,7 @@ c10513 '[textdict[1132665]]'
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 play sfx2 "other_7087.ogg"
 c10301 '[textdict[1132666]]' (what_size=(gui.text_size*1.2)) with shake
-$ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 c10301 '[textdict[1132667]]'
-$ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 c10301 '[textdict[1132668]]'
 $ update_portrait('uc003_04 2', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132669]]'
@@ -38,6 +36,5 @@ $ update_portrait('uc003_04 1', 'p1051', [r(-14), light], 5)
 c10513 '[textdict[1132676]]'
 $ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 c10521 '[textdict[1132677]]'
-$ update_portrait('uc003_04 1', 'p1051', [r(-14), dark], 5)
 c10521 '[textdict[1132678]]'
 return

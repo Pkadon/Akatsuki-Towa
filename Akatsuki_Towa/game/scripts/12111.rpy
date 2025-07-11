@@ -49,18 +49,14 @@ c701 '[textdict[1128123]]'
 $ update_portrait('sc066_01 4', 'p70', [l(-34), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[1128124]]'
-$ update_portrait('sc066_01 4', 'p70', [l(-34), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 c13 '[textdict[1128125]]'
-$ update_portrait('sc066_01 4', 'p70', [l(-34), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1128126]]'
 hide p70
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c9551 '[textdict[1128127]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c9551 '[textdict[1128128]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc066_01 4', 'p70', [l(-34), light, flip], 6)
 c701 '[textdict[1128129]]'
 $ update_portrait('sc066_01 4', 'p70', [l(-34), dark, flip], 6)

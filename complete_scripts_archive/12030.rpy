@@ -20,7 +20,6 @@ play sfxvoice "avg_vocal_ch06.ogg"
 c23 '[textdict[1120134]]'
 $ update_portrait('oc002_01 5', 'p2', [r(-3), dark], 5)
 c9721 '[textdict[1120136]]'
-$ update_portrait('oc002_01 5', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 4', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120137]]'
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 6)

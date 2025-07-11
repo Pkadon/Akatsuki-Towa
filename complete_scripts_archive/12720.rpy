@@ -22,13 +22,11 @@ c51 '[textdict[1171399]]'
 $ update_portrait('oc005_01 10', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1171400]]'
-$ update_portrait('oc005_01 10', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 18', 'p2', [r(-3), light], 5)
 c23 '[textdict[1171401]]'
 $ update_portrait('oc002_01 18', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 1', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171402]]'
-$ update_portrait('oc002_01 18', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 14', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171403]]'
 $ update_portrait('oc005_01 14', 'p5', [l(-6), dark, flip], 6)

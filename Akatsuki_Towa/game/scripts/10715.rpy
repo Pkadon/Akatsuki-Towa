@@ -22,9 +22,7 @@ $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[1170940]]'
 $ update_portrait('oc002_01 4', 'p2', [r(-3), dark], 5)
 c14201 '[textdict[1170941]]'
-$ update_portrait('oc002_01 4', 'p2', [r(-3), dark], 5)
 c14201 '[textdict[1170942]]'
-$ update_portrait('oc002_01 4', 'p2', [r(-3), dark], 5)
 c14201 '[textdict[1170943]]'
 $ update_portrait('oc002_01 21', 'p2', [r(-3), light], 5)
 c23 '[textdict[1170944]]'

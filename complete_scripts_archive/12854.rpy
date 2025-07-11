@@ -11,7 +11,6 @@ $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1188648]]'
 hide p3
-$ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1188649]]'
 hide p1
@@ -25,7 +24,6 @@ c31 '[textdict[1188651]]'
 $ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('st064_01 1', 'p1469', [r(-2), light], 5)
 c14693 '[textdict[1188652]]'
-$ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('st064_01 1', 'p1469', [r(-2), light], 5)
 c14693 '[textdict[1188653]]'
 hide p3
@@ -33,7 +31,6 @@ $ update_portrait('st064_01 1', 'p1469', [r(-2), dark], 5)
 $ update_portrait('oc002_01 23', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1188654]]'
 hide p2
-$ update_portrait('st064_01 1', 'p1469', [r(-2), dark], 5)
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1188655]]'
 hide p1469
@@ -47,7 +44,6 @@ c41 '[textdict[1188657]]'
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1188658]]'
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[1188659]]'
 scene avg_bg_213
@@ -60,7 +56,6 @@ $ update_portrait('st064_01 4', 'p1469', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1188663]]'
 hide p3
-$ update_portrait('st064_01 4', 'p1469', [r(-2), dark], 5)
 c14741 '[textdict[1188664]]'
 $ update_portrait('st064_01 3', 'p1469', [r(-2), light], 5)
 c14693 '[textdict[1188665]]'
@@ -74,7 +69,6 @@ c13 '[textdict[1188668]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st061_01 4', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1188669]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[textdict[1188670]]'
 hide p1

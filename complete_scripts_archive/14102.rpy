@@ -11,7 +11,6 @@ $ update_portrait('oc002_01 9', 'p2', [r(-3), light], 5)
 play sfxvoice "bcv_oc002_com_01.ogg"
 c23 '[textdict[1202114]]'
 hide p2
-$ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1202115]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)

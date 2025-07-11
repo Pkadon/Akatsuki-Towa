@@ -18,15 +18,12 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 2', 'p2', [l(-3), l_shake, light, flip], 6)
 play sfx2 "other_7009.ogg"
 c21 '[textdict[1151055]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 5', 'p2', [l(-3), l_shake, light, flip], 6)
 play sfx2 "other_7009.ogg"
 c21 '[textdict[1151056]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1151057]]'
 hide p2
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 play sfx2 "other_7009.ogg"
 c31 '[textdict[1151058]]'
@@ -45,7 +42,6 @@ stop music
 $ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 c10901 '[textdict[1151062]]'
 play music "ed7511.ogg"
-$ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1151063]]'
 hide p1

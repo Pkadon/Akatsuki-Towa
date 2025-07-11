@@ -46,7 +46,6 @@ c63 '[textdict[2100733]]'
 $ update_portrait('oc006_01 2', 'p6', [r(-5), dark], 5)
 $ update_portrait('uc002_03 3', 'p5008', [l(-23), light, flip], 6)
 c50081 '[textdict[2100734]]'
-$ update_portrait('oc006_01 2', 'p6', [r(-5), dark], 5)
 $ update_portrait('uc002_03 3', 'p5008', [l_exit(-23), light, flip], 6)
 c50081 '[textdict[2100735]]'
 hide p5008

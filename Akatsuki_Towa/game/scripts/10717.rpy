@@ -21,13 +21,9 @@ $ update_portrait('oc002_01 17', 'p2', [r(-3), light], 5)
 c23 '[textdict[1170972]]'
 $ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c14221 '[textdict[1170973]]'
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c14211 '[textdict[1170974]]'
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c14221 '[textdict[1170975]]'
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c14231 '[textdict[1170976]]'
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c14231 '[textdict[1170977]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1170978]]'
@@ -41,7 +37,6 @@ $ update_portrait('oc002_01 4', 'p2', [r(-3), light], 5)
 c23 '[textdict[1170982]]'
 $ update_portrait('oc002_01 4', 'p2', [r(-3), dark], 5)
 c14231 '[textdict[1170983]]'
-$ update_portrait('oc002_01 4', 'p2', [r(-3), dark], 5)
 c14231 '[textdict[1170984]]'
 hide p2
 c0 '[textdict[1170985]]'
@@ -54,7 +49,6 @@ c23 '[textdict[1170988]]'
 $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 play sfx2 "other_7042.ogg"
 c14241 '[textdict[1170989]]'
-$ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c14241 '[textdict[1170990]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1170991]]'
@@ -117,7 +111,6 @@ with fade
 c23 '[textdict[1171017]]'
 $ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 c14241 '[textdict[1171018]]'
-$ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 c14241 '[textdict[1171019]]'
 play music "ed7514.ogg"
 $ update_portrait('oc002_01 16', 'p2', [r(-3), light], 5)

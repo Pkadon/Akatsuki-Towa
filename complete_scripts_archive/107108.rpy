@@ -14,11 +14,8 @@ $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180024]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180025]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180026]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180027]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180028]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180029]]'
@@ -26,29 +23,21 @@ $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180030]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180031]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180032]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180033]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180034]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180035]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180036]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180037]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180038]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180039]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180040]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180041]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180042]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180043]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180044]]'
@@ -58,7 +47,6 @@ $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180046]]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180047]]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c5001 '[textdict[1180048]]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
 c13493 '[textdict[1180049]]'

@@ -20,7 +20,6 @@ $ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 play sfxvoice "avg_vocal_ro19.ogg"
 c33 '[textdict[1006636]]'
-$ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc003_01 5', 'p3', [r(-6), light], 5)
 play sfx2 "other_7071.ogg"
 play sfxvoice "avg_vocal_ro05.ogg"
@@ -30,8 +29,6 @@ $ update_portrait('oc003_01 5', 'p3', [r(-6), dark], 5)
 play sfx2 "other_7072.ogg"
 play sfxvoice "avg_vocal_ji05.ogg"
 c7011 '[textdict[1006638]]'
-$ update_portrait('oc003_01 5', 'p3', [r(-6), dark], 5)
 c7011 '[textdict[1006639]]'
-$ update_portrait('oc003_01 5', 'p3', [r(-6), dark], 5)
 c7011 '[textdict[1006640]]'
 return

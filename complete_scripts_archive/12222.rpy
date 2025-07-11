@@ -26,14 +26,12 @@ c463 '[textdict[1120974]]'
 $ update_portrait('sc039_01 2', 'p46', [r(-13), dark], 5)
 $ update_portrait('oc001_01 4', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120975]]'
-$ update_portrait('sc039_01 2', 'p46', [r(-13), dark], 5)
 $ update_portrait('oc001_01 18', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120976]]'
 hide p46
 $ update_portrait('oc001_01 18', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[1120977]]'
-$ update_portrait('oc001_01 18', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('oc002_01 5', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch24.ogg"
 c23 '[textdict[1120978]]'

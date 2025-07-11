@@ -80,25 +80,21 @@ $ update_portrait('oc003_01 3', 'p3', [r(-6), light], 5)
 c33 '[textdict[1132451]]'
 $ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
 c10441 '[textdict[1132452]]'
-$ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
 $ update_portrait('uc003_04 6', 'p1045', [l(-14), light, flip], 6)
 c10451 '[textdict[1132453]]'
 hide p3
 $ update_portrait('uc003_04 6', 'p1045', [l(-14), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132454]]'
-$ update_portrait('uc003_04 6', 'p1045', [l(-14), dark, flip], 6)
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132455]]'
 hide p1
-$ update_portrait('uc003_04 6', 'p1045', [l(-14), dark, flip], 6)
 $ update_portrait('oc003_01 21', 'p3', [r(-6), light], 5)
 c33 '[textdict[1132456]]'
 $ update_portrait('oc003_01 21', 'p3', [r(-6), dark], 5)
 $ update_portrait('uc003_04 5', 'p1045', [l(-14), light, flip], 6)
 c10451 '[textdict[1132457]]'
 hide p1045
-$ update_portrait('oc003_01 21', 'p3', [r(-6), dark], 5)
 c10401 '[textdict[1132458]]' with shake
 hide p3
 c10413 '[textdict[1132459]]' with shake

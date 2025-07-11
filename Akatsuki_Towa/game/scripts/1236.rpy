@@ -58,7 +58,6 @@ c451 '[textdict[2112311]]'
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112312]]'
-$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112313]]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
@@ -74,7 +73,6 @@ c451 '[textdict[2112316]]'
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112317]]'
-$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112318]]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
@@ -101,13 +99,11 @@ c473 '[textdict[2112325]]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112326]]'
-$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112327]]'
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112328]]'
-$ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112329]]'
 $ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
@@ -116,13 +112,11 @@ c451 '[textdict[2112330]]'
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112331]]'
-$ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112332]]'
 $ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112333]]'
-$ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc038_01 6', 'p45', [l(-1), light, flip], 6)
 c451 '[textdict[2112334]]'
 scene avg_bg_019

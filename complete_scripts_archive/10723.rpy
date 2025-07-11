@@ -10,7 +10,6 @@ c13 '[textdict[1171509]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1171510]]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 14', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1171511]]'
 $ update_portrait('oc004_01 14', 'p4', [l(-5), dark, flip], 6)
@@ -31,7 +30,6 @@ c51 '[textdict[1171518]]'
 $ update_portrait('oc005_01 1', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 15', 'p2', [r(-3), light], 5)
 c23 '[textdict[1171519]]'
-$ update_portrait('oc005_01 1', 'p5', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1171520]]'
 $ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
@@ -43,7 +41,6 @@ c23 '[textdict[1171522]]'
 $ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 15', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171523]]'
-$ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171524]]'
 $ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 6)
@@ -67,10 +64,8 @@ c23 '[textdict[1171531]]'
 $ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 17', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171532]]'
-$ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 19', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171533]]'
-$ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171534]]'
 $ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 6)
@@ -79,7 +74,6 @@ c23 '[textdict[1171535]]'
 $ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 17', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171536]]'
-$ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc005_01 19', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1171537]]'
 $ update_portrait('oc005_01 19', 'p5', [l(-6), dark, flip], 6)

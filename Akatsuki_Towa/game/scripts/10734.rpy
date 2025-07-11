@@ -8,7 +8,6 @@ with fade_in
 c13043 '[textdict[1172536]]'
 $ update_portrait('st061_01 1', 'p1304', [r(-2), dark], 5)
 c13361 '[textdict[1172537]]'
-$ update_portrait('st061_01 1', 'p1304', [r(-2), dark], 5)
 c13361 '[textdict[1172538]]'
 $ update_portrait('st061_01 5', 'p1304', [r(-2), light], 5)
 c13043 '[textdict[1172539]]'

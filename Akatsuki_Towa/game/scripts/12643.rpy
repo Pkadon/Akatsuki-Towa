@@ -22,7 +22,6 @@ hide p1
 $ update_portrait('oc003_01 8', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1163035]]' with shake
-$ update_portrait('oc003_01 8', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 3', 'p4', [r(-5), light], 5)
 c43 '[textdict[1163036]]'
 $ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)

@@ -11,7 +11,6 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1120735]]'
 hide p2
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 10', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1120736]]'
 hide p1
@@ -39,7 +38,6 @@ hide p3
 $ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1120742]]'
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 10', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1120743]]'
 hide p2
@@ -71,7 +69,6 @@ $ update_portrait('sc027_01 6', 'p35', [l(-10), dark, flip], 6)
 $ update_portrait('oc002_01 9', 'p2', [r(-3), light], 5)
 c23 '[textdict[1121433]]'
 hide p2
-$ update_portrait('sc027_01 6', 'p35', [l(-10), dark, flip], 6)
 $ update_portrait('oc004_01 23', 'p4', [r(-5), light], 5)
 c43 '[textdict[1121434]]'
 stop music
@@ -89,7 +86,6 @@ $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 19', 'p2', [l_entrance(-3), light, flip], 6)
 c21 '[textdict[1121437]]'
 hide p2
-$ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 21', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1121438]]'
 $ update_portrait('oc004_01 21', 'p4', [l(-5), dark, flip], 6)
@@ -115,7 +111,6 @@ $ update_portrait('uc004_02 4', 'p631', [l_entrance(-9), light, flip], 6)
 play sfx2 "fight_6024.ogg"
 c6311 '[textdict[1121444]]'
 hide p631
-$ update_portrait('sc027_01 5', 'p35', [r(-10), dark], 5)
 $ update_portrait('uc004_02 2', 'p626', [l_midback(-9), light, flip], 6)
 c6261 '[textdict[1121445]]'
 $ update_portrait('uc004_02 2', 'p626', [l(-9), dark, flip], 6)

@@ -18,13 +18,9 @@ play sfxvoice "avg_vocal_na20.ogg"
 c13 '[textdict[1128236]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128237]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128238]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128239]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128240]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c9591 '[textdict[1128241]]'
 hide p1
 play sfx2 "common_tag_2.ogg"
@@ -33,9 +29,7 @@ $ update_portrait('oc003_01 2', 'p3', [r(-6), light], 5)
 c33 '[textdict[1128243]]'
 $ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 c9591 '[textdict[1128244]]'
-$ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 c9591 '[textdict[1128245]]'
-$ update_portrait('oc003_01 2', 'p3', [r(-6), dark], 5)
 play sfx2 "common_quest.ogg"
 c9591 '[textdict[1128246]]'
 return

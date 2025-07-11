@@ -15,7 +15,6 @@ c2391 '[textdict[1170121]]'
 $ update_portrait('st040_01 3', 'p239', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1170122]]'
-$ update_portrait('st040_01 3', 'p239', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
 c33 '[textdict[1170123]]'
 $ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
@@ -24,10 +23,8 @@ c2391 '[textdict[1170124]]'
 $ update_portrait('st040_01 4', 'p239', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 1', 'p3', [r(-6), light], 5)
 c33 '[textdict[1170125]]'
-$ update_portrait('st040_01 4', 'p239', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 10', 'p3', [r(-6), light], 5)
 c33 '[textdict[1170126]]'
-$ update_portrait('st040_01 4', 'p239', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 5)
 c33 '[textdict[1170127]]'
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)

@@ -9,7 +9,6 @@ play sfx2 "other_7047.ogg"
 c13 '[textdict[1120914]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 c6871 '[textdict[1120915]]'
-$ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7004.ogg"
 c6871 '[textdict[1120916]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
@@ -32,9 +31,7 @@ c473 '[textdict[1120918]]'
 hide p46
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 c6871 '[textdict[1121483]]'
-$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 c6871 '[textdict[1120919]]'
-$ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 c6871 '[textdict[1120920]]'
 hide p47
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
@@ -53,7 +50,6 @@ $ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc039_01 1', 'p46', [l(-13), light, flip], 6)
 c461 '[textdict[1121564]]'
 hide p46
-$ update_portrait('oc004_01 8', 'p4', [r(-5), dark], 5)
 $ update_portrait('sc040_01 4', 'p47', [l(-9), light, flip], 6)
 c471 '[textdict[1121565]]'
 hide p4
@@ -63,8 +59,6 @@ c13 '[textdict[1121566]]'
 hide p47
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c6871 '[textdict[1121567]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c6871 '[textdict[1121568]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c6871 '[textdict[1121569]]'
 return

@@ -112,8 +112,10 @@ class GameState:
 				if alias == lit_alias:
 					self.hide_portraits(key, write=False)
 				else:
-					line = self.unpack_portrait_dict(key, color='dark')
-					self.add_line(line)
+					if not self.state[key].get('dark'):
+						line = self.unpack_portrait_dict(key, color='dark')
+						self.add_line(line)
+						self.state[key]['dark'] = True
 		
 	def update_portrait(self, pos, portrait_dict):
 		if portrait_dict == None:

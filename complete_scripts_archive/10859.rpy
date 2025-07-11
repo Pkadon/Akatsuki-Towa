@@ -142,19 +142,16 @@ $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190834]]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190835]]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190836]]'
 $ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190837]]'
 $ update_portrait('oce04_01 2', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190838]]'
-$ update_portrait('oce04_01 2', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190839]]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190840]]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190841]]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190842]]'
 $ update_portrait('oce04_01 16', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190843]]' with shake
@@ -182,7 +179,6 @@ $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190854]]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190855]]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[textdict[1190856]]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190857]]'
@@ -211,13 +207,10 @@ c13081 '[textdict[1190864]]'
 $ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 6)
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190865]]'
-$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 6)
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190866]]'
-$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 6)
 $ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190867]]'
-$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 6)
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
 c26683 '[textdict[1190868]]'
 hide p1308

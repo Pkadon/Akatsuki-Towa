@@ -48,10 +48,8 @@ play music "ed7526.ogg"
 $ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st028_01 4', 'p227', [r(8), light], 5)
 c2273 '[textdict[1000013]]'
-$ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st028_01 4', 'p227', [r(8), light], 5)
 c2273 '[textdict[1000013]]'
-$ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 6)
 $ update_portrait('st028_01 4', 'p227', [r(8), light], 5)
 c2273 '[textdict[1006975]]'
 hide p51
@@ -59,7 +57,6 @@ $ update_portrait('st028_01 4', 'p227', [r(8), dark], 5)
 $ update_portrait('oc008_01 1', 'p589', [l_entrance(-5), light, flip], 6)
 play sfxvoice "avg_vocal_ai07.ogg"
 c5891 '[textdict[1006976]]'
-$ update_portrait('st028_01 4', 'p227', [r(8), dark], 5)
 $ update_portrait('oc008_01 5', 'p589', [l(-5), light, flip], 6)
 c5891 '[textdict[1006977]]'
 $ update_portrait('oc008_01 5', 'p589', [l(-5), dark, flip], 6)
@@ -95,11 +92,8 @@ $ update_portrait('st028_01 2', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1006989]]'
 $ update_portrait('st028_01 2', 'p227', [l(8), dark, flip], 6)
 c5053 '[textdict[1006990]]'
-$ update_portrait('st028_01 2', 'p227', [l(8), dark, flip], 6)
 c5053 '[textdict[1006991]]'
-$ update_portrait('st028_01 2', 'p227', [l(8), dark, flip], 6)
 c5053 '[textdict[1006992]]'
-$ update_portrait('st028_01 2', 'p227', [l(8), dark, flip], 6)
 c5053 '[textdict[1006993]]'
 $ update_portrait('st028_01 2', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1006994]]'
@@ -117,7 +111,6 @@ $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1007000]]'
 $ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 6)
 c5053 '[textdict[1007001]]'
-$ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 6)
 c5053 '[textdict[1007002]]'
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1007003]]'
@@ -140,7 +133,6 @@ play sfxvoice "avg_vocal_ai09b.ogg"
 c5891 '[textdict[1007010]]'
 $ update_portrait('oc008_01 2', 'p589', [l(-5), dark, flip], 6)
 c5053 '[textdict[1007011]]'
-$ update_portrait('oc008_01 2', 'p589', [l(-5), dark, flip], 6)
 c5053 '[textdict[1007012]]'
 hide p589
 $ update_portrait('st028_01 4', 'p227', [l(8), light, flip], 6)
@@ -160,7 +152,6 @@ play sfxvoice "avg_vocal_ai09b.ogg"
 c5891 '[textdict[1007018]]'
 $ update_portrait('oc008_01 2', 'p589', [l(-5), dark, flip], 6)
 c5053 '[textdict[1007019]]'
-$ update_portrait('oc008_01 2', 'p589', [l(-5), dark, flip], 6)
 c5053 '[textdict[1007020]]'
 $ update_portrait('oc008_01 2', 'p589', [l(-5), light, flip], 6)
 c5891 '[textdict[1007021]]'
@@ -168,7 +159,6 @@ $ update_portrait('oc008_01 1', 'p589', [l(-5), light, flip], 6)
 c5891 '[textdict[1007022]]'
 $ update_portrait('oc008_01 1', 'p589', [l(-5), dark, flip], 6)
 c5053 '[textdict[1007023]]'
-$ update_portrait('oc008_01 1', 'p589', [l(-5), dark, flip], 6)
 c5053 '[textdict[1007024]]'
 $ update_portrait('oc008_01 2', 'p589', [l(-5), light, flip], 6)
 c5891 '[textdict[1007025]]'
@@ -190,7 +180,6 @@ c2273 '[textdict[1007030]]'
 $ update_portrait('st028_01 1', 'p227', [r(8), dark], 5)
 $ update_portrait('oc008_01 1', 'p589', [l(-5), light, flip], 6)
 c5891 '[textdict[1007031]]'
-$ update_portrait('st028_01 1', 'p227', [r(8), dark], 5)
 $ update_portrait('oc008_01 5', 'p589', [l(-5), light, flip], 6)
 c5891 '[textdict[1007032]]'
 $ update_portrait('oc008_01 5', 'p589', [l(-5), dark, flip], 6)

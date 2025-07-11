@@ -12,12 +12,10 @@ $ update_portrait('oc001_01 7', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na02.ogg"
 c11 '[textdict[1002456]]'
 hide p1
-$ update_portrait('sc027_01 3', 'p35', [r(-10), dark], 5)
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro13.ogg"
 c31 '[textdict[1002457]]'
 hide p3
-$ update_portrait('sc027_01 3', 'p35', [r(-10), dark], 5)
 $ update_portrait('oc002_01 16', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch23.ogg"
 c21 '[textdict[1002458]]'
@@ -34,7 +32,6 @@ c23 '[textdict[1002461]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 2', 'p4', [l_entrance(-5), light, flip], 6)
 c41 '[textdict[1002462]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 10', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1002463]]'
 hide p2
@@ -42,7 +39,6 @@ $ update_portrait('oc004_01 10', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
 c13 '[textdict[1002464]]'
 hide p1
-$ update_portrait('oc004_01 10', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('sc027_01 5', 'p35', [r_midback(-10), light], 5)
 c353 '[textdict[1002465]]'
 $ update_portrait('sc027_01 5', 'p35', [r(-10), dark], 5)
@@ -85,11 +81,9 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1002475]]'
 play music "ed7511.ogg"
 hide p1
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('sc027_01 3', 'p35', [r(-10), light], 5)
 play sfx2 "elc_5005.ogg"
 c353 '[textdict[1002476]]'
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
 $ update_portrait('sc027_01 5', 'p35', [r(-10), light], 5)
 play sfx2 "other_7051.ogg"
 c353 '[textdict[1002477]]'
@@ -101,11 +95,9 @@ c21 '[textdict[1002478]]'
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('sc027_01 5', 'p35', [r_midback(-10), light], 5)
 c353 '[textdict[1002479]]'
-$ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('sc027_01 3', 'p35', [r(-10), light], 5)
 play sfx2 "elc_5007.ogg"
 c353 '[textdict[1007703]]'
-$ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('sc027_01 3', 'p35', [r(-10), light], 5)
 c353 '[textdict[1007704]]' with shake
 return

@@ -29,7 +29,6 @@ c23 '[textdict[2102699]]'
 $ update_portrait('oc002_01 6', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc039_01 1', 'p46', [l(-13), light, flip], 6)
 c461 '[textdict[2102700]]'
-$ update_portrait('oc002_01 6', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc039_01 1', 'p46', [l(-13), light, flip], 6)
 c461 '[textdict[2102701]]'
 $ update_portrait('sc039_01 1', 'p46', [l(-13), dark, flip], 6)
@@ -46,9 +45,7 @@ c23 '[textdict[2102704]]'
 hide p4
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 c9961 '[textdict[2102705]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 c9961 '[textdict[2102706]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 c9961 '[textdict[2102707]]'
 hide p2
 c10893 '[textdict[2102708]]'
@@ -60,7 +57,6 @@ $ update_portrait('sc039_01 6', 'p46', [l(-13), light, flip], 6)
 c461 '[textdict[2102711]]'
 $ update_portrait('sc039_01 6', 'p46', [l(-13), dark, flip], 6)
 c9963 '[textdict[2102712]]'
-$ update_portrait('sc039_01 6', 'p46', [l(-13), dark, flip], 6)
 c9963 '[textdict[2102713]]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
 c461 '[textdict[2102714]]'
@@ -88,10 +84,8 @@ $ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l_entrance(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[textdict[2102722]]'
-$ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc003_01 14', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[2102723]]'
-$ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc003_01 13', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[2102724]]'
 hide p2
@@ -106,12 +100,10 @@ $ update_portrait('oc003_01 14', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102727]]'
 hide p1
-$ update_portrait('oc003_01 14', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 16', 'p4', [r_midback(-5), light], 5)
 play sfx2 "fight_6010.ogg"
 c43 '[textdict[2102728]]'
 hide p4
-$ update_portrait('oc003_01 14', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r_entrance(-3), light], 5)
 c23 '[textdict[2102729]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
@@ -128,7 +120,6 @@ hide p4
 $ update_portrait('oc003_01 12', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102733]]'
-$ update_portrait('oc003_01 12', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102734]]'
 hide p3
@@ -161,10 +152,8 @@ $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 17', 'p4', [r(-5), light], 5)
 c43 '[textdict[2102744]]'
 hide p4
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102745]]'
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102746]]'
 hide p3
@@ -188,14 +177,11 @@ hide p1
 $ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 c23 '[textdict[2102752]]'
-$ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 1', 'p2', [r(-3), light], 5)
 c23 '[textdict[2102753]]'
-$ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 1', 'p2', [r(-3), light], 5)
 c23 '[textdict[2102754]]'
 hide p2
-$ update_portrait('oc003_01 2', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 13', 'p4', [r(-5), r_shake, light], 5)
 c43 '[textdict[2102755]]'
 $ update_portrait('oc004_01 13', 'p4', [r(-5), dark], 5)
@@ -205,7 +191,6 @@ hide p4
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102757]]'
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 c13 '[textdict[2102758]]'
 hide p3

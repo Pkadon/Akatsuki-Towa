@@ -13,22 +13,17 @@ c2401 '[textdict[1153653]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('st050_01 5', 'p257', [r(-11), r_shake, light], 5)
 c2573 '[textdict[1153654]]'
-$ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('st050_01 1', 'p257', [r(-11), light], 5)
 c2573 '[textdict[1153655]]'
-$ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
 $ update_portrait('st050_01 5', 'p257', [r(-11), light], 5)
 c2573 '[textdict[1153656]]'
 $ update_portrait('st050_01 5', 'p257', [r(-11), dark], 5)
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1153657]]'
-$ update_portrait('st050_01 5', 'p257', [r(-11), dark], 5)
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1153658]]'
-$ update_portrait('st050_01 5', 'p257', [r(-11), dark], 5)
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1153659]]'
-$ update_portrait('st050_01 5', 'p257', [r(-11), dark], 5)
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1153660]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 6)
@@ -37,7 +32,6 @@ c2573 '[textdict[1153661]]'
 $ update_portrait('st050_01 5', 'p257', [r(-11), dark], 5)
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1153662]]'
-$ update_portrait('st050_01 5', 'p257', [r(-11), dark], 5)
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
 c2401 '[textdict[1153663]]'
 $ update_portrait('st041_01 4', 'p240', [l(-1), dark, flip], 6)

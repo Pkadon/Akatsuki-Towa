@@ -11,7 +11,6 @@ c13 '[textdict[1174604]]'
 play music "ed7511.ogg"
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14521 '[textdict[1174605]]' with shake
-$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1174606]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)

@@ -10,7 +10,6 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1151772]]'
 hide p2
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 7', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1151773]]'
 hide p1
@@ -39,10 +38,8 @@ hide p2
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151781]]'
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151782]]'
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1151783]]'
 hide p3
@@ -66,11 +63,9 @@ c31 '[textdict[1151788]]'
 $ update_portrait('oc003_01 12', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), r_shake, light], 5)
 c23 '[textdict[1151789]]'
-$ update_portrait('oc003_01 12', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch12.ogg"
 c23 '[textdict[1151790]]'
-$ update_portrait('oc003_01 12', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), r_shake, light], 5)
 c23 '[textdict[1151791]]'
 hide p3
@@ -97,7 +92,6 @@ c23 '[textdict[1151798]]'
 hide p3
 $ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 c12061 '[textdict[1151799]]'
-$ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 c12061 '[textdict[1151800]]'
 hide p2
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
@@ -117,9 +111,7 @@ $ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 14', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1151806]]'
 hide p4
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c12061 '[textdict[1151807]]'
-$ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 c12061 '[textdict[1151808]]'
 hide p2
 $ update_portrait('oc004_01 8', 'p4', [r(-5), light], 5)

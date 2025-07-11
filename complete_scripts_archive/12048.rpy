@@ -15,7 +15,6 @@ with fade
 c191 '[textdict[1120484]]'
 $ update_portrait('sc011_01 4', 'p19', [l(-1), dark, flip], 6)
 c9783 '[textdict[1120485]]'
-$ update_portrait('sc011_01 4', 'p19', [l(-1), dark, flip], 6)
 c9793 '[textdict[1120486]]'
 $ update_portrait('sc011_01 5', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120487]]'
@@ -28,13 +27,11 @@ c191 '[textdict[1120489]]'
 $ update_portrait('sc011_01 1', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 5', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120490]]'
-$ update_portrait('sc011_01 1', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 6', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120491]]'
 $ update_portrait('sc012_01 6', 'p20', [r(-16), dark], 5)
 $ update_portrait('sc011_01 6', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120492]]'
-$ update_portrait('sc012_01 6', 'p20', [r(-16), dark], 5)
 $ update_portrait('sc011_01 5', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120493]]'
 $ update_portrait('sc011_01 5', 'p19', [l(-1), dark, flip], 6)
@@ -43,28 +40,23 @@ c203 '[textdict[1120494]]'
 $ update_portrait('sc012_01 1', 'p20', [r(-16), dark], 5)
 $ update_portrait('sc011_01 2', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120495]]'
-$ update_portrait('sc012_01 1', 'p20', [r(-16), dark], 5)
 $ update_portrait('sc011_01 5', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120496]]'
 $ update_portrait('sc011_01 5', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 2', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120497]]'
-$ update_portrait('sc011_01 5', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 5', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120498]]'
-$ update_portrait('sc011_01 5', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 1', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120499]]'
 $ update_portrait('sc012_01 1', 'p20', [r(-16), dark], 5)
 $ update_portrait('sc011_01 5', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120500]]'
-$ update_portrait('sc012_01 1', 'p20', [r(-16), dark], 5)
 $ update_portrait('sc011_01 1', 'p19', [l(-1), light, flip], 6)
 c191 '[textdict[1120501]]'
 $ update_portrait('sc011_01 1', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 2', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120502]]'
-$ update_portrait('sc011_01 1', 'p19', [l(-1), dark, flip], 6)
 $ update_portrait('sc012_01 4', 'p20', [r(-16), light], 5)
 c203 '[textdict[1120503]]'
 $ update_portrait('sc012_01 4', 'p20', [r(-16), dark], 5)

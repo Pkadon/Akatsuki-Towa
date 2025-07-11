@@ -11,7 +11,6 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1202326]]'
 hide p2
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc020_01 1', 'p28', [l(-10), light, flip], 6)
 c281 '[textdict[1202327]]'
 hide p1
@@ -19,7 +18,6 @@ $ update_portrait('sc020_01 1', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1202328]]'
 hide p2
-$ update_portrait('sc020_01 1', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
 c13 '[textdict[1202329]]'
 hide p28
@@ -31,20 +29,16 @@ $ update_portrait('sc020_01 1', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1202331]]'
 hide p1
-$ update_portrait('sc020_01 1', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
 c23 '[textdict[1202332]]'
 hide p2
-$ update_portrait('sc020_01 1', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1202333]]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc020_01 1', 'p28', [l(-10), light, flip], 6)
 c281 '[textdict[1202334]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc020_01 1', 'p28', [l(-10), light, flip], 6)
 c281 '[textdict[1202335]]'
-$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc020_01 4', 'p28', [l(-10), light, flip], 6)
 c281 '[textdict[1202336]]'
 $ update_portrait('sc020_01 4', 'p28', [l(-10), dark, flip], 6)
@@ -91,7 +85,6 @@ $ update_portrait('sc020_01 4', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[1202771]]' (what_size=(gui.text_size*1.2))
 hide p1
-$ update_portrait('sc020_01 4', 'p28', [l(-10), dark, flip], 6)
 $ update_portrait('oc002_01 16', 'p2', [r(-3), light], 5)
 c23 '[textdict[1202772]]' (what_size=(gui.text_size*1.2))
 $ update_portrait('oc002_01 16', 'p2', [r(-3), dark], 5)

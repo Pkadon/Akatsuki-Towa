@@ -29,7 +29,6 @@ $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1120693]]'
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 c9833 '[textdict[1120694]]'
-$ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
 c9843 '[textdict[1120695]]'
 $ update_portrait('oc002_01 14', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1120696]]'

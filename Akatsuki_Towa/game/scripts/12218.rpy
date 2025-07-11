@@ -28,13 +28,11 @@ $ update_portrait('uc004_02 2', 'p990', [r(-6), dark], 5)
 $ update_portrait('oc004_01 8', 'p4', [l_entrance(-5), light, flip], 6)
 c41 '[textdict[1120928]]'
 hide p4
-$ update_portrait('uc004_02 2', 'p990', [r(-6), dark], 5)
 $ update_portrait('oc001_01 10', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1120929]]'
 $ update_portrait('oc001_01 10', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc004_02 1', 'p990', [r(-6), light], 5)
 c9903 '[textdict[1120930]]'
-$ update_portrait('oc001_01 10', 'p1', [l(-2), dark, flip], 6)
 $ update_portrait('uc004_02 4', 'p990', [r(-6), light], 5)
 c9903 '[textdict[1120931]]'
 hide p1
@@ -45,7 +43,6 @@ hide p990
 $ update_portrait('sc040_01 8', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('sc039_01 2', 'p46', [r(-13), light], 5)
 c463 '[textdict[1120933]]'
-$ update_portrait('sc040_01 8', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('sc039_01 7', 'p46', [r(-13), light], 5)
 c463 '[textdict[1120934]]'
 hide p47

@@ -24,13 +24,11 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1003976]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c6591 '[textdict[1003977]]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c6591 '[textdict[1003978]]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 c13 '[textdict[1003979]]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c6591 '[textdict[1003980]]'
-$ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7022.ogg"
 c6591 '[textdict[1003981]]'
 hide p1

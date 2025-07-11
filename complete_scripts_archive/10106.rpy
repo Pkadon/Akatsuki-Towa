@@ -12,7 +12,6 @@ $ update_portrait('oc001_01 9', 'p1', [r(-2), r_shake, light], 5)
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 c13 '[textdict[1005873]]'
 hide p1
-$ update_portrait('st028_01 4', 'p500', [l(8), dark, flip], 6)
 $ update_portrait('oc002_01 9', 'p2', [r(-3), light], 5)
 play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[textdict[1005874]]'
@@ -63,13 +62,10 @@ c43 '[textdict[1005886]]'
 $ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005887]]'
-$ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005888]]'
-$ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005889]]'
-$ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005890]]'
 hide p4
@@ -79,7 +75,6 @@ c33 '[textdict[1005891]]'
 $ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005892]]'
-$ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005893]]'
 scene avg_bg_012
@@ -100,20 +95,17 @@ c43 '[textdict[1005897]]'
 $ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005898]]'
-$ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005899]]'
 hide p4
 $ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 6)
 $ update_portrait('oc003_01 9', 'p3', [r_midback(-6), light], 5)
 c33 '[textdict[1005900]]'
-$ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 6)
 $ update_portrait('oc003_01 3', 'p3', [r(-6), light], 5)
 c33 '[textdict[1005901]]'
 $ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 c2271 '[textdict[1005902]]'
-$ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
 $ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
 play sfx2 "elc_5001.ogg"
 c2271 '[textdict[1005903]]'

@@ -19,7 +19,6 @@ c461 '[textdict[1121491]]'
 $ update_portrait('sc039_01 4', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('oc002_01 5', 'p2', [r(-3), light], 5)
 c23 '[textdict[1121032]]'
-$ update_portrait('sc039_01 4', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('oc002_01 8', 'p2', [r(-3), light], 5)
 c23 '[textdict[1121033]]'
 hide p46

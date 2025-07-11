@@ -25,21 +25,17 @@ hide p2
 $ update_portrait('st040_01 1', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132134]]'
-$ update_portrait('st040_01 1', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132135]]'
 hide p1
-$ update_portrait('st040_01 1', 'p1043', [l(-19), dark, flip], 6)
 $ update_portrait('oc003_01 6', 'p3', [r(-6), light], 5)
 c33 '[textdict[1132136]]'
 hide p1043
 $ update_portrait('oc003_01 6', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc048_01 3', 'p55', [l(-7), light, flip], 6)
 c551 '[textdict[1132137]]'
-$ update_portrait('oc003_01 6', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc048_01 1', 'p55', [l(-7), light, flip], 6)
 c551 '[textdict[1132138]]'
-$ update_portrait('oc003_01 6', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc048_01 4', 'p55', [l(-7), light, flip], 6)
 c551 '[textdict[1132139]]'
 hide p3
@@ -47,16 +43,13 @@ $ update_portrait('sc048_01 4', 'p55', [l(-7), dark, flip], 6)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132140]]'
 hide p1
-$ update_portrait('sc048_01 4', 'p55', [l(-7), dark, flip], 6)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 c23 '[textdict[1132141]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc048_01 1', 'p55', [l(-7), light, flip], 6)
 c551 '[textdict[1132142]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc048_01 3', 'p55', [l(-7), light, flip], 6)
 c551 '[textdict[1132143]]'
-$ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc048_01 4', 'p55', [l(-7), light, flip], 6)
 c551 '[textdict[1132144]]'
 hide p2
@@ -70,7 +63,6 @@ c21 '[textdict[1132146]]'
 $ update_portrait('oc002_01 4', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132147]]'
-$ update_portrait('oc002_01 4', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
 c13 '[textdict[1132148]]'
 menu:

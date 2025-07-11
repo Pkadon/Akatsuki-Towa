@@ -51,7 +51,6 @@ c511 '[textdict[1006714]]'
 hide p2
 $ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 6)
 c7013 '[textdict[1006715]]'
-$ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 6)
 play sfxvoice "avg_vocal_ji05.ogg"
 c7013 '[textdict[1006716]]'
 hide p51

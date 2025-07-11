@@ -13,9 +13,7 @@ with fade
 c13083 '[textdict[1173638]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173639]]'
-$ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173640]]'
-$ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173641]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1173642]]'
@@ -47,7 +45,6 @@ $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1173655]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173656]]'
-$ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173657]]'
 $ update_portrait('st062_01 6', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1173658]]'
@@ -59,7 +56,6 @@ $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1173661]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173662]]'
-$ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
 c14521 '[textdict[1173663]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
 c13083 '[textdict[1173664]]'
