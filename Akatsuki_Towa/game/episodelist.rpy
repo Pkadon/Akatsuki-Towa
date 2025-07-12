@@ -103,8 +103,6 @@ init python:
 
 # The very first menu you see when you click the "Scene Select" button.
 screen episodelist():
-    default chaptername = ''
-    default questname = ''
     window:
         xysize (840,480)
         background "sceneselect"
@@ -315,10 +313,11 @@ screen quest(data):
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
-    default fulltext = ''
-    default prefix = ''
     python:
         if 'fulltext' not in data:
+            fulltext = ''
+            prefix = ''
+
             if data['type'] == 1: prefix = logmain + ' '
             elif data['type'] == 2: prefix = logsub + ' '
             elif data['type'] == 16: prefix = logdaily + ' '
