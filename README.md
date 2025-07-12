@@ -6,8 +6,9 @@
  - [Add Typewriter Sound Effect](#adding-typewriter-sound-effect-back-in)
  - [Accuracy](#accuracy)
  - [Translation](#translation)
-   - [Translation File Generator](#translation-file-generation-experimental)
+   - [Translation File Generator](#translation-file-generation)
  - [Mobile](#mobile-version)
+ - [Troubleshooting](#troubleshooting)
  - [Thanks](#extra-special-thanks)
 ---
 # Setup
@@ -84,12 +85,12 @@ These scripts are only able to use the information that was accessible from the 
    - uses `booktabs.json` in combination with `quest.json` to create a simpler questlog json file in the `generate_scripts/extra_json` folder called `new_quest.json` 
 
  2. **`2_make_new_story_json.py`:**
-   - uses `avg_replay.json` to organize and label all cutscenes accessible from the "物語回想" section of the in-game Bracer Notebook
+   - uses `avg_replay.json` to organize and label all cutscenes accessible from the `物語回想` section of the in-game Bracer Notebook
    - then uses the newly-made `generate_scripts/extra_json/new_quest.json` to match up quests with their questlog by matching the ID of the quest's string with the ID of the questlog's string.
    - outputs `new_story.json` in the `generate_scripts/extra_json` folder
 
  3. **`3_make_new_training_json.py`:**
-   - uses `quest.json`, `trigger.json`, and `training_event.json` to find "戦闘訓練" stages that trigger cutscenes, and creates `new_training.json` in the `generate_scripts/extra_json` folder
+   - uses `quest.json`, `trigger.json`, and `training_event.json` to find `戦闘訓練` stages that trigger cutscenes, and creates `new_training.json` in the `generate_scripts/extra_json` folder
 
    - **NOTE for sorting Training Events:** 
      - This script by default will only sort the `訓練` section of Training, skipping over the `イベント` section, because not all `イベント` cutscenes are accessible from all `quest.json`+`training_event.json` combinations. (that's why there's `generate_scripts/extra_json/EX12_event.json`)
@@ -140,13 +141,15 @@ But the hooks are all still intact, and if you have a usable audio recording, yo
 
 Everything was done with the goal of being as accurate as possible, but nothing is 100% certain to be 100% accurate
 
- - **Scene menu placement**:
-   - Story cutscenes were originally sorted using original files, so should be correctly labeled
+ - **Scene labeling, order**:
+   - Story:
+     - Scenes were originally sorted using original files, so should be correctly labeled
+     - They HAVE been reordered from the original `物語回想` menu's ordering (namely, the quests from Prologue up through Chapter 3) but it was mostly to get them closer to the original play order.  (the original menu had grouped them by Main and Sub quests, instead of the order they were played in)
    - Training:
-     - "訓練" cutscenes were originally sorted using original files, so should be correctly labeled
-     - "イベント" cutscenes were sorted by hand, and their current placement can be found inside [generate_scripts/extra_json/EX12_event.json](generate_scripts/extra_json/EX12_event.json)
-       - most "イベント" scenes are not labeled with their original title, but instead defaulting to the overall event's title if it wasn't 100% sure
-   - pretty much everything else was sorted by hand, and its current placement can be found inside one of the other json files in [generate_scripts/extra_json](generate_scripts/extra_json/)
+     - `訓練` cutscenes were originally sorted using original files, so should be correctly labeled and ordered
+     - `イベント` cutscenes were sorted by hand, and their current placement can be found inside [generate_scripts/extra_json/EX12_event.json](generate_scripts/extra_json/EX12_event.json)
+       - Most `イベント` scenes are not labeled with their original title, but instead defaulting to the overall event's title if it wasn't 100% sure where the correct string was.
+   - Pretty much everything else was sorted by hand, and its current placement can be found inside one of the other json files in [generate_scripts/extra_json](generate_scripts/extra_json/)
      - Especially for unused scenes in [generate_scripts/extra_json/EX15_unused.json](generate_scripts/extra_json/EX15_unused.json), there is no documentation or video reference to use, and some scenes were originally numbered out of order, so take placement and scene titles with a grain of salt 
 
  - **Character Sprites**:
@@ -157,16 +160,24 @@ Everything was done with the goal of being as accurate as possible, but nothing 
      -  cropped from their original texture atlases, using the coordinates found in the original game files
      -  placement on the "body" sprite was done by hand. this can be verified by clicking the "Sprite" button on the left side of Akatsuki-Towa's Scene Select menu to go to "Sprite Test" mode
         - the first line of dialogue for when a sprite shows up ("oc000_01") is the default "body" sprite.
-        - the second line of dialogue (oc000_01 1") shows the default "face" sprite overlayed on top of the body sprite
+        - the second line of dialogue ("oc000_01 1") shows the default "face" sprite overlayed on top of the body sprite
 
  - **Cutscene Accuracy**:
-   - tried to use all values included in the cutscene files, but it's still being converted to a renpy script, and was "eyeballed" until everything looked right
    - music, sound effects should all play when they are supposed to
    - backgrounds should change when they are supposed to
-     - some transitions are still slightly off (background/character sprite/text box appearing/disappearing in a different order from the original game)
    - animations don't use any values from game files and are "made up"
    - "memory" overlay was recreated with GIMP, and is not 100% accurate to the original game.
    - "typewriter" sound effect is disabled by default. (see [enabletypewritersound.rpy](#enabletypewritersound.rpy)
+
+ - **Observed Differences from the original game**:
+   - **+** **Obvious** errors and inconsistencies have been carefully corrected. 
+      - Most of these can be undone if needed by deleting the block in the [script generator](generate_scripts/5_generate_script.py), then regenerating the scripts.
+      - There is also a duplicate line that is skipped in avg 12038.  The line to remove that can be found a little further down in the same script.
+      - And a typo fix at the bottom of [loadinfo.rpy](Akatsuki_Towa/game/loadinfo.rpy)
+   - **+** Portrait animations will now wait for the fade transition to finish before playing.  In the original game it was possible to miss animations, or see them be applied to the wrong character's portrait while the fade played out.
+   - **+** If a character without a portrait speaks from the left or right side of the screen while a portrait is being shown in the middle position, the middle portrait will be darkened to indicate that it is not the one speaking.  This was not accounted for in the original game!
+   - **+** Similarly, if portraits are being displayed on the left/right sides, and a charPos 0 speaker with no portrait speaks, the left/right portraits will be darkened.
+   - **-** Selecting a choice is not supposed to "clear the board" and remove all portraits.  I'm not sure whether this will be able to be fixed here or not.
 
 ---
 
@@ -213,11 +224,11 @@ Please test your file early and often, to make sure that it is loaded properly.
 ```
 
 ### CSV notes
-**These suggestions are for what the output file should look like.  You may need to do some testing to figure out how much of this your spreadsheet software is already doing automatically.**
+**These suggestions are for what the output file should look like.  You may need to do some testing to figure out how much of this your spreadsheet software is already handling automatically.**
  - It is recommended that the field containing the string is surrounded with double-quotes to make sure commas and linebreaks are included properly.
  - Add a linebreak to a string with the "enter" key, newline characters ("\\n") don't seem to work here.
  - Double-quotes that are a part of the string should be typed twice. (see example below)
- - Double all left curly brace characters that are part of the string ("{{")
+ - Double all left curly brace characters that are part of the string ("{{") 
  - Double all left square brackets that are part of strings that show on the scene select menu ("[[")
    - This does not seem to be required for strings that are only shown as dialogue, but more experimenting may need to be done
 
@@ -269,6 +280,11 @@ You can build your own copy, though. (just don't put ads in it or upload it to a
  4. Then you should be able to proceed with the mobile build instructions from Ren'Py: 
    - [Android](https://www.renpy.org/doc/html/android.html#building-android-applications)
    - [iOS](https://www.renpy.org/doc/html/ios.html#packaging) (sorry, I am unable to test or help with any iOS stuff)
+
+---
+## Troubleshooting
+**"Jumping" Menu Text:**
+ - As of V3.0, under certain conditions, it is possible for button text to be shown in the wrong position at first, and then it will jump to where it was supposed to be after being hovered over with the mouse.  As far as I can tell, this seems to be an issue caused by Ren'Py caching older versions of the menu, and then not clearing or updating it completely after text has been changed.  Please try deleting Akatsuki Towa's `game/cache` and/or `game/saves` folders, and hopefully that should fix it.  If it does *not*, please open a new issue [here](https://github.com/Pkadon/Akatsuki-Towa/issues) and let me know.  Thanks!
 
 ---
 # EXTRA-SPECIAL THANKS
