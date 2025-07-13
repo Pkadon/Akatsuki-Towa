@@ -3,6 +3,7 @@ label avg24520:
 stop music
 scene placeholderbackground
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
+$ update_narrator('c23')
 window show
 with fade_in
 c23 '[textdict[1206042]]'

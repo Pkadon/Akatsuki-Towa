@@ -2,6 +2,7 @@ label avg10097:
 
 play music "ED6103.ogg"
 scene avg_bg_038
+$ update_narrator('c6923')
 window show
 with fade_in
 $ update_portrait('st044_01 2', 'p692', [r_entrance(10), light], 5)

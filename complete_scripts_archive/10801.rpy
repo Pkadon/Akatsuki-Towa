@@ -2,12 +2,14 @@ label avg10801:
 
 play music "ed7513.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1180750]]'
 c0 '[textdict[1180751]]'
 scene avg_bg_202
 show memoryoverlay zorder 2
+$ update_narrator('c14931')
 with fade
 c14931 '[textdict[1180752]]'
 c0 '[textdict[1180753]]'

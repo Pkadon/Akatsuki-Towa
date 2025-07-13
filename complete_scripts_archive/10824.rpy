@@ -2,11 +2,13 @@ label avg10824:
 
 play music "ed7513.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1184791]]'
 scene avg_bg_065
 $ update_portrait('st062_01 4', 'p1308', [r(-16), light], 5)
+$ update_narrator('c13083')
 with fade
 c13083 '[textdict[1184792]]'
 $ update_portrait('st062_01 4', 'p1308', [r(-16), dark], 5)
@@ -28,31 +30,38 @@ c2381 '[textdict[1184798]]'
 hide p238
 c0 '[textdict[1184799]]'
 scene avg_bg_050
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1184800]]'
 c0 '[textdict[1184801]]'
 scene avg_bg_049
+$ update_narrator('c2381')
 with fade
 c2381 '[textdict[1184802]]'
 c2381 '[textdict[1184803]]'
 c2381 '[textdict[1184804]]'
 scene avg_bg_207
+$ update_narrator('c2381')
 with fade
 c2381 '[textdict[1184805]]'
 c2381 '[textdict[1184806]]'
 c2381 '[textdict[1184807]]'
 scene avg_bg_049
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1184808]]'
 scene avg_bg_074
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1184809]]'
 scene avg_bg_507
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1184810]]'
 play music "ed7566.ogg"
 scene avg_bg_003
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
+$ update_narrator('c51')
 with fade
 play sfx2 "other_7018.ogg"
 c51 '[textdict[1184811]]'
@@ -314,6 +323,7 @@ $ update_portrait('oc004_01 16', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[textdict[1184906]]'
 scene avg_bg_010
+$ update_narrator('c25621')
 with fade
 c25621 '[textdict[1184907]]'
 c25631 '[textdict[1184908]]'
@@ -325,6 +335,7 @@ c25591 '[textdict[1184913]]'
 c25601 '[textdict[1184914]]'
 scene avg_bg_035
 $ update_portrait('st044_01 4', 'p692', [r(10), light], 5)
+$ update_narrator('c6923')
 with fade
 c6923 '[textdict[1184915]]'
 $ update_portrait('st044_01 4', 'p692', [r(10), dark], 5)
@@ -411,6 +422,7 @@ hide p692
 $ update_portrait('sc007_01 4', 'p15', [r(-17), light], 5)
 c153 '[textdict[1184947]]'
 scene avg_bg_003
+$ update_narrator('c14491')
 with fade
 c14491 '[textdict[1184948]]'
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)

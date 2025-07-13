@@ -3,6 +3,7 @@ label avg10858:
 play music "ed7544.ogg"
 scene avg_bg_222
 $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 window show
 with fade_in
 play sfx2 "other_7057.ogg"
@@ -85,10 +86,12 @@ $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('oc001_01 14', 'p1', [r(-2), light], 5)
 c13 '[textdict[1190037]]' (what_size=(gui.text_size*1.15)) with shake
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 play sfx2 "fight_6015.ogg"
 c0 '[textdict[1190038]]'
 scene avg_bg_511
+$ update_narrator('c21')
 with fade
 c21 '[textdict[1190039]]'
 play sfx2 "fight_6001.ogg"
@@ -130,6 +133,7 @@ c21 '[textdict[1190070]]'
 c21 '[textdict[1190071]]'
 c81 '[textdict[1190072]]'
 scene avg_bg_512
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190073]]'
 c23 '[textdict[1190074]]'
@@ -170,6 +174,7 @@ c81 '[textdict[1190107]]'
 c81 '[textdict[1190108]]'
 scene avg_bg_222
 $ update_portrait('oc008_02 1', 'p8', [l(-5), light, flip], 6)
+$ update_narrator('c81')
 with fade
 play sfx2 "fight_6015.ogg"
 c81 '[textdict[1190109]]'
@@ -178,15 +183,18 @@ play sfx2 "fight_6015.ogg"
 c81 '[textdict[1190110]]'
 stop music
 scene avg_bg_070
+$ update_narrator('c13')
 with fade
 play sfx2 "fight_6020.ogg"
 c13 '[textdict[1190111]]' (what_size=(gui.text_size*1.25))
 scene avg_bg_204
+$ update_narrator('c0')
 with fade
 play sfx2 "fight_6015.ogg"
 c0 '[textdict[1190112]]' with shake
 scene avg_bg_218
 $ update_portrait('oc003_01 12', 'p3', [r(-6), light], 5)
+$ update_narrator('c33')
 with fade
 c33 '[textdict[1190113]]'
 $ update_portrait('oc003_01 12', 'p3', [r(-6), dark], 5)
@@ -233,12 +241,14 @@ $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 13', 'p4', [l(-5), l_shake, light, flip], 6)
 c41 '[textdict[1190126]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190127]]'
 c0 '[textdict[1190128]]'
 c5001 '[textdict[1190129]]'
 c5001 '[textdict[1190130]]'
 scene avg_bg_515
+$ update_narrator('c5001')
 with fade
 c5001 '[textdict[1190131]]'
 c5001 '[textdict[1190132]]'

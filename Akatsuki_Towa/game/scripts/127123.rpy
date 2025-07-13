@@ -3,6 +3,7 @@ label avg127123:
 play music "ed7511.ogg"
 scene avg_bg_211
 $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 window show
 with fade_in
 play sfx2 "fight_6026.ogg"
@@ -50,10 +51,12 @@ $ update_portrait('oc001_01 15', 'p1', [r(-2), light], 5)
 play sfx2 "fight_6024.ogg"
 c13 '[textdict[1180170]]' with shake
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1180171]]'
 scene avg_bg_211
 $ update_portrait('oc003_01 3', 'p3', [l(-6), light, flip], 6)
+$ update_narrator('c31')
 with fade
 play sfx2 "fight_6026.ogg"
 c31 '[textdict[1180172]]'

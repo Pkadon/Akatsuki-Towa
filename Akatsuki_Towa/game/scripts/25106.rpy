@@ -3,6 +3,7 @@ label avg25106:
 stop music
 scene placeholderbackground
 $ update_portrait('oc002_01 8', 'p2', [mid(-3), light], 5)
+$ update_narrator('c23')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ch05.ogg"

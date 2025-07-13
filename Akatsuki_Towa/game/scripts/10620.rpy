@@ -2,6 +2,7 @@ label avg10620:
 
 stop music
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7060.ogg"
@@ -10,6 +11,7 @@ play sfx2 "other_7060.ogg"
 c0 '[textdict[1162124]]'
 play music "ed9999.ogg"
 scene avg_bg_050
+$ update_narrator('c31')
 with fade
 $ update_portrait('oc003_01 8', 'p3', [l_entrance(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro13.ogg"
@@ -34,11 +36,13 @@ c31 '[textdict[1162131]]'
 play music "ed7100.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1162132]]'
 scene avg_bg_061
 show memoryoverlay zorder 2
 $ update_portrait('oc004_01 2', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 c43 '[textdict[1162133]]'
 $ update_portrait('oc004_01 2', 'p4', [r(-5), dark], 5)
@@ -135,6 +139,7 @@ c41 '[textdict[1162163]]'
 play music "ed9999.ogg"
 scene avg_bg_050
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
+$ update_narrator('c31')
 with fade
 c31 '[textdict[1162164]]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)

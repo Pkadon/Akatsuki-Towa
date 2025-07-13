@@ -3,11 +3,13 @@ label avg12024:
 play music "ed7161.ogg"
 scene placeholderbackground
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
+$ update_narrator('c561')
 window show
 with fade_in
 c561 '[textdict[1120015]]'
 scene avg_bg_023
 $ update_portrait('sc050_01 3', 'p57', [r(-19), light], 5)
+$ update_narrator('c573')
 with fade
 c573 '[textdict[1120016]]'
 $ update_portrait('sc050_01 3', 'p57', [r(-19), dark], 5)

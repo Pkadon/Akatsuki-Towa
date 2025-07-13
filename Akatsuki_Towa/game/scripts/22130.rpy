@@ -3,6 +3,7 @@ label avg22130:
 stop music
 scene avg_bg_036
 $ update_portrait('oc003_01 9', 'p3', [mid(-6), light], 5)
+$ update_narrator('c33')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ro15.ogg"

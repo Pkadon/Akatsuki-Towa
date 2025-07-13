@@ -2,6 +2,7 @@ label avg10439:
 
 play music "ed7544.ogg"
 scene placeholderbackground
+$ update_narrator('c13')
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
 window show
 with fade_in
@@ -11,6 +12,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1141560]]'
 hide p1
 $ update_portrait('uc003_04 1', 'p1045', [r(-14), light], 5)
+$ update_narrator('c10453')
 with fade
 c10453 '[textdict[1141561]]'
 $ update_portrait('uc003_04 1', 'p1045', [r(-14), light], 5)
@@ -23,6 +25,7 @@ c10463 '[textdict[1141564]]'
 $ update_portrait('uc003_04 1', 'p1046', [r(-14), light], 5)
 c10463 '[textdict[1141565]]'
 hide p1046
+$ update_narrator('c13')
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 5)
 with fade
 $ update_portrait('oc001_01 3', 'p1', [r(-2), r_shake, light], 5)
@@ -40,9 +43,11 @@ c31 '[textdict[1141569]]'
 hide p3
 hide p1
 $ update_portrait('oc006_01 3', 'p6', [r(-5), light], 5)
+$ update_narrator('c63')
 with fade
 c63 '[textdict[1141570]]'
 hide p6
+$ update_narrator('c41')
 $ update_portrait('oc004_01 13', 'p4', [l(-5), light, flip], 6)
 with fade
 $ update_portrait('oc004_01 13', 'p4', [l(-5), l_shake, light, flip], 6)
@@ -53,6 +58,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[1141572]]'
 hide p4
 hide p1
+$ update_narrator('c5001')
 with fade
 c5001 '[textdict[1141573]]'
 $ update_portrait('oc006_01 4', 'p6', [r(-5), light], 5)
@@ -62,10 +68,12 @@ play sfxvoice "avg_vocal_sa11.ogg"
 c63 '[textdict[1141575]]'
 hide p6
 $ update_portrait('oc004_01 20', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 c43 '[textdict[1141576]]'
 hide p4
 $ update_portrait('st038_02 5', 'p1168', [l(-9), light, flip], 6)
+$ update_narrator('c11681')
 with fade
 c11681 '[textdict[1141577]]'
 $ update_portrait('st038_02 1', 'p1168', [l(-9), light, flip], 6)
@@ -73,6 +81,7 @@ c11681 '[textdict[1141578]]'
 $ update_portrait('st038_02 5', 'p1168', [l(-9), light, flip], 6)
 c11681 '[textdict[1141579]]'
 hide p1168
+$ update_narrator('c43')
 $ update_portrait('oc004_01 13', 'p4', [r(-5), light], 5)
 with fade
 $ update_portrait('oc004_01 13', 'p4', [r(-5), r_shake, light], 5)
@@ -80,6 +89,7 @@ play sfxvoice "avg_vocal_li13.ogg"
 c43 '[textdict[1141580]]'
 hide p4
 $ update_portrait('oc006_01 4', 'p6', [r(-5), light], 5)
+$ update_narrator('c63')
 with fade
 c63 '[textdict[1141581]]'
 $ update_portrait('oc006_01 4', 'p6', [r(-5), dark], 5)
@@ -103,6 +113,7 @@ $ update_portrait('st038_02 1', 'p1168', [l(-9), light, flip], 6)
 c11681 '[textdict[1141588]]'
 hide p1168
 hide p6
+$ update_narrator('c23')
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
 with fade
 $ update_portrait('oc002_01 12', 'p2', [r(-3), r_shake, light], 5)
@@ -113,6 +124,7 @@ c41 '[textdict[1141590]]'
 hide p4
 hide p2
 $ update_portrait('st038_02 1', 'p1168', [l(-9), light, flip], 6)
+$ update_narrator('c11681')
 with fade
 c11681 '[textdict[1141591]]'
 $ update_portrait('st038_02 1', 'p1168', [l(-9), light, flip], 6)
@@ -126,6 +138,7 @@ $ update_portrait('st038_02 5', 'p1168', [l(-9), light, flip], 6)
 c11681 '[textdict[1141594]]'
 hide p1168
 hide p6
+$ update_narrator('c41')
 $ update_portrait('oc004_01 19', 'p4', [l(-5), light, flip], 6)
 with fade
 $ update_portrait('oc004_01 19', 'p4', [l(-5), l_shake, light, flip], 6)
@@ -156,6 +169,7 @@ c31 '[textdict[1141602]]'
 hide p3
 hide p1
 $ update_portrait('st038_02 1', 'p1168', [l(-9), light, flip], 6)
+$ update_narrator('c11681')
 with fade
 c11681 '[textdict[1141603]]'
 $ update_portrait('st038_02 4', 'p1168', [l(-9), light, flip], 6)
@@ -217,6 +231,7 @@ c63 '[textdict[1141624]]'
 hide p1168
 hide p6
 $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 with fade
 c21 '[textdict[1141625]]'
 $ update_portrait('oc002_01 9', 'p2', [l(-3), dark, flip], 6)
@@ -235,6 +250,7 @@ $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1141629]]'
 hide p2
 $ update_portrait('st038_02 1', 'p1168', [l(-9), light, flip], 6)
+$ update_narrator('c11681')
 with fade
 c11681 '[textdict[1141630]]'
 $ update_portrait('st038_02 5', 'p1168', [l(-9), light, flip], 6)
@@ -242,6 +258,7 @@ c11681 '[textdict[1141631]]'
 stop music
 hide p1168
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1141632]]'
 play music "ed7511.ogg"
@@ -252,6 +269,7 @@ play sfxvoice "avg_vocal_ro22.ogg"
 c33 '[textdict[1141633]]'
 hide p3
 $ update_portrait('st038_02 2', 'p1168', [l(-9), light, flip], 6)
+$ update_narrator('c11681')
 with fade
 play sfx2 "fight_6012.ogg"
 c11681 '[textdict[1141634]]'

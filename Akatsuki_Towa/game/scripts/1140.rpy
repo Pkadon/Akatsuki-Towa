@@ -2,12 +2,14 @@ label avg1140:
 
 stop music
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7060.ogg"
 c0 '[textdict[2104015]]'
 scene avg_bg_038
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 play sfx2 "other_7060.ogg"
 c13 '[textdict[2104016]]'
@@ -54,11 +56,13 @@ c13 '[textdict[2104035]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2104036]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2104037]]'
 c0 '[textdict[2104038]]'
 play music "ed7571.ogg"
 scene avg_bg_019
+$ update_narrator('c25271')
 with fade
 play sfx2 "fight_6002.ogg"
 c25271 '[textdict[2104039]]' with shake
@@ -274,6 +278,7 @@ play sfx2 "other_7057.ogg"
 c13 '[textdict[2104120]]'
 hide p1
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2104121]]'
 c25281 '[textdict[2104122]]'

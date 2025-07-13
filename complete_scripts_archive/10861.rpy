@@ -2,6 +2,7 @@ label avg10861:
 
 play music "ED6518.ogg"
 scene avg_bg_050
+$ update_narrator('c23')
 window show
 with fade_in
 play sfx2 "other_7004.ogg"
@@ -16,6 +17,7 @@ c23 '[textdict[1190973]]'
 c23 '[textdict[1190974]]'
 play music "ed7511.ogg"
 scene avg_bg_035
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190975]]'
 $ update_portrait('oce02_01 4', 'p2666', [r_entrance(-3), light], 5)
@@ -151,6 +153,7 @@ c5061 '[textdict[1191021]]'
 play music "ED6518.ogg"
 scene avg_bg_050
 $ update_portrait('oce02_01 12', 'p2666', [r(-3), light], 5)
+$ update_narrator('c26663')
 with fade
 c26663 '[textdict[1191022]]'
 $ update_portrait('oce02_01 15', 'p2666', [r(-3), light], 5)

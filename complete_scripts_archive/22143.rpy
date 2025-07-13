@@ -3,6 +3,7 @@ label avg22143:
 play music "ED6200.ogg"
 scene placeholderbackground
 $ update_portrait('oc007_01 5', 'p7', [r(-24), light], 5)
+$ update_narrator('c73')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ar06.ogg"

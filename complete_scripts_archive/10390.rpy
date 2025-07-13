@@ -3,6 +3,7 @@ label avg10390:
 play music "ed7511.ogg"
 scene avg_bg_049
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 c13 '[textdict[1132472]]'
@@ -21,6 +22,7 @@ c43 '[textdict[1132476]]'
 hide p3
 hide p4
 $ update_portrait('uc003_04 3', 'p1045', [l(-14), light, flip], 6)
+$ update_narrator('c10451')
 with fade
 play sfx2 "fight_6006.ogg"
 c10451 '[textdict[1132477]]' with shake
@@ -47,6 +49,7 @@ $ update_portrait('uc003_04 3', 'p1046', [l(-14), light, flip], 6)
 c10461 '[textdict[1132484]]'
 hide p1046
 hide p55
+$ update_narrator('c2391')
 $ update_portrait('st040_01 5', 'p239', [l(-19), light, flip], 6)
 with fade
 $ update_portrait('st040_01 5', 'p239', [l_midback(-19), light, flip], 6)
@@ -68,6 +71,7 @@ $ update_portrait('oc004_01 10', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[1132489]]'
 hide p4
 hide p1
+$ update_narrator('c553')
 $ update_portrait('sc048_01 4', 'p55', [r(-7), light], 5)
 with fade
 $ update_portrait('sc048_01 4', 'p55', [r_midback(-7), light], 5)
@@ -86,6 +90,7 @@ play sfx2 "other_7085.ogg"
 c10483 '[textdict[1132494]]'
 hide p1045
 $ update_portrait('oc004_01 12', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 play sfxvoice "avg_vocal_li31.ogg"
 c43 '[textdict[1132495]]'
@@ -94,11 +99,13 @@ $ update_portrait('st040_01 4', 'p239', [l(-19), light, flip], 6)
 c2391 '[textdict[1132496]]'
 stop music
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1132497]]'
 play music "ed7151.ogg"
 scene avg_bg_049
 $ update_portrait('st040_01 4', 'p239', [r(-19), light], 5)
+$ update_narrator('c2393')
 with fade
 c2393 '[textdict[1132498]]'
 $ update_portrait('st040_01 4', 'p239', [r(-19), dark], 5)
@@ -237,6 +244,7 @@ c41 '[textdict[1132541]]'
 hide p4
 hide p1
 $ update_portrait('st040_01 5', 'p239', [l(-19), light, flip], 6)
+$ update_narrator('c2391')
 with fade
 c2391 '[textdict[1132542]]'
 $ update_portrait('st040_01 1', 'p239', [l(-19), light, flip], 6)
@@ -251,6 +259,7 @@ $ update_portrait('uc003_04 4', 'p1046', [r(-14), l_shake, light], 5)
 c10463 '[textdict[1132547]]'
 hide p1046
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1132548]]'
 $ update_portrait('oc001_01 18', 'p1', [r(-2), dark], 5)

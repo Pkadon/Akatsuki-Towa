@@ -3,6 +3,7 @@ label avg12189:
 play music "ed6570.ogg"
 scene placeholderbackground
 $ update_portrait('sc027_01 4', 'p35', [l(-10), light, flip], 6)
+$ update_narrator('c351')
 window show
 with fade_in
 play sfx2 "other_7088.ogg"
@@ -52,6 +53,7 @@ c351 '[textdict[1120730]]'
 stop music
 hide p35
 hide p2
+$ update_narrator('c20161')
 with fade
 play sfx2 "other_7080.ogg"
 c20161 '[textdict[1120731]]' with shake

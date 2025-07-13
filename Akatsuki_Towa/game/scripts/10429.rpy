@@ -3,6 +3,7 @@ label avg10429:
 play music "ed7526.ogg"
 scene placeholderbackground
 $ update_portrait('oc004_01 17', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 window show
 with fade_in
 play sfx2 "common_select.ogg"
@@ -61,6 +62,7 @@ $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1141325]]'
 hide p2
 hide p1
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1141326]]'
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
@@ -154,6 +156,7 @@ $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
 c5241 '[textdict[1141357]]'
 hide p1
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 play sfx2 "other_7073.ogg"
 c13 '[textdict[1141358]]'

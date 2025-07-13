@@ -3,6 +3,7 @@ label avg10034:
 stop music
 scene avg_bg_027
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "common_correct.ogg"
@@ -65,6 +66,7 @@ $ update_portrait('oc001_01 18', 'p1', [r(-2), dark], 5)
 c4981 '[textdict[1003027]]'
 hide p1
 $ update_portrait('oc002_01 21', 'p2', [r(-3), light], 5)
+$ update_narrator('c23')
 with fade
 c23 '[textdict[1003028]]'
 $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
@@ -79,6 +81,7 @@ c6023 '[textdict[1003032]]'
 $ update_portrait('oc001_01 9', 'p1', [l(-2), l_shake, light, flip], 6)
 c11 '[textdict[1003033]]'
 hide p1
+$ update_narrator('c6033')
 with fade
 $ update_portrait('sc001_01 4', 'p603', [r_entrance_midback(-11), light], 5)
 play sfx2 "fight_6023.ogg"

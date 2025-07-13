@@ -3,6 +3,7 @@ label avg19022:
 stop music
 scene avg_bg_023
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 c13 '[textdict[1216226]]' (what_size=(gui.text_size*0.9))

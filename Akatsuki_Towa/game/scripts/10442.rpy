@@ -2,6 +2,7 @@ label avg10442:
 
 play music "ed7544.ogg"
 scene avg_bg_062
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1141759]]'
@@ -16,6 +17,7 @@ c553 '[textdict[1141762]]'
 hide p1004
 hide p55
 $ update_portrait('sc046_01 4', 'p1004', [l(-5), light, flip], 6)
+$ update_narrator('c10041')
 with fade
 c10041 '[textdict[1141763]]'
 $ update_portrait('sc046_01 4', 'p1004', [l(-5), dark, flip], 6)
@@ -109,6 +111,7 @@ $ update_portrait('sc046_01 4', 'p1004', [l(-5), l_shake, light, flip], 6)
 c10041 '[textdict[1141801]]'
 hide p1004
 hide p1022
+$ update_narrator('c10453')
 $ update_portrait('uc003_04 4', 'p1045', [r(-14), light], 5)
 with fade
 $ update_portrait('uc003_04 4', 'p1045', [r(-14), r_shake, light], 5)
@@ -151,6 +154,7 @@ $ update_portrait('uc003_04 4', 'p1118', [l(-14), light, flip], 6)
 c11181 '[textdict[1141811]]'
 hide p1118
 hide p1116
+$ update_narrator('c10263')
 with fade
 play sfx2 "fight_6011.ogg"
 c10263 '[textdict[1141812]]'

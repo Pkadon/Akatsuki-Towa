@@ -3,6 +3,7 @@ label avg10001:
 play music "ED6516.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c5001')
 window show
 with fade_in
 play sfx2 "other_7085.ogg"
@@ -11,6 +12,7 @@ c5001 '[textdict[1002967]]' (what_size=(gui.text_size*1.5)) with shake
 scene avg_bg_004
 show memoryoverlay zorder 2
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 c13 '[textdict[1000001]]'

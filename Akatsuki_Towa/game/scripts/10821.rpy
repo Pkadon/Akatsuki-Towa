@@ -2,6 +2,7 @@ label avg10821:
 
 play music "ed7513.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1184017]]'
@@ -12,6 +13,7 @@ c0 '[textdict[1184021]]'
 c0 '[textdict[1184022]]'
 scene avg_bg_202
 show memoryoverlay zorder 2
+$ update_narrator('c14933')
 with fade
 c14933 '[textdict[1184023]]'
 c14931 '[textdict[1184024]]'
@@ -25,11 +27,13 @@ c14931 '[textdict[1184031]]'
 c15023 '[textdict[1184032]]'
 c15021 '[textdict[1184033]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1184034]]'
 c0 '[textdict[1184035]]'
 scene avg_bg_202
 show memoryoverlay zorder 2
+$ update_narrator('c15013')
 with fade
 c15013 '[textdict[1184036]]'
 c15021 '[textdict[1184037]]'
@@ -47,6 +51,7 @@ c0 '[textdict[1184048]]'
 c0 '[textdict[1184049]]'
 scene avg_bg_218
 show memoryoverlay zorder 2
+$ update_narrator('c14931')
 with fade
 c14931 '[textdict[1184050]]'
 play sfx2 "elc_5004.ogg"
@@ -60,6 +65,7 @@ play sfx2 "fight_6026.ogg"
 c15011 '[textdict[1184057]]' with shake
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 play sfx2 "fight_6015.ogg"
 c0 '[textdict[1184058]]'

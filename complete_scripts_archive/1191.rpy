@@ -2,6 +2,7 @@ label avg1191:
 
 play music "ed7102.ogg"
 scene avg_bg_043
+$ update_narrator('c26303')
 window show
 with fade_in
 $ update_portrait('scc45_01 4', 'p2630', [r_entrance(-11), light], 5)
@@ -15,6 +16,7 @@ c26303 '[textdict[2107244]]'
 play music "ed7300.ogg"
 scene avg_bg_071
 $ update_portrait('occ02_01 9', 'p2633', [l(-3), light, flip], 6)
+$ update_narrator('c26331')
 with fade
 play sfx2 "fight_6018.ogg"
 c26331 '[textdict[2107245]]' (what_size=(gui.text_size*1.2)) with shake
@@ -82,6 +84,7 @@ hide p2625
 c26371 '[textdict[2107268]]'
 hide p2630
 $ update_portrait('occ02_01 21', 'p2625', [l(-3), light, flip], 6)
+$ update_narrator('c26251')
 with fade
 c26251 '[textdict[2107269]]' with shake
 $ update_portrait('occ02_01 21', 'p2625', [l(-3), dark, flip], 6)
@@ -158,6 +161,7 @@ $ update_portrait('scc45_01 3', 'p2630', [r(-11), dark], 5)
 $ update_portrait('occ02_01 12', 'p2625', [l(-3), light, flip], 6)
 c26251 '[textdict[2107298]]' with shake
 scene avg_bg_014
+$ update_narrator('c26451')
 with fade
 play sfx2 "other_7064.ogg"
 c26451 '[textdict[2107299]]'

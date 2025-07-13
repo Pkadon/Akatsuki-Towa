@@ -2,6 +2,7 @@ label avg24068:
 
 stop music
 scene placeholderbackground
+$ update_narrator('c7553')
 window show
 with fade_in
 c7553 '[textdict[1200270]]'

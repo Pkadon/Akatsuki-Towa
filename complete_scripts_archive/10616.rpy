@@ -2,6 +2,7 @@ label avg10616:
 
 play music "ed7162.ogg"
 scene avg_bg_065
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7064.ogg"
@@ -54,6 +55,7 @@ c21 '[textdict[1160825]]'
 hide p2
 hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1160826]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
@@ -83,6 +85,7 @@ c21 '[textdict[1160833]]'
 hide p2
 hide p1
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 c43 '[textdict[1160834]]'
 $ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
@@ -103,6 +106,7 @@ c13 '[textdict[1160838]]'
 hide p3
 hide p1
 $ update_portrait('sc016_01 1', 'p1267', [l(-6), light, flip], 6)
+$ update_narrator('c12671')
 with fade
 c12671 '[textdict[1160839]]'
 $ update_portrait('sc016_01 1', 'p1267', [l(-6), dark, flip], 6)
@@ -142,6 +146,7 @@ hide p1267
 hide p34
 c0 '[textdict[1160855]]'
 $ update_portrait('sc016_01 1', 'p1267', [l(-6), light, flip], 6)
+$ update_narrator('c12671')
 with fade
 c12671 '[textdict[1160856]]'
 $ update_portrait('sc016_01 1', 'p1267', [l(-6), dark, flip], 6)
@@ -188,6 +193,7 @@ c343 '[textdict[1160868]]'
 hide p1267
 hide p34
 $ update_portrait('oc005_01 1', 'p5', [l(-6), light, flip], 6)
+$ update_narrator('c51')
 with fade
 c51 '[textdict[1160869]]'
 $ update_portrait('oc005_01 5', 'p5', [l(-6), light, flip], 6)
@@ -296,6 +302,7 @@ hide p1308
 hide p1
 c0 '[textdict[1160901]]'
 play music "ed7516.ogg"
+$ update_narrator('c31')
 with fade
 $ update_portrait('oc003_01 4', 'p3', [l_entrance(-6), light, flip], 6)
 play sfx2 "other_7085.ogg"
@@ -363,6 +370,7 @@ c13 '[textdict[1160920]]'
 hide p3
 hide p1
 $ update_portrait('st062_01 2', 'p1308', [l(-16), light, flip], 6)
+$ update_narrator('c13081')
 with fade
 c13081 '[textdict[1160921]]'
 $ update_portrait('st062_01 2', 'p1308', [l(-16), light, flip], 6)
@@ -440,6 +448,7 @@ play music "ed7162.ogg"
 hide p2
 hide p1
 $ update_portrait('oc004_01 16', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 play sfx2 "other_7087.ogg"
 c43 '[textdict[1160944]]' with shake

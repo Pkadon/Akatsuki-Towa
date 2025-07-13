@@ -2,6 +2,7 @@ label avg12672:
 
 play music "ed7150.ogg"
 scene avg_bg_019
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7064.ogg"

@@ -3,6 +3,7 @@ label avg10019:
 play music "ed7113.ogg"
 scene avg_bg_021
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "other_7064.ogg"
@@ -79,6 +80,7 @@ c2021 '[textdict[1001809]]'
 play music "ed7162.ogg"
 scene avg_bg_024
 $ update_portrait('sc058_01 2', 'p63', [l(-20), light, flip], 6)
+$ update_narrator('c631')
 with fade
 play sfx2 "other_7020.ogg"
 c631 '[textdict[1001810]]'
@@ -192,6 +194,7 @@ $ update_portrait('oc001_01 7', 'p1', [l(-2), light, flip], 6)
 c11 '[textdict[1001845]]'
 scene avg_bg_025
 $ update_portrait('st005_01 4', 'p205', [l(4), light, flip], 6)
+$ update_narrator('c2051')
 with fade
 c2051 '[textdict[1001846]]'
 $ update_portrait('st005_01 4', 'p205', [l(4), light, flip], 6)
@@ -210,6 +213,7 @@ $ update_portrait('st002_01 1', 'p202', [r(-9), dark], 5)
 $ update_portrait('st005_01 1', 'p205', [l(4), light, flip], 6)
 c2051 '[textdict[1001852]]'
 scene avg_bg_024
+$ update_narrator('c5053')
 with fade
 play sfx2 "other_7019.ogg"
 c5053 '[textdict[1001853]]'
@@ -228,6 +232,7 @@ c33 '[textdict[1001857]]'
 play music "ed7500.ogg"
 hide p2
 hide p3
+$ update_narrator('c6883')
 with fade
 c6883 '[textdict[1121543]]'
 c6883 '[textdict[1121544]]'
@@ -236,9 +241,11 @@ c6883 '[textdict[1121546]]'
 c6883 '[textdict[1121547]]'
 play music "ed7506.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1121548]]'
 scene avg_bg_024
+$ update_narrator('c5053')
 with fade
 play sfx2 "other_7019.ogg"
 c5053 '[textdict[1001858]]'
@@ -279,6 +286,7 @@ c0 '[textdict[1001867]]'
 play music "ed7113.ogg"
 scene avg_bg_021
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
+$ update_narrator('c11')
 with fade
 c11 '[textdict[1001868]]'
 hide p1
@@ -349,6 +357,7 @@ c11 '[textdict[1001888]]' (what_size=(gui.text_size*1.4)) with shake
 hide p1
 hide p3
 $ update_portrait('st005_01 2', 'p205', [l(4), light, flip], 6)
+$ update_narrator('c2051')
 with fade
 c2051 '[textdict[1001889]]'
 $ update_portrait('st005_01 2', 'p205', [l(4), dark, flip], 6)

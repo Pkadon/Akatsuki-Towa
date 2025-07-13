@@ -3,6 +3,7 @@ label avg22235:
 play music "ed7202.ogg"
 scene placeholderbackground
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "bat_craft_wind_01.ogg"

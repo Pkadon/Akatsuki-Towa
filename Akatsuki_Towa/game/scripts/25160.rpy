@@ -2,6 +2,7 @@ label avg25160:
 
 stop music
 scene placeholderbackground
+$ update_narrator('c20153')
 window show
 with fade_in
 play sfx2 "fight_6022.ogg"

@@ -3,6 +3,7 @@ label avg1139:
 play music "ed7151.ogg"
 scene avg_bg_022
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "other_7044.ogg"
@@ -56,6 +57,7 @@ c13 '[textdict[2103884]]'
 hide p1
 play music "ed7150.ogg"
 scene avg_bg_015
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2103885]]'
 $ update_portrait('oc001_01 1', 'p1', [r_entrance(-2), light], 5)
@@ -88,6 +90,7 @@ hide p1
 c9961 '[textdict[2103900]]'
 play music "ed7113.ogg"
 scene avg_bg_021
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2103901]]'
 $ update_portrait('oc001_01 2', 'p1', [r_entrance(-2), light], 5)
@@ -156,6 +159,7 @@ c25051 '[textdict[2103929]]'
 c0 '[textdict[2103930]]'
 play music "ed7111.ogg"
 scene avg_bg_012
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2103931]]'
 $ update_portrait('oc001_01 10', 'p1', [r_entrance(-2), light], 5)
@@ -250,6 +254,7 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103965]]'
 play music "ed7516.ogg"
 scene avg_bg_019
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2103966]]'
 c0 '[textdict[2103967]]'
@@ -268,6 +273,7 @@ hide p1
 c0 '[textdict[2103974]]'
 show memoryoverlay zorder 2
 $ update_portrait('oc003_01 6', 'p3', [l(-6), light, flip], 6)
+$ update_narrator('c31')
 with fade
 c31 '[textdict[2103975]]'
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
@@ -277,6 +283,7 @@ c31 '[textdict[2103977]]'
 hide memoryoverlay
 hide p3
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2103978]]'
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
@@ -284,6 +291,7 @@ c13 '[textdict[2103979]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2103980]]'
 scene avg_bg_020
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2103981]]'
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
@@ -351,6 +359,7 @@ hide p1
 c0 '[textdict[2104010]]'
 c0 '[textdict[2104011]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2104012]]'
 play sfx2 "other_7091.ogg"

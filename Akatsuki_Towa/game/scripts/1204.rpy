@@ -2,6 +2,7 @@ label avg1204:
 
 stop music
 scene avg_bg_034
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7062.ogg"
@@ -36,6 +37,7 @@ c393 '[textdict[2108316]]'
 play music "ED6200.ogg"
 scene avg_bg_036
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2108317]]'
 $ update_portrait('sc031_01 3', 'p39', [r_entrance(-14), light], 5)
@@ -147,6 +149,7 @@ $ update_portrait('sc021_01 5', 'p29', [l(-17), dark, flip], 6)
 $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 5)
 c393 '[textdict[2108357]]'
 scene avg_bg_034
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2108358]]'
 play music "ED6102.ogg"
@@ -161,6 +164,7 @@ c393 '[textdict[2108361]]'
 play music "ED6200.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2108362]]'
 $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 5)
@@ -255,6 +259,7 @@ $ update_portrait('sc021_01 2', 'p29', [l(-17), light, flip], 6)
 c291 '[textdict[2108394]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 play sfx2 "fight_6023.ogg"
 c0 '[textdict[2108395]]'
@@ -265,6 +270,7 @@ c0 '[textdict[2108397]]'
 play music "ED6200.ogg"
 scene avg_bg_010
 show memoryoverlay zorder 2
+$ update_narrator('c393')
 with fade
 $ update_portrait('sc031_01 3', 'p39', [r_entrance(-14), light], 5)
 c393 '[textdict[2108398]]'
@@ -278,6 +284,7 @@ $ update_portrait('sc031_01 3', 'p39', [r(-14), dark], 5)
 $ update_portrait('sc021_01 5', 'p29', [l(-17), light, flip], 6)
 c291 '[textdict[2108401]]'
 scene avg_bg_034
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2108402]]'
 play music "ED6102.ogg"
@@ -292,6 +299,7 @@ c393 '[textdict[2108405]]'
 play music "ED6200.ogg"
 scene avg_bg_079
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2108406]]'
 $ update_portrait('sc031_01 3', 'p39', [r_entrance(-14), light], 5)
@@ -371,6 +379,7 @@ $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 5)
 c393 '[textdict[2108432]]' (what_size=(gui.text_size*1.25))
 stop music
 scene avg_bg_034
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2108433]]'
 $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 5)
@@ -433,6 +442,7 @@ c393 '[textdict[2108452]]'
 hide p29
 hide p39
 $ update_portrait('sc031_01 2', 'p39', [r(-14), light], 5)
+$ update_narrator('c393')
 with fade
 c393 '[textdict[2108453]]'
 $ update_portrait('sc031_01 1', 'p39', [r(-14), light], 5)

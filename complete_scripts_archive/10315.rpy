@@ -2,6 +2,7 @@ label avg10315:
 
 play music "ed7150.ogg"
 scene avg_bg_022
+$ update_narrator('c23')
 window show
 with fade_in
 $ update_portrait('oc002_01 2', 'p2', [r_entrance(-3), light], 5)
@@ -12,6 +13,7 @@ play sfx2 "other_7064.ogg"
 c601 '[textdict[1130322]]'
 hide p60
 hide p2
+$ update_narrator('c10081')
 with fade
 play sfx2 "fight_6010.ogg"
 c10081 '[textdict[1130323]]'
@@ -93,6 +95,7 @@ $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1130357]]'
 hide p2
 hide p1
+$ update_narrator('c10091')
 with fade
 c10091 '[textdict[1130358]]'
 $ update_portrait('oc002_01 22', 'p2', [r_entrance(-3), light], 5)
@@ -122,6 +125,7 @@ play sfx2 "common_35rewardholy.ogg"
 c593 '[textdict[1130369]]'
 hide p59
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1130370]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
@@ -160,6 +164,7 @@ c591 '[textdict[1130381]]'
 hide p59
 hide p4
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1130382]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
@@ -186,6 +191,7 @@ c591 '[textdict[1130389]]'
 hide p59
 hide p2
 $ update_portrait('oc004_01 13', 'p4', [l(-5), light, flip], 6)
+$ update_narrator('c41')
 with fade
 c41 '[textdict[1130390]]'
 $ update_portrait('oc004_01 13', 'p4', [l(-5), dark, flip], 6)
@@ -193,6 +199,7 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
 c13 '[textdict[1130391]]'
 hide p4
 hide p1
+$ update_narrator('c591')
 $ update_portrait('sc052_01 5', 'p59', [l(-25), light, flip], 6)
 with fade
 $ update_portrait('sc052_01 5', 'p59', [l_midback(-25), light, flip], 6)

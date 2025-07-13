@@ -3,6 +3,7 @@ label avg1226:
 play music "ed7453.ogg"
 scene avg_bg_036
 $ update_portrait('oca01_01 19', 'p2701', [r(-2), light], 5)
+$ update_narrator('c27013')
 window show
 with fade_in
 c27013 '[textdict[2110867]]'
@@ -90,6 +91,7 @@ play sfx2 "fight_6009.ogg"
 c27013 '[textdict[2110906]]' (what_size=(gui.text_size*1.25)) with shake
 scene avg_bg_079
 show memoryoverlay zorder 2
+$ update_narrator('c6391')
 with fade
 c6391 '[textdict[2110907]]'
 c6381 '[textdict[2110908]]'
@@ -124,6 +126,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2110920]]'
 scene avg_bg_036
 $ update_portrait('oca01_01 13', 'p2701', [r(-2), light], 5)
+$ update_narrator('c27013')
 with fade
 c27013 '[textdict[2110921]]'
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 5)
@@ -196,6 +199,7 @@ c27153 '[textdict[2110951]]'
 scene avg_bg_023
 show memoryoverlay zorder 2
 $ update_portrait('sc049_01 4', 'p56', [l(-8), light, flip], 6)
+$ update_narrator('c561')
 with fade
 c561 '[textdict[2110952]]'
 $ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 6)
@@ -248,6 +252,7 @@ $ update_portrait('oca02_01 2', 'p2702', [l(-3), dark, flip], 6)
 c13 '[textdict[2110969]]' with shake
 scene avg_bg_036
 $ update_portrait('oca01_01 12', 'p2701', [r(-2), light], 5)
+$ update_narrator('c27013')
 with fade
 c27013 '[textdict[2110970]]'
 hide p2701

@@ -2,6 +2,7 @@ label avg12739:
 
 play music "ED6200.ogg"
 scene avg_bg_010
+$ update_narrator('c14401')
 window show
 with fade_in
 c14401 '[textdict[1172873]]'

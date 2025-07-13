@@ -2,6 +2,7 @@ label avg10601:
 
 stop music
 scene placeholderbackground
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1160002]]'
@@ -10,6 +11,7 @@ c0 '[textdict[1160004]]'
 c0 '[textdict[1160005]]'
 play music "ED6102.ogg"
 scene avg_bg_105
+$ update_narrator('c21')
 with fade
 $ update_portrait('oc002_01 1', 'p2', [l_entrance(-3), light, flip], 6)
 c21 '[textdict[1160006]]'
@@ -65,6 +67,7 @@ play music "ed7515.ogg"
 scene placeholderbackground
 show memoryoverlay zorder 2
 $ update_portrait('oc008_01 5', 'p8', [l(-5), light, flip], 6)
+$ update_narrator('c81')
 with fade
 c81 '[textdict[1160021]]'
 $ update_portrait('oc008_01 5', 'p8', [l(-5), light, flip], 6)
@@ -76,6 +79,7 @@ c81 '[textdict[1160024]]'
 play music "ED6102.ogg"
 scene avg_bg_105
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1160025]]'
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
@@ -108,6 +112,7 @@ c33 '[textdict[1160033]]'
 hide p2
 hide p3
 $ update_portrait('st041_01 2', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[1160034]]'
 $ update_portrait('st041_01 2', 'p240', [l(-1), light, flip], 6)

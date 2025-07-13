@@ -3,6 +3,7 @@ label avg1235:
 play music "ed7103.ogg"
 scene avg_bg_030
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
+$ update_narrator('c451')
 window show
 with fade_in
 c451 '[textdict[2112115]]'
@@ -30,6 +31,7 @@ c473 '[textdict[2112121]]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
 c473 '[textdict[2112122]]' with shake
 scene avg_bg_019
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2112123]]'
 $ update_portrait('sc038_01 2', 'p45', [l_entrance(-1), light, flip], 6)
@@ -48,6 +50,7 @@ c483 '[textdict[2112127]]'
 hide p46
 hide p48
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
+$ update_narrator('c483')
 with fade
 c483 '[textdict[2112128]]'
 $ update_portrait('sc041_01 1', 'p48', [r(-9), dark], 5)
@@ -66,6 +69,7 @@ $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
 c483 '[textdict[2112135]]'
 hide p48
 $ update_portrait('sc041_01 4', 'p48', [r(-9), light], 5)
+$ update_narrator('c483')
 with fade
 c483 '[textdict[2112136]]'
 $ update_portrait('sc041_01 4', 'p48', [r(-9), dark], 5)
@@ -395,10 +399,12 @@ c451 '[textdict[2112242]]'
 scene avg_bg_030
 show memoryoverlay zorder 2
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
+$ update_narrator('c451')
 with fade
 c451 '[textdict[2112243]]'
 scene avg_bg_019
 $ update_portrait('sc038_01 3', 'p45', [l(-1), light, flip], 6)
+$ update_narrator('c451')
 with fade
 c451 '[textdict[2112244]]'
 $ update_portrait('sc038_01 3', 'p45', [l(-1), dark, flip], 6)
@@ -410,6 +416,7 @@ $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
 c27311 '[textdict[2112246]]'
 hide p2731
 hide p47
+$ update_narrator('c27611')
 with fade
 play sfx2 "other_7064.ogg"
 c27611 '[textdict[2112247]]'
@@ -418,6 +425,7 @@ c27611 '[textdict[2112248]]'
 play sfx2 "other_7064.ogg"
 c27611 '[textdict[2112249]]'
 $ update_portrait('sc040_01 1', 'p47', [l(-9), light, flip], 6)
+$ update_narrator('c471')
 with fade
 play sfx2 "other_7064.ogg"
 c471 '[textdict[2112250]]'
@@ -456,6 +464,7 @@ c27313 '[textdict[2112261]]'
 hide p47
 hide p2731
 $ update_portrait('sc038_01 5', 'p45', [l(-1), light, flip], 6)
+$ update_narrator('c451')
 with fade
 c451 '[textdict[2112262]]'
 $ update_portrait('sc038_01 5', 'p45', [l(-1), dark, flip], 6)
@@ -496,6 +505,7 @@ c0 '[textdict[2112274]]'
 stop music
 c0 '[textdict[2112275]]'
 scene avg_bg_038
+$ update_narrator('c473')
 with fade
 play sfx2 "other_7088.ogg"
 c473 '[textdict[2112276]]'

@@ -3,6 +3,7 @@ label avg1232:
 play music "ed7124.ogg"
 scene avg_bg_038
 $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
+$ update_narrator('c473')
 window show
 with fade_in
 c473 '[textdict[2111574]]'
@@ -107,11 +108,13 @@ $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 c473 '[textdict[2111608]]'
 stop music
 scene avg_bg_070
+$ update_narrator('c27311')
 with fade
 $ update_portrait('oca00_01 1', 'p2731', [l_entrance(-2), light, flip], 6)
 c27311 '[textdict[2111609]]'
 scene avg_bg_038
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
+$ update_narrator('c473')
 with fade
 c473 '[textdict[2111610]]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
@@ -123,6 +126,7 @@ c473 '[textdict[2111612]]'
 hide p2731
 hide p47
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
+$ update_narrator('c473')
 with fade
 c473 '[textdict[2111613]]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
@@ -179,12 +183,14 @@ stop music
 scene avg_bg_070
 show memoryoverlay zorder 2
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
+$ update_narrator('c27311')
 with fade
 c27311 '[textdict[2111631]]'
 play music "ed7160.ogg"
 scene avg_bg_519
 show memoryoverlay zorder 2
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
+$ update_narrator('c27311')
 with fade
 c27311 '[textdict[2111632]]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
@@ -193,6 +199,7 @@ $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
 c27311 '[textdict[2111634]]'
 hide p2731
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
+$ update_narrator('c27311')
 with fade
 c27311 '[textdict[2111635]]'
 hide p2731
@@ -437,6 +444,7 @@ c27343 '[textdict[2111722]]'
 play music "ed7513.ogg"
 scene avg_bg_038
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
+$ update_narrator('c27311')
 with fade
 c27311 '[textdict[2111723]]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
@@ -499,6 +507,7 @@ c473 '[textdict[2111745]]'
 hide p2731
 hide p47
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
+$ update_narrator('c473')
 with fade
 c473 '[textdict[2111746]]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)

@@ -2,6 +2,7 @@ label avg10837:
 
 play music "ed7510.ogg"
 scene avg_bg_221
+$ update_narrator('c13')
 window show
 with fade_in
 $ update_portrait('oc001_01 19', 'p1', [r_entrance(-2), light], 5)
@@ -46,6 +47,7 @@ hide p1
 c0 '[textdict[1187439]]'
 scene avg_bg_216
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
+$ update_narrator('c23')
 with fade
 c23 '[textdict[1187440]]'
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)

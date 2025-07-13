@@ -3,6 +3,7 @@ label avg20131:
 stop music
 scene avg_bg_071
 $ update_portrait('oc001_01 20', 'p1', [l(-2), light, flip], 6)
+$ update_narrator('c11')
 window show
 with fade_in
 play sfx2 "other_7054.ogg"

@@ -2,6 +2,7 @@ label avg10401:
 
 play music "ed7162.ogg"
 scene avg_bg_065
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1140002]]'
@@ -96,6 +97,7 @@ c2311 '[textdict[1140029]]'
 hide p231
 hide p2
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
+$ update_narrator('c2381')
 with fade
 c2381 '[textdict[1140030]]'
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
@@ -174,6 +176,7 @@ c21 '[textdict[1140055]]'
 hide p2
 hide p1
 $ update_portrait('st032_01 1', 'p231', [r(2), light], 5)
+$ update_narrator('c2313')
 with fade
 c2313 '[textdict[1140056]]'
 $ update_portrait('st032_01 1', 'p231', [r(2), light], 5)
@@ -310,6 +313,7 @@ c2313 '[textdict[1140098]]'
 hide p237
 hide p231
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
+$ update_narrator('c31')
 with fade
 c31 '[textdict[1140099]]'
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
@@ -321,6 +325,7 @@ $ update_portrait('oc002_01 1', 'p2', [l(-3), light, flip], 6)
 c21 '[textdict[1140101]]'
 hide p2
 hide p1
+$ update_narrator('c11013')
 $ update_portrait('oc004_01 21', 'p1101', [r(-5), light], 5)
 with fade
 $ update_portrait('oc004_01 21', 'p1101', [r(-5), r_shake, light], 5)
@@ -374,6 +379,7 @@ c11013 '[textdict[1140119]]'
 hide p238
 hide p1101
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 with fade
 c21 '[textdict[1140120]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
@@ -523,6 +529,7 @@ c2383 '[textdict[1140168]]'
 hide p237
 hide p238
 $ update_portrait('oc003_01 7', 'p3', [l(-6), light, flip], 6)
+$ update_narrator('c31')
 with fade
 c31 '[textdict[1140169]]' (what_size=(gui.text_size*0.9))
 $ update_portrait('oc003_01 7', 'p3', [l(-6), dark, flip], 6)
@@ -538,6 +545,7 @@ c11013 '[textdict[1140172]]'
 hide p231
 hide p1101
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[textdict[1140173]]' (what_size=(gui.text_size*0.9))

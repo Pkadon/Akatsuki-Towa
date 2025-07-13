@@ -2,6 +2,7 @@ label avg1245:
 
 play music "ED6102.ogg"
 scene avg_bg_077
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7060.ogg"
@@ -41,6 +42,7 @@ $ update_portrait('st059_01 4', 'p1253', [l(-14), dark, flip], 6)
 c26663 '[textdict[2113270]]'
 play music "ED6518.ogg"
 scene avg_bg_105
+$ update_narrator('c26663')
 $ update_portrait('oce02_01 5', 'p2666', [r(-3), light], 5)
 with fade
 $ update_portrait('oce02_01 5', 'p2666', [r(-3), r_shake, light], 5)
@@ -88,6 +90,7 @@ $ update_portrait('st059_01 5', 'p1253', [l(-14), light, flip], 6)
 c12531 '[textdict[2113285]]'
 play music "ED6102.ogg"
 scene avg_bg_011
+$ update_narrator('c26663')
 with fade
 $ update_portrait('oce02_01 12', 'p2666', [r_entrance(-3), light], 5)
 play sfx2 "other_7047.ogg"
@@ -101,6 +104,7 @@ c26663 '[textdict[2113288]]'
 hide p1267
 hide p2666
 $ update_portrait('sc016_01 1', 'p1267', [l(-6), light, flip], 6)
+$ update_narrator('c12671')
 with fade
 c12671 '[textdict[2113289]]'
 play music "ed7516.ogg"
@@ -351,9 +355,11 @@ $ update_portrait('oce02_01 12', 'p2666', [r(-3), light], 5)
 c26663 '[textdict[2113375]]' with shake
 stop music
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2113376]]'
 scene avg_bg_036
+$ update_narrator('c13091')
 with fade
 play sfx2 "other_7080.ogg"
 c13091 '[textdict[2113377]]' with shake
@@ -368,15 +374,18 @@ c13091 '[textdict[2113380]]'
 play music "ed6567.ogg"
 hide p2666
 $ update_portrait('oce02_01 4', 'p2666', [mid(-3), light], 5)
+$ update_narrator('c26663')
 with fade
 play sfx2 "fight_6009.ogg"
 c26663 '[textdict[2113381]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 play sfx2 "fight_6018.ogg"
 c0 '[textdict[2113382]]'
 scene avg_bg_036
 $ update_portrait('oce02_01 4', 'p2666', [mid(-3), light], 5)
+$ update_narrator('c26663')
 with fade
 c26663 '[textdict[2113383]]'
 $ update_portrait('oce02_01 5', 'p2666', [mid(-3), light], 5)
@@ -391,6 +400,7 @@ c26663 '[textdict[2113387]]'
 $ update_portrait('oce02_01 4', 'p2666', [mid(-3), light], 5)
 c26663 '[textdict[2113388]]'
 scene avg_bg_520
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2113389]]'
 c26663 '[textdict[2113390]]'

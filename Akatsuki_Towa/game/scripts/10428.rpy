@@ -3,6 +3,7 @@ label avg10428:
 play music "ed7526.ogg"
 scene placeholderbackground
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 c13 '[textdict[1141284]]'

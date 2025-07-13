@@ -2,6 +2,7 @@ label avg25181:
 
 stop music
 scene placeholderbackground
+$ update_narrator('c20203')
 window show
 with fade_in
 play sfx2 "other_7077.ogg"

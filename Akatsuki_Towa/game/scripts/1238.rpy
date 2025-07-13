@@ -3,6 +3,7 @@ label avg1238:
 play music "ed7116.ogg"
 scene avg_bg_013
 $ update_portrait('oc002_01 5', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 window show
 with fade_in
 play sfx2 "other_7062.ogg"
@@ -46,11 +47,13 @@ $ update_portrait('sc004_01 1', 'p12', [r(-12), light], 5)
 c123 '[textdict[2112597]]'
 scene avg_bg_070
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2112598]]'
 play music "ed7100.ogg"
 scene avg_bg_013
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2112599]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
@@ -153,10 +156,12 @@ $ update_portrait('oc004_01 5', 'p4', [l(-5), light, flip], 6)
 c41 '[textdict[2112637]]'
 scene avg_bg_070
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2112638]]'
 scene avg_bg_013
 $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 with fade
 play sfx2 "other_7030.ogg"
 c21 '[textdict[2112639]]' (what_size=(gui.text_size*1.25)) with shake
@@ -263,10 +268,12 @@ $ update_portrait('oc004_01 19', 'p4', [r(-5), r_shake, light], 5)
 c43 '[textdict[2112676]]'
 scene avg_bg_070
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2112677]]'
 scene avg_bg_013
 $ update_portrait('oc001_01 22', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2112678]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)

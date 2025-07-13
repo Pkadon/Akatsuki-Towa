@@ -2,6 +2,7 @@ label avg12161:
 
 play music "ed7105.ogg"
 scene avg_bg_038
+$ update_narrator('c9661')
 window show
 with fade_in
 play sfx2 "other_7047.ogg"
@@ -61,12 +62,14 @@ play sfxvoice "bcv_oc002_arts_03.ogg"
 c21 '[textdict[1128464]]'
 scene avg_bg_070
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[textdict[1128465]]' with shake
 scene avg_bg_038
 $ update_portrait('oc004_01 3', 'p4', [l(-5), light, flip], 6)
+$ update_narrator('c41')
 with fade
 play sfx2 "other_7079.ogg"
 c41 '[textdict[1128466]]'

@@ -2,6 +2,7 @@ label avg10823:
 
 play music "ed7103.ogg"
 scene avg_bg_001
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1184285]]'
@@ -105,6 +106,7 @@ hide p2
 c0 '[textdict[1184316]]'
 scene avg_bg_035
 $ update_portrait('sc007_01 1', 'p15', [l(-17), light, flip], 6)
+$ update_narrator('c151')
 with fade
 c151 '[textdict[1184317]]'
 $ update_portrait('sc007_01 1', 'p15', [l(-17), dark, flip], 6)
@@ -259,6 +261,7 @@ c13041 '[textdict[1184372]]'
 scene avg_bg_038
 show memoryoverlay zorder 2
 $ update_portrait('st056_01 1', 'p1349', [l(-6), light, flip], 6)
+$ update_narrator('c13491')
 with fade
 c13491 '[textdict[1184373]]'
 $ update_portrait('st056_01 1', 'p1349', [l(-6), dark, flip], 6)
@@ -276,6 +279,7 @@ c13491 '[textdict[1184377]]'
 $ update_portrait('st056_01 1', 'p1349', [l(-6), light, flip], 6)
 c13491 '[textdict[1184378]]'
 scene avg_bg_035
+$ update_narrator('c14491')
 with fade
 c14491 '[textdict[1184379]]'
 c0 '[textdict[1184380]]'
@@ -370,16 +374,19 @@ c13 '[textdict[1184412]]'
 scene avg_bg_038
 show memoryoverlay zorder 2
 $ update_portrait('st056_01 4', 'p1349', [l(-6), light, flip], 6)
+$ update_narrator('c13491')
 with fade
 c13491 '[textdict[1184413]]'
 hide p1349
 $ update_portrait('st056_01 4', 'p1349', [l(-6), light, flip], 6)
+$ update_narrator('c13491')
 with fade
 c13491 '[textdict[1184414]]'
 $ update_portrait('st056_01 4', 'p1349', [l(-6), light, flip], 6)
 c13491 '[textdict[1184415]]'
 scene avg_bg_035
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[1184416]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)

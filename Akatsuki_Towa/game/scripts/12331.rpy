@@ -2,6 +2,7 @@ label avg12331:
 
 play music "ed7124.ogg"
 scene avg_bg_059
+$ update_narrator('c10061')
 window show
 with fade_in
 play sfx2 "other_7021.ogg"
@@ -20,6 +21,7 @@ c2041 '[textdict[1133381]]'
 hide p204
 hide p4
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 with fade
 play sfxvoice "avg_vocal_ch12.ogg"
 c21 '[textdict[1133382]]'
@@ -39,6 +41,7 @@ c21 '[textdict[1133387]]'
 hide p2
 hide p1
 $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 c43 '[textdict[1133388]]'
 $ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
@@ -47,6 +50,7 @@ c2041 '[textdict[1133389]]'
 hide p204
 hide p4
 $ update_portrait('oc003_01 2', 'p3', [r(-6), light], 5)
+$ update_narrator('c33')
 with fade
 play sfxvoice "avg_vocal_ro10.ogg"
 c33 '[textdict[1133390]]'
@@ -59,6 +63,7 @@ c21 '[textdict[1133392]]'
 hide p2
 hide p1
 $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
+$ update_narrator('c43')
 with fade
 play sfx2 "other_7065.ogg"
 c43 '[textdict[1133393]]'
@@ -89,6 +94,7 @@ c43 '[textdict[1133404]]'
 $ update_portrait('oc004_01 5', 'p4', [r(-5), light], 5)
 c43 '[textdict[1133405]]' (what_size=(gui.text_size*1.4)) with shake
 hide p4
+$ update_narrator('c13')
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 with fade
 $ update_portrait('oc001_01 12', 'p1', [r(-2), r_shake, light], 5)
@@ -104,6 +110,7 @@ $ update_portrait('oc003_01 12', 'p3', [r(-6), light], 5)
 c33 '[textdict[1133408]]'
 hide p2
 hide p3
+$ update_narrator('c5341')
 with fade
 play sfx2 "other_7064.ogg"
 c5341 '[textdict[1133409]]'
@@ -128,6 +135,7 @@ $ update_portrait('oc004_01 16', 'p4', [r(-5), dark], 5)
 c10061 '[textdict[1133419]]'
 hide p4
 $ update_portrait('oc003_01 21', 'p3', [r(-6), light], 5)
+$ update_narrator('c33')
 with fade
 c33 '[textdict[1133420]]' (what_size=(gui.text_size*0.9))
 hide p3

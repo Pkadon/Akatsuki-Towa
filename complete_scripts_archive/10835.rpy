@@ -3,6 +3,7 @@ label avg10835:
 play music "ed7513.ogg"
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1187229]]'
@@ -10,6 +11,7 @@ c0 '[textdict[1187230]]'
 c0 '[textdict[1187231]]'
 scene avg_bg_074
 show memoryoverlay zorder 2
+$ update_narrator('c5001')
 with fade
 c5001 '[textdict[1187232]]'
 c5001 '[textdict[1187233]]'
@@ -40,17 +42,20 @@ c25913 '[textdict[1187256]]'
 c15011 '[textdict[1187257]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1187258]]'
 c0 '[textdict[1187259]]'
 c0 '[textdict[1187260]]'
 scene avg_bg_017
 show memoryoverlay zorder 2
+$ update_narrator('c15023')
 with fade
 c15023 '[textdict[1187261]]'
 c15011 '[textdict[1187262]]'
 scene avg_bg_011
 show memoryoverlay zorder 2
+$ update_narrator('c14933')
 with fade
 c14933 '[textdict[1187263]]'
 c14933 '[textdict[1187264]]'
@@ -84,6 +89,7 @@ c15023 '[textdict[1187291]]'
 c14933 '[textdict[1187292]]'
 scene avg_bg_070
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1187293]]'
 c0 '[textdict[1187294]]'
@@ -91,6 +97,7 @@ c0 '[textdict[1187295]]'
 c0 '[textdict[1187296]]'
 scene avg_bg_028
 show memoryoverlay zorder 2
+$ update_narrator('c15011')
 with fade
 c15011 '[textdict[1187297]]'
 c15023 '[textdict[1187298]]'

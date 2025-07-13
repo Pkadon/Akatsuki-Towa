@@ -3,6 +3,7 @@ label avg11:
 stop music
 scene placeholderbackground
 $ update_portrait('sc007_01 5', 'p0', [l(-17), light, flip], 6)
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[12]]' (what_size=(gui.text_size*2.0))

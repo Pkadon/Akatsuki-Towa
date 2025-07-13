@@ -2,12 +2,14 @@ label avg1177:
 
 play music "ed7150.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[2106133]]'
 c0 '[textdict[2106134]]'
 scene avg_bg_023
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2106135]]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
@@ -56,9 +58,11 @@ $ update_portrait('sc049_01 1', 'p56', [l_entrance(-8), light, flip], 6)
 c561 '[textdict[2106151]]'
 play music "ed7117.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2106152]]'
 scene avg_bg_021
+$ update_narrator('c25431')
 with fade
 c25431 '[textdict[2106153]]'
 $ update_portrait('scc41_01 6', 'p2541', [r_entrance(-9), light], 5)
@@ -127,6 +131,7 @@ c25421 '[textdict[2106181]]'
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 5)
 c13 '[textdict[2106182]]'
 hide p1
+$ update_narrator('c25421')
 with fade
 c25421 '[textdict[2106183]]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
@@ -153,6 +158,7 @@ play sfx2 "other_7085.ogg"
 c13 '[textdict[2106192]]'
 hide p1
 scene avg_bg_017
+$ update_narrator('c25421')
 with fade
 play sfx2 "other_7085.ogg"
 c25421 '[textdict[2106193]]'
@@ -172,6 +178,7 @@ c5051 '[textdict[2106199]]' with shake
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2106200]]'
 scene avg_bg_071
+$ update_narrator('c25421')
 with fade
 c25421 '[textdict[2106201]]'
 play sfx2 "other_7079.ogg"
@@ -205,6 +212,7 @@ play sfx2 "fight_6024.ogg"
 c13 '[textdict[2106212]]'
 scene avg_bg_070
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2106213]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
@@ -214,6 +222,7 @@ c13 '[textdict[2106215]]'
 play music "ed7113.ogg"
 scene avg_bg_021
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
+$ update_narrator('c481')
 with fade
 c481 '[textdict[2106216]]'
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)

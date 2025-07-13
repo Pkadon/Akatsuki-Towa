@@ -2,41 +2,51 @@ label avg10859:
 
 play music "ed7513.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1190746]]'
 c0 '[textdict[1190747]]'
 scene avg_bg_505
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190748]]'
 scene avg_bg_507
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190749]]'
 scene avg_bg_222
 show Image8007 zorder 4
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190750]]'
 hide Image8007
 c0 '[textdict[1190751]]'
 scene avg_bg_205
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190752]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190753]]'
 scene avg_bg_041
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190754]]'
 scene avg_bg_049
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190755]]'
 c0 '[textdict[1190756]]'
 c0 '[textdict[1190757]]'
 stop music
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190758]]'
 scene avg_bg_040
+$ update_narrator('c5001')
 with fade
 play sfx2 "other_7060.ogg"
 c5001 '[textdict[1190759]]'
@@ -61,6 +71,7 @@ c5001 '[textdict[1190768]]'
 play music "ed7513.ogg"
 scene avg_bg_036
 show memoryoverlay zorder 2
+$ update_narrator('c26541')
 with fade
 c26541 '[textdict[1190769]]' with shake
 c26541 '[textdict[1190770]]'
@@ -85,6 +96,7 @@ c26551 '[textdict[1190787]]'
 c26541 '[textdict[1190788]]'
 c26551 '[textdict[1190789]]'
 c26561 '[textdict[1190790]]'
+$ update_narrator('c13091')
 with fade
 play sfx2 "other_7079.ogg"
 c13091 '[textdict[1190791]]' with shake
@@ -112,6 +124,7 @@ c26541 '[textdict[1190812]]'
 c26561 '[textdict[1190813]]'
 play music "ed7200.ogg"
 scene avg_bg_040
+$ update_narrator('c26561')
 with fade
 c26561 '[textdict[1190814]]' with shake
 c26561 '[textdict[1190815]]'
@@ -131,6 +144,7 @@ c26571 '[textdict[1190828]]'
 c26561 '[textdict[1190829]]'
 play music "ed7111.ogg"
 scene avg_bg_074
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1190830]]'
 c14281 '[textdict[1190831]]'

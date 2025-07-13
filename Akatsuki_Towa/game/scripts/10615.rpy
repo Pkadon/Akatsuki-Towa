@@ -2,6 +2,7 @@ label avg10615:
 
 play music "ed9999.ogg"
 scene avg_bg_058
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1160717]]'
@@ -289,6 +290,7 @@ play sfxvoice "avg_vocal_ch11.ogg"
 c21 '[textdict[1160805]]'
 hide p2
 hide p4
+$ update_narrator('c31')
 with fade
 $ update_portrait('oc003_01 1', 'p3', [l_entrance(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro02.ogg"

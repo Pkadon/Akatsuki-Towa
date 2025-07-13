@@ -3,6 +3,7 @@ label avg10418:
 play music "ed7516.ogg"
 scene avg_bg_078
 $ update_portrait('oc002_01 15', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 window show
 with fade_in
 play sfx2 "common_select.ogg"

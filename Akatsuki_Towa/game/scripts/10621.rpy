@@ -2,6 +2,7 @@ label avg10621:
 
 stop music
 scene avg_bg_007
+$ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "other_7047.ogg"

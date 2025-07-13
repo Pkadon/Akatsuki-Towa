@@ -3,6 +3,7 @@ label avg1176:
 play music "ed7100.ogg"
 scene avg_bg_043
 $ update_portrait('oc000_01 1', 'p2539', [l(-2), light, flip], 6)
+$ update_narrator('c25391')
 window show
 with fade_in
 c25391 '[textdict[2105834]]'
@@ -24,6 +25,7 @@ play sfx2 "other_7085.ogg"
 c5123 '[textdict[2105841]]'
 play music "ed7150.ogg"
 hide p2539
+$ update_narrator('c5111')
 with fade
 c5111 '[textdict[2105842]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
@@ -59,6 +61,7 @@ c21 '[textdict[2105854]]'
 play music "ed7516.ogg"
 scene avg_bg_070
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 with fade
 c13 '[textdict[2105855]]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
@@ -67,13 +70,16 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 c13 '[textdict[2105857]]'
 scene avg_bg_006
 $ update_portrait('st003_01 4', 'p203', [l(-7), light, flip], 6)
+$ update_narrator('c2031')
 with fade
 c2031 '[textdict[2105858]]'
 scene avg_bg_021
 $ update_portrait('st005_01 2', 'p205', [l(4), light, flip], 6)
+$ update_narrator('c2051')
 with fade
 c2051 '[textdict[2105859]]'
 scene avg_bg_019
+$ update_narrator('c6521')
 with fade
 c6521 '[textdict[2105860]]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
@@ -124,6 +130,7 @@ play music "ed7151.ogg"
 hide p2
 hide p1
 $ update_portrait('oc000_01 1', 'p2539', [r(-2), light], 5)
+$ update_narrator('c25393')
 with fade
 play sfx2 "other_7079.ogg"
 c25393 '[textdict[2105875]]'
@@ -215,6 +222,7 @@ play music "ed7150.ogg"
 hide p47
 hide p1
 $ update_portrait('sc040_01 4', 'p47', [l(-9), light, flip], 6)
+$ update_narrator('c471')
 with fade
 play sfx2 "fight_6009.ogg"
 c471 '[textdict[2105901]]'

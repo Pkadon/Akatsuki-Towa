@@ -3,6 +3,7 @@ label avg10810:
 play music "ed7513.ogg"
 scene avg_bg_504
 show memoryoverlay zorder 2
+$ update_narrator('c15011')
 window show
 with fade_in
 c15011 '[textdict[1182139]]'
@@ -24,6 +25,7 @@ play sfx2 "elc_5007.ogg"
 c15011 '[textdict[1182151]]'
 play sfx2 "fight_6008.ogg"
 c0 '[textdict[1182152]]' with shake
+$ update_narrator('c15021')
 with fade
 c15021 '[textdict[1182153]]'
 c14931 '[textdict[1182154]]'

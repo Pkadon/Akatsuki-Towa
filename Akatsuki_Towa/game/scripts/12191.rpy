@@ -3,6 +3,7 @@ label avg12191:
 play music "ed7151.ogg"
 scene placeholderbackground
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "fight_6024.ogg"
@@ -102,6 +103,7 @@ $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[textdict[1121442]]'
 scene avg_bg_027
+$ update_narrator('c353')
 with fade
 $ update_portrait('sc027_01 5', 'p35', [r_entrance(-10), light], 5)
 play sfx2 "other_7085.ogg"

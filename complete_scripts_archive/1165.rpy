@@ -3,6 +3,7 @@ label avg1165:
 play music "ed7150.ogg"
 scene avg_bg_023
 $ update_portrait('sc049_01 4', 'p56', [l(-8), light, flip], 6)
+$ update_narrator('c561')
 window show
 with fade_in
 c561 '[textdict[2105092]]'
@@ -237,29 +238,37 @@ hide p1
 c11553 '[textdict[2105170]]' with shake
 play music "ed7565.ogg"
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2105171]]'
 scene avg_bg_045
+$ update_narrator('c25321')
 with fade
 c25321 '[textdict[2105172]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2105173]]'
 scene avg_bg_021
+$ update_narrator('c25041')
 with fade
 c25041 '[textdict[2105174]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2105175]]'
 scene avg_bg_055
+$ update_narrator('c7401')
 with fade
 c7401 '[textdict[2105176]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2105177]]'
 c0 '[textdict[2105178]]'
 scene avg_bg_026
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
+$ update_narrator('c473')
 with fade
 c473 '[textdict[2105179]]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
@@ -267,10 +276,12 @@ $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
 play sfx2 "elc_5005.ogg"
 c41 '[textdict[2105180]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2105181]]'
 scene avg_bg_010
 $ update_portrait('sc045_01 4', 'p52', [r(-11), light], 5)
+$ update_narrator('c523')
 with fade
 c523 '[textdict[2105182]]'
 $ update_portrait('sc045_01 4', 'p52', [r(-11), dark], 5)
@@ -278,6 +289,7 @@ $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 play sfx2 "fight_6013.ogg"
 c31 '[textdict[2105183]]'
 scene avg_bg_070
+$ update_narrator('c0')
 with fade
 c0 '[textdict[2105184]]'
 play sfx2 "other_7047.ogg"
@@ -285,6 +297,7 @@ c0 '[textdict[2105185]]'
 play music "ed7150.ogg"
 scene avg_bg_023
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
+$ update_narrator('c561')
 with fade
 c561 '[textdict[2105186]]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 6)

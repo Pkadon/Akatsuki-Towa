@@ -3,6 +3,7 @@ label avg1202:
 play music "ED6108.ogg"
 scene avg_bg_034
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 window show
 with fade_in
 c2401 '[textdict[2108106]]'
@@ -20,6 +21,7 @@ c303 '[textdict[2108109]]'
 hide p27
 hide p30
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108110]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
@@ -44,6 +46,7 @@ c403 '[textdict[2108115]]'
 hide p38
 hide p40
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108116]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
@@ -69,6 +72,7 @@ c163 '[textdict[2108122]]'
 hide p15
 hide p16
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108123]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
@@ -85,6 +89,7 @@ c283 '[textdict[2108126]]'
 hide p209
 hide p28
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108127]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
@@ -100,6 +105,7 @@ play sfx2 "other_7062.ogg"
 c103 '[textdict[2108130]]'
 hide p9
 hide p10
+$ update_narrator('c131')
 $ update_portrait('sc005_01 1', 'p13', [l(-17), light, flip], 6)
 with fade
 $ update_portrait('sc005_01 1', 'p13', [l(-17), l_shake, light, flip], 6)
@@ -108,6 +114,7 @@ $ update_portrait('sc005_01 5', 'p13', [l(-17), light, flip], 6)
 c131 '[textdict[2108132]]'
 hide p13
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108133]]'
 hide p240
@@ -115,6 +122,7 @@ c0 '[textdict[2108134]]'
 c0 '[textdict[2108135]]'
 play music "ED6107.ogg"
 $ update_portrait('st011_01 1', 'p210', [l(-14), light, flip], 6)
+$ update_narrator('c2101')
 with fade
 c2101 '[textdict[2108136]]'
 $ update_portrait('st011_01 1', 'p210', [l(-14), light, flip], 6)
@@ -142,6 +150,7 @@ play music "ED6523.ogg"
 hide p39
 hide p29
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108144]]'
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
@@ -177,6 +186,7 @@ c733 '[textdict[2108157]]'
 hide p610
 hide p73
 $ update_portrait('st029_01 1', 'p610', [l(-28), light, flip], 6)
+$ update_narrator('c6101')
 with fade
 c6101 '[textdict[2108158]]'
 $ update_portrait('st029_01 1', 'p610', [l(-28), light, flip], 6)
@@ -215,6 +225,7 @@ play sfx2 "other_7062.ogg"
 c303 '[textdict[2108170]]'
 hide p27
 hide p30
+$ update_narrator('c171')
 $ update_portrait('sc009_01 1', 'p17', [l(-13), light, flip], 6)
 with fade
 $ update_portrait('sc009_01 1', 'p17', [l(-13), l_shake, light, flip], 6)
@@ -236,6 +247,7 @@ c6101 '[textdict[2108175]]'
 hide p610
 hide p73
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108176]]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
@@ -307,6 +319,7 @@ c2093 '[textdict[2108197]]'
 hide p28
 hide p209
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
+$ update_narrator('c2401')
 with fade
 c2401 '[textdict[2108198]]'
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)

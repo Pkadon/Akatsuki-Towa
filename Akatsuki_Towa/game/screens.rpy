@@ -95,9 +95,13 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen say(who, what):
+screen say(who, what, char_id=None):
     style_prefix "say"
     
+    #Updates the default renpy narrator character with the last used Character object
+    #This is necessary to keep the namebox visible and consistent during fade-out transitions
+    if not renpy.predicting():
+        $ update_narrator(char_id) # this function can be found in deffunctions.rpy
 
     window:
         id "window"

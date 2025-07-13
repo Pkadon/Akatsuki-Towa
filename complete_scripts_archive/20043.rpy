@@ -2,6 +2,7 @@ label avg20043:
 
 play music "ed6570.ogg"
 scene placeholderbackground
+$ update_narrator('c351')
 $ update_portrait('sc027_01 3', 'p35', [l(-10), light, flip], 6)
 window show
 with fade_in

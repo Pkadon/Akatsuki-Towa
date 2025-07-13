@@ -3,6 +3,7 @@ label avg10568:
 play music "ed7571.ogg"
 scene placeholderbackground
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfxvoice "bcv_oc001_hurt_01.ogg"
@@ -62,6 +63,7 @@ $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
 c13 '[textdict[1154580]]'
 hide p16
 hide p1
+$ update_narrator('c12351')
 with fade
 c12351 '[textdict[1154581]]'
 $ update_portrait('sc008_01 1', 'p16', [r(-18), light], 5)
@@ -78,6 +80,7 @@ $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 c43 '[textdict[1154587]]'
 hide p4
 $ update_portrait('st057_01 2', 'p1211', [l(-16), light, flip], 6)
+$ update_narrator('c12111')
 with fade
 c12111 '[textdict[1154588]]'
 $ update_portrait('st057_01 4', 'p1211', [l(-16), light, flip], 6)

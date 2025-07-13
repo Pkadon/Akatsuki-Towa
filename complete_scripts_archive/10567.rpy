@@ -3,6 +3,7 @@ label avg10567:
 play music "ed7564.ogg"
 scene placeholderbackground
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 5)
+$ update_narrator('c13')
 window show
 with fade_in
 play sfxvoice "bcv_oc001_hurt_01.ogg"
@@ -149,6 +150,7 @@ c33 '[textdict[1154466]]'
 hide p16
 hide p3
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
 with fade
 c21 '[textdict[1154467]]'
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 6)
@@ -295,6 +297,7 @@ c13 '[textdict[1154514]]' with shake
 play music "ed7580.ogg"
 scene avg_bg_052
 show memoryoverlay zorder 2
+$ update_narrator('c10491')
 with fade
 c10491 '[textdict[1154515]]'
 c5003 '[textdict[1154516]]'
@@ -308,6 +311,7 @@ c5003 '[textdict[1154523]]'
 c5003 '[textdict[1154524]]'
 play music "ed7564.ogg"
 scene placeholderbackground
+$ update_narrator('c41')
 $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
 with fade
 $ update_portrait('oc004_01 16', 'p4', [l(-5), l_shake, light, flip], 6)
@@ -375,6 +379,7 @@ c13 '[textdict[1154542]]'
 hide p16
 hide p1
 $ update_portrait('st056_01 1', 'p1212', [r(-6), light], 5)
+$ update_narrator('c12123')
 with fade
 c12123 '[textdict[1154543]]'
 $ update_portrait('st056_01 1', 'p1212', [r(-6), light], 5)

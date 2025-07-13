@@ -179,7 +179,11 @@ class GameState:
 				state.add_line(f'show {newimage} zorder 4\n')
 				self.avgimage = newimage
 			
-	def add_fade(self, portraitpos=None):
+	def add_fade(self, next_speaker, portraitpos=None):
+		#Update the narrator to use the next speaker's character
+		#so that the namebox can be present on fade-in
+		self.add_line(f"$ update_narrator('{next_speaker}')\n")
+		
 		#Adds a placeholder portrait, so it isn't missing during the transition
 		#it will use the same alias as the real one, so it shouldn't need to be hidden
 		if portraitpos:
@@ -356,6 +360,16 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			avgimagename = "Image"+str(avgImageID)
 		state.update_avgimage(avgimagename)
 		
+	#Speaker name
+		#Figure out where the namebox goes
+		if speaker == 0: nameboxPos = ''
+		elif charPos == 1: nameboxPos = 1
+		else: nameboxPos = 3
+		
+		#Then figure out what renpy speaker to use.
+		#This is also used in fade transitions, so it needs to be figured out up here.
+		renpyspeaker = f'c{speaker}{nameboxPos}'
+		
 	#Portrait
 		#figure out if a portrait needs to be displayed 
 		if charID == 0:
@@ -419,9 +433,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				if CharFadeIn == 1 or CharFadeOut == 1 or effect in [103, 203, 102, 202]:
 				#everything except for CharFadeIn needs a placeholder portrait so it isn't missing during the fade in
 					if not CharFadeIn == 1:
-						state.add_fade(portraitpos)
+						state.add_fade(renpyspeaker, portraitpos)
 					else:
-						state.add_fade()
+						state.add_fade(renpyspeaker)
 					fade = False
 					
 			#SHOW PORTRAIT									
@@ -439,7 +453,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 
 		#If fade was not done earlier because of portrait animations, do it here now
 		if fade: 
-			state.add_fade()
+			state.add_fade(renpyspeaker)
 			fade = False
 			
 	#Sound/Voice
@@ -458,16 +472,14 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			state.add_line(f'play sfxvoice "{voicename}"\n')
 		
 	#START OF SAY STATEMENT
-		#figure out where namebox goes
-		if speaker == 0: nameboxPos = ''
-		elif charPos == 1: nameboxPos = 1
-		else: nameboxPos = 3
+
+		#renpyspeaker name needed to be moved higher up to account for fade
 		
 		#convert dialogue string to display correctly
 		dialogue = f"[textdict[{strID}]]"
 		
 		#start with the speaker and dialogue
-		say = f"c{speaker}{nameboxPos} '{dialogue}'"
+		say = f"{renpyspeaker} '{dialogue}'"
 		
 		#see if dialogue text needs to be resized
 		#(20 is already the default)

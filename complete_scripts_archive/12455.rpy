@@ -2,6 +2,7 @@ label avg12455:
 
 play music "ed7515.ogg"
 scene avg_bg_036
+$ update_narrator('c0')
 window show
 with fade_in
 c0 '[textdict[1143554]]'
@@ -17,6 +18,7 @@ $ update_portrait('oc004_01 15', 'p4', [r(-5), light], 5)
 c43 '[textdict[1143560]]'
 scene avg_bg_019
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1143561]]'
 $ update_portrait('oc006_01 1', 'p6', [l(-5), light, flip], 6)
@@ -60,6 +62,7 @@ hide p4
 c0 '[textdict[1143575]]'
 scene avg_bg_010
 show memoryoverlay zorder 2
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1143576]]'
 c0 '[textdict[1143577]]'
@@ -89,6 +92,7 @@ c0 '[textdict[1143589]]'
 c0 '[textdict[1143590]]'
 play music "ed7102.ogg"
 scene avg_bg_020
+$ update_narrator('c0')
 with fade
 c0 '[textdict[1143591]]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), l_shake, light, flip], 6)
