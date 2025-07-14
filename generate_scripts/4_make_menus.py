@@ -47,14 +47,18 @@ else:
 for key in list(questlog_dict.keys()):
 	log = questlog_dict[key]
 	
-	questlog_dict[key] = {
+	new_log = {
 		'type': log['type'],
 		'title': log['strID'],
 		'level': log['level'],
 		'client': log['client'],
 		'details': log['description'],
-		'steps': (log['steps'] + [log['clear']])
+		'steps': log['steps']
 	}
+	#Makes it possible to remove the clear string by setting it to null in the json
+	if log['clear']: new_log['steps'].append(log['clear'])
+	
+	questlog_dict[key] = new_log
 
 ########################################################
 errorcount = 0
