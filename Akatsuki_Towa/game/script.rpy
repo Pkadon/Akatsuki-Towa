@@ -16,6 +16,8 @@ init python:
 
     config.window_show_transition = None
 
+    style.default.prefer_emoji = False
+
 #################################################################
 label start:
 return
