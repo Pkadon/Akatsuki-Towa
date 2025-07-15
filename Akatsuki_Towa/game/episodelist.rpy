@@ -322,13 +322,13 @@ screen questlog(data):
             elif data['type'] == 2: prefix = logsub + ' '
             elif data['type'] == 16: prefix = logdaily + ' '
 
-            fulltext += prefix + textdict[data['title']] + '\n'
+            fulltext += prefix + convertstrid(data['title']) + '\n'
             fulltext += loglevel + ' ' + str(data['level']) + '\n'
-            fulltext += logclient + ' ' + textdict[data['client']] + '\n'
-            fulltext += logdetails + ' ' + textdict[data['details']] + '\n'
+            fulltext += logclient + ' ' + convertstrid(data['client']) + '\n'
+            fulltext += logdetails + ' ' + convertstrid(data['details']) + '\n'
         
             for step in data['steps']:
-                fulltext += ' ' + logbullet + ' ' + textdict[step] + '\n'
+                fulltext += ' ' + logbullet + ' ' + convertstrid(step) + '\n'
 
             data['fulltext'] = fulltext
 
