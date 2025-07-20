@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-import re
 
 # I don't know if it's ok to be using __file__ here, 
 # but I figure it's better than what it was before
