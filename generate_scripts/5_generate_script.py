@@ -266,6 +266,24 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		script_json['dialogueFrames'][98]['expression'] = 12 #expression was unset so this is a guess
 		script_json['dialogueFrames'][98]['CharFadeOut'] = 1
 		script_json['dialogueFrames'][99]['CharFadeOut'] = 0
+	
+#Changing backgrounds around for some of the scenes that were originally minimized
+#or that originally used a transparent background
+	#This scene has a footstep sound to indicate that they have moved location
+	#So I added an indoor background/bgm to the first half to match the first scene of the quest
+	elif fname == '12159':
+		script_json['backgrounds'].insert(0, {'id': 38, 'start': 1, 'end': 3})
+		script_json['backgrounds'][1]['start'] = 4
+		script_json['bgm'].insert(0, {'id': 132, 'start': 1, 'end': 3})
+		script_json['bgm'][1]['start'] = 4
+	#This scene takes place at the harbor, so I changed the background to the harbor.
+	elif fname == '20050':
+		script_json['backgrounds'][0]['id'] = 28
+		
+	#This is adding a background to a transparent background scene so that it matches
+	#the other scenes around it.  I may decide to change this again later.
+	elif fname == '20052':
+		script_json['backgrounds'].insert(0, {'id': 27, 'start': 1, 'end': 32}) 
 		
 ###########################################################################
 
