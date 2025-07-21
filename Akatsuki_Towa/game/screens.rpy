@@ -915,31 +915,29 @@ screen history():
 
         style_prefix "history"
 
-        for h in _history_list:
+        vbox:
+            xsize 510
+            spacing 10
 
-            window:
+            for h in _history_list:
+                vbox:
 
-                ## This lays things out properly if history_height is None.
-                has fixed:
-                    yfit True
+                    if h.who:
+                        text [h.who + ":"]:
+                            substitute False
+                            xalign 0.0
+                            color "#000000"
+                            size gui.name_text_size
 
-                if h.who:
-
-                    label h.who:
-                        style "history_name"
+                    $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
+                    text what:
                         substitute False
+                        xalign 0.0
+                        xsize 500
+                        size gui.text_size
 
-                        ## Take the color of the who text from the Character, if
-                        ## set.
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
-
-                $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what:
-                    substitute False
-
-        if not _history_list:
-            label _("The dialogue history is empty.")
+            if not _history_list:
+                label _("The dialogue history is empty.")
 
 
 ## This determines what tags are allowed to be displayed on the history screen.

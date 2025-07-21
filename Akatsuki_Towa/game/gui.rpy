@@ -287,7 +287,7 @@ define config.history_length = 250
 
 ## The height of a history screen entry, or None to make the height variable at
 ## the cost of performance.
-define gui.history_height = 92
+define gui.history_height = 100
 
 ## Additional space to add between history screen entries.
 define gui.history_spacing = 0
@@ -296,13 +296,13 @@ define gui.history_spacing = 0
 ## speaking character.
 define gui.history_name_xpos = 102
 define gui.history_name_ypos = 0
-define gui.history_name_width = 102
+define gui.history_name_width = 570
 define gui.history_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
 define gui.history_text_xpos = 112
 define gui.history_text_ypos = 2
-define gui.history_text_width = 486
+define gui.history_text_width = 570
 define gui.history_text_xalign = 0.0
 
 
