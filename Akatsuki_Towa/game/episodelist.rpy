@@ -128,72 +128,72 @@ screen episodelist():
                         style "backbutton"
                         text_style "backbutton_text"
                         action Replay("spritetest", locked=False)
-        vpgrid:
-            rows 1
+        viewport:
             xpos backbutton_width
             xsize (840 - backbutton_width)
             scrollbars "horizontal"
 
-            # Create a separate column for each chapter/category
-            for chapter in menudata:
-                vbox:
-                    # Gold chapter label button
-                    python:
-                        if 'chaptername_fit' not in chapter:
-                            chaptername = convertstrid(chapter['chaptername'])
+            hbox:
+                # Create a separate column for each chapter/category
+                for chapter in menudata:
+                    vbox:
+                        # Gold chapter label button
+                        python:
+                            if 'chaptername_fit' not in chapter:
+                                chaptername = convertstrid(chapter['chaptername'])
 
-                            # Stores the text as a Text object, 
-                            # so the style needs to be added as a tag here for certain things like font to be applied correctly
-                            chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
-                            chaptername_center = int(chaptername_fit.size()[1]*tabfont_center)
+                                # Stores the text as a Text object, 
+                                # so the style needs to be added as a tag here for certain things like font to be applied correctly
+                                chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
+                                chaptername_center = int(chaptername_fit.size()[1]*tabfont_center)
 
-                            # Cache the result:
-                            chapter['chaptername_fit'] = chaptername_fit
-                            chapter['chaptername_center'] = chaptername_center
+                                # Cache the result:
+                                chapter['chaptername_fit'] = chaptername_fit
+                                chapter['chaptername_center'] = chaptername_center
 
-                        else:
-                            chaptername_fit = chapter['chaptername_fit']
-                            chaptername_center = chapter['chaptername_center']
+                            else:
+                                chaptername_fit = chapter['chaptername_fit']
+                                chaptername_center = chapter['chaptername_center']
 
-                    textbutton chaptername_fit:
-                        style "goldtab"
-                        xpos 2
-                        text_style "tabbutton_text"
-                        text_yanchor chaptername_center
+                        textbutton chaptername_fit:
+                            style "goldtab"
+                            xpos 2
+                            text_style "tabbutton_text"
+                            text_yanchor chaptername_center
 
-                    vpgrid:
-                        cols 1
-                        xsize (tabwidth + gui.scrollbar_size)
-                        draggable True
-                        mousewheel True
-                        scrollbars "vertical"
-                        vscrollbar_unscrollable "hide"
+                        vpgrid:
+                            cols 1
+                            xsize (tabwidth + gui.scrollbar_size)
+                            draggable True
+                            mousewheel True
+                            scrollbars "vertical"
+                            vscrollbar_unscrollable "hide"
   
-                        # Silver tab buttons that open "quest" menu
-                        for quest in chapter['quests']:
-                            python:
-                                if 'questname_fit' not in quest:
-                                    questname = convertstrid(quest['questname'])
-                                    if quest['add']: questname += quest['add']
+                            # Silver tab buttons that open "quest" menu
+                            for quest in chapter['quests']:
+                                python:
+                                    if 'questname_fit' not in quest:
+                                        questname = convertstrid(quest['questname'])
+                                        if quest['add']: questname += quest['add']
 
-                                    # Stores the text as a Text object, 
-                                    # so the style needs to be added as a tag here for certain things like font to be applied correctly
-                                    questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
-                                    questname_center = int(questname_fit.size()[1]*tabfont_center)
+                                        # Stores the text as a Text object, 
+                                        # so the style needs to be added as a tag here for certain things like font to be applied correctly
+                                        questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
+                                        questname_center = int(questname_fit.size()[1]*tabfont_center)
 
-                                    # Cache the result:
-                                    quest['questname_fit'] = questname_fit
-                                    quest['questname_center'] = questname_center
+                                        # Cache the result:
+                                        quest['questname_fit'] = questname_fit
+                                        quest['questname_center'] = questname_center
 
-                                else:
-                                    questname_fit = quest['questname_fit']
-                                    questname_center = quest['questname_center']
+                                    else:
+                                        questname_fit = quest['questname_fit']
+                                        questname_center = quest['questname_center']
 
-                            textbutton questname_fit:
-                                style "silvertab"
-                                text_style "tabbutton_text"
-                                text_yanchor questname_center
-                                action ShowMenu("quest", quest)
+                                textbutton questname_fit:
+                                    style "silvertab"
+                                    text_style "tabbutton_text"
+                                    text_yanchor questname_center
+                                    action ShowMenu("quest", quest)
 
 
 
