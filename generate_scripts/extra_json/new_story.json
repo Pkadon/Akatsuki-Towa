@@ -1219,14 +1219,14 @@
                         "name": "爆弾の捜索（2） 1/6",
                         "strID": 60601,
                         "add": " 1/6",
-                        "infostrID": 3207,
+                        "infostrID": 3201,
                         "avgID": 20056
                     },
                     {
                         "name": "爆弾の捜索（2） 2/6",
                         "strID": 60601,
                         "add": " 2/6",
-                        "infostrID": 3213,
+                        "infostrID": 3204,
                         "avgID": 20057
                     },
                     {
@@ -1247,14 +1247,14 @@
                         "name": "爆弾の捜索（2） 5/6",
                         "strID": 60601,
                         "add": " 5/6",
-                        "infostrID": 3211,
+                        "infostrID": 3201,
                         "avgID": 20060
                     },
                     {
                         "name": "爆弾の捜索（2） 6/6",
                         "strID": 60601,
                         "add": " 6/6",
-                        "infostrID": 3215,
+                        "infostrID": 3203,
                         "avgID": 10033
                     }
                 ]
