@@ -807,7 +807,7 @@
                     {
                         "name": "飛行船の機能拡張 2/4",
                         "strID": 17159,
-                        "infostrID": 3004,
+                        "infostrID": 3026,
                         "avgID": 12176
                     },
                     {
@@ -819,7 +819,7 @@
                     {
                         "name": "飛行船の機能拡張 4/4",
                         "strID": 17161,
-                        "infostrID": 3004,
+                        "infostrID": 3026,
                         "avgID": 12178
                     }
                 ]
@@ -834,7 +834,7 @@
                     {
                         "name": "女王生誕祭の支援（2） 1/7",
                         "strID": 17106,
-                        "infostrID": 3009,
+                        "infostrID": 3254,
                         "avgID": 10136
                     },
                     {
@@ -870,7 +870,7 @@
                     {
                         "name": "女王生誕祭の支援（2） 7/7",
                         "strID": 17112,
-                        "infostrID": 3009,
+                        "infostrID": 3254,
                         "avgID": 10140
                     }
                 ]
@@ -1062,14 +1062,14 @@
                     {
                         "name": "爆弾の捜索（1） 4/13",
                         "strID": 17125,
-                        "infostrID": 3214,
-                        "avgID": 20046
+                        "infostrID": 3201,
+                        "avgID": 20047
                     },
                     {
                         "name": "爆弾の捜索（1） 5/13",
                         "strID": 17126,
-                        "infostrID": 3211,
-                        "avgID": 20047
+                        "infostrID": 3204,
+                        "avgID": 20046
                     },
                     {
                         "name": "爆弾の捜索（1） 6/13",
