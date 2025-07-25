@@ -63,8 +63,7 @@ init python:
     style.tabbutton.xysize = (tabwidth,tabheight)
 
     style.tabbutton_text = Style('text')
-    style.tabbutton_text.xalign = 0.5
-    style.tabbutton_text.ypos = 0.5
+    style.tabbutton_text.pos = (0.5,0.5)
     # tabtextsize needs to be changed from inside CONFIG.rpy
     tabbutton_texttags = {
         'font':  tabfont # is in CONFIG.rpy
@@ -128,6 +127,7 @@ screen episodelist():
                         style "backbutton"
                         text_style "backbutton_text"
                         action Replay("spritetest", locked=False)
+
         vpgrid:
             rows 1
             xpos backbutton_width
@@ -139,27 +139,30 @@ screen episodelist():
                 vbox:
                     # Gold chapter label button
                     python:
-                        if 'chaptername_fit' not in chapter:
+                        if 'name_fit' not in chapter:
                             chaptername = convertstrid(chapter['chaptername'])
 
                             # Stores the text as a Text object, 
                             # so the style needs to be added as a tag here for certain things like font to be applied correctly
                             chaptername_fit = fit_text(chaptername, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
-                            chaptername_center = int(chaptername_fit.size()[1]*tabfont_center)
+                            chaptername_xcenter = int(chaptername_fit.size()[0]*.5)
+                            chaptername_ycenter = int(chaptername_fit.size()[1]*tabfont_center)
 
                             # Cache the result:
-                            chapter['chaptername_fit'] = chaptername_fit
-                            chapter['chaptername_center'] = chaptername_center
+                            chapter['name_fit'] = chaptername_fit
+                            chapter['name_xcenter'] = chaptername_xcenter
+                            chapter['name_ycenter'] = chaptername_ycenter
 
                         else:
-                            chaptername_fit = chapter['chaptername_fit']
-                            chaptername_center = chapter['chaptername_center']
+                            chaptername_fit = chapter['name_fit']
+                            chaptername_xcenter = chapter['name_xcenter']
+                            chaptername_ycenter = chapter['name_ycenter']
 
                     textbutton chaptername_fit:
                         style "goldtab"
-                        xpos 2
                         text_style "tabbutton_text"
-                        text_yanchor chaptername_center
+                        text_anchor (chaptername_xcenter, chaptername_ycenter)
+                        
 
                     vpgrid:
                         cols 1
@@ -172,27 +175,30 @@ screen episodelist():
                         # Silver tab buttons that open "quest" menu
                         for quest in chapter['quests']:
                             python:
-                                if 'questname_fit' not in quest:
+                                if 'name_fit' not in quest:
                                     questname = convertstrid(quest['questname'])
                                     if quest['add']: questname += quest['add']
 
                                     # Stores the text as a Text object, 
                                     # so the style needs to be added as a tag here for certain things like font to be applied correctly
                                     questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
-                                    questname_center = int(questname_fit.size()[1]*tabfont_center)
+                                    questname_xcenter = int(questname_fit.size()[0]*.5)
+                                    questname_ycenter = int(questname_fit.size()[1]*tabfont_center)
 
                                     # Cache the result:
-                                    quest['questname_fit'] = questname_fit
-                                    quest['questname_center'] = questname_center
+                                    quest['name_fit'] = questname_fit
+                                    quest['name_xcenter'] = questname_xcenter
+                                    quest['name_ycenter'] = questname_ycenter
 
                                 else:
-                                    questname_fit = quest['questname_fit']
-                                    questname_center = quest['questname_center']
+                                    questname_fit = quest['name_fit']
+                                    questname_xcenter = quest['name_xcenter']
+                                    questname_ycenter = quest['name_ycenter']
 
                             textbutton questname_fit:
                                 style "silvertab"
                                 text_style "tabbutton_text"
-                                text_yanchor questname_center
+                                text_anchor (questname_xcenter, questname_ycenter)
                                 action ShowMenu("quest", quest)
 
 
@@ -244,22 +250,25 @@ screen quest(data):
 
             # Silver tab quest name label at the top of the screen
             python:
-                if 'questname_fit' not in data:
+                if 'name_fit' not in data:
                     questname = convertstrid(data['questname'])
                     if data['add']: questname += quest['add']
 
                     # Stores the text as a Text object, 
                     # so the style needs to be added as a tag here for certain things like font to be applied correctly
                     questname_fit = fit_text(questname, tabtextsize, (tabwidth-16, tabheight), tagdict=tabbutton_texttags)
-                    questname_center = int(questname_fit.size()[1]*tabfont_center)
+                    questname_xcenter = int(questname_fit.size()[0]*.5)
+                    questname_ycenter = int(questname_fit.size()[1]*tabfont_center)
 
                     # Cache the result:
-                    data['questname_fit'] = questname_fit
-                    data['questname_center'] = questname_center
+                    data['name_fit'] = questname_fit
+                    data['name_xcenter'] = questname_xcenter
+                    data['name_ycenter'] = questname_ycenter
 
                 else:
-                    questname_fit = data['questname_fit']
-                    questname_center = data['questname_center']
+                    questname_fit = data['name_fit']
+                    questname_xcenter = data['name_xcenter']
+                    questname_ycenter = data['name_ycenter']
 
             textbutton questname_fit:
                 style "silvertab"
@@ -267,7 +276,7 @@ screen quest(data):
                 # Center the button over the bookpage columns, without taking into account the scrollbar width
                 xpos (pagecolumns*pagewidth) //2
                 text_style "tabbutton_text"
-                text_yanchor questname_center
+                text_anchor (questname_xcenter, questname_ycenter)
 
             vpgrid:
                 cols pagecolumns
@@ -277,7 +286,7 @@ screen quest(data):
                 scrollbars "vertical"
                 vscrollbar_unscrollable "hide"
 
-                # "Bookpage" buttons that play s cutscene when clicked
+                # "Bookpage" buttons that play a cutscene when clicked
                 for scene in data['scenes']:
                     python:
                         if 'scenename_fit' not in scene:
