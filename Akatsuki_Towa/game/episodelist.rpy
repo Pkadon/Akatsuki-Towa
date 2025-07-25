@@ -295,7 +295,7 @@ screen quest(data):
                             if scene['add']: scenename += scene['add']
 
                             # Stores the tagged text as a string, so the style will be applied in the textbutton block
-                            scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-20), pageheight), tagdict={'color': '#710905'}, ret_type='string')
+                            scenename_fit = fit_text(scenename, pagetextsize, ((pagewidth-24), pageheight), tagdict={'color': '#710905'}, ret_type='string')
 
                             #"info" text underneath
                             if scene['sceneinfo']: 
@@ -303,7 +303,7 @@ screen quest(data):
                                 info = convertstrid(scene['sceneinfo'])
 
                                 # Stores the tagged text as a string, so the style will be applied in the textbutton block
-                                info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-20), pageheight), tagdict={'color':'#34374b'}, ret_type='string')
+                                info_fit = fit_text(info, (pagetextsize-2), ((pagewidth-24), pageheight), tagdict={'color':'#34374b'}, ret_type='string')
 
                                 scenename_fit += f'\n{info_fit}'
 
