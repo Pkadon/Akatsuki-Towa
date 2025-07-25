@@ -88,13 +88,13 @@ init python:
     # pagetextsize needs to be changed from inside CONFIG.rpy
 
 # Styles used for the questlog screen
-    style.questlog = Style('button')
-    style.questlog.background = Frame("bookpage", 35, 35)
-    style.questlog.xsize = (840 - backbutton_width - gui.scrollbar_size)
-    style.questlog.padding = (20, 0, 20, 0) #(left, top, right, bottom)
+    style.questlog_button = Style('button')
+    style.questlog_button.background = Frame("bookpage", 35, 35)
+    style.questlog_button.xsize = (840 - backbutton_width - gui.scrollbar_size)
+    style.questlog_button.padding = (20, 5, 20, 10) #(left, top, right, bottom)
 
     style.questlog_text = Style('text')
-    style.questlog_text.yalign = 0.2
+    style.questlog_text.yalign = 0.0
     style.questlog_text.text_align = 0
     style.questlog_text.size = logtextsize
     style.questlog_text.font = logfont
@@ -323,26 +323,12 @@ screen quest(data):
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(data):
     python:
-        if 'fulltext' not in data:
-            fulltext = ''
-            prefix = ''
+        prefix = ''
+        if data['type'] == 1: prefix = logmain + ' '
+        elif data['type'] == 2: prefix = logsub + ' '
+        elif data['type'] == 16: prefix = logdaily + ' '
 
-            if data['type'] == 1: prefix = logmain + ' '
-            elif data['type'] == 2: prefix = logsub + ' '
-            elif data['type'] == 16: prefix = logdaily + ' '
-
-            fulltext += prefix + convertstrid(data['title']) + '\n'
-            fulltext += loglevel + ' ' + str(data['level']) + '\n'
-            fulltext += logclient + ' ' + convertstrid(data['client']) + '\n'
-            fulltext += logdetails + ' ' + convertstrid(data['details']) + '\n'
-        
-            for step in data['steps']:
-                fulltext += ' ' + logbullet + ' ' + convertstrid(step) + '\n'
-
-            data['fulltext'] = fulltext
-
-        else:
-            fulltext = data['fulltext']
+        log_line_length = int((840 - backbutton_width - gui.scrollbar_size)*.85)
 
     modal True
     window:
@@ -362,6 +348,38 @@ screen questlog(data):
             mousewheel True
             scrollbars "vertical"
             vscrollbar_unscrollable "hide"
-            textbutton fulltext:
-                style "questlog"
-                text_style "questlog_text"
+            button: 
+                style_prefix "questlog"
+                vbox:
+                    spacing 5
+                    vbox:
+                        hbox:
+                            text prefix:
+                                color "#415866"
+                            text [convertstrid(data['title'])]:
+                                color "#1C3051"
+                        hbox:
+                            text [loglevel + ' ']:
+                                color "#415866"
+                            text [str(data['level'])]:
+                                color "#1C3051"
+                        hbox:
+                            text [logclient + ' ']:
+                                color "#415866"
+                            text [convertstrid(data['client'])]:
+                                color "#1C3051"
+                        hbox:
+                            text [logdetails + ' ']:
+                                color "#415866"
+                            text [convertstrid(data['details'])]:
+                                color "#1C3051"
+                    add "underline":
+                        xsize log_line_length
+                        xalign 0.5
+                    vbox:
+                        for step in data['steps']:
+                            hbox:
+                                text [' ' + logbullet + ' ']:
+                                    color "#415866"
+                                text [convertstrid(step)]:
+                                    color "#1C3051"

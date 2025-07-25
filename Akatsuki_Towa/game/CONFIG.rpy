@@ -306,7 +306,7 @@ init python early:
     loglevel = "【推奨レベル】"
     logclient = "【依頼人】"
     logdetails = "【内容】"
-    logbullet = "●"
+    logbullet = "•"
 
 # Quick Menu
 #==========================================
