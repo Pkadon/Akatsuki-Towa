@@ -350,15 +350,6 @@ define gui.nvl_button_xpos = 296
 define gui.nvl_button_xalign = 0.0
 
 
-## Localization ################################################################
-
-## This controls where a line break is permitted. The default is suitable
-## for most languages. A list of available values can be found at https://
-## www.renpy.org/doc/html/style_properties.html#style-property-language
-
-define gui.language = "unicode"
-
-
 ################################################################################
 ## Mobile devices
 ################################################################################

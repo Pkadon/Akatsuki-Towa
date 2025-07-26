@@ -28,6 +28,14 @@ Cutscenes recreated by Pikadon using Ren'Py - ({a=https://github.com/Pkadon/Akat
 ### The icon displayed on the taskbar or dock.
 define config.window_icon = "icon/FormIcon.jpg"
 
+###############
+# Line breaks
+###############
+## This controls where a line break is permitted. The default ("unicode") is suitable
+## for most languages. A list of available values can be found at:
+## https://www.renpy.org/doc/html/style_properties.html#style-property-language
+define gui.language = "japanese-strict"
+
 #################################################################
 # Default text scroll speed.
 # May need to be modified or disabled to accomodate English character count.
