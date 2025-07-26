@@ -201,7 +201,31 @@ class GameState:
 			
 		else:
 			self.add_line(f"with fade\n")
-		
+
+def delete_frame(json, frame_index):
+	#Delete the frame itself
+	del json['dialogueFrames'][frame_index]
+	
+	#Then adjust all of the schedules to account for the missing frame
+	frame_id = (frame_index + 1) #the schedules count starting from 1 instead of 0
+	for key in ['backgrounds', 'bgm', 'memory']:
+		if key in json:
+			schedule = json[key]
+			for copy in schedule[:]:
+				entry_index = schedule.index(copy)
+				entry = schedule[entry_index]
+			#delete the entire entry if the deleted frame was the only frame in the schedule
+				if frame_id == entry['start'] == entry['end']:
+					schedule.remove(entry)
+			#if the deleted frame was >= the start number, the start shouldn't move
+			#just decrease the end frame by 1
+				elif frame_id >= entry['start']:
+					if frame_id <= entry['end']:
+						entry['end'] -= 1
+			#decrease both start and end of any schedules starting after the deleted frame
+				elif frame_id < entry['start']: 
+					entry['start'] -= 1
+					entry['end'] -= 1	
 
 def make_schedule_dict(json, key):
 	d = dict()
@@ -285,6 +309,12 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	elif fname == '20052':
 		script_json['backgrounds'].insert(0, {'id': 27, 'start': 1, 'end': 32}) 
 		
+	#Remove an extra redundant line - both lines are spoken by the same person, and say the same thing.
+	#It is not a mis-set speaker name, because there is a third line that says the same thing spoken by the other person.
+	#This could also be changed to remove line 15 instead, if preferred.
+	elif fname == '12038':
+		delete_frame(script_json, 14)
+		
 ###########################################################################
 
 	#FIGURE OUT BACKGROUND SCHEDULE
@@ -303,10 +333,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		framecount += 1
 		
 		fade = False
-		
-		#Skip duplicate line 
-		#(if we skip it any earlier, it's going to screw up bgm and background scheduling)
-		if fname == '12038' and framecount == 15: continue
 
 		template = frame['template']
 		charID = frame['character']['charID']
