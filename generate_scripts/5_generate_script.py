@@ -433,7 +433,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#renpyspeaker name needed to be moved higher up to account for fade
 		
 		#convert dialogue string to display correctly
-		dialogue = f"[textdict[{strID}]]"
+		dialogue = f"[convertstrid({strID})]"
 		
 		#start with the speaker and dialogue
 		say = f"{renpyspeaker} '{dialogue}'"

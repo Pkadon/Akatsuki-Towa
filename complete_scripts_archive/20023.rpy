@@ -5,7 +5,7 @@ scene placeholderbackground
 $ update_narrator('c5353')
 window show
 with fade_in
-c5353 '[textdict[1001646]]'
-c5353 '[textdict[1001647]]'
-c5363 '[textdict[1001648]]'
+c5353 '[convertstrid(1001646)]'
+c5353 '[convertstrid(1001647)]'
+c5363 '[convertstrid(1001648)]'
 return

@@ -6,534 +6,534 @@ $ update_narrator('c27391')
 window show
 with fade_in
 $ update_portrait('uc002_03 4', 'p2739', [l_entrance(-23), light, flip], 6)
-c27391 '[textdict[2111760]]'
+c27391 '[convertstrid(2111760)]'
 hide p2739
-c27441 '[textdict[2111761]]'
+c27441 '[convertstrid(2111761)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111762]]'
+c27391 '[convertstrid(2111762)]'
 hide p2739
-c27441 '[textdict[2111763]]'
+c27441 '[convertstrid(2111763)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
 play sfx2 "other_7071.ogg"
-c27391 '[textdict[2111764]]'
+c27391 '[convertstrid(2111764)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
 play sfx2 "other_7072.ogg"
-c27391 '[textdict[2111765]]'
+c27391 '[convertstrid(2111765)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), dark, flip], 6)
-c27523 '[textdict[2111766]]'
+c27523 '[convertstrid(2111766)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111767]]'
+c27391 '[convertstrid(2111767)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), dark, flip], 6)
-c27523 '[textdict[2111768]]'
+c27523 '[convertstrid(2111768)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111769]]'
+c27391 '[convertstrid(2111769)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111770]]'
+c27391 '[convertstrid(2111770)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), dark, flip], 6)
-c27523 '[textdict[2111771]]'
-c27523 '[textdict[2111772]]'
+c27523 '[convertstrid(2111771)]'
+c27523 '[convertstrid(2111772)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111773]]'
+c27391 '[convertstrid(2111773)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), dark, flip], 6)
-c27523 '[textdict[2111774]]'
+c27523 '[convertstrid(2111774)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111775]]'
+c27391 '[convertstrid(2111775)]'
 stop music
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), dark, flip], 6)
 play sfx2 "other_7073.ogg"
-c27523 '[textdict[2111776]]'
+c27523 '[convertstrid(2111776)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111777]]'
+c27391 '[convertstrid(2111777)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111778]]'
+c27391 '[convertstrid(2111778)]'
 $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
-c27391 '[textdict[2111779]]' (what_size=(gui.text_size*1.25)) with shake
+c27391 '[convertstrid(2111779)]' (what_size=(gui.text_size*1.25)) with shake
 hide p2739
-c6431 '[textdict[2111780]]' (what_size=(gui.text_size*1.25)) with shake
+c6431 '[convertstrid(2111780)]' (what_size=(gui.text_size*1.25)) with shake
 play music "ed7150.ogg"
 scene avg_bg_038
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 $ update_narrator('c473')
 with fade
-c473 '[textdict[2111781]]'
+c473 '[convertstrid(2111781)]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111782]]'
+c27311 '[convertstrid(2111782)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111783]]'
+c473 '[convertstrid(2111783)]'
 $ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111784]]'
+c27311 '[convertstrid(2111784)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111785]]'
+c473 '[convertstrid(2111785)]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111786]]'
+c27311 '[convertstrid(2111786)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
 play sfx2 "elc_5002.ogg"
-c473 '[textdict[2111787]]'
+c473 '[convertstrid(2111787)]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111788]]'
+c27311 '[convertstrid(2111788)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
 play sfx2 "elc_5004.ogg"
-c473 '[textdict[2111789]]'
+c473 '[convertstrid(2111789)]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
 play sfx2 "elc_5004.ogg"
-c473 '[textdict[2111790]]'
+c473 '[convertstrid(2111790)]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111791]]'
+c27311 '[convertstrid(2111791)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111792]]'
+c473 '[convertstrid(2111792)]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111793]]'
+c473 '[convertstrid(2111793)]'
 $ update_portrait('sc040_01 5', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111794]]'
+c473 '[convertstrid(2111794)]'
 $ update_portrait('sc040_01 5', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111795]]'
+c27311 '[convertstrid(2111795)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111796]]'
+c473 '[convertstrid(2111796)]'
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111797]]'
+c27311 '[convertstrid(2111797)]'
 scene avg_bg_030
 $ update_narrator('c0')
 with fade
-c0 '[textdict[2111798]]'
+c0 '[convertstrid(2111798)]'
 stop music
 $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
 play sfx2 "other_7047.ogg"
-c473 '[textdict[2111799]]'
+c473 '[convertstrid(2111799)]'
 $ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
-c27531 '[textdict[2111800]]'
+c27531 '[convertstrid(2111800)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111801]]'
+c27311 '[convertstrid(2111801)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111802]]'
+c473 '[convertstrid(2111802)]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111803]]'
+c27311 '[convertstrid(2111803)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), r_shake, light], 5)
-c473 '[textdict[2111804]]'
+c473 '[convertstrid(2111804)]'
 hide p2731
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
-c27531 '[textdict[2111805]]'
+c27531 '[convertstrid(2111805)]'
 $ update_portrait('sc039_01 4', 'p46', [l(-13), light, flip], 6)
 play sfx2 "other_7088.ogg"
-c461 '[textdict[2111806]]'
+c461 '[convertstrid(2111806)]'
 hide p47
 $ update_portrait('sc039_01 4', 'p46', [l(-13), dark, flip], 6)
-c453 '[textdict[2111807]]'
+c453 '[convertstrid(2111807)]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111808]]'
+c461 '[convertstrid(2111808)]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
 play sfx2 "other_7088.ogg"
-c461 '[textdict[2111809]]'
+c461 '[convertstrid(2111809)]'
 hide p46
-c0 '[textdict[2111810]]'
+c0 '[convertstrid(2111810)]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111811]]'
+c461 '[convertstrid(2111811)]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('sc040_01 6', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111812]]'
+c473 '[convertstrid(2111812)]'
 $ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111813]]'
+c461 '[convertstrid(2111813)]'
 play music "ed7518.ogg"
 $ update_portrait('sc039_01 1', 'p46', [l_midback(-13), light, flip], 6)
-c461 '[textdict[2111814]]'
+c461 '[convertstrid(2111814)]'
 $ update_portrait('sc039_01 6', 'p46', [l(-13), l_shake, light, flip], 6)
 play sfx2 "fight_6010.ogg"
-c461 '[textdict[2111815]]'
+c461 '[convertstrid(2111815)]'
 hide p47
 $ update_portrait('sc039_01 6', 'p46', [l(-13), dark, flip], 6)
-c453 '[textdict[2111816]]'
+c453 '[convertstrid(2111816)]'
 $ update_portrait('sc039_01 6', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111817]]'
+c461 '[convertstrid(2111817)]'
 hide p46
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), l_shake, light, flip], 6)
-c27311 '[textdict[2111818]]'
+c27311 '[convertstrid(2111818)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111819]]'
+c473 '[convertstrid(2111819)]'
 hide p2731
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc039_01 6', 'p46', [l(-13), l_shake, light, flip], 6)
-c461 '[textdict[2111820]]'
+c461 '[convertstrid(2111820)]'
 $ update_portrait('sc039_01 6', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('sc040_01 2', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111821]]'
+c473 '[convertstrid(2111821)]'
 hide p46
 $ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
 play sfx2 "other_7052.ogg"
-c461 '[textdict[2111822]]' (what_size=(gui.text_size*1.25)) with shake
+c461 '[convertstrid(2111822)]' (what_size=(gui.text_size*1.25)) with shake
 hide p47
-c453 '[textdict[2111823]]' (what_size=(gui.text_size*1.25)) with shake
+c453 '[convertstrid(2111823)]' (what_size=(gui.text_size*1.25)) with shake
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111824]]'
+c27311 '[convertstrid(2111824)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111825]]'
+c473 '[convertstrid(2111825)]'
 hide p2731
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
-c501 '[textdict[2111826]]'
+c501 '[convertstrid(2111826)]'
 play music "ed7516.ogg"
 hide p47
 $ update_portrait('sc039_01 1', 'p46', [l(-13), light, flip], 6)
 $ update_narrator('c461')
 with fade
-c461 '[textdict[2111827]]'
+c461 '[convertstrid(2111827)]'
 $ update_portrait('sc039_01 1', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('sc038_01 1', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111828]]'
+c453 '[convertstrid(2111828)]'
 hide p46
 $ update_portrait('sc038_01 1', 'p45', [r(-1), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111829]]'
+c27311 '[convertstrid(2111829)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc038_01 1', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111830]]'
+c453 '[convertstrid(2111830)]'
 $ update_portrait('sc038_01 1', 'p45', [r(-1), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111831]]'
+c27311 '[convertstrid(2111831)]'
 hide p2731
 hide p45
-c0 '[textdict[2111832]]'
+c0 '[convertstrid(2111832)]'
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111833]]'
+c453 '[convertstrid(2111833)]'
 $ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111834]]'
+c27311 '[convertstrid(2111834)]'
 hide p45
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc039_01 4', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111835]]'
+c463 '[convertstrid(2111835)]'
 $ update_portrait('sc039_01 4', 'p46', [r(-13), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111836]]'
+c27311 '[convertstrid(2111836)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc039_01 4', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111837]]'
+c463 '[convertstrid(2111837)]'
 $ update_portrait('sc039_01 4', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111838]]'
+c463 '[convertstrid(2111838)]'
 hide p46
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111839]]'
+c453 '[convertstrid(2111839)]'
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111840]]'
+c453 '[convertstrid(2111840)]'
 $ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111841]]'
+c27311 '[convertstrid(2111841)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111842]]'
+c27311 '[convertstrid(2111842)]'
 hide p45
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc039_01 4', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111843]]'
+c463 '[convertstrid(2111843)]'
 $ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111844]]'
+c463 '[convertstrid(2111844)]'
 $ update_portrait('sc039_01 1', 'p46', [r(-13), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111845]]'
+c27311 '[convertstrid(2111845)]'
 hide p46
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111846]]'
+c453 '[convertstrid(2111846)]'
 $ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111847]]'
+c27311 '[convertstrid(2111847)]'
 stop music
 hide p45
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111848]]'
+c473 '[convertstrid(2111848)]'
 hide p47
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111849]]'
+c453 '[convertstrid(2111849)]'
 hide p45
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111850]]'
+c473 '[convertstrid(2111850)]'
 hide p2731
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc039_01 2', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111851]]'
+c461 '[convertstrid(2111851)]'
 $ update_portrait('sc039_01 2', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111852]]'
+c473 '[convertstrid(2111852)]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111853]]'
+c473 '[convertstrid(2111853)]'
 $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111854]]'
+c473 '[convertstrid(2111854)]'
 hide p46
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111855]]'
+c451 '[convertstrid(2111855)]'
 hide p45
 $ update_portrait('sc039_01 4', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111856]]'
+c461 '[convertstrid(2111856)]'
 hide p46
-c5001 '[textdict[2111857]]'
+c5001 '[convertstrid(2111857)]'
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111858]]'
+c451 '[convertstrid(2111858)]'
 hide p47
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc039_01 2', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111859]]'
+c463 '[convertstrid(2111859)]'
 hide p45
 $ update_portrait('sc039_01 2', 'p46', [r(-13), dark], 5)
 $ update_portrait('sc041_01 1', 'p48', [l_entrance(-9), light, flip], 6)
-c481 '[textdict[2111860]]'
+c481 '[convertstrid(2111860)]'
 $ update_portrait('sc041_01 1', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111861]]'
+c481 '[convertstrid(2111861)]'
 hide p46
 $ update_portrait('sc041_01 1', 'p48', [l(-9), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111862]]'
+c27313 '[convertstrid(2111862)]'
 hide p2731
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111863]]'
+c453 '[convertstrid(2111863)]'
 play music "ed7561.ogg"
 $ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111864]]'
+c481 '[convertstrid(2111864)]'
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111865]]'
+c481 '[convertstrid(2111865)]'
 hide p45
 $ update_portrait('sc041_01 4', 'p48', [l(-9), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111866]]' with shake
+c27313 '[convertstrid(2111866)]' with shake
 hide p48
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc040_01 2', 'p47', [l(-9), light, flip], 6)
-c471 '[textdict[2111867]]'
+c471 '[convertstrid(2111867)]'
 hide p2731
 $ update_portrait('sc040_01 2', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('sc039_01 4', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111868]]'
+c463 '[convertstrid(2111868)]'
 hide p47
 $ update_portrait('sc039_01 4', 'p46', [r(-13), dark], 5)
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111869]]'
+c481 '[convertstrid(2111869)]'
 hide p46
 $ update_portrait('sc041_01 4', 'p48', [l(-9), dark, flip], 6)
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 5)
-c453 '[textdict[2111870]]'
+c453 '[convertstrid(2111870)]'
 $ update_portrait('sc038_01 2', 'p45', [r(-1), dark], 5)
 $ update_portrait('sc041_01 1', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111871]]'
+c481 '[convertstrid(2111871)]'
 $ update_portrait('sc041_01 5', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111872]]'
+c481 '[convertstrid(2111872)]'
 $ update_portrait('sc041_01 6', 'p48', [l(-9), l_shake, light, flip], 6)
-c481 '[textdict[2111873]]'
+c481 '[convertstrid(2111873)]'
 $ update_portrait('sc041_01 1', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111874]]'
+c481 '[convertstrid(2111874)]'
 $ update_portrait('sc041_01 1', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111875]]'
+c481 '[convertstrid(2111875)]'
 hide p45
 $ update_portrait('sc041_01 1', 'p48', [l(-9), dark, flip], 6)
 $ update_portrait('sc039_01 4', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111876]]'
+c463 '[convertstrid(2111876)]'
 hide p48
 $ update_portrait('sc039_01 4', 'p46', [r(-13), dark], 5)
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111877]]'
+c451 '[convertstrid(2111877)]'
 hide p46
 $ update_portrait('sc038_01 4', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111878]]'
+c27313 '[convertstrid(2111878)]'
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111879]]'
+c451 '[convertstrid(2111879)]'
 hide p45
 $ update_portrait('sc039_01 1', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111880]]'
+c461 '[convertstrid(2111880)]'
 hide p46
 $ update_portrait('sc040_01 1', 'p47', [l(-9), light, flip], 6)
-c471 '[textdict[2111881]]'
+c471 '[convertstrid(2111881)]'
 $ update_portrait('sc040_01 1', 'p47', [l(-9), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111882]]'
+c27313 '[convertstrid(2111882)]'
 hide p47
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111883]]'
+c481 '[convertstrid(2111883)]'
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111884]]'
+c481 '[convertstrid(2111884)]'
 hide p2731
 $ update_portrait('sc041_01 4', 'p48', [l(-9), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111885]]'
+c473 '[convertstrid(2111885)]'
 hide p48
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111886]]'
+c451 '[convertstrid(2111886)]'
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 5)
-c473 '[textdict[2111887]]'
+c473 '[convertstrid(2111887)]'
 hide p45
 $ update_portrait('sc040_01 1', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc039_01 2', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111888]]'
+c461 '[convertstrid(2111888)]'
 hide p46
 hide p47
-c0 '[textdict[2111889]]'
+c0 '[convertstrid(2111889)]'
 stop music
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111890]]'
+c451 '[convertstrid(2111890)]'
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111891]]'
+c483 '[convertstrid(2111891)]'
 hide p48
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111892]]'
+c27313 '[convertstrid(2111892)]'
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111893]]'
+c451 '[convertstrid(2111893)]'
 play music "ed7518.ogg"
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111894]]'
+c27313 '[convertstrid(2111894)]'
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), l_shake, light, flip], 6)
-c451 '[textdict[2111895]]'
+c451 '[convertstrid(2111895)]'
 hide p2731
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 2', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111896]]'
+c483 '[convertstrid(2111896)]'
 hide p48
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 5)
-c27313 '[textdict[2111897]]'
+c27313 '[convertstrid(2111897)]'
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111898]]'
+c451 '[convertstrid(2111898)]'
 hide p2731
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111899]]'
+c483 '[convertstrid(2111899)]'
 $ update_portrait('sc041_01 1', 'p48', [r(-9), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111900]]'
+c451 '[convertstrid(2111900)]'
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 6', 'p48', [r_midback(-9), light], 5)
-c483 '[textdict[2111901]]'
+c483 '[convertstrid(2111901)]'
 $ update_portrait('sc041_01 6', 'p48', [r(-9), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111902]]'
+c451 '[convertstrid(2111902)]'
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 5', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111903]]'
+c483 '[convertstrid(2111903)]'
 $ update_portrait('sc041_01 6', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111904]]'
+c483 '[convertstrid(2111904)]'
 $ update_portrait('sc041_01 6', 'p48', [r(-9), dark], 5)
 $ update_portrait('sc038_01 3', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111905]]'
+c451 '[convertstrid(2111905)]'
 stop music
 hide p48
 $ update_portrait('sc038_01 3', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2732', [r_entrance(-2), light], 5)
 play sfx2 "other_7047.ogg"
-c27323 '[textdict[2111906]]'
+c27323 '[convertstrid(2111906)]'
 hide p45
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), dark], 5)
-c25921 '[textdict[2111907]]'
+c25921 '[convertstrid(2111907)]'
 play music "ed7160.ogg"
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111908]]'
+c461 '[convertstrid(2111908)]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('oca00_01 5', 'p2732', [r(-2), light], 5)
-c27323 '[textdict[2111909]]'
+c27323 '[convertstrid(2111909)]'
 hide p46
 $ update_portrait('oca00_01 5', 'p2732', [r(-2), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l_midback(-2), light, flip], 6)
 play sfx2 "other_7088.ogg"
-c27311 '[textdict[2111910]]'
+c27311 '[convertstrid(2111910)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), r_shake, light], 5)
 play sfx2 "other_7088.ogg"
-c27323 '[textdict[2111911]]'
+c27323 '[convertstrid(2111911)]'
 hide p2731
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111912]]'
+c451 '[convertstrid(2111912)]'
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), light], 5)
-c27323 '[textdict[2111913]]'
+c27323 '[convertstrid(2111913)]'
 hide p45
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), dark], 5)
 $ update_portrait('sc041_01 2', 'p48', [l(-9), light, flip], 6)
-c481 '[textdict[2111914]]'
+c481 '[convertstrid(2111914)]'
 hide p48
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111915]]'
+c451 '[convertstrid(2111915)]'
 $ update_portrait('sc038_01 4', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), light], 5)
-c27323 '[textdict[2111916]]'
+c27323 '[convertstrid(2111916)]'
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), light], 5)
-c27323 '[textdict[2111917]]'
+c27323 '[convertstrid(2111917)]'
 hide p45
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), dark], 5)
 $ update_portrait('sc039_01 4', 'p46', [l(-13), light, flip], 6)
-c461 '[textdict[2111918]]'
+c461 '[convertstrid(2111918)]'
 $ update_portrait('sc039_01 4', 'p46', [l(-13), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), light], 5)
-c27323 '[textdict[2111919]]'
+c27323 '[convertstrid(2111919)]'
 hide p46
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), dark], 5)
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111920]]'
+c451 '[convertstrid(2111920)]'
 hide p2732
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
-c503 '[textdict[2111921]]'
+c503 '[convertstrid(2111921)]'
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111922]]'
+c451 '[convertstrid(2111922)]'
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111923]]'
+c451 '[convertstrid(2111923)]'
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111924]]'
+c451 '[convertstrid(2111924)]'
 $ update_portrait('sc038_01 4', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111925]]'
+c483 '[convertstrid(2111925)]'
 $ update_portrait('sc041_01 1', 'p48', [r(-9), dark], 5)
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111926]]'
+c451 '[convertstrid(2111926)]'
 hide p48
 $ update_portrait('sc038_01 4', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
-c463 '[textdict[2111927]]'
+c463 '[convertstrid(2111927)]'
 hide p45
 $ update_portrait('sc039_01 1', 'p46', [r(-13), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111928]]'
+c27311 '[convertstrid(2111928)]'
 hide p46
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), dark, flip], 6)
 $ update_portrait('sc041_01 1', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111929]]'
+c483 '[convertstrid(2111929)]'
 $ update_portrait('sc041_01 6', 'p48', [r(-9), light], 5)
-c483 '[textdict[2111930]]'
+c483 '[convertstrid(2111930)]'
 $ update_portrait('sc041_01 6', 'p48', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
-c27311 '[textdict[2111931]]'
+c27311 '[convertstrid(2111931)]'
 hide p2731
 $ update_portrait('sc038_01 4', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111932]]'
+c451 '[convertstrid(2111932)]'
 hide p48
 $ update_portrait('sc038_01 4', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 5', 'p2732', [r(-2), light], 5)
-c27323 '[textdict[2111933]]'
+c27323 '[convertstrid(2111933)]'
 $ update_portrait('oca00_01 5', 'p2732', [r(-2), dark], 5)
 $ update_portrait('sc038_01 1', 'p45', [l(-1), light, flip], 6)
-c451 '[textdict[2111934]]'
+c451 '[convertstrid(2111934)]'
 $ update_portrait('sc038_01 1', 'p45', [l(-1), dark, flip], 6)
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), r_shake, light], 5)
-c27323 '[textdict[2111935]]'
+c27323 '[convertstrid(2111935)]'
 return

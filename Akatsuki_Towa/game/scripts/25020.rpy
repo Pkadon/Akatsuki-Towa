@@ -7,5 +7,5 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "common_select.ogg"
-c13 '[textdict[1210047]]'
+c13 '[convertstrid(1210047)]'
 return

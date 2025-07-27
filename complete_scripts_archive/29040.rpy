@@ -7,5 +7,5 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfxvoice "bcv_oc001_win_02.ogg"
-c13 '[textdict[1100021]]'
+c13 '[convertstrid(1100021)]'
 return

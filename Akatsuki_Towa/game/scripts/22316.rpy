@@ -6,5 +6,5 @@ $ update_narrator('c10863')
 window show
 with fade_in
 play sfx2 "elc_5005.ogg"
-c10863 '[textdict[1133299]]'
+c10863 '[convertstrid(1133299)]'
 return

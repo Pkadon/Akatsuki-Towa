@@ -6,5 +6,5 @@ $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
 $ update_narrator('c13')
 window show
 with fade_in
-c13 '[textdict[1131007]]'
+c13 '[convertstrid(1131007)]'
 return

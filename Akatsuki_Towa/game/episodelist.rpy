@@ -1,9 +1,11 @@
 init python:
-    def convertstrid(key):
-        if key in textdict:
-            return textdict[key]
-        else:
-            return str(key)
+
+    #convertstrid implementation has been moved to deffunctions.rpy
+    #def convertstrid(key):
+    #    if key in textdict:
+    #        return textdict[key]
+    #    else:
+    #        return str(key)
 
     def add_text_tags(text, tagdict):
         for tag in list(tagdict.keys()):

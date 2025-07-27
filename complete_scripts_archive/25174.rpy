@@ -7,13 +7,13 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "common_select.ogg"
-c13 '[textdict[1210556]]'
+c13 '[convertstrid(1210556)]'
 hide p1
-c20133 '[textdict[1210557]]'
-c20133 '[textdict[1210558]]'
+c20133 '[convertstrid(1210557)]'
+c20133 '[convertstrid(1210558)]'
 $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 5)
 play sfxvoice "avg_vocal_ch04.ogg"
-c23 '[textdict[1210559]]'
+c23 '[convertstrid(1210559)]'
 hide p2
-c20133 '[textdict[1210560]]'
+c20133 '[convertstrid(1210560)]'
 return

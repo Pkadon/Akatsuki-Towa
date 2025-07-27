@@ -6,7 +6,7 @@ $ update_narrator('c20133')
 window show
 with fade_in
 play sfx2 "other_7050.ogg"
-c20133 '[textdict[1210983]]'
+c20133 '[convertstrid(1210983)]'
 menu:
     extend ""
     "[textdict[1214995]]":

@@ -6,15 +6,15 @@ $ update_portrait('sc052_01 1', 'p59', [l(-25), light, flip], 6)
 $ update_narrator('c591')
 window show
 with fade_in
-c591 '[textdict[1219308]]'
+c591 '[convertstrid(1219308)]'
 $ update_portrait('sc052_01 1', 'p59', [l(-25), light, flip], 6)
-c591 '[textdict[1219309]]'
+c591 '[convertstrid(1219309)]'
 $ update_portrait('sc052_01 1', 'p59', [l(-25), dark, flip], 6)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
-c13 '[textdict[1219310]]'
+c13 '[convertstrid(1219310)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc052_01 5', 'p59', [l(-25), light, flip], 6)
-c591 '[textdict[1219311]]'
+c591 '[convertstrid(1219311)]'
 menu:
     extend ""
     "[textdict[1219312]]":

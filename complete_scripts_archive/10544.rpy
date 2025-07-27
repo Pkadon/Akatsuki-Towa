@@ -5,14 +5,14 @@ scene avg_bg_078
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[textdict[1152741]]'
+c0 '[convertstrid(1152741)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1152742]]'
+c31 '[convertstrid(1152742)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
 play sfx2 "other_7047.ogg"
-c43 '[textdict[1152743]]'
+c43 '[convertstrid(1152743)]'
 hide p3
 $ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
-c12351 '[textdict[1152744]]'
+c12351 '[convertstrid(1152744)]'
 return

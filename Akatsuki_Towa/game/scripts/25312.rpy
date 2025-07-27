@@ -8,11 +8,11 @@ window show
 with fade_in
 play sfx2 "other_7007.ogg"
 play sfxvoice "bcv_oc002_hurt_02.ogg"
-c23 '[textdict[1211199]]'
+c23 '[convertstrid(1211199)]'
 hide p2
 play sfx2 "other_7057.ogg"
-c0 '[textdict[1211200]]'
-c20153 '[textdict[1211201]]'
+c0 '[convertstrid(1211200)]'
+c20153 '[convertstrid(1211201)]'
 menu:
     extend ""
     "[textdict[1214995]]":

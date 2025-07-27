@@ -5,7 +5,7 @@ scene placeholderbackground
 $ update_narrator('c20253')
 window show
 with fade_in
-c20253 '[textdict[1211156]]'
+c20253 '[convertstrid(1211156)]'
 menu:
     extend ""
     "[textdict[1214995]]":

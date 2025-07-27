@@ -7,5 +7,5 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "common_35rewardholy.ogg"
-c13 '[textdict[1210553]]'
+c13 '[convertstrid(1210553)]'
 return

@@ -8,5 +8,5 @@ window show
 with fade_in
 play sfx2 "fight_6024.ogg"
 play sfxvoice "avg_vocal_na23.ogg"
-c13 '[textdict[1210251]]'
+c13 '[convertstrid(1210251)]'
 return

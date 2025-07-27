@@ -8,7 +8,7 @@ window show
 with fade_in
 play sfx2 "common_select.ogg"
 play sfxvoice "avg_vocal_ch04.ogg"
-c23 '[textdict[1211006]]'
+c23 '[convertstrid(1211006)]'
 hide p2
-c20133 '[textdict[1211007]]'
+c20133 '[convertstrid(1211007)]'
 return

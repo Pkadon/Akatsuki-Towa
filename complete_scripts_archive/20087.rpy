@@ -6,6 +6,6 @@ $ update_narrator('c6453')
 window show
 with fade_in
 play sfx2 "other_7064.ogg"
-c6453 '[textdict[1004485]]'
-c5343 '[textdict[1004486]]'
+c6453 '[convertstrid(1004485)]'
+c5343 '[convertstrid(1004486)]'
 return

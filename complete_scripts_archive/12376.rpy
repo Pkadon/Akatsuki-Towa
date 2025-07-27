@@ -7,5 +7,5 @@ $ update_narrator('c21')
 window show
 with fade_in
 play sfx2 "common_cancel.ogg"
-c21 '[textdict[1134077]]'
+c21 '[convertstrid(1134077)]'
 return

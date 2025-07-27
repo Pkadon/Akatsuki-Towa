@@ -7,44 +7,44 @@ $ update_narrator('c23')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ch12.ogg"
-c23 '[textdict[1002290]]'
+c23 '[convertstrid(1002290)]'
 $ update_portrait('oc002_01 2', 'p2', [mid(-3), light], 5)
-c23 '[textdict[1002291]]'
+c23 '[convertstrid(1002291)]'
 hide p2
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na06.ogg"
-c13 '[textdict[1002292]]'
+c13 '[convertstrid(1002292)]'
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1002293]]'
+c13 '[convertstrid(1002293)]'
 hide p1
 $ update_portrait('st015_01 1', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002294]]'
+c2143 '[convertstrid(1002294)]'
 hide p214
 $ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na21.ogg"
-c13 '[textdict[1002295]]'
+c13 '[convertstrid(1002295)]'
 hide p1
 $ update_portrait('st015_01 5', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002296]]'
+c2143 '[convertstrid(1002296)]'
 $ update_portrait('st015_01 1', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002297]]'
+c2143 '[convertstrid(1002297)]'
 $ update_portrait('st015_01 4', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002298]]'
+c2143 '[convertstrid(1002298)]'
 $ update_portrait('st015_01 1', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002299]]'
+c2143 '[convertstrid(1002299)]'
 hide p214
 $ update_portrait('oc001_01 10', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na20.ogg"
-c13 '[textdict[1002300]]'
+c13 '[convertstrid(1002300)]'
 hide p1
 $ update_portrait('st015_01 2', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002301]]'
+c2143 '[convertstrid(1002301)]'
 $ update_portrait('st015_01 5', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002302]]'
+c2143 '[convertstrid(1002302)]'
 $ update_portrait('st015_01 1', 'p214', [mid(-9), light], 5)
-c2143 '[textdict[1002303]]'
+c2143 '[convertstrid(1002303)]'
 hide p214
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na15.ogg"
-c13 '[textdict[1002304]]'
+c13 '[convertstrid(1002304)]'
 return

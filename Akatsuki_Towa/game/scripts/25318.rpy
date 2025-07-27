@@ -6,18 +6,18 @@ $ update_narrator('c6123')
 window show
 with fade_in
 play sfx2 "other_7092.ogg"
-c6123 '[textdict[1211229]]'
+c6123 '[convertstrid(1211229)]'
 play sfx2 "common_35rewardholy.ogg"
-c0 '[textdict[1211230]]'
+c0 '[convertstrid(1211230)]'
 $ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1211231]]'
+c13 '[convertstrid(1211231)]'
 hide p1
 $ update_portrait('oc002_01 8', 'p2', [mid(-3), light], 5)
 play sfxvoice "avg_vocal_ch05.ogg"
-c23 '[textdict[1211232]]'
+c23 '[convertstrid(1211232)]'
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
 play sfx2 "common_36rewardsp.ogg"
 play sfxvoice "avg_vocal_na05.ogg"
-c13 '[textdict[1211233]]'
+c13 '[convertstrid(1211233)]'
 return

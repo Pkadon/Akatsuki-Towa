@@ -6,13 +6,13 @@ $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 5)
 $ update_narrator('c13')
 window show
 with fade_in
-c13 '[textdict[1215553]]'
+c13 '[convertstrid(1215553)]'
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1215554]]'
+c13 '[convertstrid(1215554)]'
 hide p1
 $ update_portrait('oc002_01 8', 'p2', [mid(-3), light], 5)
-c23 '[textdict[1215555]]'
+c23 '[convertstrid(1215555)]'
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1215556]]'
+c13 '[convertstrid(1215556)]'
 return

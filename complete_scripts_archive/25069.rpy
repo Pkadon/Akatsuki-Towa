@@ -7,10 +7,10 @@ $ update_narrator('c23')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ch12.ogg"
-c23 '[textdict[1210220]]'
+c23 '[convertstrid(1210220)]'
 hide p2
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1210221]]'
+c13 '[convertstrid(1210221)]'
 menu:
     extend ""
     "[textdict[1214997]]":

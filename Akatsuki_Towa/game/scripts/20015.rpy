@@ -6,7 +6,7 @@ $ update_narrator('c5173')
 window show
 with fade_in
 play sfx2 "common_select.ogg"
-c5173 '[textdict[1000948]]'
+c5173 '[convertstrid(1000948)]'
 $ update_portrait('oc001_01 1', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1000949]]'
+c13 '[convertstrid(1000949)]'
 return

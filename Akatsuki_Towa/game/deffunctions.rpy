@@ -1,4 +1,11 @@
 init python:
+
+    def convertstrid(key):
+        if key in textdict:
+            return textdict[key]
+        else:
+            return str(key)
+
     def update_portrait(portrait, alias, atlist, z):
         if renpy.showing(alias):
             renpy.hide(alias)

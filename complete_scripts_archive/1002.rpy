@@ -5,13 +5,13 @@ scene avg_bg_023
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[textdict[2100030]]'
+c0 '[convertstrid(2100030)]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[textdict[2100031]]'
+c561 '[convertstrid(2100031)]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[textdict[2100032]]'
+c561 '[convertstrid(2100032)]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[textdict[2100033]]'
+c561 '[convertstrid(2100033)]'
 menu:
     extend ""
     "[textdict[2100034]]":

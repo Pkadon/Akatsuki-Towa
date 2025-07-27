@@ -6,7 +6,7 @@ $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 5)
 $ update_narrator('c13')
 window show
 with fade_in
-c13 '[textdict[1100007]]'
+c13 '[convertstrid(1100007)]'
 menu:
     extend ""
     "[textdict[1100008]]":

@@ -8,12 +8,12 @@ window show
 with fade_in
 play sfx2 "common_select.ogg"
 play sfxvoice "avg_vocal_ch04.ogg"
-c23 '[textdict[1210071]]'
+c23 '[convertstrid(1210071)]'
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
 play sfxvoice "avg_vocal_na02.ogg"
-c13 '[textdict[1210072]]'
+c13 '[convertstrid(1210072)]'
 hide p1
 $ update_portrait('uc001_01 1', 'p2000', [mid(-2), light], 5)
-c20003 '[textdict[1210073]]'
+c20003 '[convertstrid(1210073)]'
 return

@@ -6,7 +6,7 @@ $ update_portrait('sc001_01 5', 'p9', [l(-11), light, flip], 6)
 $ update_narrator('c91')
 window show
 with fade_in
-c91 '[textdict[1218084]]'
+c91 '[convertstrid(1218084)]'
 $ update_portrait('sc001_01 1', 'p9', [l(-11), light, flip], 6)
-c91 '[textdict[1218085]]'
+c91 '[convertstrid(1218085)]'
 return

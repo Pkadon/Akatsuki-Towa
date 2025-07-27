@@ -6,13 +6,13 @@ $ update_portrait('uc001_02 3', 'p2001', [mid(6), light], 5)
 $ update_narrator('c20013')
 window show
 with fade_in
-c20013 '[textdict[1210102]]'
+c20013 '[convertstrid(1210102)]'
 hide p2001
 $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 5)
-c13 '[textdict[1210103]]'
+c13 '[convertstrid(1210103)]'
 hide p1
 $ update_portrait('uc001_02 2', 'p2001', [mid(6), light], 5)
-c20013 '[textdict[1210104]]'
+c20013 '[convertstrid(1210104)]'
 menu:
     extend ""
     "[textdict[1214999]]":

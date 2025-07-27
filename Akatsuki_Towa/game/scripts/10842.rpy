@@ -5,84 +5,84 @@ scene avg_bg_214
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[textdict[1188330]]'
+c0 '[convertstrid(1188330)]'
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
-c13 '[textdict[1188331]]'
+c13 '[convertstrid(1188331)]'
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 10', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1188332]]'
+c31 '[convertstrid(1188332)]'
 hide p1
 $ update_portrait('oc003_01 10', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 11', 'p4', [r(-5), light], 5)
-c43 '[textdict[1188333]]'
+c43 '[convertstrid(1188333)]'
 hide p3
 $ update_portrait('oc004_01 11', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
-c21 '[textdict[1188334]]'
+c21 '[convertstrid(1188334)]'
 hide p4
 $ update_portrait('oc002_01 3', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('st061_01 4', 'p1304', [r(-2), light], 5)
-c13043 '[textdict[1188335]]'
+c13043 '[convertstrid(1188335)]'
 hide p2
 $ update_portrait('st061_01 4', 'p1304', [r(-2), dark], 5)
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188336]]'
+c13491 '[convertstrid(1188336)]'
 hide p1304
 $ update_portrait('st056_01 3', 'p1349', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
-c13 '[textdict[1188337]]'
+c13 '[convertstrid(1188337)]'
 hide p1349
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
-c21 '[textdict[1188338]]'
+c21 '[convertstrid(1188338)]'
 hide p2
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188339]]'
+c13491 '[convertstrid(1188339)]'
 $ update_portrait('st056_01 3', 'p1349', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
-c13 '[textdict[1188340]]'
+c13 '[convertstrid(1188340)]'
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188341]]'
+c13491 '[convertstrid(1188341)]'
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188342]]'
+c13491 '[convertstrid(1188342)]'
 hide p1
 $ update_portrait('st056_01 3', 'p1349', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 13', 'p4', [r(-5), light], 5)
-c43 '[textdict[1188343]]'
+c43 '[convertstrid(1188343)]'
 $ update_portrait('oc004_01 16', 'p4', [r(-5), light], 5)
-c43 '[textdict[1188344]]'
+c43 '[convertstrid(1188344)]'
 $ update_portrait('oc004_01 16', 'p4', [r(-5), dark], 5)
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188345]]'
+c13491 '[convertstrid(1188345)]'
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188346]]'
+c13491 '[convertstrid(1188346)]'
 $ update_portrait('st056_01 3', 'p1349', [l(-6), dark, flip], 6)
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
-c43 '[textdict[1188347]]'
+c43 '[convertstrid(1188347)]'
 $ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
 $ update_portrait('st056_01 3', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188348]]'
+c13491 '[convertstrid(1188348)]'
 hide p4
 $ update_portrait('st056_01 3', 'p1349', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
-c13 '[textdict[1188349]]'
+c13 '[convertstrid(1188349)]'
 hide p1
 $ update_portrait('oc004_01 16', 'p4', [r(-5), light], 5)
-c43 '[textdict[1188350]]'
+c43 '[convertstrid(1188350)]'
 $ update_portrait('oc004_01 16', 'p4', [r(-5), dark], 5)
 $ update_portrait('st056_01 7', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188351]]'
+c13491 '[convertstrid(1188351)]'
 $ update_portrait('st056_01 7', 'p1349', [l(-6), light, flip], 6)
-c13491 '[textdict[1188352]]'
+c13491 '[convertstrid(1188352)]'
 hide p1349
 $ update_portrait('oc002_01 16', 'p2', [l(-3), light, flip], 6)
-c21 '[textdict[1188353]]'
+c21 '[convertstrid(1188353)]'
 hide p4
 $ update_portrait('oc002_01 16', 'p2', [l(-3), dark, flip], 6)
 $ update_portrait('st061_01 4', 'p1304', [r(-2), light], 5)
-c13043 '[textdict[1188354]]'
+c13043 '[convertstrid(1188354)]'
 hide p2
 hide p1304
-c0 '[textdict[1188355]]'
+c0 '[convertstrid(1188355)]'
 return

@@ -6,67 +6,67 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
 $ update_narrator('c13')
 window show
 with fade_in
-c13 '[textdict[1179551]]'
+c13 '[convertstrid(1179551)]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1179552]]'
+c31 '[convertstrid(1179552)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 22', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179553]]'
+c13 '[convertstrid(1179553)]'
 $ update_portrait('oc001_01 22', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1179554]]'
+c31 '[convertstrid(1179554)]'
 $ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179555]]'
+c13 '[convertstrid(1179555)]'
 hide p3
 hide p1
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
 $ update_narrator('c13')
 with fade
-c13 '[textdict[1179556]]'
+c13 '[convertstrid(1179556)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179557]]'
+c13 '[convertstrid(1179557)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179558]]'
+c13 '[convertstrid(1179558)]'
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179559]]'
+c13 '[convertstrid(1179559)]'
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179560]]'
+c13 '[convertstrid(1179560)]'
 scene avg_bg_070
 $ update_narrator('c0')
 with fade
 play sfx2 "fight_6026.ogg"
-c0 '[textdict[1179561]]'
+c0 '[convertstrid(1179561)]'
 scene avg_bg_035
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
 $ update_narrator('c13')
 with fade
-c13 '[textdict[1179562]]'
+c13 '[convertstrid(1179562)]'
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1179563]]'
+c31 '[convertstrid(1179563)]'
 $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179564]]'
+c13 '[convertstrid(1179564)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179565]]'
+c13 '[convertstrid(1179565)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1179566]]'
+c31 '[convertstrid(1179566)]'
 hide p3
 hide p1
-c0 '[textdict[1179567]]'
+c0 '[convertstrid(1179567)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179568]]'
+c13 '[convertstrid(1179568)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1179569]]'
+c31 '[convertstrid(1179569)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
-c31 '[textdict[1179570]]'
+c31 '[convertstrid(1179570)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179571]]'
+c13 '[convertstrid(1179571)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
-c13 '[textdict[1179572]]'
+c13 '[convertstrid(1179572)]'
 return
