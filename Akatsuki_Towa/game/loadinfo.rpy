@@ -109,6 +109,10 @@ python early:
         if strid in textdict:
             textdict[strid] = colortext(textdict[strid], '334499')
 
+    #one last color tag that's in the middle of the string...
+    if 90224 in textdict:
+        text = textdict[90224]
+        textdict[90224] = text.replace(r"[FF0000]", r"{color=FF0000}").replace(r"[-]", r"{/color}")
 
     #FIX TYPO
     #ジオフロントの再調査 is labeled 1/2 when it should be 1/1
