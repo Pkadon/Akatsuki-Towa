@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from modify_avg import make_edits
+
 # I don't know if it's ok to be using __file__ here, 
 # but I figure it's better than what it was before
 direc = Path(__file__).resolve().parent
@@ -200,32 +202,7 @@ class GameState:
 			self.first_fade = False
 			
 		else:
-			self.add_line(f"with fade\n")
-
-def delete_frame(json, frame_index):
-	#Delete the frame itself
-	del json['dialogueFrames'][frame_index]
-	
-	#Then adjust all of the schedules to account for the missing frame
-	frame_id = (frame_index + 1) #the schedules count starting from 1 instead of 0
-	for key in ['backgrounds', 'bgm', 'memory']:
-		if key in json:
-			schedule = json[key]
-			for copy in schedule[:]:
-				entry_index = schedule.index(copy)
-				entry = schedule[entry_index]
-			#delete the entire entry if the deleted frame was the only frame in the schedule
-				if frame_id == entry['start'] == entry['end']:
-					schedule.remove(entry)
-			#if the deleted frame was >= the start number, the start shouldn't move
-			#just decrease the end frame by 1
-				elif frame_id >= entry['start']:
-					if frame_id <= entry['end']:
-						entry['end'] -= 1
-			#decrease both start and end of any schedules starting after the deleted frame
-				elif frame_id < entry['start']: 
-					entry['start'] -= 1
-					entry['end'] -= 1	
+			self.add_line(f"with fade\n")	
 
 def make_schedule_dict(json, key):
 	d = dict()
@@ -248,74 +225,10 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 	with open(cutscenepath, 'r', encoding="utf-8")as txt:
 		script_json = json.load(txt)
 
-###########################################################################
-# Make corrections to original files
-	#Fix unset charPos
-	if fname == '10008':
-		script_json['dialogueFrames'][98]['charPos'] = 1
-		script_json['dialogueFrames'][98]['character']['mirror'] = 1
-	elif fname == '12766':
-		script_json['dialogueFrames'][16]['charPos'] = 1
-
-	#Apply corrections found in mobile version files
-	elif fname == '10330':
-		script_json['dialogueFrames'][85]['strID'] = 1130996
-		script_json['dialogueFrames'][115]['strID'] = 1130966
-	elif fname == '10331':
-		script_json['dialogueFrames'][88]['strID'] = 1130996
-		script_json['dialogueFrames'][88]['character']['charID'] = 4
-		script_json['dialogueFrames'][88]['character']['speaker'] = 4
-		script_json['dialogueFrames'][118]['strID'] = 1130966
-	
-	#The CharFadeOut was on the wrong line
-	elif fname == '1138':
-		script_json['dialogueFrames'][108]['CharFadeOut'] = 1
-		script_json['dialogueFrames'][109]['CharFadeOut'] = 0
-	elif fname == '1209':
-		script_json['dialogueFrames'][14]['CharFadeOut'] = 1
-		script_json['dialogueFrames'][15]['CharFadeOut'] = 0
-		
-	#This one was all kinds of messed up.
-	#It would also be possible to change it to hide the Nacht portrait on line 94,
-	#and interpret all of the dialogue after that as occuring "off-screen".
-	#But since they had already set up the animations in the files,
-	#I changed it to show the portraits that were "missing" here instead
-	elif fname == '1226':
-		#missing portrait and expression
-		script_json['dialogueFrames'][96]['character']['charID'] = 1
-		script_json['dialogueFrames'][96]['expression'] = 14 #expression was unset so this is a guess
-		
-		#missing portrait and expression, and misplaced CharFadeOut
-		script_json['dialogueFrames'][98]['character']['charID'] = 1
-		script_json['dialogueFrames'][98]['expression'] = 12 #expression was unset so this is a guess
-		script_json['dialogueFrames'][98]['CharFadeOut'] = 1
-		script_json['dialogueFrames'][99]['CharFadeOut'] = 0
-	
-#Changing backgrounds around for some of the scenes that were originally minimized
-#or that originally used a transparent background
-	#This scene has a footstep sound to indicate that they have moved location
-	#So I added an indoor background/bgm to the first half to match the first scene of the quest
-	elif fname == '12159':
-		script_json['backgrounds'].insert(0, {'id': 38, 'start': 1, 'end': 3})
-		script_json['backgrounds'][1]['start'] = 4
-		script_json['bgm'].insert(0, {'id': 132, 'start': 1, 'end': 3})
-		script_json['bgm'][1]['start'] = 4
-	#This scene takes place at the harbor, so I changed the background to the harbor.
-	elif fname == '20050':
-		script_json['backgrounds'][0]['id'] = 28
-		
-	#This is adding a background to a transparent background scene so that it matches
-	#the other scenes around it.  I may decide to change this again later.
-	elif fname == '20052':
-		script_json['backgrounds'].insert(0, {'id': 27, 'start': 1, 'end': 32}) 
-		
-	#Remove an extra redundant line - both lines are spoken by the same person, and say the same thing.
-	#It is not a mis-set speaker name, because there is a third line that says the same thing spoken by the other person.
-	#This could also be changed to remove line 15 instead, if preferred.
-	elif fname == '12038':
-		delete_frame(script_json, 14)
-		
-###########################################################################
+	#Makes any changes or error corrections to the cutscene script before any work is done on it here
+	#Remove this line to make scripts more faithful to the way they were in the original game.
+	#moved to a separate file - see "modify_avg.py"
+	script_json = make_edits(script_json, fname)
 
 	#FIGURE OUT BACKGROUND SCHEDULE
 	background_schedule = make_schedule_dict(script_json, 'backgrounds')
