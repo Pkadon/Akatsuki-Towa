@@ -9,8 +9,8 @@ with fade_in
 c281 '[convertstrid(1219788)]'
 $ update_portrait('sc020_01 4', 'p28', [l(-10), light, flip], 6)
 c281 '[convertstrid(1219789)]'
-$ update_portrait('sc020_01 4', 'p28', [l(-10), dark, flip], 6)
-$ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
+$ update_portrait('sc020_01 4', 'p28', [l(-10), dark, flip], 5)
+$ update_portrait('oc001_01 17', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1219790)]'
 menu:
     extend ""

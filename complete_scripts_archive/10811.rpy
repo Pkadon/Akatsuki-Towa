@@ -46,25 +46,25 @@ c0 '[convertstrid(1182190)]'
 c0 '[convertstrid(1182191)]'
 play music "ed6324.ogg"
 scene avg_bg_078
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 $ update_narrator('c13493')
 with fade
 c13493 '[convertstrid(1182192)]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 1', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182193)]'
 $ update_portrait('st056_01 1', 'p1349', [r(-6), dark], 5)
 c14931 '[convertstrid(1182194)]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182195)]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182196)]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[convertstrid(1182197)]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182198)]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[convertstrid(1182199)]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182200)]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[convertstrid(1182201)]'
@@ -72,16 +72,16 @@ c14931 '[convertstrid(1182202)]'
 c14931 '[convertstrid(1182203)]'
 c14931 '[convertstrid(1182204)]'
 c14931 '[convertstrid(1182205)]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182206)]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[convertstrid(1182207)]'
 c14931 '[convertstrid(1182208)]'
 c14931 '[convertstrid(1182209)]'
-$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182210)]'
 $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 c14931 '[convertstrid(1182211)]'
-$ update_portrait('st056_01 1', 'p1349', [r(-6), light], 5)
+$ update_portrait('st056_01 1', 'p1349', [r(-6), light], 6)
 c13493 '[convertstrid(1182212)]'
 return

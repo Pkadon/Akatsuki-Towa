@@ -2,7 +2,7 @@ label avg25257:
 
 stop music
 scene placeholderbackground
-$ update_portrait('oc002_01 13', 'p2', [mid(-3), light], 5)
+$ update_portrait('oc002_01 13', 'p2', [mid(-3), light], 6)
 $ update_narrator('c23')
 window show
 with fade_in
@@ -11,11 +11,11 @@ play sfxvoice "avg_vocal_ch05.ogg"
 c23 '[convertstrid(1210953)]'
 hide p2
 c20093 '[convertstrid(1210954)]'
-$ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 5)
+$ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[convertstrid(1210955)]'
 hide p1
-$ update_portrait('oc002_01 4', 'p2', [mid(-3), light], 5)
+$ update_portrait('oc002_01 4', 'p2', [mid(-3), light], 6)
 play sfxvoice "avg_vocal_ch19.ogg"
 c23 '[convertstrid(1210956)]'
 hide p2

@@ -22,12 +22,12 @@ play sfx2 "other_7022.ogg"
 c6753 '[convertstrid(1006643)]'
 play sfx2 "other_7023.ogg"
 c7131 '[convertstrid(1006644)]'
-$ update_portrait('st034_01 2', 'p233', [r(12), light], 5)
+$ update_portrait('st034_01 2', 'p233', [r(12), light], 6)
 c2333 '[convertstrid(1006645)]'
 $ update_portrait('st034_01 2', 'p233', [r(12), dark], 5)
 c6771 '[convertstrid(1006646)]'
 hide p233
-$ update_portrait('st027_01 5', 'p226', [r(5), light], 5)
+$ update_portrait('st027_01 5', 'p226', [r(5), light], 6)
 play sfx2 "other_7022.ogg"
 c2263 '[convertstrid(1006647)]'
 return

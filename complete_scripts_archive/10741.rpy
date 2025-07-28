@@ -10,10 +10,10 @@ $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[convertstrid(1172712)]'
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[convertstrid(1172713)]'
-$ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 6)
-$ update_portrait('oc003_01 16', 'p3', [r(-6), light], 5)
+$ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 5)
+$ update_portrait('oc003_01 16', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1172714)]'
-$ update_portrait('oc003_01 17', 'p3', [r(-6), light], 5)
+$ update_portrait('oc003_01 17', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1172715)]'
 hide p5
 $ update_portrait('oc003_01 17', 'p3', [r(-6), dark], 5)
@@ -25,8 +25,8 @@ hide p4
 $ update_portrait('st044_01 4', 'p692', [l(10), light, flip], 6)
 c6921 '[convertstrid(1172718)]'
 hide p3
-$ update_portrait('st044_01 4', 'p692', [l(10), dark, flip], 6)
-$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_portrait('st044_01 4', 'p692', [l(10), dark, flip], 5)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1172719)]'
 hide p692
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
@@ -36,14 +36,14 @@ $ update_portrait('oc004_01 11', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1172721)]'
 $ update_portrait('oc004_01 20', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1172722)]'
-$ update_portrait('oc004_01 20', 'p4', [l(-5), dark, flip], 6)
-$ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
+$ update_portrait('oc004_01 20', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc001_01 16', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1172723)]'
 $ update_portrait('oc001_01 16', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1172724)]'
-$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 6)
-$ update_portrait('oc001_01 16', 'p1', [r(-2), light], 5)
+$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc001_01 16', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1172726)]'
 hide p4
 $ update_portrait('oc001_01 16', 'p1', [r(-2), dark], 5)
@@ -51,8 +51,8 @@ $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[convertstrid(1172732)]'
 stop music
 hide p1
-$ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 6)
-$ update_portrait('st061_01 2', 'p1304', [r(-2), light], 5)
+$ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 5)
+$ update_portrait('st061_01 2', 'p1304', [r(-2), light], 6)
 c13043 '[convertstrid(1172733)]'
 hide p5
 $ update_portrait('st061_01 2', 'p1304', [r(-2), dark], 5)
@@ -62,16 +62,16 @@ hide p692
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1172735)]'
 hide p1304
-$ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 6)
-$ update_portrait('oc001_01 19', 'p1', [r(-2), light], 5)
+$ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 5)
+$ update_portrait('oc001_01 19', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1172736)]'
 hide p3
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 23', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1172737)]'
 hide p1
-$ update_portrait('oc004_01 23', 'p4', [l(-5), dark, flip], 6)
-$ update_portrait('oc005_01 7', 'p5', [r(-6), light], 5)
+$ update_portrait('oc004_01 23', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc005_01 7', 'p5', [r(-6), light], 6)
 c53 '[convertstrid(1172738)]'
 scene avg_bg_070
 $ update_narrator('c0')

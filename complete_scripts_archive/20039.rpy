@@ -2,26 +2,26 @@ label avg20039:
 
 play music "ED6200.ogg"
 scene avg_bg_010
-$ update_portrait('oc002_01 12', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 12', 'p2', [r(-3), light], 6)
 $ update_narrator('c23')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[convertstrid(1002318)]'
 hide p2
-$ update_portrait('uc004_02 1', 'p570', [r(-9), light], 5)
+$ update_portrait('uc004_02 1', 'p570', [r(-9), light], 6)
 c5703 '[convertstrid(1002319)]'
 $ update_portrait('uc004_02 1', 'p570', [r(-9), dark], 5)
 $ update_portrait('sc017_01 1', 'p571', [l(-7), light, flip], 6)
 c5711 '[convertstrid(1002320)]'
 $ update_portrait('sc017_01 1', 'p571', [l(-7), light, flip], 6)
 c5711 '[convertstrid(1002321)]'
-$ update_portrait('sc017_01 1', 'p571', [l(-7), dark, flip], 6)
-$ update_portrait('uc004_02 1', 'p570', [r(-9), light], 5)
+$ update_portrait('sc017_01 1', 'p571', [l(-7), dark, flip], 5)
+$ update_portrait('uc004_02 1', 'p570', [r(-9), light], 6)
 c5703 '[convertstrid(1002322)]'
 hide p571
 hide p570
-$ update_portrait('oc002_01 17', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 17', 'p2', [r(-3), light], 6)
 $ update_narrator('c23')
 with fade
 play sfxvoice "avg_vocal_ch21.ogg"

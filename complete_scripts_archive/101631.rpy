@@ -2,7 +2,7 @@ label avg101631:
 
 stop music
 scene placeholderbackground
-$ update_portrait('sc008_01 1', 'p16', [mid(-18), light], 5)
+$ update_portrait('sc008_01 1', 'p16', [mid(-18), light], 6)
 $ update_narrator('c163')
 window show
 with fade_in

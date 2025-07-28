@@ -148,84 +148,84 @@ $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1190830)]'
 c14281 '[convertstrid(1190831)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190832)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190833)]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190834)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[convertstrid(1190835)]'
 c14281 '[convertstrid(1190836)]'
-$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190837)]'
 $ update_portrait('oce04_01 2', 'p2668', [r(-5), dark], 5)
 c14281 '[convertstrid(1190838)]'
 c14281 '[convertstrid(1190839)]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190840)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[convertstrid(1190841)]'
 c14281 '[convertstrid(1190842)]'
-$ update_portrait('oce04_01 16', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 16', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190843)]' with shake
 $ update_portrait('oce04_01 16', 'p2668', [r(-5), dark], 5)
 c14281 '[convertstrid(1190844)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190845)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190846)]'
-$ update_portrait('oce04_01 11', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 11', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190847)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190848)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190849)]'
-$ update_portrait('oce04_01 11', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 11', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190850)]'
 $ update_portrait('oce04_01 11', 'p2668', [r(-5), dark], 5)
 c14281 '[convertstrid(1190851)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190852)]'
-$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190853)]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190854)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c14281 '[convertstrid(1190855)]'
 c14281 '[convertstrid(1190856)]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190857)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 $ update_portrait('st062_01 1', 'p1308', [l_entrance(-16), light, flip], 6)
 play sfx2 "other_7044.ogg"
 c13081 '[convertstrid(1190858)]'
-$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 6)
-$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 5)
+$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 5)
+$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190859)]'
 $ update_portrait('oce04_01 2', 'p2668', [r(-5), dark], 5)
 $ update_portrait('st062_01 4', 'p1308', [l(-16), light, flip], 6)
 c13081 '[convertstrid(1190860)]'
-$ update_portrait('st062_01 4', 'p1308', [l(-16), dark, flip], 6)
-$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 5)
+$ update_portrait('st062_01 4', 'p1308', [l(-16), dark, flip], 5)
+$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190861)]'
 $ update_portrait('oce04_01 2', 'p2668', [r(-5), dark], 5)
 $ update_portrait('st062_01 4', 'p1308', [l(-16), light, flip], 6)
 c13081 '[convertstrid(1190862)]'
-$ update_portrait('st062_01 4', 'p1308', [l(-16), dark, flip], 6)
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('st062_01 4', 'p1308', [l(-16), dark, flip], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190863)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 $ update_portrait('st062_01 1', 'p1308', [l(-16), light, flip], 6)
 c13081 '[convertstrid(1190864)]'
-$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 6)
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('st062_01 1', 'p1308', [l(-16), dark, flip], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190865)]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190866)]'
-$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 2', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190867)]'
-$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 5)
+$ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1190868)]'
 hide p1308
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)

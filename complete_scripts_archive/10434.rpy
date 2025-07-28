@@ -2,7 +2,7 @@ label avg10434:
 
 play music "ed7526.ogg"
 scene placeholderbackground
-$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 window show
 with fade_in
@@ -25,12 +25,12 @@ $ update_narrator('c31')
 with fade
 play sfxvoice "avg_vocal_ro02.ogg"
 c31 '[convertstrid(1141510)]'
-$ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 6)
-$ update_portrait('oc004_01 13', 'p4', [r(-5), light], 5)
+$ update_portrait('oc003_01 1', 'p3', [l(-6), dark, flip], 5)
+$ update_portrait('oc004_01 13', 'p4', [r(-5), light], 6)
 play sfxvoice "avg_vocal_li10.ogg"
 c43 '[convertstrid(1141511)]'
 hide p4
-$ update_portrait('oc001_01 9', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 9', 'p1', [r(-2), light], 6)
 play sfxvoice "bcv_oc001_com_01.ogg"
 c13 '[convertstrid(1141512)]'
 hide p3

@@ -9,18 +9,18 @@ c0 '[convertstrid(1216020)]'
 c0 '[convertstrid(1216021)]'
 c0 '[convertstrid(1216022)]'
 c0 '[convertstrid(1216023)]'
-$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 6)
 c2093 '[convertstrid(1216024)]'
 hide p209
-$ update_portrait('oc002_01 5', 'p2', [mid(-3), light], 5)
+$ update_portrait('oc002_01 5', 'p2', [mid(-3), light], 6)
 c23 '[convertstrid(1216025)]'
 hide p2
-$ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 5)
+$ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 6)
 c13 '[convertstrid(1216026)]'
 hide p1
-$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 6)
 c2093 '[convertstrid(1216027)]'
-$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 5)
+$ update_portrait('st009_01 1', 'p209', [mid(-22), light], 6)
 c2093 '[convertstrid(1216028)]'
 menu:
     extend ""

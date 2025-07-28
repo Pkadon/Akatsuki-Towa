@@ -6,11 +6,11 @@ $ update_narrator('c0')
 window show
 with fade_in
 c0 '[convertstrid(1143729)]'
-$ update_portrait('oc002_01 8', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 8', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1143730)]'
-$ update_portrait('oc002_01 5', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 5', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1143731)]'
-$ update_portrait('oc002_01 18', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 18', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1143732)]'
 hide p2
 play sfx2 "other_7047.ogg"

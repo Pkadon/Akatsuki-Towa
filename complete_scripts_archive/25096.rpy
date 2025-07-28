@@ -2,12 +2,12 @@ label avg25096:
 
 stop music
 scene placeholderbackground
-$ update_portrait('uc001_01 1', 'p587', [mid(-2), light], 5)
+$ update_portrait('uc001_01 1', 'p587', [mid(-2), light], 6)
 $ update_narrator('c5873')
 window show
 with fade_in
 c5873 '[convertstrid(1210269)]'
-$ update_portrait('uc001_01 2', 'p587', [mid(-2), light], 5)
+$ update_portrait('uc001_01 2', 'p587', [mid(-2), light], 6)
 c5873 '[convertstrid(1210270)]'
 menu:
     extend ""

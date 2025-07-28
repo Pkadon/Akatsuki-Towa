@@ -28,11 +28,11 @@ c61 '[convertstrid(1143980)]'
 hide p6
 c0 '[convertstrid(1143981)]'
 c0 '[convertstrid(1143982)]'
-$ update_portrait('sc058_01 2', 'p63', [r(-20), light], 5)
+$ update_portrait('sc058_01 2', 'p63', [r(-20), light], 6)
 c633 '[convertstrid(1143983)]'
-$ update_portrait('sc058_01 3', 'p63', [r(-20), light], 5)
+$ update_portrait('sc058_01 3', 'p63', [r(-20), light], 6)
 c633 '[convertstrid(1143984)]'
-$ update_portrait('sc058_01 3', 'p63', [r(-20), light], 5)
+$ update_portrait('sc058_01 3', 'p63', [r(-20), light], 6)
 c633 '[convertstrid(1143985)]'
 $ update_portrait('sc058_01 3', 'p63', [r(-20), dark], 5)
 $ update_portrait('oc006_01 4', 'p6', [l(-5), light, flip], 6)

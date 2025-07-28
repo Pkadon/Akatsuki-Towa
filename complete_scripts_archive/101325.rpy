@@ -2,12 +2,12 @@ label avg101325:
 
 stop music
 scene placeholderbackground
-$ update_portrait('oc001_01 17', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 17', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 window show
 with fade_in
 c13 '[convertstrid(1221024)]'
-$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1221025)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc005_01 2', 'p13', [l(-17), light, flip], 6)

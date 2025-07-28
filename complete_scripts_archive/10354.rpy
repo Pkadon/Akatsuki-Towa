@@ -13,8 +13,8 @@ with fade
 c2381 '[convertstrid(1131639)]'
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131640)]'
-$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 6)
-$ update_portrait('sc048_01 5', 'p55', [r(-7), light], 5)
+$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 5)
+$ update_portrait('sc048_01 5', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131641)]'
 $ update_portrait('sc048_01 5', 'p55', [r(-7), dark], 5)
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
@@ -23,40 +23,40 @@ $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131643)]'
 $ update_portrait('st039_01 4', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131644)]'
-$ update_portrait('st039_01 4', 'p238', [l(-6), dark, flip], 6)
-$ update_portrait('sc048_01 4', 'p55', [r(-7), light], 5)
+$ update_portrait('st039_01 4', 'p238', [l(-6), dark, flip], 5)
+$ update_portrait('sc048_01 4', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131645)]'
 $ update_portrait('sc048_01 4', 'p55', [r(-7), dark], 5)
 $ update_portrait('st039_01 4', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131646)]'
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131647)]'
-$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 6)
-$ update_portrait('sc048_01 5', 'p55', [r(-7), light], 5)
+$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 5)
+$ update_portrait('sc048_01 5', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131648)]'
-$ update_portrait('sc048_01 1', 'p55', [r(-7), light], 5)
+$ update_portrait('sc048_01 1', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131649)]'
 $ update_portrait('sc048_01 1', 'p55', [r(-7), dark], 5)
 $ update_portrait('st039_01 4', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131650)]'
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131651)]'
-$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 6)
-$ update_portrait('sc048_01 5', 'p55', [r(-7), light], 5)
+$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 5)
+$ update_portrait('sc048_01 5', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131652)]'
 $ update_portrait('sc048_01 5', 'p55', [r(-7), dark], 5)
 $ update_portrait('st039_01 4', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131653)]'
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131654)]'
-$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 6)
-$ update_portrait('sc048_01 4', 'p55', [r(-7), light], 5)
+$ update_portrait('st039_01 1', 'p238', [l(-6), dark, flip], 5)
+$ update_portrait('sc048_01 4', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131655)]'
 $ update_portrait('sc048_01 4', 'p55', [r(-7), dark], 5)
 $ update_portrait('st039_01 2', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(1131656)]'
-$ update_portrait('st039_01 2', 'p238', [l(-6), dark, flip], 6)
-$ update_portrait('sc048_01 1', 'p55', [r(-7), light], 5)
+$ update_portrait('st039_01 2', 'p238', [l(-6), dark, flip], 5)
+$ update_portrait('sc048_01 1', 'p55', [r(-7), light], 6)
 c553 '[convertstrid(1131657)]'
 $ update_portrait('sc048_01 1', 'p55', [r(-7), dark], 5)
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)

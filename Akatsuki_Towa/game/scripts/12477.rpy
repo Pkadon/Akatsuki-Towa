@@ -13,11 +13,11 @@ $ update_portrait('oc006_01 3', 'p6', [l(-5), light, flip], 6)
 c61 '[convertstrid(1144084)]'
 scene avg_bg_070
 show memoryoverlay zorder 2
-$ update_portrait('oc004_01 15', 'p4', [r(-5), light], 5)
+$ update_portrait('oc004_01 15', 'p4', [r(-5), light], 6)
 $ update_narrator('c43')
 with fade
 c43 '[convertstrid(1144085)]'
-$ update_portrait('oc004_01 15', 'p4', [r(-5), light], 5)
+$ update_portrait('oc004_01 15', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1144086)]'
 scene placeholderbackground
 $ update_narrator('c61')

@@ -5,7 +5,7 @@ scene avg_bg_031
 $ update_narrator('c13')
 window show
 with fade_in
-$ update_portrait('oc001_01 12', 'p1', [r_entrance(-2), light], 5)
+$ update_portrait('oc001_01 12', 'p1', [r_entrance(-2), light], 6)
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[convertstrid(1131270)]'
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
@@ -23,14 +23,14 @@ $ update_portrait('sc046_01 3', 'p1004', [l_midback(-5), light, flip], 6)
 play sfx2 "fight_6024.ogg"
 c10041 '[convertstrid(1131274)]' (what_size=(gui.text_size*1.2))
 hide p1
-$ update_portrait('sc046_01 3', 'p1004', [l(-5), dark, flip], 6)
+$ update_portrait('sc046_01 3', 'p1004', [l(-5), dark, flip], 5)
 play sfx2 "other_7085.ogg"
 c10233 '[convertstrid(1131275)]'
 c10243 '[convertstrid(1131276)]'
 hide p1004
 $ update_narrator('c13')
 with fade
-$ update_portrait('oc001_01 12', 'p1', [r_entrance(-2), r_shake, light], 5)
+$ update_portrait('oc001_01 12', 'p1', [r_entrance(-2), r_shake, light], 6)
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[convertstrid(1131277)]' (what_size=(gui.text_size*1.2))
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)

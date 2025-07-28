@@ -13,7 +13,7 @@ c5683 '[convertstrid(1002307)]'
 c5683 '[convertstrid(1002308)]'
 c5683 '[convertstrid(1002309)]'
 c5671 '[convertstrid(1002310)]'
-$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1002311)]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)

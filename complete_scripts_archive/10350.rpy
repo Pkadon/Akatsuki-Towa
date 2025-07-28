@@ -15,30 +15,30 @@ play sfx2 "other_7007.ogg"
 c2301 '[convertstrid(1131425)]' (what_size=(gui.text_size*1.2))
 $ update_portrait('st031_01 4', 'p230', [l(4), light, flip], 6)
 c2301 '[convertstrid(1131426)]' (what_size=(gui.text_size*1.2))
-$ update_portrait('st031_01 4', 'p230', [l(4), dark, flip], 6)
-$ update_portrait('oc001_01 8', 'p1', [r_entrance(-2), light], 5)
+$ update_portrait('st031_01 4', 'p230', [l(4), dark, flip], 5)
+$ update_portrait('oc001_01 8', 'p1', [r_entrance(-2), light], 6)
 play sfxvoice "avg_vocal_na04_b.ogg"
 c13 '[convertstrid(1131427)]'
 hide p1
-$ update_portrait('oc003_01 8', 'p3', [r(-6), light], 5)
+$ update_portrait('oc003_01 8', 'p3', [r(-6), light], 6)
 play sfxvoice "avg_vocal_ro13.ogg"
 c33 '[convertstrid(1131428)]'
 $ update_portrait('oc003_01 8', 'p3', [r(-6), dark], 5)
 $ update_portrait('st031_01 4', 'p230', [l(4), light, flip], 6)
 c2301 '[convertstrid(1131429)]'
 hide p3
-$ update_portrait('st031_01 4', 'p230', [l(4), dark, flip], 6)
-$ update_portrait('oc005_01 20', 'p5', [r(-6), r_shake, light], 5)
+$ update_portrait('st031_01 4', 'p230', [l(4), dark, flip], 5)
+$ update_portrait('oc005_01 20', 'p5', [r(-6), r_shake, light], 6)
 c53 '[convertstrid(1131430)]' (what_size=(gui.text_size*1.4))
 $ update_portrait('oc005_01 20', 'p5', [r(-6), dark], 5)
 $ update_portrait('st031_01 2', 'p230', [l(4), l_shake, light, flip], 6)
 c2301 '[convertstrid(1131431)]'
-$ update_portrait('st031_01 2', 'p230', [l(4), dark, flip], 6)
-$ update_portrait('oc005_01 12', 'p5', [r(-6), r_shake, light], 5)
+$ update_portrait('st031_01 2', 'p230', [l(4), dark, flip], 5)
+$ update_portrait('oc005_01 12', 'p5', [r(-6), r_shake, light], 6)
 play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_ji18.ogg"
 c53 '[convertstrid(1131432)]' (what_size=(gui.text_size*1.2))
-$ update_portrait('oc005_01 3', 'p5', [r(-6), light], 5)
+$ update_portrait('oc005_01 3', 'p5', [r(-6), light], 6)
 c53 '[convertstrid(1131433)]' (what_size=(gui.text_size*1.2))
 $ update_portrait('oc005_01 3', 'p5', [r(-6), dark], 5)
 $ update_portrait('st031_01 2', 'p230', [l(4), l_shake, light, flip], 6)
@@ -52,8 +52,8 @@ with fade
 $ update_portrait('oc003_01 17', 'p3', [l_entrance(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro09.ogg"
 c31 '[convertstrid(1131436)]'
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
-$ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
+$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 5)
+$ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1131437)]'
 hide p3
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
@@ -69,8 +69,8 @@ $ update_portrait('st030_01 5', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131440)]'
 $ update_portrait('st030_01 4', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131441)]'
-$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 6)
-$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
+$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 5)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 play sfxvoice "avg_vocal_na20.ogg"
 c13 '[convertstrid(1131442)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
@@ -79,31 +79,31 @@ c2291 '[convertstrid(1131443)]'
 $ update_portrait('st030_01 4', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131444)]'
 hide p1
-$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 6)
-$ update_portrait('oc004_01 12', 'p4', [r(-5), light], 5)
+$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 5)
+$ update_portrait('oc004_01 12', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1131445)]'
-$ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
+$ update_portrait('oc004_01 4', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1131446)]'
-$ update_portrait('oc004_01 17', 'p4', [r(-5), light], 5)
+$ update_portrait('oc004_01 17', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1131447)]'
-$ update_portrait('oc004_01 4', 'p4', [r(-5), light], 5)
+$ update_portrait('oc004_01 4', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1131448)]'
 $ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
 $ update_portrait('st030_01 4', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131449)]'
 hide p4
-$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 6)
-$ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
+$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 5)
+$ update_portrait('oc002_01 2', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1131450)]'
-$ update_portrait('oc002_01 15', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 15', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1131451)]'
 $ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 $ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131452)]'
 $ update_portrait('st030_01 4', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131453)]'
-$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 6)
-$ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
+$ update_portrait('st030_01 4', 'p229', [l(-8), dark, flip], 5)
+$ update_portrait('oc002_01 10', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1131454)]'
 hide p229
 $ update_portrait('oc002_01 10', 'p2', [r(-3), dark], 5)
@@ -113,8 +113,8 @@ $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 play sfxvoice "avg_vocal_li18.ogg"
 c41 '[convertstrid(1131456)]'
 hide p2
-$ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 6)
-$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1131457)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 7', 'p4', [l(-5), light, flip], 6)
@@ -123,8 +123,8 @@ $ update_portrait('oc004_01 11', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1131459)]'
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1131460)]'
-$ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 6)
-$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 5)
+$ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1131461)]'
 hide p4
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
@@ -135,11 +135,11 @@ c2291 '[convertstrid(1131463)]'
 $ update_portrait('st030_01 5', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1131464)]'
 hide p1
-$ update_portrait('st030_01 5', 'p229', [l(-8), dark, flip], 6)
-$ update_portrait('oc004_01 1', 'p4', [r(-5), light], 5)
+$ update_portrait('st030_01 5', 'p229', [l(-8), dark, flip], 5)
+$ update_portrait('oc004_01 1', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1131465)]'
 hide p4
-$ update_portrait('oc001_01 7', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 7', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1131466)]'
 hide p229
 $ update_portrait('oc001_01 7', 'p1', [r(-2), dark], 5)
@@ -151,11 +151,11 @@ c31 '[convertstrid(1131468)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1131469)]'
 hide p1
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
-$ update_portrait('oc005_01 12', 'p5', [r_midback(-6), light], 5)
+$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 5)
+$ update_portrait('oc005_01 12', 'p5', [r_midback(-6), light], 6)
 play sfx2 "other_7087.ogg"
 c53 '[convertstrid(1131470)]'
-$ update_portrait('oc005_01 20', 'p5', [r(-6), light], 5)
+$ update_portrait('oc005_01 20', 'p5', [r(-6), light], 6)
 c53 '[convertstrid(1131471)]' (what_size=(gui.text_size*1.4))
 hide p3
 $ update_portrait('oc005_01 20', 'p5', [r(-6), dark], 5)
@@ -166,21 +166,21 @@ hide p4
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1131473)]'
 hide p5
-$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 6)
-$ update_portrait('oc002_01 10', 'p2', [r(-3), light], 5)
+$ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 5)
+$ update_portrait('oc002_01 10', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1131474)]'
 hide p2
-$ update_portrait('oc001_01 8', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1131475)]'
 hide p1
-$ update_portrait('oc005_01 12', 'p5', [r_entrance(-6), light], 5)
+$ update_portrait('oc005_01 12', 'p5', [r_entrance(-6), light], 6)
 c53 '[convertstrid(1131476)]'
 hide p3
 $ update_portrait('oc005_01 12', 'p5', [r(-6), dark], 5)
 $ update_portrait('st031_01 2', 'p230', [l(4), light, flip], 6)
 c2301 '[convertstrid(1131477)]'
-$ update_portrait('st031_01 2', 'p230', [l(4), dark, flip], 6)
-$ update_portrait('oc005_01 21', 'p5', [r(-6), light], 5)
+$ update_portrait('st031_01 2', 'p230', [l(4), dark, flip], 5)
+$ update_portrait('oc005_01 21', 'p5', [r(-6), light], 6)
 play sfxvoice "avg_vocal_ji22.ogg"
 c53 '[convertstrid(1131478)]'
 $ update_portrait('oc005_01 21', 'p5', [r(-6), dark], 5)

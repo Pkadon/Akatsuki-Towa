@@ -87,8 +87,10 @@ class GameState:
 		alias = self.state[pos]['alias']
 		offset = self.state[pos]['offset']
 		mirror = self.state[pos]['mirror']
-		zorder = self.state[pos]['zorder']
 		#don't need to worry about tracking transforms so far, but that could change
+		
+		if color == 'light': zorder = 6
+		elif color == 'dark': zorder = 5
 		
 		if mirror == 1: flip = ', flip'
 		else: flip = ''
@@ -337,17 +339,14 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#figure out where on the screen character portrait goes
 		if charPos == 1: 
 			portraitpos = 'l'
-			zorder = 6
 			if folderName:
 				state.hide_portraits('mid')
 		elif charPos == 3: 
 			portraitpos = 'r'
-			zorder = 5
 			if folderName:
 				state.hide_portraits('mid')
 		elif charPos in [2, 0]: 
 			portraitpos = 'mid'
-			zorder = 5
 			if folderName:
 				state.hide_portraits('l', 'r',)
 
@@ -362,7 +361,6 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				'expression': expression,
 				'offset': offset,
 				'mirror': mirror,
-				'zorder': zorder
 			}
 
 			state.update_portrait(portraitpos, portrait_dict)
@@ -401,7 +399,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 				f"'{folderName} {expression}', "
 				f"'{alias}', "
 				f"[{renpytransform}, light{flip}], "
-				f"{zorder}"
+				f"6" #zorder
 				")"
 			)
 			state.add_line(f"{portrait}\n")

@@ -7,8 +7,8 @@ $ update_narrator('c21')
 window show
 with fade_in
 c21 '[convertstrid(1131987)]'
-$ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 6)
-$ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
+$ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 5)
+$ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1131988)]'
 hide p2
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)

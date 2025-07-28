@@ -20,7 +20,7 @@ c6853 '[convertstrid(1004847)]'
 $ update_portrait('oc001_01 1', 'p1', [l_entrance(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na15.ogg"
 c11 '[convertstrid(1004848)]'
-$ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 6)
-$ update_portrait('sc039_01 1', 'p46', [r(-13), light], 5)
+$ update_portrait('oc001_01 1', 'p1', [l(-2), dark, flip], 5)
+$ update_portrait('sc039_01 1', 'p46', [r(-13), light], 6)
 c463 '[convertstrid(1004849)]'
 return

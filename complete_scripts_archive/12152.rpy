@@ -8,14 +8,14 @@ window show
 with fade_in
 play sfx2 "other_7060.ogg"
 c9601 '[convertstrid(1128367)]'
-$ update_portrait('uc004_02 1', 'p960', [l(-9), dark, flip], 6)
-$ update_portrait('uc004_02 2', 'p961', [r(-9), light], 5)
+$ update_portrait('uc004_02 1', 'p960', [l(-9), dark, flip], 5)
+$ update_portrait('uc004_02 2', 'p961', [r(-9), light], 6)
 c9613 '[convertstrid(1128368)]'
 hide p961
-$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1128369)]'
 hide p1
-$ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 2', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1128370)]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('uc004_02 1', 'p960', [l(-9), light, flip], 6)
@@ -30,7 +30,7 @@ $ update_narrator('c9621')
 with fade
 c9621 '[convertstrid(1128374)]'
 c9621 '[convertstrid(1128375)]'
-$ update_portrait('oc002_01 2', 'p2', [r(-3), light], 5)
+$ update_portrait('oc002_01 2', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1128376)]'
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 c9621 '[convertstrid(1128377)]'

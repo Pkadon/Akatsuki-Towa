@@ -2,7 +2,7 @@ label avg10339:
 
 play music "ed7105.ogg"
 scene avg_bg_003
-$ update_portrait('oc001_01 6', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 6', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 window show
 with fade_in
@@ -14,8 +14,8 @@ hide p4
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1131037)]'
 hide p1
-$ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 6)
-$ update_portrait('oc005_01 4', 'p5', [r(-6), light], 5)
+$ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 5)
+$ update_portrait('oc005_01 4', 'p5', [r(-6), light], 6)
 c53 '[convertstrid(1131038)]'
 hide p3
 $ update_portrait('oc005_01 4', 'p5', [r(-6), dark], 5)

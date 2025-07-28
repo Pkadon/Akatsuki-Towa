@@ -7,10 +7,10 @@ $ update_narrator('c171')
 window show
 with fade_in
 c171 '[convertstrid(1221942)]'
-$ update_portrait('sc009_01 4', 'p17', [l(-13), dark, flip], 6)
-$ update_portrait('oc001_01 2', 'p1', [r(-2), light], 5)
+$ update_portrait('sc009_01 4', 'p17', [l(-13), dark, flip], 5)
+$ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1221943)]'
-$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 5)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1221944)]'
 menu:
     extend ""

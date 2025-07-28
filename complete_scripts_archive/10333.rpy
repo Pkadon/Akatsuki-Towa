@@ -7,8 +7,8 @@ $ update_narrator('c41')
 window show
 with fade_in
 c41 '[convertstrid(1130999)]'
-$ update_portrait('oc004_01 2', 'p4', [l(-5), dark, flip], 6)
-$ update_portrait('oc005_01 12', 'p5', [r(-6), light], 5)
+$ update_portrait('oc004_01 2', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc005_01 12', 'p5', [r(-6), light], 6)
 c53 '[convertstrid(1131000)]'
 hide p4
 $ update_portrait('oc005_01 12', 'p5', [r(-6), dark], 5)
