@@ -171,12 +171,13 @@ Everything was done with the goal of being as accurate as possible, but nothing 
 
  - **Observed Differences from the original game**:
    - **+** **Obvious** errors and inconsistencies have been carefully corrected. 
-      - Most of these can be undone if needed by deleting the block in the [script generator](generate_scripts/5_generate_script.py), then regenerating the scripts.
-      - There is also a duplicate line that is skipped in avg 12038.  The line to remove that can be found a little further down in the same script.
+      - Most of these can be undone if needed by deleting the block(s) in [modify_avg.py](generate_scripts/modify_avg.py), then regenerating the scripts.
       - And a typo fix at the bottom of [loadinfo.rpy](Akatsuki_Towa/game/loadinfo.rpy)
    - **+** Portrait animations will now wait for the fade transition to finish before playing.  In the original game it was possible to miss animations, or see them be applied to the wrong character's portrait while the fade played out.
    - **+** If a character without a portrait speaks from the left or right side of the screen while a portrait is being shown in the middle position, the middle portrait will be darkened to indicate that it is not the one speaking.  This was not accounted for in the original game!
    - **+** Similarly, if portraits are being displayed on the left/right sides, and a charPos 0 speaker with no portrait speaks, the left/right portraits will be darkened.
+   - **+** I have started to add backgrounds, music, maybe some other things, to the scenes that were originally missing all of that.  This may be considered an improvement to some, and a detriment to others.  They will be kept in their own section inside [modify_avg.py](generate_scripts/modify_avg.py), so that they can be more easily tracked and undone if necessary.
+   - **=** The active (lit) portrait will now always appear on the top layer.  In the original game, it seemed like the right-side portrait was always on a higher layer than the left side portrait, and so during animations, the left portrait would slide "underneath" the right portrait.  I decided to change it so that the animated portrait will always appear above any inactive portraits.
    - **-** Selecting a choice is not supposed to "clear the board" and remove all portraits.  I'm not sure whether this will be able to be fixed here or not.
 
 ---
