@@ -23,13 +23,62 @@ def delete_frame(script_json, frame_index):
 					entry['start'] -= 1
 					entry['end'] -= 1
 
+# Takes tuples or lists, where the first item is the schedule list's dictionary key, 
+# and the second item is the schedule entry to be inserted
+def insert_schedule(script_json, *args):
+	for arg in args:
+		key = arg[0]
+		schedule = script_json[key]
+	
+		new_entry = arg[1]
+		
+		if not new_entry['end']: 
+			new_entry['end'] = len(script_json['dialogueFrames'])
+	
+		if len(schedule) == 0:
+			schedule.append(new_entry)
+			
+		else:
+			start = new_entry['start']
+			end = new_entry['end']
+			new_span = range(start, end)
+			
+			placed = False
+			for copy in schedule[:]:
+				entry_index = schedule.index(copy)
+				entry = schedule[entry_index]
+
+				if entry['start'] in new_span:
+					#remove the entire old entry if it would have started and ended during the new entry
+					if entry['end'] in new_span:
+						schedule.remove(entry)
+					#or else keep the end, and push the start time back until after the new entry is over
+					else:
+						entry['start'] = (end+1)
+						
+				elif entry['start'] < start:
+					#cut the old entry short, to end immediately before the new entry starts
+					if entry['end'] in new_span:
+						entry['end'] = (start-1)
+
+				#Insert the new entry immediately before the first (adjusted) entry that starts after it
+				if not placed:
+					if entry['start'] > end:
+						schedule.insert((entry_index-1), new_entry)
+						placed = True
+			#Append the new entry to the end of the list if it wasn't inserted into the middle earlier
+			if not placed:
+				schedule.append(new_entry)
+				placed = True
+			
+	
 ##################################################################################################
-#Modifies the original cutscene scripts, to fix corrections or to make improvements
+#Modifies the original cutscene scripts, to make corrections or adjustments
 def make_edits(script_json, avgID):
 	avgID = str(avgID)
 
 #Trying to group these into different priority levels so that they can be undone if they're stupid
-#Don't know yet what I'm going to do when a single scene needs multiple changes made to it...
+#Don't know yet what I'm going to do when a single scene needs two different levels of changes made to it...
 
 ###########################################################################
 # Purely corrective changes - no real reason to ever need to undo these
@@ -81,12 +130,12 @@ def make_edits(script_json, avgID):
 	#This scene has a footstep sound to indicate that they have moved location/gone back downstairs
 	#So I added an indoor background/bgm to the first half to match the first scene of the quest
 	elif avgID == '12159':
-		script_json['backgrounds'].insert(0, {'id': 38, 'start': 1, 'end': 3})
-		script_json['backgrounds'][1]['start'] = 4
-		script_json['bgm'].insert(0, {'id': 132, 'start': 1, 'end': 3})
-		script_json['bgm'][1]['start'] = 4
+		insert_schedule(script_json,
+			('backgrounds', {'id': 38, 'start': 1, 'end': 3}),
+			('bgm', {'id': 132, 'start': 1, 'end': 3})
+		)
 		
-	#This scene takes place at the harbor, so this gives it the harbor background
+	#This scene takes place at the harbor, so change it to use the harbor background
 	elif avgID == '20050':
 		script_json['backgrounds'][0]['id'] = 28
 		
@@ -99,10 +148,11 @@ def make_edits(script_json, avgID):
 #################################################################################
 # Add backgrounds (and maybe music?) to scenes that did not originally have them
 #################################################################################
-	#Changed from no background to Grancel background to match surrounding scenes
+	#Add a Grancel street background to match the surrounding scenes
 	elif avgID == '20052':
-		script_json['backgrounds'].insert(0, {'id': 27, 'start': 1, 'end': 32}) 
-		
-		
+		insert_schedule(script_json,
+			('backgrounds', {'id': 27, 'start': 1, 'end': None})
+		)
+
 ###########################################################################
 	return script_json
