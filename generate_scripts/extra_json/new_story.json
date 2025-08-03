@@ -1522,13 +1522,13 @@
                     {
                         "name": "行方不明の研修医 2/4",
                         "strID": 17320,
-                        "infostrID": 613021,
+                        "infostrID": 3015,
                         "avgID": 12214
                     },
                     {
                         "name": "行方不明の研修医 3/4",
                         "strID": 17321,
-                        "infostrID": 613021,
+                        "infostrID": 3004,
                         "avgID": 12215
                     },
                     {
@@ -2069,20 +2069,6 @@
                         "avgID": 10083
                     },
                     {
-                        "name": "中央工房の盗難事件(2) 2/7~ティオ",
-                        "info": "Optional Dialogue",
-                        "strID": 17272,
-                        "infostrID": "ex_1",
-                        "avgID": 10081
-                    },
-                    {
-                        "name": "中央工房の盗難事件(2) 2/7~ティータ",
-                        "info": "Optional Dialogue",
-                        "strID": 17273,
-                        "infostrID": "ex_1",
-                        "avgID": 10080
-                    },
-                    {
                         "name": "中央工房の盗難事件(2) 3/7~ティオ",
                         "strID": 17274,
                         "infostrID": 2163,
@@ -2093,18 +2079,6 @@
                         "strID": 17275,
                         "infostrID": 2163,
                         "avgID": 10087
-                    },
-                    {
-                        "name": "中央工房の盗難事件(2) 3/7",
-                        "info": "Optional Dialogue",
-                        "strID": "ex_200",
-                        "infostrID": "ex_1",
-                        "avgID": 20110
-                    },
-                    {
-                        "name": "",
-                        "strID": null,
-                        "avgID": 0
                     },
                     {
                         "name": "中央工房の盗難事件(2) 4/7~ティオ",
@@ -2121,13 +2095,13 @@
                     {
                         "name": "中央工房の盗難事件(2) 5/7~ティオ",
                         "strID": 17278,
-                        "infostrID": 3551,
+                        "infostrID": 3508,
                         "avgID": 10096
                     },
                     {
                         "name": "中央工房の盗難事件(2) 5/7~ティータ",
                         "strID": 17279,
-                        "infostrID": 3551,
+                        "infostrID": 3508,
                         "avgID": 10097
                     },
                     {
