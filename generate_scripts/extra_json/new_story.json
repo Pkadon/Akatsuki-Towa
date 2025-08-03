@@ -144,10 +144,9 @@
                 "scenes": [
                     {
                         "name": "紛失物の捜索願い 1/7",
-                        "info": "Extra Dialogue",
                         "strID": 70026,
                         "add": " 1/7",
-                        "infostrID": "ex_2",
+                        "infostrID": 3124,
                         "avgID": 20010
                     },
                     {
@@ -288,10 +287,9 @@
                     },
                     {
                         "name": "詐欺事件の調査（2） 2/9",
-                        "info": "Extra Dialogue",
                         "strID": 60076,
                         "add": " 2/9",
-                        "infostrID": "ex_2",
+                        "infostrID": 3101,
                         "avgID": 20013
                     },
                     {
@@ -733,10 +731,9 @@
                     },
                     {
                         "name": "女王生誕祭の支援（1） 6/6",
-                        "info": "Extra Dialogue",
                         "strID": 60501,
                         "add": " 6/6",
-                        "infostrID": "ex_2",
+                        "infostrID": 3200,
                         "avgID": 20033
                     }
                 ]
