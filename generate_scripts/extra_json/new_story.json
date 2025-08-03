@@ -237,7 +237,7 @@
                     {
                         "name": "詐欺事件の調査（1） 1/6",
                         "strID": 17020,
-                        "infostrID": 3111,
+                        "infostrID": 3124,
                         "avgID": 10005
                     },
                     {
@@ -1765,7 +1765,7 @@
                     {
                         "name": "ツァイス地方の物資配達 1/5",
                         "strID": 17323,
-                        "infostrID": 3501,
+                        "infostrID": 3552,
                         "avgID": 12217
                     },
                     {
@@ -1789,7 +1789,7 @@
                     {
                         "name": "ツァイス地方の物資配達 5/5",
                         "strID": 17327,
-                        "infostrID": 3501,
+                        "infostrID": 3552,
                         "avgID": 12221
                     }
                 ]
@@ -1827,25 +1827,25 @@
                     {
                         "name": "中央工房の盗難事件(1) 4/10~ティオ",
                         "strID": 17255,
-                        "infostrID": 3551,
+                        "infostrID": 3508,
                         "avgID": 10067
                     },
                     {
                         "name": "中央工房の盗難事件(1) 4/10~ティータ",
                         "strID": 17256,
-                        "infostrID": 3551,
+                        "infostrID": 3508,
                         "avgID": 10068
                     },
                     {
                         "name": "中央工房の盗難事件(1) 5/10~ティオ",
                         "strID": 17257,
-                        "infostrID": 3551,
+                        "infostrID": 3508,
                         "avgID": 10070
                     },
                     {
                         "name": "中央工房の盗難事件(1) 5/10~ティータ",
                         "strID": 17258,
-                        "infostrID": 3551,
+                        "infostrID": 3508,
                         "avgID": 10071
                     },
                     {
@@ -1863,7 +1863,7 @@
                     {
                         "name": "中央工房の盗難事件(1) 6/10~SP",
                         "strID": 17261,
-                        "infostrID": 3501,
+                        "infostrID": 3502,
                         "avgID": 20105
                     },
                     {
@@ -1931,13 +1931,13 @@
                     {
                         "name": "怪盗Ｃの挑戦状 1/6",
                         "strID": 17328,
-                        "infostrID": 3501,
+                        "infostrID": 3552,
                         "avgID": 12224
                     },
                     {
                         "name": "怪盗Ｃの挑戦状 2/6",
                         "strID": 17329,
-                        "infostrID": 3500,
+                        "infostrID": 3501,
                         "avgID": 12225
                     },
                     {
@@ -1961,7 +1961,7 @@
                     {
                         "name": "怪盗Ｃの挑戦状 6/6",
                         "strID": 17333,
-                        "infostrID": 3501,
+                        "infostrID": 3552,
                         "avgID": 12229
                     }
                 ]
@@ -2021,13 +2021,13 @@
                     {
                         "name": "エルモ温泉の魔獣退治(2) 1/2",
                         "strID": 17340,
-                        "infostrID": 613009,
+                        "infostrID": 3019,
                         "avgID": 12222
                     },
                     {
                         "name": "エルモ温泉の魔獣退治(2) 2/2",
                         "strID": 17341,
-                        "infostrID": 613009,
+                        "infostrID": 3019,
                         "avgID": 12223
                     },
                     {
@@ -2250,7 +2250,7 @@
                         "name": "導力停止の異常事故(1) 3/9",
                         "strID": 61126,
                         "add": " 3/9",
-                        "infostrID": 3112,
+                        "infostrID": 3124,
                         "avgID": 10106
                     },
                     {
