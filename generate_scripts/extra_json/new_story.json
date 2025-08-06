@@ -1336,25 +1336,6 @@
                         "avgID": 10041
                     }
                 ]
-            },
-            {
-                "name": "Extra/Unused",
-                "strID": "ex_3",
-                "questID": [],
-                "scenes": [
-                    {
-                        "name": "スラッシュ/ヒューイ",
-                        "strID": "ex_104",
-                        "infostrID": 3108,
-                        "avgID": 10303
-                    },
-                    {
-                        "name": "リン/エオリア",
-                        "strID": "ex_105",
-                        "infostrID": 3110,
-                        "avgID": 10315
-                    }
-                ]
             }
         ]
     },
@@ -3228,6 +3209,25 @@
                         "strID": 17452,
                         "infostrID": 3400,
                         "avgID": 10402
+                    }
+                ]
+            },
+            {
+                "name": "Extra/Unused",
+                "strID": "ex_3",
+                "questID": [],
+                "scenes": [
+                    {
+                        "name": "スラッシュ/ヒューイ",
+                        "strID": "ex_104",
+                        "infostrID": 3108,
+                        "avgID": 10303
+                    },
+                    {
+                        "name": "リン/エオリア",
+                        "strID": "ex_105",
+                        "infostrID": 3110,
+                        "avgID": 10315
                     }
                 ]
             }
