@@ -116,7 +116,7 @@ c21 '[convertstrid(1005535)]'
 hide p2
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na22.ogg"
-c11 '[convertstrid(1005536)]' (what_size=(gui.text_size*0.8))
+c11 '[convertstrid(1005536)]'
 menu:
     extend ""
     "[textdict[1005537]]":

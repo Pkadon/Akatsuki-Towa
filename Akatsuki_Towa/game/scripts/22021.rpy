@@ -1,27 +1,29 @@
 label avg22021:
 
 play music "ed7105.ogg"
-scene placeholderbackground
-$ update_portrait('sc049_01 5', 'p56', [mid(-8), light], 6)
-$ update_narrator('c563')
+scene avg_bg_023
+$ update_narrator('c561')
+$ update_portrait('sc049_01 5', 'p56', [l(-8), light, flip], 6)
 window show
 with fade_in
-c563 '[convertstrid(1120002)]'
-hide p56
-$ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 6)
+$ update_portrait('sc049_01 5', 'p56', [l_midback(-8), light, flip], 6)
+c561 '[convertstrid(1120002)]'
+$ update_portrait('sc049_01 5', 'p56', [l(-8), dark, flip], 5)
+$ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1120003)]'
-hide p1
-$ update_portrait('sc049_01 1', 'p56', [mid(-8), light], 6)
+$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
+$ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 play sfx2 "other_7091.ogg"
-c563 '[convertstrid(1120004)]'
+c561 '[convertstrid(1120004)]'
 hide p56
-$ update_portrait('sc050_01 1', 'p57', [mid(-19), light], 6)
-c573 '[convertstrid(1120005)]'
+$ update_portrait('sc050_01 1', 'p57', [l(-19), light, flip], 6)
+c571 '[convertstrid(1120005)]'
 hide p57
-$ update_portrait('sc052_01 5', 'p59', [mid(-25), light], 6)
-c593 '[convertstrid(1120006)]'
-hide p59
-$ update_portrait('oc002_01 12', 'p2', [mid(-3), light], 6)
+$ update_portrait('sc052_01 5', 'p59', [l(-25), light, flip], 6)
+c591 '[convertstrid(1120006)]'
+hide p1
+$ update_portrait('sc052_01 5', 'p59', [l(-25), dark, flip], 5)
+$ update_portrait('oc002_01 12', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1120007)]'
 menu:
     extend ""

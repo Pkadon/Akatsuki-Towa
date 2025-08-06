@@ -1,7 +1,7 @@
 label avg20096:
 
 play music "ed7514.ogg"
-scene placeholderbackground
+scene avg_bg_014
 $ update_narrator('c481')
 window show
 with fade_in
