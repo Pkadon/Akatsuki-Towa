@@ -2086,6 +2086,34 @@
                         "avgID": 10097
                     },
                     {
+                        "name": "中央工房の盗難事件(2) 5/7~SP1",
+                        "strID": 61101,
+                        "add": " 5/7~SP1",
+                        "infostrID": 3508,
+                        "avgID": 20115
+                    },
+                    {
+                        "name": "中央工房の盗難事件(2) 5/7~SP2",
+                        "strID": 61101,
+                        "add": " 5/7~SP2",
+                        "infostrID": 3502,
+                        "avgID": 20116
+                    },
+                    {
+                        "name": "中央工房の盗難事件(2) 5/7~SP3",
+                        "strID": 61101,
+                        "add": " 5/7~SP3",
+                        "infostrID": 3551,
+                        "avgID": 20118
+                    },
+                    {
+                        "name": "中央工房の盗難事件(2) 5/7~SP4",
+                        "strID": 61101,
+                        "add": " 5/7~SP4",
+                        "infostrID": 3500,
+                        "avgID": 20119
+                    },
+                    {
                         "name": "中央工房の盗難事件(2) 6/7",
                         "strID": 17280,
                         "infostrID": 3501,
@@ -2096,6 +2124,13 @@
                         "strID": 17281,
                         "infostrID": 3103,
                         "avgID": 10103
+                    },
+                    {
+                        "name": "中央工房の盗難事件(2) 7/7~SP",
+                        "strID": 61101,
+                        "add": " 7/7~SP",
+                        "infostrID": 3115,
+                        "avgID": 20120
                     }
                 ]
             },
@@ -2408,43 +2443,6 @@
                         "strID": 17314,
                         "infostrID": 2151,
                         "avgID": 10122
-                    }
-                ]
-            },
-            {
-                "name": "Extra/Unused",
-                "strID": "ex_3",
-                "questID": [],
-                "scenes": [
-                    {
-                        "name": "ティータ",
-                        "strID": "ex_106",
-                        "infostrID": 3508,
-                        "avgID": 20115
-                    },
-                    {
-                        "name": "カルノー/プロメテ",
-                        "strID": "ex_107",
-                        "infostrID": 3502,
-                        "avgID": 20116
-                    },
-                    {
-                        "name": "マードック工房長",
-                        "strID": "ex_108",
-                        "infostrID": 3551,
-                        "avgID": 20118
-                    },
-                    {
-                        "name": "ウォン/グンドルフ",
-                        "strID": "ex_109",
-                        "infostrID": 3500,
-                        "avgID": 20119
-                    },
-                    {
-                        "name": "ジリアン/ロナード",
-                        "strID": "ex_110",
-                        "infostrID": 3115,
-                        "avgID": 20120
                     }
                 ]
             }
