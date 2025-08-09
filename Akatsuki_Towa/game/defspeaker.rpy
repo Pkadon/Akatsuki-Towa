@@ -1,4 +1,4 @@
-init python:
+init python early:
     char_dict = dict()
     def Character_wrap(name, char_id, **kwargs):
         char_obj = Character(name, show_char_id=char_id, **kwargs)
