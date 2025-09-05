@@ -1894,51 +1894,6 @@
                 ]
             },
             {
-                "name": "怪盗Ｃの挑戦状",
-                "strID": 71151,
-                "questID": [
-                    357
-                ],
-                "scenes": [
-                    {
-                        "name": "怪盗Ｃの挑戦状 1/6",
-                        "strID": 17328,
-                        "infostrID": 3552,
-                        "avgID": 12224
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 2/6",
-                        "strID": 17329,
-                        "infostrID": 3501,
-                        "avgID": 12225
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 3/6",
-                        "strID": 17330,
-                        "infostrID": 2172,
-                        "avgID": 12226
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 4/6",
-                        "strID": 17331,
-                        "infostrID": 2176,
-                        "avgID": 12227
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 5/6",
-                        "strID": 17332,
-                        "infostrID": 2163,
-                        "avgID": 12228
-                    },
-                    {
-                        "name": "怪盗Ｃの挑戦状 6/6",
-                        "strID": 17333,
-                        "infostrID": 3552,
-                        "avgID": 12229
-                    }
-                ]
-            },
-            {
                 "name": "エルモ温泉の魔獣退治",
                 "strID": 71076,
                 "questID": [
@@ -1980,6 +1935,51 @@
                         "strID": 17338,
                         "infostrID": 3019,
                         "avgID": 22211
+                    }
+                ]
+            },
+            {
+                "name": "怪盗Ｃの挑戦状",
+                "strID": 71151,
+                "questID": [
+                    357
+                ],
+                "scenes": [
+                    {
+                        "name": "怪盗Ｃの挑戦状 1/6",
+                        "strID": 17328,
+                        "infostrID": 3552,
+                        "avgID": 12224
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 2/6",
+                        "strID": 17329,
+                        "infostrID": 3501,
+                        "avgID": 12225
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 3/6",
+                        "strID": 17330,
+                        "infostrID": 2172,
+                        "avgID": 12226
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 4/6",
+                        "strID": 17331,
+                        "infostrID": 2176,
+                        "avgID": 12227
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 5/6",
+                        "strID": 17332,
+                        "infostrID": 2163,
+                        "avgID": 12228
+                    },
+                    {
+                        "name": "怪盗Ｃの挑戦状 6/6",
+                        "strID": 17333,
+                        "infostrID": 3552,
+                        "avgID": 12229
                     }
                 ]
             },
