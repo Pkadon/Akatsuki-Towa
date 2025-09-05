@@ -114,9 +114,22 @@ python early:
         text = textdict[90224]
         textdict[90224] = text.replace(r"[FF0000]", r"{color=FF0000}").replace(r"[-]", r"{/color}")
 
-    #FIX TYPO
+    #FIX TYPOS
+    #Maison Imelda quest dialogue instead mentions Geofront B1 Sector
+    if 1000499 in textdict:
+        textdict[1000499] = textdict[1000499].replace('ジオフロントＢ１区画', '《メゾン・イメルダ》')
+    if 1000500 in textdict:
+        textdict[1000500] = textdict[1000500].replace('ジオフロントＢ１区画', '《メゾン・イメルダ》')
+
     #ジオフロントの再調査 is labeled 1/2 when it should be 1/1
     if 17579 in textdict:
         if textdict[17579].endswith('1/2'):
             textdict[17579] = textdict[17579][:-3] + '1/1'
+
+    #Preston and Hogarth dialogue is all mixed up
+    #Swap the names around, keeping the titles the same
+    if 1001682 in textdict:
+        textdict[1001682] = textdict[1001682].replace('プレストン司令', 'ホガース司令').replace('プレストン専務', 'ホガース常務')
+    if 1001683 in textdict:
+        textdict[1001683] = textdict[1001683].replace('ホガース局長', 'プレストン局長').replace('ホガース常務', 'プレストン専務')
 return
