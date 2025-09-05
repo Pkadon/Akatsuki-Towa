@@ -633,9 +633,11 @@ def make_edits(script_json, avgID):
 
 	#女王生誕祭の支援（3）
 	#never found a suitable background to use for Grancel Sewers
+	#20040, 20041, 20042, 20043, 20044
 	
 	#指名手配犯の捜索
 	#never found a suitable background to use for Grancel Sewers
+	#12188, 12189, 12191 (partial)
 	
 	#爆弾の捜索（1） 
 	#2/13
