@@ -12,6 +12,7 @@ screen inputdescription():
 label codeinput:
 stop music
 scene avg_bg_518
+$ update_narrator(None)
 
 python:
     while True:
