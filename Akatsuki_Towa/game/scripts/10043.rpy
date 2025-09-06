@@ -58,16 +58,17 @@ hide p1
 $ update_portrait('st043_01 5', 'p547', [l(-17), dark, flip], 5)
 $ update_portrait('st042_01 1', 'p548', [r(-14), light], 6)
 c5483 '[convertstrid(1001682)]'
-hide p548
-$ update_portrait('st042_01 5', 'p241', [r(-14), light], 6)
-c2413 '[convertstrid(1001683)]'
 hide p547
-$ update_portrait('st042_01 5', 'p241', [r(-14), dark], 5)
+$ update_portrait('st042_01 1', 'p548', [r(-14), dark], 5)
 $ update_portrait('st043_01 5', 'p242', [l(-17), light, flip], 6)
-c2421 '[convertstrid(1001684)]'
+c2421 '[convertstrid(1001683)]'
+hide p548
 $ update_portrait('st043_01 5', 'p242', [l(-17), dark, flip], 5)
-$ update_portrait('st042_01 1', 'p241', [r(-14), light], 6)
-c2413 '[convertstrid(1001685)]'
+$ update_portrait('st042_01 5', 'p241', [r(-14), light], 6)
+c2413 '[convertstrid(1001684)]'
+$ update_portrait('st042_01 5', 'p241', [r(-14), dark], 5)
+$ update_portrait('st043_01 1', 'p242', [l(-17), light, flip], 6)
+c2421 '[convertstrid(1001685)]'
 hide p242
 hide p241
 $ update_narrator('c5511')

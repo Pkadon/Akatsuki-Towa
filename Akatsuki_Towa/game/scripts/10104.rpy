@@ -129,11 +129,12 @@ hide p230
 $ update_portrait('st037_01 4', 'p236', [r(-10), dark], 5)
 $ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1005770)]'
-$ update_portrait('st030_01 1', 'p229', [l_exit(-8), light, flip], 6)
+$ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1005771)]'
-hide p229
+$ update_portrait('st030_01 1', 'p229', [l(-8), dark, flip], 5)
 $ update_portrait('st037_01 2', 'p236', [r(-10), light], 6)
 c2363 '[convertstrid(1005772)]'
+hide p229
 $ update_portrait('st037_01 2', 'p236', [r(-10), dark], 5)
 $ update_portrait('sc044_01 1', 'p51', [l_entrance(-7), light, flip], 6)
 c511 '[convertstrid(1005773)]'

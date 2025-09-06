@@ -46,14 +46,16 @@ $ update_portrait('st028_01 4', 'p227', [r(8), dark], 5)
 $ update_portrait('sc044_01 4', 'p51', [l(-7), light, flip], 6)
 c511 '[convertstrid(1006972)]'
 play music "ed7526.ogg"
-$ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 5)
+hide p51
+hide p227
 $ update_portrait('st028_01 4', 'p227', [r(8), light], 6)
+$ update_narrator('c2273')
+with fade
 c2273 '[convertstrid(1000013)]'
 $ update_portrait('st028_01 4', 'p227', [r(8), light], 6)
 c2273 '[convertstrid(1000013)]'
 $ update_portrait('st028_01 4', 'p227', [r(8), light], 6)
 c2273 '[convertstrid(1006975)]'
-hide p51
 $ update_portrait('st028_01 4', 'p227', [r(8), dark], 5)
 $ update_portrait('oc008_01 1', 'p589', [l_entrance(-5), light, flip], 6)
 play sfxvoice "avg_vocal_ai07.ogg"

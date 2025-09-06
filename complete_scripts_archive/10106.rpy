@@ -2,13 +2,13 @@ label avg10106:
 
 play music "ed7561.ogg"
 scene avg_bg_023
-$ update_portrait('st028_01 4', 'p500', [l(8), light, flip], 6)
-$ update_narrator('c5001')
+$ update_portrait('st028_01 4', 'p1167', [l(8), light, flip], 6)
+$ update_narrator('c11671')
 window show
 with fade_in
 play sfx2 "elc_5007.ogg"
-c5001 '[convertstrid(1005872)]'
-$ update_portrait('st028_01 4', 'p500', [l(8), dark, flip], 5)
+c11671 '[convertstrid(1005872)]'
+$ update_portrait('st028_01 4', 'p1167', [l(8), dark, flip], 5)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), r_shake, light], 6)
 play sfxvoice "bcv_oc001_hurt_02.ogg"
 c13 '[convertstrid(1005873)]'
@@ -17,12 +17,12 @@ $ update_portrait('oc002_01 9', 'p2', [r(-3), light], 6)
 play sfxvoice "avg_vocal_ch11.ogg"
 c23 '[convertstrid(1005874)]'
 scene avg_bg_070
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-$ update_narrator('c2271')
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+$ update_narrator('c14491')
 with fade
-c2271 '[convertstrid(1005875)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005876)]'
+c14491 '[convertstrid(1005875)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005876)]'
 scene avg_bg_030
 $ update_portrait('sc038_01 2', 'p45', [r(-1), light], 6)
 $ update_narrator('c453')
@@ -53,35 +53,35 @@ $ update_portrait('oc005_01 8', 'p5', [r(-6), light], 6)
 play sfx2 "other_7022.ogg"
 c53 '[convertstrid(1005883)]'
 scene avg_bg_023
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-$ update_narrator('c2271')
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+$ update_narrator('c14491')
 with fade
 play sfx2 "elc_5007.ogg"
-c2271 '[convertstrid(1005884)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005885)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 5)
+c14491 '[convertstrid(1005884)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005885)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), dark, flip], 5)
 $ update_portrait('oc004_01 3', 'p4', [r(-5), light], 6)
 play sfxvoice "avg_vocal_li10.ogg"
 c43 '[convertstrid(1005886)]'
 $ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005887)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005888)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005889)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005890)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005887)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005888)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005889)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005890)]'
 hide p4
-$ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 5)
+$ update_portrait('st028_01 1', 'p1449', [l(8), dark, flip], 5)
 $ update_portrait('oc003_01 3', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1005891)]'
 $ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005892)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005893)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005892)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005893)]'
 scene avg_bg_012
 $ update_portrait('sc044_01 3', 'p51', [r(-7), light], 6)
 $ update_narrator('c513')
@@ -93,28 +93,28 @@ $ update_narrator('c453')
 with fade
 c453 '[convertstrid(1005895)]'
 scene avg_bg_023
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-$ update_narrator('c2271')
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+$ update_narrator('c14491')
 with fade
-c2271 '[convertstrid(1005896)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 5)
+c14491 '[convertstrid(1005896)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), dark, flip], 5)
 $ update_portrait('oc004_01 3', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1005897)]'
 $ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005898)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005899)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005898)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005899)]'
 hide p4
-$ update_portrait('st028_01 1', 'p227', [l(8), dark, flip], 5)
+$ update_portrait('st028_01 1', 'p1449', [l(8), dark, flip], 5)
 $ update_portrait('oc003_01 9', 'p3', [r_midback(-6), light], 6)
 c33 '[convertstrid(1005900)]'
 $ update_portrait('oc003_01 3', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1005901)]'
 $ update_portrait('oc003_01 3', 'p3', [r(-6), dark], 5)
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
-c2271 '[convertstrid(1005902)]'
-$ update_portrait('st028_01 1', 'p227', [l(8), light, flip], 6)
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
+c14491 '[convertstrid(1005902)]'
+$ update_portrait('st028_01 1', 'p1449', [l(8), light, flip], 6)
 play sfx2 "elc_5001.ogg"
-c2271 '[convertstrid(1005903)]'
+c14491 '[convertstrid(1005903)]'
 return

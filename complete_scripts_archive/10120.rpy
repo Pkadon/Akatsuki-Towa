@@ -12,12 +12,11 @@ c7143 '[convertstrid(1006641)]'
 $ update_portrait('st051_01 3', 'p258', [l(-9), light, flip], 6)
 play sfx2 "other_7023.ogg"
 c2581 '[convertstrid(1006642)]'
-hide p258
+scene avg_bg_033
+$ update_narrator('c0')
+with fade
 play sfx2 "other_7022.ogg"
 c0 '[convertstrid(1123037)]'
-scene avg_bg_033
-$ update_narrator('c6753')
-with fade
 play sfx2 "other_7022.ogg"
 c6753 '[convertstrid(1006643)]'
 play sfx2 "other_7023.ogg"

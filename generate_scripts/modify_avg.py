@@ -178,6 +178,12 @@ def make_edits(script_json, avgID):
 	#元マフィアの隠れ家を再捜索 1/4
 	elif avgID == '12766':
 		script_json['dialogueFrames'][16]['charPos'] = 1
+		
+#Missing portrait
+
+	#中央工房の盗難事件(2) 4/7~ティオ
+	elif avgID == '10088':
+		script_json['dialogueFrames'][52]['character']['charID'] = 2
 
 #Apply corrections to script, found in mobile version files
 
@@ -193,6 +199,11 @@ def make_edits(script_json, avgID):
 	
 #CharFadeOut was set on the wrong line
 
+	#導力停止の異常事故(1) 1/9
+	#Just remove this one, don't see anywhere else around that would make sense to have had one
+	elif avgID == '10104': 
+		script_json['dialogueFrames'][42]['CharFadeOut'] = 0
+	
 	#「絵空の記憶」　8/12
 	elif avgID == '1138':
 		script_json['dialogueFrames'][108]['CharFadeOut'] = 1
@@ -229,6 +240,58 @@ def make_edits(script_json, avgID):
 			('backgrounds', {'id': 38, 'start': 1, 'end': 3}),
 			('bgm', {'id': 132, 'start': 1, 'end': 3})
 		)
+		
+	#異常事故の総合的調査(1) 2/16
+	#The speakers are all jumbled up
+	#This change also assumes that the dialogue is being edited by loadinfo.rpy on startup
+	#Preston should be the Police Chief, and get all dialogue using 私
+	#Hogarth should be the Guardian Force commander, and get all dialogue using 僕
+	elif avgID == '10043':
+		script_json['dialogueFrames'][15]['character']['charID'] = 242
+		script_json['dialogueFrames'][15]['character']['speaker'] = 242
+		script_json['dialogueFrames'][15]['character']['mirror'] = 1
+		script_json['dialogueFrames'][15]['charPos'] = 1
+		
+		script_json['dialogueFrames'][16]['character']['charID'] = 241
+		script_json['dialogueFrames'][16]['character']['speaker'] = 241
+		script_json['dialogueFrames'][16]['character']['mirror'] = 0
+		script_json['dialogueFrames'][16]['charPos'] = 3
+		
+		script_json['dialogueFrames'][17]['character']['charID'] = 242
+		script_json['dialogueFrames'][17]['character']['speaker'] = 242
+		script_json['dialogueFrames'][17]['character']['mirror'] = 1
+		script_json['dialogueFrames'][17]['charPos'] = 1
+		
+	#魔獣に囲まれたバス停 1/4
+	#A Guardian Force portrait is used for a Crossbell Police Officer character
+	#just remove all portraits for that speaker
+	elif avgID == '12246':
+		script_json['dialogueFrames'][1]['character']['charID'] = 0
+		script_json['dialogueFrames'][2]['character']['charID'] = 0
+		script_json['dialogueFrames'][4]['character']['charID'] = 0
+		script_json['dialogueFrames'][5]['character']['charID'] = 0
+		script_json['dialogueFrames'][8]['character']['charID'] = 0
+	
+	#導力停止の異常事故(1) 3/9
+	#Change the roles used for Leitner's dialogue in this scene to use （通信） variants instead
+	elif avgID == '10106':
+		script_json['dialogueFrames'][0]['character']['speaker'] = 1167
+		for index in [3, 4, 12, 13, 15, 16, 17, 18, 20, 21, 24, 26, 27, 30, 31]:
+			script_json['dialogueFrames'][index]['character']['speaker'] = 1449
+	
+	#導力停止の異常事故(2) 8/14
+	#Background does not change early enough, move everything back by 1
+	elif avgID == '10120':
+		insert_schedule(script_json,
+			('backgrounds', {'id': 12, 'start': 1, 'end': 3}),
+			('backgrounds', {'id': 33, 'start': 4, 'end': 9}),
+		)
+		
+	#導力停止の異常事故(2) 14/14
+	#Dudley's darkened portrait overstays its welcome after he should have already left
+	#Add a ClearModle
+	elif avgID == '10122':
+		script_json['dialogueFrames'][13]['isClearModle'] = 1
 
 	#Blue Air 5/7
 	#This one was all kinds of messed up.

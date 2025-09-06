@@ -159,11 +159,14 @@ $ update_portrait('sc040_01 4', 'p47', [r(-9), light], 6)
 c473 '[convertstrid(1005433)]'
 hide p224
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
+$ update_portrait('oc002_01 1', 'p2', [l(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch02.ogg"
 c21 '[convertstrid(1005435)]'
 hide p47
+$ update_portrait('oc002_01 1', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1005436)]'
+hide p2
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('st025_01 4', 'p224', [l(-17), light, flip], 6)
 c2241 '[convertstrid(1005437)]'
