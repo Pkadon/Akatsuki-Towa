@@ -18,3 +18,6 @@ init python:
         if not renpy.predicting():
             global narrator
             narrator = char_dict[char_id]
+
+    def play_music(filename):
+        renpy.music.play(filename)
