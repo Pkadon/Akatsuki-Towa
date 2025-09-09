@@ -172,7 +172,7 @@ Everything was done with the goal of being as accurate as possible, but nothing 
  - **Observed Differences from the original game**:
    - **+** **Obvious** errors and inconsistencies have been carefully corrected. 
       - Most of these can be undone if needed by deleting the block(s) in [modify_avg.py](generate_scripts/modify_avg.py), then regenerating the scripts.
-      - And a typo fix at the bottom of [loadinfo.rpy](Akatsuki_Towa/game/loadinfo.rpy)
+      - And a couple of typo fixes at the bottom of [loadinfo.rpy](Akatsuki_Towa/game/loadinfo.rpy)
    - **+** Portrait animations will now wait for the fade transition to finish before playing.  In the original game it was possible to miss animations, or see them be applied to the wrong character's portrait while the fade played out.
    - **+** If a character without a portrait speaks from the left or right side of the screen while a portrait is being shown in the middle position, the middle portrait will be darkened to indicate that it is not the one speaking.  This was not accounted for in the original game!
    - **+** Similarly, if portraits are being displayed on the left/right sides, and a charPos 0 speaker with no portrait speaks, the left/right portraits will be darkened.
