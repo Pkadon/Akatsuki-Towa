@@ -770,6 +770,12 @@ screen preferences():
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
+                vbox:
+                    xsize 200
+                    style_prefix "check"
+                    label _("Mute")
+                    textbutton _("Typewriter Sound") action ToggleVariable("persistent.mute_typewriter")
+
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
