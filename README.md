@@ -3,7 +3,6 @@
 
  - [Setup](#setup)
  - [Build](#build)
- - [Add Typewriter Sound Effect](#adding-typewriter-sound-effect-back-in)
  - [Accuracy](#accuracy)
  - [Translation](#translation)
    - [Translation File Generator](#translation-file-generation)
@@ -124,16 +123,6 @@ but you could change the order that they are added together from within `4_make_
 Not all generated scripts will be accessible from Akatsuki Towa by default.
 Scenes not accessible from the Scene Select menu have been removed from the default build folder to reduce load time.  The complete set of cutscene script files can be found in [this folder](complete_scripts_archive).  Move any or all of the `.rpy` files you are interested in into your `game/scripts` folder. 
 Then they can be manually played from within Akatsuki Towa by clicking the "Jump" button on the left side of the "Scene Select" menu, and entering the cutscene file's number in the box.
-
----
-## Adding typewriter sound effect back in
-**enabletypewritersound.rpy**
-
-I originally had gotten the "typewriter" sound (that plays while dialogue is being typed out) working here by using an audio recording from the real game.  The audio recording won't be included in this repository, however, so the entire thing has been disabled by default.
-
-But the hooks are all still intact, and if you have a usable audio recording, you can re-enable the typewriter effect:
- 1. Uncomment the second half of `game/enabletypewritersound.rpy`, and if necessary, change the name of the file that will be played to match your recording.
- 2. Place your audio file in the `AudioClip` folder.
 
 ---
 
