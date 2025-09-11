@@ -23,8 +23,6 @@ define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
 
-define config.main_menu_music = "mainsong.ogg"
-
 ## Transitions #################################################################
 ##
 ## These variables set transitions that are used when certain events occur.

@@ -355,8 +355,24 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+### Main Menu Music definitions
+default persistent.mainmenu_music = "mainsong.ogg"
+
+init python:
+    def update_mainmenu_music():
+        if not renpy.predicting():
+            if main_menu:
+                if persistent.mainmenu_music != 'none':
+                    play_music(persistent.mainmenu_music, if_changed=True, fadein=config.main_menu_music_fadein)
+                else:
+                    #Because I'm using the "default" statement, I can't set the variable to None
+                    #If the variable has been set to 'none', that means it's been set to "Mute", so this will stop the music.
+                    renpy.music.stop()
+
 screen main_menu():
 
+    $ update_mainmenu_music()
+                
     ## This ensures that any other menu screen is replaced.
     tag menu
 
@@ -748,12 +764,18 @@ screen preferences():
 
     tag menu
 
+    python:
+        if not renpy.predicting():
+            #This lets the main menu music change while still in the Preference menu, instead of needing to close out of it for the new music to take effect.
+            update_mainmenu_music()
+
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
 
             hbox:
                 box_wrap True
+                spacing 10
 
                 if renpy.variant("pc") or renpy.variant("web"):
 
@@ -771,10 +793,15 @@ screen preferences():
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
                 vbox:
-                    xsize 200
+                    xsize 250
                     style_prefix "check"
-                    label _("Mute")
-                    textbutton _("Typewriter Sound") action ToggleVariable("persistent.mute_typewriter")
+                    label _("Main Menu Music")
+
+                    textbutton _("Akatsuki Main Theme") action SetVariable("persistent.mainmenu_music", "mainsong.ogg")
+                    textbutton _("Ainsel Theme") action SetVariable("persistent.mainmenu_music", "ed9998.ogg")
+                    textbutton _("Remiferia Theme") action SetVariable("persistent.mainmenu_music", "ed9999.ogg")
+                    textbutton _("Miss You") action SetVariable("persistent.mainmenu_music", "ed7569.ogg")
+                    textbutton _("Mute") action SetVariable("persistent.mainmenu_music", 'none')
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -786,6 +813,11 @@ screen preferences():
                 box_wrap True
 
                 vbox:
+
+                    vbox:
+                        xsize 300
+                        style_prefix "check"
+                        textbutton _("Mute Typewriter Sound") action ToggleVariable("persistent.mute_typewriter")
 
                     label _("Text Speed")
 

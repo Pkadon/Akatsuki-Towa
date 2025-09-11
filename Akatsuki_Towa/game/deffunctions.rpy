@@ -19,5 +19,5 @@ init python:
             global narrator
             narrator = char_dict[char_id]
 
-    def play_music(filename):
-        renpy.music.play(filename)
+    def play_music(filename, **qwargs):
+        renpy.music.play(filename, **qwargs)
