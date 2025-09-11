@@ -769,6 +769,9 @@ screen preferences():
             #This lets the main menu music change while still in the Preference menu, instead of needing to close out of it for the new music to take effect.
             update_mainmenu_music()
 
+            #Opening the menu in the middle of a cutscene can make the "typewriter" sound effect get stuck, so this makes sure to stop it.
+            renpy.music.stop(channel='typewriter')
+
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
