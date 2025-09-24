@@ -2,9 +2,14 @@ init python:
 
     def convertstrid(key):
         if key in textdict:
-            return textdict[key]
+            text = textdict[key]
         else:
-            return str(key)
+            text = str(key)
+
+        #Disable OpenType font ligatures.
+        tagged = ('{feature:liga=0}' + text + '{/feature}')
+
+        return tagged
 
     def update_portrait(portrait, alias, atlist, z):
         if renpy.showing(alias):
