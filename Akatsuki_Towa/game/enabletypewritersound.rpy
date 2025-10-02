@@ -4,6 +4,7 @@
 #########################################
 
 default persistent.mute_typewriter = False
+default persistent.typewriter_volume = 1.0
 
 init -1 python:
     typewritersound = "<from 0.04 to 0.12>sys_utility_typewriter.ogg"
@@ -18,7 +19,7 @@ init -1 python:
                 return
 
             if event == "show_done":
-                renpy.music.play(typewritersound, channel='typewriter', loop=True)
+                renpy.music.play(typewritersound, channel='typewriter', loop=True, relative_volume=persistent.typewriter_volume)
             elif event == "slow_done":
                 for ch in typewriter_channels:
                     renpy.music.stop(channel=ch)

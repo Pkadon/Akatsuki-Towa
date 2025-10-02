@@ -818,11 +818,6 @@ screen preferences():
 
                 vbox:
 
-                    vbox:
-                        xsize 300
-                        style_prefix "check"
-                        textbutton _("Mute Typewriter Sound") action ToggleVariable("persistent.mute_typewriter")
-
                     label _("Text Speed")
 
                     bar value Preference("text speed")
@@ -841,13 +836,30 @@ screen preferences():
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("Sound Effect Volume")
 
                         hbox:
                             bar value Preference("sound volume")
 
                             if config.sample_sound:
                                 textbutton _("Test") action Play("sound", config.sample_sound)
+
+                    vbox:
+                        if renpy.variant('touch'): 
+                            spacing 5
+
+                        vbox:
+                            xsize 600
+                            if not persistent.mute_typewriter:
+                                text _("{color=000}{size=23}Typewriter Volume{/size} {size=18}(relative to Sound Effect Volume){/size}{/color}")
+                                hbox:
+                                    style_prefix "slider"
+                                    bar value VariableValue("persistent.typewriter_volume", min=0, max=1.0, style='slider')
+                        vbox:
+                            xsize 600
+                            style_prefix "check"
+                            textbutton _("Mute Typewriter Sound"):
+                                action ToggleVariable("persistent.mute_typewriter")
 
 
                     if config.has_voice:
