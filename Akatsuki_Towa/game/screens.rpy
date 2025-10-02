@@ -770,7 +770,8 @@ screen preferences():
             update_mainmenu_music()
 
             #Opening the menu in the middle of a cutscene can make the "typewriter" sound effect get stuck, so this makes sure to stop it.
-            renpy.music.stop(channel='typewriter')
+            for ch in typewriter_channels:
+                renpy.music.stop(channel=ch)
 
     use game_menu(_("Preferences"), scroll="viewport"):
 

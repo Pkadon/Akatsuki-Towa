@@ -6,15 +6,21 @@
 default persistent.mute_typewriter = False
 
 init -1 python:
-    renpy.music.register_channel("typewriter", "sfx", True)
+    typewritersound = "<from 0.04 to 0.12>sys_utility_typewriter.ogg"
+    typewriter_channels = ["typewriter"]
+
+    for ch in typewriter_channels:
+        renpy.music.register_channel(ch, "sfx", True)
+
     def typewriter(event, interact=True, **kwargs):
         if not persistent.mute_typewriter:
             if not interact:
                 return
 
             if event == "show_done":
-                renpy.music.play("<from 0.055 to 0.110>sys_utility_typewriter.ogg", channel='typewriter', loop=True)
+                renpy.music.play(typewritersound, channel='typewriter', loop=True)
             elif event == "slow_done":
-                renpy.music.stop(channel='typewriter')
+                for ch in typewriter_channels:
+                    renpy.music.stop(channel=ch)
 ####################################################################################################
 return
