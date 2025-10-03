@@ -109,7 +109,7 @@ image splashscreen:
 
 ###Splash Screen Start:######################################
 label splashscreen:
-    play music "ed9999.ogg"
+    $ play_music("ed9999.ogg")
     scene splashscreen
     show splash_akatsukilogo:
         anchor splash_logo_anchor
