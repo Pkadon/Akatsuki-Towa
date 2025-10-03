@@ -11,7 +11,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2102039)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2102040)]'
-play music "ed7202.ogg"
+$ play_music("ed7202.ogg")
 scene avg_bg_036
 $ update_narrator('c13')
 with fade
@@ -65,7 +65,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 with fade
 c13 '[convertstrid(2102058)]'
-play music "ed7202.ogg"
+$ play_music("ed7202.ogg")
 scene avg_bg_036
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -82,7 +82,7 @@ c581 '[convertstrid(2102062)]'
 $ update_portrait('sc051_01 4', 'p58', [l(-32), dark, flip], 5)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2102063)]'
-play music "ED6516.ogg"
+$ play_music("ED6516.ogg")
 $ update_portrait('oc001_01 20', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(2102064)]'
 $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)

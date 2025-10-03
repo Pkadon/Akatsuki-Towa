@@ -7,7 +7,7 @@ window show
 with fade_in
 play sfx2 "other_7062.ogg"
 c0 '[convertstrid(2108464)]'
-play music "ED6103.ogg"
+$ play_music("ED6103.ogg")
 c0 '[convertstrid(2108465)]'
 $ update_portrait('st041_01 1', 'p240', [r(-1), light], 6)
 c2403 '[convertstrid(2108466)]'
@@ -133,7 +133,7 @@ $ update_portrait('sc008_01 4', 'p16', [r(-18), dark], 5)
 c26841 '[convertstrid(2108505)]' with shake
 $ update_portrait('uc001_01 2', 'p689', [l(-2), light, flip], 6)
 c6891 '[convertstrid(2108506)]'
-play music "ed7116.ogg"
+$ play_music("ed7116.ogg")
 $ update_portrait('uc001_01 2', 'p689', [l(-2), dark, flip], 5)
 $ update_portrait('sc008_01 4', 'p16', [r(-18), light], 6)
 c163 '[convertstrid(2108507)]'
@@ -299,7 +299,7 @@ $ update_portrait('sc007_01 2', 'p15', [l(-17), light, flip], 6)
 c151 '[convertstrid(2108565)]'
 hide p15
 c0 '[convertstrid(2108566)]'
-play music "ed7506.ogg"
+$ play_music("ed7506.ogg")
 play sfx2 "other_7062.ogg"
 c26791 '[convertstrid(2108567)]' (what_size=(gui.text_size*1.2)) with shake
 $ update_portrait('st041_01 5', 'p240', [l(-1), light, flip], 6)

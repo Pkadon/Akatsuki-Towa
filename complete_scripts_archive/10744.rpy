@@ -8,7 +8,7 @@ with fade_in
 c0 '[convertstrid(1173157)]'
 c0 '[convertstrid(1173158)]'
 c0 '[convertstrid(1173159)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_003
 show memoryoverlay zorder 2
 $ update_portrait('oc004_01 2', 'p4', [l(-5), light, flip], 6)
@@ -48,7 +48,7 @@ c41 '[convertstrid(1173169)]'
 $ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('oc003_01 1', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1173170)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 $ update_portrait('oc003_01 1', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1173171)]'

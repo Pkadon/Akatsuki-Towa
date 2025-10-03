@@ -1,6 +1,6 @@
 label avg127123:
 
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 scene avg_bg_211
 $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
 $ update_narrator('c21')
@@ -87,7 +87,7 @@ c23 '[convertstrid(1180180)]'
 hide p3
 hide p2
 c0 '[convertstrid(1180181)]'
-play music "ed7203.ogg"
+$ play_music("ed7203.ogg")
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1180182)]'
 $ update_portrait('oc003_01 8', 'p3', [l(-6), dark, flip], 5)

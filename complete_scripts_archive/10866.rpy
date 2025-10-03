@@ -1,6 +1,6 @@
 label avg10866:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_049
 $ update_portrait('oce04_01 16', 'p2668', [r(-5), light], 6)
 $ update_narrator('c26683')
@@ -56,7 +56,7 @@ $ update_portrait('oce04_01 1', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(1191525)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 c26631 '[convertstrid(1191526)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 hide p2668
 $ update_narrator('c14401')
 with fade
@@ -104,7 +104,7 @@ $ update_portrait('st040_01 1', 'p239', [r(-19), dark], 5)
 c14401 '[convertstrid(1191546)]'
 c26631 '[convertstrid(1191547)]'
 c26631 '[convertstrid(1191548)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 c14401 '[convertstrid(1191549)]'
 hide p239
 $ update_portrait('oce02_01 1', 'p2666', [r(-3), light], 6)
@@ -205,7 +205,7 @@ with fade
 c14401 '[convertstrid(1191591)]'
 c26611 '[convertstrid(1191592)]'
 c26631 '[convertstrid(1191593)]'
-play music "mainsong.ogg"
+$ play_music("mainsong.ogg")
 scene avg_bg_058
 $ update_narrator('c14401')
 with fade

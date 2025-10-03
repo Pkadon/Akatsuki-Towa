@@ -10,7 +10,7 @@ c0 '[convertstrid(1186076)]'
 c0 '[convertstrid(1186077)]'
 c0 '[convertstrid(1186078)]'
 c0 '[convertstrid(1186079)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_074
 $ update_narrator('c0')
 with fade
@@ -93,7 +93,7 @@ c33 '[convertstrid(1186113)]'
 $ update_portrait('oc003_01 17', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1186114)]'
-play music "ED6301.ogg"
+$ play_music("ED6301.ogg")
 scene avg_bg_218
 $ update_narrator('c0')
 with fade

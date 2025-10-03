@@ -9,7 +9,7 @@ c0 '[convertstrid(1179922)]'
 c0 '[convertstrid(1179923)]'
 c0 '[convertstrid(1179924)]'
 c0 '[convertstrid(1179925)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_003
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -264,7 +264,7 @@ c53 '[convertstrid(1180006)]'
 $ update_portrait('oc005_01 22', 'p5', [r(-6), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1180007)]'
-play music "ed7544.ogg"
+$ play_music("ed7544.ogg")
 hide p5
 $ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 5)
 c14633 '[convertstrid(1180008)]' with shake

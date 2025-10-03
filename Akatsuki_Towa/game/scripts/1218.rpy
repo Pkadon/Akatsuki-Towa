@@ -9,7 +9,7 @@ with fade_in
 c13 '[convertstrid(2109888)]'
 $ update_portrait('oc001_01 14', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(2109889)]'
-play music "ed7522.ogg"
+$ play_music("ed7522.ogg")
 $ update_portrait('oc001_01 14', 'p1', [r(-2), dark], 5)
 c5001 '[convertstrid(2109890)]'
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
@@ -67,7 +67,7 @@ with fade
 c0 '[convertstrid(2109908)]'
 stop music
 c0 '[convertstrid(2109909)]'
-play music "ed7565.ogg"
+$ play_music("ed7565.ogg")
 scene avg_bg_024
 $ update_narrator('c26951')
 with fade
@@ -115,7 +115,7 @@ $ update_portrait('oca04_01 23', 'p2697', [r(-5), light], 6)
 c26973 '[convertstrid(2109926)]'
 $ update_portrait('oca04_01 23', 'p2697', [r(-5), dark], 5)
 c25101 '[convertstrid(2109927)]'
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 $ update_portrait('oca04_01 12', 'p2697', [r(-5), r_shake, light], 6)
 c26973 '[convertstrid(2109928)]'
 $ update_portrait('oca04_01 13', 'p2697', [r(-5), light], 6)
@@ -228,7 +228,7 @@ c11721 '[convertstrid(2109961)]'
 $ update_portrait('st039_01 3', 'p1172', [l(-6), dark, flip], 5)
 $ update_portrait('st062_01 2', 'p1308', [r_midback(-16), light], 6)
 c13083 '[convertstrid(2109962)]'
-play music "ed7124.ogg"
+$ play_music("ed7124.ogg")
 scene avg_bg_048
 show memoryoverlay zorder 2
 $ update_narrator('c41')

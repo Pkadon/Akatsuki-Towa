@@ -1,6 +1,6 @@
 label avg12465:
 
-play music "ed7162.ogg"
+$ play_music("ed7162.ogg")
 scene avg_bg_062
 $ update_narrator('c0')
 window show
@@ -59,7 +59,7 @@ c2381 '[convertstrid(1143890)]'
 $ update_portrait('st039_01 2', 'p238', [l(-6), dark, flip], 5)
 $ update_portrait('st037_01 2', 'p236', [r(-10), light], 6)
 c2363 '[convertstrid(1143891)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 scene avg_bg_048
 show memoryoverlay zorder 2
 $ update_narrator('c43')
@@ -88,7 +88,7 @@ $ update_narrator('c43')
 with fade
 c43 '[convertstrid(1143900)]'
 c43 '[convertstrid(1143901)]'
-play music "ed7162.ogg"
+$ play_music("ed7162.ogg")
 scene avg_bg_078
 $ update_portrait('st039_01 2', 'p238', [l(-6), light, flip], 6)
 $ update_narrator('c2381')

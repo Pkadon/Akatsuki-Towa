@@ -1,6 +1,6 @@
 label avg1234:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_014
 $ update_portrait('oca00_01 1', 'p2732', [l(-2), light, flip], 6)
 $ update_narrator('c27321')
@@ -111,7 +111,7 @@ c453 '[convertstrid(2111975)]'
 $ update_portrait('sc038_01 2', 'p45', [r(-1), dark], 5)
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
 c481 '[convertstrid(2111976)]'
-play music "ed7160.ogg"
+$ play_music("ed7160.ogg")
 hide p48
 c11541 '[convertstrid(2111977)]'
 hide p45
@@ -302,7 +302,7 @@ c481 '[convertstrid(2112050)]'
 $ update_portrait('sc041_01 4', 'p48', [l(-9), dark, flip], 5)
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 6)
 c453 '[convertstrid(2112051)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_030
 $ update_narrator('c461')
 with fade
@@ -369,7 +369,7 @@ c473 '[convertstrid(2112068)]'
 $ update_portrait('sc040_01 2', 'p47', [r(-9), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
 c27311 '[convertstrid(2112069)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
 c27311 '[convertstrid(2112070)]'
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
@@ -399,7 +399,7 @@ stop music
 hide p47
 $ update_portrait('sc038_01 1', 'p45', [r(-1), light], 6)
 c453 '[convertstrid(2112080)]'
-play music "ed6567.ogg"
+$ play_music("ed6567.ogg")
 $ update_portrait('sc038_01 1', 'p45', [r(-1), dark], 5)
 $ update_portrait('oca00_01 1', 'p2731', [l(-2), light, flip], 6)
 c27311 '[convertstrid(2112081)]'

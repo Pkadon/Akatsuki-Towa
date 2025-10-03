@@ -8,7 +8,7 @@ with fade_in
 c0 '[convertstrid(1130001)]'
 c0 '[convertstrid(1130002)]'
 c0 '[convertstrid(1130003)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 play sfx2 "other_7042.ogg"
 c0 '[convertstrid(1130004)]'
 scene avg_bg_012
@@ -163,7 +163,7 @@ $ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1130044)]'
 $ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1130045)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('st030_01 1', 'p229', [l(-8), dark, flip], 5)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), r_shake, light], 6)
 play sfxvoice "avg_vocal_na22.ogg"
@@ -351,7 +351,7 @@ c2293 '[convertstrid(1130103)]'
 hide p229
 $ update_portrait('sc046_01 4', 'p53', [r(-5), light], 6)
 c533 '[convertstrid(1130104)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 hide p230
 hide p53
 $ update_portrait('oc004_01 9', 'p4', [l(-5), light, flip], 6)

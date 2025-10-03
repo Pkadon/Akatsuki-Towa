@@ -8,7 +8,7 @@ with fade_in
 c0 '[convertstrid(1131524)]'
 play sfx2 "other_7017.ogg"
 c0 '[convertstrid(1131525)]'
-play music "ED6518.ogg"
+$ play_music("ED6518.ogg")
 scene avg_bg_003
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')

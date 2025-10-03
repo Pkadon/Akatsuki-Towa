@@ -9,7 +9,7 @@ play sfx2 "other_7060.ogg"
 c0 '[convertstrid(1174603)]'
 $ update_portrait('oc001_01 4', 'p1', [r_entrance(-2), light], 6)
 c13 '[convertstrid(1174604)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c14521 '[convertstrid(1174605)]' with shake
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)

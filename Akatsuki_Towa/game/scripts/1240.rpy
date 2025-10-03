@@ -1,6 +1,6 @@
 label avg1240:
 
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_050
 $ update_narrator('c0')
 window show
@@ -61,7 +61,7 @@ c0 '[convertstrid(2112806)]'
 $ update_portrait('oce04_01 4', 'p2668', [r(-5), light], 6)
 play sfx2 "other_7044.ogg"
 c26683 '[convertstrid(2112807)]'
-play music "ED6107.ogg"
+$ play_music("ED6107.ogg")
 scene avg_bg_048
 $ update_portrait('st039_01 1', 'p238', [l(-6), light, flip], 6)
 $ update_narrator('c2381')
@@ -155,7 +155,7 @@ c26683 '[convertstrid(2112837)]'
 $ update_portrait('oce04_01 1', 'p2668', [r(-5), dark], 5)
 $ update_portrait('st039_01 4', 'p238', [l(-6), light, flip], 6)
 c2381 '[convertstrid(2112838)]'
-play music "ed7116.ogg"
+$ play_music("ed7116.ogg")
 $ update_portrait('st039_01 4', 'p238', [l(-6), dark, flip], 5)
 $ update_portrait('oce04_01 16', 'p2668', [r(-5), light], 6)
 c26683 '[convertstrid(2112839)]' with shake
@@ -239,7 +239,7 @@ $ update_portrait('oce04_01 2', 'p2668', [mid(-5), light], 6)
 $ update_narrator('c26683')
 with fade
 c26683 '[convertstrid(2112865)]'
-play music "ed7124.ogg"
+$ play_music("ed7124.ogg")
 scene avg_bg_010
 show memoryoverlay zorder 2
 $ update_narrator('c5001')
@@ -282,7 +282,7 @@ $ update_portrait('oce04_01 2', 'p2668', [mid(-5), light], 6)
 c26683 '[convertstrid(2112879)]'
 $ update_portrait('oce04_01 1', 'p2668', [mid(-5), light], 6)
 c26683 '[convertstrid(2112880)]'
-play music "ed7513.ogg"
+$ play_music("ed7513.ogg")
 $ update_portrait('oce04_01 1', 'p2668', [mid(-5), light], 6)
 c26683 '[convertstrid(2112881)]'
 scene avg_bg_070

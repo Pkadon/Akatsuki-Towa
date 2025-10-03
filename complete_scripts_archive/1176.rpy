@@ -1,6 +1,6 @@
 label avg1176:
 
-play music "ed7100.ogg"
+$ play_music("ed7100.ogg")
 scene avg_bg_043
 $ update_portrait('oc000_01 1', 'p2539', [l(-2), light, flip], 6)
 $ update_narrator('c25391')
@@ -10,7 +10,7 @@ c25391 '[convertstrid(2105834)]'
 $ update_portrait('oc000_01 1', 'p2539', [l(-2), dark, flip], 5)
 c5123 '[convertstrid(2105835)]'
 c5113 '[convertstrid(2105836)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('oc000_01 1', 'p2539', [l(-2), light, flip], 6)
 play sfx2 "other_7079.ogg"
 c25391 '[convertstrid(2105837)]'
@@ -23,7 +23,7 @@ $ update_portrait('oc000_01 1', 'p2539', [l(-2), dark, flip], 5)
 c5113 '[convertstrid(2105840)]'
 play sfx2 "other_7085.ogg"
 c5123 '[convertstrid(2105841)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 hide p2539
 $ update_narrator('c5111')
 with fade
@@ -58,7 +58,7 @@ c471 '[convertstrid(2105853)]'
 hide p47
 $ update_portrait('oc002_01 8', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[convertstrid(2105854)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 scene avg_bg_070
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -126,7 +126,7 @@ hide p47
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 9', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[convertstrid(2105874)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 hide p2
 hide p1
 $ update_portrait('oc000_01 1', 'p2539', [r(-2), light], 6)
@@ -150,7 +150,7 @@ $ update_portrait('sc040_01 1', 'p47', [l(-9), dark, flip], 5)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), r_shake, light], 6)
 play sfx2 "fight_6024.ogg"
 c13 '[convertstrid(2105880)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p47
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc000_01 1', 'p2539', [l(-2), light, flip], 6)
@@ -218,7 +218,7 @@ $ update_portrait('sc040_01 4', 'p47', [l(-9), dark, flip], 5)
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 6)
 play sfx2 "fight_6024.ogg"
 c13 '[convertstrid(2105900)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 hide p47
 hide p1
 $ update_portrait('sc040_01 4', 'p47', [l(-9), light, flip], 6)

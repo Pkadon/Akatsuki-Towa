@@ -1,6 +1,6 @@
 label avg10567:
 
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 scene placeholderbackground
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -241,7 +241,7 @@ $ update_portrait('oc001_01 13', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(1154496)]'
 $ update_portrait('oc001_01 13', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1154497)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 $ update_portrait('oc001_01 13', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_01 6', 'p8', [l(-5), l_shake, light, flip], 6)
 c81 '[convertstrid(1154498)]'
@@ -294,7 +294,7 @@ stop music
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 6)
 play sfx2 "other_7007.ogg"
 c13 '[convertstrid(1154514)]' with shake
-play music "ed7580.ogg"
+$ play_music("ed7580.ogg")
 scene avg_bg_052
 show memoryoverlay zorder 2
 $ update_narrator('c10491')
@@ -309,7 +309,7 @@ c10491 '[convertstrid(1154521)]'
 c5003 '[convertstrid(1154522)]'
 c5003 '[convertstrid(1154523)]'
 c5003 '[convertstrid(1154524)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 scene placeholderbackground
 $ update_narrator('c41')
 $ update_portrait('oc004_01 16', 'p4', [l(-5), light, flip], 6)
@@ -364,7 +364,7 @@ c12113 '[convertstrid(1154538)]' with shake
 hide p1211
 $ update_portrait('oc003_01 12', 'p3', [r(-6), r_shake, light], 6)
 c33 '[convertstrid(1154539)]'
-play music "ed7571.ogg"
+$ play_music("ed7571.ogg")
 hide p8
 $ update_portrait('oc003_01 12', 'p3', [r(-6), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)

@@ -11,7 +11,7 @@ $ update_portrait('oc003_01 4', 'p3', [l(-6), dark, flip], 5)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 play sfxvoice "avg_vocal_na10_b.ogg"
 c13 '[convertstrid(1160422)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 hide p3
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 3', 'p2', [l_exit(-3), light, flip], 6)
@@ -109,7 +109,7 @@ c13 '[convertstrid(1160450)]'
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1160451)]'
-play music "ED6202.ogg"
+$ play_music("ED6202.ogg")
 hide p4
 $ update_portrait('st061_01 5', 'p1303', [l_entrance(-2), light, flip], 6)
 c13031 '[convertstrid(1160452)]'
@@ -197,7 +197,7 @@ $ update_portrait('st061_01 1', 'p1303', [l(-2), light, flip], 6)
 c13031 '[convertstrid(1160477)]'
 $ update_portrait('st061_01 5', 'p1303', [l(-2), light, flip], 6)
 c13031 '[convertstrid(1160478)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('st061_01 4', 'p1303', [l(-2), light, flip], 6)
 c13031 '[convertstrid(1160479)]'
 hide p4
@@ -301,7 +301,7 @@ c13033 '[convertstrid(1160509)]'
 $ update_portrait('st061_01 1', 'p1303', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1160510)]'
-play music "ED6202.ogg"
+$ play_music("ED6202.ogg")
 hide p2
 hide p1303
 c0 '[convertstrid(1160511)]'

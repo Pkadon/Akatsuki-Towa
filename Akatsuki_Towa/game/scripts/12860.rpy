@@ -1,6 +1,6 @@
 label avg12860:
 
-play music "ed6323.ogg"
+$ play_music("ed6323.ogg")
 scene avg_bg_214
 $ update_narrator('c15321')
 window show
@@ -73,7 +73,7 @@ hide p1304
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1188942)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 c0 '[convertstrid(1188943)]'
 play sfx2 "other_7079.ogg"
 c26091 '[convertstrid(1188944)]' with shake

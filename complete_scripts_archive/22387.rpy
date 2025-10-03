@@ -1,6 +1,6 @@
 label avg22387:
 
-play music "ed7201.ogg"
+$ play_music("ed7201.ogg")
 scene placeholderbackground
 $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 6)
 $ update_narrator('c13')
@@ -14,7 +14,7 @@ hide p2
 $ update_portrait('oc003_01 8', 'p3', [mid(-6), light], 6)
 play sfx2 "common_wheelwrong.ogg"
 c33 '[convertstrid(1134042)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p3
 play sfx2 "other_7080.ogg"
 c20163 '[convertstrid(1134043)]'

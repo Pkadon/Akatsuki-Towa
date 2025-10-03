@@ -6,7 +6,7 @@ $ update_narrator('c0')
 window show
 with fade_in
 c0 '[convertstrid(1189644)]'
-play music "ED6516.ogg"
+$ play_music("ED6516.ogg")
 c5001 '[convertstrid(1189645)]'
 c5001 '[convertstrid(1189646)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
@@ -216,7 +216,7 @@ $ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc003_01 12', 'p3', [l(-6), light, flip], 6)
 play sfx2 "other_7040.ogg"
 c31 '[convertstrid(1189716)]'
-play music "ed7551.ogg"
+$ play_music("ed7551.ogg")
 hide p3
 play sfx2 "fight_6002.ogg"
 c26231 '[convertstrid(1189717)]' with shake

@@ -32,7 +32,7 @@ hide p1
 c0 '[convertstrid(1183945)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1183946)]'
-play music "ed7513.ogg"
+$ play_music("ed7513.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1183947)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)

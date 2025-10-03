@@ -9,7 +9,7 @@ c0 '[convertstrid(1172745)]'
 c0 '[convertstrid(1172746)]'
 c0 '[convertstrid(1172747)]'
 c0 '[convertstrid(1172748)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_038
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')

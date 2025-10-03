@@ -1,6 +1,6 @@
 label avg10202:
 
-play music "ed7300.ogg"
+$ play_music("ed7300.ogg")
 scene avg_bg_071
 $ update_narrator('c13')
 window show
@@ -35,7 +35,7 @@ play sfx2 "elc_5005.ogg"
 c6651 '[convertstrid(1004302)]'
 play sfx2 "elc_5005.ogg"
 c6651 '[convertstrid(1004303)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 6)
 play sfxvoice "avg_vocal_na02.ogg"
 c13 '[convertstrid(1004304)]'
@@ -80,7 +80,7 @@ hide p667
 $ update_portrait('sc039_01 3', 'p668', [r(-13), light], 6)
 play sfx2 "fight_6031.ogg"
 c6683 '[convertstrid(1004314)]'
-play music "ed7527.ogg"
+$ play_music("ed7527.ogg")
 $ update_portrait('sc039_01 3', 'p668', [r(-13), dark], 5)
 play sfx2 "elc_5005.ogg"
 c6651 '[convertstrid(1004315)]'

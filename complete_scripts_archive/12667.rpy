@@ -1,6 +1,6 @@
 label avg12667:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_015
 $ update_narrator('c0')
 window show
@@ -18,7 +18,7 @@ $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 play sfx2 "fight_6021.ogg"
 c13 '[convertstrid(1166649)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 9', 'p1', [r_midback(-2), light], 6)
 play sfx2 "other_7087.ogg"
 c13 '[convertstrid(1166650)]' (what_size=(gui.text_size*1.2))

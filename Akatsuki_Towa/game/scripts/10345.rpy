@@ -15,7 +15,7 @@ c2361 '[convertstrid(1131208)]'
 hide p236
 play sfx2 "other_7045.ogg"
 c0 '[convertstrid(1131209)]'
-play music "ed7544.ogg"
+$ play_music("ed7544.ogg")
 $ update_portrait('oc002_01 9', 'p2', [l_entrance(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch06.ogg"
 c21 '[convertstrid(1131210)]'

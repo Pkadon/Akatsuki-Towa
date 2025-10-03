@@ -1,6 +1,6 @@
 label avg12480:
 
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 scene placeholderbackground
 $ update_narrator('c61')
 $ update_portrait('oc006_01 3', 'p6', [l(-5), light, flip], 6)
@@ -28,7 +28,7 @@ stop music
 c0 '[convertstrid(1144127)]'
 play sfx2 "fight_6016.ogg"
 c0 '[convertstrid(1144128)]'
-play music "ed7304.ogg"
+$ play_music("ed7304.ogg")
 $ update_portrait('oc006_01 2', 'p6', [l(-5), l_shake, light, flip], 6)
 play sfx2 "other_7057.ogg"
 c61 '[convertstrid(1144129)]'
@@ -88,7 +88,7 @@ c61 '[convertstrid(1144150)]'
 $ update_portrait('oc006_01 4', 'p6', [l(-5), dark, flip], 5)
 $ update_portrait('sc044_01 1', 'p1135', [r(-7), light], 6)
 c11353 '[convertstrid(1144151)]'
-play music "ed7202.ogg"
+$ play_music("ed7202.ogg")
 $ update_portrait('sc044_01 1', 'p1135', [r(-7), dark], 5)
 $ update_portrait('oc006_01 2', 'p6', [l(-5), light, flip], 6)
 c61 '[convertstrid(1144152)]'

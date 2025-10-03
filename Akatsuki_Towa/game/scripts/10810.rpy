@@ -1,6 +1,6 @@
 label avg10810:
 
-play music "ed7513.ogg"
+$ play_music("ed7513.ogg")
 scene avg_bg_504
 show memoryoverlay zorder 2
 $ update_narrator('c15011')

@@ -1,6 +1,6 @@
 label avg14015:
 
-play music "ED6200.ogg"
+$ play_music("ED6200.ogg")
 scene avg_bg_010
 $ update_narrator('c0')
 window show
@@ -77,7 +77,7 @@ $ update_narrator('c20161')
 with fade
 play sfx2 "other_7079.ogg"
 c20161 '[convertstrid(1202346)]' (what_size=(gui.text_size*1.2))
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 3', 'p1', [l(-2), light, flip], 6)
 c11 '[convertstrid(1202347)]'
 hide p1

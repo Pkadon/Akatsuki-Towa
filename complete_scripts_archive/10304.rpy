@@ -7,7 +7,7 @@ window show
 with fade_in
 play sfx2 "other_7020.ogg"
 c0 '[convertstrid(1130147)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_047
 $ update_narrator('c33')
 with fade

@@ -8,7 +8,7 @@ with fade_in
 c0 '[convertstrid(1186161)]'
 c0 '[convertstrid(1186162)]'
 c0 '[convertstrid(1186163)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 scene avg_bg_050
 $ update_narrator('c13')
 with fade
@@ -87,7 +87,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1186190)]'
 hide p1
 c0 '[convertstrid(1186191)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 20', 'p1', [r_midback(-2), light], 6)
 c13 '[convertstrid(1186192)]'
 scene avg_bg_074

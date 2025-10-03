@@ -1,6 +1,6 @@
 label avg10013:
 
-play music "ED6517.ogg"
+$ play_music("ED6517.ogg")
 scene avg_bg_011
 $ update_portrait('sc013_01 4', 'p21', [r(-12), light], 6)
 $ update_narrator('c213')
@@ -54,7 +54,7 @@ $ update_portrait('uc002_03 1', 'p518', [l(-23), dark, flip], 5)
 $ update_portrait('sc013_01 1', 'p21', [r(-12), light], 6)
 play sfx2 "other_7004.ogg"
 c213 '[convertstrid(1001218)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 hide p518
 hide p21
 $ update_narrator('c31')
@@ -238,7 +238,7 @@ c13 '[convertstrid(1001278)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1001279)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p1
 $ update_portrait('oc003_01 8', 'p3', [l(-6), dark, flip], 5)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 6)
@@ -288,7 +288,7 @@ $ update_portrait('uc002_03 3', 'p519', [l_exit(-23), light, flip], 6)
 play sfx2 "other_7085.ogg"
 c5191 '[convertstrid(1001290)]'
 hide p519
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1001291)]'
 $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)

@@ -1,6 +1,6 @@
 label avg10723:
 
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 scene avg_bg_023
 show memoryoverlay zorder 2
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
@@ -24,7 +24,7 @@ c0 '[convertstrid(1171514)]'
 c0 '[convertstrid(1171515)]'
 c0 '[convertstrid(1171516)]'
 c0 '[convertstrid(1171517)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_061
 $ update_portrait('oc005_01 1', 'p5', [l(-6), light, flip], 6)
 $ update_narrator('c51')
@@ -49,7 +49,7 @@ c51 '[convertstrid(1171524)]'
 $ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1171525)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 hide p5
 hide p2
 play sfx2 "other_7004.ogg"

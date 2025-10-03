@@ -1,6 +1,6 @@
 label avg20041:
 
-play music "ed6570.ogg"
+$ play_music("ed6570.ogg")
 scene placeholderbackground
 $ update_portrait('oc001_01 3', 'p1', [l(-2), light, flip], 6)
 $ update_narrator('c11')
@@ -78,7 +78,7 @@ c11 '[convertstrid(1002450)]'
 hide p1
 $ update_portrait('oc003_01 7', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1002451)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc003_01 7', 'p3', [l(-6), dark, flip], 5)
 $ update_portrait('sc027_01 3', 'p35', [r(-10), light], 6)
 c353 '[convertstrid(1002452)]' (what_size=(gui.text_size*1.3)) with shake

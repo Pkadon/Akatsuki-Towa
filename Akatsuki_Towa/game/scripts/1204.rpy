@@ -7,7 +7,7 @@ window show
 with fade_in
 play sfx2 "other_7062.ogg"
 c0 '[convertstrid(2108307)]'
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 c0 '[convertstrid(2108308)]'
 $ update_portrait('sc032_01 1', 'p40', [l(-17), l_shake, light, flip], 6)
 c401 '[convertstrid(2108309)]'
@@ -34,7 +34,7 @@ c291 '[convertstrid(2108315)]'
 $ update_portrait('sc021_01 4', 'p29', [l(-17), dark, flip], 5)
 $ update_portrait('sc031_01 2', 'p39', [r(-14), r_shake, light], 6)
 c393 '[convertstrid(2108316)]'
-play music "ED6200.ogg"
+$ play_music("ED6200.ogg")
 scene avg_bg_036
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -115,7 +115,7 @@ c393 '[convertstrid(2108345)]'
 $ update_portrait('sc031_01 1', 'p39', [r(-14), dark], 5)
 $ update_portrait('sc021_01 5', 'p29', [l(-17), light, flip], 6)
 c291 '[convertstrid(2108346)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('sc021_01 5', 'p29', [l(-17), dark, flip], 5)
 $ update_portrait('sc031_01 1', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108347)]'
@@ -132,7 +132,7 @@ play sfx2 "other_7079.ogg"
 c0 '[convertstrid(2108351)]'
 $ update_portrait('sc021_01 2', 'p29', [l(-17), light, flip], 6)
 c291 '[convertstrid(2108352)]'
-play music "ED6200.ogg"
+$ play_music("ED6200.ogg")
 $ update_portrait('sc021_01 2', 'p29', [l(-17), dark, flip], 5)
 $ update_portrait('sc031_01 3', 'p39', [r_entrance(-14), light], 6)
 c393 '[convertstrid(2108353)]'
@@ -152,7 +152,7 @@ scene avg_bg_034
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2108358)]'
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108359)]' with shake
 $ update_portrait('sc031_01 3', 'p39', [r(-14), dark], 5)
@@ -161,7 +161,7 @@ c291 '[convertstrid(2108360)]'
 $ update_portrait('sc021_01 4', 'p29', [l(-17), dark, flip], 5)
 $ update_portrait('sc031_01 2', 'p39', [r(-14), r_shake, light], 6)
 c393 '[convertstrid(2108361)]'
-play music "ED6200.ogg"
+$ play_music("ED6200.ogg")
 scene avg_bg_010
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -250,7 +250,7 @@ $ update_portrait('sc021_01 1', 'p29', [l(-17), light, flip], 6)
 c291 '[convertstrid(2108391)]'
 $ update_portrait('sc021_01 1', 'p29', [l(-17), light, flip], 6)
 c291 '[convertstrid(2108392)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('sc021_01 1', 'p29', [l(-17), dark, flip], 5)
 $ update_portrait('sc031_01 4', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108393)]'
@@ -267,7 +267,7 @@ play sfx2 "fight_6023.ogg"
 c0 '[convertstrid(2108396)]'
 play sfx2 "fight_6023.ogg"
 c0 '[convertstrid(2108397)]'
-play music "ED6200.ogg"
+$ play_music("ED6200.ogg")
 scene avg_bg_010
 show memoryoverlay zorder 2
 $ update_narrator('c393')
@@ -287,7 +287,7 @@ scene avg_bg_034
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2108402)]'
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108403)]' with shake
 $ update_portrait('sc031_01 3', 'p39', [r(-14), dark], 5)
@@ -296,7 +296,7 @@ c291 '[convertstrid(2108404)]'
 $ update_portrait('sc021_01 4', 'p29', [l(-17), dark, flip], 5)
 $ update_portrait('sc031_01 2', 'p39', [r(-14), r_shake, light], 6)
 c393 '[convertstrid(2108405)]'
-play music "ED6200.ogg"
+$ play_music("ED6200.ogg")
 scene avg_bg_079
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -360,7 +360,7 @@ play sfx2 "fight_6011.ogg"
 c0 '[convertstrid(2108425)]'
 play sfx2 "other_7080.ogg"
 c26821 '[convertstrid(2108426)]' with shake
-play music "ED6512.ogg"
+$ play_music("ED6512.ogg")
 $ update_portrait('sc031_01 2', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108427)]'
 $ update_portrait('sc031_01 2', 'p39', [r(-14), dark], 5)
@@ -392,7 +392,7 @@ $ update_portrait('sc031_01 3', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108436)]'
 $ update_portrait('sc031_01 2', 'p39', [r(-14), light], 6)
 c393 '[convertstrid(2108437)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 $ update_portrait('sc031_01 2', 'p39', [r(-14), dark], 5)
 $ update_portrait('sc021_01 1', 'p29', [l(-17), light, flip], 6)
 c291 '[convertstrid(2108438)]'
@@ -460,7 +460,7 @@ c401 '[convertstrid(2108458)]'
 $ update_portrait('sc032_01 2', 'p40', [l(-17), dark, flip], 5)
 $ update_portrait('sc030_01 2', 'p38', [r(-12), light], 6)
 c383 '[convertstrid(2108459)]'
-play music "ed6565.ogg"
+$ play_music("ed6565.ogg")
 hide p40
 $ update_portrait('sc030_01 2', 'p38', [r(-12), dark], 5)
 $ update_portrait('st050_01 2', 'p257', [l(-11), l_shake, light, flip], 6)

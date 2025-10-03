@@ -1,6 +1,6 @@
 label avg1245:
 
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 scene avg_bg_077
 $ update_narrator('c0')
 window show
@@ -40,7 +40,7 @@ c12531 '[convertstrid(2113269)]'
 hide p1254
 $ update_portrait('st059_01 4', 'p1253', [l(-14), dark, flip], 5)
 c26663 '[convertstrid(2113270)]'
-play music "ED6518.ogg"
+$ play_music("ED6518.ogg")
 scene avg_bg_105
 $ update_narrator('c26663')
 $ update_portrait('oce02_01 5', 'p2666', [r(-3), light], 6)
@@ -88,7 +88,7 @@ c12543 '[convertstrid(2113284)]'
 $ update_portrait('st058_01 5', 'p1254', [r(-6), dark], 5)
 $ update_portrait('st059_01 5', 'p1253', [l(-14), light, flip], 6)
 c12531 '[convertstrid(2113285)]'
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 scene avg_bg_011
 $ update_narrator('c26663')
 with fade
@@ -107,7 +107,7 @@ $ update_portrait('sc016_01 1', 'p1267', [l(-6), light, flip], 6)
 $ update_narrator('c12671')
 with fade
 c12671 '[convertstrid(2113289)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 $ update_portrait('sc016_01 4', 'p1267', [l(-6), light, flip], 6)
 c12671 '[convertstrid(2113290)]'
 $ update_portrait('sc016_01 4', 'p1267', [l(-6), light, flip], 6)
@@ -210,7 +210,7 @@ c26663 '[convertstrid(2113323)]'
 $ update_portrait('oce02_01 4', 'p2666', [r(-3), dark], 5)
 $ update_portrait('sc016_01 2', 'p1267', [l(-6), l_shake, light, flip], 6)
 c12671 '[convertstrid(2113324)]'
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 $ update_portrait('sc016_01 2', 'p1267', [l(-6), dark, flip], 5)
 $ update_portrait('oce02_01 4', 'p2666', [r(-3), light], 6)
 c26663 '[convertstrid(2113325)]'
@@ -257,7 +257,7 @@ c26663 '[convertstrid(2113338)]'
 $ update_portrait('oce02_01 21', 'p2666', [r(-3), dark], 5)
 $ update_portrait('sc016_01 2', 'p1267', [l(-6), light, flip], 6)
 c12671 '[convertstrid(2113339)]'
-play music "ed7512.ogg"
+$ play_music("ed7512.ogg")
 $ update_portrait('sc016_01 2', 'p1267', [l(-6), dark, flip], 5)
 $ update_portrait('oce02_01 4', 'p2666', [r(-3), light], 6)
 c26663 '[convertstrid(2113340)]'
@@ -371,7 +371,7 @@ c26663 '[convertstrid(2113379)]'
 $ update_portrait('oce02_01 4', 'p2666', [r(-3), dark], 5)
 play sfx2 "other_7080.ogg"
 c13091 '[convertstrid(2113380)]'
-play music "ed6567.ogg"
+$ play_music("ed6567.ogg")
 hide p2666
 $ update_portrait('oce02_01 4', 'p2666', [mid(-3), light], 6)
 $ update_narrator('c26663')

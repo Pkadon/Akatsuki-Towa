@@ -7,7 +7,7 @@ window show
 with fade_in
 play sfx2 "other_7047.ogg"
 c0 '[convertstrid(1162174)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 c13161 '[convertstrid(1162175)]'
 c13161 '[convertstrid(1162176)]'
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)

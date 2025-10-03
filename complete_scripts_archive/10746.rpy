@@ -6,7 +6,7 @@ $ update_narrator('c0')
 window show
 with fade_in
 c0 '[convertstrid(1173245)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1173246)]'
 $ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 5)

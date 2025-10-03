@@ -1,6 +1,6 @@
 label avg1228:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_070
 $ update_narrator('c0')
 window show
@@ -59,7 +59,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2111195)]'
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2111196)]'
-play music "ed7566.ogg"
+$ play_music("ed7566.ogg")
 scene avg_bg_026
 $ update_portrait('sc044_01 4', 'p51', [l(-7), light, flip], 6)
 $ update_narrator('c511')
@@ -103,14 +103,14 @@ c511 '[convertstrid(2111209)]'
 $ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 5)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2111210)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc044_01 4', 'p51', [l_midback(-7), light, flip], 6)
 c511 '[convertstrid(2111211)]' (what_size=(gui.text_size*1.25))
 $ update_portrait('sc044_01 4', 'p51', [l(-7), dark, flip], 5)
 $ update_portrait('oc001_01 20', 'p1', [r_midback(-2), light], 6)
 c13 '[convertstrid(2111212)]' (what_size=(gui.text_size*1.25))
-play music "ed7561.ogg"
+$ play_music("ed7561.ogg")
 scene avg_bg_011
 $ update_portrait('st020_01 4', 'p2707', [l(-8), light, flip], 6)
 $ update_narrator('c27071')

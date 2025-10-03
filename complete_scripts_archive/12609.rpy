@@ -1,6 +1,6 @@
 label avg12609:
 
-play music "ED6302.ogg"
+$ play_music("ED6302.ogg")
 scene placeholderbackground
 $ update_narrator('c0')
 window show
@@ -102,7 +102,7 @@ hide p3
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7045.ogg"
 c12601 '[convertstrid(1161369)]' (what_size=(gui.text_size*1.25)) with shake
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p1
 $ update_portrait('oc003_01 2', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1161370)]'

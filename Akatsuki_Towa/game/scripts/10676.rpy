@@ -1,6 +1,6 @@
 label avg10676:
 
-play music "ed7100.ogg"
+$ play_music("ed7100.ogg")
 scene avg_bg_023
 $ update_narrator('c2391')
 window show
@@ -210,7 +210,7 @@ $ update_portrait('st040_01 2', 'p239', [l(-19), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 play sfx2 "other_7072.ogg"
 c13 '[convertstrid(1166288)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 hide p239
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 c13391 '[convertstrid(1166289)]'
@@ -272,7 +272,7 @@ c13391 '[convertstrid(1166312)]'
 c13391 '[convertstrid(1166313)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1166314)]'
-play music "ed7571.ogg"
+$ play_music("ed7571.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13391 '[convertstrid(1166315)]'
 $ update_portrait('oc002_01 17', 'p2', [l(-3), light, flip], 6)

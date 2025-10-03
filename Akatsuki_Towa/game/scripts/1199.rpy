@@ -23,7 +23,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc044_01 4', 'p1135', [l_midback(-7), light, flip], 6)
 play sfx2 "other_7045.ogg"
 c11351 '[convertstrid(2107777)]'
-play music "ed7302.ogg"
+$ play_music("ed7302.ogg")
 scene avg_bg_070
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -104,7 +104,7 @@ c11351 '[convertstrid(2107802)]'
 $ update_portrait('sc044_01 2', 'p1135', [l(-7), dark, flip], 5)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(2107803)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 hide p1135
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 c9531 '[convertstrid(2107804)]'
@@ -157,7 +157,7 @@ c11351 '[convertstrid(2107828)]'
 $ update_portrait('sc044_01 4', 'p1135', [l(-7), dark, flip], 5)
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2107829)]'
-play music "ed7513.ogg"
+$ play_music("ed7513.ogg")
 scene avg_bg_017
 $ update_narrator('c11351')
 with fade

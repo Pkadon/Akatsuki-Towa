@@ -1,6 +1,6 @@
 label avg12520:
 
-play music "ED6301.ogg"
+$ play_music("ED6301.ogg")
 scene placeholderbackground
 $ update_portrait('sc005_01 1', 'p13', [l(-17), light, flip], 6)
 $ update_narrator('c131')

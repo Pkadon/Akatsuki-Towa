@@ -8,7 +8,7 @@ with fade_in
 c5001 '[convertstrid(2106232)]'
 c5001 '[convertstrid(2106233)]'
 c5001 '[convertstrid(2106234)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_023
 $ update_narrator('c0')
 with fade
@@ -97,7 +97,7 @@ scene avg_bg_070
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2106262)]'
-play music "ed7102.ogg"
+$ play_music("ed7102.ogg")
 scene avg_bg_010
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -107,7 +107,7 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2106264)]'
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2106265)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p1
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 6)
 play sfx2 "fight_6009.ogg"
@@ -132,7 +132,7 @@ $ update_narrator('c0')
 with fade
 play sfx2 "fight_6023.ogg"
 c0 '[convertstrid(2106272)]'
-play music "ed7205.ogg"
+$ play_music("ed7205.ogg")
 scene avg_bg_010
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')

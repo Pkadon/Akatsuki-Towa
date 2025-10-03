@@ -1,6 +1,6 @@
 label avg1223:
 
-play music "ed7161.ogg"
+$ play_music("ed7161.ogg")
 scene avg_bg_019
 $ update_narrator('c27021')
 window show
@@ -173,7 +173,7 @@ $ update_portrait('oca02_01 23', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2110415)]'
 $ update_portrait('oca02_01 15', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2110416)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('oca02_01 15', 'p2702', [l(-3), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
 c27013 '[convertstrid(2110417)]'
@@ -292,7 +292,7 @@ c27021 '[convertstrid(2110461)]'
 hide p2702
 $ update_portrait('uc002_03 1', 'p2709', [l(-23), light, flip], 6)
 c27091 '[convertstrid(2110462)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('uc002_03 1', 'p2709', [l(-23), dark, flip], 5)
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
 c27013 '[convertstrid(2110463)]'
@@ -311,7 +311,7 @@ scene avg_bg_070
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2110468)]'
-play music "ed7005.ogg"
+$ play_music("ed7005.ogg")
 scene avg_bg_019
 $ update_narrator('c27121')
 with fade
@@ -371,7 +371,7 @@ c27013 '[convertstrid(2110486)]'
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
 $ update_portrait('uc002_03 1', 'p2709', [l(-23), light, flip], 6)
 c27091 '[convertstrid(2110487)]'
-play music "ed7561.ogg"
+$ play_music("ed7561.ogg")
 $ update_portrait('uc002_03 1', 'p2709', [l(-23), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
 c27013 '[convertstrid(2110488)]'
@@ -422,7 +422,7 @@ hide p2709
 $ update_portrait('oca01_01 2', 'p2701', [r(-2), dark], 5)
 $ update_portrait('oca02_01 2', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2110505)]'
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 hide p2702
 $ update_portrait('ocb04_01 23', 'p2704', [l(-5), l_shake, light, flip], 6)
 c27041 '[convertstrid(2110506)]'
@@ -548,7 +548,7 @@ c5261 '[convertstrid(2110547)]'
 c5261 '[convertstrid(2110548)]'
 $ update_portrait('oca01_01 2', 'p2701', [r(-2), light], 6)
 c27013 '[convertstrid(2110549)]'
-play music "ED6505.ogg"
+$ play_music("ED6505.ogg")
 $ update_portrait('oca01_01 2', 'p2701', [r(-2), dark], 5)
 $ update_portrait('oca02_01 14', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2110550)]'

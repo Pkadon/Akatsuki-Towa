@@ -1,6 +1,6 @@
 label avg12189:
 
-play music "ed6570.ogg"
+$ play_music("ed6570.ogg")
 scene placeholderbackground
 $ update_portrait('sc027_01 4', 'p35', [l(-10), light, flip], 6)
 $ update_narrator('c351')
@@ -57,7 +57,7 @@ $ update_narrator('c20161')
 with fade
 play sfx2 "other_7080.ogg"
 c20161 '[convertstrid(1120731)]' with shake
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 3', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(1120732)]'
 $ update_portrait('oc001_01 3', 'p1', [r(-2), dark], 5)

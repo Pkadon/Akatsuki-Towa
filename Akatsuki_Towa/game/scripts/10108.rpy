@@ -1,6 +1,6 @@
 label avg10108:
 
-play music "ed7103.ogg"
+$ play_music("ed7103.ogg")
 scene avg_bg_007
 $ update_narrator('c31')
 window show

@@ -1,6 +1,6 @@
 label avg1062:
 
-play music "ed7101.ogg"
+$ play_music("ed7101.ogg")
 scene avg_bg_020
 $ update_narrator('c0')
 window show
@@ -13,7 +13,7 @@ $ update_portrait('st005_01 4', 'p205', [l(4), light, flip], 6)
 c2051 '[convertstrid(2100925)]'
 $ update_portrait('st005_01 4', 'p205', [l(4), light, flip], 6)
 c2051 '[convertstrid(2100926)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 scene avg_bg_025
 show memoryoverlay zorder 2
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
@@ -26,7 +26,7 @@ $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[convertstrid(2100929)]'
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[convertstrid(2100930)]'
-play music "ed7101.ogg"
+$ play_music("ed7101.ogg")
 scene avg_bg_020
 $ update_portrait('st005_01 4', 'p205', [l(4), light, flip], 6)
 $ update_narrator('c2051')
@@ -40,7 +40,7 @@ stop music
 c0 '[convertstrid(2100934)]'
 $ update_portrait('st005_01 3', 'p205', [l(4), light, flip], 6)
 c2051 '[convertstrid(2100935)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 hide p205
 c0 '[convertstrid(2100936)]'
 play sfx2 "other_7088.ogg"
@@ -107,7 +107,7 @@ c0 '[convertstrid(2100962)]'
 stop music
 $ update_portrait('st005_01 3', 'p205', [r(4), light], 6)
 c2053 '[convertstrid(2100963)]'
-play music "ed7101.ogg"
+$ play_music("ed7101.ogg")
 $ update_portrait('st005_01 3', 'p205', [r(4), dark], 5)
 $ update_portrait('sc058_01 1', 'p63', [l(-20), light, flip], 6)
 c631 '[convertstrid(2100964)]'
@@ -125,7 +125,7 @@ c2053 '[convertstrid(2100968)]'
 $ update_portrait('st005_01 2', 'p205', [r(4), dark], 5)
 $ update_portrait('sc058_01 6', 'p63', [l(-20), light, flip], 6)
 c631 '[convertstrid(2100969)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_013
 $ update_narrator('c0')
 with fade
@@ -147,7 +147,7 @@ c0 '[convertstrid(2100978)]'
 stop music
 $ update_portrait('sc058_01 3', 'p63', [l(-20), light, flip], 6)
 c631 '[convertstrid(2100979)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 $ update_portrait('sc058_01 1', 'p63', [l(-20), light, flip], 6)
 c631 '[convertstrid(2100980)]'
 $ update_portrait('sc058_01 1', 'p63', [l(-20), dark, flip], 5)

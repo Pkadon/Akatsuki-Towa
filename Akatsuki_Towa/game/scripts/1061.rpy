@@ -1,6 +1,6 @@
 label avg1061:
 
-play music "ed7113.ogg"
+$ play_music("ed7113.ogg")
 scene avg_bg_025
 $ update_narrator('c0')
 window show
@@ -37,7 +37,7 @@ c2021 '[convertstrid(2100849)]'
 hide p205
 $ update_portrait('st002_01 1', 'p202', [l(-9), dark, flip], 5)
 c25043 '[convertstrid(2100850)]'
-play music "ed7500.ogg"
+$ play_music("ed7500.ogg")
 hide p202
 c0 '[convertstrid(2100851)]'
 c0 '[convertstrid(2100852)]'
@@ -46,7 +46,7 @@ stop music
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 play sfx2 "other_7087.ogg"
 c2021 '[convertstrid(2100854)]' with shake
-play music "ed7113.ogg"
+$ play_music("ed7113.ogg")
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[convertstrid(2100855)]'
 $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 5)
@@ -68,7 +68,7 @@ c2021 '[convertstrid(2100861)]'
 hide p205
 $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 5)
 c25043 '[convertstrid(2100862)]'
-play music "ed7500.ogg"
+$ play_music("ed7500.ogg")
 hide p202
 c0 '[convertstrid(2100863)]'
 c0 '[convertstrid(2100864)]'
@@ -78,7 +78,7 @@ play sfx2 "other_7087.ogg"
 c2021 '[convertstrid(2100865)]' with shake
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[convertstrid(2100866)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 5)
 $ update_portrait('st005_01 4', 'p205', [r(4), light], 6)
 c2053 '[convertstrid(2100867)]'
@@ -104,12 +104,12 @@ c2021 '[convertstrid(2100874)]'
 hide p205
 $ update_portrait('st002_01 4', 'p202', [l(-9), dark, flip], 5)
 c25043 '[convertstrid(2100875)]'
-play music "ed7500.ogg"
+$ play_music("ed7500.ogg")
 hide p202
 c0 '[convertstrid(2100876)]'
 c0 '[convertstrid(2100877)]'
 c0 '[convertstrid(2100878)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)
 c2021 '[convertstrid(2100879)]'
 $ update_portrait('st002_01 4', 'p202', [l(-9), light, flip], 6)

@@ -1,6 +1,6 @@
 label avg10388:
 
-play music "ed7561.ogg"
+$ play_music("ed7561.ogg")
 scene avg_bg_049
 $ update_narrator('c10401')
 window show
@@ -39,7 +39,7 @@ c10401 '[convertstrid(1132434)]'
 c10443 '[convertstrid(1132435)]'
 play sfx2 "other_7057.ogg"
 c10411 '[convertstrid(1132436)]' (what_size=(gui.text_size*1.2)) with shake
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc002_01 12', 'p2', [l(-3), r_shake, light, flip], 6)
 play sfx2 "other_7087.ogg"
 play sfxvoice "avg_vocal_ch11.ogg"

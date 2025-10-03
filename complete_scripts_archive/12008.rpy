@@ -1,6 +1,6 @@
 label avg12008:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_056
 $ update_narrator('c7181')
 window show
@@ -60,7 +60,7 @@ $ update_portrait('sc068_01 5', 'p72', [l(-17), light, flip], 6)
 c721 '[convertstrid(1007200)]'
 $ update_portrait('sc068_01 6', 'p72', [l(-17), light, flip], 6)
 c721 '[convertstrid(1007201)]'
-play music "ed7561.ogg"
+$ play_music("ed7561.ogg")
 $ update_portrait('sc068_01 6', 'p72', [l(-17), dark, flip], 5)
 $ update_portrait('oc001_01 3', 'p1', [r(-2), r_shake, light], 6)
 play sfxvoice "bcv_oc001_hurt_01.ogg"
@@ -98,7 +98,7 @@ c21 '[convertstrid(1007213)]'
 $ update_portrait('oc002_01 8', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(1007214)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 hide p2
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc068_01 1', 'p72', [l(-17), light, flip], 6)

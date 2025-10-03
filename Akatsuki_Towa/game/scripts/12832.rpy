@@ -1,6 +1,6 @@
 label avg12832:
 
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 scene avg_bg_004
 $ update_portrait('oc003_01 21', 'p3', [r(-6), light], 6)
 $ update_narrator('c33')

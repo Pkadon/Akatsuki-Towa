@@ -1,6 +1,6 @@
 label avg1071:
 
-play music "ED6518.ogg"
+$ play_music("ED6518.ogg")
 scene avg_bg_062
 $ update_narrator('c0')
 window show
@@ -11,7 +11,7 @@ c0 '[convertstrid(2101497)]'
 c0 '[convertstrid(2101498)]'
 c0 '[convertstrid(2101499)]'
 c0 '[convertstrid(2101500)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 scene avg_bg_007
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -91,7 +91,7 @@ $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(2101528)]'
 $ update_portrait('oc004_01 6', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(2101529)]'
-play music "ED6518.ogg"
+$ play_music("ED6518.ogg")
 scene avg_bg_062
 $ update_narrator('c0')
 with fade
@@ -175,7 +175,7 @@ c2331 '[convertstrid(2101558)]'
 $ update_portrait('st034_01 6', 'p233', [l_exit(12), light, flip], 6)
 c2331 '[convertstrid(2101559)]'
 hide p233
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 hide p6
 c0 '[convertstrid(2101560)]'
 $ update_portrait('oc006_01 1', 'p6', [r(-5), light], 6)
@@ -219,7 +219,7 @@ $ update_portrait('oc006_01 5', 'p6', [r(-5), light], 6)
 c63 '[convertstrid(2101577)]'
 hide p6
 c0 '[convertstrid(2101578)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 scene avg_bg_063
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -270,7 +270,7 @@ hide memoryoverlay
 $ update_portrait('oc004_01 7', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc006_01 5', 'p6', [l(-5), light, flip], 6)
 c61 '[convertstrid(2101597)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 scene avg_bg_078
 $ update_portrait('oc006_01 4', 'p6', [r(-5), light], 6)
 $ update_narrator('c63')
@@ -296,7 +296,7 @@ $ update_portrait('oc006_01 5', 'p6', [r(-5), light], 6)
 c63 '[convertstrid(2101606)]'
 $ update_portrait('oc006_01 5', 'p6', [r(-5), light], 6)
 c63 '[convertstrid(2101607)]'
-play music "ED6518.ogg"
+$ play_music("ED6518.ogg")
 hide p6
 $ update_portrait('oc006_01 1', 'p6', [r(-5), light], 6)
 $ update_narrator('c63')
@@ -378,7 +378,7 @@ $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2101653)]'
 c0 '[convertstrid(2101654)]'
-play music "ed7565.ogg"
+$ play_music("ed7565.ogg")
 c5003 '[convertstrid(2101655)]' with shake
 c0 '[convertstrid(2101656)]'
 $ update_portrait('oc006_01 2', 'p6', [l(-5), l_shake, light, flip], 6)
@@ -576,7 +576,7 @@ $ update_portrait('oc004_01 1', 'p4', [r(-5), dark], 5)
 c25151 '[convertstrid(2101716)]'
 hide p4
 c0 '[convertstrid(2101717)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 scene avg_bg_078
 $ update_narrator('c0')
 with fade

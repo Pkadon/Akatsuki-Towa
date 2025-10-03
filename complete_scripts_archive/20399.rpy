@@ -1,6 +1,6 @@
 label avg20399:
 
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 scene placeholderbackground
 $ update_portrait('uc003_04 1', 'p1051', [mid(-14), light], 6)
 $ update_narrator('c10513')
@@ -111,7 +111,7 @@ $ update_portrait('oc004_01 16', 'p4', [mid(-5), light], 6)
 c43 '[convertstrid(1132789)]' (what_size=(gui.text_size*1.3)) with shake
 hide p4
 c10523 '[convertstrid(1132790)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('oc004_01 21', 'p4', [mid(-5), light], 6)
 c43 '[convertstrid(1132791)]'
 $ update_portrait('oc004_01 20', 'p4', [mid(-5), light], 6)
@@ -162,7 +162,7 @@ $ update_portrait('uc003_04 4', 'p1045', [mid(-14), light], 6)
 c10453 '[convertstrid(1132815)]'
 $ update_portrait('uc003_04 3', 'p1045', [mid(-14), light], 6)
 c10453 '[convertstrid(1132816)]'
-play music "ed7105.ogg"
+$ play_music("ed7105.ogg")
 hide p1045
 $ update_portrait('oc004_01 10', 'p4', [mid(-5), light], 6)
 c43 '[convertstrid(1132817)]'

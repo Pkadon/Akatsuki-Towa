@@ -1,6 +1,6 @@
 label avg1172:
 
-play music "ed7126.ogg"
+$ play_music("ed7126.ogg")
 scene avg_bg_074
 $ update_narrator('c0')
 window show
@@ -124,7 +124,7 @@ with fade
 c0 '[convertstrid(2105440)]'
 c0 '[convertstrid(2105441)]'
 c0 '[convertstrid(2105442)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 scene avg_bg_004
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -183,7 +183,7 @@ scene avg_bg_070
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2105460)]'
-play music "ed7126.ogg"
+$ play_music("ed7126.ogg")
 c0 '[convertstrid(2105461)]'
 scene avg_bg_004
 $ update_narrator('c25331')
@@ -235,7 +235,7 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 c25331 '[convertstrid(2105480)]' with shake
 $ update_portrait('sc046_01 4', 'p1004', [l(-5), light, flip], 6)
 c10041 '[convertstrid(2105481)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('sc046_01 4', 'p1004', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2105482)]'
@@ -253,7 +253,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc046_01 4', 'p1004', [l(-5), light, flip], 6)
 play sfx2 "fight_6025.ogg"
 c10041 '[convertstrid(2105486)]'
-play music "ed7126.ogg"
+$ play_music("ed7126.ogg")
 scene avg_bg_070
 $ update_narrator('c0')
 with fade
@@ -278,7 +278,7 @@ $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2105492)]'
 c0 '[convertstrid(2105493)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 c0 '[convertstrid(2105494)]'
 scene avg_bg_022
 $ update_narrator('c10043')
@@ -295,7 +295,7 @@ c25333 '[convertstrid(2105500)]'
 c25333 '[convertstrid(2105501)]'
 c25341 '[convertstrid(2105502)]'
 c25333 '[convertstrid(2105503)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2105504)]'
 hide p1

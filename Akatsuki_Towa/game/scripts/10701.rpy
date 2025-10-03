@@ -13,7 +13,7 @@ c0 '[convertstrid(1170005)]'
 c0 '[convertstrid(1170006)]'
 c0 '[convertstrid(1170007)]'
 c0 '[convertstrid(1170008)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 scene avg_bg_077
 show memoryoverlay zorder 2
 $ update_portrait('st056_01 1', 'p1349', [l(-6), light, flip], 6)
@@ -42,7 +42,7 @@ c81 '[convertstrid(1170015)]'
 $ update_portrait('oc008_01 5', 'p8', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1170016)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_023
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 6)
 $ update_narrator('c33')
@@ -169,7 +169,7 @@ $ update_portrait('oc002_01 17', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1170054)]'
 $ update_portrait('oc002_01 6', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1170055)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 scene avg_bg_023
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')

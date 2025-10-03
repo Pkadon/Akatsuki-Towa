@@ -1,6 +1,6 @@
 label avg12610:
 
-play music "ED6302.ogg"
+$ play_music("ED6302.ogg")
 scene placeholderbackground
 $ update_portrait('oc003_01 7', 'p3', [r(-6), light], 6)
 $ update_narrator('c33')
@@ -53,7 +53,7 @@ hide p4
 $ update_portrait('oc002_01 10', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1161392)]'
-play music "ed7515.ogg"
+$ play_music("ed7515.ogg")
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1161393)]'
@@ -95,7 +95,7 @@ $ update_portrait('oc002_01 14', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1161406)]'
 $ update_portrait('oc002_01 15', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1161407)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 hide p4
 $ update_portrait('oc002_01 15', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)

@@ -1,6 +1,6 @@
 label avg1202:
 
-play music "ED6108.ogg"
+$ play_music("ED6108.ogg")
 scene avg_bg_034
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 $ update_narrator('c2401')
@@ -120,7 +120,7 @@ c2401 '[convertstrid(2108133)]'
 hide p240
 c0 '[convertstrid(2108134)]'
 c0 '[convertstrid(2108135)]'
-play music "ED6107.ogg"
+$ play_music("ED6107.ogg")
 $ update_portrait('st011_01 1', 'p210', [l(-14), light, flip], 6)
 $ update_narrator('c2101')
 with fade
@@ -146,7 +146,7 @@ hide p10
 $ update_portrait('sc031_01 3', 'p39', [l(-14), dark, flip], 5)
 $ update_portrait('sc021_01 1', 'p29', [r(-17), light], 6)
 c293 '[convertstrid(2108143)]'
-play music "ED6523.ogg"
+$ play_music("ED6523.ogg")
 hide p39
 hide p29
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
@@ -327,7 +327,7 @@ c2401 '[convertstrid(2108199)]'
 stop music
 $ update_portrait('st041_01 4', 'p240', [l(-1), light, flip], 6)
 c2401 '[convertstrid(2108200)]'
-play music "ED6108.ogg"
+$ play_music("ED6108.ogg")
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 c2401 '[convertstrid(2108201)]' with shake
 hide p240

@@ -1,6 +1,6 @@
 label avg20054:
 
-play music "ed7104.ogg"
+$ play_music("ed7104.ogg")
 scene placeholderbackground
 $ update_portrait('oc003_01 4', 'p3', [mid(-6), light], 6)
 $ update_narrator('c33')
@@ -74,7 +74,7 @@ c23 '[convertstrid(1002872)]'
 hide p2
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 6)
 c13 '[convertstrid(1002873)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 9', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na22.ogg"
 c13 '[convertstrid(1002874)]'
@@ -111,7 +111,7 @@ hide p2
 play sfx2 "other_7085.ogg"
 c0 '[convertstrid(1002883)]'
 c0 '[convertstrid(1002884)]'
-play music "ed7104.ogg"
+$ play_music("ed7104.ogg")
 $ update_portrait('oc002_01 10', 'p2', [mid(-3), light], 6)
 play sfxvoice "avg_vocal_ch25.ogg"
 c23 '[convertstrid(1002885)]'

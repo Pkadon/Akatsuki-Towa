@@ -1,6 +1,6 @@
 label avg10767:
 
-play music "ed6323.ogg"
+$ play_music("ed6323.ogg")
 scene avg_bg_070
 $ update_narrator('c0')
 window show
@@ -92,7 +92,7 @@ stop music
 hide p1304
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c5001 '[convertstrid(1175259)]' with shake
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p1
 $ update_portrait('oc003_01 9', 'p3', [r(-6), light], 6)
 play sfx2 "fight_6025.ogg"

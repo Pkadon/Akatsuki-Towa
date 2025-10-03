@@ -1,6 +1,6 @@
 label avg20008:
 
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 scene placeholderbackground
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 6)
 $ update_narrator('c13')
@@ -57,7 +57,7 @@ c13 '[convertstrid(1000362)]'
 hide p1
 $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 6)
 c23 '[convertstrid(1000363)]'
-play music "ed7161.ogg"
+$ play_music("ed7161.ogg")
 hide p2
 $ update_portrait('st000_01 5', 'p504', [mid(-9), light], 6)
 c5043 '[convertstrid(1000364)]'

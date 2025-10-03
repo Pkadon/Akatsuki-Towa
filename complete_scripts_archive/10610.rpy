@@ -7,7 +7,7 @@ window show
 with fade_in
 play sfx2 "other_7060.ogg"
 c0 '[convertstrid(1160413)]'
-play music "ED6202.ogg"
+$ play_music("ED6202.ogg")
 $ update_portrait('oc003_01 4', 'p3', [l(-6), light, flip], 6)
 play sfx2 "other_7060.ogg"
 c31 '[convertstrid(1160414)]'
@@ -22,7 +22,7 @@ hide p4
 $ update_portrait('oc002_01 21', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1160417)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), r_shake, light], 6)
 play sfx2 "other_7079.ogg"
 c13 '[convertstrid(1160418)]'

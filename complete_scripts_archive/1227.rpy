@@ -1,6 +1,6 @@
 label avg1227:
 
-play music "ED6108.ogg"
+$ play_music("ED6108.ogg")
 scene avg_bg_019
 $ update_narrator('c5261')
 window show
@@ -39,7 +39,7 @@ c27013 '[convertstrid(2111015)]'
 $ update_portrait('oca01_01 5', 'p2701', [r(-2), dark], 5)
 $ update_portrait('oca02_01 12', 'p2706', [l(-3), light, flip], 6)
 c27061 '[convertstrid(2111016)]' (what_size=(gui.text_size*1.25)) with shake
-play music "ED6108.ogg"
+$ play_music("ED6108.ogg")
 hide p2706
 $ update_portrait('oca02_01 12', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2111017)]'
@@ -176,7 +176,7 @@ stop music
 c0 '[convertstrid(2111064)]'
 $ update_portrait('sca44_01 3', 'p2705', [l(-7), light, flip], 6)
 c27051 '[convertstrid(2111065)]'
-play music "ed7565.ogg"
+$ play_music("ed7565.ogg")
 scene avg_bg_019
 $ update_portrait('oca01_01 8', 'p2701', [r(-2), light], 6)
 $ update_narrator('c27013')
@@ -432,7 +432,7 @@ $ update_portrait('oca02_01 6', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2111154)]'
 hide p2702
 c27121 '[convertstrid(2111155)]'
-play music "ed7534.ogg"
+$ play_music("ed7534.ogg")
 scene avg_bg_070
 show memoryoverlay zorder 2
 $ update_narrator('c0')

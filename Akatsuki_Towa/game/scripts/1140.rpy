@@ -20,7 +20,7 @@ hide p1
 play sfx2 "other_7088.ogg"
 c0 '[convertstrid(2104018)]'
 c0 '[convertstrid(2104019)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104020)]'
 $ update_portrait('oc001_01 13', 'p1', [r(-2), light], 6)
@@ -60,7 +60,7 @@ $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2104037)]'
 c0 '[convertstrid(2104038)]'
-play music "ed7571.ogg"
+$ play_music("ed7571.ogg")
 scene avg_bg_019
 $ update_narrator('c25271')
 with fade
@@ -130,7 +130,7 @@ play sfx2 "fight_6019.ogg"
 c5001 '[convertstrid(2104067)]'
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104068)]'
-play music "ed7571.ogg"
+$ play_music("ed7571.ogg")
 $ update_portrait('oc001_01 9', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(2104069)]'
 $ update_portrait('oc001_01 9', 'p1', [r(-2), dark], 5)
@@ -265,7 +265,7 @@ $ update_portrait('oc001_01 3', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104115)]'
 $ update_portrait('oc001_01 13', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104116)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 $ update_portrait('oc001_01 13', 'p1', [r(-2), dark], 5)
 c25281 '[convertstrid(2104117)]'
 $ update_portrait('oc001_01 15', 'p1', [r(-2), light], 6)

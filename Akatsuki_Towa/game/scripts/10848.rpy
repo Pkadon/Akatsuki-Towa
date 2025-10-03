@@ -7,7 +7,7 @@ window show
 with fade_in
 c0 '[convertstrid(1189265)]'
 c0 '[convertstrid(1189266)]'
-play music "ed7124.ogg"
+$ play_music("ed7124.ogg")
 c14681 '[convertstrid(1189267)]'
 scene avg_bg_077
 $ update_portrait('st065_01 1', 'p1468', [l(-6), light, flip], 6)
@@ -177,7 +177,7 @@ c26191 '[convertstrid(1189330)]'
 $ update_portrait('oc004_01 4', 'p4', [l(-5), l_shake, light, flip], 6)
 play sfx2 "other_7018.ogg"
 c41 '[convertstrid(1189331)]'
-play music "ed7512.ogg"
+$ play_music("ed7512.ogg")
 hide p4
 play sfx2 "other_7017.ogg"
 c0 '[convertstrid(1189332)]'

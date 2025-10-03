@@ -1,6 +1,6 @@
 label avg1220:
 
-play music "ED6101.ogg"
+$ play_music("ED6101.ogg")
 scene avg_bg_064
 $ update_narrator('c0')
 window show
@@ -54,7 +54,7 @@ stop music
 hide p20
 hide p1
 c0 '[convertstrid(2110073)]' (what_size=(gui.text_size*1.25)) with shake
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('sc012_01 4', 'p20', [l(-16), l_shake, light, flip], 6)
 c201 '[convertstrid(2110074)]'
 $ update_portrait('sc012_01 4', 'p20', [l(-16), dark, flip], 5)
@@ -121,7 +121,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2110100)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c26991 '[convertstrid(2110101)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 $ update_portrait('sc012_01 1', 'p20', [l(-16), light, flip], 6)
 c201 '[convertstrid(2110102)]'
 $ update_portrait('sc012_01 1', 'p20', [l(-16), dark, flip], 5)
@@ -192,7 +192,7 @@ $ update_portrait('sc012_01 4', 'p20', [l(-16), light, flip], 6)
 c201 '[convertstrid(2110127)]'
 $ update_portrait('sc012_01 4', 'p20', [l(-16), light, flip], 6)
 c201 '[convertstrid(2110128)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 $ update_portrait('sc012_01 4', 'p20', [l(-16), light, flip], 6)
 c201 '[convertstrid(2110129)]'
 $ update_portrait('sc012_01 4', 'p20', [l(-16), dark, flip], 5)

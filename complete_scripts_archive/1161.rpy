@@ -1,6 +1,6 @@
 label avg1161:
 
-play music "ed7100.ogg"
+$ play_music("ed7100.ogg")
 scene avg_bg_070
 $ update_narrator('c5001')
 window show
@@ -53,7 +53,7 @@ c13 '[convertstrid(2104476)]'
 hide p2
 hide p1
 c0 '[convertstrid(2104477)]'
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_013
 $ update_narrator('c0')
 with fade
@@ -150,7 +150,7 @@ $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 c561 '[convertstrid(2104509)]'
 hide p56
 c25311 '[convertstrid(2104510)]' with shake
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 $ update_portrait('oc003_01 17', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(2104511)]'
 $ update_portrait('oc003_01 17', 'p3', [l(-6), dark, flip], 5)
@@ -273,7 +273,7 @@ c31 '[convertstrid(2104548)]'
 hide p3
 $ update_portrait('oc002_01 5', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(2104549)]'
-play music "ed7202.ogg"
+$ play_music("ed7202.ogg")
 scene avg_bg_036
 $ update_narrator('c0')
 with fade
@@ -317,7 +317,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104563)]'
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104564)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_054
 $ update_narrator('c0')
 with fade
@@ -358,7 +358,7 @@ c13 '[convertstrid(2104576)]'
 hide p1
 hide p2
 c11551 '[convertstrid(2104577)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 scene avg_bg_071
 $ update_narrator('c0')
 with fade
@@ -402,7 +402,7 @@ c21 '[convertstrid(2104590)]'
 hide p2
 hide p1
 c0 '[convertstrid(2104591)]'
-play music "ed7300.ogg"
+$ play_music("ed7300.ogg")
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104592)]'
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
@@ -452,7 +452,7 @@ c21 '[convertstrid(2104608)]'
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 22', 'p1', [r_entrance(-2), light], 6)
 c13 '[convertstrid(2104609)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 scene avg_bg_070
 $ update_narrator('c0')
 with fade

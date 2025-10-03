@@ -9,7 +9,7 @@ play sfx2 "other_7060.ogg"
 c0 '[convertstrid(1162123)]'
 play sfx2 "other_7060.ogg"
 c0 '[convertstrid(1162124)]'
-play music "ed9999.ogg"
+$ play_music("ed9999.ogg")
 scene avg_bg_050
 $ update_narrator('c31')
 with fade
@@ -33,7 +33,7 @@ c13 '[convertstrid(1162130)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1162131)]'
-play music "ed7100.ogg"
+$ play_music("ed7100.ogg")
 scene avg_bg_070
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -136,7 +136,7 @@ hide p2
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1162163)]'
-play music "ed9999.ogg"
+$ play_music("ed9999.ogg")
 scene avg_bg_050
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 $ update_narrator('c31')

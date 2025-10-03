@@ -1,6 +1,6 @@
 label avg10426:
 
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 scene placeholderbackground
 $ update_narrator('c0')
 window show
@@ -28,7 +28,7 @@ $ update_portrait('oc001_01 19', 'p1', [r(-2), dark], 5)
 c11091 '[convertstrid(1141255)]' (what_size=(gui.text_size*1.2)) with shake
 c11091 '[convertstrid(1141256)]' (what_size=(gui.text_size*1.3)) with shake
 c11091 '[convertstrid(1141257)]' (what_size=(gui.text_size*1.4)) with shake
-play music "ED6516.ogg"
+$ play_music("ED6516.ogg")
 $ update_portrait('oc001_01 19', 'p1', [r(-2), r_shake, light], 6)
 play sfxvoice "avg_vocal_na21.ogg"
 c13 '[convertstrid(1141258)]'

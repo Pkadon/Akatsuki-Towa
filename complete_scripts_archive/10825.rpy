@@ -1,6 +1,6 @@
 label avg10825:
 
-play music "ed7544.ogg"
+$ play_music("ed7544.ogg")
 scene avg_bg_010
 $ update_narrator('c0')
 window show
@@ -102,7 +102,7 @@ hide p5
 hide p1
 play sfx2 "fight_6015.ogg"
 c0 '[convertstrid(1185025)]' with shake
-play music "ed7510.ogg"
+$ play_music("ed7510.ogg")
 $ update_portrait('oc002_01 12', 'p2', [l(-3), l_shake, light, flip], 6)
 c21 '[convertstrid(1185026)]'
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 5)
@@ -145,7 +145,7 @@ play sfx2 "other_7017.ogg"
 c0 '[convertstrid(1185048)]'
 play sfx2 "other_7017.ogg"
 c0 '[convertstrid(1185049)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1185050)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)

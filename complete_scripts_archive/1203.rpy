@@ -7,7 +7,7 @@ window show
 with fade_in
 play sfx2 "other_7062.ogg"
 c0 '[convertstrid(2108206)]'
-play music "ED6101.ogg"
+$ play_music("ED6101.ogg")
 c0 '[convertstrid(2108207)]'
 $ update_portrait('sc019_01 4', 'p27', [l(-18), l_shake, light, flip], 6)
 c271 '[convertstrid(2108208)]'
@@ -65,7 +65,7 @@ c2401 '[convertstrid(2108227)]'
 $ update_portrait('st041_01 1', 'p240', [l(-1), dark, flip], 5)
 $ update_portrait('sc022_01 2', 'p30', [r(-9), light], 6)
 c303 '[convertstrid(2108228)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('sc022_01 4', 'p30', [r(-9), light], 6)
 play sfx2 "fight_6017.ogg"
 c303 '[convertstrid(2108229)]' with shake
@@ -93,7 +93,7 @@ c0 '[convertstrid(2108236)]'
 c0 '[convertstrid(2108237)]'
 $ update_portrait('sc022_01 2', 'p30', [r(-9), light], 6)
 c303 '[convertstrid(2108238)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('sc022_01 2', 'p30', [r(-9), dark], 5)
 $ update_portrait('sc019_01 3', 'p27', [l(-18), light, flip], 6)
 play sfx2 "fight_6003.ogg"
@@ -163,7 +163,7 @@ c271 '[convertstrid(2108259)]'
 $ update_portrait('sc019_01 4', 'p27', [l(-18), dark, flip], 5)
 $ update_portrait('sc022_01 2', 'p30', [r(-9), light], 6)
 c303 '[convertstrid(2108260)]'
-play music "ed7452.ogg"
+$ play_music("ed7452.ogg")
 $ update_portrait('sc022_01 2', 'p30', [r(-9), dark], 5)
 $ update_portrait('sc019_01 4', 'p27', [l(-18), l_shake, light, flip], 6)
 c271 '[convertstrid(2108261)]'
@@ -229,7 +229,7 @@ c303 '[convertstrid(2108281)]'
 $ update_portrait('sc022_01 1', 'p30', [r(-9), dark], 5)
 $ update_portrait('sc019_01 1', 'p27', [l(-18), light, flip], 6)
 c271 '[convertstrid(2108282)]'
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 $ update_portrait('sc019_01 1', 'p27', [l(-18), dark, flip], 5)
 $ update_portrait('sc022_01 2', 'p30', [r(-9), light], 6)
 c303 '[convertstrid(2108283)]'

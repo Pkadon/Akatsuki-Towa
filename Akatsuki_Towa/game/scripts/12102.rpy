@@ -14,7 +14,7 @@ c11 '[convertstrid(1128008)]'
 $ update_portrait('oc001_01 6', 'p1', [l(-2), dark, flip], 5)
 $ update_portrait('st051_01 2', 'p709', [r(-9), light], 6)
 c7093 '[convertstrid(1128009)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_047
 $ update_portrait('oc005_01 1', 'p5', [r(-6), light], 6)
 $ update_narrator('c53')

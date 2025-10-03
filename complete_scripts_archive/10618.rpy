@@ -1,6 +1,6 @@
 label avg10618:
 
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 scene avg_bg_058
 $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
 $ update_narrator('c21')
@@ -88,7 +88,7 @@ c81 '[convertstrid(1161031)]'
 stop music
 $ update_portrait('oc008_01 4', 'p8', [l(-5), light, flip], 6)
 c81 '[convertstrid(1161032)]'
-play music "ed7564.ogg"
+$ play_music("ed7564.ogg")
 hide p8
 $ update_portrait('oc003_01 21', 'p3', [l(-6), light, flip], 6)
 c31 '[convertstrid(1161033)]'
@@ -106,7 +106,7 @@ c13 '[convertstrid(1161037)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
 c81 '[convertstrid(1161038)]'
-play music "ed6567.ogg"
+$ play_music("ed6567.ogg")
 hide p8
 c5001 '[convertstrid(1161039)]'
 c5001 '[convertstrid(1161040)]'
@@ -156,7 +156,7 @@ $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
 c81 '[convertstrid(1161057)]'
 $ update_portrait('oc008_01 5', 'p8', [l(-5), light, flip], 6)
 c81 '[convertstrid(1161058)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p8
 play sfx2 "other_7080.ogg"
 c13091 '[convertstrid(1161059)]' with shake

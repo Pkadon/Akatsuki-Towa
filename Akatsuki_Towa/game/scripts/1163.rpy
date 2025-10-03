@@ -7,7 +7,7 @@ window show
 with fade_in
 c0 '[convertstrid(2104720)]'
 c0 '[convertstrid(2104721)]'
-play music "ed7123.ogg"
+$ play_music("ed7123.ogg")
 scene avg_bg_046
 $ update_narrator('c10151')
 with fade

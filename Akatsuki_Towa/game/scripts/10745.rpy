@@ -7,7 +7,7 @@ window show
 with fade_in
 c0 '[convertstrid(1173208)]'
 c0 '[convertstrid(1173209)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 scene avg_bg_041
 show memoryoverlay zorder 2
 $ update_portrait('oc004_01 1', 'p4', [r(-5), light], 6)

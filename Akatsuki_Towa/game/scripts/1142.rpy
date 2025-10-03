@@ -20,7 +20,7 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104283)]'
 hide p1
 c0 '[convertstrid(2104284)]'
-play music "ed7106.ogg"
+$ play_music("ed7106.ogg")
 play sfx2 "other_7064.ogg"
 c0 '[convertstrid(2104285)]'
 c0 '[convertstrid(2104286)]'
@@ -51,7 +51,7 @@ hide p1
 c0 '[convertstrid(2104298)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2104299)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 6', 'p2', [l_entrance(-3), light, flip], 6)
 c21 '[convertstrid(2104300)]'

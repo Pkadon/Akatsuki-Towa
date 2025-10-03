@@ -1,6 +1,6 @@
 label avg12432:
 
-play music "ed7201.ogg"
+$ play_music("ed7201.ogg")
 scene placeholderbackground
 $ update_narrator('c13')
 window show

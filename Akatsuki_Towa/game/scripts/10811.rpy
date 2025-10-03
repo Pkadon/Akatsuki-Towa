@@ -1,6 +1,6 @@
 label avg10811:
 
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 scene avg_bg_004
 show memoryoverlay zorder 2
 $ update_narrator('c0')
@@ -44,7 +44,7 @@ with fade
 c0 '[convertstrid(1182189)]'
 c0 '[convertstrid(1182190)]'
 c0 '[convertstrid(1182191)]'
-play music "ed6324.ogg"
+$ play_music("ed6324.ogg")
 scene avg_bg_078
 $ update_portrait('st056_01 4', 'p1349', [r(-6), light], 6)
 $ update_narrator('c13493')

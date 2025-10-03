@@ -10,7 +10,7 @@ c0 '[convertstrid(1184552)]'
 c0 '[convertstrid(1184553)]'
 c0 '[convertstrid(1184554)]'
 c0 '[convertstrid(1184555)]'
-play music "ed7102.ogg"
+$ play_music("ed7102.ogg")
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 c13041 '[convertstrid(1184556)]'
 $ update_portrait('st061_01 1', 'p1304', [l(-2), dark, flip], 5)
@@ -134,7 +134,7 @@ hide p3
 $ update_portrait('oc002_01 15', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1184601)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p2
 $ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('st061_01 4', 'p1304', [r(-2), l_shake, light], 6)

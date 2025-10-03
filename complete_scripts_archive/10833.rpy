@@ -7,7 +7,7 @@ window show
 with fade_in
 c21 '[convertstrid(1187002)]' with shake
 c13 '[convertstrid(1187003)]' with shake
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_023
 $ update_narrator('c2391')
 with fade
@@ -376,7 +376,7 @@ $ update_portrait('oc002_01 3', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1187115)]'
 $ update_portrait('oc002_01 16', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1187116)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('oc002_01 16', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1187117)]'

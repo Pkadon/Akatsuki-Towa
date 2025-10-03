@@ -8,7 +8,7 @@ with fade_in
 play sfx2 "other_7017.ogg"
 c0 '[convertstrid(1154105)]'
 c0 '[convertstrid(1154106)]'
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 scene avg_bg_023
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
@@ -48,7 +48,7 @@ hide p2
 $ update_portrait('oc004_01 11', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1154117)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 hide p4
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c12321 '[convertstrid(1154118)]'

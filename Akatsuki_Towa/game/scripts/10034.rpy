@@ -18,7 +18,7 @@ c21 '[convertstrid(1003013)]'
 $ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1003014)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 9', 'p2', [l(-3), light, flip], 6)
 c21 '[convertstrid(1003015)]'
@@ -73,7 +73,7 @@ $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c4981 '[convertstrid(1003029)]'
 $ update_portrait('oc001_01 3', 'p1', [l(-2), light, flip], 6)
 c11 '[convertstrid(1003030)]'
-play music "ed6567.ogg"
+$ play_music("ed6567.ogg")
 hide p2
 $ update_portrait('oc001_01 3', 'p1', [l(-2), dark, flip], 5)
 play sfxvoice "ed7v0652.ogg"

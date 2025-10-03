@@ -1,6 +1,6 @@
 label avg12304:
 
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 scene avg_bg_010
 $ update_narrator('c10841')
 window show
@@ -15,7 +15,7 @@ c13 '[convertstrid(1133153)]'
 $ update_portrait('oc001_01 24', 'p1', [r(-2), dark], 5)
 c10841 '[convertstrid(1133154)]'
 c10841 '[convertstrid(1133155)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 6)
 play sfxvoice "bcv_oc001_c04_01.ogg"
 c13 '[convertstrid(1133161)]'
@@ -51,7 +51,7 @@ play sfx2 "other_7004.ogg"
 c33 '[convertstrid(1133171)]'
 $ update_portrait('oc003_01 5', 'p3', [r(-6), dark], 5)
 c10851 '[convertstrid(1133172)]' (what_size=(gui.text_size*1.2)) with shake
-play music "ed7105.ogg"
+$ play_music("ed7105.ogg")
 scene avg_bg_070
 $ update_portrait('sc046_01 5', 'p1004', [r(-5), light], 6)
 $ update_narrator('c10043')

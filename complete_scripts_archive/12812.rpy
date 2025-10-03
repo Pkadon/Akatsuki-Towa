@@ -10,7 +10,7 @@ c0 '[convertstrid(1182744)]'
 c0 '[convertstrid(1182745)]'
 c0 '[convertstrid(1182746)]'
 c0 '[convertstrid(1182747)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_035
 $ update_narrator('c0')
 with fade

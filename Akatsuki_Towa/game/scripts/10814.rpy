@@ -11,7 +11,7 @@ scene avg_bg_035
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1182334)]'
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 $ update_portrait('st061_01 1', 'p1304', [l(-2), light, flip], 6)
 play sfx2 "other_7047.ogg"
 c13041 '[convertstrid(1182335)]'
@@ -234,7 +234,7 @@ $ update_portrait('st044_01 4', 'p692', [l(10), light, flip], 6)
 c6921 '[convertstrid(1182403)]'
 hide p692
 c0 '[convertstrid(1182404)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 $ update_portrait('st044_01 4', 'p692', [l(10), light, flip], 6)
 c6921 '[convertstrid(1182405)]'
 $ update_portrait('st044_01 4', 'p692', [l(10), dark, flip], 5)

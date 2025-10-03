@@ -1,6 +1,6 @@
 label avg10816:
 
-play music "ed7544.ogg"
+$ play_music("ed7544.ogg")
 scene avg_bg_003
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 $ update_narrator('c51')
@@ -220,7 +220,7 @@ $ update_portrait('oc005_01 7', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('oc004_01 3', 'p4', [r(-5), light], 6)
 play sfx2 "other_7011.ogg"
 c43 '[convertstrid(1182537)]' with shake
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 $ update_portrait('oc004_01 3', 'p4', [r(-5), dark], 5)
 $ update_portrait('oc005_01 22', 'p5', [l(-6), light, flip], 6)
 play sfx2 "other_7011.ogg"
@@ -258,7 +258,7 @@ hide p1304
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 c51 '[convertstrid(1182548)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 hide p1
 $ update_portrait('oc005_01 4', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('oc003_01 8', 'p3', [r(-6), light], 6)

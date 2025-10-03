@@ -9,7 +9,7 @@ c0 '[convertstrid(1189489)]'
 c0 '[convertstrid(1189490)]'
 c0 '[convertstrid(1189491)]'
 c0 '[convertstrid(1189492)]'
-play music "ed7304.ogg"
+$ play_music("ed7304.ogg")
 scene avg_bg_203
 $ update_portrait('st061_01 4', 'p1304', [r(-2), light], 6)
 $ update_narrator('c13043')
@@ -44,7 +44,7 @@ hide p1304
 $ update_portrait('oc003_01 4', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1189502)]'
-play music "ed7511.ogg"
+$ play_music("ed7511.ogg")
 hide p4
 play sfx2 "elc_5006.ogg"
 c26221 '[convertstrid(1189503)]'

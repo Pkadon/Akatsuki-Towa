@@ -1,6 +1,6 @@
 label avg10752:
 
-play music "ed7544.ogg"
+$ play_music("ed7544.ogg")
 scene avg_bg_002
 $ update_narrator('c0')
 window show
@@ -175,7 +175,7 @@ $ update_portrait('st061_01 4', 'p1304', [r(-2), dark], 5)
 c14551 '[convertstrid(1173890)]'
 hide p1304
 c0 '[convertstrid(1173891)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 scene avg_bg_505
 $ update_narrator('c43')
 with fade

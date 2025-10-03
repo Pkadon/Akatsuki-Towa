@@ -1,6 +1,6 @@
 label avg1233:
 
-play music "ed7561.ogg"
+$ play_music("ed7561.ogg")
 scene avg_bg_519
 $ update_narrator('c27391')
 window show
@@ -50,7 +50,7 @@ $ update_portrait('uc002_03 4', 'p2739', [l(-23), light, flip], 6)
 c27391 '[convertstrid(2111779)]' (what_size=(gui.text_size*1.25)) with shake
 hide p2739
 c6431 '[convertstrid(2111780)]' (what_size=(gui.text_size*1.25)) with shake
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_038
 $ update_portrait('sc040_01 1', 'p47', [r(-9), light], 6)
 $ update_narrator('c473')
@@ -149,7 +149,7 @@ c473 '[convertstrid(2111812)]'
 $ update_portrait('sc040_01 6', 'p47', [r(-9), dark], 5)
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
 c461 '[convertstrid(2111813)]'
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 $ update_portrait('sc039_01 1', 'p46', [l_midback(-13), light, flip], 6)
 c461 '[convertstrid(2111814)]'
 $ update_portrait('sc039_01 6', 'p46', [l(-13), l_shake, light, flip], 6)
@@ -187,7 +187,7 @@ c473 '[convertstrid(2111825)]'
 hide p2731
 $ update_portrait('sc040_01 4', 'p47', [r(-9), dark], 5)
 c501 '[convertstrid(2111826)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 hide p47
 $ update_portrait('sc039_01 1', 'p46', [l(-13), light, flip], 6)
 $ update_narrator('c461')
@@ -302,7 +302,7 @@ c27313 '[convertstrid(2111862)]'
 hide p2731
 $ update_portrait('sc038_01 4', 'p45', [r(-1), light], 6)
 c453 '[convertstrid(2111863)]'
-play music "ed7561.ogg"
+$ play_music("ed7561.ogg")
 $ update_portrait('sc038_01 4', 'p45', [r(-1), dark], 5)
 $ update_portrait('sc041_01 4', 'p48', [l(-9), light, flip], 6)
 c481 '[convertstrid(2111864)]'
@@ -399,7 +399,7 @@ c27313 '[convertstrid(2111892)]'
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), dark], 5)
 $ update_portrait('sc038_01 2', 'p45', [l(-1), light, flip], 6)
 c451 '[convertstrid(2111893)]'
-play music "ed7518.ogg"
+$ play_music("ed7518.ogg")
 $ update_portrait('sc038_01 2', 'p45', [l(-1), dark, flip], 5)
 $ update_portrait('oca00_01 1', 'p2731', [r(-2), light], 6)
 c27313 '[convertstrid(2111894)]'
@@ -446,7 +446,7 @@ c27323 '[convertstrid(2111906)]'
 hide p45
 $ update_portrait('oca00_01 1', 'p2732', [r(-2), dark], 5)
 c25921 '[convertstrid(2111907)]'
-play music "ed7160.ogg"
+$ play_music("ed7160.ogg")
 $ update_portrait('sc039_01 5', 'p46', [l(-13), light, flip], 6)
 c461 '[convertstrid(2111908)]'
 $ update_portrait('sc039_01 5', 'p46', [l(-13), dark, flip], 5)

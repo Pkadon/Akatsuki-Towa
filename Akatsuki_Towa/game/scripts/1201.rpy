@@ -1,6 +1,6 @@
 label avg1201:
 
-play music "ED6100.ogg"
+$ play_music("ED6100.ogg")
 scene avg_bg_104
 $ update_narrator('c0')
 window show
@@ -78,7 +78,7 @@ scene avg_bg_104
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2107948)]'
-play music "ED6101.ogg"
+$ play_music("ED6101.ogg")
 scene avg_bg_023
 $ update_portrait('sc019_01 2', 'p27', [l(-18), light, flip], 6)
 $ update_narrator('c271')
@@ -178,7 +178,7 @@ scene avg_bg_064
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2107983)]'
-play music "ED6104.ogg"
+$ play_music("ED6104.ogg")
 scene avg_bg_023
 $ update_portrait('st009_01 1', 'p209', [l(-22), light, flip], 6)
 $ update_narrator('c2091')
@@ -194,7 +194,7 @@ scene avg_bg_027
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2107987)]'
-play music "ed7455.ogg"
+$ play_music("ed7455.ogg")
 scene avg_bg_080
 $ update_portrait('sc021_01 4', 'p29', [l(-17), light, flip], 6)
 $ update_narrator('c291')
@@ -265,7 +265,7 @@ $ update_portrait('sc021_01 5', 'p29', [l(-17), l_shake, light, flip], 6)
 c291 '[convertstrid(2108006)]'
 hide p29
 c25921 '[convertstrid(2108007)]' (what_size=(gui.text_size*1.2)) with shake
-play music "ED6102.ogg"
+$ play_music("ED6102.ogg")
 scene avg_bg_070
 $ update_narrator('c0')
 with fade
@@ -330,7 +330,7 @@ $ update_narrator('c391')
 with fade
 c391 '[convertstrid(2108026)]' (what_size=(gui.text_size*1.25)) with shake
 c0 '[convertstrid(2108027)]'
-play music "ED6103.ogg"
+$ play_music("ED6103.ogg")
 scene avg_bg_037
 $ update_narrator('c151')
 with fade
@@ -513,7 +513,7 @@ scene avg_bg_037
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(2108086)]'
-play music "ED6108.ogg"
+$ play_music("ED6108.ogg")
 scene avg_bg_034
 $ update_portrait('st041_01 1', 'p240', [l(-1), light, flip], 6)
 $ update_narrator('c2401')

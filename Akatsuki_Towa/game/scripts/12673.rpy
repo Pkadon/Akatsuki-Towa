@@ -1,6 +1,6 @@
 label avg12673:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_018
 $ update_narrator('c0')
 window show
@@ -142,7 +142,7 @@ c5053 '[convertstrid(1166840)]'
 c13701 '[convertstrid(1166841)]'
 c13701 '[convertstrid(1166842)]' with shake
 c11573 '[convertstrid(1166843)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 c13701 '[convertstrid(1166844)]'
 c11573 '[convertstrid(1166845)]'
 c13701 '[convertstrid(1166846)]'

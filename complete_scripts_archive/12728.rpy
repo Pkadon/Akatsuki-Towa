@@ -8,7 +8,7 @@ with fade_in
 c0 '[convertstrid(1171904)]'
 c0 '[convertstrid(1171905)]'
 c0 '[convertstrid(1171906)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 scene avg_bg_050
 $ update_narrator('c13')
 with fade

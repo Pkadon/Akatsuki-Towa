@@ -1,6 +1,6 @@
 label avg1229:
 
-play music "ed7150.ogg"
+$ play_music("ed7150.ogg")
 scene avg_bg_023
 $ update_narrator('c0')
 window show
@@ -198,7 +198,7 @@ c561 '[convertstrid(2111319)]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 5)
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2111320)]'
-play music "ed7516.ogg"
+$ play_music("ed7516.ogg")
 scene avg_bg_020
 $ update_narrator('c13')
 with fade
@@ -246,7 +246,7 @@ c13 '[convertstrid(2111334)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc013_01 4', 'p21', [l(-12), light, flip], 6)
 c211 '[convertstrid(2111335)]'
-play music "ed7151.ogg"
+$ play_music("ed7151.ogg")
 scene avg_bg_038
 $ update_narrator('c27281')
 with fade
@@ -267,7 +267,7 @@ stop music
 $ update_portrait('sc013_01 4', 'p21', [r_entrance(-12), light], 6)
 play sfx2 "other_7045.ogg"
 c213 '[convertstrid(2111348)]' (what_size=(gui.text_size*1.25)) with shake
-play music "ED6517.ogg"
+$ play_music("ED6517.ogg")
 $ update_portrait('sc013_01 4', 'p21', [r(-12), dark], 5)
 c27281 '[convertstrid(2111349)]' with shake
 $ update_portrait('sc013_01 4', 'p21', [r(-12), light], 6)
@@ -327,7 +327,7 @@ $ update_portrait('sc013_01 4', 'p21', [l(-12), light, flip], 6)
 c211 '[convertstrid(2111374)]'
 $ update_portrait('sc013_01 4', 'p21', [l(-12), dark, flip], 5)
 c27293 '[convertstrid(2111375)]'
-play music "ed7514.ogg"
+$ play_music("ed7514.ogg")
 $ update_portrait('sc013_01 1', 'p21', [l(-12), l_shake, light, flip], 6)
 c211 '[convertstrid(2111376)]'
 $ update_portrait('sc013_01 5', 'p21', [l(-12), light, flip], 6)

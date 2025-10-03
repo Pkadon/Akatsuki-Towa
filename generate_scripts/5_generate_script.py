@@ -144,7 +144,7 @@ class GameState:
 			if newbgm == None:
 				self.add_line('stop music\n')
 			else:
-				self.add_line(f'play music "{newbgm}"\n')
+				self.add_line(f'$ play_music("{newbgm}")\n')
 			self.bgm = newbgm
 			
 	def update_background(self, newbackground):

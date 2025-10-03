@@ -1,6 +1,6 @@
 label avg1194:
 
-play music "ed7111.ogg"
+$ play_music("ed7111.ogg")
 scene avg_bg_019
 $ update_portrait('occ04_01 21', 'p2627', [l(-5), light, flip], 6)
 $ update_narrator('c26271')
@@ -42,7 +42,7 @@ $ update_portrait('occ04_01 14', 'p2627', [l(-5), dark, flip], 5)
 c6433 '[convertstrid(2107467)]' (what_size=(gui.text_size*1.2)) with shake
 $ update_portrait('sca46_01 1', 'p2632', [r(-5), light], 6)
 c26323 '[convertstrid(2107468)]'
-play music "ed7101.ogg"
+$ play_music("ed7101.ogg")
 scene avg_bg_020
 $ update_narrator('c26293')
 with fade
@@ -157,7 +157,7 @@ $ update_portrait('scb38_01 2', 'p2629', [r(-1), r_shake, light], 6)
 c26293 '[convertstrid(2107502)]'
 $ update_portrait('scb38_01 4', 'p2629', [r(-1), light], 6)
 c26293 '[convertstrid(2107503)]'
-play music "ed7116.ogg"
+$ play_music("ed7116.ogg")
 hide p2628
 $ update_portrait('scb38_01 4', 'p2629', [r(-1), dark], 5)
 c26421 '[convertstrid(2107504)]' (what_size=(gui.text_size*1.2)) with shake
@@ -187,7 +187,7 @@ hide p2641
 play sfx2 "other_7045.ogg"
 c0 '[convertstrid(2107514)]'
 c26433 '[convertstrid(2107515)]'
-play music "ed7455.ogg"
+$ play_music("ed7455.ogg")
 c26461 '[convertstrid(2107516)]' (what_size=(gui.text_size*1.2)) with shake
 $ update_portrait('ocb03_01 17', 'p2628', [l(-6), light, flip], 6)
 c26281 '[convertstrid(2107517)]'
