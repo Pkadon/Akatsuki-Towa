@@ -828,11 +828,21 @@ screen preferences():
 
                 vbox:
 
-                    if config.has_music:
-                        label _("Music Volume")
+                    vbox:
+                        if renpy.variant('touch'): 
+                            spacing 5
 
-                        hbox:
-                            bar value Preference("music volume")
+                        vbox:
+                            label _("Music Volume")
+
+                            hbox:
+                                bar value Preference("music volume")
+
+                        vbox:
+                            xsize 600
+                            style_prefix "check"
+                            textbutton _("Cleanly Loop BGM {size=15}(takes effect on next track change){/size}"):
+                                action ToggleVariable("persistent.loop_bgm")
 
                     if config.has_sound:
 

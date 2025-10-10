@@ -24,5 +24,34 @@ init python:
             global narrator
             narrator = char_dict[char_id]
 
-    def play_music(filename, **qwargs):
-        renpy.music.play(filename, **qwargs)
+
+    # Used to make it possible to cleanly loop the music
+    # bgm_loop_dict is loaded in loadinfo.rpy from bgm.json
+    # persistent.loop_bgm is defined in options.rpy, under "Preference defaults"
+
+    def play_music(filename, start=None, to=None, loop=None, **qwargs):
+        if filename in bgm_loop_dict:
+            if persistent.loop_bgm:
+                entry = bgm_loop_dict[filename]
+
+                if entry['from'] and not start:
+                    start = entry["from"]
+                if entry['to'] and not to:
+                    to = entry["to"]
+                if entry['loop'] and not loop:
+                    loop = entry["loop"]
+
+        tag = '<'
+        if start:
+            tag += f' from {start}'
+        if to:
+            tag += f' to {to}'
+        if loop:
+            tag += f' loop {loop}'
+        else:
+            tag += f' loop 0.0'
+        tag += '>'
+
+        filename = tag + filename
+        renpy.music.play(filename, loop=True, **qwargs)
+        

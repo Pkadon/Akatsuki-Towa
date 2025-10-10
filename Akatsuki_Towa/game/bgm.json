@@ -1,0 +1,512 @@
+{
+    "ED6100.ogg": {
+        "from": null,
+        "to": 123.84834,
+        "loop": null
+    },
+    "ED6101.ogg": {
+        "from": null,
+        "to": 117.557528,
+        "loop": 18.82907
+    },
+    "ED6102.ogg": {
+        "from": null,
+        "to": 112.653,
+        "loop": 4.272
+    },
+    "ED6103.ogg": {
+        "from": null,
+        "to": null,
+        "loop": 20.921
+    },
+    "ED6104.ogg": {
+        "from": null,
+        "to": 192.516,
+        "loop": 19.695
+    },
+    "ED6105.ogg": {
+        "from": null,
+        "to": 176.820,
+        "loop": null
+    },
+    "ED6107.ogg": {
+        "from": null,
+        "to": 120.921,
+        "loop": 0.450
+    },
+    "ED6108.ogg": {
+        "from": null,
+        "to": 102.155,
+        "loop": 12.941
+    },
+    "ED6200.ogg": {
+        "from": null,
+        "to": 148.186826,
+        "loop": 4.1829475
+    },
+    "ED6202.ogg": {
+        "from": null,
+        "to": 65.864195,
+        "loop": 9.930475
+    },
+    "ED6300.ogg": {
+        "from": null,
+        "to": 107.907,
+        "loop": 0.505
+    },
+    "ED6301.ogg": {
+        "from": null,
+        "to": 103.551,
+        "loop": 19.145
+    },
+    "ED6302.ogg": {
+        "from": null,
+        "to": 113.128,
+        "loop": 10.531
+    },
+    "ED6303.ogg": {
+        "from": null,
+        "to": 116.8357375,
+        "loop": 7.917680
+    },
+    "ED6304.ogg": {
+        "from": null,
+        "to": 131.931,
+        "loop": 2.716
+    },
+    "ed6323.ogg": {
+        "from": null,
+        "to": 134.507,
+        "loop": 12.903
+    },
+    "ed6324.ogg": {
+        "from": null,
+        "to": 186.097233,
+        "loop": 12.101746
+    },
+    "ed6333.ogg": {
+        "from": null,
+        "to": 118.160,
+        "loop": 15.035
+    },
+    "ED6505.ogg": {
+        "from": null,
+        "to": 121.848,
+        "loop": 5.351
+    },
+    "ED6512.ogg": {
+        "from": null,
+        "to": 93.429,
+        "loop": 8.644
+    },
+    "ED6516.ogg": {
+        "from": null,
+        "to": 106.892,
+        "loop": 17.820
+    },
+    "ED6517.ogg": {
+        "from": null,
+        "to": null,
+        "loop": 12.304
+    },
+    "ED6518.ogg": {
+        "from": null,
+        "to": 99.98322,
+        "loop": 9.4716335
+    },
+    "ED6523.ogg": {
+        "from": null,
+        "to": 80.443,
+        "loop": 11.578
+    },
+    "ED6556.ogg": {
+        "from": null,
+        "to": 215.032,
+        "loop": 78.371
+    },
+    "ed6564.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed6565.ogg": {
+        "from": null,
+        "to": 232.3200665,
+        "loop": 70.426417
+    },
+    "ed6567.ogg": {
+        "from": null,
+        "to": 126.340,
+        "loop": 25.724
+    },
+    "ed6570.ogg": {
+        "from": null,
+        "to": 97.102,
+        "loop": 0.437
+    },
+    "ed6573.ogg": {
+        "from": null,
+        "to": 183.264490,
+        "loop": 3.264490
+    },
+    "ed7005.ogg": {
+        "from": null,
+        "to": 140.124354,
+        "loop": 68.774140
+    },
+    "ed7100.ogg": {
+        "from": null,
+        "to": 136.872789,
+        "loop": 20.735328
+    },
+    "ed7101.ogg": {
+        "from": null,
+        "to": 113.211,
+        "loop": 28.880
+    },
+    "ed7102.ogg": {
+        "from": null,
+        "to": 132.153,
+        "loop": 0.055
+    },
+    "ed7103.ogg": {
+        "from": null,
+        "to": 124.377,
+        "loop": 13.881
+    },
+    "ed7104.ogg": {
+        "from": null,
+        "to": 166.4778455,
+        "loop": 5.622278
+    },
+    "ed7105.ogg": {
+        "from": null,
+        "to": 123.200,
+        "loop": 5.345622
+    },
+    "ed7106.ogg": {
+        "from": null,
+        "to": 129.282,
+        "loop": 4.182
+    },
+    "ed7110.ogg": {
+        "from": null,
+        "to": 109.039,
+        "loop": 10.582
+    },
+    "ed7111.ogg": {
+        "from": null,
+        "to": 119.860658,
+        "loop": 16.279151
+    },
+    "ed7113.ogg": {
+        "from": null,
+        "to": 114.379,
+        "loop": 28.662
+    },
+    "ed7116.ogg": {
+        "from": null,
+        "to": 123.614,
+        "loop": 19.267
+    },
+    "ed7117.ogg": {
+        "from": null,
+        "to": 65.280454,
+        "loop": 7.420324
+    },
+    "ed7120.ogg": {
+        "from": null,
+        "to": 127.242,
+        "loop": 27.635
+    },
+    "ed7121.ogg": {
+        "from": null,
+        "to": 126.910,
+        "loop": 12.877
+    },
+    "ed7123.ogg": {
+        "from": null,
+        "to": 157.54721,
+        "loop": 9.95322
+    },
+    "ed7124.ogg": {
+        "from": null,
+        "to": 86.705941,
+        "loop": 0.069
+    },
+    "ed7126.ogg": {
+        "from": null,
+        "to": 107.409,
+        "loop": 5.287
+    },
+    "ed7150.ogg": {
+        "from": null,
+        "to": 116.714,
+        "loop": 10.610
+    },
+    "ed7151.ogg": {
+        "from": null,
+        "to": 83.961405,
+        "loop": 1.459274
+    },
+    "ed7160.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7161.ogg": {
+        "from": null,
+        "to": 121.032720,
+        "loop": 1.032585
+    },
+    "ed7162.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7200.ogg": {
+        "from": null,
+        "to": 136.283,
+        "loop": null
+    },
+    "ed7201.ogg": {
+        "from": null,
+        "to": 145.234,
+        "loop": 8.396
+    },
+    "ed7202.ogg": {
+        "from": null,
+        "to": 166.09995,
+        "loop": 4.657165
+    },
+    "ed7203.ogg": {
+        "from": null,
+        "to": 206.622,
+        "loop": 30.787
+    },
+    "ed7205.ogg": {
+        "from": null,
+        "to": 115.125,
+        "loop": 3.926
+    },
+    "ed7300.ogg": {
+        "from": null,
+        "to": 185.127,
+        "loop": 42.684
+    },
+    "ed7302.ogg": {
+        "from": null,
+        "to": 146.471,
+        "loop": 5.448
+    },
+    "ed7304.ogg": {
+        "from": null,
+        "to": 214.09955,
+        "loop": 24.50755
+    },
+    "ed7305.ogg": {
+        "from": null,
+        "to": 123.695,
+        "loop": 20.833
+    },
+    "ed7350.ogg": {
+        "from": null,
+        "to": 118.200,
+        "loop": 3.765
+    },
+    "ed7450.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7451.ogg": {
+        "from": null,
+        "to": 145.506554,
+        "loop": null
+    },
+    "ed7452.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7453.ogg": {
+        "from": null,
+        "to": 114.886,
+        "loop": 13.002
+    },
+    "ed7455.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7500.ogg": {
+        "from": null,
+        "to": 89.968,
+        "loop": 26.062
+    },
+    "ed7506.ogg": {
+        "from": null,
+        "to": 85.897,
+        "loop": 53.353
+    },
+    "ed7510.ogg": {
+        "from": null,
+        "to": 134.154,
+        "loop": 16.166
+    },
+    "ed7511.ogg": {
+        "from": null,
+        "to": 108.744,
+        "loop": 12.748
+    },
+    "ed7512.ogg": {
+        "from": null,
+        "to": 109.51445,
+        "loop": 9.00825
+    },
+    "ed7513.ogg": {
+        "from": null,
+        "to": 102.637007,
+        "loop": 0.232286
+    },
+    "ed7514.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7515.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7516.ogg": {
+        "from": null,
+        "to": 99.015,
+        "loop": 12.207
+    },
+    "ed7518.ogg": {
+        "from": null,
+        "to": 89.473,
+        "loop": 4.771
+    },
+    "ed7519.ogg": {
+        "from": null,
+        "to": 70.1266665,
+        "loop": 2.324648
+    },
+    "ed7522.ogg": {
+        "from": null,
+        "to": 93.623,
+        "loop": 12.264
+    },
+    "ed7523.ogg": {
+        "from": null,
+        "to": 140.109,
+        "loop": 0.948
+    },
+    "ed7526.ogg": {
+        "from": null,
+        "to": 106.373,
+        "loop": 0.470
+    },
+    "ed7527.ogg": {
+        "from": null,
+        "to": 223.979,
+        "loop": 5.803
+    },
+    "ed7534.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7544.ogg": {
+        "from": null,
+        "to": 235.848,
+        "loop": 0.585
+    },
+    "ed7550.ogg": {
+        "from": null,
+        "to": 82.221,
+        "loop": 19.471
+    },
+    "ed7551.ogg": {
+        "from": null,
+        "to": 159.677,
+        "loop": 1.309
+    },
+    "ed7561.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7562.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7564.ogg": {
+        "from": null,
+        "to": 107.128,
+        "loop": 0.308
+    },
+    "ed7565.ogg": {
+        "from": null,
+        "to": 102.569,
+        "loop": 2.566
+    },
+    "ed7566.ogg": {
+        "from": null,
+        "to": 110.472,
+        "loop": 4.858
+    },
+    "ed7567.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7569.ogg": {
+        "from": null,
+        "to": 98.990,
+        "loop": 2.063
+    },
+    "ed7571.ogg": {
+        "from": null,
+        "to": 186.196849,
+        "loop": 4.833014
+    },
+    "ed7580.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed7582.ogg": {
+        "from": null,
+        "to": 122.059,
+        "loop": 2.054
+    },
+    "ed7584.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed9997.ogg": {
+        "from": null,
+        "to": 108.915,
+        "loop": 25.353
+    },
+    "ed9998.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "ed9999.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    },
+    "mainsong.ogg": {
+        "from": null,
+        "to": null,
+        "loop": null
+    }
+}

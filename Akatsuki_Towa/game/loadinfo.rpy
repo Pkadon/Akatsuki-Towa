@@ -132,4 +132,13 @@ python early:
         textdict[1001682] = textdict[1001682].replace('プレストン司令', 'ホガース司令').replace('プレストン専務', 'ホガース常務')
     if 1001683 in textdict:
         textdict[1001683] = textdict[1001683].replace('ホガース局長', 'プレストン局長').replace('ホガース常務', 'プレストン専務')
+
+
+    #==============================================================================
+
+    #Load the list of loop points to use for looping the bgm
+
+    with renpy.open_file('bgm.json', encoding='utf-8') as txt:
+        bgm_loop_dict = json.load(txt)
+
 return

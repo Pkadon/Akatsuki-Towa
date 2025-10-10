@@ -78,6 +78,8 @@ default preferences.afm_time = 15
 
 default preferences.skip_unseen = True
 
+default persistent.loop_bgm = False
+
 ## Save directory ##############################################################
 ##
 ## Controls the platform-specific place Ren'Py will place the save files for
