@@ -113,7 +113,7 @@ screen episodelist():
             textbutton backtext:
                 style "backbutton"
                 text_style "backbutton_text"
-                action Hide("episodelist")
+                action [Hide("episodelist"), Return()]
 
             if not renpy.variant('touch'):
                 # "Jump" button
