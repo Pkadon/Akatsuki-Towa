@@ -844,15 +844,13 @@ screen preferences():
                             textbutton _("Cleanly Loop BGM {size=15}(takes effect on next track change){/size}"):
                                 action ToggleVariable("persistent.loop_bgm")
 
-                    if config.has_sound:
+                    label _("Sound Effect Volume")
 
-                        label _("Sound Effect Volume")
+                    hbox:
+                        bar value Preference("sound volume")
 
-                        hbox:
-                            bar value Preference("sound volume")
-
-                            if config.sample_sound:
-                                textbutton _("Test") action Play("sound", config.sample_sound)
+                        if config.sample_sound:
+                            textbutton _("Test") action Play("sound", config.sample_sound)
 
                     vbox:
                         if renpy.variant('touch'): 
@@ -872,21 +870,19 @@ screen preferences():
                                 action ToggleVariable("persistent.mute_typewriter")
 
 
-                    if config.has_voice:
-                        label _("Voice Volume")
+                    label _("Voice Volume")
 
-                        hbox:
-                            bar value Preference("voice volume")
+                    hbox:
+                        bar value Preference("voice volume")
 
-                            if config.sample_voice:
-                                textbutton _("Test") action Play("voice", config.sample_voice)
+                        if config.sample_voice:
+                            textbutton _("Test") action Play("voice", config.sample_voice)
 
-                    if config.has_music or config.has_sound or config.has_voice:
-                        null height gui.pref_spacing
+                    null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
-                            action Preference("all mute", "toggle")
-                            style "mute_all_button"
+                    textbutton _("Mute All"):
+                        action Preference("all mute", "toggle")
+                        style "mute_all_button"
 
 
 style pref_label is gui_label
