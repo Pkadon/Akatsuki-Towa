@@ -29,29 +29,29 @@ init python:
     # bgm_loop_dict is loaded in loadinfo.rpy from bgm.json
     # persistent.loop_bgm is defined in options.rpy, under "Preference defaults"
 
-    def play_music(filename, start=None, to=None, loop=None, **qwargs):
+    def play_music(filename, file_start=None, file_to=None, file_loop=None, loop=True, if_changed=True, **qwargs):
         if filename in bgm_loop_dict:
             if persistent.loop_bgm:
                 entry = bgm_loop_dict[filename]
 
-                if entry['from'] and not start:
-                    start = entry["from"]
-                if entry['to'] and not to:
-                    to = entry["to"]
-                if entry['loop'] and not loop:
-                    loop = entry["loop"]
+                if entry['from'] and not file_start:
+                    file_start = entry["from"]
+                if entry['to'] and not file_to:
+                    file_to = entry["to"]
+                if entry['loop'] and not file_loop:
+                    file_loop = entry["loop"]
 
         tag = '<'
-        if start:
-            tag += f' from {start}'
-        if to:
-            tag += f' to {to}'
-        if loop:
-            tag += f' loop {loop}'
+        if file_start:
+            tag += f' from {file_start}'
+        if file_to:
+            tag += f' to {file_to}'
+        if file_loop:
+            tag += f' loop {file_loop}'
         else:
             tag += f' loop 0.0'
-        tag += '>'
+        tag += ' >'
 
         filename = tag + filename
-        renpy.music.play(filename, loop=True, **qwargs)
+        renpy.music.play(filename, loop=loop, if_changed=if_changed, **qwargs)
         

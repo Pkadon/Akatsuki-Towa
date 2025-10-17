@@ -43,7 +43,7 @@ python:
     renpy.pause(1.0)
     renpy.music.stop()
 
-$ play_music(bgmname, start=(lencopy-4))
+$ play_music(bgmname, file_start=(lencopy-4))
 
 $ lencopy = 4
 show screen countdown_timer()
