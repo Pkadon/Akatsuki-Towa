@@ -2505,21 +2505,23 @@
                 ],
                 "scenes": [
                     {
-                        "name": "機密医療データの配達 1/2",
-                        "strID": 17453,
+                        "name": "機密医療データの配達 1/3",
+                        "strID": 71501,
+                        "add": " 1/3",
                         "infostrID": 3015,
                         "avgID": 10317
                     },
                     {
-                        "name": "機密医療データの配達 2/2",
-                        "info": "Extra Dialogue",
-                        "strID": 17454,
-                        "infostrID": "ex_2",
+                        "name": "機密医療データの配達 2/3",
+                        "strID": 71501,
+                        "add": " 2/3",
+                        "infostrID": 3403,
                         "avgID": 29048
                     },
                     {
-                        "name": "機密医療データの配達 2/2",
-                        "strID": 17454,
+                        "name": "機密医療データの配達 3/3",
+                        "strID": 71501,
+                        "add": " 3/3",
                         "infostrID": 3411,
                         "avgID": 10360
                     }
@@ -2573,27 +2575,24 @@
                 ],
                 "scenes": [
                     {
-                        "name": "日曜学校の講師(経済編) 1/4",
-                        "strID": 17459,
-                        "infostrID": 3108,
+                        "name": "日曜学校の講師(経済編) 1/3",
+                        "strID": 71576,
+                        "add": " 1/3",
+                        "infostrID": 3018,
                         "avgID": 10308
                     },
                     {
-                        "name": "日曜学校の講師(経済編) 2/4",
-                        "strID": 17460,
-                        "infostrID": 3108,
+                        "name": "日曜学校の講師(経済編) 2/3",
+                        "strID": 71576,
+                        "add": " 2/3",
+                        "infostrID": 3018,
                         "avgID": 12331
                     },
                     {
-                        "name": "日曜学校の講師(経済編) 3/4",
-                        "strID": 17461,
-                        "infostrID": 3108,
-                        "avgID": 12335
-                    },
-                    {
-                        "name": "日曜学校の講師(経済編) 4/4",
-                        "strID": 17462,
-                        "infostrID": 3108,
+                        "name": "日曜学校の講師(経済編) 3/3",
+                        "strID": 71576,
+                        "add": " 3/3",
+                        "infostrID": 3018,
                         "avgID": 12336
                     }
                 ]
@@ -2606,46 +2605,60 @@
                 ],
                 "scenes": [
                     {
-                        "name": "防空訓練(2) 1/7",
-                        "strID": 17409,
+                        "name": "防空訓練(2) 1/8",
+                        "strID": 61526,
+                        "add": " 1/8",
                         "infostrID": 3124,
                         "avgID": 10319
                     },
                     {
-                        "name": "防空訓練(2) 2/7",
-                        "strID": 17410,
+                        "name": "防空訓練(2) 2/8",
+                        "strID": 61526,
+                        "add": " 2/8",
                         "infostrID": 3015,
                         "avgID": 10320
                     },
                     {
-                        "name": "防空訓練(2) 3/7",
-                        "strID": 17411,
-                        "infostrID": 3106,
+                        "name": "防空訓練(2) 3/8",
+                        "strID": 61526,
+                        "add": " 3/8",
+                        "infostrID": 3014,
                         "avgID": 10323
                     },
                     {
-                        "name": "防空訓練(2) 4/7",
-                        "strID": 17412,
+                        "name": "防空訓練(2) 4/8",
+                        "strID": 61526,
+                        "add": " 4/8",
                         "infostrID": 3017,
                         "avgID": 10325
                     },
                     {
-                        "name": "防空訓練(2) 5/7",
-                        "strID": 17413,
-                        "infostrID": 3106,
+                        "name": "防空訓練(2) 5/8",
+                        "strID": 61526,
+                        "add": " 5/8",
+                        "infostrID": 3014,
                         "avgID": 10318
                     },
                     {
-                        "name": "防空訓練(2) 6/7",
-                        "strID": 17414,
+                        "name": "防空訓練(2) 6/8",
+                        "strID": 61526,
+                        "add": " 6/8",
                         "infostrID": 3105,
                         "avgID": 10329
                     },
                     {
-                        "name": "防空訓練(2) 7/7",
-                        "strID": 17415,
+                        "name": "防空訓練(2) 7/8",
+                        "strID": 61526,
+                        "add": " 7/8",
                         "infostrID": 3112,
                         "avgID": 10331
+                    },
+                    {
+                        "name": "防空訓練(2) 8/8",
+                        "strID": 61526,
+                        "add": " 8/8",
+                        "infostrID": 3101,
+                        "avgID": 29047
                     }
                 ]
             },
@@ -2659,7 +2672,7 @@
                     {
                         "name": "偽チケット詐欺事件捜査記録 1/2",
                         "strID": 17463,
-                        "infostrID": 3124,
+                        "infostrID": 3026,
                         "avgID": 12301
                     },
                     {
@@ -2787,73 +2800,56 @@
                 ],
                 "scenes": [
                     {
-                        "name": "防空訓練(3) 1/10",
-                        "info": "Extra Dialogue",
-                        "strID": 61551,
-                        "add": " 1/10",
-                        "infostrID": "ex_2",
-                        "avgID": 29047
-                    },
-                    {
-                        "name": "防空訓練(3) 2/10",
-                        "strID": 61551,
-                        "add": " 2/10",
+                        "name": "防空訓練(3) 1/9",
+                        "strID": 17416,
                         "infostrID": 3026,
                         "avgID": 10335
                     },
                     {
-                        "name": "防空訓練(3) 3/10",
-                        "strID": 61551,
-                        "add": " 3/10",
+                        "name": "防空訓練(3) 2/9",
+                        "strID": 17417,
                         "infostrID": 3026,
                         "avgID": 10341
                     },
                     {
-                        "name": "防空訓練(3) 4/10",
-                        "strID": 61551,
-                        "add": " 4/10",
+                        "name": "防空訓練(3) 3/9",
+                        "strID": 17418,
                         "infostrID": 3159,
                         "avgID": 10345
                     },
                     {
-                        "name": "防空訓練(3) 5/10",
-                        "strID": 61551,
-                        "add": " 5/10",
+                        "name": "防空訓練(3) 4/9",
+                        "strID": 17419,
                         "infostrID": 3159,
                         "avgID": 10346
                     },
                     {
-                        "name": "防空訓練(3) 6/10",
-                        "strID": 61551,
-                        "add": " 6/10",
+                        "name": "防空訓練(3) 5/9",
+                        "strID": 17420,
                         "infostrID": 3159,
                         "avgID": 10347
                     },
                     {
-                        "name": "防空訓練(3) 7/10",
-                        "strID": 61551,
-                        "add": " 7/10",
+                        "name": "防空訓練(3) 6/9",
+                        "strID": 17421,
                         "infostrID": 3159,
                         "avgID": 10348
                     },
                     {
-                        "name": "防空訓練(3) 8/10",
-                        "strID": 61551,
-                        "add": " 8/10",
+                        "name": "防空訓練(3) 7/9",
+                        "strID": 17422,
                         "infostrID": 3015,
                         "avgID": 10349
                     },
                     {
-                        "name": "防空訓練(3) 9/10",
-                        "strID": 61551,
-                        "add": " 9/10",
+                        "name": "防空訓練(3) 8/9",
+                        "strID": 17423,
                         "infostrID": 3162,
                         "avgID": 10350
                     },
                     {
-                        "name": "防空訓練(3) 10/10",
-                        "strID": 61551,
-                        "add": " 10/10",
+                        "name": "防空訓練(3) 9/9",
+                        "strID": 17424,
                         "infostrID": 3156,
                         "avgID": 10351
                     }
@@ -2908,7 +2904,7 @@
                     {
                         "name": "鍵の捜索依頼 1/3",
                         "strID": 17483,
-                        "infostrID": 3404,
+                        "infostrID": 3402,
                         "avgID": 12370
                     },
                     {
@@ -2992,7 +2988,7 @@
                     {
                         "name": "医療機器の配達 2/4",
                         "strID": 17487,
-                        "infostrID": 3026,
+                        "infostrID": 3402,
                         "avgID": 12352
                     },
                     {
@@ -3064,19 +3060,19 @@
                     {
                         "name": "麻薬密売調査(1) 2/6",
                         "strID": 17438,
-                        "infostrID": 3403,
+                        "infostrID": 3412,
                         "avgID": 10382
                     },
                     {
                         "name": "麻薬密売調査(1) 3/6",
                         "strID": 17439,
-                        "infostrID": 3412,
+                        "infostrID": 3410,
                         "avgID": 10385
                     },
                     {
                         "name": "麻薬密売調査(1) 4/6",
                         "strID": 17440,
-                        "infostrID": 3410,
+                        "infostrID": 3403,
                         "avgID": 10387
                     },
                     {
