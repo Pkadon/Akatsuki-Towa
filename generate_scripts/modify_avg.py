@@ -1194,5 +1194,151 @@ def make_edits(script_json, avgID):
 				('backgrounds', {'id': 71, 'start': 1, 'end': None})
 			)
 
+################################################################################
+#Chapter 3
+	#機密医療データの配達
+	#1/3
+	elif avgID == '10317':
+		#bgm is missing at the beginning
+		#Add the Ursula Hospital music to the first 3 frames
+		insert_schedule(script_json,
+			('bgm', {'id': 105, 'start': 1, 'end': 3})
+		)
+	#2/3 (extra dialogue)
+	elif avgID == '29048':
+		#Add the Remiferia bgm
+		#Add Ardent Downtown background
+		insert_schedule(script_json,
+			('bgm', {'id': 6, 'start': 1, 'end': None}),
+			('backgrounds', {'id': 49, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'right': [1]
+		}, mode='speakers')
+		
+	#防空訓練(2) 8/8
+	elif avgID == '29047':
+		#Add crossbell plaza background and bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 101, 'start': 1, 'end': None}),
+			('backgrounds', {'id': 14, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'right': [1]
+		}, mode='speakers')
+		
+	#行方不明の学芸員 
+	#3/9
+	elif avgID == '22312':
+		#Add music and background to get it in line with the scenes around it
+		insert_schedule(script_json,
+			('bgm', {'id': 150, 'start': 1, 'end': None}),
+			('backgrounds', {'id': 51, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'right': [1]
+		}, mode='speakers')
+	#6/9
+	elif avgID == '22316':
+		#Add music and background to get it in line with the scenes around it
+		insert_schedule(script_json,
+			('bgm', {'id': 150, 'start': 1, 'end': None}),
+			('backgrounds', {'id': 52, 'start': 1, 'end': None})
+		)
+		
+	#レミフェリアへ 2/5
+	elif avgID == '10353':
+		#Fix Ainsel background (for some reason they alternate between the two different ones)
+		insert_schedule(script_json,
+			('backgrounds', {'id': 1, 'start': 21, 'end': 63})
+		)
+		
+	#鍵の捜索依頼 2/3
+	elif avgID == '12371':
+		#Add a background for Ardent Police Headquarters
+		#(it's supposed to be a reception desk, but whatever...)
+		insert_schedule(script_json,
+			('backgrounds', {'id': 74, 'start': 1, 'end': None})
+		)
+		
+	#地下遺跡の落し物捜索 2/5, 3/5, 4/5
+	elif avgID in ['22379', '22380', '22381']:
+		#Add a cave background
+		#not quite happy with this.  it's an underground ruin, but it's the closest choice there was
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+		#2/5
+		if avgID == '22379':
+			#Add charpos to 
+			add_charpos(script_json, {
+				'left': [2],
+				'right': [1]
+			}, mode='speakers')
+			#Add effects to 2/5
+			add_effects(script_json, {
+				1: [2],
+				202: [3]
+			})
+		#3/5
+		elif avgID == '22380':
+			#Add charpos to 3/5
+			add_charpos(script_json, {
+				'left': [2, 4],
+				'right': [1, 3]
+			}, mode='speakers')
+			#Add effects to 2/5
+			add_effects(script_json, {
+				202: [4]
+			})
+			
+	#導力灯の交換作業 1/2, 2/2
+	elif avgID in ['22387', '22388']:
+		#Add a highway background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': None})
+		)
+		#1/2
+		if avgID == '22387':
+			#Add charpos to 1/2
+			add_charpos(script_json, {
+				'left': [1, 3],
+				'right': [0, 2, 4, 5]
+			}, mode='frames')
+			#Add effects to 1/2
+			add_effects(script_json, {
+				202: [1]
+			})
+		#2/2
+		elif avgID == '22388':
+			#Add charpos to 2/2
+			add_charpos(script_json, {
+				'left': [1, 3, 6, 8],
+				'right': [0, 2, 4, 5, 7, 9]
+			}, mode='frames')
+			
+	#海浜公園の手配魔獣 2/3 Choices
+	elif avgID in ['12375', '12376']:
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 6, 'start': 1, 'end': None})
+		)
+		
+	#麻薬密売調査(2) 2/10
+	elif avgID == '20393':
+		#Add bgm, background
+		insert_schedule(script_json,
+			('bgm', {'id': 119, 'start': 1, 'end': None}),
+			('backgrounds', {'id': 52, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'right': [0]
+		}, mode='frames')
+		
+
 ###########################################################################
 	return script_json

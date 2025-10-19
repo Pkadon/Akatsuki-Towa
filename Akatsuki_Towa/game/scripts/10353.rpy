@@ -79,10 +79,8 @@ c10273 '[convertstrid(1131597)]' with shake
 c10283 '[convertstrid(1131598)]'
 $ update_portrait('oc004_01 12', 'p4', [l(-5), l_shake, light, flip], 6)
 c41 '[convertstrid(1131599)]'
-scene avg_bg_002
+hide p4
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)
-$ update_narrator('c31')
-with fade
 c31 '[convertstrid(1131600)]'
 $ update_portrait('oc003_01 8', 'p3', [l(-6), dark, flip], 5)
 $ update_portrait('oc002_01 5', 'p2', [r_midback(-3), light], 6)
@@ -110,11 +108,10 @@ c13 '[convertstrid(1131607)]'
 $ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 7', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1131608)]'
-scene avg_bg_001
-$ update_narrator('c551')
-with fade
+hide p4
 $ update_portrait('sc048_01 1', 'p55', [l_entrance(-7), light, flip], 6)
 c551 '[convertstrid(1131609)]'
+hide p1
 $ update_portrait('sc048_01 1', 'p55', [l(-7), dark, flip], 5)
 $ update_portrait('oc002_01 6', 'p2', [r(-3), light], 6)
 play sfxvoice "avg_vocal_ch08.ogg"
