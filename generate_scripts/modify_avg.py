@@ -229,7 +229,7 @@ def make_edits(script_json, avgID):
 	#Remove an extra redundant line - both lines are spoken by the same person, and say the same thing.
 	#It is not a mis-set speaker name, because there is a third line that says the same thing again, spoken by the other person.
 	#This could also be changed to remove line 15 instead, if preferred.
-	elif avgID == '12038':
+	if avgID == '12038':
 		delete_frame(script_json, 14)
 		
 	#エルベ離宮への荷物配達 4/4
@@ -292,6 +292,17 @@ def make_edits(script_json, avgID):
 	#Add a ClearModle
 	elif avgID == '10122':
 		script_json['dialogueFrames'][13]['isClearModle'] = 1
+		
+	#麻薬密売調査(2) 3/10
+	#Line 33, is originally said by "?????", but it should instead be said by Joachim.
+	#The test is copy-pasted from Joachim's Zero no Kiseki dialogue, and modified to have him use keigo.
+	#????? also does not use keigo in the same scene, only Joachim does.
+	elif avgID == '10394':
+		#Change the speaker's name
+		script_json['dialogueFrames'][32]['character']['speaker'] = 1049
+		#Change the namebox position
+		script_json['dialogueFrames'][32]['charPos'] = 3
+		
 
 	#Blue Air 5/7
 	#This one was all kinds of messed up.
@@ -317,7 +328,7 @@ def make_edits(script_json, avgID):
 #Prologue
 
 	#遊撃士の認定試験 4/12, 5/12, 6/12, 7/12, 8/12
-	elif avgID in ['20003', '20142', '29010', '20004', '20005']:
+	if avgID in ['20003', '20142', '29010', '20004', '20005']:
 		#Add geofront background
 		insert_schedule(script_json,
 			('backgrounds', {'id': 71, 'start': 1, 'end': None})
@@ -1247,6 +1258,20 @@ def make_edits(script_json, avgID):
 		insert_schedule(script_json,
 			('bgm', {'id': 150, 'start': 1, 'end': None}),
 			('backgrounds', {'id': 52, 'start': 1, 'end': None})
+		)
+		
+	#防空訓練(3) 5/9
+	
+	#There were two different cutscene files for 防空訓練(3) 5/9.
+	#10348 is the one that plays when playing the game
+	#10347 is longer, and was accessible from the replay menu in the original game
+	#So I will use 10347 for its extra lines, but modify it to otherwise match 10348
+	elif avgID == '10347':
+		#Change this line's text size to default 20, it is inexplicably large
+		script_json['dialogueFrames'][27]['contentSize'] = 20
+		#Change bgm to match avg 10348
+		insert_schedule(script_json,
+			('bgm', {'id': 167, 'start': 1, 'end': None})
 		)
 		
 	#レミフェリアへ 2/5
