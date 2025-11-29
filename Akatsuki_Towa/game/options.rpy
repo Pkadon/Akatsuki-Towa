@@ -78,7 +78,7 @@ default preferences.afm_time = 15
 
 default preferences.skip_unseen = True
 
-default persistent.loop_bgm = False
+default persistent.loop_bgm = True
 
 ## Save directory ##############################################################
 ##
