@@ -2897,33 +2897,6 @@
                 ]
             },
             {
-                "name": "鍵の捜索依頼",
-                "strID": 71676,
-                "questID": [
-                    458
-                ],
-                "scenes": [
-                    {
-                        "name": "鍵の捜索依頼 1/3",
-                        "strID": 17483,
-                        "infostrID": 3402,
-                        "avgID": 12370
-                    },
-                    {
-                        "name": "鍵の捜索依頼 2/3",
-                        "strID": 17484,
-                        "infostrID": 3409,
-                        "avgID": 12371
-                    },
-                    {
-                        "name": "鍵の捜索依頼 3/3",
-                        "strID": 17485,
-                        "infostrID": 3402,
-                        "avgID": 12372
-                    }
-                ]
-            },
-            {
                 "name": "アーデント支部の応援要請",
                 "strID": 61601,
                 "questID": [
@@ -2971,6 +2944,33 @@
                         "strID": 17436,
                         "infostrID": 3400,
                         "avgID": 10368
+                    }
+                ]
+            },
+            {
+                "name": "鍵の捜索依頼",
+                "strID": 71676,
+                "questID": [
+                    458
+                ],
+                "scenes": [
+                    {
+                        "name": "鍵の捜索依頼 1/3",
+                        "strID": 17483,
+                        "infostrID": 3402,
+                        "avgID": 12370
+                    },
+                    {
+                        "name": "鍵の捜索依頼 2/3",
+                        "strID": 17484,
+                        "infostrID": 3409,
+                        "avgID": 12371
+                    },
+                    {
+                        "name": "鍵の捜索依頼 3/3",
+                        "strID": 17485,
+                        "infostrID": 3402,
+                        "avgID": 12372
                     }
                 ]
             },
