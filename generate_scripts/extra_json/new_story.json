@@ -2472,6 +2472,13 @@
                         "avgID": 10304
                     },
                     {
+                        "name": "防空訓練(1) ~SP",
+                        "strID": 61501,
+                        "add": " ~SP",
+                        "infostrID": 3108,
+                        "avgID": 10303
+                    },
+                    {
                         "name": "防空訓練(1) 3/6",
                         "strID": 17403,
                         "infostrID": 3116,
@@ -2552,6 +2559,13 @@
                         "strID": 17456,
                         "infostrID": 3110,
                         "avgID": 12341
+                    },
+                    {
+                        "name": "アルモリカ村の魔獣退治 ~SP",
+                        "strID": 71551,
+                        "add": " ~SP",
+                        "infostrID": 3110,
+                        "avgID": 10315
                     },
                     {
                         "name": "アルモリカ村の魔獣退治 3/4",
@@ -3205,25 +3219,6 @@
                         "strID": 17452,
                         "infostrID": 3400,
                         "avgID": 10402
-                    }
-                ]
-            },
-            {
-                "name": "Extra/Unused",
-                "strID": "ex_3",
-                "questID": [],
-                "scenes": [
-                    {
-                        "name": "スラッシュ/ヒューイ",
-                        "strID": "ex_104",
-                        "infostrID": 3108,
-                        "avgID": 10303
-                    },
-                    {
-                        "name": "リン/エオリア",
-                        "strID": "ex_105",
-                        "infostrID": 3110,
-                        "avgID": 10315
                     }
                 ]
             }
