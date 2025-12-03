@@ -257,11 +257,9 @@ hide p3
 c10573 '[convertstrid(1132834)]'
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1132835)]'
-hide p55
-$ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
-$ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
-c21 '[convertstrid(1132836)]'
 hide p1
-$ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 5)
+$ update_portrait('oc002_01 12', 'p2', [r(-3), light], 6)
+c23 '[convertstrid(1132836)]'
+hide p2
 c10573 '[convertstrid(1132837)]' (what_size=(gui.text_size*1.5)) with shake
 return

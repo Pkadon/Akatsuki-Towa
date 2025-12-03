@@ -1352,7 +1352,8 @@ def make_edits(script_json, avgID):
 			('bgm', {'id': 6, 'start': 1, 'end': None})
 		)
 		
-	#麻薬密売調査(2) 2/10
+	#麻薬密売調査(2) 
+	#2/10
 	elif avgID == '20393':
 		#Add bgm, background
 		insert_schedule(script_json,
@@ -1363,6 +1364,14 @@ def make_edits(script_json, avgID):
 		add_charpos(script_json, {
 			'right': [0]
 		}, mode='frames')
+	#8/10
+	elif avgID == '10399':
+		#Move Chloe to appear on the right side of the screen at the end
+		#to try to clean up the Chloe/Nacht line weirdness
+		#where the "Chloe/Nacht" role hides Nacht's portrait but leaves Chloe's on the left
+		script_json['dialogueFrames'][90]['charPos'] = 3
+		script_json['dialogueFrames'][90]['character']['mirror'] = 0
+		
 		
 
 ###########################################################################
