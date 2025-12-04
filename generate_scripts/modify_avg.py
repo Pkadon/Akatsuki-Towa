@@ -1372,7 +1372,60 @@ def make_edits(script_json, avgID):
 		script_json['dialogueFrames'][90]['charPos'] = 3
 		script_json['dialogueFrames'][90]['character']['mirror'] = 0
 		
+################################################################################
+#Chapter 4
+
+	#空き家の定期点検&安全確認 4/6, 5/6
+	elif avgID in ['12410', '12411']:
+		#Add abandoned apartment background to both
+		insert_schedule(script_json,
+			('backgrounds', {'id': 212, 'start': 1, 'end': None})
+		)
 		
+	#クロスベルへの帰還 2/2
+	elif avgID == '10406':
+		insert_schedule(script_json,
+		#Add memory overlay to the Arios flashback
+			('memory', {'id': 1, 'start': 7, 'end': 10}),
+		#Add some kind of sky background for when they're out on the ship's deck
+			('backgrounds', {'id': 520, 'start': 45, 'end': None})
+		)
+	
+	#緊急！行方不明の村人 2/2
+	elif avgID == '12432':
+		insert_schedule(script_json,
+		#Add highway background to match the background used in 続・行方不明の村人
+			('backgrounds', {'id': 10, 'start': 1, 'end': 45}),
+		#Add a black screen to the last narration line
+			('backgrounds', {'id': 70, 'start': 46, 'end': None})
+		)
+		
+	#《エルフェンテック》社の危機(3) 6/9, 7/9, 8/9, 9/9 + choices x3
+	elif avgID in ['10425', '10426', '10427', '10428', '10429', '10430', '10431']:
+		#Add abandoned apartment background to all
+		insert_schedule(script_json,
+			('backgrounds', {'id': 212, 'start': 1, 'end': None})
+		)
+		
+	#影でうごめく陰謀(1) 3/4, 4/4 + choices
+	#10434, 10435, 10436, 10437, 10438
+	#never found a suitable background to use for the Moon Temple
+	
+	#影でうごめく陰謀(2) 1/2, 2/2
+	#10439, 10440
+	#never found a suitable background to use for the Moon Temple
+	
+	#情報官サーシャ(1) 3/6, 4/6, 5/6, 6/6
+	elif avgID in ['12473', '12474', '12475', '12476']:
+		#Add abandoned apartment background to all
+		insert_schedule(script_json,
+			('backgrounds', {'id': 212, 'start': 1, 'end': None})
+		)
+		
+	#情報官サーシャ(2) 1/4, 2/4, 3/4, 4/4
+	#12477, 12478, 12479, 12480
+	#never found a suitable background to use for the Moon Temple
+	
 
 ###########################################################################
 	return script_json

@@ -20,6 +20,7 @@ c13 '[convertstrid(1140338)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1140339)]'
 scene avg_bg_001
+show memoryoverlay zorder 2
 $ update_portrait('sc048_01 4', 'p55', [l(-7), light, flip], 6)
 $ update_narrator('c551')
 with fade
@@ -111,6 +112,9 @@ c13 '[convertstrid(1140376)]'
 hide p1
 play sfx2 "other_7046.ogg"
 c0 '[convertstrid(1140377)]'
+scene avg_bg_520
+$ update_narrator('c21')
+with fade
 $ update_portrait('oc002_01 22', 'p2', [l_entrance(-3), light, flip], 6)
 c21 '[convertstrid(1140378)]'
 $ update_portrait('oc002_01 23', 'p2', [l(-3), light, flip], 6)
