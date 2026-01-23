@@ -14,9 +14,8 @@ python early:
 
                 try: textid = int(row[idkey])
                 except: textid = row[idkey]
-                textstring = str(row[stringkey])
 
-                textstring = "\n".join(textstring.splitlines())
+                textstring = str(row[stringkey]).replace('\r', '')
                     
                 d[textid] = textstring
         return d
@@ -50,8 +49,6 @@ python early:
                     textstring = str(row[stringpos])
                 else:
                     textstring = ''
-
-                textstring = "\n".join(textstring.splitlines())
 
                 d[textid] = textstring
         return d
@@ -136,14 +133,6 @@ python early:
     #Dialogue in avg 10415 (《エルフェンテック》社の危機(2) 1/2) missing a line break
     if 1140827 in textdict:
         textdict[1140827] = textdict[1140827].replace('。', '。\n　')
-
-    #Remove "extra" linebreak from these two lines in avg 10445 (奇襲！三カ国会談(2) 2/2)
-    #It should be noted that the incorrect linebreak was originally written as a "\r"
-    #I am targeting \n's here, because all linebreaks were changed to \n when the file was loaded
-    if 1141937 in textdict:
-        textdict[1141937] = textdict[1141937].replace('、\n', '')
-    if 1141990 in textdict:
-        textdict[1141990] = textdict[1141990].replace('と\n', '')
 
     #==============================================================================
 
