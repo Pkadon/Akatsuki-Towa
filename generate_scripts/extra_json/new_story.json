@@ -3239,7 +3239,7 @@
                         "name": "日曜学校の防犯指導 1/3",
                         "strID": 72001,
                         "add": " 1/3",
-                        "infostrID": 3406,
+                        "infostrID": 3400,
                         "avgID": 12401
                     },
                     {
@@ -3268,7 +3268,7 @@
                     {
                         "name": "空き家の定期点検&安全確認 1/6",
                         "strID": 17554,
-                        "infostrID": 3403,
+                        "infostrID": 3400,
                         "avgID": 12407
                     },
                     {
@@ -3314,7 +3314,7 @@
                         "name": "至高のジェラート 1/4",
                         "strID": 72051,
                         "add": " 1/4",
-                        "infostrID": 3403,
+                        "infostrID": 3400,
                         "avgID": 12413
                     },
                     {
@@ -3328,7 +3328,7 @@
                         "name": "至高のジェラート 3/4",
                         "strID": 72051,
                         "add": " 3/4",
-                        "infostrID": 2135,
+                        "infostrID": 2120,
                         "avgID": 12415
                     },
                     {
@@ -3339,11 +3339,21 @@
                         "avgID": 12419
                     },
                     {
+                        "name": "",
+                        "strID": null,
+                        "avgID": 0
+                    },
+                    {
                         "name": "至高のジェラート 4/4 #2",
                         "strID": 72051,
                         "add": " 4/4 #2",
                         "infostrID": 3452,
                         "avgID": 12420
+                    },
+                    {
+                        "name": "",
+                        "strID": null,
+                        "avgID": 0
                     },
                     {
                         "name": "至高のジェラート 4/4 #3",
@@ -3638,28 +3648,28 @@
                         "name": "《エルフェンテック》社の危機(3) 6/9",
                         "strID": 62076,
                         "add": " 6/9",
-                        "infostrID": 3108,
+                        "infostrID": 611816,
                         "avgID": 10425
                     },
                     {
                         "name": "《エルフェンテック》社の危機(3) 7/9",
                         "strID": 62076,
                         "add": " 7/9",
-                        "infostrID": 3108,
+                        "infostrID": 611816,
                         "avgID": 10426
                     },
                     {
                         "name": "《エルフェンテック》社の危機(3) 8/9",
                         "strID": 62076,
                         "add": " 8/9",
-                        "infostrID": 3108,
+                        "infostrID": 611816,
                         "avgID": 10427
                     },
                     {
                         "name": "《エルフェンテック》社の危機(3) 9/9",
                         "strID": 62076,
                         "add": " 9/9",
-                        "infostrID": 3108,
+                        "infostrID": 611816,
                         "avgID": 10428
                     }
                 ]
@@ -3737,7 +3747,7 @@
                     {
                         "name": "奇妙な地図 5/9",
                         "strID": 17593,
-                        "infostrID": 611805,
+                        "infostrID": 3170,
                         "avgID": 12460
                     },
                     {
@@ -3782,7 +3792,7 @@
                     {
                         "name": "三カ国会談 2/2",
                         "strID": 17599,
-                        "infostrID": 3023,
+                        "infostrID": 3022,
                         "avgID": 12466
                     }
                 ]
