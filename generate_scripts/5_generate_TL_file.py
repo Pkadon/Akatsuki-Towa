@@ -14,7 +14,12 @@ def jsonloader(filepath, idkey, stringkey):
 	with open(filepath, 'r', encoding='utf-8') as txt:
 		text_json = json.load(txt)
 		for i in range(0, len(text_json['_rows'])):
-			d[text_json['_rows'][i][idkey]] = text_json['_rows'][i][stringkey]
+			row = text_json['_rows'][i]
+
+			id = row[idkey]
+			text = row[stringkey].replace('\r', '')
+
+			d[id] = text
 	return d
 
 
