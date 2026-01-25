@@ -95,7 +95,8 @@ c13 '[convertstrid(1004739)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc041_01 1', 'p48', [l(-9), light, flip], 6)
 c481 '[convertstrid(1004740)]'
-hide p48
-hide p1
+scene avg_bg_070
+$ update_narrator('c0')
+with fade
 c0 '[convertstrid(1004741)]'
 return

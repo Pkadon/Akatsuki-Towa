@@ -82,7 +82,8 @@ c10451 '[convertstrid(1142627)]'
 hide p1045
 $ update_portrait('uc003_04 1', 'p1046', [l(-14), light, flip], 6)
 c10461 '[convertstrid(1142628)]'
-hide p1046
-hide p1
+scene avg_bg_070
+$ update_narrator('c0')
+with fade
 c0 '[convertstrid(1142629)]'
 return

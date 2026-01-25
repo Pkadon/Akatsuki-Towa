@@ -895,9 +895,11 @@ def make_edits(script_json, avgID):
 	#爆弾の捜索（3）
 	#7/9
 	elif avgID == '20066':
-		#Add grancel street background
 		insert_schedule(script_json,
-			('backgrounds', {'id': 27, 'start': 1, 'end': None})
+			#Add a black background for the narration at the beginning
+			('backgrounds', {'id': 70, 'start': 1, 'end': 4}),
+			#Add grancel street background
+			('backgrounds', {'id': 27, 'start': 5, 'end': None})
 		)
 		#Add charpos
 		add_charpos(script_json, {
@@ -943,7 +945,7 @@ def make_edits(script_json, avgID):
 		)
 	
 		if avgID == '20081':
-			#Add bgm to 4/15
+			#Add geofront bgm to 4/15
 			insert_schedule(script_json,
 				('bgm', {'id': 19, 'start': 1, 'end': None})
 			)
@@ -981,9 +983,11 @@ def make_edits(script_json, avgID):
 		}, mode='speakers')
 	#14/15
 	elif avgID == '20096':
-		#Add crossbell plaza background
 		insert_schedule(script_json,
-			('backgrounds', {'id': 14, 'start': 1, 'end': None})
+			#Add crossbell plaza background
+			('backgrounds', {'id': 14, 'start': 1, 'end': 31}),
+			#Add a black background for the ending narration
+			('backgrounds', {'id': 70, 'start': 32, 'end': 32})
 		)
 	
 	#ツァイス支部の応援要請(2)
@@ -1381,7 +1385,12 @@ def make_edits(script_json, avgID):
 		insert_schedule(script_json,
 			('backgrounds', {'id': 212, 'start': 1, 'end': None})
 		)
-		
+		if avgID == '12411':
+			#Add a black background for 5/6's ending narration
+			insert_schedule(script_json,
+				('backgrounds', {'id': 70, 'start': 26, 'end': 26})
+			)
+			
 	#クロスベルへの帰還 2/2
 	elif avgID == '10406':
 		insert_schedule(script_json,

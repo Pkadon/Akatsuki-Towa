@@ -1,7 +1,7 @@
 label avg20066:
 
 $ play_music("ED6104.ogg")
-scene avg_bg_027
+scene avg_bg_070
 $ update_narrator('c0')
 window show
 with fade_in
@@ -9,7 +9,10 @@ c0 '[convertstrid(1003452)]'
 c0 '[convertstrid(1003453)]'
 c0 '[convertstrid(1003454)]'
 c0 '[convertstrid(1003455)]'
+scene avg_bg_027
 $ update_portrait('oc002_01 7', 'p2', [l(-3), light, flip], 6)
+$ update_narrator('c21')
+with fade
 play sfxvoice "avg_vocal_ch31.ogg"
 c21 '[convertstrid(1003456)]'
 $ update_portrait('oc002_01 7', 'p2', [l(-3), dark, flip], 5)
