@@ -3651,7 +3651,7 @@ layeredimage st041_01:
          Crop((0,0,410,504), "st041_01_avg.png")
     group face auto:
         xpos 112
-        ypos 85
+        ypos 86
         attribute 1:
             Crop((0,506,86,140), "st041_01_avg.png")
         attribute 2:
