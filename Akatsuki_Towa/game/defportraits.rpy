@@ -443,7 +443,6 @@ layeredimage oc006_01:
         attribute 1:
             Crop((0,434,80,72), "oc006_01_avg.png")
         attribute 2:
-            #"oc006/02.png"
             Crop((82,434,80,72), "oc006_01_avg.png")
         attribute 3:
             Crop((238,0,80,72), "oc006_01_avg.png")
