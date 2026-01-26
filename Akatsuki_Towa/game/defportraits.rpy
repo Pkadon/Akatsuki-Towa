@@ -1298,6 +1298,8 @@ layeredimage sc002_01:
     group face auto:
         xpos 111
         ypos 134
+        attribute 0:
+            Crop((0,482,84,84), "sc002_01_avg.png")
         attribute 1:
             Crop((0,482,84,84), "sc002_01_avg.png")
         attribute 2:
@@ -2789,6 +2791,26 @@ layeredimage scc41_01:
         attribute 5:
             Crop((0,888,86,86), "scc41_01_avg.png")
         attribute 6:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 7:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 8:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 11:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 13:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 14:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 15:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 18:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 22:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 23:
+            Crop((88,536,86,86), "scc41_01_avg.png")
+        attribute 24:
             Crop((88,536,86,86), "scc41_01_avg.png")
 
 layeredimage scc45_01:
