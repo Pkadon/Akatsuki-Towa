@@ -2922,14 +2922,12 @@ layeredimage st004_01:
             Crop((86,416,84,74), "st004_01_avg.png")
         attribute 3:
             Crop((172,416,84,74), "st004_01_avg.png")
-
-    #not in game files but called by cutscene, set to default
         attribute 4:
-            Crop((0,416,84,74), "st004_01_avg.png")
+            Crop((312,0,84,74), "st004_01_avg.png")
         attribute 5:
-            Crop((0,416,84,74), "st004_01_avg.png")
+            Crop((312,76,84,74), "st004_01_avg.png")
         attribute 6:
-            Crop((0,416,84,74), "st004_01_avg.png")
+            Crop((312,152,84,74), "st004_01_avg.png")
 
 layeredimage st005_01:
     always:
@@ -3540,12 +3538,12 @@ layeredimage st036_01:
             Crop((86,394,84,80), "st036_01_avg.png")
         attribute 3:
             Crop((172,394,84,80), "st036_01_avg.png")
-
-    #not in game files but called by cutscene, set to default
         attribute 4:
-            Crop((0,394,84,80), "st036_01_avg.png")
+            Crop((266,0,84,80), "st036_01_avg.png")
         attribute 5:
-            Crop((0,394,84,80), "st036_01_avg.png")
+            Crop((266,82,84,80), "st036_01_avg.png")
+        attribute 6:
+            Crop((266,164,84,80), "st036_01_avg.png")
 
 layeredimage st037_01:
     always:
