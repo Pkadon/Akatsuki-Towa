@@ -5345,17 +5345,17 @@ layeredimage scc89_01:
         xpos 196
         ypos 140
         attribute 1:
-            Crop((0,462,100,96), "scc89_01_avg.png")
+            AlphaMask(Crop((0,462,100,96), "scc89_01_avg.png"), "images_free/scc89_01_mask.png")
         attribute 2:
-            Crop((0,560,100,96), "scc89_01_avg.png")
+            AlphaMask(Crop((0,560,100,96), "scc89_01_avg.png"), "images_free/scc89_01_mask.png")
         attribute 3:
-            Crop((0,658,100,96), "scc89_01_avg.png")
+            AlphaMask(Crop((0,658,100,96), "scc89_01_avg.png"), "images_free/scc89_01_mask.png")
         attribute 4:
-            Crop((0,756,100,96), "scc89_01_avg.png")
+            AlphaMask(Crop((0,756,100,96), "scc89_01_avg.png"), "images_free/scc89_01_mask.png")
         attribute 5:
-            Crop((0,854,100,96), "scc89_01_avg.png")
+            AlphaMask(Crop((0,854,100,96), "scc89_01_avg.png"), "images_free/scc89_01_mask.png")
         attribute 6:
-            Crop((102,462,100,96), "scc89_01_avg.png")
+            AlphaMask(Crop((102,462,100,96), "scc89_01_avg.png"), "images_free/scc89_01_mask.png")
 
 layeredimage scc91_01:
     always:
@@ -5820,17 +5820,17 @@ layeredimage sce09_01:
         xpos 72
         ypos 140
         attribute 1:
-            Crop((282,0,88,80), "sce09_01_avg.png")
+            AlphaMask(Crop((282,0,88,80), "sce09_01_avg.png"), "images_free/sce09_01_mask.png")
         attribute 2:
-            Crop((282,82,88,80), "sce09_01_avg.png")
+            AlphaMask(Crop((282,82,88,80), "sce09_01_avg.png"), "images_free/sce09_01_mask.png")
         attribute 3:
-            Crop((282,164,88,80), "sce09_01_avg.png")
+            AlphaMask(Crop((282,164,88,80), "sce09_01_avg.png"), "images_free/sce09_01_mask.png")
         attribute 4:
-            Crop((282,246,88,80), "sce09_01_avg.png")
+            AlphaMask(Crop((282,246,88,80), "sce09_01_avg.png"), "images_free/sce09_01_mask.png")
         attribute 5:
-            Crop((282,328,88,80), "sce09_01_avg.png")
+            AlphaMask(Crop((282,328,88,80), "sce09_01_avg.png"), "images_free/sce09_01_mask.png")
         attribute 6:
-            Crop((282,410,88,80), "sce09_01_avg.png")
+            AlphaMask(Crop((282,410,88,80), "sce09_01_avg.png"), "images_free/sce09_01_mask.png")
 
 layeredimage sce15_01:
     always:
