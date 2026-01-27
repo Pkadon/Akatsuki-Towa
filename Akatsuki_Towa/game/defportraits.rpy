@@ -2115,9 +2115,19 @@ layeredimage sc042_01:
         attribute 6:
             Crop((94,488,92,92), "sc042_01_avg.png")
 
+#The head and body parts of the Zeit portrait (sc043) do not have any overlap when they are overlaid.
+#When the game window is resized, sometimes the positioning is offset and a seam becomes visible.
+#The way this is set up here, there is a 4-pixel gap-filling image laid underneath everything.
+#Then the body is laid over that.
+#Then the head is put into place on a layer above that.
+#So the gap-filling image should only be visible from the very small hole between the head and the body, 
+#and only on certain resolutions.
 layeredimage sc043_01:
     always:
-        Crop((0,0,490,430), "sc043_01_avg.png")
+        "images_free/sc043_stopgap.png"
+    group base auto:
+        attribute body default:
+            Crop((0,0,490,430), "sc043_01_avg.png")
     group face auto:
         xpos 113
         ypos 58
