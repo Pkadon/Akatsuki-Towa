@@ -15,7 +15,7 @@
                 "scenes": [
                     {
                         "name": "Vol.1-エオリア編 1/2",
-                        "info": "(2017.09.15)",
+                        "info": "(2017.09.13)",
                         "strID": "ex_202",
                         "add": " 1/2",
                         "infostrID": null,
@@ -31,7 +31,7 @@
                     },
                     {
                         "name": "Vol.1-ヴェンツェル編 1/2",
-                        "info": "(2017.09.15)",
+                        "info": "(2017.09.13)",
                         "strID": "ex_203",
                         "add": " 1/2",
                         "infostrID": null,
@@ -47,7 +47,7 @@
                     },
                     {
                         "name": "Vol.1-スコット編 1/2",
-                        "info": "(2017.09.15)",
+                        "info": "(2017.09.13)",
                         "strID": "ex_204",
                         "add": " 1/2",
                         "infostrID": null,
@@ -63,7 +63,7 @@
                     },
                     {
                         "name": "Vol.1-リン編 1/2",
-                        "info": "(2017.09.15)",
+                        "info": "(2017.09.13)",
                         "strID": "ex_205",
                         "add": " 1/2",
                         "infostrID": null,
@@ -191,7 +191,7 @@
                     },
                     {
                         "name": "Vol.18 クローゼ編",
-                        "info": "(2023.06.22)",
+                        "info": "(2022.06.22)",
                         "strID": "ex_222",
                         "infostrID": null,
                         "avgID": 1188
@@ -557,7 +557,7 @@
                 "scenes": [
                     {
                         "name": "シーン1　ナハトの休日",
-                        "info": "(2017.06.16)",
+                        "info": "(2017.06.14)",
                         "strID": 2100654,
                         "infostrID": null,
                         "avgID": 1051
@@ -592,56 +592,56 @@
                 "scenes": [
                     {
                         "name": "第1話「劇団アルカンシェル」",
-                        "info": "(2017.07.03)",
+                        "info": "(2017.06.28)",
                         "strID": 87040,
                         "infostrID": null,
                         "avgID": 1061
                     },
                     {
                         "name": "第2話「シュリとリーシャ」",
-                        "info": null,
+                        "info": "(2017.06.29)",
                         "strID": 87050,
                         "infostrID": null,
                         "avgID": 1062
                     },
                     {
                         "name": "第3話「遠くから見る景色」",
-                        "info": null,
+                        "info": "(2017.06.30)",
                         "strID": 87060,
                         "infostrID": null,
                         "avgID": 1063
                     },
                     {
                         "name": "第4話「猛特訓」",
-                        "info": null,
+                        "info": "(2017.07.01)",
                         "strID": 87070,
                         "infostrID": null,
                         "avgID": 1064
                     },
                     {
                         "name": "第5話「役者の意味」",
-                        "info": null,
+                        "info": "(2017.07.02)",
                         "strID": 87080,
                         "infostrID": null,
                         "avgID": 1065
                     },
                     {
                         "name": "第6話「最後のチャンス」",
-                        "info": null,
+                        "info": "(2017.07.03)",
                         "strID": 87090,
                         "infostrID": null,
                         "avgID": 1066
                     },
                     {
                         "name": "第7話「舞台に立つという事」",
-                        "info": null,
+                        "info": "(2017.07.04)",
                         "strID": 87100,
                         "infostrID": null,
                         "avgID": 1067
                     },
                     {
                         "name": "エピローグ「見つけた答え」",
-                        "info": null,
+                        "info": "(2017.07.04)",
                         "strID": 2101424,
                         "infostrID": null,
                         "avgID": 1068
@@ -1055,7 +1055,7 @@
                 "scenes": [
                     {
                         "name": "新米遊撃士のクリスマス-1",
-                        "info": "(2020.12.17)",
+                        "info": "(2018.12.19)",
                         "strID": 2105919,
                         "infostrID": null,
                         "avgID": 1181
