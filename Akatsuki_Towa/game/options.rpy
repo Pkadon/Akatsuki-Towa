@@ -1,5 +1,5 @@
 ﻿###changed foldernames to match AssetStudio output folders
-define config.search_prefixes = [ "", "Texture2D/", "AudioClip/"]
+define config.search_prefixes = [ "", "Texture2D/", "AudioClip/", 'images_free', 'custom', 'movies']
 
 ## Basics ######################################################################
 ## Determines if the title given above is shown on the main menu screen. Set
