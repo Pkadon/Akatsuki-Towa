@@ -7676,4 +7676,3 @@ layeredimage uc004_03:
             Crop((0,574,46,24), "uc004_03_avg.png")
         attribute 3:
             Crop((0,600,46,24), "uc004_03_avg.png")
-

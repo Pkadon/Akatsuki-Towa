@@ -42,5 +42,3 @@ image quickbutton:
 
 image quickbutton_pressed:
     Crop((196,96,60,48), "atlas_JournalBeta.png")
-    
-return

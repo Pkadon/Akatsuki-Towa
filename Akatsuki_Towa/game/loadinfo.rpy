@@ -140,5 +140,3 @@ python early:
 
     with renpy.open_file('bgm.json', encoding='utf-8') as txt:
         bgm_loop_dict = json.load(txt)
-
-return

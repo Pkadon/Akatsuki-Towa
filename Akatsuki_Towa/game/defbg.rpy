@@ -160,4 +160,3 @@ image avg_bg_518 = Crop((0,32,840,480), "avg_bg_518.png")
 image avg_bg_519 = Crop((0,32,840,480), "avg_bg_519.png")
 image avg_bg_520 = Crop((0,32,840,480), "avg_bg_520.png")
 image avg_bg_521 = Crop((0,32,840,480), "avg_bg_521.png")
-return

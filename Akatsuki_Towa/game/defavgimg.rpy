@@ -57,5 +57,3 @@ image Image8007:
     xcenter 0.5
     yanchor 1.0
     ypos 374
-
-return

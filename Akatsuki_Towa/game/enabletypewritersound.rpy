@@ -28,5 +28,3 @@ init -1 python:
             elif event == "slow_done":
                 for ch in typewriter_channels:
                     renpy.music.stop(channel=ch)
-####################################################################################################
-return

@@ -201,5 +201,3 @@ transform mid_exit(charpos):
 transform mid_midback(charpos):
     xanchor 0.5
     xpos 460
-
-return
