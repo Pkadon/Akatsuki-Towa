@@ -927,20 +927,20 @@ style radio_vbox:
 
 style radio_button:
     properties gui.button_properties("radio_button")
-    foreground "gui/button/radio_[prefix_]foreground.png"
+    foreground "check_[prefix_]foreground"
 
 style radio_button_text:
-    properties gui.text_properties("radio_button")
+    properties gui.text_properties("radio_button") xoffset 12
 
 style check_vbox:
     spacing gui.pref_button_spacing
 
 style check_button:
     properties gui.button_properties("check_button")
-    foreground "gui/button/check_[prefix_]foreground.png"
+    foreground "check_[prefix_]foreground"
 
 style check_button_text:
-    properties gui.text_properties("check_button")
+    properties gui.text_properties("check_button") xoffset 12
 
 style slider_slider:
     xsize 230
@@ -1639,11 +1639,11 @@ screen quick_menu():
 
 style radio_button:
     variant "small"
-    foreground "gui/phone/button/radio_[prefix_]foreground.png"
+    foreground "check_[prefix_]foreground"
 
 style check_button:
     variant "small"
-    foreground "gui/phone/button/check_[prefix_]foreground.png"
+    foreground "check_[prefix_]foreground"
 
 style nvl_window:
     variant "small"

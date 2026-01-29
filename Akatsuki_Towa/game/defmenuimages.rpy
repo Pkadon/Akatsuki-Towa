@@ -35,6 +35,12 @@ image bookpage:
 
 image underline:
     Crop((256,478,16,4), "atlas_JournalBeta.png")
+
+image check_foreground:
+    Crop((445,192,24,24), "atlas_JournalBeta.png")
+
+image check_selected_foreground:
+    Crop((483,62,24,24), "atlas_JournalBeta.png")
      
 ###Quick Menu (Mobile Ver) ###################################
 image quickbutton:
