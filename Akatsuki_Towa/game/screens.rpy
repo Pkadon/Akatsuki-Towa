@@ -20,6 +20,8 @@ style input:
 style hyperlink_text:
     properties gui.text_properties("hyperlink", accent=True)
     hover_underline True
+    color '#75CFEB'
+    hover_color '#75EBDF'
 
 style gui_text:
     properties gui.text_properties("interface")
