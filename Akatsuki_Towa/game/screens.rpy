@@ -320,16 +320,11 @@ screen navigation():
             textbutton _("Scene Select"):
                 action ShowMenu("episodelist")
 
-        else:
-            textbutton _("Main Menu"):
-                action MainMenu()
-
-
-        if _in_replay:
+        elif _in_replay:
             textbutton _("Scene Select") action EndReplay(confirm=True)
 
-            # Doesn't seme to keep the history after a scene, might because they're "Replays"
-            # So just hide it from the main menu
+            # Doesn't seem to store the history after a scene, maybe because they're "Replays"
+            # So just hide the button from the main menu
             textbutton _("History") action ShowMenu("history")
 
         textbutton _("Preferences") action ShowMenu("preferences")
@@ -340,6 +335,10 @@ screen navigation():
 
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("Help") action ShowMenu("help")
+
+        if not main_menu:
+            textbutton _("Main Menu"):
+                action MainMenu()
 
         if renpy.variant("pc"):
 
