@@ -26,21 +26,21 @@ define config.check_conflicting_properties = True
 define gui.accent_color = '#000000'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#707070'
+define gui.idle_color = '#AAAAAA'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#606060'
+define gui.idle_small_color = '#FFFFFF'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#000000'
+define gui.hover_color = '#CCCCCC'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = '#555555'
+define gui.selected_color = '#FFFFFF'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = '#7070707f'
+define gui.insensitive_color = '#999999'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
@@ -48,8 +48,12 @@ define gui.muted_color = '#666666'
 define gui.hover_muted_color = '#999999'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#404040'
-define gui.interface_text_color = '#404040'
+define gui.text_color = '#FFFFFF'
+define gui.interface_text_color = '#FFFFFF'
+
+## The colors used for text labels
+define gui.label_text_color = "#FDDC5C"
+define gui.label_text_outlines = [ (0, "112042", absolute(2), absolute(1)) ]
 
 
 ## Fonts and Font Sizes ########################################################
@@ -73,7 +77,7 @@ define gui.title_text_size = 33
 ## The images used for the main and game menus.
 define gui.main_menu_background = "mainmenuscreen"
 
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.game_menu_background = None
 
 
 ## Dialogue ####################################################################
@@ -197,7 +201,7 @@ define gui.file_slot_rows = 2
 
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
-define gui.navigation_xpos = 27
+define gui.navigation_xpos = 0
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 7
@@ -386,4 +390,4 @@ init python:
         gui.choice_button_text_size = small_choice_button_text_size
 
         gui.history_height = 125
-        gui.history_text_width = 453
+        gui.history_text_width = 553

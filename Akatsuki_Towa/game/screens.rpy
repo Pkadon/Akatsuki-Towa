@@ -304,7 +304,11 @@ screen navigation():
         style_prefix "navigation"
 
         xpos gui.navigation_xpos
-        yalign 0.5
+        yanchor 1.0
+        if not renpy.variant("touch"):
+            ypos .89
+        else:
+            ypos .86
 
         spacing gui.navigation_spacing
 
@@ -345,10 +349,15 @@ style navigation_button_text is gui_button_text
 
 style navigation_button:
     size_group "navigation"
-    properties gui.button_properties("navigation_button")
+    background Frame('mainmenu_button', 0,0)
+    xsize 150
+
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
+    idle_color '#606060'
+    hover_color '#000000'
+    selected_color '#000000'
 
 
 ## Main Menu screen ############################################################
@@ -422,7 +431,7 @@ style main_menu_frame:
     xsize 184
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    background None
 
 style main_menu_vbox:
     xalign 1.0
@@ -535,10 +544,10 @@ style return_button is navigation_button
 style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
-    bottom_padding 20
-    top_padding 79
+    bottom_padding 7
+    top_padding 80
 
-    background "gui/overlay/game_menu.png"
+    background "optionsmenuscreen"
 
 style game_menu_navigation_frame:
     xsize 184
@@ -550,6 +559,9 @@ style game_menu_content_frame:
     top_margin 7
 
 style game_menu_viewport:
+    xsize 604
+
+style game_menu_vpgrid:
     xsize 604
 
 style game_menu_vscrollbar:
@@ -564,13 +576,14 @@ style game_menu_label:
 
 style game_menu_label_text:
     size gui.title_text_size
-    color gui.accent_color
+    color "#FFFFFF"
+    outlines [ (0, "#262525", absolute(2), absolute(1)) ]
     yalign 0.5
 
 style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
-    yoffset -19
+    yoffset -2
 
 
 ## About screen ################################################################
@@ -862,7 +875,7 @@ screen preferences():
                         vbox:
                             xsize 600
                             if not persistent.mute_typewriter:
-                                text _("{color=000}{size=23}Typewriter Volume{/size} {size=18}(relative to Sound Effect Volume){/size}{/color}")
+                                label _("Typewriter Volume {size=18}(relative to Sound Effect Volume){/size}")
                                 hbox:
                                     style_prefix "slider"
                                     bar value VariableValue("persistent.typewriter_volume", min=0, max=1.0, style='slider')
@@ -920,6 +933,8 @@ style pref_label:
 
 style pref_label_text:
     yalign 1.0
+    color "#FFFFFF"
+    outlines [ (0, "112042", absolute(2), absolute(1)) ]
 
 style pref_vbox:
     xsize 148
@@ -979,29 +994,28 @@ screen history():
         style_prefix "history"
 
         vbox:
-            xsize 510
             spacing 10
-
             for h in _history_list:
                 vbox:
-
                     if h.who:
                         text [h.who + ":"]:
                             substitute False
                             xalign 0.0
-                            color "#000000"
+                            color "#FDDC5C"
                             size gui.name_text_size
 
                     $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
                     text what:
                         substitute False
                         xalign 0.0
-                        xsize 500
+                        if not renpy.variant('touch'):
+                            xsize 550
+                        else:
+                            xsize 500
                         size gui.text_size
 
             if not _history_list:
                 label _("The dialogue history is empty.")
-
 
 ## This determines what tags are allowed to be displayed on the history screen.
 
@@ -1261,7 +1275,7 @@ style confirm_button is gui_medium_button
 style confirm_button_text is gui_medium_button_text
 
 style confirm_frame:
-    background Frame([ "gui/confirm_frame.png", "gui/frame.png"], gui.confirm_frame_borders, tile=gui.frame_tile)
+    background Frame("dialoguewindow", 25,25)
     padding gui.confirm_frame_borders.padding
     xalign .5
     yalign .5
@@ -1651,22 +1665,6 @@ style nvl_window:
     variant "small"
     background "gui/phone/nvl.png"
 
-style main_menu_frame:
-    variant "small"
-    background "gui/phone/overlay/main_menu.png"
-
-style game_menu_outer_frame:
-    variant "small"
-    background "gui/phone/overlay/game_menu.png"
-
-style game_menu_navigation_frame:
-    variant "small"
-    xsize 224
-
-style game_menu_content_frame:
-    variant "small"
-    top_margin 0
-
 style pref_vbox:
     variant "small"
     xsize 263
@@ -1702,3 +1700,11 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 394
+
+style navigation_button:
+    variant "touch"
+    ysize 50
+    xsize 180
+
+style navigation_button_text:
+    variant "touch"
