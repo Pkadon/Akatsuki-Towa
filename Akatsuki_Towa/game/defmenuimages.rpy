@@ -20,7 +20,17 @@ image mainmenuscreen:
     matrixcolor TintMatrix("#FFFFFF")
 image sceneselect = "mainmenuscreen"
 
+layeredimage optionsmenuscreen:
+    always "images_free/options_background.png"
+    always:
+        Frame("dialoguewindow", 25, 25)
+        pos (190,85)
+        xysize (630,392)
+
 ###buttons / other###########################################
+image mainmenu_button:
+    Crop((68,306,150,46), "atlas_JournalBeta.png")
+
 image booktab1:
     Crop((757,192,243,37), "atlas_JournalBeta.png")
 
