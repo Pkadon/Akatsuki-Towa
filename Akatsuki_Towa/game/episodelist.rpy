@@ -49,7 +49,6 @@ init python:
 
         logtextsize = touch_logtextsize
 
-
 # Styles used for all buttons on the left sidebar, including the "Back" button
     style.backbutton = Style('button')
     style.backbutton.background = Frame("backbutton", 16, 16)
@@ -59,6 +58,7 @@ init python:
     style.backbutton_text.align = (0.5, 1.0)
     style.backbutton_text.size = backbutton_textsize
     style.backbutton_text.font = backbutton_font
+    style.backbutton_text.color = '#505050'
 
 # Styles used for the gold and silver "booktab" buttons/labels
     style.tabbutton = Style('button')
@@ -68,7 +68,8 @@ init python:
     style.tabbutton_text.pos = (0.5,0.5)
     # tabtextsize needs to be changed from inside CONFIG.rpy
     tabbutton_texttags = {
-        'font':  tabfont # is in CONFIG.rpy
+        'font':  tabfont, # is in CONFIG.rpy
+        'color': '#505050'
     }
 
     style.goldtab = Style('tabbutton')
