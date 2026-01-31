@@ -64,8 +64,12 @@ style vscrollbar:
 
 style slider:
     ysize gui.slider_size
-    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/horizontal_[prefix_]thumb.png"
+    left_bar Frame("gui/slider/horizontal_slider_left.png", 3,3)
+    left_gutter 2
+    right_bar Frame("gui/slider/horizontal_slider_right.png", 3,3)
+    thumb "gui/slider/horizontal_slider_thumb.png"
+    thumb_align 0.5
+    thumb_offset 2 #in order to even-out the Auto Advance slider
 
 style vslider:
     xsize gui.slider_size
@@ -845,8 +849,7 @@ screen preferences():
                 vbox:
 
                     vbox:
-                        if renpy.variant('touch'): 
-                            spacing 5
+                        spacing 7
 
                         vbox:
                             label _("Music Volume")
@@ -869,8 +872,7 @@ screen preferences():
                             textbutton _("Test") action Play("sound", config.sample_sound)
 
                     vbox:
-                        if renpy.variant('touch'): 
-                            spacing 5
+                        spacing 7
 
                         vbox:
                             xsize 600
@@ -1682,10 +1684,10 @@ style vbar:
     bottom_bar Frame("gui/phone/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
 
 style slider:
-    variant "small"
+    variant "touch"
     ysize gui.slider_size
-    base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/phone/slider/horizontal_[prefix_]thumb.png"
+    thumb "gui/slider/horizontal_slider_thumb_mobile.png"
+    left_gutter 2
 
 style vslider:
     variant "small"
