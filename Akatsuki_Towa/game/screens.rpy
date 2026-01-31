@@ -563,10 +563,10 @@ style game_menu_content_frame:
     top_margin 7
 
 style game_menu_viewport:
-    xsize 604
+    xsize 590
 
 style game_menu_vpgrid:
-    xsize 604
+    xsize 590
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable
@@ -1011,9 +1011,9 @@ screen history():
                         substitute False
                         xalign 0.0
                         if not renpy.variant('touch'):
-                            xsize 550
+                            xsize 595
                         else:
-                            xsize 500
+                            xsize 560
                         size gui.text_size
 
             if not _history_list:

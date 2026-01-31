@@ -25,7 +25,7 @@ layeredimage optionsmenuscreen:
     always:
         Frame("dialoguewindow", 25, 25)
         pos (190,85)
-        xysize (630,392)
+        xysize (647,392)
 
 ###buttons / other###########################################
 image mainmenu_button:
