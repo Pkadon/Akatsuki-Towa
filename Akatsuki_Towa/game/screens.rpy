@@ -847,7 +847,6 @@ screen preferences():
                         bar_invert True
 
                 vbox:
-
                     vbox:
                         spacing 7
 
@@ -858,7 +857,7 @@ screen preferences():
                                 bar value Preference("music volume")
 
                         vbox:
-                            xsize 600
+                            xsize 500
                             style_prefix "check"
                             textbutton _("Cleanly Loop BGM {size=15}(takes effect on next track change){/size}"):
                                 action ToggleVariable("persistent.loop_bgm")
@@ -872,17 +871,18 @@ screen preferences():
                             textbutton _("Test") action Play("sound", config.sample_sound)
 
                     vbox:
+                        xfill True
                         spacing 7
 
                         vbox:
-                            xsize 600
+                            xsize 500
                             if not persistent.mute_typewriter:
                                 label _("Typewriter Volume {size=18}(relative to Sound Effect Volume){/size}")
                                 hbox:
                                     style_prefix "slider"
                                     bar value VariableValue("persistent.typewriter_volume", min=0, max=1.0, style='slider')
                         vbox:
-                            xsize 600
+                            xsize 500
                             style_prefix "check"
                             textbutton _("Mute Typewriter Sound"):
                                 action ToggleVariable("persistent.mute_typewriter")
