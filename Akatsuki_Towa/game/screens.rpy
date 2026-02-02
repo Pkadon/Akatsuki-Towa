@@ -558,18 +558,29 @@ style game_menu_navigation_frame:
     yfill True
 
 style game_menu_content_frame:
-    left_margin 27
+    left_margin 9
     right_margin 14
     top_margin 7
+    bottom_margin -5
+
+    left_padding 18
+    right_padding 10
+    top_padding 1
+    bottom_padding 3
+    background Frame("dialoguewindow", 25, 25)
 
 style game_menu_viewport:
-    xsize 590
+    xsize (610 - gui.scrollbar_size)
 
 style game_menu_vpgrid:
-    xsize 590
+    xsize (610 - gui.scrollbar_size)
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable
+
+    ysize 378
+    yalign 0.5
+    xoffset 3
 
 style game_menu_side:
     spacing 7
