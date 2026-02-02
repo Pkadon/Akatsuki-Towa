@@ -239,6 +239,7 @@ def make_edits(script_json, avgID):
 # Subjective changes - up to interpretation, someone may want to change or undo these
 ######################################################################################
 
+###
 	#Swap backgrounds with duplicates out for the higher quality alternative
     
 	# Change scenes that use the first Orchis Tower background 
@@ -249,8 +250,35 @@ def make_edits(script_json, avgID):
     # Change scenes that use the Jade Tower background 108
     # to use 107 instead (107 is zoomed out a little more)
 	if avgID in ['10522', '10523', '10563']:
-		switch_id(script_json, 'backgrounds', old=108, new=107)		
-
+		switch_id(script_json, 'backgrounds', old=108, new=107)	
+###
+	#Unify original and Chapter 4 flashback frames to have both match
+	# 《エルフェンテック》社の危機(1) 7/8
+	# Add memory overlay and Crossbell downtown background to match original frame
+	if avgID == '10413':
+		insert_schedule(script_json,
+			('backgrounds', {'id': 20, 'start': 4, 'end': 4}),
+			('memory', {'id': 1, 'start': 4, 'end': 4})
+		)
+		#Then we have to add two clearmodles surrounding the flashback
+		script_json['dialogueFrames'][3]['isClearModle'] = 1
+		script_json['dialogueFrames'][4]['isClearModle'] = 1
+		
+	# But then change the expression in the original frame in 異常事故の総合的調査(1) 9/16
+	# to use the one from the flashback
+	elif avgID == '20072':
+		script_json['dialogueFrames'][31]['expression'] = 11
+		
+	# 《エルフェンテック》社の危機(1) 8/8
+	# Add memory overlay, add Ardent downtown background, 
+	# and change expression to match the original frame from 麻薬密売調査(1) 4/6
+	elif avgID == '10414':
+		insert_schedule(script_json,
+			('backgrounds', {'id': 49, 'start': 19, 'end': 19}),
+			('memory', {'id': 1, 'start': 19, 'end': 19})
+		)
+		script_json['dialogueFrames'][18]['expression'] = 14
+###
     
 	#クロスベル市内の地図作成 2/7
 	#Remove an extra redundant line - both lines are spoken by the same person, and say the same thing.
@@ -329,7 +357,6 @@ def make_edits(script_json, avgID):
 		script_json['dialogueFrames'][32]['character']['speaker'] = 1049
 		#Change the namebox position
 		script_json['dialogueFrames'][32]['charPos'] = 3
-		
 
 	#Blue Air 5/7
 	#This one was all kinds of messed up.

@@ -13,12 +13,15 @@ $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1140684)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1140685)]'
-scene avg_bg_070
+show memoryoverlay zorder 2
+hide p2
+hide p1
 $ update_portrait('oc004_01 11', 'p4', [l(-5), light, flip], 6)
 $ update_narrator('c41')
 with fade
 c41 '[convertstrid(1140686)]'
-scene avg_bg_020
+hide memoryoverlay
+hide p4
 $ update_portrait('oc003_01 1', 'p3', [l(-6), light, flip], 6)
 $ update_narrator('c31')
 with fade
