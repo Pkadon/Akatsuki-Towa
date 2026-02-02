@@ -95,33 +95,42 @@ def insert_schedule(script_json, *args):
 			schedule.append(new_entry)
 			
 		else:
-			start = new_entry['start']
-			end = new_entry['end']
-			new_span = range(start, end)
+			new_id = new_entry['id']
+			new_start = new_entry['start']
+			new_end = new_entry['end']
+			new_span = range(new_start, new_end)
 			
 			placed = False
 			for copy in schedule[:]:
 				entry_index = schedule.index(copy)
 				entry = schedule[entry_index]
-
+				
+				#1-frame long schedules won't be caught by the range
+				#Just delete and replace schedules that occupy the exact same length as the new schedule
+				if entry['start'] == new_start and entry['end'] == new_end and entry['id'] != new_id:
+					schedule.remove(entry)
+					schedule.insert((entry_index), new_entry)
+					placed = True
+					
 				if entry['start'] in new_span:
 					#remove the entire old entry if it would have started and ended during the new entry
 					if entry['end'] in new_span:
 						schedule.remove(entry)
 					#or else keep the end, and push the start time back until after the new entry is over
 					else:
-						entry['start'] = (end+1)
+						entry['start'] = (new_end+1)
 						
-				elif entry['start'] < start:
+				elif entry['start'] < new_start:
 					#cut the old entry short, to end immediately before the new entry starts
 					if entry['end'] in new_span:
-						entry['end'] = (start-1)
+						entry['end'] = (new_start-1)
 
 				#Insert the new entry immediately before the first (adjusted) entry that starts after it
 				if not placed:
-					if entry['start'] > end:
+					if entry['start'] > new_end:
 						schedule.insert((entry_index-1), new_entry)
 						placed = True
+
 			#Append the new entry to the end of the list if it wasn't inserted into the middle earlier
 			if not placed:
 				schedule.append(new_entry)
