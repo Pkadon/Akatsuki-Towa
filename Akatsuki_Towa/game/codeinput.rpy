@@ -3,7 +3,7 @@ screen inputdescription():
 
         size 23
         xcenter 0.5
-
+        color "#000000"
         if renpy.variant('touch'):
             ypos quick_button_height
         else:
