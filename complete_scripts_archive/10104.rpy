@@ -43,7 +43,7 @@ c0 '[convertstrid(1123033)]'
 $ update_portrait('uc004_01 4', 'p707', [r_midback(-25), light], 6)
 play sfx2 "fight_6005.ogg"
 c7073 '[convertstrid(1005751)]'
-scene avg_bg_031
+scene avg_bg_075
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1123034)]'
@@ -97,7 +97,7 @@ c7071 '[convertstrid(1005760)]'
 $ update_portrait('uc004_01 2', 'p707', [l(-25), dark, flip], 5)
 $ update_portrait('uc004_01 3', 'p702', [r_midback(-25), light], 6)
 c7023 '[convertstrid(1005761)]'
-scene avg_bg_031
+scene avg_bg_075
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1123034)]'

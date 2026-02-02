@@ -155,6 +155,11 @@ def add_effects(script_json, effect_dict):
 		else:
 			for frame_index in effect_dict[effect]:
 				script_json['dialogueFrames'][frame_index][effect] = 1
+				
+def switch_id(script_json, schedule_key, old, new):
+	for entry in script_json[schedule_key]:
+		if entry['id'] == old:
+			entry['id'] = new
 
 ##################################################################################################
 #Modifies the original cutscene scripts, to make corrections or adjustments
@@ -225,6 +230,19 @@ def make_edits(script_json, avgID):
 # Subjective changes - up to interpretation, someone may want to change or undo these
 ######################################################################################
 
+	#Swap backgrounds with duplicates out for the higher quality alternative
+    
+	# Change scenes that use the first Orchis Tower background 
+	# with the Crossbell Station map to use the second one instead
+	if avgID in ['10104', '10113', '10345', '10346', '10347', '10348']:
+		switch_id(script_json, 'backgrounds', old=31, new=75)
+    
+    # Change scenes that use the Jade Tower background 108
+    # to use 107 instead (107 is zoomed out a little more)
+	if avgID in ['10522', '10523', '10563']:
+		switch_id(script_json, 'backgrounds', old=108, new=107)		
+
+    
 	#クロスベル市内の地図作成 2/7
 	#Remove an extra redundant line - both lines are spoken by the same person, and say the same thing.
 	#It is not a mis-set speaker name, because there is a third line that says the same thing again, spoken by the other person.
