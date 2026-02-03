@@ -68,8 +68,8 @@ init python early:
 
 ### The placement of dialogue relative to the textbox. These can be a whole number
 ### of pixels relative to the left or top side of the textbox.
-    gui.dialogue_xpos = 20
-    small_dialogue_xpos = 20
+    gui.dialogue_xpos = 10
+    small_dialogue_xpos = 10
 
     gui.dialogue_ypos = 25
     small_dialogue_ypos = 25

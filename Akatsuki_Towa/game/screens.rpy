@@ -145,6 +145,12 @@ style window:
 
     background Frame("dialoguewindow", 25, 25)
 
+    #Expand the frame to make it touch the edges of the screen
+    #accounting for the transparent shadows
+    left_margin -1
+    right_margin -1
+    bottom_margin -2
+
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
