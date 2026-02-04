@@ -28,7 +28,7 @@ image mainmenu_button:
     Crop((68,306,150,46), "atlas_JournalBeta.png")
 
 image booktab1:
-    Crop((757,192,243,37), "atlas_JournalBeta.png")
+    Crop((755,192,243,37), "atlas_JournalBeta.png")
 
 image booktab2:
     Crop((227,314,238,37), "atlas_JournalBeta.png")
