@@ -23,6 +23,44 @@ image sceneselect = "mainmenuscreen"
 image optionsmenuscreen:
     "images_free/options_background.png"
 
+#Scene Select##
+image book_backing:
+    Crop((656,391,178,174), "atlas_JournalBeta.png")
+
+image book_corners:
+    Frame(Crop((634,218,118,118), "atlas_JournalBeta.png"), 56, 56)
+
+image bracer_emblem:
+    Crop((789, 795, 175, 229), "atlas_JournalBeta.png")#Crop((779, 795, 185, 229), "atlas_JournalBeta.png")
+    alpha .50
+
+image book_scrap:
+    Crop((1,484,271,96), "atlas_JournalBeta.png")
+
+image book_paper:
+    Crop((451,414,204,168), "atlas_JournalBeta.png")
+
+layeredimage book_paper_cropped:
+    always:
+        Solid('#00000000')
+        xysize (204,168)
+    always:
+        Crop((463,424,192,145), "atlas_JournalBeta.png")
+        pos (12,10)
+
+image book_paper_strip:
+    Crop((165,417,91,22), "atlas_JournalBeta.png")
+
+#Never found a good place to put it, but leaving it defined here
+layeredimage nametag:
+    always:
+        Crop((634,339,323,52), "atlas_JournalBeta.png")
+    group name:
+        attribute nacht default:
+            Crop((0,418,163,20), "atlas_JournalBeta.png")
+            #align (0.5,0.5)
+            pos (30,16)
+
 ###buttons / other###########################################
 image mainmenu_button:
     Crop((68,306,150,46), "atlas_JournalBeta.png")
@@ -33,11 +71,21 @@ image booktab1:
 image booktab2:
     Crop((227,314,238,37), "atlas_JournalBeta.png")
 
-image backbutton:
-    Crop((0,268,245,37), "atlas_JournalBeta.png")
+image sidearea_tab:
+    Crop((0,268,235,37), "atlas_JournalBeta.png")
 
-image bookpage:
-    Crop((463,423,190,152), "atlas_JournalBeta.png")
+layeredimage red_return_button_idle:
+    always:
+        Crop((754,231,106,106), "atlas_JournalBeta.png")
+        rotate -60
+
+layeredimage red_return_button_hover:
+    always:
+        Crop((861,231,106,106), "atlas_JournalBeta.png")
+        rotate -60
+
+image scenebutton:
+    "images_free/gui/scenebutton.png"
 
 image underline:
     Crop((256,478,16,4), "atlas_JournalBeta.png")

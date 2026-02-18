@@ -102,18 +102,18 @@ init python early:
 # ("Back", "Log", "Jump", "Sprite")
 #========================================================================
 ### The dimensions used for all side buttons
-    backbutton_width = 94
-    touch_backbutton_width = 141 # For "touch" screen variants
+    sidearea_button_width = 94
+    touch_sidearea_button_width = 141 # For "touch" screen variants
 
-    backbutton_height = 37
-    touch_backbutton_height = 55
+    sidearea_button_height = 37
+    touch_sidearea_button_height = 55
 
 ### The text size used for all side buttons
-    backbutton_textsize = 25
-    touch_backbutton_textsize = 37
+    sidearea_button_textsize = 25
+    touch_sidearea_button_textsize = 37
 
 ### The font used for all side buttons
-    backbutton_font = default_font
+    sidearea_button_font = default_font
 
 ### Set to False to hide the "Jump" button that opens the code input screen
 ### used to manually skip to a cutscene without needing a button
@@ -129,8 +129,8 @@ init python early:
     tabwidth = 330
     touch_tabwidth = 495 # For "touch" screen variants
 
-    tabheight = backbutton_height
-    touch_tabheight = touch_backbutton_height
+    tabheight = sidearea_button_height
+    touch_tabheight = touch_sidearea_button_height
 
 ### Text size for all silver and gold buttons:
     tabtextsize = 20
@@ -146,26 +146,26 @@ init python early:
     tabfont_center = .57
 
 
-# "bookpage" buttons that play cutscenes when clicked
+# Buttons that play cutscenes when clicked
 #==================================================================
-### The dimensions of all book page buttons (in pixels):
-    pagewidth = 350
-    touch_pagewidth = 600 # For "touch" screen variants
+### The dimensions of all scene buttons (in pixels):
+    scenebutton_width = 325
+    touch_scenebutton_width = 543 # For "touch" screen variants
 
-    pageheight = 80
-    touch_pageheight = 125
+    scenebutton_height = 125
+    touch_scenebutton_height = 170
 
-### Text size for all book page buttons:
-    pagetextsize = 18
-    touch_pagetextsize = 27
+### Text size for all scene buttons:
+    scenebutton_textsize = 18
+    touch_scenebutton_textsize = 27
 
-### The font used by the "bookpage" buttons that play cutscenes when clicked
-    pagefont = default_font
+### The font used by the scene buttons
+    scenebutton_font = default_font
 
-### Number of columns to separate bookpage buttons into
+### Number of columns to separate scene buttons into
 ### (recommended 1 or 2, will require resizing)
-    pagecolumns = 2
-    touch_pagecolumns = 1
+    scenebutton_columns = 2
+    touch_scenebutton_columns = 1
 
 
 # The questlog window that appears when you click a "Log" button
