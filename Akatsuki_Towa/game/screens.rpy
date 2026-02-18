@@ -65,10 +65,10 @@ style vscrollbar:
 
 style slider:
     ysize gui.slider_size
-    left_bar Frame("gui/slider/horizontal_slider_left.png", 3,3)
+    left_bar Frame("images_free/gui/slider/horizontal_slider_left.png", 3,3)
     left_gutter 2
-    right_bar Frame("gui/slider/horizontal_slider_right.png", 3,3)
-    thumb "gui/slider/horizontal_slider_thumb.png"
+    right_bar Frame("images_free/gui/slider/horizontal_slider_right.png", 3,3)
+    thumb "images_free/gui/slider/horizontal_slider_thumb.png"
     thumb_align 0.5
     thumb_offset 2 #in order to even-out the Auto Advance slider
 
@@ -1713,7 +1713,7 @@ style vscrollbar:
 style slider:
     variant "touch"
     ysize gui.slider_size
-    thumb "gui/slider/horizontal_slider_thumb_mobile.png"
+    thumb "images_free/gui/slider/horizontal_slider_thumb_mobile.png"
     left_gutter 2
 
 style vslider:

@@ -99,35 +99,35 @@ image check_selected_foreground:
 
 ###scrollbar###########################################
 image horizontal_scrollbar_thumb_idle_pc:
-    "gui/scrollbar/horizontal_scrollbar_thumb_idle.png" 
+    "images_free/gui/scrollbar/horizontal_scrollbar_thumb_idle.png" 
     zoom .5
 
 image horizontal_scrollbar_thumb_hover_pc:
-    "gui/scrollbar/horizontal_scrollbar_thumb_hover.png" 
+    "images_free/gui/scrollbar/horizontal_scrollbar_thumb_hover.png" 
     zoom .5
 
 image vertical_scrollbar_thumb_idle_pc:
-    "gui/scrollbar/vertical_scrollbar_thumb_idle.png" 
+    "images_free/gui/scrollbar/vertical_scrollbar_thumb_idle.png" 
     zoom .5
 
 image vertical_scrollbar_thumb_hover_pc:
-    "gui/scrollbar/vertical_scrollbar_thumb_hover.png" 
+    "images_free/gui/scrollbar/vertical_scrollbar_thumb_hover.png" 
     zoom .5
 
 image horizontal_scrollbar_thumb_idle_mobile:
-    "gui/scrollbar/horizontal_scrollbar_thumb_idle.png" 
+    "images_free/gui/scrollbar/horizontal_scrollbar_thumb_idle.png" 
     zoom 1.1
 
 image horizontal_scrollbar_thumb_hover_mobile:
-    "gui/scrollbar/horizontal_scrollbar_thumb_hover.png" 
+    "images_free/gui/scrollbar/horizontal_scrollbar_thumb_hover.png" 
     zoom 1.1
 
 image vertical_scrollbar_thumb_idle_mobile:
-    "gui/scrollbar/vertical_scrollbar_thumb_idle.png" 
+    "images_free/gui/scrollbar/vertical_scrollbar_thumb_idle.png" 
     zoom 1.1
 
 image vertical_scrollbar_thumb_hover_mobile:
-    "gui/scrollbar/vertical_scrollbar_thumb_hover.png" 
+    "images_free/gui/scrollbar/vertical_scrollbar_thumb_hover.png" 
     zoom 1.1
      
 ###Quick Menu (Mobile Ver) ###################################
