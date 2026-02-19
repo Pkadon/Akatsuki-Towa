@@ -1635,7 +1635,7 @@ screen quick_menu():
             xalign 0.0
 
             button:
-                background Frame("quickbutton", 22, 22)
+                background Frame("blue_confirm_button", 22, 22)
                 xysize (quickmenubutton_width, quick_button_height)
                 text quickmenutext:
                     xalign 0.5
@@ -1649,8 +1649,8 @@ screen quick_menu():
             xalign 1.0
 
             button:
-                idle_background Frame("quickbutton", 22, 22)
-                selected_background Frame("quickbutton_pressed", 22,22)
+                idle_background Frame("blue_confirm_button", 22, 22)
+                selected_background Frame("blue_confirm_button_pressed", 22,22)
                 xysize (quickskipbutton_width, quick_button_height)
                 text quickskiptext:
                     xalign 0.5
@@ -1661,8 +1661,8 @@ screen quick_menu():
                 alternate Skip(fast=True, confirm=True)
 
             button:
-                idle_background Frame("quickbutton", 22, 22)
-                selected_background Frame("quickbutton_pressed", 22,22)
+                idle_background Frame("blue_confirm_button", 22, 22)
+                selected_background Frame("blue_confirm_button_pressed", 22,22)
                 xysize (quickautobutton_width, quick_button_height)
                 text quickautotext:
                     xalign 0.5

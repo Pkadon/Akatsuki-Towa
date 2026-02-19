@@ -96,6 +96,12 @@ image check_foreground:
 image check_selected_foreground:
     Crop((483,62,24,24), "atlas_JournalBeta.png")
 
+image blue_confirm_button:
+    Crop((41,62,60,48), "atlas_JournalBeta.png")
+
+image blue_confirm_button_pressed:
+    Crop((196,96,60,48), "atlas_JournalBeta.png")
+
 
 ###scrollbar###########################################
 image horizontal_scrollbar_thumb_idle_pc:
@@ -129,10 +135,3 @@ image vertical_scrollbar_thumb_idle_mobile:
 image vertical_scrollbar_thumb_hover_mobile:
     "images_free/gui/scrollbar/vertical_scrollbar_thumb_hover.png" 
     zoom 1.1
-     
-###Quick Menu (Mobile Ver) ###################################
-image quickbutton:
-    Crop((41,62,60,48), "atlas_JournalBeta.png")
-
-image quickbutton_pressed:
-    Crop((196,96,60,48), "atlas_JournalBeta.png")
