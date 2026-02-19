@@ -1280,8 +1280,19 @@ screen confirm(message, yes_action, no_action):
                 xalign 0.5
                 spacing 66
 
-                textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton _("Yes"):
+                    idle_background Frame("blue_confirm_button", 27,18)
+                    background Frame("blue_confirm_button_pressed", 27,18)
+
+                    hovered Play("sound", "common_tag.ogg")
+                    action [Play('sound', 'common_select.ogg'), yes_action]
+
+                textbutton "No":
+                    idle_background Frame("red_cancel_button", 27,18)
+                    background Frame("red_cancel_button_pressed", 27,18)
+
+                    hovered Play("sound", "common_tag.ogg")
+                    action [Play('sound', 'common_cancel.ogg'), no_action]
 
     ## Right-click and escape answer "no".
     key "game_menu" action no_action
@@ -1305,9 +1316,12 @@ style confirm_prompt_text:
 
 style confirm_button:
     properties gui.button_properties("confirm_button")
+    xysize (100,48)
+    bottom_padding 4
 
 style confirm_button_text:
     properties gui.text_properties("confirm_button")
+    color "#FFF"
 
 
 ## Skip indicator screen #######################################################

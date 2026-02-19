@@ -97,10 +97,20 @@ image check_selected_foreground:
     Crop((483,62,24,24), "atlas_JournalBeta.png")
 
 image blue_confirm_button:
-    Crop((41,62,60,48), "atlas_JournalBeta.png")
-
+    Crop((41,63,60,46), "atlas_JournalBeta.png")
 image blue_confirm_button_pressed:
-    Crop((196,96,60,48), "atlas_JournalBeta.png")
+    Crop((196,97,60,46), "atlas_JournalBeta.png")
+
+#For some reason, the "pressed" image is more opaque than the "idle" image,
+#So in order to avoid the button looking like it grows and shrinks when hovered,
+#it seems to work better to have the bigger "pressed" image as a layer underneath the smaller "idle" image
+image red_cancel_button_pressed:
+    Crop((163,49,58,46), "atlas_JournalBeta.png")
+layeredimage red_cancel_button:
+    always:
+        "red_cancel_button_pressed"
+    always:
+        Crop((258,89,58,46), "atlas_JournalBeta.png")
 
 
 ###scrollbar###########################################
