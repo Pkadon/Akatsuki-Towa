@@ -166,8 +166,11 @@ init python:
 
 # Style used for the x/back button
     style.x_button = Style('button')
-    style.x_button.idle_background = Frame("red_return_button_idle")
-    style.x_button.hover_background = Frame("red_return_button_hover")
+    style.x_button.background = Frame("red_return_button_idle")
+  #Renpy will "hover" over the top-left corner pixel in touch mode when nothing else is being touched,
+  #causing unintended behavior and delays
+    if not renpy.variant("touch"):
+        style.x_button.hover_background = Frame("red_return_button_hover")
     style.x_button.xsize = int(((840 - style.book_paper_frame.xmaximum) + paper_leftshadow_width) * 1.4)
     style.x_button.ysize = style.x_button.xmaximum
     style.x_button.anchor = (0.4,0.4)
