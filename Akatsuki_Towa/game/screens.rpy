@@ -324,17 +324,23 @@ screen navigation():
 
         spacing gui.navigation_spacing
 
-        if main_menu:
-            textbutton _("Scene Select"):
-                activate_sound "other_7004.ogg"
-                action ShowMenu("episodelist")
-
-        elif _in_replay:
-            textbutton _("Scene Select"):
+        if not main_menu and not _in_replay:
+            textbutton _("Main Menu"):
                 activate_sound None
-                action EndReplay(confirm=True)
+                action MainMenu()
 
-            # Doesn't seem to store the history after a scene, maybe because they're "Replays"
+        else:
+            textbutton _("Scene Select"):
+                if main_menu:
+                    activate_sound "other_7004.ogg"
+                    action ShowMenu("episodelist")
+
+                elif _in_replay:
+                    activate_sound None
+                    action EndReplay(confirm=True)
+
+        if _in_replay:
+            # It doesn't seem to store the history after a scene, maybe because they're "Replays"
             # So just hide the button from the main menu
             textbutton _("History") action ShowMenu("history")
 
@@ -343,17 +349,10 @@ screen navigation():
         textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("Help") action ShowMenu("help")
 
-        if not main_menu:
-            textbutton _("Main Menu"):
-                activate_sound None
-                action MainMenu()
-
         if renpy.variant("pc"):
-
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit"):
