@@ -326,10 +326,13 @@ screen navigation():
 
         if main_menu:
             textbutton _("Scene Select"):
+                activate_sound "other_7004.ogg"
                 action ShowMenu("episodelist")
 
         elif _in_replay:
-            textbutton _("Scene Select") action EndReplay(confirm=True)
+            textbutton _("Scene Select"):
+                activate_sound None
+                action EndReplay(confirm=True)
 
             # Doesn't seem to store the history after a scene, maybe because they're "Replays"
             # So just hide the button from the main menu
@@ -346,13 +349,16 @@ screen navigation():
 
         if not main_menu:
             textbutton _("Main Menu"):
+                activate_sound None
                 action MainMenu()
 
         if renpy.variant("pc"):
 
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit"):
+                activate_sound None
+                action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -362,6 +368,8 @@ style navigation_button:
     size_group "navigation"
     background Frame('mainmenu_button', 0,0)
     xsize 150
+    hover_sound "common_tag.ogg"
+    activate_sound "common_tag_2.ogg"
 
 
 style navigation_button_text:
@@ -532,6 +540,7 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
     textbutton _("Return"):
         style "return_button"
+        activate_sound "common_cancel.ogg"
 
         action Return()
 
@@ -1257,6 +1266,8 @@ style help_label_text:
 
 screen confirm(message, yes_action, no_action):
 
+    on "show" action Play('audio', 'common_remind.ogg')
+
     ## Ensure other screens do not get input while this screen is displayed.
     modal True
 
@@ -1751,6 +1762,7 @@ style navigation_button:
     variant "touch"
     ysize 50
     xsize 180
+    hover_sound None
 
 style navigation_button_text:
     variant "touch"
