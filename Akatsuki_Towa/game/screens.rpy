@@ -56,12 +56,13 @@ style scrollbar:
     ysize gui.scrollbar_size
     base_bar None
     thumb Frame("horizontal_scrollbar_thumb_[prefix_]pc", 16,16)
-    
+    hover_sound "common_tag.ogg"
 
 style vscrollbar:
     xsize gui.scrollbar_size
     base_bar None
     thumb Frame("vertical_scrollbar_thumb_[prefix_]pc", 16,16)
+    hover_sound "common_tag.ogg"
 
 style slider:
     ysize gui.slider_size
@@ -1718,11 +1719,13 @@ style scrollbar:
     variant "touch"
     ysize gui.scrollbar_size
     thumb Frame("horizontal_scrollbar_thumb_[prefix_]mobile", 25, 25, tile=True)
+    hover_sound None
 
 style vscrollbar:
     variant "touch"
     xsize gui.scrollbar_size
     thumb Frame("vertical_scrollbar_thumb_[prefix_]mobile", 25, 25, tile=True)
+    hover_sound None
 
 style slider:
     variant "touch"
