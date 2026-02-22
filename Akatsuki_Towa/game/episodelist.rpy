@@ -112,6 +112,7 @@ init python:
     
     style.silvertab = Style('tabbutton')
     style.silvertab.background = Frame('booktab2')
+    style.silvertab.activate_sound = "other_7004.ogg"
     #The silver tab just needs to keep text off of its edges/corners
     style.silvertab.left_padding = int(style.tabbutton.xmaximum * 0.04)
     style.silvertab.right_padding = int(style.tabbutton.xmaximum * 0.04)
@@ -123,6 +124,7 @@ init python:
     style.scene_button.background = Frame("scenebutton", 41,41)
     style.scene_button.xysize = (scenebutton_width,scenebutton_height)
     style.scene_button.padding = (14, 13, 14, 13) #(left, top, right, bottom)
+    style.scene_button.activate_sound = "common_select.ogg"
 
     scenebutton_inner_space = calculate_inner_space('scene_button')
 
@@ -171,6 +173,8 @@ init python:
   #causing unintended behavior and delays
     if not renpy.variant("touch"):
         style.x_button.hover_background = Frame("red_return_button_hover")
+        style.x_button.hover_sound = "common_tag.ogg"
+    style.x_button.activate_sound = "common_cancel.ogg"
     style.x_button.xsize = int(((840 - style.book_paper_frame.xmaximum) + paper_leftshadow_width) * 1.4)
     style.x_button.ysize = style.x_button.xmaximum
     style.x_button.anchor = (0.4,0.4)
@@ -411,7 +415,8 @@ screen quest(data):
                             SetVariable('showing_log', log_index)
                         ], 
                         'properties': {
-                            'selected': (showing_log == log_index)
+                            'selected': (showing_log == log_index),
+                            'activate_sound': 'other_7004.ogg'
                         }
                     }
                 )
