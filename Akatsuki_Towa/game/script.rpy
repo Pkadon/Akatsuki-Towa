@@ -13,6 +13,7 @@ init python:
     config.autosave_on_quit = False
     config.autosave_on_choice = False
     config.save = False
+    config.play_channel = "audio"
 
     config.window_show_transition = None
 
