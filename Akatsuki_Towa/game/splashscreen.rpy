@@ -4,16 +4,16 @@
 #akatsukilogo is defined in CONFIG.rpy
 
 image startbutton:
-    Crop((747,1990,175,48), "atlas_login.png")
+    Crop((738,1976,195,80), "atlas_login.png")
 image startbuttonani:
     animation
     "startbutton"
     alpha 1.0
     zoom 0.65
     pause 0.35
-    linear 0.5 alpha 0.0
+    linear 0.75 alpha 0.0
     pause 0.35
-    linear 0.5 alpha 1.0
+    linear 0.75 alpha 1.0
     repeat
 image startbuttonclicked:
     animation
@@ -46,13 +46,13 @@ label splashscreen:
         pos splash_logo_pos
         zoom splash_logo_zoom
     show startbuttonani:
-        xcenter 0.72
-        ycenter 0.74
+        xpos 540
+        ypos 330
     $ renpy.pause ()
     play sound "common_select.ogg"
     hide startbuttonani
     show startbuttonclicked:
-        xcenter 0.72
-        ycenter 0.74
+        xpos 540
+        ypos 330
     pause(2.0)
 return
