@@ -27,9 +27,15 @@ image startbuttonclicked:
     repeat
 
 image splashscreen:
+    subpixel True
     "startbackground.png"
-    xysize (840, 480)
-
+    xysize (840,480)
+    zoom 1.2
+    yoffset 30
+    ease 15.0 zoom 1.05 yoffset 20
+    ease 15.0 zoom 1.2 yoffset 30
+    repeat
+    
 
 ###Splash Screen Start:######################################
 label splashscreen:
