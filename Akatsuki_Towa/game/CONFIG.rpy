@@ -469,10 +469,15 @@ python early:
 
 ### The よ永久に joke text, can be changed to anything you want to fade-in over top of the logo
 ### or you can define a totally different animation here.
+image transparent:
+    "images_free/towani.png"
+    alpha 0.0
 image logooverlay:
-    "images_free/towani2.png"
+    animation
+    "transparent"
     pause 1.0
     "images_free/towani.png" with Dissolve(1.0, alpha=True)
+
 python early:
     show_logooverlay = True # change to False to hide overlay image from Main Menu
 ### Main Menu overlay image properties:
