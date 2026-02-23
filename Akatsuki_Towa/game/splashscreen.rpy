@@ -5,106 +5,30 @@
 
 image startbutton:
     Crop((747,1990,175,48), "atlas_login.png")
-image startbutton2:
-    Crop((756,1994,166,44), "atlas_login.png")
-    alpha 0
 image startbuttonani:
-    "startbutton" with Dissolve(0.5, alpha=True)
+    animation
+    "startbutton"
     alpha 1.0
     zoom 0.65
-    pause 1.0
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .9
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .8
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .7
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .6
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .5
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .4
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .3
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .2
-    zoom 0.65
-    pause .05
-    "startbutton" with Dissolve(0.5, alpha=True)
-    alpha .1
-    zoom 0.65
-    pause .05
-    "startbutton2" with Dissolve(0.5, alpha=True)
-    alpha 0
-    zoom 0.65
-    pause 1.0
+    pause 0.35
+    linear 0.5 alpha 0.0
+    pause 0.35
+    linear 0.5 alpha 1.0
     repeat
 image startbuttonclicked:
-    "startbutton" with Dissolve(0.25, alpha=True)
+    animation
+    "startbutton"
     alpha 1.0
     zoom 0.65
     pause .1
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .9
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .8
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .7
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .6
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .5
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .4
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .3
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .2
-    zoom 0.65
-    pause .025
-    "startbutton" with Dissolve(0.25, alpha=True)
-    alpha .1
-    zoom 0.65
-    pause .025
-    "startbutton2" with Dissolve(0.25, alpha=True)
-    alpha 0
-    zoom 0.65
+    linear .15 alpha 0.0
     pause .1
+    linear .15 alpha 1.0
     repeat
 
 image splashscreen:
     "startbackground.png"
     xysize (840, 480)
-
 
 
 ###Splash Screen Start:######################################
