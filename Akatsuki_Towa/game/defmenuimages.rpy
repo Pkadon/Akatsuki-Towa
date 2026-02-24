@@ -13,17 +13,99 @@ layeredimage choicehover:
     always "images_free/choiceoverlay.png"
 
 ###Main Menu#################################################
-###background######
+#background
 image mainmenuscreen:
     "loading00.png"
     xysize (840, 480)
     matrixcolor TintMatrix("#FFFFFF")
-image sceneselect = "mainmenuscreen"
+
+###Preference Menu###########################################
+#background
+#image optionsmenuscreen:
+#    "images_free/options_background.png"
+
+layeredimage outer_gear:
+    always:
+        Crop((503,332,360,180), "atlas_loading.png")
+    always:
+        Crop((503,332,360,180), "atlas_loading.png")
+        yzoom -1.0
+        ypos 180
+image outer_gear_ani:
+    subpixel True
+    "outer_gear"
+    rotate 0.0
+    linear 10.0 rotate 360
+    repeat
+    
+layeredimage inner_gear:
+    always:
+        Crop((504,183,294,148), "atlas_loading.png")
+    always:
+        Crop((504,183,294,148), "atlas_loading.png")
+        yzoom -1.0
+        ypos 148
+image inner_gear_ani:
+    subpixel True
+    "inner_gear"
+    rotate 0 
+    linear 10.0 rotate -360
+    repeat
+
+image small_gear_left:
+    Crop((799,189,142,142), "atlas_loading.png")
+    zoom 0.6
+image small_gear_right:
+    Crop((799,189,142,142), "atlas_loading.png")
+image small_gear_ani_left:
+    subpixel True
+    "small_gear_left"
+    rotate 0 
+    linear 6.0 rotate -360
+    repeat
+image small_gear_ani_right:
+    subpixel True
+    "small_gear_right"
+    
+    rotate 0 
+    linear 6.0 rotate 360
+    repeat
+
+#Non-animated version for toggle preference
+#I don't understand why the coordinates change when it is animated, I hope it doesn't break later on.
+layeredimage assembled_gear:
+    subpixel True
+    always:
+        "outer_gear"
+    always:
+        "inner_gear"
+        pos (33,32)
+    always:
+        "small_gear_left"
+        pos (78, 173)
+    always:
+        "small_gear_right"
+        pos (145, 85)
+    alpha 0.6
+
+layeredimage assembled_gear_ani:
+    always:
+        "outer_gear_ani"
+    always:
+        "inner_gear_ani"
+        pos (46,46)
+    always:
+        "small_gear_ani_left"
+        pos (135, 230)
+    always:
+        "small_gear_ani_right"
+        pos (190, 130)
+    alpha 0.6
 
 image optionsmenuscreen:
-    "images_free/options_background.png"
+        "images_free/options_background.png"
 
-#Scene Select##
+###Scene Select##############################################
 image book_backing:
     Crop((656,391,178,174), "atlas_JournalBeta.png")
 

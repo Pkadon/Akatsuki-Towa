@@ -477,6 +477,8 @@ style main_menu_version:
 ## This screen is intended to be used with one or more children, which are
 ## transcluded (placed) inside it.
 
+default persistent.freeze_animations = False
+
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
     style_prefix "game_menu"
@@ -488,6 +490,30 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
     frame:
         style "game_menu_outer_frame"
+
+        #"Still" version
+        if persistent.freeze_animations in [True, title]:
+            #Bottom-right corner
+            add "assembled_gear":
+                anchor (232,231)
+                pos (1.0,1.0)
+            #Top-left corner
+            add "assembled_gear":
+                anchor (196,196)#(230,230)
+                zoom -0.7
+                pos (0.12,0.07)
+        #Animated version
+        #Again, not entirely sure why the coordinates for the animated version are so different.
+        else:
+            #Bottom-right corner
+            add "assembled_gear_ani":
+                anchor (0.6,0.6)
+                pos (1.0,1.0) 
+            #Top-left corner
+            add "assembled_gear_ani":
+                anchor (0.7,0.7)
+                zoom -0.7
+                pos (0.12,0.07) 
 
         hbox:
 
@@ -927,6 +953,16 @@ screen preferences():
                     textbutton _("Mute All"):
                         action Preference("all mute", "toggle")
                         style "mute_all_button"
+
+                    vbox:
+                        xsize 500
+                        style_prefix "check"
+                        label _("Freeze Preference Screen Animations")
+                        hbox:
+                            xsize 500
+                            textbutton _("Nowhere") action SetVariable("persistent.freeze_animations", False)
+                            textbutton _("Everywhere") action SetVariable("persistent.freeze_animations", True)
+                            textbutton _("History Screen Only") action SetVariable("persistent.freeze_animations", "History")
 
 
 style pref_label is gui_label
