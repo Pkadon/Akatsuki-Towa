@@ -164,10 +164,10 @@ define gui.confirm_button_text_xalign = 0.5
 
 define gui.page_button_borders = Borders(7, 3, 7, 3)
 
-define gui.quick_button_borders = Borders(7, 3, 7, 0)
+define gui.quick_button_borders = Borders(7, 0, 7, 0)
 define gui.quick_button_text_size = 10
-define gui.quick_button_text_idle_color = gui.idle_small_color
-define gui.quick_button_text_selected_color = gui.accent_color
+define gui.quick_button_text_idle_color = "#888"
+define gui.quick_button_text_selected_color = "#FFF"
 
 ## File Slot Buttons ###########################################################
 ##

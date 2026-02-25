@@ -279,10 +279,11 @@ screen quick_menu():
 
             xalign 0.5
             yalign 1.0
+            yoffset 1
 
-            #textbutton quickhistorytext action ShowMenu('history')
-            #textbutton quickskiptext action Skip() alternate Skip(fast=True, confirm=True)
-            #textbutton quickautotext action Preference("auto-forward", "toggle")
+            textbutton quickhistorytext action ShowMenu('history')
+            textbutton quickskiptext action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton quickautotext action Preference("auto-forward", "toggle")
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -300,7 +301,6 @@ style quick_button:
 
 style quick_button_text:
     properties gui.text_properties("quick_button")
-
 
 ################################################################################
 ## Main and Game Menu Screens
