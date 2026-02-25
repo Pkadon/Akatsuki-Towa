@@ -1718,6 +1718,8 @@ style pref_vbox:
 screen quick_menu():
     variant "touch"
 
+    style_prefix "touch_quick"
+
     zorder 100
 
     if not persistent.hide_quick_menu:
@@ -1726,43 +1728,34 @@ screen quick_menu():
             yalign 0
             xalign 0.0
 
-            button:
-                background Frame("blue_confirm_button", 22, 22)
-                xysize (quickmenubutton_width, quick_button_height)
-                text quickmenutext:
-                    xalign 0.5
-                    ypos -1
-                    size quick_button_text_size
-                    color "#FFFFFF"
+            textbutton quickmenutext:
                 action [Play("sound", "common_tag_2.ogg"), ShowMenu()]
+
+            textbutton quickhistorytext:
+                action [Play("sound", "common_tag_2.ogg"), ShowMenu("history")]
 
         hbox:
             yalign 0
             xalign 1.0
 
-            button:
-                background Frame("blue_confirm_button", 22, 22)
-                selected_background Frame("blue_confirm_button_pressed", 22,22)
-                xysize (quickskipbutton_width, quick_button_height)
-                text quickskiptext:
-                    xalign 0.5
-                    ypos -1
-                    size quick_button_text_size
-                    color "#FFFFFF"
+            textbutton quickautotext:
+                action [Play("sound", "common_tag_2.ogg"), Preference("auto-forward", "toggle")]
+
+            textbutton quickskiptext:
                 action [Play("sound", "common_tag_2.ogg"), Skip()] 
                 alternate Skip(fast=True, confirm=True)
 
-            button:
-                background Frame("blue_confirm_button", 22, 22)
-                selected_background Frame("blue_confirm_button_pressed", 22,22)
-                xysize (quickautobutton_width, quick_button_height)
-                text quickautotext:
-                    xalign 0.5
-                    ypos -1
-                    size quick_button_text_size
-                    color "#FFFFFF"
-                action [Play("sound", "common_tag_2.ogg"), Preference("auto-forward", "toggle")]
+style touch_quick_button:
+    padding (15,0)
+    xysize (quick_button_width, quick_button_height)
+    background Frame("blue_confirm_button", 22, 22)
+    selected_background Frame("blue_confirm_button_pressed", 22,22)
 
+style touch_quick_button_text:
+    variant "touch"
+    align (0.5,0.5)
+    size quick_button_text_size
+    color "#FFFFFF"
 
 style radio_button:
     variant "small"

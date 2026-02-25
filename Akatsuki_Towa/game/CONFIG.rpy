@@ -325,20 +325,18 @@ init python early:
     quick_button_text_size = 30
 ### The height of all quick menu buttons (touch variants only)
     quick_button_height = 50
+    quick_button_width = None
 
 ### The button that opens the menu during cutscenes (Not currently included in PC variants)
     quickmenutext = "Menu"
-    quickmenubutton_width = 110
 
 ### The button that toggles the "Skip" feature
     quickskiptext = "Skip"
-    quickskipbutton_width = 90
 
 ### The button that toggles the "Auto" feature
     quickautotext = "Auto"
-    quickautobutton_width = 90
 
-### The button that opens the dialogue history (Not currently included in touch variants)
+### The button that opens the dialogue history
     quickhistorytext = "History"
 
 #==========================================================================================
