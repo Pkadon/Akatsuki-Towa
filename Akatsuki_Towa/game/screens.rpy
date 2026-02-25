@@ -103,8 +103,16 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+screen hotkeys():
+    key "r" action ShowMenu('history')
+    key "l" action ShowMenu('history')
+    key "a" action Preference("auto-forward", "toggle")
+    key "f" action Preference("auto-forward", "toggle")
+
 screen say(who, what, char_id=None):
     style_prefix "say"
+
+    use hotkeys
     
     #Updates the default renpy narrator character with the last used Character object
     #This is necessary to keep the namebox visible and consistent during fade-out transitions
@@ -479,7 +487,17 @@ style main_menu_version:
 
 default persistent.freeze_animations = False
 
+init python:
+    #Opening the menu in the middle of a cutscene can make the "typewriter" sound effect get stuck on loop, so this makes sure it stops.
+    def mute_typewriter():
+        global typewriter_channels
+
+        for ch in typewriter_channels:
+            renpy.music.stop(channel=ch)
+
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+
+    on "show" action Function(mute_typewriter)
 
     style_prefix "game_menu"
 
@@ -840,10 +858,6 @@ screen preferences():
             #This lets the main menu music change while still in the Preference menu, instead of needing to close out of it for the new music to take effect.
             update_mainmenu_music()
 
-            #Opening the menu in the middle of a cutscene can make the "typewriter" sound effect get stuck, so this makes sure to stop it.
-            for ch in typewriter_channels:
-                renpy.music.stop(channel=ch)
-
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
@@ -1188,12 +1202,20 @@ screen keyboard_help():
         text _("Accesses the game menu.")
 
     hbox:
+        label _("R/L")
+        text _("Opens the History menu.")
+
+    hbox:
         label _("Ctrl")
         text _("Skips dialogue while held down.")
 
     hbox:
         label _("Tab")
         text _("Toggles dialogue skipping.")
+
+    hbox:
+        label _("A/F")
+        text _("Toggles dialogue auto-advance.")
 
     hbox:
         label _("Page Up")
