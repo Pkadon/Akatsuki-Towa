@@ -272,7 +272,7 @@ screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
 
-    if quick_menu:
+    if not persistent.hide_quick_menu:
 
         hbox:
             style_prefix "quick"
@@ -291,7 +291,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = True
+default persistent.hide_quick_menu = False
 
 style quick_button is default
 style quick_button_text is button_text
@@ -953,6 +953,15 @@ screen preferences():
                     textbutton _("Mute All"):
                         action Preference("all mute", "toggle")
                         style "mute_all_button"
+
+                    if not renpy.variant("touch"):
+                        vbox:
+                            xsize 500
+                            style_prefix "check"
+                            fixed:
+                                xysize (0,8)
+                            textbutton _("Hide Quick Menu during cutscenes"):
+                                action ToggleVariable("persistent.hide_quick_menu")
 
                     vbox:
                         xsize 500
@@ -1689,7 +1698,7 @@ screen quick_menu():
 
     zorder 100
 
-    if quick_menu:
+    if not persistent.hide_quick_menu:
 
         hbox:
             yalign 0
