@@ -154,12 +154,6 @@ define gui.button_text_xalign = 0.0
 ##
 ## These customizations are used by the default interface:
 
-define gui.radio_button_borders = Borders(12, 3, 3, 15)
-define gui.radio_button_height = 32
-
-define gui.check_button_borders = Borders(12, 3, 3, 15)
-define gui.check_button_height = 32
-
 define gui.confirm_button_text_xalign = 0.5
 
 define gui.page_button_borders = Borders(7, 3, 7, 3)

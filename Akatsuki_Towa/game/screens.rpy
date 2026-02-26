@@ -869,123 +869,130 @@ screen preferences():
                 if renpy.variant("pc") or renpy.variant("web"):
 
                     vbox:
-                        style_prefix "radio"
+                        style_prefix "check"
+                        xsize 140
+                        spacing 0
                         label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        vbox:
+                            textbutton _("Window") action Preference("display", "window")
+                            textbutton _("Fullscreen") action Preference("display", "fullscreen")
 
                 vbox:
                     style_prefix "check"
+                    xsize 165
+                    spacing 0
                     label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
-                    textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                    vbox:
+                        textbutton _("Unseen Text") action Preference("skip", "toggle")
+                        textbutton _("After Choices") action Preference("after choices", "toggle")
+                        textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
                 vbox:
-                    xsize 250
                     style_prefix "check"
+                    xsize 250
+                    spacing 0
                     label _("Main Menu Music")
-
-                    textbutton _("Akatsuki Main Theme") action SetVariable("persistent.mainmenu_music", "mainsong.ogg")
-                    textbutton _("Ainsel Theme") action SetVariable("persistent.mainmenu_music", "ed9998.ogg")
-                    textbutton _("Remiferia Theme") action SetVariable("persistent.mainmenu_music", "ed9999.ogg")
-                    textbutton _("Miss You") action SetVariable("persistent.mainmenu_music", "ed7569.ogg")
-                    textbutton _("Mute") action SetVariable("persistent.mainmenu_music", 'none')
+                    vbox:
+                        textbutton _("Akatsuki Main Theme") action SetVariable("persistent.mainmenu_music", "mainsong.ogg")
+                        textbutton _("Ainsel Theme") action SetVariable("persistent.mainmenu_music", "ed9998.ogg")
+                        textbutton _("Remiferia Theme") action SetVariable("persistent.mainmenu_music", "ed9999.ogg")
+                        textbutton _("Miss You") action SetVariable("persistent.mainmenu_music", "ed7569.ogg")
+                        textbutton _("Mute") action SetVariable("persistent.mainmenu_music", 'none')
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
             null height (4 * gui.pref_spacing)
 
-            hbox:
+            vbox:
                 style_prefix "slider"
                 box_wrap True
+                spacing 10
 
+                #Text display speed-related
                 vbox:
-
-                    label _("Text Speed")
-
-                    bar value Preference("text speed")
-
-                    label _("Auto-Advance Speed")
-
-                    bar value Preference("auto-forward time"):
-                        bar_invert True
-
-                vbox:
+                    style "slider_outer_vbox"
                     vbox:
-                        spacing 7
+                        label _("Text Speed")
+                        bar value Preference("text speed")
 
+                    vbox:
+                        label _("Auto-Advance Speed")
+                        bar value Preference("auto-forward time"):
+                            bar_invert True
+
+                #Audio-related
+                vbox:
+                    style "slider_outer_vbox"
+                    vbox:
+                        style "slider_inner_vbox"
                         vbox:
                             label _("Music Volume")
-
                             hbox:
                                 bar value Preference("music volume")
-
                         vbox:
-                            xsize 500
-                            style_prefix "check"
                             textbutton _("Cleanly Loop BGM {size=15}(takes effect on next track change){/size}"):
+                                left_margin 10
                                 action ToggleVariable("persistent.loop_bgm")
 
-                    label _("Sound Effect Volume")
+                    vbox:
+                        style "slider_inner_vbox"
+                        vbox:
+                            label _("Sound Effect Volume")
+                            hbox:
+                                bar value Preference("sound volume")
 
-                    hbox:
-                        bar value Preference("sound volume")
-
-                        if config.sample_sound:
-                            textbutton _("Test") action Play("sound", config.sample_sound)
+                                if config.sample_sound:
+                                    textbutton _("Test") action Play("sound", config.sample_sound)
 
                     vbox:
-                        xfill True
-                        spacing 7
-
-                        vbox:
-                            xsize 500
-                            if not persistent.mute_typewriter:
+                        style "slider_inner_vbox"
+                        if not persistent.mute_typewriter:
+                            vbox:
                                 label _("Typewriter Volume {size=18}(relative to Sound Effect Volume){/size}")
                                 hbox:
                                     style_prefix "slider"
                                     bar value VariableValue("persistent.typewriter_volume", min=0, max=1.0, style='slider')
-                        vbox:
-                            xsize 500
-                            style_prefix "check"
-                            textbutton _("Mute Typewriter Sound"):
-                                action ToggleVariable("persistent.mute_typewriter")
 
-
-                    label _("Voice Volume")
-
-                    hbox:
-                        bar value Preference("voice volume")
-
-                        if config.sample_voice:
-                            textbutton _("Test") action Play("voice", config.sample_voice)
-
-                    null height gui.pref_spacing
-
-                    textbutton _("Mute All"):
-                        action Preference("all mute", "toggle")
-                        style "mute_all_button"
-
-                    if not renpy.variant("touch"):
-                        vbox:
-                            xsize 500
-                            style_prefix "check"
-                            fixed:
-                                xysize (0,8)
-                            textbutton _("Hide Quick Menu during cutscenes"):
-                                action ToggleVariable("persistent.hide_quick_menu")
+                        textbutton _("Mute Typewriter Sound"):
+                            if not persistent.mute_typewriter: 
+                                left_margin 10
+                            else:
+                                yoffset 7
+                            action ToggleVariable("persistent.mute_typewriter")
 
                     vbox:
-                        xsize 500
-                        style_prefix "check"
-                        label _("Freeze Preference Screen Animations")
-                        hbox:
-                            xsize 500
-                            textbutton _("Nowhere") action SetVariable("persistent.freeze_animations", False)
-                            textbutton _("Everywhere") action SetVariable("persistent.freeze_animations", True)
-                            textbutton _("History Screen Only") action SetVariable("persistent.freeze_animations", "History")
+                        style "slider_inner_vbox"
+                        vbox:
+                            label _("Voice Volume")
+                            hbox:
+                                bar value Preference("voice volume")
+
+                                if config.sample_voice:
+                                    textbutton _("Test") action Play("voice", config.sample_voice) left_margin 10
+
+                    vbox:
+                        null height 7 #spacer
+                        textbutton _("Mute All"):
+                            action Preference("all mute", "toggle")
+
+                if not renpy.variant("touch"):
+                    null height 4 #extra spacer in addition to the vbox's spacing
+                    vbox:
+                        style_prefix "slider"
+                        textbutton _("Hide Quick Menu during cutscenes"):
+                            action ToggleVariable("persistent.hide_quick_menu")
+
+                vbox:
+                    style_prefix "slider"
+                    label _("Freeze Preference Screen Animations")
+                    hbox:
+                        textbutton _("Nowhere") action SetVariable("persistent.freeze_animations", False) left_margin 10
+                        textbutton _("Everywhere") action SetVariable("persistent.freeze_animations", True)
+                        textbutton _("History Screen Only") action SetVariable("persistent.freeze_animations", "History")
+
+                #spacer for the bottom
+                null height 4
 
 
 style pref_label is gui_label
@@ -1026,39 +1033,49 @@ style pref_label_text:
 style pref_vbox:
     xsize 148
 
-style radio_vbox:
-    spacing gui.pref_button_spacing
-
-style radio_button:
-    properties gui.button_properties("radio_button")
-    foreground "check_[prefix_]foreground"
-
-style radio_button_text:
-    properties gui.text_properties("radio_button") xoffset 12
-
 style check_vbox:
-    spacing gui.pref_button_spacing
+    spacing 8
+    xsize None
 
 style check_button:
-    properties gui.button_properties("check_button")
     foreground "check_[prefix_]foreground"
+    yalign 0.5
+    ysize 24 #for no other reason than to match the foreground image size
 
 style check_button_text:
-    properties gui.text_properties("check_button") xoffset 12
+    xpos 20
+    yoffset -2
 
 style slider_slider:
     xsize 230
 
 style slider_button:
-    properties gui.button_properties("slider_button")
+    foreground "check_[prefix_]foreground"
     yalign 0.5
-    left_margin 7
+    ysize 24 #for no other reason than to match the foreground image size
 
 style slider_button_text:
-    properties gui.text_properties("slider_button")
+    xpos 20
+    yoffset -2
 
 style slider_vbox:
-    xsize 296
+    xsize 500
+
+style slider_outer_vbox is slider_vbox:
+    spacing 0
+style slider_inner_vbox is slider_vbox:
+    spacing 7
+
+#Spacing for touch variants
+style slider_outer_vbox:
+    variant "touch"
+    spacing 5
+style slider_inner_vbox:
+    variant "touch"
+    spacing 12
+
+style slider_hbox:
+    xsize 500
 
 
 ## History screen ##############################################################
@@ -1761,6 +1778,10 @@ style radio_button:
     variant "small"
     foreground "check_[prefix_]foreground"
 
+style check_vbox:
+    variant "touch"
+    spacing 15
+
 style check_button:
     variant "small"
     foreground "check_[prefix_]foreground"
@@ -1770,8 +1791,8 @@ style nvl_window:
     background "gui/phone/nvl.png"
 
 style pref_vbox:
-    variant "small"
-    xsize 263
+    variant "touch"
+    xsize 220
 
 style bar:
     variant "small"
