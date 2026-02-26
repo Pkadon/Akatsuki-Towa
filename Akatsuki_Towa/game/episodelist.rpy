@@ -529,9 +529,9 @@ screen questlog(log_list, current_index):
                 vbox:
                     xsize textbox_width
 
-                    #Add a "fixed" to the top to add spacing
-                    fixed:
-                        ysize 10
+                    #Add spacing to the top to add spacing
+                    null height 10
+
                     hbox:
                         text prefix:
                             color "#415866"
@@ -558,10 +558,9 @@ screen questlog(log_list, current_index):
                 vbox:
                     for step in data['steps']:
                         hbox:
-                            #Add a "fixed" to the left of all bullet points to add spacing
-                            fixed:
-                                ysize 1
-                                xsize 10
+                            #Add spacing to the left of all bullet points
+                            null width 10
+
                             text [' ' + logbullet + ' ']:
                                 color "#415866"
                             text [convertstrid(step)]:
