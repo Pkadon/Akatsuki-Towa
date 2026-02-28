@@ -1,7 +1,7 @@
 layeredimage oc000_01:
     always:
         Crop((0,0,270,420), "oc000_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -10,7 +10,7 @@ layeredimage oc000_01:
 layeredimage oc000_02:
     always:
         Crop((0,0,270,420), "oc000_02_avg.png")
-    group face auto:
+    group face:
         xpos 125
         ypos 102
         attribute 1:
@@ -19,7 +19,7 @@ layeredimage oc000_02:
 layeredimage oc000_03:
     always:
         Crop((0,0,270,420), "oc000_03_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -28,7 +28,7 @@ layeredimage oc000_03:
 layeredimage oc000_04:
     always:
         Crop((0,0,270,420), "oc000_04_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -37,7 +37,7 @@ layeredimage oc000_04:
 layeredimage oc000_05:
     always:
         Crop((0,0,270,420), "oc000_05_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -46,7 +46,7 @@ layeredimage oc000_05:
 layeredimage oc000_06:
     always:
         Crop((0,0,270,420), "oc000_06_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -55,7 +55,7 @@ layeredimage oc000_06:
 layeredimage oc000_07:
     always:
         Crop((0,0,270,420), "oc000_07_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -64,7 +64,7 @@ layeredimage oc000_07:
 layeredimage oc000_08:
     always:
         Crop((0,0,270,420), "oc000_08_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -73,7 +73,7 @@ layeredimage oc000_08:
 layeredimage oc000_09:
     always:
         Crop((0,0,270,420), "oc000_09_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -82,7 +82,7 @@ layeredimage oc000_09:
 layeredimage oc000_10:
     always:
         Crop((0,0,270,420), "oc000_10_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -91,7 +91,7 @@ layeredimage oc000_10:
 layeredimage oc000_11:
     always:
         Crop((0,0,270,420), "oc000_11_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -100,7 +100,7 @@ layeredimage oc000_11:
 layeredimage oc000_12:
     always:
         Crop((0,0,270,420), "oc000_12_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -109,7 +109,7 @@ layeredimage oc000_12:
 layeredimage oc001_01:
     always:
         Crop((0,0,284,480), "oc001_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 168
         attribute 1:
@@ -164,7 +164,7 @@ layeredimage oc001_01:
 layeredimage oc002_01:
     always:
         Crop((0,0,298,442), "oc002_01_avg.png")
-    group face auto:
+    group face:
         xpos 77
         ypos 162
         attribute 1:
@@ -219,7 +219,7 @@ layeredimage oc002_01:
 layeredimage oc003_01:
     always:
         Crop((0,0,380,488), "oc003_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 154
         attribute 1:
@@ -274,7 +274,7 @@ layeredimage oc003_01:
 layeredimage oc004_01:
     always:
         Crop((0,0,384,414), "oc004_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 156
         attribute 1:
@@ -329,7 +329,7 @@ layeredimage oc004_01:
 layeredimage oc005_01:
     always:
         Crop((0,0,328,464), "oc005_01_avg.png")
-    group face auto:
+    group face:
         xpos 93
         ypos 154
         attribute 1:
@@ -384,7 +384,7 @@ layeredimage oc005_01:
 layeredimage oc005_02:
     always:
         Crop((0,0,342,464), "oc005_02_avg.png")
-    group face auto:
+    group face:
         xpos 101
         ypos 154
         attribute 1:
@@ -437,7 +437,7 @@ layeredimage oc005_02:
 layeredimage oc006_01:
     always:
         Crop((0,0,236,432), "oc006_01_avg.png")
-    group face auto:
+    group face:
         xpos 48
         ypos 98
         attribute 1:
@@ -456,7 +456,7 @@ layeredimage oc006_01:
 layeredimage oc007_01:
     always:
         Crop((0,0,326,490), "oc007_01_avg.png")
-    group face auto:
+    group face:
         xpos 107
         ypos 161
         attribute 1:
@@ -475,7 +475,7 @@ layeredimage oc007_01:
 layeredimage oc007_02:
     always:
         Crop((0,0,380,490), "oc007_02_avg.png")
-    group face auto:
+    group face:
         xpos 139
         ypos 143
         attribute 1:
@@ -496,7 +496,7 @@ layeredimage oc007_02:
 layeredimage oc008_01:
     always:
         Crop((0,0,296,388), "oc008_01_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 94
         attribute 1:
@@ -515,7 +515,7 @@ layeredimage oc008_01:
 layeredimage oc008_02:
     always:
         Crop((0,0,296,388), "oc008_02_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 94
         attribute 1:
@@ -534,7 +534,7 @@ layeredimage oc008_02:
 layeredimage oca00_01:
     always:
         Crop((0,0,360,420), "oca00_01_avg.png")
-    group face auto:
+    group face:
         xpos 168
         ypos 102
         attribute 1:
@@ -547,7 +547,7 @@ layeredimage oca00_01:
 layeredimage oca01_01:
     always:
         Crop((0,0,284,480), "oca01_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 168
         attribute 1:
@@ -602,7 +602,7 @@ layeredimage oca01_01:
 layeredimage oca02_01:
     always:
         Crop((0,0,298,442), "oca02_01_avg.png")
-    group face auto:
+    group face:
         xpos 77
         ypos 162
         attribute 1:
@@ -657,7 +657,7 @@ layeredimage oca02_01:
 layeredimage oca03_01:
     always:
         Crop((0,0,380,488), "oca03_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 154
         attribute 1:
@@ -712,7 +712,7 @@ layeredimage oca03_01:
 layeredimage oca04_01:
     always:
         Crop((0,0,384,414), "oca04_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 156
         attribute 1:
@@ -767,7 +767,7 @@ layeredimage oca04_01:
 layeredimage oca05_01:
     always:
         Crop((0,0,328,464), "oca05_01_avg.png")
-    group face auto:
+    group face:
         xpos 93
         ypos 154
         attribute 1:
@@ -822,7 +822,7 @@ layeredimage oca05_01:
 layeredimage oca06_01:
     always:
         Crop((0,0,402,462), "oca06_01_avg.png")
-    group face auto:
+    group face:
         xpos 131
         ypos 128
         attribute 1:
@@ -841,7 +841,7 @@ layeredimage oca06_01:
 layeredimage ocb00_01:
     always:
         Crop((0,0,270,420), "ocb00_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 102
         attribute 1:
@@ -850,7 +850,7 @@ layeredimage ocb00_01:
 layeredimage ocb01_01:
     always:
         Crop((0,0,284,480), "ocb01_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 168
         attribute 1:
@@ -903,7 +903,7 @@ layeredimage ocb01_01:
 layeredimage ocb02_01:
     always:
         Crop((0,0,298,442), "ocb02_01_avg.png")
-    group face auto:
+    group face:
         xpos 77
         ypos 162
         attribute 1:
@@ -958,7 +958,7 @@ layeredimage ocb02_01:
 layeredimage ocb03_01:
     always:
         Crop((0,0,380,488), "ocb03_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 154
         attribute 1:
@@ -1013,7 +1013,7 @@ layeredimage ocb03_01:
 layeredimage ocb04_01:
     always:
         Crop((0,0,384,414), "ocb04_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 156
         attribute 1:
@@ -1068,7 +1068,7 @@ layeredimage ocb04_01:
 layeredimage ocb06_01:
     always:
         Crop((0,0,270,462), "ocb06_01_avg.png")
-    group face auto:
+    group face:
         xpos 65
         ypos 128
         attribute 1:
@@ -1087,7 +1087,7 @@ layeredimage ocb06_01:
 layeredimage occ02_01:
     always:
         Crop((0,0,298,442), "occ02_01_avg.png")
-    group face auto:
+    group face:
         xpos 77
         ypos 162
         attribute 1:
@@ -1142,7 +1142,7 @@ layeredimage occ02_01:
 layeredimage occ04_01:
     always:
         Crop((0,0,384,414), "occ04_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 156
         attribute 1:
@@ -1197,7 +1197,7 @@ layeredimage occ04_01:
 layeredimage ocd01_01:
     always:
         Crop((0,0,284,480), "ocd01_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 168
         attribute 1:
@@ -1222,7 +1222,7 @@ layeredimage ocd01_01:
 layeredimage ocd03_01:
     always:
         Crop((0,0,380,488), "ocd03_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 154
         attribute 1:
@@ -1277,7 +1277,7 @@ layeredimage ocd03_01:
 layeredimage oce02_01:
     always:
         Crop((0,0,298,442), "oce02_01_avg.png")
-    group face auto:
+    group face:
         xpos 77
         ypos 162
         attribute 1:
@@ -1300,7 +1300,7 @@ layeredimage oce02_01:
 layeredimage oce04_01:
     always:
         Crop((0,0,384,414), "oce04_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 156
         attribute 1:
@@ -1323,7 +1323,7 @@ layeredimage oce04_01:
 layeredimage sc001_01:
     always:
         Crop((0,0,320,486), "sc001_01_avg.png")
-    group face auto:
+    group face:
         xpos 90
         ypos 173
         attribute 1:
@@ -1344,7 +1344,7 @@ layeredimage sc001_01:
 layeredimage sc002_01:
     always:
         Crop((0,0,350,480), "sc002_01_avg.png")
-    group face auto:
+    group face:
         xpos 111
         ypos 134
         attribute 0: #Not defined in original game, set to default
@@ -1365,7 +1365,7 @@ layeredimage sc002_01:
 layeredimage sc003_01:
     always:
         Crop((0,0,358,522), "sc003_01_avg.png")
-    group face auto:
+    group face:
         xpos 91
         ypos 168
         attribute 1:
@@ -1384,7 +1384,7 @@ layeredimage sc003_01:
 layeredimage sc004_01:
     always:
         Crop((0,0,286,450), "sc004_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 113
         attribute 1:
@@ -1403,7 +1403,7 @@ layeredimage sc004_01:
 layeredimage sc005_01:
     always:
         Crop((0,0,280,426), "sc005_01_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 96
         attribute 1:
@@ -1422,7 +1422,7 @@ layeredimage sc005_01:
 layeredimage sc006_01:
     always:
         Crop((0,0,400,492), "sc006_01_avg.png")
-    group face auto:
+    group face:
         xpos 139
         ypos 133
         attribute 1:
@@ -1441,7 +1441,7 @@ layeredimage sc006_01:
 layeredimage sc007_01:
     always:
         Crop((0,0,280,408), "sc007_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 146
         attribute 1:
@@ -1460,7 +1460,7 @@ layeredimage sc007_01:
 layeredimage sc008_01:
     always:
         Crop((0,0,496,516), "sc008_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 158
         attribute 1:
@@ -1479,7 +1479,7 @@ layeredimage sc008_01:
 layeredimage sc009_01:
     always:
         Crop((0,0,280,438), "sc009_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 140
         attribute 1:
@@ -1498,7 +1498,7 @@ layeredimage sc009_01:
 layeredimage sc010_01:
     always:
         Crop((0,0,464,550), "sc010_01_avg.png")
-    group face auto:
+    group face:
         xpos 149
         ypos 163
         attribute 1:
@@ -1517,7 +1517,7 @@ layeredimage sc010_01:
 layeredimage sc011_01:
     always:
         Crop((0,0,368,460), "sc011_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 168
         attribute 1:
@@ -1536,7 +1536,7 @@ layeredimage sc011_01:
 layeredimage sc012_01:
     always:
         Crop((0,0,556,482), "sc012_01_avg.png")
-    group face auto:
+    group face:
         xpos 213
         ypos 138
         attribute 1:
@@ -1555,7 +1555,7 @@ layeredimage sc012_01:
 layeredimage sc013_01:
     always:
         Crop((0,0,570,552), "sc013_01_avg.png")
-    group face auto:
+    group face:
         xpos 194
         ypos 153
         attribute 1:
@@ -1574,7 +1574,7 @@ layeredimage sc013_01:
 layeredimage sc014_01:
     always:
         Crop((0,0,440,492), "sc014_01_avg.png")
-    group face auto:
+    group face:
         xpos 144
         ypos 108
         attribute 1:
@@ -1593,7 +1593,7 @@ layeredimage sc014_01:
 layeredimage sc015_01:
     always:
         Crop((0,0,290,428), "sc015_01_avg.png")
-    group face auto:
+    group face:
         xpos 59
         ypos 156
         attribute 1:
@@ -1612,7 +1612,7 @@ layeredimage sc015_01:
 layeredimage sc016_01:
     always:
         Crop((0,0,360,484), "sc016_01_avg.png")
-    group face auto:
+    group face:
         xpos 99
         ypos 126
         attribute 1:
@@ -1631,7 +1631,7 @@ layeredimage sc016_01:
 layeredimage sc017_01:
     always:
         Crop((0,0,308,488), "sc017_01_avg.png")
-    group face auto:
+    group face:
         xpos 78
         ypos 171
         attribute 1:
@@ -1650,7 +1650,7 @@ layeredimage sc017_01:
 layeredimage sc018_01:
     always:
         Crop((0,0,410,500), "sc018_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 146
         attribute 1:
@@ -1669,7 +1669,7 @@ layeredimage sc018_01:
 layeredimage sc019_01:
     always:
         Crop((0,0,290,450), "sc019_01_avg.png")
-    group face auto:
+    group face:
         xpos 83
         ypos 146
         attribute 1:
@@ -1688,7 +1688,7 @@ layeredimage sc019_01:
 layeredimage sc020_01:
     always:
         Crop((0,0,420,490), "sc020_01_avg.png")
-    group face auto:
+    group face:
         xpos 139
         ypos 144
         attribute 1:
@@ -1707,7 +1707,7 @@ layeredimage sc020_01:
 layeredimage sc021_01:
     always:
         Crop((0,0,322,504), "sc021_01_avg.png")
-    group face auto:
+    group face:
         xpos 94
         ypos 184
         attribute 1:
@@ -1726,7 +1726,7 @@ layeredimage sc021_01:
 layeredimage sc022_01:
     always:
         Crop((0,0,400,468), "sc022_01_avg.png")
-    group face auto:
+    group face:
         xpos 125
         ypos 124
         attribute 1:
@@ -1745,7 +1745,7 @@ layeredimage sc022_01:
 layeredimage sc023_01:
     always:
         Crop((0,0,284,448), "sc023_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 128
         attribute 1:
@@ -1764,7 +1764,7 @@ layeredimage sc023_01:
 layeredimage sc024_01:
     always:
         Crop((0,0,530,512), "sc024_01_avg.png")
-    group face auto:
+    group face:
         xpos 176
         ypos 97
         attribute 1:
@@ -1783,7 +1783,7 @@ layeredimage sc024_01:
 layeredimage sc025_01:
     always:
         Crop((0,0,362,490), "sc025_01_avg.png")
-    group face auto:
+    group face:
         xpos 101
         ypos 124
         attribute 1:
@@ -1802,7 +1802,7 @@ layeredimage sc025_01:
 layeredimage sc026_01:
     always:
         Crop((0,0,286,458), "sc026_01_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 123
         attribute 1:
@@ -1821,7 +1821,7 @@ layeredimage sc026_01:
 layeredimage sc027_01:
     always:
         Crop((0,0,462,472), "sc027_01_avg.png")
-    group face auto:
+    group face:
         xpos 163
         ypos 119
         attribute 1:
@@ -1840,7 +1840,7 @@ layeredimage sc027_01:
 layeredimage sc028_01:
     always:
         Crop((0,0,396,486), "sc028_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 112
         attribute 1:
@@ -1859,7 +1859,7 @@ layeredimage sc028_01:
 layeredimage sc029_01:
     always:
         Crop((0,0,340,472), "sc029_01_avg.png")
-    group face auto:
+    group face:
         xpos 106
         ypos 134
         attribute 1:
@@ -1878,7 +1878,7 @@ layeredimage sc029_01:
 layeredimage sc030_01:
     always:
         Crop((0,0,386,480), "sc030_01_avg.png")
-    group face auto:
+    group face:
         xpos 118
         ypos 130
         attribute 1:
@@ -1897,7 +1897,7 @@ layeredimage sc030_01:
 layeredimage sc031_01:
     always:
         Crop((0,0,384,494), "sc031_01_avg.png")
-    group face auto:
+    group face:
         xpos 120
         ypos 132
         attribute 1:
@@ -1916,7 +1916,7 @@ layeredimage sc031_01:
 layeredimage sc032_01:
     always:
         Crop((0,0,364,472), "sc032_01_avg.png")
-    group face auto:
+    group face:
         xpos 101
         ypos 105
         attribute 1:
@@ -1935,7 +1935,7 @@ layeredimage sc032_01:
 layeredimage sc033_01:
     always:
         Crop((0,0,260,448), "sc033_01_avg.png")
-    group face auto:
+    group face:
         xpos 69
         ypos 174
         attribute 1:
@@ -1954,7 +1954,7 @@ layeredimage sc033_01:
 layeredimage sc034_01:
     always:
         Crop((0,0,340,506), "sc034_01_avg.png")
-    group face auto:
+    group face:
         xpos 93
         ypos 175
         attribute 1:
@@ -1973,7 +1973,7 @@ layeredimage sc034_01:
 layeredimage sc035_01:
     always:
         Crop((0,0,420,538), "sc035_01_avg.png")
-    group face auto:
+    group face:
         xpos 121
         ypos 142
         attribute 1:
@@ -1992,7 +1992,7 @@ layeredimage sc035_01:
 layeredimage sc036_01:
     always:
         Crop((0,0,470,536), "sc036_01_avg.png")
-    group face auto:
+    group face:
         xpos 189
         ypos 234
         attribute 1:
@@ -2011,7 +2011,7 @@ layeredimage sc036_01:
 layeredimage sc038_01:
     always:
         Crop((0,0,396,488), "sc038_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 137
         attribute 1:
@@ -2032,7 +2032,7 @@ layeredimage sc038_01:
 layeredimage sc039_01:
     always:
         Crop((0,0,280,448), "sc039_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 124
         attribute 1:
@@ -2055,7 +2055,7 @@ layeredimage sc039_01:
 layeredimage sc040_01:
     always:
         Crop((0,0,300,424), "sc040_01_avg.png")
-    group face auto:
+    group face:
         xpos 79
         ypos 148
         attribute 1:
@@ -2080,7 +2080,7 @@ layeredimage sc040_01:
 layeredimage sc041_01:
     always:
         Crop((0,0,380,534), "sc041_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 181
         attribute 1:
@@ -2099,7 +2099,7 @@ layeredimage sc041_01:
 layeredimage sc042_01:
     always:
         Crop((0,0,426,486), "sc042_01_avg.png")
-    group face auto:
+    group face:
         xpos 122
         ypos 114
         attribute 1:
@@ -2125,10 +2125,10 @@ layeredimage sc042_01:
 layeredimage sc043_01:
     always:
         "images_free/sc043_stopgap.png"
-    group base auto:
+    group base:
         attribute body default:
             Crop((0,0,490,430), "sc043_01_avg.png")
-    group face auto:
+    group face:
         xpos 113
         ypos 58
         attribute 1 default:
@@ -2147,7 +2147,7 @@ layeredimage sc043_01:
 layeredimage sc044_01:
     always:
         Crop((0,0,414,518), "sc044_01_avg.png")
-    group face auto:
+    group face:
         xpos 113
         ypos 133
         attribute 1:
@@ -2166,7 +2166,7 @@ layeredimage sc044_01:
 layeredimage sc045_01:
     always:
         Crop((0,0,268,468), "sc045_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 143
         attribute 1:
@@ -2185,7 +2185,7 @@ layeredimage sc045_01:
 layeredimage sc046_01:
     always:
         Crop((0,0,260,472), "sc046_01_avg.png")
-    group face auto:
+    group face:
         xpos 54
         ypos 164
         attribute 1:
@@ -2204,7 +2204,7 @@ layeredimage sc046_01:
 layeredimage sc047_01:
     always:
         Crop((0,0,408,500), "sc047_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 123
         attribute 1:
@@ -2223,7 +2223,7 @@ layeredimage sc047_01:
 layeredimage sc048_01:
     always:
         Crop((0,0,422,496), "sc048_01_avg.png")
-    group face auto:
+    group face:
         xpos 141
         ypos 138
         attribute 1:
@@ -2242,7 +2242,7 @@ layeredimage sc048_01:
 layeredimage sc049_01:
     always:
         Crop((0,0,410,546), "sc049_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 151
         attribute 0: #Not defined in original game, set to default
@@ -2275,7 +2275,7 @@ layeredimage sc049_01:
 layeredimage sc050_01:
     always:
         Crop((0,0,328,472), "sc050_01_avg.png")
-    group face auto:
+    group face:
         xpos 79
         ypos 123
         attribute 1:
@@ -2294,7 +2294,7 @@ layeredimage sc050_01:
 layeredimage sc051_01:
     always:
         Crop((0,0,416,484), "sc051_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 122
         attribute 1:
@@ -2313,7 +2313,7 @@ layeredimage sc051_01:
 layeredimage sc052_01:
     always:
         Crop((0,0,294,460), "sc052_01_avg.png")
-    group face auto:
+    group face:
         xpos 70
         ypos 147
         attribute 1:
@@ -2332,7 +2332,7 @@ layeredimage sc052_01:
 layeredimage sc053_01:
     always:
         Crop((0,0,264,442), "sc053_01_avg.png")
-    group face auto:
+    group face:
         xpos 68
         ypos 116
         attribute 1:
@@ -2351,7 +2351,7 @@ layeredimage sc053_01:
 layeredimage sc054_01:
     always:
         Crop((0,0,398,476), "sc054_01_avg.png")
-    group face auto:
+    group face:
         xpos 121
         ypos 120
         attribute 1:
@@ -2370,7 +2370,7 @@ layeredimage sc054_01:
 layeredimage sc055_01:
     always:
         Crop((0,0,566,510), "sc055_01_avg.png")
-    group face auto:
+    group face:
         xpos 201
         ypos 94
         attribute 1:
@@ -2389,7 +2389,7 @@ layeredimage sc055_01:
 layeredimage sc058_01:
     always:
         Crop((0,0,248,450), "sc058_01_avg.png")
-    group face auto:
+    group face:
         xpos 64
         ypos 126
         attribute 1:
@@ -2408,7 +2408,7 @@ layeredimage sc058_01:
 layeredimage sc058_02:
     always:
         Crop((0,0,248,450), "sc058_02_avg.png")
-    group face auto:
+    group face:
         xpos 62
         ypos 119
         attribute 1:
@@ -2427,7 +2427,7 @@ layeredimage sc058_02:
 layeredimage sc059_01:
     always:
         Crop((0,0,472,510), "sc059_01_avg.png")
-    group face auto:
+    group face:
         xpos 152
         ypos 111
         attribute 1:
@@ -2446,7 +2446,7 @@ layeredimage sc059_01:
 layeredimage sc060_01:
     always:
         Crop((0,0,310,476), "sc060_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 149
         attribute 1:
@@ -2465,7 +2465,7 @@ layeredimage sc060_01:
 layeredimage sc062_01:
     always:
         Crop((0,0,576,446), "sc062_01_avg.png")
-    group face auto:
+    group face:
         xpos 232
         ypos 97
         attribute 1:
@@ -2484,7 +2484,7 @@ layeredimage sc062_01:
 layeredimage sc063_01:
     always:
         Crop((0,0,334,478), "sc063_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 172
         attribute 1:
@@ -2503,7 +2503,7 @@ layeredimage sc063_01:
 layeredimage sc064_01:
     always:
         Crop((0,0,362,476), "sc064_01_avg.png")
-    group face auto:
+    group face:
         xpos 103
         ypos 168
         attribute 1:
@@ -2522,7 +2522,7 @@ layeredimage sc064_01:
 layeredimage sc065_01:
     always:
         Crop((0,0,300,478), "sc065_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 158
         attribute 1:
@@ -2541,7 +2541,7 @@ layeredimage sc065_01:
 layeredimage sc066_01:
     always:
         Crop((0,0,506,520), "sc066_01_avg.png")
-    group face auto:
+    group face:
         xpos 168
         ypos 125
         attribute 1:
@@ -2560,7 +2560,7 @@ layeredimage sc066_01:
 layeredimage sc067_01:
     always:
         Crop((0,0,524,530), "sc067_01_avg.png")
-    group face auto:
+    group face:
         xpos 189
         ypos 139
         attribute 1:
@@ -2579,7 +2579,7 @@ layeredimage sc067_01:
 layeredimage sc068_01:
     always:
         Crop((0,0,248,452), "sc068_01_avg.png")
-    group face auto:
+    group face:
         xpos 57
         ypos 156
         attribute 1:
@@ -2598,7 +2598,7 @@ layeredimage sc068_01:
 layeredimage sc069_01:
     always:
         Crop((0,0,486,520), "sc069_01_avg.png")
-    group face auto:
+    group face:
         xpos 191
         ypos 152
         attribute 1:
@@ -2607,7 +2607,7 @@ layeredimage sc069_01:
 layeredimage sc070_01:
     always:
         Crop((0,0,486,520), "sc070_01_avg.png")
-    group face auto:
+    group face:
         xpos 157
         ypos 144
         attribute 1:
@@ -2616,7 +2616,7 @@ layeredimage sc070_01:
 layeredimage sc071_01:
     always:
         Crop((0,0,410,472), "sc071_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 113
         attribute 1:
@@ -2635,7 +2635,7 @@ layeredimage sc071_01:
 layeredimage sc080_01:
     always:
         Crop((0,0,510,480), "sc080_01_avg.png")
-    group face auto:
+    group face:
         xpos 179
         ypos 130
         attribute 1:
@@ -2656,7 +2656,7 @@ layeredimage sc080_01:
 layeredimage sc081_01:
     always:
         Crop((0,0,378,368), "sc081_01_avg.png")
-    group face auto:
+    group face:
         xpos 139
         ypos 68
         attribute 1:
@@ -2675,7 +2675,7 @@ layeredimage sc081_01:
 layeredimage sc082_01:
     always:
         Crop((0,0,410,424), "sc082_01_avg.png")
-    group face auto:
+    group face:
         xpos 167
         ypos 164
         attribute 1:
@@ -2694,7 +2694,7 @@ layeredimage sc082_01:
 layeredimage sc083_01:
     always:
         Crop((0,0,380,500), "sc083_01_avg.png")
-    group face auto:
+    group face:
         xpos 151
         ypos 208
         attribute 1:
@@ -2713,7 +2713,7 @@ layeredimage sc083_01:
 layeredimage sc084_01:
     always:
         Crop((0,0,508,480), "sc084_01_avg.png")
-    group face auto:
+    group face:
         xpos 253
         ypos 145
         attribute 1:
@@ -2732,7 +2732,7 @@ layeredimage sc084_01:
 layeredimage sc085_01:
     always:
         Crop((0,0,480,370), "sc085_01_avg.png")
-    group face auto:
+    group face:
         xpos 217
         ypos 67
         attribute 1:
@@ -2753,7 +2753,7 @@ layeredimage sc085_01:
 layeredimage sc086_01:
     always:
         Crop((0,0,410,436), "sc086_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 170
         attribute 1:
@@ -2772,7 +2772,7 @@ layeredimage sc086_01:
 layeredimage sc087_01:
     always:
         Crop((0,0,510,480), "sc087_01_avg.png")
-    group face auto:
+    group face:
         xpos 263
         ypos 143
         attribute 1:
@@ -2791,7 +2791,7 @@ layeredimage sc087_01:
 layeredimage sc088_01:
     always:
         Crop((0,0,430,534), "sc088_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 213
         attribute 1:
@@ -2810,7 +2810,7 @@ layeredimage sc088_01:
 layeredimage sc089_01:
     always:
         Crop((0,0,550,460), "sc089_01_avg.png")
-    group face auto:
+    group face:
         xpos 196
         ypos 140
         attribute 1:
@@ -2829,7 +2829,7 @@ layeredimage sc089_01:
 layeredimage sc090_01:
     always:
         Crop((0,0,484,480), "sc090_01_avg.png")
-    group face auto:
+    group face:
         xpos 108
         ypos 155
         attribute 1:
@@ -2848,7 +2848,7 @@ layeredimage sc090_01:
 layeredimage sc091_01:
     always:
         Crop((0,0,400,460), "sc091_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 150
         attribute 1:
@@ -2867,7 +2867,7 @@ layeredimage sc091_01:
 layeredimage sc092_01:
     always:
         Crop((0,0,400,420), "sc092_01_avg.png")
-    group face auto:
+    group face:
         xpos 162
         ypos 145
         attribute 1:
@@ -2886,7 +2886,7 @@ layeredimage sc092_01:
 layeredimage sc093_01:
     always:
         Crop((0,0,410,500), "sc093_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 148
         attribute 1:
@@ -2905,7 +2905,7 @@ layeredimage sc093_01:
 layeredimage sc094_01:
     always:
         Crop((0,0,510,480), "sc094_01_avg.png")
-    group face auto:
+    group face:
         xpos 243
         ypos 124
         attribute 1:
@@ -2924,7 +2924,7 @@ layeredimage sc094_01:
 layeredimage sc095_01:
     always:
         Crop((0,0,410,480), "sc095_01_avg.png")
-    group face auto:
+    group face:
         xpos 149
         ypos 148
         attribute 1:
@@ -2943,7 +2943,7 @@ layeredimage sc095_01:
 layeredimage sc096_01:
     always:
         Crop((0,0,410,436), "sc096_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 166
         attribute 1:
@@ -2962,7 +2962,7 @@ layeredimage sc096_01:
 layeredimage sc097_01:
     always:
         Crop((0,0,400,424), "sc097_01_avg.png")
-    group face auto:
+    group face:
         xpos 170
         ypos 132
         attribute 1:
@@ -2981,7 +2981,7 @@ layeredimage sc097_01:
 layeredimage sc098_01:
     always:
         Crop((0,0,430,534), "sc098_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 213
         attribute 1:
@@ -3002,7 +3002,7 @@ layeredimage sc098_01:
 layeredimage sc099_01:
     always:
         Crop((0,0,390,436), "sc099_01_avg.png")
-    group face auto:
+    group face:
         xpos 164
         ypos 103
         attribute 1:
@@ -3021,7 +3021,7 @@ layeredimage sc099_01:
 layeredimage sc100_01:
     always:
         Crop((0,0,440,460), "sc100_01_avg.png")
-    group face auto:
+    group face:
         xpos 178
         ypos 134
         attribute 1:
@@ -3040,7 +3040,7 @@ layeredimage sc100_01:
 layeredimage sc101_01:
     always:
         Crop((0,0,390,436), "sc101_01_avg.png")
-    group face auto:
+    group face:
         xpos 66
         ypos 103
         attribute 1:
@@ -3059,7 +3059,7 @@ layeredimage sc101_01:
 layeredimage sc102_01:
     always:
         Crop((0,0,500,424), "sc102_01_avg.png")
-    group face auto:
+    group face:
         xpos 200
         ypos 132
         attribute 1:
@@ -3078,7 +3078,7 @@ layeredimage sc102_01:
 layeredimage sc103_01:
     always:
         Crop((0,0,430,534), "sc103_01_avg.png")
-    group face auto:
+    group face:
         xpos 155
         ypos 218
         attribute 1:
@@ -3097,7 +3097,7 @@ layeredimage sc103_01:
 layeredimage sc104_01:
     always:
         Crop((0,0,400,480), "sc104_01_avg.png")
-    group face auto:
+    group face:
         xpos 154
         ypos 146
         attribute 1:
@@ -3116,7 +3116,7 @@ layeredimage sc104_01:
 layeredimage sc105_01:
     always:
         Crop((0,0,400,480), "sc105_01_avg.png")
-    group face auto:
+    group face:
         xpos 147
         ypos 136
         attribute 1:
@@ -3135,7 +3135,7 @@ layeredimage sc105_01:
 layeredimage sc106_01:
     always:
         Crop((0,0,332,500), "sc106_01_avg.png")
-    group face auto:
+    group face:
         xpos 128
         ypos 194
         attribute 1:
@@ -3154,7 +3154,7 @@ layeredimage sc106_01:
 layeredimage sc107_01:
     always:
         Crop((0,0,336,500), "sc107_01_avg.png")
-    group face auto:
+    group face:
         xpos 154
         ypos 192
         attribute 1:
@@ -3173,7 +3173,7 @@ layeredimage sc107_01:
 layeredimage sc108_01:
     always:
         Crop((0,0,410,436), "sc108_01_avg.png")
-    group face auto:
+    group face:
         xpos 151
         ypos 157
         attribute 1:
@@ -3192,7 +3192,7 @@ layeredimage sc108_01:
 layeredimage sc109_01:
     always:
         Crop((0,0,418,480), "sc109_01_avg.png")
-    group face auto:
+    group face:
         xpos 147
         ypos 144
         attribute 1:
@@ -3211,7 +3211,7 @@ layeredimage sc109_01:
 layeredimage sc110_01:
     always:
         Crop((0,0,540,460), "sc110_01_avg.png")
-    group face auto:
+    group face:
         xpos 216
         ypos 132
         attribute 1:
@@ -3230,7 +3230,7 @@ layeredimage sc110_01:
 layeredimage sc111_01:
     always:
         Crop((0,0,390,500), "sc111_01_avg.png")
-    group face auto:
+    group face:
         xpos 158
         ypos 110
         attribute 1:
@@ -3249,7 +3249,7 @@ layeredimage sc111_01:
 layeredimage sc113_01:
     always:
         Crop((0,0,390,480), "sc113_01_avg.png")
-    group face auto:
+    group face:
         xpos 79
         ypos 110
         attribute 1:
@@ -3268,7 +3268,7 @@ layeredimage sc113_01:
 layeredimage sca01_01:
     always:
         Crop((0,0,320,486), "sca01_01_avg.png")
-    group face auto:
+    group face:
         xpos 90
         ypos 173
         attribute 1:
@@ -3287,7 +3287,7 @@ layeredimage sca01_01:
 layeredimage sca02_01:
     always:
         Crop((0,0,350,480), "sca02_01_avg.png")
-    group face auto:
+    group face:
         xpos 111
         ypos 134
         attribute 1:
@@ -3296,7 +3296,7 @@ layeredimage sca02_01:
 layeredimage sca03_01:
     always:
         Crop((0,0,358,522), "sca03_01_avg.png")
-    group face auto:
+    group face:
         xpos 91
         ypos 168
         attribute 1:
@@ -3315,7 +3315,7 @@ layeredimage sca03_01:
 layeredimage sca04_01:
     always:
         Crop((0,0,286,450), "sca04_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 113
         attribute 1:
@@ -3334,7 +3334,7 @@ layeredimage sca04_01:
 layeredimage sca05_01:
     always:
         Crop((0,0,280,426), "sca05_01_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 96
         attribute 1:
@@ -3353,7 +3353,7 @@ layeredimage sca05_01:
 layeredimage sca06_01:
     always:
         Crop((0,0,500,500), "sca06_01_avg.png")
-    group face auto:
+    group face:
         xpos 189
         ypos 141
         attribute 1:
@@ -3372,7 +3372,7 @@ layeredimage sca06_01:
 layeredimage sca07_01:
     always:
         Crop((0,0,280,408), "sca07_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 146
         attribute 1:
@@ -3391,7 +3391,7 @@ layeredimage sca07_01:
 layeredimage sca08_01:
     always:
         Crop((0,0,496,516), "sca08_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 158
         attribute 1:
@@ -3410,7 +3410,7 @@ layeredimage sca08_01:
 layeredimage sca09_01:
     always:
         Crop((0,0,280,438), "sca09_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 140
         attribute 1:
@@ -3429,7 +3429,7 @@ layeredimage sca09_01:
 layeredimage sca11_01:
     always:
         Crop((0,0,368,460), "sca11_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 168
         attribute 1:
@@ -3448,7 +3448,7 @@ layeredimage sca11_01:
 layeredimage sca15_01:
     always:
         Crop((0,0,380,458), "sca15_01_avg.png")
-    group face auto:
+    group face:
         xpos 104
         ypos 186
         attribute 1:
@@ -3467,7 +3467,7 @@ layeredimage sca15_01:
 layeredimage sca17_01:
     always:
         Crop((0,0,308,488), "sca17_01_avg.png")
-    group face auto:
+    group face:
         xpos 78
         ypos 171
         attribute 1:
@@ -3486,7 +3486,7 @@ layeredimage sca17_01:
 layeredimage sca19_01:
     always:
         Crop((0,0,290,450), "sca19_01_avg.png")
-    group face auto:
+    group face:
         xpos 83
         ypos 146
         attribute 1:
@@ -3505,7 +3505,7 @@ layeredimage sca19_01:
 layeredimage sca23_01:
     always:
         Crop((0,0,372,448), "sca23_01_avg.png")
-    group face auto:
+    group face:
         xpos 116
         ypos 128
         attribute 1:
@@ -3524,7 +3524,7 @@ layeredimage sca23_01:
 layeredimage sca27_01:
     always:
         Crop((0,0,462,472), "sca27_01_avg.png")
-    group face auto:
+    group face:
         xpos 163
         ypos 119
         attribute 1:
@@ -3543,7 +3543,7 @@ layeredimage sca27_01:
 layeredimage sca29_01:
     always:
         Crop((0,0,346,480), "sca29_01_avg.png")
-    group face auto:
+    group face:
         xpos 87
         ypos 154
         attribute 1:
@@ -3562,7 +3562,7 @@ layeredimage sca29_01:
 layeredimage sca33_01:
     always:
         Crop((0,0,260,448), "sca33_01_avg.png")
-    group face auto:
+    group face:
         xpos 69
         ypos 174
         attribute 1:
@@ -3581,7 +3581,7 @@ layeredimage sca33_01:
 layeredimage sca34_01:
     always:
         Crop((0,0,340,506), "sca34_01_avg.png")
-    group face auto:
+    group face:
         xpos 93
         ypos 175
         attribute 1:
@@ -3600,7 +3600,7 @@ layeredimage sca34_01:
 layeredimage sca35_01:
     always:
         Crop((0,0,492,538), "sca35_01_avg.png")
-    group face auto:
+    group face:
         xpos 157
         ypos 142
         attribute 1:
@@ -3619,7 +3619,7 @@ layeredimage sca35_01:
 layeredimage sca36_01:
     always:
         Crop((0,0,470,536), "sca36_01_avg.png")
-    group face auto:
+    group face:
         xpos 191
         ypos 234
         attribute 1:
@@ -3638,7 +3638,7 @@ layeredimage sca36_01:
 layeredimage sca38_01:
     always:
         Crop((0,0,396,488), "sca38_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 137
         attribute 1:
@@ -3657,7 +3657,7 @@ layeredimage sca38_01:
 layeredimage sca39_01:
     always:
         Crop((0,0,280,448), "sca39_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 124
         attribute 1:
@@ -3676,7 +3676,7 @@ layeredimage sca39_01:
 layeredimage sca40_01:
     always:
         Crop((0,0,310,424), "sca40_01_avg.png")
-    group face auto:
+    group face:
         xpos 56
         ypos 148
         attribute 1:
@@ -3695,7 +3695,7 @@ layeredimage sca40_01:
 layeredimage sca41_01:
     always:
         Crop((0,0,380,534), "sca41_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 181
         attribute 1:
@@ -3714,7 +3714,7 @@ layeredimage sca41_01:
 layeredimage sca44_01:
     always:
         Crop((0,0,414,518), "sca44_01_avg.png")
-    group face auto:
+    group face:
         xpos 113
         ypos 133
         attribute 1:
@@ -3733,7 +3733,7 @@ layeredimage sca44_01:
 layeredimage sca45_01:
     always:
         Crop((0,0,268,468), "sca45_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 143
         attribute 1:
@@ -3752,7 +3752,7 @@ layeredimage sca45_01:
 layeredimage sca46_01:
     always:
         Crop((0,0,260,472), "sca46_01_avg.png")
-    group face auto:
+    group face:
         xpos 54
         ypos 164
         attribute 1:
@@ -3771,7 +3771,7 @@ layeredimage sca46_01:
 layeredimage sca52_01:
     always:
         Crop((0,0,310,460), "sca52_01_avg.png")
-    group face auto:
+    group face:
         xpos 78
         ypos 147
         attribute 1:
@@ -3790,7 +3790,7 @@ layeredimage sca52_01:
 layeredimage sca53_01:
     always:
         Crop((0,0,290,442), "sca53_01_avg.png")
-    group face auto:
+    group face:
         xpos 111
         ypos 116
         attribute 1:
@@ -3809,7 +3809,7 @@ layeredimage sca53_01:
 layeredimage sca58_01:
     always:
         Crop((0,0,348,450), "sca58_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 124
         attribute 1:
@@ -3828,7 +3828,7 @@ layeredimage sca58_01:
 layeredimage sca60_01:
     always:
         Crop((0,0,310,476), "sca60_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 149
         attribute 1:
@@ -3847,7 +3847,7 @@ layeredimage sca60_01:
 layeredimage sca62_01:
     always:
         Crop((0,0,576,446), "sca62_01_avg.png")
-    group face auto:
+    group face:
         xpos 232
         ypos 97
         attribute 1:
@@ -3866,7 +3866,7 @@ layeredimage sca62_01:
 layeredimage sca65_01:
     always:
         Crop((0,0,300,478), "sca65_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 158
         attribute 1:
@@ -3883,7 +3883,7 @@ layeredimage sca65_01:
 layeredimage sca67_01:
     always:
         Crop((0,0,534,530), "sca67_01_avg.png")
-    group face auto:
+    group face:
         xpos 145
         ypos 139
         attribute 1:
@@ -3902,7 +3902,7 @@ layeredimage sca67_01:
 layeredimage sca68_01:
     always:
         Crop((0,0,248,452), "sca68_01_avg.png")
-    group face auto:
+    group face:
         xpos 57
         ypos 156
         attribute 1:
@@ -3921,7 +3921,7 @@ layeredimage sca68_01:
 layeredimage sca80_01:
     always:
         Crop((0,0,510,480), "sca80_01_avg.png")
-    group face auto:
+    group face:
         xpos 179
         ypos 130
         attribute 1:
@@ -3940,7 +3940,7 @@ layeredimage sca80_01:
 layeredimage sca81_01:
     always:
         Crop((0,0,304,368), "sca81_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 68
         attribute 1:
@@ -3959,7 +3959,7 @@ layeredimage sca81_01:
 layeredimage sca82_01:
     always:
         Crop((0,0,410,424), "sca82_01_avg.png")
-    group face auto:
+    group face:
         xpos 143
         ypos 139
         attribute 1:
@@ -3978,7 +3978,7 @@ layeredimage sca82_01:
 layeredimage sca83_01:
     always:
         Crop((0,0,460,500), "sca83_01_avg.png")
-    group face auto:
+    group face:
         xpos 173
         ypos 208
         attribute 1:
@@ -3997,7 +3997,7 @@ layeredimage sca83_01:
 layeredimage sca84_01:
     always:
         Crop((0,0,378,480), "sca84_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 145
         attribute 1:
@@ -4016,7 +4016,7 @@ layeredimage sca84_01:
 layeredimage sca85_01:
     always:
         Crop((0,0,480,440), "sca85_01_avg.png")
-    group face auto:
+    group face:
         xpos 217
         ypos 137
         attribute 1:
@@ -4037,7 +4037,7 @@ layeredimage sca85_01:
 layeredimage sca86_01:
     always:
         Crop((0,0,410,436), "sca86_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 170
         attribute 1:
@@ -4056,7 +4056,7 @@ layeredimage sca86_01:
 layeredimage sca88_01:
     always:
         Crop((0,0,430,534), "sca88_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 213
         attribute 1:
@@ -4075,7 +4075,7 @@ layeredimage sca88_01:
 layeredimage sca89_01:
     always:
         Crop((0,0,550,460), "sca89_01_avg.png")
-    group face auto:
+    group face:
         xpos 196
         ypos 140
         attribute 1:
@@ -4094,7 +4094,7 @@ layeredimage sca89_01:
 layeredimage sca91_01:
     always:
         Crop((0,0,400,460), "sca91_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 150
         attribute 1:
@@ -4113,7 +4113,7 @@ layeredimage sca91_01:
 layeredimage sca93_01:
     always:
         Crop((0,0,410,500), "sca93_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 148
         attribute 1:
@@ -4132,7 +4132,7 @@ layeredimage sca93_01:
 layeredimage sca94_01:
     always:
         Crop((0,0,510,480), "sca94_01_avg.png")
-    group face auto:
+    group face:
         xpos 203
         ypos 119
         attribute 1:
@@ -4151,7 +4151,7 @@ layeredimage sca94_01:
 layeredimage sca96_01:
     always:
         Crop((0,0,410,436), "sca96_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 166
         attribute 1:
@@ -4170,7 +4170,7 @@ layeredimage sca96_01:
 layeredimage sca97_01:
     always:
         Crop((0,0,400,424), "sca97_01_avg.png")
-    group face auto:
+    group face:
         xpos 170
         ypos 132
         attribute 1:
@@ -4189,7 +4189,7 @@ layeredimage sca97_01:
 layeredimage sca98_01:
     always:
         Crop((0,0,430,534), "sca98_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 213
         attribute 1:
@@ -4208,7 +4208,7 @@ layeredimage sca98_01:
 layeredimage scb01_01:
     always:
         Crop((0,0,320,486), "scb01_01_avg.png")
-    group face auto:
+    group face:
         xpos 90
         ypos 173
         attribute 1:
@@ -4227,7 +4227,7 @@ layeredimage scb01_01:
 layeredimage scb02_01:
     always:
         Crop((0,0,350,480), "scb02_01_avg.png")
-    group face auto:
+    group face:
         xpos 111
         ypos 134
         attribute 1:
@@ -4244,7 +4244,7 @@ layeredimage scb02_01:
 layeredimage scb04_01:
     always:
         Crop((0,0,286,450), "scb04_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 113
         attribute 1:
@@ -4263,7 +4263,7 @@ layeredimage scb04_01:
 layeredimage scb05_01:
     always:
         Crop((0,0,280,426), "scb05_01_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 96
         attribute 1:
@@ -4282,7 +4282,7 @@ layeredimage scb05_01:
 layeredimage scb06_01:
     always:
         Crop((0,0,500,500), "scb06_01_avg.png")
-    group face auto:
+    group face:
         xpos 189
         ypos 141
         attribute 1:
@@ -4301,7 +4301,7 @@ layeredimage scb06_01:
 layeredimage scb07_01:
     always:
         Crop((0,0,306,408), "scb07_01_avg.png")
-    group face auto:
+    group face:
         xpos 94
         ypos 146
         attribute 1:
@@ -4320,7 +4320,7 @@ layeredimage scb07_01:
 layeredimage scb09_01:
     always:
         Crop((0,0,280,438), "scb09_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 140
         attribute 1:
@@ -4339,7 +4339,7 @@ layeredimage scb09_01:
 layeredimage scb15_01:
     always:
         Crop((0,0,380,458), "scb15_01_avg.png")
-    group face auto:
+    group face:
         xpos 104
         ypos 186
         attribute 1:
@@ -4358,7 +4358,7 @@ layeredimage scb15_01:
 layeredimage scb19_01:
     always:
         Crop((0,0,290,450), "scb19_01_avg.png")
-    group face auto:
+    group face:
         xpos 83
         ypos 146
         attribute 1:
@@ -4377,7 +4377,7 @@ layeredimage scb19_01:
 layeredimage scb23_01:
     always:
         Crop((0,0,284,448), "scb23_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 128
         attribute 1:
@@ -4396,7 +4396,7 @@ layeredimage scb23_01:
 layeredimage scb33_01:
     always:
         Crop((0,0,260,448), "scb33_01_avg.png")
-    group face auto:
+    group face:
         xpos 69
         ypos 174
         attribute 1:
@@ -4415,7 +4415,7 @@ layeredimage scb33_01:
 layeredimage scb34_01:
     always:
         Crop((0,0,340,506), "scb34_01_avg.png")
-    group face auto:
+    group face:
         xpos 93
         ypos 175
         attribute 1:
@@ -4434,7 +4434,7 @@ layeredimage scb34_01:
 layeredimage scb38_01:
     always:
         Crop((0,0,396,488), "scb38_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 137
         attribute 1:
@@ -4453,7 +4453,7 @@ layeredimage scb38_01:
 layeredimage scb39_01:
     always:
         Crop((0,0,280,448), "scb39_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 124
         attribute 1:
@@ -4472,7 +4472,7 @@ layeredimage scb39_01:
 layeredimage scb40_01:
     always:
         Crop((0,0,300,424), "scb40_01_avg.png")
-    group face auto:
+    group face:
         xpos 79
         ypos 148
         attribute 1:
@@ -4491,7 +4491,7 @@ layeredimage scb40_01:
 layeredimage scb41_01:
     always:
         Crop((0,0,380,534), "scb41_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 181
         attribute 1:
@@ -4510,7 +4510,7 @@ layeredimage scb41_01:
 layeredimage scb45_01:
     always:
         Crop((0,0,268,468), "scb45_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 143
         attribute 1:
@@ -4529,7 +4529,7 @@ layeredimage scb45_01:
 layeredimage scb46_01:
     always:
         Crop((0,0,260,472), "scb46_01_avg.png")
-    group face auto:
+    group face:
         xpos 54
         ypos 164
         attribute 1:
@@ -4548,7 +4548,7 @@ layeredimage scb46_01:
 layeredimage scb52_01:
     always:
         Crop((0,0,294,460), "scb52_01_avg.png")
-    group face auto:
+    group face:
         xpos 70
         ypos 147
         attribute 1:
@@ -4567,7 +4567,7 @@ layeredimage scb52_01:
 layeredimage scb58_01:
     always:
         Crop((0,0,348,450), "scb58_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 124
         attribute 1:
@@ -4586,7 +4586,7 @@ layeredimage scb58_01:
 layeredimage scb60_01:
     always:
         Crop((0,0,310,476), "scb60_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 149
         attribute 1:
@@ -4605,7 +4605,7 @@ layeredimage scb60_01:
 layeredimage scb62_01:
     always:
         Crop((0,0,450,446), "scb62_01_avg.png")
-    group face auto:
+    group face:
         xpos 199
         ypos 78
         attribute 1:
@@ -4624,7 +4624,7 @@ layeredimage scb62_01:
 layeredimage scb65_01:
     always:
         Crop((0,0,300,478), "scb65_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 158
         attribute 1:
@@ -4643,7 +4643,7 @@ layeredimage scb65_01:
 layeredimage scb68_01:
     always:
         Crop((0,0,248,452), "scb68_01_avg.png")
-    group face auto:
+    group face:
         xpos 57
         ypos 156
         attribute 1:
@@ -4662,7 +4662,7 @@ layeredimage scb68_01:
 layeredimage scb80_01:
     always:
         Crop((0,0,480,480), "scb80_01_avg.png")
-    group face auto:
+    group face:
         xpos 198
         ypos 138
         attribute 1:
@@ -4683,7 +4683,7 @@ layeredimage scb80_01:
 layeredimage scb81_01:
     always:
         Crop((0,0,304,368), "scb81_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 68
         attribute 1:
@@ -4702,7 +4702,7 @@ layeredimage scb81_01:
 layeredimage scb82_01:
     always:
         Crop((0,0,410,480), "scb82_01_avg.png")
-    group face auto:
+    group face:
         xpos 151
         ypos 220
         attribute 1:
@@ -4721,7 +4721,7 @@ layeredimage scb82_01:
 layeredimage scb83_01:
     always:
         Crop((0,0,416,500), "scb83_01_avg.png")
-    group face auto:
+    group face:
         xpos 190
         ypos 198
         attribute 1:
@@ -4740,7 +4740,7 @@ layeredimage scb83_01:
 layeredimage scb84_01:
     always:
         Crop((0,0,378,480), "scb84_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 145
         attribute 1:
@@ -4759,7 +4759,7 @@ layeredimage scb84_01:
 layeredimage scb85_01:
     always:
         Crop((0,0,480,370), "scb85_01_avg.png")
-    group face auto:
+    group face:
         xpos 217
         ypos 67
         attribute 1:
@@ -4778,7 +4778,7 @@ layeredimage scb85_01:
 layeredimage scb86_01:
     always:
         Crop((0,0,410,436), "scb86_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 170
         attribute 1:
@@ -4797,7 +4797,7 @@ layeredimage scb86_01:
 layeredimage scb88_01:
     always:
         Crop((0,0,430,534), "scb88_01_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 213
         attribute 1:
@@ -4816,7 +4816,7 @@ layeredimage scb88_01:
 layeredimage scb89_01:
     always:
         Crop((0,0,550,460), "scb89_01_avg.png")
-    group face auto:
+    group face:
         xpos 196
         ypos 140
         attribute 1:
@@ -4835,7 +4835,7 @@ layeredimage scb89_01:
 layeredimage scb91_01:
     always:
         Crop((0,0,400,460), "scb91_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 150
         attribute 1:
@@ -4854,7 +4854,7 @@ layeredimage scb91_01:
 layeredimage scb93_01:
     always:
         Crop((0,0,410,500), "scb93_01_avg.png")
-    group face auto:
+    group face:
         xpos 123
         ypos 148
         attribute 1:
@@ -4873,7 +4873,7 @@ layeredimage scb93_01:
 layeredimage scb96_01:
     always:
         Crop((0,0,410,436), "scb96_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 166
         attribute 1:
@@ -4892,7 +4892,7 @@ layeredimage scb96_01:
 layeredimage scb97_01:
     always:
         Crop((0,0,400,424), "scb97_01_avg.png")
-    group face auto:
+    group face:
         xpos 170
         ypos 132
         attribute 1:
@@ -4911,7 +4911,7 @@ layeredimage scb97_01:
 layeredimage scc01_01:
     always:
         Crop((0,0,320,486), "scc01_01_avg.png")
-    group face auto:
+    group face:
         xpos 90
         ypos 173
         attribute 1:
@@ -4930,7 +4930,7 @@ layeredimage scc01_01:
 layeredimage scc02_01:
     always:
         Crop((0,0,350,480), "scc02_01_avg.png")
-    group face auto:
+    group face:
         xpos 111
         ypos 134
         attribute 1:
@@ -4949,7 +4949,7 @@ layeredimage scc02_01:
 layeredimage scc04_01:
     always:
         Crop((0,0,286,450), "scc04_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 113
         attribute 1:
@@ -4968,7 +4968,7 @@ layeredimage scc04_01:
 layeredimage scc07_01:
     always:
         Crop((0,0,280,408), "scc07_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 146
         attribute 1:
@@ -4987,7 +4987,7 @@ layeredimage scc07_01:
 layeredimage scc09_01:
     always:
         Crop((0,0,280,438), "scc09_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 140
         attribute 1:
@@ -5006,7 +5006,7 @@ layeredimage scc09_01:
 layeredimage scc15_01:
     always:
         Crop((0,0,380,458), "scc15_01_avg.png")
-    group face auto:
+    group face:
         xpos 104
         ypos 186
         attribute 1:
@@ -5025,7 +5025,7 @@ layeredimage scc15_01:
 layeredimage scc19_01:
     always:
         Crop((0,0,290,450), "scc19_01_avg.png")
-    group face auto:
+    group face:
         xpos 83
         ypos 146
         attribute 1:
@@ -5044,7 +5044,7 @@ layeredimage scc19_01:
 layeredimage scc38_01:
     always:
         Crop((0,0,396,488), "scc38_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 133
         attribute 1:
@@ -5063,7 +5063,7 @@ layeredimage scc38_01:
 layeredimage scc39_01:
     always:
         Crop((0,0,280,448), "scc39_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 124
         attribute 1:
@@ -5082,7 +5082,7 @@ layeredimage scc39_01:
 layeredimage scc40_01:
     always:
         Crop((0,0,320,424), "scc40_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 148
         attribute 1:
@@ -5101,7 +5101,7 @@ layeredimage scc40_01:
 layeredimage scc41_01:
     always:
         Crop((0,0,380,534), "scc41_01_avg.png")
-    group face auto:
+    group face:
         xpos 126
         ypos 181
         attribute 1:
@@ -5140,7 +5140,7 @@ layeredimage scc41_01:
 layeredimage scc45_01:
     always:
         Crop((0,0,268,468), "scc45_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 143
         attribute 1:
@@ -5159,7 +5159,7 @@ layeredimage scc45_01:
 layeredimage scc46_01:
     always:
         Crop((0,0,274,472), "scc46_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 164
         attribute 1:
@@ -5178,7 +5178,7 @@ layeredimage scc46_01:
 layeredimage scc58_01:
     always:
         Crop((0,0,348,450), "scc58_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 124
         attribute 1:
@@ -5197,7 +5197,7 @@ layeredimage scc58_01:
 layeredimage scc65_01:
     always:
         Crop((0,0,300,478), "scc65_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 158
         attribute 1:
@@ -5216,7 +5216,7 @@ layeredimage scc65_01:
 layeredimage scc68_01:
     always:
         Crop((0,0,248,452), "scc68_01_avg.png")
-    group face auto:
+    group face:
         xpos 57
         ypos 156
         attribute 1:
@@ -5235,7 +5235,7 @@ layeredimage scc68_01:
 layeredimage scc80_01:
     always:
         Crop((0,0,510,480), "scc80_01_avg.png")
-    group face auto:
+    group face:
         xpos 179
         ypos 130
         attribute 1:
@@ -5256,7 +5256,7 @@ layeredimage scc80_01:
 layeredimage scc81_01:
     always:
         Crop((0,0,304,368), "scc81_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 68
         attribute 1:
@@ -5275,7 +5275,7 @@ layeredimage scc81_01:
 layeredimage scc82_01:
     always:
         Crop((0,0,410,480), "scc82_01_avg.png")
-    group face auto:
+    group face:
         xpos 151
         ypos 220
         attribute 1:
@@ -5294,7 +5294,7 @@ layeredimage scc82_01:
 layeredimage scc83_01:
     always:
         Crop((0,0,376,500), "scc83_01_avg.png")
-    group face auto:
+    group face:
         xpos 157
         ypos 198
         attribute 1:
@@ -5313,7 +5313,7 @@ layeredimage scc83_01:
 layeredimage scc85_01:
     always:
         Crop((0,0,480,370), "scc85_01_avg.png")
-    group face auto:
+    group face:
         xpos 217
         ypos 67
         attribute 1:
@@ -5332,7 +5332,7 @@ layeredimage scc85_01:
 layeredimage scc86_01:
     always:
         Crop((0,0,410,436), "scc86_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 170
         attribute 1:
@@ -5351,7 +5351,7 @@ layeredimage scc86_01:
 layeredimage scc89_01:
     always:
         Crop((0,0,550,460), "scc89_01_avg.png")
-    group face auto:
+    group face:
         xpos 196
         ypos 140
         attribute 1:
@@ -5370,7 +5370,7 @@ layeredimage scc89_01:
 layeredimage scc91_01:
     always:
         Crop((0,0,400,460), "scc91_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 150
         attribute 1:
@@ -5389,7 +5389,7 @@ layeredimage scc91_01:
 layeredimage scc96_01:
     always:
         Crop((0,0,410,436), "scc96_01_avg.png")
-    group face auto:
+    group face:
         xpos 137
         ypos 166
         attribute 1:
@@ -5408,7 +5408,7 @@ layeredimage scc96_01:
 layeredimage scc97_01:
     always:
         Crop((0,0,400,424), "scc97_01_avg.png")
-    group face auto:
+    group face:
         xpos 170
         ypos 132
         attribute 1:
@@ -5427,7 +5427,7 @@ layeredimage scc97_01:
 layeredimage scd01_01:
     always:
         Crop((0,0,320,486), "scd01_01_avg.png")
-    group face auto:
+    group face:
         xpos 120
         ypos 160
         attribute 1:
@@ -5446,7 +5446,7 @@ layeredimage scd01_01:
 layeredimage scd02_01:
     always:
         Crop((0,0,350,480), "scd02_01_avg.png")
-    group face auto:
+    group face:
         xpos 94
         ypos 126
         attribute 1:
@@ -5465,7 +5465,7 @@ layeredimage scd02_01:
 layeredimage scd04_01:
     always:
         Crop((0,0,286,450), "scd04_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 113
         attribute 1:
@@ -5484,7 +5484,7 @@ layeredimage scd04_01:
 layeredimage scd07_01:
     always:
         Crop((0,0,280,408), "scd07_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 146
         attribute 1:
@@ -5503,7 +5503,7 @@ layeredimage scd07_01:
 layeredimage scd09_01:
     always:
         Crop((0,0,280,438), "scd09_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 140
         attribute 1:
@@ -5522,7 +5522,7 @@ layeredimage scd09_01:
 layeredimage scd15_01:
     always:
         Crop((0,0,290,428), "scd15_01_avg.png")
-    group face auto:
+    group face:
         xpos 59
         ypos 156
         attribute 1:
@@ -5541,7 +5541,7 @@ layeredimage scd15_01:
 layeredimage scd39_01:
     always:
         Crop((0,0,280,448), "scd39_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 124
         attribute 1:
@@ -5560,7 +5560,7 @@ layeredimage scd39_01:
 layeredimage scd40_01:
     always:
         Crop((0,0,300,424), "scd40_01_avg.png")
-    group face auto:
+    group face:
         xpos 79
         ypos 148
         attribute 1:
@@ -5579,7 +5579,7 @@ layeredimage scd40_01:
 layeredimage scd41_01:
     always:
         Crop((0,0,380,534), "scd41_01_avg.png")
-    group face auto:
+    group face:
         xpos 116
         ypos 169
         attribute 1:
@@ -5598,7 +5598,7 @@ layeredimage scd41_01:
 layeredimage scd45_01:
     always:
         Crop((0,0,268,468), "scd45_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 143
         attribute 1:
@@ -5617,7 +5617,7 @@ layeredimage scd45_01:
 layeredimage scd46_01:
     always:
         Crop((0,0,274,472), "scd46_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 164
         attribute 1:
@@ -5636,7 +5636,7 @@ layeredimage scd46_01:
 layeredimage scd58_01:
     always:
         Crop((0,0,348,450), "scd58_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 124
         attribute 1:
@@ -5655,7 +5655,7 @@ layeredimage scd58_01:
 layeredimage scd65_01:
     always:
         Crop((0,0,300,478), "scd65_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 158
         attribute 1:
@@ -5674,7 +5674,7 @@ layeredimage scd65_01:
 layeredimage scd68_01:
     always:
         Crop((0,0,306,452), "scd68_01_avg.png")
-    group face auto:
+    group face:
         xpos 86
         ypos 156
         attribute 1:
@@ -5693,7 +5693,7 @@ layeredimage scd68_01:
 layeredimage scd81_01:
     always:
         Crop((0,0,304,368), "scd81_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 68
         attribute 1:
@@ -5712,7 +5712,7 @@ layeredimage scd81_01:
 layeredimage scd82_01:
     always:
         Crop((0,0,410,480), "scd82_01_avg.png")
-    group face auto:
+    group face:
         xpos 151
         ypos 220
         attribute 1:
@@ -5731,7 +5731,7 @@ layeredimage scd82_01:
 layeredimage scd83_01:
     always:
         Crop((0,0,376,500), "scd83_01_avg.png")
-    group face auto:
+    group face:
         xpos 157
         ypos 198
         attribute 1:
@@ -5750,7 +5750,7 @@ layeredimage scd83_01:
 layeredimage scd85_01:
     always:
         Crop((0,0,480,370), "scd85_01_avg.png")
-    group face auto:
+    group face:
         xpos 217
         ypos 67
         attribute 1:
@@ -5769,7 +5769,7 @@ layeredimage scd85_01:
 layeredimage scd86_01:
     always:
         Crop((0,0,410,436), "scd86_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 170
         attribute 1:
@@ -5788,7 +5788,7 @@ layeredimage scd86_01:
 layeredimage scd89_01:
     always:
         Crop((0,0,550,460), "scd89_01_avg.png")
-    group face auto:
+    group face:
         xpos 196
         ypos 140
         attribute 1:
@@ -5807,7 +5807,7 @@ layeredimage scd89_01:
 layeredimage sce07_01:
     always:
         Crop((0,0,280,408), "sce07_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 146
         attribute 1:
@@ -5826,7 +5826,7 @@ layeredimage sce07_01:
 layeredimage sce09_01:
     always:
         Crop((0,0,280,438), "sce09_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 140
         attribute 1:
@@ -5845,7 +5845,7 @@ layeredimage sce09_01:
 layeredimage sce15_01:
     always:
         Crop((0,0,290,428), "sce15_01_avg.png")
-    group face auto:
+    group face:
         xpos 59
         ypos 156
         attribute 1:
@@ -5864,7 +5864,7 @@ layeredimage sce15_01:
 layeredimage sce40_01:
     always:
         Crop((0,0,320,424), "sce40_01_avg.png")
-    group face auto:
+    group face:
         xpos 73
         ypos 148
         attribute 1:
@@ -5883,7 +5883,7 @@ layeredimage sce40_01:
 layeredimage sce45_01:
     always:
         Crop((0,0,268,468), "sce45_01_avg.png")
-    group face auto:
+    group face:
         xpos 72
         ypos 143
         attribute 1:
@@ -5902,7 +5902,7 @@ layeredimage sce45_01:
 layeredimage sce46_01:
     always:
         Crop((0,0,310,472), "sce46_01_avg.png")
-    group face auto:
+    group face:
         xpos 149
         ypos 160
         attribute 1:
@@ -5921,7 +5921,7 @@ layeredimage sce46_01:
 layeredimage sce58_01:
     always:
         Crop((0,0,348,450), "sce58_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 124
         attribute 1:
@@ -5940,7 +5940,7 @@ layeredimage sce58_01:
 layeredimage sce65_01:
     always:
         Crop((0,0,300,478), "sce65_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 158
         attribute 1:
@@ -5959,7 +5959,7 @@ layeredimage sce65_01:
 layeredimage sce68_01:
     always:
         Crop((0,0,306,452), "sce68_01_avg.png")
-    group face auto:
+    group face:
         xpos 86
         ypos 156
         attribute 1:
@@ -5978,7 +5978,7 @@ layeredimage sce68_01:
 layeredimage sce82_01:
     always:
         Crop((0,0,335,480), "sce82_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 216
         attribute 1:
@@ -5997,7 +5997,7 @@ layeredimage sce82_01:
 layeredimage sce85_01:
     always:
         Crop((0,0,480,375), "sce85_01_avg.png")
-    group face auto:
+    group face:
         xpos 217
         ypos 72
         attribute 1:
@@ -6016,7 +6016,7 @@ layeredimage sce85_01:
 layeredimage sce86_01:
     always:
         Crop((0,0,410,436), "sce86_01_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 170
         attribute 1:
@@ -6035,7 +6035,7 @@ layeredimage sce86_01:
 layeredimage scn00_01:
     always:
         Crop((0,0,440,460), "scn00_01_avg.png")
-    group face auto:
+    group face:
         xpos 178
         ypos 134
         attribute 1:
@@ -6054,7 +6054,7 @@ layeredimage scn00_01:
 layeredimage scn01_01:
     always:
         Crop((0,0,390,436), "scn01_01_avg.png")
-    group face auto:
+    group face:
         xpos 66
         ypos 103
         attribute 1:
@@ -6073,7 +6073,7 @@ layeredimage scn01_01:
 layeredimage scn02_01:
     always:
         Crop((0,0,500,424), "scn02_01_avg.png")
-    group face auto:
+    group face:
         xpos 200
         ypos 132
         attribute 1:
@@ -6092,7 +6092,7 @@ layeredimage scn02_01:
 layeredimage scn06_01:
     always:
         Crop((0,0,332,500), "scn06_01_avg.png")
-    group face auto:
+    group face:
         xpos 128
         ypos 194
         attribute 1:
@@ -6111,7 +6111,7 @@ layeredimage scn06_01:
 layeredimage scn07_01:
     always:
         Crop((0,0,336,500), "scn07_01_avg.png")
-    group face auto:
+    group face:
         xpos 154
         ypos 192
         attribute 1:
@@ -6130,7 +6130,7 @@ layeredimage scn07_01:
 layeredimage scn10_01:
     always:
         Crop((0,0,540,460), "scn10_01_avg.png")
-    group face auto:
+    group face:
         xpos 216
         ypos 132
         attribute 1:
@@ -6149,7 +6149,7 @@ layeredimage scn10_01:
 layeredimage sco00_01:
     always:
         Crop((0,0,440,460), "sco00_01_avg.png")
-    group face auto:
+    group face:
         xpos 178
         ypos 134
         attribute 1:
@@ -6168,7 +6168,7 @@ layeredimage sco00_01:
 layeredimage sco02_01:
     always:
         Crop((0,0,500,424), "sco02_01_avg.png")
-    group face auto:
+    group face:
         xpos 200
         ypos 132
         attribute 1:
@@ -6187,7 +6187,7 @@ layeredimage sco02_01:
 layeredimage sco06_01:
     always:
         Crop((0,0,332,500), "sco06_01_avg.png")
-    group face auto:
+    group face:
         xpos 128
         ypos 194
         attribute 1:
@@ -6206,7 +6206,7 @@ layeredimage sco06_01:
 layeredimage sco07_01:
     always:
         Crop((0,0,336,500), "sco07_01_avg.png")
-    group face auto:
+    group face:
         xpos 154
         ypos 192
         attribute 1:
@@ -6225,7 +6225,7 @@ layeredimage sco07_01:
 layeredimage scp00_01:
     always:
         Crop((0,0,440,460), "scp00_01_avg.png")
-    group face auto:
+    group face:
         xpos 178
         ypos 134
         attribute 1:
@@ -6244,7 +6244,7 @@ layeredimage scp00_01:
 layeredimage scp07_01:
     always:
         Crop((0,0,336,500), "scp07_01_avg.png")
-    group face auto:
+    group face:
         xpos 154
         ypos 192
         attribute 1:
@@ -6263,7 +6263,7 @@ layeredimage scp07_01:
 layeredimage st000_01:
     always:
         Crop((0,0,274,450), "st000_01_avg.png")
-    group face auto:
+    group face:
         xpos 63
         ypos 136
         attribute 1:
@@ -6282,7 +6282,7 @@ layeredimage st000_01:
 layeredimage st001_01:
     always:
         Crop((0,0,254,426), "st001_01_avg.png")
-    group face auto:
+    group face:
         xpos 69
         ypos 105
         attribute 1:
@@ -6301,7 +6301,7 @@ layeredimage st001_01:
 layeredimage st002_01:
     always:
         Crop((0,0,396,466), "st002_01_avg.png")
-    group face auto:
+    group face:
         xpos 121
         ypos 144
         attribute 1:
@@ -6320,7 +6320,7 @@ layeredimage st002_01:
 layeredimage st003_01:
     always:
         Crop((0,0,250,460), "st003_01_avg.png")
-    group face auto:
+    group face:
         xpos 63
         ypos 122
         attribute 1:
@@ -6339,7 +6339,7 @@ layeredimage st003_01:
 layeredimage st004_01:
     always:
         Crop((0,0,310,414), "st004_01_avg.png")
-    group face auto:
+    group face:
         xpos 83
         ypos 136
         attribute 1:
@@ -6358,7 +6358,7 @@ layeredimage st004_01:
 layeredimage st005_01:
     always:
         Crop((0,0,244,430), "st005_01_avg.png")
-    group face auto:
+    group face:
         xpos 50
         ypos 146
         attribute 1:
@@ -6377,7 +6377,7 @@ layeredimage st005_01:
 layeredimage st006_01:
     always:
         Crop((0,0,430,480), "st006_01_avg.png")
-    group face auto:
+    group face:
         xpos 118
         ypos 72
         attribute 1:
@@ -6396,7 +6396,7 @@ layeredimage st006_01:
 layeredimage st007_01:
     always:
         Crop((0,0,250,410), "st007_01_avg.png")
-    group face auto:
+    group face:
         xpos 62
         ypos 96
         attribute 1:
@@ -6415,7 +6415,7 @@ layeredimage st007_01:
 layeredimage st008_01:
     always:
         Crop((0,0,350,490), "st008_01_avg.png")
-    group face auto:
+    group face:
         xpos 96
         ypos 143
         attribute 1:
@@ -6434,7 +6434,7 @@ layeredimage st008_01:
 layeredimage st009_01:
     always:
         Crop((0,0,380,490), "st009_01_avg.png")
-    group face auto:
+    group face:
         xpos 135
         ypos 157
         attribute 1:
@@ -6453,7 +6453,7 @@ layeredimage st009_01:
 layeredimage st010_01:
     always:
         Crop((0,0,576,768), "st010_01_avg.png")
-    group face auto:
+    group face:
         xpos 190
         ypos 167
         attribute 1:
@@ -6466,7 +6466,7 @@ layeredimage st010_01:
 layeredimage st011_01:
     always:
         Crop((0,0,336,414), "st011_01_avg.png")
-    group face auto:
+    group face:
         xpos 84
         ypos 105
         attribute 1:
@@ -6485,7 +6485,7 @@ layeredimage st011_01:
 layeredimage st012_01:
     always:
         Crop((0,0,490,510), "st012_01_avg.png")
-    group face auto:
+    group face:
         xpos 161
         ypos 157
         attribute 1:
@@ -6504,7 +6504,7 @@ layeredimage st012_01:
 layeredimage st013_01:
     always:
         Crop((0,0,384,490), "st013_01_avg.png")
-    group face auto:
+    group face:
         xpos 103
         ypos 119
         attribute 1:
@@ -6523,7 +6523,7 @@ layeredimage st013_01:
 layeredimage st014_01:
     always:
         Crop((0,0,312,440), "st014_01_avg.png")
-    group face auto:
+    group face:
         xpos 90
         ypos 122
         attribute 1:
@@ -6542,7 +6542,7 @@ layeredimage st014_01:
 layeredimage st015_01:
     always:
         Crop((0,0,504,508), "st015_01_avg.png")
-    group face auto:
+    group face:
         xpos 167
         ypos 126
         attribute 1:
@@ -6561,7 +6561,7 @@ layeredimage st015_01:
 layeredimage st016_01:
     always:
         Crop((0,0,280,416), "st016_01_avg.png")
-    group face auto:
+    group face:
         xpos 66
         ypos 148
         attribute 1:
@@ -6580,7 +6580,7 @@ layeredimage st016_01:
 layeredimage st017_01:
     always:
         Crop((0,0,250,400), "st017_01_avg.png")
-    group face auto:
+    group face:
         xpos 75
         ypos 136
         attribute 1:
@@ -6599,7 +6599,7 @@ layeredimage st017_01:
 layeredimage st018_01:
     always:
         Crop((0,0,280,430), "st018_01_avg.png")
-    group face auto:
+    group face:
         xpos 74
         ypos 170
         attribute 1:
@@ -6618,7 +6618,7 @@ layeredimage st018_01:
 layeredimage st019_01:
     always:
         Crop((0,0,280,420), "st019_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 139
         attribute 1:
@@ -6637,7 +6637,7 @@ layeredimage st019_01:
 layeredimage st020_01:
     always:
         Crop((0,0,350,530), "st020_01_avg.png")
-    group face auto:
+    group face:
         xpos 86
         ypos 141
         attribute 1:
@@ -6656,7 +6656,7 @@ layeredimage st020_01:
 layeredimage st021_01:
     always:
         Crop((0,0,300,388), "st021_01_avg.png")
-    group face auto:
+    group face:
         xpos 80
         ypos 96
         attribute 1:
@@ -6677,7 +6677,7 @@ layeredimage st021_01:
 layeredimage st022_01:
     always:
         Crop((0,0,272,466), "st022_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 140
         attribute 1:
@@ -6696,7 +6696,7 @@ layeredimage st022_01:
 layeredimage st023_01:
     always:
         Crop((0,0,272,466), "st023_01_avg.png")
-    group face auto:
+    group face:
         xpos 80
         ypos 144
         attribute 1:
@@ -6715,7 +6715,7 @@ layeredimage st023_01:
 layeredimage st024_01:
     always:
         Crop((0,0,370,480), "st024_01_avg.png")
-    group face auto:
+    group face:
         xpos 114
         ypos 109
         attribute 1:
@@ -6734,7 +6734,7 @@ layeredimage st024_01:
 layeredimage st025_01:
     always:
         Crop((0,0,440,490), "st025_01_avg.png")
-    group face auto:
+    group face:
         xpos 130
         ypos 90
         attribute 1:
@@ -6753,7 +6753,7 @@ layeredimage st025_01:
 layeredimage st026_01:
     always:
         Crop((0,0,410,440), "st026_01_avg.png")
-    group face auto:
+    group face:
         xpos 125
         ypos 130
         attribute 1:
@@ -6772,7 +6772,7 @@ layeredimage st026_01:
 layeredimage st027_01:
     always:
         Crop((0,0,268,354), "st027_01_avg.png")
-    group face auto:
+    group face:
         xpos 63
         ypos 64
         attribute 1:
@@ -6791,7 +6791,7 @@ layeredimage st027_01:
 layeredimage st028_01:
     always:
         Crop((0,0,456,568), "st028_01_avg.png")
-    group face auto:
+    group face:
         xpos 113
         ypos 170
         attribute 1:
@@ -6812,7 +6812,7 @@ layeredimage st028_01:
 layeredimage st028_02:
     always:
         Crop((0,0,456,568), "st028_02_avg.png")
-    group face auto:
+    group face:
         xpos 130
         ypos 232
         attribute 1:
@@ -6831,7 +6831,7 @@ layeredimage st028_02:
 layeredimage st029_01:
     always:
         Crop((0,0,490,512), "st029_01_avg.png")
-    group face auto:
+    group face:
         xpos 149
         ypos 141
         attribute 1:
@@ -6850,7 +6850,7 @@ layeredimage st029_01:
 layeredimage st030_01:
     always:
         Crop((0,0,260,460), "st030_01_avg.png")
-    group face auto:
+    group face:
         xpos 64
         ypos 130
         attribute 1:
@@ -6869,7 +6869,7 @@ layeredimage st030_01:
 layeredimage st031_01:
     always:
         Crop((0,0,340,512), "st031_01_avg.png")
-    group face auto:
+    group face:
         xpos 78
         ypos 123
         attribute 1:
@@ -6888,7 +6888,7 @@ layeredimage st031_01:
 layeredimage st032_01:
     always:
         Crop((0,0,340,460), "st032_01_avg.png")
-    group face auto:
+    group face:
         xpos 91
         ypos 142
         attribute 1:
@@ -6907,7 +6907,7 @@ layeredimage st032_01:
 layeredimage st033_01:
     always:
         Crop((0,0,360,560), "st033_01_avg.png")
-    group face auto:
+    group face:
         xpos 102
         ypos 201
         attribute 1:
@@ -6926,7 +6926,7 @@ layeredimage st033_01:
 layeredimage st034_01:
     always:
         Crop((0,0,284,480), "st034_01_avg.png")
-    group face auto:
+    group face:
         xpos 68
         ypos 160
         attribute 1:
@@ -6945,7 +6945,7 @@ layeredimage st034_01:
 layeredimage st035_01:
     always:
         Crop((0,0,350,500), "st035_01_avg.png")
-    group face auto:
+    group face:
         xpos 83
         ypos 147
         attribute 1:
@@ -6964,7 +6964,7 @@ layeredimage st035_01:
 layeredimage st036_01:
     always:
         Crop((0,0,264,392), "st036_01_avg.png")
-    group face auto:
+    group face:
         xpos 69
         ypos 118
         attribute 1:
@@ -6983,7 +6983,7 @@ layeredimage st036_01:
 layeredimage st037_01:
     always:
         Crop((0,0,348,500), "st037_01_avg.png")
-    group face auto:
+    group face:
         xpos 81
         ypos 102
         attribute 1:
@@ -7002,7 +7002,7 @@ layeredimage st037_01:
 layeredimage st038_01:
     always:
         Crop((0,0,336,550), "st038_01_avg.png")
-    group face auto:
+    group face:
         xpos 65
         ypos 141
         attribute 1:
@@ -7021,7 +7021,7 @@ layeredimage st038_01:
 layeredimage st038_02:
     always:
         Crop((0,0,336,550), "st038_02_avg.png")
-    group face auto:
+    group face:
         xpos 65
         ypos 141
         attribute 1:
@@ -7040,7 +7040,7 @@ layeredimage st038_02:
 layeredimage st039_01:
     always:
         Crop((0,0,400,530), "st039_01_avg.png")
-    group face auto:
+    group face:
         xpos 98
         ypos 138
         attribute 1:
@@ -7059,7 +7059,7 @@ layeredimage st039_01:
 layeredimage st040_01:
     always:
         Crop((0,0,280,512), "st040_01_avg.png")
-    group face auto:
+    group face:
         xpos 76
         ypos 174
         attribute 1:
@@ -7080,7 +7080,7 @@ layeredimage st040_01:
 layeredimage st041_01:
     always:
         Crop((0,0,410,504), "st041_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 86
         attribute 1:
@@ -7099,7 +7099,7 @@ layeredimage st041_01:
 layeredimage st042_01:
     always:
         Crop((0,0,480,480), "st042_01_avg.png")
-    group face auto:
+    group face:
         xpos 141
         ypos 105
         attribute 1:
@@ -7118,7 +7118,7 @@ layeredimage st042_01:
 layeredimage st043_01:
     always:
         Crop((0,0,470,502), "st043_01_avg.png")
-    group face auto:
+    group face:
         xpos 153
         ypos 136
         attribute 1:
@@ -7137,7 +7137,7 @@ layeredimage st043_01:
 layeredimage st044_01:
     always:
         Crop((0,0,400,450), "st044_01_avg.png")
-    group face auto:
+    group face:
         xpos 94
         ypos 84
         attribute 1:
@@ -7156,7 +7156,7 @@ layeredimage st044_01:
 layeredimage st045_01:
     always:
         Crop((0,0,576,768), "st045_01_avg.png")
-    group face auto:
+    group face:
         xpos 200
         ypos 171
         attribute 1:
@@ -7175,7 +7175,7 @@ layeredimage st045_01:
 layeredimage st046_01:
     always:
         Crop((0,0,576,768), "st046_01_avg.png")
-    group face auto:
+    group face:
         xpos 185
         ypos 154
         attribute 1:
@@ -7188,7 +7188,7 @@ layeredimage st046_01:
 layeredimage st047_01:
     always:
         Crop((0,0,576,768), "st047_01_avg.png")
-    group face auto:
+    group face:
         xpos 190
         ypos 159
         attribute 1:
@@ -7201,7 +7201,7 @@ layeredimage st047_01:
 layeredimage st048_01:
     always:
         Crop((0,0,576,768), "st048_01_avg.png")
-    group face auto:
+    group face:
         xpos 186
         ypos 151
         attribute 1:
@@ -7214,7 +7214,7 @@ layeredimage st048_01:
 layeredimage st049_01:
     always:
         Crop((0,0,576,768), "st049_01_avg.png")
-    group face auto:
+    group face:
         xpos 185
         ypos 156
         attribute 1:
@@ -7227,7 +7227,7 @@ layeredimage st049_01:
 layeredimage st050_01:
     always:
         Crop((0,0,290,470), "st050_01_avg.png")
-    group face auto:
+    group face:
         xpos 77
         ypos 169
         attribute 1:
@@ -7246,7 +7246,7 @@ layeredimage st050_01:
 layeredimage st051_01:
     always:
         Crop((0,0,266,444), "st051_01_avg.png")
-    group face auto:
+    group face:
         xpos 76
         ypos 150
         attribute 1:
@@ -7265,7 +7265,7 @@ layeredimage st051_01:
 layeredimage st052_01:
     always:
         Crop((0,0,300,450), "st052_01_avg.png")
-    group face auto:
+    group face:
         xpos 86
         ypos 124
         attribute 1:
@@ -7284,7 +7284,7 @@ layeredimage st052_01:
 layeredimage st053_01:
     always:
         Crop((0,0,360,540), "st053_01_avg.png")
-    group face auto:
+    group face:
         xpos 99
         ypos 154
         attribute 1:
@@ -7303,7 +7303,7 @@ layeredimage st053_01:
 layeredimage st056_01:
     always:
         Crop((0,0,370,492), "st056_01_avg.png")
-    group face auto:
+    group face:
         xpos 89
         ypos 126
         attribute 1:
@@ -7322,7 +7322,7 @@ layeredimage st056_01:
 layeredimage st057_01:
     always:
         Crop((0,0,384,482), "st057_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 134
         attribute 1:
@@ -7339,7 +7339,7 @@ layeredimage st057_01:
 layeredimage st058_01:
     always:
         Crop((0,0,440,492), "st058_01_avg.png")
-    group face auto:
+    group face:
         xpos 138
         ypos 106
         attribute 1:
@@ -7358,7 +7358,7 @@ layeredimage st058_01:
 layeredimage st059_01:
     always:
         Crop((0,0,336,414), "st059_01_avg.png")
-    group face auto:
+    group face:
         xpos 104
         ypos 106
         attribute 1:
@@ -7377,7 +7377,7 @@ layeredimage st059_01:
 layeredimage st060_01:
     always:
         Crop((0,0,296,388), "st060_01_avg.png")
-    group face auto:
+    group face:
         xpos 82
         ypos 94
         attribute 1:
@@ -7396,7 +7396,7 @@ layeredimage st060_01:
 layeredimage st061_01:
     always:
         Crop((0,0,284,480), "st061_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 168
         attribute 1:
@@ -7417,7 +7417,7 @@ layeredimage st061_01:
 layeredimage st062_01:
     always:
         Crop((0,0,384,482), "st062_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 130
         attribute 1:
@@ -7436,7 +7436,7 @@ layeredimage st062_01:
 layeredimage st063_01:
     always:
         Crop((0,0,384,482), "st063_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 134
         attribute 1:
@@ -7457,7 +7457,7 @@ layeredimage st063_01:
 layeredimage st064_01:
     always:
         Crop((0,0,284,480), "st064_01_avg.png")
-    group face auto:
+    group face:
         xpos 67
         ypos 162
         attribute 1:
@@ -7476,7 +7476,7 @@ layeredimage st064_01:
 layeredimage st065_01:
     always:
         Crop((0,0,384,482), "st065_01_avg.png")
-    group face auto:
+    group face:
         xpos 108
         ypos 132
         attribute 1:
@@ -7495,7 +7495,7 @@ layeredimage st065_01:
 layeredimage sta61_01:
     always:
         Crop((0,0,284,480), "sta61_01_avg.png")
-    group face auto:
+    group face:
         xpos 71
         ypos 168
         attribute 2:
@@ -7512,7 +7512,7 @@ layeredimage sta61_01:
 layeredimage uc001_01:
     always:
         Crop((0,0,388,496), "uc001_01_avg.png")
-    group face auto:
+    group face:
         xpos 112
         ypos 122
         attribute 1:
@@ -7525,7 +7525,7 @@ layeredimage uc001_01:
 layeredimage uc001_02:
     always:
         Crop((0,0,380,492), "uc001_02_avg.png")
-    group face auto:
+    group face:
         xpos 100
         ypos 106
         attribute 1:
@@ -7538,7 +7538,7 @@ layeredimage uc001_02:
 layeredimage uc001_03:
     always:
         Crop((0,0,300,446), "uc001_03_avg.png")
-    group face auto:
+    group face:
         xpos 75
         ypos 122
         attribute 1:
@@ -7551,7 +7551,7 @@ layeredimage uc001_03:
 layeredimage uc002_01:
     always:
         Crop((0,0,454,520), "uc002_01_avg.png")
-    group face auto:
+    group face:
         xpos 139
         ypos 116
         attribute 1:
@@ -7566,7 +7566,7 @@ layeredimage uc002_01:
 layeredimage uc002_02:
     always:
         Crop((0,0,510,486), "uc002_02_avg.png")
-    group face auto:
+    group face:
         xpos 180
         ypos 136
         attribute 1:
@@ -7579,7 +7579,7 @@ layeredimage uc002_02:
 layeredimage uc002_03:
     always:
         Crop((0,0,396,506), "uc002_03_avg.png")
-    group face auto:
+    group face:
         xpos 124
         ypos 128
         attribute 1:
@@ -7596,7 +7596,7 @@ layeredimage uc002_03:
 layeredimage uc003_01:
     always:
         Crop((0,0,488,478), "uc003_01_avg.png")
-    group face auto:
+    group face:
         xpos 176
         ypos 124
         attribute 1:
@@ -7611,7 +7611,7 @@ layeredimage uc003_01:
 layeredimage uc003_03:
     always:
         Crop((0,0,486,520), "uc003_03_avg.png")
-    group face auto:
+    group face:
         xpos 157
         ypos 144
         attribute 1:
@@ -7624,7 +7624,7 @@ layeredimage uc003_03:
 layeredimage uc003_04:
     always:
         Crop((0,0,430,512), "uc003_04_avg.png")
-    group face auto:
+    group face:
         xpos 165
         ypos 217
         attribute 1:
@@ -7643,7 +7643,7 @@ layeredimage uc003_04:
 layeredimage uc004_01:
     always:
         Crop((0,0,418,488), "uc004_01_avg.png")
-    group face auto:
+    group face:
         xpos 133
         ypos 96
         attribute 1:
@@ -7660,7 +7660,7 @@ layeredimage uc004_01:
 layeredimage uc004_02:
     always:
         Crop((0,0,418,486), "uc004_02_avg.png")
-    group face auto:
+    group face:
         xpos 127
         ypos 118
         attribute 1:
@@ -7677,7 +7677,7 @@ layeredimage uc004_02:
 layeredimage uc004_03:
     always:
         Crop((0,0,390,546), "uc004_03_avg.png")
-    group face auto:
+    group face:
         xpos 131
         ypos 242
         attribute 1:
