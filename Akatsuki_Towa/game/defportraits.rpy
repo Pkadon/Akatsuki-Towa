@@ -2131,7 +2131,7 @@ layeredimage sc043_01:
     group face auto:
         xpos 113
         ypos 58
-        attribute 1:
+        attribute 1 default:
             Crop((0,432,240,230), "sc043_01_avg.png")
         attribute 2:
             Crop((0,664,240,230), "sc043_01_avg.png")
