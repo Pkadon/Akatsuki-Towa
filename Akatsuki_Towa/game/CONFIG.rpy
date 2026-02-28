@@ -17,10 +17,12 @@ define build.name = "Akatsuki_Towa"
 # Make sure to credit yourself!
 #################################################
 ### Text that is placed on the game's about screen.
-define gui.about = _p("""
-This is a fan project!  All Characters, Music, Assets, etc. belong to Nihon Falcom Corporation (www.falcom.co.jp) and/or USERJOY JAPAN (www.ujj.co.jp)\n
+define gui.about = """
+This is a fan project!  All Characters, Music, Assets, etc. belong to Nihon Falcom Corporation (www.falcom.co.jp) and/or USERJOY JAPAN (www.ujj.co.jp)
+
 Cutscenes recreated by Pikadon using Ren'Py - ({a=https://github.com/Pkadon/Akatsuki-Towa}GitHub{/a})
-""")
+============================================
+"""
 
 ##########
 # Icon
