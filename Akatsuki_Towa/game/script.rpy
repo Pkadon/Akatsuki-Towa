@@ -19,6 +19,16 @@ init python:
 
     style.default.prefer_emoji = False
 
+    def copy_text_to_clipboard(text):
+        import pygame.scrap
+        pygame.scrap.put(pygame.SCRAP_TEXT, text.encode("utf-8"))
+
+        renpy.notify("Copied to clipboard!")
+    config.hyperlink_handlers = { 'copy' : copy_text_to_clipboard }
+    #Then this creates a text tag that can be used like:
+    #    "{a=copy:TEXT TO COPY GOES HERE}Click me to copy my text!{/a}"
+        
+
 #################################################################
 label start:
 return
