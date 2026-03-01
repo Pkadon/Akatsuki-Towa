@@ -1468,6 +1468,7 @@ style skip_frame:
 
 style skip_text:
     size gui.notify_text_size
+    color "#000000"
 
 style skip_triangle:
     ## We have to use a font that has the BLACK RIGHT-POINTING SMALL TRIANGLE
