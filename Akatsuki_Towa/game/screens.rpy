@@ -1488,6 +1488,7 @@ screen notify(message):
     style_prefix "notify"
 
     frame at notify_appear:
+        xalign 1.0
         text "[message!tq]"
 
     timer 3.25 action Hide('notify')
@@ -1512,6 +1513,7 @@ style notify_frame:
 
 style notify_text:
     properties gui.text_properties("notify")
+    color "#000000"
 
 
 ## NVL screen ##################################################################
