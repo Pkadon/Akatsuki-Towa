@@ -280,7 +280,7 @@ screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
 
-    if not persistent.hide_quick_menu:
+    if quick_menu and not persistent.hide_quick_menu:
 
         hbox:
             style_prefix "quick"
@@ -299,6 +299,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
+default quick_menu = True
 default persistent.hide_quick_menu = False
 
 style quick_button is default
@@ -1742,7 +1743,7 @@ screen quick_menu():
 
     zorder 100
 
-    if not persistent.hide_quick_menu:
+    if quick_menu and not persistent.hide_quick_menu:
 
         hbox:
             yalign 0
