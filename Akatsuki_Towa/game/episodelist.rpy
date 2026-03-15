@@ -146,11 +146,12 @@ init python:
     style.book_backing = Style('frame')
     style.book_backing.background = Frame("book_backing", 55, 48, 95,95, tile="300")
     style.book_backing.padding = (0,0,0,0)
-    style.book_backing.margin = (0,-1,1,1)
+    style.book_backing.margin = (0,0,1,-1)
     
     style.book_corners = Style('frame')
     style.book_corners.background = Frame("book_corners", 60,60)
     style.book_corners.xysize = (840,480)
+    style.book_corners.margin = (0,0,0,-1)
 
     style.book_paper_frame = Style('frame')
     style.book_paper_frame.background = Frame("book_paper", 48,48, tile=True)
@@ -197,7 +198,7 @@ init python:
 
 #Used as the bottom-level background
 screen book_background():
-    window:
+    frame:
         xysize (840,480)
         background "#000"
         padding (0,0,0,0)
