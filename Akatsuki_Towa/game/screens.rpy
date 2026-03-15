@@ -121,15 +121,19 @@ screen say(who, what, char_id=None):
 
     window:
         id "window"
+        background None
+        vbox:
+            spacing 0
+            box_reverse True #namebox needs to be both at the top of the vbox, and at the higher zorder
+            frame:
+                style "dialogue_box"
+                text what id "what"
 
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
-
-        text what id "what"
+            if who is not None:
+                window:
+                    id "namebox"
+                    style "namebox"
+                    text who id "who"
 
 
 
@@ -145,27 +149,34 @@ style say_thought is say_dialogue
 style namebox is default
 style namebox_label is say_label
 
-
+define window_margin = (-1,0,-1,-2)
 style window:
     xalign 0.5
     xfill True
     yalign gui.textbox_yalign
-    ysize gui.textbox_height
+    ysize None
+    yminimum gui.textbox_height
 
     background Frame("dialoguewindow", 25, 25)
 
     #Expand the frame to make it touch the edges of the screen
     #accounting for the transparent shadows
-    left_margin -1
-    right_margin -1
-    bottom_margin -2
+    margin window_margin
+
+style dialogue_box:
+    xfill True
+    yminimum (gui.textbox_height - window_margin[3])
+    background Frame("dialoguewindow", 25, 25)
+    top_padding gui.dialogue_ypos
+    bottom_padding 12 # to leave room for the quick menu
+    left_padding gui.dialogue_xpos
 
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
     xsize gui.namebox_width
     xminimum 224
-    ypos gui.name_ypos
+    yoffset 17
     ysize gui.namebox_height
 
     background Frame("namebox", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -182,9 +193,7 @@ style say_label:
 style say_dialogue:
     properties gui.text_properties("dialogue")
 
-    xpos gui.dialogue_xpos
     xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
 
     adjust_spacing False
     line_spacing gui.dialogue_line_spacing
