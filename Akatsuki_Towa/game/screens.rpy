@@ -1122,10 +1122,7 @@ screen history():
                     text what:
                         substitute False
                         xalign 0.0
-                        if not renpy.variant('touch'):
-                            xsize 595
-                        else:
-                            xsize 560
+                        xsize 610 - gui.scrollbar_size
                         size gui.text_size
 
             if not _history_list:
