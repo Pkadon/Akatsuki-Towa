@@ -101,7 +101,7 @@ init python early:
 #################################################################
 
 # The buttons that show up on the left side of the Scene Select menus
-# ("Back", "Log", "Jump", "Sprite")
+# ("Back", "Log", "Jump", "Gallery")
 #========================================================================
 ### The dimensions used for all side buttons
     sidearea_button_width = 94
@@ -121,8 +121,9 @@ init python early:
 ### used to manually skip to a cutscene without needing a button
     add_jump_button = True
 
-### Set to False to hide the "Sprite" button that opens the sprite test cutscene
-    add_sprite_button = True
+### Set to False to hide the button that opens the "Gallery" menu
+    add_gallery_button = True
+    add_gallery_button_mobile = False
 
 
 # Silver and gold "booktab" buttons used in all Scene Select menus
@@ -301,8 +302,8 @@ init python early:
     backtext = "Back"
 ### Jump button text
     jumptext = "Jump"
-### Sprite test button text
-    spritetext = "Sprite"
+### Gallery button text
+    gallerytext = "Gallery"
 ### Log button text
     logtext = "Log"
 

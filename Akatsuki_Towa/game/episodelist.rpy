@@ -71,6 +71,8 @@ init python:
 
         logtextsize = touch_logtextsize
 
+        add_gallery_button = add_gallery_button_mobile
+
 # Styles used for all buttons on the left sidebar
     style.sidearea_button = Style('button')
     style.sidearea_button.background = Frame("sidearea_tab", 20,0)
@@ -314,8 +316,10 @@ screen episodelist():
         if not renpy.variant('touch'):
             if add_jump_button:
                 buttonlist.append({'text': jumptext, 'action': Replay("codeinput", locked=False)})
-            if add_sprite_button:
-                buttonlist.append({'text': spritetext, 'action': Replay("spritetest", locked=False)})
+
+        if add_gallery_button:
+            buttonlist.append({'text': gallerytext, 'action': Replay("gallery", locked=False)})
+
     use sidearea(buttonlist)
 
     use book_paper():
