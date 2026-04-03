@@ -11,6 +11,14 @@ init python:
 
         return tagged
 
+    def convertroleid(key):
+        if key in avgroledict:
+            text = avgroledict[key]
+        else:
+            text = str(key)
+
+        return text
+
     def update_portrait(portrait, alias, atlist, z):
         if renpy.showing(alias):
             renpy.hide(alias)
