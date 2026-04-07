@@ -597,7 +597,7 @@ layeredimage oca01_01:
         attribute 23:
             Crop((286,344,88,84), "oca01_01_avg.png")
         attribute 24:
-            Crop((286,430,88,84), "oca01_01_avg.png")
+            Crop((376,0,88,84), "oca01_01_avg.png")
 
 layeredimage oca02_01:
     always:
@@ -652,7 +652,7 @@ layeredimage oca02_01:
         attribute 23:
             Crop((300,352,88,86), "oca02_01_avg.png")
         attribute 24:
-            Crop((300,440,88,86), "oca02_01_avg.png")
+            Crop((390,0,88,86), "oca02_01_avg.png")
 
 layeredimage oca03_01:
     always:
@@ -953,7 +953,7 @@ layeredimage ocb02_01:
         attribute 23:
             Crop((300,352,88,86), "ocb02_01_avg.png")
         attribute 24:
-            Crop((300,440,88,86), "ocb02_01_avg.png")
+            Crop((390,0,88,86), "ocb02_01_avg.png")
 
 layeredimage ocb03_01:
     always:
@@ -6462,6 +6462,12 @@ layeredimage st010_01:
             Crop((152,770,150,150), "st010_01_avg.png")
         attribute 3:
             Crop((304,770,150,150), "st010_01_avg.png")
+        attribute 4:
+            Crop((578,0,150,150), "st010_01_avg.png")
+        attribute 5:
+            Crop((578,152,150,150), "st010_01_avg.png")
+        attribute 6:
+            Crop((578,304,150,150), "st010_01_avg.png")
 
 layeredimage st011_01:
     always:
@@ -7184,6 +7190,12 @@ layeredimage st046_01:
             Crop((152,770,150,150), "st046_01_avg.png")
         attribute 3:
             Crop((304,770,150,150), "st046_01_avg.png")
+        attribute 4:
+            Crop((578,0,150,150), "st046_01_avg.png")
+        attribute 5:
+            Crop((578,152,150,150), "st046_01_avg.png")
+        attribute 6:
+            Crop((578,304,150,150), "st046_01_avg.png")
 
 layeredimage st047_01:
     always:
@@ -7197,6 +7209,12 @@ layeredimage st047_01:
             Crop((152,770,150,150), "st047_01_avg.png")
         attribute 3:
             Crop((304,770,150,150), "st047_01_avg.png")
+        attribute 4:
+            Crop((578,0,150,150), "st047_01_avg.png")
+        attribute 5:
+            Crop((578,152,150,150), "st047_01_avg.png")
+        attribute 6:
+            Crop((578,304,150,150), "st047_01_avg.png")
 
 layeredimage st048_01:
     always:
@@ -7210,6 +7228,12 @@ layeredimage st048_01:
             Crop((152,770,150,150), "st048_01_avg.png")
         attribute 3:
             Crop((304,770,150,150), "st048_01_avg.png")
+        attribute 4:
+            Crop((578,0,150,150), "st048_01_avg.png")
+        attribute 5:
+            Crop((578,152,150,150), "st048_01_avg.png")
+        attribute 6:
+            Crop((578,304,150,150), "st048_01_avg.png")
 
 layeredimage st049_01:
     always:
@@ -7223,6 +7247,12 @@ layeredimage st049_01:
             Crop((152,770,150,150), "st049_01_avg.png")
         attribute 3:
             Crop((304,770,150,150), "st049_01_avg.png")
+        attribute 4:
+            Crop((578,0,150,150), "st049_01_avg.png")
+        attribute 5:
+            Crop((578,152,150,150), "st049_01_avg.png")
+        attribute 6:
+            Crop((578,304,150,150), "st049_01_avg.png")
 
 layeredimage st050_01:
     always:
