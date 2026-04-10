@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -333,15 +333,6 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
-        yanchor 1.0
-        if not renpy.variant("touch"):
-            ypos .89
-        else:
-            ypos .86
-
-        spacing gui.navigation_spacing
-
         if not main_menu and not _in_replay:
             textbutton _("Main Menu"):
                 activate_sound None
@@ -381,13 +372,22 @@ screen navigation():
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
 
+style navigation_vbox:
+    xpos gui.navigation_xpos
+    yanchor 1.0
+    spacing gui.navigation_spacing
+init python:
+    if not renpy.variant("touch"):
+        style.navigation_vbox.ypos = 0.89
+    else:
+        style.navigation_vbox.ypos = 0.86
+
 style navigation_button:
     size_group "navigation"
     background Frame('mainmenu_button', 0,0)
     xsize 150
     hover_sound "common_tag.ogg"
     activate_sound "common_tag_2.ogg"
-
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
@@ -505,7 +505,7 @@ init python:
         for ch in typewriter_channels:
             renpy.music.stop(channel=ch)
 
-screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+screen game_menu(title, scroll=None, yinitial=0.0, spacing=0, nav_buttons='default', return_act='return'):
 
     on "show" action Function(mute_typewriter)
 
@@ -589,13 +589,23 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
                     transclude
 
-    use navigation
+    if nav_buttons == 'default':
+        use navigation()
+    else:
+        vbox:
+            style_prefix "navigation"
+            for b in nav_buttons:
+                textbutton b['text']:
+                    properties b['properties']
 
     textbutton _("Return"):
         style "return_button"
         activate_sound "common_cancel.ogg"
 
-        action Return()
+        if return_act == 'return':
+            action Return()
+        else:
+            action return_act
 
     label title
 
