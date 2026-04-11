@@ -403,9 +403,11 @@ screen quest(data):
         for log_index in range(0, len(data['logs'])):
             log = data['logs'][log_index]
             if 'loglabel_fit' not in log:
-                lognumber = (log_index + 1)
-
-                loglabel = f'{logtext} {lognumber}'
+                if len(data['logs']) == 1:
+                    loglabel = logtext
+                else:
+                    lognumber = (log_index + 1)
+                    loglabel = f'{logtext} {lognumber}'
 
                 buttonlist.append(
                     {
