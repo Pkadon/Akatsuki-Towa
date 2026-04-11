@@ -237,11 +237,7 @@ screen sidearea(buttonlist=[]):
             for b in buttonlist:
                 python:
                     text = b['text']
-                    action = b['action']
-                    if 'properties' in b:
-                        properties = b['properties']
-                    else:
-                       properties = {}
+                    properties = b['properties']
 
                     if text not in side_fit:
                         text_size, text_anchor = size_text(text, sidearea_button_textsize, sidearea_button_inner_space, anchors=(0, tabfont_center))
@@ -260,7 +256,6 @@ screen sidearea(buttonlist=[]):
                     text_size text_size
                     text_anchor text_anchor
                     properties properties
-                    action action
 
             transclude
 
@@ -315,10 +310,10 @@ screen episodelist():
         buttonlist = []
         if not renpy.variant('touch'):
             if add_jump_button:
-                buttonlist.append({'text': jumptext, 'action': Replay("codeinput", locked=False)})
+                buttonlist.append({'text': jumptext, 'properties': {'action': Replay("codeinput", locked=False)}})
 
         if add_gallery_button:
-            buttonlist.append({'text': gallerytext, 'action': Replay("gallery", locked=False)})
+            buttonlist.append({'text': gallerytext, 'properties': {'action': Replay("gallery", locked=False)}})
 
     use sidearea(buttonlist)
 
@@ -415,13 +410,13 @@ screen quest(data):
                 buttonlist.append(
                     {
                         'text': loglabel, 
-                        'action': [
-                            ShowMenu("questlog", data['logs'], log_index),
-                            SetVariable('showing_log', log_index)
-                        ], 
                         'properties': {
                             'selected': (showing_log == log_index),
-                            'activate_sound': 'other_7004.ogg'
+                            'activate_sound': 'other_7004.ogg',
+                            'action': [
+                                ShowMenu("questlog", data['logs'], log_index),
+                                SetVariable('showing_log', log_index)
+                            ]
                         }
                     }
                 )
