@@ -430,7 +430,9 @@ screen context_menu(id):
                     textbutton "Set Background":
                         hover_background Solid('#333b')
                         action act_set_background
-                    null width 33
+                    textbutton "":
+                        xsize 33
+                        action NullAction()
 
             else:
                 if drag.info and drag.info['type'] == 2:
@@ -447,7 +449,9 @@ screen context_menu(id):
                             hover_background Solid('#333b')
                             action act_change_face_right
                 else:
-                    null width 142
+                    textbutton "":
+                        xsize 142
+                        action NullAction()
 
                 if 'cutin' in drag.info and renpy.loadable(drag.info['cutin']['file']):
                     hbox:
@@ -461,7 +465,10 @@ screen context_menu(id):
                         hover_background Solid('#333b')
                         action act_cycle_portrait_cutin
                 else:
-                    null width 79 # reserve the space so that buttons don't shift around
+                    # reserve the space so that buttons don't shift around
+                    textbutton "":
+                        xsize 79
+                        action NullAction()
 
             textbutton "Copy":
                 hover_background Solid('#333b')
