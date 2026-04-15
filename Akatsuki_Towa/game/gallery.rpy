@@ -430,8 +430,10 @@ screen context_menu(id):
                     textbutton "Set Background":
                         hover_background Solid('#333b')
                         action act_set_background
+                # Put this spacer in a separate hbox to keep hbox spacing the same
+                hbox:
                     textbutton "":
-                        xsize 33
+                        xsize 65
                         action NullAction()
 
             else:
@@ -478,7 +480,7 @@ screen context_menu(id):
                 hover_background Solid('#333b')
                 action act_delete
 
-            textbutton "Hide ▼":
+            textbutton "Hide":
                 hover_background Solid('#333b')
                 action act_hide
 
