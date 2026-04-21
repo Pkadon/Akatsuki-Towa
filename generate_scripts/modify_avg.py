@@ -1489,6 +1489,58 @@ def make_edits(script_json, avgID):
 	#12477, 12478, 12479, 12480
 	#never found a suitable background to use for the Moon Temple
 	
+################################################################################
+#Chapter 5
+
+	#試験班の歓迎会 2/5, 3/5, 4/5
+	#12518, 12519, 12520
+	#never found a suitable background to use for sewers
+
+	#マルガ鉱山の導力通信設備 
+	#3/6, 4/6, 5/6
+	elif avgID in ['10509', '10510', '10511']:
+		#Add cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+	#6/6
+	elif avgID == '10512':
+		#Add cave (interior) background
+		#Then add cave (exterior) background and outdoor music to the rest
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': 12}),
+			('backgrounds', {'id': 79, 'start': 13, 'end': None}),
+			('bgm', {'id': 180, 'start': 13, 'end': None})
+		)
+		
+	#月末の金曜日 2/7, 3/7, 5/7, 6/7
+	#12527, 12528, 12530, 12531
+	#never found a suitable background to use for sewers
+	
+	#ロレントのお化け騒動 2/5, 3/5, 4/5
+	#12534, 12535, 12536
+	#	5/5 (with probably a black screen on frame 5)
+	#	12537
+	#never found a suitable background to use for sewers
+
+	#エルモ温泉の手配魔獣
+	#6/8
+	elif avgID == '12548':
+		#Add cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+	#7/8
+	elif avgID == '12549':
+		#Add cave background, but then add a black screen on the last frame
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': 7}),
+			('backgrounds', {'id': 70, 'start': 8, 'end': 8})
+		)
+		
+	#追撃《紺碧の塔》 3/8, 4/8, 5/8, 6/8, 7/8 (partial), 8/8
+	#10563, 10564, 10565, 10566, 10567, 10568
+	#there is no suitable Akatsuki background to use for Sapphirl Tower
 
 ###########################################################################
 	return script_json
