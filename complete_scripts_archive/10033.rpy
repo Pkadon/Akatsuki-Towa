@@ -371,10 +371,10 @@ play sfx2 "elc_5005.ogg"
 c21 '[convertstrid(1003003)]'
 menu:
     extend ""
-    "[textdict[1003004]]":
+    '[convertstrid(1003004)]':
         call avg10035
-    "[textdict[1003005]]":
+    '[convertstrid(1003005)]':
         call avg10036
-    "[textdict[1003006]]":
+    '[convertstrid(1003006)]':
         call avg10034
 return

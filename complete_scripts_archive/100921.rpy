@@ -27,10 +27,10 @@ play sfxvoice "bcv_oc002_arts_02.ogg"
 c13 '[convertstrid(1218079)]'
 menu:
     extend ""
-    "[textdict[1218080]]":
+    '[convertstrid(1218080)]':
         call avg100922
-    "[textdict[1218081]]":
+    '[convertstrid(1218081)]':
         call avg100923
-    "[textdict[1218082]]":
+    '[convertstrid(1218082)]':
         call avg100924
 return

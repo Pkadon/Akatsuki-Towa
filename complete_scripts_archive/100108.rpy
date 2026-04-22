@@ -26,10 +26,10 @@ play sfxvoice "avg_vocal_na02.ogg"
 c13 '[convertstrid(1218038)]'
 menu:
     extend ""
-    "[textdict[1218039]]":
+    '[convertstrid(1218039)]':
         call avg100109
-    "[textdict[1218040]]":
+    '[convertstrid(1218040)]':
         call avg100110
-    "[textdict[1218041]]":
+    '[convertstrid(1218041)]':
         call avg100111
 return

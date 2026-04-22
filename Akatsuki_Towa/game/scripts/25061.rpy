@@ -20,8 +20,8 @@ play sfxvoice "avg_vocal_ch07.ogg"
 c23 '[convertstrid(1210180)]'
 menu:
     extend ""
-    "[textdict[1214997]]":
+    '[convertstrid(1214997)]':
         call avg25062
-    "[textdict[1215000]]":
+    '[convertstrid(1215000)]':
         call avg25026
 return

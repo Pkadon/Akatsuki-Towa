@@ -15,8 +15,8 @@ c20083 '[convertstrid(1210045)]'
 c20093 '[convertstrid(1210046)]'
 menu:
     extend ""
-    "[textdict[1214999]]":
+    '[convertstrid(1214999)]':
         call avg25020
-    "[textdict[1215000]]":
+    '[convertstrid(1215000)]':
         call avg25026
 return

@@ -9,8 +9,8 @@ with fade_in
 c13 '[convertstrid(1007258)]'
 menu:
     extend ""
-    "[textdict[1007254]]":
+    '[convertstrid(1007254)]':
         call avg29019
-    "[textdict[1007255]]":
+    '[convertstrid(1007255)]':
         call avg29017
 return

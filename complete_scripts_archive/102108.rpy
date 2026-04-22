@@ -15,10 +15,10 @@ $ update_portrait('sc013_01 1', 'p21', [l(-12), light, flip], 6)
 c211 '[convertstrid(1218832)]'
 menu:
     extend ""
-    "[textdict[1218833]]":
+    '[convertstrid(1218833)]':
         call avg102109
-    "[textdict[1218834]]":
+    '[convertstrid(1218834)]':
         call avg102110
-    "[textdict[1218835]]":
+    '[convertstrid(1218835)]':
         call avg102111
 return

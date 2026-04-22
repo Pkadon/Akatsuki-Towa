@@ -62,10 +62,10 @@ hide p1
 c0 '[convertstrid(1216161)]' (what_size=(gui.text_size*0.9))
 menu:
     extend ""
-    "[textdict[1216162]]":
+    '[convertstrid(1216162)]':
         call avg19017
-    "[textdict[1216163]]":
+    '[convertstrid(1216163)]':
         call avg19018
-    "[textdict[1216164]]":
+    '[convertstrid(1216164)]':
         call avg19019
 return

@@ -22,10 +22,10 @@ play sfxvoice "bcv_oc002_win_02.ogg"
 c13 '[convertstrid(1218089)]' (what_size=(gui.text_size*0.9))
 menu:
     extend ""
-    "[textdict[1218090]]":
+    '[convertstrid(1218090)]':
         call avg19125
-    "[textdict[1218091]]":
+    '[convertstrid(1218091)]':
         call avg19126
-    "[textdict[1218092]]":
+    '[convertstrid(1218092)]':
         call avg19127
 return

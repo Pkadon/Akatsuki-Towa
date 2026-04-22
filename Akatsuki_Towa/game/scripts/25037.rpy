@@ -18,8 +18,8 @@ play sfx2 "fight_6024.ogg"
 c23 '[convertstrid(1210097)]'
 menu:
     extend ""
-    "[textdict[1214998]]":
+    '[convertstrid(1214998)]':
         call avg25038
-    "[textdict[1215000]]":
+    '[convertstrid(1215000)]':
         call avg25026
 return

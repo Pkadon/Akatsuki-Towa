@@ -18,10 +18,10 @@ $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1222435)]'
 menu:
     extend ""
-    "[textdict[1222436]]":
+    '[convertstrid(1222436)]':
         call avg103009
-    "[textdict[1222437]]":
+    '[convertstrid(1222437)]':
         call avg103010
-    "[textdict[1222438]]":
+    '[convertstrid(1222438)]':
         call avg103011
 return

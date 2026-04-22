@@ -41,10 +41,10 @@ c0 '[convertstrid(1216106)]' (what_size=(gui.text_size*0.9))
 c0 '[convertstrid(1216107)]' (what_size=(gui.text_size*0.9))
 menu:
     extend ""
-    "[textdict[1216108]]":
+    '[convertstrid(1216108)]':
         call avg19012
-    "[textdict[1216109]]":
+    '[convertstrid(1216109)]':
         call avg19013
-    "[textdict[1216110]]":
+    '[convertstrid(1216110)]':
         call avg19014
 return

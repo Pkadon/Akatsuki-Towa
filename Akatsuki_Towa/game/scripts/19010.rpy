@@ -54,8 +54,8 @@ $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
 c561 '[convertstrid(1216086)]' (what_size=(gui.text_size*0.9))
 menu:
     extend ""
-    "[textdict[1216087]]":
+    '[convertstrid(1216087)]':
         call avg19011
-    "[textdict[1216088]]":
+    '[convertstrid(1216088)]':
         call avg19022
 return

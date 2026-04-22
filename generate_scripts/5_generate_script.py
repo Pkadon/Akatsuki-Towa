@@ -466,9 +466,9 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		state.add_line('    extend ""\n')
 		for choice in range(0, len(script_json["ending"]["options"])):
 			choicestrID = script_json["ending"]["options"][choice]["strID"]
-			choicetext = f"[textdict[{choicestrID}]]"
+			choicetext = f"[convertstrid({choicestrID})]"
 			choiceavgID = script_json["ending"]["options"][choice]["avgID"]
-			state.add_line(f'    "{choicetext}":\n')
-			state.add_line(f'        call avg{choiceavgID}\n')
+			state.add_line(f"    '{choicetext}':\n")
+			state.add_line(f"        call avg{choiceavgID}\n")
 
 	state.write_file(targetdirec)
