@@ -1492,6 +1492,13 @@ def make_edits(script_json, avgID):
 ################################################################################
 #Chapter 5
 
+	#ボースの仕立て屋 5/8
+	elif avgID == '12509':
+		#Change Neinvalli background to match the one from the Prologue
+		insert_schedule(script_json,
+			('backgrounds', {'id': 11, 'start': 1, 'end': None})
+		)
+	
 	#試験班の歓迎会 2/5, 3/5, 4/5
 	#12518, 12519, 12520
 	#never found a suitable background to use for sewers
