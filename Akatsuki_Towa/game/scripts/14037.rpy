@@ -26,13 +26,12 @@ c13 '[convertstrid(1202731)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1202732)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
-$ update_portrait('oc002_01 12', 'p2', [l(-3), light, flip], 6)
+$ update_portrait('oc002_01 12', 'p2', [l_exit(-3), light, flip], 6)
 c21 '[convertstrid(1202733)]'
-$ update_portrait('oc002_01 12', 'p2', [l(-3), dark, flip], 5)
-$ update_portrait('oc001_01 18', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1202734)]'
 hide p2
-$ update_portrait('oc001_01 18', 'p1', [r(-2), dark], 5)
+$ update_portrait('oc001_01 18', 'p1', [r_exit(-2), light], 6)
+c13 '[convertstrid(1202734)]'
+hide p1
 c7521 '[convertstrid(1202735)]'
 c7521 '[convertstrid(1202736)]'
 c7521 '[convertstrid(1202737)]'

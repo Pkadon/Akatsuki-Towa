@@ -1557,6 +1557,13 @@ def make_edits(script_json, avgID):
 		insert_schedule(script_json,
 			('backgrounds', {'id': 70, 'start': 24, 'end': 24})
 		)
+	#【三章】反射に注意！
+	elif avgID == '14037':
+		#Add CharFadeOut to Nacht and Chloe's last lines to remove them from the scene
+		add_effects(script_json, {
+			'CharFadeOut': [10, 11]
+		})
+		
 
 ###########################################################################
 	return script_json
