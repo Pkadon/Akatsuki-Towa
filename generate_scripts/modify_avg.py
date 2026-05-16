@@ -1550,4 +1550,13 @@ def make_edits(script_json, avgID):
 	#there is no suitable Akatsuki background to use for Sapphirl Tower
 
 ###########################################################################
+#Training
+	#【三章】アーツ駆動解除
+	elif avgID == '14035':
+		#Add a black background for Nacht's monologue line
+		insert_schedule(script_json,
+			('backgrounds', {'id': 70, 'start': 24, 'end': 24})
+		)
+
+###########################################################################
 	return script_json
