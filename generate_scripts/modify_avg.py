@@ -1563,6 +1563,12 @@ def make_edits(script_json, avgID):
 		add_effects(script_json, {
 			'CharFadeOut': [10, 11]
 		})
+	#【三章】(unused)
+	elif avgID == '14039':
+		#Hide Chloe portrait to remove her from the ending part
+		add_effects(script_json, {
+			'isClearModle': [7]
+		})
 		
 
 ###########################################################################
