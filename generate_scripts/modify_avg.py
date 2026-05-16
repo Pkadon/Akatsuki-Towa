@@ -1572,4 +1572,12 @@ def make_edits(script_json, avgID):
 		
 
 ###########################################################################
+#Event
+	#第１回《ハロウィンフェス》(2) 6/8
+	elif avgID == '1116':
+		#Add highway background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': None})
+		)
+
 	return script_json
