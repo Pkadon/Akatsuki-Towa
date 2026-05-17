@@ -1551,6 +1551,12 @@ def make_edits(script_json, avgID):
 
 ###########################################################################
 #Training
+	#【二章】暗闇と回避
+	elif avgID == '14023':
+		#Change music to Crossbell music after they leave the Geofront
+		insert_schedule(script_json,
+			('bgm', {'id': 101, 'start': 5, 'end': 13})
+		)
 	#【三章】アーツ駆動解除
 	elif avgID == '14035':
 		#Add a black background for Nacht's monologue line

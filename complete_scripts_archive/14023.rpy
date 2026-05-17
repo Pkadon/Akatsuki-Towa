@@ -15,6 +15,7 @@ play sfx2 "elc_5005.ogg"
 c13 '[convertstrid(1202448)]'
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1202459)]'
+$ play_music("ed7150.ogg")
 scene avg_bg_022
 $ update_narrator('c0')
 with fade
@@ -36,6 +37,7 @@ $ update_portrait('oc002_01 13', 'p2', [r(-3), dark], 5)
 c11041 '[convertstrid(1202484)]'
 $ update_portrait('oc002_01 8', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1202485)]'
+$ play_music("ed7300.ogg")
 scene avg_bg_071
 $ update_narrator('c0')
 with fade
