@@ -1576,7 +1576,6 @@ def make_edits(script_json, avgID):
 			'isClearModle': [7]
 		})
 		
-
 ###########################################################################
 #Event
 	#第１回《ハロウィンフェス》(2) 6/8
@@ -1586,4 +1585,25 @@ def make_edits(script_json, avgID):
 			('backgrounds', {'id': 10, 'start': 1, 'end': None})
 		)
 
+###########################################################################
+#Daily
+	#ダルモア商会の依頼(1) (Quest Complete, Optional Dialogue)
+	elif avgID in ['24001', '24076']:
+		
+		#(Quest Complete)
+		if avgID == '24001':
+			#Change the "Estelle" speaker to correctly display as "Nacht"
+			script_json['dialogueFrames'][1]['character']['speaker'] = 1
+			
+		#Add shop background/bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 11, 'start': 1, 'end': None}),
+			('bgm', {'id': 131, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [964],
+			'right': [1]
+		}, mode='speakers')
+###########################################################################
 	return script_json
