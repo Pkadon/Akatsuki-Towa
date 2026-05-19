@@ -1587,7 +1587,7 @@ def make_edits(script_json, avgID):
 
 ###########################################################################
 #Daily
-	#ダルモア商会の依頼(1) (Quest Complete, Optional Dialogue)
+	#ダルモア商会の依頼(1) (Quest Complete, Conditional Dialogue)
 	elif avgID in ['24001', '24076']:
 		
 		#(Quest Complete)
@@ -1604,6 +1604,57 @@ def make_edits(script_json, avgID):
 		add_charpos(script_json, {
 			'left': [964],
 			'right': [1]
+		}, mode='speakers')
+		
+	#リラの依頼(1) (Quest Complete, Conditional Dialogue)
+	elif avgID in ['24006', '24007']:
+		#Add Bose background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 64, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [743],
+			'right': [1]
+		}, mode='speakers')
+		
+	#リラの依頼(2) (Quest Complete, Conditional Dialogue)
+	elif avgID in ['24008', '24009']:
+		#Add Bose background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 64, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [743],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#メイベルの依頼（１） (Quest Complete, Conditional Dialogue)
+	elif avgID in ['24014', '24015']:
+		#Add Bose background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 64, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [742],
+			'right': [1]
+		}, mode='speakers')
+		
+	#メイベルの依頼(2) (Quest Complete, Conditional Dialogue)
+	elif avgID in ['24083', '24084']:
+		#Add Bose background. These two already have bgm.
+		insert_schedule(script_json,
+			('backgrounds', {'id': 64, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [742],
+			'right': [1, 2]
 		}, mode='speakers')
 ###########################################################################
 	return script_json
