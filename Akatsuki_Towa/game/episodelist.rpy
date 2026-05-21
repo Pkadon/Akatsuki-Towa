@@ -493,6 +493,9 @@ screen quest(data):
                             pos ((scenebutton_inner_space[0]//2), (scenebutton_inner_space[1]//2))
                         action Replay(scene['avg'], locked=False)
 
+                        #Prevent buttons from playing cutscenes when a questlog is open over top of this menu.
+                        sensitive (showing_log == None)
+
     use x_button('quest', 'arrow')
 
 
