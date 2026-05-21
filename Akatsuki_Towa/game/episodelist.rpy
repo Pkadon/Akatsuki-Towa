@@ -402,26 +402,26 @@ screen quest(data):
         buttonlist = []
         for log_index in range(0, len(data['logs'])):
             log = data['logs'][log_index]
-            if 'loglabel_fit' not in log:
-                if len(data['logs']) == 1:
-                    loglabel = logtext
-                else:
-                    lognumber = (log_index + 1)
-                    loglabel = f'{logtext} {lognumber}'
 
-                buttonlist.append(
-                    {
-                        'text': loglabel, 
-                        'properties': {
-                            'selected': (showing_log == log_index),
-                            'activate_sound': 'other_7004.ogg',
-                            'action': [
-                                ShowMenu("questlog", data['logs'], log_index),
-                                SetVariable('showing_log', log_index)
-                            ]
-                        }
+            if len(data['logs']) == 1:
+                loglabel = logtext
+            else:
+                lognumber = (log_index + 1)
+                loglabel = f'{logtext} {lognumber}'
+
+            buttonlist.append(
+                {
+                    'text': loglabel, 
+                    'properties': {
+                        'selected': (showing_log == log_index),
+                        'activate_sound': 'other_7004.ogg',
+                        'action': [
+                            ShowMenu("questlog", data['logs'], log_index),
+                            SetVariable('showing_log', log_index)
+                        ]
                     }
-                )
+                }
+            )
     use sidearea(buttonlist)
 
 
@@ -498,9 +498,8 @@ screen quest(data):
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
 screen questlog(log_list, current_index):
-    #modal True
-
     tag log
+
     python:
         data = log_list[current_index]
 
