@@ -40,7 +40,7 @@ $ update_portrait('sc001_01 1', 'p9', [l(-11), dark, flip], 5)
 $ update_portrait('sc002_01 1', 'p10', [r(-12), light], 6)
 c103 '[convertstrid(2108988)]'
 $ update_portrait('sc002_01 1', 'p10', [r(-12), dark], 5)
-$ update_portrait('sc001_01 5', 'p9', [l_exit(-11), light, flip], 6)
+$ update_portrait('sc001_01 5', 'p9', [l(-11), light, flip], 6)
 c91 '[convertstrid(2108989)]'
 hide p9
 play sfx2 "other_7088.ogg"

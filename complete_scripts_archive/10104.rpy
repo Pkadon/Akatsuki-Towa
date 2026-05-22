@@ -43,7 +43,7 @@ c0 '[convertstrid(1123033)]'
 $ update_portrait('uc004_01 4', 'p707', [r_midback(-25), light], 6)
 play sfx2 "fight_6005.ogg"
 c7073 '[convertstrid(1005751)]'
-scene avg_bg_075
+scene avg_bg_031
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1123034)]'
@@ -97,7 +97,7 @@ c7071 '[convertstrid(1005760)]'
 $ update_portrait('uc004_01 2', 'p707', [l(-25), dark, flip], 5)
 $ update_portrait('uc004_01 3', 'p702', [r_midback(-25), light], 6)
 c7023 '[convertstrid(1005761)]'
-scene avg_bg_075
+scene avg_bg_031
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1123034)]'
@@ -129,12 +129,11 @@ hide p230
 $ update_portrait('st037_01 4', 'p236', [r(-10), dark], 5)
 $ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
 c2291 '[convertstrid(1005770)]'
-$ update_portrait('st030_01 1', 'p229', [l(-8), light, flip], 6)
+$ update_portrait('st030_01 1', 'p229', [l_exit(-8), light, flip], 6)
 c2291 '[convertstrid(1005771)]'
-$ update_portrait('st030_01 1', 'p229', [l(-8), dark, flip], 5)
+hide p229
 $ update_portrait('st037_01 2', 'p236', [r(-10), light], 6)
 c2363 '[convertstrid(1005772)]'
-hide p229
 $ update_portrait('st037_01 2', 'p236', [r(-10), dark], 5)
 $ update_portrait('sc044_01 1', 'p51', [l_entrance(-7), light, flip], 6)
 c511 '[convertstrid(1005773)]'

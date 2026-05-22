@@ -231,17 +231,14 @@ c13 '[convertstrid(2110961)]'
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('oca02_01 8', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2110962)]'
+hide p1
 $ update_portrait('oca02_01 8', 'p2702', [l(-3), dark, flip], 5)
-$ update_portrait('oc001_01 14', 'p1', [r(-2), r_shake, light], 6)
 c13 '[convertstrid(2110963)]'
-$ update_portrait('oc001_01 14', 'p1', [r(-2), dark], 5)
 $ update_portrait('oca02_01 22', 'p2702', [l(-3), light, flip], 6)
 c27021 '[convertstrid(2110964)]'
 $ update_portrait('oca02_01 22', 'p2702', [l(-3), dark, flip], 5)
-$ update_portrait('oc001_01 12', 'p1', [r_exit(-2), light], 6)
 play sfx2 "other_7047.ogg"
 c13 '[convertstrid(2110965)]'
-hide p1
 $ update_portrait('oca02_01 1', 'p2702', [l_entrance(-3), light, flip], 6)
 c27021 '[convertstrid(2110966)]'
 $ update_portrait('oca02_01 1', 'p2702', [l(-3), dark, flip], 5)

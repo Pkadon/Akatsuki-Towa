@@ -275,13 +275,14 @@ $ update_portrait('oc004_01 14', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1130964)]'
 $ update_portrait('oc004_01 3', 'p4', [r(-5), light], 6)
 c43 '[convertstrid(1130965)]'
-$ update_portrait('oc004_01 4', 'p4', [r(-5), light], 6)
-c43 '[convertstrid(1130996)]'
+hide p4
+$ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
+c13 '[convertstrid(1130966)]'
 hide p45
-$ update_portrait('oc004_01 4', 'p4', [r(-5), dark], 5)
+$ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc040_01 3', 'p47', [l(-9), r_shake, light, flip], 6)
 c471 '[convertstrid(1130967)]'
-hide p4
+hide p1
 $ update_portrait('sc040_01 3', 'p47', [l(-9), dark, flip], 5)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 6)
 c33 '[convertstrid(1130968)]'
@@ -367,7 +368,7 @@ hide p3
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1130995)]'
 $ update_portrait('oc001_01 16', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1130966)]'
+c13 '[convertstrid(1130996)]'
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1130997)]'
 hide p47

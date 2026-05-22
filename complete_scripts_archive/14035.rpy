@@ -60,13 +60,8 @@ c23 '[convertstrid(1202706)]'
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1202707)]'
-scene avg_bg_070
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
-$ update_narrator('c13')
-with fade
 c13 '[convertstrid(1202708)]'
-scene avg_bg_015
-$ update_narrator('c7521')
-with fade
+$ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 c7521 '[convertstrid(1202709)]'
 return

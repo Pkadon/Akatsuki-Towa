@@ -306,9 +306,11 @@ c561 '[convertstrid(1007536)]'
 $ update_portrait('sc049_01 1', 'p56', [l(-8), dark, flip], 5)
 $ update_portrait('st003_01 1', 'p203', [r(-7), light], 6)
 c2033 '[convertstrid(1007537)]'
-$ update_portrait('st003_01 1', 'p203', [r(-7), dark], 5)
-$ update_portrait('sc049_01 0', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(1007538)]'
+hide p56
+hide p203
+$ update_portrait('sc049_01 0', 'p56', [mid(-8), light], 6)
+c563 '[convertstrid(1007538)]'
+hide p56
 $ update_portrait('sc049_01 4', 'p56', [l(-8), light, flip], 6)
 c561 '[convertstrid(1007539)]'
 $ update_portrait('sc049_01 4', 'p56', [l(-8), dark, flip], 5)

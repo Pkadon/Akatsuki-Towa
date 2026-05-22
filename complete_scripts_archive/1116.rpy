@@ -1,7 +1,7 @@
 label avg1116:
 
 $ play_music("ed7200.ogg")
-scene avg_bg_010
+scene placeholderbackground
 $ update_portrait('oc004_01 13', 'p4', [l(-5), light, flip], 6)
 $ update_narrator('c41')
 window show

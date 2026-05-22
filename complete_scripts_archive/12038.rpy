@@ -31,6 +31,7 @@ c23 '[convertstrid(1120269)]'
 $ update_portrait('oc002_01 6', 'p2', [r(-3), dark], 5)
 c9741 '[convertstrid(1120270)]'
 hide p2
+c9743 '[convertstrid(1120271)]'
 c9753 '[convertstrid(1120272)]'
 scene avg_bg_070
 $ update_narrator('c0')

@@ -22,10 +22,9 @@ $ update_portrait('oc002_01 21', 'p2', [r(-3), dark], 5)
 c7521 '[convertstrid(1202765)]'
 $ update_portrait('oc002_01 6', 'p2', [r(-3), light], 6)
 c23 '[convertstrid(1202766)]'
-hide p2
-$ update_narrator('c7521')
-with fade
+$ update_portrait('oc002_01 6', 'p2', [r(-3), dark], 5)
 c7521 '[convertstrid(1202767)]'
 c7521 '[convertstrid(1202768)]'
+hide p2
 c0 '[convertstrid(1202769)]'
 return

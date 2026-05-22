@@ -87,10 +87,10 @@ c33 '[convertstrid(1003925)]'
 $ update_portrait('oc003_01 7', 'p3', [r(-6), dark], 5)
 $ update_portrait('oc004_01 2', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1003926)]'
-$ update_portrait('oc004_01 11', 'p4', [l(-5), light, flip], 6)
+$ update_portrait('oc004_01 1', 'p4', [l(-5), light, flip], 6)
 c41 '[convertstrid(1003927)]'
 hide p3
-$ update_portrait('oc004_01 11', 'p4', [l(-5), dark, flip], 5)
+$ update_portrait('oc004_01 1', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(1003928)]'
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)

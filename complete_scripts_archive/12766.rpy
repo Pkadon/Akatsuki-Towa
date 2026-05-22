@@ -35,7 +35,7 @@ $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 c13351 '[convertstrid(1174706)]'
 c13351 '[convertstrid(1174707)]'
 c13351 '[convertstrid(1174708)]'
-c13351 '[convertstrid(1174709)]'
+c13353 '[convertstrid(1174709)]'
 c13351 '[convertstrid(1174710)]'
 hide p1
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 6)

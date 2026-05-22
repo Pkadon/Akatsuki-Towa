@@ -287,7 +287,7 @@ $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2103853)]'
 $ update_portrait('oc001_01 17', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2103854)]'
-$ update_portrait('oc001_01 14', 'p1', [r_exit(-2), light], 6)
+$ update_portrait('oc001_01 14', 'p1', [r(-2), light], 6)
 c13 '[convertstrid(2103855)]'
 hide p1
 play sfx2 "other_7085.ogg"
