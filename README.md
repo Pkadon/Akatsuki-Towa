@@ -121,7 +121,7 @@ but you could change the order that they are added together from within `4_make_
 
 ##### **PLEASE NOTE:** 
 Not all generated scripts will be accessible from Akatsuki Towa by default.
-Scenes not accessible from the Scene Select menu have been removed from the default build folder to reduce load time.  The complete set of cutscene script files can be found in [this folder](complete_scripts_archive).  Move any or all of the `.rpy` files you are interested in into your `game/scripts` folder. 
+Scenes not accessible from the Scene Select menu have been removed from the default build folder to reduce load time.  A complete set of (unmodified) cutscene script files can be found in [this archive folder](complete_unmodified_scripts_archive).  Move any or all of the `.rpy` files you are interested in into your `game/scripts` folder. 
 Then they can be manually played from within Akatsuki Towa by clicking the "Jump" button on the left side of the "Scene Select" menu, and entering the cutscene file's number in the box.
 
 ---
