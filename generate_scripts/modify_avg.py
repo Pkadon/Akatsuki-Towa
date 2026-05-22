@@ -1601,6 +1601,24 @@ def make_edits(script_json, avgID):
 		)
 
 ###########################################################################
+#Chapter 7
+	#巨大魔獣防衛線２ 6/6
+	elif avgID == '10752':
+		#Change the Ainsel background to use the other, more commonly used version
+		insert_schedule(script_json,
+			('backgrounds', {'id': 1, 'start': 1, 'end': 25})
+		)
+
+###########################################################################
+#Chapter 8
+	#地下プラント探索 1/3
+	elif avgID == '12834':
+		#Change the Ainsel background to use the other, more common version
+		insert_schedule(script_json,
+			('backgrounds', {'id': 1, 'start': 1, 'end': 2})
+		)
+		
+###########################################################################
 #Training
 	#【二章】暗闇と回避
 	elif avgID == '14023':

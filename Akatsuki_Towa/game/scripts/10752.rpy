@@ -1,7 +1,7 @@
 label avg10752:
 
 $ play_music("ed7544.ogg")
-scene avg_bg_002
+scene avg_bg_001
 $ update_narrator('c0')
 window show
 with fade_in
