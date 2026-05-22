@@ -1549,6 +1549,57 @@ def make_edits(script_json, avgID):
 	#10563, 10564, 10565, 10566, 10567, 10568
 	#there is no suitable Akatsuki background to use for Sapphirl Tower
 
+################################################################################
+#Chapter 6
+	#果たすべき責務 1/2
+	elif avgID == '10601':
+		#Add a black background to the opening first 4 lines
+		insert_schedule(script_json,
+			('backgrounds', {'id': 70, 'start': 1, 'end': 4})
+		)
+		#(still don't have a good background for the Sapphirl Tower flashback)
+	
+	#駐車違反の取り締まり 3/6
+	elif avgID == '12613':
+		#Change background from the highway to the Administrative District,
+		#since they are just leaving the police department from the last scene.
+		insert_schedule(script_json,
+			('backgrounds', {'id': 19, 'start': 1, 'end': None})
+		)
+	
+	#ジェニス王立学園の警備 5/6, 6/6
+	#12609, 12610
+	#decided not to do a background for the Jenis Old Schoolhouse. 
+	#The best available option was one of the generic outdoor backgrounds (10 or 36)
+	
+	#モンレイン廃鉱の魔獣討伐
+	#2/6
+	elif avgID == '12655':
+		#Add Monrain mine entrance background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 204, 'start': 1, 'end': None})
+		)
+	#3/6, 4/6, 5/6
+	elif avgID in ['12656', '12657', '12658']:
+		#Add cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+	#6/6
+	elif avgID == '12659':
+		#Add cave background, but keep the last frame as a black screen
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': 8}),
+			('backgrounds', {'id': 70, 'start': 9, 'end': 9})
+		)
+		
+	#手術記録 3/10
+	elif avgID == '10645':
+		#Change background to Ainsel exterior (for Ardent Airport)
+		insert_schedule(script_json,
+			('backgrounds', {'id': 1, 'start': 1, 'end': None})
+		)
+
 ###########################################################################
 #Training
 	#【二章】暗闇と回避

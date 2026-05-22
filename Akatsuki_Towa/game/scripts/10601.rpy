@@ -1,7 +1,7 @@
 label avg10601:
 
 stop music
-scene placeholderbackground
+scene avg_bg_070
 $ update_narrator('c0')
 window show
 with fade_in
