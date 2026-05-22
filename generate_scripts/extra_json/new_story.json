@@ -5386,7 +5386,7 @@
                     {
                         "name": "駐車違反の取り締まり 3/6",
                         "strID": 17799,
-                        "infostrID": 2219,
+                        "infostrID": 3103,
                         "avgID": 12613
                     },
                     {
@@ -5518,7 +5518,7 @@
                     {
                         "name": "大公の仕立て屋を探せ 2/4",
                         "strID": 17808,
-                        "infostrID": 3402,
+                        "infostrID": 3401,
                         "avgID": 12622
                     },
                     {
@@ -5545,7 +5545,7 @@
                     {
                         "name": "晩餐会の出来事 1/5",
                         "strID": 17782,
-                        "infostrID": 3404,
+                        "infostrID": 3407,
                         "avgID": 10615
                     },
                     {
@@ -5584,13 +5584,13 @@
                     {
                         "name": "【ザイラー商会】 1/4",
                         "strID": 17811,
-                        "infostrID": 3400,
+                        "infostrID": 3402,
                         "avgID": 10620
                     },
                     {
                         "name": "【ザイラー商会】 2/4",
                         "strID": 17812,
-                        "infostrID": 3402,
+                        "infostrID": 3454,
                         "avgID": 10621
                     },
                     {
@@ -5602,7 +5602,7 @@
                     {
                         "name": "【ザイラー商会】 4/4",
                         "strID": 17814,
-                        "infostrID": 3402,
+                        "infostrID": 3400,
                         "avgID": 10623
                     }
                 ]
@@ -5695,7 +5695,7 @@
                     {
                         "name": "【オルソン社長の行方】 2/2",
                         "strID": 17816,
-                        "infostrID": 3402,
+                        "infostrID": 3453,
                         "avgID": 10626
                     }
                 ]
@@ -5839,7 +5839,7 @@
                     {
                         "name": "婚約者の捜索 2/3",
                         "strID": 17892,
-                        "infostrID": 3402,
+                        "infostrID": 3403,
                         "avgID": 12648
                     },
                     {
@@ -5866,13 +5866,13 @@
                     {
                         "name": "遊撃士さんにお礼をしたい 2/3",
                         "strID": 17895,
-                        "infostrID": 3402,
+                        "infostrID": 3403,
                         "avgID": 12651
                     },
                     {
                         "name": "遊撃士さんにお礼をしたい 3/3",
                         "strID": 17896,
-                        "infostrID": 3402,
+                        "infostrID": 3403,
                         "avgID": 12652
                     }
                 ]
@@ -5893,7 +5893,7 @@
                     {
                         "name": "【最北の街・モンレイン】 2/11",
                         "strID": 17821,
-                        "infostrID": 3416,
+                        "infostrID": 3026,
                         "avgID": 10631
                     },
                     {
@@ -6067,13 +6067,13 @@
                     {
                         "name": "手術記録 2/10",
                         "strID": 17834,
-                        "infostrID": 3900,
+                        "infostrID": 3026,
                         "avgID": 10644
                     },
                     {
                         "name": "手術記録 3/10",
                         "strID": 17835,
-                        "infostrID": 3402,
+                        "infostrID": 3416,
                         "avgID": 10645
                     },
                     {
@@ -6103,7 +6103,7 @@
                     {
                         "name": "手術記録 8/10",
                         "strID": 17840,
-                        "infostrID": 3116,
+                        "infostrID": 3156,
                         "avgID": 10650
                     },
                     {
@@ -6148,19 +6148,19 @@
                     {
                         "name": "重要参考人の護送 4/6",
                         "strID": 17910,
-                        "infostrID": 3110,
+                        "infostrID": 3109,
                         "avgID": 12667
                     },
                     {
                         "name": "重要参考人の護送 5/6",
                         "strID": 17911,
-                        "infostrID": 3110,
+                        "infostrID": 3109,
                         "avgID": 12668
                     },
                     {
                         "name": "重要参考人の護送 6/6",
                         "strID": 17912,
-                        "infostrID": 3110,
+                        "infostrID": 3109,
                         "avgID": 12669
                     }
                 ]
@@ -6220,7 +6220,7 @@
                     {
                         "name": "日曜学校の同窓会 3/6",
                         "strID": 17845,
-                        "infostrID": 2248,
+                        "infostrID": 3026,
                         "avgID": 10655
                     },
                     {
@@ -6325,7 +6325,7 @@
                     {
                         "name": "終局への炎 2/19",
                         "strID": 17850,
-                        "infostrID": 2248,
+                        "infostrID": 3026,
                         "avgID": 10660
                     },
                     {
