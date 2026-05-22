@@ -9,7 +9,7 @@ c0 '[convertstrid(1178708)]'
 c0 '[convertstrid(1178709)]'
 c0 '[convertstrid(1178710)]'
 c0 '[convertstrid(1178711)]'
-scene avg_bg_050
+scene avg_bg_049
 $ update_narrator('c0')
 with fade
 c0 '[convertstrid(1178712)]'

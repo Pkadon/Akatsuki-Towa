@@ -1609,6 +1609,56 @@ def make_edits(script_json, avgID):
 			('backgrounds', {'id': 1, 'start': 1, 'end': 25})
 		)
 
+	#元マフィアの隠れ家を再捜索 3/4, 4/4
+	elif avgID in ['12768', '12769']:
+		#Add "abandoned room" background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 212, 'start': 1, 'end': None})
+		)
+		
+	#エインセル号、北へ
+	#9/11
+	elif avgID == '10766':
+		#Keep first line black, change the rest to the cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 2, 'end': None})
+		)
+	#10/11
+	elif avgID == '10767':
+		#Change the first 9 lines to the cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': 9})
+		)
+		
+	#魔獣避けの罠の整備 2/3, 3/3
+	elif avgID in ['12783', '12784']:
+		#Change background to the magma cave
+		insert_schedule(script_json,
+			('backgrounds', {'id': 214, 'start': 1, 'end': None})
+		)
+		
+	#始まりの地 2/7
+	elif avgID == '10780':
+		#Keep the first 2 lines black, change background for the rest to the magma cave
+		insert_schedule(script_json,
+			('backgrounds', {'id': 214, 'start': 3, 'end': None})
+		)
+		
+	#エイヤの民たち 5/8
+	elif avgID == '10790':
+		#Change background to Eiya's residential district
+		insert_schedule(script_json,
+			('backgrounds', {'id': 209, 'start': 1, 'end': None})
+		)
+	
+	#隠された輸送ルート 1/3
+	elif avgID == '10796':
+		#Change background of frames 5-6 to downtown Ardent
+		insert_schedule(script_json,
+			('backgrounds', {'id': 49, 'start': 5, 'end': 6})
+		)
+	
+
 ###########################################################################
 #Chapter 8
 	#地下プラント探索 1/3

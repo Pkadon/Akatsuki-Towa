@@ -6,6 +6,9 @@ $ update_narrator('c0')
 window show
 with fade_in
 c0 '[convertstrid(1175209)]'
+scene avg_bg_218
+$ update_narrator('c0')
+with fade
 play sfx2 "other_7080.ogg"
 c0 '[convertstrid(1175210)]'
 $ update_portrait('oc003_01 8', 'p3', [l(-6), light, flip], 6)

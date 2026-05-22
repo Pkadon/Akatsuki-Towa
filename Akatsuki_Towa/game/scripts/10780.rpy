@@ -7,7 +7,7 @@ window show
 with fade_in
 c0 '[convertstrid(1177174)]'
 c0 '[convertstrid(1177175)]'
-scene avg_bg_004
+scene avg_bg_214
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 with fade
