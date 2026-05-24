@@ -10,16 +10,14 @@
                 "scenes": [
                     {
                         "name": "Fishing Unlock Scene",
-                        "info": "(Prologue)",
                         "strID": "ex_18",
-                        "infostrID": "ex_19",
+                        "infostrID": null,
                         "avgID": 10020
                     },
                     {
                         "name": "Fisherman's Guild",
-                        "info": "(Grancel, Chapter 1)",
                         "strID": "ex_20",
-                        "infostrID": "ex_21",
+                        "infostrID": null,
                         "avgID": 20036
                     }
                 ]
