@@ -8416,7 +8416,7 @@
                     {
                         "name": "宣戦布告 1/4",
                         "strID": 18238,
-                        "infostrID": 3900,
+                        "infostrID": 2244,
                         "avgID": 10801
                     },
                     {
@@ -8470,7 +8470,7 @@
                     {
                         "name": "医薬品の配達 2/2",
                         "strID": 18244,
-                        "infostrID": 3400,
+                        "infostrID": 2240,
                         "avgID": 12803
                     }
                 ]
@@ -8599,7 +8599,7 @@
                     {
                         "name": "二度目の夜 1/2",
                         "strID": 18255,
-                        "infostrID": 8030,
+                        "infostrID": 3464,
                         "avgID": 10808
                     },
                     {
@@ -8827,13 +8827,13 @@
                     {
                         "name": "《戦争卿》の正体 1/2",
                         "strID": 18278,
-                        "infostrID": 3464,
+                        "infostrID": 3457,
                         "avgID": 10819
                     },
                     {
                         "name": "《戦争卿》の正体 2/2",
                         "strID": 18279,
-                        "infostrID": 3413,
+                        "infostrID": 3463,
                         "avgID": 10820
                     }
                 ]
@@ -8848,13 +8848,13 @@
                     {
                         "name": "公宮最後の日 1/2",
                         "strID": 18280,
-                        "infostrID": 3400,
+                        "infostrID": 2244,
                         "avgID": 10821
                     },
                     {
                         "name": "公宮最後の日 2/2",
                         "strID": 18281,
-                        "infostrID": 3402,
+                        "infostrID": 3404,
                         "avgID": 10822
                     }
                 ]
@@ -8890,7 +8890,7 @@
                     {
                         "name": "移動砲台運搬の護衛 1/3",
                         "strID": 18284,
-                        "infostrID": 8012,
+                        "infostrID": 3402,
                         "avgID": 12825
                     },
                     {
@@ -8980,7 +8980,7 @@
                     {
                         "name": "反撃作戦 1/2",
                         "strID": 18293,
-                        "infostrID": 3402,
+                        "infostrID": 3404,
                         "avgID": 10824
                     },
                     {
@@ -9001,7 +9001,7 @@
                     {
                         "name": "ヨルムンガルド追跡 1/1",
                         "strID": 18295,
-                        "infostrID": 8012,
+                        "infostrID": 3026,
                         "avgID": 12833
                     }
                 ]
@@ -9022,7 +9022,7 @@
                     {
                         "name": "地下プラント探索 2/3",
                         "strID": 18297,
-                        "infostrID": 8038,
+                        "infostrID": 8008,
                         "avgID": 12835
                     },
                     {
@@ -9058,7 +9058,7 @@
                     {
                         "name": "静かな朝 1/3",
                         "strID": 18300,
-                        "infostrID": 3900,
+                        "infostrID": 2244,
                         "avgID": 10827
                     },
                     {
@@ -9268,7 +9268,7 @@
                     {
                         "name": "エイヤ再び 1/3",
                         "strID": 18320,
-                        "infostrID": 3402,
+                        "infostrID": 2244,
                         "avgID": 10835
                     },
                     {
@@ -9379,7 +9379,7 @@
                     {
                         "name": "キノコの洞窟へ 2/3",
                         "strID": 18331,
-                        "infostrID": 3952,
+                        "infostrID": 3955,
                         "avgID": 12855
                     },
                     {
@@ -9448,7 +9448,7 @@
                     {
                         "name": "人形兵器掃討 1/2",
                         "strID": 18338,
-                        "infostrID": 3952,
+                        "infostrID": 3026,
                         "avgID": 12857
                     },
                     {
@@ -9523,7 +9523,7 @@
                     {
                         "name": "ロナードのけじめ 1/1",
                         "strID": 18346,
-                        "infostrID": 3950,
+                        "infostrID": 3026,
                         "avgID": 12862
                     }
                 ]
@@ -9553,7 +9553,7 @@
                     {
                         "name": "リーヴの思い 1/1",
                         "strID": 18348,
-                        "infostrID": 3950,
+                        "infostrID": 3026,
                         "avgID": 12864
                     }
                 ]
@@ -9568,7 +9568,7 @@
                     {
                         "name": "ノアの思い出 1/1",
                         "strID": 18349,
-                        "infostrID": 3950,
+                        "infostrID": 3026,
                         "avgID": 12865
                     }
                 ]
@@ -9583,7 +9583,7 @@
                     {
                         "name": "ラッセル博士の考察 1/1",
                         "strID": 18350,
-                        "infostrID": 3956,
+                        "infostrID": 3953,
                         "avgID": 12866
                     }
                 ]
@@ -9598,7 +9598,7 @@
                     {
                         "name": "カタリナの思い 1/1",
                         "strID": 18351,
-                        "infostrID": 3956,
+                        "infostrID": 3026,
                         "avgID": 12867
                     }
                 ]
@@ -9613,19 +9613,19 @@
                     {
                         "name": "秘密の場所 1/3",
                         "strID": 18352,
-                        "infostrID": 3956,
+                        "infostrID": 3954,
                         "avgID": 10848
                     },
                     {
                         "name": "秘密の場所 2/3",
                         "strID": 18353,
-                        "infostrID": 3950,
+                        "infostrID": 3026,
                         "avgID": 10849
                     },
                     {
                         "name": "秘密の場所 3/3",
                         "strID": 18354,
-                        "infostrID": 3905,
+                        "infostrID": 2244,
                         "avgID": 10850
                     }
                 ]
@@ -9817,7 +9817,7 @@
                     {
                         "name": "仲間（最終話） 1/1",
                         "strID": 18370,
-                        "infostrID": 3402,
+                        "infostrID": 3403,
                         "avgID": 10866
                     }
                 ]
