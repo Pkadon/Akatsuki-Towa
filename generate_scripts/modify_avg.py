@@ -1567,11 +1567,21 @@ def make_edits(script_json, avgID):
 			('backgrounds', {'id': 19, 'start': 1, 'end': None})
 		)
 	
-	#ジェニス王立学園の警備 5/6, 6/6
-	#12609, 12610
-	#decided not to do a background for the Jenis Old Schoolhouse. 
-	#The best available option was one of the generic outdoor backgrounds (10 or 36)
-	
+	#ジェニス王立学園の警備 
+	#5/6
+	elif avgID == '12609':
+		#Add outdoor road background (to represent the pathway to the Old Schoolhouse)
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': None})
+		)
+	#6/6
+	elif avgID == '12610':
+		#Add outdoor road background to lines 1-57, make the last wo lines a black screen
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': 57}),
+			('backgrounds', {'id': 70, 'start': 58, 'end': 59})
+		)
+		
 	#モンレイン廃鉱の魔獣討伐
 	#2/6
 	elif avgID == '12655':
