@@ -7,9 +7,9 @@ $ update_narrator('c23')
 window show
 with fade_in
 play sfx2 "common_tag_2.ogg"
-c23 '[convertstrid(1210370)]'
+get_char('c23') '[convertstrid(1210370)]' (**arg(1, 1210370))
 hide p2
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na03.ogg"
-c13 '[convertstrid(1210371)]'
+get_char('c13') '[convertstrid(1210371)]' (**arg(2, 1210371))
 return

@@ -7,30 +7,30 @@ window show
 with fade_in
 $ update_portrait('oc001_01 4', 'p1', [l_entrance(-2), light, flip], 6)
 play sfxvoice "avg_vocal_na10.ogg"
-c11 '[convertstrid(1006633)]'
+get_char('c11') '[convertstrid(1006633)]' (**arg(1, 1006633))
 $ update_portrait('oc001_01 4', 'p1', [l(-2), dark, flip], 5)
 $ update_portrait('oc002_01 17', 'p2', [r(-3), light], 6)
 play sfxvoice "avg_vocal_ch21.ogg"
-c23 '[convertstrid(1006634)]'
+get_char('c23') '[convertstrid(1006634)]' (**arg(2, 1006634))
 hide p1
 $ update_portrait('oc002_01 17', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc004_01 8', 'p4', [l(-5), light, flip], 6)
 play sfxvoice "avg_vocal_li18.ogg"
-c41 '[convertstrid(1006635)]'
+get_char('c41') '[convertstrid(1006635)]' (**arg(3, 1006635))
 hide p2
 $ update_portrait('oc004_01 8', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('oc003_01 4', 'p3', [r(-6), light], 6)
 play sfxvoice "avg_vocal_ro19.ogg"
-c33 '[convertstrid(1006636)]'
+get_char('c33') '[convertstrid(1006636)]' (**arg(4, 1006636))
 $ update_portrait('oc003_01 5', 'p3', [r(-6), light], 6)
 play sfx2 "other_7071.ogg"
 play sfxvoice "avg_vocal_ro05.ogg"
-c33 '[convertstrid(1006637)]'
+get_char('c33') '[convertstrid(1006637)]' (**arg(5, 1006637))
 hide p4
 $ update_portrait('oc003_01 5', 'p3', [r(-6), dark], 5)
 play sfx2 "other_7072.ogg"
 play sfxvoice "avg_vocal_ji05.ogg"
-c7011 '[convertstrid(1006638)]'
-c7011 '[convertstrid(1006639)]'
-c7011 '[convertstrid(1006640)]'
+get_char('c7011') '[convertstrid(1006638)]' (**arg(6, 1006638))
+get_char('c7011') '[convertstrid(1006639)]' (**arg(7, 1006639))
+get_char('c7011') '[convertstrid(1006640)]' (**arg(8, 1006640))
 return

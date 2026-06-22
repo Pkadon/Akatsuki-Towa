@@ -6,23 +6,23 @@ $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 6)
 $ update_narrator('c20063')
 window show
 with fade_in
-c20063 '[convertstrid(1210156)]'
+get_char('c20063') '[convertstrid(1210156)]' (**arg(1, 1210156))
 $ update_portrait('uc001_02 2', 'p2006', [mid(6), light], 6)
-c20063 '[convertstrid(1210157)]'
+get_char('c20063') '[convertstrid(1210157)]' (**arg(2, 1210157))
 $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 6)
-c20063 '[convertstrid(1210158)]'
+get_char('c20063') '[convertstrid(1210158)]' (**arg(3, 1210158))
 hide p2006
 $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1210159)]'
+get_char('c13') '[convertstrid(1210159)]' (**arg(4, 1210159))
 hide p1
 $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 6)
-c20063 '[convertstrid(1210160)]'
+get_char('c20063') '[convertstrid(1210160)]' (**arg(5, 1210160))
 hide p2006
 $ update_portrait('oc001_01 6', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na17.ogg"
-c13 '[convertstrid(1210161)]'
+get_char('c13') '[convertstrid(1210161)]' (**arg(6, 1210161))
 hide p1
 $ update_portrait('uc001_02 1', 'p2006', [mid(6), light], 6)
 play sfx2 "common_35rewardholy.ogg"
-c20063 '[convertstrid(1210162)]'
+get_char('c20063') '[convertstrid(1210162)]' (**arg(7, 1210162))
 return

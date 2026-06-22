@@ -6,22 +6,22 @@ $ update_portrait('oc002_01 5', 'p2', [r(-3), light], 6)
 $ update_narrator('c23')
 window show
 with fade_in
-c23 '[convertstrid(1216144)]' (what_size=(gui.text_size*0.9))
+get_char('c23') '[convertstrid(1216144)]' (**arg(1, 1216144, size=(0.9)))
 hide p2
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1216145)]' (what_size=(gui.text_size*0.9))
+get_char('c13') '[convertstrid(1216145)]' (**arg(2, 1216145, size=(0.9)))
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc049_01 5', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(1216146)]' (what_size=(gui.text_size*0.9))
+get_char('c561') '[convertstrid(1216146)]' (**arg(3, 1216146, size=(0.9)))
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(1216158)]' (what_size=(gui.text_size*0.9))
+get_char('c561') '[convertstrid(1216158)]' (**arg(4, 1216158, size=(0.9)))
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(1216159)]' (what_size=(gui.text_size*0.9))
+get_char('c561') '[convertstrid(1216159)]' (**arg(5, 1216159, size=(0.9)))
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(1216160)]' (what_size=(gui.text_size*0.9))
+get_char('c561') '[convertstrid(1216160)]' (**arg(6, 1216160, size=(0.9)))
 hide p56
 hide p1
-c0 '[convertstrid(1216161)]' (what_size=(gui.text_size*0.9))
+get_char('c0') '[convertstrid(1216161)]' (**arg(7, 1216161, size=(0.9)))
 menu:
     extend ""
     '[convertstrid(1216162)]':

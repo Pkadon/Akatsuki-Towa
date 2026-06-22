@@ -5,7 +5,7 @@ scene placeholderbackground
 $ update_narrator('c20233')
 window show
 with fade_in
-c20233 '[convertstrid(1210738)]'
+get_char('c20233') '[convertstrid(1210738)]' (**arg(1, 1210738))
 menu:
     extend ""
     '[convertstrid(1214995)]':

@@ -8,8 +8,8 @@ window show
 with fade_in
 play sfx2 "common_tag_2.ogg"
 play sfxvoice "avg_vocal_ch08.ogg"
-c23 '[convertstrid(1211062)]'
+get_char('c23') '[convertstrid(1211062)]' (**arg(1, 1211062))
 hide p2
 $ update_portrait('oc001_01 11', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1211063)]'
+get_char('c13') '[convertstrid(1211063)]' (**arg(2, 1211063))
 return

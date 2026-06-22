@@ -104,15 +104,26 @@ style frame:
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 screen hotkeys():
-    key "r" action ShowMenu('history')
-    key "l" action ShowMenu('history')
-    key "a" action Preference("auto-forward", "toggle")
-    key "f" action Preference("auto-forward", "toggle")
+    key ["r", "k"] action ShowMenu('history')
+    key ["a", "f"] action Preference("auto-forward", "toggle")
 
-screen say(who, what, char_id=None):
+init python:
+    def cycle_language():
+        global language_list
+        langs = list(language_list.keys())
+        current_index = langs.index(preferences.language)
+
+        new_lang = langs[ (current_index + 1) % len(langs) ]
+        renpy.change_language(new_lang, force=True, rebuild=True)
+
+screen toggle_language():
+    key ["l", "e"] action Function(cycle_language)
+
+screen say(who, what, char_id=None, line_id=None, str_id=None, **kwargs):
     style_prefix "say"
 
     use hotkeys
+    use toggle_language
     
     #Updates the default renpy narrator character with the last used Character object
     #This is necessary to keep the namebox visible and consistent during fade-out transitions
@@ -134,8 +145,6 @@ screen say(who, what, char_id=None):
                     id "namebox"
                     style "namebox"
                     text who id "who"
-
-
 
 ## Make the namebox available for styling through the Character object.
 init python:
@@ -873,6 +882,8 @@ screen preferences():
 
     tag menu
 
+    use toggle_language()
+
     python:
         if not renpy.predicting():
             #This lets the main menu music change while still in the Preference menu, instead of needing to close out of it for the new music to take effect.
@@ -886,16 +897,30 @@ screen preferences():
                 box_wrap True
                 spacing 10
 
-                if renpy.variant("pc") or renpy.variant("web"):
-
-                    vbox:
-                        style_prefix "check"
-                        xsize 140
-                        spacing 0
-                        label _("Display")
+                vbox:
+                    if renpy.variant("pc") or renpy.variant("web"):
                         vbox:
-                            textbutton _("Window") action Preference("display", "window")
-                            textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                            style_prefix "check"
+                            xsize 140
+                            spacing 0
+                            label _("Display")
+                            vbox:
+                                textbutton _("Window") action Preference("display", "window")
+                                textbutton _("Fullscreen") action Preference("display", "fullscreen")
+
+                    if len(language_list) > 1:
+                        vbox:
+                            style_prefix "check"
+                            xsize 140
+                            spacing 0
+                            label _("Language")
+                            vbox:
+                                for key in language_list:
+                                    textbutton _(language_list[key]):
+                                        sensitive (preferences.language != key)
+                                        action [
+                                            Language(key)
+                                        ]
 
                 vbox:
                     style_prefix "check"
@@ -1110,6 +1135,8 @@ screen history():
 
     tag menu
 
+    use toggle_language()
+
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
@@ -1119,21 +1146,44 @@ screen history():
 
         vbox:
             spacing 10
+            
+            $shown_list = []
             for h in _history_list:
-                vbox:
-                    if h.who:
-                        text [h.who + ":"]:
+
+                python:
+                    line_label = h.show_args.get('label')
+                    line_id = h.show_args.get('line_id')
+
+                if (line_label, line_id) not in shown_list or line_id == None:
+                    vbox:
+                        if h.who:
+                            python:
+                                char_id = h.show_args.get('char_id')
+                                # Change 'who' to a language-switching compatible version where applicable
+                                if char_id:
+                                    who = get_char(char_id).name
+                                else:
+                                    who = h.who
+                            text [who + ":"]:
+                                substitute False
+                                xalign 0.0
+                                color "#FDDC5C"
+                                size gui.name_text_size
+
+                        python:
+                            strid = h.show_args.get('str_id')
+                            # Change 'what' to a language-switching compatible version where applicable
+                            if strid:
+                                what = convertstrid(strid)
+                            else:
+                                what = h.what
+                        text what:
                             substitute False
                             xalign 0.0
-                            color "#FDDC5C"
-                            size gui.name_text_size
+                            xsize 610 - gui.scrollbar_size
+                            size gui.text_size
 
-                    $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                    text what:
-                        substitute False
-                        xalign 0.0
-                        xsize 610 - gui.scrollbar_size
-                        size gui.text_size
+                    $shown_list.append( (line_label, line_id) )
 
             if not _history_list:
                 label _("The dialogue history is empty.")
@@ -1236,7 +1286,11 @@ screen keyboard_help():
         text _("Accesses the game menu.")
 
     hbox:
-        label _("R/L")
+        label _("L/E")
+        text _('Cycles through game text languages that have been ticked as "cyclable" in the Preferences menu (if available).')
+
+    hbox:
+        label _("R/K")
         text _("Opens the History menu.")
 
     hbox:

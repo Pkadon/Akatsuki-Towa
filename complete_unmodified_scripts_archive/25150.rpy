@@ -6,7 +6,7 @@ $ update_portrait('uc001_02 2', 'p2014', [mid(6), light], 6)
 $ update_narrator('c20143')
 window show
 with fade_in
-c20143 '[convertstrid(1210478)]'
+get_char('c20143') '[convertstrid(1210478)]' (**arg(1, 1210478))
 menu:
     extend ""
     '[convertstrid(1214999)]':

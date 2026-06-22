@@ -7,5 +7,5 @@ $ update_narrator('c20013')
 window show
 with fade_in
 play sfx2 "common_sephi2.ogg"
-c20013 '[convertstrid(1210119)]'
+get_char('c20013') '[convertstrid(1210119)]' (**arg(1, 1210119))
 return

@@ -6,98 +6,98 @@ show memoryoverlay zorder 2
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[convertstrid(1185725)]'
-c0 '[convertstrid(1185726)]'
-c0 '[convertstrid(1185727)]'
-c0 '[convertstrid(1185728)]'
-c0 '[convertstrid(1185729)]'
-c0 '[convertstrid(1185730)]'
-c0 '[convertstrid(1185731)]'
-c0 '[convertstrid(1185732)]'
-c0 '[convertstrid(1185733)]'
-c15011 '[convertstrid(1185734)]'
-c14931 '[convertstrid(1185735)]'
-c15021 '[convertstrid(1185736)]'
-c15011 '[convertstrid(1185737)]'
-c15021 '[convertstrid(1185738)]'
-c14931 '[convertstrid(1185739)]'
-c15021 '[convertstrid(1185740)]'
-c15021 '[convertstrid(1185741)]'
-c14931 '[convertstrid(1185742)]'
-c15011 '[convertstrid(1185743)]'
-c15021 '[convertstrid(1185744)]'
-c14931 '[convertstrid(1185745)]'
-c14931 '[convertstrid(1185746)]'
-c14931 '[convertstrid(1185747)]'
-c15021 '[convertstrid(1185748)]'
-c15011 '[convertstrid(1185749)]'
-c25231 '[convertstrid(1185750)]'
+get_char('c0') '[convertstrid(1185725)]' (**arg(1, 1185725))
+get_char('c0') '[convertstrid(1185726)]' (**arg(2, 1185726))
+get_char('c0') '[convertstrid(1185727)]' (**arg(3, 1185727))
+get_char('c0') '[convertstrid(1185728)]' (**arg(4, 1185728))
+get_char('c0') '[convertstrid(1185729)]' (**arg(5, 1185729))
+get_char('c0') '[convertstrid(1185730)]' (**arg(6, 1185730))
+get_char('c0') '[convertstrid(1185731)]' (**arg(7, 1185731))
+get_char('c0') '[convertstrid(1185732)]' (**arg(8, 1185732))
+get_char('c0') '[convertstrid(1185733)]' (**arg(9, 1185733))
+get_char('c15011') '[convertstrid(1185734)]' (**arg(10, 1185734))
+get_char('c14931') '[convertstrid(1185735)]' (**arg(11, 1185735))
+get_char('c15021') '[convertstrid(1185736)]' (**arg(12, 1185736))
+get_char('c15011') '[convertstrid(1185737)]' (**arg(13, 1185737))
+get_char('c15021') '[convertstrid(1185738)]' (**arg(14, 1185738))
+get_char('c14931') '[convertstrid(1185739)]' (**arg(15, 1185739))
+get_char('c15021') '[convertstrid(1185740)]' (**arg(16, 1185740))
+get_char('c15021') '[convertstrid(1185741)]' (**arg(17, 1185741))
+get_char('c14931') '[convertstrid(1185742)]' (**arg(18, 1185742))
+get_char('c15011') '[convertstrid(1185743)]' (**arg(19, 1185743))
+get_char('c15021') '[convertstrid(1185744)]' (**arg(20, 1185744))
+get_char('c14931') '[convertstrid(1185745)]' (**arg(21, 1185745))
+get_char('c14931') '[convertstrid(1185746)]' (**arg(22, 1185746))
+get_char('c14931') '[convertstrid(1185747)]' (**arg(23, 1185747))
+get_char('c15021') '[convertstrid(1185748)]' (**arg(24, 1185748))
+get_char('c15011') '[convertstrid(1185749)]' (**arg(25, 1185749))
+get_char('c25231') '[convertstrid(1185750)]' (**arg(26, 1185750))
 scene avg_bg_050
 show memoryoverlay zorder 2
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(1185751)]'
-c0 '[convertstrid(1185752)]'
-c0 '[convertstrid(1185753)]'
-c0 '[convertstrid(1185754)]'
-c0 '[convertstrid(1185755)]'
+get_char('c0') '[convertstrid(1185751)]' (**arg(27, 1185751))
+get_char('c0') '[convertstrid(1185752)]' (**arg(28, 1185752))
+get_char('c0') '[convertstrid(1185753)]' (**arg(29, 1185753))
+get_char('c0') '[convertstrid(1185754)]' (**arg(30, 1185754))
+get_char('c0') '[convertstrid(1185755)]' (**arg(31, 1185755))
 scene avg_bg_208
 show memoryoverlay zorder 2
 $ update_narrator('c13323')
 with fade
-c13323 '[convertstrid(1185756)]'
-c13333 '[convertstrid(1185757)]'
-c15021 '[convertstrid(1185758)]'
-c14753 '[convertstrid(1185759)]'
-c14763 '[convertstrid(1185760)]'
-c15021 '[convertstrid(1185761)]'
-c13323 '[convertstrid(1185762)]'
-c13333 '[convertstrid(1185763)]'
-c15021 '[convertstrid(1185764)]'
-c15021 '[convertstrid(1185765)]'
-c15021 '[convertstrid(1185766)]'
-c14753 '[convertstrid(1185767)]'
-c14763 '[convertstrid(1185768)]'
-c13323 '[convertstrid(1185769)]'
-c13333 '[convertstrid(1185770)]'
-c15221 '[convertstrid(1185771)]'
-c14753 '[convertstrid(1185772)]'
-c14763 '[convertstrid(1185773)]'
-c14753 '[convertstrid(1185774)]'
-c14763 '[convertstrid(1185775)]'
-c15221 '[convertstrid(1185776)]'
-c15021 '[convertstrid(1185777)]'
-c13323 '[convertstrid(1185778)]'
-c15021 '[convertstrid(1185779)]'
-c13323 '[convertstrid(1185780)]'
-c13333 '[convertstrid(1185781)]'
-c15221 '[convertstrid(1185782)]'
-c15021 '[convertstrid(1185783)]'
-c15021 '[convertstrid(1185784)]'
-c15221 '[convertstrid(1185785)]'
+get_char('c13323') '[convertstrid(1185756)]' (**arg(32, 1185756))
+get_char('c13333') '[convertstrid(1185757)]' (**arg(33, 1185757))
+get_char('c15021') '[convertstrid(1185758)]' (**arg(34, 1185758))
+get_char('c14753') '[convertstrid(1185759)]' (**arg(35, 1185759))
+get_char('c14763') '[convertstrid(1185760)]' (**arg(36, 1185760))
+get_char('c15021') '[convertstrid(1185761)]' (**arg(37, 1185761))
+get_char('c13323') '[convertstrid(1185762)]' (**arg(38, 1185762))
+get_char('c13333') '[convertstrid(1185763)]' (**arg(39, 1185763))
+get_char('c15021') '[convertstrid(1185764)]' (**arg(40, 1185764))
+get_char('c15021') '[convertstrid(1185765)]' (**arg(41, 1185765))
+get_char('c15021') '[convertstrid(1185766)]' (**arg(42, 1185766))
+get_char('c14753') '[convertstrid(1185767)]' (**arg(43, 1185767))
+get_char('c14763') '[convertstrid(1185768)]' (**arg(44, 1185768))
+get_char('c13323') '[convertstrid(1185769)]' (**arg(45, 1185769))
+get_char('c13333') '[convertstrid(1185770)]' (**arg(46, 1185770))
+get_char('c15221') '[convertstrid(1185771)]' (**arg(47, 1185771))
+get_char('c14753') '[convertstrid(1185772)]' (**arg(48, 1185772))
+get_char('c14763') '[convertstrid(1185773)]' (**arg(49, 1185773))
+get_char('c14753') '[convertstrid(1185774)]' (**arg(50, 1185774))
+get_char('c14763') '[convertstrid(1185775)]' (**arg(51, 1185775))
+get_char('c15221') '[convertstrid(1185776)]' (**arg(52, 1185776))
+get_char('c15021') '[convertstrid(1185777)]' (**arg(53, 1185777))
+get_char('c13323') '[convertstrid(1185778)]' (**arg(54, 1185778))
+get_char('c15021') '[convertstrid(1185779)]' (**arg(55, 1185779))
+get_char('c13323') '[convertstrid(1185780)]' (**arg(56, 1185780))
+get_char('c13333') '[convertstrid(1185781)]' (**arg(57, 1185781))
+get_char('c15221') '[convertstrid(1185782)]' (**arg(58, 1185782))
+get_char('c15021') '[convertstrid(1185783)]' (**arg(59, 1185783))
+get_char('c15021') '[convertstrid(1185784)]' (**arg(60, 1185784))
+get_char('c15221') '[convertstrid(1185785)]' (**arg(61, 1185785))
 $ update_narrator('c14753')
 with fade
-c14753 '[convertstrid(1185786)]'
-c15231 '[convertstrid(1185787)]'
-c14763 '[convertstrid(1185788)]'
-c15221 '[convertstrid(1185789)]'
-c15221 '[convertstrid(1185790)]'
-c15021 '[convertstrid(1185791)]'
-c14753 '[convertstrid(1185792)]'
-c15231 '[convertstrid(1185793)]'
-c15021 '[convertstrid(1185794)]'
-c15221 '[convertstrid(1185795)]'
-c15221 '[convertstrid(1185796)]'
-c15021 '[convertstrid(1185797)]'
-c15221 '[convertstrid(1185798)]'
-c15021 '[convertstrid(1185799)]'
-c15221 '[convertstrid(1185800)]'
-c15021 '[convertstrid(1185801)]'
+get_char('c14753') '[convertstrid(1185786)]' (**arg(62, 1185786))
+get_char('c15231') '[convertstrid(1185787)]' (**arg(63, 1185787))
+get_char('c14763') '[convertstrid(1185788)]' (**arg(64, 1185788))
+get_char('c15221') '[convertstrid(1185789)]' (**arg(65, 1185789))
+get_char('c15221') '[convertstrid(1185790)]' (**arg(66, 1185790))
+get_char('c15021') '[convertstrid(1185791)]' (**arg(67, 1185791))
+get_char('c14753') '[convertstrid(1185792)]' (**arg(68, 1185792))
+get_char('c15231') '[convertstrid(1185793)]' (**arg(69, 1185793))
+get_char('c15021') '[convertstrid(1185794)]' (**arg(70, 1185794))
+get_char('c15221') '[convertstrid(1185795)]' (**arg(71, 1185795))
+get_char('c15221') '[convertstrid(1185796)]' (**arg(72, 1185796))
+get_char('c15021') '[convertstrid(1185797)]' (**arg(73, 1185797))
+get_char('c15221') '[convertstrid(1185798)]' (**arg(74, 1185798))
+get_char('c15021') '[convertstrid(1185799)]' (**arg(75, 1185799))
+get_char('c15221') '[convertstrid(1185800)]' (**arg(76, 1185800))
+get_char('c15021') '[convertstrid(1185801)]' (**arg(77, 1185801))
 hide memoryoverlay
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(1185802)]'
-c0 '[convertstrid(1185803)]'
-c0 '[convertstrid(1185804)]'
-c0 '[convertstrid(1185805)]'
+get_char('c0') '[convertstrid(1185802)]' (**arg(78, 1185802))
+get_char('c0') '[convertstrid(1185803)]' (**arg(79, 1185803))
+get_char('c0') '[convertstrid(1185804)]' (**arg(80, 1185804))
+get_char('c0') '[convertstrid(1185805)]' (**arg(81, 1185805))
 return

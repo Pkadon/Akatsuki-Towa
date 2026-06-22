@@ -1,3 +1,5 @@
+init offset = -4
+
 #######################
 # Game Name
 #######################
@@ -29,6 +31,20 @@ Cutscenes recreated by Pikadon using Ren'Py - ({a=https://github.com/Pkadon/Akat
 ##########
 ### The icon displayed on the taskbar or dock.
 define config.window_icon = "icon/FormIcon.jpg"
+
+###########
+# Languages
+###########
+### Add languages to the preference menu here. (WIP)
+### The dict key will be (re)used in many places throughout the code and in this config file.
+### The dict value is the string that will be displayed on the Preferences screen.
+define language_list = {
+    'lang1': 'Japanese', 
+    #'lang2': 'English'
+}
+
+### Set the default language that will be used on first startup
+define config.default_language = 'lang1'
 
 ###############
 # Line breaks
@@ -225,24 +241,37 @@ init python early:
 
 ### The name of the file containing the game's script
 ### The file may be a .json file or a .csv file
-    textfilename = "text.json"
+    textfilename = {
+        "lang1": "text.json",
+        #"lang2": "text.csv"
+    }
 
 ### The encoding (may also be called "character set") used for the script file
-    textencode = "utf-8"
+    textencode = {
+        "lang1": "utf-8",
+        #"lang2": "utf-8"
+    }
 
 ### The key used to access the list of rows in text.json
 ### (skip this if using a csv file)
-    textrowkey = "_rows"
+    textrowkey = {
+        "lang1": "_rows",
+        #"lang2": "_rows"
+    }
 
 ### The key used to access the id value in text.json 
 ### (for a csv file, use the header at the top of the column instead)
-    textidkey = "_id"
+    textidkey = {
+        "lang1": "_id",
+        #"lang2": "_id"
+    }
 
 ### The key used to access the string value in text.json 
 ### (for a csv file, use the header at the top of the column instead)
-    textkey = "_text"
-
-
+    textkey = {
+        "lang1": "_text",
+        #"lang2": "_text"
+    }
 
 #=================================================================================================
 # AVG ROLE FILE (avg_role.json)
@@ -274,23 +303,37 @@ init python early:
 
 ### The name of the file containing character names
 ### The file may be a .json file or a .csv file
-    namefilename = "avg_role.json"
+    namefilename = {
+        "lang1": "avg_role.json",
+        #"lang2": "avg_role.csv",
+    }
 
 ### The encoding (may also be called "character set") used for the character name file
-    nameencode = "utf-8"
+    nameencode = {
+        "lang1": "utf-8",
+        #"lang2": "utf-8"
+    }
 
 ### The key used to access the list of rows in avg_role.json
 ### (skip this if using a csv file)
-    namerowkey = "_rows"
+    namerowkey = {
+        "lang1": "_rows",
+        #"lang2": "_rows"
+    }
 
 ### The key used to access the id value in avg_role.json 
 ### (for a csv file, use the header at the top of the column instead)
-    nameidkey = "_id"
+    nameidkey = {
+        "lang1": "_id",
+        #"lang2": "_id"
+    }
 
 ### The key used to access the roleName string value in avg_role.json
 ### (for a csv file, use the header at the top of the column instead)
-    namekey = "_roleName"
-
+    namekey = {
+        "lang1": "_roleName",
+        #"lang2": "_roleName"
+    }
 
 ###############
 # EXTRA STRINGS
@@ -310,14 +353,35 @@ init python early:
 # Quest Log
 #==========================================
 ### The tags put before the quest name to denote whether is is a main quest or a side quest
-    logmain = "【メイン】"
-    logsub = "【サブ】"
-    logdaily = "【毎日】"
+    logmain = {
+        "lang1": "【メイン】",
+        #"lang2": "【MAIN】"
+    }
+    logsub = {
+        "lang1": "【サブ】",
+        #"lang2": "【SUB】"
+    }
+    logdaily = {
+        "lang1": "【毎日】",
+        #"lang2": "【DAILY】"
+    }
 ### The headers used in the questlog menu before each field
-    loglevel = "【推奨レベル】"
-    logclient = "【依頼人】"
-    logdetails = "【内容】"
-    logbullet = "•"
+    loglevel = {
+        "lang1": "【推奨レベル】",
+        #"lang2": "【Recommended Level】"
+    }
+    logclient = {
+        "lang1": "【依頼人】",
+        #"lang2": "【Client】"
+    }
+    logdetails = {
+        "lang1": "【内容】",
+        #"lang2": "【Details】"
+    }
+    logbullet = {
+        "lang1": "•",
+        #"lang2": "•"
+    }
 
 # Quick Menu
 #==========================================
@@ -345,7 +409,8 @@ init python early:
 #==========================================================================================
 # Menu Strings
 # Almost all other text used throughout the menus, that could not be sourced from the original script file
-    extextdict = {
+    extextdict = dict()
+    extextdict['lang1'] = {
     "ex_1": "Optional Dialogue",
     "ex_2": "Extra Dialogue",
     "ex_3": "Extra/Unused",
@@ -443,7 +508,15 @@ init python early:
     "ex_118": "クリントの依頼",
     "ex_119": "ルーシーの依頼",
     "ex_120": "モーリスの依頼"
-}
+    }
+
+### Then to add support for a second language, create a duplicate of the above dictionary (with a different language key), and translate each string below, like so:
+
+#    extextdict['lang2'] = {
+#        "ex_1": "Optional Dialogue",
+#    }
+
+### Where 'lang2' matches the language_list key for the new language.
 
 ########################################################
 

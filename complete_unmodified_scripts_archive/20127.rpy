@@ -7,7 +7,7 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfxvoice "avg_vocal_na15.ogg"
-c13 '[convertstrid(1006627)]'
+get_char('c13') '[convertstrid(1006627)]' (**arg(1, 1006627))
 menu:
     extend ""
     '[convertstrid(1006628)]':

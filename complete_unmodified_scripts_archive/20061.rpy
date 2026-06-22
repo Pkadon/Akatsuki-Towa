@@ -7,7 +7,7 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "other_7073.ogg"
-c13 '[convertstrid(1003000)]'
+get_char('c13') '[convertstrid(1003000)]' (**arg(1, 1003000))
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1003001)]'
+get_char('c13') '[convertstrid(1003001)]' (**arg(2, 1003001))
 return

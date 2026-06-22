@@ -7,8 +7,8 @@ $ update_narrator('c33')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ro09.ogg"
-c33 '[convertstrid(1128404)]'
+get_char('c33') '[convertstrid(1128404)]' (**arg(1, 1128404))
 hide p3
 $ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1128405)]'
+get_char('c13') '[convertstrid(1128405)]' (**arg(2, 1128405))
 return

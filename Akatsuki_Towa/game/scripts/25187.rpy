@@ -6,18 +6,18 @@ $ update_narrator('c6123')
 window show
 with fade_in
 play sfx2 "other_7092.ogg"
-c6123 '[convertstrid(1210620)]'
+get_char('c6123') '[convertstrid(1210620)]' (**arg(1, 1210620))
 play sfx2 "common_36rewardsp.ogg"
-c0 '[convertstrid(1210621)]'
+get_char('c0') '[convertstrid(1210621)]' (**arg(2, 1210621))
 $ update_portrait('oc001_01 17', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na06.ogg"
-c13 '[convertstrid(1210622)]'
+get_char('c13') '[convertstrid(1210622)]' (**arg(3, 1210622))
 hide p1
 $ update_portrait('oc002_01 8', 'p2', [mid(-3), light], 6)
 play sfxvoice "avg_vocal_ch08.ogg"
-c23 '[convertstrid(1210623)]'
+get_char('c23') '[convertstrid(1210623)]' (**arg(4, 1210623))
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na02.ogg"
-c13 '[convertstrid(1210624)]'
+get_char('c13') '[convertstrid(1210624)]' (**arg(5, 1210624))
 return

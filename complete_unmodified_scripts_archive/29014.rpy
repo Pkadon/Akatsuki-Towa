@@ -6,5 +6,5 @@ $ update_narrator('c0')
 window show
 with fade_in
 play sfx2 "common_35rewardholy.ogg"
-c0 '[convertstrid(1100006)]'
+get_char('c0') '[convertstrid(1100006)]' (**arg(1, 1100006))
 return

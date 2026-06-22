@@ -5,40 +5,40 @@ scene avg_bg_027
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[convertstrid(1007379)]'
+get_char('c0') '[convertstrid(1007379)]' (**arg(1, 1007379))
 $ update_portrait('oc002_01 6', 'p2', [l_entrance(-3), light, flip], 6)
 play sfxvoice "avg_vocal_ch08.ogg"
-c21 '[convertstrid(1007380)]'
+get_char('c21') '[convertstrid(1007380)]' (**arg(2, 1007380))
 hide p2
 $ update_portrait('oc001_01 2', 'p1', [l(-2), light, flip], 6)
-c11 '[convertstrid(1007381)]'
+get_char('c11') '[convertstrid(1007381)]' (**arg(3, 1007381))
 $ update_portrait('oc001_01 2', 'p1', [l(-2), dark, flip], 5)
 $ update_portrait('uc004_02 5', 'p570', [r_entrance(-9), light], 6)
 play sfx2 "other_7021.ogg"
-c5703 '[convertstrid(1007382)]'
+get_char('c5703') '[convertstrid(1007382)]' (**arg(4, 1007382))
 hide p1
 $ update_portrait('uc004_02 5', 'p570', [r(-9), dark], 5)
 $ update_portrait('oc002_01 4', 'p2', [l(-3), light, flip], 6)
-c21 '[convertstrid(1007383)]'
+get_char('c21') '[convertstrid(1007383)]' (**arg(5, 1007383))
 hide p570
 $ update_portrait('oc002_01 4', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('uc004_02 2', 'p961', [r(-9), light], 6)
-c9613 '[convertstrid(1007384)]'
+get_char('c9613') '[convertstrid(1007384)]' (**arg(6, 1007384))
 hide p2
 $ update_portrait('uc004_02 2', 'p961', [r(-9), dark], 5)
 $ update_portrait('oc001_01 22', 'p1', [l(-2), light, flip], 6)
-c11 '[convertstrid(1007385)]'
+get_char('c11') '[convertstrid(1007385)]' (**arg(7, 1007385))
 $ update_portrait('oc001_01 22', 'p1', [l(-2), dark, flip], 5)
 $ update_portrait('uc004_02 1', 'p961', [r(-9), light], 6)
-c9613 '[convertstrid(1007386)]'
+get_char('c9613') '[convertstrid(1007386)]' (**arg(8, 1007386))
 $ update_portrait('uc004_02 1', 'p961', [r(-9), dark], 5)
 $ update_portrait('oc001_01 23', 'p1', [l(-2), light, flip], 6)
-c11 '[convertstrid(1007387)]'
+get_char('c11') '[convertstrid(1007387)]' (**arg(9, 1007387))
 hide p961
 $ update_portrait('oc001_01 23', 'p1', [l(-2), dark, flip], 5)
 $ update_portrait('oc002_01 2', 'p2', [r(-3), light], 6)
-c23 '[convertstrid(1007682)]'
+get_char('c23') '[convertstrid(1007682)]' (**arg(10, 1007682))
 $ update_portrait('oc002_01 2', 'p2', [r(-3), dark], 5)
 $ update_portrait('oc001_01 10', 'p1', [l(-2), light, flip], 6)
-c11 '[convertstrid(1007683)]'
+get_char('c11') '[convertstrid(1007683)]' (**arg(11, 1007683))
 return

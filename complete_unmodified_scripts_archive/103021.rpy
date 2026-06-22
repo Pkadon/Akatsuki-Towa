@@ -6,21 +6,21 @@ $ update_portrait('sc022_01 4', 'p30', [l(-9), light, flip], 6)
 $ update_narrator('c301')
 window show
 with fade_in
-c301 '[convertstrid(1222471)]'
+get_char('c301') '[convertstrid(1222471)]' (**arg(1, 1222471))
 $ update_portrait('sc022_01 4', 'p30', [l(-9), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1222472)]'
+get_char('c13') '[convertstrid(1222472)]' (**arg(2, 1222472))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 1', 'p30', [l(-9), light, flip], 6)
-c301 '[convertstrid(1222473)]'
+get_char('c301') '[convertstrid(1222473)]' (**arg(3, 1222473))
 $ update_portrait('sc022_01 1', 'p30', [l(-9), dark, flip], 5)
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1222474)]'
+get_char('c13') '[convertstrid(1222474)]' (**arg(4, 1222474))
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc022_01 5', 'p30', [l(-9), light, flip], 6)
-c301 '[convertstrid(1222475)]'
+get_char('c301') '[convertstrid(1222475)]' (**arg(5, 1222475))
 $ update_portrait('sc022_01 1', 'p30', [l(-9), light, flip], 6)
-c301 '[convertstrid(1222476)]'
+get_char('c301') '[convertstrid(1222476)]' (**arg(6, 1222476))
 menu:
     extend ""
     '[convertstrid(1222477)]':

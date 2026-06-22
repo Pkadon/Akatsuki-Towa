@@ -6,7 +6,7 @@ $ update_narrator('c20133')
 window show
 with fade_in
 play sfx2 "other_7041.ogg"
-c20133 '[convertstrid(1210646)]'
+get_char('c20133') '[convertstrid(1210646)]' (**arg(1, 1210646))
 menu:
     extend ""
     '[convertstrid(1214995)]':

@@ -6,8 +6,8 @@ $ update_portrait('st044_01 2', 'p243', [mid(10), light], 6)
 $ update_narrator('c2433')
 window show
 with fade_in
-c2433 '[convertstrid(1200014)]'
+get_char('c2433') '[convertstrid(1200014)]' (**arg(1, 1200014))
 hide p243
 $ update_portrait('oc001_01 10', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1200015)]'
+get_char('c13') '[convertstrid(1200015)]' (**arg(2, 1200015))
 return

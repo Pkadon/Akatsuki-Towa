@@ -5,492 +5,492 @@ scene avg_bg_019
 $ update_narrator('c5921')
 window show
 with fade_in
-c5921 '[convertstrid(2110649)]'
-c27171 '[convertstrid(2110650)]'
-c27171 '[convertstrid(2110651)]'
-c5921 '[convertstrid(2110652)]'
-c13641 '[convertstrid(2110653)]'
-c13651 '[convertstrid(2110654)]'
-c11571 '[convertstrid(2110655)]'
-c11571 '[convertstrid(2110656)]'
-c11571 '[convertstrid(2110657)]'
-c11571 '[convertstrid(2110658)]'
+get_char('c5921') '[convertstrid(2110649)]' (**arg(1, 2110649))
+get_char('c27171') '[convertstrid(2110650)]' (**arg(2, 2110650))
+get_char('c27171') '[convertstrid(2110651)]' (**arg(3, 2110651))
+get_char('c5921') '[convertstrid(2110652)]' (**arg(4, 2110652))
+get_char('c13641') '[convertstrid(2110653)]' (**arg(5, 2110653))
+get_char('c13651') '[convertstrid(2110654)]' (**arg(6, 2110654))
+get_char('c11571') '[convertstrid(2110655)]' (**arg(7, 2110655))
+get_char('c11571') '[convertstrid(2110656)]' (**arg(8, 2110656))
+get_char('c11571') '[convertstrid(2110657)]' (**arg(9, 2110657))
+get_char('c11571') '[convertstrid(2110658)]' (**arg(10, 2110658))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110659)]'
+get_char('c27013') '[convertstrid(2110659)]' (**arg(11, 2110659))
 hide p2701
-c0 '[convertstrid(2110660)]'
+get_char('c0') '[convertstrid(2110660)]' (**arg(12, 2110660))
 scene avg_bg_070
 $ update_portrait('oca01_01 18', 'p2701', [r(-2), light], 6)
 $ update_narrator('c27013')
 with fade
-c27013 '[convertstrid(2110661)]'
+get_char('c27013') '[convertstrid(2110661)]' (**arg(13, 2110661))
 $ update_portrait('oca01_01 10', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110662)]'
+get_char('c27013') '[convertstrid(2110662)]' (**arg(14, 2110662))
 $ play_music("ed7455.ogg")
 scene avg_bg_036
 show memoryoverlay zorder 2
 $ update_narrator('c6361')
 with fade
-c6361 '[convertstrid(2110663)]'
+get_char('c6361') '[convertstrid(2110663)]' (**arg(15, 2110663))
 $ update_portrait('oc001_01 20', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110664)]'
+get_char('c13') '[convertstrid(2110664)]' (**arg(16, 2110664))
 $ update_portrait('oc001_01 20', 'p1', [r(-2), dark], 5)
-c27181 '[convertstrid(2110665)]'
-c6391 '[convertstrid(2110666)]'
+get_char('c27181') '[convertstrid(2110665)]' (**arg(17, 2110665))
+get_char('c6391') '[convertstrid(2110666)]' (**arg(18, 2110666))
 $ update_portrait('oc001_01 19', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110667)]'
+get_char('c13') '[convertstrid(2110667)]' (**arg(19, 2110667))
 hide p1
-c0 '[convertstrid(2110668)]'
+get_char('c0') '[convertstrid(2110668)]' (**arg(20, 2110668))
 $ update_portrait('oc001_01 9', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110669)]' (what_size=(gui.text_size*1.25)) with shake
+get_char('c13') '[convertstrid(2110669)]' (**arg(21, 2110669, size=(1.25))) with shake
 hide p1
 play sfx2 "fight_6010.ogg"
-c0 '[convertstrid(2110670)]'
+get_char('c0') '[convertstrid(2110670)]' (**arg(22, 2110670))
 $ update_portrait('oc001_01 12', 'p1', [r_exit(-2), light], 6)
-c13 '[convertstrid(2110671)]'
+get_char('c13') '[convertstrid(2110671)]' (**arg(23, 2110671))
 hide p1
-c25921 '[convertstrid(2110672)]'
-c6391 '[convertstrid(2110673)]'
+get_char('c25921') '[convertstrid(2110672)]' (**arg(24, 2110672))
+get_char('c6391') '[convertstrid(2110673)]' (**arg(25, 2110673))
 play sfx2 "other_7007.ogg"
-c0 '[convertstrid(2110674)]' with shake
-c6381 '[convertstrid(2110675)]'
-c6361 '[convertstrid(2110676)]'
+get_char('c0') '[convertstrid(2110674)]' (**arg(26, 2110674)) with shake
+get_char('c6381') '[convertstrid(2110675)]' (**arg(27, 2110675))
+get_char('c6361') '[convertstrid(2110676)]' (**arg(28, 2110676))
 $ update_portrait('oc001_01 8', 'p1', [r_entrance(-2), light], 6)
-c13 '[convertstrid(2110677)]'
+get_char('c13') '[convertstrid(2110677)]' (**arg(29, 2110677))
 $ update_portrait('oc001_01 12', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110678)]'
+get_char('c13') '[convertstrid(2110678)]' (**arg(30, 2110678))
 $ update_portrait('oc001_01 12', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7085.ogg"
-c2201 '[convertstrid(2110679)]'
+get_char('c2201') '[convertstrid(2110679)]' (**arg(31, 2110679))
 hide p1
 play sfx2 "other_7085.ogg"
-c83 '[convertstrid(2110680)]'
-c27191 '[convertstrid(2110681)]'
+get_char('c83') '[convertstrid(2110680)]' (**arg(32, 2110680))
+get_char('c27191') '[convertstrid(2110681)]' (**arg(33, 2110681))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110682)]'
+get_char('c13') '[convertstrid(2110682)]' (**arg(34, 2110682))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
-c27191 '[convertstrid(2110683)]'
+get_char('c27191') '[convertstrid(2110683)]' (**arg(35, 2110683))
 hide p1
 play sfx2 "fight_6021.ogg"
-c0 '[convertstrid(2110684)]'
+get_char('c0') '[convertstrid(2110684)]' (**arg(36, 2110684))
 play sfx2 "fight_6001.ogg"
-c0 '[convertstrid(2110685)]' with shake
+get_char('c0') '[convertstrid(2110685)]' (**arg(37, 2110685)) with shake
 stop music
 play sfx2 "other_7033.ogg"
-c6391 '[convertstrid(2110686)]'
+get_char('c6391') '[convertstrid(2110686)]' (**arg(38, 2110686))
 $ update_portrait('st021_01 9', 'p220', [l(-17), l_shake, light, flip], 6)
 play sfx2 "other_7033.ogg"
-c2201 '[convertstrid(2110687)]'
+get_char('c2201') '[convertstrid(2110687)]' (**arg(39, 2110687))
 $ update_portrait('st021_01 9', 'p220', [l(-17), dark, flip], 5)
 $ update_portrait('oc008_01 2', 'p8', [r(-5), light], 6)
-c83 '[convertstrid(2110688)]'
+get_char('c83') '[convertstrid(2110688)]' (**arg(40, 2110688))
 $ update_portrait('oc008_01 2', 'p8', [r(-5), dark], 5)
 $ update_portrait('st021_01 4', 'p220', [l(-17), light, flip], 6)
-c2201 '[convertstrid(2110689)]'
+get_char('c2201') '[convertstrid(2110689)]' (**arg(41, 2110689))
 $ play_music("ED6518.ogg")
 hide p8
 $ update_portrait('st021_01 4', 'p220', [l(-17), dark, flip], 5)
 $ update_portrait('oc001_01 21', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110690)]'
+get_char('c13') '[convertstrid(2110690)]' (**arg(42, 2110690))
 $ update_portrait('oc001_01 21', 'p1', [r(-2), dark], 5)
 $ update_portrait('st021_01 4', 'p220', [l(-17), light, flip], 6)
-c2201 '[convertstrid(2110691)]'
+get_char('c2201') '[convertstrid(2110691)]' (**arg(43, 2110691))
 $ update_portrait('st021_01 4', 'p220', [l(-17), dark, flip], 5)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110692)]'
+get_char('c13') '[convertstrid(2110692)]' (**arg(44, 2110692))
 hide p220
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
-c6361 '[convertstrid(2110693)]'
-c6381 '[convertstrid(2110694)]'
+get_char('c6361') '[convertstrid(2110693)]' (**arg(45, 2110693))
+get_char('c6381') '[convertstrid(2110694)]' (**arg(46, 2110694))
 $ update_portrait('oc001_01 18', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110695)]'
+get_char('c13') '[convertstrid(2110695)]' (**arg(47, 2110695))
 $ update_portrait('oc001_01 18', 'p1', [r(-2), dark], 5)
-c6381 '[convertstrid(2110696)]'
+get_char('c6381') '[convertstrid(2110696)]' (**arg(48, 2110696))
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110697)]'
+get_char('c81') '[convertstrid(2110697)]' (**arg(49, 2110697))
 hide p8
-c6371 '[convertstrid(2110698)]'
-c6371 '[convertstrid(2110699)]' with shake
-c6391 '[convertstrid(2110700)]'
-c6381 '[convertstrid(2110701)]'
-c6361 '[convertstrid(2110702)]'
-c6391 '[convertstrid(2110703)]'
-c6371 '[convertstrid(2110704)]'
+get_char('c6371') '[convertstrid(2110698)]' (**arg(50, 2110698))
+get_char('c6371') '[convertstrid(2110699)]' (**arg(51, 2110699)) with shake
+get_char('c6391') '[convertstrid(2110700)]' (**arg(52, 2110700))
+get_char('c6381') '[convertstrid(2110701)]' (**arg(53, 2110701))
+get_char('c6361') '[convertstrid(2110702)]' (**arg(54, 2110702))
+get_char('c6391') '[convertstrid(2110703)]' (**arg(55, 2110703))
+get_char('c6371') '[convertstrid(2110704)]' (**arg(56, 2110704))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110705)]'
+get_char('c13') '[convertstrid(2110705)]' (**arg(57, 2110705))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_01 2', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110706)]'
+get_char('c81') '[convertstrid(2110706)]' (**arg(58, 2110706))
 $ update_portrait('oc008_01 2', 'p8', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 22', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110707)]'
+get_char('c13') '[convertstrid(2110707)]' (**arg(59, 2110707))
 hide p8
 $ update_portrait('oc001_01 22', 'p1', [r(-2), dark], 5)
 $ update_portrait('st021_01 2', 'p220', [l(-17), light, flip], 6)
-c2201 '[convertstrid(2110708)]'
+get_char('c2201') '[convertstrid(2110708)]' (**arg(60, 2110708))
 $ update_portrait('st021_01 2', 'p220', [l(-17), dark, flip], 5)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110709)]'
+get_char('c13') '[convertstrid(2110709)]' (**arg(61, 2110709))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('st021_01 2', 'p220', [l(-17), light, flip], 6)
-c2201 '[convertstrid(2110710)]'
+get_char('c2201') '[convertstrid(2110710)]' (**arg(62, 2110710))
 hide p220
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110711)]'
+get_char('c81') '[convertstrid(2110711)]' (**arg(63, 2110711))
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110712)]'
+get_char('c81') '[convertstrid(2110712)]' (**arg(64, 2110712))
 $ update_portrait('oc008_01 1', 'p8', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110713)]'
+get_char('c13') '[convertstrid(2110713)]' (**arg(65, 2110713))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_01 2', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110714)]'
+get_char('c81') '[convertstrid(2110714)]' (**arg(66, 2110714))
 $ update_portrait('oc008_01 2', 'p8', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110715)]'
+get_char('c13') '[convertstrid(2110715)]' (**arg(67, 2110715))
 hide p8
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 $ update_portrait('st021_01 5', 'p220', [l(-17), l_shake, light, flip], 6)
-c2201 '[convertstrid(2110716)]'
+get_char('c2201') '[convertstrid(2110716)]' (**arg(68, 2110716))
 hide p220
-c6361 '[convertstrid(2110717)]'
-c6381 '[convertstrid(2110718)]'
+get_char('c6361') '[convertstrid(2110717)]' (**arg(69, 2110717))
+get_char('c6381') '[convertstrid(2110718)]' (**arg(70, 2110718))
 $ update_portrait('oc008_01 5', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110719)]'
+get_char('c81') '[convertstrid(2110719)]' (**arg(71, 2110719))
 $ update_portrait('oc008_01 5', 'p8', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110720)]'
+get_char('c13') '[convertstrid(2110720)]' (**arg(72, 2110720))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc008_01 1', 'p8', [l(-5), light, flip], 6)
-c81 '[convertstrid(2110721)]'
+get_char('c81') '[convertstrid(2110721)]' (**arg(73, 2110721))
 $ update_portrait('oc008_01 1', 'p8', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 21', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(2110722)]'
+get_char('c13') '[convertstrid(2110722)]' (**arg(74, 2110722))
 scene avg_bg_070
 $ update_portrait('oca01_01 18', 'p2701', [r(-2), light], 6)
 $ update_narrator('c27013')
 with fade
-c27013 '[convertstrid(2110723)]'
+get_char('c27013') '[convertstrid(2110723)]' (**arg(75, 2110723))
 stop music
 hide p2701
-c0 '[convertstrid(2110724)]'
+get_char('c0') '[convertstrid(2110724)]' (**arg(76, 2110724))
 $ play_music("ED6200.ogg")
 scene avg_bg_019
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
 $ update_narrator('c27013')
 with fade
-c27013 '[convertstrid(2110725)]'
+get_char('c27013') '[convertstrid(2110725)]' (**arg(77, 2110725))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110726)]'
+get_char('c27013') '[convertstrid(2110726)]' (**arg(78, 2110726))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110727)]'
+get_char('c27013') '[convertstrid(2110727)]' (**arg(79, 2110727))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110728)]'
+get_char('c27013') '[convertstrid(2110728)]' (**arg(80, 2110728))
 $ update_portrait('oca01_01 5', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110729)]'
+get_char('c27013') '[convertstrid(2110729)]' (**arg(81, 2110729))
 $ update_portrait('oca01_01 12', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110730)]'
+get_char('c27013') '[convertstrid(2110730)]' (**arg(82, 2110730))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110731)]'
+get_char('c27013') '[convertstrid(2110731)]' (**arg(83, 2110731))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
-c27201 '[convertstrid(2110732)]'
+get_char('c27201') '[convertstrid(2110732)]' (**arg(84, 2110732))
 $ update_portrait('oca01_01 1', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110733)]'
+get_char('c27013') '[convertstrid(2110733)]' (**arg(85, 2110733))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110734)]'
+get_char('c27013') '[convertstrid(2110734)]' (**arg(86, 2110734))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110735)]'
+get_char('c27013') '[convertstrid(2110735)]' (**arg(87, 2110735))
 hide p2701
 $ update_narrator('c5921')
 with fade
-c5921 '[convertstrid(2110736)]'
-c27171 '[convertstrid(2110737)]'
-c27171 '[convertstrid(2110738)]'
-c5921 '[convertstrid(2110739)]'
-c13641 '[convertstrid(2110740)]'
-c13651 '[convertstrid(2110741)]'
-c13641 '[convertstrid(2110742)]'
-c11571 '[convertstrid(2110743)]'
-c11571 '[convertstrid(2110744)]'
-c27201 '[convertstrid(2110745)]'
-c11571 '[convertstrid(2110746)]'
+get_char('c5921') '[convertstrid(2110736)]' (**arg(88, 2110736))
+get_char('c27171') '[convertstrid(2110737)]' (**arg(89, 2110737))
+get_char('c27171') '[convertstrid(2110738)]' (**arg(90, 2110738))
+get_char('c5921') '[convertstrid(2110739)]' (**arg(91, 2110739))
+get_char('c13641') '[convertstrid(2110740)]' (**arg(92, 2110740))
+get_char('c13651') '[convertstrid(2110741)]' (**arg(93, 2110741))
+get_char('c13641') '[convertstrid(2110742)]' (**arg(94, 2110742))
+get_char('c11571') '[convertstrid(2110743)]' (**arg(95, 2110743))
+get_char('c11571') '[convertstrid(2110744)]' (**arg(96, 2110744))
+get_char('c27201') '[convertstrid(2110745)]' (**arg(97, 2110745))
+get_char('c11571') '[convertstrid(2110746)]' (**arg(98, 2110746))
 $ update_narrator('c5261')
 with fade
 play sfx2 "other_7019.ogg"
-c5261 '[convertstrid(2110747)]'
-c5261 '[convertstrid(2110748)]'
-c5261 '[convertstrid(2110749)]'
+get_char('c5261') '[convertstrid(2110747)]' (**arg(99, 2110747))
+get_char('c5261') '[convertstrid(2110748)]' (**arg(100, 2110748))
+get_char('c5261') '[convertstrid(2110749)]' (**arg(101, 2110749))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110750)]'
+get_char('c27013') '[convertstrid(2110750)]' (**arg(102, 2110750))
 $ update_portrait('oca01_01 8', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110751)]'
+get_char('c27013') '[convertstrid(2110751)]' (**arg(103, 2110751))
 stop music
 $ update_portrait('oca01_01 8', 'p2701', [r(-2), dark], 5)
-c5001 '[convertstrid(2110752)]'
+get_char('c5001') '[convertstrid(2110752)]' (**arg(104, 2110752))
 $ update_portrait('oca01_01 2', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110753)]'
+get_char('c27013') '[convertstrid(2110753)]' (**arg(105, 2110753))
 $ play_music("ed7116.ogg")
 $ update_portrait('oca01_01 2', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 1', 'p2705', [l_entrance(-7), light, flip], 6)
-c27051 '[convertstrid(2110754)]'
+get_char('c27051') '[convertstrid(2110754)]' (**arg(106, 2110754))
 $ update_portrait('sca44_01 1', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 12', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110755)]'
+get_char('c27013') '[convertstrid(2110755)]' (**arg(107, 2110755))
 $ update_portrait('oca01_01 12', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 5', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110756)]'
+get_char('c27051') '[convertstrid(2110756)]' (**arg(108, 2110756))
 $ update_portrait('sca44_01 1', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110757)]'
+get_char('c27051') '[convertstrid(2110757)]' (**arg(109, 2110757))
 $ update_portrait('sca44_01 1', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110758)]'
+get_char('c27013') '[convertstrid(2110758)]' (**arg(110, 2110758))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 4', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110759)]'
+get_char('c27051') '[convertstrid(2110759)]' (**arg(111, 2110759))
 $ update_portrait('sca44_01 4', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110760)]'
+get_char('c27013') '[convertstrid(2110760)]' (**arg(112, 2110760))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 2', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110761)]'
+get_char('c27051') '[convertstrid(2110761)]' (**arg(113, 2110761))
 $ update_portrait('sca44_01 2', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), r_shake, light], 6)
-c27013 '[convertstrid(2110762)]'
+get_char('c27013') '[convertstrid(2110762)]' (**arg(114, 2110762))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 3', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110763)]'
+get_char('c27051') '[convertstrid(2110763)]' (**arg(115, 2110763))
 $ update_portrait('sca44_01 3', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110764)]'
+get_char('c27013') '[convertstrid(2110764)]' (**arg(116, 2110764))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110765)]'
+get_char('c27013') '[convertstrid(2110765)]' (**arg(117, 2110765))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110766)]'
+get_char('c27013') '[convertstrid(2110766)]' (**arg(118, 2110766))
 $ update_portrait('oca01_01 5', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110767)]'
+get_char('c27013') '[convertstrid(2110767)]' (**arg(119, 2110767))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110768)]'
+get_char('c27013') '[convertstrid(2110768)]' (**arg(120, 2110768))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 3', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110769)]'
+get_char('c27051') '[convertstrid(2110769)]' (**arg(121, 2110769))
 $ update_portrait('sca44_01 3', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110770)]'
+get_char('c27013') '[convertstrid(2110770)]' (**arg(122, 2110770))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 2', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110771)]'
+get_char('c27051') '[convertstrid(2110771)]' (**arg(123, 2110771))
 $ update_portrait('sca44_01 2', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110772)]'
+get_char('c27013') '[convertstrid(2110772)]' (**arg(124, 2110772))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
 $ update_portrait('sca44_01 1', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110773)]'
+get_char('c27051') '[convertstrid(2110773)]' (**arg(125, 2110773))
 $ update_portrait('sca44_01 1', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110774)]'
+get_char('c27013') '[convertstrid(2110774)]' (**arg(126, 2110774))
 hide p2705
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
 play sfx2 "other_7064.ogg"
-c5921 '[convertstrid(2110775)]'
+get_char('c5921') '[convertstrid(2110775)]' (**arg(127, 2110775))
 play sfx2 "other_7064.ogg"
-c27171 '[convertstrid(2110776)]'
+get_char('c27171') '[convertstrid(2110776)]' (**arg(128, 2110776))
 play sfx2 "other_7064.ogg"
-c13641 '[convertstrid(2110777)]'
+get_char('c13641') '[convertstrid(2110777)]' (**arg(129, 2110777))
 play sfx2 "other_7064.ogg"
-c13651 '[convertstrid(2110778)]'
-c11571 '[convertstrid(2110779)]'
+get_char('c13651') '[convertstrid(2110778)]' (**arg(130, 2110778))
+get_char('c11571') '[convertstrid(2110779)]' (**arg(131, 2110779))
 hide p2701
 play sfx2 "other_7064.ogg"
-c0 '[convertstrid(2110780)]'
+get_char('c0') '[convertstrid(2110780)]' (**arg(132, 2110780))
 $ update_portrait('sca44_01 1', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110781)]'
+get_char('c27051') '[convertstrid(2110781)]' (**arg(133, 2110781))
 $ update_portrait('sca44_01 5', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110782)]'
+get_char('c27051') '[convertstrid(2110782)]' (**arg(134, 2110782))
 $ update_portrait('sca44_01 5', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110783)]'
+get_char('c27051') '[convertstrid(2110783)]' (**arg(135, 2110783))
 $ update_portrait('sca44_01 5', 'p2705', [l(-7), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110784)]'
+get_char('c27013') '[convertstrid(2110784)]' (**arg(136, 2110784))
 hide p2705
 hide p2701
-c0 '[convertstrid(2110785)]'
+get_char('c0') '[convertstrid(2110785)]' (**arg(137, 2110785))
 $ update_portrait('sca44_01 4', 'p2705', [l(-7), light, flip], 6)
-c27051 '[convertstrid(2110786)]'
+get_char('c27051') '[convertstrid(2110786)]' (**arg(138, 2110786))
 hide p2705
-c11571 '[convertstrid(2110787)]'
+get_char('c11571') '[convertstrid(2110787)]' (**arg(139, 2110787))
 stop music
 scene avg_bg_036
 $ update_narrator('c27013')
 with fade
 $ update_portrait('oca01_01 19', 'p2701', [r_entrance(-2), light], 6)
-c27013 '[convertstrid(2110788)]'
+get_char('c27013') '[convertstrid(2110788)]' (**arg(140, 2110788))
 hide p2701
 $ update_narrator('c27151')
 with fade
 play sfx2 "other_7060.ogg"
-c27151 '[convertstrid(2110789)]'
+get_char('c27151') '[convertstrid(2110789)]' (**arg(141, 2110789))
 $ update_portrait('oca01_01 20', 'p2701', [r_entrance(-2), light], 6)
-c27013 '[convertstrid(2110790)]' (what_size=(gui.text_size*1.25))
+get_char('c27013') '[convertstrid(2110790)]' (**arg(142, 2110790, size=(1.25)))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110791)]'
-c27151 '[convertstrid(2110792)]'
+get_char('c27151') '[convertstrid(2110791)]' (**arg(143, 2110791))
+get_char('c27151') '[convertstrid(2110792)]' (**arg(144, 2110792))
 $ update_portrait('oca01_01 19', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110793)]'
+get_char('c27013') '[convertstrid(2110793)]' (**arg(145, 2110793))
 $ update_portrait('oca01_01 19', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110794)]'
+get_char('c27151') '[convertstrid(2110794)]' (**arg(146, 2110794))
 $ play_music("ed6567.ogg")
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110795)]'
+get_char('c27013') '[convertstrid(2110795)]' (**arg(147, 2110795))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110796)]'
+get_char('c27151') '[convertstrid(2110796)]' (**arg(148, 2110796))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110797)]'
+get_char('c27013') '[convertstrid(2110797)]' (**arg(149, 2110797))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110798)]'
+get_char('c27013') '[convertstrid(2110798)]' (**arg(150, 2110798))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110799)]'
+get_char('c27151') '[convertstrid(2110799)]' (**arg(151, 2110799))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110800)]'
+get_char('c27013') '[convertstrid(2110800)]' (**arg(152, 2110800))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110801)]'
+get_char('c27151') '[convertstrid(2110801)]' (**arg(153, 2110801))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110802)]'
+get_char('c27013') '[convertstrid(2110802)]' (**arg(154, 2110802))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110803)]'
+get_char('c27151') '[convertstrid(2110803)]' (**arg(155, 2110803))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110804)]'
+get_char('c27013') '[convertstrid(2110804)]' (**arg(156, 2110804))
 hide p2701
-c0 '[convertstrid(2110805)]'
-c27151 '[convertstrid(2110806)]'
+get_char('c0') '[convertstrid(2110805)]' (**arg(157, 2110805))
+get_char('c27151') '[convertstrid(2110806)]' (**arg(158, 2110806))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110807)]'
+get_char('c27013') '[convertstrid(2110807)]' (**arg(159, 2110807))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110808)]'
+get_char('c27151') '[convertstrid(2110808)]' (**arg(160, 2110808))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110809)]'
+get_char('c27013') '[convertstrid(2110809)]' (**arg(161, 2110809))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110810)]'
+get_char('c27151') '[convertstrid(2110810)]' (**arg(162, 2110810))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110811)]'
+get_char('c27013') '[convertstrid(2110811)]' (**arg(163, 2110811))
 $ update_portrait('oca01_01 18', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110812)]'
+get_char('c27013') '[convertstrid(2110812)]' (**arg(164, 2110812))
 $ update_portrait('oca01_01 18', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110813)]'
+get_char('c27151') '[convertstrid(2110813)]' (**arg(165, 2110813))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110814)]'
+get_char('c27013') '[convertstrid(2110814)]' (**arg(166, 2110814))
 hide p2701
 play sfx2 "other_7040.ogg"
-c0 '[convertstrid(2110815)]'
-c27151 '[convertstrid(2110816)]'
+get_char('c0') '[convertstrid(2110815)]' (**arg(167, 2110815))
+get_char('c27151') '[convertstrid(2110816)]' (**arg(168, 2110816))
 $ update_portrait('oca01_01 1', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110817)]'
+get_char('c27013') '[convertstrid(2110817)]' (**arg(169, 2110817))
 $ update_portrait('oca01_01 1', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110818)]'
+get_char('c27013') '[convertstrid(2110818)]' (**arg(170, 2110818))
 $ update_portrait('oca01_01 1', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110819)]'
+get_char('c27151') '[convertstrid(2110819)]' (**arg(171, 2110819))
 $ update_portrait('oca01_01 22', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110820)]'
+get_char('c27013') '[convertstrid(2110820)]' (**arg(172, 2110820))
 $ update_portrait('oca01_01 22', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110821)]'
+get_char('c27151') '[convertstrid(2110821)]' (**arg(173, 2110821))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110822)]'
+get_char('c27013') '[convertstrid(2110822)]' (**arg(174, 2110822))
 hide p2701
-c0 '[convertstrid(2110823)]'
+get_char('c0') '[convertstrid(2110823)]' (**arg(175, 2110823))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110824)]' (what_size=(gui.text_size*1.25)) with shake
+get_char('c27013') '[convertstrid(2110824)]' (**arg(176, 2110824, size=(1.25))) with shake
 hide p2701
-c0 '[convertstrid(2110825)]'
+get_char('c0') '[convertstrid(2110825)]' (**arg(177, 2110825))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110826)]'
+get_char('c27013') '[convertstrid(2110826)]' (**arg(178, 2110826))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110827)]'
+get_char('c27013') '[convertstrid(2110827)]' (**arg(179, 2110827))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110828)]'
+get_char('c27013') '[convertstrid(2110828)]' (**arg(180, 2110828))
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110829)]'
+get_char('c27151') '[convertstrid(2110829)]' (**arg(181, 2110829))
 hide p2701
-c0 '[convertstrid(2110830)]'
+get_char('c0') '[convertstrid(2110830)]' (**arg(182, 2110830))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110831)]'
+get_char('c27013') '[convertstrid(2110831)]' (**arg(183, 2110831))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110832)]'
+get_char('c27151') '[convertstrid(2110832)]' (**arg(184, 2110832))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110833)]'
+get_char('c27013') '[convertstrid(2110833)]' (**arg(185, 2110833))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c27151 '[convertstrid(2110834)]'
+get_char('c27151') '[convertstrid(2110834)]' (**arg(186, 2110834))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
 play sfx2 "other_7019.ogg"
-c27013 '[convertstrid(2110835)]'
+get_char('c27013') '[convertstrid(2110835)]' (**arg(187, 2110835))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), dark], 5)
-c5261 '[convertstrid(2110836)]'
-c5261 '[convertstrid(2110837)]'
-c5261 '[convertstrid(2110838)]'
+get_char('c5261') '[convertstrid(2110836)]' (**arg(188, 2110836))
+get_char('c5261') '[convertstrid(2110837)]' (**arg(189, 2110837))
+get_char('c5261') '[convertstrid(2110838)]' (**arg(190, 2110838))
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110839)]'
+get_char('c27013') '[convertstrid(2110839)]' (**arg(191, 2110839))
 scene avg_bg_070
 $ update_portrait('oca01_01 19', 'p2701', [r(-2), light], 6)
 $ update_narrator('c27013')
 with fade
-c27013 '[convertstrid(2110840)]'
+get_char('c27013') '[convertstrid(2110840)]' (**arg(192, 2110840))
 $ update_portrait('oca01_01 19', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110841)]'
+get_char('c27013') '[convertstrid(2110841)]' (**arg(193, 2110841))
 scene avg_bg_036
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(2110842)]'
-c27151 '[convertstrid(2110843)]'
+get_char('c0') '[convertstrid(2110842)]' (**arg(194, 2110842))
+get_char('c27151') '[convertstrid(2110843)]' (**arg(195, 2110843))
 $ update_portrait('oca01_01 18', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110844)]'
+get_char('c27013') '[convertstrid(2110844)]' (**arg(196, 2110844))
 hide p2701
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(2110845)]'
-c0 '[convertstrid(2110846)]'
+get_char('c0') '[convertstrid(2110845)]' (**arg(197, 2110845))
+get_char('c0') '[convertstrid(2110846)]' (**arg(198, 2110846))
 $ update_portrait('oca01_01 13', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110847)]'
+get_char('c27013') '[convertstrid(2110847)]' (**arg(199, 2110847))
 $ update_portrait('oca01_01 13', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110848)]'
+get_char('c27013') '[convertstrid(2110848)]' (**arg(200, 2110848))
 hide p2701
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(2110849)]'
-c27151 '[convertstrid(2110850)]'
+get_char('c0') '[convertstrid(2110849)]' (**arg(201, 2110849))
+get_char('c27151') '[convertstrid(2110850)]' (**arg(202, 2110850))
 $ update_portrait('oca01_01 13', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110851)]'
+get_char('c27013') '[convertstrid(2110851)]' (**arg(203, 2110851))
 hide p2701
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(2110852)]'
+get_char('c0') '[convertstrid(2110852)]' (**arg(204, 2110852))
 $ update_portrait('oca01_01 14', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110853)]'
+get_char('c27013') '[convertstrid(2110853)]' (**arg(205, 2110853))
 $ update_portrait('oca01_01 14', 'p2701', [r(-2), dark], 5)
 $ update_portrait('oca02_01 6', 'p2702', [l_entrance(-3), light, flip], 6)
-c27021 '[convertstrid(2110854)]'
+get_char('c27021') '[convertstrid(2110854)]' (**arg(206, 2110854))
 $ update_portrait('oca02_01 6', 'p2702', [l(-3), dark, flip], 5)
 $ update_portrait('oca01_01 4', 'p2701', [r(-2), r_shake, light], 6)
-c27013 '[convertstrid(2110855)]'
+get_char('c27013') '[convertstrid(2110855)]' (**arg(207, 2110855))
 hide p2702
 hide p2701
-c0 '[convertstrid(2110856)]'
-c0 '[convertstrid(2110857)]'
-c27151 '[convertstrid(2110858)]'
+get_char('c0') '[convertstrid(2110856)]' (**arg(208, 2110856))
+get_char('c0') '[convertstrid(2110857)]' (**arg(209, 2110857))
+get_char('c27151') '[convertstrid(2110858)]' (**arg(210, 2110858))
 $ play_music("ed7511.ogg")
 $ update_portrait('oca01_01 15', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110859)]'
+get_char('c27013') '[convertstrid(2110859)]' (**arg(211, 2110859))
 $ update_portrait('oca01_01 15', 'p2701', [r(-2), dark], 5)
 $ update_portrait('oca02_01 12', 'p2702', [l(-3), light, flip], 6)
-c27021 '[convertstrid(2110860)]'
+get_char('c27021') '[convertstrid(2110860)]' (**arg(212, 2110860))
 $ update_portrait('oca02_01 12', 'p2702', [l(-3), dark, flip], 5)
 $ update_portrait('oca01_01 20', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110861)]'
+get_char('c27013') '[convertstrid(2110861)]' (**arg(213, 2110861))
 $ update_portrait('oca01_01 9', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110862)]' (what_size=(gui.text_size*1.25))
+get_char('c27013') '[convertstrid(2110862)]' (**arg(214, 2110862, size=(1.25)))
 stop music
 hide p2702
 hide p2701
 play sfx2 "fight_6010.ogg"
-c0 '[convertstrid(2110863)]' with shake
-c27151 '[convertstrid(2110864)]'
+get_char('c0') '[convertstrid(2110863)]' (**arg(215, 2110863)) with shake
+get_char('c27151') '[convertstrid(2110864)]' (**arg(216, 2110864))
 $ update_portrait('oca01_01 2', 'p2701', [r(-2), light], 6)
-c27013 '[convertstrid(2110865)]'
+get_char('c27013') '[convertstrid(2110865)]' (**arg(217, 2110865))
 return

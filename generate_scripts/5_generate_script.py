@@ -434,7 +434,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		dialogue = f"[convertstrid({strID})]"
 		
 		#start with the speaker and dialogue
-		say = f"{renpyspeaker} '{dialogue}'"
+		say = f"get_char('{renpyspeaker}') '{dialogue}'"
+		
+		#show_args to pass to history screen
+		#***parenthesis are closed further down
+		say += f" (**arg({framecount}, {strID}"
 		
 		#see if dialogue text needs to be resized
 		#(20 is already the default)
@@ -447,7 +451,10 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			elif fname in noresizelist: pass
 			
 			#try to turn the "hard-coded" text size into a multiplier to make it work with different base sizes
-			else: say+= f' (what_size=(gui.text_size*{contentSize/20}))'
+			else: say+= f', size=({contentSize/20})'
+			
+		#closing parenthesis
+		say += '))'
 
 		#then shake can be added if needed
 		if effect == 1: say+=' with shake'

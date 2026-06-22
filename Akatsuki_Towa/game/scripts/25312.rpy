@@ -8,11 +8,11 @@ window show
 with fade_in
 play sfx2 "other_7007.ogg"
 play sfxvoice "bcv_oc002_hurt_02.ogg"
-c23 '[convertstrid(1211199)]'
+get_char('c23') '[convertstrid(1211199)]' (**arg(1, 1211199))
 hide p2
 play sfx2 "other_7057.ogg"
-c0 '[convertstrid(1211200)]'
-c20153 '[convertstrid(1211201)]'
+get_char('c0') '[convertstrid(1211200)]' (**arg(2, 1211200))
+get_char('c20153') '[convertstrid(1211201)]' (**arg(3, 1211201))
 menu:
     extend ""
     '[convertstrid(1214995)]':

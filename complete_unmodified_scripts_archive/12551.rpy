@@ -5,27 +5,27 @@ scene avg_bg_023
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[convertstrid(1153001)]'
-c0 '[convertstrid(1153002)]'
+get_char('c0') '[convertstrid(1153001)]' (**arg(1, 1153001))
+get_char('c0') '[convertstrid(1153002)]' (**arg(2, 1153002))
 $ update_portrait('oc002_01 2', 'p2', [l(-3), light, flip], 6)
-c21 '[convertstrid(1153003)]'
+get_char('c21') '[convertstrid(1153003)]' (**arg(3, 1153003))
 $ update_portrait('oc002_01 2', 'p2', [l(-3), dark, flip], 5)
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1153004)]'
+get_char('c13') '[convertstrid(1153004)]' (**arg(4, 1153004))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 8', 'p2', [l(-3), light, flip], 6)
-c21 '[convertstrid(1153005)]'
+get_char('c21') '[convertstrid(1153005)]' (**arg(5, 1153005))
 hide p2
 $ update_portrait('oc003_01 5', 'p3', [l(-6), light, flip], 6)
 play sfxvoice "avg_vocal_ro05.ogg"
-c31 '[convertstrid(1153006)]'
+get_char('c31') '[convertstrid(1153006)]' (**arg(6, 1153006))
 hide p1
 $ update_portrait('oc003_01 5', 'p3', [l(-6), dark, flip], 5)
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 6)
-c43 '[convertstrid(1153007)]'
+get_char('c43') '[convertstrid(1153007)]' (**arg(7, 1153007))
 $ update_portrait('oc004_01 4', 'p4', [r(-5), light], 6)
-c43 '[convertstrid(1153008)]'
+get_char('c43') '[convertstrid(1153008)]' (**arg(8, 1153008))
 hide p3
 hide p4
-c0 '[convertstrid(1153009)]'
+get_char('c0') '[convertstrid(1153009)]' (**arg(9, 1153009))
 return

@@ -5,8 +5,8 @@ scene placeholderbackground
 $ update_narrator('c50123')
 window show
 with fade_in
-c50123 '[convertstrid(1200324)]'
-c50123 '[convertstrid(1200325)]'
+get_char('c50123') '[convertstrid(1200324)]' (**arg(1, 1200324))
+get_char('c50123') '[convertstrid(1200325)]' (**arg(2, 1200325))
 $ update_portrait('oc002_01 5', 'p2', [l(-3), light, flip], 6)
-c21 '[convertstrid(1200326)]'
+get_char('c21') '[convertstrid(1200326)]' (**arg(3, 1200326))
 return

@@ -7,8 +7,8 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "common_cancel.ogg"
-c13 '[convertstrid(1120012)]'
+get_char('c13') '[convertstrid(1120012)]' (**arg(1, 1120012))
 hide p1
 $ update_portrait('sc049_01 1', 'p56', [mid(-8), light], 6)
-c563 '[convertstrid(1120013)]'
+get_char('c563') '[convertstrid(1120013)]' (**arg(2, 1120013))
 return

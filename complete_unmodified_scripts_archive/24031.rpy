@@ -6,9 +6,9 @@ $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 6)
 $ update_narrator('c13')
 window show
 with fade_in
-c13 '[convertstrid(1200125)]'
+get_char('c13') '[convertstrid(1200125)]' (**arg(1, 1200125))
 hide p1
-c10153 '[convertstrid(1200126)]'
+get_char('c10153') '[convertstrid(1200126)]' (**arg(2, 1200126))
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1200127)]'
+get_char('c13') '[convertstrid(1200127)]' (**arg(3, 1200127))
 return

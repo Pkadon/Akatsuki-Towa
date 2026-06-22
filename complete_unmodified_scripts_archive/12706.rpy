@@ -6,59 +6,59 @@ $ update_narrator('c13')
 window show
 with fade_in
 $ update_portrait('oc001_01 1', 'p1', [r_entrance(-2), light], 6)
-c13 '[convertstrid(1170520)]'
+get_char('c13') '[convertstrid(1170520)]' (**arg(1, 1170520))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170521)]'
+get_char('c13') '[convertstrid(1170521)]' (**arg(2, 1170521))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170522)]'
+get_char('c13') '[convertstrid(1170522)]' (**arg(3, 1170522))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170523)]'
+get_char('c14101') '[convertstrid(1170523)]' (**arg(4, 1170523))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170524)]'
+get_char('c13') '[convertstrid(1170524)]' (**arg(5, 1170524))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170525)]'
+get_char('c14101') '[convertstrid(1170525)]' (**arg(6, 1170525))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170526)]'
+get_char('c13') '[convertstrid(1170526)]' (**arg(7, 1170526))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170527)]'
-c14101 '[convertstrid(1170528)]'
-c14101 '[convertstrid(1170529)]'
+get_char('c14101') '[convertstrid(1170527)]' (**arg(8, 1170527))
+get_char('c14101') '[convertstrid(1170528)]' (**arg(9, 1170528))
+get_char('c14101') '[convertstrid(1170529)]' (**arg(10, 1170529))
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170530)]'
+get_char('c13') '[convertstrid(1170530)]' (**arg(11, 1170530))
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170531)]'
+get_char('c14101') '[convertstrid(1170531)]' (**arg(12, 1170531))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170532)]'
+get_char('c13') '[convertstrid(1170532)]' (**arg(13, 1170532))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170533)]'
-c14101 '[convertstrid(1170534)]'
+get_char('c14101') '[convertstrid(1170533)]' (**arg(14, 1170533))
+get_char('c14101') '[convertstrid(1170534)]' (**arg(15, 1170534))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170535)]'
+get_char('c13') '[convertstrid(1170535)]' (**arg(16, 1170535))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), dark], 5)
 play sfx2 "other_7004.ogg"
-c14101 '[convertstrid(1170536)]'
+get_char('c14101') '[convertstrid(1170536)]' (**arg(17, 1170536))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170537)]'
+get_char('c13') '[convertstrid(1170537)]' (**arg(18, 1170537))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170538)]'
+get_char('c14101') '[convertstrid(1170538)]' (**arg(19, 1170538))
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170539)]'
+get_char('c13') '[convertstrid(1170539)]' (**arg(20, 1170539))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170540)]'
+get_char('c13') '[convertstrid(1170540)]' (**arg(21, 1170540))
 $ update_portrait('oc001_01 10', 'p1', [r(-2), dark], 5)
-c14101 '[convertstrid(1170541)]'
+get_char('c14101') '[convertstrid(1170541)]' (**arg(22, 1170541))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170542)]'
+get_char('c13') '[convertstrid(1170542)]' (**arg(23, 1170542))
 scene avg_bg_070
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(1170543)]'
-c0 '[convertstrid(1170544)]'
+get_char('c0') '[convertstrid(1170543)]' (**arg(24, 1170543))
+get_char('c0') '[convertstrid(1170544)]' (**arg(25, 1170544))
 scene avg_bg_058
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 with fade
-c13 '[convertstrid(1170545)]'
+get_char('c13') '[convertstrid(1170545)]' (**arg(26, 1170545))
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1170546)]'
+get_char('c13') '[convertstrid(1170546)]' (**arg(27, 1170546))
 return

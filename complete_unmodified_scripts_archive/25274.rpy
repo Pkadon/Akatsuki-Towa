@@ -8,5 +8,5 @@ window show
 with fade_in
 play sfx2 "fight_6024.ogg"
 play sfxvoice "avg_vocal_na24.ogg"
-c13 '[convertstrid(1211043)]'
+get_char('c13') '[convertstrid(1211043)]' (**arg(1, 1211043))
 return

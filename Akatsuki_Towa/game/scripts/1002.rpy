@@ -5,13 +5,13 @@ scene avg_bg_023
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[convertstrid(2100030)]'
+get_char('c0') '[convertstrid(2100030)]' (**arg(1, 2100030))
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(2100031)]'
+get_char('c561') '[convertstrid(2100031)]' (**arg(2, 2100031))
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(2100032)]'
+get_char('c561') '[convertstrid(2100032)]' (**arg(3, 2100032))
 $ update_portrait('sc049_01 1', 'p56', [l(-8), light, flip], 6)
-c561 '[convertstrid(2100033)]'
+get_char('c561') '[convertstrid(2100033)]' (**arg(4, 2100033))
 menu:
     extend ""
     '[convertstrid(2100034)]':

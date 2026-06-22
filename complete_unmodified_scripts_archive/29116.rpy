@@ -5,5 +5,5 @@ scene placeholderbackground
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[convertstrid(1218050)]'
+get_char('c0') '[convertstrid(1218050)]' (**arg(1, 1218050))
 return

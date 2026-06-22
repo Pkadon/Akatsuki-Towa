@@ -6,5 +6,5 @@ $ update_portrait('sc013_01 3', 'p21', [l(-12), light, flip], 6)
 $ update_narrator('c211')
 window show
 with fade_in
-c211 '[convertstrid(1218887)]'
+get_char('c211') '[convertstrid(1218887)]' (**arg(1, 1218887))
 return

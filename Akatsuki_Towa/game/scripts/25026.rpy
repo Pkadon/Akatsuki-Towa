@@ -7,5 +7,5 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "common_cancel.ogg"
-c13 '[convertstrid(1214991)]'
+get_char('c13') '[convertstrid(1214991)]' (**arg(1, 1214991))
 return

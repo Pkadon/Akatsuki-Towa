@@ -6,13 +6,13 @@ $ update_portrait('sc008_01 2', 'p16', [l(-18), light, flip], 6)
 $ update_narrator('c161')
 window show
 with fade_in
-c161 '[convertstrid(1221539)]'
+get_char('c161') '[convertstrid(1221539)]' (**arg(1, 1221539))
 $ update_portrait('sc008_01 2', 'p16', [l(-18), dark, flip], 5)
 $ update_portrait('oc001_01 2', 'p1', [r(-2), light], 6)
-c13 '[convertstrid(1221540)]'
+get_char('c13') '[convertstrid(1221540)]' (**arg(2, 1221540))
 $ update_portrait('oc001_01 2', 'p1', [r(-2), dark], 5)
 $ update_portrait('sc008_01 4', 'p16', [l(-18), light, flip], 6)
-c161 '[convertstrid(1221541)]'
+get_char('c161') '[convertstrid(1221541)]' (**arg(3, 1221541))
 menu:
     extend ""
     '[convertstrid(1221542)]':

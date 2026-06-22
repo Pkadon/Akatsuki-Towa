@@ -5,41 +5,41 @@ scene placeholderbackground
 $ update_narrator('c6643')
 window show
 with fade_in
-c6643 '[convertstrid(1004278)]'
+get_char('c6643') '[convertstrid(1004278)]' (**arg(1, 1004278))
 $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 6)
-c23 '[convertstrid(1004279)]'
+get_char('c23') '[convertstrid(1004279)]' (**arg(2, 1004279))
 hide p2
 $ update_portrait('oc003_01 4', 'p3', [mid(-6), light], 6)
-c33 '[convertstrid(1004280)]'
+get_char('c33') '[convertstrid(1004280)]' (**arg(3, 1004280))
 hide p3
 $ update_portrait('oc001_01 4', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1004281)]'
+get_char('c13') '[convertstrid(1004281)]' (**arg(4, 1004281))
 hide p1
 $ update_portrait('oc003_01 1', 'p3', [mid(-6), light], 6)
-c33 '[convertstrid(1004282)]'
+get_char('c33') '[convertstrid(1004282)]' (**arg(5, 1004282))
 hide p3
-c6643 '[convertstrid(1004283)]'
+get_char('c6643') '[convertstrid(1004283)]' (**arg(6, 1004283))
 $ update_portrait('oc003_01 9', 'p3', [mid(-6), light], 6)
-c33 '[convertstrid(1004284)]'
+get_char('c33') '[convertstrid(1004284)]' (**arg(7, 1004284))
 hide p3
 $ update_portrait('oc001_01 9', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1004285)]'
+get_char('c13') '[convertstrid(1004285)]' (**arg(8, 1004285))
 hide p1
-c6663 '[convertstrid(1004286)]'
-c0 '[convertstrid(1004287)]'
+get_char('c6663') '[convertstrid(1004286)]' (**arg(9, 1004286))
+get_char('c0') '[convertstrid(1004287)]' (**arg(10, 1004287))
 $ update_portrait('oc003_01 9', 'p3', [mid(-6), light], 6)
-c33 '[convertstrid(1004288)]'
+get_char('c33') '[convertstrid(1004288)]' (**arg(11, 1004288))
 hide p3
-c6653 '[convertstrid(1004289)]'
+get_char('c6653') '[convertstrid(1004289)]' (**arg(12, 1004289))
 $ update_portrait('oc003_01 9', 'p3', [mid(-6), light], 6)
-c33 '[convertstrid(1004290)]'
+get_char('c33') '[convertstrid(1004290)]' (**arg(13, 1004290))
 hide p3
 $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 6)
-c23 '[convertstrid(1004291)]'
+get_char('c23') '[convertstrid(1004291)]' (**arg(14, 1004291))
 hide p2
 $ update_portrait('oc004_01 3', 'p4', [mid(-5), light], 6)
-c43 '[convertstrid(1004292)]'
+get_char('c43') '[convertstrid(1004292)]' (**arg(15, 1004292))
 hide p4
 $ update_portrait('oc001_01 3', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1004293)]'
+get_char('c13') '[convertstrid(1004293)]' (**arg(16, 1004293))
 return

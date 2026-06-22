@@ -48,6 +48,23 @@ init python:
             else:
                 return size
 
+    def format_label(dic, key, size, max_dimensions, **kwargs):
+        text = convertstrid(dic[key])
+        if dic.get('add'): text += dic['add']
+
+        if preferences.language not in dic:
+            text_size, text_anchor = size_text(text, size, max_dimensions, **kwargs)
+            # Cache the result:
+            dic[preferences.language] = {
+                'text_size': text_size,
+                'text_anchor': text_anchor
+            }
+        else:
+            text_size = dic[preferences.language]['text_size']
+            text_anchor = dic[preferences.language]['text_anchor']
+
+        return (text, text_size, text_anchor)
+
     def calculate_inner_space(style_name):
         style_object = style.get(style_name)
         horizontal = style_object.xmaximum - style_object.left_padding - style_object.right_padding - style_object.left_margin - style_object.right_margin
@@ -304,6 +321,7 @@ screen x_button(screen_title, icon, additional_actions=[]):
 screen episodelist():
     modal True
 
+    use toggle_language()
     use book_background()
 
     python:
@@ -333,24 +351,13 @@ screen episodelist():
                 vbox:
                     # Gold chapter label button
                     python:
-                        chaptername = convertstrid(chapter['chaptername'])
-
-                        if 'name_size' not in chapter:
-                            text_size, text_anchor = size_text(chaptername, tabtextsize, goldtab_inner_space, anchors=(0.5, tabfont_center))
-
-                            # Cache the result:
-                            chapter['name_size'] = text_size
-                            chapter['name_anchor'] = text_anchor
-
-                        else:
-                            text_size = chapter['name_size']
-                            text_anchor = chapter['name_anchor']
+                        chaptername, chaptername_size, chaptername_anchor = format_label(chapter, 'chaptername', tabtextsize, goldtab_inner_space, anchors=(0.5, tabfont_center))
 
                     textbutton chaptername:
                         style "goldtab"
                         text_style "tabbutton_text"
-                        text_size text_size
-                        text_anchor text_anchor
+                        text_size chaptername_size
+                        text_anchor chaptername_anchor
                                 
                     vpgrid:
                         cols 1
@@ -363,25 +370,13 @@ screen episodelist():
                         # Silver tab buttons that open "quest" menu
                         for quest in chapter['quests']:
                             python:
-                                questname = convertstrid(quest['questname'])
-                                if quest['add']: questname += quest['add']
-
-                                if 'name_size' not in quest:
-                                    text_size, text_anchor = size_text(questname, tabtextsize, silvertab_inner_space, anchors=(0.5,  tabfont_center))
-
-                                    # Cache the result:
-                                    quest['name_size'] = text_size
-                                    quest['name_anchor'] = text_anchor
-
-                                else:
-                                    text_size = quest['name_size']
-                                    text_anchor = quest['name_anchor']
+                                questname, questname_size, questname_anchor = format_label(quest, 'questname', tabtextsize, silvertab_inner_space, anchors=(0.5,  tabfont_center))
 
                             textbutton questname:
                                 style "silvertab"
                                 text_style "tabbutton_text"
-                                text_size text_size
-                                text_anchor text_anchor
+                                text_size questname_size
+                                text_anchor questname_anchor
                                 action ShowMenu("quest", quest)
 
     use x_button('episodelist', 'x')
@@ -395,6 +390,7 @@ default showing_log = None
 screen quest(data):
     modal True
 
+    use toggle_language()
     use book_background()
 
     python:
@@ -430,11 +426,7 @@ screen quest(data):
         vbox:
             # Silver tab quest name label at the top of the screen
             python:
-                questname = convertstrid(data['questname'])
-                if data['add']: questname += data['add']
-
-                text_size = data['name_size']
-                text_anchor = data['name_anchor']
+                questname, questname_size, questname_anchor = format_label(data, 'questname', tabtextsize, silvertab_inner_space, anchors=(0.5,  tabfont_center))
 
             textbutton questname:
                 style "silvertab"
@@ -442,8 +434,8 @@ screen quest(data):
                 # Center the button over the scenebutton columns, without taking into account the scrollbar width
                 xpos paper_inner_space[0] //2
                 text_style "tabbutton_text"
-                text_size text_size
-                text_anchor text_anchor
+                text_size questname_size
+                text_anchor questname_anchor
 
             vpgrid:
                 cols scenebutton_columns
@@ -457,7 +449,7 @@ screen quest(data):
                 # buttons that play a cutscene when clicked
                 for scene in data['scenes']:
                     python:
-                        if 'scenename_fit' not in scene:
+                        if preferences.language not in scene:
                             # Title text
                             scenename = convertstrid(scene['scenename'])
                             if scene['add']: scenename += scene['add']
@@ -479,12 +471,14 @@ screen quest(data):
                             combined_anchor = calculate_text_anchor(combined_fit, (0.5, 0.5))
 
                             # Cache the result
-                            scene['combined_fit'] = combined_fit
-                            scene['combined_anchor'] = combined_anchor
+                            scene[preferences.language] = {
+                                'combined_fit': combined_fit,
+                                'combined_anchor': combined_anchor
+                            }
 
                         else:
-                            combined_fit = scene['combined_fit']
-                            combined_anchor = scene['combined_anchor']
+                            combined_fit = scene[preferences.language]['combined_fit']
+                            combined_anchor = scene[preferences.language]['combined_anchor']
 
                     button:
                         style_prefix "scene"
@@ -503,12 +497,14 @@ screen quest(data):
 screen questlog(log_list, current_index):
     tag log
 
+    use toggle_language()
+
     python:
         data = log_list[current_index]
 
-        if data['type'] == 1: prefix = logmain + ' '
-        elif data['type'] == 2: prefix = logsub + ' '
-        elif data['type'] == 16: prefix = logdaily + ' '
+        if data['type'] == 1: prefix = logmain[preferences.language] + ' '
+        elif data['type'] == 2: prefix = logsub[preferences.language] + ' '
+        elif data['type'] == 16: prefix = logdaily[preferences.language] + ' '
         else: prefix = '   '
 
         log_line_length = int(paper_inner_space[0] * .85)
@@ -542,17 +538,17 @@ screen questlog(log_list, current_index):
                         text [convertstrid(data['title'])]:
                             color "#1C3051"
                     hbox:
-                        text [loglevel + ' ']:
+                        text [loglevel[preferences.language] + ' ']:
                             color "#415866"
                         text [str(data['level'])]:
                             color "#1C3051"
                     hbox:
-                        text [logclient + ' ']:
+                        text [logclient[preferences.language] + ' ']:
                             color "#415866"
                         text [convertstrid(data['client'])]:
                             color "#1C3051"
                     hbox:
-                        text [logdetails + ' ']:
+                        text [logdetails[preferences.language] + ' ']:
                             color "#415866"
                         text [convertstrid(data['details'])]:
                             color "#1C3051"
@@ -565,7 +561,7 @@ screen questlog(log_list, current_index):
                             #Add spacing to the left of all bullet points
                             null width 10
 
-                            text [' ' + logbullet + ' ']:
+                            text [' ' + logbullet[preferences.language] + ' ']:
                                 color "#415866"
                             text [convertstrid(step)]:
                                 color "#1C3051"

@@ -1,8 +1,8 @@
-init python:
+init -3 python:
 
     def convertstrid(key):
-        if key in textdict:
-            text = textdict[key]
+        if key in textdict[preferences.language]:
+            text = textdict[preferences.language][key]
         else:
             text = str(key)
 
@@ -12,8 +12,8 @@ init python:
         return tagged
 
     def convertroleid(key):
-        if key in avgroledict:
-            text = avgroledict[key]
+        if key in avgroledict[preferences.language]:
+            text = avgroledict[preferences.language][key]
         else:
             text = str(key)
 
@@ -24,14 +24,32 @@ init python:
             renpy.hide(alias)
         renpy.show(portrait, at_list=atlist, tag=alias, zorder=z)
 
+    # Used to pass extra fields to the history screen from the say screen by proxy.
+    def arg(line_id, str_id, size=1.0):
+        global last_label
+        ret_dict = {
+            'show_line_id': line_id,
+            'show_str_id': str_id,
+            'show_label': last_label,
+            'what_size': (gui.text_size * size)
+        }
+        return ret_dict
+
+    def get_char(char_id):
+        if char_id in char_dict[preferences.language]: 
+            return char_dict[preferences.language][char_id]
+        elif char_id in char_dict: 
+            return char_dict[char_id]
+        else:
+            return char_id
+
     # During screen transitions, renpy sets the speaking character to the default narrator, which hides the namebox.
     # This is used to set narrator to the LAST speaker during the fade-out (from within the say screen in screens.rpy), 
     # and then to the NEXT speaker during the fade-in (from the cutscene script itself) for a smoother-looking transition.
     def update_narrator(char_id):
         if not renpy.predicting():
             global narrator
-            narrator = char_dict[char_id]
-
+            narrator = get_char(char_id)
 
     # Used to make it possible to cleanly loop the music
     # bgm_loop_dict is loaded in loadinfo.rpy from bgm.json

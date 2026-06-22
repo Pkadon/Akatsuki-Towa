@@ -7,37 +7,37 @@ $ update_narrator('c13')
 window show
 with fade_in
 play sfx2 "other_7086.ogg"
-c13 '[convertstrid(1210794)]'
+get_char('c13') '[convertstrid(1210794)]' (**arg(1, 1210794))
 hide p1
-c20133 '[convertstrid(1210795)]'
+get_char('c20133') '[convertstrid(1210795)]' (**arg(2, 1210795))
 $ update_portrait('oc002_01 2', 'p2', [mid(-3), light], 6)
 play sfxvoice "avg_vocal_ch12.ogg"
-c23 '[convertstrid(1210796)]'
+get_char('c23') '[convertstrid(1210796)]' (**arg(3, 1210796))
 hide p2
 play sfx2 "fight_6003.ogg"
-c20133 '[convertstrid(1210797)]'
-c20133 '[convertstrid(1210798)]'
+get_char('c20133') '[convertstrid(1210797)]' (**arg(4, 1210797))
+get_char('c20133') '[convertstrid(1210798)]' (**arg(5, 1210798))
 $ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na21.ogg"
-c13 '[convertstrid(1210799)]'
+get_char('c13') '[convertstrid(1210799)]' (**arg(6, 1210799))
 hide p1
 $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 6)
 play sfxvoice "bcv_oc002_arts_03.ogg"
-c23 '[convertstrid(1210800)]'
+get_char('c23') '[convertstrid(1210800)]' (**arg(7, 1210800))
 hide p2
 $ update_portrait('oc001_01 7', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na02.ogg"
-c13 '[convertstrid(1210801)]'
+get_char('c13') '[convertstrid(1210801)]' (**arg(8, 1210801))
 hide p1
 $ update_portrait('oc002_01 9', 'p2', [mid(-3), light], 6)
 play sfxvoice "avg_vocal_ch04.ogg"
-c23 '[convertstrid(1210802)]'
+get_char('c23') '[convertstrid(1210802)]' (**arg(9, 1210802))
 hide p2
-c20133 '[convertstrid(1210803)]'
+get_char('c20133') '[convertstrid(1210803)]' (**arg(10, 1210803))
 $ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na05.ogg"
-c13 '[convertstrid(1210804)]'
+get_char('c13') '[convertstrid(1210804)]' (**arg(11, 1210804))
 hide p1
 play sfx2 "common_35rewardholy.ogg"
-c20133 '[convertstrid(1210805)]'
+get_char('c20133') '[convertstrid(1210805)]' (**arg(12, 1210805))
 return

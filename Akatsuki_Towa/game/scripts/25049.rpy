@@ -7,20 +7,20 @@ $ update_narrator('c23')
 window show
 with fade_in
 play sfxvoice "avg_vocal_ch10.ogg"
-c23 '[convertstrid(1210125)]'
+get_char('c23') '[convertstrid(1210125)]' (**arg(1, 1210125))
 hide p2
 $ update_portrait('uc001_02 2', 'p2002', [mid(6), light], 6)
-c20023 '[convertstrid(1210126)]'
+get_char('c20023') '[convertstrid(1210126)]' (**arg(2, 1210126))
 hide p2002
 $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1210127)]'
+get_char('c13') '[convertstrid(1210127)]' (**arg(3, 1210127))
 hide p1
 $ update_portrait('uc001_02 1', 'p2002', [mid(6), light], 6)
-c20023 '[convertstrid(1210128)]'
+get_char('c20023') '[convertstrid(1210128)]' (**arg(4, 1210128))
 $ update_portrait('uc001_02 3', 'p2002', [mid(6), light], 6)
-c20023 '[convertstrid(1210129)]'
+get_char('c20023') '[convertstrid(1210129)]' (**arg(5, 1210129))
 hide p2002
 $ update_portrait('oc001_01 8', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na20.ogg"
-c13 '[convertstrid(1210130)]'
+get_char('c13') '[convertstrid(1210130)]' (**arg(6, 1210130))
 return

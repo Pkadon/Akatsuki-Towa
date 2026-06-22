@@ -8,15 +8,15 @@ window show
 with fade_in
 play sfx2 "common_select.ogg"
 play sfxvoice "avg_vocal_ch12.ogg"
-c23 '[convertstrid(1210984)]'
+get_char('c23') '[convertstrid(1210984)]' (**arg(1, 1210984))
 hide p2
-c20133 '[convertstrid(1210985)]'
+get_char('c20133') '[convertstrid(1210985)]' (**arg(2, 1210985))
 $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na04.ogg"
-c13 '[convertstrid(1210986)]'
+get_char('c13') '[convertstrid(1210986)]' (**arg(3, 1210986))
 hide p1
-c20133 '[convertstrid(1210987)]'
+get_char('c20133') '[convertstrid(1210987)]' (**arg(4, 1210987))
 $ update_portrait('oc002_01 18', 'p2', [mid(-3), light], 6)
 play sfxvoice "avg_vocal_ch04.ogg"
-c23 '[convertstrid(1210988)]'
+get_char('c23') '[convertstrid(1210988)]' (**arg(5, 1210988))
 return

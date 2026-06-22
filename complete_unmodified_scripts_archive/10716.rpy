@@ -5,23 +5,23 @@ scene avg_bg_061
 $ update_narrator('c0')
 window show
 with fade_in
-c0 '[convertstrid(1170955)]'
-c0 '[convertstrid(1170956)]'
+get_char('c0') '[convertstrid(1170955)]' (**arg(1, 1170955))
+get_char('c0') '[convertstrid(1170956)]' (**arg(2, 1170956))
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170957)]'
+get_char('c51') '[convertstrid(1170957)]' (**arg(3, 1170957))
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170958)]'
+get_char('c51') '[convertstrid(1170958)]' (**arg(4, 1170958))
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170959)]'
+get_char('c51') '[convertstrid(1170959)]' (**arg(5, 1170959))
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170960)]'
+get_char('c51') '[convertstrid(1170960)]' (**arg(6, 1170960))
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170961)]'
+get_char('c51') '[convertstrid(1170961)]' (**arg(7, 1170961))
 $ update_portrait('oc005_01 4', 'p5', [l(-6), light, flip], 6)
 play sfx2 "other_7022.ogg"
-c51 '[convertstrid(1170962)]'
+get_char('c51') '[convertstrid(1170962)]' (**arg(8, 1170962))
 $ update_portrait('oc005_01 22', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170963)]'
+get_char('c51') '[convertstrid(1170963)]' (**arg(9, 1170963))
 $ update_portrait('oc005_01 22', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1170964)]'
+get_char('c51') '[convertstrid(1170964)]' (**arg(10, 1170964))
 return

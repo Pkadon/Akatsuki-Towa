@@ -14,8 +14,8 @@ init python:
     config.autosave_on_choice = False
     config.save = False
     config.play_channel = "audio"
-
     config.window_show_transition = None
+    config.clear_history_on_language_change = False
 
     style.default.prefer_emoji = False
 
@@ -27,6 +27,15 @@ init python:
     config.hyperlink_handlers = { 'copy' : copy_text_to_clipboard }
     #Then this creates a text tag that can be used like:
     #    "{a=copy:TEXT TO COPY GOES HERE}Click me to copy my text!{/a}"
+
+    #Stores last visited label
+    #taken from here: https://lemmasoft.renai.us/forums/viewtopic.php?p=137416#p137416
+    def label_callback(name, abnormal):
+        global last_label
+        if name.startswith('_'): return
+        last_label = name
+    config.label_callback = label_callback
+default last_label = None
         
 
 #################################################################

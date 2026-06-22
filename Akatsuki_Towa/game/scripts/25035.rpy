@@ -8,5 +8,5 @@ window show
 with fade_in
 play sfx2 "common_select.ogg"
 play sfxvoice "bcv_oc001_com_01.ogg"
-c13 '[convertstrid(1210092)]'
+get_char('c13') '[convertstrid(1210092)]' (**arg(1, 1210092))
 return

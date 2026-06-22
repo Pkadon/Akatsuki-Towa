@@ -5,160 +5,160 @@ scene avg_bg_505
 $ update_narrator('c10833')
 window show
 with fade_in
-c10833 '[convertstrid(1173403)]'
-c51 '[convertstrid(1173404)]'
-c10833 '[convertstrid(1173405)]'
-c14513 '[convertstrid(1173406)]'
-c10833 '[convertstrid(1173407)]'
-c11653 '[convertstrid(1173408)]'
-c41 '[convertstrid(1173409)]'
-c11653 '[convertstrid(1173410)]'
-c14513 '[convertstrid(1173411)]'
+get_char('c10833') '[convertstrid(1173403)]' (**arg(1, 1173403))
+get_char('c51') '[convertstrid(1173404)]' (**arg(2, 1173404))
+get_char('c10833') '[convertstrid(1173405)]' (**arg(3, 1173405))
+get_char('c14513') '[convertstrid(1173406)]' (**arg(4, 1173406))
+get_char('c10833') '[convertstrid(1173407)]' (**arg(5, 1173407))
+get_char('c11653') '[convertstrid(1173408)]' (**arg(6, 1173408))
+get_char('c41') '[convertstrid(1173409)]' (**arg(7, 1173409))
+get_char('c11653') '[convertstrid(1173410)]' (**arg(8, 1173410))
+get_char('c14513') '[convertstrid(1173411)]' (**arg(9, 1173411))
 play sfx2 "other_7018.ogg"
-c51 '[convertstrid(1173412)]'
+get_char('c51') '[convertstrid(1173412)]' (**arg(10, 1173412))
 play sfx2 "other_7018.ogg"
-c41 '[convertstrid(1173413)]'
+get_char('c41') '[convertstrid(1173413)]' (**arg(11, 1173413))
 play sfx2 "other_7018.ogg"
-c41 '[convertstrid(1173414)]'
-c11653 '[convertstrid(1173415)]'
-c10833 '[convertstrid(1173416)]'
-c51 '[convertstrid(1173417)]'
-c6921 '[convertstrid(1173418)]'
-c11653 '[convertstrid(1173419)]'
-c6921 '[convertstrid(1173420)]'
-c11653 '[convertstrid(1173421)]'
-c11653 '[convertstrid(1173422)]'
-c10833 '[convertstrid(1173423)]'
+get_char('c41') '[convertstrid(1173414)]' (**arg(12, 1173414))
+get_char('c11653') '[convertstrid(1173415)]' (**arg(13, 1173415))
+get_char('c10833') '[convertstrid(1173416)]' (**arg(14, 1173416))
+get_char('c51') '[convertstrid(1173417)]' (**arg(15, 1173417))
+get_char('c6921') '[convertstrid(1173418)]' (**arg(16, 1173418))
+get_char('c11653') '[convertstrid(1173419)]' (**arg(17, 1173419))
+get_char('c6921') '[convertstrid(1173420)]' (**arg(18, 1173420))
+get_char('c11653') '[convertstrid(1173421)]' (**arg(19, 1173421))
+get_char('c11653') '[convertstrid(1173422)]' (**arg(20, 1173422))
+get_char('c10833') '[convertstrid(1173423)]' (**arg(21, 1173423))
 play sfx2 "other_7018.ogg"
-c51 '[convertstrid(1173424)]'
-c11653 '[convertstrid(1173425)]' with shake
-c41 '[convertstrid(1173426)]'
-c10833 '[convertstrid(1173427)]'
-c11653 '[convertstrid(1173428)]'
-c10833 '[convertstrid(1173429)]'
-c51 '[convertstrid(1173430)]'
-c14513 '[convertstrid(1173431)]'
-c14513 '[convertstrid(1173432)]'
-c41 '[convertstrid(1173433)]'
-c10833 '[convertstrid(1173434)]'
-c11653 '[convertstrid(1173435)]'
-c10833 '[convertstrid(1173436)]'
-c11653 '[convertstrid(1173437)]'
-c11653 '[convertstrid(1173438)]'
-c10833 '[convertstrid(1173439)]'
-c14513 '[convertstrid(1173440)]'
-c0 '[convertstrid(1173441)]'
-c10833 '[convertstrid(1173442)]'
-c11653 '[convertstrid(1173443)]'
-c43 '[convertstrid(1173444)]'
-c51 '[convertstrid(1173445)]'
-c0 '[convertstrid(1173446)]'
-c14513 '[convertstrid(1173447)]'
-c11653 '[convertstrid(1173448)]'
-c6921 '[convertstrid(1173449)]'
-c6921 '[convertstrid(1173450)]'
-c51 '[convertstrid(1173451)]'
-c43 '[convertstrid(1173452)]'
-c43 '[convertstrid(1173453)]'
-c51 '[convertstrid(1173454)]'
+get_char('c51') '[convertstrid(1173424)]' (**arg(22, 1173424))
+get_char('c11653') '[convertstrid(1173425)]' (**arg(23, 1173425)) with shake
+get_char('c41') '[convertstrid(1173426)]' (**arg(24, 1173426))
+get_char('c10833') '[convertstrid(1173427)]' (**arg(25, 1173427))
+get_char('c11653') '[convertstrid(1173428)]' (**arg(26, 1173428))
+get_char('c10833') '[convertstrid(1173429)]' (**arg(27, 1173429))
+get_char('c51') '[convertstrid(1173430)]' (**arg(28, 1173430))
+get_char('c14513') '[convertstrid(1173431)]' (**arg(29, 1173431))
+get_char('c14513') '[convertstrid(1173432)]' (**arg(30, 1173432))
+get_char('c41') '[convertstrid(1173433)]' (**arg(31, 1173433))
+get_char('c10833') '[convertstrid(1173434)]' (**arg(32, 1173434))
+get_char('c11653') '[convertstrid(1173435)]' (**arg(33, 1173435))
+get_char('c10833') '[convertstrid(1173436)]' (**arg(34, 1173436))
+get_char('c11653') '[convertstrid(1173437)]' (**arg(35, 1173437))
+get_char('c11653') '[convertstrid(1173438)]' (**arg(36, 1173438))
+get_char('c10833') '[convertstrid(1173439)]' (**arg(37, 1173439))
+get_char('c14513') '[convertstrid(1173440)]' (**arg(38, 1173440))
+get_char('c0') '[convertstrid(1173441)]' (**arg(39, 1173441))
+get_char('c10833') '[convertstrid(1173442)]' (**arg(40, 1173442))
+get_char('c11653') '[convertstrid(1173443)]' (**arg(41, 1173443))
+get_char('c43') '[convertstrid(1173444)]' (**arg(42, 1173444))
+get_char('c51') '[convertstrid(1173445)]' (**arg(43, 1173445))
+get_char('c0') '[convertstrid(1173446)]' (**arg(44, 1173446))
+get_char('c14513') '[convertstrid(1173447)]' (**arg(45, 1173447))
+get_char('c11653') '[convertstrid(1173448)]' (**arg(46, 1173448))
+get_char('c6921') '[convertstrid(1173449)]' (**arg(47, 1173449))
+get_char('c6921') '[convertstrid(1173450)]' (**arg(48, 1173450))
+get_char('c51') '[convertstrid(1173451)]' (**arg(49, 1173451))
+get_char('c43') '[convertstrid(1173452)]' (**arg(50, 1173452))
+get_char('c43') '[convertstrid(1173453)]' (**arg(51, 1173453))
+get_char('c51') '[convertstrid(1173454)]' (**arg(52, 1173454))
 stop music
-c10833 '[convertstrid(1173455)]'
-c11653 '[convertstrid(1173456)]'
-c43 '[convertstrid(1173457)]'
-c51 '[convertstrid(1173458)]'
-c11653 '[convertstrid(1173459)]'
-c11653 '[convertstrid(1173460)]'
+get_char('c10833') '[convertstrid(1173455)]' (**arg(53, 1173455))
+get_char('c11653') '[convertstrid(1173456)]' (**arg(54, 1173456))
+get_char('c43') '[convertstrid(1173457)]' (**arg(55, 1173457))
+get_char('c51') '[convertstrid(1173458)]' (**arg(56, 1173458))
+get_char('c11653') '[convertstrid(1173459)]' (**arg(57, 1173459))
+get_char('c11653') '[convertstrid(1173460)]' (**arg(58, 1173460))
 $ play_music("ED6516.ogg")
-c6921 '[convertstrid(1173461)]'
-c43 '[convertstrid(1173462)]'
-c51 '[convertstrid(1173463)]'
+get_char('c6921') '[convertstrid(1173461)]' (**arg(59, 1173461))
+get_char('c43') '[convertstrid(1173462)]' (**arg(60, 1173462))
+get_char('c51') '[convertstrid(1173463)]' (**arg(61, 1173463))
 scene avg_bg_003
 $ update_narrator('c13043')
 with fade
 $ update_portrait('st061_01 4', 'p1304', [r_entrance(-2), light], 6)
 play sfx2 "other_7046.ogg"
-c13043 '[convertstrid(1173464)]'
+get_char('c13043') '[convertstrid(1173464)]' (**arg(62, 1173464))
 $ update_portrait('st061_01 4', 'p1304', [r(-2), dark], 5)
-c10831 '[convertstrid(1173465)]'
-c10831 '[convertstrid(1173466)]'
-c11651 '[convertstrid(1173467)]'
-c11651 '[convertstrid(1173468)]'
+get_char('c10831') '[convertstrid(1173465)]' (**arg(63, 1173465))
+get_char('c10831') '[convertstrid(1173466)]' (**arg(64, 1173466))
+get_char('c11651') '[convertstrid(1173467)]' (**arg(65, 1173467))
+get_char('c11651') '[convertstrid(1173468)]' (**arg(66, 1173468))
 $ update_portrait('oc005_01 7', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1173469)]'
+get_char('c51') '[convertstrid(1173469)]' (**arg(67, 1173469))
 hide p1304
 $ update_portrait('oc005_01 7', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('oc004_01 16', 'p4', [r(-5), light], 6)
-c43 '[convertstrid(1173470)]'
+get_char('c43') '[convertstrid(1173470)]' (**arg(68, 1173470))
 hide p5
 $ update_portrait('oc004_01 16', 'p4', [r(-5), dark], 5)
 $ update_portrait('st044_01 2', 'p692', [l(10), light, flip], 6)
-c6921 '[convertstrid(1173471)]'
+get_char('c6921') '[convertstrid(1173471)]' (**arg(69, 1173471))
 hide p4
 $ update_portrait('st044_01 2', 'p692', [l(10), dark, flip], 5)
-c10833 '[convertstrid(1173472)]'
-c10833 '[convertstrid(1173473)]'
-c11653 '[convertstrid(1173474)]'
-c10833 '[convertstrid(1173475)]'
-c10833 '[convertstrid(1173476)]'
-c10833 '[convertstrid(1173477)]'
-c10833 '[convertstrid(1173478)]'
-c10833 '[convertstrid(1173479)]'
+get_char('c10833') '[convertstrid(1173472)]' (**arg(70, 1173472))
+get_char('c10833') '[convertstrid(1173473)]' (**arg(71, 1173473))
+get_char('c11653') '[convertstrid(1173474)]' (**arg(72, 1173474))
+get_char('c10833') '[convertstrid(1173475)]' (**arg(73, 1173475))
+get_char('c10833') '[convertstrid(1173476)]' (**arg(74, 1173476))
+get_char('c10833') '[convertstrid(1173477)]' (**arg(75, 1173477))
+get_char('c10833') '[convertstrid(1173478)]' (**arg(76, 1173478))
+get_char('c10833') '[convertstrid(1173479)]' (**arg(77, 1173479))
 hide p692
 $ update_portrait('oc005_01 7', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1173480)]'
+get_char('c51') '[convertstrid(1173480)]' (**arg(78, 1173480))
 $ update_portrait('oc005_01 7', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('st061_01 4', 'p1304', [r(-2), light], 6)
-c13043 '[convertstrid(1173481)]'
+get_char('c13043') '[convertstrid(1173481)]' (**arg(79, 1173481))
 hide p5
 $ update_portrait('st061_01 4', 'p1304', [r(-2), dark], 5)
-c10831 '[convertstrid(1173482)]'
-c11651 '[convertstrid(1173483)]'
-c10831 '[convertstrid(1173484)]' with shake
-c11651 '[convertstrid(1173485)]'
+get_char('c10831') '[convertstrid(1173482)]' (**arg(80, 1173482))
+get_char('c11651') '[convertstrid(1173483)]' (**arg(81, 1173483))
+get_char('c10831') '[convertstrid(1173484)]' (**arg(82, 1173484)) with shake
+get_char('c11651') '[convertstrid(1173485)]' (**arg(83, 1173485))
 hide p1304
 $ update_portrait('oc004_01 21', 'p4', [r(-5), light], 6)
-c43 '[convertstrid(1173486)]'
+get_char('c43') '[convertstrid(1173486)]' (**arg(84, 1173486))
 stop music
 hide p4
-c0 '[convertstrid(1173487)]'
+get_char('c0') '[convertstrid(1173487)]' (**arg(85, 1173487))
 $ update_portrait('oc005_01 20', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1173488)]'
+get_char('c51') '[convertstrid(1173488)]' (**arg(86, 1173488))
 $ update_portrait('oc005_01 20', 'p5', [l(-6), dark, flip], 5)
-c11653 '[convertstrid(1173489)]'
+get_char('c11653') '[convertstrid(1173489)]' (**arg(87, 1173489))
 $ update_portrait('oc005_01 3', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1173490)]'
+get_char('c51') '[convertstrid(1173490)]' (**arg(88, 1173490))
 $ update_portrait('oc005_01 3', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('oc004_01 11', 'p4', [r(-5), light], 6)
-c43 '[convertstrid(1173491)]'
+get_char('c43') '[convertstrid(1173491)]' (**arg(89, 1173491))
 $ play_music("ed6567.ogg")
 hide p5
 $ update_portrait('oc004_01 11', 'p4', [r(-5), dark], 5)
-c14511 '[convertstrid(1173492)]'
-c14511 '[convertstrid(1173493)]'
+get_char('c14511') '[convertstrid(1173492)]' (**arg(90, 1173492))
+get_char('c14511') '[convertstrid(1173493)]' (**arg(91, 1173493))
 $ update_portrait('oc005_01 13', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1173494)]'
+get_char('c51') '[convertstrid(1173494)]' (**arg(92, 1173494))
 hide p4
 $ update_portrait('oc005_01 13', 'p5', [l(-6), dark, flip], 5)
-c14513 '[convertstrid(1173495)]'
+get_char('c14513') '[convertstrid(1173495)]' (**arg(93, 1173495))
 $ update_portrait('oc005_01 22', 'p5', [l(-6), light, flip], 6)
-c51 '[convertstrid(1173496)]'
+get_char('c51') '[convertstrid(1173496)]' (**arg(94, 1173496))
 $ update_portrait('oc005_01 22', 'p5', [l(-6), dark, flip], 5)
-c10833 '[convertstrid(1173497)]'
-c10833 '[convertstrid(1173498)]'
+get_char('c10833') '[convertstrid(1173497)]' (**arg(95, 1173497))
+get_char('c10833') '[convertstrid(1173498)]' (**arg(96, 1173498))
 scene avg_bg_505
 $ update_narrator('c0')
 with fade
-c0 '[convertstrid(1173499)]'
-c0 '[convertstrid(1173500)]'
-c0 '[convertstrid(1173501)]'
-c10833 '[convertstrid(1173502)]'
-c41 '[convertstrid(1173503)]'
-c41 '[convertstrid(1173504)]'
-c10833 '[convertstrid(1173505)]'
-c14513 '[convertstrid(1173506)]'
-c11653 '[convertstrid(1173507)]'
-c10833 '[convertstrid(1173508)]'
-c11653 '[convertstrid(1173509)]'
-c41 '[convertstrid(1173510)]'
-c41 '[convertstrid(1173511)]'
+get_char('c0') '[convertstrid(1173499)]' (**arg(97, 1173499))
+get_char('c0') '[convertstrid(1173500)]' (**arg(98, 1173500))
+get_char('c0') '[convertstrid(1173501)]' (**arg(99, 1173501))
+get_char('c10833') '[convertstrid(1173502)]' (**arg(100, 1173502))
+get_char('c41') '[convertstrid(1173503)]' (**arg(101, 1173503))
+get_char('c41') '[convertstrid(1173504)]' (**arg(102, 1173504))
+get_char('c10833') '[convertstrid(1173505)]' (**arg(103, 1173505))
+get_char('c14513') '[convertstrid(1173506)]' (**arg(104, 1173506))
+get_char('c11653') '[convertstrid(1173507)]' (**arg(105, 1173507))
+get_char('c10833') '[convertstrid(1173508)]' (**arg(106, 1173508))
+get_char('c11653') '[convertstrid(1173509)]' (**arg(107, 1173509))
+get_char('c41') '[convertstrid(1173510)]' (**arg(108, 1173510))
+get_char('c41') '[convertstrid(1173511)]' (**arg(109, 1173511))
 return

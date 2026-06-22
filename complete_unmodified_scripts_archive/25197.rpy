@@ -7,5 +7,5 @@ $ update_narrator('c23')
 window show
 with fade_in
 play sfxvoice "bcv_oc002_com_01.ogg"
-c23 '[convertstrid(1210664)]'
+get_char('c23') '[convertstrid(1210664)]' (**arg(1, 1210664))
 return

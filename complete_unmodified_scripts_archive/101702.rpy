@@ -6,19 +6,19 @@ $ update_portrait('sc009_01 5', 'p17', [mid(-13), light], 6)
 $ update_narrator('c173')
 window show
 with fade_in
-c173 '[convertstrid(1221870)]'
+get_char('c173') '[convertstrid(1221870)]' (**arg(1, 1221870))
 hide p17
 $ update_portrait('oc001_01 2', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1221871)]'
+get_char('c13') '[convertstrid(1221871)]' (**arg(2, 1221871))
 hide p1
 $ update_portrait('sc009_01 1', 'p17', [mid(-13), light], 6)
-c173 '[convertstrid(1221872)]'
+get_char('c173') '[convertstrid(1221872)]' (**arg(3, 1221872))
 $ update_portrait('sc009_01 1', 'p17', [mid(-13), light], 6)
-c173 '[convertstrid(1221873)]'
+get_char('c173') '[convertstrid(1221873)]' (**arg(4, 1221873))
 hide p17
 $ update_portrait('oc001_01 12', 'p1', [mid(-2), light], 6)
-c13 '[convertstrid(1221874)]'
+get_char('c13') '[convertstrid(1221874)]' (**arg(5, 1221874))
 hide p1
 $ update_portrait('sc009_01 6', 'p17', [mid(-13), light], 6)
-c173 '[convertstrid(1221875)]'
+get_char('c173') '[convertstrid(1221875)]' (**arg(6, 1221875))
 return
