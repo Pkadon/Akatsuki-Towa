@@ -1182,6 +1182,7 @@ screen history():
                             xalign 0.0
                             xsize 610 - gui.scrollbar_size
                             size gui.text_size
+                            line_spacing 1
 
                     $shown_list.append( (line_label, line_id) )
 
