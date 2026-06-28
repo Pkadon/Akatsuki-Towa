@@ -127,6 +127,10 @@ init -3 python:
         if 1000500 in textdict[lang]:
             textdict[lang][1000500] = textdict[lang][1000500].replace('ジオフロントＢ１区画', '《メゾン・イメルダ》')
 
+        #Typo that was found to have been fixed in one of the mobile version.
+        if 1182028 in textdict[lang]:
+            textdict[lang][1182028] = textdict[lang][1182028].replace('公演', '公園')
+
         #ジオフロントの再調査 is labeled 1/2 when it should be 1/1
         if 17579 in textdict[lang]:
             if textdict[lang][17579].endswith('1/2'):
