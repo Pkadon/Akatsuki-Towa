@@ -15,6 +15,12 @@ image Image8:
     xcenter 0.5
     yanchor 1.0
     ypos 399
+#The mobile version has the Bracer Gunatlet image as "Image6"
+image Image6:
+    Crop((0,168,384,344), "avg_img_001.png")
+    xcenter 0.5
+    yanchor 1.0
+    ypos 399
 
 image Image8001:
     Crop((0,219,512,293), "avg_img_002.png")
