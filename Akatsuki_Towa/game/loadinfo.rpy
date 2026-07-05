@@ -49,6 +49,47 @@ init -3 python:
 
                 d[textid] = textstring
         return d
+        
+    def bytesreader(filename, type='text'):
+        import codecs
+        import struct
+
+        d = dict()
+        with renpy.open_file(filename, directory='MonoBehaviour') as txt:
+            txt = txt.read()
+            is_kor = False
+
+            pos = 4
+            entry_count = struct.unpack_from('<i', txt, pos)[0]
+            pos += 4
+            for entry in range(0, entry_count):
+                textlength = struct.unpack_from('<h', txt, pos)[0]
+                pos += 2
+                textstring = txt[pos:(pos+textlength)].decode('utf-8').replace('\r', '')
+                pos += textlength
+                if type == 'role':
+                    #Skip over string length int, string, _scale int, _xPostion int
+                    folderlength = struct.unpack_from('<h', txt, pos)[0]
+                    pos += 2
+                    pos += folderlength
+                    pos += 8
+
+                    #Korean avg_role has an extra 4-byte int to skip over before reaching the id.
+                    #The first entry of all avg_role files in all languages on all platforms is Nacht (id 1)
+                    #This is to check if we are at the id (pc/chinese mobile) or if there is an unexpected value (kr)
+                    if entry == 0:
+                        if txt[pos:pos+4] == b'\x01\x00\x00\x00': 
+                            is_kor = False
+                        else: 
+                            is_kor = True
+
+                    if is_kor:
+                        pos += 4
+
+                textid = struct.unpack_from('<i', txt, pos)[0]
+                pos += 4
+                d[textid] = textstring
+        return d
 
     def colortext(string, color):
 
@@ -83,12 +124,16 @@ init -3 python:
             avgroledict[lang] = jsonloader(namefilename[lang], namerowkey[lang], nameidkey[lang], namekey[lang], nameencode[lang])
         elif namefilename[lang].endswith('.csv'):
             avgroledict[lang] = csvloader(namefilename[lang], nameidkey[lang], namekey[lang], nameencode[lang])
+        elif namefilename[lang].endswith('.bytes') or namefilename[lang].endswith('.bin'):
+            avgroledict[lang] = bytesreader(namefilename[lang], type='role')
 
         #LOAD SCRIPT FILE
         if textfilename[lang].endswith('.json'):
             textdict[lang] = jsonloader(textfilename[lang], textrowkey[lang], textidkey[lang], textkey[lang], textencode[lang])
         elif textfilename[lang].endswith('.csv'):
             textdict[lang] = csvloader(textfilename[lang], textidkey[lang], textkey[lang], textencode[lang])
+        elif textfilename[lang].endswith('.bytes') or textfilename[lang].endswith('.bin'):
+            textdict[lang] = bytesreader(textfilename[lang], type='text')
 
         #COMBINE EXTRA STRING DICTIONARY
         # Do not do any special compensating for missing strings.
