@@ -109,11 +109,25 @@ screen hotkeys():
 
 init python:
     def cycle_language():
+        if len(persistent.cyclable_languages) == 0:
+            return
+
+        if persistent.cyclable_languages == [preferences.language]:
+            return
+
         global language_list
         langs = list(language_list.keys())
+
+        current_lang = preferences.language
         current_index = langs.index(preferences.language)
 
         new_lang = langs[ (current_index + 1) % len(langs) ]
+        while new_lang not in persistent.cyclable_languages:
+            new_lang = langs[ (current_index + 1) % len(langs) ]
+            if new_lang == current_lang:
+                return
+            
+
         renpy.change_language(new_lang, force=True, rebuild=True)
 
 screen toggle_language():
@@ -878,6 +892,13 @@ style slot_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
+init python:
+    def toggle_cyclable_language(lang):
+        if lang in persistent.cyclable_languages:
+            persistent.cyclable_languages.remove(lang)
+        else:
+            persistent.cyclable_languages.append(lang)
+
 screen preferences():
 
     tag menu
@@ -898,39 +919,56 @@ screen preferences():
                 spacing 10
 
                 vbox:
-                    if renpy.variant("pc") or renpy.variant("web"):
+                    hbox:
+                        vbox:
+                            if renpy.variant("pc") or renpy.variant("web"):
+                                vbox:
+                                    style_prefix "check"
+                                    xsize 140
+                                    spacing 0
+                                    label _("Display")
+                                    vbox:
+                                        textbutton _("Window") action Preference("display", "window")
+                                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+
                         vbox:
                             style_prefix "check"
-                            xsize 140
+                            xsize 165
                             spacing 0
-                            label _("Display")
+                            label _("Skip")
                             vbox:
-                                textbutton _("Window") action Preference("display", "window")
-                                textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                                textbutton _("Unseen Text") action Preference("skip", "toggle")
+                                textbutton _("After Choices") action Preference("after choices", "toggle")
+                                textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
                     if len(language_list) > 1:
                         vbox:
                             style_prefix "check"
-                            xsize 140
+                            xsize 260
                             spacing 0
-                            label _("Language")
-                            vbox:
-                                for key in language_list:
-                                    textbutton _(language_list[key]):
-                                        sensitive (preferences.language != key)
-                                        action [
-                                            Language(key)
-                                        ]
+                            if renpy.variant("pc"):
+                                label _("Language / Cyclable")
+                            else:
+                                label _("Language")
+                            hbox:
+                                vbox:
+                                    for key in language_list:
+                                        textbutton _(language_list[key]):
+                                            sensitive (preferences.language != key)
+                                            action [
+                                                Language(key)
+                                            ]
+                                if renpy.variant("pc"):
+                                    null width 40
+                                    vbox:
+                                        for key in language_list:
+                                            textbutton _('/'):
+                                                xsize 25
+                                                text_xpos -10
+                                                selected (key in persistent.cyclable_languages)
+                                                action Function(toggle_cyclable_language, key)
+                                                
 
-                vbox:
-                    style_prefix "check"
-                    xsize 165
-                    spacing 0
-                    label _("Skip")
-                    vbox:
-                        textbutton _("Unseen Text") action Preference("skip", "toggle")
-                        textbutton _("After Choices") action Preference("after choices", "toggle")
-                        textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
                 vbox:
                     style_prefix "check"

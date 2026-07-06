@@ -43,6 +43,14 @@ define language_list = {
     #'lang2': 'English'
 }
 
+### The languages that the language-switching hotkeys will cycle through
+### Probably best to keep it 2-3 languages long.
+### This list can be modified by the user later.
+default persistent.cyclable_languages = [
+    'lang1',
+    #'lang2'
+]
+
 ### Set the default language that will be used on first startup
 define config.default_language = 'lang1'
 
