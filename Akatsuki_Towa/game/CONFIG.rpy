@@ -32,28 +32,6 @@ Cutscenes recreated by Pikadon using Ren'Py - ({a=https://github.com/Pkadon/Akat
 ### The icon displayed on the taskbar or dock.
 define config.window_icon = "icon/FormIcon.jpg"
 
-###########
-# Languages
-###########
-### Add languages to the preference menu here. (WIP)
-### The dict key will be (re)used in many places throughout the code and in this config file.
-### The dict value is the string that will be displayed on the Preferences screen.
-define language_list = {
-    'lang1': 'Japanese', 
-    #'lang2': 'English'
-}
-
-### The languages that the language-switching hotkeys will cycle through
-### Probably best to keep it 2-3 languages long.
-### This list can be modified by the user later.
-default persistent.cyclable_languages = [
-    'lang1',
-    #'lang2'
-]
-
-### Set the default language that will be used on first startup
-define config.default_language = 'lang1'
-
 ###############
 # Line breaks
 ###############
@@ -218,6 +196,29 @@ init python early:
 ### (mainly to account for the added buttons at the top)
     touch_portrait_scale = .95
 
+###########
+# Languages
+###########
+### Add languages to the preference menu here. (WIP)
+### The dict key will be (re)used in many places throughout the code and in this config file.
+### The dict value is the string that will be displayed on the Preferences screen.
+define language_list = {
+    "lang1": "Japanese", 
+    #"lang2": "English"
+}
+
+### The languages that the language-switching hotkeys will cycle through
+### Probably best to keep it 2-3 languages long.
+### This list can be modified by the user later.
+default persistent.cyclable_languages = [
+    "lang1",
+    #"lang2"
+]
+
+### Set the default language that will be used on first startup
+define config.default_language = "lang1"
+
+init python early:
 #=======================================================================================
 #===================================TRANSLATION=========================================
 #=======================================================================================
