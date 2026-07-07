@@ -107,15 +107,23 @@ init -3 python:
 
         return string
 
+    #==============================================================================
+
     #LOAD MENU DATA
     menudata = dict()
     with renpy.open_file('episodelist.json', encoding="utf-8") as txt:
         menudata = json.load(txt)
 
+    #Load the list of loop points to use for looping the bgm
+    with renpy.open_file('bgm.json', encoding='utf-8') as txt:
+        bgm_loop_dict = json.load(txt)
+
+    #==============================================================================
+
+    #LOAD SCRIPT FILES
     avgroledict = dict()
     textdict = dict()
-    for lang in language_list:
-
+    def load_text(lang):
         avgroledict[lang] = dict()
         textdict[lang] = dict()
 
@@ -194,6 +202,56 @@ init -3 python:
 
     #==============================================================================
 
-    #Load the list of loop points to use for looping the bgm
-    with renpy.open_file('bgm.json', encoding='utf-8') as txt:
-        bgm_loop_dict = json.load(txt)
+    #DEFINE RENPY SPEAKERS
+    char_dict = dict()
+    for lang in language_list:
+        char_dict[lang] = dict()
+
+    def define_character(lang, name, char_id, **kwargs):
+
+        ### show_char_id is needed to be able to pass the char_id to the say screen
+        ### so that it can update the narrator.
+        char_obj = Character(name, show_char_id=char_id, **kwargs)
+
+        if lang:
+            char_dict[lang][char_id] = char_obj
+        else:
+            char_dict[char_id] = char_obj
+
+    def load_roles(lang):
+        for id in avgroledict[lang]:
+            define_character(lang, avgroledict[lang][id], f'c{id}1', namebox_xalign=0.02)
+            define_character(lang, avgroledict[lang][id], f'c{id}3', namebox_xalign=0.98)
+
+define config.all_character_callbacks = [typewriter]
+
+init python:
+
+    ### need to keep a character with id "nobody" for possible compatibility issues
+    define_character(lang=None, name=None, char_id='nobody')
+
+    ### This is a free no-nameplate speaker with white text used in spritetest.
+    ### There needs to be a Character object with char_id=None somewhere in the script
+    ### so it can be used as the default value to reset the narrator, so it is not 
+    ### recommended to delete this without replacing it somewhere else first.
+    define_character(lang=None, name=None, char_id=None)
+
+    ###for no-nameplate messages with green text
+    define_character(lang=None, name=None, char_id='c0', what_color='#4FFFB0')
+
+    #==============================================================================
+    
+    loaded_languages = []
+    # Startup loading
+    def init_language(lang):
+        global loaded_languages
+
+        if lang not in loaded_languages:
+            load_text(lang)
+            load_roles(lang)
+            loaded_languages.append(lang)
+
+    if preferences.language:
+        init_language(preferences.language)
+    else:
+        init_language(config.default_language)

@@ -80,4 +80,9 @@ init -3 python:
 
         filename = tag + filename
         renpy.music.play(filename, loop=loop, if_changed=if_changed, **qwargs)
+
+    def change_language(lang):
+        init_language(lang)
+
+        renpy.change_language(lang, force=True, rebuild=True)
         

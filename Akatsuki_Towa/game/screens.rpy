@@ -128,7 +128,7 @@ init python:
                 return
             
 
-        renpy.change_language(new_lang, force=True, rebuild=True)
+        change_language(new_lang)
 
 screen toggle_language():
     key ["l", "e"] action Function(cycle_language)
@@ -955,8 +955,9 @@ screen preferences():
                                     for key in language_list:
                                         textbutton _(language_list[key]):
                                             sensitive (preferences.language != key)
+                                            selected (preferences.language == key)
                                             action [
-                                                Language(key)
+                                                Function(change_language, key)
                                             ]
                                 if renpy.variant("pc"):
                                     null width 40
