@@ -17,8 +17,10 @@ init python:
             text = front_tag + text + end_tag
         return text
 
-    def calculate_text_anchor(textobject, anchors):
-        width, height = textobject.size()
+    def calculate_text_anchor(text, anchors):
+        if isinstance(text, str):
+            text = Text(text)
+        width, height = text.size()
         xanchor = int(width * anchors[0])
         yanchor = int(height * anchors[1])
 
@@ -116,10 +118,6 @@ init python:
     style.tabbutton_text.font = tabfont # is in CONFIG.rpy
     style.tabbutton_text.color = '#505050'
     # tabtextsize needs to be changed from inside CONFIG.rpy
-    tabbutton_texttags = {
-        'font':  tabfont, # is in CONFIG.rpy
-        'color': '#505050'
-    }
 
     style.goldtab = Style('tabbutton')
     style.goldtab.background = Frame("booktab1")
@@ -145,12 +143,11 @@ init python:
     style.scene_button.padding = (14, 13, 14, 13) #(left, top, right, bottom)
     style.scene_button.activate_sound = "common_select.ogg"
 
-    scenebutton_inner_space = calculate_inner_space('scene_button')
+    style.scene_button_text = Style('text')
+    style.scene_button_text.font = scenebutton_font # is in CONFIG.rpy
+    style.scene_button_text.text_align = 0.5
 
-    scene_button_texttags = {
-        'font':  scenebutton_font, # is in CONFIG.rpy
-        'text_align': 0.5
-    }
+    scenebutton_inner_space = calculate_inner_space('scene_button')
 
 # Styles used for the questlog screen
     style.questlog_text = Style('text')
@@ -467,23 +464,23 @@ screen quest(data):
 
                                 scenename_fit += f'\n{info_fit}'
 
-                            combined_fit = Text(scenename_fit, **scene_button_texttags)
-                            combined_anchor = calculate_text_anchor(combined_fit, (0.5, 0.5))
+                            scenename_anchor = calculate_text_anchor(scenename_fit, (0.5, 0.5))
 
                             # Cache the result
                             scene[preferences.language] = {
-                                'combined_fit': combined_fit,
-                                'combined_anchor': combined_anchor
+                                'scenename_fit': scenename_fit,
+                                'scenename_anchor': scenename_anchor
                             }
 
                         else:
-                            combined_fit = scene[preferences.language]['combined_fit']
-                            combined_anchor = scene[preferences.language]['combined_anchor']
+                            scenename_fit = scene[preferences.language]['scenename_fit']
+                            scenename_anchor = scene[preferences.language]['scenename_anchor']
 
                     button:
-                        style_prefix "scene"
-                        text combined_fit:
-                            anchor combined_anchor
+                        style "scene_button"
+                        text scenename_fit:
+                            style "scene_button_text"
+                            anchor scenename_anchor
                             pos ((scenebutton_inner_space[0]//2), (scenebutton_inner_space[1]//2))
                         action Replay(scene['avg'], locked=False)
 
