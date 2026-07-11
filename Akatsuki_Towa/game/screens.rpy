@@ -121,9 +121,11 @@ init python:
         current_lang = preferences.language
         current_index = langs.index(preferences.language)
 
-        new_lang = langs[ (current_index + 1) % len(langs) ]
+        new_index = current_index + 1
+        new_lang = langs[ new_index % len(langs) ]
         while new_lang not in persistent.cyclable_languages:
-            new_lang = langs[ (current_index + 1) % len(langs) ]
+            new_index += 1
+            new_lang = langs[ new_index % len(langs) ]
             if new_lang == current_lang:
                 return
             
