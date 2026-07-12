@@ -54,15 +54,34 @@ init python early:
 ### If you don't need separate fonts for everything, just change this one:
     default_font = "font/NotoSansJP-Regular.ttf"
 
-### These are all default Ren'Py settings, don't know exactly what they'll apply to at this point.
-### Also check the button-specific fonts further down in the "Scene Select" section of this file.
-#=================================================================================================
 ### The font used for out-of-game text.
     gui.interface_text_font = default_font
 
 ### The font used by the button.
     gui.button_text_font = default_font
 
+### The font used for in-game text. (mainly dialogue)
+    gui.text_font = default_font
+
+### The font used for character names.
+    gui.name_text_font = default_font
+
+######
+# If you are in need of further customization, you may be able to further modify font properties of individual styles.
+# A "translate python" block should allow the font to be changed to accomodate different languages, as well, 
+# although I would recommend placing it at the bottom of this file, or in a separate .rpy file.
+# keep in mind that you would need a "translate python" block for the initial language, as well.
+#translate lang1 python:
+#    gui.interface_text_font = "default_font.ttf"
+#    gui.button_text_font = "default_font.ttf"
+#    gui.text_font = "default_font.ttf"
+#    gui.name_text_font = "default_font.ttf"
+
+#translate lang2 python:
+#    gui.interface_text_font = "translation_font.ttf"
+#    gui.button_text_font = "translation_font.ttf"
+#    gui.text_font = "translation_font.ttf"
+#    gui.name_text_font = "translation_font.ttf"
 #################################################################
 # Dialogue Window
 #################################################################
@@ -81,17 +100,11 @@ init python early:
 ### The number of padding pixels inbetween lines of dialogue
     gui.dialogue_line_spacing = 0
     small_dialogue_line_spacing = -5
-
-### The font used for in-game text. (mainly dialogue)
-    gui.text_font = default_font
 #-----------------------------------------------------------
 
 ### The size of character speaker names.
     gui.name_text_size = 22
     small_name_text_size = 25
-
-### The font used for character names.
-    gui.name_text_font = default_font
 #-----------------------------------------------------------
 
 ### The dialogue box's height (starting from the bottom)
@@ -116,9 +129,6 @@ init python early:
     sidearea_button_textsize = 25
     touch_sidearea_button_textsize = 37
 
-### The font used for all side buttons
-    sidearea_button_font = default_font
-
 ### Set to False to hide the "Jump" button that opens the code input screen
 ### used to manually skip to a cutscene without needing a button
     add_jump_button = True
@@ -141,9 +151,6 @@ init python early:
     tabtextsize = 20
     touch_tabtextsize = 29
 
-### The font used by the silver and gold buttons
-    tabfont = default_font
-
 ### I don't know if it's the font or the button image being weird, 
 ### but this was necessary to center the text over these buttons (or at least try to...)
 ### Do not worry about this if you don't need to change the font.
@@ -164,9 +171,6 @@ init python early:
     scenebutton_textsize = 18
     touch_scenebutton_textsize = 27
 
-### The font used by the scene buttons
-    scenebutton_font = default_font
-
 ### Number of columns to separate scene buttons into
 ### (recommended 1 or 2, will require resizing)
     scenebutton_columns = 2
@@ -178,9 +182,6 @@ init python early:
 ### Text size for all questlogs:
     logtextsize = 18
     touch_logtextsize = 23
-
-### The font used by the questlog text
-    logfont = default_font
 
 #################################
 # Choice Menu

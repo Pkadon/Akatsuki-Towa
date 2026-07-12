@@ -103,7 +103,6 @@ init python:
 
     style.sidearea_button_text = Style('text')
     style.sidearea_button_text.pos = (0, 0.5)
-    style.sidearea_button_text.font = sidearea_button_font
     style.sidearea_button_text.color = '#505050'
     style.sidearea_button_text.hover_color = "#656565"
     style.sidearea_button_text.selected_color = "#808080"
@@ -115,7 +114,6 @@ init python:
 
     style.tabbutton_text = Style('text')
     style.tabbutton_text.pos = (0.5,0.5)
-    style.tabbutton_text.font = tabfont # is in CONFIG.rpy
     style.tabbutton_text.color = '#505050'
     # tabtextsize needs to be changed from inside CONFIG.rpy
 
@@ -144,7 +142,6 @@ init python:
     style.scene_button.activate_sound = "common_select.ogg"
 
     style.scene_button_text = Style('text')
-    style.scene_button_text.font = scenebutton_font # is in CONFIG.rpy
     style.scene_button_text.text_align = 0.5
 
     scenebutton_inner_space = calculate_inner_space('scene_button')
@@ -154,7 +151,6 @@ init python:
     style.questlog_text.yalign = 0.0
     style.questlog_text.text_align = 0
     style.questlog_text.size = logtextsize
-    style.questlog_text.font = logfont
 
 # Styles used for the different parts of the book background
     #Needed to be separated from the image for the corners in order to be able to tile it
