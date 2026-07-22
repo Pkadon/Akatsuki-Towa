@@ -62,7 +62,10 @@ for key in list(questlog_dict.keys()):
 ########################################################
 errorcount = 0
 ###now make menu from the new dictionaries
-episodelist = []
+episodelist = {
+	'menudata': [],
+	'questlog_data': questlog_dict
+}
 for category in combinedscenelist:
 	categorydict = dict()
 	
@@ -92,7 +95,7 @@ for category in combinedscenelist:
 		if 'questID' in quest and len(quest['questID']) > 0:
 			for logid in quest['questID']:
 				if logid in questlog_dict:
-					questdict['logs'].append(questlog_dict[logid])
+					questdict['logs'].append(logid)
 					
 				else:
 					errorcount += 1
@@ -130,7 +133,7 @@ for category in combinedscenelist:
 			
 			questdict['scenes'].append(scenedict)
 		categorydict['quests'].append(questdict)
-	episodelist.append(categorydict)
+	episodelist['menudata'].append(categorydict)
 with open((outputdirec / 'episodelist.json'), 'w', encoding='utf-8') as f:
 	json.dump(episodelist, f, ensure_ascii=False)
 

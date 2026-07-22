@@ -110,9 +110,10 @@ init -3 python:
     #==============================================================================
 
     #LOAD MENU DATA
-    menudata = dict()
     with renpy.open_file('episodelist.json', encoding="utf-8") as txt:
-        menudata = json.load(txt)
+        combined_data = json.load(txt)
+    menudata = combined_data['menudata']
+    questlog_data = combined_data['questlog_data']
 
     #Load the list of loop points to use for looping the bgm
     with renpy.open_file('bgm.json', encoding='utf-8') as txt:

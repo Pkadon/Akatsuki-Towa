@@ -13,7 +13,7 @@ scriptdirec = renpydirec / 'scripts'
 
 # load episodelist
 with open(episodelist, 'r', encoding='utf-8') as txt:
-	episodelist = json.load(txt)
+	episodelist = json.load(txt)['menudata']
 
 # load choicelist	
 with open(choicelist, 'r', encoding='utf-8') as txt:

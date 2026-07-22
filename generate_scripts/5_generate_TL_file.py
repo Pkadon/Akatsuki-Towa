@@ -154,7 +154,9 @@ def processavg(avg):
 			print(f'Could not find "{avgfile}", skipping. - Ignore this if it did not need to be translated.')
 
 with open(episodelist, 'r', encoding='utf-8') as txt:
-	episodelist = json.load(txt)
+	combined_data = json.load(txt)
+	episodelist = combined_data['menudata']
+	questlog_data = combined_data['questlog_data']
 
 catcount = 0
 questcount = 0
@@ -205,7 +207,10 @@ for chapter in episodelist:
 					
 				
 		logcount = 0
-		for log in quest['logs']:
+		for logid in quest['logs']:
+			logid = str(logid)
+			log = questlog_data[logid]
+
 			logcount += 1
 			questtype = log['type']
 			

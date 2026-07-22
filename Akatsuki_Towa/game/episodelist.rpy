@@ -389,24 +389,23 @@ screen quest(data):
     python:
         # Left sidebar "Log" buttons
         buttonlist = []
-        for log_index in range(0, len(data['logs'])):
-            log = data['logs'][log_index]
-
+        lognumber = 0
+        for log_id in data['logs']:
+            lognumber += 1
             if len(data['logs']) == 1:
                 loglabel = logtext
             else:
-                lognumber = (log_index + 1)
                 loglabel = f'{logtext} {lognumber}'
 
             buttonlist.append(
                 {
                     'text': loglabel, 
                     'properties': {
-                        'selected': (showing_log == log_index),
+                        'selected': (showing_log == log_id),
                         'activate_sound': 'other_7004.ogg',
                         'action': [
-                            ShowMenu("questlog", data['logs'], log_index),
-                            SetVariable('showing_log', log_index)
+                            ShowMenu("questlog", log_id),
+                            SetVariable('showing_log', log_id)
                         ]
                     }
                 }
@@ -487,13 +486,15 @@ screen quest(data):
 
 
 # The menu that opens when you click a "Log" button from within the "quest" menu
-screen questlog(log_list, current_index):
+screen questlog(log_id):
     tag log
 
     use toggle_language()
 
     python:
-        data = log_list[current_index]
+        # dictionary key is a string because it has been loaded from json
+        log_id = str(log_id)
+        data = questlog_data[log_id]
 
         if data['type'] == 1: prefix = logmain[preferences.language] + ' '
         elif data['type'] == 2: prefix = logsub[preferences.language] + ' '
