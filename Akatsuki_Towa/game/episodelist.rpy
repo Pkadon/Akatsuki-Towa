@@ -294,7 +294,7 @@ screen x_button(screen_title, icon, additional_actions=[]):
     tag x
     button:
         style "x_button"
-        action [Hide(screen_title), Return()] + additional_actions
+        action [Hide(screen_title)] + additional_actions
 
         if icon == 'x':
             add Frame("images_free/gui/x.png"):
@@ -372,7 +372,7 @@ screen episodelist():
                                 text_anchor questname_anchor
                                 action ShowMenu("quest", quest)
 
-    use x_button('episodelist', 'x')
+    use x_button('episodelist', 'x', additional_actions=[Return()])
 
 
 
@@ -392,6 +392,7 @@ screen quest(data):
         lognumber = 0
         for log_id in data['logs']:
             lognumber += 1
+
             if len(data['logs']) == 1:
                 loglabel = logtext
             else:
