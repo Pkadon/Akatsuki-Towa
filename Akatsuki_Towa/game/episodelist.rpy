@@ -355,6 +355,7 @@ screen episodelist():
                     vpgrid:
                         cols 1
                         xsize (tabwidth + gui.scrollbar_size)
+                        yfill True
                         draggable True
                         mousewheel True
                         scrollbars "vertical"
