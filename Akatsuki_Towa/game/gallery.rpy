@@ -506,10 +506,6 @@ screen gallery_menu():
         if persistent.spoiler_filter_set == False:
             action Function(renpy.show_screen, 'spoiler_checkboxes')
 
-        # The gallery will inherit the music that the main menu was playing
-        # (until it's changed by the gallery selector
-        action SetVariable('gallery_music', persistent.mainmenu_music)
-
     on "hide" action Function(clear_gallery)
 
     key "K_ESCAPE" action Function(renpy.show_screen, 'gallery_help')
@@ -931,8 +927,6 @@ screen gallery_help():
 
 ################################################################
 label gallery:
-if persistent.mainmenu_music != 'none':
-    $play_music(persistent.mainmenu_music)
 $quick_menu = False
 call screen gallery_menu
 $quick_menu = True
