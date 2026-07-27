@@ -332,6 +332,7 @@ screen episodelist():
         vpgrid:
             rows 1
             scrollbars "horizontal"
+            scrollbar_unscrollable "hide"
 
             if not renpy.variant('touch'):
                 ysize (paper_strip_pos + gui.scrollbar_size)
