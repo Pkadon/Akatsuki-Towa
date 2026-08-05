@@ -1068,19 +1068,19 @@ def make_edits(script_json, avgID):
 		)
 	#3/3 (x2)
 	elif avgID in ['22211', '22212']:
-		#Add indoor background and bgm
+		#Add outdoor background and bgm
 		insert_schedule(script_json,
-			('backgrounds', {'id': 39, 'start': 1, 'end': None}),
-			('bgm', {'id': 112, 'start': 1, 'end': None})
+			('backgrounds', {'id': 36, 'start': 1, 'end': None}),
+			('bgm', {'id': 164, 'start': 1, 'end': None})
 		)
 	
 	#エルモ温泉の魔獣退治(2)
 	#2/2
 	elif avgID == '12223':
-		#Change the first part to use outdoor background and bgm
+		#Change it to use outdoor background and bgm
 		insert_schedule(script_json,
-			('backgrounds', {'id': 36, 'start': 1, 'end': 5}),
-			('bgm', {'id': 164, 'start': 1, 'end': 5})
+			('backgrounds', {'id': 36, 'start': 1, 'end': None}),
+			('bgm', {'id': 164, 'start': 1, 'end': None})
 		)
 	#unused 2/2's
 	elif avgID in ['20108', '20109']:
@@ -1089,10 +1089,10 @@ def make_edits(script_json, avgID):
 		script_json['dialogueFrames'][0]['expression'] = 5
 		script_json['dialogueFrames'][16]['character']['charID'] = 700
 		script_json['dialogueFrames'][16]['expression'] = 1
-		#Add indoor background and bgm
+		#Add outdoor background and bgm
 		insert_schedule(script_json,
-			('backgrounds', {'id': 39, 'start': 1, 'end': None}),
-			('bgm', {'id': 112, 'start': 1, 'end': None})
+			('backgrounds', {'id': 36, 'start': 1, 'end': None}),
+			('bgm', {'id': 164, 'start': 1, 'end': None})
 		)
 		#Add charpos
 		add_charpos(script_json, {
