@@ -1276,10 +1276,10 @@ def make_edits(script_json, avgID):
 	#2/3 (extra dialogue)
 	elif avgID == '29048':
 		#Add the Remiferia bgm
-		#Add Ardent Downtown background
+		#Add Ardent New Town background
 		insert_schedule(script_json,
 			('bgm', {'id': 6, 'start': 1, 'end': None}),
-			('backgrounds', {'id': 49, 'start': 1, 'end': None})
+			('backgrounds', {'id': 50, 'start': 1, 'end': None})
 		)
 		#Add charpos
 		add_charpos(script_json, {
