@@ -445,7 +445,7 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		if contentSize != 20:
 			#don't want to use the text size values for the scenes that are 
 			#supposed to be "minimized" in the corner (template = 1)
-			noresizelist = ['10134', '20002', '20112', '20113', '29135'] #NOTE - not 100% sure on 10134
+			noresizelist = ['10134', '10405', '20002', '20112', '20113', '29135'] #NOTE - not 100% sure on 10134
 			if contentSize <= 16 and template == 1: pass
 			#the files in noresizelist don't have template set to 1, but still need to be filtered
 			elif fname in noresizelist: pass
