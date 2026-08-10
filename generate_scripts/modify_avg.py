@@ -1612,6 +1612,11 @@ def make_edits(script_json, avgID):
 
 ###########################################################################
 #Chapter 7
+	#試験班解散 1/6
+	elif avgID == '10701':
+		#Remove the memory overlay from the final frame
+		script_json['memory'][-1]['end'] = 80
+	
 	#巨大魔獣防衛線２ 6/6
 	elif avgID == '10752':
 		#Change the Ainsel background to use the other, more commonly used version

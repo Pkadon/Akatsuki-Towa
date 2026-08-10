@@ -257,6 +257,7 @@ $ update_portrait('oc002_01 22', 'p2', [l(-3), light, flip], 6)
 $ update_narrator('c21')
 with fade
 get_char('c21') '[convertstrid(1170080)]' (**arg(80, 1170080))
+hide memoryoverlay
 hide p2
 $ update_portrait('oc001_01 13', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
