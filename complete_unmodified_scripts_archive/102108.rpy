@@ -1,11 +1,11 @@
-label avg102108:
+label avg102108(trans=fade_in):
 
 stop music
 scene placeholderbackground
 $ update_portrait('sc013_01 5', 'p21', [l(-12), light, flip], 6)
 $ update_narrator('c211')
 window show
-with fade_in
+with trans
 get_char('c211') '[convertstrid(1218830)]' (**arg(1, 1218830))
 $ update_portrait('sc013_01 5', 'p21', [l(-12), dark, flip], 5)
 $ update_portrait('oc001_01 1', 'p1', [r(-2), light], 6)
@@ -21,4 +21,4 @@ menu:
         call avg102110
     '[convertstrid(1218835)]':
         call avg102111
-return
+return _return

@@ -61,14 +61,22 @@ class GameState:
 				line += '\n'
 			self.lines.append(line)
 			
-	def write_file(self, outpath):
+	def write_file(self, outpath, has_choices=False):
 		out = Path(outpath) / f'{self.avgcode}.rpy'
 		with open(out, 'w', encoding='utf-8') as w:
-			w.write(f"label avg{self.avgcode}:\n")
+			label = f'avg{self.avgcode}'
+			w.write(f"label {label}(trans=fade_in):\n")
 			w.write('\n')
 			for line in self.lines:
 				w.write(line)
-			w.write('return')
+
+			if has_choices:
+			# If this scene calls a second scene from a choice, 
+			# then return the label that it receives from that scene instead.
+				w.write('return _return')
+			else:
+			# Otherwise, return the label of the current scene that just ended.
+				w.write(f'return "{label}"')
 	
 	def hide_portraits(self, *positions, write=True, clear=True):
 		if 'all' in positions:
@@ -199,7 +207,7 @@ class GameState:
 		if self.first_fade == True:
 			self.add_line(
 				'window show\n'
-				'with fade_in\n'
+				'with trans\n'
 				)
 			self.first_fade = False
 			
@@ -464,10 +472,11 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 		#make sure it doesn't try to show the dark portrait after the portrait has left
 		if CharFadeOut == 1:
 			state.hide_portraits(portraitpos)
-		
 
 	#FIGURE OUT IF THERE ARE CHOICES
+	choices = False
 	if script_json["ending"]["type"] == 1:
+		choices = True
 		state.add_line('menu:\n')
 		#keep dialogue displayed during choice menu:
 		state.add_line('    extend ""\n')
@@ -478,4 +487,4 @@ for cutscenepath in list(scriptdirec.glob('*.json')):
 			state.add_line(f"    '{choicetext}':\n")
 			state.add_line(f"        call avg{choiceavgID}\n")
 
-	state.write_file(targetdirec)
+	state.write_file(targetdirec, has_choices=choices)

@@ -1,11 +1,11 @@
-label avg12537:
+label avg12537(trans=fade_in):
 
 $ play_music("ED6301.ogg")
 scene placeholderbackground
 $ update_portrait('oc001_01 8', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 window show
-with fade_in
+with trans
 get_char('c13') '[convertstrid(1151771)]' (**arg(1, 1151771))
 $ update_portrait('oc001_01 8', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc002_01 10', 'p2', [l(-3), light, flip], 6)
@@ -130,4 +130,4 @@ get_char('c12061') '[convertstrid(1151813)]' (**arg(43, 1151813))
 hide p2
 $ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 get_char('c13') '[convertstrid(1151814)]' (**arg(44, 1151814))
-return
+return "avg12537"

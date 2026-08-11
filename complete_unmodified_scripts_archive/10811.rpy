@@ -1,11 +1,11 @@
-label avg10811:
+label avg10811(trans=fade_in):
 
 $ play_music("ed7151.ogg")
 scene avg_bg_004
 show memoryoverlay zorder 2
 $ update_narrator('c0')
 window show
-with fade_in
+with trans
 get_char('c0') '[convertstrid(1182162)]' (**arg(1, 1182162))
 play sfx2 "other_7079.ogg"
 get_char('c13091') '[convertstrid(1182163)]' (**arg(2, 1182163))
@@ -84,4 +84,4 @@ $ update_portrait('st056_01 4', 'p1349', [r(-6), dark], 5)
 get_char('c14931') '[convertstrid(1182211)]' (**arg(50, 1182211))
 $ update_portrait('st056_01 1', 'p1349', [r(-6), light], 6)
 get_char('c13493') '[convertstrid(1182212)]' (**arg(51, 1182212))
-return
+return "avg10811"

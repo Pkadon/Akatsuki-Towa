@@ -1,10 +1,10 @@
-label avg25192:
+label avg25192(trans=fade_in):
 
 stop music
 scene placeholderbackground
 $ update_narrator('c20133')
 window show
-with fade_in
+with trans
 play sfx2 "other_7041.ogg"
 get_char('c20133') '[convertstrid(1210646)]' (**arg(1, 1210646))
 menu:
@@ -13,4 +13,4 @@ menu:
         call avg25193
     '[convertstrid(1214996)]':
         call avg25026
-return
+return _return

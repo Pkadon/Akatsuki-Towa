@@ -1,11 +1,11 @@
-label avg19013:
+label avg19013(trans=fade_in):
 
 stop music
 scene avg_bg_023
 $ update_portrait('oc002_01 12', 'p2', [r(-3), light], 6)
 $ update_narrator('c23')
 window show
-with fade_in
+with trans
 get_char('c23') '[convertstrid(1216114)]' (**arg(1, 1216114, size=(0.9)))
 $ update_portrait('oc002_01 12', 'p2', [r(-3), dark], 5)
 $ update_portrait('sc049_01 5', 'p56', [l(-8), light, flip], 6)
@@ -46,4 +46,4 @@ menu:
         call avg19016
     '[convertstrid(1216143)]':
         call avg19017
-return
+return _return

@@ -1,11 +1,11 @@
-label avg12102:
+label avg12102(trans=fade_in):
 
 stop music
 scene avg_bg_012
 $ update_portrait('st051_01 6', 'p709', [r(-9), light], 6)
 $ update_narrator('c7093')
 window show
-with fade_in
+with trans
 play sfx2 "other_7042.ogg"
 get_char('c7093') '[convertstrid(1128007)]' (**arg(1, 1128007))
 $ update_portrait('st051_01 6', 'p709', [r(-9), dark], 5)
@@ -44,4 +44,4 @@ menu:
         call avg12104
     '[convertstrid(1100002)]':
         call avg12103
-return
+return _return

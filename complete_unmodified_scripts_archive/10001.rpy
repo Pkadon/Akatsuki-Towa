@@ -1,11 +1,11 @@
-label avg10001:
+label avg10001(trans=fade_in):
 
 $ play_music("ED6516.ogg")
 scene avg_bg_070
 show memoryoverlay zorder 2
 $ update_narrator('c5001')
 window show
-with fade_in
+with trans
 play sfx2 "other_7085.ogg"
 play sfxvoice "avg_vocal_roi01.ogg"
 get_char('c5001') '[convertstrid(1002967)]' (**arg(1, 1002967, size=(1.5))) with shake
@@ -60,4 +60,4 @@ $ update_portrait('oc001_01 9', 'p1', [r_midback(-2), light], 6)
 play sfx2 "fight_6024.ogg"
 play sfxvoice "avg_vocal_na12.ogg"
 get_char('c13') '[convertstrid(1100040)]' (**arg(19, 1100040))
-return
+return "avg10001"

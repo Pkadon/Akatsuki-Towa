@@ -1,4 +1,4 @@
-label avg10723:
+label avg10723(trans=fade_in):
 
 $ play_music("ed7515.ogg")
 scene avg_bg_023
@@ -6,7 +6,7 @@ show memoryoverlay zorder 2
 $ update_portrait('oc001_01 4', 'p1', [r(-2), light], 6)
 $ update_narrator('c13')
 window show
-with fade_in
+with trans
 get_char('c13') '[convertstrid(1171509)]' (**arg(1, 1171509))
 $ update_portrait('oc001_01 4', 'p1', [r(-2), dark], 5)
 $ update_portrait('oc004_01 4', 'p4', [l(-5), light, flip], 6)
@@ -84,4 +84,4 @@ get_char('c51') '[convertstrid(1171537)]' (**arg(29, 1171537))
 $ update_portrait('oc005_01 19', 'p5', [l(-6), dark, flip], 5)
 $ update_portrait('oc002_01 10', 'p2', [r(-3), light], 6)
 get_char('c23') '[convertstrid(1171538)]' (**arg(30, 1171538))
-return
+return "avg10723"

@@ -1,10 +1,10 @@
-label avg101730:
+label avg101730(trans=fade_in):
 
 stop music
 scene placeholderbackground
 $ update_portrait('sc009_01 1', 'p17', [mid(-13), light], 6)
 $ update_narrator('c173')
 window show
-with fade_in
+with trans
 get_char('c173') '[convertstrid(1221953)]' (**arg(1, 1221953))
-return
+return "avg101730"

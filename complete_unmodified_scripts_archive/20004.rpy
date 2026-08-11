@@ -1,11 +1,11 @@
-label avg20004:
+label avg20004(trans=fade_in):
 
 $ play_music("ed9997.ogg")
 scene placeholderbackground
 $ update_portrait('oc001_01 19', 'p1', [mid(-2), light], 6)
 $ update_narrator('c13')
 window show
-with fade_in
+with trans
 play sfxvoice "bcv_oc001_hurt_01.ogg"
 get_char('c13') '[convertstrid(1000214)]' (**arg(1, 1000214))
 hide p1
@@ -28,4 +28,4 @@ play sfx2 "common_remind.ogg"
 get_char('c0') '[convertstrid(1000220)]' (**arg(7, 1000220))
 get_char('c0') '[convertstrid(1000221)]' (**arg(8, 1000221))
 get_char('c0') '[convertstrid(1000223)]' (**arg(9, 1000223))
-return
+return "avg20004"

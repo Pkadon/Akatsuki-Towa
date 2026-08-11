@@ -1,11 +1,11 @@
-label avg29102:
+label avg29102(trans=fade_in):
 
 stop music
 scene placeholderbackground
 $ update_portrait('oc001_01 1', 'p1', [mid(-2), light], 6)
 $ update_narrator('c13')
 window show
-with fade_in
+with trans
 play sfxvoice "avg_vocal_na15.ogg"
 get_char('c13') '[convertstrid(1218014)]' (**arg(1, 1218014))
 hide p1
@@ -19,4 +19,4 @@ hide p9
 $ update_portrait('oc001_01 18', 'p1', [mid(-2), light], 6)
 play sfxvoice "avg_vocal_na06.ogg"
 get_char('c13') '[convertstrid(1218018)]' (**arg(5, 1218018))
-return
+return "avg29102"

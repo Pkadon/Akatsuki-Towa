@@ -1,10 +1,10 @@
-label avg29007:
+label avg29007(trans=fade_in):
 
 stop music
 scene placeholderbackground
 $ update_narrator('c0')
 window show
-with fade_in
+with trans
 get_char('c0') '[convertstrid(1216042)]' (**arg(1, 1216042))
 get_char('c0') '[convertstrid(1216043)]' (**arg(2, 1216043))
 get_char('c0') '[convertstrid(1216044)]' (**arg(3, 1216044))
@@ -43,4 +43,4 @@ menu:
         call avg29008
     '[convertstrid(1216058)]':
         call avg29009
-return
+return _return

@@ -1,11 +1,11 @@
-label avg10440:
+label avg10440(trans=fade_in):
 
 $ play_music("ed7544.ogg")
 scene placeholderbackground
 $ update_narrator('c11681')
 $ update_portrait('st038_02 2', 'p1168', [l(-9), light, flip], 6)
 window show
-with fade_in
+with trans
 $ update_portrait('st038_02 2', 'p1168', [l(-9), l_shake, light, flip], 6)
 get_char('c11681') '[convertstrid(1141660)]' (**arg(1, 1141660))
 $ update_portrait('st038_02 2', 'p1168', [l(-9), dark, flip], 5)
@@ -288,4 +288,4 @@ $ update_portrait('oc004_01 4', 'p4', [l(-5), dark, flip], 5)
 $ update_portrait('oc001_01 4', 'p1', [r(-2), r_shake, light], 6)
 play sfxvoice "bcv_oc001_com_01.ogg"
 get_char('c13') '[convertstrid(1141747)]' (**arg(88, 1141747))
-return
+return "avg10440"
