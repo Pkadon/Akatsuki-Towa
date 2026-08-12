@@ -1172,7 +1172,7 @@ style slider_hbox:
 ##
 ## https://www.renpy.org/doc/html/history.html
 
-screen history():
+screen history(page=1, yinitial=1.0):
 
     tag menu
 
@@ -1181,15 +1181,31 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
+    $ page_length = 75
+
+    use game_menu(_("History"), scroll="viewport", yinitial=yinitial, spacing=gui.history_spacing):
 
         style_prefix "history"
 
         vbox:
             spacing 10
             
-            $shown_list = []
-            for h in _history_list:
+            if len(_history_list) > (page*page_length):
+                frame:
+                    style "history_page_turn_frame"
+                    textbutton "Next Page":
+                        style "history_page_turn_button"
+                        hovered Play("sound", "common_tag.ogg")
+                        action [Play('sound', 'common_select.ogg'), Hide('history'), ShowMenu('history', page=(page+1), yinitial=1.0)]
+
+            python:
+                shown_list = []
+                history_lower_limit = -(page*page_length)
+                if page == 1:
+                    history_upper_limit = None
+                else:
+                    history_upper_limit = history_lower_limit + page_length
+            for h in _history_list[history_lower_limit:history_upper_limit]:
 
                 python:
                     line_label = h.show_args.get('label')
@@ -1226,6 +1242,18 @@ screen history():
                             line_spacing 1
 
                     $shown_list.append( (line_label, line_id) )
+
+            if (page > 1):
+                frame:
+                    style "history_page_turn_frame"
+                    textbutton "Previous Page":
+                        style "history_page_turn_button"
+                        hovered Play("sound", "common_tag.ogg")
+                        action [Play('sound', 'common_select.ogg'), Hide('history'), ShowMenu('history', page=(page-1), yinitial=0.0)]
+
+            # Pad the bottom of the last entry a little bit
+            else:
+                null height 5
 
             if not _history_list:
                 label _("The dialogue history is empty.")
@@ -1273,6 +1301,24 @@ style history_label:
 style history_label_text:
     xalign 0.5
 
+style history_page_turn_frame is gui_frame
+style history_page_turn_frame:
+    background None
+    ysize 60
+    xfill True
+    padding (30, 10, 30, 5)
+
+style history_page_turn_button is gui_textbutton
+style history_page_turn_button:
+    yfill True
+    xfill True
+    background Frame("blue_confirm_button", 27,18)
+
+style history_page_turn_button_text is gui_text
+style history_page_turn_button_text:
+    xalign 0.5
+    yalign 0.5
+    color '#fff'
 
 ## Help screen #################################################################
 ##
