@@ -126,9 +126,9 @@ for i in range(0, len(story_json['_rows'])):
 				}
 			#look for matching quest
 			questidlist = []
-			for questid in list(new_questdict.keys()):
-				if new_questdict[questid]["strID"] == subgroup: 
-					questidlist.append(int(questid))
+			for questlog in new_questdict:
+				if questlog["strID"] == subgroup: 
+					questidlist.append(questlog['ID'])
 					quest['questID'] = questidlist
 					
 					break
