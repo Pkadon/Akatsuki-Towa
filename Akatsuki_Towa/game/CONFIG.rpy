@@ -137,6 +137,8 @@ init python early:
     add_gallery_button = True
     add_gallery_button_mobile = False
 
+### Set to False to hide the button that enables "Continuous Mode"
+    add_continuous_button = True
 
 # Silver and gold "booktab" buttons used in all Scene Select menus
 #==================================================================
@@ -182,6 +184,13 @@ init python early:
 ### Text size for all questlogs:
     logtextsize = 18
     touch_logtextsize = 23
+
+#################################
+# "Continuous/VN Mode"
+#################################
+### Text size for the mission select screen's text
+    mission_select_text_size = 20
+    touch_mission_select_text_size = 23
 
 #################################
 # Choice Menu
@@ -357,6 +366,8 @@ init python early:
     jumptext = "Jump"
 ### Gallery button text
     gallerytext = "Gallery"
+### Text for the button that enables "continuous mode"
+    continuous_button_text = 'Continuous'
 ### Log button text
     logtext = "Log"
 
@@ -415,6 +426,14 @@ init python early:
 
 ### The button that opens the dialogue history
     quickhistorytext = "History"
+
+# Continuous Mode
+#==========================================
+### The string that is added after the chapter title on the "Chapter Complete" popup screen.
+    cont_chapter_end_text = {
+        "lang1": "終",
+        #"lang2": "COMPLETE",
+    }
 
 #==========================================================================================
 # Menu Strings

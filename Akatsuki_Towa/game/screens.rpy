@@ -373,10 +373,16 @@ screen navigation():
                     activate_sound None
                     action EndReplay(confirm=True)
 
-        if _in_replay:
+        if not main_menu:
             # It doesn't seem to store the history after a scene, maybe because they're "Replays"
             # So just hide the button from the main menu
             textbutton _("History") action ShowMenu("history")
+
+
+        if not _in_replay:
+            textbutton _("Load") action ShowMenu("load")
+            if not main_menu:
+                textbutton _("Save") action ShowMenu("save")
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
@@ -521,14 +527,6 @@ style main_menu_version:
 ## transcluded (placed) inside it.
 
 default persistent.freeze_animations = False
-
-init python:
-    #Opening the menu in the middle of a cutscene can make the "typewriter" sound effect get stuck on loop, so this makes sure it stops.
-    def mute_typewriter():
-        global typewriter_channels
-
-        for ch in typewriter_channels:
-            renpy.music.stop(channel=ch)
 
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0, nav_buttons='default', return_act='return'):
 
@@ -1068,6 +1066,11 @@ screen preferences():
                         style_prefix "slider"
                         textbutton _("Hide Quick Menu during cutscenes"):
                             action ToggleVariable("persistent.hide_quick_menu")
+
+                vbox:
+                    style_prefix "slider"
+                    hbox:
+                        textbutton _("Show Continuous Mode book menu animation") action ToggleVariable("persistent.animate_mission_select")
 
                 vbox:
                     style_prefix "slider"

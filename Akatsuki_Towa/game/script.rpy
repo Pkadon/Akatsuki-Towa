@@ -8,11 +8,11 @@ init python early:
         config.save_directory = None
 
 init python:
+    config.has_sync = False
     config.has_autosave = False
     config.has_quicksave = False
     config.autosave_on_quit = False
     config.autosave_on_choice = False
-    config.save = False
     config.play_channel = "audio"
     config.window_show_transition = None
     config.clear_history_on_language_change = False
@@ -37,10 +37,7 @@ init python:
     config.label_callback = label_callback
 default last_label = None
         
-
 #################################################################
-label start:
-return
-
 label avg0:
 return
+#################################################################

@@ -363,7 +363,7 @@ init python:
 
         ## Change the size and spacing of various things.
         gui.slider_size = 24
-        gui.navigation_spacing = 14
+        gui.navigation_spacing = 5
         gui.pref_button_spacing = 10
 
     ## This changes the size and spacing of various GUI elements to ensure they

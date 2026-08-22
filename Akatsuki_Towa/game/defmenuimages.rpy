@@ -143,6 +143,25 @@ layeredimage nametag:
             #align (0.5,0.5)
             pos (30,16)
 
+###"Continuous" Mode#########################################
+image checkmark:
+    Crop((415,85,32,32), "atlas_JournalBeta.png")
+
+image continue_arrow:
+    Crop((362,64,32,32), "atlas_JournalBeta.png")
+
+image continue_x:
+    Crop((309,54,32,32), "atlas_JournalBeta.png")
+
+image plus:
+    Crop((727,192,24,24), "atlas_JournalBeta.png")
+image plus_hovered:
+    Crop((727,192,24,24), "atlas_JournalBeta.png")
+    matrixcolor TintMatrix("#FFFF59")
+
+image complete_stamp:
+    Crop((274,430,173,151), "atlas_JournalBeta.png")
+
 ###buttons / other###########################################
 image mainmenu_button:
     Crop((68,306,150,46), "atlas_JournalBeta.png")
@@ -155,6 +174,24 @@ image booktab2:
 
 image sidearea_tab:
     Crop((0,268,235,37), "atlas_JournalBeta.png")
+
+image tab_outline:
+    "images_free/animated_tab_frame_1.png"
+    pause 0.15
+    "images_free/animated_tab_frame_2.png"
+    pause 0.15
+    "images_free/animated_tab_frame_3.png"
+    pause 0.15
+    "images_free/animated_tab_frame_4.png"
+    pause 0.15
+    "images_free/animated_tab_frame_5.png"
+    pause 0.15
+    repeat
+layeredimage sidearea_tab_animated:
+    always:
+        "sidearea_tab"
+    always:
+        "tab_outline"
 
 layeredimage red_return_button_idle:
     always:

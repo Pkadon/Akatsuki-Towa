@@ -85,4 +85,15 @@ init -3 python:
         init_language(lang)
 
         renpy.change_language(lang, force=True, rebuild=True)
+
+    #Opening a menu in the middle of a cutscene can make the "typewriter" sound effect get stuck on loop, so this makes sure it stops.
+    def mute_typewriter():
+        global typewriter_channels
+
+        for ch in typewriter_channels:
+            renpy.music.stop(channel=ch)
         
+    def calculate_text_size(text):
+        if isinstance(text, str):
+            text = Text(text)
+        return text.size()

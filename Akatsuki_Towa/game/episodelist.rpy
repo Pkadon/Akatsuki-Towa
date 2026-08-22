@@ -309,9 +309,8 @@ screen x_button(screen_title, icon, additional_actions=[]):
                 xsize int(style.x_button.xmaximum * .225)
                 ysize int(style.x_button.xmaximum * .225)
 
-
 # The very first menu you see when you click the "Scene Select" button.
-screen episodelist():
+screen episodelist(menudata=menudata):
     modal True
 
     use toggle_language()
@@ -325,6 +324,9 @@ screen episodelist():
 
         if add_gallery_button:
             buttonlist.append({'text': gallerytext, 'properties': {'action': Replay("gallery", locked=False)}})
+
+        if add_continuous_button and main_menu:
+            buttonlist.append({'text': continuous_button_text, 'properties': {'selected_background': Frame("sidearea_tab_animated", 15, 20), 'hover_selected_background': Frame("sidearea_tab_animated", 15, 20), 'activate_sound': 'common_core.ogg', 'action': [ToggleVariable('persistent.continuous')]}})
 
     use sidearea(buttonlist)
 
@@ -342,6 +344,8 @@ screen episodelist():
 
             # Create a separate column for each chapter/category
             for chapter in menudata:
+                if not main_menu and not chapter.get('unlocked'): 
+                    continue
                 vbox:
                     # Gold chapter label button
                     python:
@@ -364,6 +368,8 @@ screen episodelist():
           
                         # Silver tab buttons that open "quest" menu
                         for quest in chapter['quests']:
+                            if not main_menu and not quest.get('unlocked'):
+                                continue
                             python:
                                 questname, questname_size, questname_anchor = format_label(quest, 'questname', tabtextsize, silvertab_inner_space, anchors=(0.5,  tabfont_center))
 
@@ -372,7 +378,15 @@ screen episodelist():
                                 text_style "tabbutton_text"
                                 text_size questname_size
                                 text_anchor questname_anchor
-                                action ShowMenu("quest", quest)
+                                if (
+                                       main_menu and
+                                       persistent.continuous and 
+                                       quest.get('in_flow')
+                                    ):
+                                    action [SetVariable('clicked_quest_index', (quest['menu_index'], quest['flow_index'])), Return(), Start()]
+                                else:
+                                    action ShowMenu("quest", quest)
+
 
     use x_button('episodelist', 'x', additional_actions=[Return()])
 
@@ -487,9 +501,8 @@ screen quest(data):
 
     use x_button('quest', 'arrow')
 
-
 # The menu that opens when you click a "Log" button from within the "quest" menu
-screen questlog(log_id):
+screen questlog(log_id, step_limit=None, solid_background=False, yinitial=0.0, return_on_close=False):
     tag log
 
     use toggle_language()
@@ -506,7 +519,11 @@ screen questlog(log_id):
 
         log_line_length = int(paper_inner_space[0] * .85)
 
-    use book_paper(hide_shadow=True):
+    if solid_background == True:
+        use book_background()
+
+    # If solid_background is True, then no need to hide the shadow
+    use book_paper(hide_shadow=(not solid_background)):
         style_prefix "book_paper"
 
         #Keep the scrollbar's position consistent with the "quest" menu's
@@ -517,6 +534,7 @@ screen questlog(log_id):
             mousewheel True
             scrollbars "vertical"
             vscrollbar_unscrollable "hide"
+            yinitial yinitial
 
             ysize paper_strip_pos
             xsize (textbox_width + gui.scrollbar_size)
@@ -553,7 +571,7 @@ screen questlog(log_id):
                     xsize log_line_length
                     xalign 0.5
                 vbox:
-                    for step in data['steps']:
+                    for step in data['steps'][:step_limit]:
                         hbox:
                             #Add spacing to the left of all bullet points
                             null width 10
@@ -563,4 +581,8 @@ screen questlog(log_id):
                             text [convertstrid(step)]:
                                 color "#1C3051"
 
-    use x_button('questlog', 'arrow', [SetVariable('showing_log', None)])
+    python:
+        x_button_actions = [SetVariable('showing_log', None)]
+        if return_on_close == True:
+            x_button_actions.append( Return() )
+    use x_button('questlog', 'arrow', x_button_actions)
