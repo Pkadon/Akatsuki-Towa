@@ -431,6 +431,7 @@ while True:
 
     python:
         selected_step = selected_node['parent_step']
+        selected_quest = selected_step['parent_quest']
         if selected_step.get('in_dungeon'):
             dungeon = selected_step['parent_quest']
 
@@ -438,15 +439,15 @@ while True:
     # They will be played -before- hiding the book menu, so that they appear over top of it.
     $ intro = selected_step.get('intro')
     if intro and not intro.get('cleared'):
-        call play_through_label_list(intro)
+        call play_through_label_list(intro, selected_quest)
 
     hide screen mission_select
 
-    call play_through_label_list(selected_node)
+    call play_through_label_list(selected_node, selected_quest)
 
     $ ending = selected_step.get('ending')
     if ending and selected_step['nodes'] == [selected_node]:
-        call play_through_label_list(ending)
+        call play_through_label_list(ending, selected_quest)
 
     python:
         selected_step['parent_quest']['started'] = True
@@ -512,6 +513,10 @@ while True:
                                 mission = True
                                 active_missions += 1
 
+                            # Change the first label's transition to fade_in if it was previously set to use the full fade
+                            if node['labels'][0].get('trans') == 'fade':
+                                node['labels'][0]['fade'] = 'fade_in'
+
                             if 'info' not in node:
                                 first_label = node['labels'][0]['label']
 
@@ -535,7 +540,8 @@ while True:
                             quest_menu_data['unlocked'] = False
 
                             if 'log_steps' in step:
-                                quest['step_limit'] = step['log_steps']
+                                if quest['step_limit'] < step['log_steps']:
+                                    quest['step_limit'] = step['log_steps']
 
                             missions.append(step)
                             break
@@ -599,7 +605,7 @@ while True:
 label end_continuous:
 return
 
-label play_through_label_list(node_dict):
+label play_through_label_list(node_dict, parent_quest):
 $ labels = node_dict['labels']
 $ index = 0
 while index < len(labels):
@@ -620,6 +626,11 @@ while index < len(labels):
         call expression label
 
     python:
+        # Updade quest log steps after viewing the scene (if applicable)
+        if 'log_steps' in label_dict:
+            if parent_quest['step_limit'] < label_dict['log_steps']:
+                parent_quest['step_limit'] = label_dict['log_steps']
+
         if _return in set_flags:
             flag = set_flags[_return]['flag']
             value = set_flags[_return]['value']
