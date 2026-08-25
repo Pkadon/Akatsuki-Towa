@@ -173,22 +173,22 @@ class GameState:
 			
 	def update_memory(self, is_memory):
 		if is_memory == True and self.memory == False:
-			state.add_line('show memoryoverlay zorder 2\n')
+			self.add_line('show memoryoverlay zorder 2\n')
 			self.memory = True
 		elif is_memory == False and self.memory == True:
-			state.add_line('hide memoryoverlay\n')
+			self.add_line('hide memoryoverlay\n')
 			self.memory = False
 			
 	def update_avgimage(self, newimage):
 		if self.avgimage != newimage:
 			if newimage == None:
-				state.add_line(f'hide {self.avgimage}\n')
+				self.add_line(f'hide {self.avgimage}\n')
 				self.avgimage = None
 				
 			else:
 				if self.avgimage != None:
-					state.add_line(f'hide {self.avgimage}\n')
-				state.add_line(f'show {newimage} zorder 4\n')
+					self.add_line(f'hide {self.avgimage}\n')
+				self.add_line(f'show {newimage} zorder 4\n')
 				self.avgimage = newimage
 			
 	def add_fade(self, next_speaker, portraitpos=None):
