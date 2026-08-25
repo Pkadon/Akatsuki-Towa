@@ -271,7 +271,8 @@ screen mission_select(missions):
                                     else:
                                         color "#000"
 
-                                if parent_quest.get('questID'):
+                                $ questID = parent_quest.get('questID')
+                                if questID != None and str(questID) in questlog_data:
                                     button:
                                         xysize (23,24)
                                         background "plus"
