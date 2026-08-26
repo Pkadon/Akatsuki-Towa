@@ -4314,7 +4314,7 @@
                                     {
                                         "note": "導力停止の異常事故(2) 11/14, 12/14, 13/14, 14/14 combined (BATTLE x1)",
                                         "log_steps": 8,
-                                        "in_dungeon": true,
+                                        "exit_dungeon": true,
                                         "nodes": [
                                             {
                                                 "labels": [
