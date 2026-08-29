@@ -390,7 +390,7 @@ init python:
                 if 'hide' not in dic['locked']:
                     dic['locked']['hide'] = True
             else:
-                dic['locked']['hide'] = False
+                del dic['locked']
         return locked
 
 # START
