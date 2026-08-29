@@ -309,6 +309,9 @@ screen x_button(screen_title, icon, additional_actions=[]):
                 xsize int(style.x_button.xmaximum * .225)
                 ysize int(style.x_button.xmaximum * .225)
 
+init python:
+    episodelist_xadjustment = ui.adjustment()
+
 # The very first menu you see when you click the "Scene Select" button.
 screen episodelist(menudata=menudata):
     modal True
@@ -335,6 +338,7 @@ screen episodelist(menudata=menudata):
             rows 1
             scrollbars "horizontal"
             scrollbar_unscrollable "hide"
+            xadjustment episodelist_xadjustment
 
             if not renpy.variant('touch'):
                 ysize (paper_strip_pos + gui.scrollbar_size)
@@ -351,6 +355,10 @@ screen episodelist(menudata=menudata):
                     python:
                         chaptername, chaptername_size, chaptername_anchor = format_label(chapter, 'chaptername', tabtextsize, goldtab_inner_space, anchors=(0.5, tabfont_center))
 
+                        if 'yadjustment' not in chapter:
+                            chapter['yadjustment'] = ui.adjustment()
+                        yadjustment = chapter['yadjustment']
+
                     textbutton chaptername:
                         style "goldtab"
                         text_style "tabbutton_text"
@@ -365,6 +373,7 @@ screen episodelist(menudata=menudata):
                         mousewheel True
                         scrollbars "vertical"
                         vscrollbar_unscrollable "hide"
+                        yadjustment yadjustment
           
                         # Silver tab buttons that open "quest" menu
                         for quest in chapter['quests']:
@@ -437,6 +446,10 @@ screen quest(data):
             python:
                 questname, questname_size, questname_anchor = format_label(data, 'questname', tabtextsize, silvertab_inner_space, anchors=(0.5,  tabfont_center))
 
+                if 'yadjustment' not in data:
+                    data['yadjustment'] = ui.adjustment()
+                yadjustment = data['yadjustment']
+
             textbutton questname:
                 style "silvertab"
                 xanchor 0.5
@@ -452,6 +465,7 @@ screen quest(data):
                 mousewheel True
                 scrollbars "vertical"
                 vscrollbar_unscrollable "hide"
+                yadjustment yadjustment
 
                 ysize paper_strip_pos - tabheight
 
