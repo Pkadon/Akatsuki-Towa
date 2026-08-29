@@ -448,6 +448,13 @@ while True:
 
     $ ending = selected_step.get('ending')
     if ending and selected_step['nodes'] == [selected_node]:
+        
+        # This should let there be unlockable/alternate endings if needed (like for the gelato quest)
+        python:
+            for label_dict in ending['labels']:
+                evaluate_locked(label_dict)
+            ending['labels'] = [label_dict for label_dict in ending['labels'] if not label_dict.get('locked')]
+
         call play_through_label_list(ending, selected_quest)
 
     python:
