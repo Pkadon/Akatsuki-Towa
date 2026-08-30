@@ -41,10 +41,7 @@ image splashscreen:
 label splashscreen:
     $ play_music("ed9999.ogg")
     scene splashscreen
-    show splash_akatsukilogo:
-        anchor splash_logo_anchor
-        pos splash_logo_pos
-        zoom splash_logo_zoom
+    show splash_akatsukilogo
     show startbuttonani:
         xpos 540
         ypos 330

@@ -478,15 +478,9 @@ screen main_menu():
     if show_popup:
         add "popup"
     if show_logo:
-        add "main_akatsukilogo":
-            anchor main_logo_anchor
-            pos main_logo_pos
-            zoom main_logo_zoom
+        add "main_akatsukilogo"
     if show_logooverlay:
-        add "logooverlay":
-            anchor main_overlay_anchor
-            pos main_overlay_pos
-            zoom main_overlay_zoom
+        add "logooverlay"
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
