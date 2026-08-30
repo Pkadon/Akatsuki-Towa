@@ -1196,7 +1196,7 @@ screen history(page=1, yinitial=1.0):
             if len(_history_list) > (page*page_length):
                 frame:
                     style "history_page_turn_frame"
-                    textbutton "Next Page":
+                    textbutton "Previous Page":
                         style "history_page_turn_button"
                         hovered Play("sound", "common_tag.ogg")
                         action [Play('sound', 'common_select.ogg'), Hide('history'), ShowMenu('history', page=(page+1), yinitial=1.0)]
@@ -1249,7 +1249,7 @@ screen history(page=1, yinitial=1.0):
             if (page > 1):
                 frame:
                     style "history_page_turn_frame"
-                    textbutton "Previous Page":
+                    textbutton "Next Page":
                         style "history_page_turn_button"
                         hovered Play("sound", "common_tag.ogg")
                         action [Play('sound', 'common_select.ogg'), Hide('history'), ShowMenu('history', page=(page-1), yinitial=0.0)]
