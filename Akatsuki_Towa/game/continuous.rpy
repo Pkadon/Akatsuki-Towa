@@ -231,6 +231,7 @@ screen mission_select(missions):
         buttonlist.append({'text': "History", 'properties': {'action': ShowMenu('history')}})
         buttonlist.append({'text': "Save", 'properties': {'action': ShowMenu('save')}})
         buttonlist.append({'text': "Load", 'properties': {'action': ShowMenu('load')}})
+        buttonlist.append({'text': "Main Menu", 'properties': {'action': MainMenu()}})
 
     frame at mission_select_transition:
         padding (0,0)
