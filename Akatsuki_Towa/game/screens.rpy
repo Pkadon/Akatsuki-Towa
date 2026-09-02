@@ -454,6 +454,8 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
+    use toggle_language()
+
     add "mainmenuscreen"
 
     ## This empty frame darkens the main menu.
