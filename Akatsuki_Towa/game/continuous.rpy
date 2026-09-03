@@ -20,7 +20,7 @@ init python:
         elif return_type == 'quests':
             return unlocked_menudata[chapter_index]['quests']
         elif return_type == 'chapter':
-            return unlocked_menudata['chapter_index']
+            return unlocked_menudata[chapter_index]
 
     def get_with_flow_index(indexes, return_type='group'):
         category_index, chapter_index, group_index, quest_index, step_index = indexes
@@ -353,10 +353,12 @@ init python:
             for quest in chapter['quests']:
                 quest['unlocked'] = True
 
-        current_chapter = unlocked_menudata[chapter_index]
-        current_chapter['unlocked'] = True
-        for quest in current_chapter['quests'][:quest_index]:
-            quest['unlocked'] = True
+        #Only unlock current chapter if there is a completed quest to show
+        if quest_index > 1:
+            current_chapter = unlocked_menudata[chapter_index]
+            current_chapter['unlocked'] = True
+            for quest in current_chapter['quests'][:quest_index]:
+                quest['unlocked'] = True
 
     def evaluate_locked(dic):
         global cleared_label_list
@@ -486,7 +488,11 @@ while True:
             if evaluate_locked(quest):
                 continue
 
-            quest_menu_data = get_with_menu_index(quest['menu_index'], 'quest')
+            quest_menu_index = quest['menu_index']
+
+            chapter_menu_data = get_with_menu_index(quest_menu_index, 'chapter')
+
+            quest_menu_data = get_with_menu_index(quest_menu_index, 'quest')
             if 'questname' not in quest:
                 quest['questname'] = quest_menu_data['questname']
 
@@ -585,6 +591,7 @@ while True:
                         renpy.jump('create_mission_list')
 
                     # Unlock scene Replay
+                    chapter_menu_data['unlocked'] = True
                     quest_menu_data['unlocked'] = True
 
                 missions.append(mission_dict)
