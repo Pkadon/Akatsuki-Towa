@@ -108,7 +108,7 @@ screen hotkeys():
     key ["a", "f"] action Preference("auto-forward", "toggle")
 
 init python:
-    def cycle_language():
+    def cycle_language(reverse=False):
         if len(persistent.cyclable_languages) == 0:
             return
 
@@ -118,13 +118,25 @@ init python:
         global language_list
         langs = list(language_list.keys())
 
+        def cycle_down(index):
+            index -= 1
+            if index < 0:
+                index = len(langs) - 1
+            return index
+
         current_lang = preferences.language
         current_index = langs.index(preferences.language)
 
-        new_index = current_index + 1
+        if reverse:
+            new_index = cycle_down(current_index)
+        else:
+            new_index = current_index + 1
         new_lang = langs[ new_index % len(langs) ]
         while new_lang not in persistent.cyclable_languages:
-            new_index += 1
+            if reverse:
+                new_index = cycle_down(new_index)
+            else:
+                new_index += 1
             new_lang = langs[ new_index % len(langs) ]
             if new_lang == current_lang:
                 return
@@ -134,6 +146,7 @@ init python:
 
 screen toggle_language():
     key ["l", "e"] action Function(cycle_language)
+    key ["q"] action Function(cycle_language, reverse=True)
 
 screen say(who, what, char_id=None, line_id=None, str_id=None, **kwargs):
     style_prefix "say"
@@ -1375,6 +1388,10 @@ screen keyboard_help():
     hbox:
         label _("L/E")
         text _('Cycles through game text languages that have been ticked as "cyclable" in the Preferences menu (if available).')
+
+    hbox:
+        label _("Q")
+        text _('Cycles game text language in the opposite direction.')
 
     hbox:
         label _("R/K")
