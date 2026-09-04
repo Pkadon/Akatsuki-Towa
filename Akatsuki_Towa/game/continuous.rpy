@@ -301,7 +301,7 @@ screen mission_select(missions):
                                             marker = start_marker
                                             info_fit_width = ((paper_inner_space[0] - start_marker_width), paper_inner_space[1])
 
-                                        elif 'in_dungeon' in mission and (dungeon == None):
+                                        elif 'in_dungeon' in mission and (dungeon == None) and mission.get('show_enter_marker') != False:
                                             marker = enter_marker
                                             info_fit_width = ((paper_inner_space[0] - enter_marker_width), paper_inner_space[1])
 
