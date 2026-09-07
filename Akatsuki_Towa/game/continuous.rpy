@@ -473,6 +473,7 @@ while True:
 
     label create_mission_list:
     python:
+        parent_category = get_with_flow_index(flow_pos, 'category')
         current_group = get_with_flow_index(flow_pos, 'group')
 
         missions = []
@@ -600,6 +601,7 @@ while True:
             flow_pos = increment_flow(flow_pos)
 
             if flow_pos == None:
+                persistent.open_scene_select = parent_category.get('open_scene_select_on_return')
                 renpy.jump('end_continuous')
             else:
                 renpy.jump('create_mission_list')

@@ -460,7 +460,13 @@ init python:
                     #If the variable has been set to 'none', that means it's been set to "Mute", so this will stop the music.
                     renpy.music.stop()
 
+default persistent.open_scene_select = False
+
 screen main_menu():
+
+    on "show":
+        if persistent.open_scene_select:
+            action [SetVariable('persistent.open_scene_select', False), Function(renpy.show_screen, 'episodelist')]
 
     $ update_mainmenu_music()
                 
