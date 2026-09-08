@@ -416,7 +416,7 @@ python:
         quest['cleared'] = True
 
         questID = quest.get('questID')
-        if questID not in cleared_quest_list:
+        if questID and questID not in cleared_quest_list:
             cleared_quest_list.append(questID)
 
     unlock_previous_scenes_replay(menu_pos)
@@ -585,8 +585,9 @@ while True:
                     mission_dict['complete'] = True
 
                     # Store quest cleared flag
-                    if quest.get('questID') not in cleared_quest_list:
-                        cleared_quest_list.append(quest['questID'])
+                    questID = quest.get('questID')
+                    if questID and questID not in cleared_quest_list:
+                        cleared_quest_list.append(questID)
 
                         # Jump back to the start to reassess unlock conditions
                         renpy.jump('create_mission_list')
