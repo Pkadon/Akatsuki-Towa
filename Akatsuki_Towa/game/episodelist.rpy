@@ -392,6 +392,7 @@ screen episodelist(menudata=menudata):
                                        persistent.continuous and 
                                        quest.get('in_flow')
                                     ):
+                                    activate_sound None
                                     action [SetVariable('clicked_quest_index', (quest['menu_index'], quest['flow_index'])), Return(), Start()]
                                 else:
                                     action ShowMenu("quest", quest)
