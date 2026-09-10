@@ -1,7 +1,7 @@
 label avg1117(trans=fade_in):
 
 $ play_music("ed7200.ogg")
-scene placeholderbackground
+scene avg_bg_010
 $ update_portrait('oc004_01 13', 'p4', [l(-5), light, flip], 6)
 $ update_narrator('c41')
 window show
@@ -28,9 +28,11 @@ hide p4
 $ update_portrait('oc001_01 5', 'p1', [r(-2), dark], 5)
 $ update_portrait('st004_01 6', 'p204', [l(4), light, flip], 6)
 get_char('c2041') '[convertstrid(2102904)]' (**arg(8, 2102904))
+hide p204
 hide p1
-$ update_portrait('st004_01 6', 'p204', [l(4), dark, flip], 5)
 $ update_portrait('sca15_01 5', 'p23', [r(9), light], 6)
+$ update_narrator('c233')
+with fade
 get_char('c233') '[convertstrid(2102905)]' (**arg(9, 2102905))
 $ update_portrait('sca15_01 1', 'p23', [r(9), light], 6)
 get_char('c233') '[convertstrid(2102906)]' (**arg(10, 2102906))
