@@ -622,6 +622,7 @@ while True:
     $quick_menu = True
 
 label end_continuous:
+$ MainMenu(confirm=False)()
 return
 
 label play_through_label_list(node_dict, parent_quest):
