@@ -1021,28 +1021,32 @@
                     {
                         "name": "その歌声をあなたに 1/4",
                         "info": "作者：月紅\n(2018.01.24 ブレイサー賞受賞作品)",
-                        "strID": 90234,
+                        "strID": "ex_239",
+                        "add": " 1/4",
                         "infostrID": "ex_242",
                         "avgID": 1163
                     },
                     {
                         "name": "その歌声をあなたに 2/4",
                         "info": null,
-                        "strID": 90235,
+                        "strID": "ex_239",
+                        "add": " 2/4",
                         "infostrID": null,
                         "avgID": 1164
                     },
                     {
                         "name": "その歌声をあなたに 3/4",
                         "info": null,
-                        "strID": 90236,
+                        "strID": "ex_239",
+                        "add": " 3/4",
                         "infostrID": null,
                         "avgID": 1165
                     },
                     {
                         "name": "その歌声をあなたに 4/4",
                         "info": null,
-                        "strID": 90237,
+                        "strID": "ex_239",
+                        "add": " 4/4",
                         "infostrID": null,
                         "avgID": 1166
                     }
