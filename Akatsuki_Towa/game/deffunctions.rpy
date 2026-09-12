@@ -56,6 +56,8 @@ init -3 python:
     # persistent.loop_bgm is defined in options.rpy, under "Preference defaults"
 
     def play_music(filename, file_start=None, file_to=None, file_loop=None, loop=True, if_changed=True, **qwargs):
+        if not renpy.loadable(filename):
+            return
         if filename in bgm_loop_dict:
             if persistent.loop_bgm:
                 entry = bgm_loop_dict[filename]
