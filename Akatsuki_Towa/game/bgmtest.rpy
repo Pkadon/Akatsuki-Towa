@@ -47,7 +47,7 @@ $ play_music(bgmname, file_start=(lencopy-4))
 
 $ lencopy = 4
 show screen countdown_timer()
-nobody '[renpy.music.get_playing()]'
+$renpy.say(None, '[renpy.music.get_playing()]')
 
 hide screen countdown_timer
 stop music
