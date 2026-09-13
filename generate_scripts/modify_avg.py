@@ -1730,6 +1730,465 @@ def make_edits(script_json, avgID):
 		script_json['dialogueFrames'][8]['isClearModle'] = 1
 
 ###########################################################################
+#Exploration
+	#【探索】東ボース街道
+	elif avgID in ['26005', '26006', '26007', '24502']:
+		#Add highway background, music
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': None}),
+			('bgm', {'id': 134, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/4
+		if avgID == '26005':
+			add_effects(script_json, {
+				102: [8],
+				'CharFadeIn': [0, 2]
+			})
+		#Add animations to 2/4
+		if avgID == '26006':
+			add_effects(script_json, {
+				202: [0, 5],
+				"CharFadeIn": [1],
+				"CharFadeOut": [7]
+			})
+		#Add animations to 3/4
+		if avgID == '26007':
+			add_effects(script_json, {
+				"CharFadeIn": [0, 1]
+			})
+		
+	#【探索】ジオフロントＡ区画
+	elif avgID in ['26001', '26002', '26003', '26004', '24501']:
+		#Add geofront background, music
+		insert_schedule(script_json,
+			('backgrounds', {'id': 71, 'start': 1, 'end': None}),
+			('bgm', {'id': 19, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/5
+		if avgID == '26001':
+			add_effects(script_json, {
+				102: [1],
+				202: [4],
+				'CharFadeIn': [0]
+			})
+		#Add animations to 2/5
+		if avgID == '26002':
+			add_effects(script_json, {
+				102: [0],
+			})
+		#Add animations to 3/5
+		if avgID == '26003':
+			add_effects(script_json, {
+				102: [0],
+				103: [2]
+			})
+		#Add animations to 4/5
+		if avgID == '26004':
+			add_effects(script_json, {
+				102: [0],
+				"CharFadeOut": [3]
+			})
+		
+	#【探索】巨石の砦
+	elif avgID in ['26008', '26009', '26010', '26011', '26012', '24503']:
+		#don't have a background to use for these
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 21, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/6
+		if avgID == '26008':
+			add_effects(script_json, {
+				102: [2],
+				'CharFadeIn': [0]
+			})
+		#Add animations to 4/6
+		if avgID == '26011':
+			add_effects(script_json, {
+				102: [1],
+				203: [0]
+			})
+		#Add animations to 5/6
+		if avgID == '26012':
+			add_effects(script_json, {
+				103: [2]
+			})
+		
+	#【探索】グランセル地下水路
+	elif avgID in ['26013', '26014', '26015', '26016', '24504']:
+		#don't have a background to use for these
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 25, 'start': 1, 'end': None})
+		)
+		
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/5
+		if avgID == '26013':
+			add_effects(script_json, {
+				202: [3, 5],
+				103: [4],
+				'CharFadeIn': [0, 1]
+			})
+		#Add animations to 3/5
+		if avgID == '26015':
+			add_effects(script_json, {
+				102: [0, 5]
+			})
+		#Add animations to 4/5
+		if avgID == '26016':
+			add_effects(script_json, {
+				102: [2],
+				"CharFadeIn": [0]
+			})
+		
+	#【探索】ジオフロント・Ｂ区画
+	elif avgID == '24505':
+		#Add geofront background, music
+		insert_schedule(script_json,
+			('backgrounds', {'id': 71, 'start': 1, 'end': None}),
+			('bgm', {'id': 19, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			102: [3]
+		})
+		
+	#【探索】リッター街道
+	elif avgID == '24510':
+		#Add highway background, music
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': None}),
+			('bgm', {'id': 134, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#【探索】マインツ鉱山
+	elif avgID in ['26017', '26018', '24506']:
+		#Add cave background, music
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None}),
+			('bgm', {'id': 4, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/3
+		if avgID == '26017':
+			add_effects(script_json, {
+				102: [3],
+				"CharFadeIn": [0, 1]
+			})
+		#Add animations to 2/3
+		if avgID == '26018':
+			add_effects(script_json, {
+				202: [0],
+				203: [3]
+			})
+			
+	#【探索】太陽の砦 
+	elif avgID in ['26019', '26020', '26021', '24507']:
+		#Add Sun Fort background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 51, 'start': 1, 'end': None}),
+			('bgm', {'id': 150, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/4
+		if avgID == '26019':
+			add_effects(script_json, {
+				102: [1, 3],
+				"CharFadeIn": [0]
+			})
+		#Add animations to 2/4
+		if avgID == '26020':
+			add_effects(script_json, {
+				102: [0]
+			})
+		#Add animations to 3/4
+		if avgID == '26021':
+			add_effects(script_json, {
+				"CharFadeIn": [0]
+			})
+			
+	#【探索】ミストヴァルト
+	elif avgID in ['26022', '26023', '26024', '26025', '26026', '26027', '24508']:
+		#Add deep forest background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 4, 'start': 1, 'end': None}),
+			('bgm', {'id': 151, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/7
+		if avgID == '26022':
+			add_effects(script_json, {
+				102: [5],
+				"CharFadeIn": [0, 1]
+			})
+		#Add animations to 2/7
+		if avgID == '26023':
+			add_effects(script_json, {
+				102: [0]
+			})
+		#Add animations to 3/7
+		if avgID == '26024':
+			add_effects(script_json, {
+				102: [1],
+				"CharFadeIn": [0]
+			})
+		#Add animations to 4/7
+		if avgID == '26025':
+			add_effects(script_json, {
+				102: [3],
+				103: [1]
+			})
+		#Add animations to 5/7
+		if avgID == '26026':
+			add_effects(script_json, {
+				"CharFadeIn": [0, 1]
+			})
+		#Add animations to 6/7
+		if avgID == '26027':
+			add_effects(script_json, {
+				"CharFadeIn": [0],
+			})
+		#Add animations to 7/7
+		if avgID == '24508':
+			add_effects(script_json, {
+				102: [0],
+			})
+
+	#【探索】碧苔遺跡
+	elif avgID in ['26028', '26029', '26030', '24509']:
+		#Add Ursula Byroad background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 26, 'start': 1, 'end': None}),
+			('bgm', {'id': 23, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations to 1/4
+		if avgID == '26028':
+			add_effects(script_json, {
+				102: [6, 8, 9],
+				"CharFadeIn": [0],
+			})
+		#Add animations to 2/4
+		if avgID == '26029':
+			add_effects(script_json, {
+				102: [0]
+			})
+		#Add animations to 4/4
+		if avgID == '24509':
+			add_effects(script_json, {
+				102: [0]
+			})
+			
+	#【探索】溶岩遺跡
+	elif avgID == '24512':
+		#Add magma background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 214, 'start': 1, 'end': None}),
+			('bgm', {'id': 176, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			102: [5]
+		})
+		
+	#【探索】巨石の砦・西区間 
+	elif avgID == '24513':
+		#don't have a background to use for this
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 21, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#【探索】シギュンの森 
+	elif avgID == '24514':
+		#Add deep forest background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 4, 'start': 1, 'end': None}),
+			('bgm', {'id': 172, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#【探索】公都地下水道 
+	elif avgID == '24515':
+		#don't have a background to use for this
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 25, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			202: [0]
+		})
+		
+	#【探索】レミフェリアロッジ
+	elif avgID == '24516':
+		#Add lodge background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 52, 'start': 1, 'end': None}),
+			('bgm', {'id': 173, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#【探索】忘却の地下遺跡 
+	elif avgID == '24517':
+		#Add cave background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None}),
+			('bgm', {'id': 175, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#【探索】廃棄アパート 
+	elif avgID in ['26031', '26032', '26033', '26034', '24511']:
+		#Add abandoned building background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 212, 'start': 1, 'end': None}),
+			('bgm', {'id': 128, 'start': 1, 'end': None})
+		)		
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+
+		#Add animations to 1/5
+		if avgID == '26031':
+			add_effects(script_json, {
+				102: [3],
+				"CharFadeIn": [0, 1]
+			})
+		#Add animations to 2/5
+		if avgID == '26032':
+			add_effects(script_json, {
+				"CharFadeIn": [1],
+				"CharFadeOut": [4]
+			})
+		#Add animations to 3/5
+		if avgID == '26033':
+			add_effects(script_json, {
+				102: [3],
+				"CharFadeIn": [0]
+			})
+		#Add animations to 4/5
+		if avgID == '26034':
+			add_effects(script_json, {
+				102: [2],
+				"CharFadeIn": [0]
+			})
+			
+	#【探索】月の僧院 
+	elif avgID == '24518':
+		#don't have a background to use for this
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 21, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#【探索】翡翠の塔 
+	elif avgID == '24520':
+		#Add Esmelas Tower background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 107, 'start': 1, 'end': None}),
+			('bgm', {'id': 182, 'start': 1, 'end': None})
+		)
+	
+	#【探索】紺碧の塔 
+	elif avgID == '24521':
+		#don't have a background to use for this
+		#Add bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 182, 'start': 1, 'end': None})
+		)
+###########################################################################
 #Daily
 	#ダルモア商会の依頼(1) (Quest Complete, Conditional Dialogue)
 	elif avgID in ['24001', '24076']:
