@@ -1724,9 +1724,9 @@ def make_edits(script_json, avgID):
 
 	#7/8
 	elif avgID == "1117":
-		#Add highway background
+		#Add Ursula Byroad background
 		insert_schedule(script_json,
-			('backgrounds', {'id': 10, 'start': 1, 'end': None})
+			('backgrounds', {'id': 26, 'start': 1, 'end': None})
 		)
 		#Add an isClearModle when Renne starts talking
 		script_json['dialogueFrames'][8]['isClearModle'] = 1
