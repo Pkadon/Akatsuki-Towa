@@ -1,11 +1,11 @@
 label avg24079(trans=fade_in):
 
 $ play_music("ed7105.ogg")
-scene placeholderbackground
-$ update_narrator('c9853')
+scene avg_bg_027
+$ update_narrator('c9851')
 window show
 with trans
-get_char('c9853') '[convertstrid(1200301)]' (**arg(1, 1200301))
-$ update_portrait('oc001_01 10', 'p1', [mid(-2), light], 6)
+get_char('c9851') '[convertstrid(1200301)]' (**arg(1, 1200301))
+$ update_portrait('oc001_01 10', 'p1', [r(-2), light], 6)
 get_char('c13') '[convertstrid(1200302)]' (**arg(2, 1200302))
 return "avg24079"

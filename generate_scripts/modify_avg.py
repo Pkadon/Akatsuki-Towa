@@ -155,6 +155,8 @@ def add_charpos(script_json, pos_dict, mode='frames'):
 							frame['charPos'] = charPos
 							if key == 'left':
 								frame['character']['mirror'] = 1
+							else:
+								frame['character']['mirror'] = 0
 
 def add_effects(script_json, effect_dict):
 	for effect in effect_dict.keys():
@@ -2190,6 +2192,14 @@ def make_edits(script_json, avgID):
 		)
 ###########################################################################
 #Daily
+	#毎日討伐
+	elif avgID == '25901':
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
 	#ダルモア商会の依頼(1) (Quest Complete, Conditional Dialogue)
 	elif avgID in ['24001', '24076']:
 		
@@ -2198,16 +2208,74 @@ def make_edits(script_json, avgID):
 			#Change the "Estelle" speaker to correctly display as "Nacht"
 			script_json['dialogueFrames'][1]['character']['speaker'] = 1
 			
-		#Add shop background/bgm
+		#Add shop background, bgm
 		insert_schedule(script_json,
 			('backgrounds', {'id': 11, 'start': 1, 'end': None}),
-			('bgm', {'id': 131, 'start': 1, 'end': None})
+			('bgm', {'id': 111, 'start': 1, 'end': None})
 		)
 		#Add charpos
 		add_charpos(script_json, {
 			'left': [964],
 			'right': [1]
 		}, mode='speakers')
+		
+	#ダルモア商会の依頼(2)
+	elif avgID == '24002':
+		#don't have a background to use for sewers
+		#Add sewer bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 25, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#ラッセル博士の依頼 (1)
+	elif avgID in ['24003', '24004']:
+		#Add indoor (russel lab) background and bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 38, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [243]
+		}, mode='speakers')
+		
+	#ラッセル博士の依頼 (2) already has bgm and charpos set
+	elif avgID in ['24085', '24086']:
+		#Add indoor (russel lab) background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 38, 'start': 1, 'end': None})
+		)
+		#but switch 24086 to match the other one
+		if avgID == '24086':
+			#Add charpos
+			add_charpos(script_json, {
+				'left': [1],
+				'right': [243]
+			}, mode='speakers')
+		
+	#ラッセル博士の依頼 (2) (Unused)
+	elif avgID == '24005': 
+		#don't have a background to use for this
+		#Add Stone Fort bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 21, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			103: [1]
+		})
 		
 	#リラの依頼(1) (Quest Complete, Conditional Dialogue)
 	elif avgID in ['24006', '24007']:
@@ -2235,6 +2303,57 @@ def make_edits(script_json, avgID):
 			'right': [1, 2]
 		}, mode='speakers')
 		
+	#マオ婆さんの依頼(1)
+	elif avgID in ['24010', '24011']:
+		#Add Elmo background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 39, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [225],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#マオ婆さんの依頼(2) already has bgm and charpos set
+	elif avgID in ['24091', '24092']:
+		#Add Elmo background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 39, 'start': 1, 'end': None})
+		)
+		
+	#マオ婆さんの依頼(2) (Unused)
+	#1/2
+	elif avgID == '24013':
+		#Add Elmo background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 71, 'start': 1, 'end': None}),
+			('bgm', {'id': 19, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [763],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			"CharFadeIn": [0]
+		})
+	#2/2
+	elif avgID == '24012':
+		#Add geofront background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 39, 'start': 1, 'end': None}),
+			('bgm', {'id': 112, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [225],
+			'right': [1, 2]
+		}, mode='speakers')
+		
 	#メイベルの依頼（１） (Quest Complete, Conditional Dialogue)
 	elif avgID in ['24014', '24015']:
 		#Add Bose background, bgm
@@ -2259,5 +2378,540 @@ def make_edits(script_json, avgID):
 			'left': [742],
 			'right': [1, 2]
 		}, mode='speakers')
+		
+	#メイベルの依頼(2) (Unused)
+	elif avgID == '24016':
+		#Add highway background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 10, 'start': 1, 'end': None}),
+			('bgm', {'id': 134, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [756],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#ホテル《ローエンバウム》 (ALL)
+	elif avgID in ['24017', '24018', '24019', '24020', '24078', '24079']:
+		#Add Grancel background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 27, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [985],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#クロスベル警察学校の依頼 (ALL)
+	elif avgID in ['24021', '24022', '24023', '24024', '24080', '24077']:
+		#Add Police School background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 41, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [759],
+			'right': [1, 3, 5]
+		}, mode='speakers')
+		
+	#イメルダ夫人の依頼(1)
+	elif avgID in ['24025', '24026']:
+		#Add backalley background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 17, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [957],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#イメルダ夫人の依頼(2)
+	#1/2
+	elif avgID == '24027':
+		#Add backalley background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 17, 'start': 1, 'end': None}),
+			('bgm', {'id': 103, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [957],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			102: [4],
+			"CharFadeIn": [0]
+		})
+		
+	#2/2
+	elif avgID == '24028':
+		#Add geofront background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 71, 'start': 1, 'end': None}),
+			('bgm', {'id': 19, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [3],
+			'right': [4]
+		}, mode='speakers')
+		
+	#イメルダ夫人の依頼(3)
+	elif avgID in ['24081', '24082']:
+		#Add backalley background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 17, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [957],
+			'right': [1]
+		}, mode='speakers')
+		
+	#ウルスラ病院の依頼(1)
+	elif avgID in ['24029', '24030']:
+		#Add St Ursula background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 46, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1015],
+			'right': [1]
+		}, mode='speakers')
+		
+	#ウルスラ病院の依頼(2) already has charpos and bgm set
+	elif avgID in ['24087', '24088']:
+		#Add St Ursula background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 46, 'start': 1, 'end': None})
+		)
+		
+	#ウルスラ病院の依頼(2) (Unused)
+	#1/3, Conditionsl
+	elif avgID in ['24031', '24032']:
+		#Add St Ursula background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 46, 'start': 1, 'end': None}),
+			('bgm', {'id': 105, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1015],
+			'right': [1]
+		}, mode='speakers')
+		
+		#Add animation to 1/3
+		if avgID == '24031':
+			add_effects(script_json, {
+				"CharFadeIn": [0]
+			})
+			
+	#2/3
+	elif avgID == '24033':
+		#Add Sun Fort background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 51, 'start': 1, 'end': None}),
+			('bgm', {'id': 150, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [764],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			102: [4]
+		})
+	#3/3
+	elif avgID == '24034':
+		#Add Guild background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 23, 'start': 1, 'end': None}),
+			('bgm', {'id': 101, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [764, 1015],
+			'right': [1]
+		}, mode='speakers')
+		
+	#《リジョンフード》の依頼(1) 
+	#1/2
+	elif avgID == '24037':
+		#Add Ursula Byroad background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 26, 'start': 1, 'end': None}),
+			('bgm', {'id': 23, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+	#2/2
+	elif avgID == '24038':
+		#Add Central Plaza background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 14, 'start': 1, 'end': None}),
+			('bgm', {'id': 101, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [762],
+			'right': [2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			"CharFadeIn": [0]
+		})
+		
+	#《リジョンフード》の依頼(2) 
+	elif avgID in ['24035', '24036']:
+		#Add Central Plaza background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 14, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [762],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#アルモリカ村の依頼(1), (2)
+	elif avgID in ['24039', '24040', '24041', '24042']:
+		#Add Armorica Village background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 55, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1092],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#《ホテル・ミレニアム》の依頼(1)
+	elif avgID in ['24043', '24044']:
+		#Add Entertainment District background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 21, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [654],
+			'right': [1]
+		}, mode='speakers')
+		
+	#《ホテル・ミレニアム》の依頼(2) (Unused)
+	#1/3
+	elif avgID == '24045':
+		#Add Entertainment District background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 21, 'start': 1, 'end': None}),
+			('bgm', {'id': 141, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [654],
+			'right': [1]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			"CharFadeIn": [0]
+		})
+	#2/3
+	elif avgID == '24046':
+		#Add cave background, Mainz Mine bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None}),
+			('bgm', {'id': 4, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [753],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+		#Add animations
+		add_effects(script_json, {
+			102: [1, 2],
+			'isClearModle': [3]
+		})
+	#3/3
+	elif avgID == '24047':
+		#Add St Ursula background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 46, 'start': 1, 'end': None}),
+			('bgm', {'id': 105, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1015],
+			'right': [1, 2]
+		}, mode='speakers')
+		
+	#マイヤの依頼 (1), (2)
+	elif avgID in ['24048', '24049', '24050', '24051']:
+		#Add Ardent Downtown background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 49, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [760]
+		}, mode='speakers')
+	#マイヤの依頼 (3) already has charpos and bgm set
+	elif avgID in ['24093', '24094']:
+		#Add Ardent Downtown background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 49, 'start': 1, 'end': None})
+		)
+		#Fix incorrect speaker in マイヤの依頼(3) (quest complete)
+		if avgID == '24093':
+			script_json['dialogueFrames'][2]['character']['speaker'] = 760
+			
+	#マルクの依頼 (1) (both versions)
+	elif avgID in ['24052', '24053', '24054', '24055']:
+		#Add Ardent New Town background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 50, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1, 2],
+			'right': [761]
+		}, mode='speakers')
+	#マルクの依頼(2) (both versions) already have bgm and charpos set
+	elif avgID in ['24097', '24098', '24089', '24090']:
+		#Add Ardent New Town background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 50, 'start': 1, 'end': None})
+		)
+		
+	#ドナートの依頼 (ALL)
+	elif avgID in ['24056', '24057', '24058', '24059']:
+		#Add Ardent New Town background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 50, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1, 2, 4],
+			'right': [758]
+		}, mode='speakers')
+		
+	#カヌートの依頼(1)
+	elif avgID in ['24060', '24061']:
+		#Add Ardent Old Town background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 63, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [754]
+		}, mode='speakers')
+	#カヌートの依頼(2)
+	elif avgID == '24062':
+		#Add cave background and bgm for 忘却の地下遺跡
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None}),
+			('bgm', {'id': 175, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#セナの依頼(1)
+	elif avgID in ['24063', '24064']:
+		#Add Ardent New Town background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 50, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1, 2],
+			'right': [757]
+		}, mode='speakers')
+		
+	#セナの依頼(2) 
+	#1/2
+	elif avgID == '24065':
+		#don't have a background to use for sewers
+		#add sewers bgm
+		#Add Ardent New Town background, bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 25, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+		
+	#2/2
+	elif avgID == '24066':
+		#Add Ardent New Town background and Remiferia bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 50, 'start': 1, 'end': None}),
+			('bgm', {'id': 7, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [757]
+		}, mode='speakers')
+		#Add animations
+		add_effects(script_json, {
+			"CharFadeIn": [0]
+		})
+		
+	#クリントの依頼 (ALL)
+	elif avgID in ['24067', '24068', '24069', '24070']:
+		#There is no data anywhere to tell where these were supposed to take place, 
+		#so I'm not adding a background
+		#bgm
+		insert_schedule(script_json,
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [2],
+			'right': [755]
+		}, mode='speakers')
+	
+	#ルーシーの依頼(1)
+	elif avgID in ['24071', '24072']:
+		#Add office background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 74, 'start': 1, 'end': None}),
+			('bgm', {'id': 111, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1037],
+			'right': [2]
+		}, mode='speakers')
+	#ルーシーの依頼(1) (Unused)
+	#1/2
+	elif avgID == '24073':
+		#Add Sigyn Forest background and bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 4, 'start': 1, 'end': None}),
+			('bgm', {'id': 172, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1],
+			'right': [2]
+		}, mode='speakers')
+	#2/2
+	elif avgID == '24074':
+		#Add office background, bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 74, 'start': 1, 'end': None}),
+			('bgm', {'id': 7, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1037],
+			'right': [1, 2]
+		}, mode='speakers')		
+		#Add animations
+		add_effects(script_json, {
+			"CharFadeIn": [0]
+		})
+		
+	#モーリスの依頼
+	#same as クリント, not enough information to add a background
+	#bgm and charpos are already set
+		
+###########################################################################
+#Unused
+	#Fisherman's Guild
+	elif avgID == '20036':
+		#Add storefront background, it already has bgm
+		insert_schedule(script_json,
+			('backgrounds', {'id': 11, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [2, 214],
+			'right': [1]
+		}, mode='speakers')
+		#Add animations
+		add_effects(script_json, {
+			102: [11],
+			202: [5],
+			"CharFadeIn": [0, 4]
+		})
+		
+	
+	#隧道の泣き声の調査 
+	#2/4
+	elif avgID == '22235':
+		#Add cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1, 3, 4, 7, 9, 11],
+			'right': [0, 2, 6, 8, 10]
+		}, mode='frames')		
+		#Add animations
+		add_effects(script_json, {
+			102: [9],
+			202: [8]
+		})
+		
+	#3/4
+	elif avgID == '22236':
+		#Add cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+		#Add charpos
+		add_charpos(script_json, {
+			'left': [1, 3, 9, 11, 13],
+			'right': [0, 2, 5, 8, 10, 12]
+		}, mode='frames')		
+		#Add animations
+		add_effects(script_json, {
+			102: [1],
+			202: [0]
+		})
+		
+	#緊急！薬の配達依頼 2/4
+	elif avgID == '22367':
+		#Add cave background
+		insert_schedule(script_json,
+			('backgrounds', {'id': 218, 'start': 1, 'end': None})
+		)
+
 ###########################################################################
 	return script_json

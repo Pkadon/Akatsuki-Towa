@@ -1,7 +1,7 @@
 label avg24089(trans=fade_in):
 
 $ play_music("ed7105.ogg")
-scene placeholderbackground
+scene avg_bg_050
 $ update_narrator('c50123')
 window show
 with trans
