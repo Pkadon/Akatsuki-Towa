@@ -141,4 +141,4 @@ init python:
 
     renpy.music.register_channel("sfx2", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False)
 
-    renpy.music.register_channel("sfxvoice", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False)
+    renpy.music.register_channel("sfxvoice", mixer="voice", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False)
